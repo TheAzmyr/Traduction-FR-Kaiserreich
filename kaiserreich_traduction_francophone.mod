@@ -1,4 +1,4 @@
-﻿name="Kaiserreich Traduction Francophone"
+﻿name="Kaiserreich Traduction Francophone GIT"
 path="mod/kaiserreich_traduction_francophone/"
 dependencies={
 	"Kaiserreich"
