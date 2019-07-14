@@ -10,4 +10,5 @@ tags={
 	"National Focuses"
 	"Events"
 }
+picture="thumb.jpg"
 supported_version="1.7.1"
