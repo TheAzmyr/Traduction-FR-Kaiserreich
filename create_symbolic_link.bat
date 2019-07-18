@@ -1,6 +1,6 @@
 @echo off
 
-set modDir="%HOMEDRIVE%%HOMEPATH%\Documents\Paradox Interactive\Hearts of Iron IV\mod"
+set modDir="%HOMEDRIVE%%HOMEPATH%\D:\ProgramFiles(x86)\steamapps\common\Hearts of Iron IV\mod"
 set modName="kaiserreich_traduction_francophone"
 set gitModDir=".\Traduction-FR-Kaiserreich"
 
