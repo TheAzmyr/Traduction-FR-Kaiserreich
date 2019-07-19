@@ -309,7 +309,7 @@ CUB_authoritarianism_normal_5_desc:0 "Comme le commerce est le sang des nations,
 CUB_authoritarianism_normal_6:0 "Changement de la garde"
 CUB_authoritarianism_normal_6_desc:0 "L'armée a été directement responsable de la suppression des éléments subversifs. Il faut mettre fin à ce gaspillage de ressources. Une force de police nationale, loyale non seulement à une municipalité, mais au seul gouvernement central, devrait être mise en place."
 CUB_authoritarianism_normal_7:0 " Ave Columbia "
-CUB_authoritarianism_normal_7_desc:0 "Quel que soit le régime de notre voisin du Nord ou sa politique à l'égard de notre nation, la survie de notre régime dépend d'une adaptation réussie aux développements qui s'y produisent. Nous devons établir un nouveau bureau bureaucratique dédié spécifiquement à la compréhension de l'Amérique et à l'élaboration d'un récit sur notre juste pays qui réponde à nos intérêts nationaux. En cas de guerre, le bureau peut aussi être chargé de combattre l'Amérique."
+CUB_authoritarianism_normal_7_desc:0 "Quel que soit le régime de notre voisin du Nord ou sa politique à l'égard de notre nation, la survie de notre régime dépend des développements qui s'y produisent. Nous devons établir un nouveau bureau bureaucratique dédié spécifiquement à la compréhension de l'Amérique et à l'élaboration d'un récit sur notre juste pays qui réponde à nos intérêts nationaux. En cas de guerre, le bureau peut aussi être chargé de combattre l'Amérique."
 CUB_authoritarianism_normal_8:0 "Un équilibre prudent"
 CUB_authoritarianism_normal_8_desc:0 "Un régime comme le nôtre sera toujours vulnérable par sa nation même. La position des divers groupes d'intérêts et leurs relations les uns avec les autres et au sein du gouvernement doivent être constamment évaluées et manipulées en conséquence. Nous devons nous concentrer sur la manipulation de la nature même de ces relations en notre faveur."
 CUB_authoritarianism_normal_9:0 "Pas de plus grande flatterie"
@@ -568,7 +568,7 @@ bypass72_tooltip:0 "§GThis focus will be bypassed following Unionista Victory i
 bypass8_tooltip:0 "§GThis focus will be automatically completed a month after the tree is loaded§ !"
 bypass9_tooltip:0 "§GThis focus will be automatically completed following the assassination of Vázquez§ !"
 cubanoeffect_tooltip:0 "Ce focus n'a aucun effet"
-cubansocrev_tooltip:0 "Change les noms des partis socialistes, modifie la popularité des partis et change les ministres"
+cubansocrev_tooltip:0 "Ministres, commandants militaires, et les noms des partis socialistes vont changer.\n"
  cubagrarianismindust_tooltip:0 "§GCe centre d'intérêt deviendra disponible avec la fin de la tourmente socialiste interne.§!\n"
  cublandref_tooltip:0 "§GCet axe va modifier notre idée industrielle ou agraire§!\n"
  cublaborrelief_tooltip:0 "§GCette orientation aidera à mettre fin à la dépression.§!\n"
@@ -602,6 +602,8 @@ cub_anticleric_tt:0 "Toutes les nations catholiques non socialistes§ ! gagnent 
 cub_cubvol_tt:0 "Une unité de volontaires cubains se formera dans notre capitale"
 cub_miamidiv_tt:0 "Une division de volontaires renforcés par ou réguliers se formera à Miami"
 cub_orlandodiv_tt:0 "Une division de miliciens socialistes débarquera au nord de Miami et à Orlando."
+CUB_minister_tt:0 "Les ministres vont changer.\n"
+CUB_ministerandgen_tt:0 "Les ministres et commandants militaires vont changer.\n"
 
 ###Modificateurs d'opinion ###
 CUB_USinterresp:0 "Révolution socialiste cubaine"
@@ -1716,12 +1718,12 @@ cuba.1282.a:0 "Ensemble, nous sommes forts."
 cuba.1283.t:0 "Cuba veut rejoindre notre faction"
 cuba.1283.d:0 "La nation insulaire de Cuba a demandé à rejoindre notre faction."
 cuba.1283.a:0 "Bienvenue !"
-cuba.1283.a:0 "Ils ne seraient qu'un handicap."
+cuba.1283.b:0 "Ils ne seraient qu'un handicap."
 
 cuba.1284.t:0 "Cuba veut rejoindre notre faction"
 cuba.1284.d:0 "La nation insulaire de Cuba a demandé à rejoindre notre faction."
 cuba.1284.a:0 "Pétition notre chef de faction"
-cuba.1284.a:0 "Ils ne seraient qu'un handicap."
+cuba.1284.b:0 "Ils ne seraient qu'un handicap."
 
 cuba.1285.t:0 "L'allié de notre allié"
 cuba.1285.d:0 "La nation insulaire de Cuba a demandé à se joindre à notre faction, avec nos alliés américains plaidant en leur nom."
@@ -2224,6 +2226,7 @@ cuba.238.t:0 "Le nouveau Cabinet"
 cuba.238.d:0 "Conformément à la tradition, les postes du cabinet exécutif sont restés vacants jusqu'à présent. Ne devrait-on nommer que des membres du parti au pouvoir pour combler ces postes vacants ou, comme par le passé, confier des postes au Cabinet à des membres de divers partis politiques ?"
 cuba.238.a:0 "Tous doivent être de notre parti."
 cuba.238.b:0 "Continuer la tradition."
+cuba.238.c:0 "Inscrire la pratique dans le droit."
 
 cuba.239.t:0 "Élection générale"
 cuba.239.d:0 "Le 28 janvier, jour du scrutin, est arrivé. Quel parti politique dirigera notre belle nation pour les quatre prochaines années ? Le plus à gauche est le Nouveau Parti libéral, l'aile gauche de l'ancien parti libéral de l'ancien président Machado, très maltraité. Au centre, le parti républicain libéral offre la plate-forme la plus à droite, préconisant des politiques économiques de laisser-faire et de réduction des obstacles au commerce. A droite, le Parti progressiste, anciennement du défunt Clemente Vázquez, s'est légèrement modéré et a adopté une plate-forme plus compatible avec notre démocratie libérale actuelle."
@@ -2252,9 +2255,9 @@ cuba.244.t:0 " La folie de l'Autogyro"
 cuba.244.d:0 "Développé à l'origine en Espagne, l'autogire, un avion traditionnel avec un grand rotor propulsé par le mouvement de l'air, est devenu la curiosité du monde entier. Récemment, plusieurs des aviateurs amateurs cubains les plus renommés ont survolé les monuments les plus importants du pays, ce qui a suscité un engouement parmi les civils aisés. Les Autogyros sont maintenant un spectacle assez régulier autour des nombreux aérodromes du pays."
 cuba.244.a:0 "Une distraction enfantine ! Les hélicoptères n'ont aucune valeur militaire."
 
-cuba.245:0 "Afro-Cuban Jazz"
-cuba.245:0 "Une performance récente de l'artiste de jazz local Mario Bauzá est devenue le sujet de conversation de La Havane et de la nation dans son ensemble. La tendance musicale la plus récente dans certaines communautés africaines est une variation de la musique jazz américaine. Bien que la performance de Bauzá ne soit en aucun cas la première représentation de ce genre à La Havane, elle a attiré l'attention sur le genre jusqu'alors inconnu. Cependant, beaucoup dans notre gouvernement et la classe politique en général trouvent ce nouveau style irritant, certains accusent même Bauzá et autres de subversion politique intentionnelle. Quoi qu'il en soit, il semble que la boîte à musique de Pandore ait été ouverte pour de bon."
-cuba.245:0 "Que quelqu'un fasse taire ce vacarme infernal !"
+cuba.245.t:0 "Afro-Cuban Jazz"
+cuba.245.d:0 "Une performance récente de l'artiste de jazz local Mario Bauzá est devenue le sujet de conversation de La Havane et de la nation dans son ensemble. La tendance musicale la plus récente dans certaines communautés africaines est une variation de la musique jazz américaine. Bien que la performance de Bauzá ne soit en aucun cas la première représentation de ce genre à La Havane, elle a attiré l'attention sur le genre jusqu'alors inconnu. Cependant, beaucoup dans notre gouvernement et la classe politique en général trouvent ce nouveau style irritant, certains accusent même Bauzá et autres de subversion politique intentionnelle. Quoi qu'il en soit, il semble que la boîte à musique de Pandore ait été ouverte pour de bon."
+cuba.245.a:0 "Que quelqu'un fasse taire ce vacarme infernal !"
 
 ### Licorne des Antilles
 
