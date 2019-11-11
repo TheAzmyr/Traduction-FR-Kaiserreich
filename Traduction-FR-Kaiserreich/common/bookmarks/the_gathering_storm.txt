@@ -1,0 +1,203 @@
+bookmarks = {
+	bookmark = {
+		name = "KR_SCENARIO_NAME"
+		desc = "KR_SCENARIO_DESC"
+		date = 1936.1.1.1
+		picture = "GFX_select_date_1936"
+		default_country = "GER"
+		default = yes
+
+		"GER" = {
+			history = "GER_KR_GATHERING_STORM_DESC"
+			ideology = authoritarian_democrat
+			ideas = {
+				GER_victors_of_wwi
+				GER_quenched_militarism
+				ZO_idea
+			}
+
+			focuses = {
+				GER_black_monday_aftermath
+				GER_easter_promises
+				GER_tirpitzprogramm
+			}
+		}
+
+		"FRA" = {
+			history = "FRA_KR_GATHERING_STORM_DESC"
+			ideology = syndicalist
+			ideas = {
+				FRA_communard_spirit
+				FRA_bad_intel
+			}
+
+			focuses = {
+				FRA_Host_the_Internationale
+				FRA_Demand_Alsace_Lorraine
+				FRA_World_revolution
+			}
+		}
+
+		"ENG" = {
+			history = "ENG_KR_GATHERING_STORM_DESC"
+			ideology = syndicalist
+			ideas = {
+				ENG_militia_idea
+			}
+
+			focuses = {
+				ENG_devolution
+				ENG_evolution
+				ENG_revolution
+			}
+		}
+
+		"CAN" = {
+			history = "CAN_KR_GATHERING_STORM_DESC"
+			ideology = market_liberal
+			ideas = {
+				CAN_divided_nation
+				anglo_french_tensions
+				MINOR_PROFF_LEG_CITIES
+			}
+
+			focuses = {
+				CAN_kingly_prerogative
+				CAN_constitution_act
+				CAN_united_kingdom
+			}
+		}
+
+		"USA" = {
+			history = "USA_KR_GATHERING_STORM_DESC"
+			ideology = market_liberal
+			ideas = {
+				USA_great_depression
+				USA_political_crisis
+				PROFF_LEG_CITIES
+			}
+			focuses = {
+				USA_democracy_triumphs
+				USA_american_caeser
+				USA_pax_americana
+			}
+		}
+
+		"RUS" = {
+			history = "RUS_KR_GATHERING_STORM_DESC"
+			ideology = social_liberal
+			ideas = {
+				soviet_worker_soldier
+				rus_divided_staff
+				rus_divided_marine
+			}
+
+			focuses = {
+				RUS_TSAR_KYR
+				RUS_DEM_REP
+				RUS_expansionism
+			}
+		}
+
+		"JAP" = {
+			history = "JAP_KR_GATHERING_STORM_DESC"
+			ideology = social_conservative
+			ideas = {
+				JAP_bad_start
+				JAP_no_army_focus
+				JAP_narrow_rail
+			}
+
+			focuses = {
+				JAP_democratic_path
+				JAP_chuou
+				JAP_ishinha
+			}
+		}
+
+		"---" = {
+			history = "OTHER_KR_GATHERING_STORM_DESC"
+		}
+
+		"DEN" = {
+			minor = yes
+			history = "DEN_KR_GATHERING_STORM_DESC"
+			ideology = social_democrat
+			ideas = {
+				DEN_idea_opposition_controlled_landsting
+			}
+			focuses = {
+				DEN_hybrid_regime
+				DEN_danish_democracy
+				DEN_kings_cabinet
+			}
+		}
+
+		"FIN" = {
+			minor = yes
+			history = "FIN_KR_GATHERING_STORM_DESC"
+			ideology = paternal_autocrat
+			ideas = {
+				FIN_mounting_dissent_idea
+				FIN_ukrainian_grain_imports_idea
+			}
+			focuses = {
+				FIN_socialist_victory
+				FIN_the_old_order
+				FIN_the_rebellion_succeeds
+			}
+		}
+
+		"ICE" = {
+			minor = yes
+			history = "ICE_KR_GATHERING_STORM_DESC"
+			ideology = social_democrat
+			ideas = {
+				ICE_Personal_Union
+				ICE_ailing_economy
+				ICE_Guttoslagurinn
+			}
+			focuses = {
+				ICE_Expand_Fishing_Regions
+				ICE_Public_Works_Projects
+				ICE_NATO
+			}
+		}
+
+		"NOR" = {
+			minor = yes
+			history = "NOR_KR_GATHERING_STORM_DESC"
+			ideology = market_liberal
+			ideas = {
+				NOR_divided_airforce_idea
+				NOR_weak_economy_1
+			}
+			focuses = {
+				NOR_SYN_working_norway_victorious
+				NOR_DEM_political_mandate
+				NOR_NAT_new_state
+			}
+		}
+
+		"SWE" = {
+			minor = yes
+			history = "SWE_KR_GATHERING_STORM_DESC"
+			ideology = social_conservative
+			ideas = {
+				SWE_conservative_army_idea_1
+				SWE_statare_idea
+				SWE_political_instability_idea
+			}
+			focuses = {
+				SWE_first_congress
+				SWE_DEM_nordic_council
+				SWE_gyllenkrok_regime
+			}
+		}
+
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}
