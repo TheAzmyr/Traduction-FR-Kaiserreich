@@ -1,0 +1,252 @@
+bookmarks = {
+	bookmark = {
+		name = "KR_SCENARIO_NAME"
+		desc = "KR_SCENARIO_DESC"
+		date = 1936.1.1.1
+		picture = "GFX_select_date_1936"
+		default_country = "GER"
+		default = yes
+
+		"GER" = {
+			history = "GER_KR_GATHERING_STORM_DESC"
+			ideology = authoritarian_democrat
+			ideas = {
+				GER_victors_of_wwi
+				GER_quenched_militarism
+				ZO_idea
+			}
+
+			focuses = {
+				GER_black_monday_aftermath
+				GER_easter_promises
+				GER_tirpitzprogramm
+			}
+		}
+
+		"FRA" = {
+			history = "FRA_KR_GATHERING_STORM_DESC"
+			ideology = syndicalist
+			ideas = {
+				FRA_communard_spirit
+				FRA_bad_intel
+			}
+
+			focuses = {
+				FRA_Host_the_Internationale
+				FRA_Demand_Alsace_Lorraine
+				FRA_World_revolution
+			}
+		}
+
+		"ENG" = {
+			history = "ENG_KR_GATHERING_STORM_DESC"
+			ideology = syndicalist
+			ideas = {
+				ENG_militia_idea
+			}
+
+			focuses = {
+				ENG_devolution
+				ENG_evolution
+				ENG_revolution
+			}
+		}
+
+		"NFA" = {
+			history = "NFA_KR_GATHERING_STORM_DESC"
+			ideology = authoritarian_democrat
+			ideas = {
+				NFA_anti_communard
+				NFA_french_in_exile
+				NFA_political_unrest
+			}
+
+			focuses = {
+				NFA_restore_constitution
+				NFA_monarchy
+				NFA_empire
+			}
+		}
+
+		"USA" = {
+			history = "USA_KR_GATHERING_STORM_DESC"
+			ideology = market_liberal
+			ideas = {
+				USA_great_depression
+				USA_political_crisis
+				PROFF_LEG_CITIES
+			}
+			focuses = {
+				USA_democracy_triumphs
+				USA_american_caeser
+				USA_pax_americana
+			}
+		}
+
+		"RUS" = {
+			history = "RUS_KR_GATHERING_STORM_DESC"
+			ideology = social_liberal
+			ideas = {
+				soviet_worker_soldier
+				rus_divided_staff
+				rus_divided_marine
+			}
+
+			focuses = {
+				RUS_TSAR_KYR
+				RUS_DEM_REP
+				RUS_expansionism
+			}
+		}
+
+		"JAP" = {
+			history = "JAP_KR_GATHERING_STORM_DESC"
+			ideology = social_conservative
+			ideas = {
+				JAP_bad_start
+				JAP_no_army_focus
+				JAP_narrow_rail
+			}
+
+			focuses = {
+				JAP_democratic_path
+				JAP_chuou
+				JAP_ishinha
+			}
+		}
+
+		"---" = {
+			history = "OTHER_KR_GATHERING_STORM_DESC"
+		}
+
+		"ARG" = {
+			minor = yes
+			history = "ARG_KR_GATHERING_STORM_DESC"
+			ideology = national_populist
+			ideas = {
+				ARG_interservice_rivalry_navy_dominant
+				ARG_Military_Cliques
+				ARG_Military_Apparatus
+			}
+			focuses = {
+				ARG_Political_Dominance
+				ARG_A_Catholic_Federation
+				ARG_War_Profiteering
+			}
+		}
+
+		"BRA" = {
+			minor = yes
+			history = "BRA_KR_GATHERING_STORM_DESC"
+			ideology = social_conservative
+			ideas = {
+				BRA_election_year
+				BRA_wake_of_civil_war
+				BRA_state_armies
+			}
+			focuses = {
+				BRA_new_state
+				BRA_the_empire_strikes_back
+				BRA_the_counter_coup
+			}
+		}
+
+		"CUB" = {
+			minor = yes
+			history = "CUB_KR_GATHERING_STORM_DESC"
+			ideology = social_democrat
+			ideas = {
+				CUB_partial_great_depression
+				CUB_american_influence
+				CUB_mixed_regime
+			}
+			focuses = {
+				CUB_republican_victory
+				CUB_cuba_for_cubans
+				CUB_seize_assets
+			}
+		}
+
+		"SRI" = {
+			minor = yes
+			history = "SRI_KR_GATHERING_STORM_DESC"
+			ideology = syndicalist
+			ideas = {
+				SRI_divided_nation
+				SRI_red_guards_idea
+			}
+			focuses = {
+				SRI_cement_congres_authority
+				SRI_cement_chairmans_power
+				SRI_risorgimento
+			}
+		}
+
+		"SPR" = {
+			minor = yes
+			history = "SPR_KR_GATHERING_STORM_DESC"
+			ideology = authoritarian_democrat
+			ideas = {
+				SPR_social_breakdown
+				SPR_memories_of_the_republic
+			}
+			focuses = {
+				SPR_no_civil_war
+				SPR_victor_civil_war
+				SPR_bourbon_throne
+			}
+		}
+
+		"BEL" = {
+			minor = yes
+			history = "BEL_KR_GATHERING_STORM_DESC"
+			ideology = authoritarian_democrat
+			ideas = {
+				BEL_King_Exile
+				BEL_Language_Trouble
+				BEL_anti_german_sentiment3
+			}
+			focuses = {
+				BEL_Stop_the_Flamenpolitik
+				BEL_KP_Victory
+				BEL_War_on_the_Horizon
+			}
+		}
+
+		"AST" = {
+			minor = yes
+			history = "AST_KR_GATHERING_STORM_DESC"
+			ideology = authoritarian_democrat
+			ideas = {
+				AST_oversized_fleet
+				AST_depression_1
+				AST_bled_dry
+			}
+			focuses = {
+				AST_we_march_forward
+				AST_join_internationale
+				AST_restore_order_3
+			}
+		}
+
+		"BHC" = {
+			minor = yes
+			history = "BHC_KR_GATHERING_STORM_DESC"
+			ideology = radical_socialist
+			ideas = {
+				BHC_divided_government
+				BHC_backwards_economy_1
+			}
+			focuses = {
+				BHC_totalist_1
+				BHC_syndicalist_1
+				BHC_socialist_1
+			}
+		}
+
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}
