@@ -1,5 +1,5 @@
-﻿name="Kaiserreich Traduction Francophone GIT"
-path="mod/kaiserreich_traduction_francophone/"
+name="Kaiserreich Traduction Francophone"
+path="D:/Documents/Paradox Interactive/Hearts of Iron IV/mod/Traduction-FR-Kaiserreich"
 dependencies={
 	"Kaiserreich"
 }
@@ -12,3 +12,4 @@ tags={
 }
 picture="thumb.jpg"
 supported_version="1.8.*"
+remote_file_id="1804188708"
