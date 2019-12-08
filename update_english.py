@@ -30,10 +30,8 @@ def main(args):
         if os.path.exists(unzip_mod_dir):
             raise Exception(f'The unzip directory ({unzip_mod_dir}) already exists! Please change it.')
 
-    # Unzip steam archive
-    for file in os.listdir(args.steam):
-        if file.endswith('.zip'):
-            unzip(os.path.join(args.steam, file), unzip_mod_dir)
+    # Copy steam directory
+    shutil.copytree(args.steam, unzip_mod_dir)
 
     # Remove old English files
     i = 0
