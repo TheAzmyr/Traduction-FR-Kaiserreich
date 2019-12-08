@@ -1,7 +1,8 @@
 ﻿name="Kaiserreich Traduction Francophone GIT"
 path="mod/kaiserreich_traduction_francophone/"
 dependencies={
-	"Kaiserreich"
+	"Kaiserreich"	
+	"Kaiserreich Dev Build"
 }
 tags={
 	"Alternative History"
