@@ -5,6 +5,23 @@ COOP_MAIN_MENU_LINK:0 "Cliquez ici pour aller à la Coop Discord"
 KR_MAIN_MENU_LINK:0 "Cliquez ici pour accéder au Kaiserreich Wiki"
 LOGO_MAIN_MENU_LINK:0 "Cliquez ici pour voir les notes de mise à jour"
 
+### Renaming System ###
+toggle_renaming_button_tooltip:0 "[toggle_renaming_button_tooltip_loc]"
+toggle_renaming_button_tooltip_desc:0 "[toggle_renaming_button_tooltip_desc_loc]"
+toggle_renaming_button_tooltip_mp:0 "§RDisabled in Multiplayer§!"
+toggle_renaming_button_tooltip_enable:0 "§HEndonyms Mode§!"
+toggle_renaming_button_tooltip_enable_desc:0 "This will set the game to use native names for States and Victory points (Endonyms), with dynamic renaming of them enabled."
+toggle_renaming_button_tooltip_disable:0 "§HExonyms Mode§!"
+toggle_renaming_button_tooltip_disable_desc:0 "This will set the game to use English names for States and Victory points (Exonyms), with dynamic renaming of them disabled."
+
+### Continents ###
+central_america:0 "Central America"
+india:0 "India"
+
+### Splash Screen ###
+KR_SPLASH_TITLE:0 "Welcome to Kaiserreich"
+KR_SPLASH_CREDITS:0 "§YBrought to you by the KR4 Team:§!\nAlpinia, Anbory, Arvidus, Augenis, Beelzebub, Blackfalcon501, Delincious, DSFDarker, Dr. Njitram, Drozdovite, Edouard Saladier, Eragaxshim, Fbruchmueller, Flamefang, Jeankedezeehond, Jonjon428, Jonny BL, Khalil, Kracc, Krčo, Liegnitz, Maltesefalcon, MantisToboggan, Mifil, OperationsManagementDecisions, PPsyrius, Pietrus, Rei VL, Rinbro, Roniius, Roparex, Rylock, Saladenicoise, Sjarlewis, Skip, Telcontar101, The Alpha Dog, Thomahawk2k, Vidyaország, WordZero, Yard1, Zaddy-Chan and Zankoas"
+
 ### Difficulty ###
 custom_diff_strong_ger:0 "Renforcer l'Empire Allemand"
 custom_diff_strong_frasri:0 "Renforcer l'Internationale"
@@ -25,14 +42,13 @@ kr_integrated_puppet:0 "Fantoche Intégré"
 kr_occupied_puppet:0 "Fantoche Occupé"
 kr_default_puppet:0 "Fantoche"
 kr_autonomous_puppet:0 "Fantoche Autonome"
+kr_colonial_government:0 "Colonial Government"
 kr_nominal_puppet:0 "Fantoche Nominal"
 kr_special_autonomous_dependency:0 "Dépendance Autonome"
-kr_african_colony:0 "Colonie Africaine"
-kr_african_tributary:0 "Tributaire Africain"
 kr_initial_wif_puppet:0 "Colonie fédérée"
 kr_soclib_wif_puppet:0 "Dominion fédéré"
-autonomy_colony:1 "Fantoche Autonome"
-autonomy_dominion:1 "Dépendance Autonome"
+autonomy_colony:0 "Fantoche Autonome"
+autonomy_dominion:0 "Dépendance Autonome"
 
 ### Autonomy Tooltips ###
 can_lower_autonomy_level:0 "Peut abaisser le niveau d'autonomie\n"
@@ -65,6 +81,7 @@ mtg_exile_government.3.a:0 "Nous sommes d'accord."
 mtg_exile_government.3.b:0 "Nous ne servirons pas sous leur autorité."
 mtg_exile_government.4.title:0 "[From.GetName] accepte l'intégration navale"
 mtg_exile_government.4.desc:0 "Le gouvernement [From.GetAdjective] nous a informés qu'il acceptait notre proposition et que ses navires opéreraient désormais sous notre commandement."
+mtg_exile_government.4.a:0 "Excellent."
 mtg_exile_government.5.title:0 "[From.GetName] rejette l'intégration navale"
 mtg_exile_government.5.desc:0 "Le gouvernement [From.GetAdjective] nous a informés que sa marine ne servirait jamais sous le commandement d'une puissance étrangère. Ils veulent nous aider, mais ils le feront de manière indépendante."
 mtg_exile_government.5.a:0 "Ils placent leur fierté au-dessus des intérêts de l’alliance."
@@ -83,12 +100,12 @@ cl_tech:0 "Technologie du croiseur léger"
 dd_tech:0 "Technologie du Destroyer "
 military_police_tech:0 "Police  Militaire "
 
+### Research Bonus Names ###
+refinery_bonus:0 "Refinery Bonus"
+
 ### Interface ###
-minister:1 "Ministres"
 research_production:1 "Compagnies"
-industrial_concern:1 "Compagnie Industrielle"
 weapons_manufacturer:0 "Fabricant d'Armes"
-tank_manufacturer:1 "Fabricant d'Équipement Lourd"
 air_naval_manufacturer:0 "Fabricant Aérien et Naval"
 can_replace_hog:0 "Peut Remplacer le Chef du Gouvernement"
 for_cannot_be_replaced:0 "Le Ministre des Affaires étrangères Ne Peut Pas Être Remplacé"
@@ -96,20 +113,22 @@ eco_cannot_be_replaced:0 "Le Ministre de l'Economie Ne Peut Pas Être Remplacé"
 sec_cannot_be_replaced:0 "Le Ministre de la Sécurité Ne Peut Pas Être Remplacé"
 ministers_cannot_be_replaced:0 "Les Ministres Ne Peuvent Pas Être Remplacés"
 
-### Options de jeu ####
-RULE_GROUP_KAISERREICH_RULES:0 "Règles de Kaiserreich"
-RULE_MAP_NAMESTYLE:0 "Nommer et renommer la carte"
-RULE_OPTION_USE_EXONYM:0 "Utiliser les exonymes français"
-RULE_OPTION_USE_EXONYM_DESC:0 "Tous les états et points de victoire utiliseront des noms francisés (exonymes), qui ne changeront pas pendant la partie."
-RULE_OPTION_USE_ENDONYM:0 "Utiliser les endonymes autochtones"
-RULE_OPTION_USE_ENDONYM_DESC:0 "De nombreux états et points de victoire utilisent des noms natifs (endonymes) traduits en latin, qui seront renommés lorsque l'état change de propriétaire. Ne s'applique pas aux jeux multijoueurs."
-RULE_NEWS_EVENTS:0 "Actualités"
-RULE_OPTION_NEWS_EVENTS_ALL:0 "Recevez toutes les nouvelles"
-RULE_OPTION_NEWS_EVENTS_ALL_DESC:0 "Tous les événements d'actualité seront reçus, quelle que soit leur origine."
-RULE_OPTION_NEWS_EVENTS_SOME:0 "Recevez des nouvelles"
-RULE_OPTION_NEWS_EVENTS_SOME_DESC:0 "Recevez uniquement les principaux événements mondiaux et les actualités de votre région du monde"
-RULE_OPTION_NEWS_EVENTS_NONE:0 "Pas de nouvelles"
-RULE_OPTION_NEWS_EVENTS_NONE_DESC:0 "Très peu de nouvelles seront reçues."
+### News Events ###
+toggle_news_button_tooltip:0 "[toggle_news_button_tooltip_loc]"
+toggle_news_button_tooltip_desc:0 "[toggle_news_button_tooltip_desc_loc]"
+toggle_news_button_tooltip_mp:0 "§RDisabled in Multiplayer§!"
+toggle_news_button_tooltip_all:0 "Change to §HRegional News Only§!"
+toggle_news_button_tooltip_all_desc:0 "Only receive major world events and news events for your region of the world."
+toggle_news_button_tooltip_some:0 "Change to §HNo News§!"
+toggle_news_button_tooltip_some_desc:0 "Very few news events will ever be received."
+toggle_news_button_tooltip_none:0 "Change to §HAll News§!"
+toggle_news_button_tooltip_none_desc:0 "All news events will be received, regardless from where they originate."
+toggle_news_text_all:0 "Show All News"
+toggle_news_text_regional:0 "Show Regional News"
+toggle_news_text_none:0 "Show No News"
+
+### Ship Name Categories ###
+NAME_THEME_MOUNTAINS:0 "Mountains"
 
 ### Factions ###
 Mittelmacht:0 "Reichspakt"
@@ -133,7 +152,7 @@ second_weltkrieg_threat:0 "Début de la Seconde Grande Guerre"
 rise_mongol_empire_threat:0 "Avènement de l'Empire Mongol"
 fourth_balkan_war_threat:0 "Début de la Quatrième Guerre Balkanique"
 remilitarize_oltenia_threat:0 "Manoeuvres dans les Carpates"
-romandy_crisis_threat:0 "La Crise de la Romandie a Commencé"
+savoyard_crisis_threat:0 "La Crise de la Romandie a Commencé"
 russian_expansionism_threat:0 "La Russie a choisi une voie expansionniste"
 kerensky_assassinated_threat:0 "Kerensky a été assassiné"
 macarthur_threat:0 "La Démocratie Américaine est terminée"
@@ -150,6 +169,7 @@ tooltip_add_idea_closed_economy:0 "Changer la loi commerciale en'§YÉconomie fe
 tooltip_add_idea_command_economy:0 "Changer la loi commerciale en'§YCommand Economy§'.\n"
  unlock_focuses:0 "§GCette priorité sera éventuellement contournée automatiquement et déverrouillera les autres priorités.§!\n"
 command_economy:0 "Economie de commande "
+asked_to_join:0 "Involvement was requested by another nation."
 
 ### Favoris ###
 
@@ -246,42 +266,7 @@ foreign_minister:0 "Affaires Étrangères"
 economy_minister:0 "Ministre de l'Économie"
 security_minister:0 "Ministre de l'Intérieur"
 head_of_intel:0 "Chef du Renseignement"
-
-### Idéologies ###
-totalist:0 "Totalistes"
-syndicalist:0 "Syndicalistes"
-radical_socialist:0 "Radicaux-Socialistes"
-social_democrat:0 "Sociaux-Démocrates"
-market_liberal:0 "Libéraux Économiques"
-social_conservative:0 "Conservateurs Sociaux"
-authoritarian_democrat:0 "Dém. Autoritaires"
-paternal_autocrat:0 "Autocrates Paternels"
-national_populist:0 "Nationaux-Populistes"
-social_liberal:0 "Sociaux-Libéraux"
-
-### Drift ###
-totalist_drift:0 "Soutien Totaliste Quotidien"
-syndicalist_drift:0 "Soutien Syndicaliste Quotidien"
-radical_socialist_drift:0 "Soutien Radical-Socialiste Quotidien"
-social_democrat_drift:0 "Soutien Social-Démocrate Quotidien"
-market_liberal_drift:0 "Soutien Libéral Économique Quotidien"
-social_conservative_drift:0 "Soutien Conservateur Social Quotidien"
-authoritarian_democrat_drift:0 "Soutien Démocrate Autoritaire Quotidien"
-paternal_autocrat_drift:0 "Soutien Autocrate Paternel Quotidien"
-national_populist_drift:0 "Soutien National Populist Quotidien"
-social_liberal_drift:0 "Soutien National-Populiste Quotidien"
-
-### Parti Banni ###
-totalist_banned:0 "Totalistes Bannis"
-syndicalist_banned:0 "Syndicalistes Bannis"
-radical_socialist_banned:0 "Radicaux-Socialistes Bannis"
-social_democrat_banned:0 "Sociaux-Démocrates Bannis"
-market_liberal_banned:0 "Libéraux Économiques Bannis"
-social_conservative_banned:0 "Conservateurs Sociaux Bannis"
-authoritarian_democrat_banned:0 "Démocrates Autoritaires Bannis"
-paternal_autocrat_banned:0 "Autocrates Paternels Bannis"
-national_populist_banned:0 "Nationaux-Populistes Bannis"
-social_liberal_banned:0 "Sociaux-Libéraux Bannis"
+leader_of_the_british_exiles:0 "British Prime Minister"
 
 ### Company Traits ###
 
@@ -344,15 +329,15 @@ nav_cas_producer_mass_1:0 "Fabricant de bombardier léger"
 nav_cas_producer_mass_2:0 "Fabricant de bombardier léger"
 
 ### Armements ###
-motorised_equipment_producer_offense_0:0 "Fabricant d'éq. motorisés"
-motorised_equipment_producer_offense_1:0 "Fabricant d'éq. motorisés"
-motorised_equipment_producer_offense_2:0 "Fabricant d'éq. motorisés"
-motorised_equipment_producer_defense_0:0 "Fabricant d'éq. motorisés"
-motorised_equipment_producer_defense_1:0 "Fabricant d'éq. motorisés"
-motorised_equipment_producer_defense_2:0 "Fabricant d'éq. motorisés"
-motorised_equipment_producer_mass_0:0 "Fabricant d'éq. motorisés"
-motorised_equipment_producer_mass_1:0 "Fabricant d'éq. motorisés"
-motorised_equipment_producer_mass_2:0 "Fabricant d'éq. motorisés"
+motorised_equipment_producer_offense_0:0 "Fabricant d'éq. mécanisés"
+motorised_equipment_producer_offense_1:0 "Fabricant d'éq. mécanisés"
+motorised_equipment_producer_offense_2:0 "Fabricant d'éq. mécanisés"
+motorised_equipment_producer_defense_0:0 "Fabricant d'éq. mécanisés"
+motorised_equipment_producer_defense_1:0 "Fabricant d'éq. mécanisés"
+motorised_equipment_producer_defense_2:0 "Fabricant d'éq. mécanisés"
+motorised_equipment_producer_mass_0:0 "Fabricant d'éq. mécanisés"
+motorised_equipment_producer_mass_1:0 "Fabricant d'éq. mécanisés"
+motorised_equipment_producer_mass_2:0 "Fabricant d'éq. mécanisés"
 infantry_equipment_producer_offense_0:0 "Fabricant d'équipement d'infanterie"
 infantry_equipment_producer_offense_1:0 "Fabricant d'équipement d'infanterie"
 infantry_equipment_producer_offense_2:0 "Fabricant d'équipement d'infanterie"
@@ -368,6 +353,9 @@ infantry_equipment_producer_allround_2:0 "Fabricant d'équipement d'infanterie"
 infantry_equipment_producer_mass_0:0 "Fabricant d'équipement d'infanterie"
 infantry_equipment_producer_mass_1:0 "Fabricant d'équipement d'infanterie"
 infantry_equipment_producer_mass_2:0 "Fabricant d'équipement d'infanterie"
+support_equipment_producer_mass_0: "Fabricant d'équipement de soutien"
+support_equipment_producer_mass_1: "Fabricant d'équipement de soutien"
+support_equipment_producer_mass_2: "Fabricant d'équipement de soutien"
 artillery_producer_offense_0:0 "Fabricant d'artillerie"
 artillery_producer_offense_1:0 "Fabricant d'artillerie"
 artillery_producer_offense_2:0 "Fabricant d'artillerie"
@@ -406,67 +394,15 @@ small_ship_producer_defense_2:0 "Fabricant de petits navires"
 small_ship_producer_mass_0:0 "Fabricant de petits navires"
 small_ship_producer_mass_1:0 "Fabricant de petits navires"
 small_ship_producer_mass_2:0 "Fabricant de petits navires"
+convoy_producer_0:0 "Compagnie maritime"
+convoy_producer_1:0 "Compagnie maritime"
+convoy_producer_2:0 "Compagnie maritime"
 
 ### Industrie générale ####
+mining_company:0 "Compagnie minière"
 chemical_producer:0 "Société chimique"
 industrial_manufacturer:0 "Société industrielle"
 electronics_manufacturer:0 "Fabricant d'électronique"
-
-### Théoriciens ####
-
-#### Différentes choses ####
-industry_theorist:0 "Théoricien de l'industrie"
-nuclear_theorist:0 "Théoricien du nucléaire"
-rocket_theorist:0 "Théoricien de fusée"
-electronic_theorist:0 "Théoricien de l'électronique"
-
-#### Doctrines ####
-
-### Général ####
-air_doctrine_theorist:0 "Théoricien de la doctrine aérienne"
-naval_doctrine_theorist:0 "Théoricien de la doctrine maritime"
-land_doctrine_theorist:0 "Théoricien de la Doctrine de la terrestre"
-
-#### Terrain ####
-supperior_firepower_theorist:0 "Théoricien de la puissance de feu supérieure"
-mobile_warfare_theorist:0 "Théoricien de guerre mobile"
-trench_warfare_theorist:0 "Théoricien de la guerre des tranchées"
-mass_assault_theorist:0 "Théoricien des attaques massive"
-
-#### Air ####
-strategic_destruction_theorist:0 "Théoricien de la destruction stratégique"
-battlefield_support_theorist:0 "Théoricien du support de champ de bataille"
-operational_integrity_theorist:0 "Théoricien de la théorie de l'intégrité opérationnelle"
-
-### Naval ####
-fleet_in_being_theorist_theorist:0 "La Flotte en tant que théorie"
-trade_interdiction_theorist:0 "Théoricien de l'interdiction du trafic"
-base_strike_theorist:0 "Théoriste de coups de base"
-
-### Théoriciens sur les types d'unités ####
-
-#### Air ####
-aircraft_theorist:0 "Théoricien de la production aéronautique"
-fighter_theorist:0 "Théoricien du chasseur"
-heavy_fighter_theorist:0 "Théoricien du chasseur lourd"
-cas_theorist:0 "CAS Théoricien"
-tac_theorist:0 "Théoricien tactique des bombardiers"
-strat_theorist:0 "Théoricien des bombardiers stratégiques"
-nav_theorist:0 "Théoricien des bombardiers navals"
-
-#### Chars ####
-tank_theorist:0 "Théoricien de la production de char"
-small_tank_theorist:0 "Théoricien des char de petite taille "
-medium_tank_theorist:0 "Théoricien des char moyens"
-heavy_tank_theorist:0 "Théoricien des chars lourds"
-
-### Armes générales ####
-arms_theorist:0 "Théoricien de la production d'armes"
-infantry_equipment_theorist:0 "Théoricien de l'équipement de l'infanterie"
-support_equipment_theorist:0 "Théoricien de l'équipement de soutien "
- art_theorist:0 "Théoricien de l'artillerie"
-motorized_theorist:0 "Théoricien de l'équipement motorisé"
-marine_theorist:0 "Théoricien de l'équipement marin"
 
 ### Général ####
 fighter_techs:0 "Technologie des chasseurs"
@@ -477,11 +413,16 @@ cat_strategic_destruction:0 "Technologie de Destruction Stratégique"
 marine_tech_research:0 " Temps de recherche technologique des Marines"
 early_fighter:0 "Combattant d'entre-deux-guerres"
 interwar_antiair:0 "Anti-Air précoce"
-signal_company_tech:0 "Compagnie de signalisation"
+signal_company_tech:0 "compagnie de transmission"
+maintenance_company_tech:0 "Compagnie de maintenance"
 cat_anti_air:0 "Pistolets anti-aériens stationnaires"
+cat_light_armor_research:0 "Light Armor Research Speed"
 cat_light_spg:0 "Pistolets automoteurs légers"
 cat_medium_spg:0 "Fusils automoteurs moyens"
 efficiency_tech:0 "Technologie de l'efficacité de la production "
+excavation_tech_research:0 "Excavation Tech Research Speed"
+concentrated_industry_tech:0 "Concentrated Industry Tech"
+dispersed_industry_tech:0 "Dispersed Industry Tech"
 
 #### Caractéristiques du commandement de l'armée ####
 
