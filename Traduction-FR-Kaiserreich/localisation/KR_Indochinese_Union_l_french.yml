@@ -1,5 +1,7 @@
 ﻿l_french:
 
+KR_Indochina: "Arbre de priorité d'Indochine"
+
 ####################################################
 #Indochina Localization By VietcongTrap and Pietrus
 ####################################################
@@ -151,10 +153,10 @@ INC_Maraisards_long:0 "Maraisards"
 
 ### Custom Tech ###
 sapper_tactic_tech:0 "Tactique du Sape"
-INC_sapper_tactic_tech_effect:0 "Enables §HSapper Tactics§!\n§HRecon\n      Breakthrough: §G+1§!\n      Reconnaissance: §G+1§!\n\n"
+INC_sapper_tactic_tech_effect:0 "Active §HTactiques de Sape\nReconnaissance§!\n      Percée: §G+1§!\n      Reconnaissance: §G+1§!\n\n"
 
 ### Tooltips ###
-INC_sapper_tt:0 "La §GTactique du Sape§! nous aidera à infiltrer les lignes ennemies\n"
+INC_sapper_tt:0 "La §GTactique de Sape§! nous aidera à infiltrer les lignes ennemies\n"
 INC_dissolve_assembly:0 "§RCela mettra fin au système parlementaire.§!\n"
 INC_Purge_Nguyen_Thi_Nam:0 "§RLe ministre Nguyen Thi Nam n'est plus disponible.§!\n"
 INC_Army_Reform_Plan:0 "Nous avons un plan de réforme de l'armée."
@@ -425,6 +427,12 @@ viet.51.t:0 "Redressement de l'Agriculture"
 viet.51.d:0 "La guerre de résistance est terminée. Maintenant, il est temps de guérir la patrie déchirée par la guerre. Pendant la guerre, la production agricole a été fortement polluée et des centaines de milliers d'agriculteurs ont fui leurs terres pour rejoindre l'armée ou chercher refuge. Cela pourrait prendre au moins un an pour que l'agriculture, le principal secteur de notre économie, se redresse."
 viet.51.a:0 "Excellent."
 
+viet.52.t:0 "Bounce Event"
+viet.52.d:0 "This is a bounce event, you should not be seeing this. If you do in normal gameplay and are not running any submods, please report the issue."
+viet.52.a:0 "Good"
+viet.52.b:0 "Normal"
+viet.52.c:0 "Bad"
+
 viet.53.t:0 "Production Agricole de cette Année : Bonnes Récoltes"
 viet.53.d:0 "Nous avons une récolte abondante cette année. Une telle récolte pourrait poser des problèmes si le prix du maïs devient trop bas."
 viet.53.a:0 "Excellent."
@@ -688,6 +696,7 @@ viet.98.a:0 "On peut ignorer cette dégénérescence petite-bourgeoise..."
 viet.150.t:0 "L'Indochine Veut Rejoindre [Root.GetFactionName]"
 viet.150.d.a:0 "L'Union indochinoise a renversé l'impérialisme allemand dans la péninsule indochinoise. C'est un pas vers la libération des peuples asiatiques de l'hégémonie européenne. Maintenant, le gouvernement indochinois a annoncé sa volonté de se joindre à la sphère coprospère et de lutter pour la noble cause de l'Asie pour les Asiatiques."
 viet.150.d.b:0 "Les héroïques camarades indochinois ont renversé l'impérialisme allemand dans la péninsule indochinoise. Cependant, la guerre contre l'impérialisme ne prendra jamais fin tant que la révolution mondiale n'aura pas réussi. L'Union Indochinoise a annoncé sa volonté d'être avec nous dans la lutte !"
+viet.150.d.c:0 "The Indochinese Union have toppled down German Imperialism in Indochinese peninsula and commit their support to our revolution. This is a step towards the liberation of Asian people from Imperialist hegemony. Now the Indochinese government has announced their will to join our fight and become our comrade and brother."
 viet.150.d.d:0 "Les héroïques camarades indochinois ont renversé l'impérialisme allemand dans la péninsule indochinoise. Cependant, la guerre contre l'impérialisme ne prendra jamais fin tant que la révolution mondiale n'aura pas réussi. Le gouvernement indochinois a annoncé sa volonté de remplir ses obligations internationales en se joignant à notre juste guerre contre les impérialistes allemands !"
 viet.150.a:0 "En ces temps d'épreuve et de fardeau, les vraies amitiés se démarquent !"
 viet.150.b:0 "Nous n'avons aucune utilité de ces fermiers vietnamiens..."
@@ -760,8 +769,26 @@ viet.167.t:0 "[From.GetNameDefCap] a Refusé notre Proposition"
 viet.167.d:0 "Nos délégués sont reçus indifféremment en [From.GetNameDef].  Il semble qu'ils aient décidé qu'ils ne sont plus intéressés par l'Indochine."
 viet.167.a:0 "Quel dommage."
 
+viet.168.t:0 "Greetings from the Indochinese Union"
+viet.168.d:0 "A ragtag diplomatic mission just landed in coastal Fujian and arrived at our capital. These people are from the Indochinese Union, a newly emerging nation revolting against the German Empire. The Indochinese mission reaffirmed their commitment to our historical friendship and common task to free our people from the yoke of imperialism. They also managed to smuggle some much-needed battlefield medicine for us."
+viet.168.a:0 "Together we will fight."
+
+viet.169.t:0 "The Indochinese Union sends its military mission."
+viet.169.d:0 "General Nguyen Son, also known as Hong Shui in China, has led a military mission from Indochina to observe and assist our war efforts. General Nguyen Son was a student in the Whompa military academy and he is excited to reunite with his old classmates. The mission shared their experience on Indochinese Union's recent war against German colonial forces with us. "
+viet.169.a:0 "Good."
+
+viet.170.t:0 "The Indochinese military mission returned."
+viet.170.d:0 "The military mission led by General Nguyen Son just finished their service and headed back to the Indochina. "
+viet.170.a:0 "Farewell."
+
+viet.171.t:0 "Nguyen Son's mission returned from China."
+viet.171.d:0 "The military mission led by General Nguyen Son just finished their service and returned to the Indochina. They have brought back their observation on the recent Chinese civil war and the reform of Chinese military. "
+viet.171.a:0 "Excellent."
 
 ### decisions ###
+INC_border_skirmish_with_China:0 "We are having an intense border skirmish with a hostile China."
+INC_send_nguyen_son_tooltip:0 "General §YNguyen Son§! from Indochina has joined our army."
+INC_nguyen_son_back_tooltip:0 "General §YNguyen Son§! is now back in service."
 INC_the_resistance_decisions:0 "La Résistance"
 INC_the_resistance_decisions_desc:0 "L'Empire allemand est probablement la puissance militaire la plus puissante qui ait jamais existé, mais nous triompherons. La Résistance contre les impérialistes allemands exige le plus grand courage et les plus grands sacrifices. Mais pour survivre et gagner, le courage et les sacrifices ne suffisent pas. David ne pouvait pas combattre Goliah avec une épée. Il devait apprendre à utiliser les armes des faibles.\n\n§YForce§! actuelle des §Yactivités de guérilla§! en Indochine: §R[?INC.guerilla_activity|-0]§!\n"
 spend_10_guerilla:0 "§Y10§! Force de Guérilla"
@@ -923,6 +950,7 @@ INC_deal_with_Chinese_warlord_decision_desc:0 "Un moyen d'accéder en toute séc
 INC_expand_arm_workshop_decision:0 "Agrandir les ateliers d'armes"
 INC_expand_arm_workshop_decision_desc:0 "En important le matériel nécessaire, nous pouvons agrandir les installations de production d'armes à Saïgon."
 INC_lower_trafficking_cost:0 "Cela réduira le §Ycoût§! du §Ytrafique d'arme§!"
+spend_1000_manpower:0 "1000 Manpower will be spent."
 #Contacter les agents japonais
 
 #Relations avec la Chine
@@ -1255,3 +1283,35 @@ INC_Special_Relationship_With_France:0 "Relations Privilégiées avec la France"
 INC_Special_Relationship_With_France_desc:0 "La Commune de France, phare du socialisme mondial, a apporté la révolution et la libération à l'Indochine. La plupart des révolutionnaires indochinois ont rejoint la révolution en France, et notre juste cause a toujours été soutenue par nos camarades français. Il est tout à fait raisonnable que nous développions une relation spéciale avec la Commune de France."
 INC_Strengthen_Our_Tie_with_Calcutta:0 "Renforcer les Liens avec Calcutta"
 INC_Strengthen_Our_Tie_with_Calcutta_desc:0 "Calcutta est le centre de la révolution asiatique, nous devons consolider notre amitié avec la commune de Bhârat."
+
+#Cosmetic Tags
+INC_DAI_authoritarian_democrat:0 "République du Dai Viet"
+INC_DAI_authoritarian_democrat_ADJ:0 "Viêt"
+INC_DAI_authoritarian_democrat_DEF:0 "République du Dai Viet"
+INC_DAI_market_liberal:0 "République du Dai Viet"
+INC_DAI_market_liberal_ADJ:0 "Viêt"
+INC_DAI_market_liberal_DEF:0 "République du Dai Viet"
+INC_DAI_national_populist:0 "République du Dai Viet"
+INC_DAI_national_populist_ADJ:0 "Viêt"
+INC_DAI_national_populist_DEF:0 "République du Dai Viet"
+INC_DAI_paternal_autocrat:0 "République du Dai Viet"
+INC_DAI_paternal_autocrat_ADJ:0 "Viêt"
+INC_DAI_paternal_autocrat_DEF:0 "République du Dai Viet"
+INC_DAI_radical_socialist:0 "Union Indochinoise"
+INC_DAI_radical_socialist_ADJ:0 "Indochinoise"
+INC_DAI_radical_socialist_DEF:0 "Union Indochinoise"
+INC_DAI_social_conservative:0 "Dai Viet"
+INC_DAI_social_conservative_ADJ:0 "Viêt"
+INC_DAI_social_conservative_DEF:0 "Dai Viet"
+INC_DAI_social_democrat:0 "République du Dai Viet"
+INC_DAI_social_democrat_ADJ:0 "Viêt"
+INC_DAI_social_democrat_DEF:0 "République du Dai Viet"
+INC_DAI_social_liberal:0 "République du Dai Viet"
+INC_DAI_social_liberal_ADJ:0 "Viêt"
+INC_DAI_social_liberal_DEF:0 "République du Dai Viet"
+INC_DAI_syndicalist:0 "Union Indochinoise"
+INC_DAI_syndicalist_ADJ:0 "Indochinoise"
+INC_DAI_syndicalist_DEF:0 "Union Indochinoise"
+INC_DAI_totalist:0 "Union Indochinoise"
+INC_DAI_totalist_ADJ:0 "Indochinoise"
+INC_DAI_totalist_DEF:0 "Union Indochinoise"

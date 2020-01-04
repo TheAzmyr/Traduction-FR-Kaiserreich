@@ -25,14 +25,17 @@ escort_ships_nonmtg_desc:0 "An naval fleet is a crucial part of any country."
  submarine:0 "Sous-marin"
  submarine_desc:0 "Les sous-marins sont des vaisseaux de raids furtifs. Les sous-marins lourds sont plus gros et plus puissants, avec une portée opérationnelle plus longue et une certaine capacité de bombardement surface-surface et côtière."
 
+ destroyer:0 "Destroyer"
+ destroyer_desc:0 "Le navire de contrôle le plus léger. Il a pour mission de défendre les grands navires, de trouver et de détruire les sous-marins, et il peut aussi menacer les navires capitaux qui ne sont pas escortés."
+
  light_cruiser:0 "Croiseur"
  light_cruiser_desc:0 "Navire blindé de petite taille. Sa tâche principale est de protéger les navires capitaux contre les navires légers ennemis, mais il peut aussi déclencher de puissantes torpilles qui peuvent faire des ravages sur des navires plus gros."
 
  heavy_cruiser:0 "Croiseur blindé"
  heavy_cruiser_desc:0 "Les croiseurs blindés sont des navires de taille moyenne transportant des canons assez lourds. Ils sont mieux utilisés pour engager de plus petits navires de guerre, bien qu'ils puissent aussi fonctionner comme des navires capitaux à petit budget."
 
- destroyer:0 "Destroyer"
- destroyer_desc:0 "Le navire de contrôle le plus léger. Il a pour mission de défendre les grands navires, de trouver et de détruire les sous-marins, et il peut aussi menacer les navires capitaux qui ne sont pas escortés."
+ battle_cruiser:0 "Armoured Cruiser"
+ battle_cruiser_desc:0 "Armoured cruisers are medium-sized ships carrying fairly heavy guns. They are best used for engaging smaller warships, though they can also function as budget capital ships."
 
  escort_desc:0 "Ces navires ont pour tâche principale de protéger les plus gros navires de guerre contre les plus petits ennemis et d'être en mesure de menacer eux-mêmes ces plus gros navires lorsque ceux-ci ne sont pas suffisamment escortés."
  capital_desc:0 "Les plus grands navires de la marine, ils ont une puissance de feu et un blindage massif, mais ont besoin d'être protégés contre les petites menaces agiles."
@@ -40,14 +43,11 @@ escort_ships_nonmtg_desc:0 "An naval fleet is a crucial part of any country."
  carrier:0 "Porte-Avions"
  carrier_desc:0 "Un navire capital capable de transporter des avions dans la bataille. Également utile comme terrain d'aviation flottant que vous pouvez positionner au large de la côte de votre ennemi."
 
- heavy_carrier:0 "Porte-avions lourd"
- heavy_carrier_desc:0 "Les porte-avions lourds sont généralement basés sur des modèles de cuirassés ou de dreadnought, ce qui signifie qu'ils sont énormes et lourdement blindés, mais aussi très coûteux."
-
  battleship:0 "Cuirassé rapide "
  battleship_desc:0 "Les cuirassés rapides sont des navires de niveau intermédiaire avec des performances globales. Ils équilibrent vitesse, blindage et puissance de feu, mais n'excellent dans aucun domaine."
 
- SH_battleship:0 "Dreadnought"
- SH_battleship_desc:0 "Le plus grand navire capital avec les plus gros canons et le blindage le plus solide que l'argent puisse acheter. Un investissement aussi coûteux mérite un soutien approprié avec des petits navires de contrôle."
+ sh_battleship:0 "Dreadnought"
+ sh_battleship_desc:0 "Le plus grand navire capital avec les plus gros canons et le blindage le plus solide que l'argent puisse acheter. Un investissement aussi coûteux mérite un soutien approprié avec des petits navires de contrôle."
 
  dreadnought:0 "Dreadnought"
  dreadnought_desc:0 "Le plus grand navire capital avec les plus gros canons et les blindages les plus solides que l'argent peut acheter. Un investissement aussi coûteux mérite un soutien approprié avec des petits navires de contrôle."
@@ -423,6 +423,9 @@ ship_hull_submarine_4_desc:0 "Avec une capacité de batterie considérablement a
  heavy_ship_engine_4:0 "Moteur 210 000 ch"
  heavy_ship_engine_4_short:0 "Moteur 210 000 ch"
  heavy_ship_engine_4_desc:0 "Conçue avec de nouveaux matériaux et un modèle de chaudière amélioré, la machinerie est prévue pour permettre à un cuirassé moderne de suivre le rythme des porte-avions et cuirassés rapides."
+heavy_ship_engine_5:0 "270,000 Shp Engine"
+heavy_ship_engine_5_short:0 "Heavy Engine V"
+heavy_ship_engine_5_desc:0 "A truly massive powerplant integrating previously experimental engine technologies, this behemoth of an engine will allow even a great dreadnought to make a fair bit of haste."
  carrier_ship_engine_1:0 "Moteur 50 000 ch"
  carrier_ship_engine_1_short:0 "Moteur 50 000 ch"
  carrier_ship_engine_1_desc:0 "Une motorisation basique permet à un porte-avions de taille moyenne d'atteindre la vitesse nécessaire pour utiliser des avions en toute sécurité."
@@ -471,7 +474,25 @@ ship_hull_submarine_4_desc:0 "Avec une capacité de batterie considérablement a
  ship_armor_carrier_deck:0 "Pont de 90 mm"
  ship_armor_carrier_deck_short:0 "Blindage du pont d'envol"
  ship_armor_carrier_deck_desc:0 "De lourdes plaques de blindage protègent les espaces de hangar contre les bombes ennemies, au prix d'un espace de travail réduit."
- SHIP_DESIGNER_MODULE_SELECTION:0 "Choix d'un composant"
+### KR modules ###
+dp_light_battery_2:0 "Auto-loader 127mm Dual-Purpose Main Battery"
+dp_light_battery_2_short:0 "Dual-Purpose Main Battery II"
+dp_light_battery_2_desc:0 "Equipped with high elevation fully automatized and electric powerd mechanism this gun can track and engage any target on the battlefield with wall of explosions"
+dp_ship_light_medium_battery:0 "Auto-loader 152mm Dual-Purpose Main Battery"
+dp_ship_light_medium_battery_short:0 "Dual-Purpose Light Medium Battery"
+dp_ship_light_medium_battery_desc:0 "Combination of auto-loading mechanism with high gun angles allow this battery spread dead all over the water, air and ground"
+dp_ship_secondaries_2:0 "Auto-loader 127mm Dual-Purpose Secondary Battery"
+dp_ship_secondaries_2_short:0 "Dual-Purpose Secondary Battery II"
+dp_ship_secondaries_2_desc:0 "Equipped with high elevation fully automatized and electric powerd mechanism this gun can track and engage any non-capital threat to the ship"
+ship_super_heavy_battery_2:0 "50.8cm Cannon"
+ship_super_heavy_battery_2_short:0 "Super-Heavy Battery II"
+ship_super_heavy_battery_2_desc:0 "As there were sever problems during construction of 18" guns, designers thought that these guns will be biggest in the world for the end of times. Oh, how wrong they were."
+ship_heavy_medium_battery:0 "254mm Automatized Cannon"
+ship_heavy_medium_battery_short:0 "Cruiser Battery V"
+ship_heavy_medium_battery_desc:0 "Late war advances in matterial science resulted in fast growth of medium sized gun firepower potential. While some designes were oriented to increase volume of fire while maintaing traditional 8" caliber,this design aimed for reduction of the weight of battleship grade guns to be able to fit them on smaller hulls"
+ship_armor_shbb_2:0 "534mm Belt/254mm Deck"
+ship_armor_shbb_2_short:0 "Super-Heavy Armor II"
+ship_armor_shbb_2_desc:0 "It is not good to say that you have final solution to the problem, if there is potential of even bigger problem, this happend for example as 20" guns were introduced and all "last word" armor schemes were become obsolete" 
 
 ####NON-MTG hulls#### 
 #destroyers
