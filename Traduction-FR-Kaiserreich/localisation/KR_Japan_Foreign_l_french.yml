@@ -27,7 +27,7 @@ JAP_ALLIANCE:0 "Invité à l'Alliance"
 JAP_ALLIANCE_BAD:0 "Cochons conspirateurs"
 SIAM_refused:0 "Refusé notre proposition"
 SIAM_refused_GER:0 "Refusé les Japonais"
-SNUBBED_JAPON:0 "Ils nous repoussent !"
+SNUBBED_JAPAN:0 "Ils nous repoussent !"
 TRM_crackdown:0 "La question coréenne"
 vladivostok_puppet:0 " Notre pantin "
 
@@ -63,7 +63,7 @@ HAW_resist_OOB_TOOLTIP:0 "§GNous allons mobiliser des troupes pour nous opposer
 KOR_uprising_tt:0 "De nouvelles divisions d'infanterie et de milice seront mises en place".
 KOR_uprising2_tt:0 "De nouvelles divisions d'infanterie, de milice et de cavalerie seront mises en place."
 KOR_uprising3_tt:0 "De nouvelles divisions d'infanterie seront mises en place."
-JAP_offered_peace_and_I_want:0 "§GNous accepterons les conditions de paix du Japon, bien qu'il faudra environ deux semaines pour que l'accord soit finalisé. Soyez avertis que tous ceux qui sont en guerre avec le Japon devront accepter pour que l'accord soit conclu...§ !
+JAP_offered_peace_and_I_want:0 "§GNous accepterons les conditions de paix du Japon, bien qu'il faudra environ deux semaines pour que l'accord soit finalisé. Soyez avertis que tous ceux qui sont en guerre avec le Japon devront accepter pour que l'accord soit conclu...§ !""
 JAP_offered_peace_and_I_hate_peace:0 "§RNous rejetterons les conditions de paix du Japon. Soyez avertis que cela empêchera la paix pour tous ceux qui sont en guerre avec le Japon, pas seulement pour nous...§ !"
 
 JAP_agree_reconstruction_anqing_tt:0 "Nous sommes d'accord pour aider Anqing. Ce faisant, nous engagerons d'importantes ressources politiques et économiques pour reconstruire Anqing, ce qui permettra à Anqing et à Fengtian de s'opposer plus tôt à Pékin."
@@ -89,10 +89,10 @@ JAP_alliance_tt:0 "En choisissant ce thème, toutes les nations qui se sont alig
 japanese_economic_influence_minor_tt:0 "§Votre influence économique augmentera de§ ! §G5%§ ! over [From.GetNameDef]\n"
 JAP_decrease_economic_influence:0 "Diminuer l'influence économique japonaise"
 JAP_increase_economic_influence:0 "Augmenter l'influence de [From.GetNameDef]".
-japanese_economic_influence_decrease_tt:0 "§L'influence économique du Japon diminuera de§ ! §G2,5%§ ! sur nous !
+japanese_economic_influence_decrease_tt:0 "§L'influence économique du Japon diminuera de§ ! §G2,5%§ ! sur nous !"
 
-coût_influence_économique_japonaise:0 "£pol_power [?From.japanese_economic_influence|H0]".
-Influence_économique_japonaise_cost_blocked:0 "£pol_power [?From.japanese_economic_influence|R0]".
+japanese_economic_influence_cost:0 "£pol_power [?From.japanese_economic_influence|H0]".
+japanese_economic_influence_cost_blocked:0 "£pol_power [?From.japanese_economic_influence|R0]".
 japanese_economic_influence_cost_tooltip:0 "Cela coûte £pol_power Un pouvoir politique égal à l'influence existante"
 
 JAP_chinese_minority_rights_tt:0 "Cette focalisation permettra au Turkestan oriental, à la Mongolie, au Tibet et à tout autre séparatiste chinois de rejoindre notre faction."
@@ -101,7 +101,7 @@ JAP_may_now_invite_sphere:0 "Les nations non-alignées et soumises de l'Asie de 
 JAP_has_more_factories:0 "a plus d'usines que [From.GetNameDef]".
 JAP_has_double_factories:0 "a au moins 2x plus d'usines que [From.GetNameDef]".
 JAP_has_triple_factories:0 "a au moins 3x plus d'usines que [From.GetNameDef]".
-JAP_has_double_factories_AST:0 "a au moins 2x plus d'usines que §Y[AST.GetNameDef]§ !
+JAP_has_double_factories_AST:0 "a au moins 2x plus d'usines que §Y[AST.GetNameDef]§ !"
 JAP_may_now_invest_sphere:0 "Peut maintenant prendre des décisions pour promouvoir l'investissement dans les membres de la sphère, ce qui - avec le temps - peut conduire à un contrôle japonais sur le pays [n]".
 JAP_withdraws_from_sphere:0 "§Y[Root.GetNameDefCap]§ ! se retirera de la sphère économique japonaise".
 JAP_THIS_withdraws_from_sphere:0 "§Y[This.GetNameDefCap]§ ! se retirera de la sphère économique japonaise".
@@ -111,7 +111,7 @@ JAP_AST_joins_sphere:0 "§Y[AST.GetNameDef]§ ! rejoindra la sphère économique
 AST_has_ties_with_japan:0 "a des liens avec le Japon"
 JAP_may_war_with_indochina:0 "Recevra les décisions d'aller en guerre contre des cibles valables en §YIndochine§!\n"
 JAP_can_attack_india:0 "Recevra les décisions d'aller en guerre contre des cibles valables en Inde".
-JAP_may_war_with_siam:0 "Recevra la décision d'entrer en guerre contre §Y[SIA.GetNameDef]§!\n
+JAP_may_war_with_siam:0 "Recevra la décision d'entrer en guerre contre §Y[SIA.GetNameDef]§!\n"
 JAP_no_training_help:0 "a refusé l'aide du Japon".
 
 ## Scripted loc ##
@@ -130,14 +130,14 @@ JAP_ally12_name:0 "§Y[?global.asian_economic_sphere^11.GetFlag][?global.asian_e
 JAP_ally13_name:0 "§Y[?global.asian_economic_sphere^12.GetFlag][?global.asian_economic_sphere^12.GetName]§ !, "
 JAP_ally14_name:0 "§Y[?global.asian_economic_sphere^13.GetFlag][?global.asian_economic_sphere^13.GetName]§ !, "
 JAP_ally15_name:0 "§Y[?global.asian_economic_sphere^14.GetFlag][?global.asian_economic_sphere^14.GetName]§ !, "
-JAP_ally1_last:0 "§Y[?global.asian_economic_sphere^0.GetFlag][?global.asian_economic_sphere^0.GetName]§ !
-JAP_ally2_last:0 "§Y[?global.asian_economic_sphere^1.GetFlag][?global.asian_economic_sphere^1.GetName]§ !
-JAP_ally3_last:0 "§Y[?global.asian_economic_sphere^2.GetFlag][?global.asian_economic_sphere^2.GetName]§ !
-JAP_ally4_last:0 "§Y[?global.asian_economic_sphere^3.GetFlag][?global.asian_economic_sphere^3.GetName]§ !
-JAP_ally5_last:0 "§Y[?global.asian_economic_sphere^4.GetFlag][?global.asian_economic_sphere^4.GetName]§ !
-JAP_ally6_last:0 "§Y[?global.asian_economic_sphere^5.GetFlag][?global.asian_economic_sphere^5.GetName]§ !
-JAP_ally7_last:0 "§Y[?global.asian_economic_sphere^6.GetFlag][?global.asian_economic_sphere^6.GetName]§ !
-JAP_ally8_last:0 "§Y[?global.asian_economic_sphere^7.GetFlag][?global.asian_economic_sphere^7.GetName]§ !
+JAP_ally1_last:0 "§Y[?global.asian_economic_sphere^0.GetFlag][?global.asian_economic_sphere^0.GetName]§ !"
+JAP_ally2_last:0 "§Y[?global.asian_economic_sphere^1.GetFlag][?global.asian_economic_sphere^1.GetName]§ !"
+JAP_ally3_last:0 "§Y[?global.asian_economic_sphere^2.GetFlag][?global.asian_economic_sphere^2.GetName]§ !"
+JAP_ally4_last:0 "§Y[?global.asian_economic_sphere^3.GetFlag][?global.asian_economic_sphere^3.GetName]§ !"
+JAP_ally5_last:0 "§Y[?global.asian_economic_sphere^4.GetFlag][?global.asian_economic_sphere^4.GetName]§ !"
+JAP_ally6_last:0 "§Y[?global.asian_economic_sphere^5.GetFlag][?global.asian_economic_sphere^5.GetName]§ !"
+JAP_ally7_last:0 "§Y[?global.asian_economic_sphere^6.GetFlag][?global.asian_economic_sphere^6.GetName]§ !"
+JAP_ally8_last:0 "§Y[?global.asian_economic_sphere^7.GetFlag][?global.asian_economic_sphere^7.GetName]§ !"
 JAP_ally9_last:0 "§Y[?global.asian_economic_sphere^8.GetFlag][?global.asian_economic_sphere^8.GetName]§!"
 JAP_ally10_last:0 "§Y[?global.asian_economic_sphere^9.GetFlag][?global.asian_economic_sphere^9.GetName]§!"
 JAP_ally11_last:0 "§Y[?global.asian_economic_sphere^10.GetFlag][?global.asian_economic_sphere^10.GetName]§!"
@@ -153,7 +153,7 @@ JAP_not_invest_within_last_year:0 "N'a pas fait l'objet d'un investissement au c
 JAP_rising_sun:0 "Le soleil levant"
 JAP_rising_sun_desc:0 "Il est temps pour le Japon de prendre enfin sa place parmi les empires du monde. Nous allons libérer l'Est de l'impérialisme occidental et régler nos comptes avec nos rivaux. Le soleil s'est levé !"
 fengtian_exploitation:0 "Les dividendes de Mantetsu"
-fengtian_exploitation_desc:0 "Avec son monopole de facto sur de larges pans de l'économie fengtienne, Mantetsu crée d'énormes profits, et profite au Japon à la fois par les dividendes des actions détenues par l'État et par les recettes fiscales directes.
+fengtian_exploitation_desc:0 "Avec son monopole de facto sur de larges pans de l'économie fengtienne, Mantetsu crée d'énormes profits, et profite au Japon à la fois par les dividendes des actions détenues par l'État et par les recettes fiscales directes.""
 GER_KOR_support:0 "Mission militaire allemande"
 GER_KOR_support_desc:0 "Des officiers allemands ont été envoyés pour instruire nos armées dans notre guerre contre le Japon."
 kor_blocked:0 "Bloqué par le Japon"
@@ -162,24 +162,24 @@ KOR_expell_japs:0 "Colons expulsés"
 KOR_expell_japs_desc:0 "Depuis que les impérialistes japonais ont ravagé notre pays en 1910, des dizaines de milliers de colons japonais ont colonisé notre maison. Si la plupart d'entre eux sont partis après la guerre, certains étrangers obstinés sont restés, et nous avons décidé de les expulser".
 KOR_integrate_japs:0 "Colons japonais intégrés"
 KOR_integrate_japs_desc:0 "Nous avons décidé d'intégrer les colons japonais à notre fragile économie."
-JAP_fengtian_bailout:0 "Fengtian Bailout"
+JAP_fengtian_bailout:0 " Sauvetage fengtien"
 JAP_fengtian_bailout_desc:0 "Nous renflouons le gouvernement fengtien en achetant suffisamment d'argent pour remplir leur réserve."
 JAP_MANTETSU_COLLAPSE:0 "L'effondrement de Mantetsu"
-JAP_MANTETSU_COLLAPSE_desc:0 "Les profits considérables de Mantetsu étant un moteur majeur de l'économie japonaise et une source de près d'un quart des recettes annuelles du gouvernement, la saisie et la destruction en masse de ses opérations en Chine ont laissé le pays en proie à des difficultés.
+JAP_MANTETSU_COLLAPSE_desc:0 "Les profits considérables de Mantetsu étant un moteur majeur de l'économie japonaise et une source de près d'un quart des recettes annuelles du gouvernement, la saisie et la destruction en masse de ses opérations en Chine ont laissé le pays en proie à des difficultés."
 
-JAP_ANQ_Traing_Aid:0 "Anqing Training Aid" (Aide à la formation d'Anqing)
+JAP_ANQ_Traing_Aid:0 "Aide à la formation d'Anqing"
 JAP_ANQ_Traing_Aid_desc:0 "Nous avons envoyé une mission d'entraînement approfondie à Anqing pour les aider à former des troupes dans leur conflit avec la Ligue. S'ils réussissent, nous aurons un puissant allié en Chine continentale".
-JAP_ANQ_Plan_de_reconstruction:0 "Plan de reconstruction d'Anqing"
-JAP_ANQ_Plan_de_reconstruction_desc:0 "Pour qu'Anqing se rétablisse rapidement afin qu'il puisse être utile aux Fengtiens, nous leur envoyons une aide importante".
+JAP_ANQ_Reconstruction_Plan:0 "Plan de reconstruction d'Anqing"
+JAP_ANQ_Reconstruction_Plan_desc:0 "Pour qu'Anqing se rétablisse rapidement afin qu'il puisse être utile aux Fengtiens, nous leur envoyons une aide importante".
 
 JAP_china_training:0 "Programme de formation japonais"
-JAP_china_training_desc:0 "Afin de renforcer les armées de leurs alliés, les Japonais ont fourni des officiers pour former de nouveaux soldats.
+JAP_china_training_desc:0 "Afin de renforcer les armées de leurs alliés, les Japonais ont fourni des officiers pour former de nouveaux soldats."
 JAP_china_attack_support:0 "Soutien aux offensives japonaises"
 JAP_chinese_seperatist_support:0 "Soutien à l'indépendance du Japon"
 
 JAP_chinese_manpower_idea:0 "Soldats chinois"
-JAP_chinese_manpower_idea_desc:0 "Les soldats chinois sont prêts à servir dans nos armées en petit nombre, principalement en supposant que les forces japonaises soutiennent le maréchal Zhang Zuolin.
-JAP_three_alls_idea:0 "Stratégie "Brûler les cendres"".
+JAP_chinese_manpower_idea_desc:0 "Les soldats chinois sont prêts à servir dans nos armées en petit nombre, principalement en supposant que les forces japonaises soutiennent le maréchal Zhang Zuolin.""
+JAP_three_alls_idea:0 "Stratégie "Brûler les cendres"
 JAP_three_alls_idea_desc:0 "Ceux qui prennent les armes contre nous dans la résistance seront tués sans pitié ; combiner cela avec l'utilisation prudente des blockhaus pour entraver les chemins des guérilleros et la concentration des civils dans des zones fortifiées pour empêcher le recrutement nous aidera grandement à nous enfoncer plus profondément dans la Chine".
 
 JAP_asian_economic_sphere:0 "Sphère de coprospérité asiatique"
@@ -211,7 +211,7 @@ JAP_fight_giants_desc:0 "La direction que doit prendre le Japon sur la scène mo
 
 ### Focalisation - Nanshin-ron ###
 JAP_go_south:0 "Nanshin-ron"
-JAP_go_south_desc:0 "Malgré toutes ses forces, le Japon présente un désavantage stratégique majeur dans sa dépendance vis-à-vis du pétrole étranger. Dans la poursuite de l'autonomie et de la sécurité contre l'impérialisme occidental toujours croissant, ne serait-il pas à la fois sage et juste d'acquérir ces ressources pour nous-mêmes, et d'élargir ainsi notre sphère de sécurité ?
+JAP_go_south_desc:0 "Malgré toutes ses forces, le Japon présente un désavantage stratégique majeur dans sa dépendance vis-à-vis du pétrole étranger. Dans la poursuite de l'autonomie et de la sécurité contre l'impérialisme occidental toujours croissant, ne serait-il pas à la fois sage et juste d'acquérir ces ressources pour nous-mêmes, et d'élargir ainsi notre sphère de sécurité ?"
 JAP_pacific_islands:0 "Étendre la zone de sécurité du Pacifique"
 JAP_pacific_islands_desc:0 "Avec une Amérique en plein chaos, nous ne pouvons pas nous permettre d'ignorer l'opportunité qui nous est offerte. Des propositions de création d'une zone de sécurité du Pacifique qui étendrait notre portée et notre protection à leurs vastes possessions du Pacifique ont été présentées et sont en cours d'examen sérieux".
 JAP_hawaii:0 "Faire pression sur Hawaii"
@@ -221,7 +221,7 @@ JAP_demand_indonesia_desc:0 "Pendant des siècles, les îles des Indes orientale
 JAP_philippines:0 "Faites entrer les Philippines dans le giron !"
 JAP_philippines_desc:0 "Maintenant que les Américains sont partis, nous pouvons envoyer nos canonnières pour sécuriser l'archipel pour la sphère de coprospérité et apporter la stabilité aux îles. Bien sûr, les Philippins pourraient ne pas voir les choses de cette façon".
 JAP_claim_colonies:0 "Réclamer la zone de ressources du Sud"
-JAP_claim_colonies_desc:0 "Chaque île du Pacifique non tenue par les Japonais pourrait servir de point de ralliement pour envahir nos îles d'origine. L'Empire allemand n'a aucun droit sur ces îles, et si cela devait arriver, la marine impériale japonaise les renverrait en courant vers le Kaiser !
+JAP_claim_colonies_desc:0 "Chaque île du Pacifique non tenue par les Japonais pourrait servir de point de ralliement pour envahir nos îles d'origine. L'Empire allemand n'a aucun droit sur ces îles, et si cela devait arriver, la marine impériale japonaise les renverrait en courant vers le Kaiser !"
 JAP_ultimatum:0 "Emettre un ultimatum colonial"
 JAP_ultimatum_desc:0 "Nous devons profiter de cette occasion pour revendiquer notre rôle légitime en tant que seule grande puissance en Asie et dans le Pacifique : nous devons exiger toutes les possessions [GER.GetAdjective] de l'Asie du Sud-Est et du Pacifique, ainsi que leurs concessions chinoises. S'ils ne répondent pas à nos exigences, ce sera la guerre !"
 JAP_indochina_question:0 "Cible : Indochine"
@@ -242,9 +242,9 @@ JAP_sow_chaos:0 "Diviser pour mieux régner"
 JAP_sow_chaos_desc:0 "En Chine, notre philosophie devrait être de "diviser pour mieux régner". Bien que de nombreux chefs de guerre puissent souhaiter notre soutien, nous devrions assurer un bon équilibre des forces de tous les côtés en manipulant les chances en faveur de toutes les factions, afin de maintenir la Chine divisée et mûre pour la prise le moment venu".
 JAP_war_economy:0 "Loi sur la mobilisation nationale"
 JAP_war_economy_desc:0 "La guerre en Chine promet d'être une entreprise immense qui nous taxera jusqu'à la limite. Nous devons nous assurer que le peuple est prêt à supporter le fardeau d'une guerre de cette ampleur".
-JAP_mobilisation_spirituelle:0 "Recruter des collaborateurs"
-JAP_spiritual_mobilisation_desc:0 "La main-d'œuvre chinoise est une malheureuse nécessité pour la victoire, et si nous voulons rassembler suffisamment de forces pour prendre toute la Chine, nos régions conquises doivent fournir des soldats ainsi que des ressources.
-JAP_three_alls:0 "Stratégie Burn to Ash" (Brûler les cendres)
+JAP_spiritual_mobilisation:0 "Recruter des collaborateurs"
+JAP_spiritual_mobilisation_desc:0 "La main-d'œuvre chinoise est une malheureuse nécessité pour la victoire, et si nous voulons rassembler suffisamment de forces pour prendre toute la Chine, nos régions conquises doivent fournir des soldats ainsi que des ressources."
+JAP_three_alls:0 "Stratégie Brûler les cendres"
 JAP_three_alls_desc:0 "La stratégie Burn to Ash sera aussi brutale qu'efficace ; ceux qui prendront les armes contre nous dans la résistance seront tués sans pitié, soldat professionnel ou autre. Nous compléterons cela par une utilisation prudente des blockhaus pour entraver la voie des guérilleros ainsi que par la concentration des civils dans des zones fortifiées pour empêcher le recrutement. Cette combinaison sera notre chemin vers la victoire en Chine".
 JAP_ichigo:0 "Opération Ichi-gou"
 JAP_ichigo_desc:0 "Une série de batailles décisives a été planifiée, appelée Opération Ichi-gou, destinée à relier nos différentes armées et à écraser les Chinois une fois pour toutes. L'enjeu est de taille, et si nous devions échouer, notre stabilité en souffrirait car la guerre paraîtrait impossible à gagner aux yeux de l'opinion publique. Mais nous avons toute confiance en nos généraux pour remporter enfin la victoire. En avant les soldats japonais ! Tenno-Heika Banzai !"
@@ -256,7 +256,7 @@ JAP_destroy_legations:0 "Démanteler les villes de légation"
 JAP_destroy_legations_desc:0 "Les Occidentaux bien-pensants qui dirigent [LEC.GetNameDef] ont jugé bon de nous exclure de leurs conseils et de leurs salles de pouvoir. Nous leur montrerons le prix de leur impudence".
 FNGJapanOutrageLevel:0 "L'indignation des Fengtiens"
 JAP_outrage_tt:0 "Cela provoquera la colère de [FNG.GetNameDef] à l'avenir".
-JAP_sow_chaos_tt:0 "Semer le chaos vise à maintenir toutes les factions chinoises faibles en conservant une certaine flexibilité. Nous identifierons et soutiendrons différents groupes afin qu'ils continuent à se battre entre eux. RZhang Zuolin sera certainement furieux !
+JAP_sow_chaos_tt:0 "Semer le chaos vise à maintenir toutes les factions chinoises faibles en conservant une certaine flexibilité. Nous identifierons et soutiendrons différents groupes afin qu'ils continuent à se battre entre eux. RZhang Zuolin sera certainement furieux !"
 
 ### Focalisation - Etranger - Factions ###
 JAP_own_faction:0 "Trouver la sphère de coprospérité"
@@ -266,19 +266,19 @@ JAP_create_riken_desc:0 "Le Rikagaku Kenkyuusho, souvent abrégé en "Riken", fi
 JAP_tokyo_conference:0 "Accueillir la conférence de Tokyo"
 JAP_tokyo_conference_desc:0 "La pensée panasiatique est véritablement soutenue par une grande partie de la classe politique et constitue un outil utile en tout état de cause. En organisant une grande conférence à Tokyo et en invitant des diplomates de toute l'Asie, nous pouvons encourager la coopération entre les Asiatiques contre l'impérialisme occidental".
 JAP_invite_alliance_members:0 "Formaliser les alliances militaires"
-JAP_invite_alliance_members_desc:0 "Les succès de la conférence de Tokyo étant bien établis, il est temps de voir qui tient parole et d'inviter ceux qui souhaitent se joindre à une alliance militaire officielle.
+JAP_invite_alliance_members_desc:0 "Les succès de la conférence de Tokyo étant bien établis, il est temps de voir qui tient parole et d'inviter ceux qui souhaitent se joindre à une alliance militaire officielle."
 JAP_osaka_conference:0 "Le Bureau économique d'Osaka"
 JAP_osaka_conference_desc:0 "À Osaka, l'une de nos principales villes industrielles et un centre commercial historique, nous avons décidé de créer une commission composée de représentants de toute l'Asie. Ses tâches concernent principalement les liens économiques entre les membres de la grande sphère de coprospérité est-asiatique. En y consacrant des ressources, nous pouvons promouvoir l'autarcie et la confiance en soi économique parmi les Asiatiques, et étendre davantage notre influence sur eux".
 JAP_one_china_policy:0 "La Chine est indivisible"
 JAP_one_china_policy_desc:0 "La clé de la puissance de notre sphère asiatique sera la subordination de notre voisin autrefois puissant, la Chine. Les membres de notre sphère suivront notre exemple, de sorte que la politique que nous choisirons déterminera la voie à suivre pour l'avenir. Nous proclamerons notre soutien à une Chine unique, unie dans toutes ses revendications".
-JAP_subordinate_fengtian:0 "Bring [FNG.GetNameDef] To Heel"
+JAP_subordinate_fengtian:0 " Mettre [FNG.GetNameDef] au pied ".
 JAP_subordinate_fengtian_desc:0 "Le gouvernement fengtien de Zhang Zuolin se trouve depuis longtemps sur notre orbite, mais il n'est pas tout à fait aligné sur nous. Il est maintenant temps pour lui de montrer ses vraies couleurs et de décider : en est-il ou non ? Le Japon ne tolérera pas de rivaux en Asie, il doit donc faire un choix judicieux..."
 JAP_mission_to_india:0 "Une mission en Inde"
 JAP_mission_to_india_desc:0 "[PRF.GetNameDefCap] est prêt pour le recrutement dans nos plis. Ils ont des raisons de craindre une nouvelle domination de l'Europe ainsi que des syndicalistes qui siègent à leurs frontières. Une meilleure option que de tenter de subjuguer l'Inde nous-mêmes est de nous associer à un champion, que nous pouvons cultiver en tant qu'allié".
 JAP_target_india:0 "Target : India"
 JAP_target_india_desc:0 "L'Inde est une puissance qui se trouve dans les coulisses, et qui dispose d'assez de personnel pour faire pencher la balance si nous laissons trop longtemps exister en dehors de notre contrôle. Nous devons agir pour les soumettre, et rapidement".
 JAP_isolate_australasia:0 "Isoler l'Australasie"
-JAP_isolate_australasia_desc:0 "L'emprise de la sphère de coprospérité sur le commerce dans le Pacifique est forte, et nous devrions la mettre en évidence par des sanctions punitives contre l'avant-poste impérialiste du colonialisme européen qu'est '[AST.GetNameDefCap]'.
+JAP_isolate_australasia_desc:0 "L'emprise de la sphère de coprospérité sur le commerce dans le Pacifique est forte, et nous devrions la mettre en évidence par des sanctions punitives contre l'avant-poste impérialiste du colonialisme européen qu'est '[AST.GetNameDefCap]'."
 JAP_integrate_asian_economies:0 "Intégrer la grande économie asiatique"
 JAP_integrate_asian_economies_desc:0 "Le pouvoir économique est la clé de tout, et avec une maîtrise incontestée de l'Asie à notre disposition, nous pouvons entamer le processus que nous avons commencé à Osaka : lier plus étroitement les économies de l'Asie de l'Est afin de les soumettre à notre volonté".
 JAP_final_victory:0 "Proclamer la victoire sur l'impérialisme"
@@ -294,11 +294,11 @@ JAP_invite_into_faction_desc:0 "Le gouvernement [de.GetAdjective] ayant indiqué
 JAP_invite_into_economic_sphere:0 "Inviter [From.GetNameDef] dans notre sphère économique".
 JAP_invite_into_economic_sphere_desc:0 "[From.GetNameDefCap] est soit une nation non alignée, soit un allié du Japon, et dans les deux cas, c'est un excellent candidat à approcher pour être admis dans notre "sphère de coprospérité de la Grande Asie... pour leur bénéfice et surtout pour le nôtre".
 JAP_invest_in_sphere_member1:0 "Promouvoir l'investissement dans [From.GetNameDef]"
-JAP_invest_in_sphere_member1_desc:0 "Nous devrions commencer à investir dans [From.GetNameDef], ce qui non seulement nous donnera un accès plus facile à leur commerce mais nous permettra également de construire une présence japonaise dans le pays et, éventuellement, de la reprendre de l'intérieur.
+JAP_invest_in_sphere_member1_desc:0 "Nous devrions commencer à investir dans [From.GetNameDef], ce qui non seulement nous donnera un accès plus facile à leur commerce mais nous permettra également de construire une présence japonaise dans le pays et, éventuellement, de la reprendre de l'intérieur."
 JAP_invest_in_sphere_member2:0 "Promouvoir l'investissement dans [From.GetNameDef]"
-JAP_invest_in_sphere_member2_desc:0 "Nous devrions commencer à investir dans [From.GetNameDef], ce qui non seulement nous donnera un accès plus facile à leur commerce mais nous permettra également de construire une présence japonaise dans le pays et, éventuellement, de la reprendre de l'intérieur.
+JAP_invest_in_sphere_member2_desc:0 "Nous devrions commencer à investir dans [From.GetNameDef], ce qui non seulement nous donnera un accès plus facile à leur commerce mais nous permettra également de construire une présence japonaise dans le pays et, éventuellement, de la reprendre de l'intérieur."
 JAP_invest_in_sphere_member3:0 "Promouvoir l'investissement dans [From.GetNameDef]"
-JAP_invest_in_sphere_member3_desc:0 "Nous devrions commencer à investir dans [From.GetNameDef], ce qui non seulement nous donnera un accès plus facile à leur commerce mais nous permettra également de construire une présence japonaise dans le pays et, éventuellement, de la reprendre de l'intérieur.
+JAP_invest_in_sphere_member3_desc:0 "Nous devrions commencer à investir dans [From.GetNameDef], ce qui non seulement nous donnera un accès plus facile à leur commerce mais nous permettra également de construire une présence japonaise dans le pays et, éventuellement, de la reprendre de l'intérieur."
 JAP_economic_sphere_over:0 "Take Over [From.GetNameDef]" (en anglais)
 JAP_economic_sphere_takeover_desc:0 "Notre pénétration économique de [From.GetNameDef] s'est développée au point que [Root.GetNameDef] les domine entièrement. Le gouvernement [From.GetAdjective] est déjà soumis à nos souhaits... il ne reste plus qu'à se débarrasser de la fiction polie de leur indépendance".
 JAP_co_prosperity_member_decisions:0 "La sphère de coprospérité japonaise"
@@ -313,29 +313,29 @@ JAP_nationalize_japanese_investments_desc:0 "La présence croissante des investi
 ### Décisions de guerre ###
 JAP_threaten_philippines:0 "Menacer les Philippines"
 JAP_threaten_philippines_desc:0 "Maintenant que les Américains sont partis, nous pouvons envoyer nos canonnières pour sécuriser l'archipel pour la sphère de coprospérité et apporter la stabilité aux îles. Bien sûr, les Philippins pourraient ne pas voir les choses de cette façon".
-JAP_attack_indochina:0 "Attack [From.GetNameDef]"
+JAP_attack_indochina:0 " Attaquer [de.GetNameDef] ".
 JAP_attack_indochina_desc:0 "Un [From.GetNameDef] indépendant ne peut être autorisé, pas dans notre sphère d'influence. Nous devons agir immédiatement !"
 JAP_attack_india:0 "Attaque [De.GetNameDef]"
-JAP_attack_india_desc:0 "Si nous devons prendre le commandement du sous-continent indien, [From.GetNameDef] devrait être notre prochaine cible.
+JAP_attack_india_desc:0 "Si nous devons prendre le commandement du sous-continent indien, [From.GetNameDef] devrait être notre prochaine cible."
 JAP_attack_australia:0 "Attaque [De.GetNameDef]"
-JAP_attack_australia_desc:0 "[From.GetNameDefCap] se situe dans notre sphère d'intérêt du Pacifique, et le temps est venu de faire respecter notre volonté à leur égard.
+JAP_attack_australia_desc:0 "[From.GetNameDefCap] se situe dans notre sphère d'intérêt du Pacifique, et le temps est venu de faire respecter notre volonté à leur égard."
 JAP_invade_manchuria:0 "Envahissez [From.GetNameDef] !"
 JAP_invade_manchuria_desc:0 "Alors [de.GetLeader] veut nous trahir, c'est ça ? Eh bien, [Root.GetNameDef] ne va pas s'asseoir et attendre qu'ils agissent. Nous frapperons le premier coup !"
 
 ### Influence en Chine ###
 JAP_influence_china:0 "Influencer la Chine"
 JAP_influence_china_desc:0 "La Chine est un grand pays. "Influence" pourrait signifier beaucoup de choses, allant du simple fait de semer le chaos au soutien de nos alliés, en passant par la simple boucherie pure et simple. Faites vos choix avec sagesse, car beaucoup d'entre eux peuvent avoir des conséquences imprévues..."
-JAP_attack_china_leader:0 "Attack [From.GetNameDef]"
+JAP_attack_china_leader:0 "Attaquer [From.GetNameDef]"
 JAP_attack_china_leader_desc:0 "Nos préparatifs sont terminés. Il est temps d'amener la guerre à l'ennemi en Chine !"
 
 ### Soutenez les alliés ###
-JAP_china_army_training:0 "[From.GetName] Army Expansion" (en anglais)
+JAP_china_army_training:0 "[From.GetName] Développement de l'armée" 
 JAP_provide_arms_facilities:0 "Fournir des armes à [From.GetNameDef]".
 JAP_support_offensive:0 "Soutenez l'offensive de [GetNameDef]".
 JAP_provide_planes:0 "Donner [From.GetNameDef] accès aux modèles de combattant"
 
 ### Diviser et conquérir ###
-support_chinese_seperatists:0 "Support [From.GetAdjectiveCap] Independence"
+support_chinese_seperatists:0 " Soutien [de.GetAdjectiveCap] à l'indépendance"
 send_ETS_tartar_guy:0 "Envoyez Abdurresid Ibrahim à [ETS.GetName]".
 arms_factories_to_weaker_chinese_tags:0 "Fournir l'armée [de.GetAdjective]".
 bailout_weak_tags:0 "Offre [de.GetNameDef] de renflouement"
@@ -446,13 +446,13 @@ japfor.30.d:0 "Ou bien "Tokyo appelle à l'intégration économique" ? Quoi qu'i
 japfor.30.a:0 "D'accord !"
 japfor.30.b:0 "Non ! (abandon de la conférence)"
 
-japfor.31.t:0 "Résolution finale : Une alliance militaire ?
+japfor.31.t:0 "Résolution finale : Une alliance militaire ?"
 japfor.31.d:0 "En apparence à des fins anticoloniales, le moment est venu d'amener les autres participants à la conférence à s'engager dans une alliance militaire complète pour s'opposer à nos rivaux. Il vaut mieux laisser les coups tomber sur eux, après tout !"
 japfor.31.a:0 "Si vous souhaitez la paix, alors préparez-vous à la guerre."
 
 japfor.32.t:0 "Tokyo : Appels à l'action militaire"
 japfor.32.d:0 "La conférence de Tokyo a éclaté aujourd'hui en pleine controverse lorsque les Japonais ont dévoilé leur véritable stratégie : après avoir obtenu de nous un accord économique pour leur projet, ils en ont fait la promotion d'une grande alliance militaire contre l'Allemagne et d'autres "puissances impérialistes occidentales". Cela leur permettrait, bien entendu, de jouer un rôle de premier plan. Sommes-nous vraiment méprisés
-japfor.32.a:0 "Ensemble pour tous les Asiatiques !
+japfor.32.a:0 "Ensemble pour tous les Asiatiques !"
 japfor.32.b:0 "Ils sont sûrement fous !"
 
 japfor.33.t:0 "[From.GetNameDefCap] S'aligne sur le Japon !"
@@ -464,16 +464,16 @@ japfor.34.d:0 "Une communication du Japon est arrivée aujourd'hui, indiquant qu
 japfor.34.a:0 "Bien sûr !"
 japfor.34.b:0 "Bien sûr !"
 
-japfor.340.t:0 "[From.GetNameDefCap] Has Accepted"
-japfor.340.d:0 "Le gouvernement [de.GetAdjective] a vu la sagesse de notre offre et a accepté une place dans notre alliance.
+japfor.340.t:0 "[From.GetNameDefCap] A accepté"
+japfor.340.d:0 "Le gouvernement [de.GetAdjective] a vu la sagesse de notre offre et a accepté une place dans notre alliance."
 japfor.340.a:0 "Excellent."
 
-japfor.341.t:0 "[From.GetNameDefCap] Has Refused"
+japfor.341.t:0 "[From.GetNameDefCap] A refusé"
 japfor.341.d:0 "Le gouvernement [de.GetAdjective] a rejeté notre offre d'alliance."
 japfor.341.a:0 "Un choix insensé."
 
 japfor.342.t:0 "Rejoindre la sphère japonaise"
-japfor.342.d:0 "Ayant indiqué notre intérêt à rejoindre officiellement l'alliance militaire japonaise lors de la conférence de Tokyo, les Japonais sont maintenant arrivés à [Root.GetNameDef] et ont prolongé leur offre en personne.
+japfor.342.d:0 "Ayant indiqué notre intérêt à rejoindre officiellement l'alliance militaire japonaise lors de la conférence de Tokyo, les Japonais sont maintenant arrivés à [Root.GetNameDef] et ont prolongé leur offre en personne."
 japfor.342.a:0 "Il était temps !"
 japfor.342.b:0 "Nous avons reconsidéré..."
 
@@ -582,8 +582,8 @@ japfor.68.t:0 "Les exilés coréens recherchent des soutiens étrangers"
 japfor.68.d:0 "Le gouvernement coréen en exil s'est longtemps contenté d'accumuler des aides mineures. Cependant, l'instabilité croissante au Japon pourrait lui donner une chance de revenir en Corée. Nous avons appris qu'ils cherchaient un allié solide pour les aider dans leur lutte pour l'indépendance".
 japfor.68.a:0 "Troublant"
 
-japfor.69.t:0 "La Corée demande de l'aide
-japfor.69.d:0 "Le gouvernement coréen en exil a demandé à notre gouvernement une aide militaire et politique pour reprendre leurs terres au Japon. Cela causerait beaucoup de peine aux Japonais si nous leur faisions la guerre, mais cela pourrait aussi nous causer d'autres problèmes si la Corée sautait sur l'occasion.
+japfor.69.t:0 "La Corée demande de l'aide"
+japfor.69.d:0 "Le gouvernement coréen en exil a demandé à notre gouvernement une aide militaire et politique pour reprendre leurs terres au Japon. Cela causerait beaucoup de peine aux Japonais si nous leur faisions la guerre, mais cela pourrait aussi nous causer d'autres problèmes si la Corée sautait sur l'occasion."
 japfor.69.a:0 "Un excellent endroit pour déposer les restes de matériel."
 japfor.69.b:0 "Un soutien et une aide complets doivent être apportés."
 japfor.69.c:0 "Nous ne sommes pas intéressés."
@@ -637,7 +637,7 @@ japfor.80.a:0 "Le Japon ne tolérera pas cela".
 japfor.80.b:0 "Invitez-les à parler."
 
 japfor.81.t:0 "Négociations en Corée"
-japfor.81.d:0 "Nous avons invité le gouvernement coréen en exil à discuter de l'avenir de la Corée, car un éventuel soulèvement massif dans la péninsule coréenne menace de déstabiliser notre sphère d'influence âprement acquise et tout projet expansionniste futur !
+japfor.81.d:0 "Nous avons invité le gouvernement coréen en exil à discuter de l'avenir de la Corée, car un éventuel soulèvement massif dans la péninsule coréenne menace de déstabiliser notre sphère d'influence âprement acquise et tout projet expansionniste futur !"
 japfor.81.a:0 "Accorder aux Coréens une indépendance partielle."
 japfor.81.b:0 "Les pourparlers sont rompus."
 
@@ -673,7 +673,7 @@ japfor.104.d:0 "La péninsule coréenne étant plongée dans les feux de la rév
 japfor.104.a:0 "Imposez le blocus naval !"
 
 japfor.105.t:0 "Blocus naval japonais"
-japfor.105.d:0 "Dans une tentative désespérée d'empêcher notre victoire inévitable, la marine impériale japonaise a mis en place un blocus autour de toute la péninsule coréenne.
+japfor.105.d:0 "Dans une tentative désespérée d'empêcher notre victoire inévitable, la marine impériale japonaise a mis en place un blocus autour de toute la péninsule coréenne."
 japfor.105.a:0 "Ils ne peuvent pas nous arrêter !"
 
 japfor.106.t:0 "Faire respecter le blocus naval"
@@ -682,7 +682,7 @@ japfor.106.a:0 "Continuez le blocus !"
 japfor.106.b:0 "Mettez fin au blocus."
 
 japfor.107.t:0 "Fin du blocus naval"
-japfor.107.d:0 "Les combats sur la péninsule coréenne étant définitivement terminés, il est temps pour notre marine de mettre fin à ce blocus long et coûteux.
+japfor.107.d:0 "Les combats sur la péninsule coréenne étant définitivement terminés, il est temps pour notre marine de mettre fin à ce blocus long et coûteux."
 japfor.107.a:0 "Mettre fin au blocus."
 
 japfor.108.t:0 "Le blocus naval prend fin !"
@@ -690,7 +690,7 @@ japfor.108.d:0 "La marine impériale japonaise, confrontée à de graves problè
 japfor.108.a:0 "Nous allons gagner !"
 
 japfor.109.t:0 "La rébellion coréenne écrasée"
-japfor.109.d:0 "Nos glorieuses forces armées ont vaincu de manière décisive la populace coréenne, les forçant à abandonner leur lutte futile !
+japfor.109.d:0 "Nos glorieuses forces armées ont vaincu de manière décisive la populace coréenne, les forçant à abandonner leur lutte futile !"
 japfor.109.a:0 "Excellent !"
 
 japfor.110.t:0 "Les colons japonais en Corée"
@@ -708,7 +708,7 @@ japfor.112.a:0 "Hm ? Quel rapport des services secrets ? Je n'ai rien entendu à
 japfor.112.b:0 "Je leur ai juste envoyé une lettre très ferme, ils l'ignoreront à coup sûr."
 
 japfor.113.t:0 "Une lettre de l'Allemagne avec des mots forts"
-japfor.113.d:0 "Nous venons de recevoir une lettre très ferme de l'Allemagne nous rappelant à quel point ce que nous nous apprêtons à faire est illégal, comment cela pourrait entraîner des pertes de vies humaines et comment l'Allemagne serait très mécontente si nous entrions en guerre avec la Russie.
+japfor.113.d:0 "Nous venons de recevoir une lettre très ferme de l'Allemagne nous rappelant à quel point ce que nous nous apprêtons à faire est illégal, comment cela pourrait entraîner des pertes de vies humaines et comment l'Allemagne serait très mécontente si nous entrions en guerre avec la Russie."
 japfor.113.a:0 "C'est presque comme s'ils voulaient que nous entrions en guerre."
 
 japfor.114.t:0 "Opération Kuma"
@@ -716,13 +716,13 @@ japfor.114.d:0 "Nos troupes sont positionnées de manière décisive le long des
 japfor.114.a:0 "En avant !"
 
 japfor.176.t:0 "Exigences japonaises"
-japfor.176.d:0 "Le consulat du Japon est venu nous voir ce matin avec une simple demande : livrer les Indes orientales ou en assumer les conséquences. Nous ne pouvons pas faire face seuls à leurs flottes, que pouvons-nous faire ?
+japfor.176.d:0 "Le consulat du Japon est venu nous voir ce matin avec une simple demande : livrer les Indes orientales ou en assumer les conséquences. Nous ne pouvons pas faire face seuls à leurs flottes, que pouvons-nous faire ?"
 japfor.176.a:0 "Supplie le Kaiser de nous aider !"
 japfor.176.b:0 "Répondez à leurs demandes !"
 japfor.176.c:0 "Ignorez les demandes ! Nous pouvons les prendre !"
 
 japfor.177.t:0 "Les Pays-Bas supplient le Kaiser de nous aider !"
-japfor.177.d:0 "La semaine dernière, les Japonais ont demandé aux Pays-Bas de leur donner les Indes orientales. Les Néerlandais nous ont suppliés de les protéger de l'agression japonaise. Si les Japonais obtenaient ce qu'ils veulent, ils seraient dangereusement proches de nos exploitations en Malaisie et en Papouasie-Nouvelle-Guinée. Que devrions-nous faire ?
+japfor.177.d:0 "La semaine dernière, les Japonais ont demandé aux Pays-Bas de leur donner les Indes orientales. Les Néerlandais nous ont suppliés de les protéger de l'agression japonaise. Si les Japonais obtenaient ce qu'ils veulent, ils seraient dangereusement proches de nos exploitations en Malaisie et en Papouasie-Nouvelle-Guinée. Que devrions-nous faire ?"
 japfor.177.a:0 "Nous sommes aux côtés de nos frères néerlandais !"
 japfor.177.b:0 "Nous ne pouvons pas nous permettre de nous opposer aux Japonais."
 
@@ -785,7 +785,7 @@ japfor.190.t:0 "Les Japonais exigent"
 japfor.190.d:0 "Nous avons reçu un message des Japonais demandant notre reddition complète à leurs forces armées et le transfert de l'administration de nos territoires à leur haut commandement militaire. Nous avons reçu des informations selon lesquelles leur marine est en train d'être déployée sur nos côtes. Nous ne pouvons pas les combattre seuls, que devons-nous faire ?"
 
 japfor.191.t:0 "L'Indonésie implore de l'aide !"
-japfor.191.d:0 "La semaine dernière, les Japonais ont exigé de l'Indonésie qu'elle capitule complètement lors de l'annexion officielle. Les Indonésiens sont venus nous supplier de les protéger contre l'agression japonaise. Si les Japonais obtenaient ce qu'ils veulent, ils seraient dangereusement proches de nos exploitations en Malaisie et en Papouasie-Nouvelle-Guinée. Que devrions-nous faire ?
+japfor.191.d:0 "La semaine dernière, les Japonais ont exigé de l'Indonésie qu'elle capitule complètement lors de l'annexion officielle. Les Indonésiens sont venus nous supplier de les protéger contre l'agression japonaise. Si les Japonais obtenaient ce qu'ils veulent, ils seraient dangereusement proches de nos exploitations en Malaisie et en Papouasie-Nouvelle-Guinée. Que devrions-nous faire ?"
 
 japfor.192.t:0 "L'Allemagne soutient l'Indonésie"
 japfor.192.d:0 "Les lâches Indonésiens ont couru vers les Allemands pour se protéger et ils font maintenant partie de leur alliance. Cette insolence ne peut rester impunie !"
@@ -809,7 +809,7 @@ japfor.202.a:0 "Nous n'avons pas le choix."
 japfor.202.b:0 "C'est de leur faute."
 
 japfor.203.t:0 "Fengtian nous blâme pour la crise de l'argent !"
-japfor.203.d:0 "Fengtian a dénoncé haut et fort notre gouvernement, citant ce qu'ils disent être un complot délibéré pour déstabiliser leur gouvernement par l'éruption de leur récente Crise de l'Argent, citant les demandes incidentes de la Banque du Japon et de la Mitsui Bank pour le remboursement des prêts garantis par la réserve d'argent de Fengtian. La réserve contenant apparemment beaucoup moins que ce que le gouvernement Fengtian prétendait, son économie est devenue incontrôlable, le gouvernement perdant sa crédibilité d'heure en heure, et il semble probable que cette tentative grossière et insensée de détourner les reproches soit surtout une réaction à leur situation politique interne. Tout de même, nous pouvons nier ces affirmations ridicules, mais pouvons-nous aussi laisser cette grave insolence impunie ?
+japfor.203.d:0 "Fengtian a dénoncé haut et fort notre gouvernement, citant ce qu'ils disent être un complot délibéré pour déstabiliser leur gouvernement par l'éruption de leur récente Crise de l'Argent, citant les demandes incidentes de la Banque du Japon et de la Mitsui Bank pour le remboursement des prêts garantis par la réserve d'argent de Fengtian. La réserve contenant apparemment beaucoup moins que ce que le gouvernement Fengtian prétendait, son économie est devenue incontrôlable, le gouvernement perdant sa crédibilité d'heure en heure, et il semble probable que cette tentative grossière et insensée de détourner les reproches soit surtout une réaction à leur situation politique interne. Tout de même, nous pouvons nier ces affirmations ridicules, mais pouvons-nous aussi laisser cette grave insolence impunie ?"
 japfor.203.a:0 "Fausses accusations !"
 japfor.203.b:0 "Punissez cette insolence !"
 
@@ -838,16 +838,16 @@ japfor.213.a:0 "Envoyez-leur une offre."
 japfor.213.b:0 "Nous ne nous rendrons jamais !"
 
 japfor.214.t:0 "La Russie offre la paix"
-japfor.214.d:0 "La Russie nous a offert la Sibérie en échange de la paix, c'est une offre généreuse, acceptons-nous ?
+japfor.214.d:0 "La Russie nous a offert la Sibérie en échange de la paix, c'est une offre généreuse, acceptons-nous ?"
 japfor.214.a:0 "Assez de cette guerre. Nous acceptons !"
 japfor.214.b:0 "Rien d'autre qu'une victoire totale !"
 
 japfor.215.t:0 "Les Philippines ont accepté notre offre"
-japfor.215.d:0 "Les Philippines ont choisi de nous rejoindre, elles ont sagement vu que la résistance serait vaine et ont plutôt choisi de devenir notre allié.
+japfor.215.d:0 "Les Philippines ont choisi de nous rejoindre, elles ont sagement vu que la résistance serait vaine et ont plutôt choisi de devenir notre allié."
 japfor.215.a:0 "C'est bon à entendre."
 
 japfor.216.t:0 "Les Philippines ont rejoint l'Entente"
-japfor.216.d:0 "Les Philippines ont choisi de rejoindre l'Entente ; elles ont refusé l'offre d'amitié. Cela ne doit pas rester impuni, mais l'Entente est forte, nous devons donc faire notre possible.
+japfor.216.d:0 "Les Philippines ont choisi de rejoindre l'Entente ; elles ont refusé l'offre d'amitié. Cela ne doit pas rester impuni, mais l'Entente est forte, nous devons donc faire notre possible."
 japfor.216.a:0 "Bientôt, bientôt."
 
 japfor.217.t:0 "Les Philippines ont rejoint le Reichspakt"
@@ -882,7 +882,7 @@ japfor.229.d:0 "Maintenant que nous avons placé leurs provinces continentales s
 japfor.229.a:0 "Une bonne affaire."
 
 japfor.230.t:0 "Le soleil qui s'éteint"
-japfor.230.d:0 "C'est un jour sombre pour l'Empire du Soleil. Les forces ennemies ont chassé nos hommes de leurs bases vitales en Mandchourie et en Corée ; même nos généraux les plus optimistes pensent qu'il y a peu de chances de contre-attaque. Si nous proposons des conditions, peut-être pourrons-nous garder les îles de la Maison intacte et assurer la sécurité de l'Empereur. Selon nos diplomates, une conférence de deux semaines à Port Author pourrait suffire pour négocier un accord, mais c'est loin d'être certain. Devrions-nous tout offrir pour assurer la sécurité de nos foyers ?
+japfor.230.d:0 "C'est un jour sombre pour l'Empire du Soleil. Les forces ennemies ont chassé nos hommes de leurs bases vitales en Mandchourie et en Corée ; même nos généraux les plus optimistes pensent qu'il y a peu de chances de contre-attaque. Si nous proposons des conditions, peut-être pourrons-nous garder les îles de la Maison intacte et assurer la sécurité de l'Empereur. Selon nos diplomates, une conférence de deux semaines à Port Author pourrait suffire pour négocier un accord, mais c'est loin d'être certain. Devrions-nous tout offrir pour assurer la sécurité de nos foyers ?"
 japfor.230.a:0 "Nous ne cédons que parce que nous n'avons pas le choix."
 japfor.230.b:0 "Le Japon ne se rendra jamais !"
 
@@ -912,7 +912,7 @@ japfor.235.a:0 "Je pensais qu'ils étaient plus forts que ça..."
 # Impliquant Anqing
 
 japfor.250.t:0 "Anqing et Fengtian demandent notre aide"
-japfor.250.d:0 "La Clique d'Anqing, qui a récemment remporté la victoire contre la Ligue grâce à notre aide, a demandé notre soutien. Si nous investissons des capitaux importants et les aidons à reconstruire à grande échelle, ils pensent qu'une attaque contre Pékin est possible dans un avenir relativement proche. Le gouvernement fengtien est d'accord avec Anqing et nous a donc relayé cette demande. Que ferons-nous ?
+japfor.250.d:0 "La Clique d'Anqing, qui a récemment remporté la victoire contre la Ligue grâce à notre aide, a demandé notre soutien. Si nous investissons des capitaux importants et les aidons à reconstruire à grande échelle, ils pensent qu'une attaque contre Pékin est possible dans un avenir relativement proche. Le gouvernement fengtien est d'accord avec Anqing et nous a donc relayé cette demande. Que ferons-nous ?"
 japfor.250.a:0 "Nous allons engager des ressources."
 japfor.250.b:0 "Ça n'en vaut pas la peine."
 
@@ -920,7 +920,7 @@ japfor.251.t:0 "Le fengtien choisit d'attendre"
 japfor.251.d:0 "Le gouvernement fengtien a décidé que la valeur de la Clique d'Anqing est trop importante pour être gaspillée immédiatement et a donc décidé qu'il valait mieux retarder sa guerre de récupération afin de permettre à Anqing de se rétablir par ses propres moyens. C'est très probablement une sage décision, car elle permettra aux deux gouvernements de devenir plus stables".
 japfor.251.a:0 "Bon"
 
-japfor.252.t:0 "Fengtian Wants to Strike Soon" (Les Fengtiens veulent frapper bientôt)
+japfor.252.t:0 "Les Fengtiens veulent frapper bientôt"
 japfor.252.d:0 "Le gouvernement Fengtian estime que le gouvernement de Pékin est actuellement incroyablement faible. Avoir la Clique d'Anqing de son côté, même s'ils sont dans une position difficile en raison de la récente guerre de la Ligue, est un avantage qu'ils pensent devoir être utilisé immédiatement. Cependant, ils sont arrivés à la conclusion qu'une attaque aussi rapide serait suicidaire si nous ne soutenons pas leur décision. Leur opération est risquée, mais pourrait potentiellement mettre une grande partie de la Chine sous notre influence en quelques mois..."
 japfor.252.a:0 "Soutenez-les !"
 japfor.252.b:0 "C'est trop risqué."
@@ -950,15 +950,15 @@ japfor.258.t:0 "Anqing commence la reconstruction"
 japfor.258.d:0 "Avec notre aide, Anqing a commencé la reconstruction."
 japfor.258.a:0 "Bien."
 
-japfor.259.t:0 "Anqing Abandons Reclamation"
+japfor.259.t:0 " Abandon des revendications d'Anqing " 
 japfor.259.d:0 "Anqing s'est détaché du projet de poldérisation, et Fengtian a tracé une ligne dans le sable. Nous avons dû arrêter de leur envoyer de l'aide pour leur reconstruction".
 japfor.259.a:0 "Ainsi soit-il."
 
-japfor.260.t:0 "Anqing Abandons Reclamation" (Réclamation des Abandons d'Anqing)
+japfor.260.t:0 "Abandon des revendications d'Anqing" 
 japfor.260.d:0 "Anqing s'est séparé du projet de réhabilitation, mais Fengtian a décidé de ne pas les retirer de la reconstruction, les choses semblent pouvoir continuer malgré tout."
 japfor.260.a:0 "C'est bon à entendre."
 
-japfor.261.t:0 "Anqing Abandons Reclamation"
+japfor.261.t:0 "Abandon des revendications d'Anqing" 
 japfor.261.d:0 "Anqing s'est détaché du projet de réhabilitation, et bien que Fengtian ait décidé de ne pas les retirer de la reconstruction, Anqing s'est quand même détaché de son propre chef".
 japfor.261.a:0 "Eh bien, c'était inutile."
 
@@ -974,7 +974,7 @@ japfor.317.d:0 "Aucune objection n'a été enregistrée par les Américains qui 
 japfor.317.a:0 "Subarashi !"
 
 japfor.318.t:0 "L'objet américain"
-japfor.318.d:0 "Une protestation diplomatique est arrivée aujourd'hui, nous avertissant que si nous réalisons notre plan d'occupation des îles du Pacifique, nous devrons faire face à de graves conséquences.
+japfor.318.d:0 "Une protestation diplomatique est arrivée aujourd'hui, nous avertissant que si nous réalisons notre plan d'occupation des îles du Pacifique, nous devrons faire face à de graves conséquences."
 japfor.318.a:0 "Appelez-les au bluff !"
 japfor.318.b:0 "Nous allons reculer..."
 
@@ -993,8 +993,8 @@ japfor.402.t:0 "[From.GetNameDefCap] A accepté"
 japfor.402.d:0 "Le gouvernement [de.GetAdjective] a vu la sagesse et les avantages économiques qu'apporterait l'intégration dans notre sphère économique. Ils ont accepté nos conditions".
 japfor.402.a:0 "Excellent."
 
-japfor.403.t:0 "[From.GetNameDefCap] Has Refused"
-japfor.403.d:0 "Le gouvernement [de.GetAdjective], craignant peut-être nos véritables motivations, a décliné notre offre de rejoindre la sphère économique japonaise.
+japfor.403.t:0 "[From.GetNameDefCap] A refusé"
+japfor.403.d:0 "Le gouvernement [de.GetAdjective], craignant peut-être nos véritables motivations, a décliné notre offre de rejoindre la sphère économique japonaise."
 japfor.403.a:0 "Un choix peu judicieux."
 
 japfor.405.t:0 "Augmentation des investissements japonais"
@@ -1002,7 +1002,7 @@ japfor.405.d:0 "Grâce à l'encouragement actif du gouvernement [From.GetAdjecti
 japfor.405.a:0 "Investisseurs signifie plus d'argent, n'est-ce pas ?"
 
 japfor.406.t:0 "Les investisseurs construisent des usines"
-japfor.406.d:0 "Les investisseurs japonais dans [Root.GetNameDef] ont été occupés à créer de nouvelles usines - un avantage mesurable de notre participation dans la sphère de coprospérité asiatique, semble-t-il.
+japfor.406.d:0 "Les investisseurs japonais dans [Root.GetNameDef] ont été occupés à créer de nouvelles usines - un avantage mesurable de notre participation dans la sphère de coprospérité asiatique, semble-t-il."
 japfor.406.a:0 "C'est bien !"
 
 japfor.407.t:0 "[Root.GetAdjective] L'asservissement au Japon"
@@ -1027,7 +1027,7 @@ japfor.411.d:0 "Ayant rejoint le [withdraw_country.GetFactionName], [withdraw_co
 japfor.411.a:0 "Un geste insensé de leur part."
 
 japfor.412.t:0 "Se retirer de la sphère japonaise"
-japfor.412.d:0 "Avec notre adhésion à [Root.GetFactionName], nous ne pouvons plus être considérés comme faisant partie de la sphère économique du Japon.
+japfor.412.d:0 "Avec notre adhésion à [Root.GetFactionName], nous ne pouvons plus être considérés comme faisant partie de la sphère économique du Japon."
 japfor.412.a:0 "Qu'il en soit ainsi !"
 
 japfor.450.t:0 "Embargos sur le Japon [Root.GetNameDef] !"
@@ -1042,7 +1042,7 @@ japfor.451.a:0 "Oui, mais pas encore..."
 japfor.451.b:0 "Répondez par une action militaire !"
 
 japfor.452.t:0 "[From.GetNameDefCap] Demande des liens plus étroits"
-japfor.452.d:0 "En réponse à notre embargo, le gouvernement [de.GetAdjective] a demandé à faire partie de notre sphère économique, croyant clairement qu'il est préférable de travailler avec nous que contre nous.
+japfor.452.d:0 "En réponse à notre embargo, le gouvernement [de.GetAdjective] a demandé à faire partie de notre sphère économique, croyant clairement qu'il est préférable de travailler avec nous que contre nous."
 japfor.452.a:0 "Encore mieux !"
 
 japfor.453.t:0 "[De.GetNameDefCap] ne fait rien"
@@ -1051,7 +1051,7 @@ japfor.453.a:0 "Ainsi soit-il !"
 
 ### Événements fengtiens ###
 japfeng.1.t:0 "Notre influence en Mandchourie"
-japfeng.1.d:0 "Depuis de nombreuses années maintenant, nous avons travaillé pour prendre le contrôle de la Mandchourie, et à long terme de toute la Chine, par le biais d'un groupe d'intérêts panasiatiques connu sous le nom d'Association Concordia. Il s'agit d'un parti politique qui cherche à promouvoir des points de vue pro-japonais dans [FNG.GetNameDef] et à maintenir [FNG.GetLeader] sous son contrôle. À long terme, ses objectifs sont d'étendre le contrôle économique japonais sur la Mandchourie en partenariat avec Mantetsu, et d'amener lentement la Chine dans notre orbite également. En dehors de la politique des autorités civiles de la Mandchourie, il y a notre propre armée, l'armée Kwantung, qui est notoirement ambitieuse. Depuis des décennies maintenant, l'armée cherche à conquérir et annexer la Mandchourie, et ses méthodes de travail préférées et sa patience pour travailler avec des gens comme [FNG.GetLeader] sont tristement brutales et faibles respectivement./n/n Récemment, les objectifs politiques du gouvernement ont changé, la situation de guerre à laquelle nous sommes confrontés rend l'indépendance politique du [FNG.GetNameDef] est de moins en moins adaptée à mesure que certains alliés gagnent en valeur. Nous sommes confrontés à un choix : faisons-nous confiance à l'Association Concordia et au pouvoir souple qu'elle n'a cessé de développer, ou allons-nous laisser l'armée lâcher prise et faire tomber Zhang par tous les moyens nécessaires ?
+japfeng.1.d:0 "Depuis de nombreuses années maintenant, nous avons travaillé pour prendre le contrôle de la Mandchourie, et à long terme de toute la Chine, par le biais d'un groupe d'intérêts panasiatiques connu sous le nom d'Association Concordia. Il s'agit d'un parti politique qui cherche à promouvoir des points de vue pro-japonais dans [FNG.GetNameDef] et à maintenir [FNG.GetLeader] sous son contrôle. À long terme, ses objectifs sont d'étendre le contrôle économique japonais sur la Mandchourie en partenariat avec Mantetsu, et d'amener lentement la Chine dans notre orbite également. En dehors de la politique des autorités civiles de la Mandchourie, il y a notre propre armée, l'armée Kwantung, qui est notoirement ambitieuse. Depuis des décennies maintenant, l'armée cherche à conquérir et annexer la Mandchourie, et ses méthodes de travail préférées et sa patience pour travailler avec des gens comme [FNG.GetLeader] sont tristement brutales et faibles respectivement./n/n Récemment, les objectifs politiques du gouvernement ont changé, la situation de guerre à laquelle nous sommes confrontés rend l'indépendance politique du [FNG.GetNameDef] est de moins en moins adaptée à mesure que certains alliés gagnent en valeur. Nous sommes confrontés à un choix : faisons-nous confiance à l'Association Concordia et au pouvoir souple qu'elle n'a cessé de développer, ou allons-nous laisser l'armée lâcher prise et faire tomber Zhang par tous les moyens nécessaires ?"
 japfeng.1.a:0 "Si l'oiseau ne chante pas..."
 
 japfeng.2.t:0 "Un changement de mer..."
