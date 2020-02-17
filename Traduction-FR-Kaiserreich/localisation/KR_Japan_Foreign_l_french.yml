@@ -289,8 +289,8 @@ JAP_final_victory_desc:0 "Enfin, la victoire est à notre portée. Le Japon est 
 ### Sphère de coprospérité ###
 JAP_co_prosperity_decisions:0 "La sphère de coprospérité japonaise"
 JAP_co_prosperity_decisions_desc:0 "Notre alliance nationale est celle des Asiatiques qui travaillent ensemble pour renverser l'influence de l'impérialisme occidental. Ensemble, nous prospérerons, et le Japon prospérera encore plus grâce à ces alliés qui nous élèvent toujours plus haut.\n\NLes membres actuels de notre sphère économique : [JAP_ally0] [JAP_ally1] [JAP_ally2] [JAP_ally3] [JAP_ally4] [JAP_ally5] [JAP_ally6] [JAP_ally7] [JAP_ally8] [JAP_ally9] [JAP_ally10] [JAP_ally11] [JAP_ally12] [JAP_ally13] [JAP_ally14]"
-JAP_invite_into_faction:0 "Inviter [de.GetNameDef] à rejoindre notre Alliance"
-JAP_invite_into_faction_desc:0 "Le gouvernement [de.GetAdjective] ayant indiqué son intérêt pour une alliance lors de la conférence de Tokyo, il ne reste plus qu'une formalité pour conclure nos discussions".
+JAP_invite_into_faction:0 "Inviter [From.GetNameDef] à rejoindre notre Alliance"
+JAP_invite_into_faction_desc:0 "Le gouvernement [From.GetAdjective] ayant indiqué son intérêt pour une alliance lors de la conférence de Tokyo, il ne reste plus qu'une formalité pour conclure nos discussions".
 JAP_invite_into_economic_sphere:0 "Inviter [From.GetNameDef] dans notre sphère économique".
 JAP_invite_into_economic_sphere_desc:0 "[From.GetNameDefCap] est soit une nation non alignée, soit un allié du Japon, et dans les deux cas, c'est un excellent candidat à approcher pour être admis dans notre "sphère de coprospérité de la Grande Asie... pour leur bénéfice et surtout pour le nôtre".
 JAP_invest_in_sphere_member1:0 "Promouvoir l'investissement dans [From.GetNameDef]"
@@ -299,7 +299,7 @@ JAP_invest_in_sphere_member2:0 "Promouvoir l'investissement dans [From.GetNameDe
 JAP_invest_in_sphere_member2_desc:0 "Nous devrions commencer à investir dans [From.GetNameDef], ce qui non seulement nous donnera un accès plus facile à leur commerce mais nous permettra également de construire une présence japonaise dans le pays et, éventuellement, de la reprendre de l'intérieur."
 JAP_invest_in_sphere_member3:0 "Promouvoir l'investissement dans [From.GetNameDef]"
 JAP_invest_in_sphere_member3_desc:0 "Nous devrions commencer à investir dans [From.GetNameDef], ce qui non seulement nous donnera un accès plus facile à leur commerce mais nous permettra également de construire une présence japonaise dans le pays et, éventuellement, de la reprendre de l'intérieur."
-JAP_economic_sphere_takeover:0 "Prendre le relais [de.GetNameDef]" 
+JAP_economic_sphere_takeover:0 "Prendre le relais [From.GetNameDef]" 
 JAP_economic_sphere_takeover_desc:0 "Notre pénétration économique de [From.GetNameDef] s'est développée au point que [Root.GetNameDef] les domine entièrement. Le gouvernement [From.GetAdjective] est déjà soumis à nos souhaits... il ne reste plus qu'à se débarrasser de la fiction polie de leur indépendance".
 JAP_co_prosperity_member_decisions:0 "La sphère de coprospérité japonaise"
 JAP_co_prosperity_member_decisions_desc:0 "La sphère de coprospérité est composée d'une partie d'alliance militaire et d'une partie de coopération économique - bien que ces deux aspects soient dominés par [JAP.GetNameDef], qui domine l'Asie de l'Est. Les Japonais sont déterminés à lutter contre l'empiètement de l'impérialisme occidental, même si - dans une certaine mesure - cela signifie qu'ils deviennent eux-mêmes impérialistes".
@@ -313,14 +313,14 @@ JAP_nationalize_japanese_investments_desc:0 "La présence croissante des investi
 ### Décisions de guerre ###
 JAP_threaten_philippines:0 "Menacer les Philippines"
 JAP_threaten_philippines_desc:0 "Maintenant que les Américains sont partis, nous pouvons envoyer nos canonnières pour sécuriser l'archipel pour la sphère de coprospérité et apporter la stabilité aux îles. Bien sûr, les Philippins pourraient ne pas voir les choses de cette façon".
-JAP_attack_indochina:0 " Attaquer [de.GetNameDef] ".
+JAP_attack_indochina:0 " Attaquer [From.GetNameDef] ".
 JAP_attack_indochina_desc:0 "Un [From.GetNameDef] indépendant ne peut être autorisé, pas dans notre sphère d'influence. Nous devons agir immédiatement !"
-JAP_attack_india:0 "Attaque [De.GetNameDef]"
+JAP_attack_india:0 "Attaque [From.GetNameDef]"
 JAP_attack_india_desc:0 "Si nous devons prendre le commandement du sous-continent indien, [From.GetNameDef] devrait être notre prochaine cible."
-JAP_attack_australia:0 "Attaque [De.GetNameDef]"
+JAP_attack_australia:0 "Attaque [From.GetNameDef]"
 JAP_attack_australia_desc:0 "[From.GetNameDefCap] se situe dans notre sphère d'intérêt du Pacifique, et le temps est venu de faire respecter notre volonté à leur égard."
 JAP_invade_manchuria:0 "Envahissez [From.GetNameDef] !"
-JAP_invade_manchuria_desc:0 "Alors [de.GetLeader] veut nous trahir, c'est ça ? Eh bien, [Root.GetNameDef] ne va pas s'asseoir et attendre qu'ils agissent. Nous frapperons le premier coup !"
+JAP_invade_manchuria_desc:0 "Alors [From.GetLeader] veut nous trahir, c'est ça ? Eh bien, [Root.GetNameDef] ne va pas s'asseoir et attendre qu'ils agissent. Nous frapperons le premier coup !"
 
 ### Influence en Chine ###
 JAP_influence_china:0 "Influencer la Chine"
@@ -335,15 +335,15 @@ JAP_support_offensive:0 "Soutenez l'offensive de [GetNameDef]".
 JAP_provide_planes:0 "Donner [From.GetNameDef] accès aux modèles de combattant"
 
 ### Diviser et conquérir ###
-support_chinese_seperatists:0 " Soutien [de.GetAdjectiveCap] à l'indépendance"
+support_chinese_seperatists:0 " Soutien [From.GetAdjectiveCap] à l'indépendance"
 send_ETS_tartar_guy:0 "Envoyez Abdurresid Ibrahim à [ETS.GetName]".
-arms_factories_to_weaker_chinese_tags:0 "Fournir l'armée [de.GetAdjective]".
-bailout_weak_tags:0 "Offre [de.GetNameDef] de renflouement"
+arms_factories_to_weaker_chinese_tags:0 "Fournir l'armée [From.GetAdjective]".
+bailout_weak_tags:0 "Offre [From.GetNameDef] de renflouement"
 JAP_manchurian_gambit:0 "Le gambit de Mandchourie"
 JAP_manchurian_gambit_desc:0 "Notre invasion de la Chine du Nord-Est se déroule bien et nous faisons des progrès significatifs. La Mandchourie a toujours été considérée comme le deuxième pays, après la Corée, pour ce qui est de la dague pointée au cœur même du Japon. C'est pourquoi certaines voix demandent qu'elle devienne un État fantoche, en exploitant la culture minoritaire mandchoue de la région pour faire du "Manchukuo" notre marionnette".
 
 ### Projets Mantetsu ###
-develop_generic_tag:0 "Développer l'industrie de l'armement [de.GetNameDef]".
+develop_generic_tag:0 "Développer l'industrie de l'armement [From.GetNameDef]".
 major_railroad_investment:0 "Investissement majeur [From.GetAdjectiveCap] dans les chemins de fer"
 minor_railroad_investment:0 "Investissement mineur [From.GetAdjectiveCap] dans les chemins de fer"
 develop_fengtian:0 "Développer l'industrie de l'armement [FNG.GetNameDef]".
@@ -407,7 +407,7 @@ japfor.21.d:0 "Les Japonais ont envoyé une invitation à leur "Conférence pana
 japfor.21.a:0 "Prépare mon meilleur costume."
 japfor.21.b:0 "Restons à la maison cette année."
 
-japfor.22.t:0 "[De.GetNameDefCap] participe à la conférence de Tokyo"
+japfor.22.t:0 "[From.GetNameDefCap] participe à la conférence de Tokyo"
 japfor.22.d:0 "Des représentants de [From.GetNameDef] sont arrivés à Tokyo et les discussions sont en bonne voie".
 japfor.22.a:0 "Bienvenue !"
 
@@ -425,7 +425,7 @@ japfor.25.a:0 "Bien sûr !"
 japfor.25.b:0 "Nous ne préférerions pas (abandonner la conférence)"
 
 japfor.26.t:0 "[From.GetNameDefCap] Drops out" (abandon de la version anglaise)
-japfor.26.d:0 "Il semblerait que les dignitaires [de.GetAdjective] aient été mal à l'aise avec nos propositions à la conférence de Tokyo et aient décidé d'abandonner les pourparlers".
+japfor.26.d:0 "Il semblerait que les dignitaires [From.GetAdjective] aient été mal à l'aise avec nos propositions à la conférence de Tokyo et aient décidé d'abandonner les pourparlers".
 japfor.26.a:0 "Honte !"
 
 japfor.27.t:0 "Tokyo : Résolution sur le commerce"
@@ -465,11 +465,11 @@ japfor.34.a:0 "Bien sûr !"
 japfor.34.b:0 "Bien sûr !"
 
 japfor.340.t:0 "[From.GetNameDefCap] A accepté"
-japfor.340.d:0 "Le gouvernement [de.GetAdjective] a vu la sagesse de notre offre et a accepté une place dans notre alliance."
+japfor.340.d:0 "Le gouvernement [From.GetAdjective] a vu la sagesse de notre offre et a accepté une place dans notre alliance."
 japfor.340.a:0 "Excellent."
 
 japfor.341.t:0 "[From.GetNameDefCap] A refusé"
-japfor.341.d:0 "Le gouvernement [de.GetAdjective] a rejeté notre offre d'alliance."
+japfor.341.d:0 "Le gouvernement [From.GetAdjective] a rejeté notre offre d'alliance."
 japfor.341.a:0 "Un choix insensé."
 
 japfor.342.t:0 "Rejoindre la sphère japonaise"
@@ -571,7 +571,7 @@ japfor.64.a:0 "Offrez notre protection."
 japfor.64.b:0 "Ils nous ont laissés, vous vous souvenez ?"
 
 japfor.65.t:0 "Hawaii a le soutien des Américains"
-japfor.65.d:0 "Hawaii résiste à nos exigences et [de.GetNameDef] soutient sa revendication d'indépendance."
+japfor.65.d:0 "Hawaii résiste à nos exigences et [From.GetNameDef] soutient sa revendication d'indépendance."
 japfor.65.a:0 "Nous les détruirons de toute façon."
 japfor.65.b:0 "Reculez, nous pourrons revenir plus tard."
 
@@ -990,11 +990,11 @@ japfor.401.a:0 "Nous acceptons leur offre."
 japfor.401.b:0 "Nous n'avons pas besoin de ça."
 
 japfor.402.t:0 "[From.GetNameDefCap] A accepté"
-japfor.402.d:0 "Le gouvernement [de.GetAdjective] a vu la sagesse et les avantages économiques qu'apporterait l'intégration dans notre sphère économique. Ils ont accepté nos conditions".
+japfor.402.d:0 "Le gouvernement [From.GetAdjective] a vu la sagesse et les avantages économiques qu'apporterait l'intégration dans notre sphère économique. Ils ont accepté nos conditions".
 japfor.402.a:0 "Excellent."
 
 japfor.403.t:0 "[From.GetNameDefCap] A refusé"
-japfor.403.d:0 "Le gouvernement [de.GetAdjective], craignant peut-être nos véritables motivations, a décliné notre offre de rejoindre la sphère économique japonaise."
+japfor.403.d:0 "Le gouvernement [From.GetAdjective], craignant peut-être nos véritables motivations, a décliné notre offre de rejoindre la sphère économique japonaise."
 japfor.403.a:0 "Un choix peu judicieux."
 
 japfor.405.t:0 "Augmentation des investissements japonais"
@@ -1010,15 +1010,15 @@ japfor.407.d:0 "Si l'on craignait que la poursuite des investissements japonais 
 japfor.407.a:0 "Ainsi soit-il"
 
 japfor.408.t:0 "[From.GetNameDefCap] Met fin à l'alliance"
-japfor.408.d:0 "Le gouvernement [de.GetAdjective] a stupidement choisi de mettre fin à son alliance militaire avec nous. Il semble qu'ils pensent pouvoir y arriver sans notre aide."
+japfor.408.d:0 "Le gouvernement [From.GetAdjective] a stupidement choisi de mettre fin à son alliance militaire avec nous. Il semble qu'ils pensent pouvoir y arriver sans notre aide."
 japfor.408.a:0 "Nous verrons bien."
 
 japfor.409.t:0 "[From.GetNameDefCap] Se retire de Sphere"
-japfor.409.d:0 "Paniqué par des craintes irrationnelles de nous voir le dominer, le gouvernement [de.GetAdjective] a décidé de mettre fin à sa participation à la sphère de coprospérité asiatique, coupant ainsi les liens entre l'économie [de.GetAdjective] et la nôtre".
+japfor.409.d:0 "Paniqué par des craintes irrationnelles de nous voir le dominer, le gouvernement [From.GetAdjective] a décidé de mettre fin à sa participation à la sphère de coprospérité asiatique, coupant ainsi les liens entre l'économie [From.GetAdjective] et la nôtre".
 japfor.409.a:0 "Comme c'est idiot."
 
-japfor.410.t:0 "[De.GetAdjective] Investissements nationalisés"
-japfor.410.d:0 "Le gouvernement [de.GetAdjective] a pris la mesure drastique de nationaliser de force les investissements que nous avons faits dans [de.GetNameDef], en leur retirant également leur place dans la sphère de coprospérité. Peut-être s'inquiètent-ils de la perspective d'un contrôle japonais sur leur économie ? Si c'est le cas, ils nous ont donné l'excuse d'envahir - si nous voulons les prendre au mot pour leur provocation".
+japfor.410.t:0 "[From.GetAdjective] Investissements nationalisés"
+japfor.410.d:0 "Le gouvernement [From.GetAdjective] a pris la mesure drastique de nationaliser de force les investissements que nous avons faits dans [From.GetNameDef], en leur retirant également leur place dans la sphère de coprospérité. Peut-être s'inquiètent-ils de la perspective d'un contrôle japonais sur leur économie ? Si c'est le cas, ils nous ont donné l'excuse d'envahir - si nous voulons les prendre au mot pour leur provocation".
 japfor.410.a:0 "Laissez-les tranquilles."
 japfor.410.b:0 "Nous leur donnerons une leçon !"
 
@@ -1036,17 +1036,17 @@ japfor.450.a:0 "Nous pouvons endurer cela."
 japfor.450.b:0 "Cela signifie une guerre commerciale !"
 japfor.450.c:0 "Nous devrions nous rapprocher du Japon."
 
-japfor.451.t:0 "[De.GetNameDefCap] Les représailles !"
-japfor.451.d:0 "[De.GetAdjective] Le gouvernement nous a imposé des droits de douane ! Cela nous donne précisément le casus belli que nous espérions !"
+japfor.451.t:0 "[From.GetNameDefCap] Les représailles !"
+japfor.451.d:0 "[From.GetAdjective] Le gouvernement nous a imposé des droits de douane ! Cela nous donne précisément le casus belli que nous espérions !"
 japfor.451.a:0 "Oui, mais pas encore..."
 japfor.451.b:0 "Répondez par une action militaire !"
 
 japfor.452.t:0 "[From.GetNameDefCap] Demande des liens plus étroits"
-japfor.452.d:0 "En réponse à notre embargo, le gouvernement [de.GetAdjective] a demandé à faire partie de notre sphère économique, croyant clairement qu'il est préférable de travailler avec nous que contre nous."
+japfor.452.d:0 "En réponse à notre embargo, le gouvernement [From.GetAdjective] a demandé à faire partie de notre sphère économique, croyant clairement qu'il est préférable de travailler avec nous que contre nous."
 japfor.452.a:0 "Encore mieux !"
 
-japfor.453.t:0 "[De.GetNameDefCap] ne fait rien"
-japfor.453.d:0 "Le gouvernement lâche [de.GetAdjective] a choisi de ne rien faire en réponse à notre embargo. Il a simplement l'intention de l'endurer. Si nous voulons les entraîner dans une guerre, nous devrons le faire à la dure."
+japfor.453.t:0 "[From.GetNameDefCap] ne fait rien"
+japfor.453.d:0 "Le gouvernement lâche [From.GetAdjective] a choisi de ne rien faire en réponse à notre embargo. Il a simplement l'intention de l'endurer. Si nous voulons les entraîner dans une guerre, nous devrons le faire à la dure."
 japfor.453.a:0 "Ainsi soit-il !"
 
 ### Événements fengtiens ###
