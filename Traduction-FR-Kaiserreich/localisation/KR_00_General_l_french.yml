@@ -22,21 +22,6 @@ india:0 "Inde"
 KR_SPLASH_TITLE:0 "Bienvenue dans Kaiserreich"
 KR_SPLASH_CREDITS:0 "§YCréé par l'équipe KR4 : §!\nAnbory, Arvidus, Beelzebub, Blackfalcon501, Denizz, Dr. Njitram, Drozdovite, Edouard Saladier, Eragaxshim, Fbruchmueller, Flamefang, Go.Jr, Imhungry5462, JacKob, Jeankedezeehond, Jonjon428, Jonny BL, Khalil, Kracc, Krčo, Liegnitz, Maltesefalcon, MantisToboggan, Medizine, OperationsManagementDecisions, PPsyrius, Paul, Pietrus, Rinbro, Roniius, Roparex, Rylock, Sea Lion, Sjarlewis, Stekpanna, The Alpha Dog, Thomahawk2k, Vidyaország, Wladyslaw Sikorski, WordZero, Yard1, Zaddy-Chan et Zankoas\n§YTraduit par : §!\nDarkusios, Klik le Araï, Mouchi, MVMaroIV, Romain1912 et TheAzmyr\n§YAnciennement traduit par : §!\nAegon Targaryen, Demetran, Fanois, Feuxin, Kfateweaver, Le Marocain, Orakle14, Paralux, Remkiller123, Superwaffle et Youkoulélé\n§YTraduction testée par : §!\nChartreuse et Sfera"
 
-### Difficulty ###
-custom_diff_strong_ger:0 "Renforcer l'Empire Allemand"
-custom_diff_strong_frasri:0 "Renforcer l'Internationale"
-custom_diff_strong_entente:0 "Renforcer l'Entente"
-custom_diff_strong_eng:0 "Renforcer l'Union britannique"
-custom_diff_strong_can:0 "Renforcer le Canada"
-custom_diff_strong_rus:0 "Renforcer la Russie"
-custom_diff_strong_sov:0 "Renforcer les Soviets"
-custom_diff_strong_aus:0 "Renforcer l'Autriche"
-custom_diff_strong_usa:0 "Renforcer les États-Unis d'Amérique"
-custom_diff_strong_nfa:0 "Renforcer la France Nationale"
-custom_diff_strong_ita:0 "Renforcer l'Italie"
-custom_diff_strong_jap:0 "Renforcer le Japon"
-custom_diff_strong_qie:0 "Renforcer l'Empire Qing"
-
 ### Autonomy Levels ###
 kr_integrated_puppet:0 "Fantoche Intégré"
 kr_occupied_puppet:0 "Fantoche Occupé"
@@ -57,6 +42,15 @@ puppet_can_become_free:0 "Peut devenir indépendant\n"
 puppet_can_be_annexed:0 "Peut être annexé par le suzerain\n"
 may_raise_autonomy:0 "§Y[Root.GetNameDefCap]§! peut maintenant augmenter le niveau d'autonomie\n"
 may_become_free:0 "§Y[Root.GetNameDefCap]§! peut maintenant œuvrer vers l'indépendance\n"
+
+### Modifiers ###
+KR_trade_laws_cost_factor:0 "Trade Laws Cost"
+KR_economy_cost_factor:0 "Economy Laws Cost"
+chief_of_staff_cost_factor:0 "Chief of Staff Cost"
+chief_of_army_cost_factor:0 "Chief of Army Cost"
+chief_of_navy_cost_factor:0 "Chief of Navy Cost"
+chief_of_air_force_cost_factor:0 "Chief of Air Force Cost"
+weapons_manufacturer_cost_factor:0 "Weapons Manufacturer Cost"
 
 ### Autonomy Events ###
 kr.political.100.t:0 "L'Ordre Restauré en [Root.GetNameDef]"
@@ -135,9 +129,7 @@ Mittelmacht:0 "Reichspakt"
 Entente:0 "Entente"
 Belgrade_Pact:0 "Pacte de Belgrade"
 Third_International:0 "Troisième Internationale"
-Mongolian_Alliance:0 "Grand Khanat"
 Scandinavian_Pact:0 "Pacte Scandinave"
-Mediterranean_Bloc:0 "Bloc Méditerranéen"
 
 ### Déclencheurs personnalisés ####
 had_war:0 "A fait la guerre"
@@ -149,7 +141,6 @@ second_american_civil_war_threat:0 "Début de la Seconde Guerre Civile Américai
 second_russian_civil_war_threat:0 "Début de la Seconde Guerre Civile Russe"
 spanish_civil_war_threat:0 "Début de la Guerre Civile Espagnole"
 second_weltkrieg_threat:0 "Début de la Seconde Grande Guerre"
-rise_mongol_empire_threat:0 "Avènement de l'Empire Mongol"
 fourth_balkan_war_threat:0 "Début de la Quatrième Guerre Balkanique"
 remilitarize_oltenia_threat:0 "Manoeuvres dans les Carpates"
 savoyard_crisis_threat:0 "La Crise de la Romandie a Commencé"
@@ -170,6 +161,11 @@ tooltip_add_idea_command_economy:0 "Changer la loi commerciale en'§YCommand Eco
  unlock_focuses:0 "§GCette priorité sera éventuellement contournée automatiquement et déverrouillera les autres priorités.§!\n"
 command_economy:0 "Economie de commande "
  asked_to_join:0 "La participation a été demandée par une autre nation"
+ received_equipment_500:0 "You received §G500§! infantry equipment from that country\n"
+received_equipment_1000:0 "You received §G1000§! infantry equipment from that country\n"
+received_equipment_1500:0 "You received §G1500§! infantry equipment from that country\n"
+received_equipment_2000:0 "You received §G2000§! infantry equipment from that country\n"
+received_equipment_5000:0 "You received §G5000§! infantry equipment from that country\n"
 
 ### Favoris ###
 
