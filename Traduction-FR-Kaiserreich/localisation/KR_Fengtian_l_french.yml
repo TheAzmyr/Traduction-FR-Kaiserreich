@@ -91,11 +91,11 @@ FNG_Japanese_Economic_Union_3:0 "Union économique japonaise"
 FNG_Expel_the_Japanese_Bandits:0 "Expulsez les bandits japonais !"
 FNG_Expel_the_Japanese_Bandits_desc:0 "Le temps est venu de chasser les intrus japonais de Chine, et de mettre fin à un siècle d'insupportable humiliation nationale !"
 
-FNG_Legitimacy:0 "Légitimité"
+FNG_Legitimacy:0 "Légitimité nationale"
 
  FNG_mantetsu_influence_modifier:0 "£pol_idea Influence de Mantetsu"
  FNG_mantetsu_influence_idea:0 "Influence de Mantetsu"
- FNG_mantetsu_influence_idea_desc:0 "L'influence économique de Mantetsu s'étend à tout le pays et à toute l'Assemblée - parfois bénéfique, parfois simplement bénigne, mais toujours préoccupante. Bien que le gouvernement fengtien s'engage à résister à l'influence japonaise, ces efforts ne dureront peut-être pas éternellement.\n§W--------------\n[MantetsuPP][MantetsuStability][MantetsuWarSupport][MantetsuConstructionSpeed][MantetsuMaxEfficiency][MantetsuFactoryOutput]§!"
+ FNG_mantetsu_influence_idea_desc:0 "L'influence économique de la Mantetsu s'étend à tout le pays et à toute l'Assemblée - parfois bénéfique, parfois simplement bénigne, mais toujours préoccupante. Bien que le gouvernement fengtien soit actuellement engagé à résister à l'influence japonaise, cela ne durera peut-être pas éternellement.\n§W--------------\n[MantetsuPP][MantetsuStability][MantetsuWarSupport][MantetsuConstructionSpeed][MantetsuMaxEfficiency][MantetsuFactoryOutput][MantetsuFactoriesSent]§!"
  FNG_efficient_rail_system_tooltip:0 "Modifie §HL'influence de Mantetsu§! by\nVitesse de construction: §G+10.00%§!\nProduction des usines: §G+10.00%§!\n"
 
  FNG_mantetsu_political_power_text:0 "Gain de pouvoir politique : [?FNG.FNG_mantetsu_political_power|=%+0]\n"
@@ -108,11 +108,14 @@ FNG_Legitimacy:0 "Légitimité"
  FNG_mantetsu_construction_speed_text_last:0 "Vitesse de construction : [?FNG.FNG_mantetsu_construction_speed|=%+]"
  FNG_mantetsu_max_efficiency_text:0 "£prod_eff_cap  Plafond d'efficacité de la production: [?FNG.FNG_mantetsu_max_efficiency|=%+]\n"
  FNG_mantetsu_max_efficiency_text_last:0 "£prod_eff_cap  Plafond d'efficacité de la production: [?FNG.FNG_mantetsu_max_efficiency|=%+]"
- FNG_mantetsu_factory_output_text:0 "Production des usines: [?FNG.FNG_mantetsu_factory_output|=%+]"
+ FNG_mantetsu_factory_output_text:0 "Production des usines: [?FNG.FNG_mantetsu_factory_output|=%+]\n"
+ FNG_mantetsu_factory_output_text_last:0 "Production des usines: [?FNG.FNG_mantetsu_factory_output|=%+]"
+FNG_mantetsu_factories_sent_text:0 "£civ_factory  Usines civiles vers le Japon : [?FNG.FNG_mantetsu_factories|-0]"
+JAP_mantetsu_factories_received_text:0 "\n£civ_factory  Usines civiles de [FNG.GetCliqueShortName]: [?FNG.FNG_mantetsu_factories|+0]"
 
  FNG_mantetsu_profits_modifier:0 "£pol_idea Profits de la Mantetsu"
  FNG_mantetsu_profits:0 "Profits de la Mantetsu"
- FNG_mantetsu_profits_desc:0 "La compagnie de chemin de fer de Mandchourie du Sud, officieusement connue sous le nom de Mantetsu, est présente en Mandchourie depuis la fin de la guerre russo-japonaise. Aujourd'hui, ses activités s'étendent sur toute la largeur de la région et constituent le cœur de son économie industrielle en pleine croissance. Mantetsu fournit plus de revenus bruts au gouvernement japonais que le reste de son empire combiné.\n§W--------------\nGain d'efficacité des ressources : [?FNG.JAP_mantetsu_resource_gain|=%+]\nProduction des usines: [?FNG.JAP_mantetsu_factory_output|=%+]§!"
+FNG_mantetsu_profits_desc:0 "La compagnie de chemin de fer de Mandchourie du Sud, officieusement connue sous le nom de Mantetsu, est présente en Mandchourie depuis la fin de la guerre russo-japonaise. Aujourd'hui, ses activités s'étendent sur toute la largeur de la région et constituent le cœur de son économie industrielle en pleine croissance. Mantetsu fournit plus de revenus bruts au gouvernement japonais que le reste de son empire réuni.\n§W--------------\nGain d'efficacité des ressources: [?FNG.JAP_mantetsu_resource_gain|=%+]\nFactory Output: [?FNG.JAP_mantetsu_factory_output|=%+][MantetsuFactoriesReceived]§!"
 
  FNG_mantetsu_level_very_high_tooltip:0 "Plus de §H50%§! de soutien à §HL'Association Concordia§!"
  FNG_mantetsu_level_high_tooltip:0 "Entre §H30%§! et §H50%§! de soutien à §HL'Association Concordia§!"
@@ -129,8 +132,20 @@ FNG_ANQ_Reconstruction_Plan:0 "Plan de reconstruction d'Anqing"
 FNG_ANQ_Reconstruction_Plan_desc:0 "Pour qu'Anqing se rétablisse rapidement afin de pouvoir nous rejoindre dans la guerre de reconquête, nous leur envoyons une aide importante"
 
 ###Decision Costs###
-FNG_200_inf_30_CP:0 " £rifle_texticon §H200§! £command_power §Y30§!"
-FNG_200_inf_30_CP_blocked:0 "£rifle_texticon §R200§! £command_power §R30§!"
+NG_15_CP:0 "£command_power §Y15§!"
+FNG_15_CP_blocked:0 "£command_power §R15§!"
+
+FNG_80_CP:0 "£command_power §Y80§!"
+FNG_80_CP_blocked:0 "£command_power §R80§!"
+
+FNG_800_inf_30_CP:0 "£rifle_texticon §H800§! £command_power §Y30§!"
+FNG_800_inf_30_CP_blocked:0 "£rifle_texticon §R800§! £command_power §R30§!"
+
+FNG_600_inf_30_CP:0 "£rifle_texticon §H600§! £command_power §Y30§!"
+FNG_600_inf_30_CP_blocked:0 "£rifle_texticon §R600§! £command_power §R30§!"
+
+FNG_300_inf_30_CP:0 "£rifle_texticon §H300§! £command_power §Y30§!"
+FNG_300_inf_30_CP_blocked:0 "£rifle_texticon §R300§! £command_power §R30§!"
 
 ### Decisions ###
 FNG_Join_The_Zhifeng_War:0 "Rejoindre la guerre de Zhifeng"
@@ -145,12 +160,15 @@ FNG_fixing_the_economy_category:0 "L'héritage de Wang Yongjiang"
 FNG_Sell_Anshan_Iron_and_Steel:0 "Vendre Anshan Iron & Steel"
 FNG_Sell_Anshan_Iron_and_Steel_desc:0 "Anshan Iron & Steel est une société mixte sino-japonaise depuis sa création en 1916, les deux parties ayant un certain contrôle sur sa gestion, ses bénéfices et ses produits. Aujourd'hui, Mantetsu veut racheter la société et la rebaptiser officiellement "Showa Steel" Sous leur direction, l'opération sera plus efficace et une partie des bénéfices et des produits continuera d'arriver dans nos coffres"
 
+FNG_Revise_our_Position_on_Looting:0 "Réviser notre position sur le pillage"
+FNG_Revise_our_Position_on_Looting_desc:0 "Notre décision d'autoriser le pillage des zones occupées était peut-être une erreur. Malheureusement, l'annulation des ordres populaires après qu'ils ont été donnés, sans parler de la retenue des hommes, ne sera pas une entreprise facile."
+
 FNG_Looting_Beijing-Baoding:0 "Empêcher le pillage en Zhili"
 FMG_Looting_Beijing-Baoding_desc:0 "On dit que les gens craignent les soldats comme une inondation, ou comme des bêtes vicieuses - ils fuient pour sauver leur vie dans la terreur."
 FNG_Looting_Zhengzhou-Luoyang:0 "Prévenir le pillage au Henan"
 FNG_Looting_Zhengzhou-Luoyang_desc:0 "On dit que le peuple craint les soldats comme une inondation, ou comme des bêtes vicieuses - ils fuient pour sauver leur vie dans la terreur."
 FNG_Looting_Wuhan:0 "Prévenir le pillage à Wuhan"
-FNG_Looting_Wuhan_desc:0 "On dit que le peuple craint les soldats comme une inondation, ou comme des bêtes vicieuses - ils fuient pour sauver leur vie dans la terreur."
+FNG_Looting_Wuhan_desc:0 "On dit que les gens craignent les soldats comme une inondation, ou comme des bêtes vicieuses - ils fuient pour sauver leur vie dans la terreur. Nous devons mettre un terme au chaos qui règne à Wuhan, sinon notre légitimité nationale en pâtira."
 
 FNG_internal_conference:0 "Conférence nationale de réunification"
  FNG_internal_conference_desc:0 "Description needed.\n\n§HParticipants§!: [FNG_conference_participant_0][FNG_conference_participant_1][FNG_conference_participant_2][FNG_conference_participant_3][FNG_conference_participant_4][FNG_conference_participant_5][FNG_conference_participant_6][FNG_conference_participant_7][FNG_conference_participant_8][FNG_conference_participant_9][FNG_conference_participant_10][FNG_conference_participant_11][FNG_conference_participant_12][FNG_conference_participant_13][FNG_conference_participant_14][FNG_conference_participant_15][FNG_conference_participant_16][FNG_conference_participant_17][FNG_conference_participant_18][FNG_conference_participant_19]\n§GPartisans§!: [FNG_conference_support_0][FNG_conference_support_1][FNG_conference_support_2][FNG_conference_support_3][FNG_conference_support_4][FNG_conference_support_5][FNG_conference_support_6][FNG_conference_support_7][FNG_conference_support_8][FNG_conference_support_9][FNG_conference_support_10][FNG_conference_support_11][FNG_conference_support_12][FNG_conference_support_13][FNG_conference_support_14][FNG_conference_support_15][FNG_conference_support_16][FNG_conference_support_17][FNG_conference_support_18][FNG_conference_support_19]"
@@ -187,6 +205,23 @@ FNG_Militarize_the_Minsheng_Truck_desc:0 "Au début des années 1930, Zhang Xuel
 FNG_Fortress_Manchuria:0 "Créer une forteresse en Mandchourie"
 FNG_Fortress_Manchuria_desc:0 "Les montagnes Yan au sud, la chaîne du Petit Khigan à l'ouest et le golfe de Bohai à l'est créent une forteresse naturelle autour de la plaine de Mandchourie, laissant le col de Shanhai comme seul point d'entrée facile. Il est facile de fortifier le nord-est quand la nature a déjà fait tant de travail"
 
+FNG_Rebuild_the_Second_Army:0 "Reconstruire la deuxième armée"
+FNG_Rebuild_the_Second_Army_desc:0 "La deuxième armée fengtienne, souvent appelée "armée zhili" en raison de ses terrains de recrutement dans la province de Zhili, était l'une des principales forces de combat de Zhang Zuolin pendant les guerres de Zhifeng. L'unité a perdu son commandement après la défection de Guo Songling en 1925, et en 1928, ses soldats se sont retrouvés bloqués dans le Shandong. La paix qui a suivi a vu cette prestigieuse unité se désintégrer progressivement, les vétérans s'étant enrôlés dans le Zhang Zongchang, partis en Mandchourie ou retournés dans leurs familles à Zhili. Avec la Chine du Nord à nouveau à notre portée, le temps est venu de lever l'ancienne bannière de la Seconde Armée et de rendre son nom à la gloire !"
+
+FNG_Raise_Independent_Brigades_in_Cangzhou:0 "Lever des brigades indépendantes à Cangzhou"
+FNG_Raise_Independent_Brigades_in_Cangzhou_desc:0 "L'effondrement de [QIE.GetNameDef] a laissé de larges pans de la plaine de Chine du Nord à la merci des bandits, qu'ils soient originaires de la région ou d'anciennes troupes de [QIE.GetName] devenues criminelles. Avec notre politique laxiste en matière de pillage, il ne devrait pas être difficile de rallier ces hommes et de les réorganiser en \"brigades indépendantes\"."
+
+FNG_Raise_Independent_Brigades_in_Kaifeng:0 "Lever des brigades indépendantes à Kaifeng"
+FNG_Raise_Independent_Brigades_in_Kaifeng_desc:0 "L'effondrement de [QIE.GetNameDef] a laissé de larges pans de la plaine de Chine du Nord à la merci des bandits, qu'ils soient originaires de la région ou d'anciennes troupes de [QIE.GetName] devenues criminelles. Avec notre politique laxiste en matière de pillage, il ne devrait pas être difficile de rallier ces hommes et de les réorganiser en \"brigades indépendantes\"."
+
+FNG_Raise_Independent_Brigades_in_Ruyang:0 "Lever des brigades indépendantes à Ruyang"
+FNG_Raise_Independent_Brigades_in_Ruyang_desc:0 "L'effondrement de [QIE.GetNameDef] a laissé de larges pans de la plaine de Chine du Nord à la merci des bandits, qu'ils soient originaires de la région ou d'anciennes troupes de [QIE.GetName] devenues criminelles. Avec notre politique laxiste en matière de pillage, il ne devrait pas être difficile de rallier ces hommes et de les réorganiser en \"brigades indépendantes\"."
+
+FNG_Raise_Independent_Brigades_in_Guanzhong:0 "Lever des brigades indépendantes à Guanzhong"
+FNG_Raise_Independent_Brigades_in_Guangzhong_desc:0 "L'effondrement de [QIE.GetNameDef] a laissé de larges pans de la plaine de Chine du Nord à la merci des bandits, qu'ils soient originaires de la région ou d'anciennes troupes de [QIE.GetName] devenues criminelles. Avec notre politique laxiste en matière de pillage, il ne devrait pas être difficile de rallier ces hommes et de les réorganiser en \"brigades indépendantes\"."
+
+FNG_Raise_the_Baoding_Cadet_Corps:0 "Augmenter le corps de cadets de Baoding"
+FNG_Raise_the_Baoding_Cadet_Corps_desc:0 "Les jeunes cadets de Baoding étaient parmi les plus ardents défenseurs de la monarchie mandchoue à Pékin, et notre victoire dans le nord de la Chine n'a laissé que quelques personnes emprisonnées ou renvoyées chez elles. Le temps est venu pour ces hommes de se battre du bon côté de l'histoire. Bien que certains remettent en question l'armement d'anciens ennemis, leur patriotisme est incontestable et, en ces temps difficiles, le pays doit passer en premier."
 
 FNG_Centralise_the_Banks:0 "Centraliser les banques"
 FNG_Centralise_the_Banks_desc:0 "Fengtian compte actuellement quatre banques émettrices de billets, à savoir la Banque des trois provinces de l'Est, la Banque de Jilin, la Banque de Heilongjiang et la Frontier Bank, chacune d'entre elles étant le fruit d'efforts de centralisation antérieurs. Il semble maintenant pertinent de compléter ce processus et de les unifier toutes sous une seule Banque centrale"
@@ -258,6 +293,10 @@ FNG_cut_aid_to_japan:0 "Couper les livraisons de nourriture au Japon"
 FNG_cut_aid_to_japan_desc:0 "Jusqu'à ce que la sécheresse prenne fin au Japon et en Corée, nous leur ferons parvenir de grandes quantités de nourriture et d'aide... à moins que nous ne changions d'avis, bien sûr.\n\n§RNOTE§!: Ne sélectionnez cette décision que si vous souhaitez COUPER les envois. Sinon, ils se dérouleront normalement."
 FNG_cut_aid_to_japan_tooltip:0 "Moins de §H30%§! le soutien à l'§HAssociation Concordia§!"
 
+FNG_Labor_Promises:0 "Concessions aux syndicats"
+FNG_Labor_Promises_desc:0 "Les dirigeants syndicaux font pression en faveur d'une réduction des horaires de travail qui réduirait considérablement notre production industrielle."
+FNG_Bribe_Union_Leaders:0 "Effectuer des paiements aux dirigeants syndicaux."
+
 ### Flags ###
  FNG_incentivized_zaibatsu_arms_manufacture:0 "Incitation à la production d'armes Zaibatsu"
 FNG_occupation_state_modifier:0 "Soldats malheureux"
@@ -285,6 +324,9 @@ FNG_already_supporting_faction:0 "Nous soutenons déjà une faction politique"
 
 FNG_regionalists_suppressed:0 "Le mouvement régionaliste a été supprimé."
 
+FNG_troops_allowed_to_raid_occupation:0 "Nos troupes ont été autorisées à piller les zones occupées."
+FNG_troops_not_allowed_to_raid_occupation:0 "Il est interdit à nos troupes de piller les zones occupées."
+
 ### Tooltips ###
 FNG_expel_japanese_officers_tooltip:0 "§RL'adoption de cette décision aura des conséquences désastreuses sur les relations entre Fengtian et le Japon.§!\n"
 FNG_japan_dislike:0 "§RLe Japon pourrait ne pas aimer cela.§!\n"
@@ -310,8 +352,17 @@ FNG_reclamation_war_path:0 "Commence notre chemin vers la §Gguerre de reconquê
 FNG_declare_reclamation_war:0 "§RNous déclarerons la guerre au [608.Owner.GetNameDef]§!\n"
 FNG_leads_to_reclamation_war:0 "Commence la voie vers la §Rguerre§! avec §Y[608.Owner.GetNameDef]§!.\n"
 
+FNG_move_capital_to_beijing:0 "Déplacement de la capitale vers §YBeijing§ !\n"
+
 FNG_silver_reserve_exclusive:0 "§RNOTE§!: Cette décision est mutuellement exclusive avec §YRéintroduire le dollar fengtien §!"
 FNG_fengtian_dollar_exclusive:0 "§RNOTE§!: Cette décision est mutuellement exclusive avec §YRemplir la réserve d'argent§!"
+
+FNG_looting_continues:0 "Les pillages §Rse poursuivront§! dans la région pendant §Rplusieurs semaines§! !\n"
+FNG_may_lose_legitimacy:0 "§RNous risquons de perdre notre légitimité nationale !§!\n"
+FNG_looting_events_will_continue:0 "Des événements similaires §Rse poursuivront§! jusqu'à ce que l'objectif §Supprimer les bandits ; Récolter la récolte§! soit atteint."
+
+FNG_troops_allowed_to_raid:0 "Nous allons recevoir §RÉvénements de pillage§!\n"
+FNG_troops_not_allowed_to_raid:0 "L'impact des §Révénements de pillage§! sera §Gréduit§!.\n"
 
 FNG_stop_looting:0 "Nous pouvons prendre la priorité §YSupprimer les bandits ; collecter la récolte§! pour prévenir de futurs actes de banditisme."
 
@@ -326,16 +377,23 @@ FNG_unlock_showa_steel:0 "Déverrouille la société d'§YAcier Showa§!."
 
 FNG_unlock_southern_companies:0 "Déverrouille les entreprises suivantes :\n- §YUsine de locomotives de Qishuyan§!\n- §YSociété nationale d'aviation de Chine§!\n- §YAcadémie Sinica§!\n"
 
- FNG_one_time_cost:0 "(Il s'agit d'un coût unique)\n"
+FNG_second_army_spawn:0 "£manpower_texticon 3 unités de §YDivision de la deuxième armée§!  apparaîtront à Beijing.\n"
+FNG_cadet_corps_spawn:0 "£manpower_texticon 2 unités de §YCorps de cadets de Baoding§!  apparaîtront à Baoding.\n"
+FNG_independent_brigades_spawn_cangzhou:0 "£manpower_texticon 2 unités de §YBrigrade indépendante§! apparaîtront à Cangzhou.\n"
+FNG_independent_brigades_spawn_kaifeng:0 "£manpower_texticon 2 unités de §YBrigrade indépendante§! apparaîtront à Kaifeng.\n"
+FNG_independent_brigades_spawn_ruyang:0 "£manpower_texticon 2 unités de §YBrigrade indépendante§! apparaîtront à Ruyang.\n"
+FNG_independent_brigades_spawn_guanzhong:0 "£manpower_texticon 2 unités de §YBrigrade indépendante§! apparaîtront à Guanzhong.\n"
+
+FNG_one_time_cost:0 "(Il s'agit d'un coût unique)\n"
 FNG_begin:0 "Commencer le jeu\n"
 FNG_recommended:0 "Les briefings sont recommandés pour les nouveaux joueurs\n"
 FNG_imperial_han_suppression:0 "La §YSociété impériale des Han§! est supprimée.\n"
 FNG_japan_denies_provinces:0 "§RL'achèvement de ce travail pourrait avoir de graves conséquences sur les relations entre Fengtian et le Japon.§!\n"
- FNG_repeating:0 "Cet événement continuera d'apparaître jusqu'à la fin de la crise\n"
- FNG_event_return:0 "Retour à l'§Yévénement précédent§!"
- FNG_army_path:0 "§GAjoute§! un bonus de pouvoir politique au §YPriorités militaires§!\n"
- FNG_enrichment_path:0 "§GAjoute§! un bonus de pouvoir politique au §YPriorités économiques§!\n"
- FNG_remove_backward_industry:0 "Nécessaire pour supprimer l'esprit national §YIndustrie en retard§!.\n"
+FNG_repeating:0 "Cet événement continuera d'apparaître jusqu'à la fin de la crise\n"
+FNG_event_return:0 "Retour à l'§Yévénement précédent§!"
+FNG_army_path:0 "§GAjoute§! un bonus de pouvoir politique au §YPriorités militaires§!\n"
+FNG_enrichment_path:0 "§GAjoute§! un bonus de pouvoir politique au §YPriorités économiques§!\n"
+FNG_remove_backward_industry:0 "Nécessaire pour supprimer l'esprit national §YIndustrie en retard§!.\n"
 FNG_ma_fired:0 "Ma Zhanshan sera obligé de prendre sa retraite.\n"
  FNG_chosabu_radar:0 "Recevoir des bonus pour toutes §Grecherche sur les radars§! terminées par le §YJapon§!.\n"
  FNG_chosabu_construction:0 "Recevoir des bonus pour toutes §Grecherche en construction§! terminées par le §YJapon§!.\n"
@@ -374,7 +432,7 @@ FNG_taiyuan_locked:0 "- §RTaiyuan§!\n"
  FNG_unlock_attack_decisions:0 "Cela permettra de débloquer une §Hsérie§! de décisions pour §Munifier§! la Chine."
  FNG_sqi_won_league_tt:0 "Le Shandong sort victorieux de la guerre de la Ligue"
  FNG_finish_irrendentism_anqing_tt:0 "Afin de discuter de la manière de poursuivre la guerre de reconquête maintenant qu'Anqing a gagné, la décision sur l'irrédentisme national doit avoir été prise.\n"
- FNG_irrendentism_allies_decide_tt:0 "Nos alliés sur le continent décideront comment ils souhaitent s'intégrer dans nos plans de la guerre de reconquête.\n"
+ FNG_can_shenyang_conference_tt:0 "\nNous chercherons à tenir une §HConférence§ ! à Shenyang dès que possible avec les alliés chinois potentiels pour discuter de questions importantes et de leur implication dans la guerre de reconquête.\n"
  FNG_ask_reconstruction_jap_anqing_tt:0 "Nous acceptons d'aider Anqing et nous transmettrons la demande au Japon. S'ils acceptent également, nous engagerons d'importantes ressources politiques et économiques pour reconstruire Anqing afin de pouvoir attaquer Pékin plus tôt.\n"
  FNG_more_strategies_anqing_tt:0 "N'acceptez pas cela et demandez d'autres stratégies.\n"
  FNG_wait_recover_anqing_tt:0 "Nous allons retarder notre guerre de reconquête et attendre qu'Anqing ait terminé ses propres efforts de reconstruction. Nous informerons le Japon et Anqing de cette décision.\n"
@@ -716,7 +774,7 @@ fengtian.9.d:0 "Notre élimination ciblée des enseignants et autres intellectue
 fengtian.9.a:0 "Déclinez l'offre."
 fengtian.9.b:0 "Accepter l'offre."
 fengtian.10.t:0 "Le scandale du kimono"
-fengtian.10.d:0 "Scandale ! La plus jeune fille du Grand Maréchal a été photographiée portant un kimono japonais lors d'une séance de photos à la Hokutou Kunitachidaigaku ou à la Northeast National Academy de Mantetsu. Malgré le risque d'arrestation, la nouvelle de la photo s'est déjà largement répandue, ainsi que quelques copies de l'image elle-même, bien que les agences de presse locales et nationales sachent mieux que quiconque qu'il ne faut pas imprimer cette diffamation. Certains agents des services de renseignements militaires spéculent que l'image a été prise et diffusée intentionnellement par les Japonais pour punir le gouvernement de ses récentes actions, mais aucune preuve n'est apparue à l'appui de cette hypothèse. Il ne fait cependant aucun doute que nos ennemis utiliseront cette occasion pour diffuser leur propagande infâme."
+fengtian.10.d:0 "Scandale ! La plus jeune fille du Grand Maréchal a été photographiée portant un kimono japonais lors d'une séance de photos à la \"Hokutou Kokuritsudaigaku\" ou à la Northeast National Academy de Mantetsu. Malgré le risque d'arrestation, la nouvelle de la photo s'est déjà largement répandue, ainsi que quelques copies de l'image elle-même, bien que les agences de presse locales et nationales sachent mieux que quiconque qu'il ne faut pas imprimer cette diffamation. Certains agents des services de renseignements militaires spéculent que l'image a été prise et diffusée intentionnellement par les Japonais pour punir le gouvernement de ses récentes actions, mais aucune preuve n'est apparue à l'appui de cette hypothèse. Il ne fait cependant aucun doute que nos ennemis utiliseront cette occasion pour diffuser leur propagande infâme."
 fengtian.10.a:0 "Quel embarras !"
 fengtian.10.b:0 "Fermez les écoles de Mantetsu !"
 fengtian.11.t:0 "Les étudiants rejoignent la Ligue de la jeunesse"
@@ -1487,8 +1545,8 @@ fengtian.184.d:0 "Malgré la croyance répandue que l'enquête de Yuan mettrait 
 fengtian.184.a:0 "Qui l'aurait cru ?"
 
  fengtian.191.t:0 "Fengtian en crise"
-fengtian.191.d.losing:0 "Malgré toute l'aide que nous avons apportée au fil des ans au gouvernement fengtien, celui-ci est maintenant confronté au risque de défaite alors que ses armées commencent à s'effriter. Non seulement nous avons un engagement général en faveur de la défense du Fengtian sur le plan politique et économique, mais cela reste aussi le seul moyen par lequel nous pourrions indirectement contrôler la Chine dans son ensemble. Une occupation directe serait presque certainement coûteuse, mais une intervention pourrait aussi avoir son propre coût. Le temps est venu de décider"
-fengtian.191.d.long:0 "Malgré toute l'aide que nous avons fournie au fil des ans au gouvernement fengtien, celui-ci est maintenant confronté au risque de défaite alors que sa guerre s'éternise. Non seulement nous avons un engagement général pour la défense de Fengtian sur le plan politique et économique, mais cela reste aussi le seul moyen par lequel nous pourrions indirectement contrôler la Chine dans son ensemble. Une occupation directe serait presque certainement coûteuse, mais une intervention pourrait aussi avoir son propre coût. Le temps est venu de décider"
+fengtian.191.d.losing:0 "Malgré toute l'aide que nous avons fournie au fil des ans au gouvernement fengtien, celui-ci risque maintenant de subir une défaite alors que ses armées commencent à s'effriter. Non seulement nous avons un engagement général en faveur de la défense de Fengtian sur le plan politique et économique, mais cela reste aussi le seul moyen par lequel nous pourrions indirectement contrôler la Chine dans son ensemble. Une occupation directe serait presque certainement coûteuse, mais une intervention pourrait aussi comporter ses propres risques. Le moment est venu de prendre une décision."
+fengtian.191.d.long:0 "Malgré toute l'aide que nous avons apportée au fil des ans au gouvernement fengtien, celui-ci est aujourd'hui confronté au risque d'une défaite alors que sa guerre s'éternise. Non seulement nous avons un engagement général en faveur de la défense de Fengtian sur le plan politique et économique, mais cela reste aussi le seul moyen par lequel nous pourrions indirectement contrôler la Chine dans son ensemble. Une occupation directe serait presque certainement coûteuse, mais une intervention pourrait aussi comporter ses propres risques. Le moment est venu de prendre une décision."
 fengtian.191.a:0 "Le Japon honore ses engagements."
 fengtian.191.b:0 "Zhang est seul."
 
@@ -1570,10 +1628,10 @@ fengtian.213.b:0 "Il ne vaut pas la peine de faire de la médiation entre ces de
 fengtian.213.e:0 "Ce qui est essentiel maintenant, c'est que ces deux seigneurs de la guerre ne s'affrontent pas. Nous devons convaincre Zhang qu'il ne doit pas prendre le Jiangsu par la force et nous devons convaincre Chen que Zhang n'est pas une menace à laquelle il faut faire face immédiatement. Il est primordial que la paix revienne et que le Kuomintang soit vaincu en premier, ensuite nous pourrons nous préoccuper des détails.\nCe qui est essentiel maintenant, c'est que ces deux seigneurs de la guerre ne s'affrontent pas. Nous devons convaincre Zhang de ne pas chercher à étendre davantage sa domination et nous devons convaincre Chen qu'en ce moment, le Jiangsu n'est pas important et qu'il doit plutôt se concentrer sur d'autres menaces. Il est primordial que la paix revienne et que le Kuomintang soit vaincu en premier, ensuite nous pourrons nous préoccuper des détails. Chen a raison de dire que Zhang a peut-être été trop agressif et nous devons donc le convaincre de céder au moins temporairement ces provinces critiques. Nous devons convaincre Chen que Zhang peut au moins garder les provinces du Jiangsu pendant qu'il s'occupe de la menace qui pèse sur le sud. Il est primordial que la paix revienne et que le Kuomintang soit vaincu en premier, ensuite nous pourrons nous préoccuper des détails. Chen a raison de dire que Zhang a peut-être été trop agressif et nous devons donc convaincre Zhang de céder au moins temporairement ces provinces critiques, et en particulier Nanjing. Nous devons convaincre Chen que Zhang peut au moins garder les provinces du Jiangsu pendant qu'il s'occupe de la menace qui pèse sur le sud. Il est primordial que la paix revienne et que le Kuomintang soit vaincu en premier, ensuite nous pourrons nous préoccuper des détails"
 
 fengtian.214.t:0 "Fengtian cherche à faire de la médiation" #for ANQ
-fengtian.214.d1:0 "Notre guerre mutuelle contre la Clique de Nanjing n'a pu aboutir que grâce à notre promesse de respecter les acquis territoriaux de Zhang Zongchang. Cependant, Zhang Zongchang a continué à affirmer sans fondement que Zhang Zoulin lui avait promis les provinces d'Anqing. Il devrait être simple de forcer Zhang Zoulin à servir de médiateur dans cette affaire, et nous n'avons aucun doute que Zhng Zoulin sera d'accord avec nos revendications à Anqing. Juste au cas où les deux Zhangs nous trahissent, nous devrions quand même surveiller la frontière du Shandong"
-fengtian.214.d2:0 "Notre guerre mutuelle contre la Clique de Nanjing n'a pu réussir que grâce à notre promesse de respecter les acquis territoriaux de Zhang Zongchang. Cependant, Zhang Zongchang a continué à affirmer sans fondement que Zhang Zoulin lui avait promis les provinces d'Anqing. Zhang Zongchang est même allé jusqu'à annexer illégalement une partie de la province de Jiangsu pour soutenir cette revendication. Il devrait être simple de forcer Zhang Zoulin à servir de médiateur dans cette affaire, et nous n'avons aucun doute que Zhng Zoulin sera d'accord avec nos revendications sur Anqing. Juste au cas où les deux Zhangs nous trahissent, nous devrions quand même surveiller la frontière du Shandong"
-fengtian.214.d3:0 "Notre guerre mutuelle contre la Clique de Nanjing n'a pu aboutir que grâce à notre promesse de respecter les acquis territoriaux de Zhang Zongchang. Cependant, Zhang Zongchang a continué à affirmer sans fondement que Zhang Zoulin lui avait promis les provinces d'Anqing. Zhang Zongchang est même allé jusqu'à annexer illégalement des zones critiques de la province de Jiangsu pour soutenir cette revendication. Il devrait être simple de forcer Zhang Zoulin à servir de médiateur dans cette affaire, et nous ne doutons pas que Zhng Zoulin sera d'accord avec nos revendications à Anqing. Juste au cas où les deux Zhangs nous trahissent, nous devrions quand même surveiller la frontière du Shandong"
-fengtian.214.d4:0 "Notre guerre mutuelle contre la Clique de Nanjing n'a pu réussir que grâce à notre promesse de respecter les acquis territoriaux de Zhang Zongchang. Cependant, Zhang Zongchang a continué à affirmer sans fondement que Zhang Zoulin lui avait promis les provinces d'Anqing. Zhang Zongchang est même allé jusqu'à annexer illégalement la plus grande partie de la province de Jiangsu pour soutenir cette revendication. Il devrait être simple de forcer Zhang Zoulin à servir de médiateur dans cette affaire, et nous n'avons aucun doute que Zhng Zoulin sera d'accord avec nos revendications à Anqing. Juste au cas où les deux Zhangs nous trahissent, nous devrions quand même surveiller la frontière du Shandong"
+fengtian.214.d1:0 "Notre guerre mutuelle contre la Clique de Nanjing n'a pu aboutir que grâce à notre promesse de respecter les acquis territoriaux de Zhang Zongchang. Cependant, Zhang Zongchang a continué à affirmer sans fondement que Zhang Zuolin lui avait promis les provinces d'Anqing. Il devrait être simple de forcer Zhang Zuolin à servir de médiateur dans cette affaire, et nous n'avons aucun doute que Zhang Zuolin sera d'accord avec nos revendications à Anqing. Juste au cas où les deux Zhangs nous trahissent, nous devrions quand même surveiller la frontière du Shandong"
+fengtian.214.d2:0 "Notre guerre mutuelle contre la Clique de Nanjing n'a pu réussir que grâce à notre promesse de respecter les acquis territoriaux de Zhang Zongchang. Cependant, Zhang Zongchang a continué à affirmer sans fondement que Zhang Zuolin lui avait promis les provinces d'Anqing. Zhang Zongchang est même allé jusqu'à annexer illégalement une partie de la province de Jiangsu pour soutenir cette revendication. Il devrait être simple de forcer Zhang Zuolin à servir de médiateur dans cette affaire, et nous n'avons aucun doute que Zhang Zuolin sera d'accord avec nos revendications sur Anqing. Juste au cas où les deux Zhangs nous trahissent, nous devrions quand même surveiller la frontière du Shandong"
+fengtian.214.d3:0 "Notre guerre mutuelle contre la Clique de Nanjing n'a pu aboutir que grâce à notre promesse de respecter les acquis territoriaux de Zhang Zongchang. Cependant, Zhang Zongchang a continué à affirmer sans fondement que Zhang Zuolin lui avait promis les provinces d'Anqing. Zhang Zongchang est même allé jusqu'à annexer illégalement des zones critiques de la province de Jiangsu pour soutenir cette revendication. Il devrait être simple de forcer Zhang Zuolin à servir de médiateur dans cette affaire, et nous ne doutons pas que Zhang Zuolin sera d'accord avec nos revendications à Anqing. Juste au cas où les deux Zhangs nous trahissent, nous devrions quand même surveiller la frontière du Shandong"
+fengtian.214.d4:0 "Notre guerre mutuelle contre la Clique de Nanjing n'a pu réussir que grâce à notre promesse de respecter les acquis territoriaux de Zhang Zongchang. Cependant, Zhang Zongchang a continué à affirmer sans fondement que Zhang Zuolin lui avait promis les provinces d'Anqing. Zhang Zongchang est même allé jusqu'à annexer illégalement la plus grande partie de la province de Jiangsu pour soutenir cette revendication. Il devrait être simple de forcer Zhang Zuolin à servir de médiateur dans cette affaire, et nous n'avons aucun doute que Zhang Zuolin sera d'accord avec nos revendications à Anqing. Juste au cas où les deux Zhangs nous trahissent, nous devrions quand même surveiller la frontière du Shandong"
 fengtian.214.a:0 "Zhang reste une menace."
 fengtian.214.b:0 "Ils peuvent avoir tout le Jiangsu."
 fengtian.214.c:0 "Ils ne peuvent garder que le Jiangsu."
@@ -1581,56 +1639,56 @@ fengtian.214.d:0 "Nous exigeons l'ensemble des cinq provinces."
 fengtian.214.e:0 "Nous ne vous laisserons pas faire la médiation."
 
 fengtian.215.t:0 "Fengtian cherche à faire de la médiation" #for SQI
-fengtian.215.d1:0 "Notre guerre mutuelle contre la Clique de Nanjing n'a pu aboutir que grâce à notre promesse de respecter les acquis territoriaux de Chen Tiaoyuan. Cependant, Chen Tiaoyuan a continué à affirmer sans fondement que Zhang Zoulin lui avait promis les provinces d'Anqing. Chen Tiaoyuan est même allé jusqu'à annexer illégalement toute la province de Jiangsu pour soutenir cette revendication. Il devrait être simple de forcer Zhang Zoulin à servir de médiateur dans cette affaire, et nous n'avons aucun doute que Zhng Zoulin sera d'accord avec nos revendications sur Anqing. Au cas où Zhang et Chen auraient l'intention de nous trahir, nous devrions quand même surveiller la frontière d'Anqing"
-fengtian.215.d2:0 "Notre guerre mutuelle contre la Clique de Nanjing n'a pu aboutir que grâce à notre promesse de respecter les acquis territoriaux de Chen Tiaoyuan. Cependant, Chen Tiaoyuan a continué à affirmer sans fondement que Zhang Zoulin lui avait promis les provinces d'Anqing. Chen Tiaoyuan est même allé jusqu'à annexer illégalement des parties de la province de Jiangsu pour soutenir cette revendication. Il devrait être simple de forcer Zhang Zoulin à servir de médiateur dans cette affaire, et nous n'avons aucun doute que Zhng Zoulin sera d'accord avec nos revendications sur Anqing. Au cas où Zhang et Chen auraient l'intention de nous trahir, nous devrions quand même surveiller la frontière d'Anqing"
-fengtian.215.d3:0 "Notre guerre mutuelle contre la Clique de Nanjing n'a pu réussir que grâce à notre promesse de respecter les acquis territoriaux de Chen Tiaoyuan. Cependant, Chen Tiaoyuan a continué à affirmer sans fondement que Zhang Zoulin lui avait promis les provinces d'Anqing. Chen Tiaoyuan est même allé jusqu'à annexer illégalement la métropole de la province de Jiangsu pour soutenir cette revendication. Il devrait être simple de forcer Zhang Zoulin à servir de médiateur dans cette affaire, et nous n'avons aucun doute que Zhng Zoulin sera d'accord avec nos revendications sur Anqing. Juste au cas où Zhang et Chen auraient l'intention de nous trahir, nous devrions quand même surveiller la frontière d'Anqing"
-fengtian.215.d4:0 "Notre guerre mutuelle contre la Clique de Nanjing n'a pu aboutir que grâce à notre promesse de respecter les acquis territoriaux de Chen Tiaoyuan. Cependant, Chen Tiaoyuan a continué à affirmer sans fondement que Zhang Zoulin lui avait promis les provinces d'Anqing. Chen Tiaoyuan n'a heureusement pas pu annexer le Jiangsu, mais cette revendication lui cause des frictions diplomatiques considérables. Il devrait être simple de forcer Zhang Zoulin à servir de médiateur dans cette affaire, et nous n'avons aucun doute que Zhng Zoulin sera d'accord avec nos revendications sur Anqing. Juste au cas où Zhang et Chen auraient l'intention de nous trahir, nous devrions quand même surveiller la frontière d'Anqing"
+fengtian.215.d1:0 "Notre guerre mutuelle contre la Clique de Nanjing n'a pu aboutir que grâce à notre promesse de respecter les acquis territoriaux de Chen Tiaoyuan. Cependant, Chen Tiaoyuan a continué à affirmer sans fondement que Zhang Zuolin lui avait promis les provinces d'Anqing. Chen Tiaoyuan est même allé jusqu'à annexer illégalement toute la province de Jiangsu pour soutenir cette revendication. Il devrait être simple de forcer Zhang Zuolin à servir de médiateur dans cette affaire, et nous n'avons aucun doute que Zhang Zuolin sera d'accord avec nos revendications sur Anqing. Au cas où Zhang et Chen auraient l'intention de nous trahir, nous devrions quand même surveiller la frontière d'Anqing"
+fengtian.215.d2:0 "Notre guerre mutuelle contre la Clique de Nanjing n'a pu aboutir que grâce à notre promesse de respecter les acquis territoriaux de Chen Tiaoyuan. Cependant, Chen Tiaoyuan a continué à affirmer sans fondement que Zhang Zuolin lui avait promis les provinces d'Anqing. Chen Tiaoyuan est même allé jusqu'à annexer illégalement des parties de la province de Jiangsu pour soutenir cette revendication. Il devrait être simple de forcer Zhang Zuolin à servir de médiateur dans cette affaire, et nous n'avons aucun doute que Zhang Zuolin sera d'accord avec nos revendications sur Anqing. Au cas où Zhang et Chen auraient l'intention de nous trahir, nous devrions quand même surveiller la frontière d'Anqing"
+fengtian.215.d3:0 "Notre guerre mutuelle contre la Clique de Nanjing n'a pu réussir que grâce à notre promesse de respecter les acquis territoriaux de Chen Tiaoyuan. Cependant, Chen Tiaoyuan a continué à affirmer sans fondement que Zhang Zuolin lui avait promis les provinces d'Anqing. Chen Tiaoyuan est même allé jusqu'à annexer illégalement la métropole de la province de Jiangsu pour soutenir cette revendication. Il devrait être simple de forcer Zhang Zuolin à servir de médiateur dans cette affaire, et nous n'avons aucun doute que Zhang Zuolin sera d'accord avec nos revendications sur Anqing. Juste au cas où Zhang et Chen auraient l'intention de nous trahir, nous devrions quand même surveiller la frontière d'Anqing"
+fengtian.215.d4:0 "Notre guerre mutuelle contre la Clique de Nanjing n'a pu aboutir que grâce à notre promesse de respecter les acquis territoriaux de Chen Tiaoyuan. Cependant, Chen Tiaoyuan a continué à affirmer sans fondement que Zhang Zuolin lui avait promis les provinces d'Anqing. Chen Tiaoyuan n'a heureusement pas pu annexer le Jiangsu, mais cette revendication lui cause des frictions diplomatiques considérables. Il devrait être simple de forcer Zhang Zuolin à servir de médiateur dans cette affaire, et nous n'avons aucun doute que Zhang Zuolin sera d'accord avec nos revendications sur Anqing. Juste au cas où Zhang et Chen auraient l'intention de nous trahir, nous devrions quand même surveiller la frontière d'Anqing"
 fengtian.215.a:0 "Nous exigeons de ne garder que le Jiangsu maintenant." #they have other parts
 fengtian.215.b:0 "Nous exigeons d'avoir tout le Jiangsu maintenant." #they dont have
 fengtian.215.c:0 "Nous gardons tous nos États."
 fengtian.215.d:0 "Nous ne vous laisserons pas faire de la médiation"
 
 fengtian.216.t:0 "Anqing exige la fin de la revendication de Zhang Zongchang"
-fengtian.216.d1:0 "Chen Tiaoyuan est arrivé à Shenyang pour régler son différend territorial avec Zhang Zongchang. Bien qu'aucun des deux n'ait proféré de menaces à notre connaissance, Zhang et Chen sont certainement capables de faire couler le premier sang si Zhang Zoulin ne parvient pas à résoudre la frontière. De longues heures de négociation avec Chen Tiaoyuan révèlent sa conclusion selon laquelle Zhang Zongchang et Shandong sont désormais responsables. Malgré la quantité de ressources déversées dans le Shandong, il ressort de l'entretien que Chen pense que les commandants criminels du Shandong sont trop dangereux pour travailler pour le plus grand bien de la Chine"
-fengtian.216.d2:0 "Chen Tiaoyuan est arrivé à Shenyang pour régler son différend territorial avec Zhang Zongchang. Bien que ni l'un ni l'autre n'aient proféré de menaces à notre connaissance, Zhang et Chen sont certainement capables de faire couler le premier sang si Zhang Zoulin ne parvient pas à résoudre la frontière. De longues heures de négociation avec Chen Tiaoyuan révèlent sa conclusion selon laquelle Zhang Zongchang et Shandong sont désormais responsables. En raison de la quantité de ressources déversées dans le Shandong, Chen suggère que Zhang Zongchang soit autorisé à conserver ses gains dans le Jiangsu, mais que le reste d'Anqing soit proclamé. Zhang peut avoir le Jiangsu, le reste qu'ils veulent"
-fengtian.216.d3:0 "Chen Tiaoyuan est arrivé à Shenyang pour régler son différend territorial avec Zhang Zongchang. Bien qu'aucun des deux n'ait proféré de menaces à notre connaissance, Zhang et Chen sont certainement capables de faire couler le premier sang si Zhang Zoulin ne parvient pas à résoudre la frontière. De longues heures de négociation avec Chen Tiaoyuan révèlent sa conclusion selon laquelle Zhang Zongchang et Shandong sont désormais responsables. En raison de la quantité de ressources déversées dans le Shandong, Chen suggère que Zhang Zongchang soit autorisé à conserver ses gains dans le Jiangsu, mais que le reste d'Anqing soit proclamé. Zhang peut avoir des parties du Jiangsu, le reste ils veulent"
-fengtian.216.d4:0 "Chen Tiaoyuan est arrivé à Shenyang pour régler son différend territorial avec Zhang Zongchang. Bien qu'aucun des deux n'ait proféré de menaces à notre connaissance, Zhang et Chen sont certainement capables de faire couler le premier sang si Zhang Zoulin ne parvient pas à résoudre la frontière. De longues heures de négociation avec Chen Tiaoyuan révèlent sa conclusion selon laquelle Zhang Zongchang et Shandong sont désormais responsables. En raison de la quantité de ressources déversées dans le Shandong, Chen suggère que Zhang Zongchang rende le Jiangsu, et que l'autodétermination de Chen sur Anqing soit proclamée"
+fengtian.216.d1:0 "Chen Tiaoyuan est arrivé à Shenyang pour régler son différend territorial avec Zhang Zongchang. Bien qu'aucun des deux n'ait proféré de menaces à notre connaissance, Zhang et Chen sont certainement capables de faire couler le premier sang si Zhang Zuolin ne parvient pas à résoudre la frontière. De longues heures de négociation avec Chen Tiaoyuan révèlent sa conclusion selon laquelle Zhang Zongchang et Shandong sont désormais responsables. Malgré la quantité de ressources déversées dans le Shandong, il ressort de l'entretien que Chen pense que les commandants criminels du Shandong sont trop dangereux pour travailler pour le plus grand bien de la Chine"
+fengtian.216.d2:0 "Chen Tiaoyuan est arrivé à Shenyang pour régler son différend territorial avec Zhang Zongchang. Bien que ni l'un ni l'autre n'aient proféré de menaces à notre connaissance, Zhang et Chen sont certainement capables de faire couler le premier sang si Zhang Zuolin ne parvient pas à résoudre la frontière. De longues heures de négociation avec Chen Tiaoyuan révèlent sa conclusion selon laquelle Zhang Zongchang et Shandong sont désormais responsables. En raison de la quantité de ressources déversées dans le Shandong, Chen suggère que Zhang Zongchang soit autorisé à conserver ses gains dans le Jiangsu, mais que le reste d'Anqing soit proclamé. Zhang peut avoir le Jiangsu, le reste qu'ils veulent"
+fengtian.216.d3:0 "Chen Tiaoyuan est arrivé à Shenyang pour régler son différend territorial avec Zhang Zongchang. Bien qu'aucun des deux n'ait proféré de menaces à notre connaissance, Zhang et Chen sont certainement capables de faire couler le premier sang si Zhang Zuolin ne parvient pas à résoudre la frontière. De longues heures de négociation avec Chen Tiaoyuan révèlent sa conclusion selon laquelle Zhang Zongchang et Shandong sont désormais responsables. En raison de la quantité de ressources déversées dans le Shandong, Chen suggère que Zhang Zongchang soit autorisé à conserver ses gains dans le Jiangsu, mais que le reste d'Anqing soit proclamé. Zhang peut avoir des parties du Jiangsu, le reste ils veulent"
+fengtian.216.d4:0 "Chen Tiaoyuan est arrivé à Shenyang pour régler son différend territorial avec Zhang Zongchang. Bien qu'aucun des deux n'ait proféré de menaces à notre connaissance, Zhang et Chen sont certainement capables de faire couler le premier sang si Zhang Zuolin ne parvient pas à résoudre la frontière. De longues heures de négociation avec Chen Tiaoyuan révèlent sa conclusion selon laquelle Zhang Zongchang et Shandong sont désormais responsables. En raison de la quantité de ressources déversées dans le Shandong, Chen suggère que Zhang Zongchang rende le Jiangsu, et que l'autodétermination de Chen sur Anqing soit proclamée"
 fengtian.216.a:0 "Noté"
 
 fengtian.217.t:0 "Shandong exige que Chen Tiaoyuan mette fin à sa revendication"
-fengtian.217.d1:0 "Zhang Zongchang est arrivé à Shenyang pour régler son différend territorial avec Chen Tiaoyuan. Bien qu'aucun des deux n'ait proféré de menaces à notre connaissance, Zhang et Chen sont certainement capables de faire couler le premier sang si Zhang Zoulin ne parvient pas à résoudre la frontière. De longues heures de négociation avec Zhang Zongchang révèlent sa conclusion selon laquelle Chen Tiaoyuan et Anqing sont désormais responsables. Malgré la quantité de ressources investies à Anqing, il ressort des discussions que Zhang Zongchang pense que les commandants de tours à Anqing sont trop dangereux pour travailler pour le bien de la Chine. Zhang Zongchang insiste pour nous dire qu'il ne devrait garder que ses gains marginaux dans le Jiangsu"
-fengtian.217.d2:0 "Zhang Zongchang est arrivé à Shenyang pour régler son conflit territorial avec Chen Tiaoyuan. Bien qu'aucun des deux n'ait proféré de menaces à notre connaissance, Zhang et Chen sont certainement capables de faire couler le premier sang si Zhang Zoulin ne parvient pas à résoudre la frontière. De longues heures de négociation avec Zhang Zongchang révèlent sa conclusion selon laquelle Chen Tiaoyuan et Anqing sont désormais responsables. Malgré la quantité de ressources investies à Anqing, il ressort des discussions que Zhang Zongchang pense que les commandants de tours à Anqing sont trop dangereux pour travailler pour le bien de la Chine. Zhang Zongchang insiste pour qu'on lui accorde tout le Jiangsu"
-fengtian.217.d3:0 "Zhang Zongchang est arrivé à Shenyang pour régler son conflit territorial avec Chen Tiaoyuan. Bien qu'aucun des deux n'ait proféré de menaces à notre connaissance, Zhang et Chen sont certainement capables de faire couler le premier sang si Zhang Zoulin ne parvient pas à résoudre la frontière. De longues heures de négociation avec Zhang Zongchang révèlent sa conclusion selon laquelle Chen Tiaoyuan et Anqing sont désormais responsables. Malgré la quantité de ressources investies à Anqing, il ressort des discussions que Zhang Zongchang pense que les commandants de tours à Anqing sont trop dangereux pour travailler pour le bien de la Chine. Zhang Zongchang insiste pour nous dire qu'il devrait garder tout notre nouveau territoire"
+fengtian.217.d1:0 "Zhang Zongchang est arrivé à Shenyang pour régler son différend territorial avec Chen Tiaoyuan. Bien qu'aucun des deux n'ait proféré de menaces à notre connaissance, Zhang et Chen sont certainement capables de faire couler le premier sang si Zhang Zuolin ne parvient pas à résoudre la frontière. De longues heures de négociation avec Zhang Zongchang révèlent sa conclusion selon laquelle Chen Tiaoyuan et Anqing sont désormais responsables. Malgré la quantité de ressources investies à Anqing, il ressort des discussions que Zhang Zongchang pense que les commandants de tours à Anqing sont trop dangereux pour travailler pour le bien de la Chine. Zhang Zongchang insiste pour nous dire qu'il ne devrait garder que ses gains marginaux dans le Jiangsu"
+fengtian.217.d2:0 "Zhang Zongchang est arrivé à Shenyang pour régler son conflit territorial avec Chen Tiaoyuan. Bien qu'aucun des deux n'ait proféré de menaces à notre connaissance, Zhang et Chen sont certainement capables de faire couler le premier sang si Zhang Zuolin ne parvient pas à résoudre la frontière. De longues heures de négociation avec Zhang Zongchang révèlent sa conclusion selon laquelle Chen Tiaoyuan et Anqing sont désormais responsables. Malgré la quantité de ressources investies à Anqing, il ressort des discussions que Zhang Zongchang pense que les commandants de tours à Anqing sont trop dangereux pour travailler pour le bien de la Chine. Zhang Zongchang insiste pour qu'on lui accorde tout le Jiangsu"
+fengtian.217.d3:0 "Zhang Zongchang est arrivé à Shenyang pour régler son conflit territorial avec Chen Tiaoyuan. Bien qu'aucun des deux n'ait proféré de menaces à notre connaissance, Zhang et Chen sont certainement capables de faire couler le premier sang si Zhang Zuolin ne parvient pas à résoudre la frontière. De longues heures de négociation avec Zhang Zongchang révèlent sa conclusion selon laquelle Chen Tiaoyuan et Anqing sont désormais responsables. Malgré la quantité de ressources investies à Anqing, il ressort des discussions que Zhang Zongchang pense que les commandants de tours à Anqing sont trop dangereux pour travailler pour le bien de la Chine. Zhang Zongchang insiste pour nous dire qu'il devrait garder tout notre nouveau territoire"
 fengtian.217.a:0 "Noté."
 
 fengtian.218.t:0 "Faire une proposition"
-fengtian.218.desc:0 "Zhang Zoulin a pris en charge les deux idées dominantes de Chen Tiaoyuan et Zhang Zongchang. Les craintes de la rivalité entre Zhang et Chen ont été confirmées lors de ces entretiens, mais une confiance surprenante a été accordée à Zhang Zoulin. On ne pouvait pas prévoir correctement les réactions des deux hommes, de sorte que Zhang et Chen n'accepteront pas la décision de Zoulin. Bien qu'elle ait été prise en toute confiance, la nécessité de maintenir l'alliance en vie et la possibilité de jugement du Japon pèsent lourdement. Après de longues délibérations, Zhang Zoulin a décidé que, en ce qui concerne Shandong..."
+fengtian.218.desc:0 "Zhang Zuolin a pris en charge les deux idées dominantes de Chen Tiaoyuan et Zhang Zongchang. Les craintes de la rivalité entre Zhang et Chen ont été confirmées lors de ces entretiens, mais une confiance surprenante a été accordée à Zhang Zuolin. On ne pouvait pas prévoir correctement les réactions des deux hommes, de sorte que Zhang et Chen n'accepteront pas la décision de Zoulin. Bien qu'elle ait été prise en toute confiance, la nécessité de maintenir l'alliance en vie et la possibilité de jugement du Japon pèsent lourdement. Après de longues délibérations, Zhang Zuolin a décidé que, en ce qui concerne Shandong..."
 fengtian.218.a:0 "Shandong reste dans le Shandong"
 fengtian.218.b:0 "Shandong garde Jiangsu"
 fengtian.218.c:0 "Shandong obtient le Jiangsu"
 fengtian.218.d:0 "Shandong garde tout"
 
 fengtian.219.t:0 "Fengtian présente une proposition à Anqing" #ANQ
-fengtian.219.d1:0 "Zhang Zoulin a remis sa décision à Chen Tiaoyuan. Sur la question de la frontière Anqing-Shandong, Zhang Zoulin a déclaré que le Shandong doit céder tout territoire en dehors du Shandong. Pour la plupart des militaires de Chen, il s'agit d'une victoire diplomatique. Cependant, pour les quelques officiers qui ont servi sous les ordres de Zhang Zongchang, il s'agit d'une défaite morale dans la bataille pour délégitimer Zhang Zongchang"
-fengtian.219.d2:0 "Zhang Zoulin a remis sa décision à Chen Tiaoyuan. Sur la question de la frontière Anqing-Shandong, Zhang Zoulin a déclaré que le Shandong pourrait continuer à occuper le Jiangsu. Pour la plupart des militaires de Chen, il s'agit d'une défaite diplomatique, qui légitime la tyrannie de Zhang Zongchang"
-fengtian.219.d3:0 "Zhang Zoulin a remis sa décision à Chen Tiaoyuan. Sur la question de la frontière Anqing-Shandong, Zhang Zoulin a déclaré que le Shandong devrait se voir attribuer la province du Jiangsu. Pour la plupart des militaires de Chen, il s'agit d'une défaite diplomatique, qui légitime la tyrannie de Zhang Zongchang"
-fengtian.219.d4:0 "Zhang Zoulin a remis sa décision à Chen Tiaoyuan. Sur la question de la frontière Anqing-Shandong, Zhang Zoulin a déclaré que le Shandong peut continuer à occuper tout le territoire qu'il a pris à la Ligue des huit provinces. Pour l'état-major militaire de Chen, il s'agit d'une défaite diplomatique, qui légitime la tyrannie de Zhang Zongchang"
+fengtian.219.d1:0 "Zhang Zuolin a remis sa décision à Chen Tiaoyuan. Sur la question de la frontière Anqing-Shandong, Zhang Zuolin a déclaré que le Shandong doit céder tout territoire en dehors du Shandong. Pour la plupart des militaires de Chen, il s'agit d'une victoire diplomatique. Cependant, pour les quelques officiers qui ont servi sous les ordres de Zhang Zongchang, il s'agit d'une défaite morale dans la bataille pour délégitimer Zhang Zongchang"
+fengtian.219.d2:0 "Zhang Zuolin a remis sa décision à Chen Tiaoyuan. Sur la question de la frontière Anqing-Shandong, Zhang Zuolin a déclaré que le Shandong pourrait continuer à occuper le Jiangsu. Pour la plupart des militaires de Chen, il s'agit d'une défaite diplomatique, qui légitime la tyrannie de Zhang Zongchang"
+fengtian.219.d3:0 "Zhang Zuolin a remis sa décision à Chen Tiaoyuan. Sur la question de la frontière Anqing-Shandong, Zhang Zuolin a déclaré que le Shandong devrait se voir attribuer la province du Jiangsu. Pour la plupart des militaires de Chen, il s'agit d'une défaite diplomatique, qui légitime la tyrannie de Zhang Zongchang"
+fengtian.219.d4:0 "Zhang Zuolin a remis sa décision à Chen Tiaoyuan. Sur la question de la frontière Anqing-Shandong, Zhang Zuolin a déclaré que le Shandong peut continuer à occuper tout le territoire qu'il a pris à la Ligue des huit provinces. Pour l'état-major militaire de Chen, il s'agit d'une défaite diplomatique, qui légitime la tyrannie de Zhang Zongchang"
 fengtian.219.a:0 "Accepter"
  fengtian.219.b:0 "Refuser"
 
 fengtian.220.t:0 "Fengtian présente une proposition au Shandong" #SQI
-fengtian.220.d1:0 "Zhang Zoulin a remis sa décision à Zhang Zongchang. Sur la question de la frontière Anqing-Shandong, Zhang Zoulin a déclaré que le Shandong doit céder tout territoire en dehors du Shandong. Pour l'état-major militaire de Zhang Zongchang, c'est une défaite diplomatique, et cela légitime le déloyal Chen Tiaoyuan"
-fengtian.220.d2:0 "Zhang Zoulin a remis sa décision à Zhang Zongchang. Sur la question de la frontière Anqing-Shandong, Zhang Zoulin a déclaré que le Shandong pourrait continuer à occuper le Jiangsu. Pour la plupart des militaires de Zhang Zongchang, il s'agit d'une victoire diplomatique. Cependant, pour les quelques dirigeants qui connaissaient Chen Tiaoyuan avant sa révolte, il s'agit d'une défaite morale dans la bataille pour délégitimer Chen"
-fengtian.220.d3:0 "Zhang Zoulin a remis sa décision à Zhang Zongchang. Sur la question de la frontière Anqing-Shandong, Zhang Zoulin a déclaré que le Shandong devait recevoir le Jiangsu. Pour la plupart des militaires de Zhang Zongchang, il s'agit d'une victoire diplomatique. Cependant, pour les rares officiers qui connaissaient Chen Tiaoyuan avant sa révolte, il s'agit d'une défaite morale dans la bataille pour délégitimer Chen"
-fengtian.220.d4:0 "Zhang Zoulin a remis sa décision à Zhang Zongchang. Sur la question de la frontière Anqing-Shandong, Zhang Zoulin a déclaré que le Shandong devait recevoir le Jiangsu. Pour l'état-major de Zhang Zongchang, il s'agit d'une victoire diplomatique. Cependant, pour les quelques dirigeants qui connaissaient Chen Tiaoyuan avant sa révolte, il s'agit d'un retard dans la bataille pour délégitimer Chen" 
+fengtian.220.d1:0 "Zhang Zuolin a remis sa décision à Zhang Zongchang. Sur la question de la frontière Anqing-Shandong, Zhang Zuolin a déclaré que le Shandong doit céder tout territoire en dehors du Shandong. Pour l'état-major militaire de Zhang Zongchang, c'est une défaite diplomatique, et cela légitime le déloyal Chen Tiaoyuan"
+fengtian.220.d2:0 "Zhang Zuolin a remis sa décision à Zhang Zongchang. Sur la question de la frontière Anqing-Shandong, Zhang Zuolin a déclaré que le Shandong pourrait continuer à occuper le Jiangsu. Pour la plupart des militaires de Zhang Zongchang, il s'agit d'une victoire diplomatique. Cependant, pour les quelques dirigeants qui connaissaient Chen Tiaoyuan avant sa révolte, il s'agit d'une défaite morale dans la bataille pour délégitimer Chen"
+fengtian.220.d3:0 "Zhang Zuolin a remis sa décision à Zhang Zongchang. Sur la question de la frontière Anqing-Shandong, Zhang Zuolin a déclaré que le Shandong devait recevoir le Jiangsu. Pour la plupart des militaires de Zhang Zongchang, il s'agit d'une victoire diplomatique. Cependant, pour les rares officiers qui connaissaient Chen Tiaoyuan avant sa révolte, il s'agit d'une défaite morale dans la bataille pour délégitimer Chen"
+fengtian.220.d4:0 "Zhang Zuolin a remis sa décision à Zhang Zongchang. Sur la question de la frontière Anqing-Shandong, Zhang Zuolin a déclaré que le Shandong devait recevoir le Jiangsu. Pour l'état-major de Zhang Zongchang, il s'agit d'une victoire diplomatique. Cependant, pour les quelques dirigeants qui connaissaient Chen Tiaoyuan avant sa révolte, il s'agit d'un retard dans la bataille pour délégitimer Chen" 
 fengtian.220.a:0 "Accepter"
  fengtian.220.b:0 "Refuser"
 
-fengtian.221.t:0 "La proposition de Zhang Zoulin est acceptée" 
+fengtian.221.t:0 "La proposition de Zhang Zuolin est acceptée" 
 fengtian.221.d:0 "La proposition de Fengtian a été acceptée par Zhang Zongchang et Chen Tiaoyuan. Peut-être est-ce le début d'une nouvelle ère de coopération sous Fengtian qui conduira à la réunification nationale ? De nombreux membres de l'état-major militaire sont optimistes, citant cela comme un triomphe que même Wu Peifu ne pourrait pas accomplir"
 fengtian.221.a:0 "La paix... pour l'instant."
 
-fengtian.222.t:0 "La proposition de Zhang Zoulin est rejetée" 
+fengtian.222.t:0 "La proposition de Zhang Zuolin est rejetée" 
 fengtian.222.d:0 "La proposition de Fengtian a été rejetée par Zhang Zongchang et Chen Tiaoyuan. Il semble que les deux resteront peu coopératifs et hostiles pour l'avenir prévisible. Peut-être est-ce le signe que les négociations diplomatiques pour la réunification de la Chine sont vouées à l'échec ? Certains au sein de l'état-major militaire sont d'accord, citant que même Wu Peifu n'aurait pas pu trouver une solution diplomatique"
 fengtian.222.a:0 "Malheureux, mais pas surprenant."
 
@@ -1738,9 +1796,9 @@ fengtian.242.d2:0 "Les Japonais ont également engagé une aide, nous devrions e
 fengtian.242.a:0 "Commencez l'aide à la reconstruction."
 fengtian.242.b:0 "Annuler l'aide à la reconstruction."
 
-fengtian.243.t:0 "Anqing pense à la remise en état"
-fengtian.243.d:0 "Maintenant que nous avons commencé à mener ouvertement une guerre de reconquête contre Pékin, notre allié Anqing a commencé à peser les facteurs pour décider s'il voudra participer avec nous"
-fengtian.243.a:0 "Nous verrons ce qu'ils décideront"
+fengtian.243.t:0 "Anqing s'engage dans la reconquête"
+fengtian.243.d:0 "La Clique d'Anqing a pris la bonne décision et a décidé de rejoindre notre alliance et de s'engager à nous aider dans la guerre de reconquête contre Pékin. Ils ont pesé de nombreux facteurs, et savoir qu'ils ont quand même décidé de se joindre à notre cause est une très bonne nouvelle."
+fengtian.243.a:0 "Très bien."
 
  fengtian.244.t:0 "Anqing abandonne la reconquête"
 fengtian.244.d1:0 "La Clique d'Anqing, dirigée par Chen Tiaoyuan, a décidé de refuser toute participation à notre guerre de reconquête contre les [QIE.GetName] ! C'est extrêmement irrespectueux, car notre gouvernement et les Japonais les ont soutenus pendant la guerre de la Ligue et les ont aidés à prendre le contrôle des cinq provinces. Cependant, nous avons besoin de toute l'aide que nous pouvons obtenir, et en tant que telle, nous pouvons laisser faire et espérer qu'ils se joindront à la guerre, quelle que soit la date à laquelle elle aura commencé. Mais s'ils ne s'y joignent pas, cela signifierait que nous devrions les considérer comme un autre chef de guerre que nous devrons faire tomber pour unir la Chine"
@@ -1760,6 +1818,11 @@ fengtian.251.t:0 "Acceptation du suffrage féminin"
 fengtian.251.d:0 "La population a finalement accepté l'idée que les femmes puissent voter aux élections locales, ce qui était assez controversé auparavant car il s'agit d'un changement comparativement radical compte tenu de la société très conservatrice de la Chine. Song Qingling a déclaré que c'était une grande victoire pour les droits des femmes en Chine, ce qui est la raison principale pour laquelle [FNG.GetNameDef] a mis en place cette politique en premier lieu"
 fengtian.251.a:0 "Une victoire pour les femmes, une victoire pour la démocratie"
 
+fengtian.252.t:0 "Les travailleurs protestent contre nos politiques"
+fengtian.252.d:0 "Les dirigeants syndicaux ont commencé à exiger des équipes plus courtes pour leurs travailleurs, déclarant qu'ils ne pouvaient pas continuer à travailler à ce rythme. Tant que leurs demandes ne seront pas satisfaites, ils ont menacé de faire grève et de geler nos voies de transport."
+fengtian.252.a:0 "Faites des promesses pour l'instant."
+fengtian.252.b:0 "Nous ne cèderons pas !"
+
 fengtian.253.t:0 "Loyauté des travailleurs atteinte"
 fengtian.253.d:0 "Le [FNG.GetName] a enfin atteint son objectif de détruire l'influence des syndicats, en utilisant divers moyens comme le démantèlement des syndicats, la propagande antisyndicale, ainsi que le contrôle national croissant des industries clés. La propagande a inculqué la croyance que les syndicats ne sont qu'un moyen de diviser cette société, nous affaiblissant par rapport à l'Occident, auquel la plupart des travailleurs croient maintenant enfin"
 fengtian.253.a:0 "Les syndicats divisent le pays face à l'impérialisme étranger !"
@@ -1771,6 +1834,10 @@ fengtian.254.a:0 "La Chine sera unie pour toujours !"
 fengtian.255.t:0 "[FNG.GetName] Prépare la guerre"
 fengtian.255.d:0 "Le [FNG.GetName] se prépare à nous déclarer la guerre dans les 30 prochains jours. Ce combat sera une guerre de survie pour notre gouvernement, compte tenu de la forte industrie de [FNG.GetNameDef] et de l'aide japonaise"
 fengtian.255.a:0 "Nous allons écraser ces chiens de salon japonais !"
+
+fengtian.256.t:0 "Grève des travailleurs"
+fengtian.256.d:0 "Les dirigeants syndicaux ont incité leurs travailleurs à ne plus prendre leur poste dans les chemins de fer et les chantiers navals. Nos échanges internationaux seront réduits jusqu'à ce que nous puissions faire quelque chose à leur sujet."
+fengtian.256.a:0 "Chiens de syndicalistes !"
 
 fengtian.270.t:0 "La question de l'occupation"
 fengtian.270.d:0 "Les occupations ne sont jamais faciles ou simples, mais le soldat chinois moyen ne vaut souvent guère mieux qu'un bandit avec des ordres de marche. Nos troupes ont déjà commencé à brûler, piller et souiller les mêmes villes et villages que notre gouvernement prétend libérer. Certains diraient que nous devrions laisser les troupes s'amuser, mais maintenant que le Grand Maréchal Zhang Zuolin est de nouveau en compétition sur la scène nationale, il doit tenir compte de son image. Il n'était pas meilleur qu'eux autrefois, et beaucoup ici dans le sud ont du mal à montrer du respect à un ancien bandit ou à recevoir ses ordres. L'élite a déjà levé le nez et, bien que la force puisse être une réponse facile, nous avons besoin de ces intellectuels, propriétaires et hommes d'affaires pour faire avancer nos objectifs plus importants. C'est par l'intermédiaire de ces personnalités que nous devons gouverner. Heureusement, notre système logistique est suffisant pour nourrir nos soldats, ce qui signifie que nos hommes ne pillent pas pour survivre, mais néanmoins ils seront malheureux d'être privés de ce qu'ils considèrent comme leur droit par la conquête : Les libérateurs ou les libérés ?"
@@ -1822,7 +1889,7 @@ fengtian.278.d_good:0 "Après quelques violences inévitables et une vague de ba
 fengtian.278.a:0 "Au moins, c'est fini."
 
 ##Wuhan Events
-fengtian.279.t:0 "Destruction à Wuhan"
+fengtian.279.t "Destruction à Wuhan"
 fengtian.279.d_bad:0 "Le rêve républicain de la Chine est né à Wuhan, et nous en sommes aujourd'hui les porteurs de flambeau. Malheureusement, les idéaux révolutionnaires étaient loin de l'esprit de nos soldats qui, après avoir rencontré une résistance inattendue à Wuchang, se sont mis à courir à travers la ville, pillant sans discernement. Lorsque l'ordre fut rétabli, les docks, les quais et toutes sortes d'entreprises riveraines furent réduits en cendres, ainsi que d'importantes zones résidentielles. Ce qui aurait pu être une victoire politique est devenu une défaite politique, et une marque de honte. Sur une note plus positive, nos troupes ont pu récupérer un stock d'équipement de l'arsenal Hanyang maintenant abandonné, bien que l'on soupçonne qu'un certain nombre d'armes ont été siphonnées et mises sur le marché noir."
 fengtian.279.d_good:0 "Le rêve républicain de la Chine est né à Wuhan, et nous en sommes aujourd'hui les porteurs de flambeau. Heureusement, cela semble avoir été dans l'esprit de nos soldats lorsqu'ils sont entrés dans la ville, qui a survécu aux combats relativement indemne, d'autant plus que les pillages ont été limités. Après s'être frayé un chemin à travers la plaine de Chine du Nord, il semble que nos troupes aient commencé à reconnaître les bienfaits d'une population reconnaissante. Notre armée, composée de tant d'anciens bandits et vagabonds, ne changera peut-être jamais complètement, mais la relative retenue d'aujourd'hui est un pas en avant. Pour ajouter à la bonne nouvelle, nos troupes ont récupéré un stock de matériel de l'arsenal de Hanyang, maintenant abandonné."
 fengtian.279.a:0 "Honteux"
@@ -1925,6 +1992,14 @@ fengtian.299.a:0 "Une nouvelle ère."
 fengtian.300.t:0 "Une marionnette en Mandchourie"
 fengtian.300.d:0 "Tous nos efforts en Mandchourie ont porté leurs fruits. Avec Zhang Zuolin mort et Zhang Xueliang hors du tableau, Yang Yuting devrait se révéler une marionnette souple et adaptée à nos objectifs. Même si nous n'avons plus de voie facile pour contrôler la Chine dans son ensemble, nous avons assuré notre propre sécurité. Sans les ressources de la Mandchourie, notre économie s'effondrerait, et de là, un ennemi pourrait facilement prendre la Corée, puis plonger un poignard au cœur du Japon. C'est ainsi que l'histoire se fait"
 fengtian.300.a:0 "Excellent !"
+
+fengtian.301.t:0 "Feeder Event - Murmures venus de Tokyo"
+fengtian.301.d:0 "Si vous pouvez le voir, c'est que vous avez rencontré un bug. Veuillez le signaler sur GitHub !"
+fengtian.301.a:0 "Je vais faire ce rapport tout de suite !"
+
+fengtian.302.t:0 "Murmures venus de Tokyo"
+fengtian.302.d:0 "Nos espions à Tokyo nous ont dit que les Japonais se préparaient peut-être à la guerre. Nos ennemis mandchous auraient demandé l'aide des Japonais dans leur guerre contre nous, ce qui est actuellement examiné par le Cabinet impérial et le Quartier général. D'une part, cette nouvelle est une reconnaissance tacite par Fengtian qu'il a perdu toute prétention à la légitimité, la dépendance directe du Japon est un coup politique dont il ne se remettra peut-être jamais, mais d'autre part, elle est profondément troublante. Même maintenant, la vaste machine de guerre impériale du Japon peut gronder à vie, pour n'être arrêtée que par la défense la plus résolue."
+fengtian.302.a:0 "Nous apprendrons bientôt leur décision."
 
 ### FNG Political Events ###
 
@@ -2039,9 +2114,9 @@ fngpolitic.16.t:0 "Expulsez les bandits japonais !"
 fngpolitic.16.d:0 "Le temps est venu de déclarer notre indépendance, de chasser les intrus japonais de Chine, et de mettre fin à un siècle d'insupportable humiliation nationale ! Nous serons naturellement privés de tout soutien matériel étranger, mais le peuple chinois se rallie désormais à nous. En avant ! Zhonghua Mingguo Wansui !"
 fngpolitic.16.a:0 "Wansui !"
 
-fngpolitic.17.t:0 "Préservation de la révolution du Xinhai"
-fngpolitic.17.d:0 "Fengtian est le seul gouvernement permanent à maintenir l'ordre établi par la révolution du Xinhai en 1911, qui appelait au renversement des Qing et à l'instauration d'une République. Bien que certains disent que nos engagements républicains sont discutables et qu'une guerre à grande échelle contre [QIE.GetNameDef] soit actuellement irréaliste, le gouvernement défend haut et fort ces deux objectifs, car ils favorisent la légitimité aux yeux de tous les Chinois"
-fngpolitic.17.a:0 "Défendre les valeurs révolutionnaires !"
+fngpolitic.17.t:0 ""
+fngpolitic.17.d:0 ""
+fngpolitic.17.a:0 ""
 
 fngpolitic.18.t:0 "Influence de Mantetsu"
 fngpolitic.18.d:0 "L'influence économique de Mantetsu s'étend à tout le pays et à travers l'assemblée. Alors que le gouvernement est, pour l'instant, engagé dans une résistance privée, leurs efforts semblent s'affaiblir de jour en jour"
@@ -2099,6 +2174,7 @@ fngshen.2.a:0 "Envoyez une délégation"
 
 fngshen.3.t:0 "[FROM.GetName] Accepte la conférence"
 fngshen.3.d:0 "Bonne nouvelle ! [FROM.GetNameDefCap] a répondu à notre invitation et ils ont accepté de participer à la conférence. Nous pouvons nous attendre à ce que leur délégation arrive bientôt"
+ngshen.3.d1:0 "Bonne nouvelle ! [FROM.GetNameDefCap] a répondu à notre invitation et ils ont accepté de participer à la conférence. Nous pouvons nous attendre à ce que leur délégation arrive bientôt. Cependant, nous devons noter que leur loyauté actuelle va à [ANQ.GetLeader], car Anqing a pris Shandong dans la guerre de la Ligue et les a transformés en marionnettes. Ils nous ont cependant promis la province une fois la guerre commencée."
 fngshen.3.a:0 "Excellent."
 
 fngshen.4.t:0 "Négociations avec les fédéralistes ?"
@@ -2151,9 +2227,9 @@ fngshen.13.d:0 "Face à la montée des sentiments anticoncessionnistes, Yang Yut
 fngshen.13.a:0 "Un avertissement juste."
 
 fngshen.14.t:0 "Le point de décision"
-fngshen.14.d:0 "Face à la pression insurmontable de ses partenaires potentiels, Zuolin doit décider s'il accepte la position anticoncessionniste qui a dépassé la conférence ou s'il tente de s'opposer à eux. Prendre parti contre les anticoncessionnistes serait dévastateur pour toute chance de former une alliance forte. Mais le faire équivaudrait à rompre avec Tokyo"
+fngshen.14.d:0 "Face à la pression insurmontable de ses partenaires potentiels, Zuolin doit décider s'il accepte la position anticoncessionniste qui a dépassé la conférence ou s'il tente de s'opposer à eux. Prendre parti contre les anticoncessionnistes entraverait gravement nos chances de former une alliance solide. Adopter une position anticoncessionniste mettrait Tokyo en colère."
 fngshen.14.a:0 "Très bien, nous acceptons."
-fngshen.14.b:0 "Nous ne pouvons pas tourner le dos au Japon."
+fngshen.14.b:0 "Nous ne pouvons pas nous permettre de mettre le Japon en colère."
 
 FNG_federalist_allies:0 "§GLes fédéralistes se joindront à nos efforts contre [QIE.GetNameDef]!§!"
 FNG_anticoncessionists_angered:0 "§R[ANQ.GetCliqueShortName] et [FNG_shenyang_federalist_leader.GetCliqueShortName] seront très mécontents de cette décision!§!"
@@ -2164,13 +2240,15 @@ fngshen.15.t:0 "L'alliance fédéraliste [FNG.GetCliqueShortName]"
 fngshen.15.d:0 "Il n'a pas été facile de surmonter les nombreuses différences entre nous. Mais finalement, le pragmatisme l'a emporté et nous avons trouvé suffisamment de points communs pour que cette amitié improbable devienne réalité. Les [FNG.GetCliqueShortName] et les fédéralistes de [FNG_shenyang_federalist_leader.GetCliqueShortName] sont maintenant du même côté après une longue série de négociations secrètes. Espérons que cette alliance résistera à l'épreuve du temps"
 fngshen.15.a:0 "Excellent."
 
-fngshen.16.t:0 "[ANQ.GetCliqueShortName] Réaffirme son soutien"
-fngshen.16.d:0 "Nous avons reçu un message officiel de [ANQ.GetLeader] nous indiquant que nous pouvons compter sur le soutien de [ANQ.GetCliqueShortName] à l'avenir. Ravis des promesses faites tout au long de la conférence, notre amitié est toujours d'actualité. Nous pouvons compter sur leur soutien dans les conflits à venir avec Pékin"
-fngshen.16.a:0 "Merci !"
+fngshen.16.t:0 "[ANQ.GetCliqueShortName] nous remercie"
+fngshen.16.d:0 "Nous avons reçu un message officiel de [ANQ.GetLeader] disant qu'ils sont heureux que nous ayons pris une position anti-concessionniste. Cependant, ils n'ont pas encore pesé toutes les questions concernant leur décision de se joindre à nous dans notre guerre de reconquête. Nous attendons leur décision finale."
+fngshen.16.a:0 "Nous devrons attendre."
 
 fngshen.17.t:0 "Fin de la conférence"
-fngshen.17.d:0 "Bien que les obstacles à surmonter n'aient pas manqué en cours de route, la diplomatie a gagné la partie. La conférence de Shenyang s'est terminée par un succès pour [Root.GetCliqueShortName], qui a consolidé sa position dans la région aux dépens du gouvernement de Pékin. Les délégués ont quitté la ville après une cérémonie de clôture cordiale. Zhang Zuolin est maintenant à quelques pas de concrétiser ses ambitions"
+ngshen.17.d:0 "Bien que les obstacles à surmonter n'aient pas manqué en cours de route, la diplomatie a gagné. La conférence de Shenyang s'est terminée par un succès pour [Root.GetCliqueShortName], qui a consolidé sa position dans la région aux dépens du gouvernement de Pékin. Les délégués ont quitté la ville après une cérémonie de clôture cordiale. Zhang Zuolin est maintenant à quelques pas de concrétiser ses ambitions."
+fngshen.17.danq:0 "Bien que les obstacles à surmonter n'aient pas manqué en cours de route, la diplomatie a gagné. La conférence de Shenyang s'est terminée par un succès pour [Root.GetCliqueShortName], qui a consolidé sa position dans la région aux dépens du gouvernement de Pékin. Les délégués ont quitté la ville après une cérémonie de clôture cordiale. C'est maintenant à nous de décider si nous allons effectivement mettre notre poids derrière Zhang Zuolin et nous joindre à sa guerre de reconquête."
 fngshen.17.a:0 "Prochain arrêt : Pékin !"
+fngshen.17.b:0 "Nous prendrons la bonne décision."
 
 fngshen.18.t:0 "Les fédéralistes s'en vont"
 fngshen.18.d:0 "Trouver un compromis sur les Concessions s'est avéré être une tâche insurmontable. Il était tout simplement politiquement impossible pour les Fédéralistes de faire un revirement complet sur la question, alors que le refus de Zhang de bouger est publiquement tourné en dérision comme un simple refus de mordre la main qui le nourrit. Après avoir publiquement dénoncé la conférence comme une imposture, la délégation fédéraliste dirigée par [FNG_shenyang_federalist_leader.GetLeader] a quitté la conférence. Toute chance d'alliance entre eux et [Root.GetCliqueShortName] est désormais impossible"
@@ -2181,12 +2259,15 @@ fngshen.19.d:0 "De toute évidence, Zuolin ne pouvait tout simplement pas mordre
 fngshen.19.a:0 "Que peut-on attendre d'une marionnette japonaise ?"
 
 fngshen.20.t:0 "[From.GetCliqueShortName] Refuse de dénoncer les concessions"
-fngshen.20.d:0 "Malgré tous nos efforts, nos délégués n'ont pas réussi à convaincre Zuolin de s'opposer aux concessions. Cette déclaration de soutien inconditionnel à Tokyo et aux autres suceurs de sang coloniaux n'est rien d'autre qu'une grave insulte à Tiaoyuan et une trahison de sa confiance. Rassurez-vous, nous ne laisserons pas cela passer à la légère"
-fngshen.20.a:0 "Dénoncez-le !"
+fngshen.20.d:0 "Malgré tous nos efforts, nos délégués n'ont pas réussi à convaincre Zuolin de s'opposer aux concessions. Nous ne laisserons pas cela passer à la légère, mais nous ne devons pas commettre d'actions irréfléchies et dénoncer immédiatement Zuolin. Examinons les facteurs et décidons si nous devons ou non nous joindre à Zuolin dans sa guerre de revendication contre Pékin."
+fngshen.20.a:0 "C'est regrettable."
 
-fngshen.21.t:0 "Tiaoyuan rompt l'alliance"
-fngshen.21.d:0 "La position de [FNG.GetCliqueShortName] sur la question des concessionnaires s'est avérée être un pont infranchissable. Incapable de rompre avec tout ce qu'il a défendu, Chen Tiaoyuan a vivement dénoncé Zhang Zuolin dans les termes les plus durs pour sa lâcheté et sa soumission à Tokyo. Il a déclaré avec colère que l'alliance entre [ANQ.GetCliqueShortName] et [FNG.GetCliqueShortName] était morte et enterrée sur place et qu'il n'y avait aucun moyen d'y remédier, à moins que Zhang ne décide de se ranger du côté de ses compatriotes au lieu de celui des Japonais. La délégation de [ANQ.GetCliqueShortName] a rapidement quitté la conférence par la suite. Il va sans dire que cela a mis un bémol aux efforts diplomatiques de Zuolin"
- fngshen.21.a:0 "Zut."
+fngshen.21.t:0 "Tiaoyuan décide de sa position"
+fngshen.21.d:0 "La position de [FNG.GetCliqueShortName] sur la question des concessionnaires a fortement irrité Chen Tiaoyuan de [ANQ.GetCliqueShortName]. Cependant, les délégués de [ANQ.GetCliqueShortName] nous ont informés que la décision de se joindre ou non à notre guerre contre Pékin et de conclure une alliance avec nous n'a pas encore été prise. Nous attendons avec impatience leur réponse finale."
+fngshen.21.a:0 "Il faut attendre.
+
+#"La position de [FNG.GetCliqueShortName] sur la question des concessions s'est avérée être un pont infranchissable. Incapable de rompre avec tout ce qu'il a défendu, Chen Tiaoyuan a vivement dénoncé Zhang Zuolin dans les termes les plus durs pour sa lâcheté et sa soumission à Tokyo. Il a déclaré avec colère que l'alliance entre [ANQ.GetCliqueShortName] et [FNG.GetCliqueShortName] était morte et enterrée sur place et qu'il n'y avait aucun moyen d'y remédier, à moins que Zhang ne décide de se ranger du côté de ses compatriotes au lieu de celui des Japonais. La délégation de [ANQ.GetCliqueShortName] a rapidement quitté la conférence par la suite. Inutile de dire que cela a mis un bémol aux efforts diplomatiques de Zuolin."
+#fngshen.21.a:0 "Zut."
 
 ### Unification Conference
 FNG_conference_success:0 "La conférence d'unification a été un succès"
@@ -2352,7 +2433,7 @@ fngconf.14.c:0 "Ça semble être une bonne idée."
 
 fngconf.15.t:0 "Les fédéralistes quittent la conférence"
 fngconf.15.d.rejected:0 "Le compromis constitutionnel ayant été rejeté, nous nous attendions à ce que les fédéralistes présentent une proposition plus rationnelle qui ne soit pas un coup de force de Chen Jiongming. Malheureusement, ils sont revenus après quelques délibérations en déclarant à tout le monde qu'ils abandonnaient la conférence tout en dénonçant les dirigeants fengtiens. Une partie de la salle de conférence est maintenant vide de manière flagrante sans leur présence. Bien que ce ne soit certainement pas idéal, la conférence peut au moins se poursuivre sans autre interruption" #Non-Fédéraliste POV
-fngconf.15.d.rejected_feds:0 "Avec le refus des Fengtiens de bouger sur l'application de la constitution de 1924 sans l'édulcorer, les Fédéralistes ont renoncé à essayer de négocier davantage. Après avoir dénoncé le refus de compromis de Zuolin, leur bloc de délégués a rapidement quitté la salle de conférence et est déjà en route pour quitter Pékin. Bien que la conférence se poursuive, les nombreux sièges vacants dans les chambres ont laissé une cicatrice sur sa légitimité"#Federalist POV
+fngconf.15.d.rejected_feds:0 "Avec le refus des Fengtiens de bouger sur l'application de la constitution de 1923 sans l'édulcorer, les Fédéralistes ont renoncé à essayer de négocier davantage. Après avoir dénoncé le refus de compromis de Zuolin, leur bloc de délégués a rapidement quitté la salle de conférence et est déjà en route pour quitter Pékin. Bien que la conférence se poursuive, les nombreux sièges vacants dans les chambres ont laissé une cicatrice sur sa légitimité"#Federalist POV
 fngconf.15.d.betrayed:0 "Malgré leurs différences, un compromis entre les fédéralistes de Zhang Zuolin et de Chen Jiongming aurait pu être possible, mais il ne l'a pas été. Ironiquement, le point de discorde n'était pas idéologique sous quelque forme que ce soit, mais plutôt territorial. Fengtian a promis un territoire fédéraliste à un autre demandeur, espérant l'amener à bord, mais ce faisant, Zhang a involontairement détruit toute bonne volonté entre lui et ses partenaires de négociation fédéralistes. Furieux, ils sont déjà en route pour quitter la ville." #Non-Federalist POV
 fngconf.15.d.betrayed_feds:0 "Malgré nos divergences, un compromis avec le gouvernement fengtien de Zhang Zuolin aurait pu être possible. Mais il est maintenant clair que de tels rêves n'ont tout simplement jamais été réalisés. Dans un acte de trahison effronté, Zhang a promis des portions de notre territoire à un autre demandeur, et ce faisant, il ne s'est pas montré meilleur que tout autre chef de guerre prédateur. Nous ne pouvons accepter une telle insulte, et nos délégués prévoient déjà de quitter la conférence demain." #Federalist POV
 fngconf.15.a:0 "C'est leur perte."
