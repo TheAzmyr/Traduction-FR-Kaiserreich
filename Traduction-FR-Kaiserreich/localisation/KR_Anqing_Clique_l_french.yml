@@ -46,8 +46,18 @@ anq_theqing_name:0 "Les Qing"
 anq_qing_name:0 "Qing"
 anq_ally_name:0 "Allié"
 
-## Dynamic Modifiers ##
-ANQ_credibility_dynamic_modifier:0 "£anq_credibility Crédibilité de §MChen Tiaoyuan§!\n§W--------------\n§!§gAvec l'ancienne Ligue des huit provinces en ruine et la rhétorique anti-concessionniste qui sévit, Chen Tiaoyuan a réussi à s'imposer comme un phare du mouvement en Chine. Mais ceux qui ont permis son ascension pourraient tout aussi bien le laisser tomber s'il trahissait leurs intérêts. Néanmoins, Chen Tiaoyuan sait très bien que suivre leurs moindres désirs conduira à un Anqing sans les ressources nécessaires pour réaliser cette libération de la Chine.§!"
+## Credibility System ##
+ANQ_credibility_dynamic_modifier:0 "£pol_idea Crédibilité de §MChen Tiaoyuan§!"
+ANQ_credibility_idea:0 "£anq_credibility Crédibilité de §MChen Tiaoyuan§!"
+ANQ_credibility_idea_desc:0 "Avec l'ancienne Ligue des huit provinces en ruine et la rhétorique anti-concessionniste qui sévit, Chen Tiaoyuan a réussi à se faire passer pour un phare du mouvement en Chine. Mais ceux qui ont permis son ascension pourraient tout aussi bien le laisser tomber s'il trahissait leurs intérêts. Néanmoins, Chen Tiaoyuan sait très bien que suivre leurs moindres désirs conduira à un Anqing sans les ressources nécessaires pour réaliser cette libération de la Chine.\n§W--------------\n[ANQ_credibility_political_power_gain][ANQ_credibility_organisation][ANQ_credibility_recruitable_pop][ANQ_credibility_stability]§!"
+
+ANQ_credibility_political_power_gain_text:0 "Gain de pouvoir politique : [?ANQ.credibility_factor_dynamic_modifier_pol_gain|=%+0]\n"
+ANQ_credibility_political_power_gain_text_last:0 "Gain de pouvoir politique : [?ANQ.credibility_factor_dynamic_modifier_pol_gain|=%+0]"
+ANQ_credibility_organisation_text:0 "Organisation des divisions : [?ANQ.credibility_factor_dynamic_modifier_org|=%+1]\n"
+ANQ_credibility_organisation_text_last:0 "Organisation des divisions : [?ANQ.credibility_factor_dynamic_modifier_org|=%+1]"
+ANQ_credibility_recruitable_pop_text:0 "Facteur de recrutement de la population : [?ANQ.credibility_factor_dynamic_modifier_recruitable_pop|%+0]\n"
+ANQ_credibility_recruitable_pop_text_last:0 "Facteur de recrutement de la population : [?ANQ.credibility_factor_dynamic_modifier_recruitable_pop|%+0]"
+ANQ_credibility_stability_text:0 "Stabilité : [?ANQ.credibility_factor_dynamic_modifier_stab|=%+2]"
 
 ## Companies ##
 longhai_railway:0 "Chemin de fer de Longhai"
@@ -62,12 +72,13 @@ FNG_hostile:0 "Est hostile aux Fengtiens"
 ANQ_hostile_qing:0 "Est hostile à Qing"
 ANQ_is_reconstructing:0 "A déjà achevé un projet de reconstruction"
 ANQ_abandons_reclamation:0 "Anqing a abandonné sa participation à la guerre de reconquête"
-ANQ_commits_reclamation:0 "Anqing s'est engagé à participer à la guerre de récupération"
-ANQ_reclamation_decided:0 "Anqing a décidé de participer ou non à la guerre de récupération"
+ANQ_commits_reclamation:0 "Anqing s'est engagé à participer à la guerre de reconquête"
+ANQ_reclamation_decided:0 "Anqing a décidé de participer ou non à la guerre de reconquête"
 ANQ_with_zhili:0 "Anqing aux côtés de la République Zhili"
 ANQ_with_feds:0 "Anqing aux côtés des fédéralistes"
 
 ANQ_fngjap_reconstruction_plan:0 "Fengtian et le Japon se sont engagés dans un plan de reconstruction global"
+ANQ_fengjapan_aids_reconstruction:0 "Le Fengtian a décidé de soutenir nos efforts de reconstruction"
 ANQ_fng_undecided_strategy:0 "Fengtian n'a pas encore décidé de sa stratégie"
 ANQ_feng_aid_undecided:0 "L'aide fengtienne à la reconstruction est indécise"
 ANQ_no_reconstruction_aid:0 "Fengtian nous a refusé son aide"
@@ -125,13 +136,13 @@ anq_increase_qie_anger_3x:0 "§RQing sera extrêmement mécontent de votre déci
 anq_decrease_qie_anger_5:0 "Diminuer §YQing Anger§! par §G5§!.\n"
 
 anq_nochange_reclamation_willingness:0 "§YWillingness§! to join the Reclamation War against Beijing does not change.\n"
-anq_increase_reclamation_willingness_1:0 "Augmenter §YWillingness§! pour rejoindre la guerre de récupération contre Pékin par §M1§!.\n"
-anq_increase_reclamation_willingness_2:0 "Augmenter §YWillingness§! pour rejoindre la guerre de récupération contre Pékin par §M2§!.\n"
-anq_increase_reclamation_willingness_2_feng:0 "Parce que nous avons remporté la victoire avec l'aide de Fengtian, augmentez §YWillingness§! pour rejoindre leur guerre de récupération contre Pékin par §M2§!.\n"
-anq_decrease_reclamation_willingness_1:0 "Diminuer §YWillingness§! pour rejoindre la guerre de récupération contre Pékin par §M1§!.\n"
-anq_decrease_reclamation_willingness_1_sqianq:0 "En raison de l'échec de Fengtian à négocier correctement un accord entre nous et Shandong, diminuer §YWillingness§! pour rejoindre plus tard leur guerre de récupération contre Pékin par §M1§!.\n"
-anq_decrease_reclamation_willingness_2:0 "Diminuer §YWillingness§! pour rejoindre la guerre de récupération contre Pékin par §M2§!.\n"
-anq_decrease_reclamation_willingness_3:0 "Diminuer §YWillingness§! pour rejoindre la guerre de récupération contre Pékin par §M3§!.\n"
+anq_increase_reclamation_willingness_1:0 "Augmenter §YWillingness§! pour rejoindre la guerre de reconquête contre Pékin par §M1§!.\n"
+anq_increase_reclamation_willingness_2:0 "Augmenter §YWillingness§! pour rejoindre la guerre de reconquête contre Pékin par §M2§!.\n"
+anq_increase_reclamation_willingness_2_feng:0 "Parce que nous avons remporté la victoire avec l'aide de Fengtian, augmentez §YWillingness§! pour rejoindre leur guerre de reconquête contre Pékin par §M2§!.\n"
+anq_decrease_reclamation_willingness_1:0 "Diminuer §YWillingness§! pour rejoindre la guerre de reconquête contre Pékin par §M1§!.\n"
+anq_decrease_reclamation_willingness_1_sqianq:0 "En raison de l'échec de Fengtian à négocier correctement un accord entre nous et Shandong, diminuer §YWillingness§! pour rejoindre plus tard leur guerre de reconquête contre Pékin par §M1§!.\n"
+anq_decrease_reclamation_willingness_2:0 "Diminuer §YWillingness§! pour rejoindre la guerre de reconquête contre Pékin par §M2§!.\n"
+anq_decrease_reclamation_willingness_3:0 "Diminuer §YWillingness§! pour rejoindre la guerre de reconquête contre Pékin par §M3§!.\n"
 
 anq_has_governors_focus_tt:0 "A installé des gouverneurs.\n"
 
@@ -171,13 +182,13 @@ anq_two_divisions_qing_land:0 "£nato_unit_infantry_icon_small Gain 2 §YInfantr
 anq_will_lead_war_tt:0 "§RJointer la faction de Qing mènera à une guerre immédiate ! §!\n"
 
 anq_instructions_destruction_spirits_tt:0 "§gGrâce à £decision_icon_small §HDecisions§! et §HFocuses§!, ces esprits négatifs peuvent être éliminés.§!\n"
-anq_has_widespread_destruction:0 " A l'idée §Y Destruction répandue§!\n"
-anq_has_derelict_industry:0 " A l'idée §Y Industrie abandonnée§\n !"
+anq_has_widespread_destruction:0 "A l'idée §Y Destruction répandue§!\n"
+anq_has_derelict_industry:0 "A l'idée §YIndustrie abandonnée§!\n !"
 
 anq_instructions_kuomintang_yiguandao_tt:0 "§gLe Kuomintang et le Yiguandao résisteront à notre règle et mettront continuellement en scène des attaques ! En utilisant £decision_icon_small §HDecisions§! ils peuvent être supprimés temporairement jusqu'à un certain niveau. En complétant §HFocuses§!, d'autres £decision_icon_small §HDecisions§! se déverrouilleront pour mettre fin à leur présence de façon permanente et éliminer les esprits.§!\n"
 
 anq_unlocks_xinhai_loyalists_tt:0 "Débloque la décision £decision_icon_small §HDecision§! de lever les unités loyalistes de Xinhai.\n"
-anq_commit_fengtian_tt:0 "§RCela signifie qu'Anqing s'engage définitivement à participer à la guerre de récupération de Fengtian, ce qui signifie qu'elle ne peut pas refuser de s'y joindre une fois que les hostilités ont commencé. Anqing doit donc se préparer à la guerre. §!\n"
+anq_commit_fengtian_tt:0 "§RCela signifie qu'Anqing s'engage définitivement à participer à la guerre de reconquête du Fengtian, ce qui signifie qu'elle ne peut pas refuser de s'y joindre une fois que les hostilités ont commencé. Anqing doit donc se préparer à la guerre. §!\n"
 anq_abandon_fengtian_tt:0 "L'abandon du fengtien conduira à ce qu'Anqing se retrouve seule en Chine, ce qui la rendra très vulnérable. Cela bloque également toute possibilité d'aide japonaise supplémentaire.§!\n"
 
 anq_unlocks_war_beijing_tt:0 "Débloque la décision £decision_icon_small §HDecision§! d'attaquer le [QIE.GetName] de manière indépendante.\n"
@@ -344,7 +355,7 @@ ANQ_influence_decisions:0 "La diplomatie alliée"
 ANQ_influence_decisions_desc:0 "[getanqinfluencesystem]"
 anq_influence_decisions_proqing:0 "Les Qing ont contribué à notre défaite de la Clique de Nanjing, et nous leur devons beaucoup. En outre, nous soutenons l'idéal d'une Chine unie. Par conséquent, une coopération étroite avec les Qing et un chemin vers une éventuelle unification sont inévitables : §H[?party_popularity@market_liberal|%1]§!§! §Y(Market Liberal Popularity)§!\n§gCurrent §YQing Anger§! : §R[?ANQ_beijing_anger|0]§! §Y(Diminue 1 par semaine)§!"
 anq_influence_decisions_projapan:0 "Nous reconnaissons le gouvernement Fengtian comme le gouvernement chinois légitime. A travers eux, les Japonais ont une influence significative car nous dépendons de leur soutien. En utilisant notre soutien à une Chine unie, les Fengtiens chercheront à étendre leur contrôle sur nous. [getanqwillingnessreclamation]§gCurrent §YFengtian Influence§! §H[?party_popularity@market_liberal|%1]§!§! §Y(Market Liberal Popularity)§!\n§gCurrent §YJapanese Aid Score§! §H[?ANQ_tokyo_score]§!§!"
-anq_willingness_reclamation_loc:0 "§g§YWillingness§! to join Reclamation War : §H[?ANQ_reconnaissance_volontaire|+0]§!§!\n"
+anq_willingness_reclamation_loc:0 "§g§YVolonté§! de rejoindre la guerre de la reconquête : §H[?ANQ_reconnaissance_volontaire|+0]§!§!\n"
 
 ANQ_reduce_qie_influence:0 "Sabotage de l'influence Qing"
 ANQ_reduce_qie_influence_desc:0 "A un moment donné, cela suffira car il sera de plus en plus difficile de résister aux avancées de Qing. Par conséquent, il peut être utile, grâce à des manœuvres politiques intelligentes, de mettre sur la touche les responsables pro-Qing et de réduire globalement l'influence des Qing"
@@ -376,9 +387,9 @@ ANQ_closer_fng_cooperation_desc:0 "Nous reconnaissons le Fengtian comme le gouve
 ANQ_xinhai_loyalists:0 "Rassemblement des Loyalistes de Xinhai"
 ANQ_xinhai_loyalists_desc:0 "Nos récentes initiatives pour soutenir les idéaux républicains de la révolution du Xinhai ont conduit un grand nombre de républicains à se présenter au travail. Certains ont même servi avec le Fengtian, mais sont maintenant rentrés chez eux. D'autres se souviennent simplement de la restauration des Qing comme d'un jour sombre de notre histoire et souhaitent contribuer à sa destruction"
 
-ANQ_join_war_vs_QIE:0 "Participer à la guerre de récupération"
+ANQ_join_war_vs_QIE:0 "Participer à la guerre de reconquête"
 ANQ_join_war_vs_QIE_desc:0 "Fengtian est en train de faire les derniers préparatifs pour sa guerre avec le [QIE.GetName], ce qui signifie que nous devons préparer et honorer notre engagement.""
-ANQ_join_war_vs_QIE_self:0 " Participer à la guerre de récupération "
+ANQ_join_war_vs_QIE_self:0 " Participer à la guerre de reconquête "
 ANQ_join_war_vs_QIE_self_desc:0 "Fengtian est en guerre contre le [QIE.GetName]. Nous devons saisir cette opportunité et leur déclarer la guerre à eux aussi. La région de Wuhan serait une cible très attrayante"
 
 ANQ_steel_prospect_for_resources:0 " Prospection des gisements de fer "
@@ -415,7 +426,7 @@ ANQ_reconstruction_plan_desc:0 "Fengtian s'est engagé à nous aider dans notre 
 ANQ_reconstruction_plan1:0 "Plan de reconstruction"
 ANQ_reconstruction_plan1_desc:0 "Le Japon et le Fengtian se sont engagés à nous aider dans notre reconstruction, ce qui nous permettra de nous remettre de la guerre beaucoup plus rapidement. Les équipes de reconstruction, les gardes, le soutien financier direct entre autres sont inclus"
 ANQ_reconstruction_strategy:0 "Stratégie de reconstruction"
-ANQ_reconstruction_strategy_desc:0 "Le Japon et le Fengtian se sont engagés à mettre en place un plan d'action global qui nous aidera à nous remettre de la guerre beaucoup plus rapidement. Ceci est directement lié à notre engagement à participer à la guerre de récupération et fait partie de la stratégie de reconstruction convenue"
+ANQ_reconstruction_strategy_desc:0 "Le Japon et le Fengtian se sont engagés à mettre en place un plan d'action global qui nous aidera à nous remettre de la guerre beaucoup plus rapidement. Ceci est directement lié à notre engagement à participer à la guerre de reconquête et fait partie de la stratégie de reconstruction convenue"
 ANQ_anti_concessionist_militias:0 "Milices anticoncessionnistes"
 ANQ_anti_concessionist_militias_desc:0 "Le soutien populaire à notre cause est important, et par conséquent, nombreux sont ceux qui supplient de rejoindre les rangs de notre armée pour enfin se libérer des chaînes allemandes"
 ANQ_new_xinhai_idea:0 "Un nouveau Xinhai"
@@ -1446,11 +1457,11 @@ anq.126.d:0 "Shanxi a convaincu les Fengtiens de se porter immédiatement à leu
 anq.126.a:0 "Malheureux"
 
 anq.127.t:0 "Proclamation du Grand Maréchal"
-anq.127.d:0 "[FNG.GetLeader] a fait sa grande proclamation, annonçant le début de la guerre de récupération dans un mois. Comme convenu dans notre stratégie, nous nous joindrons à la guerre avec lui. "
+anq.127.d:0 "[FNG.GetLeader] a fait sa grande proclamation, annonçant le début de la guerre de reconquête dans un mois. Comme convenu dans notre stratégie, nous nous joindrons à la guerre avec lui. "
 anq.127.a:0 "Nous respectons notre engagement".
 
 anq.128.t:0 "Proclamation du Grand Maréchal"
-anq.128.d:0 "[FNG.GetLeader] a fait sa grande proclamation, annonçant le début de la guerre de récupération dans un mois. Comme convenu dans notre stratégie, nous nous joindrons à la guerre avec lui"
+anq.128.d:0 "[FNG.GetLeader] a fait sa grande proclamation, annonçant le début de la guerre de reconquête dans un mois. Comme convenu dans notre stratégie, nous nous joindrons à la guerre avec lui"
 anq.128.a:0 "Nous respectons notre engagement".
 
 anq.129.t:0 "Le Zongchang règne sur le Shandong"
@@ -1491,7 +1502,7 @@ anq.136.d2:0 "Maintenant que la guerre est terminée, nous allons devoir traiter
 anq.136.d3:0 "Maintenant que la guerre est terminée, nous allons devoir traiter la question du Shandong une fois pour toutes. Nous n'accepterons aucun accord temporaire, seulement des solutions permanentes. Actuellement, le Jiangsu (Xuhai, Huaiyang, Nantong) est sous la domination de Zhang Zongchang. C'est inacceptable car le Jiangsu appartient à notre territoire critique puisqu'il est l'une des cinq provinces. Nous allons immédiatement déposer une protestation diplomatique auprès de Fengtian, qui, espérons-le, nous soutiendra contre le fou qu'est Zhang Zongchang".
 anq.136.a:0 "Voyons ce qui se passe"
 
-anq.137.t:0 "Succès de la guerre de récupération"
+anq.137.t:0 "Succès de la guerre de reconquête"
 anq.137.d:0 "Fengtian a réussi à prendre le contrôle de Pékin, ne laissant qu'un seul gouvernement national en Chine"
 anq.137.a:0 "Enfin un gouvernement"
 
@@ -1534,7 +1545,7 @@ anq.147.d:0 "Même si nous n'avons pas participé pleinement et que nous nous so
 anq.147.a:0 "Rejoindre le fengtien"
 
 anq.148.t:0 " Les Fengtiens s'en prennent à nous"
-anq.148.d:0 "Toujours en colère contre notre participation limitée à la guerre de récupération, Fengtian a décidé de ne plus attendre et a commencé à mobiliser ses troupes pour une frappe contre nous. Nous devons soit les supplier de résoudre ce problème pacifiquement par une intégration accélérée, soit nous préparer à la guerre".
+anq.148.d:0 "Toujours en colère contre notre participation limitée à la guerre de reconquête, Fengtian a décidé de ne plus attendre et a commencé à mobiliser ses troupes pour une frappe contre nous. Nous devons soit les supplier de résoudre ce problème pacifiquement par une intégration accélérée, soit nous préparer à la guerre".
 anq.148.a:0 "Plaidoyer"
 anq.148.b:0 "Prêt pour la guerre"
 
@@ -1590,7 +1601,7 @@ anq.160.d:0 ""
 anq.160.a:0 ""
 
 anq.161.t:0 "Demandez de l'aide au Fengtien"
-anq.161.d:0 "Le gouvernement fengtien, nos bienfaiteurs, espèrent que nous nous joindrons à eux dans leur guerre de reconquête contre Pékin. Chen Tiaoyuan préfère ne pas s'engager dans une guerre, surtout si l'on considère les dommages causés aux cinq provinces et la faiblesse actuelle de l'armée. Il faut espérer qu'ils voudront nous aider à reconstruire notre territoire. S'ils acceptent, nous pourrions envisager de nous joindre à leur guerre de récupération".
+anq.161.d:0 "Le gouvernement fengtien, nos bienfaiteurs, espèrent que nous nous joindrons à eux dans leur guerre de reconquête contre Pékin. Chen Tiaoyuan préfère ne pas s'engager dans une guerre, surtout si l'on considère les dommages causés aux cinq provinces et la faiblesse actuelle de l'armée. Il faut espérer qu'ils voudront nous aider à reconstruire notre territoire. S'ils acceptent, nous pourrions envisager de nous joindre à leur guerre de reconquête".
 anq.161.a:0 "Faire la demande"
 
 anq.162.t:0 " Un Fengtien s'engage dans l'aide "
@@ -1609,21 +1620,21 @@ anq.164.a:0 "Mauvaise nouvelle".
 
 anq.165.t:0 "Les anticoncessionnaires et le [QIE.GetNameDef]".
 anq.165.d1:0 "Notre position républicaine a conduit à un soutien accru de la faction républicaine de la Ligue anti-concessions. Au nord, les Qing règnent toujours, même si Puyi n'est guère plus que la marionnette de Wu Peifu. Nous devons continuer à mettre l'accent sur nos idéaux républicains afin de garder la Ligue Anti-Concessions comme alliée".
-anq.165.d2:0 "Les Qing ne sont plus gouvernés par la Clique Zhili de Wu Peifu. Au lieu de cela, Puyi a été restauré à un plus grand pouvoir dans un coup d'état connu sous le nom de Restauration Mandchoue. Cela a considérablement accru le sentiment anti-monarchiste parmi les anticoncessionnistes de notre pays et a cimenté notre réputation pro-républicaine. La faction monarchiste de la Ligue Anti-Concession, qui avait l'habitude de souligner le fait que le gouvernement Qing était un équilibre harmonieux entre la Clique Zhili et la dynastie Manchu Qing, a vu ses arguments s'affaiblir avec la destruction de la Clique Zhili. Bien sûr, dans le même temps, certains monarchistes farouchement pro-Manchu ont gagné du soutien, mais ils sont une minorité. Avec les Mandchous qui détiennent un plus grand pouvoir et restent impopulaires, notre popularité a augmenté. Des appels de plus en plus nombreux ont été lancés pour que nous nous joignions à la guerre de récupération avec les Fengtiens contre le gouvernement Qing".
+anq.165.d2:0 "Les Qing ne sont plus gouvernés par la Clique Zhili de Wu Peifu. Au lieu de cela, Puyi a été restauré à un plus grand pouvoir dans un coup d'état connu sous le nom de Restauration Mandchoue. Cela a considérablement accru le sentiment anti-monarchiste parmi les anticoncessionnistes de notre pays et a cimenté notre réputation pro-républicaine. La faction monarchiste de la Ligue Anti-Concession, qui avait l'habitude de souligner le fait que le gouvernement Qing était un équilibre harmonieux entre la Clique Zhili et la dynastie Manchu Qing, a vu ses arguments s'affaiblir avec la destruction de la Clique Zhili. Bien sûr, dans le même temps, certains monarchistes farouchement pro-Manchu ont gagné du soutien, mais ils sont une minorité. Avec les Mandchous qui détiennent un plus grand pouvoir et restent impopulaires, notre popularité a augmenté. Des appels de plus en plus nombreux ont été lancés pour que nous nous joignions à la guerre de reconquête avec les Fengtiens contre le gouvernement Qing".
 anq.165.d3:0 "Une grande partie de notre argumentation en faveur du gouvernement fengtien était basée sur des idéaux républicains. La révolution Xinhai de 1911, qui a été très populaire, était intrinsèquement républicaine et anti-monarchiste et notre réaffirmation de ses idéaux a renforcé la légitimité de notre refus de reconnaître que Qing était le véritable gouvernement de la Chine. Cependant, à la suite d'une tentative de coup d'État, Wu Peifu a consolidé son contrôle sur le gouvernement et a évincé Puyi du trône, déclarant ainsi une république. C'est une mauvaise nouvelle pour nous, car cela sape une grande partie des prémisses fondamentales de notre soutien à Fengtian. La faction républicaine de la Ligue Anti-Concessions, toujours la plus populaire, a maintenant vu ses membres changer leur soutien de Fengtian à la Clique Zhili de Wu Peifu. Ils nous ont demandé de faire de même, mais malheureusement, compte tenu du soutien de Fengtian pour nous dans la guerre de la Ligue, nous ne sommes pas en mesure de le faire. Cela nuira à notre crédibilité".
 anq.165.a:0 "Très bien"
 anq.165.b:0 "Grand"
 anq.165.c:0 "Ce n'est pas bon"
 
 anq.166.t:0 "La Ligue anti-concessions appelle à la récupération"
-anq.166.d1:0 "La Ligue Anti-Concessions, la plus grande organisation anti-concessionniste de Chine, était à l'origine divisée sur la question de savoir si elle soutiendrait notre intention de rejoindre notre allié Fengtian dans la guerre de récupération. Cependant, la récente restauration mandchoue à Qing a marginalisé les monarchistes et enhardi les républicains, qui y voient un exemple de la raison pour laquelle même une "monarchie constitutionnelle" ne fonctionnerait pas. Même s'ils n'aiment pas beaucoup le fengtien,"
-anq.166.d2:0 "La Ligue Anti-Concessions, la plus grande organisation anti-concessionniste de Chine, était à l'origine divisée sur la question de savoir si elle soutiendrait notre intention de rejoindre notre allié Fengtian dans la guerre de récupération. Cependant, la rupture des relations entre Fengtian et le Japon a fait que les républicains qui soutenaient Fengtian ont obtenu un soutien important, car la question japonaise était la principale raison pour laquelle la Ligue n'avait pas pleinement adhéré à notre partenariat avec Fengtian. La faction républicaine est maintenant très enhardie et a demandé à notre gouvernement de se joindre à Fengtian et de mettre fin au régime Qing".
-anq.166.d3:0 "La Ligue Anti-Concessions, la plus grande organisation anti-concessionniste de Chine, était à l'origine divisée sur la question de savoir si elle soutiendrait notre intention de rejoindre notre allié Fengtian dans la guerre de récupération. Cependant, notre gouvernement a montré qu'il n'est pas n'importe quel gouvernement de seigneur de guerre, mais qu'il a vraiment fait des efforts pour obtenir une légitimité et une crédibilité appropriées. En conséquence, en raison de notre partenariat avec Fengtian, les anticoncessionnaires républicains se sont maintenant ralliés à notre cause et nous ont soutenus dans notre participation à la guerre de reconquête, croyant que nous veillerions à ce que Fengtian se comporte bien".
+anq.166.d1:0 "La Ligue Anti-Concessions, la plus grande organisation anti-concessionniste de Chine, était à l'origine divisée sur la question de savoir si elle soutiendrait notre intention de rejoindre notre allié Fengtian dans la guerre de reconquête. Cependant, la récente restauration mandchoue à Qing a marginalisé les monarchistes et enhardi les républicains, qui y voient un exemple de la raison pour laquelle même une "monarchie constitutionnelle" ne fonctionnerait pas. Même s'ils n'aiment pas beaucoup le fengtien,"
+anq.166.d2:0 "La Ligue Anti-Concessions, la plus grande organisation anti-concessionniste de Chine, était à l'origine divisée sur la question de savoir si elle soutiendrait notre intention de rejoindre notre allié Fengtian dans la guerre de reconquête. Cependant, la rupture des relations entre Fengtian et le Japon a fait que les républicains qui soutenaient Fengtian ont obtenu un soutien important, car la question japonaise était la principale raison pour laquelle la Ligue n'avait pas pleinement adhéré à notre partenariat avec Fengtian. La faction républicaine est maintenant très enhardie et a demandé à notre gouvernement de se joindre à Fengtian et de mettre fin au régime Qing".
+anq.166.d3:0 "La Ligue Anti-Concessions, la plus grande organisation anti-concessionniste de Chine, était à l'origine divisée sur la question de savoir si elle soutiendrait notre intention de rejoindre notre allié Fengtian dans la guerre de reconquête. Cependant, notre gouvernement a montré qu'il n'est pas n'importe quel gouvernement de seigneur de guerre, mais qu'il a vraiment fait des efforts pour obtenir une légitimité et une crédibilité appropriées. En conséquence, en raison de notre partenariat avec Fengtian, les anticoncessionnaires républicains se sont maintenant ralliés à notre cause et nous ont soutenus dans notre participation à la guerre de reconquête, croyant que nous veillerions à ce que Fengtian se comporte bien".
 anq.166.a:0 "Bon"
 
 anq.167.t:0 "Rassemblements de la Ligue anti-concessions contre la remise en état"
-anq.167.d1:0 "Les événements récents, en particulier la prise de contrôle de Pékin par les Républicains, dirigés par Wu Peifu, ont provoqué une grande agitation parmi les anticoncessionnaires. Beaucoup pensent que même si Wu Peifu coopère avec les Allemands, il reste un homme de principes, bien plus que Zhang Zuolin, qui vend aux Japonais à la place. En conséquence, ils ont activement demandé que nous renoncions à participer à la guerre de récupération. Bien que nous ne puissions pas nous permettre de rompre les liens avec le gouvernement fengtien en raison de son soutien, nous pouvons essayer de jouer un rôle moins actif dans le conflit".
-anq.167.d2:0 "Les récents événements qui ont conduit à une augmentation considérable de l'influence japonaise sur le Fengtian, ont suscité l'indignation au sein de la Ligue Anti-Concessions. Même certains des républicains les plus ardents ont retiré leur soutien au gouvernement fengtien, en disant que nous devons plutôt chercher une position neutre dans la guerre de récupération souhaitée par Fengtian contre le [QIE.GetNameDef]. Bien que nous ne puissions pas nous permettre de rompre les liens avec le gouvernement fengtien en raison de son soutien, nous pouvons en effet essayer de jouer un rôle moins actif dans le conflit".
+anq.167.d1:0 "Les événements récents, en particulier la prise de contrôle de Pékin par les Républicains, dirigés par Wu Peifu, ont provoqué une grande agitation parmi les anticoncessionnaires. Beaucoup pensent que même si Wu Peifu coopère avec les Allemands, il reste un homme de principes, bien plus que Zhang Zuolin, qui vend aux Japonais à la place. En conséquence, ils ont activement demandé que nous renoncions à participer à la guerre de reconquête. Bien que nous ne puissions pas nous permettre de rompre les liens avec le gouvernement fengtien en raison de son soutien, nous pouvons essayer de jouer un rôle moins actif dans le conflit".
+anq.167.d2:0 "Les récents événements qui ont conduit à une augmentation considérable de l'influence japonaise sur le Fengtian, ont suscité l'indignation au sein de la Ligue Anti-Concessions. Même certains des républicains les plus ardents ont retiré leur soutien au gouvernement fengtien, en disant que nous devons plutôt chercher une position neutre dans la guerre de reconquête souhaitée par Fengtian contre le [QIE.GetNameDef]. Bien que nous ne puissions pas nous permettre de rompre les liens avec le gouvernement fengtien en raison de son soutien, nous pouvons en effet essayer de jouer un rôle moins actif dans le conflit".
 anq.167.a:0 "Nous ne voulons pas les mettre en colère"
 
 anq.168.t:0 "La Ligue anti-concessions divisée sur la remise en état"
@@ -1635,7 +1646,7 @@ anq.169.d1:0 "Nous n'avons pas seulement à nous soucier de la Ligue Anti-Conces
 anq.169.d2:0 "Nous n'avons pas seulement à nous soucier de la Ligue Anti-Concessions lorsqu'il s'agit de l'influence japonaise. Elle concerne également nos propres intérêts. Une forte influence japonaise signifierait également que notre autonomie serait remise en question plus rapidement, car les Japonais préféreraient très probablement que nous soyons éliminés, en partie à cause de notre position anticoncessionniste. Et à l'heure actuelle, le Japon occupe une position puissante dans l'économie et la sphère politique fengtiennes. Cela nous met sérieusement mal à l'aise de nous joindre à leur guerre de reconquête".
 anq.169.d3:0 "Nous n'avons pas seulement à nous soucier de la Ligue Anti-Concessions lorsqu'il s'agit de l'influence japonaise. Elle concerne également nos propres intérêts. Une forte influence japonaise signifierait également que notre autonomie serait remise en question plus rapidement, car les Japonais préféreraient très probablement que nous soyons éliminés, en partie à cause de notre position anticoncessionniste. Et à l'heure actuelle, le Japon occupe une position importante dans l'économie et la sphère politique fengtiennes. Cela nous met un peu mal à l'aise de nous joindre à leur guerre de reconquête".
 anq.169.d4:0 "Nous n'avons pas seulement à nous soucier de la Ligue Anti-Concessions lorsqu'il s'agit de l'influence japonaise. Elle concerne également nos propres intérêts. Une forte influence japonaise signifierait également que notre autonomie serait remise en question plus rapidement, car les Japonais préféreraient très probablement que nous soyons éliminés, en partie à cause de notre position anticoncessionniste. Heureusement, l'influence japonaise au sein de Fengtian est actuellement quelque peu limitée, ce qui apaise nos craintes".
-anq.169.d5:0 "Les Fengtiens n'ont plus de liens avec le Japon, ce qui signifie qu'ils forment un gouvernement beaucoup plus indépendant et crédible. Cela nous rend beaucoup plus désireux de nous joindre à leur guerre de récupération, uniquement de notre point de vue. Cela signifie également que les Fengtiens dépendent davantage de notre soutien, car ils n'ont plus de puissant bienfaiteur".
+anq.169.d5:0 "Les Fengtiens n'ont plus de liens avec le Japon, ce qui signifie qu'ils forment un gouvernement beaucoup plus indépendant et crédible. Cela nous rend beaucoup plus désireux de nous joindre à leur guerre de reconquête, uniquement de notre point de vue. Cela signifie également que les Fengtiens dépendent davantage de notre soutien, car ils n'ont plus de puissant bienfaiteur".
 anq.169.a:0 "Il est important d'en tenir compte"
 
 anq.170.t:0 "Notre dépendance à l'égard du Japon"
@@ -1644,13 +1655,14 @@ anq.170.d2:0 "Afin de déterminer notre ligne de conduite, nous devons examiner 
 anq.170.d3:0 "Afin de déterminer notre ligne de conduite, nous devons examiner non seulement les aspects négatifs des relations japonaises avec le Fengtian, mais aussi leurs avantages, car ils nous permettent de bénéficier d'avantages économiques considérables. Toutefois, notre dépendance à l'égard du soutien japonais n'est pas si grande que cela ait un impact réel, nous pouvons donc l'ignorer sans risque".
 anq.170.a:0 "Nous en tiendrons compte"
 
-anq.171.t:0 " La guerre de la reconquête "
-anq.171.d:0 "Le gouvernement fengtien, notre bienfaiteur qui nous a aidés à unir les cinq provinces, a entamé le processus de préparation de sa "guerre de récupération nationale", qui consiste à prendre le contrôle de Pékin. Cela signifie également qu'ils ont commencé à envisager diverses stratégies et qu'ils nous ont maintenant également approchés pour prendre une décision à ce sujet. Toutefois, avant de dire immédiatement oui et de commencer à décider d'une stratégie, nous devons réaliser qu'une telle guerre pourrait être potentiellement désastreuse pour notre gouvernement, surtout si nous ne pouvons pas convaincre la population de notre crédibilité. Par conséquent, nous devrions examiner l'opinion des anticoncessionnistes et divers autres facteurs pour décider correctement de la ligne de conduite à adopter".
-anq.171.a:0 "Nous prendrons la bonne décision"
+anq.171.t:0 "La guerre de la reconquête"
+anq.171.d1:0 "La conférence de Shenyang, organisée par Fengtian, vient de se terminer. Ils ont, à notre demande, adopté une position anticoncessionniste forte. C'est une excellente nouvelle qui nous permettra de justifier beaucoup plus facilement notre participation à leur guerre de reconquête contre Pékin. Toutefois, nous devons également tenir compte d'autres facteurs si nous voulons vraiment prendre la bonne décision."
+anq.171.d2:0 "La conférence de Shenyang, organisée par Fengtian, vient de se terminer. Ils ont manifestement ignoré nos suggestions et ont refusé d'adopter une position anticoncessionniste ferme. Toutefois, avant de refuser catégoriquement de rejoindre leur alliance, nous devons peser d'autres facteurs. Il est possible que l'adhésion à la guerre de reconquête soit la bonne décision après tout."
+anq.171.a:0 "Beaucoup de choses à discuter."
 
 anq.172.t:0 "Fengtian et reconstruction"
-anq.172.d1:0 "Le gouvernement fengtien s'est rapidement porté à notre secours lorsque nous avons eu besoin d'aide pour la reconstruction après notre victoire dans la guerre de la Ligue. Cela nous a aidés à nous rétablir plus rapidement et devrait influencer positivement notre volonté de les rejoindre dans la guerre de récupération".
-anq.172.d2:0 "Le gouvernement fengtien s'est rapidement porté à notre secours lorsque nous avons eu besoin d'aide pour la reconstruction après notre victoire dans la guerre de la Ligue. Il a même convaincu le Japon de nous aider également. Cela nous a aidés à nous rétablir plus rapidement et devrait influencer positivement notre volonté de nous joindre à eux dans la guerre de récupération".
+anq.172.d1:0 "Le gouvernement fengtien s'est rapidement porté à notre secours lorsque nous avons eu besoin d'aide pour la reconstruction après notre victoire dans la guerre de la Ligue. Cela nous a aidés à nous rétablir plus rapidement et devrait influencer positivement notre volonté de les rejoindre dans la guerre de reconquête".
+anq.172.d2:0 "Le gouvernement fengtien s'est rapidement porté à notre secours lorsque nous avons eu besoin d'aide pour la reconstruction après notre victoire dans la guerre de la Ligue. Il a même convaincu le Japon de nous aider également. Cela nous a aidés à nous rétablir plus rapidement et devrait influencer positivement notre volonté de nous joindre à eux dans la guerre de reconquête".
 anq.172.d3:0 "Le gouvernement fengtien n'est pas venu à notre secours quand nous en avions besoin, décidant de ne pas dépenser de capital et de s'engager à nous aider à reconstruire. Cela a gravement entamé notre confiance en eux".
 anq.172.a:0 "En effet"
 
@@ -1662,23 +1674,23 @@ anq.173.d4:0 "Si nous voulons avoir une bonne mesure de la compétence du gouver
 anq.173.a:0 "En effet"
 
 anq.174.t:0 "Relations avec le fengtien"
-anq.174.d1:0 "Le dernier facteur que nous devons prendre en compte pour décider de participer ou non à la guerre de récupération de Fengtian est notre opinion actuelle à leur égard. Actuellement, les relations avec eux sont très fortes et le fait de participer à la guerre de reconquête va certainement la maintenir".
-anq.174.d2:0 "Le dernier facteur que nous devons prendre en compte pour décider de participer ou non à la guerre de récupération de Fengtian est notre opinion actuelle à leur égard. Actuellement, les relations avec eux sont bonnes, ce qui signifie que nous devrions probablement nous joindre à leur guerre"
-anq.174.d3:0 "Le dernier facteur que nous devons prendre en compte pour décider de participer ou non à la guerre de récupération de Fengtian est notre opinion actuelle à leur égard. Actuellement, les relations avec eux sont relativement faibles, mais pas au point de nous faire penser à abandonner la guerre de récupération".
-anq.174.d4:0 "Le dernier facteur que nous devons prendre en compte pour décider de participer ou non à la guerre de récupération de Fengtian est notre opinion actuelle à leur égard. Actuellement, les relations avec eux sont très limitées, ce qui signifie que nous ne devrions probablement pas nous joindre à leur guerre de reconquête".
+anq.174.d1:0 "Le dernier facteur que nous devons prendre en compte pour décider de participer ou non à la guerre de reconquête du Fengtian est notre opinion actuelle à leur égard. Actuellement, les relations avec eux sont très fortes et le fait de participer à la guerre de reconquête va certainement la maintenir".
+anq.174.d2:0 "Le dernier facteur que nous devons prendre en compte pour décider de participer ou non à la guerre de reconquête du Fengtian est notre opinion actuelle à leur égard. Actuellement, les relations avec eux sont bonnes, ce qui signifie que nous devrions probablement nous joindre à leur guerre"
+anq.174.d3:0 "Le dernier facteur que nous devons prendre en compte pour décider de participer ou non à la guerre de reconquête du Fengtian est notre opinion actuelle à leur égard. Actuellement, les relations avec eux sont relativement faibles, mais pas au point de nous faire penser à abandonner la guerre de reconquête".
+anq.174.d4:0 "Le dernier facteur que nous devons prendre en compte pour décider de participer ou non à la guerre de reconquête du Fengtian est notre opinion actuelle à leur égard. Actuellement, les relations avec eux sont très limitées, ce qui signifie que nous ne devrions probablement pas nous joindre à leur guerre de reconquête".
 anq.174.a:0 "Très bien"
 
 anq.175.t:0 "Décision de mise en valeur"
-anq.175.d1:0 "De nombreux facteurs ont montré très clairement que s'engager dans la guerre de récupération de Fengtian pour capturer Pékin est le bon choix. Par conséquent, quelle que soit la crédibilité de notre gouvernement, l'abandon de la poldérisation serait synonyme de suicide politique. Cela ne nous laisse qu'un seul véritable choix, celui de nous engager à venir en aide aux Fengtiens lorsqu'ils entreront en guerre contre Pékin".
-anq.175.d2:0 "Presque tous les facteurs pointent dans la même direction, à savoir que nous devrions nous joindre à la guerre de récupération de Fengtian. Mais bien sûr, presque tous les moyens sont bons pour qu'il y ait au moins quelques facteurs qui permettent de s'en sortir. Car c'est un fait qu'il y a peu de soif de guerre au sein de notre population, surtout contre ses compatriotes chinois. Cependant, notre gouvernement actuel doit sa légitimité en grande partie à notre volonté déclarée d'unifier la Chine sous le régime fengtien. Abandonner le fengtian signifierait également abandonner l'unification [getanqreclamationdecisioncredenough2]".
-anq.175.d3:0 "La plupart des facteurs nous incitent à rejoindre la guerre de récupération, mais nous ne pouvons pas ignorer un nombre important de facteurs indiquant également que ce pourrait être une mauvaise idée. Cependant, notre gouvernement actuel doit sa légitimité en grande partie à notre volonté déclarée d'unifier la Chine sous le régime fengtien. Abandonner le régime fengtien signifierait également abandonner l'unification. [getanqreclamationdecisioncredenough3]"
-anq.175.d4:0 "Les facteurs en faveur et contre l'adhésion à la guerre de récupération sont à peu près équilibrés. Cependant, notre gouvernement actuel doit sa légitimité en grande partie à notre volonté déclarée d'unifier la Chine sous le régime fengtien. Abandonner le fengtian signifierait également abandonner l'unification.  [getanqreclamationdecisioncredenough4]"
-anq.175.d5:0 "Les facteurs sont contre le fait que nous nous joignions à la guerre de récupération. Cependant, notre gouvernement actuel doit sa légitimité en grande partie à notre volonté déclarée d'unifier la Chine sous le régime fengtien. Abandonner le fengtian signifierait également abandonner l'unification. [getanqreclamationdecisioncredenough5]"
-anq.175.d6:0 "De nombreux facteurs nous poussent à ne pas participer à la guerre de récupération. Cependant, notre gouvernement actuel doit sa légitimité en grande partie à notre volonté déclarée d'unifier la Chine sous le régime fengtien. Abandonner le fengtian signifierait également abandonner l'unification.  [getanqreclamationdecisioncredenough6]"
-anq.175.a:0 "S'engager dans la guerre de récupération"
+anq.175.d1:0 "De nombreux facteurs ont montré très clairement que s'engager dans la guerre de reconquête du Fengtian pour capturer Pékin est le bon choix. Par conséquent, quelle que soit la crédibilité de notre gouvernement, l'abandon de la poldérisation serait synonyme de suicide politique. Cela ne nous laisse qu'un seul véritable choix, celui de nous engager à venir en aide aux Fengtiens lorsqu'ils entreront en guerre contre Pékin".
+anq.175.d2:0 "Presque tous les facteurs pointent dans la même direction, à savoir que nous devrions nous joindre à la guerre de reconquête du Fengtian. Mais bien sûr, presque tous les moyens sont bons pour qu'il y ait au moins quelques facteurs qui permettent de s'en sortir. Car c'est un fait qu'il y a peu de soif de guerre au sein de notre population, surtout contre ses compatriotes chinois. Cependant, notre gouvernement actuel doit sa légitimité en grande partie à notre volonté déclarée d'unifier la Chine sous le régime fengtien. Abandonner le fengtian signifierait également abandonner l'unification [getanqreclamationdecisioncredenough2]".
+anq.175.d3:0 "La plupart des facteurs nous incitent à rejoindre la guerre de reconquête, mais nous ne pouvons pas ignorer un nombre important de facteurs indiquant également que ce pourrait être une mauvaise idée. Cependant, notre gouvernement actuel doit sa légitimité en grande partie à notre volonté déclarée d'unifier la Chine sous le régime fengtien. Abandonner le régime fengtien signifierait également abandonner l'unification. [getanqreclamationdecisioncredenough3]"
+anq.175.d4:0 "Les facteurs en faveur et contre l'adhésion à la guerre de reconquête sont à peu près équilibrés. Cependant, notre gouvernement actuel doit sa légitimité en grande partie à notre volonté déclarée d'unifier la Chine sous le régime fengtien. Abandonner le fengtian signifierait également abandonner l'unification.  [getanqreclamationdecisioncredenough4]"
+anq.175.d5:0 "Les facteurs sont contre le fait que nous nous joignions à la guerre de reconquête. Cependant, notre gouvernement actuel doit sa légitimité en grande partie à notre volonté déclarée d'unifier la Chine sous le régime fengtien. Abandonner le fengtian signifierait également abandonner l'unification. [getanqreclamationdecisioncredenough5]"
+anq.175.d6:0 "De nombreux facteurs nous poussent à ne pas participer à la guerre de reconquête. Cependant, notre gouvernement actuel doit sa légitimité en grande partie à notre volonté déclarée d'unifier la Chine sous le régime fengtien. Abandonner le fengtian signifierait également abandonner l'unification.  [getanqreclamationdecisioncredenough6]"
+anq.175.a:0 "S'engager dans la guerre de reconquête"
 anq.175.b:0 "Abandonner le fengtien"
-anq_reclamation_credibility_not_enough:0 "\nNous avons heureusement trop peu de crédibilité pour être autonomes en tant que gouvernement national séparé et nous dépendons donc trop du fengtien. En conséquence, nous ne pouvons pas nous permettre de perdre leur soutien et sommes obligés de nous joindre à leur guerre de récupération".
-anq_reclamation_credibility_enough:0 "Heureusement, notre gouvernement a, en utilisant également les arguments contre la guerre de récupération, suffisamment de crédibilité pour se tenir à l'écart du gouvernement fengtien et refuser d'y participer. Cela nous obligera soit à faire valoir nos propres revendications auprès de la direction nationale, soit à chercher un autre parti à soutenir. "
+anq_reclamation_credibility_not_enough:0 "\nNous avons heureusement trop peu de crédibilité pour être autonomes en tant que gouvernement national séparé et nous dépendons donc trop du fengtien. En conséquence, nous ne pouvons pas nous permettre de perdre leur soutien et sommes obligés de nous joindre à leur guerre de reconquête".
+anq_reclamation_credibility_enough:0 "Heureusement, notre gouvernement a, en utilisant également les arguments contre la guerre de reconquête, suffisamment de crédibilité pour se tenir à l'écart du gouvernement fengtien et refuser d'y participer. Cela nous obligera soit à faire valoir nos propres revendications auprès de la direction nationale, soit à chercher un autre parti à soutenir. "
 
 anq.176.t:0 "Le Shandong passe la main au Fengtian"
 anq.176.d:0 "Comme convenu lors de la prise de la province du Shandong, maintenant que le conflit avec le [QIE.GetNameDef] a commencé, nous devons maintenant remettre la province du Shandong à Fengtian, car nous n'avons aucune revendication justifiable sur la région".
@@ -1690,8 +1702,8 @@ anq.177.d2:0 ""En raison de notre décision de ne pas participer à la guerre de
 anq.177.a:0 "C'est comme ça"
 
 anq.178.t:0 " Le Fengtien tolère la non-participation "
-anq.178.d1:0 "Fengtian est, comme prévu, très mécontent de notre décision de ne pas participer à leur guerre de récupération pour s'emparer de Pékin. Cependant, comme ils ont un besoin urgent d'alliés et de toute l'aide possible, Fengtian a décidé de ne pas couper les liens avec nous et de continuer à tolérer notre présence parmi leur groupe d'alliés. Cela nous permet de continuer à récolter certains des avantages de la coopération avec eux et les Japonais. Cependant, à mesure que la guerre de récupération progresse, il est fort probable qu'ils nous excluent de toute façon si nous ne participons pas. Nous pouvons décider de ne pas accepter et de couper les liens nous-mêmes, en nous distanciant totalement du gouvernement fengtien. Ce dernier nous accordera un statut plus important, car nous avions déjà annoncé que nous ne soutiendrions pas les Fengtiens".
-anq.178.d2:0 "Fengtian est, comme prévu, très mécontent de notre décision de ne pas participer à leur guerre de récupération pour s'emparer de Pékin. Cependant, comme ils ont un besoin urgent d'alliés et de toute l'aide possible, Fengtian a décidé de ne pas couper les liens avec nous et de continuer à tolérer notre présence parmi leur groupe d'alliés. Cela nous permet de continuer à récolter certains des avantages de la coopération avec eux et les Japonais. Malheureusement, ils ont décidé d'annuler l'aide à la reconstruction qui leur restait. De plus, à mesure que la guerre de récupération progresse, ils nous élimineront probablement de toute façon si nous ne participons pas. Nous pouvons décider de ne pas accepter et de couper les liens nous-mêmes, en nous distanciant totalement du gouvernement fengtien. Ce dernier nous accordera un statut plus important, car nous avions déjà annoncé que nous ne soutiendrions pas les Fengtiens".
+anq.178.d1:0 "Fengtian est, comme prévu, très mécontent de notre décision de ne pas participer à leur guerre de reconquête pour s'emparer de Pékin. Cependant, comme ils ont un besoin urgent d'alliés et de toute l'aide possible, Fengtian a décidé de ne pas couper les liens avec nous et de continuer à tolérer notre présence parmi leur groupe d'alliés. Cela nous permet de continuer à récolter certains des avantages de la coopération avec eux et les Japonais. Cependant, à mesure que la guerre de reconquête progresse, il est fort probable qu'ils nous excluent de toute façon si nous ne participons pas. Nous pouvons décider de ne pas accepter et de couper les liens nous-mêmes, en nous distanciant totalement du gouvernement fengtien. Ce dernier nous accordera un statut plus important, car nous avions déjà annoncé que nous ne soutiendrions pas les Fengtiens".
+anq.178.d2:0 "Fengtian est, comme prévu, très mécontent de notre décision de ne pas participer à leur guerre de reconquête pour s'emparer de Pékin. Cependant, comme ils ont un besoin urgent d'alliés et de toute l'aide possible, Fengtian a décidé de ne pas couper les liens avec nous et de continuer à tolérer notre présence parmi leur groupe d'alliés. Cela nous permet de continuer à récolter certains des avantages de la coopération avec eux et les Japonais. Malheureusement, ils ont décidé d'annuler l'aide à la reconstruction qui leur restait. De plus, à mesure que la guerre de reconquête progresse, ils nous élimineront probablement de toute façon si nous ne participons pas. Nous pouvons décider de ne pas accepter et de couper les liens nous-mêmes, en nous distanciant totalement du gouvernement fengtien. Ce dernier nous accordera un statut plus important, car nous avions déjà annoncé que nous ne soutiendrions pas les Fengtiens".
 anq.178.a:0 "Très bien"
 anq.178.b:0 "Coupez les liens de toute façon"
 
@@ -1749,11 +1761,11 @@ anq.126.d:0 "Shanxi a convaincu les Fengtiens de se porter immédiatement à leu
 anq.126.a:0 "Malheureux"
 
 anq.127.t:0 "Proclamation du Grand Maréchal"
-anq.127.d:0 "[FNG.GetLeader] a fait sa grande proclamation, annonçant le début de la guerre de récupération dans un mois. Comme convenu dans notre stratégie, nous nous joindrons à la guerre avec lui. "
+anq.127.d:0 "[FNG.GetLeader] a fait sa grande proclamation, annonçant le début de la guerre de reconquête dans un mois. Comme convenu dans notre stratégie, nous nous joindrons à la guerre avec lui. "
 anq.127.a:0 "Nous respectons notre engagement".
 
 anq.128.t:0 "Proclamation du Grand Maréchal"
-anq.128.d:0 "[FNG.GetLeader] a fait sa grande proclamation, annonçant le début de la guerre de récupération dans un mois. Comme convenu dans notre stratégie, nous nous joindrons à la guerre avec lui"
+anq.128.d:0 "[FNG.GetLeader] a fait sa grande proclamation, annonçant le début de la guerre de reconquête dans un mois. Comme convenu dans notre stratégie, nous nous joindrons à la guerre avec lui"
 anq.128.a:0 "Nous respectons notre engagement".
 
 #Cosmetic Tags
