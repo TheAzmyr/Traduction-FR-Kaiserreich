@@ -60,9 +60,9 @@ JAP_is_CA_strong_enough:0 "§RNous allons tenter d'intégrer le fengtien, mais s
 japanese_mongol_alliance:0 " Alliance Japon-Mongol "
 PHI_RESIST_OOB_TOOLTIP:0 "§GNous allons mobiliser des troupes pour nous opposer aux Japonais.§!\n"
 HAW_resist_OOB_TOOLTIP:0 "§GNous allons mobiliser des troupes pour nous opposer aux Japonais.§!\n"
-KOR_uprising_tt:0 "De nouvelles divisions d'infanterie et de milice seront mises en place".
-KOR_uprising2_tt:0 "De nouvelles divisions d'infanterie, de milice et de cavalerie seront mises en place."
-KOR_uprising3_tt:0 "De nouvelles divisions d'infanterie seront mises en place."
+KOR_pup_oob_tt:0 "§GNous mobiliserons de nouvelles divisions d'infanterie et de milice.§!\n"
+KOR_light_oob_tt:0 "§GNous mobiliserons de nouvelles divisions d'infanterie et de cavalerie, même si certaines seront simplement des milices glorifiées.§!\n"
+KOR_full_oob_tt:0 "§GNous allons mobiliser de nouvelles divisions d'infanterie et de cavalerie, toutes prêtes à se battre.§!\n"
 JAP_offered_peace_and_I_want:0 "§GNous accepterons les conditions de paix du Japon, bien qu'il faudra environ deux semaines pour que l'accord soit finalisé. Soyez avertis que tous ceux qui sont en guerre avec le Japon devront accepter pour que l'accord soit conclu...§!""
 JAP_offered_peace_and_I_hate_peace:0 "§RNous rejetterons les conditions de paix du Japon. Soyez avertis que cela empêchera la paix pour tous ceux qui sont en guerre avec le Japon, pas seulement pour nous...§!"
 
@@ -113,6 +113,14 @@ JAP_may_war_with_indochina:0 "Recevra les décisions d'aller en guerre contre de
 JAP_can_attack_india:0 "Recevra les décisions d'aller en guerre contre des cibles valables en Inde".
 JAP_may_war_with_siam:0 "Recevra la décision d'entrer en guerre contre §Y[SIA.GetNameDef]§!\n"
 JAP_no_training_help:0 "a refusé l'aide du Japon".
+
+JAP_fading_sun:0 "Le soleil qui s'éteint"
+JAP_fading_sun_desc:0 "[JAP_fading_sun_desc_text]"
+JAP_fading_sun_desc.JAP:0 "Nous avons perdu le contrôle d'une grande partie de nos exploitations sur le continent ! Bien que nous puissions soutenir une guerre comme celle-ci pendant un certain temps, elle ne peut pas être longue. Le soutien politique à la guerre est déjà en baisse ; si l'Empire veut survivre, nous devons bientôt reprendre nos terres."
+JAP_fading_sun_desc.other:0 "Nous avons réussi à pousser le Japon hors d'une grande partie du continent ! Ils vont sans doute essayer de contre-attaquer, mais c'est un coup dur pour eux. S'ils ne reprennent pas rapidement leurs terres, la pression politique croissante les obligera à demander des conditions."
+
+is_fully_controlled_by_JAP_or_war_ally_tooltip:0 "est entièrement contrôlé par §Y[JAP.GetNameDef]§! ou un allié"
+
 
 ## Scripted loc ##
 JAP_ally1_name:0 "§Y[?global.asian_economic_sphere^0.GetFlag][?global.asian_economic_sphere^0.GetName]§!, "
@@ -228,8 +236,6 @@ JAP_indochina_question:0 "Cible : Indochine"
 JAP_indochina_question_desc:0 "Une Indochine indépendante ne correspond pas à nos plans stratégiques pour la région. Nous devons faire un geste pour la sécuriser le plus rapidement possible".
 JAP_target_siam:0 "Faites entrer le Siam dans le giron !"
 JAP_target_siam_desc:0 "Nous avions espéré que les Siamois se montreraient disposés à une alliance, mais comme ce n'est pas le cas, nous devons exercer la force pour les amener à s'aligner."
-JAP_colonise_hawaii:0 "Coloniser Hawaii"
-JAP_colonise_hawaii_desc:0 "Les Japonais-Hawaïens représentent une grande partie de la population de cette chaîne d'îles, et de ce fait, le japonais est déjà une langue courante dans les écoles et les foyers. La transition devrait se faire relativement en douceur pour que les classes supérieures soient elles aussi japonaises et que les lieux deviennent ainsi de véritables préfectures".
 
 ### Focalisation - Seishin-ron ###
 JAP_go_west:0 "Seishin-ron"
@@ -356,8 +362,8 @@ JAP_ichigo_mission_desc:0 "Banzai!"
 
 ### Events ###
 japfor.1.t:0 "Mantetsu déclare des gains records"
-japfor.1.d:0 "Après la conclusion de la dernière phase des guerres civiles chinoises en 1928, et notre intervention pour protéger notre sphère d'influence contre l'empiètement allemand, la Clique Fengtian de Zhang Zuolin s'est proclamée le seul gouvernement républicain légitime de toute la Chine. À la suite de la promulgation d'une ordonnance impériale ordonnant le développement de "relations indivisibles avec l'Empire du Japon", le gouvernement a soutenu un certain nombre de programmes visant à impressionner notre influence sur son gouvernement afin qu'il joue un rôle de mandataire efficace en Chine. En conséquence, nous maintenons une grande influence sur le Fengtian, renforcée encore par les garnisons. Le cœur de nos efforts est la Compagnie de chemin de fer de Mandchourie du Sud, ou "Mantetsu" en abrégé, qui opère en Mandchourie depuis 1906. Si elle était un symbole puissant de nos intérêts en Chine avant l'intervention, la compagnie est devenue depuis responsable du développement et de l'exploitation de pratiquement tous les aspects importants de l'économie mandchoue, propulsant le nord-est de la Chine à devenir la principale source de charbon et d'acier du Japon, ainsi que le producteur de plus de la moitié de l'approvisionnement mondial en soja. Aujourd'hui, Mantetsu a annoncé ses bénéfices les plus élevés à ce jour".
-japfor.1.a:0 "Super !"
+japfor.1.d:0 "Le Japon est présent en Mandchourie depuis la fin de la guerre russo-japonaise et, au cours des années qui ont suivi, notre emprise sur la région s'est considérablement renforcée. Les négociations de Shanghai en 1928 ont forcé le monde à reconnaître notre droit à une "main libre en Mandchourie", ouvrant des possibilités illimitées à nos citoyens sous l'œil vigilant de l'armée du Kwantung. Notre contrôle n'est cependant pas absolu, et le gouvernement fengtien de Zhang Zuolin n'est pas toujours coopératif. Il a de la chance que notre désir de sauvegarder une paix profitable en Mandchourie reste primordial, tout comme notre espoir que son gouvernement serve un jour de véhicule à nos plus grandes ambitions chinoises. Pour ces raisons, le cœur de nos efforts en Mandchourie est la Compagnie de chemin de fer de Mandchourie du Sud, ou "Mantetsu" en abrégé, qui est devenue responsable du développement et de l'exploitation de vastes pans de l'économie mandchoue, propulsant la région au rang de première source de charbon et d'acier du Japon, ainsi que de producteur de plus de la moitié de l'approvisionnement mondial en soja."
+japfor.1.a:0 "La Mandchourie est une véritable corne d'abondance de possibilités !"
 
 JAP_mantetsu_profits_tooltip:0 "Gains National Spirit §HMantetsu Profits§! qui accorde (Resource Gain Efficiency : [?FNG.JAP_mantetsu_resource_gain|=%+], la production de l'usine : [?FNG.JAP_mantetsu_factory_output|=%+]).\n"
 
@@ -578,17 +584,70 @@ japfor.65.b:0 "Reculez, nous pourrons revenir plus tard."
 japfor.66.t:0 "Hawaii résiste !"
 japfor.66.d:0 "Hawaii résiste à nos exigences, et n'a aucun intérêt à les défendre de la part du continent américain. Nous devrions leur faire payer cela dans le sang."
 
-japfor.68.t:0 "Les exilés coréens recherchent des soutiens étrangers"
-japfor.68.d:0 "Le gouvernement coréen en exil s'est longtemps contenté d'accumuler des aides mineures. Cependant, l'instabilité croissante au Japon pourrait lui donner une chance de revenir en Corée. Nous avons appris qu'ils cherchaient un allié solide pour les aider dans leur lutte pour l'indépendance".
-japfor.68.a:0 "Troublant"
+japfor.501.t:0 "L'héritage de la rébellion coréenne de 1925"
+japfor.501.d:0 "En raison de la situation économique désastreuse et de l'instabilité persistante, la Corée s'est rebellée contre notre gouvernement. Heureusement, la rébellion a été réprimée avec succès et les dissidents ont été exécutés. Cependant, en raison des récents changements politiques, des manifestations mineures d'étudiants sont apparues dans de nombreuses régions de Corée. Les réprimer à temps devrait tuer le problème dans l'œuf, mais cela pourrait aussi avoir des répercussions plus importantes."
+japfor.501.a:0 "Arrêtez et exécutez ces traîtres !"
+japfor.501.b:0 "Nous devrions les laisser tranquilles."
+
+japfor.510.t:0 "Les négociations de Busan"
+japfor.510.d:0 "Alors que la libéralisation de notre gouvernement a été achevée, les Coréens exigent également des réformes sur leur situation actuelle. Les dirigeants et les élites sociales coréennes ont proposé une éventuelle rencontre à Busan pour négocier l'avenir de la Corée dans l'Empire japonais."
+japfor.510.a:0 "Acceptez la proposition, voyons ce qu'ils ont à offrir"
+japfor.510.b:0 "Arienai!"
+
+japfor.511.t:0 "Politiques de japonisation"
+japfor.511.d:0 "Actuellement, nous appliquons une politique de japonisation de nos sujets dans la péninsule coréenne, en espérant les intégrer un jour à la société japonaise. Les Coréens demandent l'abolition de cette politique et la reconnaissance de la culture coréenne."
+japfor.511.a:0 "Insister sur les efforts de japonisation"
+japfor.511.b:0 "Reconnaître la culture coréenne"
+
+japfor.512.t:0 "Le statut de la Corée dans l'empire"
+japfor.512.d:0 "La Corée est désormais une région semi-autonome de l'empire, elle n'est pas un sujet totalement autonome comme le gouvernement Fengtian, mais elle a son propre gouverneur général. Quelle place la Corée aura-t-elle au Japon à l'avenir ?"
+japfor.512.a:0 "Conserver son statut colonial"
+japfor.512.b:0 "L'incorporer dans l'empire"
+
+japfor.513.t:0 "Le statut de la Corée dans l'empire"
+japfor.513.d:0 "Maintenant que nous avons accepté de reconnaître la culture coréenne, les Coréens demandent plus d'autonomie. Ils proposent d'élever son statut à celui d'un gouvernement autonome sous contrôle japonais en recréant le royaume de Joseon."
+japfor.513.a:0 "Établir un régime coréen amical sous l'égide de Yi Un"
+japfor.513.b:0 "La Corée est une partie inséparable de l'empire japonais !"
+
+japfor.82.t:0 "La liberté à un prix"
+japfor.82.d:0 "Bien que nous ne soyons pas totalement libres, les Japonais ont décidé de nous libérer de leur emprise en tant que gouvernement autonome."
+japfor.82.a:0 "C'est un début."
+
+japfor.514.t:0 "Gouverneur général de Corée"
+japfor.514.d:0 "Tous les gouverneurs généraux de Corée sont japonais depuis l'annexion de la Corée par le Japon en 1910. Les Coréens réclament leur propre gouverneur général coréen. Cela facilitera probablement la prise de décision à leur sujet, mais ce n'est pas un petit compromis..."
+japfor.514.a:0 "Gouverneurs coréens"
+japfor.514.b:0 "Les gouverneurs japonais"
+
+japfor.515.t:0 "Des Coréens au service du gouvernement ?"
+japfor.515.d:0 "L'intégration des Coréens au sein du peuple japonais ayant été désignée comme notre principal objectif à long terme, devrions-nous permettre aux Coréens de servir dans les gouvernements locaux pour assurer l'égalité entre les Japonais et les Coréens ?"
+japfor.515.a:0 "Permettre aux Coréens de servir dans la fonction publique"
+japfor.515.b:0 "Ce sont des citoyens de seconde classe !"
+
+japfor.516.t:0 "La démocratie en Corée ?"
+japfor.516.d:0 "Alors que la démocratie tient bon au Japon continental, nos sujets coréens réclament les mêmes droits démocratiques. Devrions-nous autoriser le suffrage partiel en Corée ?"
+japfor.516.a:0 "Permettre le suffrage partiel"
+japfor.516.b:0 "Ce sont des citoyens de seconde classe !"
+
+japfor.517.t:0 "Le sort des prisonniers politiques"
+japfor.517.d:0 "Depuis l'annexion de la Corée par le Japon, nous avons arrêté de nombreux dirigeants du mouvement indépendantiste coréen. Aujourd'hui, les Coréens négocient leur libération. Leur permettre de retourner en Corée pourrait entraîner des menaces potentielles contre notre régime en Corée, mais cela satisfera les Coréens."
+japfor.517.a:0 "Libérer les prisonniers politiques"
+japfor.517.b:0 "Ils devraient rester enfermés !"
+
+japfor.518.t:0 "Fin des négociations de Busan"
+japfor.518.yay:0 "La conférence organisée entre l'autorité japonaise et les dirigeants coréens a été un succès. Il faut espérer que la Corée restera dans l'empire japonais de manière pacifique."
+japfor.518.nay:0 "La conférence qui s'est tenue entre l'autorité japonaise et les dirigeants coréens a été désastreuse. L'agitation monte dans la péninsule, nous devons nous préparer au pire..."
+japfor.518.a:0 "Splendide."
+japfor.518.b:0 "Nous règnerons sur la Corée quoi qu'il en coûte !"
+
+japfor.67.t:0 "Les exilés coréens recherchent un soutien étranger"
+japfor.67.d:0 "Le gouvernement coréen en exil s'est longtemps contenté d'accumuler des aides mineures. Cependant, l'instabilité croissante au Japon pourrait leur donner une chance de retourner en Corée. Nous avons appris qu'ils cherchaient un allié solide pour les aider dans leur lutte pour l'indépendance."
+japfor.67.a:0 "Troublant."
 
 japfor.69.t:0 "La Corée demande de l'aide"
-japfor.69.d:0 "Le gouvernement coréen en exil a demandé à notre gouvernement une aide militaire et politique pour reprendre leurs terres au Japon. Cela causerait beaucoup de peine aux Japonais si nous leur faisions la guerre, mais cela pourrait aussi nous causer d'autres problèmes si la Corée sautait sur l'occasion."
-japfor.69.a:0 "Un excellent endroit pour déposer les restes de matériel."
-japfor.69.b:0 "Un soutien et une aide complets doivent être apportés."
+japfor.69.d:0 "Le gouvernement coréen en exil a demandé à notre gouvernement une aide militaire et politique pour reprendre leurs terres au Japon. Cela pourrait causer beaucoup de chagrin aux Japonais, mais le Japon n'appréciera guère ce geste."
+japfor.69.a:0 "Un soutien et une aide complets sont accordés."
+japfor.69.b:0 "Un endroit idéal pour déposer les restes de matériel."
 japfor.69.c:0 "Nous ne sommes pas intéressés."
-
-japfor.70.d:0 "Le gouvernement coréen en exil nous a demandé une aide militaire et politique contre le Japon. Il serait peut-être sage de leur envoyer de l'aide pour maintenir les Japonais en équilibre. Mais cela pourrait signifier que le Japon viendra nous chercher plus tôt que prévu."
 
 japfor.73.t:0 "Le problème coréen"
 japfor.73.d:0 "Le gouvernement coréen en exil a annoncé qu'une campagne pour libérer leur pays est en cours et qu'il appelle à son soutien".
@@ -602,7 +661,6 @@ japfor.74.b:0 "Let it be. Ils ne peuvent pas nous repousser."
 japfor.751.t:0 "Pression japonaise"
 japfor.751.d:0 "La montée du nationalisme coréen dans notre État a rendu le Japon un peu nerveux et ils insistent pour que nous réprimions ce mouvement naissant. Ne pas le faire pourrait attirer la colère du Japon, mais de telles mesures vont rendre le peuple agité, en particulier notre classe moyenne qui contient un grand nombre de Coréens".
 japfor.751.a:0 "Nous n'avons pas le choix..."
-japfor.751.b:0 "Il suffit d'arrêter les agitateurs."
 japfor.751.c:0 "Nous refusons."
 
 japfor.75.t:0 "Transamur refuse notre demande !"
@@ -621,86 +679,56 @@ japfor.77.d:0 "Afin de nous forcer la main, les forces japonaises ont marché su
 japfor.77.a:0 "Capitulez et ordonnez la répression."
 japfor.77.b:0 "Résistez et déclarez l'indépendance de Tokyo !"
 
-japfor.78.t:0 "Problèmes dans le Transamur"
-japfor.78.d:0 "D'abord, c'était les soucis des Coréens et maintenant, ce sont les soucis de Transamur. Il semble que nous devrions préparer un plan au cas où notre ancien allié déciderait de se séparer de nous".
-japfor.78.a:0 "Il n'est pas encore nécessaire de prendre des mesures drastiques..."
-japfor.78.b:0 "Préparez-vous à remplacer Kolchak."
-
-japfor.79.t:0 "Les troupes japonaises se déplacent pour arrêter Kolchak !"
-japfor.79.d:0 "Après notre refus d'aider pleinement le Japon dans ses problèmes avec le gouvernement coréen en exil, le Japon a décidé d'arrêter et de remplacer notre cher chef - l'amiral et président Kolchak !"
-japfor.79.a:0 "Capitulez et remettez-le-nous."
-japfor.79.b:0 "Résistez et déclarez l'indépendance de Tokyo !"
-
-japfor.80.t:0 "Le problème coréen"
-japfor.80.d:0 "Le gouvernement coréen en exil a annoncé qu'une campagne pour libérer leur pays est en cours et qu'il appelle à son soutien".
-japfor.80.a:0 "Le Japon ne tolérera pas cela".
-japfor.80.b:0 "Invitez-les à parler."
-
-japfor.81.t:0 "Négociations en Corée"
-japfor.81.d:0 "Nous avons invité le gouvernement coréen en exil à discuter de l'avenir de la Corée, car un éventuel soulèvement massif dans la péninsule coréenne menace de déstabiliser notre sphère d'influence âprement acquise et tout projet expansionniste futur !"
-japfor.81.a:0 "Accorder aux Coréens une indépendance partielle."
-japfor.81.b:0 "Les pourparlers sont rompus."
-
-japfor.82.t:0 "La Corée indépendante !"
-japfor.82.d:0 "Le Japon nous a gracieusement rendu le pouvoir et notre liberté !"
-japfor.82.a:0 "Nous serons aux côtés de nos frères japonais !"
-
-japfor.83.t:0 "Tentative de rébellion en Corée !"
-japfor.83.d:0 "Les rebelles coréens ont tenté de prendre et de tenir plusieurs points clés dans leur pays aujourd'hui mais les troupes loyalistes coréennes et japonaises ont pu les repousser et écraser la rébellion."
+japfor.83.t:0 "Rébellion en Corée !"
+japfor.83.yay:0 "Aujourd'hui, plusieurs groupes de rebelles coréens ont tenté de prendre et de tenir plusieurs points clés dans la péninsule. Heureusement, ils avaient peu d'armes et étaient très désorganisés. N'ayant réussi à convaincre aucune des troupes de garnison coréennes locales de se joindre à eux, ils n'avaient plus aucune chance d'obtenir la participation de nos troupes japonaises. Leur chef, Kim Koo, a été capturé et sera exécuté pour trahison. Certains disent qu'avec un soutien étranger, ils auraient pu mener un combat plus énergique, mais quoi qu'il en soit, ils ont été écrasés et la situation est sous contrôle."
+japfor.83.nay:0 "Aujourd'hui, plusieurs groupes de rebelles coréens ont tenté de prendre et de tenir plusieurs points clés dans la péninsule. À notre surprise, ils étaient bien équipés d'armes étrangères. En quelques heures, ils avaient pris le contrôle de plusieurs dépôts de munitions et leur chef, Kim Koo, était sur les ondes pour diffuser son message d'indépendance et de résistance. Avec un élan de leur côté, nos forces de garnison se sont effondrées dans un mélange de défections et de confusion. Pire encore, il semble que nos lignes de communication aient été occupées par des hommes moins que loyaux, nous laissant incapables de monter une contre-attaque rapide. Après plusieurs réunions d'urgence, l'Empereur a décidé de leur donner trois jours pour se retirer. Bien qu'il n'y ait certainement aucune chance que cela se produise, cela nous donne le temps de réorganiser nos forces."
 japfor.83.a:0 "Nous sommes toujours vigilants."
-
-japfor.84.t:0 "Rébellion en Corée !"
-japfor.84.d:0 "Des rebelles coréens armés d'armes étrangères attaquent nos forces et tentent de gagner des lieux stratégiques importants en Corée. Nous avons déjà subi des pertes et devons envoyer de l'aide pour écraser cette rébellion !"
-japfor.84.a:0 "Nous allons les détruire !"
+japfor.83.b:0 "Nous attendons leur réponse..."
+japfor.83.c:0 "Ils ont peut-être raison... (Joue le rôle de la Corée)"
 
 japfor.85.t:0 "Rébellion !"
-japfor.85.d:0 "Avec le soutien de l'étranger, nous nous sommes révoltés et nous nous battons pour notre avenir !"
-japfor.85.a:0 "Nous nous battrons pour la liberté !"
+japfor.85.d:0 "Les choses n'auraient pas pu mieux se passer. Grâce à notre soutien étranger, nous avons pris le contrôle de la Corée du Sud et nous sommes prêts à nous battre pour libérer le Nord de la domination oppressive du Japon. Mieux encore, le chaos a forcé les Japonais à nous offrir trois jours pour nous rendre. Bien sûr, nous n'en avons pas l'intention, mais cela nous donnera un temps vital pour préparer notre attaque. Kim Koo a personnellement pris la tête de nos forces et il est déjà en train de dresser des plans. Nous allons nous battre pour la liberté !"
+japfor.85.a:0 "Nous allons montrer aux Japonais ce que nous pensons de leur offre de paix !"
 
-japfor.88.t:0 "La Corée nous combat"
-japfor.88.d:0 "Les forces coréennes ont pris de nombreuses positions stratégiques clés et nous forcent à quitter le continent. Transamur et le gouvernement fengtien s'en rendent compte et pourraient décider de se rebeller également. Devrions-nous rechercher la paix ?"
-japfor.88.a:0 "Nous devons nous retirer sur notre île."
-japfor.88.b:0 "Nous devons garder la Corée à notre portée !"
+japfor.86.t:0 "La date limite est passée"
+japfor.86.d:0 "La date limite est passée à midi aujourd'hui. Non seulement ils ont refusé de se rendre, mais ils ont lancé une série d'attaques surprises sur la ligne de front ! Que personne ne dise que nous n'avons pas donné une chance à la paix, mais maintenant nous devons les écraser totalement."
+japfor.86.a:0 "Je veux la tête de Kim Koo !"
 
-japfor.89.t:0 "La Corée bat le Japon"
-japfor.89.d:0 "Contre toute attente, les forces coréennes ont pris de nombreuses positions stratégiques clés aux Japonais et les forcent à quitter le continent. Cela pourrait être une grande opportunité pour nous..."
-japfor.89.a:0 "Non, nous devons rester loyaux."
-japfor.89.b:0 "Oui, il faut saisir l'occasion et attaquer les Japonais"
-japfor.89.c:0 "Oui, saisissez l'occasion et attaquez... la Corée !"
-
-japfor.104.t:0 "Blocus naval de la péninsule coréenne"
-japfor.104.d:0 "La péninsule coréenne étant plongée dans les feux de la révolution, de nombreuses nations hostiles pourraient profiter de cet événement pour affaiblir notre influence dans le Pacifique en soutenant directement ou indirectement ces damnés révolutionnaires. Nous ne pouvons empêcher cela qu'en imposant un blocus naval autour de toute la péninsule coréenne"
-japfor.104.a:0 "Imposez le blocus naval !"
-
-japfor.105.t:0 "Blocus naval japonais"
-japfor.105.d:0 "Dans une tentative désespérée d'empêcher notre victoire inévitable, la marine impériale japonaise a mis en place un blocus autour de toute la péninsule coréenne."
-japfor.105.a:0 "Ils ne peuvent pas nous arrêter !"
-
-japfor.106.t:0 "Faire respecter le blocus naval"
-japfor.106.d:0 "Notre glorieuse marine continue à maintenir un blocus naval complet autour de la péninsule coréenne rebelle, privant les rebelles d'une aide étrangère dont ils ont grand besoin. Mais certains membres de l'état-major soutiennent que le blocus a déjà dépassé son utilité puisque les rebelles seront bientôt écrasés et que le blocus lui-même est une mesure très coûteuse..."
-japfor.106.a:0 "Continuez le blocus !"
-japfor.106.b:0 "Mettez fin au blocus."
-
-japfor.107.t:0 "Fin du blocus naval"
-japfor.107.d:0 "Les combats sur la péninsule coréenne étant définitivement terminés, il est temps pour notre marine de mettre fin à ce blocus long et coûteux."
-japfor.107.a:0 "Mettre fin au blocus."
-
-japfor.108.t:0 "Le blocus naval prend fin !"
-japfor.108.d:0 "La marine impériale japonaise, confrontée à de graves problèmes, a annulé son blocus militaire autour de la péninsule coréenne."
-japfor.108.a:0 "Nous allons gagner !"
-
-japfor.109.t:0 "La rébellion coréenne écrasée"
-japfor.109.d:0 "Nos glorieuses forces armées ont vaincu de manière décisive la populace coréenne, les forçant à abandonner leur lutte futile !"
-japfor.109.a:0 "Excellent !"
-
-japfor.110.t:0 "Les colons japonais en Corée"
-japfor.110.d:0 "Pendant l'occupation de la Corée par l'Empire japonais, des milliers de Japonais se sont installés à l'intérieur de nos frontières, fondant de nombreuses nouvelles fermes et de nouveaux villages. Cependant, une fois notre indépendance retrouvée, nous pourrions très bien nous emparer de ces terres et les redistribuer parmi notre propre peuple ! Cependant, une telle démarche populiste pourrait nuire à notre fragile économie, car une bonne partie de notre production agricole provient de ces fermes".
-japfor.110.a:0 "Saisir les fermes et expulser les Japonais."
-japfor.110.b:0 "Ces colons sont importants pour notre économie."
-
-japfor.111.t:0 "Réfugiés de Corée"
-japfor.111.d:0 "Pendant notre occupation de la Corée, des milliers de colons japonais se sont installés dans la région de la péninsule coréenne. Leur gouvernement nouvellement indépendant a décidé de les expulser..."
-japfor.111.a:0 "Dame da..."
+#japfor.88.t:0 "Korea fights us off"
+#japfor.88.d:0 "Korean forces have taken many key strategic positions and are forcing us off the mainland. Transamur and the Fengtian Government are noticing this and might decide to rebel as well. Should we seek peace?"
+#japfor.88.a:0 "We must withdraw to our island."
+#japfor.88.b:0 "We must keep Korea within our grasp!"
+#
+#japfor.89.t:0 "Korea is beating Japan"
+#japfor.89.d:0 "Against all odds, Korean forces have taken many key strategic positions from the Japanese and are forcing them off the mainland. This may be a great opportunity for us..."
+#japfor.89.a:0 "No, we must remain loyal."
+#japfor.89.b:0 "Yes, seize the moment and attack the Japanese"
+#japfor.89.c:0 "Yes, seize the moment and attack...Korea!"
+#
+#japfor.104.t:0 "Naval Blockade of the Korean peninsula"
+#japfor.104.d:0 "With the Korean peninsula engulfed in the fires of revolution, many hostile nations might use this event as an opportunity to weaken our influence in the pacific by direct or indirect support of those damned revolutionaries. We can only prevent this by imposing a naval blockade around the entire Korean peninsula."
+#japfor.104.a:0 "Impose the naval blockade!"
+#
+#japfor.105.t:0 "Japanese Naval Blockade"
+#japfor.105.d:0 "In desperate attempt to prevent our inevitable victory, the imperial Japanese navy has set up a blockade around the entire Korean peninsula."
+#japfor.105.a:0 "They can not stop us!"
+#
+#japfor.106.t:0 "Enforcing Naval Blockade"
+#japfor.106.d:0 "Our glorious navy continues to maintain a complete naval blockade around the rebellious Korean peninsula, denying the rebels much needed foreign aid. But, some members of the general staff argue that the blockade has already outlived its usefulness since the rebels will be soon crushed and the blockade itself is a very costly measure..."
+#japfor.106.a:0 "Continue the blockade!"
+#japfor.106.b:0 "End the blockade."
+#
+#japfor.107.t:0 "End of the Naval Blockade"
+#japfor.107.d:0 "With fighting over the Korean peninsula definitively over, it is time for our navy to end this long and costly blockade."
+#japfor.107.a:0 "End the blockade."
+#
+#japfor.108.t:0 "Naval Blockade Ends!"
+#japfor.108.d:0 "The Imperial Japanese navy, facing severe problems, cancelled its military blockade around Korean peninsula."
+#japfor.108.a:0 "We shall win!"
+#
+#japfor.109.t:0 "Korean Rebellion crushed"
+#japfor.109.d:0 "Our glorious armed forces decisively defeated the Korean rabble, forcing them to abandon their futile struggle!"
+#japfor.109.a:0 "Excellent!"
 
 japfor.112.t:0 "Rapport d'Extrême-Orient"
 japfor.112.d:0 "Nos services secrets rapportent que le Japon prévoit d'envahir la Russie afin de prendre le contrôle de la Sibérie. La Russie n'est guère notre alliée et le Japon nous menace depuis des années. Bien que cela constitue une violation flagrante du droit international, il serait peut-être préférable de ne pas agir dans ce domaine".
@@ -887,7 +915,7 @@ japfor.230.a:0 "Nous ne cédons que parce que nous n'avons pas le choix."
 japfor.230.b:0 "Le Japon ne se rendra jamais !"
 
 japfor.231.t:0 "Le soleil qui s'éteint"
-japfor.231.d:0 "Après la défaite totale de l'armée impériale japonaise, nos forces contrôlent d'immenses étendues de terre en Mandchourie et en Corée, tandis que la marine impériale japonaise est réduite à de simples tentatives de blocus. Nos espions à Tokyo font état de graves dissensions et d'une lassitude de guerre au sein de la population. C'est pourquoi le gouvernement a convoqué une conférence de deux semaines à Port Arthur pour déterminer nos objectifs de guerre".
+japfor.231.d:0 "Après la défaite totale de l'armée impériale japonaise, nos forces contrôlent d'immenses étendues de terre en Mandchourie et en Corée, tandis que la marine impériale japonaise est réduite à de simples tentatives de blocus. Nos espions à Tokyo font état de graves dissensions et d'une lassitude de guerre au sein de la population. C'est pourquoi le gouvernement a convoqué une conférence de deux semaines à [GetDalianName] pour déterminer nos objectifs de guerre".
 japfor.231.a:0 "Nous acceptons leurs conditions. Qu'ils gardent leur pathétique "île natale"."
 japfor.231.b:0 "Foutaises, nous poussons à la victoire totale !"
 
@@ -898,15 +926,15 @@ japfor.232.a:0 "Enfin la paix."
 japfor.232.b:0 "La guerre doit continuer."
 
 japfor.233.t:0 "La paix avec l'empire du soleil couchant"
-japfor.233.d:0 "La conférence de deux semaines à Port Arthur s'est terminée par des accords ; les conditions offertes par le Japon ont été acceptées et la paix a été obtenue. Nous avons beaucoup gagné et ce n'est rien de moins qu'une grande victoire".
+japfor.233.d:0 "La conférence de deux semaines à [GetDalianName] s'est terminée par des accords ; les conditions offertes par le Japon ont été acceptées et la paix a été obtenue. Nous avons beaucoup gagné et ce n'est rien de moins qu'une grande victoire."
 japfor.233.a:0 "Nous nous sommes bien battus et ne méritons rien de moins."
 
 japfor.234.t:0 "La guerre avec l'Empire du soleil couchant"
-japfor.234.d:0 "La conférence de deux semaines à Port Arthur n'a rien donné ; cette guerre sera une guerre totale. Si nous poussons les Japonais hors de la Mandchourie et de la Corée, nous pouvons sûrement les pousser hors des îles de la maison".
+japfor.234.d:0 "La conférence de deux semaines à [GetDalianName] n'a rien donné ; cette guerre sera une guerre totale. Si nous poussons les Japonais hors de la Mandchourie et de la Corée, nous pouvons sûrement les pousser hors des îles de la maison".
 japfor.234.a:0 "Ce sera encore la même chose, j'en suis sûr..."
 
 japfor.235.t:0 "Le Japon a capitulé !"
-japfor.235.d:0 "Sous l'assaut de toutes les parties, [JAP.GetNameDef] a signé un traité de paix après une conférence de deux semaines à Port Arthur, préservant les îles de l'invasion... mais aussi jetant [Root.GetNameDef] aux vents. L'alliance japonaise s'est effondrée, et nous devons maintenant nous battre contre nous-mêmes."
+japfor.235.d:0 "Sous l'assaut de toutes les parties, [JAP.GetNameDef] a signé un traité de paix après une conférence de deux semaines à [GetDalianName], préservant les îles de l'invasion... mais aussi jetant [Root.GetNameDef] aux vents. L'alliance japonaise s'est effondrée, et nous devons maintenant nous battre contre nous-mêmes."
 japfor.235.a:0 "Je pensais qu'ils étaient plus forts que ça..."
 
 # Impliquant Anqing
@@ -1048,6 +1076,10 @@ japfor.452.a:0 "Encore mieux !"
 japfor.453.t:0 "[From.GetNameDefCap] ne fait rien"
 japfor.453.d:0 "Le gouvernement lâche [From.GetAdjective] a choisi de ne rien faire en réponse à notre embargo. Il a simplement l'intention de l'endurer. Si nous voulons les entraîner dans une guerre, nous devrons le faire à la dure."
 japfor.453.a:0 "Ainsi soit-il !"
+
+japfor.454.t:0 "Le Japon se prépare à l'attaque"
+japfor.454.d:0 "Rapports sur l'afflux de troupes japonaises préparant une invasion, sur la mise en place de plans et l'apport de munitions. Il est indéniable que dans quelques semaines, nous allons sentir toute la force des Japonais."
+japfor.454.a:0 "Nous avons très peu de temps pour nous préparer."
 
 ### Événements fengtiens ###
 japfeng.1.t:0 "Notre influence en Mandchourie"
