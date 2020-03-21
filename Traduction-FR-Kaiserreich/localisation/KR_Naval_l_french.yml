@@ -1,20 +1,4 @@
 ﻿l_french:
-###ALL new naval stuff here, old file is rly crumbled
-
-### Other ###
-modifier_experience_gain_SH_battleship_training_factor:0 "0"
-modifier_experience_gain_SH_battleship_combat_factor:0 "0"
-####################
-##  Technologies  ##
-####################
-
-### Ship Namelist ###
- NAME_THEME_ISLANDS:0 "Îles"
- NAME_THEME_ROYAL_BARGE:0 "Barge royale"
- NAME_THEME_ROYAL_HOUSES:0 "Maisons royales & noblesse"
- NAME_THEME_TEX:0 "Liste des États de l'Union américaine"
-
-
 ### Folders ###
  escort_ships_folder:0 "Modèles de navires"
  escort_ships_folder_desc:0 "Une flotte militaire est un élément essentiel à tout pays."
@@ -28,10 +12,10 @@ modifier_experience_gain_SH_battleship_combat_factor:0 "0"
  destroyer:0 "Destroyer"
  destroyer_desc:0 "Le navire de contrôle le plus léger. Il a pour mission de défendre les grands navires, de trouver et de détruire les sous-marins, et il peut aussi menacer les navires capitaux qui ne sont pas escortés."
 
- light_cruiser:0 "Croiseur"
+ light_cruiser:0 "Croiseur d'escorte"
  light_cruiser_desc:0 "Navire blindé de petite taille. Sa tâche principale est de protéger les navires capitaux contre les navires légers ennemis, mais il peut aussi déclencher de puissantes torpilles qui peuvent faire des ravages sur des navires plus gros."
 
- heavy_cruiser:0 "Croiseur blindé"
+ heavy_cruiser:0 "Croiseur"
  heavy_cruiser_desc:0 "Les croiseurs blindés sont des navires de taille moyenne transportant des canons assez lourds. Ils sont mieux utilisés pour engager de plus petits navires de guerre, bien qu'ils puissent aussi fonctionner comme des navires capitaux à petit budget."
 
  battle_cruiser:0 "Croiseur blindé"
@@ -46,8 +30,8 @@ modifier_experience_gain_SH_battleship_combat_factor:0 "0"
  battleship:0 "Cuirassé rapide "
  battleship_desc:0 "Les cuirassés rapides sont des navires de niveau intermédiaire avec des performances globales. Ils équilibrent vitesse, blindage et puissance de feu, mais n'excellent dans aucun domaine."
 
-SH_battleship:0 "Dreadnought"
-SH_battleship_desc:0 "Le plus grand navire capital avec les plus gros canons et le blindage le plus solide que l'argent puisse acheter. Un investissement aussi coûteux mérite un soutien approprié avec des petits navires de contrôle."
+ SH_battleship:0 "Dreadnought"
+ SH_battleship_desc:0 "Le plus grand navire capital avec les plus gros canons et le blindage le plus solide que l'argent puisse acheter. Un investissement aussi coûteux mérite un soutien approprié avec des petits navires de contrôle."
 
  dreadnought:0 "Dreadnought"
  dreadnought_desc:0 "Le plus grand navire capital avec les plus gros canons et les blindages les plus solides que l'argent peut acheter. Un investissement aussi coûteux mérite un soutien approprié avec des petits navires de contrôle."
@@ -56,7 +40,7 @@ SH_battleship_desc:0 "Le plus grand navire capital avec les plus gros canons et 
  convoy_desc:0 "Convois utilisés pour le commerce international des marchandises et des ressources. Aussi utilisé pour transporter les troupes autour et pour effectuer des invasions navales."
 
 #MTG tech tree only 
-cruisers_desc:0 "Navire de patrouille de taille moyenne. Sa tâche principale est de protéger les navires capitaux contre les navires légers ennemis, mais il peut aussi déclencher de puissantes torpilles qui peuvent blesser de plus gros navires."
+ cruisers_desc:0 "Navire de patrouille de taille moyenne. Sa tâche principale est de protéger les navires capitaux contre les navires légers ennemis, mais il peut aussi déclencher de puissantes torpilles qui peuvent blesser de plus gros navires."
  heavy_hull_desc:0 "Croiseur blindé - Navire de taille moyenne transportant des canons assez lourds. Ils sont mieux utilisés pour engager des navires de guerre plus petits, bien qu'ils puissent également servir de navires d'investissement à budget limité.\n\nCuirassé - Navire de guerre de niveau moyen, aux performances polyvalentes. Ils équilibrent vitesse, blindage et puissance de feu, mais n'excellent dans aucun domaine.\n\nDreadnought - Le plus grand navire-capitale avec les plus gros canons et le plus solide blindage que l'argent puisse acheter. Un investissement aussi coûteux mérite d'être soutenu par des navires écrans plus petits."
 
  ship_hull_heavy:0 "Navires lourds [AC,BB,DN]"
@@ -133,6 +117,15 @@ cruisers_desc:0 "Navire de patrouille de taille moyenne. Sa tâche principale es
  aerial_demining:0 "Déminage aérien"
  aerial_demining_desc:0 "Les avions peuvent être équipés d'appareils spéciaux pour détecter et faire exploser en toute sécurité les mines navales depuis l'air."
 
+### Transports ###
+ transport_n:0 "Navire de Transport"
+ transport_n_desc:0 "Navire conçu uniquement pour le déplacement des troupes, sans aucune capacité défensive. "
+ landing_craft_n:0 "Bateau de débarquement"
+ landing_craft_n_desc:0 "Des navires d'invasion dédiés rendent le débarquement en territoire hostile un peu moins pénible."
+ tank_landing_craft_n:0 "Bateau de débarquement avancé"
+ tank_landing_craft_n_desc:0 "Grâce aux embarcations de débarquement avancées, nos garçons peuvent se rendre sur la plage plus rapidement et plus efficacement lors d'une invasion."
+
+
 ###equipment connected technologies
 ####MTG hull####
 #Light Hulls
@@ -170,16 +163,16 @@ ship_hull_cruiser_panzerschiff_desc:0 "Dans le sillage de la Révolution en Fran
  ship_hull_heavy_3_desc:0 "Avec la deuxième Weltkrieg à l'horizon et des tensions internationales plus fortes que jamais, les concepteurs cherchaient à construire une nouvelle génération de navires pour combattre dans la guerre à venir. Alors que certaines nations avaient transféré leurs espoirs navals vers les porte-avions, d'autres insistaient encore sur le fait que le porte-avions ne pouvait jouer qu'un rôle supplémentaire, plutôt que de remplacer le rôle principal de navire de guerre. Ces nations, à l'image de l'Allemagne, ont plutôt réorganisé leurs nouveaux modèles, en se concentrant sur l'amélioration de la disposition des blindages, sur des canons et des tourelles plus efficaces, ainsi que sur l'amélioration des vitesses."
  ship_hull_heavy_4:0 "Coque lourde moderne"
  ship_hull_heavy_4_desc:0 "A la fin de la deuxième Weltkrieg, les grandes puissances étaient confrontées à un fait incontestable : la puissance aéronavale s'était montrée victorieuse sur tous les navires de guerre. Cependant, plusieurs nations persistaient dans le développement des cuirassés, comme plateformes de bombardement à terre, projets de prestige et soutien aux transporteurs au sein de la flotte. Les concepteurs chargèrent leurs cuirassés de batteries anti-aériennes, ainsi que de la toute dernière technologie en matière de fusées anti-aériennes. Au fil des ans, ces modèles n'ont pas connu un grand succès. Si nombre de ces cuirassés ont continué à être exploités jusque dans les années 70, ils étaient largement considérés comme obsolètes et servaient principalement à transporter des chefs d'État lors de voyages nationaux et à fournir occasionnellement un soutien au bombardement des côtes lors de conflits régionaux."
- ship_hull_super_heavy_1:0 "Coque de super dreadnought"
+ ship_hull_super_heavy_1:0 "Coque de dreadnought"
  ship_hull_super_heavy_1_desc:0 "L'augmentation rapide des ressources consacrées à la construction navale après la fin d'un conflit terrestre majeur au cours de la Weltkrieg a initialement produit ces conceptions, qui ont marqué le début des tendances à une croissance soudaine de la taille, de la puissance de feu, du blindage, du calibre et, bien sûr, du coût. Ces navires ont permis aux principales puissances navales du monde de se démarquer des simples prétendants à la grandeur, mais ils avaient leurs problèmes ; leur développement rapide et leur construction précipitée ont entraîné des défauts de conception et des problèmes mécaniques persistants. Ces modèles étaient armés de huit à dix canons principaux de 18 pouces ou d'un calibre équivalent, et étaient protégés de manière à pouvoir être utilisés sur des navires de même armement. Alors que la course du Cuirassé atteignait son apogée, ces véritables monstres furent conçus. Leur taille et leur puissance de feu étaient bien supérieures à tout ce qui existait auparavant, leur coût était stupéfiant, et peu de nations pouvaient se permettre d'envisager de les construire. Néanmoins, ceux qui y parvinrent se retrouvèrent en possession d'armes vraiment puissantes et de suprématie navale. Plus encore que la génération qui les a précédés, ils ont souffert des conditions de leur conception. Des travaux de conception précipités, des modifications de dernière minute et improvisées pendant la construction, la pénurie des énormes quantités de ressources nécessaires, l'immense pression pour accélérer la construction, ainsi que la taille et la complexité de leurs mécanismes massifs, ont tous conduit à des défauts de conception et à des vulnérabilités sous leurs vastes peaux blindées. Ces modèles étaient armés de douze à quinze canons principaux de 18 pouces ou de l'équivalent."
  ship_hull_pre_dreadnought:0 "Pré-Dreadnought"
  ship_hull_pre_dreadnought_desc:0 "Suivant la conception de la classe Majestic britannique de la fin des années 1890, les cuirassés d'avant le Dreadnought ont remplacé les cuirassés à coque de fer des années 1870 et 1880. Construits en acier et protégés par un blindage en acier trempé, les cuirassés pré-dreadnought transportaient une batterie principale de canons très lourds en barbettes, soutenue par une ou plusieurs batteries secondaires d'armes plus légères.\n\nPuisque la conception du \"Dreadnought\" les a rendus obsolètes depuis avant la Weltkrieg, couplée à la montée gigantesque des conceptions basées sur le Dreadnought au cours des trois décennies précédentes, seuls quelques-uns d'entre eux sont encore en service."
 #Carrier Hulls
 ship_hull_carrier_conversion_ca:0 "Coque de porte-avion expérimentale"
 ship_hull_carrier_conversion_ca_desc:0 "Tirant les leçons de l'expérience des hydravions, les marines qui en avaient les moyens ont commencé à travailler sur la prochaine génération de navires qui pourraient transporter des avions en mer. Contrairement à leurs prédécesseurs, ces porte-avions ont été conçus avec des ponts d'envol pour permettre aux avions de décoller d'eux et d'y revenir et d'y atterrir. Convertis à partir de navires civils et d'hydravions, la plupart de ces navires étaient limités par l'exiguïté relative de leurs ponts d'envol et de leurs hangars, mais ils démontraient clairement que les navires étaient capables d'utiliser efficacement des effectifs aériens en mer."
- ship_hull_carrier_conversion_bb:0 "Coque de cuirassé convertie"
+ ship_hull_carrier_conversion_bb:0 "Coque de cuirassé rapide convertie en porte-avions"
  ship_hull_carrier_conversion_bb_desc:0 "Les premiers grands porte-avions, ces navires ont été construits sur des coques qui étaient à l'origine destinées aux navires de guerre de la capitale mais qui, pour diverses raisons, ont été converties et complétées en tant que porte-avions. Seule une poignée de marines ont construit de tels navires, et leurs conceptions ont été très variées ; leurs capacités aéronautiques allaient des années soixante à plus d'une centaine. Il y avait cependant des constantes, telles que le maintien de ceintures fortement blindées et d'autres caractéristiques des navires de guerre à canon. Semi-expérimentales et peu fiables, elles restaient des armes incroyablement redoutables, et ont jeté les bases des générations suivantes de porte-avions de flotte."
- ship_hull_carrier_conversion_dng:0 "Conversion de la coque d'un super Dreadnought"
+ ship_hull_carrier_conversion_dng:0 "Coque de Dreadnought convertie en porte-avions"
  ship_hull_carrier_conversion_dng_desc:0 "Premiers grands porte-avions, ces navires ont été construits sur des coques qui étaient à l'origine destinées aux navires de guerre de la capitale mais qui, pour diverses raisons, ont été converties et complétées en tant que porte-avions. Seule une poignée de marines ont construit de tels navires, et leurs conceptions ont été très variées ; leurs capacités aéronautiques allaient des années soixante à plus d'une centaine. Il y avait cependant des constantes, telles que le maintien de ceintures fortement blindées et d'autres caractéristiques des navires de guerre à canon. Semi-expérimentales et peu fiables, elles restaient des armes incroyablement redoutables, et ont jeté les bases des générations suivantes de porte-avions de flotte."
 ship_hull_carrier_1:0 "Coque de porte-avion améliorée"
 ship_hull_carrier_1_desc:0 "Mis au point à la fin des années 30, ces navires ont été conçus pour assurer la reconnaissance aérienne et la couverture des chasseurs légers pour des flottes principalement axées sur des forces de navires de guerre plus \"conventionnelles \". Leur aire de répartition a été considérablement augmentée et des efforts ont été faits pour les rendre suffisamment rapides pour suivre les flottilles opérant à pleine vitesse en haute mer."
@@ -430,19 +423,19 @@ ship_hull_submarine_4_desc:0 "Avec une capacité de batterie considérablement a
  carrier_ship_engine_4_short:0 "Moteur 210 000 ch"
  carrier_ship_engine_4_desc:0 "Cette motorisation a été conçue pour équiper un « porte-avions rapide », moderne, prévu pour être le pivot d'un groupe aéronaval."
  ship_armor_bb_1:0 "Coque 200 mm, pont 40 mm"
- ship_armor_bb_1_short:0 "Blindage de cuirassé I"
+ ship_armor_bb_1_short:0 "Blindage de cuirassé rapide I"
  ship_armor_bb_1_desc:0 "Conçu pour protéger le bâtiment face aux canons de son propre calibre, ce schéma de blindage veille à ce que chaque partie du navire soit protégée selon son utilité propre."
  ship_armor_bc_1:0 "Coque 150 mm, pont 25 mm"
  ship_armor_bc_1_short:0 "Bge de crois. de bat. I"
  ship_armor_bc_1_desc:0 "Conçu pour protéger le bâtiment face aux canons de calibre inférieur aux siens, ce schéma de blindage est plus léger pour permettre une vitesse plus rapide."
  ship_armor_bb_2:0 "Coque 350 mm, pont 150 mm"
- ship_armor_bb_2_short:0 "Blindage de cuirassé II"
+ ship_armor_bb_2_short:0 "Blindage de cuirassé rapide II"
  ship_armor_bb_2_desc:0 "Grâce à sa coque inclinée, ce schéma de blindage est conçu pour protéger le navire de ligne contre les canons de son propre calibre."
  ship_armor_bc_2:0 "Coque 305 mm, pont 100 mm"
  ship_armor_bc_2_short:0 "Blindage de crois. de bat. II"
  ship_armor_bc_2_desc:0 "Issu d'un compromis entre la vitesse et la protection, ce schéma de blindage est prévu pour défendre le bâtiment face aux canons des croiseurs et destroyers."
  ship_armor_bb_3:0 "Coque 380 mm, pont 155 mm"
- ship_armor_bb_3_short:0 "Blindage de cuirassé III"
+ ship_armor_bb_3_short:0 "Blindage de cuirassé rapide III"
  ship_armor_bb_3_desc:0 "Se dégageant de manière radicale des modèles de blindage précédents, ce schéma crée une citadelle lourdement blindée au centre du navire tout en négligeant la protection des autres parties. Il est conçu pour défendre le bâtiment contre les canons de son propre calibre."
  ship_armor_bc_3:0 "Coque de 330 mm, pont de 130 mm"
  ship_armor_bc_3_short:0 "Blindage de crois. de bat. III"
@@ -455,7 +448,7 @@ ship_hull_submarine_4_desc:0 "Avec une capacité de batterie considérablement a
  ship_armor_cruiser_1_desc:0 "Un modèle de blindage conçu pour donner au croiseur un léger avantage au combat contre les destroyers et autres bâtiments légèrement armés."
  ship_armor_cruiser_2:0 "Coque 100 mm, pont 30 mm"
  ship_armor_cruiser_2_short:0 "Blindage de croiseur II"
- ship_armor_cruiser_2_desc:0 "Une coque plus lourde, conçue pour permettre au bâtiment d'affronter des croiseurs légers plus anciens et des navires légers tout en bénéficiant d'une bonne protection."
+ ship_armor_cruiser_2_desc:0 "Une coque plus lourde, conçue pour permettre au bâtiment d'affronter des croiseurs d'escorte plus anciens et des navires légers tout en bénéficiant d'une bonne protection."
  ship_armor_cruiser_3:0 "Coque 120 mm, pont 50 mm"
  ship_armor_cruiser_3_short:0 "Blindage de croiseur III"
  ship_armor_cruiser_3_desc:0 "En copiant les méthodes utilisées pour le blindage des cuirassés, il reste possible de s'adapter aux progrès de l'armement dans le monde entier."
@@ -514,20 +507,20 @@ modern_cruiser_nonmtg_desc:0 "The cruisers of the late-war and early post-war pe
  armored_cruiser_4:0 "Croiseur blindé moderne"
  armored_cruiser_4_desc:0 "The evolution of the armoured cruiser, by the mid-1940s, had reached its apex: ships with the speed to hunt cruisers but the firepower to threaten true capital warships enough to keep them on their toes. While the firepower of the ships was less useful with the rise of the Carrier, they found great use in shore bombardment and carrier escort duties. Functionally greatly enlarged cruisers with much heavier armour and guns, most of these ships were armed with six to nine main guns of 11-12 inch or equivalent size; these were extremely high velocity gun designs, allowing for the armour penetration and range to engage battleships respectably while also functioning as an effective lone convoy raider more than capable of dealing with escorting destroyers and lighter cruisers."
 #battleships
- battleship_1:0 "Cuirassé de la Weltkrieg"
+ battleship_1:0 "Cuirassé rapide de la Weltkrieg"
  battleship_1_desc:0 "Designed shortly before the Weltkrieg began, and completed while it raged, these classes represented the highest level of naval development prior to the start of that conflict. They were the fleet-leading warships of the war, and would remain highly potent long after it ended. While they were notably faster than the Dreadnoughts before them their most notable differentiating feature was their escalated armament- they carried eight to ten main guns, of 14 to 15 inch or equivalent, most in twin turrets but a few in new triple turrets. Their devastating firepower and heavy armour guaranteed that they would be at the heart of their battle fleets, but those continued advances came at quickly escalating prices. Even more so than the warships before them these classes demanded huge investments, though they were only shadow of what was to come."
- battleship_2:0 "Cuirassé amélioré"
+ battleship_2:0 "Cuirassé rapide amélioré"
  battleship_2_desc:0 "The end of the Dreadnought Race, with the start of the British Revolution, led to large scale naval construction largely ceasing, and naval funding, which had grown to enormous levels in the period up to 1925, finally collapsing. The 'Great Powers' spent the next decade slowly finishing ships already under construction, while focusing development on smaller ships that were easier to slip through the naval budgets. It wasn't until the early 30s that the Great Powers began to experiment with fast battleship designs. These battleship designs were far more modern, with improved rangefinders, powerful oil fired engines, and 16 to 18 inch guns, but were generally iterative, focusing more on delivering a powerful ship at the best price rather than being a drastic improvement over their predecessors."
- battleship_3:0 "Cuirassé avancé"
+ battleship_3:0 "Cuirassé rapide avancé"
  battleship_3_desc:0 "With the Second Weltkrieg on the horizon and international tensions higher than ever, designers were looking to construct a new generation of ships to fight in the upcoming war. While some nations had transitioned their naval hopes to carriers, others still insisted that the carrier could only provide a supplementary role, rather than replacing the primary anti-capital ship role of the battleship. These nations, typified by Germany, instead retooled their newer designs, focusing on improved armour layouts and more effective guns and turrets, as well as improved speeds."
- battleship_4:0 "Cuirassé moderne"
+ battleship_4:0 "Cuirassé rapide moderne"
  battleship_4_desc:0 "At the close of the Second Weltkrieg, the Great Powers were faced with an indisputable fact: naval air power had proved victorious over all gun capital ships. However, several nations persisted with the development of Battleships, as shore bombardment platforms, prestige projects and support for carriers within the fleet. Designers loaded their battleships with anti-aircraft batteries, as well as the latest anti-aircraft rocket technology. These designs would prove less than successful over the years; while many of these battleships would continue to be operated well into the 70s, they were widely viewed as obsolete, and mostly functioned to ferry Heads of State on national voyages and to occasionally provide shore bombardment support during regional conflicts."
 #dng
- dreadnought_1:0 "Super Dreadnought"
+ dreadnought_1:0 "Dreadnought"
  dreadnought_1_desc:0 "As the Dreadnought Race reached its height, these true monsters were conceived. Far greater in size and firepower than anything that came before, their cost was staggering, and few nations could afford to even consider constructing them. Nonetheless, those that did found themselves in possession of truly mighty weapons of naval supremacy. Even more so than the generation before them, they suffered from the conditions of their conception. Rushed design work, last minute and improvised redesigns during construction, shortages of the huge amount of resources they required, immense pressure to rush construction, and the sheer size and complexity of their massive mechanisms, all led to design flaws and vulnerabilities beneath their vast armoured hides. These designs were armed with twelve to fifteen 18 inch or equivalent main guns."
- dreadnought_2:0 "Super Dreadnought amélioré"
+ dreadnought_2:0 "Dreadnought amélioré"
  dreadnought_2_desc:0 "Once the afterglow of the great Dreadnought Race had faded away, naval designers took stock of the position of dreadnoughts in future planning. Discarding speed as a major goal, with the understanding that the new generation of so-called 'fast battleships' would assume that task, these designs instead focused on extreme, unprecedented, armour protection. Advanced 16 inch guns could equal the armour penetration of 18 inches, while being less expensive. .Drawing lessons from the navies possessing heavy ordinance most of these designs were armed with those types of advanced 16 inch guns, or equivalents, normally arranged in five triple turrets."
- dreadnought_3:0 "Super Dreadnought avancé"
+ dreadnought_3:0 "Dreadnought avancé"
  dreadnought_3_desc:0 "Even as most navies, with varying degrees of reluctance and dismay, were forced to concede the ascendancy of carriers over traditional gun warships, some naval designers still dreamed of creating the 'ultimate battleship'. Girded in nearly impenetrable armour, bristling with anti-aircraft batteries, and armed with six triple 16 inch turrets or equivalent extreme armament, these designs represented the very pinnacle of heavy warship design. Conceived in the twilight of the age of gun warships, these designs were seen as obsolete even before their drafting was completed, mainly by the advocates of ascendant airpower."
 #Carriers
  carrier_1:0 "Porte-avions expérimental"
@@ -554,15 +547,8 @@ modern_cruiser_nonmtg_desc:0 "The cruisers of the late-war and early post-war pe
  cruiser_submarine_1:0 "Croiseur sous-marin"
  cruiser_submarine_1_desc:0 "Significantly larger than preceding submarines,these designs were of 'cruiser' type, designed for long-range independent operations in commerce raiding and intended to be better equipped to handle combat with enemy light warships while surfaced. As such, they carried heavier gun armament, and had improved surface speed. Their submerged capabilities, however, remained limited."
 
-###???###
-ship_hull_superdreadnought:0 "Super Dreadnought"
-ship_hull_superdreadnought_desc:0 "L'augmentation rapide des ressources consacrées à la construction navale après la fin d'un conflit terrestre majeur au cours de la Weltkrieg a initialement produit ces conceptions, qui ont marqué le début des tendances à une croissance soudaine de la taille, de la puissance de feu, du blindage, du calibre et, bien sûr, du coût. Ces navires ont permis aux principales puissances navales du monde de se démarquer des simples prétendants à la grandeur, mais ils avaient leurs problèmes ; leur développement rapide et leur construction précipitée ont entraîné des défauts de conception et des problèmes mécaniques persistants. Ces modèles étaient armés de huit à dix canons principaux de 18 pouces ou d'un calibre équivalent, et étaient protégés de manière à pouvoir être utilisés sur des navires de même armement. Alors que la course du Cuirassé atteignait son apogée, ces véritables monstres furent conçus. Leur taille et leur puissance de feu étaient bien supérieures à tout ce qui existait auparavant, leur coût était stupéfiant, et peu de nations pouvaient se permettre d'envisager de les construire. Néanmoins, ceux qui y parvinrent se retrouvèrent en possession d'armes vraiment puissantes et de suprématie navale. Plus encore que la génération qui les a précédés, ils ont souffert des conditions de leur conception. Des travaux de conception précipités, des modifications de dernière minute et improvisées pendant la construction, la pénurie des énormes quantités de ressources nécessaires, l'immense pression pour accélérer la construction, ainsi que la taille et la complexité de leurs mécanismes massifs, ont tous conduit à des défauts de conception et à des vulnérabilités sous leurs vastes peaux blindées. Ces modèles étaient armés de douze à quinze canons principaux de 18 pouces ou d'un modèle équivalent."
-
-### Transports ###
-transport_n:0 "Navire de transport"
-transport_n_desc:0 "Navire conçu uniquement pour le déplacement des troupes, sans aucune capacité défensive."
-landing_craft_n:0 "Bateaux de débarquement"
-landing_craft_n_desc:0 "Des navires d'invasion dédiés rendent le débarquement en territoire hostile un peu moins pénible."
-tank_landing_craft_n:0 "Bateau de débarquement avancé"
-tank_landing_craft_n_desc:0 "Grâce aux embarcations de débarquement avancées, nos gars peuvent se rendre sur la plage plus rapidement et plus efficacement lors d'une invasion."
-
+###Other###
+ ship_hull_superdreadnought:0 "Super Dreadnought"
+ ship_hull_superdreadnought_desc:0 "L'augmentation rapide des ressources consacrées à la construction navale après la fin d'un conflit terrestre majeur au cours de la Weltkrieg a initialement produit ces conceptions, qui ont marqué le début des tendances à une croissance soudaine de la taille, de la puissance de feu, du blindage, du calibre et, bien sûr, du coût. Ces navires ont permis aux principales puissances navales du monde de se démarquer des simples prétendants à la grandeur, mais ils avaient leurs problèmes ; leur développement rapide et leur construction précipitée ont entraîné des défauts de conception et des problèmes mécaniques persistants. Ces modèles étaient armés de huit à dix canons principaux de 18 pouces ou d'un calibre équivalent, et étaient protégés de manière à pouvoir être utilisés sur des navires de même armement. Alors que la course du Cuirassé atteignait son apogée, ces véritables monstres furent conçus. Leur taille et leur puissance de feu étaient bien supérieures à tout ce qui existait auparavant, leur coût était stupéfiant, et peu de nations pouvaient se permettre d'envisager de les construire. Néanmoins, ceux qui y parvinrent se retrouvèrent en possession d'armes vraiment puissantes et de suprématie navale. Plus encore que la génération qui les a précédés, ils ont souffert des conditions de leur conception. Des travaux de conception précipités, des modifications de dernière minute et improvisées pendant la construction, la pénurie des énormes quantités de ressources nécessaires, l'immense pression pour accélérer la construction, ainsi que la taille et la complexité de leurs mécanismes massifs, ont tous conduit à des défauts de conception et à des vulnérabilités sous leurs vastes peaux blindées. Ces modèles étaient armés de douze à quinze canons principaux de 18 pouces ou d'un modèle équivalent."
+ modifier_experience_gain_SH_battleship_training_factor:0 "0"
+ modifier_experience_gain_SH_battleship_combat_factor:0 "0"
