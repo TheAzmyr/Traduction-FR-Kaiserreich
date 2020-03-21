@@ -3,24 +3,24 @@
 #Reorganised painfully by Beelzebub and Zankoas
 
 #########################
-### Equipment General ###
+### General Equipment ###
 #########################
 
-### Schémas de numérotation des divisions ###
+### Division Numbering Schemes ###
 UNIT_GENERIC_NAME_GENERIC_INFANTRY:0 "$NR$. $NAME$"
 UNIT_GENERIC_NAME_GER:0 "$NR$. $NAME$"
 UNIT_GENERIC_NAME_AUS:0 "$NR$. $NAME$"
 
-#FRANCE
+#FRENCH
 UNIT_GENERIC_NAME_FRA:0 "$NR$ème $NAME$"
 UNIT_GENERIC_NAME_NFA:0 "$NR$ème $NAME$"
 UNIT_GENERIC_NAME_BEL:0 "$NR$ème $NAME$"
 
-#ITALIE
+#ITALIAN
 UNIT_GENERIC_NAME_ITA:0 "$NR$a $NAME$"
 UNIT_GENERIC_NAME_SRI:0 "$NR$a $NAME$"
 
-#ESPAGNE
+#SPANISH
 UNIT_GENERIC_NAME_SPR:0 "$NR$a $NAME$"
 UNIT_GENERIC_NAME_CNT:0 "$NR$a $NAME$"
 UNIT_GENERIC_NAME_CAR:0 "$NR$a $NAME$"
@@ -37,32 +37,34 @@ UNIT_GENERIC_NAME_BOL:0 "$NR$a $NAME$"
 UNIT_GENERIC_NAME_CHL:0 "$NR$a $NAME$"
 UNIT_GENERIC_NAME_ARG:0 "$NR$a $NAME$"
 
-#PORTUGAL
+#PORTUGUESE
 UNIT_GENERIC_NAME_POR:0 "$NR$o $NAME$"
 UNIT_GENERIC_NAME_BRA:0 "$NR$o $NAME$"
 
-#JAPON
+#JAPANESE
 UNIT_GENERIC_NAME_JAP:0 "Dai $NR$ $NAME$"
 
-#CHINE
+#CHINESE
 UNIT_GENERIC_NAME_QIE:0 "$NAME$ Di $NR$ Shi"
 UNIT_GENERIC_NAME_SQI:0 "$NAME$ Di $NR$ Shi"
 UNIT_GENERIC_NAME_XSM:0 "$NAME$ Di $NR$ Shi"
 UNIT_GENERIC_NAME_YUN:0 "$NAME$ Di $NR$ Shi"
 UNIT_GENERIC_NAME_FNG:0 "$NAME$ Di $NR$ Shi"
 
-#RUSSIE
+#RUSSIAN
 UNIT_GENERIC_NAME_RUS:0 "$NR$ya $NAME$"
 UNIT_GENERIC_NAME_TRM:0 "$NR$ya $NAME$"
 UNIT_GENERIC_NAME_UKR:0 "$NR$ya $NAME$"
 UNIT_GENERIC_NAME_DKB:0 "$NR$ya $NAME$"
 UNIT_GENERIC_NAME_SOV:0 "$NR$ya $NAME$"
 
-### Terre ###
+### Land ###
 motorized_equipment:0 "Motorisé"
 motorized_equipment_desc:0 " Camions et autres voitures utilisés pour le transport des troupes vers et sur le terrain."
 motorized_equipment_1:0 "Motorisé"
 motorized_equipment_1_desc:0 "La motorisation de l'infanterie est la première étape vers la mécanisation d'une armée. Les camions civils sont facilement adaptables à l'utilisation militaire pour le transport des soldats, le remorquage des canons et le transport de matériel et de fournitures. Cela augmente considérablement la mobilité stratégique des unités d'infanterie, qui autrement dépendraient de la marche."
+armored_car_equipment:0 "Voiture blindée"
+armored_car_equipment_desc:0 "Véhicules blindés légers à roues. Communs pour la reconnaissance et la suppression de la résistance, mais peuvent être équipés d'armements plus lourds."
 support_equipment_short:0 "Eq. de soutien" 
 support_equipment:0 " Équipement de soutien "
 support_equipment_desc:0 "Radios, Jeeps, Pontons et autres équipements utilisés pour soutenir les troupes."
@@ -114,6 +116,8 @@ tank_reliability_upgrade:0 "Fiabilité"
 tank_reliability_upgrade_desc:0 "Améliorer la fiabilité, c'est réduire le nombre de réservoirs en panne qu'il faut remplacer."
 tank_engine_upgrade:0 "Moteur"
 tank_engine_upgrade_desc:0 "Plus de mobilité donne des avantages tactiques et stratégiques, tout en permettant plus de blindage sans être ralenti considérablement."
+ac_engine_upgrade:0 "Moteur"
+ac_engine_upgrade_desc:0 "Une plus grande mobilité donne des avantages tactiques et stratégiques, tout en permettant d'augmenter le blindage sans être ralenti de manière significative."
 ship_gun_upgrade:0 "Pistolet"
 ship_gun_upgrade_desc:0 "Il est important d'avoir un canon qui suive la force des blindés ennemis et puisse pénétrer."
 ship_torpedo_upgrade:0 "Torpille"
@@ -164,7 +168,7 @@ plane_cas_upgrade:0 " Attaque "
 plane_cas_upgrade_desc:0 "Armes améliorées pour attaquer des cibles au sol"
 ACTUAL_EQUIPMENT_HEADER:0 "\n\nEquipment:\n"
 ACTUAL_EQUIPMENT_ENTRY:0 " - $NUM|Y0$ de $NAME|Y$"
- ACTUAL_EQUIPMENT_ENTRY_STRING:0 " - $NUM|Y$ de $NAME|Y$"
+ACTUAL_EQUIPMENT_ENTRY_STRING:0 " - $NUM|Y$ de $NAME|Y$"
 ACTUAL_EQUIPMENT_ENTRY_PERCENT:0 " - $NUM|Y0%$ from their production of $NAME|Y$"
 REQUESTED_REINFORCEMENT_DELIVERING_TO:0 "\nDelivering to $UNIT|Y$ ($PROG|G%$): "
 REQUESTED_REINFORCEMENT_DELIVERING_TO_BLOCKED:1 "\nDelivering to $UNIT|Y$ ($PROG|G%$ §RBlocked: no supply from capital§! ): "
@@ -188,16 +192,7 @@ ARCHETYPE_DESC_ENTRY:0 "    - $COUNT|0$ $NAME|H$"
  OUTDATED_EQ:0 "Montrer les §Héquipements obsolètes§!"
 NAVAL_WARNING_EQ:0 "§RNOTICE§!"
 NAVAL_WARNING_1_EQ:0 "Voir l'info-bulle pour plus d'infos \n\nNaval Les entreprises navales sont les plus difficiles et les plus industriellement intensives de toute forme de guerre et nécessitent donc des investissements supplémentaires en plus de la recherche technologique. Pour les actions pertinentes, veuillez consulter £decision_icon_small §YNaval Decisions§!.\n(§YUpgraded§! variants of a hull are always better and they don't need reverse engineering, as they are same quality) \n\n§YNote from devs:§!\n\nWe are sorry for the amount of unproducable hulls in view, but we were limited on one side by code and on the other by the need to make our files easy to maintain.\n\n\t- KR tech team "
-naval_warning_tooltip:0 "Les entreprises navales sont les plus difficiles et les plus intensives sur le plan industriel de toutes les formes de guerre, et nécessitent donc des investissements supplémentaires en plus de la recherche technologique. Pour les actions pertinentes, veuillez consulter l'onglet Décisions. \nEt n'oubliez pas non plus de vérifier les coques obsolètes aussi."
 
-gw_tank_equipment:0 "Char de la Weltkrieg"
-gw_tank_equipment_short:0 " Char de la Weltkrieg"
-gw_tank_equipment_desc:0 "Les chars de la Weltkrieg ont été développés séparément et simultanément par le Royaume-Uni et la France pour sortir de l'impasse de la guerre des tranchées sur le front occidental. Les Britanniques préfèrent les appeler \"tanks\" (réservoir en français), un nom adopté au début de leur développement comme mesure de sécurité pour dissimuler leur but, tandis que l'homologue allemand, \"Panzer\", est resté coincé dans de nombreux pays influcés par l'Allemagne. Les premiers chars d'assaut étaient armés de mitrailleuses et de petits canons, se déplaçaient lentement et n'étaient armés que d'une armure suffisante pour arrêter les tirs d'armes légères."
-
- #############################
- ###### VANILLA COPY #########
- #############################
- 
  guided_missile_equipment:0 "Missile"
  guided_missile_equipment_1:0 "Missile de base"
  guided_missile_equipment_1_short:0 "Missile I"
@@ -208,7 +203,11 @@ gw_tank_equipment_desc:0 "Les chars de la Weltkrieg ont été développés sépa
  guided_missile_equipment_3:0 "Missile avancé"
  guided_missile_equipment_3_short:0 "Missile III"
  guided_missile_equipment_3_desc:0 "Une bombe volante avancée, dépourvue d'équipage"
-  
+
+gw_tank_equipment:0 "Char de la Weltkrieg"
+gw_tank_equipment_short:0 " Char de la Weltkrieg"
+gw_tank_equipment_desc:0 "Les chars de la Weltkrieg ont été développés séparément et simultanément par le Royaume-Uni et la France pour sortir de l'impasse de la guerre des tranchées sur le front occidental. Les Britanniques préfèrent les appeler \"tanks\" (réservoir en français), un nom adopté au début de leur développement comme mesure de sécurité pour dissimuler leur but, tandis que l'homologue allemand, \"Panzer\", est resté coincé dans de nombreux pays influcés par l'Allemagne. Les premiers chars d'assaut étaient armés de mitrailleuses et de petits canons, se déplaçaient lentement et n'étaient armés que d'une armure suffisante pour arrêter les tirs d'armes légères."
+
  light_tank_equipment:0 "Char léger"
  light_tank_equipment_desc:0 "Peu encombrant et agile, le §Ychar léger§! peut mener des opérations de reconnaissance et combattre des véhicules faiblement blindés."
  light_tank_equipment_1:0 "Char léger I"
@@ -220,8 +219,7 @@ gw_tank_equipment_desc:0 "Les chars de la Weltkrieg ont été développés sépa
  light_tank_equipment_3:0 "Char léger III"
  light_tank_equipment_3_short:0 "Char léger III"
  light_tank_equipment_3_desc:0 "Peu encombrant et agile, le char léger peut mener des opérations de reconnaissance et combattre des véhicules faiblement blindés."
- 
- light_tank_artillery_equipment_short:0 "AM léger"
+
  light_tank_artillery_equipment:0 "Canon automoteur léger"
  light_tank_artillery_equipment_desc:0 "Pièce d'artillerie de calibre réduit, montée sur un châssis de char léger, le §Ycanon automoteur léger§! est moins puissant que les versions plus lourdes, mais il est aussi plus mobile."
  light_tank_artillery_equipment_1:0 "Canon automoteur léger I"
@@ -233,7 +231,7 @@ gw_tank_equipment_desc:0 "Les chars de la Weltkrieg ont été développés sépa
  light_tank_artillery_equipment_3:0 "Canon automoteur léger III"
  light_tank_artillery_equipment_3_short:0 "Canon automoteur léger III"
  light_tank_artillery_equipment_3_desc:0 "Pièce d'artillerie de calibre réduit, montée sur un châssis de char léger, le canon automoteur léger est moins puissant que les versions plus lourdes, mais il est aussi plus mobile."
- 
+
  light_tank_destroyer_equipment:0 "Chasseur de chars léger"
  light_tank_destroyer_equipment_short:0 "CC léger"
  light_tank_destroyer_equipment_desc:0 "Le §Ychasseur de chars léger§! est équipé d'un canon de plus gros calibre que le char classique, souvent sans tourelle. Monté sur un châssis de char léger, il est relativement mobile, mais son armement manque de puissance par rapport à celle des chasseurs de chars lourds."
@@ -248,7 +246,6 @@ gw_tank_equipment_desc:0 "Les chars de la Weltkrieg ont été développés sépa
  light_tank_destroyer_equipment_3_desc:0 "Le chasseur de chars est équipé d'un canon de plus gros calibre que le char classique, souvent sans tourelle. Monté sur un châssis de char léger, il est relativement mobile, mais son armement manque de puissance par rapport à celui des chasseurs de chars lourds."
 
  light_tank_aa_equipment:0 "Canon automoteur anti-aérien léger"
- light_tank_aa_equipment_short:0 "AM AA léger"
  light_tank_aa_equipment_desc:0 "Conçus essentiellement pour abattre les avions ennemis, les canons à cadence rapide du §Ycanon automoteur anti-aérien léger§! sont également très efficaces contre des cibles terrestres. Ce modèle est monté sur le châssis d'un char léger."
  light_tank_aa_equipment_1:0 "Canon automoteur anti-aérien léger I"
  light_tank_aa_equipment_1_short:0 "Canon automoteur AA léger I"
@@ -259,7 +256,7 @@ gw_tank_equipment_desc:0 "Les chars de la Weltkrieg ont été développés sépa
  light_tank_aa_equipment_3:0 "Canon automoteur anti-aérien léger III"
  light_tank_aa_equipment_3_short:0 "Canon automoteur AA léger III"
  light_tank_aa_equipment_3_desc:0 "Conçus essentiellement pour abattre les avions ennemis, les canons à cadence rapide du canon automoteur anti-aérien léger sont également très efficaces contre les cibles terrestres. Ce modèle est monté sur le châssis d'un char léger."
- 
+
  medium_tank_equipment:0 "Char moyen"
  medium_tank_equipment_desc:0 "Le §Ychar moyen§!, polyvalent et relativement agile, est capable de remplir toutes sortes de missions telles que la reconnaissance, le soutien ou même le combat en première ligne."
  medium_tank_equipment_1:0 "Char moyen I"
@@ -297,9 +294,8 @@ gw_tank_equipment_desc:0 "Les chars de la Weltkrieg ont été développés sépa
  medium_tank_destroyer_equipment_3:0 "Chasseur de chars moyen III"
  medium_tank_destroyer_equipment_3_short:0 "Chasseur de chars moyen III"
  medium_tank_destroyer_equipment_3_desc:0 "Le chasseur de chars est équipé d'un canon de plus gros calibre que le char classique, souvent sans tourelle. Monté sur un châssis de char moyen, il est relativement mobile et bénéficie d'une puissance de feu respectable."
- 
+
  medium_tank_aa_equipment:0 "Canon automoteur anti-aérien moyen"
- medium_tank_aa_equipment_short:0 "AM AA moyen"
  medium_tank_aa_equipment_desc:0 "Le §Ycanon automoteur anti-aérien moyen§! n'est rien d'autre qu'un canon anti-aérien monté sur le châssis d'un char moyen."
  medium_tank_aa_equipment_1:0 "Canon automoteur anti-aérien moyen I"
  medium_tank_aa_equipment_1_short:0 "Canon automoteur AA moyen I"
@@ -316,15 +312,16 @@ gw_tank_equipment_desc:0 "Les chars de la Weltkrieg ont été développés sépa
  heavy_tank_equipment_1:0 "Char lourd I"
  heavy_tank_equipment_1_short:0 "Char lourd I"
  heavy_tank_equipment_1_desc:0 "Le char lourd est un véritable monstre, blindé et armé en conséquence, conçu pour détruire les chars et fortifications de l'ennemi."
+
  heavy_tank_equipment_2:0 "Char lourd II"
  heavy_tank_equipment_2_short:0 "Char lourd II"
  heavy_tank_equipment_2_desc:0 "Le char lourd est un véritable monstre, blindé et armé en conséquence, conçu pour détruire les chars et fortifications de l'ennemi."
+
  heavy_tank_equipment_3:0 "Char lourd III"
  heavy_tank_equipment_3_short:0 "Char lourd III"
  heavy_tank_equipment_3_desc:0 "Le char lourd est un véritable monstre, blindé et armé en conséquence, conçu pour détruire les chars et fortifications de l'ennemi."
 
  heavy_tank_artillery_equipment:0 "Canon automoteur lourd"
- heavy_tank_artillery_equipment_short:0 "AM lourd"
  heavy_tank_artillery_equipment_desc:0 "Pièce d'artillerie de gros calibre montée sur un châssis de char lourd, le §Ycanon automoteur lourd§! emporte une puissance de feu écrasante."
  heavy_tank_artillery_equipment_1:0 "Canon automoteur lourd I"
  heavy_tank_artillery_equipment_1_short:0 "Canon automoteur lourd I"
@@ -350,7 +347,6 @@ gw_tank_equipment_desc:0 "Les chars de la Weltkrieg ont été développés sépa
  heavy_tank_destroyer_equipment_3_desc:0 "Char lourd dont la tourelle a été supprimée pour accueillir un canon fixe d'encore plus gros calibre."
 
  heavy_tank_aa_equipment:0 "Canon automoteur anti-aérien lourd"
- heavy_tank_aa_equipment_short:0 "AM AA lourd"
  heavy_tank_aa_equipment_desc:0 "Le §Ycanon automoteur anti-aérien lourd§! n'est rien d'autre qu'un canon anti-aérien de gros calibre monté sur le châssis d'un char lourd."
  heavy_tank_aa_equipment_1:0 "Canon automoteur anti-aérien lourd I"
  heavy_tank_aa_equipment_1_short:0 "Canon automoteur AA lourd I"
@@ -367,9 +363,8 @@ gw_tank_equipment_desc:0 "Les chars de la Weltkrieg ont été développés sépa
  super_heavy_tank_equipment_1:0 "Char super-lourd"
  super_heavy_tank_equipment_1_short:0 "Char super-lourd"
  super_heavy_tank_equipment_1_desc:0 "Le char super-lourd est une évolution du concept de char lourd : plus gros, mieux armé et mieux protégé, il est aussi plus lent, s'embourbe facilement et peu de ponts peuvent supporter son passage."
- 
+
  super_heavy_tank_artillery_equipment:0 "Canon automoteur super-lourd"
- super_heavy_tank_artillery_equipment_short:0 "AM super-lourd"
  super_heavy_tank_artillery_equipment_desc:0 "Le §Ycanon automoteur super-lourd§! est un canon de très gros calibre monté sur un châssis de char super-lourd."
  super_heavy_tank_artillery_equipment_1:0 "Canon automoteur super-lourd"
  super_heavy_tank_artillery_equipment_1_short:0 "Canon automoteur super-lourd"
@@ -383,39 +378,35 @@ gw_tank_equipment_desc:0 "Les chars de la Weltkrieg ont été développés sépa
  super_heavy_tank_destroyer_equipment_1_desc:0 "Un châssis de char super-lourd dont la tourelle a été supprimée pour accueillir un canon fixe d'encore plus gros calibre."
 
  super_heavy_tank_aa_equipment:0 "Canon automoteur anti-aérien super-lourd"
- super_heavy_tank_aa_equipment_short:0 "AM AA super-lourd"
  super_heavy_tank_aa_equipment_desc:0 "Le §Ycanon automoteur anti-aérien super-lourd§! est un châssis de char super-lourd équipé d'un canon anti-aérien de gros calibre."
  super_heavy_tank_aa_equipment_1:0 "Canon automoteur anti-aérien super-lourd"
  super_heavy_tank_aa_equipment_1_short:0 "Canon automoteur AA super-lourd"
  super_heavy_tank_aa_equipment_1_desc:0 "Un châssis de char super-lourd équipé d'un canon anti-aérien de gros calibre."
- 
+
  modern_tank_equipment:1 "Char moderne"
  modern_tank_equipment_desc:0 "Le §Ychar moderne§! est polyvalent et agile, capable de remplir toutes sortes de missions telles que la reconnaissance, le soutien ou même le combat en première ligne."
  modern_tank_equipment_1:1 "Char moderne"
  modern_tank_equipment_1_short:1 "Char moderne"
  modern_tank_equipment_1_desc:0 "Le char moderne est polyvalent et agile, capable de remplir toutes sortes de missions telles que la reconnaissance, le soutien ou même le combat en première ligne."
- 
+
  modern_tank_artillery_equipment:0 "Canon automoteur moderne"
- modern_tank_artillery_equipment_short:0 "AM moderne"
  modern_tank_artillery_equipment_desc:0 "En apparence, rien ne distingue le §Ycanon automoteur moderne§! d'un char, mais son blindage est généralement insuffisant pour survivre à un tir direct au combat. Malgré tout, ce blindage est suffisant pour protéger l'équipage des éclats d'obus et des tirs d'armes légères."
  modern_tank_artillery_equipment_1:0 "Canon automoteur moderne"
  modern_tank_artillery_equipment_1_short:0 "Canon automoteur moderne"
  modern_tank_artillery_equipment_1_desc:0 "En apparence, rien ne distingue le canon automoteur moderne d'un char, mais son blindage est généralement insuffisant pour survivre à un tir direct au combat. Malgré tout, ce blindage est suffisant pour protéger l'équipage des éclats d'obus et des tirs d'armes légères."
- 
+
  modern_tank_destroyer_equipment:0 "Chasseur de chars moderne"
- modern_tank_destroyer_equipment_short:0 "CC moderne"
  modern_tank_destroyer_equipment_desc:0 "Le §Ychasseur de chars moderne§! est une évolution des premiers chasseurs de chars légers et moyens, pour lesquels la mobilité et la rapidité ont été privilégiées au détriment du blindage."
  modern_tank_destroyer_equipment_1:0 "Chasseur de chars moderne"
  modern_tank_destroyer_equipment_1_short:0 "Chasseur de char moderne"
  modern_tank_destroyer_equipment_1_desc:0 "Le chasseur de chars moderne est une évolution des premiers chasseurs de chars légers et moyens, pour lesquels la mobilité et la rapidité ont été privilégiées au détriment du blindage."
- 
+
  modern_tank_aa_equipment:0 "Canon automoteur anti-aérien moderne"
- modern_tank_aa_equipment_short:0 "AM AA moderne"
  modern_tank_aa_equipment_desc:0 "Par ses tirs sol-air et sa cadence de tir rapide, le §Ycanon automoteur anti-aérien moderne§! constitue une véritable menace pour les avions."
  modern_tank_aa_equipment_1:0 "Canon automoteur antiaérien moderne"
  modern_tank_aa_equipment_1_short:0 "Canon automoteur AA moderne"
  modern_tank_aa_equipment_1_desc:0 "Par ses tirs sol-air et sa cadence de tir rapide, le canon automoteur anti-aérien moderne constitue une véritable menace pour les avions."
- 
+
  amphibious_mechanized_equipment:0 "Véhicules de débarquement amphibies"
  amphibious_mechanized_equipment_short:0 "Amtrac"
  amphibious_mechanized_equipment_desc:0 "Les véhicules amphibies ou §Yamtracs§! (« amphibious tractors ») permettent à l'infanterie de marine de débarquer sur les plages en bénéficiant d'une protection blindée. Malgré tout, ce matériel consomme une grande quantité de carburant."
@@ -427,12 +418,10 @@ gw_tank_equipment_desc:0 "Les chars de la Weltkrieg ont été développés sépa
  amphibious_mechanized_equipment_2_desc:0 "Ces amtracs bénéficient de plusieurs améliorations par rapport à la version originale, par exemple une rampe à l'arrière pour faciliter le déchargement sur les plages."
  amphibious_tank_equipment:0 "Chars amphibies"
  amphibious_tank_equipment_short:0 "Chars amphibies"
- amphibious_tank_equipment_1:0 "Char amphibie"
- amphibious_tank_equipment_1_short:0 "Char amphibie"
- amphibious_tank_equipment_2:0 "Char amphibie amélioré"
- amphibious_tank_equipment_2_short:0 "Char amph. amélioré"
  amphibious_tank_equipment_desc:0 "§YChars amphibie§!\nLes chars ont pu être améliorés pour se déplacer aussi dans l'eau. Ils donnent de bien meilleurs résultats que les autres chars lors des débarquements, mais consomment aussi beaucoup plus de carburant."
+ amphibious_tank_equipment_1:0 "Char amphibie"
  amphibious_tank_equipment_1_desc:0 "Ce véhicule est pour l'essentiel un char léger modifié pour assurer sa flottaison, offrant ainsi un soutien d'artillerie aux unités établissant une tête de pont lors des débarquements."
+ amphibious_tank_equipment_2:0 "Char amphibie amélioré"
  amphibious_tank_equipment_2_desc:0 "Un char intermédiaire modifié pour se déplacer dans l'eau. Les améliorations en termes de flexibilité et de mobilité se retranscrivent malgré tout sur la consommation en carburant."
  
  mechanized_equipment:0 "Matériel mécanisé"
@@ -447,7 +436,7 @@ gw_tank_equipment_desc:0 "Les chars de la Weltkrieg ont été développés sépa
  mechanized_equipment_3:0 "Matériel mécanisé  III"
  mechanized_equipment_3_short:0 "Matériel mécanisé  III"
  mechanized_equipment_3_desc:0 "L'infanterie mécanisée est équipée de véhicules de transport de troupes ou de véhicules de combat. L'infanterie mécanisée se distingue de l'infanterie motorisée par ses véhicules, qui lui offrent une certaine protection contre les tirs hostiles, contrairement aux véhicules à roues non blindés (camions ou jeeps) de l'infanterie motorisée."
- 
+
  artillery_equipment:0 "Artillerie tractée"
  artillery_equipment_short:0 "Artillerie"
  artillery_equipment_desc:0 "Les pièces d'§Yartillerie§! sont des armes de gros calibre, telles que les canons et les obusiers, manipulées par une équipe de servants et dont la portée est nettement supérieure à celle des armes individuelles."
@@ -460,42 +449,35 @@ gw_tank_equipment_desc:0 "Les chars de la Weltkrieg ont été développés sépa
  rocket_artillery_equipment:0 "Lance-roquettes tracté"
  rocket_artillery_equipment_short:0 "Lance-roquettes"
  rocket_artillery_equipment_desc:0 "La précision et la cadence de tir du §Ylance-roquettes§! sont nettement inférieures à celles des batteries de canons traditionnelles. Toutefois, sa capacité à frapper une cible de plusieurs roquettes simultanément permet d'infliger de lourds dégâts."
- 
+
  anti_air_equipment_1:0 "Artillerie anti-aérienne tractée"
  anti_air_equipment_1_short:0 "Canon anti-aérien"
  anti_air_equipment_1_desc:0 "S'il a en premier lieu été conçu pour abattre les appareils ennemis, le tir à cadence rapide de l'artillerie anti-aérienne se révèle également très efficace contre les cibles terrestres."
  anti_air_equipment_2:0 "Artillerie anti-aérienne améliorée"
- anti_air_equipment_2_short:0 "Canon AA amélioré"
  anti_air_equipment_2_desc:0 "Une pièce d'artillerie anti-aérienne, aux munitions et au canon plus longs, capable d'abattre des appareils volant à haute altitude."
  anti_air_equipment_3:0 "Artillerie anti-aérienne avancée"
- anti_air_equipment_3_short:0 "Canon AA avancé"
  anti_air_equipment_3_desc:1 "Une pièce d'artillerie anti-aérienne mobile perfectionnée, disposant d'une portée et d'une puissance de feu supérieures, capable d'abattre même les avions ennemis les plus rapides et volant à haute altitude."
- 
+
  rocket_artillery_equipment_1:0 "Lance-roquettes tracté"
  rocket_artillery_equipment_1_short:0 "Lance-roquettes"
  rocket_artillery_equipment_1_desc:0 "La précision et la cadence de tir du lance-roquettes sont nettement inférieures à celles des batteries de canons traditionnelles. Toutefois, sa capacité à frapper une cible de plusieurs roquettes simultanément a la capacité d'infliger de lourds dégâts."
  rocket_artillery_equipment_2:0 "Lance-roquettes avancé"
- rocket_artillery_equipment_2_short:0 "Lance-roq. avancé"
  rocket_artillery_equipment_2_desc:0 "Les roquettes à rotation stabilisée améliorent la portée des batteries d'artillerie légères."
 
  artillery_equipment_1:0 "Artillerie tractée"
  artillery_equipment_1_short:0 "Canon"
  artillery_equipment_1_desc:0 "Les pièces d'artillerie sont des armes de gros calibre, telles que les canons et les obusiers, manipulées par une équipe de servants et dont la portée est nettement supérieure à celle des armes individuelles."
  artillery_equipment_2:0 "Artillerie améliorée"
- artillery_equipment_2_short:0 "Canon amélioré"
  artillery_equipment_2_desc:0 "Nouveaux modèles d'obusiers, basés sur des systèmes d'absorption du recul et sur des canons plus longs récemment mis au point."
  artillery_equipment_3:0 "Artillerie avancée"
- artillery_equipment_3_short:0 "Canon avancé"
  artillery_equipment_3_desc:0 "Pièces d'artillerie légères et démontables pour le transport, permettant de disposer d'un soutien d'artillerie dans des zones auparavant difficilement accessibles."
- 
+
  anti_tank_equipment_1:0 "Artillerie antichar tractée"
  anti_tank_equipment_1_short:0 "Canon antichar"
  anti_tank_equipment_1_desc:0 "Conçue pour détruire les cibles blindées telles que les chars, cette pièce d'artillerie tire généralement des obus perforants."
  anti_tank_equipment_2:0 "Artillerie antichar améliorée"
- anti_tank_equipment_2_short:0 "Canon AC amélioré"
  anti_tank_equipment_2_desc:0 "Canon de gros calibre conçu pour combattre les chars lourds à blindage incliné."
  anti_tank_equipment_3:0 "Artillerie antichar avancée"
- anti_tank_equipment_3_short:0 "Canon AC avancé"
  anti_tank_equipment_3_desc:0 "En alliant différentes munitions d'un type nouveau à un canon permettant une sortie à la bouche plus rapide, les canons antichars sont capables de percer tous les blindages que pourra mettre au point l'ennemi."
 
  infantry_equipment:0 "Matériel d'infanterie"
@@ -513,7 +495,7 @@ gw_tank_equipment_desc:0 "Les chars de la Weltkrieg ont été développés sépa
  infantry_equipment_3:0 "Matériel d'infanterie III"
  infantry_equipment_3_short:0 "Armes légères III"
  infantry_equipment_3_desc:0 "Armement individuel et collectif des fantassins, comprenant aussi d'autres types de matériels indispensables à tout soldat, encore modernisé pour inclure des fusils d'assaut individuels et des roquettes antichars."
- 
+
  mot_rockets:0 "Lance-roquettes motorisé"
  motorized_rocket_equipment:0 "Lance-roquettes motorisé"
  motorized_rocket_equipment_short:0 "LR motorisé"
@@ -521,6 +503,15 @@ gw_tank_equipment_desc:0 "Les chars de la Weltkrieg ont été développés sépa
  motorized_rocket_equipment_1:0 "Lance-roquettes motorisé"
  motorized_rocket_equipment_1_short:0 "Lance-roquettes motorisé"
  motorized_rocket_equipment_1_desc:0 "Plus rapide que l'artillerie conventionnelle, le lance-roquettes multiple est toutefois moins précis et plus long à recharger. Lorsqu'il est monté sur un camion, il peut lancer des attaques et changer de position avant que l'ennemi ait le temps de riposter."
+
+ gw_armored_car_equipment:0 "Voiture blindée de l'entre-deux-guerres"
+ gw_armored_car_equipment_desc:0 "Alors que les voitures blindées précédentes étaient de simples modèles commerciaux avec un mince placage d'acier, ce modèle a été conçu dès le départ pour transporter des blindages et des armements légers."
+ armored_car_equipment_1:0 "Voiture blindée de base"
+ armored_car_equipment_1_desc:0 "Un aménagement intérieur amélioré et un stockage de munitions supplémentaire créent un véhicule blindé plus efficace."
+ armored_car_equipment_2:0 "Voiture blindée améliorée"
+ armored_car_equipment_2_desc:0 "Les changements sur le champ de bataille nécessitent un armement beaucoup plus lourd et un blindage plus épais pour vaincre les unités légères ennemies et survivre pour rendre compte."
+ armored_car_at_equipment:0 "Voiture blindée antichar"
+ armored_car_at_equipment_desc:0 "Nos unités mécanisées légères entreront en contact avec les forces de chars ennemies à un moment donné. Le développement d'une variante antichar spéciale leur donnerait une chance de se battre."
 
 ##################################
 ### Country Specific Equipment ###
@@ -685,13 +676,27 @@ AST_night_vision:0 "Tabby Scope"
 
 #Motorised
 
-AST_motorized_equipment_1:0 "Ford F30 AP"
+ AST_motorized_equipment_1:0 "Ford F30 AP"
+ AST_motorized_equipment_1_short:0 "GM Canada CMP"
+
 AST_mechanized_equipment_1:0 "Vickers Carrier LP"
 AST_mechanized_equipment_1_short:0 "Vickers Carrier"
 AST_mechanized_equipment_2:0 "Ram Kangaroo"
 AST_mechanized_equipment_2_short:0 "Ram Kangaroo"
 AST_mechanized_equipment_3:0 "King Kangaroo"
 AST_mechanized_equipment_3_short:0 "King Kangaroo"
+
+#Armored Car
+ AST_gw_armored_car_equipment:0 "Ruskin Rover"
+ AST_gw_armored_car_equipment_short:0 "Rover"
+ AST_armored_car_equipment_1:0 "GM Canada Otter"
+ AST_armored_car_equipment_1_short:0 "Otter"
+ AST_armored_car_equipment_2:0 "Ruskin Rhino"
+ AST_armored_car_equipment_2_short:0 "Rhino"
+ AST_armored_car_equipment_2_desc:9 "With the success of the Rover under its belt, the Ruskin Motor Bodies company designed the Rhino in reponse to an Australasian government request for a substantially heavier armoured car built upon the CMP chassis. Though substantial changes were made to that CMP chassis, after much work the Rhino was born, and with substantial interchangability of parts with with other CMP-based designs to boot."
+ AST_armored_car_at_equipment:0 "Ruskin Hippo"
+ AST_armored_car_at_equipment_short:0 "Hippo"
+ AST_armored_car_at_equipment_desc:9 "To accomodate a substantially larger gun, the Rhino's coaxial machine had to be removed and its turret slighly enlarged. The 'Hippo' as this model has been designated, proved to be quite the headache for its design team, as these changes caused the already heavy vehicle to run into weight issues like its predecessors which had to be slowly worked out prior to the vehicle's adoption."
 
 #Artillery
 
@@ -703,17 +708,17 @@ AST_anti_tank_equipment_3:0 "QF 17-pounder"
 AST_artillery_equipment_1:0 "QF 18-pounder"
 AST_artillery_equipment_1_short:0 "QF 18-pounder"
 AST_artillery_equipment_2:0 "QF 25-pounder"
-AST_artillery_equipment_3:0 "BL 5.5-inch Medium Gun"
+ AST_artillery_equipment_3:0 "BL 5.5-inch Medium Gun"
 
 AST_anti_air_equipment_1:0 "QF 3-inch 20 cwt"
 AST_anti_air_equipment_1_short:0 "QF 3-inch"
 AST_anti_air_equipment_2:0 "QF 40 mm Bofors"
 AST_anti_air_equipment_3:0 "QF 3.7-inch"
 
-AST_rocket_artillery_equipment_1:0 "RP-3 High Explosive/General Purpose"
-AST_rocket_artillery_equipment_1_short:0 "RP-3 HE/GP"
-AST_rocket_artillery_equipment_2:0 "RP-3 High Explosive/Semi Armour-Piercing"
-AST_rocket_artillery_equipment_2_short:0 "RP-3 HE/SAP"
+ AST_rocket_artillery_equipment_1:0 "RP-3 High Explosive/General Purpose"
+ AST_rocket_artillery_equipment_1_short:0 "RP-3 HE/GP"
+ AST_rocket_artillery_equipment_2:0 "RP-3 High Explosive/Semi Armour-Piercing"
+ AST_rocket_artillery_equipment_2_short:0 "RP-3 HE/SAP"
 
 #Tanks
 AST_amphibious_tank_equipment_1:0 "Vickers Amphibious"
@@ -788,6 +793,10 @@ AUS_mechanized_equipment_2_desc:0 "In 1942, the Hungarian company Weiss Manfréd
 AUS_mechanized_equipment_3:0 "Škoda-MÁVAG Transportpanzer M.40/44"
 AUS_mechanized_equipment_3_short:0 "TPz M.40/44"
 AUS_mechanized_equipment_3_desc:0 "When Austria phased out the M.40 tank for the M.42, the former were converted. One of those conversions were an APC similar to the Lehel, with the turret removed and hull interior rearranged to accomodate a squad of Panzerinfanterie."
+
+#Armored Car
+ AUS_gw_armored_car_equipment:0 "Škoda PA-II"
+ AUS_gw_armored_car_equipment_short:0 "Škoda PA-II"
 
 #Artillery
 
@@ -1108,7 +1117,7 @@ BHC_infantry_equipment_0_short:0 "No.1 Mk.III"
 ### Land ###
 BHU_infantry_equipment_0:0 "Rifle No.1 Mk.III"
 BHU_infantry_equipment_0_short:0 "No.1 Mk.III"
-TIB_infantry_equipment_0_desc:0 "With the collapse of the British Raj, the steady trickle of British rifles and ammunition into the country became a deluge and in the span of a year, Bhutan small arms advanced perhaps over fifty years. The equipment shortages and personal preference often see it used alongside non-standard weapons such as the Dpa'dam."
+ BHU_infantry_equipment_0_desc:9 "With the collapse of the British Raj, the steady trickle of British rifles and ammunition into the country became a deluge and in the span of a year, Bhutan small arms advanced perhaps over fifty years. The equipment shortages and personal preference often see it used alongside non-standard weapons such as the Dpa'dam."
 
 ###
 ### Bornu ###
@@ -1182,6 +1191,10 @@ BOS_mechanized_equipment_2_desc:0 "In 1942, the Hungarian company Weiss Manfréd
 BOS_mechanized_equipment_3:0 "Škoda-MÁVAG oklopni transporter M.40/44"
 BOS_mechanized_equipment_3_short:0 "OT M.40/44"
 BOS_mechanized_equipment_3_desc:0 "When Austria phased out the M.40 tank for the M.42, the former were converted. One of those conversions were an APC similar to the Lehel, with the turret removed and hull interior rearranged to accomodate a squad of Panzerinfanterie."
+
+#Armored Car
+ BOS_gw_armored_car_equipment:0 "Škoda PA-II"
+ BOS_gw_armored_car_equipment_short:0 "Škoda PA-II"
 
 BOS_rocket_artillery_equipment_2:0 "Bacači Raketa M.44 'Buzdovan'"
 BOS_rocket_artillery_equipment_2_short:0 "Buzdovan"
@@ -1266,8 +1279,8 @@ BOS_modern_tank_equipment_1_short:0 "UO M.50"
 ### Land ###
 BOT_infantry_equipment_0:0 "Rifle No.1 MkIII"
 BOT_infantry_equipment_0_short:0 "Rifle No.1 MkIII"
-BOT_infantry_equipment_1:0 "Rifle No.4 MkI"
-BOT_infantry_equipment_1_short:0 "Rifle No.4 MkI"
+ BOT_infantry_equipment_1:0 "Rifle No.4 MkI"
+ BOT_infantry_equipment_1_short:0 "Rifle No.4 MkI"
 
 ###
 ### Brazil ###
@@ -1391,8 +1404,8 @@ CAF_EQUIPMENT_VERSION_13:0 "Mk. XIII"
 ### Land ###
 CAF_infantry_equipment_0:0 "Rifle No.1 Mk.III"
 CAF_infantry_equipment_0_short:0 "Rifle No.1 Mk.III"
-CAF_infantry_equipment_1:0 "Rifle No.4 Mk.I"
-CAF_infantry_equipment_1_short:0 "Rifle No.4 Mk.I"
+ CAF_infantry_equipment_1:0 "Rifle No.4 Mk.I"
+ CAF_infantry_equipment_1_short:0 "Rifle No.4 Mk.I"
 CAF_infantry_equipment_2:0 "Auto-Carbine No.1 Mk.1"
 CAF_infantry_equipment_2_short:0 "AC Mk.1"
 CAF_infantry_equipment_3:0 "Auto-Rifle No.1 Mk.5"
@@ -1405,7 +1418,9 @@ CAF_support_weapons3:0 "Vickers M Mk. I & ML 3 inch mortar"
 CAF_support_weapons4:0 "Vickers M Mk. III & ML 4.2 inch Mortar"
 CAF_night_vision:0 "Tabby Scope"
 
-CAF_motorized_equipment_1:0 "Ford F30 AP"
+ CAF_motorized_equipment_1:0 "Ford F30 AP"
+ CAF_motorized_equipment_1_short:0 "GM Canada CMP"
+
 CAF_mechanized_equipment_1:0 "Vickers Carrier LP"
 CAF_mechanized_equipment_1_short:0 "Vickers Carrier"
 CAF_mechanized_equipment_2:0 "Ram Kangaroo"
@@ -1413,15 +1428,27 @@ CAF_mechanized_equipment_2_short:0 "Ram Kangaroo"
 CAF_mechanized_equipment_3:0 "King Kangaroo"
 CAF_mechanized_equipment_3_short:0 "King Kangaroo"
 
-CAF_rocket_artillery_equipment_1:0 "RP-3 High Explosive/General Purpose"
-CAF_rocket_artillery_equipment_1_short:0 "RP-3 HE/GP"
-CAF_rocket_artillery_equipment_2:0 "RP-3 High Explosive/Semi Armour-Piercing"
-CAF_rocket_artillery_equipment_2_short:0 "RP-3 HE/SAP"
+#Armored Car
+ CAF_gw_armored_car_equipment:0 "Ruskin Rover"
+ CAF_gw_armored_car_equipment_short:0 "Rover"
+ CAF_armored_car_equipment_1:0 "GM Canada Otter"
+ CAF_armored_car_equipment_1_short:0 "Otter"
+ CAF_armored_car_equipment_2:0 "Ruskin Rhino"
+ CAF_armored_car_equipment_2_short:0 "Rhino"
+ CAF_armored_car_equipment_2_desc:9 "With the success of the Rover under its belt, the Ruskin Motor Bodies company designed the Rhino in reponse to an Australasian government request for a substantially heavier armoured car built upon the CMP chassis. Though substantial changes were made to that CMP chassis, after much work the Rhino was born, and with substantial interchangability of parts with with other CMP-based designs to boot."
+ CAF_armored_car_at_equipment:0 "Ruskin Hippo"
+ CAF_armored_car_at_equipment_short:0 "Hippo"
+ CAF_armored_car_at_equipment_desc:9 "To accomodate a substantially larger gun, the Rhino's coaxial machine had to be removed and its turret slighly enlarged. The 'Hippo' as this model has been designated, proved to be quite the headache for its design team, as these changes caused the already heavy vehicle to run into weight issues like its predecessors which had to be slowly worked out prior to the vehicle's adoption."
+
+ CAF_rocket_artillery_equipment_1:0 "RP-3 High Explosive/General Purpose"
+ CAF_rocket_artillery_equipment_1_short:0 "RP-3 HE/GP"
+ CAF_rocket_artillery_equipment_2:0 "RP-3 High Explosive/Semi Armour-Piercing"
+ CAF_rocket_artillery_equipment_2_short:0 "RP-3 HE/SAP"
 
 CAF_artillery_equipment_1:0 "QF 18-pounder"
 CAF_artillery_equipment_1_short:0 "QF 18-pounder"
 CAF_artillery_equipment_2:0 "QF 25-pounder"
-CAF_artillery_equipment_3:0 "BL 5.5-inch Medium Gun"
+ CAF_artillery_equipment_3:0 "BL 5.5-inch Medium Gun"
 
 CAF_anti_air_equipment_1:0 "QF 3-inch 20 cwt"
 CAF_anti_air_equipment_1_short:0 "QF 3-inch"
@@ -1523,6 +1550,16 @@ CAL_amphibious_mechanized_equipment_1_short:0 "LVT-2"
 CAL_amphibious_mechanized_equipment_2:0 "LVT-4 Buffalo"
 CAL_amphibious_mechanized_equipment_2_short:0 "LVT-4"
 
+#Armored Car
+ CAL_gw_armored_car_equipment:0 "M1 Armored Car"
+ CAL_gw_armored_car_equipment_short:0 "M1"
+ CAL_armored_car_equipment_1:0 "M3 Scout Car"
+ CAL_armored_car_equipment_1_short:0 "M3"
+ CAL_armored_car_equipment_2:0 "M8 Greyhound"
+ CAL_armored_car_equipment_2_short:0 "M8"
+ CAL_armored_car_at_equipment:0 "M38 90mm Turret"
+ CAL_armored_car_at_equipment_short:0 "M38"
+
 #Artillery
 
 CAL_artillery_equipment_1:0 "75 mm Gun M1897"
@@ -1609,7 +1646,9 @@ CAN_night_vision:0 "Tabby Scope"
 
 #Motorised
 
-CAN_motorized_equipment_1:0 "Ford F30 AP"
+ CAN_motorized_equipment_1:0 "Ford F30 AP"
+ CAN_motorized_equipment_1_short:0 "GM Canada CMP"
+
 CAN_mechanized_equipment_1:0 "Vickers Carrier LP"
 CAN_mechanized_equipment_1_short:0 "Vickers Carrier"
 CAN_mechanized_equipment_2:0 "Ram Kangaroo"
@@ -1617,12 +1656,24 @@ CAN_mechanized_equipment_2_short:0 "Ram Kangaroo"
 CAN_mechanized_equipment_3:0 "King Kangaroo"
 CAN_mechanized_equipment_3_short:0 "King Kangaroo"
 
+#Armored Car
+ CAN_gw_armored_car_equipment:0 "Ruskin Rover"
+ CAN_gw_armored_car_equipment_short:0 "Rover"
+ CAN_armored_car_equipment_1:0 "GM Canada Otter"
+ CAN_armored_car_equipment_1_short:0 "Otter"
+ CAN_armored_car_equipment_2:0 "Ruskin Rhino"
+ CAN_armored_car_equipment_2_short:0 "Rhino"
+ CAN_armored_car_equipment_2_desc:9 "With the success of the Rover under its belt, the Ruskin Motor Bodies company designed the Rhino in reponse to an Australasian government request for a substantially heavier armoured car built upon the CMP chassis. Though substantial changes were made to that CMP chassis, after much work the Rhino was born, and with substantial interchangability of parts with with other CMP-based designs to boot."
+ CAN_armored_car_at_equipment:0 "Ruskin Hippo"
+ CAN_armored_car_at_equipment_short:0 "Hippo"
+ CAN_armored_car_at_equipment_desc:9 "To accomodate a substantially larger gun, the Rhino's coaxial machine had to be removed and its turret slighly enlarged. The 'Hippo' as this model has been designated, proved to be quite the headache for its design team, as these changes caused the already heavy vehicle to run into weight issues like its predecessors which had to be slowly worked out prior to the vehicle's adoption."
+
 #Artillery
 
 CAN_artillery_equipment_1:0 "QF 18-pounder"
 CAN_artillery_equipment_1_short:0 "QF 18-pounder"
 CAN_artillery_equipment_2:0 "QF 25-pounder"
-CAN_artillery_equipment_3:0 "BL 5.5-inch Medium Gun"
+ CAN_artillery_equipment_3:0 "BL 5.5-inch Medium Gun"
 
 CAN_anti_tank_equipment_1:0 "QF 2-pounder"
 CAN_anti_tank_equipment_1_short:0 "QF 2-pounder"
@@ -1634,10 +1685,10 @@ CAN_anti_air_equipment_1_short:0 "QF 3-inch"
 CAN_anti_air_equipment_2:0 "QF 40 mm Bofors"
 CAN_anti_air_equipment_3:0 "QF 3.7-inch"
 
-CAN_rocket_artillery_equipment_1:0 "RP-3 High Explosive/General Purpose"
-CAN_rocket_artillery_equipment_1_short:0 "RP-3 HE/GP"
-CAN_rocket_artillery_equipment_2:0 "RP-3 High Explosive/Semi Armour-Piercing"
-CAN_rocket_artillery_equipment_2_short:0 "RP-3 HE/SAP"
+ CAN_rocket_artillery_equipment_1:0 "RP-3 High Explosive/General Purpose"
+ CAN_rocket_artillery_equipment_1_short:0 "RP-3 HE/GP"
+ CAN_rocket_artillery_equipment_2:0 "RP-3 High Explosive/Semi Armour-Piercing"
+ CAN_rocket_artillery_equipment_2_short:0 "RP-3 HE/SAP"
 
 #Tanks
 CAN_amphibious_tank_equipment_1:0 "Vickers Amphibious"
@@ -1826,13 +1877,13 @@ CHI_modern_tank_equipment_1_short:0 "Type 59"
 ###
 
 ### Land ###
-CIV_infantry_equipment_0:0 "Fusil Lebel Modèle 1886 M93"
-CIV_infantry_equipment_0_short:0 "Lebel Mle M93"
-CIV_infantry_equipment_1:0 "Karabiner 98k"
-CIV_infantry_equipment_1_short:0 "Karabiner 98k"
+ IVO_infantry_equipment_0:0 "Fusil Lebel Modèle 1886 M93"
+ IVO_infantry_equipment_0_short:0 "Lebel Mle M93"
+ IVO_infantry_equipment_1:0 "Karabiner 98k"
+ IVO_infantry_equipment_1_short:0 "Karabiner 98k"
 
-CIV_support_weapons:0 "MG-08/15 & leichter Minenwerfer"
-CIV_support_weapons2:0 "MG-34 & 8 cm Granatwerfer 34"
+ IVO_support_weapons:0 "MG-08/15 & leichter Minenwerfer"
+ IVO_support_weapons2:0 "MG-34 & 8 cm Granatwerfer 34"
 
 ###
 ### CNT ###
@@ -1952,6 +2003,10 @@ CRO_mechanized_equipment_2_desc:0 "In 1942, the Hungarian company Weiss Manfréd
 CRO_mechanized_equipment_3:0 "Škoda-MÁVAG oklopni transporter M.40/44"
 CRO_mechanized_equipment_3_short:0 "OT M.40/44"
 CRO_mechanized_equipment_3_desc:0 "When Austria phased out the M.40 tank for the M.42, the former were converted. One of those conversions were an APC similar to the Lehel, with the turret removed and hull interior rearranged to accomodate a squad of Panzerinfanterie."
+
+#Armored Car
+ CRO_gw_armored_car_equipment:0 "Škoda PA-II"
+ CRO_gw_armored_car_equipment_short:0 "Škoda PA-II"
 
 CRO_rocket_artillery_equipment_2:0 "Bacači Raketa M.44 'Buzdovan'"
 CRO_rocket_artillery_equipment_2_short:0 "Buzdovan"
@@ -2244,6 +2299,10 @@ CZE_mechanized_equipment_3:0 "Škoda-MÁVAG obrněné transportéry vzor 40/44"
 CZE_mechanized_equipment_3_short:0 "OT vz. 40/44"
 CZE_mechanized_equipment_3_desc:0 "When Austria phased out the M.40 tank for the M.42, the former were converted. One of those conversions were an APC similar to the Lehel, with the turret removed and hull interior rearranged to accomodate a squad of Panzerinfanterie."
 
+#Armored Car
+ CZE_gw_armored_car_equipment:0 "Škoda PA-II"
+ CZE_gw_armored_car_equipment_short:0 "Škoda PA-II"
+
 CZE_rocket_artillery_equipment_2:0 "Raketomet vzor 44 'Palcátomet'"
 CZE_rocket_artillery_equipment_2_short:0 "Palcátomet"
 #CZE_rocket_artillery_equipment_2_desc:0 ""
@@ -2359,8 +2418,8 @@ DEH_EQUIPMENT_VERSION_12:0 "Mk. XII"
 ### Land ###
 DEH_infantry_equipment_0:0 "GRI No.1 MkIII"
 DEH_infantry_equipment_0_short:0 "GRI No.1 MkIII"
-DEH_infantry_equipment_1:0 "POF No.4 MkI"
-DEH_infantry_equipment_1_short:0 "POF No.4 MkI"
+ DEH_infantry_equipment_1:0 "POF No.4 MkI"
+ DEH_infantry_equipment_1_short:0 "POF No.4 MkI"
 DEH_infantry_equipment_2:0 "GRI Auto-Carbine MkI"
 DEH_infantry_equipment_2_short:0 "GRI AC MkI"
 DEH_infantry_equipment_3:0 "GRI Auto-Rifle MkV"
@@ -2373,7 +2432,9 @@ DEH_support_weapons3:0 "Vickers M Mk. I & ML 3 inch mortar"
 DEH_support_weapons4:0 "Vickers M Mk. III & ML 4.2 inch Mortar"
 DEH_night_vision:0 "Tabby Scope"
 
-DEH_motorized_equipment_1:0 "Ford F30 AP"
+ DEH_motorized_equipment_1:0 "Ford F30 AP"
+ DEH_motorized_equipment_1_short:0 "GM Canada CMP"
+
 DEH_mechanized_equipment_1:0 "Vickers Carrier LP"
 DEH_mechanized_equipment_1_short:0 "Vickers Carrier"
 DEH_mechanized_equipment_2:0 "Ram Kangaroo"
@@ -2381,20 +2442,32 @@ DEH_mechanized_equipment_2_short:0 "Ram Kangaroo"
 DEH_mechanized_equipment_3:0 "King Kangaroo"
 DEH_mechanized_equipment_3_short:0 "King Kangaroo"
 
+#Armored Car
+ DEH_gw_armored_car_equipment:0 "Ruskin Rover"
+ DEH_gw_armored_car_equipment_short:0 "Rover"
+ DEH_armored_car_equipment_1:0 "GM Canada Otter"
+ DEH_armored_car_equipment_1_short:0 "Otter"
+ DEH_armored_car_equipment_2:0 "Ruskin Rhino"
+ DEH_armored_car_equipment_2_short:0 "Rhino"
+ DEH_armored_car_equipment_2_desc:9 "With the success of the Rover under its belt, the Ruskin Motor Bodies company designed the Rhino in reponse to an Australasian government request for a substantially heavier armoured car built upon the CMP chassis. Though substantial changes were made to that CMP chassis, after much work the Rhino was born, and with substantial interchangability of parts with with other CMP-based designs to boot."
+ DEH_armored_car_at_equipment:0 "Ruskin Hippo"
+ DEH_armored_car_at_equipment_short:0 "Hippo"
+ DEH_armored_car_at_equipment_desc:9 "To accomodate a substantially larger gun, the Rhino's coaxial machine had to be removed and its turret slighly enlarged. The 'Hippo' as this model has been designated, proved to be quite the headache for its design team, as these changes caused the already heavy vehicle to run into weight issues like its predecessors which had to be slowly worked out prior to the vehicle's adoption."
+
 DEH_anti_tank_equipment_1:0 "QF 2-pounder"
 DEH_anti_tank_equipment_1_short:0 "QF 2-pounder"
 DEH_anti_tank_equipment_2:0 "QF 6-pounder"
 DEH_anti_tank_equipment_3:0 "QF 17-pounder"
 
-DEH_rocket_artillery_equipment_1:0 "RP-3 High Explosive/General Purpose"
-DEH_rocket_artillery_equipment_1_short:0 "RP-3 HE/GP"
-DEH_rocket_artillery_equipment_2:0 "RP-3 High Explosive/Semi Armour-Piercing"
-DEH_rocket_artillery_equipment_2_short:0 "RP-3 HE/SAP"
+ DEH_rocket_artillery_equipment_1:0 "RP-3 High Explosive/General Purpose"
+ DEH_rocket_artillery_equipment_1_short:0 "RP-3 HE/GP"
+ DEH_rocket_artillery_equipment_2:0 "RP-3 High Explosive/Semi Armour-Piercing"
+ DEH_rocket_artillery_equipment_2_short:0 "RP-3 HE/SAP"
 
 DEH_artillery_equipment_1:0 "QF 18-pounder"
 DEH_artillery_equipment_1_short:0 "QF 18-pounder"
 DEH_artillery_equipment_2:0 "QF 25-pounder"
-DEH_artillery_equipment_3:0 "BL 5.5-inch Medium Gun"
+ DEH_artillery_equipment_3:0 "BL 5.5-inch Medium Gun"
 
 DEH_anti_air_equipment_1:0 "QF 3-inch 20 cwt"
 DEH_anti_air_equipment_1_short:0 "QF 3-inch"
@@ -2600,15 +2673,15 @@ EGY_motorized_equipment_1:0 "Opel Blitz"
 EGY_motorized_rocket_equipment:0 "Opel Blitz mit Wurfrahmen 40"
 EGY_motorized_rocket_equipment_1:0 "Opel Blitz mit Wurfrahmen 40"
 EGY_motorized_rocket_equipment_1_short:0 "Blitz mit Wurfrahmen"
-EGY_motorized_equipment_1_desc:0 "While cavalry have for a long time been a reliable asset to our army, replacing horses with trucks will allow us to quickly deliver a large amount of infantry at the frontline"
+ EGY_motorized_equipment_1_desc:9 "While cavalry have for a long time been a reliable asset to our army, replacing horses with trucks will allow us to quickly deliver a large amount of infantry at the frontline"
 EGY_mechanized_equipment_1:0 "Sonderkraftfahrzeug 11"
 EGY_mechanized_equipment_1_short:0 "Sd.Kfz. 11"
  EGY_mechanized_equipment_1_desc:0 "Des véhicules spécialisés qui fonctionnent bien sur les terrains accidentés et qui disposent d'un certain degré de blindage permettront à nos garçons en vert de se transporter efficacement sur le champ de bataille."
 EGY_mechanized_equipment_2:0 "Sonderkraftfahrzeug 251"
 EGY_mechanized_equipment_2_short:0 "Sd.Kfz. 251"
 EGY_mechanized_equipment_2_desc:0 "A tracked vehicle similar to a tank but with a capacity to carry a small platoon will further increase our capabilities."
-EGY_mechanized_equipment_3:0 "Sonderkraftfahrzeug 251/20"
-EGY_mechanized_equipment_3_short:0 "Sd.Kfz. 251/20"
+ EGY_mechanized_equipment_3:0 "Sonderkraftfahrzeug 251/20"
+ EGY_mechanized_equipment_3_short:0 "Sd.Kfz. 251/20"
 EGY_mechanized_equipment_3_desc:0 "Our infantry can be even further enhanced by outfitting the transport vehicles themselves with weaponry."
 
 #Artillery
@@ -2685,8 +2758,8 @@ ENG_EQUIPMENT_VERSION_13:0 "Mk. XIII"
 
 ENG_infantry_equipment_0:0 "Rifle No.1 Mk.III"
 ENG_infantry_equipment_0_short:0 "No.1 Mk.III"
-ENG_infantry_equipment_1:0 "Rifle No.1 Mk.IV"
-ENG_infantry_equipment_1_short:0 "No.1 Mk.IV"
+ ENG_infantry_equipment_1:0 "Rifle No.1 Mk.IV"
+ ENG_infantry_equipment_1_short:0 "No.1 Mk.IV"
 ENG_infantry_equipment_2:0 "No.2 Machine-Carbine Mk.I"
 ENG_infantry_equipment_2_short:0 "No.2 MC Mk.I"
 ENG_infantry_equipment_3:0 "No.5 Machine-Rifle Mk.I"
@@ -2709,27 +2782,22 @@ ENG_amphibious_mechanized_equipment_1_short:0 "Terrapin Mk. I"
 ENG_amphibious_mechanized_equipment_2:0 "Terrapin Mk. II" 
 ENG_amphibious_mechanized_equipment_2_short:0 "Terrapin Mk. II"
 
+#Armored Car
+ ENG_gw_armored_car_equipment:0 "BSA Dingo"
+ ENG_gw_armored_car_equipment_short:0 "Dingo"
+ ENG_armored_car_equipment_1:0 "Humber Armoured Car"
+ ENG_armored_car_equipment_1_short:0 "Humber A.C."
+ ENG_armored_car_equipment_2:0 "AEC Armoured Car"
+ ENG_armored_car_equipment_2_short:0 "AEC A.C."
+ ENG_armored_car_at_equipment:0 "AEC 6-pounder"
+
 #Artillery
 
 ENG_artillery_equipment_1:0 "QF 18-pounder"
 ENG_artillery_equipment_1_short:0 "QF 18-pounder"
-ENG_artillery_equipment_2:0 "QF 25-pounder"
-ENG_artillery_equipment_3:0 "BL 5.5-inch Medium Gun"
-
-ENG_anti_tank_equipment_1:0 "QF 2-pounder"
-ENG_anti_tank_equipment_1_short:0 "QF 2-pounder"
-ENG_anti_tank_equipment_2:0 "QF 6-pounder"
-ENG_anti_tank_equipment_3:0 "QF 17-pounder"
 
 ENG_anti_air_equipment_1:0 "QF 3-inch 20 cwt"
 ENG_anti_air_equipment_1_short:0 "QF 3-inch"
-ENG_anti_air_equipment_2:0 "QF 40 mm Bofors"
-ENG_anti_air_equipment_3:0 "QF 3.7-inch"
-
-ENG_rocket_artillery_equipment_1:0 "RP-3 High Explosive/General Purpose"
-ENG_rocket_artillery_equipment_1_short:0 "RP-3 HE/GP"
-ENG_rocket_artillery_equipment_2:0 "RP-3 High Explosive/Semi Armour-Piercing"
-ENG_rocket_artillery_equipment_2_short:0 "RP-3 HE/SAP"
 
 #Tanks
 
@@ -2786,8 +2854,8 @@ ENP_EQUIPMENT_VERSION_13:0 "Mk. XIII"
 
 ENP_infantry_equipment_0:0 "Rifle No.1 Mk.III"
 ENP_infantry_equipment_0_short:0 "No.1 Mk.III"
-ENP_infantry_equipment_1:0 "Rifle No.1 Mk.IV"
-ENP_infantry_equipment_1_short:0 "No.1 Mk.IV"
+ ENP_infantry_equipment_1:0 "Rifle No.1 Mk.IV"
+ ENP_infantry_equipment_1_short:0 "No.1 Mk.IV"
 ENP_infantry_equipment_2:0 "No.2 Machine-Carbine Mk.I"
 ENP_infantry_equipment_2_short:0 "No.2 MC Mk.I"
 ENP_infantry_equipment_3:0 "No.5 Machine-Rifle Mk.I"
@@ -2810,27 +2878,22 @@ ENP_amphibious_mechanized_equipment_1_short:0 "Terrapin Mk. I"
 ENP_amphibious_mechanized_equipment_2:0 "Terrapin Mk. II" 
 ENP_amphibious_mechanized_equipment_2_short:0 "Terrapin Mk. II"
 
+#Armored Car
+ ENP_gw_armored_car_equipment:0 "BSA Dingo"
+ ENP_gw_armored_car_equipment_short:0 "Dingo"
+ ENP_armored_car_equipment_1:0 "Humber Armoured Car"
+ ENP_armored_car_equipment_1_short:0 "Humber A.C."
+ ENP_armored_car_equipment_2:0 "AEC Armoured Car"
+ ENP_armored_car_equipment_2_short:0 "AEC A.C."
+ ENP_armored_car_at_equipment:0 "AEC 6-pounder"
+
 #Artillery
 
 ENP_artillery_equipment_1:0 "QF 18-pounder"
 ENP_artillery_equipment_1_short:0 "QF 18-pounder"
-ENP_artillery_equipment_2:0 "QF 25-pounder"
-ENP_artillery_equipment_3:0 "BL 5.5-inch Medium Gun"
-
-ENP_anti_tank_equipment_1:0 "QF 2-pounder"
-ENP_anti_tank_equipment_1_short:0 "QF 2-pounder"
-ENP_anti_tank_equipment_2:0 "QF 6-pounder"
-ENP_anti_tank_equipment_3:0 "QF 17-pounder"
 
 ENP_anti_air_equipment_1:0 "QF 3-inch 20 cwt"
 ENP_anti_air_equipment_1_short:0 "QF 3-inch"
-ENP_anti_air_equipment_2:0 "QF 40 mm Bofors"
-ENP_anti_air_equipment_3:0 "QF 3.7-inch"
-
-ENP_rocket_artillery_equipment_1:0 "RP-3 High Explosive/General Purpose"
-ENP_rocket_artillery_equipment_1_short:0 "RP-3 HE/GP"
-ENP_rocket_artillery_equipment_2:0 "RP-3 High Explosive/Semi Armour-Piercing"
-ENP_rocket_artillery_equipment_2_short:0 "RP-3 HE/SAP"
 
 #Tanks
 
@@ -2868,13 +2931,13 @@ ENP_modern_tank_equipment_1_short:0 "Universal Mk.I"
 ###
 
 ### Land ###
-ERT_infantry_equipment_0:0 "Mauser Model 1898"
-ERT_infantry_equipment_0_short:0 "Mauser 1898"
- ERT_infantry_equipment_0_desc:0 "En réponse au succès commercial de plusieurs fusils courts produits sur la base du Mauser 1898 par des fabricants d'armes concurrents, la société Mauser a développé son propre fusil de 1898 modérément raccourci. Deux modèles apparentés de cette conception ont reçu la désignation de "modèle standard" par Mauser. De nombreuses petites nations, dont l'Éthiopie, ont acheté ces nouveaux fusils en grandes quantités ; la variante éthiopienne est la plus ancienne des deux et est chambrée en 7,65×53mm Mauser. Avec la révolte, de grandes quantités de ces fusils ont été capturées par l'Érythrée et sont devenues le principal fusil de ses forces armées naissantes."
-ERT_infantry_equipment_1:0 "Zbrojovka Brno ZH-29"
-ERT_infantry_equipment_1_short:0 "ZH-29"
-ERT_support_weapons:0 "Vickers MG & Stokes mortar"
-ERT_support_weapons2:0 "KE-7 & 5 cm Granatwerfer 36"
+ ERI_infantry_equipment_0:0 "Mauser Model 1898"
+ ERI_infantry_equipment_0_short:0 "Mauser 1898"
+ ERI_infantry_equipment_0_desc:9 "In response to several commercially successful short rifles produced on the basis of the Mauser 1898 by competing arms manufacturers, the Mauser company developed its owned moderately shortened 1898 rifle. Two related patterns of this design were given the designation 'standard modell' by Mauser. Many small nations, including Ethiopia purchased these new guns in large quantites; the Ethiopian variant is the older of the two and is chambered in 7.65×53mm Mauser. With the revolt, large quantities of these rifles were captured by Eritrea and became the main rifle of its fledgling armed forces."
+ ERI_infantry_equipment_1:0 "Zbrojovka Brno ZH-29"
+ ERI_infantry_equipment_1_short:0 "ZH-29"
+ ERI_support_weapons:0 "Vickers MG & Stokes mortar"
+ ERI_support_weapons2:0 "KE-7 & 5 cm Granatwerfer 36"
 
 ###
 ### Estonia ###
@@ -3047,6 +3110,16 @@ FNG_amphibious_mechanized_equipment_1_short:0 "Su-Ki"
 FNG_amphibious_mechanized_equipment_2:0 "Type 6 Ka-Tsu Kai"
 FNG_amphibious_mechanized_equipment_2_short:0 "Ka-Tsu Kai"
 
+#Armored Car
+ FNG_gw_armored_car_equipment:0 "Type 92 Osaka"
+ FNG_gw_armored_car_equipment_short:0 "Osaka"
+ FNG_armored_car_equipment_1:0 "Type 92 Chiyoda"
+ FNG_armored_car_equipment_1_short:0 "Chiyoda"
+ FNG_armored_car_equipment_2:0 "Type 93 Kokusan"
+ FNG_armored_car_equipment_2_short:0 "Kokusan"
+ FNG_armored_car_at_equipment:0 "Type 4 Armored Car"
+ FNG_armored_car_at_equipment_short:0 "Type 4 Armored Car"
+
 #Artillery
 
 FNG_artillery_equipment_1:0 "Type 95 75 mm"
@@ -3184,6 +3257,16 @@ FRA_mechanized_equipment_2:0 "SOMUA MCG"
 FRA_mechanized_equipment_2_short:0 "SOMUA MCG"
 FRA_mechanized_equipment_3:0 "SOMUA-VCI"
 FRA_mechanized_equipment_3_short:0 "SOMUA-VCI"
+
+#Armored Car
+ FRA_gw_armored_car_equipment:0 "Laffly S15"
+ FRA_gw_armored_car_equipment_short:0 "S15"
+ FRA_armored_car_equipment_1:0 "Panhard 165"
+ FRA_armored_car_equipment_1_short:0 "Panhard 165"
+ FRA_armored_car_equipment_2:0 "Panhard 178"
+ FRA_armored_car_equipment_2_short:0 "Panhard 178"
+ FRA_armored_car_at_equipment:0 "Voiture spéciale 207"
+ FRA_armored_car_at_equipment_short:0 "V.S. 207"
 
 #Artillery
 
@@ -3360,7 +3443,7 @@ GAB_support_weapons:0 "MG-08/15 & leichter Minenwerfer"
 GAB_support_weapons2:0 "MG-34 & 8 cm Granatwerfer 34"
 
 ###
-### Galicia-Lodomeria ###
+### Galicia and Lodomeria ###
 ###
 
 ### Land ###
@@ -3394,6 +3477,10 @@ GAL_mechanized_equipment_2_desc:0 "In 1942, the Hungarian company Weiss Manfréd
 GAL_mechanized_equipment_3:0 "Škoda-MÁVAG Transporter Opancerzony M.40/44"
 GAL_mechanized_equipment_3_short:0 "TO wz. 40/44"
 GAL_mechanized_equipment_3_desc:0 "When Austria phased out the M.40 tank for the M.42, the former were converted. One of those conversions were an APC similar to the Lehel, with the turret removed and hull interior rearranged to accomodate a squad of Panzerinfanterie."
+
+#Armored Car
+ GAL_gw_armored_car_equipment:0 "Škoda PA-II"
+ GAL_gw_armored_car_equipment_short:0 "Škoda PA-II"
 
 GAL_rocket_artillery_equipment_2:0 "Wyrzutnia rakietowa wzór 44 'Wyrzutnia Buława'"
 GAL_rocket_artillery_equipment_2_short:0 "Wyrzutnia Buława"
@@ -3494,8 +3581,8 @@ GBP_EQUIPMENT_VERSION_13:0 "Mk. XIII"
 
 GBP_infantry_equipment_0:0 "Rifle No.1 Mk.III"
 GBP_infantry_equipment_0_short:0 "No.1 Mk.III"
-GBP_infantry_equipment_1:0 "Rifle No.1 Mk.IV"
-GBP_infantry_equipment_1_short:0 "No.1 Mk.IV"
+ GBP_infantry_equipment_1:0 "Rifle No.1 Mk.IV"
+ GBP_infantry_equipment_1_short:0 "No.1 Mk.IV"
 GBP_infantry_equipment_2:0 "No.2 Machine-Carbine Mk.I"
 GBP_infantry_equipment_2_short:0 "No.2 MC Mk.I"
 GBP_infantry_equipment_3:0 "No.5 Machine-Rifle Mk.I"
@@ -3518,27 +3605,22 @@ GBP_amphibious_mechanized_equipment_1_short:0 "Terrapin Mk. I"
 GBP_amphibious_mechanized_equipment_2:0 "Terrapin Mk. II" 
 GBP_amphibious_mechanized_equipment_2_short:0 "Terrapin Mk. II"
 
+#Armored Car
+ GBP_gw_armored_car_equipment:0 "BSA Dingo"
+ GBP_gw_armored_car_equipment_short:0 "Dingo"
+ GBP_armored_car_equipment_1:0 "Humber Armoured Car"
+ GBP_armored_car_equipment_1_short:0 "Humber A.C."
+ GBP_armored_car_equipment_2:0 "AEC Armoured Car"
+ GBP_armored_car_equipment_2_short:0 "AEC A.C."
+ GBP_armored_car_at_equipment:0 "AEC 6-pounder"
+
 #Artillery
 
 GBP_artillery_equipment_1:0 "QF 18-pounder"
 GBP_artillery_equipment_1_short:0 "QF 18-pounder"
-GBP_artillery_equipment_2:0 "QF 25-pounder"
-GBP_artillery_equipment_3:0 "BL 5.5-inch Medium Gun"
-
-GBP_anti_tank_equipment_1:0 "QF 2-pounder"
-GBP_anti_tank_equipment_1_short:0 "QF 2-pounder"
-GBP_anti_tank_equipment_2:0 "QF 6-pounder"
-GBP_anti_tank_equipment_3:0 "QF 17-pounder"
 
 GBP_anti_air_equipment_1:0 "QF 3-inch 20 cwt"
 GBP_anti_air_equipment_1_short:0 "QF 3-inch"
-GBP_anti_air_equipment_2:0 "QF 40 mm Bofors"
-GBP_anti_air_equipment_3:0 "QF 3.7-inch"
-
-GBP_rocket_artillery_equipment_1:0 "RP-3 High Explosive/General Purpose"
-GBP_rocket_artillery_equipment_1_short:0 "RP-3 HE/GP"
-GBP_rocket_artillery_equipment_2:0 "RP-3 High Explosive/Semi Armour-Piercing"
-GBP_rocket_artillery_equipment_2_short:0 "RP-3 HE/SAP"
 
 #Tanks
 
@@ -3611,7 +3693,9 @@ GBR_night_vision:0 "Tabby Scope"
 
 #Motorised
 
-GBR_motorized_equipment_1:0 "Ford F30 AP"
+ GBR_motorized_equipment_1:0 "Ford F30 AP"
+ GBR_motorized_equipment_1_short:0 "GM Canada CMP"
+
 GBR_mechanized_equipment_1:0 "Vickers Carrier LP"
 GBR_mechanized_equipment_1_short:0 "Vickers Carrier"
 GBR_mechanized_equipment_2:0 "Ram Kangaroo"
@@ -3619,12 +3703,24 @@ GBR_mechanized_equipment_2_short:0 "Ram Kangaroo"
 GBR_mechanized_equipment_3:0 "King Kangaroo"
 GBR_mechanized_equipment_3_short:0 "King Kangaroo"
 
+#Armored Car
+ GBR_gw_armored_car_equipment:0 "Ruskin Rover"
+ GBR_gw_armored_car_equipment_short:0 "Rover"
+ GBR_armored_car_equipment_1:0 "GM Canada Otter"
+ GBR_armored_car_equipment_1_short:0 "Otter"
+ GBR_armored_car_equipment_2:0 "Ruskin Rhino"
+ GBR_armored_car_equipment_2_short:0 "Rhino"
+ GBR_armored_car_equipment_2_desc:9 "With the success of the Rover under its belt, the Ruskin Motor Bodies company designed the Rhino in reponse to an Australasian government request for a substantially heavier armoured car built upon the CMP chassis. Though substantial changes were made to that CMP chassis, after much work the Rhino was born, and with substantial interchangability of parts with with other CMP-based designs to boot."
+ GBR_armored_car_at_equipment:0 "Ruskin Hippo"
+ GBR_armored_car_at_equipment_short:0 "Hippo"
+ GBR_armored_car_at_equipment_desc:9 "To accomodate a substantially larger gun, the Rhino's coaxial machine had to be removed and its turret slighly enlarged. The 'Hippo' as this model has been designated, proved to be quite the headache for its design team, as these changes caused the already heavy vehicle to run into weight issues like its predecessors which had to be slowly worked out prior to the vehicle's adoption."
+
 #Artillery
 
 GBR_artillery_equipment_1:0 "QF 18-pounder"
 GBR_artillery_equipment_1_short:0 "QF 18-pounder"
 GBR_artillery_equipment_2:0 "QF 25-pounder"
-GBR_artillery_equipment_3:0 "BL 5.5-inch Medium Gun"
+ GBR_artillery_equipment_3:0 "BL 5.5-inch Medium Gun"
 
 GBR_anti_tank_equipment_1:0 "QF 2-pounder"
 GBR_anti_tank_equipment_1_short:0 "QF 2-pounder"
@@ -3636,10 +3732,10 @@ GBR_anti_air_equipment_1_short:0 "QF 3-inch"
 GBR_anti_air_equipment_2:0 "QF 40 mm Bofors"
 GBR_anti_air_equipment_3:0 "QF 3.7-inch"
 
-GBR_rocket_artillery_equipment_1:0 "RP-3 High Explosive/General Purpose"
-GBR_rocket_artillery_equipment_1_short:0 "RP-3 HE/GP"
-GBR_rocket_artillery_equipment_2:0 "RP-3 High Explosive/Semi Armour-Piercing"
-GBR_rocket_artillery_equipment_2_short:0 "RP-3 HE/SAP"
+ GBR_rocket_artillery_equipment_1:0 "RP-3 High Explosive/General Purpose"
+ GBR_rocket_artillery_equipment_1_short:0 "RP-3 HE/GP"
+ GBR_rocket_artillery_equipment_2:9 "RP-3 High Explosive/Semi Armour-Piercing"
+ GBR_rocket_artillery_equipment_2_short:9 "RP-3 HE/SAP"
 
 #Tanks
 GBR_amphibious_tank_equipment_1:0 "Vickers Amphibious"
@@ -3729,9 +3825,9 @@ GEA_mechanized_equipment_1_desc:0 "The Sd.Kfz. 11 (Sonderkraftfahrzeug - special
 GEA_mechanized_equipment_2:0 "Sonderkraftfahrzeug 251"
 GEA_mechanized_equipment_2_short:0 "Sd.Kfz. 251"
 GEA_mechanized_equipment_2_desc:0 "The Sd.Kfz. 251 half-track was an armoured fighting vehicle designed and first built by the Hanomag company during the Second Weltkrieg, based on their earlier Sd.Kfz. 11 vehicle."
-GEA_mechanized_equipment_3:0 "Sonderkraftfahrzeug 251/20"
-GEA_mechanized_equipment_3_short:0 "Sd.Kfz. 251/20"
-GEA_mechanized_equipment_3_desc:0 "An updated version of the Sd.Kfz. 251 fitted with an infrared spotlight."
+ GEA_mechanized_equipment_3:0 "Sonderkraftfahrzeug 251/20"
+ GEA_mechanized_equipment_3_short:0 "Sd.Kfz. 251/20"
+ GEA_mechanized_equipment_3_desc:9 "An updated version of the Sd.Kfz. 251 fitted with an infrared spotlight."
 
 #Amphibious
 GEA_amphibious_mechanized_equipment_1:0 "Land-Wasser-Schlepper"
@@ -3946,15 +4042,25 @@ GER_mechanized_equipment_1_desc:0 "The Sd.Kfz. 11 (Sonderkraftfahrzeug - special
 GER_mechanized_equipment_2:0 "Sonderkraftfahrzeug 251"
 GER_mechanized_equipment_2_short:0 "Sd.Kfz. 251"
 GER_mechanized_equipment_2_desc:0 "The Sd.Kfz. 251 half-track was an armoured fighting vehicle designed and first built by the Hanomag company during the Second Weltkrieg, based on their earlier Sd.Kfz. 11 vehicle."
-GER_mechanized_equipment_3:0 "Sonderkraftfahrzeug 251/20"
-GER_mechanized_equipment_3_short:0 "Sd.Kfz. 251/20"
-GER_mechanized_equipment_3_desc:0 "An updated version of the Sd.Kfz. 251 fitted with an infrared spotlight."
+ GER_mechanized_equipment_3:0 "Sonderkraftfahrzeug 251/20"
+ GER_mechanized_equipment_3_short:0 "Sd.Kfz. 251/20"
+ GER_mechanized_equipment_3_desc:9 "An updated version of the Sd.Kfz. 251 fitted with an infrared spotlight."
 
 #Amphibious
 GER_amphibious_mechanized_equipment_1:0 "Land-Wasser-Schlepper"
 GER_amphibious_mechanized_equipment_1_short:0 "LWS"
 GER_amphibious_mechanized_equipment_2:0 "Land-Wasser-Schlepper II"
 GER_amphibious_mechanized_equipment_2_short:0 "LWS II"
+
+#Armored Car
+ GER_gw_armored_car_equipment:0 "Sonderkraftfahrzeug 222"
+ GER_gw_armored_car_equipment_short:0 "Sdkfz 222"
+ GER_armored_car_equipment_1:0 "Sonderkraftfahrzeug 231 8-rad"
+ GER_armored_car_equipment_1_short:0 "Sdkfz 231"
+ GER_armored_car_equipment_2:0 "Sonderkraftfahrzeug 234 'Puma'"
+ GER_armored_car_equipment_2_short:0 "Puma"
+ GER_armored_car_at_equipment:0 "Sdkfz 234/4 'Pakwagen'"
+ GER_armored_car_at_equipment_short:0 "Pakwagen"
 
 #Artillery
 
@@ -4155,9 +4261,9 @@ GEX_mechanized_equipment_1_desc:0 "The Sd.Kfz. 11 (Sonderkraftfahrzeug - special
 GEX_mechanized_equipment_2:0 "Sonderkraftfahrzeug 251"
 GEX_mechanized_equipment_2_short:0 "Sd.Kfz. 251"
 GEX_mechanized_equipment_2_desc:0 "The Sd.Kfz. 251 half-track was an armoured fighting vehicle designed and first built by the Hanomag company during the Second Weltkrieg, based on their earlier Sd.Kfz. 11 vehicle."
-GEX_mechanized_equipment_3:0 "Sonderkraftfahrzeug 251/20"
-GEX_mechanized_equipment_3_short:0 "Sd.Kfz. 251/20"
-GEX_mechanized_equipment_3_desc:0 "An updated version of the Sd.Kfz. 251 fitted with an infrared spotlight."
+ GEX_mechanized_equipment_3:0 "Sonderkraftfahrzeug 251/20"
+ GEX_mechanized_equipment_3_short:0 "Sd.Kfz. 251/20"
+ GEX_mechanized_equipment_3_desc:9 "An updated version of the Sd.Kfz. 251 fitted with an infrared spotlight."
 
 #Amphibious
 GEX_amphibious_mechanized_equipment_1:0 "Land-Wasser-Schlepper"
@@ -4433,9 +4539,9 @@ GRU_mechanized_equipment_1_desc:0 "The Sd.Kfz. 11 (Sonderkraftfahrzeug - special
 GRU_mechanized_equipment_2:0 "Sonderkraftfahrzeug 251"
 GRU_mechanized_equipment_2_short:0 "Sd.Kfz. 251"
 GRU_mechanized_equipment_2_desc:0 "The Sd.Kfz. 251 half-track was an armoured fighting vehicle designed and first built by the Hanomag company during the Second Weltkrieg, based on their earlier Sd.Kfz. 11 vehicle."
-GRU_mechanized_equipment_3:0 "Sonderkraftfahrzeug 251/20"
-GRU_mechanized_equipment_3_short:0 "Sd.Kfz. 251/20"
-GRU_mechanized_equipment_3_desc:0 "An updated version of the Sd.Kfz. 251 fitted with an infrared spotlight."
+ GRU_mechanized_equipment_3:0 "Sonderkraftfahrzeug 251/20"
+ GRU_mechanized_equipment_3_short:0 "Sd.Kfz. 251/20"
+ GRU_mechanized_equipment_3_desc:9 "An updated version of the Sd.Kfz. 251 fitted with an infrared spotlight."
 
 #Amphibious
 GRU_amphibious_mechanized_equipment_1:0 "Land-Wasser-Schlepper"
@@ -4624,8 +4730,8 @@ GUY_EQUIPMENT_VERSION_13:0 "Mk. XIII"
 ### Land ###
 GUY_infantry_equipment_0:0 "Rifle No.1 Mk.III"
 GUY_infantry_equipment_0_short:0 "Rifle No.1 Mk.III"
-GUY_infantry_equipment_1:0 "Rifle No.4 Mk.I"
-GUY_infantry_equipment_1_short:0 "Rifle No.4 Mk.I"
+ GUY_infantry_equipment_1:0 "Rifle No.4 Mk.I"
+ GUY_infantry_equipment_1_short:0 "Rifle No.4 Mk.I"
 GUY_infantry_equipment_2:0 "Auto-Carbine No.1 Mk.1"
 GUY_infantry_equipment_2_short:0 "AC Mk.1"
 GUY_infantry_equipment_3:0 "Auto-Rifle No.1 Mk.5"
@@ -4638,7 +4744,9 @@ GUY_support_weapons3:0 "Vickers M Mk. I & ML 3 inch mortar"
 GUY_support_weapons4:0 "Vickers M Mk. III & ML 4.2 inch Mortar"
 GUY_night_vision:0 "Tabby Scope"
 
-GUY_motorized_equipment_1:0 "Ford F30 AP"
+ GUY_motorized_equipment_1:0 "Ford F30 AP"
+ GUY_motorized_equipment_1_short:0 "GM Canada CMP"
+
 GUY_mechanized_equipment_1:0 "Vickers Carrier LP"
 GUY_mechanized_equipment_1_short:0 "Vickers Carrier"
 GUY_mechanized_equipment_2:0 "Ram Kangaroo"
@@ -4646,15 +4754,27 @@ GUY_mechanized_equipment_2_short:0 "Ram Kangaroo"
 GUY_mechanized_equipment_3:0 "King Kangaroo"
 GUY_mechanized_equipment_3_short:0 "King Kangaroo"
 
-GUY_rocket_artillery_equipment_1:0 "RP-3 High Explosive/General Purpose"
-GUY_rocket_artillery_equipment_1_short:0 "RP-3 HE/GP"
-GUY_rocket_artillery_equipment_2:0 "RP-3 High Explosive/Semi Armour-Piercing"
-GUY_rocket_artillery_equipment_2_short:0 "RP-3 HE/SAP"
+#Armored Car
+ GUY_gw_armored_car_equipment:0 "Ruskin Rover"
+ GUY_gw_armored_car_equipment_short:0 "Rover"
+ GUY_armored_car_equipment_1:0 "GM Canada Otter"
+ GUY_armored_car_equipment_1_short:0 "Otter"
+ GUY_armored_car_equipment_2:0 "Ruskin Rhino"
+ GUY_armored_car_equipment_2_short:0 "Rhino"
+ GUY_armored_car_equipment_2_desc:9 "With the success of the Rover under its belt, the Ruskin Motor Bodies company designed the Rhino in reponse to an Australasian government request for a substantially heavier armoured car built upon the CMP chassis. Though substantial changes were made to that CMP chassis, after much work the Rhino was born, and with substantial interchangability of parts with with other CMP-based designs to boot."
+ GUY_armored_car_at_equipment:0 "Ruskin Hippo"
+ GUY_armored_car_at_equipment_short:0 "Hippo"
+ GUY_armored_car_at_equipment_desc:9 "To accomodate a substantially larger gun, the Rhino's coaxial machine had to be removed and its turret slighly enlarged. The 'Hippo' as this model has been designated, proved to be quite the headache for its design team, as these changes caused the already heavy vehicle to run into weight issues like its predecessors which had to be slowly worked out prior to the vehicle's adoption."
+
+ GUY_rocket_artillery_equipment_1:0 "RP-3 High Explosive/General Purpose"
+ GUY_rocket_artillery_equipment_1_short:0 "RP-3 HE/GP"
+ GUY_rocket_artillery_equipment_2:0 "RP-3 High Explosive/Semi Armour-Piercing"
+ GUY_rocket_artillery_equipment_2_short:0 "RP-3 HE/SAP"
 
 GUY_artillery_equipment_1:0 "QF 18-pounder"
 GUY_artillery_equipment_1_short:0 "QF 18-pounder"
 GUY_artillery_equipment_2:0 "QF 25-pounder"
-GUY_artillery_equipment_3:0 "BL 5.5-inch Medium Gun"
+ GUY_artillery_equipment_3:0 "BL 5.5-inch Medium Gun"
 
 GUY_anti_air_equipment_1:0 "QF 3-inch 20 cwt"
 GUY_anti_air_equipment_1_short:0 "QF 3-inch"
@@ -5000,6 +5120,10 @@ HUN_mechanized_equipment_3:0 "40/44M Škoda-MÁVAG szállító páncélos"
 HUN_mechanized_equipment_3_short:0 "40/44M SP"
 HUN_mechanized_equipment_3_desc:0 "When Austria phased out the M.40 tank for the M.42, the former were converted. One of those conversions were an APC similar to the Lehel, with the turret removed and hull interior rearranged to accomodate a squad of Panzerinfanterie."
 
+#Armored Car
+ HUN_gw_armored_car_equipment:0 "Škoda PA-II"
+ HUN_gw_armored_car_equipment_short:0 "Škoda PA-II"
+
 HUN_rocket_artillery_equipment_2:0 "44M rakétavető 'Buzogányvető'"
 HUN_rocket_artillery_equipment_2_short:0 "Buzogányvető"
 #HUN_rocket_artillery_equipment_2_desc:0 ""
@@ -5246,20 +5370,20 @@ IRE_light_tank_equipment_3_short:0 "Leopard"
 IRE_light_tank_equipment_3_desc:0 "The Leopard was a forward reconnaissance vehicle armed with a unique high-velocity 50mm cannon. Unlike older German designs, it featured sloped frontal armour and extra-wide all-terrain tracks. The Leopard now fills a unique combat roll, both as a capable support and reconnaissance vehicle."
 
 ###
-### Goyaz (ISR) ###
+### Goyaz ###
 ###
 
 ### Land ###
-ISR_infantry_equipment_0:0 "Espingarda Mauser modelo 1908"
-ISR_infantry_equipment_0_short:0 "Espingarda m08"
-ISR_infantry_equipment_0_desc:0 "The Mauser Model 1908 is an exceptionally long rifle based on the Mauser 1898 and chambered in 7x57mm Mauser. It was originally produced for Brazil by the German company DWM, but Brazil has subsequently begun to produce staggering quantities of the rifle domestically."
-ISR_infantry_equipment_1:0 "Carabina Mauser modelo 1935"
-ISR_infantry_equipment_1_short:0 "Carabina m35"
-ISR_infantry_equipment_1_desc:0 "The Mauser Carbine Model 1935 is a unique Mauser carbine produced domestically by Brazil and abroad in close conjunction with the Mauser company. It is chambered in 7x57mm Mauser."
-ISR_infantry_equipment_2:0 "Bergmann Submetralhadora modelo 1938"
-ISR_infantry_equipment_2_short:0 "Submetralhadora m38"
-ISR_infantry_equipment_2_desc:0 "In the early 1930s, Brazil purchased a small number of Bergmann MP28 guns for its armed forces. However, it never saw widespread use. The m38 is a simplified and easily manufactured derivative of the MP28 created in response to growing tensions in South America."
-ISR_support_weapons:0 "Hotchkiss M1914 MG & Stokes mortar"
+ GOY_infantry_equipment_0:0 "Espingarda Mauser modelo 1908"
+ GOY_infantry_equipment_0_short:0 "Espingarda m08"
+ GOY_infantry_equipment_0_desc:9 "The Mauser Model 1908 is an exceptionally long rifle based on the Mauser 1898 and chambered in 7x57mm Mauser. It was originally produced for Brazil by the German company DWM, but Brazil has subsequently begun to produce staggering quantities of the rifle domestically."
+ GOY_infantry_equipment_1:0 "Carabina Mauser modelo 1935"
+ GOY_infantry_equipment_1_short:0 "Carabina m35"
+ GOY_infantry_equipment_1_desc:9 "The Mauser Carbine Model 1935 is a unique Mauser carbine produced domestically by Brazil and abroad in close conjunction with the Mauser company. It is chambered in 7x57mm Mauser."
+ GOY_infantry_equipment_2:0 "Bergmann Submetralhadora modelo 1938"
+ GOY_infantry_equipment_2_short:0 "Submetralhadora m38"
+ GOY_infantry_equipment_2_desc:9 "In the early 1930s, Brazil purchased a small number of Bergmann MP28 guns for its armed forces. However, it never saw widespread use. The m38 is a simplified and easily manufactured derivative of the MP28 created in response to growing tensions in South America."
+ GOY_support_weapons:0 "Hotchkiss M1914 MG & Stokes mortar"
 
 ###
 ### Republic of Italy ###
@@ -5306,6 +5430,10 @@ ITA_mechanized_equipment_2:0 "Breda 37"
 ITA_mechanized_equipment_2_short:0 "Breda 37"
 ITA_mechanized_equipment_3:0 "Breda 61"
 ITA_mechanized_equipment_3_short:0 "Breda 61"
+
+#Armored Car
+ ITA_gw_armored_car_equipment:0 "Škoda PA-II"
+ ITA_gw_armored_car_equipment_short:0 "Škoda PA-II"
 
 #Artillery
 
@@ -5391,8 +5519,8 @@ JAM_EQUIPMENT_VERSION_13:0 "Mk. XIII"
 ### Land ###
 JAM_infantry_equipment_0:0 "Rifle No.1 Mk.III"
 JAM_infantry_equipment_0_short:0 "Rifle No.1 Mk.III"
-JAM_infantry_equipment_1:0 "Rifle No.4 Mk.I"
-JAM_infantry_equipment_1_short:0 "Rifle No.4 Mk.I"
+ JAM_infantry_equipment_1:0 "Rifle No.4 Mk.I"
+ JAM_infantry_equipment_1_short:0 "Rifle No.4 Mk.I"
 JAM_infantry_equipment_2:0 "Auto-Carbine No.1 Mk.1"
 JAM_infantry_equipment_2_short:0 "AC Mk.1"
 JAM_infantry_equipment_3:0 "Auto-Rifle No.1 Mk.5"
@@ -5405,7 +5533,9 @@ JAM_support_weapons3:0 "Vickers M Mk. I & ML 3 inch mortar"
 JAM_support_weapons4:0 "Vickers M Mk. III & ML 4.2 inch Mortar"
 JAM_night_vision:0 "Tabby Scope"
 
-JAM_motorized_equipment_1:0 "Ford F30 AP"
+ JAM_motorized_equipment_1:0 "Ford F30 AP"
+ JAM_motorized_equipment_1_short:0 "GM Canada CMP"
+
 JAM_mechanized_equipment_1:0 "Vickers Carrier LP"
 JAM_mechanized_equipment_1_short:0 "Vickers Carrier"
 JAM_mechanized_equipment_2:0 "Ram Kangaroo"
@@ -5413,15 +5543,27 @@ JAM_mechanized_equipment_2_short:0 "Ram Kangaroo"
 JAM_mechanized_equipment_3:0 "King Kangaroo"
 JAM_mechanized_equipment_3_short:0 "King Kangaroo"
 
-JAM_rocket_artillery_equipment_1:0 "RP-3 High Explosive/General Purpose"
-JAM_rocket_artillery_equipment_1_short:0 "RP-3 HE/GP"
-JAM_rocket_artillery_equipment_2:0 "RP-3 High Explosive/Semi Armour-Piercing"
-JAM_rocket_artillery_equipment_2_short:0 "RP-3 HE/SAP"
+#Armored Car
+ JAM_gw_armored_car_equipment:0 "Ruskin Rover"
+ JAM_gw_armored_car_equipment_short:0 "Rover"
+ JAM_armored_car_equipment_1:0 "GM Canada Otter"
+ JAM_armored_car_equipment_1_short:0 "Otter"
+ JAM_armored_car_equipment_2:0 "Ruskin Rhino"
+ JAM_armored_car_equipment_2_short:0 "Rhino"
+ JAM_armored_car_equipment_2_desc:9 "With the success of the Rover under its belt, the Ruskin Motor Bodies company designed the Rhino in reponse to an Australasian government request for a substantially heavier armoured car built upon the CMP chassis. Though substantial changes were made to that CMP chassis, after much work the Rhino was born, and with substantial interchangability of parts with with other CMP-based designs to boot."
+ JAM_armored_car_at_equipment:0 "Ruskin Hippo"
+ JAM_armored_car_at_equipment_short:0 "Hippo"
+ JAM_armored_car_at_equipment_desc:9 "To accomodate a substantially larger gun, the Rhino's coaxial machine had to be removed and its turret slighly enlarged. The 'Hippo' as this model has been designated, proved to be quite the headache for its design team, as these changes caused the already heavy vehicle to run into weight issues like its predecessors which had to be slowly worked out prior to the vehicle's adoption."
+
+ JAM_rocket_artillery_equipment_1:0 "RP-3 High Explosive/General Purpose"
+ JAM_rocket_artillery_equipment_1_short:0 "RP-3 HE/GP"
+ JAM_rocket_artillery_equipment_2:0 "RP-3 High Explosive/Semi Armour-Piercing"
+ JAM_rocket_artillery_equipment_2_short:0 "RP-3 HE/SAP"
 
 JAM_artillery_equipment_1:0 "QF 18-pounder"
 JAM_artillery_equipment_1_short:0 "QF 18-pounder"
 JAM_artillery_equipment_2:0 "QF 25-pounder"
-JAM_artillery_equipment_3:0 "BL 5.5-inch Medium Gun"
+ JAM_artillery_equipment_3:0 "BL 5.5-inch Medium Gun"
 
 JAM_anti_air_equipment_1:0 "QF 3-inch 20 cwt"
 JAM_anti_air_equipment_1_short:0 "QF 3-inch"
@@ -5532,6 +5674,16 @@ JAP_amphibious_mechanized_equipment_1:0 "Toyota Su-Ki"
 JAP_amphibious_mechanized_equipment_1_short:0 "Su-Ki"
 JAP_amphibious_mechanized_equipment_2:0 "Type 6 Ka-Tsu Kai"
 JAP_amphibious_mechanized_equipment_2_short:0 "Ka-Tsu Kai"
+
+#Armored Car
+ JAP_gw_armored_car_equipment:0 "Type 92 Osaka"
+ JAP_gw_armored_car_equipment_short:0 "Osaka"
+ JAP_armored_car_equipment_1:0 "Type 92 Chiyoda"
+ JAP_armored_car_equipment_1_short:0 "Chiyoda"
+ JAP_armored_car_equipment_2:0 "Type 93 Kokusan"
+ JAP_armored_car_equipment_2_short:0 "Kokusan"
+ JAP_armored_car_at_equipment:0 "Type 4 Armored Car"
+ JAP_armored_car_at_equipment_short:0 "Type 4 Armored Car"
 
 #Artillery
 
@@ -5651,6 +5803,18 @@ KAM_infantry_equipment_1_short:0 "Karabiner 98k"
 
 KAM_support_weapons:0 "MG-08/15 & leichter Minenwerfer"
 KAM_support_weapons2:0 "MG-34 & 8 cm Granatwerfer 34"
+
+###
+### Kenya ###
+###
+
+### Land ###
+ KEN_infantry_equipment_0:0 "Short Model Lee–Enfield MK. I"
+ KEN_infantry_equipment_0_short:0 "SMLE MK. 1"
+ KEN_infantry_equipment_1:0 "Karabiner 98k"
+ KEN_infantry_equipment_1_short:0 "Karabiner 98k"
+ KEN_support_weapons:0 "MG-08/15 & leichter Minenwerfer"
+ KEN_support_weapons2:0 "MG-34 & 8 cm Granatwerfer 34"
 
 ###
 ### Kivu Clique ###
@@ -5903,9 +6067,9 @@ MAF_mechanized_equipment_1_desc:0 "The Sd.Kfz. 11 (Sonderkraftfahrzeug - special
 MAF_mechanized_equipment_2:0 "Sonderkraftfahrzeug 251"
 MAF_mechanized_equipment_2_short:0 "Sd.Kfz. 251"
 MAF_mechanized_equipment_2_desc:0 "The Sd.Kfz. 251 half-track was an armoured fighting vehicle designed and first built by the Hanomag company during the Second Weltkrieg, based on their earlier Sd.Kfz. 11 vehicle."
-MAF_mechanized_equipment_3:0 "Sonderkraftfahrzeug 251/20"
-MAF_mechanized_equipment_3_short:0 "Sd.Kfz. 251/20"
-MAF_mechanized_equipment_3_desc:0 "An updated version of the Sd.Kfz. 251 fitted with an infrared spotlight."
+ MAF_mechanized_equipment_3:0 "Sonderkraftfahrzeug 251/20"
+ MAF_mechanized_equipment_3_short:0 "Sd.Kfz. 251/20"
+ MAF_mechanized_equipment_3_desc:9 "An updated version of the Sd.Kfz. 251 fitted with an infrared spotlight."
 
 #Amphibious
 MAF_amphibious_mechanized_equipment_1:0 "Land-Wasser-Schlepper"
@@ -6129,18 +6293,6 @@ MLY_support_weapons:0 "MG-08/15 & leichter Minenwerfer"
 MLY_support_weapons2:0 "MG-34 & 8 cm Granatwerfer 34"
 
 ###
-### Kikuyuland ###
-###
-
-### Land ###
-KIK_infantry_equipment_0:0 "Short Model Lee–Enfield MK. I"
-KIK_infantry_equipment_0_short:0 "SMLE MK. 1"
-KIK_infantry_equipment_1:0 "Karabiner 98k"
-KIK_infantry_equipment_1_short:0 "Karabiner 98k"
-KIK_support_weapons:0 "MG-08/15 & leichter Minenwerfer"
-KIK_support_weapons2:0 "MG-34 & 8 cm Granatwerfer 34"
-
-###
 ### League of Eight Province/Nanjing Clique ###
 ###
 
@@ -6283,7 +6435,9 @@ NEE_night_vision:0 "Tabby Scope"
 
 #Motorised
 
-NEE_motorized_equipment_1:0 "Ford F30 AP"
+ NEE_motorized_equipment_1:0 "Ford F30 AP"
+ NEE_motorized_equipment_1_short:0 "GM Canada CMP"
+
 NEE_mechanized_equipment_1:0 "Vickers Carrier LP"
 NEE_mechanized_equipment_1_short:0 "Vickers Carrier"
 NEE_mechanized_equipment_2:0 "Ram Kangaroo"
@@ -6303,7 +6457,7 @@ NEE_amphibious_mechanized_equipment_2_short:0 "LVT-4"
 NEE_artillery_equipment_1:0 "75 mm Gun M1897"
 NEE_artillery_equipment_1_short:0 "75 mm Gun M1897"
 NEE_artillery_equipment_2:0 "QF 25-pounder"
-NEE_artillery_equipment_3:0 "BL 5.5-inch Medium Gun"
+ NEE_artillery_equipment_3:0 "BL 5.5-inch Medium Gun"
 
 NEE_anti_tank_equipment_1:0 "37 mm Gun M3"
 NEE_anti_tank_equipment_1_short:0 "37 mm Gun M3"
@@ -6315,10 +6469,10 @@ NEE_anti_air_equipment_1_short:0 "37 mm Gun M1"
 NEE_anti_air_equipment_2:0 "40 mm M1"
 NEE_anti_air_equipment_3:0 "QF 3.7-inch"
 
-NEE_rocket_artillery_equipment_1:0 "RP-3 High Explosive/General Purpose"
-NEE_rocket_artillery_equipment_1_short:0 "RP-3 HE/GP"
-NEE_rocket_artillery_equipment_2:0 "RP-3 High Explosive/Semi Armour-Piercing"
-NEE_rocket_artillery_equipment_2_short:0 "RP-3 HE/SAP"
+ NEE_rocket_artillery_equipment_1:0 "RP-3 High Explosive/General Purpose"
+ NEE_rocket_artillery_equipment_1_short:0 "RP-3 HE/GP"
+ NEE_rocket_artillery_equipment_2:0 "RP-3 High Explosive/Semi Armour-Piercing"
+ NEE_rocket_artillery_equipment_2_short:0 "RP-3 HE/SAP"
 
 #Tanks
 NEE_amphibious_tank_equipment_1:0 "Vickers Amphibious"
@@ -6542,8 +6696,8 @@ NOR_modern_tank_equipment_1_short:0 "Strv 74"
 ### Land ###
 NZL_infantry_equipment_0:0 "Rifle No.1 MkIII"
 NZL_infantry_equipment_0_short:0 "Rifle No.1 MkIII"
-NZL_infantry_equipment_1:0 "Rifle No.4 MkI"
-NZL_infantry_equipment_1_short:0 "Rifle No.4 MkI"
+ NZL_infantry_equipment_1:0 "Rifle No.4 MkI"
+ NZL_infantry_equipment_1_short:0 "Rifle No.4 MkI"
 NZL_infantry_equipment_2:0 "Owen Gun"
 NZL_infantry_equipment_2_short:0 "Owen Gun"
 NZL_infantry_equipment_3:0 "CA Auto-Rifle Model.5"
@@ -6556,7 +6710,9 @@ NZL_support_weapons3:0 "Vickers M Mk. I & ML 3 inch mortar"
 NZL_support_weapons4:0 "Vickers M Mk. III & ML 4.2 inch Mortar"
 NZL_night_vision:0 "Tabby Scope"
 
-NZL_motorized_equipment_1:0 "Ford F30 AP"
+ NZL_motorized_equipment_1:0 "Ford F30 AP"
+ NZL_motorized_equipment_1_short:0 "GM Canada CMP"
+
 NZL_mechanized_equipment_1:0 "Vickers Carrier LP"
 NZL_mechanized_equipment_1_short:0 "Vickers Carrier"
 NZL_mechanized_equipment_2:0 "Ram Kangaroo"
@@ -6564,15 +6720,15 @@ NZL_mechanized_equipment_2_short:0 "Ram Kangaroo"
 NZL_mechanized_equipment_3:0 "King Kangaroo"
 NZL_mechanized_equipment_3_short:0 "King Kangaroo"
 
-NZL_rocket_artillery_equipment_1:0 "RP-3 High Explosive/General Purpose"
-NZL_rocket_artillery_equipment_1_short:0 "RP-3 HE/GP"
-NZL_rocket_artillery_equipment_2:0 "RP-3 High Explosive/Semi Armour-Piercing"
-NZL_rocket_artillery_equipment_2_short:0 "RP-3 HE/SAP"
+ NZL_rocket_artillery_equipment_1:0 "RP-3 High Explosive/General Purpose"
+ NZL_rocket_artillery_equipment_1_short:0 "RP-3 HE/GP"
+ NZL_rocket_artillery_equipment_2:0 "RP-3 High Explosive/Semi Armour-Piercing"
+ NZL_rocket_artillery_equipment_2_short:0 "RP-3 HE/SAP"
 
 NZL_artillery_equipment_1:0 "QF 18-pounder"
 NZL_artillery_equipment_1_short:0 "QF 18-pounder"
 NZL_artillery_equipment_2:0 "QF 25-pounder"
-NZL_artillery_equipment_3:0 "BL 5.5-inch Medium Gun"
+ NZL_artillery_equipment_3:0 "BL 5.5-inch Medium Gun"
 
 NZL_anti_air_equipment_1:0 "QF 3-inch 20 cwt"
 NZL_anti_air_equipment_1_short:0 "QF 3-inch"
@@ -6966,75 +7122,6 @@ PIR_infantry_equipment_2_desc:0 "In the early 1930s, Brazil purchased a small nu
 PIR_support_weapons:0 "Hotchkiss M1914 MG & Stokes mortar"
 
 ###
-### Polish-Lithuanian Commonwealth ###
-###
-
-### Land ###
-PLC_infantry_equipment_0:0 "Karabin wz.98a"
-PLC_infantry_equipment_0_short:0 "Kb Mauser wz.98a"
-PLC_infantry_equipment_1:0 "Kbsp wz.38M"
-PLC_infantry_equipment_1_short:0 "Kbsp wz.38M"
-PLC_infantry_equipment_2:0 "PM wz.38 Mors"
-PLC_infantry_equipment_2_short:0 "wz. 38 Mors"
-PLC_infantry_equipment_3:0 "PM wz.43 Blyskawica"
-PLC_infantry_equipment_3_short:0 "wz. 43 Blyskawica"
-PLC_infantry_equipment_3_desc:0 "The Pistolet Maszynowy Wzór 1943 'Blyskawica' (Lightning), is a heavily modified Polish development on stolen early German designs of what would later become the MP-43. While visually similar to the MP-43, the Blyskawica notably retains the complicated bolt-locking mechanism of early German experiments and features a folding stock."
-PLC_infantry_at:0 "Kb Ppanc wz. 35 Ur"
-PLC_infantry_at2:0 "Raketenpanzerbüchse"
-PLC_support_weapons:0 "Ckm wz. 25 & Mozdzierz wz. 18"
-PLC_support_weapons2:0 "Rkm Browning wz.1928 & Granatnik wz. 36"
-PLC_support_weapons3:0 "Ckm wz.32 & Mozdzierz wz. 31"
-PLC_support_weapons4:0 "Nkm wz. 38 FK & Mozdzierz wz. 40 ST"
-
-PLC_artillery_equipment_1:0 "Armata 75mm wz. 31 St."
-PLC_artillery_equipment_1_short:0 "75mm wz. 31"
-PLC_artillery_equipment_2:0 "Haubica 100mm wz. 38 St."
-PLC_artillery_equipment_3:0 "Armata 155mm wz. 40"
-
-PLC_anti_air_equipment_1:0 "Armata plot. 40mm wz. 36 Bofors"
-PLC_anti_air_equipment_1_short:0 "40mm wz. 36"
-PLC_anti_air_equipment_2:0 "Armata plot. 75mm wz. 36"
-
-PLC_motorized_equipment_1:0 "Ursus A"
-
-PLC_anti_tank_equipment_1:0 "Armata ppanc. 37mm wz. 36"
-PLC_anti_tank_equipment_1_short:0 "37mm wz. 36"
-PLC_anti_tank_equipment_2:0 "Armata ppanc. 47mm wz. 39"
-PLC_anti_tank_equipment_3:0 "Armata ppanc. 76mm wz. 43"
-
-PLC_mechanized_equipment_1:0 "C4P"
-PLC_mechanized_equipment_1_short:0 "C4P"
-PLC_mechanized_equipment_2:0 "C2P"
-PLC_mechanized_equipment_2_short:0 "C2P"
-PLC_mechanized_equipment_3:0 "C7P"
-PLC_mechanized_equipment_3_short:0 "C7P"
-
-PLC_gw_tank_equipment:0 "Renault FT"
-PLC_gw_tank_equipment_short:0 "Renault FT"
-PLC_light_tank_equipment_1:0 "TKS"
-PLC_light_tank_equipment_1_short:0 "TKS"
-PLC_light_tank_equipment_2:0 "7TP"
-PLC_light_tank_equipment_2_short:0 "7TP"
-PLC_light_tank_equipment_3:0 "9TP Chart"
-PLC_light_tank_equipment_3_short:0 "9TP"
-PLC_medium_tank_equipment_1:0 "10TP"
-PLC_medium_tank_equipment_1_short:0 "10TP"
-PLC_medium_tank_equipment_2:0 "14TP"
-PLC_medium_tank_equipment_2_short:0 "14TP"
-PLC_medium_tank_equipment_3:0 "41TP Husarz"
-PLC_medium_tank_equipment_3_short:0 "Husarz"
-PLC_heavy_tank_equipment_1:0 "27TP"
-PLC_heavy_tank_equipment_1_short:0 "27TP"
-PLC_heavy_tank_equipment_2:0 "32TP"
-PLC_heavy_tank_equipment_2_short:0 "32TP"
-PLC_heavy_tank_equipment_3:0 "45TP Bestia"
-PLC_heavy_tank_equipment_3_short:0 "Bestia"
-PLC_super_heavy_tank_equipment_1:0 "52TP Behemot"
-PLC_super_heavy_tank_equipment_1_short:0 "Behemot"
-PLC_modern_tank_equipment_1:0 "57TP Ułan"
-PLC_modern_tank_equipment_1_short:0 "Ułan"
-
-###
 ### Poland ###
 ###
 
@@ -7368,6 +7455,16 @@ RUS_amphibious_mechanized_equipment_2_short:0 "PBTR"
 RUS_amphibious_tank_equipment_1:0 "T-40"
 RUS_amphibious_tank_equipment_2:0 "PT-43"
 
+#Armored Car
+ RUS_gw_armored_car_equipment:0 "NAZ BA-20"
+ RUS_gw_armored_car_equipment_short:0 "BA-20"
+ RUS_armored_car_equipment_1:0 "Izhorskiye BA-10"
+ RUS_armored_car_equipment_1_short:0 "BA-10"
+ RUS_armored_car_equipment_2:0 "NAZ BA-64"
+ RUS_armored_car_equipment_2_short:0 "BA-64"
+ RUS_armored_car_at_equipment:0 "NAZ BA-64E-37"
+ RUS_armored_car_at_equipment_short:0 "BA-64E-37"
+
 #Artillery
 
 RUS_artillery_equipment_1:0 "76mm obr.1902/1930"
@@ -7448,8 +7545,8 @@ RWA_support_weapons2:0 "MG-34 & 8 cm Granatwerfer 34"
 ### Land ###
 SAF_infantry_equipment_0:0 "Rifle No.1 MkIII"
 SAF_infantry_equipment_0_short:0 "Rifle No.1 MkIII"
-SAF_infantry_equipment_1:0 "Rifle No.4 MkI"
-SAF_infantry_equipment_1_short:0 "Rifle No.4 MkI"
+ SAF_infantry_equipment_1:0 "Rifle No.4 MkI"
+ SAF_infantry_equipment_1_short:0 "Rifle No.4 MkI"
 
 SAF_infantry_equipment_3:0 "Reider Automatic"
 SAF_infantry_equipment_3_short:0 "Reider Automatic"
@@ -7458,6 +7555,16 @@ SAF_support_weapons:0 "Vickers MG & Stokes mortar"
 
 SAF_gw_tank_equipment:0 "Mark V"
 SAF_gw_tank_equipment_short:0 "Mark V"
+
+#Armored Car
+ SAF_armored_car_equipment_1:0 "Marmon-Herrington Armoured Car"
+ SAF_armored_car_equipment_1_short:0 "M.H. Armoured Car"
+
+#Artillery
+
+ SAF_artillery_equipment_1:0 "QF 18-pounder"
+
+ SAF_anti_air_equipment_1:0 "QF 3-inch 20 cwt"
 
 ###
 ### Sarawak ###
@@ -7505,8 +7612,8 @@ SCT_EQUIPMENT_VERSION_13:0 "Mk. XIII"
 
 SCT_infantry_equipment_0:0 "Rifle No.1 Mk.III"
 SCT_infantry_equipment_0_short:0 "No.1 Mk.III"
-SCT_infantry_equipment_1:0 "Rifle No.1 Mk.IV"
-SCT_infantry_equipment_1_short:0 "No.1 Mk.IV"
+ SCT_infantry_equipment_1:0 "Rifle No.1 Mk.IV"
+ SCT_infantry_equipment_1_short:0 "No.1 Mk.IV"
 SCT_infantry_equipment_2:0 "No.2 Machine-Carbine Mk.I"
 SCT_infantry_equipment_2_short:0 "No.2 MC Mk.I"
 SCT_infantry_equipment_3:0 "No.5 Machine-Rifle Mk.I"
@@ -7535,27 +7642,22 @@ SCT_amphibious_mechanized_equipment_1_short:0 "Terrapin Mk. I"
 SCT_amphibious_mechanized_equipment_2:0 "Terrapin Mk. II" 
 SCT_amphibious_mechanized_equipment_2_short:0 "Terrapin Mk. II"
 
+#Armored Car
+ SCT_gw_armored_car_equipment:0 "BSA Dingo"
+ SCT_gw_armored_car_equipment_short:0 "Dingo"
+ SCT_armored_car_equipment_1:0 "Humber Armoured Car"
+ SCT_armored_car_equipment_1_short:0 "Humber A.C."
+ SCT_armored_car_equipment_2:0 "AEC Armoured Car"
+ SCT_armored_car_equipment_2_short:0 "AEC A.C."
+ SCT_armored_car_at_equipment:0 "AEC 6-pounder"
+
 #Artillery
 
 SCT_artillery_equipment_1:0 "QF 18-pounder"
 SCT_artillery_equipment_1_short:0 "QF 18-pounder"
-SCT_artillery_equipment_2:0 "QF 25-pounder"
-SCT_artillery_equipment_3:0 "BL 5.5-inch Medium Gun"
-
-SCT_anti_tank_equipment_1:0 "QF 2-pounder"
-SCT_anti_tank_equipment_1_short:0 "QF 2-pounder"
-SCT_anti_tank_equipment_2:0 "QF 6-pounder"
-SCT_anti_tank_equipment_3:0 "QF 17-pounder"
 
 SCT_anti_air_equipment_1:0 "QF 3-inch 20 cwt"
 SCT_anti_air_equipment_1_short:0 "QF 3-inch"
-SCT_anti_air_equipment_2:0 "QF 40 mm Bofors"
-SCT_anti_air_equipment_3:0 "QF 3.7-inch"
-
-SCT_rocket_artillery_equipment_1:0 "RP-3 High Explosive/General Purpose"
-SCT_rocket_artillery_equipment_1_short:0 "RP-3 HE/GP"
-SCT_rocket_artillery_equipment_2:0 "RP-3 High Explosive/Semi Armour-Piercing"
-SCT_rocket_artillery_equipment_2_short:0 "RP-3 HE/SAP"
 
 #Tanks
 
@@ -7644,8 +7746,8 @@ SER_artillery_equipment_1_short:0 "8cm M.05/08"
 ### Land ###
 SFR_infantry_equipment_0:0 "Rifle No.1 MkIII"
 SFR_infantry_equipment_0_short:0 "Rifle No.1 MkIII"
-SFR_infantry_equipment_1:0 "Rifle No.4 MkI"
-SFR_infantry_equipment_1_short:0 "Rifle No.4 MkI"
+ SFR_infantry_equipment_1:0 "Rifle No.4 MkI"
+ SFR_infantry_equipment_1_short:0 "Rifle No.4 MkI"
 
 SFR_infantry_equipment_3:0 "Reider Automatic"
 SFR_infantry_equipment_3_short:0 "Reider Automatic"
@@ -7654,6 +7756,16 @@ SFR_support_weapons:0 "Vickers MG & Stokes mortar"
 
 SFR_gw_tank_equipment:0 "Mark V"
 SFR_gw_tank_equipment_short:0 "Mark V"
+
+#Armored Car
+ SFR_armored_car_equipment_2:0 "Marmon-Herrington Armoured Car"
+ SFR_armored_car_equipment_2_short:0 "M.H. Armoured Car"
+
+#Artillery
+
+ SFR_artillery_equipment_1:0 "QF 18-pounder"
+
+ SFR_anti_air_equipment_1:0 "QF 3-inch 20 cwt"
 
 ###
 ### Shan ###
@@ -7953,6 +8065,10 @@ SLO_mechanized_equipment_3:0 "Škoda-MÁVAG oklopni transporter M.40/44"
 SLO_mechanized_equipment_3_short:0 "OT M.40/44"
 SLO_mechanized_equipment_3_desc:0 "When Austria phased out the M.40 tank for the M.42, the former were converted. One of those conversions were an APC similar to the Lehel, with the turret removed and hull interior rearranged to accomodate a squad of Panzerinfanterie."
 
+#Armored Car
+ SLO_gw_armored_car_equipment:9 "Škoda PA-II"
+ SLO_gw_armored_car_equipment_short:9 "Škoda PA-II"
+
 SLO_rocket_artillery_equipment_2:0 "Bacači Raketa M.44 'Buzdovan'"
 SLO_rocket_artillery_equipment_2_short:0 "Buzdovan"
 #SLO_rocket_artillery_equipment_2_desc:0 ""
@@ -8038,7 +8154,7 @@ SOM_infantry_equipment_0:0 "Carcano Modello 1891"
 SOM_infantry_equipment_0_short:0 "Carcano M91"
 
 ###
-### Soviet Union ###
+### Russian Socialist Republic ###
 ###
 
 ### Land ###
@@ -8098,6 +8214,16 @@ SOV_amphibious_mechanized_equipment_1:0 "K-40"
 SOV_amphibious_mechanized_equipment_1_short:0 "K-40"
 SOV_amphibious_mechanized_equipment_2:0 "MT-LB" 
 SOV_amphibious_mechanized_equipment_2_short:0 "MT-LB"
+
+#Armored Car
+ SOV_gw_armored_car_equipment:9 "NAZ BA-20"
+ SOV_gw_armored_car_equipment_short:9 "BA-20"
+ SOV_armored_car_equipment_1:9 "Izhorskiye BA-10"
+ SOV_armored_car_equipment_1_short:9 "BA-10"
+ SOV_armored_car_equipment_2:9 "NAZ BA-64"
+ SOV_armored_car_equipment_2_short:9 "BA-64"
+ SOV_armored_car_at_equipment:9 "NAZ BA-64E-37"
+ SOV_armored_car_at_equipment_short:9 "BA-64E-37"
 
 #Amphibious
 SOV_amphibious_tank_equipment_1:0 "T-40"
@@ -8271,6 +8397,16 @@ SRI_mechanized_equipment_2:0 "SPA Dovunque 35 Prottetto"
 SRI_mechanized_equipment_2_short:0 "35 Prottetto"
 SRI_mechanized_equipment_3:0 "Fiat-SPA Autoprotetto S37"
 SRI_mechanized_equipment_3_short:0 "Autoprotetto S37"
+
+#Armored Car
+ SRI_gw_armored_car_equipment:9 "Fiat AB611"
+ SRI_gw_armored_car_equipment_short:9 "AB611"
+ SRI_armored_car_equipment_1:9 "Fiat AB40"
+ SRI_armored_car_equipment_1_short:9 "AB40"
+ SRI_armored_car_equipment_2:9 "Viberti AS.42"
+ SRI_armored_car_equipment_2_short:9 "AS.42"
+ SRI_armored_car_at_equipment:9 "Viberti AS.42 47/32"
+ SRI_armored_car_at_equipment_short:9 "AS.42 47/32"
 
 #Artillery
 
@@ -8450,6 +8586,10 @@ SVK_mechanized_equipment_2_desc:0 "In 1942, the Hungarian company Weiss Manfréd
 SVK_mechanized_equipment_3:0 "Škoda-MÁVAG obrněné transportéry vzor 40/44"
 SVK_mechanized_equipment_3_short:0 "OT vz. 40/44"
 SVK_mechanized_equipment_3_desc:0 "When Austria phased out the M.40 tank for the M.42, the former were converted. One of those conversions were an APC similar to the Lehel, with the turret removed and hull interior rearranged to accomodate a squad of Panzerinfanterie."
+
+#Armored Car
+ SVK_gw_armored_car_equipment:9 "Škoda PA-II"
+ SVK_gw_armored_car_equipment_short:9 "Škoda PA-II"
 
 SVK_rocket_artillery_equipment_2:0 "Raketomet vzor 44 'Palcátomet'"
 SVK_rocket_artillery_equipment_2_short:0 "Palcátomet"
@@ -8836,13 +8976,13 @@ TIB_infantry_equipment_1_desc:0 "In response to several commercially successful 
 ###
 
 ### Land ###
-TNZ_infantry_equipment_0:0 "Gewehr 98"
-TNZ_infantry_equipment_0_short:0 "Gewehr 98"
-TNZ_infantry_equipment_1:0 "Karabiner 98k"
-TNZ_infantry_equipment_1_short:0 "Karabiner 98k"
+ TZN_infantry_equipment_0:9 "Gewehr 98"
+ TZN_infantry_equipment_0_short:9 "Gewehr 98"
+ TZN_infantry_equipment_1:9 "Karabiner 98k"
+ TZN_infantry_equipment_1_short:9 "Karabiner 98k"
 
-TNZ_support_weapons:0 "MG-08/15 & leichter Minenwerfer"
-TNZ_support_weapons2:0 "MG-34 & 8 cm Granatwerfer 34"
+ TZN_support_weapons:9 "MG-08/15 & leichter Minenwerfer"
+ TZN_support_weapons2:9 "MG-34 & 8 cm Granatwerfer 34"
 
 ###
 ### Togoland ###
@@ -8878,8 +9018,8 @@ TRI_EQUIPMENT_VERSION_13:0 "Mk. XIII"
 ### Land ###
 TRI_infantry_equipment_0:0 "Rifle No.1 Mk.III"
 TRI_infantry_equipment_0_short:0 "Rifle No.1 Mk.III"
-TRI_infantry_equipment_1:0 "Rifle No.4 Mk.I"
-TRI_infantry_equipment_1_short:0 "Rifle No.4 Mk.I"
+ TRI_infantry_equipment_1:9 "Rifle No.4 Mk.I"
+ TRI_infantry_equipment_1_short:9 "Rifle No.4 Mk.I"
 TRI_infantry_equipment_2:0 "Auto-Carbine No.1 Mk.1"
 TRI_infantry_equipment_2_short:0 "AC Mk.1"
 TRI_infantry_equipment_3:0 "Auto-Rifle No.1 Mk.5"
@@ -8892,7 +9032,9 @@ TRI_support_weapons3:0 "Vickers M Mk. I & ML 3 inch mortar"
 TRI_support_weapons4:0 "Vickers M Mk. III & ML 4.2 inch Mortar"
 TRI_night_vision:0 "Tabby Scope"
 
-TRI_motorized_equipment_1:0 "Ford F30 AP"
+ TRI_motorized_equipment_1:9 "Ford F30 AP"
+ TRI_motorized_equipment_1_short:9 "GM Canada CMP"
+
 TRI_mechanized_equipment_1:0 "Vickers Carrier LP"
 TRI_mechanized_equipment_1_short:0 "Vickers Carrier"
 TRI_mechanized_equipment_2:0 "Ram Kangaroo"
@@ -8900,15 +9042,27 @@ TRI_mechanized_equipment_2_short:0 "Ram Kangaroo"
 TRI_mechanized_equipment_3:0 "King Kangaroo"
 TRI_mechanized_equipment_3_short:0 "King Kangaroo"
 
-TRI_rocket_artillery_equipment_1:0 "RP-3 High Explosive/General Purpose"
-TRI_rocket_artillery_equipment_1_short:0 "RP-3 HE/GP"
-TRI_rocket_artillery_equipment_2:0 "RP-3 High Explosive/Semi Armour-Piercing"
-TRI_rocket_artillery_equipment_2_short:0 "RP-3 HE/SAP"
+#Armored Car
+ TRI_gw_armored_car_equipment:9 "Ruskin Rover"
+ TRI_gw_armored_car_equipment_short:9 "Rover"
+ TRI_armored_car_equipment_1:9 "GM Canada Otter"
+ TRI_armored_car_equipment_1_short:9 "Otter"
+ TRI_armored_car_equipment_2:9 "Ruskin Rhino"
+ TRI_armored_car_equipment_2_short:9 "Rhino"
+ TRI_armored_car_equipment_2_desc:9 "With the success of the Rover under its belt, the Ruskin Motor Bodies company designed the Rhino in reponse to an Australasian government request for a substantially heavier armoured car built upon the CMP chassis. Though substantial changes were made to that CMP chassis, after much work the Rhino was born, and with substantial interchangability of parts with with other CMP-based designs to boot."
+ TRI_armored_car_at_equipment:9 "Ruskin Hippo"
+ TRI_armored_car_at_equipment_short:9 "Hippo"
+ TRI_armored_car_at_equipment_desc:9 "To accomodate a substantially larger gun, the Rhino's coaxial machine had to be removed and its turret slighly enlarged. The 'Hippo' as this model has been designated, proved to be quite the headache for its design team, as these changes caused the already heavy vehicle to run into weight issues like its predecessors which had to be slowly worked out prior to the vehicle's adoption."
+
+ TRI_rocket_artillery_equipment_1:9 "RP-3 High Explosive/General Purpose"
+ TRI_rocket_artillery_equipment_1_short:9 "RP-3 HE/GP"
+ TRI_rocket_artillery_equipment_2:9 "RP-3 High Explosive/Semi Armour-Piercing"
+ TRI_rocket_artillery_equipment_2_short:9 "RP-3 HE/SAP"
 
 TRI_artillery_equipment_1:0 "QF 18-pounder"
 TRI_artillery_equipment_1_short:0 "QF 18-pounder"
 TRI_artillery_equipment_2:0 "QF 25-pounder"
-TRI_artillery_equipment_3:0 "BL 5.5-inch Medium Gun"
+ TRI_artillery_equipment_3:9 "BL 5.5-inch Medium Gun"
 
 TRI_anti_air_equipment_1:0 "QF 3-inch 20 cwt"
 TRI_anti_air_equipment_1_short:0 "QF 3-inch"
@@ -9013,6 +9167,10 @@ TRS_mechanized_equipment_2_desc:0 "In 1942, the Hungarian company Weiss Manfréd
 TRS_mechanized_equipment_3:0 "Škoda-MÁVAG Transportpanzer M.40/44"
 TRS_mechanized_equipment_3_short:0 "TPz M.40/44"
 TRS_mechanized_equipment_3_desc:0 "When Austria phased out the M.40 tank for the M.42, the former were converted. One of those conversions were an APC similar to the Lehel, with the turret removed and hull interior rearranged to accomodate a squad of Panzerinfanterie."
+
+#Armored Car
+ TRS_gw_armored_car_equipment:9 "Škoda PA-II"
+ TRS_gw_armored_car_equipment_short:9 "Škoda PA-II"
 
 #Artillery
 
@@ -9314,6 +9472,16 @@ USA_amphibious_mechanized_equipment_1_short:0 "LVT-2"
 USA_amphibious_mechanized_equipment_2:0 "LVT-4 Buffalo"
 USA_amphibious_mechanized_equipment_2_short:0 "LVT-4"
 
+#Armored Car
+ USA_gw_armored_car_equipment:9 "M1 Armored Car"
+ USA_gw_armored_car_equipment_short:9 "M1"
+ USA_armored_car_equipment_1:9 "M3 Scout Car"
+ USA_armored_car_equipment_1_short:9 "M3"
+ USA_armored_car_equipment_2:9 "M8 Greyhound"
+ USA_armored_car_equipment_2_short:9 "M8"
+ USA_armored_car_at_equipment:9 "M38 90mm Turret"
+ USA_armored_car_at_equipment_short:9 "M38"
+
 #Artillery
 
 USA_artillery_equipment_1:0 "75 mm Gun M1897"
@@ -9383,9 +9551,8 @@ USA_modern_tank_equipment_1_desc:0 "A slightly smaller derivative of the M26 'Pe
 
 ### Land ###
 VIE_infantry_equipment_0:0 "Le fusil Mle 1902 Indochinois"
-VIE_infantry_equipment_0_short:0 "Mle 1902 Indochinois"
+ VIE_infantry_equipment_0_short:9 "Gewehr 98"
 VIE_infantry_equipment_0_desc:0 "Lighter and easier to handle and load than the Mle 1886/M93 Lebel rifle, the Berthier fusil Mle 1902 'Indochinois' rifles proved more suitable for offhand shooting and easier to maintain in tropical environments, and saw its use in Indochina."
-VIE_infantry_equipment_0_short:0 "Gewehr 98"
 VIE_infantry_equipment_1:0 "Karabiner 98k"
 VIE_infantry_equipment_1_short:0 "Karabiner 98k"
 
@@ -9461,8 +9628,8 @@ WAL_EQUIPMENT_VERSION_13:0 "Mk. XIII"
 
 WAL_infantry_equipment_0:0 "Rifle No.1 Mk.III"
 WAL_infantry_equipment_0_short:0 "No.1 Mk.III"
-WAL_infantry_equipment_1:0 "Rifle No.1 Mk.IV"
-WAL_infantry_equipment_1_short:0 "No.1 Mk.IV"
+ WAL_infantry_equipment_1:9 "Rifle No.1 Mk.IV"
+ WAL_infantry_equipment_1_short:9 "No.1 Mk.IV"
 WAL_infantry_equipment_2:0 "No.2 Machine-Carbine Mk.I"
 WAL_infantry_equipment_2_short:0 "No.2 MC Mk.I"
 WAL_infantry_equipment_3:0 "No.5 Machine-Rifle Mk.I"
@@ -9491,27 +9658,22 @@ WAL_amphibious_mechanized_equipment_1_short:0 "Terrapin Mk. I"
 WAL_amphibious_mechanized_equipment_2:0 "Terrapin Mk. II" 
 WAL_amphibious_mechanized_equipment_2_short:0 "Terrapin Mk. II"
 
+#Armored Car
+ WAL_gw_armored_car_equipment:9 "BSA Dingo"
+ WAL_gw_armored_car_equipment_short:9 "Dingo"
+ WAL_armored_car_equipment_1:9 "Humber Armoured Car"
+ WAL_armored_car_equipment_1_short:9 "Humber A.C."
+ WAL_armored_car_equipment_2:9 "AEC Armoured Car"
+ WAL_armored_car_equipment_2_short:9 "AEC A.C."
+ WAL_armored_car_at_equipment:9 "AEC 6-pounder"
+
 #Artillery
 
 WAL_artillery_equipment_1:0 "QF 18-pounder"
 WAL_artillery_equipment_1_short:0 "QF 18-pounder"
-WAL_artillery_equipment_2:0 "QF 25-pounder"
-WAL_artillery_equipment_3:0 "BL 5.5-inch Medium Gun"
-
-WAL_anti_tank_equipment_1:0 "QF 2-pounder"
-WAL_anti_tank_equipment_1_short:0 "QF 2-pounder"
-WAL_anti_tank_equipment_2:0 "QF 6-pounder"
-WAL_anti_tank_equipment_3:0 "QF 17-pounder"
 
 WAL_anti_air_equipment_1:0 "QF 3-inch 20 cwt"
 WAL_anti_air_equipment_1_short:0 "QF 3-inch"
-WAL_anti_air_equipment_2:0 "QF 40 mm Bofors"
-WAL_anti_air_equipment_3:0 "QF 3.7-inch"
-
-WAL_rocket_artillery_equipment_1:0 "RP-3 High Explosive/General Purpose"
-WAL_rocket_artillery_equipment_1_short:0 "RP-3 HE/GP"
-WAL_rocket_artillery_equipment_2:0 "RP-3 High Explosive/Semi Armour-Piercing"
-WAL_rocket_artillery_equipment_2_short:0 "RP-3 HE/SAP"
 
 #Tanks
 
@@ -9689,5 +9851,5 @@ ZAM_support_weapons2:0 "MG-34 & 8 cm Granatwerfer 34"
 ### Land ###
 ZIM_infantry_equipment_0:0 "Rifle No.1 MkIII"
 ZIM_infantry_equipment_0_short:0 "Rifle No.1 MkIII"
-ZIM_infantry_equipment_1:0 "Rifle No.4 MkI"
-ZIM_infantry_equipment_1_short:0 "Rifle No.4 MkI"
+ ZIM_infantry_equipment_1:9 "Rifle No.4 MkI"
+ ZIM_infantry_equipment_1_short:9 "Rifle No.4 MkI"
