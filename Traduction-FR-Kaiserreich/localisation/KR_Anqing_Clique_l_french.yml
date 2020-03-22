@@ -59,6 +59,9 @@ ANQ_credibility_recruitable_pop_text:0 "Facteur de recrutement de la population 
 ANQ_credibility_recruitable_pop_text_last:0 "Facteur de recrutement de la population : [?ANQ.credibility_factor_dynamic_modifier_recruitable_pop|%+0]"
 ANQ_credibility_stability_text:0 "Stabilité : [?ANQ.credibility_factor_dynamic_modifier_stab|=%+2]"
 
+ANQ_jiangsu_shandong_deal_dynamic_modifier:0 "Exploitation du Jiangsu "
+ANQ_jiangsu_shandong_deal_dynamic_modifier_desc:0 "Exploitation du Jiangsu à cause de l'accord."
+
 ## Companies ##
 longhai_railway:0 "Chemin de fer de Longhai"
 
@@ -194,6 +197,10 @@ anq_abandon_fengtian_tt:0 "L'abandon du fengtien conduira à ce qu'Anqing se ret
 anq_unlocks_war_beijing_tt:0 "Débloque la décision £decision_icon_small §HDecision§! d'attaquer le [QIE.GetName] de manière indépendante.\n"
 ANQ_can_attack_hnngxc_tt:0 "Déverrouille les petites décisions d'attaquer [GXC.GetName] et [HNN.GetName]."
 ANQ_can_attack_hnngxc_proqie_tt:0 "Débloque £decision_icon_small §HDecisions§! pour attaquer [GXC.GetName] et [HNN.GetName] lorsqu'ils sont en paix.\n"
+
+anq_fengtian_guarantee_tt:0 "Le §HFengtian§! nous garantira !\n"
+anq_qing_guarantee_tt:0 "Les §HQing§! nous garantira !\n"
+
 
 #Integration and governor tooltips
 anq_integration_time_down_tt:0 "La décision d'intégrer la province en tant qu'État central de [ANQ.GetNameDef] complète la §G20§! Des jours plus rapides !"
@@ -1583,6 +1590,7 @@ anq.164.a:0 "Mauvaise nouvelle"
 anq.171.t:0 "La guerre de la reconquête"
 anq.171.d1:0 "La conférence de Shenyang, organisée par Fengtian, vient de se terminer. Ils ont, à notre demande, adopté une position anticoncessionniste forte. C'est une excellente nouvelle qui nous permettra de justifier beaucoup plus facilement notre participation à leur guerre de reconquête contre Pékin. Toutefois, nous devons également tenir compte d'autres facteurs si nous voulons vraiment prendre la bonne décision."
 anq.171.d2:0 "La conférence de Shenyang, organisée par Fengtian, vient de se terminer. Ils ont manifestement ignoré nos suggestions et ont refusé d'adopter une position anticoncessionniste ferme. Toutefois, avant de refuser catégoriquement de rejoindre leur alliance, nous devons peser d'autres facteurs. Il est possible que l'adhésion à la guerre de reconquête soit la bonne décision après tout."
+anq.171.d3:0 "La conférence de Shenyang, organisée par Fengtian, vient de se terminer. Le temps est compté, car le conflit contre Qing a déjà commencé. Nous devons prendre rapidement une décision si nous voulons avoir notre mot à dire sur l'avenir de la Chine."
 anq.171.a:0 "Beaucoup de choses à discuter."
 
 anq.172.t:0 "Fengtian et reconstruction"
@@ -1668,6 +1676,7 @@ anq.178.d1:0 "Fengtian est, comme prévu, très mécontent de notre décision de
 anq.178.d2:0 "Fengtian est, comme prévu, très mécontent de notre décision de ne pas participer à leur guerre de reconquête pour s'emparer de Pékin. Cependant, comme ils ont un besoin urgent d'alliés et de toute l'aide possible, Fengtian a décidé de ne pas couper les liens avec nous et de continuer à tolérer notre présence parmi leur groupe d'alliés. Cela nous permet de continuer à récolter certains des avantages de la coopération avec eux et les Japonais. Malheureusement, ils ont décidé d'annuler l'aide à la reconstruction qui leur restait. De plus, à mesure que la guerre de reconquête progresse, ils nous élimineront probablement de toute façon si nous ne participons pas. Nous pouvons décider de ne pas accepter et de couper les liens nous-mêmes, en nous distanciant totalement du gouvernement fengtien. Ce dernier nous accordera un statut plus important, car nous avions déjà annoncé que nous ne soutiendrions pas les Fengtiens".
 anq.178.a:0 "Très bien"
 anq.178.b:0 "Coupez les liens de toute façon"
+anq_can_annex_shandong: "Si nous coupons les liens, nous pouvons aussi prendre le contrôle total de notre fantoche du Shandong."
 
 anq.179.t:0 " Garder le Shandong "
 anq.179.d:0 "Puisque nous avons décidé de ne plus nous battre avec les Fengtiens et de ne plus les reconnaître comme le gouvernement national de la Chine, il n'y a aucune raison de garder le Shandong comme province autonome et de le remettre plus tard aux Fengtiens. Nous devrions rappeler Liu Heding et assumer le contrôle total de la province".
@@ -1704,7 +1713,7 @@ anq.122.t:0 "Les Fengtiens souhaitent frapper bientôt"
 anq.122.d:0 "Le gouvernement fengtien a décidé qu'une frappe rapide contre Pékin, qui devrait commencer dans quelques mois, est la meilleure solution. Bien sûr, cela signifie que nous devrions nous joindre à une autre guerre, alors que nous venons à peine d'en avoir une. [getanqshandongreclamation] Allons-nous nier leur stratégie ou l'accepter et espérer le meilleur ?"
 anq.122.a:0 "C'est une mauvaise idée"
 anq.122.b:0 "Nous pouvons le faire"
-anq_shandong_participatesreclamation:0 "Shandong pourrait aussi se joindre au côté de Fengtian, ce qui nous donnerait un avantage supplémentaire".
+anq_shandong_participatesreclamation:0 "Shandong pourrait aussi se joindre au côté de Fengtian, ce qui nous donnerait un avantage supplémentaire"
 
 anq.123.t:0 "Le fengtien ne change pas de stratégie"
 anq.123.d:0 "Le gouvernement fengtien n'a pas pu se mettre d'accord avec nous sur une stratégie correcte, ou sa stratégie n'a pas été soutenue par le Japon. Cela signifie qu'ils vont s'en tenir à leur calendrier actuel"
