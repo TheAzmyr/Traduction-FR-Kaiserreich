@@ -5,6 +5,12 @@ COOP_MAIN_MENU_LINK:0 "Cliquez ici pour aller à la Coop Discord"
 KR_MAIN_MENU_LINK:0 "Cliquez ici pour accéder au Kaiserreich Wiki"
 LOGO_MAIN_MENU_LINK:0 "Cliquez ici pour voir les notes de mise à jour"
 
+### Diplomacy Tooltips ###
+REQUEST_EXP_FORCE_BLOCKED_TT:0 "§RCe pays ne vous permet pas de demander ses forces.§!"
+
+### Minister Tooltip ###
+general_minister_change_tt:0 "Leurs ministres vont changer en fonction de notre idéologie."
+
 ### Renaming System ###
 toggle_renaming_button_tooltip:0 "[toggle_renaming_button_tooltip_loc]"
 toggle_renaming_button_tooltip_desc:0 "[toggle_renaming_button_tooltip_desc_loc]"
@@ -17,13 +23,14 @@ toggle_renaming_button_tooltip_disable_desc:0 "Cela permettra au jeu d'utiliser 
 ### Continents ###
 central_america:0 "Amérique centrale"
 india:0 "Inde"
+is_actually_an_island:0 "est un État insulaire"
 
 ### Intelligence Agency Blocker ###
 INTELLIGENCE_AGENCY_BLOCK_TOOLTIP:0 "[!intelligence_agency_blocker_button_click_enabled]"
 
 ### Splash Screen ###
 KR_SPLASH_TITLE:0 "Bienvenue dans Kaiserreich"
-KR_SPLASH_CREDITS:0 "§YCréé par l'équipe KR4 : §!\nAnbory, Arvidus, Beelzebub, Blackfalcon501, Denizz, Dr. Njitram, Drozdovite, Edouard Saladier, Eragaxshim, Fbruchmueller, Flamefang, Go.Jr, Imhungry5462, JacKob, Jeankedezeehond, Jonjon428, Jonny BL, Khalil, Kracc, Krčo, Liegnitz, Maltesefalcon, MantisToboggan, Medizine, OperationsManagementDecisions, PPsyrius, Paul, Pietrus, Rinbro, Roniius, Roparex, Rylock, Sea Lion, Sjarlewis, Stekpanna, The Alpha Dog, Thomahawk2k, Vidyaország, Wladyslaw Sikorski, WordZero, Yard1, Zaddy-Chan et Zankoas\n§YTraduit par : §!\nDarkusios, Klik le Araï, Mouchi, MVMaroIV, Romain1912, Solal et TheAzmyr\n§YAnciennement traduit par : §!\nAegon Targaryen, Demetran, Fanois, Feuxin, Kfateweaver, Le Marocain, Orakle14, Paralux, Remkiller123, Superwaffle et Youkoulélé\n§YTraduction testée par : §!\nChartreuse et Sfera"
+KR_SPLASH_CREDITS:0 "§YCréé par l'équipe KR4 : §!\nAlpinia, Arvidus, Augenis, Blackfalcon501, Carmain, DSFDarker, Dr. Njitram, Drozdovite, Edouard Saladier, Eragaxshim, Fbruchmueller, Flamefang, Fort, Gideones, JazzyHugh, Jeankedezeehond, Jonjon428, Jonny BL, Krco, Liegnitz, Maltesefalcon, OperationsManagementDecisions, PPsyrius, Pietrus, Rei VL, Rinbro, Roniius, Rylock, Starguard, Telcontar101, The Alpha Dog, Thomahawk2k, Vidyaország, WordZero, Yard1, Zankoas et Zimbabwe Salt Co.\n§YTraduit par : §!\nDarkusios, Klik le Araï, Mouchi, MVMaroIV, Romain1912, Solal et TheAzmyr\n§YAnciennement traduit par : §!\nAegon Targaryen, Demetran, Fanois, Feuxin, Kfateweaver, Le Marocain, Orakle14, Paralux, Remkiller123, Superwaffle et Youkoulélé\n§YTraduction testée par : §!\nChartreuse et Sfera"
 
 ### Autonomy Levels ###
 kr_integrated_puppet:0 "Fantoche Intégré"
@@ -35,14 +42,17 @@ kr_nominal_puppet:0 "Fantoche Nominal"
 kr_special_autonomous_dependency:0 "Dépendance Autonome"
 kr_initial_wif_puppet:0 "Colonie fédérée"
 kr_soclib_wif_puppet:0 "Dominion fédéré"
+kr_ottoman_emirate:0 "Émirat ottoman"
 
 ### Autonomy Tooltips ###
 can_lower_autonomy_level:0 "Peut abaisser le niveau d'autonomie\n"
 can_raise_autonomy_level:0 "Peut augmenter le niveau d'autonomie\n"
 puppet_can_become_free:0 "Peut devenir indépendant\n"
 puppet_can_be_annexed:0 "Peut être annexé par le suzerain\n"
-may_raise_autonomy:0 "§Y[Root.GetNameDefCap]§! peut maintenant augmenter le niveau d'autonomie\n"
+may_raise_autonomy:0 "§Y[Root.GetNameDefCap]§! peut augmenter le niveau d'autonomie une fois que l'autonomie a suffisamment augmenté\n"
 may_become_free:0 "§Y[Root.GetNameDefCap]§! peut maintenant œuvrer vers l'indépendance\n"
+clamour_for_independence:0 "Réclamer l'indépendance\n"
+clamour_for_autonomy:0 "Réclamer de l'autonomie\n"
 
 ### Modificateurs ###
 KR_trade_laws_cost_factor:0 "Coût des lois commerciales "
@@ -55,6 +65,7 @@ weapons_manufacturer_cost_factor:0 "Coût du fabricant d'armes"
 cannot_train_units_tt:2 "§RCannot train units, disband units, or edit unit templates.§!\n"
 
 ### Opinion Modifiers ###
+KR_friendly:0 "Amical"
 KR_close_allies:0 "Alliés proches"
 KR_deal_with_devil:0 "Traiter avec le diable"
 KR_returned_land:0 "Nous a rendu nos terres"
@@ -73,15 +84,74 @@ FOCUS_FILTER_ARMY_BONUS:0 "Armée"
 FOCUS_FILTER_NAVY_BONUS:0 "Marine"
 FOCUS_FILTER_AIRFORCE_BONUS:0 "Armée de l'air"
 FOCUS_FILTER_RESISTANCE:0 "Résistance"
+FOCUS_FILTER_LEC_CURRENCY:0 "Réserves monétaires"
 
 ### Autonomy Events ###
+FROM_becomes_puppet:0 "§H[From.GetNameDefCap]§! n'est plus un §HPuppet occupé§!."
+FROM_becomes_autonomous_puppet:0 "§H[From.GetNameDefCap]§! devient un §HPuppet autonome§!."
+FROM_becomes_nominal_puppet:0 "§H[From.GetNameDefCap]§! devient un §HPuppet nominatif§!."
+
+### Operatives ###
+CANNOT_RECRUITE_OPERATIVE_NO_SLOT_DESC:5 "Vous pouvez obtenir le premier créneau en construisant l'agence de renseignement. D'autres créneaux seront disponibles après la 5e mise à niveau ou après le recrutement d'un §HChef du renseignement§! (disponible par décision).\nEn tant que maître des espions, vous débloquez plus de créneaux opérationnels en ayant plus de pays dans votre faction. Les marionnettes ou les pays dont le nombre d'usines est très faible ne contribuent pas à l'augmentation des créneaux opérationnels."
+
 kr.political.100.t:0 "L'Ordre Restauré en [Root.GetNameDef]"
 kr.political.100.d:0 "Tandis que [Root.GetNameDef] travaille encore sous la pression [overlord_name.GetAdjective], l'Armée [Root.GetAdjective] a obtenu assez de contrôle sur nos propres frontières afin que l'on puisse bénéficier d'une plus grande autonomie. Ce n'est pas l'indépendance - loin de là - mais cela signifie que nous ne devons plus compter sur les troupes [overlord_name.GetAdjective] pour sécuriser nos frontières"
-kr.political.100.a:0 "Parfait"
+kr.political.100.a:0 "Excellent"
 
-kr.political.101.t:0 "Plus grande Autonomie [Root.GetAdjective] ?"
-kr.political.101.d:0 "[Root.GetNameDefCap] reste sous le contrôle du gouvernement [overlord_name.GetAdjective], mais ce contrôle commence à diminuer à mesure que notre pouvoir se réaffirme. La Force [Root.GetAdjective] n'est pas quelque chose de facile à contenir et déjà nos dirigeants réclament plus de contrôle sur nos affaires internes. Il est sûr que [overlord_name.GetAdjective] ne sera pas capable de nous résister très longtemps"
-kr.political.101.a:0 "Vive [Root.GetNameDef]!"
+kr.political.101.t:0 "Ordre restauré en [From.GetNameDef]"
+kr.political.101.d:0 "Alors que les [From.GetNameDef] travaille toujours sous le contrôle des [Root.GetAdjective], l'armée [From.GetAdjective] a affirmé suffisamment de contrôle sur ses propres frontières pour qu'un semblant d'autonomie soit maintenant possible. Ce n'est pas de l'indépendance - loin de là - mais cela signifie qu'ils ne doivent plus compter sur les troupes [Root.GetAdjective] pour sécuriser leurs frontières, et ne sont donc plus aussi étroitement sous notre contrôle."
+kr.political.101.a:0 "Ainsi soit-il"
+
+kr.political.102.t:0 "Une plus grande autonomie [Root.GetAdjective] ?"
+kr.political.102.d.tfv:0 "[Root.GetNameDefCap] reste sous le contrôle du gouvernement [overlord_name.GetAdjective], mais ce contrôle commence certainement à s'atténuer à mesure que notre force se réaffirme. Le pouvoir [Root.GetAdjective] n'est pas facile à contenir, et nos dirigeants réclament déjà plus de contrôle sur nos propres affaires. Il est certain que notre [overlord_name.GetAdjective] ne sera pas capable de nous résister longtemps."
+kr.political.102.d:0 "[Root.GetNameDefCap] reste sous le contrôle du gouvernement [overlord_name.GetAdjective], mais ce contrôle commence à s'atténuer à mesure que notre force se réaffirme. Le pouvoir [Root.GetAdjective] n'est pas facile à contenir, et déjà nos dirigeants réclament à cor et à cri plus de contrôle sur nos propres affaires, et l'effet se fait sentir dans tout le pays."
+kr.political.102.a:0 "Longue vie à [Root.GetNameDef]!"
+
+kr.political.103.t:0 "Une plus grande autonomie [From.GetAdjective]"
+kr.political.103.d:0 "[From.GetNameDefCap] reste sous le contrôle du gouvernement [Root.GetAdjective], mais ce contrôle commence à s'atténuer à mesure que leur force se réaffirme. Le pouvoir [From.GetAdjective] n'est pas quelque chose qu'on peut facilement contenir, et la clameur de leurs dirigeants pour plus de contrôle sur leurs propres affaires se fait sentir dans tout le pays."
+kr.political.103.a:0 "Nous devrons surveiller cela de près"
+
+kr.political.106.t:0 "La lutte pour l'indépendance"
+kr.political.106.d.tfv:0 "Le contrôle du gouvernement [overlord_name.GetAdjective] sur le gouvernement [Root.GetAdjective] est en perte de vitesse depuis un certain temps. Nous sommes trop puissants pour qu'ils puissent nous contenir. Les citoyens [Root.GetAdjective] réclament à cor et à cri que [Root.GetNameDef] soit libéré, et notre heure viendra bientôt."
+kr.political.106.d:0 "Le contrôle du gouvernement [overlord_name.GetAdjective] sur le gouvernement [Root.GetAdjective] est en perte de vitesse depuis un certain temps. Nous sommes trop puissants pour qu'ils puissent nous contenir. Les citoyens [Root.GetAdjective] réclament à cor et à cri que [Root.GetNameDef] soit libéré, et il semble que nous devions décider si nous allons exiger notre indépendance vis-à-vis de [overlord_name.GetNameDef]."
+kr.political.106.a:0 "Longue vie à un [Root.GetName] libre !"
+kr.political.106.b:0 "Oui, nous devons exiger notre indépendance"
+kr.political.106.c:0 "Non, mieux vaut ne pas déranger le nid de frelons"
+
+kr.political.107.t:0 "[From.GetNameDefCap] réclame l'indépendance"
+kr.political.107.d:0 "Le contrôle du gouvernement [Root.GetAdjective] sur le gouvernement [From.GetAdjective] est en perte de vitesse depuis un certain temps. Ils sont trop puissants pour que nous puissions les contenir complètement. Les gens de [From.GetAdjective] réclament la libération de [From.GetNameDef], et leur gouvernement a officiellement soumis une demande d'indépendance totale."
+kr.political.107.a:0 "Laissez-les partir, tant que nous sommes encore amis"
+kr.political.107.b:0 "Est-ce qu'ils plaisantent ? Oubliez ça"
+
+kr.political.108.t:0 "Indépendance refusée"
+kr.political.108.d:0 "Le gouvernement [From.GetAdjective] a rejeté notre demande d'indépendance. Bien que nous ne soyons que nominalement sous leur contrôle, les restrictions nous gênent toujours."
+kr.political.108.a:0 "Cela ne s'arrête pas là"
+
+KR_fight_for_independence:0 "Déclarer son indépendance"
+KR_fight_for_independence_desc:0 "[From.GetNameDefCap] a peut-être refusé notre demande d'indépendance, mais ce n'est pas la fin de cette histoire. Nous serons libres, même si nous devons nous battre pour cela !"
+
+kr.political.109.t:0 "[From.GetNameDefCap] Déclare l'indépendance"
+kr.political.109.d:0 "Il semble que notre refus d'accorder l'indépendance à [From.GetNameDef] ne leur suffisait pas. Ils se sont déclarés libres du contrôle [Root.GetAdjective], de toute façon."
+kr.political.109.a:0 "Bah ! Laissez-les partir"
+kr.political.109.b:0 "Nous verrons bien !"
+
+kr.political.110.t:0 "La guerre d'indépendance"
+kr.political.110.d:0 "Il semble que notre ancien chef suprême ne puisse pas prendre pied dans [Root.GetNameDef]... mais nous ne pouvons pas non plus les vaincre. Il est peut-être temps d'appeler à une trêve et de mettre fin à tout cela ?"
+kr.political.110.a:0 "Oui, mettons fin à tout cela"
+kr.political.110.b:0 "Non ! Il ne s'agit plus seulement d'indépendance maintenant !"
+
+kr.political.111.t:0 "The [From.GetAdjective] War for Independence"
+kr.political.111.d:0 "La guerre avec [From.GetNameDef] dure depuis un certain temps, et aucun de nous n'a pu en tirer un avantage clair. Il est peut-être temps de reconnaître simplement leur indépendance et d'en finir avec elle."
+kr.political.111.a:0 "Oui, mettons fin à tout cela"
+kr.political.111.b:0 "Non ! Nous allons en finir !"
+
+### Unit Leader Events ###
+unit_leader.1.t:0 "[From.From.GetName]tombe malade"
+unit_leader.1.d:0 "Dans le cadre du service rendu à la nation par [From.From.GetHerHis], il semble que le [From.From.GetRank] [From.From.GetName] ait poussé [From.From.GetHerselfHimself] trop loin. En raison du mauvais climat dans la zone opérationnelle de [From.From.GetHerHis], le [From.From.GetRank] est maintenant tombé malade et aura probablement besoin d'un certain temps pour se rétablir. Tant que [From.From.GetSheHe] ne sera pas rétabli, [From.From.GetSheHe] ne pourra pas fonctionner à son niveau habituel."
+unit_leader.1.a:0 "C'est regrettable."
+unit_leader.2.t:0 "[From.From.GetName] Blessé"
+unit_leader.2.d:0 "En menant la bataille à bien, il semble que le [From.From.GetRank] [From.From.GetName] ait mis [From.From.GetHerselfHimself] un peu trop en danger tout en menant [From.From.GetHerHis] les hommes. [From.From.GetSheHeCap] a été blessé, et il faudra probablement un certain temps pour que les blessures cicatrisent complètement, jusqu'à ce que le [From.From.GetRank] ne puisse plus fonctionner à son niveau habituel."
+unit_leader.2.a:0 "C'est regrettable."
 
 ### Government in Exile Events ###
 mtg_exile_government.1.t:0 "[exile_nation.GetAdjective] Un chef en exil offre ses services"
@@ -140,44 +210,78 @@ toggle_news_button_tooltip_desc:0 "[toggle_news_button_tooltip_desc_loc]"
  toggle_news_text_regional:0 "Afficher les nouvelles régionales"
  toggle_news_text_none:0 "Afficher aucune nouvelle"
 
-### Ship Name Categories ###
- NAME_THEME_MOUNTAINS:0 "Montagnes"
-
 ### Factions ###
-Mittelmacht:0 "Reichspakt"
-Entente:0 "Entente"
+all_zhili_faction:0 "Clique du Zhili"
+austrian_sphere:0 "Donau-Adriabund"
 Belgrade_Pact:0 "Pacte de Belgrade"
+Belgian-Dutch_Treaty_Organisation:0 "BeNeSam"
+brotherhood_of_slavs:0 "Fraternité des Slaves"
+buenos_aires_lima_faction:0 "Axe Buenos Aires-Lima"
+cairo_pact:0 "Pacte du Caire"
+CEN_anti_revolutionary_alliance:0 "Avant-garde du peuple"
+CEN_liberal_pact:0 "Pacte libéral"
+CEN_revolutionary_front:0 "Front révolutionnaire"
+china_upc_faction:0 "Provinces unies de Chine"
+co_prosperity_sphere:0 "Sphère de coprospérité"
+colombia_gran_alliance:0 "Pacte andin"
+cos_carib_faction:0 "Alliance démocratique des Caraïbes"
+EANL_faction:0 "Ligue nationale d'Asie orientale"
+Entente:0 "Entente"
+golestan_pact_faction:0 "Pacte du Golestan"
+indian_alliance_faction:0 "Alliance indienne"
+league_of_american_states:0 "Ligue des États américains"
+litrut_faction:0 "Alliance lituano-ruthène"
+maliphinsul_faction:0 "Maliphinsul"
+Mittelmacht:0 "Reichspakt"
+moscow_accord:0 "Accord de Moscou"
+north_zhili_faction:0 "Clique du Zhili septentrional"
+npa_faction:0 "Alliance nationale de protection"
+NRF_faction:0 "Front national révolutionnaire"
+pacification_faction:0 "Armée nationale de pacification"
+polukr_faction:0 "Intermarium syndicaliste"
+Qing_faction:0 "Empire Qing"
+qing_sphere_faction:0 "Sphère Qing"
+SA_socialist_states:0 "États socialistes d'Amérique du Sud"
+Scandinavian_Pact:0 "Pacte scandinave"
+SCA_faction_scandinavian_defense_union:0 "Union scandinave de défense"
+SIA_SEATO_alliance:0 "SEATO"
+syndicalist_asia:0 "Union syndicaliste orientale"
+syndicalist_asia_per:0 "Union Socialiste Asiatique"
+Syndicalist_Internationale:0 "Internationale syndicaliste"
 Third_International:0 "Troisième Internationale"
-Scandinavian_Pact:0 "Pacte Scandinave"
+united_front_faction:0 "Front uni chinois"
+yunnan_R_KMT_faction:0 "Groupe nationaliste du Sud"
 
-### Déclencheurs personnalisés ####
+### Custom Triggers ###
 had_war:0 "A fait la guerre"
 is_invalid_war_target_tooltip:0 "N'est pas une cible valable pour la guerre"
 is_valid_war_target_tooltip:0 "Est une cible valable pour la guerre"
+not_during_ceasefire:0 "Pas tant que le cessez-le-feu est maintenu"
 
 ### World Tension ###
-second_american_civil_war_threat:0 "Début de la Seconde Guerre Civile Américaine"
-second_russian_civil_war_threat:0 "Début de la Seconde Guerre Civile Russe"
-spanish_civil_war_threat:0 "Début de la Guerre Civile Espagnole"
-second_weltkrieg_threat:0 "Début de la Seconde Grande Guerre"
-fourth_balkan_war_threat:0 "Début de la Quatrième Guerre Balkanique"
+second_american_civil_war_threat:0 "La Seconde Guerre Civile Américaine"
+second_russian_civil_war_threat:0 "La Seconde Guerre Civile Russe"
+spanish_civil_war_threat:0 "La Guerre Civile Espagnole"
+second_weltkrieg_threat:0 "La Seconde Grande Guerre"
+fourth_balkan_war_threat:0 "La Quatrième Guerre Balkanique"
 remilitarize_oltenia_threat:0 "Manoeuvres dans les Carpates"
-savoyard_crisis_threat:0 "La Crise de la Romandie a Commencé"
-russian_expansionism_threat:0 "La Russie a choisi une voie expansionniste"
-kerensky_assassinated_threat:0 "Kerensky a été assassiné"
-macarthur_threat:0 "La Démocratie Américaine est terminée"
-japanese_expansionism_threat:0 "Le Japon a choisi une voie expansionniste"
-mittelafrika_collapse_threat:0 "Le Mittelafrika s'est effondré"
-democratic_win_acw_threat:0 "La Démocratie a survécu à la Seconde Guerre Civile Américaine"
-macarthur_wins_threat:0 "MacArthur a gagné la Seconde Guerre Civile Américaine"
-aus_wins_acw_threat:0 "Les ÉUA a gagné la Seconde Guerre Civile Américaine"
-csa_wins_acw_threat:0 "Les SCA ont gagné la Seconde Guerre Civile Américaine"
-belgrade_pact_threat:0 "Le Pacte de Belgrade a été formé"
+savoyard_crisis_threat:0 "La crise savoyarde"
+russian_expansionism_threat:0 "Expansionnisme russe"
+kerensky_assassinated_threat:0 "Assassinat de Kerenskiy"
+japanese_expansionism_threat:0 "Expansionnisme japonais"
+mittelafrika_collapse_threat:0 "L'effondrement de Mittelafrika"
+democratic_win_acw_threat:0 "Victoire fédérale"
+macarthur_wins_threat:0 "Victoire de MacArthur"
+aus_wins_acw_threat:0 "Victoire de l'AUS"
+csa_wins_acw_threat:0 "Victoire du CSA"
+belgrade_pact_threat:0 "Le pacte de Belgrade"
+fading_sun_threat:0 "Effondrement de l'empire japonais"
+GRE_took_diplomatic_path:0 "La Grèce renonce à la Megali"
+GRE_took_expansionist_path:0 "Expansionnisme grec"
 
 #### Autres ####
-tooltip_add_idea_closed_economy:0 "Changer la loi commerciale en \"§YÉconomie fermée§!\".\n"
-tooltip_add_idea_command_economy:0 "Changer la loi commerciale en\"§YÉconomie planifiée§!\".\n"
  unlock_focuses:0 "§GCette priorité sera éventuellement contournée automatiquement et déverrouillera les autres priorités.§!\n"
+ if_accepted:0 "Si accepté :"
 command_economy:0 "Economie de commande"
  asked_to_join:0 "La participation a été demandée par une autre nation"
  received_equipment_500:0 "Vous avez reçu §G500§! de matériel d'infanterie de ce pays\n"
@@ -186,110 +290,16 @@ received_equipment_1500:0 "Vous avez reçu §G1500§! de matériel d'infanterie 
 received_equipment_2000:0 "Vous avez reçu §G2000§! de matériel d'infanterie de ce pays\n"
 received_equipment_5000:0 "Vous avez reçu §G5000§! de matériel d'infanterie de ce pays\n"
 
-### Favoris ###
-
-### Nom et description ###
-BM_HISTORY_TITLE:0 "Bref Historique"
-KR_SCENARIO_NAME:0 "L'Héritage de la Grande Guerre"
-KR_SCENARIO_DESC:0 "L'Année 1936 est un tournant pour l'histoire du monde. Une période de grandes opportunités et de grands dangers. Les tensions entre l'Empire allemand et la Commune de France se multiplient, la Russie et les Etats-Unis sont de plus en plus instables et les anciens empires d'Autriche et Ottomans se dissolvent. Pendant ce temps, le Syndicalisme, le Totalisme et le Radical-Socialisme se répandent dans le monde entier. Quinze ans se sont écoulés depuis la fin de la Grande Guerre, et les vieilles rivalités d'autrefois sont réapparues. Une seule étincelle peut être tout ce qu'il faut pour allumer le baril de poudre..."
-
-### Grandes Nations ###
-
-### Allemagne ###
-GER_KR_GATHERING_STORM_DESC:0 "En 1919, après cinq années de guerre, l'armée allemande a finalement réussi à envahir la France. La reddition de la Grande-Bretagne a suivi en 1921. La Grande Guerre a fait de l'Allemagne une puissance mondiale incontestée, mais les choses ont mal tourné pour elle depuis les années 1930. Une économie mondiale récessive a réduit la production industrielle de la nation allemande tandis que la puissance manufacturière des autres nations se rétablit, et maintenant le nationalisme se développe dans les États vassaux de l'Est de l'Allemagne, qui commencent à s'éloigner du Reich. En 1936, l'Allemagne se trouve à la croisée des chemins, et déjà nous pouvons voir des fissures dans son puissant empire, alors que ses ennemis ancestraux retrouvent leur ancienne force..."
-
-### Commune de France ###
-FRA_KR_GATHERING_STORM_DESC:0 "La Troisième République se termina comme elle avait commencé: vaincue par les armes allemandes et affrontant la Révolution chez elle. En 1919, une grève générale fut convoquée par la CGT, provoquant la chute du gouvernement bourgeois. Depuis 15 ans, la nouvelle «Commune de France» s'unit derrière une plate-forme commune de consensus syndico-socialiste, dirigée par le Comité de Salut Public. Cependant, d'ici à 1936, la nécessité de reconstruire le pays et de défendre la révolution est considérée comme dépassée par de nombreux critiques et l'on demande de plus en plus des politiques plus radicales. La France est confiante dans sa mission, mais on ne sait pas quels courants révolutionnaires deviendront dominants dans les années à venir..."
-
-### Union Britannique ###
-ENG_KR_GATHERING_STORM_DESC:0 "En 1921 la 'Paix dans l'Honneur' a mis fin à la Grande Guerre, la foi et le soutien du peuple en Grande Bretagne a disparu. En 1925, un désastre est survenu: un conflit de travail mineur s'est rapidement transformé en une grève générale déclenchée par le TUC, suivie de désertions militaires contre les grévistes. Après six semaines d'émeutes massives, la famille royale et la plupart des élites du pays ont été évacuées vers le Canada et, à leur place, un nouveau Congrès des syndicats a pris le pouvoir. Le peuple britannique se contente désormais de construire le socialisme de façon isolée, mais beaucoup commencent à penser que les monarchistes au Canada ne peuvent pas être autorisés à comploter indéfiniment contre l'Union..."
-
-### France nationaliste ###
-NFA_KR_GATHERING_STORM_DESC:0 "En 1919, le gouvernement conservateur de la Troisième République planifia une contre-attaque coûteuse pour repousser l'Allemagne. La mutinerie de l'armée et la grève générale eurent raison du gouvernement. L'armée et la marine s'exila en Algérie et proclama sous le contrôle de Ferdinand Foch la Quatrième République. A sa mort, Philippe Pétain pris le pouvoir avec son protégé l'amiral François Darlan. Un conflit entre la Commune de France et l'Empire allemand pourrait être une occasion rêvée pour revenir en métropole"
-
-### Russie ###
-RUS_KR_GATHERING_STORM_DESC:0 "Pendant la guerre civile en Russie, les forces blanches se sont battues avec tout ce qu'elles avaient, mais l'armée rouge dominait encore le centre industriel du pays. L'Empire Allemand cependant, craignant une Russie rouge, a décidé d'intervenir en faveur des Blancs. Deux ans plus tard, Moscou et Petrograd sont tombés aux mains des forces blanches, et une nouvelle République Russe a été établie. Au cours des quinze dernières années, les principaux partis, S-R et Kadets, ont gouverné grâce à leur coalition sous la personne de Kerensky, mais la Russie devient de plus en plus instable. D'autres forces politiques se développent, et elles considèrent qu'il est temps de changer, afin que le pays puisse réaffirmer son pouvoir dans le monde..."
-
-### États-Unis ###
-USA_KR_GATHERING_STORM_DESC:0 "Les États-Unis ont presque abandonné leur politique d'isolement pour intervenir dans la Grande Guerre, mais ils ont finalement été tenus à l'écart de la guerre. Cela a conduit à une victoire des puissances centrales. Depuis lors, les Etats-Unis ont lutté économiquement, les opportunités commerciales européennes et le remboursement de leurs prêts à l'Entente ont été rendus impossibles par la victoire allemande. Elle fait maintenant face à une dissidence interne de plus en plus grande alors que l'hégémonie républicaine-démocrate est contestée par les Syndicalistes et les Unionistes. Avec une crise poilitique grandissante chez elle et une réputation modeste à l'étranger, les choses ne vont pas très bien aux États-Unis ..."
-
-### Japon ###
-JAP_KR_GATHERING_STORM_DESC:0 "Alors que la «Paix dans l'Honneur» garantissait la domination japonaise sur les colonies, tout n'était pas beau dans l'Empire du Soleil Levant. Après une période de bouleversement économique qui a culminé avec un attentat syndicaliste sur la vie du prince régent Hirohito en 1926, des gouvernements instables se sont succédé dans une année de crise; D'abord, le général Tanaka, puis le cabinet de la coalition démocratique et une intervention en Chine du Nord-Est. En 1936, le Japon est prêt à étendre son empire. La domination allemande semblant en déclin, les Japonais regardent avec appétit les territoires Qing restants et les possessions allemandes du Pacifique..."
-
-### Nations à l'honneur ###
-
-### Argentine ####
-ARG_KR_GATHERING_STORM_DESC:0 "L'Argentine connaissait une forte croissance jusqu'à la Weltkrieg. Le Royaume-Uni, son premier partenaire commercial lui imposa un blocus sur l'Empire allemand son second partenaire commercial. La perte de vitesse économique et l'exploitation des travailleurs par les entreprises britanniques entrainèrent une révolte syndicaliste qui prit possession de la Patagonie. Les gouvernements démocratiques échouèrent et furent renversé par un coup d'état militaire organisé par Uriburu. A sa mort le pays fut de nouveau instable. Le mouvement Fasciste de la Liga Patriotica profita de la menace communiste du Front Ouvrier Patagonien pour faire un coup d'état pendant Noël 1935. Manuel Carlés va t-il sécuriser sa récente prise de pouvoir ?"
-
-### Brésil ####
-BRA_KR_GATHERING_STORM_DESC:0 "Le Brésil est resté neutre pendant la Weltkrieg, de peur que ses rivaux, l'Argentine et le Chili ne rejoignent le camp opposé. Ces 3 nations (aussi appelées ABC) ont signé en 1915 un traité d'amitié et de neutralité. En 1925 la situation économique du Brésil s'aggrave avec les problèmes économiques des Etats-Unis et de la Grande Bretagne. L'élection de 1926 ne résoudra rien et mènera à la guerre civile. Le président Fernando de Melo vaincu, démissionna : la Seconde République du Brésil fut proclamé en 1927 et instaura le vote secret. L'élection de 1936 approche et les puissants partis radicaux affirment que la République continue d'entraver le pays qui se retrouve sous tensions"
-
-### Canada ###
-CAN_KR_GATHERING_STORM_DESC:0 "Après la révolution de 1925, la famille royale et d'autres exilés britanniques trouvent refuge au Canada. Avec l'appui des conservateurs, ils ont établi un gouvernement semi-officiel en exil, dans l'espoir de récupérer un jour les îles de leur patrie. Tout ne va pas bien cependant. Les conservateurs de Bennett perdent l'élection de 1935 devant les libéraux de Mackenzie King, qui, avec une coalition de «progressistes», maintiennent une faible majorité au parlement et cherchent à affirmer la souveraineté parlementaire canadienne contre le pouvoir croissant des exilés britanniques. Avec la détérioration de la situation politique mondiale, la scène est prête pour un conflit intense tant au pays qu'à l'étranger..."
-
-### Cuba ####
-CUB_KR_GATHERING_STORM_DESC:0 "Sept ans à peine après le renversement du dictateur Gerardo Machado, Cuba est de nouveau au bord du bouleversement politique. Le régime du jeune président Rafael Trejo n'a cessé de perdre le contrôle de l'armée et l'autorité politique du gouvernement civil s'est presque complètement érodée. Comme les radicaux de droite et de gauche menacent le pays, l'armée pourrait bien prendre le contrôle total dès que l'occasion se présentera"
-
-### Italie ####
-SRI_KR_GATHERING_STORM_DESC:0 "Les socialistes refusèrent l'établissement de la Fédération italienne imposées par les puissances centrales victorieuses ce qui conduisit à la guerre civile italienne de 1919 à 1920. La République d'Italie basée en Lombardie Vénétie a du s'appuyer sur l'ennemi Autrichien pour stopper sur le Pô les offensives syndicalistes. La république s'inspire fortement de son allié la Commune de France. En 1925, l'Union britannique les rejoint, ce qui pousse la République socialiste d'Italie à défier le Royaume des Deux Siciles et l'Autriche-Hongrie pour le contrôle du Sud de la péninsule. Finalement l'Autriche-Hongrie se retira, français et britanniques refusèrent une nouvelle guerre laissant le statu quo"
-ITA_KR_GATHERING_STORM_DESC:0 "Après la défaite de l'Italie dans la Weltkrieg, le pays a été laissé à la merci des Autrichiens - et il aurait été réorganisé en l'ancienne Fédération italienne s'il n'y avait pas eu le déclenchement de la guerre civile. Les socialistes auraient envahi la péninsule si les Autrichiens n'avaient pas avalé une pilule amère et coopéré avec les républicains... et, après l'arrêt des combats, ils ont été contraints de maintenir les relations jusqu'à aujourd'hui. L'Italie reste cependant instable et son éventuel rapprochement avec les socialistes de l'autre côté du Pô semble inévitable."
-SIC_KR_GATHERING_STORM_DESC:0 "Le royaume des Deux-Siciles s'est d'abord rangé du côté de l'Autriche pendant la guerre civile, un mal nécessaire pour stopper l'avancée de la République socialiste. Plus tard, cependant, lorsque la guerre avec les syndicalistes semblait inévitable, les Autrichiens ont montré leurs vraies couleurs et ont abandonné le sud. La guerre n'a jamais eu lieu, mais les Siciliens sont entrés dans l'ère moderne avec plus de sagesse. Ils auront du mal à affronter le Nord plus industrialisé, mais cette guerre viendra un jour et ils doivent s'y préparer."
-PAP_KR_GATHERING_STORM_DESC:0 "Avec la formation d'une Italie unie, il semblait que le temps où les États pontificaux avaient un pouvoir laïc était révolu. Puis vint l'effondrement du royaume, et la guerre civile qui s'ensuivit, et les Italiens du centre se tournèrent à nouveau vers la Papauté et ses alliés siciliens pour les aider à maintenir la stabilité. Aujourd'hui, le pape Pie XI est malade et, sur son lit de mort, il déplore une Italie qui reste divisée, les syndicalistes étant de plus en plus forts dans le nord. Quel que soit son successeur, il aura besoin de Dieu à ses côtés pour l'emporter."
-SRD_KR_GATHERING_STORM_DESC:0 "La Maison de Savoie a été brisée par la défaite de l'Italie dans la Weltkrieg, et le roi Victor Emmanuel III en a été tenu responsable. Mais tout n'est pas complètement perdu pour la monarchie. Les Savoie-Aostas sont de puissants partisans, les détenteurs légitimes du Piémont-Sardaigne jusqu'à ce que leurs terres sur les rives soient englouties par les syndicalistes. Aujourd'hui, ils peuvent se rassembler sur la Sardaigne, protégés par la République française et prêts à guetter l'occasion où, eux aussi, pourront un jour rentrer chez eux pour revendiquer leur siège au pouvoir."
-
-### Espagne ####
-SPR_KR_GATHERING_STORM_DESC:0 "Le déclin espagnol du XXème siècle se poursuit avec une guerre difficile dans le Rif à partir de 1920. Les défaites militaires conduisirent jusqu'à l'assassinat du premier ministre par 3 anarchistes. Le 13 septembre 1923, le général Rivera marche sur Madrid et est nommé premier ministre par le roi Alphonse XIII ce qui entraîne une purge de la bureaucratie hostile. Rivera enclencha un rapprochement avec l'Allemagne qui déboucha sur une intervention de l'Allemagne dans la guerre en 1925 et une victoire en 1927. La révolution syndicaliste britannique de 1925 permis à l'Espagne de reprendre Gibraltar. Malgré ces succès, le gouvernement Rivera fait face à la crise économique du Reichpakt et des Etats-Unis. Les syndicalistes sont prêt en Catalogne avec des armes françaises au grand jour"
-
-### Flandres-Wallonie ####
-BEL_KR_GATHERING_STORM_DESC:0 "La Belgique à l'image du Roi Soldat Albert se battit vaillament pendant la Weltkrieg. Albert, en exil au Canada avec la famille royale britannique, est toujours roi de Belgique. Adalbert, le troisième fils du Kaiser, du prendre le titre de Roi des Flamands et des Wallons et se convertir au catholicisme. La Flamenpolitik commencé en 1916 a accru les tensions entre Flamands et Wallons. Les premiers veulent rejoindre les Pays-Bas neutres et les seconds la France syndicaliste. Leur seul point d'accord est le rejet de la tutelle allemande"
-
-### Confédération australasienne ####
-AST_KR_GATHERING_STORM_DESC:0 "Malgré la prise de la Nouvelle-Guinée allemande frontalière en 1914, l'ANZAC a payé un lourd tribut loin de chez elle pendant la Weltkrieg notamment en 1915 à Gallipoli. La paix avec les honneurs de 1921 l'a forcé à rétrocéder la Nouvelle-Guinée ce qui a été très mal vécu. La révolte de 1923 a abouti à la création de la Commune de Melbourne. George V a rapidement rétabli la situation à l'aide des protocoles d'urgence et a fusionné les 2 dominions en 1924. Avec la révolution syndicaliste de 1925, le protocole Anderson a été enclenché et la flotte Pacifique s'est réfugiée en Australasie ce qui aggrave les difficultés économiques lié à la perte de l'export vers la métropole"
-
-### Commune Bharathie ####
-BHC_KR_GATHERING_STORM_DESC:0 "Avec la révolution syndicaliste britannique de 1925, l'Inde sombra également dans le chaos. La République Populaire du Bengale fut promulguée le 19 octobre 1925 à Calcutta. Les seigneurs du Sud de l'Inde se sont regroupés dans une Fédération pour protéger leurs terres et leurs richesses, créant ainsi une 3ème force avec le Dominion de l'Inde toujours présent à Delhi. Dans les débuts des années 30, les syndicalistes se sont mis à séduire les Indiens plutôt que de lancer une guerre à grande échelle. Cette politique c'est accompagnée d'un changement de nom en Commune Bharathie en signe d'ambition de l'union Indienne. Cette union est pour l'instant bloqué par l'opposition des 3 factions socialistes"
-
-### Chine ###
-QIE_KR_GATHERING_STORM_DESC:0 "L'Empire Qing entre en 1936 au bord du gouffre. Restauré en échange du soutien allemand lors de la quatrième guerre zhili-fengtienne en 1927, l'empereur Xuantong reste profondément impopulaire et considéré par beaucoup comme illégitime.\n\n La clique zhili-fengtienne et le KMT sont les vainqueurs du chaos qui a englouti la Chine depuis 1911, mais leur domination sur le pays est loin d'être assurée. Des ennemis de l'extérieur et de l'intérieur menacent leur hégémonie, et il reste à voir combien de temps ils pourront s'accrocher au pouvoir..."
-LEP_KR_GATHERING_STORM_DESC:0 "La Ligue de Sun Chuanfang forme la moitié sud d'un axe qui domine la Chine depuis près d'une décennie. Des années de paix se sont avérées un terrain fertile pour l'ambition, et avec elle la jalousie. Bien que Nanjing et Pékin restent unies contre des ennemis extérieurs, elles sont devenues des concurrentes autant que des alliées. Certains disent que les coûts de cette compétition ont déjà commencé à faire sentir leurs effets.\n\n Comme une grande partie de la Chine, la Ligue est le produit d'un équilibre prudent, et la grande pyramide bureaucratique de Sun a peut-être déjà commencé à se fissurer et à s'effriter..."
-FNG_KR_GATHERING_STORM_DESC:0 "La Conférence de Shanghai de 1928 a laissé Fengtian comme seul héritier de l'héritage de l'ancienne République Beiyang.\n\nZhang Zuolin, dont les ambitions sont limitées par la dure réalité de la force des Qing et de la puissance japonaise, a été contraint de marcher sur la corde raide politique au-dessus des machinations de son propre gouvernement divisé. Les perspectives sont sombres, mais certains gardent encore espoir. Le drapeau des cinq couleurs pourrait à nouveau flotter au-dessus de Pékin et dans toute la Chine..."
-YUN_KR_GATHERING_STORM_DESC:0 "Avec le rétablissement de la dynastie Qing par les Allemands, la province frontalière montagneuse du Yunnan a été contrainte de changer de stratégie. Le gouverneur Tang a décidé de s'incliner devant le nouvel Empire Qing, tout en ouvrant les portes du Yunnan à des vestiges républicains, afin de consolider son autonomie et de dissuader toute action contre sa province notoirement arriviste.\n\nBien que la situation en Chine commence lentement à favoriser les projets de Tang, elle commence également à briser l'illusion d'une unité provinciale, car de nombreuses factions internes ne considèrent plus Tang comme suffisamment apte ou même sain d'esprit pour gouverner..."
-SQI_KR_GATHERING_STORM_DESC:0 "Le dirigeant de Shandong, Zhang Zongchang, n'est précédé que par son train blindé et une réputation monstrueuse. Le \"général de la viande de chien\" est connu pour sa violence, son vice et sa corruption, et sous sa coupe, la capitale de Jinan est devenue le miroir de son maître.\n\nCependant, du sommet du Mont Tai, l'insaisissable patriarche Zhang Tianran fuit la dépravation qui règne en bas. Il espère plutôt faire reculer l'horloge chinoise de plus d'un siècle et guider le pays dans les bras de sa foi captivante de Yiguandao. Un affrontement entre ces forces contradictoires pourrait changer la Chine pour toujours..."
-XSM_KR_GATHERING_STORM_DESC:0 "Les trois familles Ma ont cimenté leur domination sur le Nord-Ouest pendant trente années consécutives. Se rangeant à un moment ou à un autre du côté de presque tout le monde en Chine, certains Mas se battant même entre eux pour rester du bon côté de tous, les Mas sont maintenant considérés comme l'un des plus grands alliés de la nouvelle dynastie Qing dirigée par les Zhilis.\n\nLa crise cardiaque de Ma Fuxiang il y a trois ans a secoué la clique, et un sentiment d'anxiété et d'agitation s'est lentement répandu depuis. Pour l'instant, le nord-ouest est paisible, mais son avenir est moins certain que beaucoup aimeraient le croire..."
-SHX_KR_GATHERING_STORM_DESC:0 "Contrairement à la plupart des autres factions de chefs de guerre, la clique de Yan Xishan du Shanxi a maintenu une politique de neutralité gardée pendant près de trois décennies, rompue seulement en cas de grande menace ou de grande opportunité. Les deux se sont présentés en 1928, et Yan a rejoint Zhang Zuolin contre le gouvernement Qing nouvellement réformé.\n\nHeureusement, la défaite qui a suivi a privé Yan de la partie orientale de sa province, et l'a forcé à incorporer des restes de Guominjun pour soutenir ses forces vacillantes. Les conséquences de 1928 sont loin d'être oubliées, et la prochaine fois que Yan devra choisir un camp, il devra le faire avec sagesse..."
-SZC_KR_GATHERING_STORM_DESC:0 "Le Sichuan a longtemps été un microcosme des nombreux malheurs de la Chine, divisé et changeant constamment de contrôleur depuis 1911. Yang Sen a réussi à sortir du chaos en tant que dirigeant avec l'aide de la Clique Zhili de Wu Peifu, mais même son contrôle est loin d'être absolu.\n\nSuite à une invasion tibétaine destructrice, Yang en est venu à compter sur le soutien de factions internes, notamment le Corps Industriel de Liu Xiang et le Département de Baoding de Deng Xihou. Entre-temps, le département des officiers en exil est retourné dans le sud avec le soutien du Yunnan. La poudrière du Sichuan risque d'exploser à nouveau..."
-
-#### République Dominicaine ####
-DOM_KR_GATHERING_STORM_DESC:0 "L'occupation américaine de la République dominicaine a pris fin en 1924 et le contrôle politique total a été rétabli peu après, mais en quelques années seulement, la nouvelle constitution démocratique de la nation serait confrontée à des défis tant internes qu'externes. Alors que la démocratie a jusqu'à présent survécu dans la nation, le schisme du Parti rouge au pouvoir depuis longtemps a de nouveau mis en péril la survie de la Constitution"
-
-### Fédération des Antilles
-CAF_KR_GATHERING_STORM_DESC:0 "La Fédération des Antilles a été créée à la suite de l'effondrement de l'Empire britannique en 1925 parce qu'elle était incapable d'exercer son influence pour contrôler directement la région. Après l'incorporation des colonies françaises en 1927, le pays a été le foyer non seulement d'une division de classe notable, mais aussi d'une division culturelle et idéologique. La population et la nouvelle génération ont vu une dérive notable vers des attitudes socialistes et une préférence pour les communards sur le continent. Il suffirait d'un faux pas avant que le chaos n'éclate sur les Indes..."
-
-### Danemark ####
-DEN_KR_GATHERING_STORM_DESC:0 "Le Danemark existe à l'ombre de Berlin. Sa relation avec le nouvel hégémon du monde est ancienne, a souvent été hostile, aussi récemment qu'en 1864, ce qui a entraîné la perte de Slesvig pour les Allemands. Pourtant, en 1936, les liens sont chaleureux et le Danemark, par grâce d'être resté neutre dans la Grande Guerre, conserve pleinement sa souveraineté. Sous la direction du premier ministre populaire social-démocrate Thorvald Stauning, le Danemark a profité de la prospérité économique allemande. Sur le plan intérieur, l'avenir s'annonce prometteur, mais à l'échelle internationale, les nuages s'amoncellent. Certains craignent que le Danemark soit au mauvais endroit au mauvais moment..."
-
-#### Finlande ######
-FIN_KR_GATHERING_STORM_DESC:0 "Dans la périphérie nord de l'Europe, la Finlande, bastion de l'influence allemande dans la région nordique, se dresse avec fierté. Issu du cadavre de l'empire russe et du socialisme qui menaçait la nation à ses débuts, le royaume est devenu un allié solide de l'Allemagne contre les principes du socialisme et les mains impérialistes de la Russie. Mais après presque deux décennies d'indépendance sous la direction de son monarque et de la coalition nationale, les troubles s'enveniment : la Finlande est-elle vraiment libre ou la domination allemande est-elle simplement un peu peu plus subtile que celle des tsars d'autrefois ?"
-
-#### Islande ####
-ICE_KR_GATHERING_STORM_DESC:0 "A partir de 1874, l'Islande a goûté pour la première fois à l'indépendance lorsque le Danemark a accordé l'autonomie de la colonie. Lorsque les canons se sont tus après la Grande Guerre, l'Islande a rejoint le bloc économique de Mitteleuropa qui a apporté une période de prospérité à l'île. Cependant, cette prospérité économique ne durerait pas éternellement. La Révolution britannique de 1925 a brisé le miracle que vivait l'Islande après la Grande Guerre. Au cours de la dernière décennie, l'Islande s'est enlisée, car son économie ne s'est jamais complètement remise de la perte de la Grande-Bretagne. De nombreux politiciens proposent maintenant d'autres plans pour revitaliser l'île"
-
-### Norvège ####
-NOR_KR_GATHERING_STORM_DESC:0 "Pour la Norvège, les deux dernières décennies auraient pu être meilleures. En tant que pays neutre soutenant l'effort de guerre britannique, la puissance hégémonique de l'Allemagne n'a pas favorisé le pays du soleil de minuit et la nation a été exclue du projet Mitteleuropa qui comprenait la Suède et le Danemark. Lorsque la Grande-Bretagne est tombée sous le marteau et le flambeau, le dernier partenaire commercial de la Norvège qui n'était pas assujetti à des droits de douane élevés se trouvait à une distance d'un océan. Depuis le début, la Norvège s'est retrouvée dans un isolement diplomatique et économique, et dans les souffrances que cela entraîne, le Parti travailliste, de tendance syndicaliste, monte dans les sondages à un rythme de plus en plus rapide"
-
-### Suède ####
-SWE_KR_GATHERING_STORM_DESC:0 "Au cours de la dernière décennie, la Suède s'est développée comme un bastion du conservatisme sous le règne prospère du premier ministre Arvid Lindman, bénéficiant des fruits de la croissance économique de Mitteleuropa à la fin des années 1920 et au début des années 1930. Cependant, les nuages s'amoncellent au-dessus de Stockholm : en 1934, Arvid Lindman a pris sa retraite en tant que premier ministre, et le moins charismatique Gösta Bagge lui a succédé, tandis que l'opposition sociale-démocrate se rassemble autour de son chef de parti populaire Per Albin Hansson. Cette année se tiendront les premières élections de Bagge au poste de Premier ministre. Peut-il tenir le coup ? Et sinon, la démocratie suédoise peut-elle survivre à ce revirement soudain ?"
-
-#### Histoire ####
-OTHER_KR_GATHERING_STORM_DESC:0 "Les nations du monde, grandes et petites, attendent leur tour pour devenir des acteurs majeurs de ce monde. Les puissances majeures essayent de garder leurs empires face aux nombreuses nations essayant de retrouver ce qu'elles ont perdu pendant la Grande Guerre, tous devront prendre des décisions difficiles et équilibrer leurs idéaux de façon pragmatique pour avoir un impact sur l'avenir du monde..."
-
 ### Ministres ###
 head_of_government:0 "Chef du Gouvernement"
 foreign_minister:0 "Affaires Étrangères"
 economy_minister:0 "Ministre de l'Économie"
 security_minister:0 "Ministre de l'Intérieur"
 head_of_intel:0 "Chef du Renseignement"
-leader_of_the_british_exiles:0 "Premier ministre britannique"
+## Country-Specific Ones
+knight_captain_of_liv_ord:0 "Chevalier-Capitaine"            # BAT
+land_marshal_of_liv_ord:0 "Maréchal"                # BAT
+leader_of_the_british_exiles:0 "Premier ministre britannique" # CAN
 
 ### Company Traits ###
 
@@ -451,6 +461,19 @@ cr_tech:0 "Modèles de croiseurs"
 acr_tech:0 "Modèles de croiseurs blindés"
 cat_targeting:0 "Pompes à incendie"
 cat_torpedo:0 "Technologie des torpilles"
+
+### Hidden Techs ###
+improved_field_hospitals:0 "Hôpitaux de campagne améliorés"
+improved_field_hospitals_effect:0 "Active §HHôpitaux de campagne améliorés\nHôpital de campagne§!\n      Rétablissements: §G+20%§!\n      Perte d'expérience: §G-10%§!\n\n"
+
+tech_integrated_specialists:0 "Forces spéciales intégrées"
+tech_integrated_specialists_effect:0 "Active §HForces spéciales intégrées§!\nMultiplicateur de capacité des forces spéciales:§! §G+5%§!\n§HToutes les forces spéciales:§!\n      Attaque légère: §G+5%§!\n      Attaque lourde : §G+5%§!\n"
+
+tech_marine_bonus:0 "Marines améliorées"
+tech_marine_bonus_effect:0 "Active §HMarines améliorées\nMarines§!\n      Attaque légère: §G+5%§!\n      Attaque lourde : §G+5%§!\n"
+
+tech_marine_bonus_2:0 "Marines entraînés"
+tech_marine_bonus_2_effect:0 "Active §HMarines améliorées\nMarines§!\n      Attaque légère: §G+2,5%§!\n      Attaque lourde : §G+2,5%§!\n"
 
 #### Caractéristiques du commandement de l'armée ####
 
@@ -678,6 +701,7 @@ continuous_boost_freedom:0 "Augmenter l'autonomie"
 continuous_boost_freedom_desc:0 "En réorganisant notre bureaucratie coloniale et en recrutant des administrateurs natifs, nous pourrons, à terme, prendre en charge nos propres affaires"
 continuous_restrict_freedom:0 "Supprimer les sujets"
 continuous_restrict_freedom_desc:0 "Nos sujets coloniaux ont eu des idées plutôt stupides sur des choses comme \"l'autodétermination\" ou \"l'indépendance nationale\". Il est temps de les désabuser de ces notions"
+subject_autonomy_mod_tt:0 "Autonomie des sujets: §G-0.5§!"
 unlocks_decision:0 "Débloque la décision : £decision_icon_small"
 
 #### Focus génériques ####
