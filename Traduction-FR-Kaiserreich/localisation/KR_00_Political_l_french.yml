@@ -1,24 +1,17 @@
 ﻿l_french:
 
 ### Popularity ###
-party_pop_0_00:0 "La popularité du parti est de 0 à 10 %"
-party_pop_0_10:0 "La popularité du parti est de 10 à 20%"
-party_pop_0_20:0 "La popularité du parti est de 20 à 30%"
-party_pop_0_30:0 "La popularité du parti est de 30 à 40%"
-party_pop_0_40:0 "La popularité du parti est de 40 à 50%"
-party_pop_0_50:0 "La popularité du parti est de 50 à 60%"
-party_pop_0_60:0 "La popularité du parti est de 60 à 70%"
-party_pop_0_70:0 "La popularité du parti est de 70 à 80%"
-party_pop_0_80:0 "La popularité du parti est de 80 à 90%"
-party_pop_0_90:0 "La popularité du parti est de 90 à 100%"
- ruling_party_popularity_change:0 "Changement de popularité de [GetRulingIdeologyFullName]: [?ideology_change_var|+2%]\n"
+ruling_party_popularity_change:0 "Changement de popularité de [This.GetRulingIdeologyFullName]: [?ideology_change_var|+2%]\n"
 
 ### Syndicalist Social Democrat Notice ###
 SYNDIE_SOC_DEM_NOTICE:0 "(Syndicaliste aligné)"
 
+### Decisions ###
+war_propaganda_against_warmonger_desc:0 "La nation appelle chaque homme, femme et enfant à contribuer à la lutte contre [From.GetNameDef]!"
+
 ### Opening Event ###
- kr.political.1.t:0 "Kaiserreich Beta 0.11.2"
-kr.political.1.d:0 "L'équipe de Kaiserreich est fière de vous présenter la version bêta 0.11 'The Long Road Home' de Kaiserreich pour Hearts of Iron 4.\n\nNotre équipe a travaillé dur, depuis les quatre coins du monde, pour vous proposer cette nouvelle version et nous ne pourrions pas être plus honorés que vous ayez choisi d'y jouer.\n\nVeuillez noter ce qui suit :\nLe mod est conçu avec l'hypothèse que le joueur annexera toujours tous les états possibles dans les traités de paix, donc assurez-vous de le faire\nVous pouvez changer la fréquence des événements de nouvelles en basculant l'icône en haut de l'onglet des décisions\nVous pouvez sélectionner quel système de dénomination des états et des points de victoire utiliser en basculant l'icône remplaçant le menu les succès en haut à droite\nRappelez-vous que ce mod est toujours en Beta, alors attendez-vous à des bugs, des plantages et divers maux de tête.\nSi vous rencontrez l'un d'entre eux, les signaler sur notre traqueur de problèmes sur GitHub est d'une grande aide et les fera corriger plus tôt !"
+ kr.political.1.t:0 "Kaiserreich Beta 0.12 - \"Stay at Home\""
+kr.political.1.d:0 "L'équipe de Kaiserreich est fière de présenter la version bêta 0.12 de Kaiserreich - \"Stay at Home\" pour Hearts of Iron 4.\n\nNotre équipe a travaillé sans relâche, depuis les quatre coins du monde, pour vous apporter cette nouvelle version et nous ne pourrions être plus honorés que vous choisissiez d'y jouer.\n\nVeuillez noter ce qui suit:\nLe mod est conçu avec l'hypothèse que le joueur annexera toujours tous les États possibles dans les traités de paix, donc assurez-vous de faire cela\nVous pouvez modifier la fréquence des événements d'actualité en basculant l'icône en haut de l'onglet des décisions\nVous pouvez sélectionner les états du système de dénomination et les points de victoire utilisés en basculant l'icône qui remplace le menu des réalisations en haut à droite\nN'oubliez pas que ce mod est encore en version bêta, donc attendez-vous à des bogues, des plantages et divers problèmes techniques.\nSi vous rencontrez l'un de ces problèmes, il est très utile de le signaler sur notre GitHub issue tracker, qui permettra de les résoudre plus rapidement\n\nNous espérons que vous aurez autant de plaisir à jouer à Kaiserreich que nous en avons eu à le faire !"
 kr.political.1.a:0 "Je suis sûr que je le ferai !"
 
 ### Returning Cores ###
@@ -41,10 +34,6 @@ KR_will_not_return:0 "Nous ne restituerons §Raucune§! de leurs terres, et il n
 kr.political.76.t:0 "[From.GetNameDefCap] rend les territoires [Root.GetAdjective]"
 kr.political.76.d:0 "Nos alliés de [From.GetNameDefCap] nous ont rendu certaines de nos terres !"
 kr.political.76.a:0 "Super !"
-kr.political.200.t:0 "Vérification des unités de mouvement de l'IA"
-kr.political.200.d:0 "Si vous voyez ça, c'est un problème. Arrêter de changer de pays"
-kr.political.208.t:0 "Contrôle des coûts de décision de l'IA"
-kr.political.208.d:0 "Si vous voyez ça, c'est un problème. Arrêter de changer de pays"
 
 KR_different_ideology:0 "Idéologie différente"
 KR_similar_ideology:0 "Idéologie similaire"
@@ -57,14 +46,19 @@ head_of_gov_available:0 "§RLes chefs de gouvernement ne peuvent pas être ajout
 minister_available:0 "§RLes ministresne peuvent pas être ajoutés ou supprimés manuellement.§! Ils ne peuvent être changés que par des événements, des focus, des décisions et ainsi de suite.\n\nCette liste représente tous les ministres possibles pour une nation, donc les gens ici peuvent être en désaccord avec le gouvernement actuel, dans un autre pays ou même morts"
 military_staff_available: "Ce membre de l'état-major militaire est vivant et prêt à servir le gouvernement"
 KR_is_socialist:0 "A un gouvernement totaliste, syndicaliste, radical socialiste ou syndicaliste aligné social-démocrate"
+KR_is_socialist_NOT:0 "N'a §Rpas§! un gouvernement totaliste, syndicaliste, radical socialiste ou syndicaliste aligné social-démocrate"
 KR_is_not_socialist:0 "N'a §Rpas§! un gouvernement totaliste, syndicaliste, radical socialiste ou syndicaliste aligné social-démocrate"
 KR_is_elected:0 "A un gouvernement démocratique et élu"
+KR_is_elected_NOT:0 "N'a §Rpas§! un gouvernement démocratique et élu"
 KR_is_not_elected:0 "N'a §Rpas§! un gouvernement démocratique et élu"
 KR_is_democratic:0 "A un gouvernement démocratique"
+KR_is_democratic_NOT:0 "N'a §Rpas§! un gouvernement démocratique"
 KR_is_not_democratic:0 "N'a §Rpas§! un gouvernement démocratique"
 KR_is_authoritarian:0 "A un gouvernement non socialiste et autoritaire"
+KR_is_authoritarian_NOT:0 "N'a §Rpas§! un gouvernement non socialiste et autoritaire"
 KR_is_not_authoritarian:0 "N'a §Rpas§! un gouvernement non socialiste et autoritaire"
 KR_is_dictatorship:0 "A un gouvernement dictatorial non socialiste"
+KR_is_dictatorship_NOT:0 "N'a §Rpas§! un gouvernement dictatorial non socialiste"
 KR_is_not_dictatorship:0 "N'a §Rpas§! un gouvernement dictatorial non socialiste"
 has_scripted_peace:0 "Nous sommes en guerre"
 has_scripted_peace_desc:0 "Le pays est en guerre et est déterminé à remporter la victoire - bien qu'il y ait des chances que notre résistance soit un peu plus fragile qu'il n'y paraît. (Note : ceci existe pour les guerres où un événement de paix écrit existe, et il y a des chances que l'événement se déclenche bien avant que cette limite de reddition élevée ne soit atteinte, juste pour que vous soyez au courant.)"
@@ -72,8 +66,6 @@ has_scripted_peace_desc:0 "Le pays est en guerre et est déterminé à remporter
 ### Tooltips ###
  KR_improving_stability:0 "Déjà en train de renforcer la stabilité"
  KR_improving_popularity:0 "Déjà en train de développer la popularité du parti"
- has_vg_stability:0 "A une §YTrès bonne stabilité§!"
- KR_improving_popularity_tooltip:0 "Nous allons améliorer la popularité de notre parti : §Y5%§!\n"
  KR_party_pop_less_than_50:0 "Moins de §Y50%§! de popularité du parti"
  KR_party_pop_more_than_75:0 "Plus de §Y75%§! de popularité du parti"
  DIPLOMACY_DOCKING_RIGHTS:0 "Droits d'amarrage"
@@ -132,9 +124,9 @@ paternal_autocrat_desc:0 "Autocrate Paternel"
 national_populist_desc:0 "National-Populiste"
 
 ### Subtype Descriptions ###
-totalist_subtype_desc:0 "Le totalitarisme est à la fois une idéologie spécifique et une catégorie parfois donnée pour nommer diverses idéologies radicales de gauche ayant des caractéristiques similaires. En tant qu'idéologie, le Totalisme promeut une nouvelle direction pour le socialisme dans le monde, soulignant le rôle de l’état socialiste en tant qu'idéal central de la nation, tout en dévalorisant ou en abandonnant les idées marxistes du pouvoir ouvrier et une utopie sans classe. Les totalistes cherchent à centraliser et à étendre les pouvoirs des gouvernements dans les États socialistes, croyant que le but du gouvernement est de faire prévaloir le socialisme dans l'État, et utilisent souvent la rhétorique et les politiques nationalistes et militaristes. En raison de leur nature autoritaire, d'autres idéologies socialistes autoritaires ou totalitaires ont gagné le nom de \"totalistes\" même si elles ne sont pas affiliées à la charte totaliste"
-syndicalist_subtype_desc:0 "L'anarcho-syndicalisme est l'idéologie révolutionnaire marxiste dominante, qui promeut les fédérations démocratiques de syndicats collectivisés en tant qu'unités politiques et économiques fondamentales de l’État socialiste. Les syndicats sont détenus à parts égales par tous les travailleurs qui en sont membres, ont un contrôle économique et politique total sur les lieux de travail qu'ils organisent et jouissent d'une grande autonomie par rapport au gouvernement central. A plus grande échelle, les différents syndicats élisent des membres aux congrès syndicaux régionaux et nationaux, qui forment les pouvoirs législatif et exécutif du gouvernement central"
-radical_socialist_subtype_desc:0 "Le socialisme radical est une expression fourre-tout pour les différentes idéologies socialistes, communistes et anarchistes qui ne sont pas directement associées au syndicalisme. Les pays ayant cette idéologie fonctionnent avec une économie socialiste, généralement accompagnée d'une forme de gouvernement démocratique ; leur but ultime est de créer un paradis pour la classe ouvrière, dont les détails varient d'un mouvement à l'autre"
+totalist_subtype_desc:0 "Le terme \"Totalisme\" vient de la Charte Totaliste, un accord de coopération entre Oswald Mosley, Georges Valois et Benito Mussolini qui a défini les principaux principes de l'idéologie. Les totalistes abandonnent l'élément fédérateur de l'organisation syndicaliste de l'État, affirmant que tant que la révolution mondiale n'aura pas été réalisée, les États révolutionnaires doivent être centralisés et militarisés pour lutter contre les États capitalistes restants. La mesure dans laquelle la société est transformée par les régimes totalistes est également beaucoup plus importante, allant souvent jusqu'au contrôle totalitaire de la société et à la construction de cultes de la personnalité. Le terme \"Totalisme\" est également souvent utilisé pour décrire les États de gauche qui ne sont pas affiliés au Totalisme de la Charte, mais qui présentent néanmoins des caractéristiques telles que la militarisation, la centralisation et la transformation totalitaire de la société."
+syndicalist_subtype_desc:0 "Le syndicalisme est la principale idéologie révolutionnaire de gauche dont la montée en puissance dans le monde entier a commencé avec la révolution française de 1919. Bien que le syndicalisme soit divisé entre différents courants, dont certains sont influencés par d'autres idéologies telles que le marxisme et l'anarchisme, le syndicalisme orthodoxe se fonde sur les travaux des dirigeants de la Confédération générale du travail (CGT), codifiés dans la Charte d'Amiens de 1906, et considère Mikhail Bakounine et Pierre-Joseph Proudhon comme ses précurseurs. Le syndicalisme est défini par les concepts de spontanéité révolutionnaire et d'action directe - la conviction que les travailleurs eux-mêmes, organisés en syndicats, doivent combattre le capitalisme, au lieu de s'appuyer sur un agent extérieur tel qu'un parti politique. La transformation d'une société capitaliste en une société syndicaliste doit se faire par le biais d'une grève générale - un rejet du capitalisme à l'échelle nationale et un transfert de tous les moyens de production aux syndicats. Les États syndicalistes sont décentralisés et fédéraux, toutes les industries sont organisées en syndicats, les conseils du travail élus par ces syndicats gèrent la gouvernance locale, et le gouvernement central est confié à un congrès national de représentants syndicaux. Le degré de mise en œuvre de ces principes varie toutefois d'un pays à l'autre."
+radical_socialist_subtype_desc:0 "Le socialisme radical est une expression fourre-tout pour les différentes idéologies socialistes, communistes et anarchistes qui ne sont pas directement associées au syndicalisme. Les pays ayant cette idéologie fonctionnent avec une économie socialiste, généralement accompagnée d'une forme de gouvernement élu ; leur but ultime est de créer un paradis pour la classe ouvrière, dont les détails varient d'un mouvement à l'autre"
 social_democrat_subtype_desc:0 "La social-démocratie est une idéologie dont le but est de réformer le capitalisme et de l'humaniser en l'alignant sur les idéaux éthiques du bien-être social tout en maintenant le mode de production capitaliste, plutôt que de créer un système économique socialiste alternatif. Tout en promouvant habituellement une forme ploutocratique de gouvernement et une économie de marché fortement régulée, il existe quelques courants plus radicaux"
 social_liberal_subtype_desc:0 "Le libéralisme social est une variante du libéralisme de marché dominant, la principale différence étant l'inclusion de diverses libertés civiles en tant que droits humains fondamentaux. Privilégiant des politiques sociales et économiques progressistes, les sociaux libéraux visent à créer une société où chaque individu est libre de vivre sa propre vie avec toutes ses chances, quel que soit son statut"
 market_liberal_subtype_desc:0 "Les Libéraux Économiques se considèrent comme l'idéologie libérale dominante. Les principaux tenants du libéralisme de marché sont un marché libre non réglementé et un système politique ploutocratique démocratique. Les Libéraux Économiques croient que plus le marché est libre, plus le peuple est libre, et ils défendront avec détermination les droits politiques et économiques de l'individu"
