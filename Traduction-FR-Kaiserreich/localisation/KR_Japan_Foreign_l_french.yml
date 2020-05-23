@@ -7,8 +7,7 @@ TRM_no_crackdown:0 " Question coréenne"
 JAP_threat:0 "Le Japon nous menace"
 JAP_FNG_exploit:0 "Exploitation économique"
 
-### Factions ###
-co_prosperity_sphere:0 "Sphère de co-prospérité"
+### Research Groups ###
 japan_research_name:0 "Rikagaku Kenkyusho"
 japan_research_desc:0 "Rikagaku Kenkyusho est l'aile scientifique de la sphère de coprospérité qui vise à contribuer à l'enrichissement de nos colonies et de nos alliés".
 
@@ -75,6 +74,13 @@ JAP_may_war_with_indochina:0 "Recevra les décisions d'aller en guerre contre de
 JAP_can_attack_india:0 "Recevra les décisions d'aller en guerre contre des cibles valables en Inde".
 JAP_may_war_with_siam:0 "Recevra la décision d'entrer en guerre contre §Y[SIA.GetNameDef]§!\n"
 JAP_no_training_help:0 "a refusé l'aide du Japon".
+JAP_returns_land:0 "§GLe Japon accepte toutes les terres que nous revendiquons ou dont nous avons une revendication ou un état coeur, mais pas eux.§!\n"
+
+FNGJapanOutrageLevel:0 "Scandale de Fengtian"
+
+JAP_FNG_support_tt:0 "§GCela augmentera notre influence dans [FNG.GetNameDef], ce qui rendra plus difficile pour eux de s'opposer à nous à l'avenir.§!\n"
+JAP_FNG_outrage_tt:0 "§RCela réduira notre influence dans [FNG.GetNameDef], ce qui leur permettra de s'opposer plus facilement à nous à l'avenir.§!\n"
+JAP_sow_chaos_tt:0 "Semer le chaos vise à maintenir toutes les factions chinoises faibles en conservant une certaine flexibilité. Nous allons identifier et soutenir différents groupes afin qu'ils continuent à se battre entre eux.\n"
 
 JAP_fading_sun:0 "Le soleil qui s'éteint"
 JAP_fading_sun_desc:0 "[JAP_fading_sun_desc_text]"
@@ -120,8 +126,8 @@ JAP_ally_no_sphere:0 "Aucun"
 JAP_not_invest_within_last_year:0 "N'a pas fait l'objet d'un investissement au cours des douze derniers mois".
 
 ### Idées ###
-JAP_rising_sun:0 "Le soleil levant"
-JAP_rising_sun_desc:0 "Il est temps pour le Japon de prendre enfin sa place parmi les empires du monde. Nous allons libérer l'Est de l'impérialisme occidental et régler nos comptes avec nos rivaux. Le soleil s'est levé !"
+JAP_rising_sun_idea:0 "Le soleil levant"
+JAP_rising_sun_idea_desc:0 "Il est temps pour le Japon de prendre enfin sa place parmi les empires du monde. Nous allons libérer l'Est de l'impérialisme occidental et régler nos comptes avec nos rivaux. Le soleil s'est levé !"
 fengtian_exploitation:0 "Les dividendes de Mantetsu"
 fengtian_exploitation_desc:0 "Avec son monopole de facto sur de larges pans de l'économie fengtienne, Mantetsu crée d'énormes profits, et profite au Japon à la fois par les dividendes des actions détenues par l'État et par les recettes fiscales directes.""
 GER_KOR_support:0 "Mission militaire allemande"
@@ -174,8 +180,8 @@ JAP_india_support:0 "Conseillers japonais"
 JAP_trade_embargoed:0 "Embargo japonais"
 
 ### Focalisation - Étranger - Base ###
-JAP_SUN_RISE:0 "Le soleil levant"
-JAP_SUN_RISE_desc:0 "La politique intérieure, quoi qu'il arrive, l'Empire du Soleil Levant a une scène mondiale à dominer quoi qu'il arrive. Nos armées sont prêtes à répondre à l'appel de l'empereur et notre peuple est prêt à tout sacrifier si nécessaire pour notre gloire. La seule question est de savoir où et quand".
+JAP_rising_sun:0 "Le soleil levant"
+JAP_rising_sun_desc:0 "La politique intérieure, quoi qu'il en soit, l'Empire du Soleil Levant a une scène mondiale à dominer. Nos armées sont prêtes à répondre à l'appel de l'empereur et notre peuple est prêt à tout sacrifier si nécessaire pour notre gloire. Alors que le monde se concentre sur la guerre civile américaine, la seule question est de savoir où."
 JAP_fight_giants:0 "Hakkou Ichiu"
 JAP_fight_giants_desc:0 "La direction que doit prendre le Japon sur la scène mondiale fait depuis longtemps l'objet de débats entre spécialistes militaires et idéologues, mais tous s'accordent à dire que le monde n'est pas meilleur lorsqu'il est sous un même toit".
 
@@ -222,9 +228,6 @@ JAP_plant_cherry_blossoms:0 "Planter des arbres de Sakura"
 JAP_plant_cherry_blossoms_desc:0 "Le sang que nous avons versé en Chine a coûté cher et nos gains ont été durement gagnés. Nous n'allons pas laisser un chef de guerre surgissant avec des idées sur ses droits ou sur le nationalisme chinois nous les prendre. Nos principales revendications en Chine resteront sous notre contrôle et ouvertes à la colonisation par le peuple japonais, que nous symboliserons en plantant des cerisiers".
 JAP_destroy_legations:0 "Démanteler les villes de légation"
 JAP_destroy_legations_desc:0 "Les Occidentaux bien-pensants qui dirigent [LEC.GetNameDef] ont jugé bon de nous exclure de leurs conseils et de leurs salles de pouvoir. Nous leur montrerons le prix de leur impudence".
-FNGJapanOutrageLevel:0 "L'indignation des Fengtiens"
-JAP_outrage_tt:0 "Cela provoquera la colère de [FNG.GetNameDef] à l'avenir".
-JAP_sow_chaos_tt:0 "Semer le chaos vise à maintenir toutes les factions chinoises faibles en conservant une certaine flexibilité. Nous identifierons et soutiendrons différents groupes afin qu'ils continuent à se battre entre eux. RZhang Zuolin sera certainement furieux !"
 
 ### Focalisation - Etranger - Factions ###
 JAP_own_faction:0 "Trouver la sphère de coprospérité"
@@ -320,7 +323,7 @@ changchun_industry_investment:0 "La région industrielle de Jilin"
 
 ### Military ###
 JAP_ichigo_mission:0 "Operation Ichi-gou"
-JAP_ichigo_mission_desc:0 "Banzai!"
+JAP_ichigo_mission_desc:0 "Le temps est venu de mener une campagne qui fera ou défera l'effort de guerre ; une série de batailles décisives soutenues par la pleine puissance de l'armée impériale japonaise. Il ne peut plus y avoir de demi-mesures. Tennou Heika Banzai !"
 
 ### Events ###
 japfor.1.t:0 "Mantetsu déclare des gains records"
@@ -328,10 +331,6 @@ japfor.1.d:0 "Le Japon est présent en Mandchourie depuis la fin de la guerre ru
 japfor.1.a:0 "La Mandchourie est une véritable corne d'abondance de possibilités !"
 
 JAP_mantetsu_profits_tooltip:0 "Gains National Spirit §HMantetsu Profits§! qui accorde (Resource Gain Efficiency : [?FNG.JAP_mantetsu_resource_gain|=%+], la production de l'usine : [?FNG.JAP_mantetsu_factory_output|=%+]).\n"
-
-japfor.2.t:0 "L'exploitation économique du fengtian n'est plus possible".
-japfor.2.d:0 "Des nouvelles terribles ! En raison de notre perte de contrôle sur le gouvernement fengtien, nous ne pouvons plus exploiter ses ressources et son industrie pour soutenir les nôtres".
-japfor.2.a:0 "Merde !"
 
 japfor.3.t:0 "Le Japon offre une formation aux troupes"
 japfor.3.d:0 "Une délégation de [From.GetNameDef] est arrivée aujourd'hui pour former nos forces afin de les amener "au niveau nécessaire". C'est une offre difficile à refuser..."
@@ -410,7 +409,7 @@ japfor.29.d:0 "L'Asie doit réussir ! Nous préparons un ensemble de mémorandum
 japfor.29.a:0 "Présentez-le à la conférence".
 
 japfor.30.t:0 "Tokyo : Le Japon appelle à des liens économiques plus étroits".
-japfor.30.d:0 "Ou bien "Tokyo appelle à l'intégration économique" ? Quoi qu'il en soit, des propositions ont été présentées à la conférence, détaillant le désir du Japon d'établir des liens économiques plus étroits, allant au-delà des simples politiques commerciales que nous avons convenues. Cela pourrait être un grand pas, mais cela pourrait aussi être plus bénéfique pour l'économie [Root.GetAdjective] que la nôtre à long terme".
+japfor.30.d:0 "Ou bien "Tokyo appelle à l'intégration économique" ? Quoi qu'il en soit, des propositions ont été présentées à la conférence, détaillant le désir du Japon d'établir des liens économiques plus étroits, allant au-delà des simples politiques commerciales que nous avons convenues. Cela pourrait être un grand pas, mais cela pourrait aussi être plus bénéfique pour l'économie [From.GetAdjective] que la nôtre à long terme".
 japfor.30.a:0 "D'accord !"
 japfor.30.b:0 "Non ! (abandon de la conférence)"
 
@@ -1031,8 +1030,51 @@ japfor.453.d:0 "Le gouvernement lâche [From.GetAdjective] a choisi de ne rien f
 japfor.453.a:0 "Ainsi soit-il !"
 
 japfor.454.t:0 "Le Japon se prépare à l'attaque"
-japfor.454.d:0 "Rapports sur l'afflux de troupes japonaises préparant une invasion, sur la mise en place de plans et l'apport de munitions. Il est indéniable que dans quelques semaines, nous allons sentir toute la force des Japonais."
+japfor.454.d:0 "Des rapports de plus en plus fréquents en provenance de Tokyo, Yokohama et Nagasaki ont commencé à dresser un tableau inquiétant, celui de la mise en place de plans, de l'équipement des navires et du stockage de munitions. Ce sont des préparatifs de guerre. Dans quelques semaines, nous pourrions être confrontés à toute la force de l'armée impériale japonaise."
 japfor.454.a:0 "Nous avons très peu de temps pour nous préparer."
+
+japfor.455.t:0 "Le Japon semble préparer une attaque"
+japfor.455.d:0 "Nous avons recueilli des renseignements suggérant que le Japon cherche à prendre le contrôle de notre colonie dans les Indes orientales néerlandaises. Nos experts militaires nous avertissent que nous pourrions ne pas être en mesure de repousser une telle invasion, compte tenu de l'état des marines japonaise et gouvernementale et de la taille de l'armée japonaise. Ils nous suggèrent d'aller voir le kaiser et de le supplier de nous aider : leur intérêt, en maintenant le statu quo, s'aligne sur le nôtre et une prise de contrôle par les Japonais menacerait également leurs possessions. Cela pourrait être notre meilleure chance de maintenir notre possession coloniale."
+japfor.455.a:0 "Envoyer un message à Berlin !"
+japfor.455.b:0 "Ce n'est sûrement pas nécessaire..."
+
+japfor.456.t:0 "Les Néerlandais demandent de l'aide"
+japfor.456.d:0 "Les Hollandais ont découvert des preuves que les Japonais prévoient d'envahir leur colonie ; réalisant qu'ils ne seraient jamais capables de défendre leur colonie avec leur armée coloniale largement débordée et des moyens navals limités par rapport au Japon. Ils soulignent cependant qu'une prise de contrôle de leur colonie par les Japonais bouleverserait gravement notre propre situation défensive, et il ne fait aucun doute que les Japonais cherchent également à nous expulser de la région !"
+japfor.456.a:0 "Nous vous aiderons !"
+japfor.456.b:0 "Les sabotiers ne devraient pas avoir de colonies de toute façon...."
+
+japfor.457.t:0 "L'Allemagne apporte son aide"
+japfor.457.d:0 "Les Allemands ont accepté d'aider à protéger les Indes orientales néerlandaises contre la menace japonaise commune qui cherche à nous enlever notre colonie."
+japfor.457.a:0 "Un toast à nos amis !"
+
+japfor.458.t:0 "L'Allemagne refuse de nous protéger !"
+japfor.458.d:0 "Les Allemands nous ont fait savoir qu'il ne serait pas dans leur intérêt de donner leur protection à nos possessions coloniales dans les Indes. Il semble que nous soyons seuls !"
+japfor.458.a:0 "Nous pouvons défendre les Indes nous-mêmes, n'est-ce pas ?"
+
+japfor.459.t:0 "L'Indonésie fait cavalier seul"
+japfor.459.d:0 "Incapable ou peu désireuse d'obtenir de l'aide, l'Indonésie est maintenant seule. Leur armée n'est qu'une fraction de la taille de la nôtre et leurs dirigeants sont faibles ; rien ne nous arrêtera."
+japfor.459.a:0 "Banzai !"
+
+japfor.460.t:0 "L'Indonésie résiste avec le soutien de l'Allemagne"
+japfor.460.d:0 "Les Allemands ont accepté d'aider à protéger les Indes orientales néerlandaises contre nous ! Bien que nous puissions encore attaquer, nous devons réfléchir soigneusement à la question de savoir si nous sommes prêts à déclencher une telle guerre."
+japfor.460.a:0 "Nous ne serons pas influencés."
+japfor.460.b:0 "Ce n'est peut-être pas le moment."
+
+japfor.461.t:0 "Le Japon poursuit sa stratégie de division et de conquête"
+japfor.461.d:0 "Il semble que les revendications de longue date du Japon sur la légitimité de notre gouvernement, sans parler de la \"fraternité asiatique\", n'étaient que des paroles en l'air. Ils s'orientent maintenant vers une stratégie de division et de conquête pour toute la Chine. Notre Chine. Bien que cela indique que la guerre avec eux pourrait survenir plus tôt que nous ne le pensons, cela a également porté atteinte à la réputation de l'Association Concordia, nous donnant ainsi une plus grande marge de manœuvre."
+japfor.461.a:0 "Ils le regretteront."
+
+japfor.462.t:0 "Le Japon poursuit la stratégie Réduire en Cendres"
+japfor.462.d:0 "Les rumeurs d'exactions commises par les troupes japonaises contre des civils chinois nous parviennent depuis quelque temps déjà. Le consulat japonais à Mukden nous a toujours assuré que ces exactions étaient exagérées et que lorsque de tels crimes se produisaient, ils étaient le fait de troupes indisciplinées ; une exception plutôt que la norme. Cependant, le Japon a maintenant fait l'impensable.  Il a non seulement signalé son soutien ouvert à ces atrocités horribles, mais il les a codifiées dans le cadre d'une stratégie officielle. Une telle barbarie sans précédent ne peut être tolérée, et nous ne pouvons pas nous permettre d'être peints coupables par association. Heureusement, l'association projaponaise Concordia aura du mal à expliquer celle-ci, perdra de son influence au sein de notre gouvernement."
+japfor.462.a:0 "Nous devons sérieusement envisager une nouvelle direction."
+
+japfor.463.t:0 "Le Japon révise ses ambitions"
+japfor.463.d:0 "Se référant à des \"événements récents sur le continent\" non spécifiés comme justification, le gouvernement japonais a annoncé son intention de lancer un programme colonial global centré sur le Nord-Est, et incluant toutes les zones nouvellement sous administration japonaise. Bientôt, des arbres Sakura pourraient tapisser le Zhaode Dajie à Shenyang et le Tiannanmen à Pékin. Notre position exacte dans ce nouvel ordre n'est pas claire, mais nous ne subirons pas le même sort que la Corée ; les Japonais doivent partir, l'Association Concordia et tout le reste."
+japfor.463.a:0 "Le Japon a fait son choix."
+
+japfor.464.t:0 "Le Japon récompense notre loyauté"
+japfor.464.d:0 "Dans sa sagesse, le gouvernement japonais a décidé de récompenser notre loyauté, en nous rendant une terre qui nous revient de droit. Bien que nous soyons bien sûr heureux d'un tel geste, nous devons être prudents ; l'Association Concordia a ainsi obtenu un grand soutien, ce qui nous rendra plus difficile à l'avenir de nous opposer au Japon, si nous le souhaitons."
+japfor.464.a:0 "Cette terre aurait dû être la nôtre en premier lieu."
 
 ### Événements fengtiens ###
 japfeng.1.t:0 "Notre influence en Mandchourie"
