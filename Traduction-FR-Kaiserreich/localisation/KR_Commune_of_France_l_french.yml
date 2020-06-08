@@ -31,7 +31,6 @@ FRA_bad_intel_desc:0 "Depuis que le Parti de l'Ordre a tenté d'étouffer le sou
  FRA_to_war_idea:0 "Réarmement Revanchiste"
  FRA_to_war_idea_desc:0 "Notre nation doit se relever, si nous voulons vaincre les impérialistes !"
 
-#The three following ideas are extremely weird. Are they intended? Especially the third. Travailleurs and Sorelians both share it... I'm picking Travailleurs for now
 FRA_economic_reforms_anar:0 "Réformes économiques"
 FRA_economic_reforms_anar_desc:0 " De vastes réformes économiques ont été décidées lors de la réunion de 1936 de la Bourse Générale du Travail. Ces réformes ont déjà eu des effets notables sur notre économie, contribuant à la rendre plus dynamique et à la consolider."
 
@@ -79,6 +78,7 @@ FRA_empower_rifleman_idea_desc:0 "Le Fusilier est plus qu'un soldat avec un fusi
 
 FRA_military_academy_idea:0 "Académie militaire"
 FRA_military_academy_idea_desc:0 "Nous devons faire face à la dure réalité que la Weltkrieg a entraîné la chute de la plupart de nos prestigieuses académies militaires, bien que réactionnaires. Bien que certains prétendent qu'il s'agit d'un statu quo acceptable, nous le savons mieux que quiconque. Investissons dans de nouvelles académies militaires pour former des officiers qualifiés, pour l'avenir de l'armée communale."
+
 FRA_centralized_hc_idea:0 "Haut commandement centralisé"
 FRA_centralized_hc_idea_desc:0 "La nouvelle armée communale ne s'est pas construite comme l'ancienne armée française, beaucoup de communards en veulent à l'administration militaire qui a tenté d'étouffer la Commune, mais nous ne pouvons pas laisser notre corps des officiers brisé. Centralisons à nouveau notre Haut Commandement, pour mieux organiser ce que certains aiment oublier, comme la logistique."
 
@@ -132,6 +132,7 @@ FRA_peaceful_revolution_idea_desc:0 "La Révolution Syndicaliste Internationale 
 
 FRA_amateur_pilots_idea:0 "Pilotes amateurs"
 FRA_amateur_pilots_idea_desc:0 "Il y en a beaucoup dans notre pays qui se sont lancés dans l'aviation comme passe-temps ou comme profession, mais tous ne poursuivent pas une carrière dans la Force aérienne. Ils devraient de préférence être enrôlés dans notre armée de l'air, où leurs compétences augmenteront nos chances de trouver les nouveaux As de l'Air."
+
  FRA_ecole_air_idea:0 "École de l'Air"
 FRA_ecole_air_idea_desc:0 "Voler est une compétence en soi, et bien voler dans des conditions de combat est quelque chose qu'on ne peut pas apprendre du jour au lendemain. Nous ne répéterons pas les erreurs du Weltkrieg et de son boucher de pilotes novices, nous avons besoin d'un grand nombre de pilotes bien formés et d'officiers compétents pour les diriger."
 
@@ -154,7 +155,6 @@ FRA_phalanstere_NOR:0 "Aide à la Norvège"
 FRA_phalanstere_NOR_desc:0 "Nous fournissons actuellement une aide industrielle à nos frères norvégiens."
 
  COF_prodcsaplanes:0 "Fabrication d'aéronefs pour la CSA"
- COF_prodcsaplanes_desc:0 ""
 
  FRA_avantgarde_idea:0 "Avant-Garde de l'Internationale"
  FRA_avantgarde_idea_desc:0 "Un style artistique socialiste uni, de l'art à la musique, pourrait être un outil puissant qui aidera les masses du monde non-syndicaliste à s'intéresser à nos idéaux - par le divertissement."
@@ -176,7 +176,7 @@ FRA_sorelians:0 "Soréliens"
  FRA_parti_communiste:0 "PCF"
  FRA_parti_communiste_long:0 "Parti Communiste Français"
 
-### Flags/Misc ###
+### Flags ###
 ECO_SORE:0 "Politique économique sorélienne"
 ECO_JACO:0 "Politique économique jacobine"
 ECO_ANAR:0 "Politique économique anarchiste"
@@ -200,7 +200,6 @@ FRA_tech_marine_bonus:0 "Les Colonnes de Neptune"
 FRA_tech_marine_bonus_effect:0 "Actives §HLes Colonnes de Neptune\nMarines§!\n      Attaque légère: §G+5%§!\n      Attaque lourde: §G+5%§!\n"
 
 ### Focuses ###
-
 commune_of_france_focus:0 "Arbre de priorité de la Commune de France"
 
  FRA_amenagement:0 "Aménagement du Territoire"
@@ -430,6 +429,7 @@ comfrance.1.d:0 " La Troisième République finit comme elle avait commencé : v
 comfrance.5.t:0 "La Chute de Marceau Pivert"
 comfrance.5.d:0 "Malgré l'organisation réussie du Congrès Syndicaliste en mai, le gouvernement Pivert a été critiqué pour son manque de réaction face à la répression contre les syndicats en Allemagne. Aujourd'hui, l'opposition au sein de la Bourse Générale du Travail a accepté un vote de défiance à l'égard de Pivert, qui a annoncé que de nouvelles élections seront avancées pour élire un nouveau Comité. Ses fonctions seront assumées temporairement par le Comité de Salut Public jusqu'à ce que les derniers résultats soient connus."
 comfrance.5.a:0 "Au revoir, Camarade Pivert."
+
 comfrance.6.t:0 "Jour 1 : Clarifier l'armée communarde"
 comfrance.6.d:0 "En raison de la présence des syndicats au sein de l'armée communarde, elle est devenue trop politisée, créant des tensions au sein du Garant de l'intégrité nationale et du bras de la Révolution syndicaliste ! Le chef d'état-major sortant, le général populaire de la guerre civile Maurice Gamelin, a donc dû démissionner. Les chefs militaires syndicalistes français, majoritairement soréliens, ont décidé de demander aux militaires qui ils souhaitent voir diriger l'armée française, avant de dissoudre définitivement les organisations syndicales militaires."
 comfrance.6.a:0 "Paul Le Gentilhomme (Travailleur) - Défenseur des chars d'assaut."
@@ -652,7 +652,6 @@ comfrance.66.a:0 "Cachent-ils des bombes dans leurs turbans ?"
 comfrance.68.t:0 "La création du Comité musulman socialiste"
 comfrance.68.d:0 "Les syndicalistes français ont ranimé le Comité musulman de l'Internationale et nous y ont invités. Le nouveau comité diffusera la propagande socialiste dans le monde musulman et coordonnera l'aide aux partis régionaux de gauche. Ce pourrait être l'occasion idéale de gagner en crédibilité dans les milieux musulmans en Inde et à l'étranger. L'inconvénient de ce comité est la possibilité de galvaniser davantage les conflits religieux."
 comfrance.68.a:0 "Nous serons heureux de soutenir cette idée."
-comfrance.68.b:0 "Reste en dehors de ça."
 
  comfrance.69.t:0 "Nous avons été sabotés !"
  comfrance.69.d:0 "Ces sales petits rats de français ont récemment organisé un sabotage avec l'aide de syndicalistes français qui ont ranimé le comité musulman de l'Internationale et nous ont invités à y participer. Le nouveau comité diffusera la propagande socialiste dans le monde musulman et coordonnera l'assistance aux partis régionaux de gauche. Ce pourrait être l'occasion idéale de gagner en crédibilité dans les milieux musulmans, tant en Asie centrale qu'à l'étranger. L'inconvénient de ce comité est la possibilité d'un conflit religieux."
@@ -933,25 +932,25 @@ comfrance.164.a:0 "Ce sera le premier d'une longue série, le gouvernement s'en 
  comfrance.168.d:0 "Maintenant que les paris sont ouverts sur le soi-disant \"équilibre\" en Italie, [From.GetNameDef] a lancé une invitation officielle à [SRI.GetNameDef] pour qu'il rejoigne les rangs de la Troisième Internationale."
  comfrance.168.a:0 "Enfin !"
  comfrance.168.b:0 "À la réflexion, non..."
- 
+
  comfrance.169.t:0 "La demande [From.GetAdjective]"
  comfrance.169.d:0 "Maintenant que les paris sont ouverts sur le soi-disant \"équilibre\" en Italie, [From.GetNameDef] a lancé une invitation officielle à [SRI.GetNameDef] pour qu'il rejoigne les rangs de la Troisième Internationale."
  comfrance.169.a:0 "Enfin !"
  comfrance.169.b:0 "À la réflexion, non..."
 
- #French News#
+#French News#
  frenchnews.1.t:0 "Gamelin Marche sur Paris"
  frenchnews.1.d:0 "Il y a quelques jours, le général Maurice Gamelin, a lancé un coup d'État réussi contre le régime jacobin de Marcel Déat. Bien que cela semble être une attaque acharnée contre le système démocratique de la commune, beaucoup soutiennent que les Jacobins auraient détruit le système démocratique si Gamelin n'était pas intervenu. Gamelin a promis de restaurer le syndicalisme traditionnel en France, et le processus de dé-jacobinisation est déjà en cours. On ne sait toujours pas comment ses plans vont se concrétiser. Nous ne pouvons qu'attendre..."
  frenchnews.1.a:0 "Surprenant, c'est le moins qu'on puisse dire."
 
-###  Decisions  ###
+### Decisions ###
 
  FRA_liberate_europe_category:0 "Libération de l'Europe"
  FRA_liberate_europe_category_desc:0 "La victoire en Europe est à nous ! Les Etats de la bourgeoisie qui restent sont à notre merci et mûrs pour la destruction. Utilisons cette chance pour faire avancer la révolution et faire du grand continent européen notre forteresse du Socialisme."
 
  FRA_invade_liberation_target:0 "Attaquer [FROM.GetNameDef]"
  FRA_invade_liberation_target_desc:0 "[FROM.GetNameDefCap] est un régime faible et mortel prêt à être détruit, en avant !"
- 
+
  FRA_internationale_category:0 "Affaires de l'Internationale"
  FRA_internationale_category_desc:0 "L'alliance de tous les socialistes de notre monde est vraiment quelque chose de beau. Nous travaillerons ensemble pour faire du monde un endroit meilleur pour nous tous."
 
@@ -1023,30 +1022,30 @@ FRA_Haute_Savoie_Hydroelectricity_decision:0 "Construire des barrages en Haute-S
 FRA_Romandy_Hydroelectricity_decision:0 "Construire des barrages en Romandie"
 
 ### Cosmetic Tags ###
-FRP_GER_authoritarian_democrat:0 "Royaume Français"
-FRP_GER_authoritarian_democrat_ADJ:0 "Française"
-FRP_GER_authoritarian_democrat_DEF:0 "Royaume Français"
-FRP_GER_market_liberal:0 "Royaume Français"
-FRP_GER_market_liberal_ADJ:0 "Française"
-FRP_GER_market_liberal_DEF:0 "Royaume Français"
 FRP_GER_national_populist:0 "Royaume Français"
 FRP_GER_national_populist_ADJ:0 "Française"
 FRP_GER_national_populist_DEF:0 "Royaume Français"
 FRP_GER_paternal_autocrat:0 "Royaume Français"
 FRP_GER_paternal_autocrat_ADJ:0 "Française"
 FRP_GER_paternal_autocrat_DEF:0 "Royaume Français"
-FRP_GER_radical_socialist:0 "France"
-FRP_GER_radical_socialist_ADJ:0 "Française"
-FRP_GER_radical_socialist_DEF:0 "France"
+FRP_GER_authoritarian_democrat:0 "Royaume Français"
+FRP_GER_authoritarian_democrat_ADJ:0 "Française"
+FRP_GER_authoritarian_democrat_DEF:0 "Royaume Français"
 FRP_GER_social_conservative:0 "Royaume Français"
 FRP_GER_social_conservative_ADJ:0 "Française"
 FRP_GER_social_conservative_DEF:0 "Royaume Français"
-FRP_GER_social_democrat:0 "Royaume Français"
-FRP_GER_social_democrat_ADJ:0 "Française"
-FRP_GER_social_democrat_DEF:0 "Royaume Français"
+FRP_GER_market_liberal:0 "Royaume Français"
+FRP_GER_market_liberal_ADJ:0 "Française"
+FRP_GER_market_liberal_DEF:0 "Royaume Français"
 FRP_GER_social_liberal:0 "Royaume Français"
 FRP_GER_social_liberal_ADJ:0 "Française"
 FRP_GER_social_liberal_DEF:0 "Royaume Français"
+FRP_GER_social_democrat:0 "Royaume Français"
+FRP_GER_social_democrat_ADJ:0 "Française"
+FRP_GER_social_democrat_DEF:0 "Royaume Français"
+FRP_GER_radical_socialist:0 "France"
+FRP_GER_radical_socialist_ADJ:0 "Française"
+FRP_GER_radical_socialist_DEF:0 "France"
 FRP_GER_syndicalist:0 "France"
 FRP_GER_syndicalist_ADJ:0 "Française"
 FRP_GER_syndicalist_DEF:0 "France"

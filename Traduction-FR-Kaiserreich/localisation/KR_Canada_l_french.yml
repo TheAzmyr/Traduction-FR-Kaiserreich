@@ -230,7 +230,6 @@ CAN_iedc_none:0 ""
  CAN_supported_during_ACW:0 "Le §YCanada§! a déclaré leur soutien pendant la guerre"
  CAN_returned_land:0 "Le §YCanada§! leur a rendu leurs territoires Américains après la guerre (n'incluant par l'Alaska et la Nouvelle-Angleterre, s'ils ont été saisis au début de la guerre)"
  CAN_will_return_ACW_land:0 "§RNOTE: s'ils acceptent notre demande d'adhésion à l'Entente, nous leur rendrons toutes les terres américaines que nous ne revendiquons pas nous-mêmes.§!\n"
- CAN_owns_no_claimed_land:0 "§Y[CAN.GetNameDef]§! ne possède aucun territoire revendiqué"
  CAN_controls_state_uob:0 "§Y[CAN.GetNameDef]§! contrôle au moins un État sur le territoire de la Grande-Bretagne métropolitaine. §Y[ENG.GetName]§!"
  CAN_loyalists_spawn_eng:0 "7 divisions des rebelles loyalistes vont apparaître dans le centre de l'Angleterre"
  CAN_loyalists_spawn_sct:0 "7 divisions des rebelles loyalistes vont apparaître dans le nord de l'Écosse"
@@ -268,7 +267,7 @@ GBR_PM_Attlee:0 "Clement Attlee"
  NAME_THEME_HISTORICAL_X1TYPE_SUBMARINES:0 "Sous-marins historiques de type X1"
  NAME_THEME_PROVINCES:0 "Provinces"
 
- AI_OPTION:0 "Option AI uniquement"
+#AI_OPTION:0 "AI Option Only" already defined in the Australian loc file
 
 ### Traits ###
  CAN_autocratic_tendencies:0 "Tendances autocratiques"
@@ -283,7 +282,6 @@ GBR_PM_Attlee:0 "Clement Attlee"
 
 ### Ideas ###
  CAN_iedc_main:0 "Chef de l'IEDC"
- CAN_iedc_const:0 "Ingénieurs de l'IEDC"
  CAN_iedc_econ1:0 "Conseillers économiques de l'IEDC"
  CAN_iedc_econ2:0 "Conseillers économiques de l'IEDC"
  CAN_iedc_econ3:0 "Conseillers économiques de l'IEDC"
@@ -531,15 +529,12 @@ CAN_direct_exiles_tt:0 "Dirigera les Exilés britanniques pour soit accroître l
 CAN_tour_effect_ROOT_tt:0 "Augmentera la stabilité de §Y[Root.GetNameDef]§!, le soutien de guerre, la vitesse de mobilisation et le moral de l'armée pendant une année complète. D'autres événements peuvent également se produire pendant la tournée de §Y[CAN_king_full_name]§!.\n"
 CAN_tour_effect_FROM_tt:0 "Augmentera la stabilité de §Y[From.GetNameDef]§!, le soutien de guerre, la vitesse de mobilisation et le moral de l'armée pendant une année complète. D'autres événements peuvent également se produire pendant la tournée de §Y[CAN_king_full_name]§!.\n"
 
-
 CAN_iedc_decisions:0 "L'IEDC"
 CAN_iedc_decisions_desc:0 "Le Conseil impérial de développement économique permet à ses membres de mettre en commun leurs ressources économiques, sur les instructions du gouvernement [iedc_leader.GetAdjective]. Tous les coûts du pouvoir politique pour les décisions de l'IEDC sont tirés du pool de l'IEDC : [CAN_iedc1][CAN_iedc2][CAN_iedc3][CAN_iedc4][CAN_iedc5][CAN_iedc6][CAN_iedc7][CAN_iedc8][CAN_iedc9][CAN_iedc10][CAN_iedc11][CAN_iedc12][CAN_iedc13][CAN_iedc14][CAN_iedc15]\n [Pouvoir politique actuel de l'IEDC : £pol_power §Y[ ?global.iedc_pp]§!"
 CAN_invite_into_iedc:0 "Inviter [From.GetNameDef] à l'IEDC"
 CAN_invite_into_iedc_desc:0 "Nous devrions inviter le gouvernement [From.GetAdjective] à rejoindre l'IEDC".
 CAN_leave_iedc:0 "Quitter l'IEDC"
 CAN_leave_iedc_desc:0 "Le temps est venu de quitter l'IEDC. Il est inutile que nous restions dans une organisation qui ne fait rien pour nous".
-CAN_iedc_economic_advisors:0 "Envoyez les conseillers de l'IEDC à [From.GetNameDef]".
-CAN_iedc_economic_advisors_desc:0 "L'IEDC nous donne accès à un large éventail de conseillers économiques, d'ingénieurs et de techniciens. Si nous envoyons certains d'entre eux à [From.GetNameDef], cela aidera le gouvernement [From.GetAdjective] de la manière qu'il aura choisie. Attitude envers l'IEDC : [CAN_iedc_happiness] Dernière contribution à l'IEDC : £pol_power §Y[?From.iedc_contribution]§!"
 CAN_iedc_economic_investment:0 "Investissement de l'IEDC dans [From.GetNameDef]"
 CAN_iedc_economic_investment_desc:0 "La mise en commun de nos ressources peut permettre aux pays membres d'accéder à des ressources industrielles au-delà de leurs moyens normaux, mais seulement tant qu'elles restent dans l'Entente. Cela peut être utilisé plus d'une fois pour les pays qui ont une base industrielle plus importante au départ.: [CAN_iedc_happiness]\nDernière contribution à l'IEDC: £pol_power §Y[?From.iedc_contribution]§!"
 CAN_iedc_economic_investment_home:0 "Investissement de l'IEDC dans [Root.GetNameDef]"
@@ -1110,31 +1105,10 @@ canada.102.d.ringleader:0 "Les enquêteurs de la GRC ont eu le plaisir d'annonce
 canada.102.a:0 "Incroyable"
 canada.102.b:0 "Enfin de bonnes nouvelles !"
 canada.104.t:0 "La conférence de Montréal"
-canada.104.d:0 "Des membres du gouvernement fédéral ont rencontré aujourd'hui à Montréal le premier ministre du Québec, Maurice Duplessis, et un large éventail de politiciens et d'activistes canadiens-français, afin de tenter de faire le point sur les différences entre les Canadiens français et anglais. Le sujet de la conscription a été évoqué à plusieurs reprises, mais dans l'ensemble, les Québécois ont eu le sentiment d'être un partenaire inégalitaire dans la Confédération. Si les esprits se sont échauffés à plusieurs reprises au cours de la conférence, les délégués fédéraux sont repartis avec le sentiment que des progrès avaient été accomplis et qu'il y avait au moins une possibilité de réconciliation... à condition que le gouvernement soit prêt à accorder aux Canadiens français un statut spécial, tant pour la langue française que sur le plan politique"
-canada.104.a:0 "C'est beaucoup demander..."
-canada.105.t:0 "Statut spécial pour le Québec"
-canada.105.d:0 "canada.76.d:0 "Avec leur défaite aux dernières élections, les conservateurs ont le sentiment que leur parti est au plus bas. Après avoir rassemblé les fidèles du parti lors de leur convention annuelle, ils ont décidé d'élire le premier ministre du Manitoba, John Bracken, comme nouveau chef - mais il a accepté de rejoindre le parti et de servir uniquement si le parti change de nom pour devenir le Parti progressiste-conservateur. Ce changement de nom, pense-t-on, pourrait rendre le parti plus acceptable pour les électeurs du Québec, auxquels les conservateurs ont traditionnellement du mal à s'adresser".
-canada.76.a:0 "Bonne chance avec ça"
-canada.77.t:0 "Le roi [CAN_king_first_name] remplace le Premier ministre britannique"
-canada.77.d:0 "Plusieurs conflits récents entre le Premier ministre britannique [GetBritishExilePM] et le roi [CAN_king_first_name] ont conduit le Premier ministre à décider finalement qu'il n'avait d'autre recours que de démissionner de son poste. Le roi l'a remercié pour ses services à la cause britannique, puis a nommé Robert Vansittart à ce poste. Ce remplacement intervient au moment du plus grand bouleversement de la structure du pouvoir des Britanniques en exil depuis leur arrivée au Canada en 1926, et comme Vasittart commence à apporter des changements au cabinet du Conseil privé en exil, les répercussions se feront certainement sentir dans tout le gouvernement".
-canada.77.a:0 "Intéressant"
-canada.100.t:0 "Le Québec en flammes"
-canada.100.d:0 "Partout au Québec, les Canadiens français sont descendus dans la rue pour protester massivement contre la politique de conscription du pays. Rien qu'à Montréal, une foule massive a rempli la rue Sainte-Catherine en scandant des slogans contre le premier ministre et le roi [CAN_king_first_name]. C'est une reconstitution de la crise de la conscription de 1917, bien que cette fois-ci, il semble que les Canadiens français aient perdu patience. Nous sommes sans cesse appelés à verser le sang français au nom des guerres anglaises en Europe ! a déclaré le premier ministre du Québec, Maurice Duplessis, à une foule nombreuse et en colère dans la ville de Québec. Nous disons non, et ils nous disent que nous devons le faire ! Le Québec ne sera jamais libéré de la tyrannie anglaise tant qu'il sera le chien de garde des politiciens anglais".
-canada.100.a:0 "Je suppose que nous aurions dû le voir venir"
-canada.102.t.civ:0 "Plus de violence dans [french_state.GetName]".
-canada.102.t.armes:0 "Bombardements en [french_state.GetName]"
-canada.102.t.riots:0 "Emeutes en [french_state.GetName]"
-canada.102.t.ringleader:0 "Capture des meneurs québécois".
-canada.102.d.civ:0 "La violence anti-gouvernementale continue, cette fois dans la région [french_state.GetName]. Un grand groupe de marcheurs canadiens-français a mis le feu à plusieurs usines, causant des dommages considérables avant que les forces de la GRC ne puissent disperser le groupe et ramener l'ordre dans la région. Les tensions dans la région [french_state.GetName] restent élevées".
-canada.102.d.arms:0 "Des équipes d'urgence ont été appelées à se rendre dans une usine d'armement à [french_state.GetName] cette semaine, une énorme explosion ayant ravagé l'installation, causant de nombreux dégâts. La direction de l'usine accuse un groupe de ses propres travailleurs canadiens-français, bien que les enquêteurs de la GRC n'en aient pas encore trouvé la preuve".
-canada.102.d.riots:0 "Une série de manifestations à [french_state.GetName] ont tourné à la violence cette semaine, entraînant des affrontements avec les forces militaires et la GRC. Un couvre-feu a été instauré dans plusieurs villes, et si un ordre précaire a finalement été rétabli, les dégâts causés par les émeutiers ont laissé des traces dans la région".
-canada.102.d.ringleader:0 "Les enquêteurs de la GRC ont eu le plaisir d'annoncer qu'un groupe d'activistes canadiens-français a été arrêté à [french_state.GetName], chefs de file d'une récente série de manifestations violentes et d'attentats à la bombe. Les arrestations ont déjà déclenché une autre série de protestations, les Canadiens français se présentant en masse pour demander au gouvernement de libérer immédiatement les militants "patriotiques"".
-canada.102.a:0 "Incroyable"
-canada.102.b:0 "Enfin de bonnes nouvelles !"
-canada.104.t:0 "La conférence de Montréal"
 canada.104.d:0 "Des membres du gouvernement fédéral ont rencontré aujourd'hui à Montréal le premier ministre du Québec, Maurice Duplessis, et un large éventail de politiciens et d'activistes canadiens-français, afin de tenter de faire le point sur les différences entre les Canadiens français et anglais. Le sujet de la conscription a été évoqué à plusieurs reprises, mais dans l'ensemble, les Québécois ont eu le sentiment d'être un partenaire inégalitaire dans la Confédération. Si les esprits se sont échauffés à plusieurs reprises au cours de la conférence, les délégués fédéraux sont repartis avec le sentiment que des progrès avaient été accomplis et qu'il y avait au moins une possibilité de réconciliation... à condition que le gouvernement soit prêt à accorder aux Canadiens français un statut spécial, tant pour la langue française que sur le plan politique".
 canada.104.a:0 "C'est beaucoup demander..."
 canada.105.t:0 "Statut spécial pour le Québec"
+canada.105.d:0 "Avec leur défaite aux dernières élections, les conservateurs ont le sentiment que leur parti est au plus bas. Après avoir rassemblé les fidèles du parti lors de leur convention annuelle, ils ont décidé d'élire le premier ministre du Manitoba, John Bracken, comme nouveau chef - mais il a accepté de rejoindre le parti et de servir uniquement si le parti change de nom pour devenir le Parti progressiste-conservateur. Ce changement de nom, pense-t-on, pourrait rendre le parti plus acceptable pour les électeurs du Québec, auxquels les conservateurs ont traditionnellement du mal à s'adresser".
 canada.105.a:0 "Remercions le ciel pour cela !"
 canada.106.t:0 "La répression des Canadiens français"
 canada.106.d:0 "sur ordre du gouvernement fédéral, la GRC et les forces armées canadiennes se sont installées en grand nombre au Québec. Les rues sont patrouillées, les grands rassemblements dispersés, et la force est utilisée lorsque c'est absolument nécessaire pour maintenir l'ordre. Les images de violence qui font la une des journaux ne plaisent pas à beaucoup de Canadiens, mais la plupart admettent qu'il ne semble pas y avoir beaucoup d'alternatives pour le moment. Nous ne pouvons pas négocier avec la violence, a déclaré le Premier ministre à la Chambre des communes, et cela semble être la fin de tout cela".
