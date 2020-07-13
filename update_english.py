@@ -54,6 +54,7 @@ def main(args):
             shutil.copyfile(os.path.join(unzip_mod_dir, 'localisation', file),
                             os.path.join(args.mod, 'localisation', file))
     if os.path.exists(os.path.join(unzip_mod_dir, 'localisation', 'replace')):
+        os.makedirs(os.path.join(args.mod, 'localisation', 'replace'), exist_ok=True)
         for file in os.listdir(os.path.join(unzip_mod_dir, 'localisation', 'replace')):
             if file.endswith('l_english.yml'):
                 i += 1
