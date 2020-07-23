@@ -37,10 +37,13 @@ GER_address_reichstag_desc:0 "Bien que nous ayons mis en œuvre les mesures pré
 
 german_eco_finished:0 "La reprise économique"
 german_eco_finished_desc:0 "Notre économie a reçu de nouvelles incitations et, une fois de plus, des liquidités ont commencé à circuler. Ce boom nous aidera grandement à nous remettre des pertes énormes que nous avons subies lors du Lundi noir."
+
 GER_Sie_Contracts:0 "Favoritisme de Siemens"
 GER_Sie_Contracts_desc:0 "Notre économie a reçu de nouvelles incitations et, une fois de plus, des liquidités ont commencé à circuler, Siemens nous ayant beaucoup aidés. Nous leur rendrons cette gentillesse en leur accordant la première préférence dans les contrats industriels."
+
 GER_invest_arms_industry:0 "Complexe militaro-industriel"
 GER_invest_arms_industry_desc:0 "En investissant davantage dans notre industrie de l'armement, nous avons obtenu les moyens de produire les armes dont nous aurons besoin pour relever les défis auxquels l'Allemagne sera confrontée."
+
 GER_bunkrupt_fact:0 "Effondrements d'entreprises importantes"
 
 GER_rhine_unrest:0 "Grève des travailleurs rhénans"
@@ -278,6 +281,7 @@ GER_raised_tarrifs:0 "Tarifs majorés"
 Ostraum_more_liberties:0 "Libertés concédées"
 Ostraum_denied_liberties:0 "Libertés refusées"
 ott_ger_statusquo:0 "Maintenir le status-quo au Moyen-Orient"
+ egy_ger_statusquo:0 "Upheld the status-quo in the Middle-East"
 
 ### Parties ###
 GER_totalist_party:0 "RAM"
@@ -308,6 +312,8 @@ GER_national_populist_party_long:0 "Alldeutscher Verband"
 ### Decisions ###
 GER_send_support_to_bulgaria:0 "Envoyer l'assistance à la Bulgarie"
 GER_send_support_to_bulgaria_desc:0 "Bien qu'ils n'aient pas changé la donne, la Bulgarie est restée notre fidèle alliée pendant la Weltkrieg, et ils ne sont pas menacés par l'invasion serbe. Root.GetNameDefCap] n'oublie pas ses amis, et nous irons aider le Tsar immédiatement !"
+
+ GER_join_kaiser_wilhelm_society:0 "Join the Kaiser Wilhelm Society"
 
 french_occupation_decisions:0 "L'occupation française"
 french_occupation_decisions_desc:0 "La résistance se poursuit sur le territoire de[FRA.GetNameDef]. A moins de vaincre l'ensemble de la Troisième Internationale, il serait possible d'éroder la légitimité du gouvernement communiste en exil au point que les forces de résistance en France se rendent complètement.\n\n\n\n\n\n L'actuelle §YLégitimité§! de[FRA.GetNameDef]:0"
@@ -1226,31 +1232,6 @@ gerfor.16.d:0 "Les Allemands ont réussi un important coup d'État diplomatique 
 gerfor.17.t:0 "Commune de France Ignorant l'Ultimatum espagnol"
 gerfor.17.d:0 "Malgré notre condamnation publique de l'invasion du royaume espagnol par les Communards et l'ultimatum qui a suivi, les Français ont refusé de retirer leurs forces. La possibilité de la perte d'une autre monarchie européenne ne peut plus être écartée, et c'est maintenant à nous de décider comment réagir à ce rejet flagrant de l'hégémonie allemande."
 
-gerfor.18.t:0 "Libération de la Flandre-Wallonienne"
-gerfor.18.d:0 "Nous avons repris Flandern-Wallonien à nos ennemis communards. L'effondrement de notre régime dans le royaume représentait une menace dangereuse pour notre fortune sur le front occidental, et cette victoire a déjà grandement amélioré le moral des Allemands. La question est maintenant de savoir si nous devons le libérer, le diviser ou le garder pour nous."
-gerfor.18.a:0 "Libérez-les ! Flandern-Wallonien se bat à nouveau !"
-gerfor.18.b:0 "Diviser la Flandre et la Wallonie."
-gerfor.18.c:0 "Nous les occuperons, du moins pour l'instant."
-
-#gerfor.19.t:0 "Fate of Southern Wallonia"
-#gerfor.19.d:0 "With the situation stabilised on the western front to an extent, the time has come to settle a long unresolved issue. Should we give the provinces of southern Wallonia back to their rightful owner in the name of peace or shall we make clear our plans of fully integrating this province into the German Empire as a new federal state?"
-#gerfor.19.a:0 "Return it to its rightful owner."
-#gerfor.19.b:0 "Integrate Deutsch-Wallonia."
-
-#gerfor.20.t:0 "German Returns Southern Wallonia"
-#gerfor.20.d:0 "With the Reichspakt standing relatively strong on the western front Germany has seen fit to return the southern Wallonian provinces seized to us. Cities such as Bastogne and Malmedy, seized after the Peace With Honour, are finally back in our hands."
-#gerfor.20.a:0 "Such kindness!"
-
-#gerfor.22.t:0 "Partition of the Netherlands"
-#gerfor.22.d:0 "After much fighting have finally taken control of the Netherlands. Perhaps should we split it with our loyal ally Flandern-Wallonien?"
-#gerfor.22.a:0 "Partition it."
-#gerfor.22.b:0 "Restore a Dutch state."
-#gerfor.22.c:0 "Military occupation is preferable."
-
-#gerfor.23.t:0 "Partition of the Netherlands"
-#gerfor.23.d:0 "The Germans have chosen to hand over to us our rightful part of the Netherlands. We cannot exactly say we were expecting such benevolence from the Reich, but it is mostly certainly welcome."
-#gerfor.23.a:0 "Neat."
-
 gerfor.24.t:0 "L'ennemi aux portes"
 gerfor.24.d:0 "Les Russes ont atteint l'Oder. Il y a eu peu de panique pure et simple à Berlin, mais il est clair que, sans contre-attaque, l'Allemagne est gravement menacée. Les dernières réserves d'approvisionnement ont été distribuées aux bénévoles et tout le monde participe à ce dernier effort pour défendre le Vatherland."
 gerfor.24.a:0 "Pas un pas en arrière !"
@@ -1524,24 +1505,6 @@ gerfor.85.a:0 "Je crains qu'une autre pénurie de pétrole ne se produise."
 gerfor.86.t:0 "La Roumanie a perdu le contrôle de ses champs pétroliers"
 gerfor.86.d:0 "Les Roumains nous ont envoyé des cargaisons de pétrole pour maintenir notre économie civile et de guerre en bonne santé. Cependant, ils ont récemment perdu le contrôle de leurs approvisionnements en pétrole. Déjà, le gouvernement et les entreprises se préparent à une autre pénurie de pétrole."
 gerfor.86.a:0 "Putain. Pourquoi c'est toujours l'huile ?"
-
-gerfor.87.t:0 "La restauration roumaine et le Reichspakt"
-gerfor.87.d:0 "Avec la reprise du contrôle par le Roi et l'éviction de la Garde de Fer, le moment est venu de décider si oui ou non nous nous rangeons du côté de la première puissance militaire en Europe. L'adhésion au Reichspakt pourrait nous offrir de nombreux avantages, notamment en termes commerciaux, et elle nous permettrait de garantir notre indépendance face à des ennemis extérieurs. Le Reichspakt est tout de même considéré, à juste titre, comme une voie vers la domination allemande."
-gerfor.87.a:0 "Rejoignez le Reichspakt."
-gerfor.87.b:0 "Nous ne serons pas la prochaine Pologne."
-
-gerfor.88.t:0 "Le Royaume de Roumanie nous donne du pétrole"
-gerfor.88.d:0 "Après avoir demandé au Royaume de Roumanie de reprendre les expéditions de pétrole, ils ont donné leur accord."
-gerfor.88.a:0 "Excellent."
-
-gerfor.90.t:0 "La Roumanie a perdu le contrôle de ses champs pétroliers"
-gerfor.90.d:0 "Le Royaume de Roumanie nous a envoyé des cargaisons de pétrole pour maintenir notre économie civile et de guerre en bonne santé, conformément à notre nouveau traité signé. Cependant, ils ont récemment perdu le contrôle de leurs approvisionnements en pétrole. Déjà, le gouvernement et les entreprises se préparent à une autre pénurie de pétrole et la bourse est en effervescence avec des courtiers qui paniquent."
-gerfor.90.a:0 "Pas le pétrole ! Et la Roumanie aussi, je suppose..."
-gerfor.90.b:0 "Il n'y a rien à faire."
-
-gerfor.89.t:0 "La Roumanie rejette notre offre"
-gerfor.89.d:0 "Après avoir envoyé une offre de reprise des expéditions de pétrole, le Royaume de Roumanie a osé nous refuser !"
-gerfor.89.a:0 "Ils vont payer pour cette insulte !"
 
 gerfor.112.t:0 "L'Allemagne propose une aide pour le pétrole"
 gerfor.112.d:0 "L'Allemagne s'est adressée à notre gouvernement pour lui offrir une aide militaire en échange de livraisons ininterrompues de pétrole et de la possibilité pour les entreprises allemandes d'exploiter les gisements inutilisés. Que devrions-nous dire en réponse ?"
@@ -1825,19 +1788,6 @@ gerfor.151.a:0 "Super."
 gerfor.152.t:0 "Le Yémen en déclin"
 gerfor.152.d:0 "Malheureusement, le Yémen a décidé de refuser notre offre."
 gerfor.152.a:0 "Très bien."
-
-gerfor.153.t:0 "Une invitation au Reichspakt"
-gerfor.153.d:0 "En raison du réchauffement des relations germano-roumaines, nous avons reçu une invitation de l'Empire allemand à rejoindre leur alliance militaire, le Reichspakt. En raison de notre contrôle des champs pétroliers de Ploiesti et de notre position stratégique dans les Balkans, les Allemands pensent que nous pourrions être des " partenaires " utiles. Bien entendu, nous aurions aussi intérêt à être en sécurité sous le formidable parapluie militaire allemand. La question est de savoir si une alliance est dans notre intérêt à l'heure actuelle."
-gerfor.153.a:0 "Rejoignons le club."
-gerfor.153.b:0 "Ce n'est pas dans notre intérêt."
-
-gerfor.154.t:0 "La Roumanie rejoint le Reichspakt"
-gerfor.154.d:0 "Les Roumains ont accepté notre offre de rejoindre le Reichspakt."
-gerfor.154.a:0 "Super !"
-
-gerfor.155.t:0 "La Roumanie décline"
-gerfor.155.d:0 "La Roumanie a décliné notre offre assez généreuse de rejoindre le Reichspakt. Peut-être avons-nous été trop optimistes en pensant que la Garde de Fer prendrait des décisions rationnelles."
-gerfor.155.a:0 "Scheiße !"
 
 gerfor.156.t:0 "L'Allemagne propose à nouveau l'offre"
 gerfor.156.d:0 "L'Allemagne, apparemment réticente à abandonner, nous a proposé que des conseillers allemands aient le contrôle direct de nos champs pétroliers. Il semble que la tension soit à son paroxysme, et le fait de dire qu'il n'y a plus de temps à perdre pourrait mener à la guerre."

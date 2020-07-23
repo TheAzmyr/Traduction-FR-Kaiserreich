@@ -186,6 +186,10 @@
  LEC_more_evidence_eisentrager:0 "Cela nous donnera plus de preuves sur Lothar Eisentrager"
  LEC_more_evidence_brits:0 "Cela nous donnera plus de preuves sur les hommes d'affaires britanniques"
 
+ yuesheng_unavailable:0 "Du Yuesheng is no longer at liberty to help us"
+ xiaolin_unavailable:0 "Zhang Xiaolin is no longer at liberty to help us"
+ jinrong_unavailable:0 "Huang Jinrong is no longer at liberty to help us"
+
  LEC_surrender_to_china:0 "Nous rendrons les obligations du Mandat au gouvernement chinois. Ce sera la fin du jeu."
  LEC_war_tooltip:0 "Contrôlé par §Ytout bailleur de fonds du Conseil des Légations§!"
 
@@ -480,8 +484,6 @@ LEC_remove_japan_motion:0 "Retrait de l'Empire japonais du Conseil des légation
 LEC_remove_germany_motion:0 "Suppression de l'empire germanique du Conseil des légations"
 LEC_restore_america_motion:0 "Rétablissement du droit de vote des Américains au Conseil des Légations"
 LEC_belgium_vote:0 "Suppression de [BEL.GetNameDef] du Conseil des Légations"
-LEC_standard_dollar_motion:0 "Normalisation du dollar américain"
-LEC_standard_yuan_motion:0 "Normalisation du Yuan de Shanghai"
 
 ### Events ###
  lec.1.t:0 "S'ouvrir au monde des affaires !"
@@ -974,6 +976,90 @@ LEC_standard_yuan_motion:0 "Normalisation du Yuan de Shanghai"
  lec.107.b:0 "Il suffit d'interdire leurs publications politiques manifestes."
  lec.107.c:0 "L'art est un terme relatif, qu'ils soient..."
 
+ lec.108.t:0 "The Isolated Mandate"
+ lec.108.d:0 "With the defeat or removal of all members of the Legation Council, the International Mandate for the Chinese Concessions now serves no purpose. Although many exiles and expats would prefer that the cities remain independent, under their own government, I'm too lazy to code that and furthermore it would be diplomatically infeasible. Consequently, High Commissioner [LEC.GetLeader] has made the decision to return the cities occupied by the Mandate to the Chinese government."
+ lec.108.a:0 "We had a good run."
+
+ lec.109.t:0 "The Legation Council's Decison on Russian Voting Rights"
+ lec.109.d.success:0 "Following our subjugation at the hands of the Japanese, the Legation Council has decided that we are no longer worthy of having a seat in their ranks in Shanghai. In fact, Ivan Luganets-Orelsky, our ambassador in Shanghai, has defected to the Moscow regime, in order to keep his comfortable lifestyle. This is in general emblematic of our falling international legitimacy, and our transformation into just another part of the Japanese Empire."
+ lec.109.d.fail:0 "Following our subjugation at the hands of the Japanese, the Muscovite ambassador at the Legation Council has attempted to convince the rest of that body that we are no longer worthy of having a seat in their ranks in Shanghai. Happily, however, he failed, possibly due to Japanese influence. As such, we are still recognized as a possible Russian government internationally."
+ lec.109.a:0 "Damn!"
+ lec.109.b:0 "That's a relief."
+
+ lec.110.t:0 "Restoring the Transamurian Vote?"
+ lec.110.d:0 "When the Legation Cities were founded, Russia, as a nation with Chinese concessions, was naturally given voting rights on the Council. Unfortunately, there were two Russias at the time. While Kerenskiy's Russian Republic had more international recognition, Admiral Kolchak's Vladivostok regime was far closer, being able to actually occupy the concessions, and had the support of Tokyo. This resulted in both governments being granted the same sort of observer rights given to the Canadians and Australasians. Now that the eastern [TRM.GetNameDef] is indisputably the only Russia remaining which has any interest in maintaining its position in Tianjin, however, the ambassador from Vladivostok has urged us to restore voting rights to his government. \n\nSince this is quite a substantive matter, it is technically supposed to go through the Legation Council. However, since it is unlikely that Germany, a rival of the Russians and Japanese, would ever let it pass, we can instead simply let the Chair of the Legation Council push it through on a Point of Order. While this would provide a powerful new voter with no ties to the Germans, and would please the Japanese, it would probably upset some powers on the Council."
+ lec.110.a:0 "The Legation Council must vote."
+ lec.110.b:0 "This is solely a procedural matter."
+
+ lec.111.t:0 "The Legation Council Votes on Restoring the [TRM.GetAdjective] Voting Rights"
+ lec.111.d.notjapan:0 "For years, the Russian voice on the Legation Council has been split between Admiral Kolchak's [TRM.GetName] and [RUS.GetNameDef]. Now that the latter has been eliminated from the world stage, however, it would seem only proper for the Russian voting rights to be restored to the legitimate eastern government. However, Transamur is undoubtedly a geopolitical threat to the nations of Eurasia, and some question if it would be wise to so easily grant them more influence."
+ lec.111.d.japan:0 "For years, the Russian voice on the Legation Council has been split between our ally Admiral Kolchak's state of Transamur and [RUS.GetNameDef]. Now that the Moscow regime is no longer in a position to claim to be the proper White Russian government, the Chair of the Legation Council has decided that Vladivostok's voting rights should be restored. We should be pleased that our influence has stretched far enough to pull off this coup."
+ lec.111.a:0 "We will vote with care."
+
+ lec.112.t:0 "The Legation Council Votes on Restoring Our Vote"
+ lec.112.d:0 "For years, we have had only observer rights on the Legation Council in Shanghai, even though we have Chinese concessions. They claimed that the reason for this disrespect were the competing claims of we and the hostile Moscow regime of Kerensky and his republicans. Now that Moscow no longer disputes our claims to be the one true White Russia, however, the Chair has decided to call for a vote on whether or not to restore our rights. If there is any justice in this world, we will naturally regain them, but we cannot discount the malice and jealousy of Berlin."
+ lec.112.a:0 "Let the Council see sense."
+
+ lec.113.t:0 "The Results of the Vote on [TRM.GetAdjective] Voting Rights"
+ lec.113.d:0 "The vote on whether or not to restore voting rights to the Transamurian government has ended. Smaller states supported the motion as an invaluable counterbalance against Germany, but many major powers followed their lead as well. In the end, it seems the motion has been..."
+ lec.113.a:0 "Accepted!"
+ lec.113.b:0 "Denied."
+
+ lec.114.t:0 "[TRM.GetName] is Granted Voting Rights on the Legation Council"
+ lec.114.d:0 "It seems that the Legation Council has granted [TRM.GetName] the right to vote on the Legation Council, as the former Moscow regime is no longer is in a position to dispute the issue. While this is undoubtedly correct procedure, not consulting the Council for a vote sets a worrying precedent, and threatens Japanese and German precedence in the Council. Unfortunately, however, we have no choice but to accept this for now."
+ lec.114.a:0 "It cannot happen again."
+
+ lec.115.t:0 "Our Voting Rights Are Restored!"
+ lec.115.d:0 "The Legation Council, after a contentious debate, has elected to restore our voting rights on the Legation Council, since Transamur no longer disputes our Russian claims. This is a great day for Russia and Asia as a whole!"
+ lec.115.a:0 "Great news!"
+
+ lec.116.t:0 "The Legation Council Votes Against Restoring Our Voting Rights"
+ lec.116.d:0 "The Legation Council has voted not to restore our voting rights, citing both the irrelevance of our concessions and our aggressive actions in the West as reasons. It would seem that fear of Germany has triumphed against common sense and hope for the future."
+ lec.116.a:0 "So much for international cooperation."
+
+ lec.117.t:0 "The Legation Council's Decison on Transamurian Voting Rights"
+ lec.117.d.success:0 "The Legation Council has granted our rival in Vladivostok voting rights on the Legation Council. Even though we are not in a position to claim those rights now, as we no longer have imperialist ambitions in the Far East, this is still an outrage!"
+ lec.117.d.fail:0 "We hear from Shanghai that the ambassador from [TRM.GetName] petitioned the Council to vote to grant his regime voting rights on the Legation Council, but that he was voted down. While we may not be in a position to claim those rights ourselves, it is still good our rival cannot have them."
+ lec.117.a:0 "Damn!"
+ lec.117.b:0 "Good."
+
+ lec.118.t:0 "Chen Jiongming Holds Conference in Shantou"
+ lec.118.d:0 "Federalism in China has been defeated many times, yet always seems to rise from the ashes. Chief among the reasons for this is the persistance of its main advocate, Chen Jiongming from Guangdong. He has recently defeated the hostile Guangxi clique, as well as traitors within his own ranks, and is now ready to begin expeditions northward and eastward. To organize his regime and allies, he is holding a conference in Shantou, or Swatow, one of the cities that makes up our Mandate. Since the city formally belongs to China, and his province, we have no legal grounds to deny him. We are unlikely to even be granted observer status, so we can only observe from without how this conference to decide the fate of China goes."
+ lec.118.a:0 "Well, good luck..."
+
+ lec.119.t:0 "Du Yuesheng Preemtively Bailed Out"
+ lec.119.d:0 "When the police arrived to Du Yuesheng's teahouse to arrest him until his trial, the gangster quickly sent out a flunky to make a reasonable counteroffer. Since he can legally be bailed before his trial begins, there is no reason to even go to the trouble of taking him to the station. Surely, the government would be willing to accept immediate bail payment in cash. The officers quickly agreed, and so Du Yuesheng waits for his trial in the style in which he is accustomed - independently."
+ lec.119.a:0 "Hold on, we recieved none of this money!"
+
+ lec.120.t:0 "Du Yuesheng Is Gone"
+ lec.120.d.american:0 "When the officers finally got around to delivering the sentence on Du Yuesheng, sending him to prison for life in Japan, far from his base of operations in Shanghai, they arrived at his teahouse to find nobody there. They alerted the Legation Council, which in turn dispatched its security forces to search for the triad leader across the Mandate. However, after over a month of looking, it seems that Du is gone, with those that know where he is remaining totally silent to our investigators. In his absence, the triad leadership has fallen onto lesser shoulders, but the leadership of the nationalist Chinese community is now ever more clearly on Robert Hotung, the 'Grand Old Man of Hong Kong'."
+ lec.120.d.germans:0 "When the officers finally got around to delivering the sentence on Du Yuesheng, sending him to prison for life in Japan, far from his base of operations in Shanghai, they arrived at his teahouse to find nobody there. They alerted the Legation Council, which in turn dispatched its security forces to search for the triad leader across the Mandate. However, after over a month of looking, it seems that Du is gone, with those that know where he is remaining totally silent to our investigators. In his absence, the triad leadership has fallen onto lesser shoulders, and the AOG has gained influence in the southern cities. In particular, many now speak of Lothar Eisentrager as one of the most influential men in the Mandate."
+ lec.120.d.brit:0 "When the officers finally got around to delivering the sentence on Du Yuesheng, sending him to prison for life in Japan, far from his base of operations in Shanghai, they arrived at his teahouse to find nobody there. They alerted the Legation Council, which in turn dispatched its security forces to search for the triad leader across the Mandate. However, after over a month of looking, it seems that Du is gone, with those that know where he is remaining totally silent to our investigators. In his absence, the triad leadership has fallen onto lesser shoulders, and much of his influence in Hong Kong has devolved onto the official British governor-general of Hong Kong."
+ lec.120.d.japs:0 "When the officers finally got around to delivering the sentence on Du Yuesheng, sending him to prison for life in Japan, far from his base of operations in Shanghai, they arrived at his teahouse to find nobody there. They alerted the Legation Council, which in turn dispatched its security forces to search for the triad leader across the Mandate. However, after over a month of looking, it seems that Du is gone, with those that know where he is remaining totally silent to our investigators. In his absence, the triad leadership has fallen onto the capable if slightly deranged shoulders of Hiraya Amane."
+ lec.120.a:0 "As long as he's gone..."
+
+ lec.121.t:0 "Zhang Xiaolin Escapes Arrest"
+ lec.121.d:0 "It seems that Zhang Xiaolin was taking no chances. The Council put out a warrant for his arrest, but there have been no reported sightings, despite everyone knowing that he is somewhere in Fuzhou. He has either bribed police throughout the Mandate or is in hiding. This has not stopped him from getting close enough to the High Commissioner's office to slide in a note wrapped in a Golden Dragon cigarette, informing the government he would continue to cooperate, as long as he was not convicted."
+ lec.121.a:0 "We don't negotiate with criminals!"
+
+ lec.122.t:0 "The Death of Zhang Xiaolin"
+ lec.122.d.american:0 "Zhang Xiaolin had been tried in absentia and sentenced to life imprisonment in Vladivostok. To enforce the sentence, however, he had to be found. Although he has been in hiding since the warrant for his arrest was sent out, it seems that the hefty award posted for knowledge of his whereabouts has convinced some former associates of his to reveal his location. A week ago, he and his lieutenants were found in a wharehouse in Fuzhou. After recieving no reply save gunshots to demands to come out, the police broke into the wharehouse. In the scuffle that followed, Zhang Xioalin was shot in the leg, then was killed by one of his partners to prevent his capture or torture. Since his death, Liu Hongsheng, the leading industrialist known as the "King of Matches," has assumed control over much of Zhang's old semilegal activity in Shanghai and Fuzhou."
+ lec.122.d.brit:0 "Zhang Xiaolin had been tried in absentia and sentenced to life imprisonment in Vladivostok. To enforce the sentence, however, he had to be found. Although he has been in hiding since the warrant for his arrest was sent out, it seems that the hefty award posted for knowledge of his whereabouts has convinced some former associates of his to reveal his location. A week ago, he and his lieutenants were found in a wharehouse in Fuzhou. After recieving no reply save gunshots to demands to come out, the police broke into the wharehouse. In the scuffle that followed, Zhang Xioalin was shot in the leg, then was killed by one of his partners to prevent his capture or torture. Since his death, the Apostolic Vicar of Yangku and Titular Bishop of Ruspae, Thomas Tien Ken-sin, has assumed much influence in Shanghai, turning the city slightly away from crime and towards Catholicism."
+ lec.122.d.germans:0 "Zhang Xiaolin had been tried in absentia and sentenced to life imprisonment in Vladivostok. To enforce the sentence, however, he had to be found. Although he has been in hiding since the warrant for his arrest was sent out, it seems that the hefty award posted for knowledge of his whereabouts has convinced some former associates of his to reveal his location. A week ago, he and his lieutenants were found in a wharehouse in Fuzhou. After recieving no reply save gunshots to demands to come out, the police broke into the wharehouse. In the scuffle that followed, Zhang Xioalin was shot in the leg, then was killed by one of his partners to prevent his capture or torture. Since his death, the brutal AOG operative Walter Stennes has assumed much control in Fuzhou, furthering the interests of his organization."
+ lec.122.d.japs:0 "Zhang Xiaolin had been tried in absentia and sentenced to life imprisonment in Vladivostok. To enforce the sentence, however, he had to be found. Although he has been in hiding since the warrant for his arrest was sent out, it seems that the hefty award posted for knowledge of his whereabouts has convinced some former associates of his to reveal his location. A week ago, he and his lieutenants were found in a wharehouse in Fuzhou. After recieving no reply save gunshots to demands to come out, the police broke into the wharehouse. In the scuffle that followed, Zhang Xioalin was shot in the leg, then was killed by one of his partners to prevent his capture or torture. Since his death, the former officer and China Agency operative Masahiko Amakasu has assumed much control in Fuzhou, furthering the interests of his organization."
+ lec.122.a:0 "He was too dangerous to be left alive."
+
+ lec.123.t:0 "The Investigation of Huang Jinrong"
+ lec.123.d:0 "Huang Jinrong is now being prosecuted in the courts for unprofessional and illegal methods of solving crimes. Nevertheless, he is still the chief of police of Shanghai, and he has displayed no outward show of fear or despair. Indeed, he and the lawyer for the government have gone on many a cheerful outing around town."
+ lec.123.a:0 "He surely has done nothing wrong."
+
+ lec.124.t:0 "Huang Jinrong's Transfer"
+ lec.124.d.american:0 "Although Huang Jinrong has undoubtedly commited many heinous acts, most have been in the service of our government. As such, he has merely been demoted, and is no longer chief of police in Shanghai. Instead, he is chief of police in Ningbo, where he should be able to cause far less trouble. His replacement in Shanghai, the American financier Solomon Adler, is now reportedly making contact with many in Zhang's old network."
+ lec.124.d.brit:0 "Although Huang Jinrong has undoubtedly commited many heinous acts, most have been in the service of our government. As such, he has merely been demoted, and is no longer chief of police in Shanghai. Instead, he is chief of police in Ningbo, where he should be able to cause far less trouble. His replacement is a quiet British nonentity, and is remarkable only in his loyalty to Vandeleur Molyneux Grayburn, the British financier and man of influence from Hong Kong."
+ lec.124.d.germans:0 "Although Huang Jinrong has undoubtedly commited many heinous acts, most have been in the service of our government. As such, he has merely been demoted, and is no longer chief of police in Shanghai. Instead, he is chief of police in Ningbo, where he should be able to cause far less trouble. His replacement in Shanghai, the German diplomat Hubert Knipping, is now reportedly making contact with many in Zhang's old network."
+ lec.124.d.japs:0 "Although Huang Jinrong has undoubtedly commited many heinous acts, most have been in the service of our government. As such, he has merely been demoted, and is no longer chief of police in Shanghai. Instead, he is chief of police in Ningbo, where he should be able to cause far less trouble. His replacement in Shanghai, the Japanese general and China Agency security head Michitarō Komatsubara, is now reportedly making contact with many in Zhang's old network."
+ lec.124.a:0 "Good luck, all of you."
+
  lecgreengangclash.1.t:0 "L'affrontement des gangs verts !"
  lecgreengangclash.1.d:0 "Le monde criminel de Shanghai est depuis longtemps sous le contrôle de trois mystérieuses figures qui dirigent un collectif connu sous le nom de \"BandeVerte\". A la tête de cette alliance se trouve le seigneur du crime Du Yuesheng, plus connu sous le nom de \"Big Ears Du\".\n\nL'emprise de Yuesheng sur le commerce de l'opium en provenance de Shanghai est établie de longue date, et avec la création des villes de légation, la voie a été ouverte pour lui et la Bande Verte afin de s'attaquer à Hong Kong. Les gangsters de la triade qui prospèrent dans les quartiers chinois de Hong Kong ont fortement repoussé cette tentative, qui a culminé aujourd'hui par un affrontement entre eux et les hommes de la Bande Verte dans une maison de plaisance de Hong Kong. Au moins cinquante personnes auraient été impliquées dans un affrontement armé avec des machettes, des couteaux et des pistolets avant que la police n'ait pu le disperser. Cela n'a fait que souligner le problème permanent de la criminalité dans les villes et son effet potentiellement déstabilisateur."
  lecgreengangclash.1.a:0 "Quelle horreur !"
@@ -1305,11 +1391,11 @@ LEC_standard_yuan_motion:0 "Normalisation du Yuan de Shanghai"
  lecbrits.53.t:0 "Des troupes britanniques à Hong Kong"
  lecbrits.53.d:0 "Alors que notre guerre avec le Mandat international pour les concessions chinoises fait rage, les [FROM.GetAdjective] ont vu une opportunité de reprendre leur ancienne colonie de Hong Kong. Les marines de la Royal Navy ont maintenant occupé Kowloon et les nouveaux territoires, et le gouverneur a accepté le retour de la Couronne. Si cela a affaibli nos ennemis à Shanghai, cela signifie également que nous n'allons pas acquérir le port nous-mêmes une fois que les Villes des Légations tomberont"
  lecbrits.53.a:0 "Mettez au pilori ces Britanniques sournois !"
- 
+
  lecbrits.54.t:0 "Mark Aitchison Young nommé ambassadeur à Shanghai"
  lecbrits.54.d:0 "Une des caractéristiques de l'Empire britannique, même en ces temps de déclin, est sa tendance à écarter au bout d'un certain temps les administrateurs, les gouverneurs et les attachés à un poste à l'autre bout du monde de leur affectation initiale. Aujourd'hui, la nouvelle est venue du bureau colonial que le gouverneur Mark Aitchison Young, gouverneur de la Barbade, allait être nommé à un nouveau poste, celui d'ambassadeur au Conseil des Légations et de ministre plénipotentiaire à Shanghai.\n\nSon remplaçant, Grattan Bushe, crée un nouveau précédent pour l'Empire, car Bushe est le premier gouverneur colonial à être nommé parmi le personnel juridique de l'Office colonial. Un homme reclus mais instruit, le nouveau gouverneur semble prêt à poursuivre la politique de son prédécesseur dans notre Fédération et à la Barbade. Après une fête d'adieu hier soir à Bridgetown, M. Aitchison est parti à l'aube pour son nouveau poste."
  lecbrits.54.a:0 "Bonne chance en Chine, M. Young."
- 
+
  lecbrits.55.t:0 "Mark Aitchison Young nommé gouverneur de Hong Kong"
  lecbrits.55.d:0 "Une des caractéristiques de l'Empire britannique, même en ces temps de déclin, est sa tendance à écarter au bout d'un certain temps les administrateurs, les gouverneurs et les attachés à un poste à l'autre bout du monde de leur affectation initiale. Aujourd'hui, le bureau colonial a fait savoir que le gouverneur Mark Aitchison Young, gouverneur de la Barbade, allait être nommé à un nouveau poste, celui de gouverneur de Hong Kong, en remplacement de l'administrateur par intérim Norman Smith, qui a été officiellement nommé ambassadeur auprès du Conseil des Légations et ministre plénipotentiaire à Shanghai.\n\nSon remplaçant, Grattan Bushe, crée un nouveau précédent pour l'Empire, car Bushe est le premier gouverneur colonial à être nommé parmi le personnel juridique de l'Office des colonies. Un homme reclus mais instruit, le nouveau gouverneur semble prêt à poursuivre la politique de son prédécesseur dans notre Fédération et à la Barbade. Après une fête d'adieu hier soir à Bridgetown, M. Aitchison est parti à l'aube pour son nouveau poste."
  lecbrits.55.a:0 "Adieu, M. Young."
@@ -1322,23 +1408,23 @@ LEC_standard_yuan_motion:0 "Normalisation du Yuan de Shanghai"
  lecjapfeud.2.d:0 "Quelques jours seulement après la dernière escarmouche, Tianjin a de nouveau été secoué par une nouvelle fusillade, cette fois dans les locaux diplomatiques mêmes. Heureusement, la présence accrue de la police a permis d'éviter que la dernière fusillade publique ne se reproduise. Leurs constatations à la suite de cette fusillade sont cependant assez alarmantes.\n\nUne fois de plus, les criminels s'étaient rassemblés de la même manière. Seulement cette fois, la police de Tianjin a pu à la fois les observer avant le crime et intervenir au fur et à mesure que la situation se dégradait. Deux gangsters se sont rencontrés à l'extérieur d'un café et se sont parlés, ont échangé une mallette, puis ont été agressés par un groupe de six hommes armés de revolvers, apparemment en lutte pour ce qui se trouvait dans la valise. Ce qui s'en est suivi a presque semblé plus digne d'un film policier que de la vie réelle, car le hold-up a été rejoint par la moitié de quatre escrocs armés de chaque côté qui ont ouvert le feu sur les présumés voleurs, car ils ont réalisé trop tard que leurs victimes n'étaient pas seules. Pire encore, la police est intervenue rapidement avant que d'autres tragédies ne se produisent, et heureusement, tous les hommes ont abandonné dès qu'ils ont réalisé qu'ils ne pouvaient pas se frayer un chemin jusqu'à la moitié des forces de police de Tianjin. Bien que la plupart des hommes aient eu les lèvres serrées, le contenu de la mallette a révélé que les hommes étaient des mercenaires de la Triade locale agissant comme intermédiaires dans un conflit plus large, bien que le contenu de la mallette n'ait pas révélé qui ou quoi immédiatement. Cependant, après que les suspects aient été soumis à de longs interrogatoires, l'un d'entre eux a fini par craquer et les a tous dénoncés. Ils agissaient pour le compte de l'ambassade du Japon, mais la situation devient plus compliquée à partir de là. Un groupe agissait au nom de l'attaché de la marine, un autre groupe du bureau colonial et un autre encore au nom du ministère japonais des affaires étrangères. Nous soupçonnons que d'autres départements japonais sont également impliqués, mais nous n'avons pas de preuve concrète pour le moment.\n\nLe fait que les Japonais aient des conflits entre factions n'est pas nouveau pour nous, mais cela n'a jamais été aussi grave en public auparavant. Il faut maintenant faire un choix difficile pour décider comment gérer cette situation. Nous pourrions intervenir directement dans cette affaire, même si nous devons garder à l'esprit que cela pourrait ouvrir une plus grande boîte de Pandore que de simplement laisser ce conflit entre factions s'apaiser de lui-même."
  lecjapfeud.2.a:0 "Intervenez !"
  lecjapfeud.2.b:0 "Laissez-les mijoter."
- 
+
  lecjapfeud.3.t:0 "Comment intervenir ?"
  lecjapfeud.3.d:0 "S'il est clair que nous devons agir, il est moins clair de savoir comment nous devons le faire. Plusieurs officiers de police se sont manifestés, mais ils semblent tous dans les 2 options d'un débat. Il y a ceux qui veulent une intervention officielle par la voie publique, et un autre groupe qui insiste sur le fait qu'il est essentiel de garder les choses à l'abri des regards du public. Au cours des discussions, les deux parties ont fait valoir des points saillants. Le premier a mis l'accent sur le respect des règles et sur le fait que les questions de cette importance doivent être traitées de manière professionnelle, sinon cela reviendrait à \"s'abaisser à leur niveau\". L'autre partie a rétorqué qu'elle s'appuyait sur l'aspect pratique et que les chances de succès étaient meilleures si les choses étaient traitées avec discrétion, en faisant remarquer que les factions japonaises concernées risquaient de se contenter de se mettre à l'écart si elles subissaient des pressions publiques.\n\nQuand tout a été dit et fait, la décision a été prise de ..."
  lecjapfeud.3.a:0 "Tenter une médiation officielle."
  lecjapfeud.3.b:0 "Il faut gérer cela dans les coulisses."
- 
+
  lecjapfeud.4.t:0 "Notre enquête est ignorée par le Japon"
  lecjapfeud.4.d:0 "Dans une tournure des événements plutôt décevante et embarrassante, nos efforts pour intervenir publiquement par les canaux officiels ont été complètement bloqués par les Japonais qui ont carrément refusé de coopérer sur cette question. Jusqu'à présent, les résultats n'ont été que des relations tendues et des tensions entre les camps, dont personne n'est satisfait. Après plusieurs semaines d'essais, il est probable que la poursuite de cette approche ne donnera pas non plus de résultats différents.\n\nAprès ce fiasco, la plupart semblent prêts à réduire leurs pertes et à abandonner le dossier, bien qu'à contrecœur. Un petit contingent, mais qui se fait entendre, insiste cependant sur le fait que s'ils insistent pour cacher leurs activités, il y a alors une bonne raison pour cela, en nous demandant instamment d'enquêter en secret."
  lecjapfeud.4.a:0 "Abandonnez la question."
  lecjapfeud.4.b:0 "Enquêter secrètement sur eux."
- 
+
  lecjapfeud.5.t:0 "Recrutement d'un enquêteur"
  lecjapfeud.5.d:0 "Puisque nous avons choisi d'enquêter sur la question, nous devons décider qui nous devons engager pour faire le travail. Il va sans dire que nous devons examiner nos choix avec soin, car nous ne pouvons pas nous permettre une autre bévue. Notre première option est d'engager Huang Jinrong, un détective chinois ayant des liens avec la clandestinité et qui a travaillé avec le conseil dans le passé. Notre relation de travail passée, associée au fait qu'il ne nourrit aucun préjugé politique pour ou contre les Japonais, fait de lui un choix évident pour certains. Ses liens avec la clandestinité peuvent cependant être considérés comme une arme à double tranchant si nous n'avons pas de chance.\n\nÀ la lumière de ces préoccupations, certains disent qu'il serait plus prudent de choisir quelqu'un avec un casier judiciaire plus vierge. Ils ont suggéré l'expertise des bureaux d'enquête américains et allemands opérant dans la région. Bien qu'ils aient des antécédents exceptionnels et soient susceptibles d'enquêter de manière approfondie et professionnelle sur le sujet, leur expertise se situe davantage dans le domaine de la criminalité en col blanc et peut donc être moins adaptée pour traiter avec les Triades. Il y a aussi la question des préjugés politiques potentiels, que nous devons également examiner. Nous n'avons qu'une seule chance d'aller au fond des choses, nous devons donc faire en sorte que cette enquête soit fructueuse."
  lecjapfeud.5.a:0 "Huang Jinrong ira au fond des choses !"
  lecjapfeud.5.b:0 "Louez le meilleur gumshoe américain à Shanghai !"
  lecjapfeud.5.c:0 "Les Allemands sont, au moins, minutieux. Engagez-les !"
- 
+
  lecjapfeud.6.t:0 "L'enquête ne mène nulle part"
  lecjapfeud.6.d:0 "À notre grande frustration, Huang Jinrong n'a jusqu'à présent trouvé aucune piste. Après une longue période de silence radio, il nous a finalement recontactés pour nous informer qu'il n'avait trouvé que des impasses. Si la longue période sans résultat a sans doute été tout aussi frustrante pour lui, il insiste sur le fait que le processus est devenu froid, probablement en raison de la chaleur du dernier combat et de l'humiliation publique provoquée par notre pression publique. Bien qu'une fin concluante de l'enquête semble peu probable à ce stade, si ce qu'il dit est vrai, cela devrait au moins signifier que nous n'allons pas voir d'autres escalades dans cette affaire. Quoi qu'il en soit, l'enquête se poursuit."
  lecjapfeud.6.a:0 "Quelque chose semble louche à ce sujet..."
@@ -1454,36 +1540,36 @@ LEC_standard_yuan_motion:0 "Normalisation du Yuan de Shanghai"
  lecyankded.13.b:0 "Les Japonais, et une meilleure Asie !"
  lecyankded.13.c:0 "Seuls les Allemands peuvent assurer la stabilité !"
  lecyankded.13.e:0 "Les Britanniques sont un successeur naturel aux Américains."
- 
+
  lecyankded.14.t:0 "Les Américains restent dominants au sein du Conseil de la légation"
  lecyankded.14.d:0 "Après le déclenchement de la seconde guerre civile américaine, les Villes des Légations, fortement dépendantes de la protection et de l'influence américaines, sont tombées dans un vide de pouvoir. Le Conseil des légations a dû voter pour un nouveau Haut Commissaire pour diriger le mandat dans le futur, et il semble qu'ils aient choisi que le Haut Commissaire américain en place, [LEC.GetLeader], reste dans le rôle. Cela indique certainement un engagement renouvelé en faveur de la politique de la porte ouverte au sein des Villes des Légations, mais on ne sait pas jusqu'où les Villes des Légations iront pour garantir leur neutralité."
  lecyankded.14.a:0 "Le gouvernement responsable perdure à Shanghai, au moins."
  lecyankded.14.b:0 "Intéressant."
- 
+
  lecyankded.15.t:0 "L'ambassadeur du Japon devient haut-commissaire à Shanghai"
  lecyankded.15.d:0 "Après le déclenchement de la seconde guerre civile américaine, les Villes des Légations, fortement dépendantes de la protection et de l'influence américaines, sont tombées dans un vide de pouvoir. Le Conseil des Légations a dû voter pour un nouveau Haut Commissaire pour mener le Mandat vers l'avenir, et il semble qu'ils aient choisi les Japonais. Les Villes des Légations sont maintenant séparées, peut-être pour toujours, de l'idée d'une porte ouverte pro-occidentale vers la Chine, et on ne sait pas si les Villes des Légations resteront même nominalement neutres dans les années à venir."
  lecyankded.15.a:0 "Des Asiatiques pour l'Asie !"
- 
+
  lecyankded.16.t:0 "Le candidat allemand devient le nouveau haut-commissaire des Villes des Légations"
  lecyankded.16.d:0 "Après le déclenchement de la seconde guerre civile américaine, les Villes des Légations, fortement dépendantes de la protection et de l'influence américaines, sont tombées dans un vide de pouvoir. Le Conseil des légations a dû voter sur un nouveau haut-commissaire pour diriger le mandat vers l'avenir, et il semble qu'ils aient choisi l'ambassadeur Bodenheimer, le délégué allemand. Cela signale probablement un tournant antijaponais dans les Villes des Légations, et peut-être un alignement pro-Zhili."
  lecyankded.16.a:0 "Très fortuit."
- 
+
  lecyankded.17.t:0 "Les Britanniques dominent le Conseil des légations"
  lecyankded.17.d:0 "Après le déclenchement de la seconde guerre civile américaine, les Villes des Légations, fortement dépendantes de la protection et de l'influence américaines, sont tombées dans un vide de pouvoir. Le Conseil des légations a dû voter pour un nouveau haut-commissaire pour diriger le mandat dans le futur, et il semble qu'ils aient choisi un candidat de premier ordre avec [LEC.GetLeader], l'ambassadeur britannique à Shanghai. Peu de gens peuvent prédire ce que les Britanniques feront des Villes des Légations, mais la plupart supposent qu'un recours à la Couronne britannique pour la protection ne serait pas injustifié."
  lecyankded.17.a:0 "Brave homme, ce [LEC.GetLeader]."
- 
+
  lecyankded.18.t:0 "L'ambassadeur Bodenheimer invoque l'article 14"
  lecyankded.18.d:0 "Comme quelques semaines se sont écoulées depuis le début de la seconde guerre civile américaine et que le Haut Commissaire n'a rien fait, l'ambassadeur allemand à Shanghai a invoqué l'article 14 du traité des légations, qui appelle à un changement de direction si la nation de l'actuel Haut Commissaire ne veut pas ou ne peut pas apporter son soutien au mandat. Alors que nous prévoyions de le faire nous-mêmes prochainement, notre manque de capital politique a permis aux Allemands de nous devancer."
  lecyankded.18.a:0 "Comment connaissait-il nos projets ?"
- 
+
  lecyankded.19.t:0 "La délégation japonaise invoque l'article 14"
  lecyankded.19.d:0 "Comme quelques semaines se sont écoulées depuis le début de la seconde guerre civile américaine et que le Haut Commissaire n'a rien fait, la délégation japonaise à Shanghai a invoqué l'article 14 du traité de légation, qui appelle à un changement de direction si la nation de l'actuel Haut Commissaire ne veut pas ou ne peut pas apporter son soutien au mandat. Alors que nous avions prévu de le faire nous-mêmes prochainement, notre manque de capital politique a permis aux Japonais de nous devancer."
  lecyankded.19.a:0 "Comment ont-ils eu connaissance de nos intentions ?"
- 
+
  lecyankded.20.t:0 "Reconnaître un gouvernement américain"
  lecyankded.20.d:0 "Alors que les Etats-Unis sombrent dans l'anarchie, leur statut dans les Villes des Légations est remis en question. Si le vainqueur éventuel de la guerre civile serait bien placé pour réclamer son droit de vote au Conseil, la reconnaissance de l'une ou l'autre faction entraînerait certainement une condamnation internationale, car nous pourrions difficilement satisfaire toutes les puissances et leurs désirs. Nous avons un précédent utile à suivre dans notre nord, où Vladivostok et Moscou revendiquent tous deux le titre de la vraie Russie et, à ce titre, le siège de la Russie au sein du Conseil. Tout comme nous accordons aux émissaires des deux nations des droits d'observation, nous ferons de même en Amérique."
  lecyankded.20.a:0 "Une solution simple."
- 
+
  lecyankded.21.t:0 "Les Villes des Légations nous accordent un droit d'observateur"
  lecyankded.21.d:0 "Les Villes des Légations ont pris la décision d'accorder aux représentants de toutes les nations impliquées dans la seconde guerre civile américaine l'accès aux chambres du Conseil. Tout comme la Grande-Bretagne et la Russie, nous sommes maintenant effectivement exclus de la prise de décision dans le cadre du mandat."
  lecyankded.21.a:0 "Ils n'ont pas de colonne vertébrale à Shanghai !"
@@ -1837,6 +1923,8 @@ LEC_vote_timer_desc:0 "Si nous pouvons voter, et que nous ne faisons pas part de
 LEC_we_voted_this_time:0 "Nous avons voté sur la présente motion"
 LEC_restore_russian_vote:0 "Rétablir le droit de vote à [RUS.GetNameDef]"
 LEC_restore_russian_vote_desc:0 "Pendant des années, nous nous sommes abstenus d'accorder aux Russes les droits de vote au Conseil qu'ils ont toujours eu légalement. Maintenant que la Russie est à nouveau indivise, nous devrions leur redonner leur droit de vote, en tant que contrepoids crucial contre l'Allemagne et le Japon"
+ LEC_restore_transamurian_vote:0 "Restore Voting Rights to [TRM.GetNameDef]"
+ LEC_restore_transamurian_vote_desc:0 "For years, we have held back on granting the Transamurians the voting rights on the Council they have always lawfully had. Now that Russia is united under their rule once again, we should restore to them their voting rights, as a crucial counterbalance against Germany and Japan."
 LEC_DAB_bailout_motion:0 "Lancer une motion pour renflouer le DAB"
 LEC_sichuan_famine_motion:0 "Lancer une motion pour apporter une aide à la province du Sichuan"
 LEC_belgium_motion:0 "Déposer une motion visant à retirer [BEL.GetName] du Conseil"
@@ -1962,6 +2050,5 @@ LEC_influence_category_desc:0 "Les villes de légation sont des lieux de combat 
  LEC_france_concessions:0 "Rendre les concessions"
  LEC_france_macao:0 "Rendre Macao"
 
- LEC_uk_stuff_category:0 "Notre place en Extrême-Orient"
- LEC_uk_stuff_category_desc:0 "Maintenant que nous avons reconquis les Home Isles, nous devrions nous affirmer en Extrême-Orient, principalement en prenant position au sein du conseil des Villes des Légations."
- LEC_ask_for_hongkong:0 "Demande de transfert de Hong Kong"
+#LEC_uk_stuff_category:0 "Our Place in the Far East"
+#LEC_uk_stuff_category_desc:0 "Now that we have reclaimed the Home Isles we should reassert ourself in the Far East, principally by taking up our position on the Legations Council."

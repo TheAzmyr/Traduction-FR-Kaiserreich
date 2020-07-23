@@ -88,6 +88,9 @@ JAP_fading_sun_desc.JAP:0 "Nous avons perdu le contrôle d'une grande partie de 
 JAP_fading_sun_desc.other:0 "Nous avons réussi à pousser le Japon hors d'une grande partie du continent ! Ils vont sans doute essayer de contre-attaquer, mais c'est un coup dur pour eux. S'ils ne reprennent pas rapidement leurs terres, la pression politique croissante les obligera à demander des conditions."
 
 is_fully_controlled_by_JAP_or_war_ally_tooltip:0 "est entièrement contrôlé par §Y[JAP.GetNameDef]§! ou un allié"
+ JAP_cannot_call_allies_in_idea:0 "§RWe can't call in allies unless we are at war with a major or losing a war§!"
+ JAP_cannot_call_allies_in:0 "§RWe don't want to share the fruits of war unless we have to! We can only call in allies if we are at war with a major or losing a war§!"
+ JAP_wont_let_allies_join:0 "§RJapan doesn't want to share the fruits of war with us! They won't let us join their war unless they are at war with a major or losing a war§!"
 
 ### Scripted ###
 JAP_ally1_name:0 "§Y[?global.asian_economic_sphere^0.GetFlag][?global.asian_economic_sphere^0.GetName]§!, "
@@ -125,8 +128,12 @@ JAP_ally_no_sphere:0 "Aucun"
 JAP_not_invest_within_last_year:0 "N'a pas fait l'objet d'un investissement au cours des douze derniers mois".
 
 ### Ideas ###
-JAP_rising_sun_idea:0 "Le soleil levant"
-JAP_rising_sun_idea_desc:0 "Il est temps pour le Japon de prendre enfin sa place parmi les empires du monde. Nous allons libérer l'Est de l'impérialisme occidental et régler nos comptes avec nos rivaux. Le soleil s'est levé !"
+ JAP_rising_sun_idea_1:0 "Imperial Glory"
+ JAP_rising_sun_idea_1_desc:0 "Japan has not always received the respect it deserves. While thing have changed over the last 30 years, there is still a long way to go. We trust that every citizen will do their duty to make sure that we get there; none shall stop us.\n\nWe are the most powerful nation in Asia and the fruits of war should be ours and ours alone. To ensure this is the case we can only call in allies if we are at war with a major or losing a war."
+ JAP_rising_sun_idea_2:0 "Imperial Glory"
+ JAP_rising_sun_idea_2_desc:0 "It is time for Japan to finally seize its place among the empires of the world. We will liberate the east from Western Imperialism and settle the score with our rivals. The sun has risen!\n\nWe are the most powerful nation in Asia and the fruits of war should be ours and ours alone. To ensure this is the case we can only call in allies if we are at war with a major or losing a war."
+ JAP_rising_sun_idea_3:0 "Imperial Glory"
+ JAP_rising_sun_idea_3_desc:0 "Japan has become a shining beacon, the undisputed leader of the many peoples of Asia, and our future is a promise of glory. Once a nation harassed by foreigners, to the master of all East Asia whom none dare oppose. Ten thousand years to the emperor!\n\nWe are the most powerful nation in Asia and the fruits of war should be ours and ours alone. To ensure this is the case we can only call in allies if we are at war with a major or losing a war."
 fengtian_exploitation:0 "Les dividendes de Mantetsu"
 fengtian_exploitation_desc:0 "Avec son monopole de facto sur de larges pans de l'économie fengtienne, Mantetsu crée d'énormes profits, et profite au Japon à la fois par les dividendes des actions détenues par l'État et par les recettes fiscales directes.""
 GER_KOR_support:0 "Mission militaire allemande"
@@ -162,9 +169,6 @@ JAP_asian_economic_sphere_desc:0 "Cela représente l'impulsion générale donné
 
 JAP_asian_economic_sphere_member:0 "Sphère de coprospérité asiatique"
 JAP_asian_economic_sphere_member_desc:0 "Cela représente l'impulsion générale donnée à notre économie par notre appartenance à la sphère de coprospérité asiatique du Japon. Plus il y a de membres dans cette sphère, et plus leur industrie collective est importante, mieux nous nous portons".
-
-JAP_final_victory_idea:0 "Gloire impériale"
-JAP_final_victory_idea_desc:0 "Le Japon est devenu un phare brillant, le leader incontesté des nombreux peuples d'Asie, et notre avenir est une promesse de gloire. Autrefois une nation harcelée par les étrangers, au maître de toute l'Asie de l'Est auquel personne n'ose s'opposer. Dix mille ans à l'empereur !"
 
 JAP_member_integration_1:0 "Pénétration économique : Faible"
 JAP_member_integration_1_desc:0 "Les investissements japonais dans notre pays sont une force formidable qui contribue à stimuler notre croissance économique... mais plus leur influence s'étend, plus nous nous soumettons aux besoins de leur économie toujours croissante".
@@ -213,8 +217,8 @@ JAP_support_allies:0 "Soutenir les alliés chefs de guerre"
 JAP_support_allies_desc:0 "De nombreux chefs de guerre chinois font la queue pour s'incliner et recevoir la puissance japonaise pour les soutenir comme l'a fait le Vieux Maréchal. Nous devrions les obliger et nous assurer qu'ils sont bien équipés pour être nos mandataires en Chine".
 JAP_sow_chaos:0 "Diviser pour mieux régner"
 JAP_sow_chaos_desc:0 "En Chine, notre philosophie devrait être de "diviser pour mieux régner". Bien que de nombreux chefs de guerre puissent souhaiter notre soutien, nous devrions assurer un bon équilibre des forces de tous les côtés en manipulant les chances en faveur de toutes les factions, afin de maintenir la Chine divisée et mûre pour la prise le moment venu".
-JAP_war_economy:0 "Loi sur la mobilisation nationale"
-JAP_war_economy_desc:0 "La guerre en Chine promet d'être une entreprise immense qui nous taxera jusqu'à la limite. Nous devons nous assurer que le peuple est prêt à supporter le fardeau d'une guerre de cette ampleur".
+ JAP_national_mobilisation_law:0 "National Mobilisation Law"
+ JAP_national_mobilisation_law_desc:0 "The war in China promises to be an immense undertaking that will tax us to the limit. We must ensure the people are ready to bear the burden of warfare of this grand scale."
 JAP_spiritual_mobilisation:0 "Recruter des collaborateurs"
 JAP_spiritual_mobilisation_desc:0 "La main-d'œuvre chinoise est une malheureuse nécessité pour la victoire, et si nous voulons rassembler suffisamment de forces pour prendre toute la Chine, nos régions conquises doivent fournir des soldats ainsi que des ressources."
 JAP_three_alls:0 "Stratégie Brûler les cendres"
@@ -273,12 +277,15 @@ JAP_economic_sphere_takeover:0 "Prendre le relais [From.GetNameDef]"
 JAP_economic_sphere_takeover_desc:0 "Notre pénétration économique de [From.GetNameDef] s'est développée au point que [Root.GetNameDef] les domine entièrement. Le gouvernement [From.GetAdjective] est déjà soumis à nos souhaits... il ne reste plus qu'à se débarrasser de la fiction polie de leur indépendance".
 JAP_co_prosperity_member_decisions:0 "La sphère de coprospérité japonaise"
 JAP_co_prosperity_member_decisions_desc:0 "La sphère de coprospérité est composée d'une partie d'alliance militaire et d'une partie de coopération économique - bien que ces deux aspects soient dominés par [JAP.GetNameDef], qui domine l'Asie de l'Est. Les Japonais sont déterminés à lutter contre l'empiètement de l'impérialisme occidental, même si - dans une certaine mesure - cela signifie qu'ils deviennent eux-mêmes impérialistes".
+ JAP_join_rikagaku_kenkyusho:0 "Join the Riken Research Group"
 JAP_withdraw_from_alliance:0 "Se retirer de l'alliance militaire"
 JAP_withdraw_from_alliance_desc:0 "Nous n'avons plus besoin de notre alliance militaire avec [JAP.GetNameDef]. Mettons-y fin maintenant".
 JAP_withdraw_from_sphere:0 "Se retirer de la sphère économique"
 JAP_withdraw_from_sphere_desc:0 "Malgré les avantages qu'elle nous offre, notre appartenance à la sphère économique japonaise suscite des inquiétudes quant à notre indépendance. Nous devrions nous retirer immédiatement de notre coopération avec les Japonais".
 JAP_nationalize_japanese_investments:0 "Nationaliser les investissements japonais"
 JAP_nationalize_japanese_investments_desc:0 "La présence croissante des investisseurs japonais dans [Root.GetNameDef] est très préoccupante. Bien que le prix à payer soit élevé, et qu'il nous faille également nous retirer complètement de la sphère économique japonaise, nous devrions nationaliser leurs investissements et les empêcher d'accroître leur contrôle sur l'économie [Root.GetAdjective] au point que nous ne soyons plus qu'une marionnette pour leurs intérêts".
+
+ JAP_member_of_co_prosperity_sphere:0 "Becomes a Member of the §HEast Asian Co-Prosperity Sphere§!\n     Construction Speed: [?0.2|+=%]\n     Resource Gain Efficiency: [?global.sphere_resources_boost_member|+=%]\n     Consumer Goods Factories: [?global.sphere_goods_boost_member|=%0H]"
 
 KR_co_prosperity_sphere_tooltip:0 "§H[GetCoProsperitySphereName]§!\n[GetCoProsperitySphereEffects]"
 KR_co_prosperity_sphere_tooltip_desc:0 "§L[GetCoProsperitySphereDesc]§"
