@@ -199,13 +199,6 @@ RUS_Demand_Galicia_desc:0 "Nos frères slaves en Galice ont été soumis bien tr
 
 RUS_Attack_Poland_desc:0 "Après l'effondrement de la Russie en 1917, le peuple polonais est passé du service d'un tsar à celui d'un kaiser. Il nous appartient maintenant de les retirer de la sphère allemande dans laquelle ils sont actuellement captifs"
 
-RUS_Integration_decisions:0 "Intégration Territoriale"
-RUS_Integration_decisions_desc:0 "Nous devons nous efforcer de réintégrer les territoires que nous avons perdus lors de l'effondrement de l'Empire. Le changement de direction de l'ancien régime aura des effets importants sur notre industrie, mais à long terme, il laissera la Russie suffisamment forte pour faire face aux dangers du monde."
-RUS_Integrate_Karelia:0 "Intégrer la Carélie"
-RUS_Integrate_Bessarabia:0 "Intégrer la Bessarabie"
-RUS_Integrate_Tuva:0 " Intégrer le Touva"
-RUS_Integrate_Sakhalin:0 "Intégrer Sakhaline"
-
 RUS_Alliance_decisions:0 "La sphère russe"
 RUS_Invite_Country:0 "Inviter [FROM.GetFlag] [FROM.GetNameDef]"
 RUS_invited_country:0 "Négociations en cours"
@@ -697,6 +690,9 @@ RUS_Expansion_Of_The_Rumyantsev_Library_tooltip:0 "Modifie §HMonarchie constitu
  RUS_Mass_Mobilisation_tooltip:0 "Modifie §HMobilisation de Masse§! par\nDéfense des Divisions en territoire coeur : [?0.2|+=1%]\nDommages aux garnisons ennemies dans nos États occupés par l'ennemi : [?0.2|+=%]"
  RUS_A_Well_Equipped_Force_tooltip:0 "Modifie §HMobilisation de Masse§! par\nVitesse de recherche sur les armes et les équipements : [?0.1|+=0%]"
  RUS_Local_Training_Barracks_tooltip:0 "Modifie §HMobilisation de Masse§! par\nTemps de formation de la division : [?-0.2|=H1%]\nPopulation recrutable: [?0.01|=H%]"
+
+ SOV_cores_on_RUS:0 "Cores of the §H[RUS.GetFlag][RUS.GetName]§! will become our cores again when reaching §H40% compliance§!."
+ RUS_cores_on_SOV:0 "Cores of the §H[SOV.GetFlag][SOV.GetName]§! will become our cores again when reaching §H40% compliance§!."
 
 ### Events ###
  russia.1.t:0 "Une histoire troublée"
@@ -1374,10 +1370,6 @@ rusd.158.a:0 "Adieu Boris, adieu Boris, je te verrai dans mes rêves"
  rusd.161.t:0 "Procès des séparatistes de gauche"
  rusd.161.d:0 "La politique du NRPR à l'égard des nombreuses minorités ethniques de Russie a toujours été très abstraite. Bien qu'une grande partie de son soutien provienne des nationalistes russes, M. Savinkov lui-même reconnaît que la Russie est trop divisée ethniquement pour qu'il puisse aller trop loin. Ce que lui et le Parti peuvent faire, cependant, c'est agir par procuration contre les minorités ethniques de Russie. Pendant la guerre civile russe, de nombreux groupes ethniques minoritaires ont rejoint le camp bolchevique, espérant obtenir l'autonomie dans une Russie soviétique plus grande, et ont ainsi obtenu le terme collectif de \"Séparatistes de gauche\".\n\nCitant cela comme un exemple de déloyauté possible des minorités, le régime de Savinkov a commencé à agir contre eux, faisant pression sur de nombreux journaux ethniques pour qu'ils ferment et arrêtant des centaines de politiciens minoritaires de haut niveau, tels que des Juifs, des Tatars, des Finlandais, des Allemands de la Volga et des Yakoutes. Les régions minoritaires ont vu leur administration dotée de \"loyalistes\", généralement des Russes."
  rusd.161.a:0 "Vous avez combattu la loi et la loi a gagné !"
-
- rusd.162.t:0 "Faire revenir les noms impériaux de Volgograd et d'autres villes plus petites"
- rusd.162.d:0 "Avec la fin de la guerre civile russe, l'administration Kerenskiy a commencé à poursuivre la détsarification de divers noms de villes historiques, l'un d'entre eux étant Tsaritsyn. Maintenant que l'Empire est revenu et que notre situation semble plus stable de jour en jour, ces villes retrouveront leur nom d'origine. Tsaritsyne devrait revenir sur nos cartes immédiatement !"
- rusd.162.a:0 "La mémoire de la Russie tsariste ne périra jamais !"
 
  rusd.163.t:0 "Pavel Gorgulov et le KPZ-NRPR"
  rusd.163.d:0 "Se renforçant rapidement dans les années 1930, le NRPR a absorbé plusieurs autres partis d'extrême droite dans la sphère russe pour atteindre sa masse énorme, tous apportant des concepts et des idées politiques qui leur sont propres. L'un d'entre eux était le Parti des Verts Paysans (Kryestyanskoy partii zelyonikh), dirigé par Pavel Gorgulov, un écrivain cosaque de Kouban et idéologue politique. Bien qu'aussi chauvin, antisémite et nationaliste que tout autre membre du parti de Savinkov, le KPZ souligne le lien que le peuple russe a avec le sol et la vie paysanne.\n\nAprès la prise de pouvoir de Savinkov en Russie, Pavel Gorgulov, maintenant nommé ministre de l'agriculture, a commencé à faire des tournées à travers le pays, apportant le message du NRPR dans des dizaines de villages à travers la Russie centrale et méridionale. Son appel à la \"Russie pour les Russes\" et l'accent mis sur la \"paysannerie nationale\" se reflètent dans les réformes qu'il a entreprises depuis sa nomination - leur but est de transformer les villages russes en communautés étroitement liées, ethniquement pures, parfaitement obéissantes aux Vozhd et représentatives de la supériorité nationale russe.\n\nLes opinions de Gorgulov sont également très ésotériques et même ses subordonnés ne sont pas sûrs qu'il soit... sain d'esprit. L'accent qu'il met sur la paysannerie culmine dans sa croyance messianique que la civilisation russe \"sauvage, primitive et scythe\" l'emportera sur la civilisation occidentale et établira un nouvel ordre à travers le monde. Son rôle quelque peu inférieur dans le gouvernement signifie que ce credo a peu d'influence sur le gouvernement, bien que sa faction \"agraire\" au sein du NRPR, composée principalement d'anciens membres du KPZ, défende son idéologie."
