@@ -10,9 +10,9 @@ REQUEST_EXP_FORCE_BLOCKED_TT:0 "§RCe pays ne vous permet pas de demander ses fo
 
 ### Regular Tooltips ###
 general_minister_change_tt:0 "Leurs ministres vont changer en fonction de notre idéologie."
- is_actual_major_tt:0 "Is considered a major world power"
- if_FROM_agrees:0 "If §H[From.GetFlag] [From.GetNameDef]§! agrees:"
- upon_selecting_focus:0 "Upon selecting focus:"
+is_actual_major_tt:0 "Est considéré comme une grande puissance mondiale"
+if_FROM_agrees:0 "Si §H[From.GetFlag] [From.GetNameDef]§ ! est d'accord :"
+upon_selecting_focus:0 "Lors du choix de la priorité :"
 
 ### Renaming System ###
 toggle_renaming_button_tooltip:0 "[toggle_renaming_button_tooltip_loc]"
@@ -33,7 +33,7 @@ INTELLIGENCE_AGENCY_BLOCK_TOOLTIP:0 "[!intelligence_agency_blocker_button_click_
 
 ### Splash Screen ###
 KR_SPLASH_TITLE:0 "Bienvenue dans Kaiserreich"
-KR_SPLASH_CREDITS:0 "§YCréé par l'équipe KR4 : §!\nAlpinia, Arvidus, Augenis, Blackfalcon501, Carmain, DSFDarker, Dr. Njitram, Drozdovite, Edouard Saladier, Eragaxshim, Fbruchmueller, Flamefang, Fort, Gideones, JazzyHugh, Jeankedezeehond, Jonjon428, Jonny BL, Krco, Liegnitz, Maltesefalcon, OperationsManagementDecisions, PPsyrius, Pietrus, Rei VL, Rinbro, Roniius, Rylock, Starguard, Telcontar101, The Alpha Dog, Thomahawk2k, Vidyaország, WordZero, Yard1, Zankoas et Zimbabwe Salt Co.\n§YTraduit par : §!\nDarkusios et Mouchi\n§YAnciennement traduit par : §!\nAegon Targaryen, Demetran, Fanois, Feuxin, Kfateweaver, Klik le Araï, Le Marocain, MVMaroIV, Orakle14, Paralux, Remkiller123, Romain1912, Solal, Superwaffle, TheAzmyr et Youkoulélé\n§YTraduction testée par : §!\nChartreuse et Sfera"
+KR_SPLASH_CREDITS:0 "§YCréé par l'équipe KR4 : §!\nAlpinia, Arvidus, Augenis, Blackfalcon501, DSFDarker, Carmain, Dr. Njitram, Drozdovite, Edouard Saladier, Éloïse, Eragaxshim, Fbruchmueller, Flamefang, Fort, Gideones, JazzyHugh, Jeankedezeehond, Jonjon428, Jonny BL, Krco, Liegnitz, Maltesefalcon, Matoro, NukeGaming, OperationsManagementDecisions, PPsyrius, Pietrus, Rei VL, Rylock, SPQR, Starguard, Telcontar101, The Alpha Dog, Thomahawk2k, Vidyaország, WordZero, Yard1, Zankoas and Zimbabwe Salt Co.\n§YTraduit par : §!\nDarkusios et Mouchi\n§YAnciennement traduit par : §!\nAegon Targaryen, Demetran, Fanois, Feuxin, Kfateweaver, Klik le Araï, Le Marocain, MVMaroIV, Orakle14, Paralux, Remkiller123, Romain1912, Solal, Superwaffle, TheAzmyr et Youkoulélé\n§YTraduction testée par : §!\nChartreuse et Sfera"
 
 ### Autonomy Levels ###
 kr_integrated_puppet:0 "Fantoche Intégré"
@@ -46,7 +46,7 @@ kr_special_autonomous_dependency:0 "Dépendance Autonome"
 kr_initial_wif_puppet:0 "Colonie fédérée"
 kr_soclib_wif_puppet:0 "Dominion fédéré"
 kr_ottoman_emirate:0 "Émirat ottoman"
- kr_federated_state:0 "Confederated State"
+kr_federated_state:0 "État confédéré"
 
 ### Autonomy Tooltips ###
 can_lower_autonomy_level:0 "Peut abaisser le niveau d'autonomie\n"
@@ -66,8 +66,8 @@ chief_of_army_cost_factor:0 "Coût du chef de l'armée de terre "
 chief_of_navy_cost_factor:0 "Coût du chef de la marine "
 chief_of_air_force_cost_factor:0 "Coût du chef de l'armée de l'air "
 weapons_manufacturer_cost_factor:0 "Coût du fabricant d'armes"
- cannot_train_units_tt:2 "§RImpossible de former des unités, de dissoudre des unités ou de modifier des modèles d'unités.§!\n"
- cannot_mobilise_tt:0 "§RCannot enact conscription or mobilise the economy.§!\n"
+cannot_train_units_tt:2 "§RImpossible de former des unités, de dissoudre des unités ou de modifier des modèles d'unités.§!\n"
+cannot_mobilise_tt:0 "§RNe peut pas promulguer la conscription ni mobiliser l'économie.§!\n"
 
 ### Opinion Modifiers ###
 KR_friendly:0 "Amical"
@@ -97,7 +97,7 @@ FROM_becomes_autonomous_puppet:0 "§H[From.GetNameDefCap]§! devient un §HFanto
 FROM_becomes_nominal_puppet:0 "§H[From.GetNameDefCap]§! devient un §HFantoche Nominal§!."
 
 ### Compliance ###
- compliance_integration:0 "Integration"
+compliance_integration:0 "Intégration"
 
 ### Operatives ###
 CANNOT_RECRUITE_OPERATIVE_NO_SLOT_DESC:5 "Vous pouvez obtenir le premier créneau en construisant l'agence de renseignement. D'autres créneaux seront disponibles après la 5e mise à niveau ou après le recrutement d'un §HDirecteur du renseignement§! (disponible par décision).\nEn tant que maître des espions, vous débloquez plus de créneaux opérationnels en ayant plus de pays dans votre faction. Les marionnettes ou les pays dont le nombre d'usines est très faible ne contribuent pas à l'augmentation des créneaux opérationnels."
@@ -148,7 +148,7 @@ kr.political.110.d:0 "Il semble que notre ancien chef suprême ne puisse pas pre
 kr.political.110.a:0 "Oui, mettons fin à tout cela"
 kr.political.110.b:0 "Non ! Il ne s'agit plus seulement d'indépendance maintenant !"
 
- kr.political.111.t:0 "La guerre d'indépendance [From.GetAdjective]."
+kr.political.111.t:0 "La guerre d'indépendance [From.GetAdjective]."
 kr.political.111.d:0 "La guerre avec [From.GetNameDef] dure depuis un certain temps, et aucun de nous n'a pu en tirer un avantage clair. Il est peut-être temps de reconnaître simplement leur indépendance et d'en finir avec elle."
 kr.political.111.a:0 "Oui, mettons fin à tout cela"
 kr.political.111.b:0 "Non ! Nous allons en finir !"
@@ -191,11 +191,11 @@ militia:0 "Milice"
 
 ### Tech ###
 military_police_tech:0 "Police  Militaire "
- dd_tech_research:0 "Destroyer Research Speed"
- cl_tech_research:0 "Cruiser Research Speed"
+dd_tech_research:0 "Vitesse de la recherche sur les Destroyers"
+cl_tech_research:0 "Vitesse de la recherche sur les Croiseurs"
 
 ### Research Bonus Names ###
- refinery_bonus:0 "Bonus de raffinage"
+refinery_bonus:0 "Bonus de raffinage"
 
 ### Interface ###
 weapons_manufacturer:0 "Fabricant d'Armes"
@@ -288,9 +288,9 @@ belgrade_pact_threat:0 "Le pacte de Belgrade"
 fading_sun_threat:0 "Effondrement de l'empire japonais"
 GRE_took_diplomatic_path:0 "La Grèce renonce à la Megali"
 GRE_took_expansionist_path:0 "Expansionnisme grec"
- reichspakt_collapse_threat: "Collapse of the Reichspakt"
- lep_collapse_threat:0 "Collapse of the League of Eight Provinces"
- sino_jap_threat:0 "Second Sino-Japanese War"
+reichspakt_collapse_threat: "Effondrement du Reichspakt"
+lep_collapse_threat:0 "Effondrement de la Ligue des Huit Provinces"
+sino_jap_threat:0 "Deuxième guerre sino-japonaise"
 
 ### Other ###
  unlock_focuses:0 "§GCette priorité sera éventuellement contournée automatiquement et déverrouillera les autres priorités.§!\n"
@@ -313,13 +313,13 @@ economy_minister:0 "Ministre de l'Économie"
 security_minister:0 "Ministre de l'Intérieur"
 head_of_intel:0 "Directeur du renseignement"
 ## Country-Specific Ones
-knight_captain_of_liv_ord:0 "Chevalier-Capitaine"            # BAT
+knight_captain_of_liv_ord:0 "Chevalier-Capitaine de Livord"            # BAT
 land_marshal_of_liv_ord:0 "Maréchal"                # BAT
 leader_of_the_british_exiles:0 "Premier ministre britannique" # CAN
- underworld_boss:0 "Underworld Boss"
- marshal_of_the_palace:0 "Marshal of the Palace"
- minister_of_native_affairs:0 "Min. of Native Affairs"
- natural_philosopher:0 "Natural Philosopher"
+underworld_boss:0 "Patron de la pègre"
+marshal_of_the_palace:0 "Maréchal du Palais"
+minister_of_native_affairs:0 "Min. des affaires indigènes"
+natural_philosopher:0 "Philosophe naturel"
 
 ### Company Traits ###
 
@@ -456,8 +456,8 @@ mining_company:0 "Compagnie minière"
 chemical_producer:0 "Société chimique"
 industrial_manufacturer:0 "Société industrielle"
 electronics_manufacturer:0 "Fabricant d'électronique"
- railroad_company:0 "Railroad Company"
- oil_concern:0 "Petroleum Company"
+railroad_company:0 "Société des chemins de fer"
+oil_concern:0 "Société pétrolière"
 
 ### General ###
 fighter_techs:0 "Technologie des chasseurs"
