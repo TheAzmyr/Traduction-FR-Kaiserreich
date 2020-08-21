@@ -7,9 +7,15 @@ SYNDIE_SOC_DEM_NOTICE:0 "(Syndicaliste aligné)"
 war_propaganda_against_warmonger_desc:0 "La nation appelle chaque homme, femme et enfant à contribuer à la lutte contre [From.GetNameDef]!"
 
 ### Opening Event ###
-kr.political.1.t:0 "Kaiserreich Beta 0.13.2"
-kr.political.1.d:0 "L'équipe de Kaiserreich est fière de présenter la version bêta 0.13.2 de Kaiserreich pour Hearts of Iron 4.\n\nNotre équipe a travaillé sans relâche, depuis les quatre coins du monde, pour vous apporter cette nouvelle version et nous ne pourrions être plus honorés que vous choisissiez d'y jouer.\n\nVeuillez noter ce qui suit:\nLe mod est conçu avec l'hypothèse que le joueur annexera toujours tous les États possibles dans les traités de paix, donc assurez-vous de faire cela\nVous pouvez modifier la fréquence des événements d'actualité en basculant l'icône en haut de l'onglet des décisions\nVous pouvez sélectionner les états du système de dénomination et les points de victoire utilisés en basculant l'icône qui remplace le menu des réalisations en haut à droite\nN'oubliez pas que ce mod est encore en version bêta, donc attendez-vous à des bogues, des plantages et divers problèmes techniques.\nSi vous rencontrez l'un de ces problèmes, il est très utile de le signaler sur notre GitHub issue tracker, qui permettra de les résoudre plus rapidement\n\nNous espérons que vous aurez autant de plaisir à jouer à Kaiserreich que nous en avons eu à le faire !"
+ kr.political.1.t:9 "Kaiserreich Beta 0.14 - 'The Duke and the Hertzog'"
+ kr.political.1.d:9 "The Kaiserreich Team proudly present Kaiserreich beta version 0.14 - 'The Duke and the Hertzog' for Hearts of Iron 4.\n\nOur team has been working hard from every corner of the world to bring this new version to you and we couldn't be more honoured that you are choosing to play it.\n\nPlease note the following:\nThe mod is designed with the assumption that the player will always annex all possible states in peace treaties, so make sure to do that\nYou can change the frequency of news events by toggling the icon at the top of the decisions tab\nYou can select what naming system states and victory points use by toggling the icon replacing the achievements menu in the top right\nRemember that this mod is still in Beta, so expect bugs, crashes and various headaches\nIf you encounter any of these, reporting them on our GitHub issue tracker is of great help and will get them fixed sooner\n\nWe hope you will enjoy playing Kaiserreich as much as we did making it!"
 kr.political.1.a:0 "Je suis sûr que je le ferai !"
+
+### Generic Triggered Events ####
+ kr.political.30.t:9 "Prepare for War!"
+ kr.political.30.d:9 "We have received numerous reports that [From.GetAdjective] troops are currently massing, and that a great deal of reconnaissance is taking place across the [Root.GetAdjective] border. Military officials say it is clear [From.GetNameDef] is planning an invasion of [Root.GetNameDef], one that could begin anytime within the next several weeks."
+ kr.political.30.a:9 "We must get ready!"
+ kr.political.31.d:9 "We have received alarming word from [From.GetNameDef] that [From.From.GetAdjective] troops are currently massing, and that a great deal of reconnaissance is taking place across the [From.GetAdjective] border. Military officials say it is clear [From.From.GetNameDef] is planning an invasion of [From.GetNameDef], one that could begin anytime within the next several weeks."
 
 ### Returning Cores ###
 return_cores_to_ally:0 "Redonner le territoire au [From.GetAdjective]"
@@ -20,11 +26,11 @@ return_cores_to_subject_desc:0 "Le gouvernement [Root.GetAdjective] discute de c
 kr.political.75.t:0 "Le territoire [From.From.GetAdjective]"
 kr.political.75.d:0 "Le gouvernement [Root.GetAdjective] discute de ce qu'il faut faire des terres [return_to.GetAdjective] que nous occupons actuellement - des terres sur lesquelles nous n'avons aucune revendication légitime. Devrions-nous leur rendre ce territoire ?"
 kr.political.75.a:0 "Oui, rendons-leur toutes les terres"
-KR_will_return_all:0 "Tous les états possédés voisins qui sont des états coeurs ou des revendications [return_to.GetAdjective] seront retournés à §Y[return_to.GetNameDef]§!\n\nNote ceci n'inclura §Rpas§! les états qui sont des états [Root.GetAdjective] §Yrevendiqués§! ou §Ycoeurs§!."
+ KR_will_return_all:9 "All coastal or contiguous owned states which are [return_to.GetAdjective] cores or claims will be returned to §Y[return_to.GetNameDef]§!.\n\nNote this will §Rnot§! include states that are [Root.GetAdjective] §Yclaimed§! or §Ycore§! states."
 kr.political.75.b:0 "Oui, leur rendre leur territoire ... mais garder les états les plus vitaux"
-KR_will_return_rest:0 "Tous les états voisins qui sont des états coeurs ou des revendications [return_to.GetAdjective] seront retournés à §Y[return_to.GetNameDef]§!\n\nNote ceci n'inclura §Rpas§! les états qui sont des états [Root.GetAdjective] §Yrevendiqués§! ou §Ycoeurs§!, ou inclura des états §Yvitaux§! comme les canaux."
+ KR_will_return_rest:9 "All coastal or contiguous owned states which are [return_to.GetAdjective] cores or claims will be returned to §Y[return_to.GetNameDef]§!.\n\nNote this will §Rnot§! include states that are [Root.GetAdjective] §Yclaimed§! or §Ycore§! states, nor will it include §Yvital§! states such as canals."
 kr.political.75.c:0 "Rendre leurs territoires principaux seulement"
-KR_will_return_cores:0 "Tous les états possédés voisins qui sont des états coeurs [return_to.GetAdjective] seront retournés à §Y[return_to.GetNameDef]§!\n\nNote cela n'inclure §Rpas§! les états [Root.GetAdjective] §Yrevendiqués§! ou §Ycoeur§!, ni les états §Yvitaux§! tels les canux. Toutes §Yrevendaications§! [return_to.GetAdjective] seront également conservées."
+ KR_will_return_cores:9 "All coastal or contiguous owned states which are [return_to.GetAdjective] cores will be returned to §Y[return_to.GetNameDef]§!.\n\nNote this will §Rnot§! include [Root.GetAdjective] §Yclaimed§! or §Ycore§! states, nor §Yvital§! states such as canals. Any [return_to.GetAdjective] §Yclaims§! will also be retained."
 kr.political.75.e:0 "Nous garderons tout !"
 KR_will_not_return:0 "Nous ne restituerons §Raucune§! de leurs terres, et il ne nous sera pas demandé de le faire à nouveau"
 
@@ -32,8 +38,11 @@ kr.political.76.t:0 "[From.GetNameDefCap] rend les territoires [Root.GetAdjectiv
 kr.political.76.d:0 "Nos alliés de [From.GetNameDefCap] nous ont rendu certaines de nos terres !"
 kr.political.76.a:0 "Super !"
 
+ KR_different_ideology_close:9 "Different Ideology"
 KR_different_ideology:0 "Idéologie différente"
+ KR_similar_ideology_close:9 "Similar Ideology"
 KR_similar_ideology:0 "Idéologie similaire"
+ KR_similar_ideology_distant:9 "Similar Ideology"
 KR_same_ideology:0 "Même idéologie"
 KR_ideology_allowed:0 "Ministre autorisé par l'idéologie du pays"
 KR_factional_rivalry:0 "Rivalité entre factions"
@@ -72,14 +81,15 @@ has_scripted_peace_desc:0 "Le pays est en guerre et est déterminé à remporter
  unit_limit_bonus:0 "Limite de divisions"
 
  unit_limit_label:0 "§HDivisions maximums soutenues§!"
- unit_limit_desc:0 "Chaque pays n'a la capacité de soutenir qu'un certain nombre de divisions militaires individuelles avant que leur économie et leurs infrastructures ne luttent pour les maintenir.§L\n\n   - Usines Nettes :§! [?net_factory_count]§L[unit_limit_major_power][unit_limit_world_tension]\n   - [unit_limit_economy_law]:§! [upper_limit_perc_figure]§L[unit_limit_was_capped][unit_limit_lower_limit_used][unit_limit_bonus_used]\n\n   TOTAL FINAL : §W[?max_divisions]§! (arrondis)\n\nVeuillez noter qu'il faut compter jusqu'à une semaine de jeu avant que les modifications apportées à ce qui précède ne soient prises en compte dans le calcul.§![above_unit_limit_desc]"
+ unit_limit_desc:9 "Every country only has the ability to support a certain number of individual military divisions before their economy and infrastructure struggle to maintain them.§L\n\n   - Net Factories:§! [?net_factory_count]§L[unit_limit_major_power][unit_limit_world_tension]\n   - [unit_limit_economy_law]:§! [upper_limit_perc_figure]§L[unit_limit_was_capped][unit_limit_lower_limit_used][unit_limit_upper_limit_used][unit_limit_bonus_used]\n\n   FINAL TOTAL: §W[?max_divisions]§! (rounded up)\n\nPlease note that changes to the above take up to one in-game week before they are reflected in the calculation.§![above_unit_limit_desc]"
 
  unit_limit_desc_above_limit:0 "\n\n--------------\n\n§RNous avons actuellement dépassé nos capacités, et la seule façon d'alléger la pression sur notre pays sera de supprimer certaines de nos divisions.§!\n\nOrganisation des divisions : [?mobilisation_penalty_var|+=%1]\nUsines de biens de consommation : [?mobilisation_penalty_var_positive|=%H0]\nProduction en usine : [?mobilisation_penalty_var|+=%]\nTemps de formation : [?mobilisation_penalty_var_positive|-=%]\nRenforcer le taux : [?mobilisation_penalty_var|+=%1]"
 
  unit_limit_major_power_desc:0 "\n   - Grande puissance/chef de file : §G+15%§!"
  unit_limit_world_tension_desc:0 "\n   - World Tension 70% or higher: §G+5§!%"
- unit_limit_was_capped_desc:0 "\n   - Total non plafonné : §W[?net_max_divisions]§!\n   - Limite des divisions (de [unit_limit_economy_law]): §W[?upper_limit]§!"
- unit_limit_manpower_used_desc:0 "\n\n   Parce que le total fourni par les usines était inférieur à celui fourni par la main-d'œuvre totale (§W[?lower_limit_from_manpower]§!}, qui a été utilisé à la place."
+ unit_limit_was_capped_desc:9 "\n   - Uncapped Total: §W[?net_max_divisions]§!"
+ unit_limit_cap_used_desc:9 "\n\n   The maximum supported divisions cannot be higher than §W[?upper_limit]§! (from [unit_limit_economy_law])."
+ unit_limit_manpower_used_desc:9 "\n\n   Parce que le total fourni par les usines était inférieur à celui fourni par la main-d'œuvre totale (§W[?lower_limit_from_manpower]§!}, qui a été utilisé à la place."
  unit_limit_num_states_used_desc:0 "\n\n   Parce que le total fourni par les usines était inférieur au nombre d'États propriétaires (§W[?lower_limit_from_states]§!), qui a été utilisé à la place."
  unit_limit_default_used_desc:0 "\n\n   Comme le total fourni par les usines était inférieur à la valeur par défaut (§W5§!), celle-ci a été utilisée à la place."
  unit_limit_bonus_used_desc:0 "\n\n   - Modificateurs supplémentaires : §G+[?upper_limit_unit_bonus]§! à la limite"
@@ -101,9 +111,10 @@ has_scripted_peace_desc:0 "Le pays est en guerre et est déterminé à remporter
  KR_party_pop_less_than_50:0 "Moins de §Y50%§! de popularité du parti"
  KR_party_pop_more_than_75:0 "Plus de §Y75%§! de popularité du parti"
  DIPLOMACY_DOCKING_RIGHTS:0 "Droits d'amarrage"
+ is_ally_of_ROOT:9 "Is an ally of [ROOT.GetNameDef]"
 
 ### Decisions ###
- political_actions:0 "Actions politiques"
+#political_actions:0 "Political Actions" duplicate
  legislate_more_freedoms:0 "Légiférer sur les libertés"
  legislate_more_freedoms_desc:0 "La façon la plus simple d'améliorer la stabilité de notre pays est peut-être de donner aux gens ce qu'ils veulent. Cela impliquera des compromis inconfortables, mais idéalement, il s'agit de mesures qui ne sont que temporaires et conçues pour les apaiser jusqu'à ce que l'ordre puisse être rétabli comme il se doit"
  police_crackdown:0 "Répression policière"

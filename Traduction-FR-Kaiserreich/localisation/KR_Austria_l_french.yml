@@ -18,8 +18,6 @@ AUS_new_administration:0 "Repenser notre administration"
 AUS_economy_ready_tooltip:0 "Notre économie doit être prète à prendre certains engagements.\n\nCe qui veut dire que nous devons nous être débarassés de toutes crises actuelles"
 AUS_potb_albania_tooltip:0 "L'Albanie borde notre sphère d'influence"
 AUS_potb_greece_tooltip:0 "La Grèce borde notre sphère d'influence"
-AUS_potb_romanian_civil_war_tooltip:0 "La guerre civile Roumaine fait rage à nos frontières"
-AUS_potb_romania_tooltip:0 "Le Royaume de Roumanie a bien été restauré et borde notre sphère d'influence"
 AUS_potb_bulgaria_tooltip:0 "La Bulgarie borde notre sphère d'influence"
 AUS_no_greek_economic_sanctions:0 "N'a pas appliqué de sanction économique à la Grèce"
 
@@ -42,6 +40,8 @@ AUS_dualism_restored_tooltip:0 "Cela résulterat à la soumission de la Hongrie,
 ITA_bruh_why:0 "La République a rejeté nos demandes diplomatiques"
 sicilian_reengage:0 "Nous avons soutenu la Fédération en Italie"
 sicilian_disengage:0 "Nous avons soutenu les républicains en Italie"
+
+ AUS_treaty_of_budapest:9 "The Treaty of Budapest has been signed"
 
 AUS_HUN_Civil_war:0 "§YHongrie§W va lancer une guerre civile contre nous.\n\n"
 greater_austrian_empire:0 "Nous avons décidé d'unir la Double-Monarchie sous le joug de l'Autriche pendant les Ausgleich, la Hongrie a bien été maitrisée.\n\nOR\n\nAutriche a vaincue la Hongrie (et a annexé Budapest) et a décidé de centraliser l'Empire après les négotiations de guerre"
@@ -67,14 +67,10 @@ AUS_ausgleich_kingdoms:0 "Tous les Royaumes sont invités aux Ausgleich"
 AUS_ausgleich_peoples:0 "Toutes les nationalités sont accueillies aux Ausgleich"
 
 ### Ideas ###
-AUS_part_of_the_Empire:0 "Part de l'Empire Autrichien "
-AUS_part_of_the_Empire_desc:0 "Cet nation ou ce territoire royal fait partie de l'Empire Austro-Hongrois,du moins de nom"
-
 AUS_financial_ties_broken:0 "Liens Austro-Hongrois rompus"
 AUS_financial_ties_broken_desc:0 "La couronne de Hongrie refuse de payer les taxes qu'ils doivent au fond commun et aux ministères communs.\n\nIls sont encore mécontent de la formation du royaume d'Illyrie suite à une résolution prise lors des révoltes de 1926, et l'apercoivent comme une trahison du gouvernement de Vienne. Ils désirent une compensation pour la perte de la croatie"
 
 HUN_financial_ties_broken:0 "Liens Austro-Hongrois rompus"
-HUN_financial_ties:0 "Liens Austro-Hongrois restaurés"
 HUN_slovak_demonstrations:0 "Démonstrations de forceSlovaques pour l'Indépendance"
 HUN_transylvanian_demonstrations:0 "Démonstrations de force en Transylvanie pour l'Indépendance"
 
@@ -121,8 +117,8 @@ AUS_DNF_political_instability-2_desc:0 "Le Principe d'Autonomie National Personn
 
 AUS_modern_army:0 "Une Armée Moderne"
 
-AUS_SLOintegration:0 "Re-Intégration de la Slovénie"
-AUS_SLOintegration_desc:0 "Alors qu'une minorité importante de Slovènes est d'origine allemande et que le long héritage des Habsbourg a permis le rétablissement rapide de l'administration autrichienne sur les terres slovènes, le peuple slovène n'a pas pris à la légère ce que beaucoup d'entre eux considèrent comme un peu plus qu'une nouvelle soumission"
+ AUS_SLVintegration:9 "Slovenian Re-Integration"
+ AUS_SLVintegration_desc:9 "While a sizable minority of Slovenia is ethnically German and the long legacy of Hapsburg rule allowed for the prompt re-establishment of Austrian administration over the Slovene lands, the Slovene people have not taken lightly to what many among them feel is the little more than renewed subjugation."
 
 ### Decisions ###
 AUS_syndie_threat:0 "La Menace Syndicaliste"
@@ -134,6 +130,7 @@ AUS_syndie_threat_desc:0 "Nos voisins et anciens alliés sont en guerre avec la 
 AUS_germany_on_the_ropes:0 "[FRA.GetNameDef] has pénétrée trop loin dans le  Sud de l'Allemagne"
 AUS_syndicalism_winning_Italy:0 "Les alliés Français ont le controle de la majorité de l'Italie"
  AUS_russia_penetrated_germany:0 "[RUS.GetNameDef] ou ses alliés ont pris le contrôle de [5.GetName]"
+ AUS_poland_fallen_to_russia:9 "[POL.GetNameDef] is in the Reichspakt and has fallen to [RUS.GetNameDef]"
 AUS_elections_decisions:0 "Décisions pour les Elections"
 AUS_endorse_CS:0 "Approuver le Christlichsoziale"
 AUS_endorse_SDAP:0 "Approuver le SDAP"
@@ -477,7 +474,7 @@ AUS_embrace_pluralism_desc:0 "Le temps est venu de fédérer l'Empire à un gouv
 AUS_austro-marxism:0 "Les nations au sein d'un État"
 AUS_austro-marxism_desc:0 "Les anciennes frontières de l'Empire et l'ancienne administration ne reconnaissent pas l'absurde diversité ethnique de notre Empire. Il n'y a pas de Bohémiens, seulement des Allemands et des Tchèques - de même, pas de Galiciens, seulement des Polonais et des Ruthéniens. L'ancienne administration ne tient même pas compte de la nationalité des gens. Il faut que cela cesse"
 
-#Le principe austromarxiste de l'autonomie personnelle nationale décrit un moyen de rassembler les membres géographiquement divisés d'une même nation pour "organiser les nations non pas en entités territoriales mais en simple association de personnes", ce qui disjoint radicalement la nation du territoire et fait de la nation une association non territoriale"
+#The Austromarxist principle of National Personal Autonomy describes a way of gathering the geographically divided members of the same nation to "organise nations not in territorial bodies but in simple association of persons", thus radically disjoining the nation from the territory and making of the nation a non-territorial association."
 
 AUS_united_states:0 "Une fédération d'égaux"
 AUS_united_states_desc:0 "Les États-Unis de la Grande Autriche, ou "Vereinigte Staaten von Groß-Österreich", était une proposition, conçue par un groupe d'universitaires entourant l'archiduc François-Ferdinand d'Autriche. Cette proposition spécifique a été conçue par l'avocat et homme politique Aurel Popovici en 1906 et visait à fédéraliser l'Autriche-Hongrie pour aider à résoudre les tensions ethniques et nationalistes généralisées"
@@ -541,20 +538,11 @@ AUS_us_looking_outwards_desc:0 "Les divisions du passé ayant été mises de cô
 AUS_protector_of_the_balkans:0 "Protecteur des Balkans"
 AUS_protector_of_the_balkans_desc:0 "La Weltkrieg a quitté les Balkans en grande partie comme zone d'influence autrichienne. Malheureusement, nous avons dû nous concentrer sur d'autres choses au cours des dernières années. Nous allons maintenant y remédier et montrer une fois de plus qui est le maître de maison"
 
-AUS_potb_help_romania:0 "Intervention en Roumanie"
-AUS_potb_help_romania_desc:0 "Le régime de Codreanu est en train d'échouer et la Roumanie est déchirée par la guerre civile. En intervenant du côté roumain, nous pourrions renverser la vapeur en leur faveur"
-
-AUS_potb_invite_romania:0 "Approcher la Roumanie"
-AUS_potb_invite_romania_desc:0 "Le royaume roumain, à nouveau en sécurité, doit être ramené au bercail"
-
 AUS_potb_albania:0 " Approcher l'Albanie"
 AUS_potb_albania_desc:0 "Nous ne pouvons plus rester les bras croisés alors que l'Albanie se trouve au sud, libre de toute influence. Il est temps de régler la question de leur position"
 
 AUS_potb_greece:0 " Approcher la Grèce"
 AUS_potb_greece_desc:0 "Il reste encore une question en suspens sur la position de la Grèce. Nous devrions chercher à l'entraîner dans notre sphère d'influence en lui donnant des coups de pied et en criant"
-
-AUS_potb_serbia:0 " Traiter avec la Serbie"
-AUS_potb_serbia_2:0 "La question slave du Sud"
 
 AUS_potb_invite_bulgaria:0 "De vieux amis en Bulgarie"
 AUS_potb_invite_bulgaria_desc:0 "La Bulgarie a été un allié essentiel pendant la Weltkrieg, nous aidant à contenir les ambitions excessives des Serbes - du moins le pensions nous. La dissolution des pouvoirs centraux après la guerre a permis aux Serbes perfides d'échapper à notre emprise. Une fois de plus, la Bulgarie est la clé du rétablissement de la paix et de la stabilité dans les Balkans une fois pour toutes"
@@ -564,7 +552,7 @@ AUS_totalist_party:0 "TVK"
 AUS_totalist_party_long:0 "Totalitäres Volkskonzil"
 AUS_syndicalist_party:0 "SAR"
 AUS_syndicalist_party_long:0 "Sozialistischer Arbeiterrat"
-AUS_radical_socialist_party:0 "2½. Internationale"
+ AUS_radical_socialist_party:9 "ASP"
 AUS_radical_socialist_party_long:0 "Arbeitsgemeinschaft Sozialistischer Parteien"
 AUS_social_democrat_party:0 "SDAP"
 AUS_social_democrat_party_long:0 "Sozialdemokratische Arbeiterpartei"
@@ -886,12 +874,12 @@ ausgleich.new.333.a:0 "Comment osent-ils !"
 ausgleich.new.340.d:0 "Without doubt inspired by the support the King and his government in Vienna have given them during the Ausgleich Renegotiations, [AUS_ausgleich_demonstrations] protesters are marching the streets, holding pro-Austrian, but anti-Hungarian protests"
 ausgleich.new.340.a:0 "Put them down"
 
- AUS_ausgleich_demonstrations_SVK_ROM:0 "Slovaque et roumain"
- AUS_ausgleich_demonstrations_SVK:0 "Slovaque"
+ AUS_ausgleich_demonstrations_SLO_ROM:9 "Slovak and Romanian"
+ AUS_ausgleich_demonstrations_SLO:9 "Slovak"
  AUS_ausgleich_demonstrations_ROM:0 "Roumain"
 
- AUS_ausgleich_demonstrations_cities_SVK_ROM:0 "Slovaquie et Transylvanie"
- AUS_ausgleich_demonstrations_cities_SVK:0 "Slovaquie"
+ AUS_ausgleich_demonstrations_cities_SLO_ROM:9 "Slovakia and Transylvania"
+ AUS_ausgleich_demonstrations_cities_SLO:9 "Slovakia"
  AUS_ausgleich_demonstrations_cities_ROM:0 "Transylvanie"
  ausgleich.new.341.t:0 "Manifestation [AUS_ausgleich_demonstrations] contre la Hongrie"
 ausgleich.new.341.d:0 "At the start of the week, peaceful demonstrations of support for Vienna in several cities of [AUS_ausgleich_demonstrations_cities] ended with the Hungarian police violently dispersing the crowd. However, this has only played into the narrative the resistance is pushing, and now [AUS_ausgleich_demonstrations] leaders are asking our government to mediate the dispute"
@@ -918,8 +906,8 @@ ausgleich.new.345.d:0 "Slovakia is finally liberated from Hungarian hands, but s
 ausgleich.new.345.a:0 "We are liberators. The State of Slovakia shall be declared"
 ausgleich.new.345.b:0 "The territory will continue to be occupied, for now"
 
- annexation_SVK_AUS_CONQ:0 "Déclaration de l'État slovaque"
-annexation_SVK_AUS_CONQ_desc:0 "Slovakia is finally liberated from Hungarian hands, but still unstable. While liberating the territory right away would be greatly respected, military advisers tell us that waiting before doing so might be a wise idea"
+ annexation_SLO_AUS_CONQ:9 "Declaration of the Slovak State"
+ annexation_SLO_AUS_CONQ_desc:9 "Slovakia is finally liberated from Hungarian hands, but still unstable. While liberating the territory right away would be greatly respected, military advisers tell us that waiting before doing so might be a wise idea."
 
  ausgleich.new.346.t:0 "Déclaration de l'État de Transylvanie"
 ausgleich.new.346.d:0 "Transylvania is finally liberated from Hungarian hands, but still unstable. While liberating the territory right away would be greatly respected, military advisers tell us that waiting before doing so might be a wise idea"
