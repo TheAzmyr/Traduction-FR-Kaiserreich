@@ -76,8 +76,8 @@ longhai_railway:0 "Chemin de fer de Longhai"
 ## Flags ##
 ANQ_peace:0 "La paix est établie dans les cinq provinces"
 ANQ_chen_alone:0 "Anqing est indépendant"
- ANQ_is_proqing:9 "Anqing recognizes the [QIE.GetName] as rightful"
- ANQ_is_profengtian:9 "Anqing recognizes the [FNG.GetName] as rightful"
+ANQ_is_proqing:0 "Anqing reconnaît le [QIE.GetName] comme légitime"
+ANQ_is_profengtian:0 "Anqing reconnaît le [FNG.GetName] comme légitime"
 ANQ_friendly_japan:0 "Est amical avec le Japon"
 ANQ_is_reconstructing:0 "A déjà achevé un projet de reconstruction"
 ANQ_abandons_reclamation:0 "Anqing a abandonné sa participation à la guerre de reconquête"
@@ -958,7 +958,7 @@ anq.6.a:0 "Une autre pièce est entrée dans l'échiquier"
 anq.7.t:0 "Rencontre avec le Japon"
 anq.7.d:0 "En travaillant dans des salles obscures et par le biais du réseau de la Black Dragon Society, [ANQ.GetLeader] a pu établir un contact avec le [JAP.GetName]. Bien que leurs intentions semblent pour le moins douteuses et que leur souhait d'une Chine pour les Chinois ne soit qu'un simple mensonge, Chen est pleinement conscient qu'il n'a guère le choix en la matière et que leur demande de reconnaître Fengtian comme seul gouvernement chinois est plus que raisonnable en échange d'un soutien qui fait cruellement défaut. Avec l'arrivée à Anqing du premier navire d'or et d'armes légères pour montrer que le Japon est prêt à tenir ses promesses et avec la mobilisation militaire de Nanjing pour une invasion de notre domaine, il semble que le temps de l'attente soit maintenant complètement révolu. Nous frapperons les premiers et nous frapperons fort, en nous assurant que les laquais allemands sur la côte seront incapables d'opprimer la Chine plus longtemps".
 anq.7.a:0 "Déclarer la guerre à la Ligue"
- anq_pp_note:9 "§RChen Tiaoyuan's closest advisors have made the Governor aware that the war will destroy much of our government and economy and that even if we win, Anqing will have to deal with a lot of problems. These problems will require strong political will so they advise to be careful with our political resources and save up for those difficult times.§!\n"
+anq_pp_note:0 "§RLes plus proches conseillers de Chen Tiaoyuan ont fait comprendre au gouverneur que la guerre détruira une grande partie de notre gouvernement et de notre économie et que même si nous gagnons, Anqing devra faire face à de nombreux problèmes. Ces problèmes nécessiteront une forte volonté politique. Ils conseillent donc de faire attention à nos ressources politiques et d'économiser pour ces temps difficiles.§!\n"
 
 anq.8.t:0 "Wu Peifu reconsidère sa position"
 anq.8.d:0 "Ayant probablement été informé de nos liens avec Tokyo, Wu Peifu a rappelé sa déclaration initiale dans laquelle il nous demandait de nous retirer et de nous rendre à Nanjing. Il offre maintenant tout le soutien que son gouvernement peut apporter et félicite [ANQ.GetLeader] pour son action décisive en ces temps difficiles pour la Chine. Pour renforcer ses propos, il a également autorisé le transfert d'or et d'armes vers Anqing, et d'autres transferts sont prévus si nous acceptons l'offre de Wu et si nous rompons tout contact avec Tokyo".
@@ -1645,10 +1645,10 @@ anq.164.a:0 "Mauvaise nouvelle"
 anq.171.t:0 "La guerre de la reconquête"
 anq.171.d1:0 "La conférence de Shenyang, organisée par Fengtian, vient de se terminer. Ils ont, à notre demande, adopté une position anticoncessionniste forte. C'est une excellente nouvelle qui nous permettra de justifier beaucoup plus facilement notre participation à leur guerre de reconquête contre Pékin. Toutefois, nous devons également tenir compte d'autres facteurs si nous voulons vraiment prendre la bonne décision."
 anq.171.d2:0 "La conférence de Shenyang, organisée par Fengtian, vient de se terminer. Ils ont manifestement ignoré nos suggestions et ont refusé d'adopter une position anticoncessionniste ferme. Toutefois, avant de refuser catégoriquement de rejoindre leur alliance, nous devons peser d'autres facteurs. Il est possible que l'adhésion à la guerre de reconquête soit la bonne décision après tout."
- anq.171.d3:9 "The Shenyang Conference, held by Fengtian, has just concluded. Time is of the essence, as the conflict against [QIE.GetNameDef] has already begun. We must swiftly come to a decision if we wish to have a say in the future of China."
- anq.171.d4:9 "Much to our dismay, though no fault of Fengtian, we have already been drawn into the conflict with [QIE.GetNameDef] before we could make our own decision on whether to participate. We now have no choice but to give everything we have in order to survive."
+anq.171.d3:0 "La conférence de Shenyang, tenue par Fengtian, vient de se terminer. Le temps est compté, car le conflit contre [QIE.GetNameDef] a déjà commencé. Nous devons rapidement prendre une décision si nous voulons avoir notre mot à dire sur l'avenir de la Chine."
+anq.171.d4:0 "À notre grand désarroi, bien que ce ne soit pas la faute de Fengtian, nous avons déjà été entraînés dans le conflit avec [QIE.GetNameDef] avant de pouvoir prendre notre propre décision quant à notre participation. Nous n'avons maintenant pas d'autre choix que de donner tout ce que nous avons pour survivre."
 anq.171.a:0 "Beaucoup de choses à discuter."
- anq.171.b:9 "War awaits."
+anq.171.b:0 "La guerre attend."
 
 anq.172.t:0 "Fengtian et reconstruction"
 anq.172.d1:0 "Le gouvernement fengtien s'est rapidement porté à notre secours lorsque nous avons eu besoin d'aide pour la reconstruction après notre victoire dans la guerre de la Ligue. Cela nous a aidés à nous rétablir plus rapidement et devrait influencer positivement notre volonté de les rejoindre dans la guerre de reconquête".
@@ -1714,7 +1714,7 @@ anq.175.d3:0 "La plupart des facteurs nous incitent à rejoindre la guerre de re
 anq.175.d4:0 "Les facteurs en faveur et contre l'adhésion à la guerre de reconquête sont à peu près équilibrés. Cependant, notre gouvernement actuel doit sa légitimité en grande partie à notre volonté déclarée d'unifier la Chine sous le régime fengtien. Abandonner le fengtian signifierait également abandonner l'unification.  [getanqreclamationdecisioncredenough4]"
 anq.175.d5:0 "Les facteurs sont contre le fait que nous nous joignions à la guerre de reconquête. Cependant, notre gouvernement actuel doit sa légitimité en grande partie à notre volonté déclarée d'unifier la Chine sous le régime fengtien. Abandonner le fengtian signifierait également abandonner l'unification. [getanqreclamationdecisioncredenough5]"
 anq.175.d6:0 "De nombreux facteurs nous poussent à ne pas participer à la guerre de reconquête. Cependant, notre gouvernement actuel doit sa légitimité en grande partie à notre volonté déclarée d'unifier la Chine sous le régime fengtien. Abandonner le fengtian signifierait également abandonner l'unification.  [getanqreclamationdecisioncredenough6]"
- anq.175.d7:9 "Due to circumstances, we have already been drawn into the war with [QIE.GetNameDef]. As such, we have no choice but to fully commit to the Reclamation War and join Fengtian, because we have no chance against [QIE.GetNameDef] on our own. Let us find the way to Beijing and end their reign over China."
+anq.175.d7:0 "En raison des circonstances, nous avons déjà été entraînés dans la guerre avec [QIE.GetNameDef]. Nous n'avons donc pas d'autre choix que de nous engager pleinement dans la guerre de reconquête et de rejoindre Fengtian, car nous n'avons aucune chance contre [QIE.GetNameDef] par nos propres moyens. Trouvons le chemin de Pékin et mettons fin à leur règne sur la Chine."
 anq.175.a:0 "S'engager dans la guerre de reconquête"
 anq.175.b:0 "Abandonner le fengtien"
 anq_reclamation_credibility_not_enough:0 "\nNous avons heureusement trop peu de crédibilité pour être autonomes en tant que gouvernement national séparé et nous dépendons donc trop du fengtien. En conséquence, nous ne pouvons pas nous permettre de perdre leur soutien et sommes obligés de nous joindre à leur guerre de reconquête".
