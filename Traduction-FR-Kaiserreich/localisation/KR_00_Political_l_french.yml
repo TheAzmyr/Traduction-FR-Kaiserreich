@@ -7,8 +7,8 @@ SYNDIE_SOC_DEM_NOTICE:0 "(Syndicaliste aligné)"
 war_propaganda_against_warmonger_desc:0 "La nation appelle chaque homme, femme et enfant à contribuer à la lutte contre [From.GetNameDef]!"
 
 ### Opening Event ###
- kr.political.1.t:9 "Kaiserreich Beta 0.14.2"
- kr.political.1.d:9 "The Kaiserreich Team proudly present Kaiserreich beta version 0.14.2 for Hearts of Iron 4.\n\nOur team has been working hard from every corner of the world to bring this new version to you and we couldn't be more honoured that you are choosing to play it.\n\nPlease note the following:\nThe mod is designed with the assumption that the player will always annex all possible states in peace treaties, so make sure to do that\nYou can change the frequency of news events by toggling the icon at the top of the decisions tab\nYou can select what naming system states and victory points use by toggling the icon replacing the achievements menu in the top right\nRemember that this mod is still in Beta, so expect bugs, crashes and various headaches\nIf you encounter any of these, reporting them on our GitHub issue tracker is of great help and will get them fixed sooner\n\nWe hope you will enjoy playing Kaiserreich as much as we did making it!"
+ kr.political.1.t:0 "Kaiserreich Beta 0.14.1"
+ kr.political.1.d:0 "L'équipe de Kaiserreich est fière de vous présenter la version bêta 0.14.1 de Kaiserreich pour Hearts of Iron 4. Notre équipe a travaillé dur dans tous les coins du monde pour vous présenter cette nouvelle version et nous ne pourrions pas être plus honorés que vous choisissiez d'y jouer. \n\nNous vous prions de bien vouloir noter ce qui suit : \nLe mod est conçu avec l'hypothèse que le joueur annexera toujours tous les états possibles dans les traités de paix, donc assurez-vous de faire cela\nVous pouvez changer la fréquence des nouvelles en basculant l'icône en haut de l'onglet décisions\nVous pouvez sélectionner quel système de nommage des états et des points de victoire utiliser en basculant l'icône remplaçant le menu des réalisations en haut à droite\nRappelez-vous que ce mod est toujours en Bêta, Attendez-vous donc à des bogues, des plantages et divers maux de tête ! Si vous rencontrez l'un d'entre eux, les signaler sur notre GitHub issue tracker est d'une grande aide et permettra de les corriger plus rapidement !"
 kr.political.1.a:0 "Je suis sûr que je le ferai !"
 
 ### Generic Triggered Events ####
@@ -72,11 +72,6 @@ has_scripted_peace_desc:0 "Le pays est en guerre et est déterminé à remporter
  mobilisation_penalty_modifier:0 "Au-delà de la limite de la division"
 
  unit_limit_count:0 "[unit_limit_count_loc]/[?max_divisions|H0]"
-
- toggle_news_text_red_fake_intel:9 "[?num_actual_divisions|G0]"
- unit_limit_count_yellow_fake_intel:9 "[?num_actual_divisions|H0]"
- unit_limit_count_green_fake_intel:9 "[?num_actual_divisions|R0]"
-
  unit_limit_count_green:0 "[?num_divisions|G0]"
  unit_limit_count_yellow:0 "[?num_divisions|H0]"
  toggle_news_text_red:0 "[?num_divisions|R0]"
@@ -86,9 +81,7 @@ has_scripted_peace_desc:0 "Le pays est en guerre et est déterminé à remporter
  unit_limit_bonus:0 "Limite de divisions"
 
  unit_limit_label:0 "§HDivisions maximums soutenues§!"
- unit_limit_desc:9 "Chaque pays n'a la capacité de soutenir qu'un certain nombre de divisions militaires individuelles avant que son économie et ses infrastructures ne se battent pour les maintenir.§L\n\n - Usines nettes : §! [?net_factory_count]§L[unit_limit_major_power][unit_limit_world_tension]\n - [unit_limit_economy_law]:§! §L[limite_supérieure_percerc]§L[limite_unitaire_a été_capitalisée][limite_unitaire_inférieure_utilisée][limite_unitaire_supérieure_utilisée][limite_unitaire_bonus_utilisée]\n\n TOTAL FINAL : §W[?max_divisions]§! (arrondi vers le haut)\n\nVeuillez noter que les modifications apportées aux éléments ci-dessus prennent jusqu'à une semaine de jeu avant d'être prises en compte dans le calcul.§![above_unit_limit_desc]"
-
- unit_limit_desc_fake_intel:9 " (§HFake Intel Divisions§! do not count towards the division limit)"
+ unit_limit_desc:0 "Chaque pays n'a la capacité de soutenir qu'un certain nombre de divisions militaires individuelles avant que son économie et ses infrastructures ne se battent pour les maintenir.§L\n\n - Usines nettes : §! [?net_factory_count]§L[unit_limit_major_power][unit_limit_world_tension]\n - [unit_limit_economy_law]:§! §L[limite_supérieure_percerc]§L[limite_unitaire_a été_capitalisée][limite_unitaire_inférieure_utilisée][limite_unitaire_supérieure_utilisée][limite_unitaire_bonus_utilisée]\n\n TOTAL FINAL : §W[?max_divisions]§! (arrondi vers le haut)\n\nVeuillez noter que les modifications apportées aux éléments ci-dessus prennent jusqu'à une semaine de jeu avant d'être prises en compte dans le calcul.§![above_unit_limit_desc]"
 
  unit_limit_desc_above_limit:0 "\n\n--------------\n\n§RNous avons actuellement dépassé nos capacités, et la seule façon d'alléger la pression sur notre pays sera de supprimer certaines de nos divisions.§!\n\nOrganisation des divisions : [?mobilisation_penalty_var|+=%1]\nUsines de biens de consommation : [?mobilisation_penalty_var_positive|=%H0]\nProduction en usine : [?mobilisation_penalty_var|+=%]\nTemps de formation : [?mobilisation_penalty_var_positive|-=%]\nRenforcer le taux : [?mobilisation_penalty_var|+=%1]"
 
@@ -102,7 +95,7 @@ has_scripted_peace_desc:0 "Le pays est en guerre et est déterminé à remporter
  unit_limit_bonus_used_desc:0 "\n\n   - Modificateurs supplémentaires : §G+[?upper_limit_unit_bonus]§! à la limite"
 
  upper_limit_perc_figure_pos:0 "§G+[?upper_limit_from_factory_mult]%§!"
- upper_limit_perc_figure_neg:9 "§R[?upper_limit_from_factory_mult]%§!"
+ upper_limit_perc_figure_neg:0 "§R-[?upper_limit_from_factory_mult]%§!"
 
  unit_limit_undisturbed_isolation:0 "§YIsolement intact§!"
  unit_limit_isolation:0 "§YIsolement§!"
