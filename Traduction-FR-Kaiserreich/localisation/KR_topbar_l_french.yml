@@ -1,5 +1,8 @@
 ﻿l_french:
 
+ popularity_ideology_tooltip:9 "[GetPopularityTooltip]"
+ popularity_ideology_desc:9 "[GetPopularityTooltipDesc]"
+
 totalist_topbar_tooltip:0 "Votre parti au pouvoir actuel est §HTotaliste§!"
 syndicalist_topbar_tooltip:0 "Votre parti au pouvoir actuel est §HSyndicaliste§!"
 radical_socialist_topbar_tooltip:0 "Votre parti au pouvoir actuel est §HRadical Socialiste§!"
@@ -13,24 +16,21 @@ national_populist_topbar_tooltip:0 "Votre parti au pouvoir actuel est §HNationa
 
 party_popularity_delayed_tooltip:0 "La popularité du parti représente le contrôle de votre gouvernement actuel sur la nation et son soutien avec le peuple. Les partis politiques très populaires sont plus à même de faire avancer leur programme politique et de stabiliser la nation."
 
- party_popularity_tooltip:0 "§HParty Popularity\n\nEffects from our current Party Popularity:§!\nDaily Political Power Gain: [GetPopLevel][GetHasCoalition][GetCoalitionTotalist][GetCoalitionSyndicalist][GetCoalitionRadicalSocialist][GetCoalitionSocialDemocrat][GetCoalitionSocialLiberal][GetCoalitionMarketLiberal][GetCoalitionSocialConservative][GetCoalitionAuthoritarianDemocrat][GetCoalitionPaternalAutocrat][GetCoalitionNationalPopulist]"
+ party_popularity_tooltip:9 "§HParty Popularity§![GetPopularityPPGain]"
+ party_popularity_tooltip_long:9 "§H\n\nEffects from our current Party Popularity:§!\nDaily Political Power Gain: [GetPopularityPPGainValue][GetHasCoalition][GetCoalitionTotalist][GetCoalitionSyndicalist][GetCoalitionRadicalSocialist][GetCoalitionSocialDemocrat][GetCoalitionSocialLiberal][GetCoalitionMarketLiberal][GetCoalitionSocialConservative][GetCoalitionAuthoritarianDemocrat][GetCoalitionPaternalAutocrat][GetCoalitionNationalPopulist]"
 
 party_popularity_dynamic_modifier:0 "£pol_idea Popularité du Parti"
  party_popularity_dynamic_modifier_ideology_mapped:0 "Party Popularity"
  party_popularity_dynamic_modifier_coalition:0 "Coalitions"
 
-party_pop_loc_key:0 "§HPopularité du Parti\n\nEffets de la popularité de notre parti actuel:§!\nGain quotidien de pouvoir politique: [?ROOT.party_popularity@ruling_party|2=+]\n"
-
- party_pop_loc_key_mapped:0 "[?party_popularity@var:political_power_ideology|2=+]\n(tied to the §H[?political_power_ideology.GetTokenLocalizedKey]§!)"
-
- party_pop_coalition:0 "\n§HPartenaires de Coalition:§!\n"
- party_pop_coalition_totalist:0 "- [?token:totalist.GetTokenLocalizedKey]: [?party_popularity@totalist|2=+]\n"
- party_pop_coalition_syndicalist:0 "- [?token:syndicalist.GetTokenLocalizedKey]: [?party_popularity@syndicalist|2=+]\n"
- party_pop_coalition_radical_socialist:0 "- [?token:radical_socialist.GetTokenLocalizedKey]: [?party_popularity@radical_socialist|2=+]\n"
- party_pop_coalition_social_democrat:0 "- [?token:social_democrat.GetTokenLocalizedKey]: [?party_popularity@social_democrat|2=+]\n"
- party_pop_coalition_social_liberal:0 "- [?token:social_liberal.GetTokenLocalizedKey]: [?party_popularity@social_liberal|2=+]\n"
- party_pop_coalition_market_liberal:0 "- [?token:market_liberal.GetTokenLocalizedKey]: [?party_popularity@market_liberal|2=+]\n"
- party_pop_coalition_social_conservative:0 "- [?token:social_conservative.GetTokenLocalizedKey]: [?party_popularity@social_conservative|2=+]\n"
- party_pop_coalition_authoritarian_democrat:0 "- [?token:authoritarian_democrat.GetTokenLocalizedKey]: [?party_popularity@authoritarian_democrat|2=+]\n"
- party_pop_coalition_paternal_autocrat:0 "- [?token:paternal_autocrat.GetTokenLocalizedKey]: [?party_popularity@paternal_autocrat|2=+]\n"
- party_pop_coalition_national_populist:0 "- [?token:national_populist.GetTokenLocalizedKey]: [?party_popularity@national_populist|2=+]\n"
+ party_pop_coalition:9 "\n§HPartenaires de Coalition:§!\n"
+ party_pop_coalition_totalist:9 "- [?token:totalist.GetTokenLocalizedKey]\n"
+ party_pop_coalition_syndicalist:9 "- [?token:syndicalist.GetTokenLocalizedKey]\n"
+ party_pop_coalition_radical_socialist:9 "- [?token:radical_socialist.GetTokenLocalizedKey]\n"
+ party_pop_coalition_social_democrat:9 "- [?token:social_democrat.GetTokenLocalizedKey]\n"
+ party_pop_coalition_social_liberal:9 "- [?token:social_liberal.GetTokenLocalizedKey]\n"
+ party_pop_coalition_market_liberal:9 "- [?token:market_liberal.GetTokenLocalizedKey]\n"
+ party_pop_coalition_social_conservative:9 "- [?token:social_conservative.GetTokenLocalizedKey]\n"
+ party_pop_coalition_authoritarian_democrat:9 "- [?token:authoritarian_democrat.GetTokenLocalizedKey]\n"
+ party_pop_coalition_paternal_autocrat:9 "- [?token:paternal_autocrat.GetTokenLocalizedKey]\n"
+ party_pop_coalition_national_populist:9 "- [?token:national_populist.GetTokenLocalizedKey]\n"

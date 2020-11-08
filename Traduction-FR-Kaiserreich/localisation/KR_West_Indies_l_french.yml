@@ -208,7 +208,7 @@ CAF_Unity_concessions_2nd_Cayenne:0 "Concessions au PU"
 CAF_SocDem_concessions_2nd_Cayenne:0 "Concessions aux Sociaux Democrates"
 
 CAF_2nd_Cayenne_Agreement:0 "Le 2nd Accord de Cayenne"
-CAF_2nd_Cayenne_Agreement_desc:0 "Le 1er accord de Cayenne signé en 1931 a été signé entre les hommes politiques Anglais et Français au sujet du statut des territoires Français. La 2e Convention de Cayenne garantit cependant l'égalité en droits et en autonomie des colonies Françaises et Anglaises. Elle est beaucoup moins controversée et, en outre, elle protège mieux les droits civils fondamentaux de chacun."
+ CAF_2nd_Cayenne_Agreement_desc:9 "Le 1er accord de Cayenne signé en 1931 a été signé entre les hommes politiques Anglais et Français au sujet du statut des territoires Français. La 2e Convention de Cayenne garantit cependant l'égalité en droits et en autonomie des colonies Françaises et Anglaises. Elle est beaucoup moins controversée et, en outre, elle protège mieux les droits civils fondamentaux de chacun."
 
 CAF_2nd_Cayenne_Agreement2:0 "Le projet de loi Sangster"
 CAF_2nd_Cayenne_Agreement2_desc:0 "Une série de résolutions sociales libérales qui vont sûrement stimuler l'économie des Antilles."
@@ -251,6 +251,7 @@ UK_loyaloob_tt:0 "Dix-neuf divisions seront levées dans tout le pays."
 west_indies_stable_time:0 "Le soutien politique de gauche va fortement diminuer et les accords avec les îles Françaises seront supprimés."
 CAF_revolution_internationale:0 "§RL'Internationale entrera en guerre. Nous ne sommes peut-être pas prêts à les combattre.§!\n"
 CAF_event_islands_kept:0 "§YNous offrirons une paix qui assure le maintien de notre contrôle sur les Bermudes et les Bahamas.§!\n"
+ CAF_nomorerevolt:9 "§CTensions can no longer lead to spontaneous socialist and imperial coups, though they may still create maluses.§!\n"
 
 ## Party Victories ##
 CAF_unity_party_victory_flag:0 "Le Parti de l'Union a remporté les élections de 1937."
@@ -409,6 +410,32 @@ CAF_add_10_caf_caf_lemery_support:0 "§HLémery§! obtient plus d'influence au s
 CAF_add_15_caf_legitimus_support:0 "§RLegitimus§! obtient plus d'influence au sein du PA\n Parcequ'il aura plus de temps pour obtenir le soutien des politiciens de Kingston.\n"
 CAF_add_15_caf_lemery_support:0 "§HLémery§! obtient plus d'influence au sein du PA\n Le plus tôt sera le mieux. Lémery contrôle Kingston.\n"
 
+### Social Turmoil ###
+ CAF_angereffects_modifier:9 "£pol_idea Social Turmoil"
+ CAF_angereffect_idea:9 "Social Turmoil\n§W--------------§!\n§gThough politically united, the [ROOT.GetName] is socially divided. Loyalist and Socialist forces jockey for dominance of public life while Localist identity slowly grows amongst the nation's many culturally diverse islands.\n\n[CAF_coupornotloc]§YUpdates Dynamically:§!\n§W--------------\nCurrent tension with the§! §YSocialists§!§W:§! [CAF_socornot]\n§WCurrent tension with the§! §YEmpire§!§W:§! [CAF_britornot]\n\n§WStability:§! §+[?CAF.var_wif_stability|=%+]§!\n§WWar Support:§! §+[?CAF.var_wif_war_support|=%+]§!\n§WPolitical Power Gain:§! §+[?CAF.var_wif_pol_power|=%+]§!"
+ CAF_angereffect_idea_desc:9 "Notes on calculation:\n-Baseline effects are calculated linearly. Five points of stability or five percent of political power gain are subtracted for each marginally higher level of socialist or Imperial anger respectively.\n-At medium or higher levels of anger, war support is deducted on the same scale.\n- Under a socialist or Imperial government, while maluses from the faction in power are obviously negated, the maluses from the other faction are intensified. This does not affect the threshhold for a coup to occur."
+
+ CAF_socialistangerloc_very_low:9 "§CVery Low§!"
+ CAF_socialistangerloc_low:9 "§GLow§!"
+ CAF_socialistangerloc_medium:9 "§YMedium§!"
+ CAF_socialistangerloc_high:9 "§OHigh§!"
+ CAF_socialistangerloc_very_high:9 "§RVery High§!"
+
+ CAF_britishangerloc_very_low:9 "§CVery Low§!"
+ CAF_britishangerloc_low:9 "§GLow§!"
+ CAF_britishangerloc_medium:9 "§YMedium§!"
+ CAF_britishangerloc_high:9 "§OHigh§!"
+ CAF_britishangerloc_very_high:9 "§RVery High§!"
+
+ CAF_coupornotloc_yes:9 "If tensions with any group reach a §!§RVery High§! §glevel, a §!§Rcoup§! §gmay be launched.§!\n\n"
+ CAF_coupornotloc_no:9 ""
+
+ CAF_socornot_yes:9 "§WN/A§!"
+ CAF_socornot_no:9 "[CAF_socialistangerloc]"
+
+ CAF_britornot_yes:9 "§WN/A§!"
+ CAF_britornot_no:9 "[CAF_britishangerloc]"
+
 ## Random ##
 CAF_get_to_work_tooltip:0 "§RLa Commission Moyne publiera son rapport dans un an. Si nous ne considérons pas leurs suggestions et que nous ne les appliquons pas d'ici là, le Parti pour §l'Unité peut faire face à de dures conséquences, ainsi qu'à des changements dans le mouvement de grève !"
 CAF_unavailable_crisis_US_tooltip:0 "§RCe focus ne sera pas disponible si les Etats-Unis sont en crise §!"
@@ -422,6 +449,7 @@ CAF_new_election_time:0 "§GDe nouvelles élections se tiendront !"
 CAF_soclib_puppet_time:0 "§GNous deviendrons un dominion plus autonome, toujours soumis au Canada !"
 CAF_entente_scripted_loc:0 "Entente"
 CAF_internationale_scripted_loc:0 "Internationale"
+
 ## Opinion modifiers ##
 CAF_FRA_exch:0 "Programme d'échange franco-caribéen"
 
@@ -436,7 +464,6 @@ NAVY_RALPH_LEATHAM_DESC:0 "§YDescription de l'Amiral§!\n§YNaissance:§! le 3 
 NAVY_REGINALD_DRAX_DESC:0 "§YDescription de l'Amiral§!\n§YNaissance:§! le 28 août 1880, Marylebone, Greater London, England\n§YCarrière dans la marine:§! L'amiral Sir Reginald Aylmer Ranfurly Plunkett-Ernle-Erle-Erle-Drax est d'origine noble, il a gagné ses nombreux noms grâce à l'église d'Angleterre et à son mariage, il est le commandant en chef de la West Indies Station. Il s'enrôle dans la marine à l'âge de 14 ans à bord du HMS Britannia. En 1909, il est promu lieutenant de vaisseau et écrit un livre intitulé "Modern Naval Tactics". Le livre couvrait de nombreux aspects de son expérience pendant la bataille de Tsushima et les nombreuses façons d'améliorer la conception des navires en utilisant des torpilles et des flottes plus petites. Pendant la Grande Guerre, il a servi sur de nombreux navires comme le HMS Lion et a même reçu l'Ordre du service distingué pour son service sur le HMS Blanche. Au début, il a obtenu de nombreuses promotions avant la révolution, montant rapidement en grade jusqu'à ce qu'il atteigne celui d'amiral en 1934, tout en devenant commandant du West Indies Squadron, poste recherché. Se posant en norme pour les autres au Canada et au sein de la fédération elle-même, Drax est considérée comme un élément clé de la marine des Antilles et un chef de file de l'idée de la réforme navale. \n§YPoints Importants:§!-Commandant de l'escadron des Antilles - Hautement qualifié et considéré comme digne de confiance au sein du petit état-major de la marine des Antilles. Il a écrit des livres sur la guerre navale et les moyens de l'améliorer, comme son premier " Modern Naval Tactics."
 
 ### Decisions ###
-
 CAF_socialist_acceptance_category:0 "Le problème socialiste"
 CAF_socialist_acceptance_category_desc:0 "Avec une tendance aux grèves syndicales et une sympathie grandissante à un rythme alarmant pour le continent , nous sommes en train de balancer de façon très effrayante pour apaisement à la fois la gauche et la droite de notre pays. Si jamais nous commençons à sympathiser à un haut niveau avec ces anarchistes, le Gouverneur-Général pourrait intervenir mais les réprimant trop peut conduire à une révolte pure et simple. Nous devrons être prudents dans nos actions futures tout en gardant cela à l'esprit.\n\nNiveau de sympathie actuel pour le §Rsocialisme§! dans la Fédération: §R[?CAF.socialist_acceptance|-0]§!\n"
 
@@ -573,7 +600,7 @@ CAF_permanent_junta_2:0 "Règne permanent du Gouverneur-Général"
 CAF_permanent_junta_2_desc:0 "Face à l'instabilité née des élections dans la Fédération, Sir Fiennes a annoncé qu'il continuerait à gouverner sans revenir à la démocratie, de peur qu'elle ne menace à nouveau de détruire le pays."
 
 CAF_tension_category:0 "La saison des grèves"
-CAF_tension_category_desc:0 "Avec une tendance aux grèves syndicales et une sympathie grandissante à l'égard du continent, nous sommes en train de balancer de façon effrayante pour tenter d'apaiser à la fois la gauche et la droite de notre pays, ce qui fait que la période la plus difficile que notre pays est connue sous le nom de \"saison des grèves\". Si jamais nous commençons à sympathiser avec ces anarchistes à un haut niveau, le Gouverneur-Général pourrait intervenir mais les réprimer trop pourrait conduire à une révolte pure et simple. Nous devrons être prudents avec nos actions à l'avenir tout en gardant ça à l'esprit.\n\nTension actuelle avec les §Rsocialistes§!: §Y[?CAF.CAF_socialist_anger]§!\n\n\nTension actuelle avec l'§MEmpire§!: §Y[?CAF.CAF_british_anger]§!"
+ CAF_tension_category_desc:9 "With a trend of labour strikes and a very alarming spike of French sympathy for the mainland, we're teetering on a very frightening scale of appeasing both the left and the right of our country, resulting in many referring to this time as our country's 'Strike Season'. Should we ever begin to go too far in sympathizing with these anarchists, the Governor-General could intervene. Suppressing them too much, on the other hand, could lead to outright revolution. We'll need to be careful with our actions in the future while keeping this in mind."
 
 CAF_combat_tax_evasion:0 "Augmenter les charges fiscales des plantation"
 CAF_combat_tax_evasion_desc:0 "Pendant longtemps, la nature même de notre jeune gouvernement a permis aux plantations de falsifier continuellement leurs profits, et donc le montant qu'elles devaient payer. Bien qu'elles nous rapportent encore des revenus sous forme d'exportations, il s'agit là d'une violation flagrante de l'État de droit, et les journaux socialistes n'ont jamais manqués une occasion d'en parler. Nous ferions mieux d'accroître notre surveillance des finances des plantations pour renforcer la confiance dans le gouvernement."
@@ -590,7 +617,7 @@ CAF_allow_yellow_unions_desc:0 "Bien que les syndicats soient toxiques pour l'é
 
 ### Events ###
 wifpol.1.t:0 "Présentation de la Fédération des Antilles"
-wifpol.1.d:0 "La Fédération des Antilles a connu une histoire mouvementée depuis sa création, avec ce qui était à l'origine un fossé entre les Anglais qui voulaient ou non intégrer les colonies Françaises évoluant vers une division complète entre la culture Française et anglaise. La victoire du NCP (Parti de la consolidation nationale) aux élections de 1925 a entraîné l'incorporation des colonies Françaises, mais avec de profondes racines sociales, elle s'est immédiatement transformée en chaos. La victoire de l'UP (Parti de l'unité) et la signature de l'accord de Cayenne en 1931 ont mis fin au conflit. Il établit la capacité des Français à créer leurs propres partis et leur accorda une plus grande autonomie que les colonies anglaises.  Bien que cette initiative ait d'abord bien fonctionné, elle semble n'avoir fait qu'accroître les tensions à long terme, la droite modérée demandant l'abrogation complète de l'accord et son remplacement par un nouvel accord, tandis que la gauche veut accroître davantage l'autonomie des Français et de tous les territoires de la Fédération. \n\nUn nouveau parti, le PA(Parti pour §l'Autonomie), un énorme amalgame des socialistes et libéraux  Français avec quelques politiques anglais, a été créé en 1933 pour représenter la gauche. En partie en réponse à ces événements, le PCN s'est régulièrement maintenu au pouvoir et est redevenu populaire parce qu'une grande partie de la population anglaise a eu le sentiment d'avoir été lésé par l'Accord de Cayenne. Ayant à peine survécu aux élections de 1933, le Parti de l'Unité se trouve dans une position dangereuse."
+ wifpol.1.d:9 "The West Indies Federation has had a troubled history since its creation, with what was initially a divide between Englishmen who did and did not want to incorporate the French colonies evolving into a complete split between French and British culture. The victory of the NCP (National Consolidation Party) in the 1925 elections resulted in the incorporation of French colonies, but with deep socialist roots in them, it immediately grew into chaos.\n\nThis ended with the victory of the UP(Unity Party) and signing of the Cayenne Agreement in 1931. This established the ability for the French to make their own parties and allowed them higher autonomy than the British colonies. While this move turned out well at first, it seems to have only increased tensions in the long run with the moderate right demanding the entire agreement be repealed and replaced with a new one, while the left wants to further increase autonomy for either the French or all territories of the Federation.\n\nA new party, the PA(Parti pour l'Autonomie), a huge mesh of French socialists and liberals along with a smattering of left-leaning British politicians designed to represent the left, was created in 1933. Partially as a response to this, the NCP has steadily been rising in power and popularity again due to a large part of the British population feeling like it got a bad deal in the Cayenne Agreement. Having barely slipped by in the 1933 elections, the Unity Party stands in a dangerous position."
 wifpol.1.a:0 "Le fossé doit être comblé."
 
 wifpol.2.t:0 "Grèves paysannes en Guadeloupe"
@@ -1149,7 +1176,7 @@ wifpol.625.a:0 "La stabilité de la coalition va chuter."
 
 
 wifpol.699.t:0 "Numéros du Parlement"
-wifpol.699.d:0 "PA: §R[?CAF_pas_parl]§! \nPA: §H[?CAF_paf_parl]§! \nUP: §Y[?CAF_up_parl]§!\nNCP: §B[?CAF_ncp_parl]§!"
+ wifpol.699.d:9 "PA: §R[?CAF_pas_parl]§! \nPA: §H[?CAF_paf_parl]§! \nUP: §Y[?CAF_up_parl]§!\nNCP: §B[?CAF_ncp_parl]§!"
 wifpol.699.a:0 "K"
 
 wifpol.800.t:0 "Rejoindre l'Internationale"
@@ -1335,7 +1362,7 @@ CAF_unity_lower_french_autonomy_desc:0 "La Convention de Cayenne avait complète
 CAF_unity_increase_english_autonomy:0 "Augmenter l'autonomie des Anglais."
 CAF_unity_increase_english_autonomy_desc:0 "L'idée de ne pas mentionner l'autonomie anglaise dans la convention de Cayenne était ridicule et n'a fait qu'accroître les activités syndicalistes anglaises. Leur autonomie doit être impérativement augmentée afin de compenser son absence dans l'Accord de Cayenne."
 CAF_unity_cayenne_english_autonomy:0 "Maintenir l'autonomie anglaise fixée par l'Accord de Cayenne"
-CAF_unity_cayenne_english_autonomy_desc:0 "L'autonomie anglaise est un sujet encore plus dangereux à aborder que la française, car elle est un élément déclencheur pour les mouvements syndicalistes français et anglais. Il vaut mieux laisser le sujet en suspens plutôt que de toucher ce nid à problèmes."
+ CAF_unity_cayenne_english_autonomy_desc:9 "L'autonomie anglaise est un sujet encore plus dangereux à aborder que la française, car elle est un élément déclencheur pour les mouvements syndicalistes français et anglais. Il vaut mieux laisser le sujet en suspens plutôt que de toucher ce nid à problèmes."
 CAF_unity_lower_english_autonomy:0 "Baisser l'autonomie des Anglais."
 CAF_unity_lower_english_autonomy_desc:0 "Ne pas mentionner l'autonomie des Anglais dans l'accord de Cayenne était une erreur de notre part. L'autonomie des Anglais est déjà trop élevée et cela renforce les syndicalistes Français. Elle doit être abaissée pour satisfaire la population française."
 CAF_unity_crack_down_syndicalism:0 "Réprimer le syndicalisme"

@@ -26,7 +26,7 @@ GEA_national_populist_party_long:0 "Ligue nationale de Malaisie"
 
 ### Custom Tech ###
 GEA_improved_field_hospitals:0 "La chevauchée des Valkyries"
-GEA_Valkyrie_tech_effect:0 "Active §HLa chevauchée des Valkyries§!\nHôpital de Campagne§!\n      Trickleback: §G+20%§!\n      Perte d'expérience: §G-10%§!\n\n"
+ GEA_Valkyrie_tech_effect:9 "Enables §H$GEA_improved_field_hospitals$\nField Hospital§!\n      Trickleback: §G+20%§!\n      Exp. Loss: §G-10%§!\n\n"
 
 ### Tooltips ###
 GEA_valkyrie_tt:0 "§GLa chevauchée des Valkyries§! réduira considérablement le nombre de pertes au combat.\n"
@@ -65,8 +65,8 @@ GEA_Xiamen_locked:0 "- §RXiamen§!"
 GEA_Wenzhou_locked:0 "- §RWenzhou§!"
 GEA_Nantong_locked:0 "- §RNantong§!"
 GEA_MAF_Advisors:0 "Les conseillers §CMittelafrikain§! sont arrivés"
-GEA_shandong_german_collaboration_tooltip:0 "A l'esprit national §HCollaboration économique allemande§!"
-GEA_shandong_german_collaboration_tooltip_NOT:0 "N'a pas l'esprit national §HCollaboration économique allemande§!"
+ GEA_shandong_german_collaboration_tooltip:9 "Has national spirit §H$SQI_Tsingtau_Collaboration2$§!"
+ GEA_shandong_german_collaboration_tooltip_NOT:9 "Does not have national spirit §H$SQI_Tsingtau_Collaboration2$§!"
 
 ### Opinion Modifier ###
  LEP_refused_help_modifier:0 "Ils ont refusé notre aide !"
@@ -282,7 +282,7 @@ Ostasien.6.a:0 "Concentrons nos forces pour écraser ces bandits !"
 Ostasien.6.b:0 "Déclarez la loi martiale dans toute l'Indochine !"
 
 Ostasien.7.t:0 "Une tragédie indochinoise" # FRA
-Ostasien.7.d:0 ""Viet-Nam ! Viet-Nam ! Viet-Nam ! Patrie du Sud ! Treize fois, j'ai entendu la clameur devant la guillotine de Yen-Bai. Treize hommes condamnés à mort l'ont crié, un par un, à deux mètres de l'échafaudage." \n\nUn journaliste français Louis Roubaud a été témoin de la brutale répression allemande en Indochine, notre ancienne colonie et l'actuel bastion du colonialisme allemand en Extrême-Orient. Aujourd'hui, le général Jacques Doriot, un ami proche de feu le révolutionnaire indochinois Ho Chi Minh, a plaidé en faveur d'une intervention en Indochine. Depuis la fin de la Weltkrieg, des milliers d'étudiants, de soldats et d'ouvriers indochinois sont restés en France et sont devenus des révolutionnaires convaincu. Si nous les renvoyons avec suffisamment d'armes, ils peuvent organiser un soulèvement en Cochinchine. Cela pourrait déstabiliser l'empire colonial allemand et servir la révolution mondiale."
+ Ostasien.7.d:9 ""Viet-Nam! Viet-Nam! Viet-Nam! Homeland of the South! Thirteen times, I heard the outcry in front of the guillotine of Yen-Bai. Thirteen men sentenced to death shouted it, one by one, two metres away from climbing the scaffold."\n\n— A French journalist Louis Roubaud witnessed the recent brutal German crackdown in Indochina, our former colony and the current bastion of German colonialism in the Far East. General André Marty, a close friend of the late Indochinese revolutionary Ho Chi Minh spoke out for an intervention in Indochina. Since the end of the Weltkrieg, thousands of Indochinese students, soldiers and workers stayed in France and became firm revolutionaries. If we send them back with sufficient arms, they can organise an uprising in Cochinchina. This could destabilise the German colonial empire and serve the world revolution."
 Ostasien.7.a:0 "Bon voyage, camarades indochinois !"
 Ostasien.7.b:0 "Nous ne sommes pas le Pigneau de Behaine moderne."
 
@@ -617,6 +617,21 @@ Ostasien.100.a:0 "Ils auraient raison de craindre notre puissance."
  GEA_start_naval_blockade_desc:0 "Les convois de l'Internationale peuvent entrer librement dans la mer de Chine méridionale et envoyer un soutien secret aux rebelles indochinois, cela ne peut continuer."
  GEA_shelling_on_Saigon:0 "Bombardement sur Saigon"
 
+ GEA_reorganize_north_malaya:9 "Reorganize North Malaya"
+ GEA_reorganize_north_malaya_desc:9 ""
+ GEA_reorganize_sumatra:9 "Reorganize Sumatra"
+ GEA_reorganize_sumatra_desc:9 ""
+ GEA_reorganize_java:9 "Reorganize Java"
+ GEA_reorganize_java_desc:9 ""
+ GEA_reorganize_kalimantan:9 "Reorganize South Borneo"
+ GEA_reorganize_kalimantan_desc:9 ""
+ GEA_reorganize_sulawesi_sunda:9 "Reorganize Celebes & Lesser Sunda"
+ GEA_reorganize_sulawesi_sunda_desc:9 ""
+ GEA_reorganize_maluku_papua:9 "Reorganize West New Guinea and the Moluccas"
+ GEA_reorganize_maluku_papua_desc:9 ""
+ GEA_reorganize_east_timor:9 "Reorganize East Timor"
+ GEA_reorganize_east_timor_desc:9 ""
+
 ### Ideas ###
  GEA_colonial_nation:0 "Gouvernement colonial"
  GEA_colonial_nation_desc:0 "Malgré son autonomie limitée dans les relations avec ses voisins, la GEA est en fait un gouvernement colonial ; tout son appareil d'État repose sur la puissance allemande et est maintenu par elle, avec un budget préparé à Berlin et sa monnaie rattachée au mark allemand."
@@ -670,7 +685,7 @@ GEA_vietcong_killer_idea_desc:0 "Tous ceux qui courent sont des Viet Minh ! Tous
 
  GEA_AOG_BONUS:0 "A.O.G."
  GEA_AOG_bonus_idea:0 "Ausfsichtsrat der Ostasialische Generalverwaltung"
- GEA_AOG_bonus_idea_desc:0 "Grâce à l'A.O.G., nous avons des droits économiques vitaux dans §Y[?GEA_AOG_CITIES_NUMBER]§! zones côtières chinoises importantes villes:\n[GEA_Guangzhou]\n[GEA_Xiamen]\n[GEA_Wenzhou]\n[GEA_Nantong]\net nous les défendrons. \n§WUsines de biens de consommation :§! §Y[?GEA_AOG_CITIES_FACTORIES]%"
+ GEA_AOG_bonus_idea_desc:9 "Through the A.O.G., we have vital economic rights in §Y[?GEA_AOG_CITIES_NUMBER]§! important Chinese coastal cities:\n[GEA_Guangzhou]\n[GEA_Xiamen]\n[GEA_Wenzhou]\n[GEA_Nantong]\nand we will defend them.\n§WConsumer Goods Factories:§! [?GEA_AOG_CITIES|Y%1]"
 GEA_AOG_bonus_idea_5:0 "Ausfsichtsrat der Ostasialische Generalverwaltung"
  GEA_AOG_bonus_idea_5_desc:0 "Grâce à l'A.O.G., nous avons des droits économiques vitaux dans 4 villes côtières chinoises importantes:\n- §GGuangzhou§!\n- §GXiamen§!\n- §GWenzhou§!\n- §GNantong§!\net nous les défendrons."
  GEA_naval_attache_idea:0 "Mission navale en Asie de l'Est"

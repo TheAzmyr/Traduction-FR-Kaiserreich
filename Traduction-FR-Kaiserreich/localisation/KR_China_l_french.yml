@@ -60,14 +60,27 @@ effect_after_they_agree:0 "S'ils sont d'§Yaccord§! avec nos exigences, nous ob
 ### Army Reform
 china_army_decisions:0 "Réforme de l'armée"
 china_army_decisions_desc:0 "Les armées chinoises ont longtemps lutté pour rattraper les normes occidentales. Les soldats sont notoirement mal entraînés et désordonnés, souvent recrutés parmi un stock varié de bandits, de petits criminels et de personnes chroniquement démunies. L'équipement est régulièrement rapiécé, obsolète, voire carrément archaïque. La loyauté est généralement accordée à des officiers individuels ou à un bol à riz régulièrement rempli, et la motivation idéologique est au mieux éphémère. Il faudra beaucoup pour reconstruire ces armées selon des principes modernes.\n"
-china_army_reform:0 "Poursuivre la réforme de l'armée"
+
+ china_army_reform_1:9 "Continue Army Reform"
+ china_army_reform_5:9 "Finish the Army Reform"
+
 china_inadequate_army:0 "Réforme de l'armée"
 china_army_reform_idea:0 "§HProgrès de la réforme de l'armée§!\nDéfense des divisions: [?Root.army_reform_var|1%=+]\n"
 china_army_reform_idea_desc:0 "§LQue ce soit à cause de la corruption rampante, d'un leadership incompétent, de tactiques dépassées, d'équipements obsolètes, d'une mauvaise formation ou d'un mélange de toutes ces choses, la seule chose que toutes les armées en Chine semblent avoir en commun est qu'elles sont terriblement inadaptées par rapport aux normes militaires contemporaines. Surmonter ces décennies de négligence demandera du temps et des efforts, et les performances de nos forces en souffriront jusqu'à ce que nous y parvenions.§!"
-china_army_reform_tooltip:0 "£army_experience [?Root.china_army_reform_cost|H0]"
-china_army_reform_tooltip_blocked:0 "£army_experience [?Root.china_army_reform_cost|R0]"
+
 china_army_reform_effect:0 "La §Hréforme de l'armée§! continue:\nDéfense des divisions: [?0.15|G1%=]\n"
 china_army_reform_effect_complete:0 "La §Hréforme de l'armée§! est §Gterminée!§!\nDéfense des divisions : [?0.15|G1%=]\n"
+
+ china_army_reform_trait:9 ""
+
+ china_army_reform_tooltip_200:9 "£army_experience [?200|H0]"
+ china_army_reform_tooltip_200_blocked:9 "£army_experience [?200|R0]"
+ china_army_reform_tooltip_150:9 "£army_experience [?150|H0]"
+ china_army_reform_tooltip_150_blocked:9 "£army_experience [?150|R0]"
+ china_army_reform_tooltip_100:9 "£army_experience [?100|H0]"
+ china_army_reform_tooltip_100_blocked:9 "£army_experience [?100|R0]"
+ china_army_reform_tooltip_50:9 "£army_experience [?50|H0]"
+ china_army_reform_tooltip_50_blocked:9 "£army_experience [?50|R0]"
 
 ### Form China
 form_republic_china_decision:0 "Former la République de Chine"
@@ -75,29 +88,17 @@ form_republic_china_decision_desc:0 "Maintenant que nous contrôlons la capitale
 
 ### United Front
 china_united_front_decisions:0 "Leadership de la Chine"
-assume_chinese_leadership:0 "Assumer le leadership national"
-assume_chinese_leadership_desc:0 "En étant la faction la plus forte capable de s'opposer à la domination étrangère, nous pouvons commencer à affirmer notre leadership sur toute la Chine et à diriger la nation contre l'agression étrangère."
-assume_chinese_leadership_tooltip:0 "Un effectif militaire supérieur à 120% de §H[current_china_leader.GetNameDef]§!"
-assume_chinese_leadership_tooltip_QIE: "Un effectif militaire supérieur à 100 % de §H[QIE.GetNameDef]§!"
-assume_chinese_leadership_tooltip_CHI: "Un effectif militaire supérieur à 100 % de §H[CHI.GetNameDef]§!"
-assume_chinese_leadership_tooltip_GXC: "Un effectif militaire supérieur à 100 % de §H[GXC.GetNameDef]§!"
-assume_chinese_leadership_tooltip_FNG: "Un effectif militaire supérieur à 100 % de §H[FNG.GetNameDef]§!"
-assume_chinese_leadership_tooltip_SZC: "Un effectif militaire supérieur à 100 % de §H[SZC.GetNameDef]§!"
-assume_chinese_leadership_tooltip_YUN: "Un effectif militaire supérieur à 100 % de §H[YUN.GetNameDef]§!"
 
 form_chinese_united_front:0 "Former le Front uni chinois"
 form_chinese_united_front_tooltip:0 "Controlled by §H[JAP.GetNameDef]§! or one of their allies"
 
 chinese_united_front_formed:0 "Le Front uni chinois a été formé."
+ united_front_member:9 "Is a member of the Chinese United Front"
 china_ceasefire_occupation_transfer:0 "Prend possession de §Htous les États occupés§!."
 china_war_with_united_front:0 "§RLe Front uni va se battre contre nous !§!\n"
 
 leave_chinese_united_front:0 "Quitter le Front Uni"
 rejoin_chinese_faction:0 "Rejoindre [FROM.GetNameDef]"
-
-china_shared.1.t:0 "Légitimité en déclin"
-china_shared.1.d:0 "Le Front uni a peut-être apporté une certaine unité à notre pays fracturé, mais les conflits internes entre les factions chinoises n'ont jamais vraiment pris fin. Aujourd'hui, nos pertes face à l'invasion japonaise ont forcé notre gouvernement à reconnaître une vérité simple : nous ne pouvons plus prétendre être le leader de la Chine face à une invasion étrangère. Déjà, les forces de divers chefs de guerre et gouvernements régionaux ont commencé à ignorer régulièrement nos directives en faveur de celles de [current_china_leader.GetNameDef]. À moins que nous n'allions de l'avant et que nous ne reprenions notre territoire perdu, nous risquons de perdre définitivement notre statut de leader."
-china_shared.1.a:0 "Zut."
 
 china_shared.2.t:0 "Un front uni"
 china_shared.2.d:0 "L'invasion du Japon commençant à prendre de l'ampleur, [Root.GetLeader] a décidé de lancer un appel à l'unité nationale contre l'envahisseur, même si cela signifie se battre aux côtés de nos anciens ennemis. Même si l'infrastructure de communication du pays est menacée, le message sera diffusé immédiatement - par courrier si nécessaire !"
@@ -116,8 +117,8 @@ china_shared.5.t:0 "La trahison de [From.GetNameDefCap]"
  china_shared.5.d:0 "Dans un acte de trahison gratuite , [From.GetNameDef] a refusé de rejoindre le Front uni. Il n'y a aucune excuse pour faire passer les intérêts individuels avant le destin de toute la Chine !"
 china_shared.5.a:0 "Traîtres !"
 
-china_shared.6.t:0 "[current_china_leader.GetNameDefCap] propose un cessez-le-feu"
-china_shared.6.d:0 "Avec l'adhésion de [From.GetNameDef] au Front uni, [current_china_leader.GetNameDef] a proposé de négocier un cessez-le-feu entre [From.GetNameDef] et notre régime, uniquement dans l'intérêt national, jusqu'à ce que l'invasion japonaise soit stoppée. L'accord est toutefois conditionné au transfert de tous les territoires occupés de nos deux côtés."
+ china_shared.6.t:9 "[chinese_united_front_leader.GetNameDefCap] Offers a Ceasefire"
+ china_shared.6.d:9 "With [From.GetNameDef] joining the United Front, [chinese_united_front_leader.GetNameDef], has offered to broker a ceasefire between [From.GetNameDef] and our regime, solely in the national interest, until such a time as the Japanese invasion is halted. The agreement is conditional on the transfer of all occupied territories on both of our sides, however."
 china_shared.6.a:0 "Oui. Pour l'instant."
 china_shared.6.b:0 "Nous ne nous battrons jamais à leurs côtés !"
 
@@ -162,6 +163,14 @@ china_shared.14.d.others:0 "Le Front uni chinois, toujours assailli par des quer
 china_shared.14.a:0 "Intéressant." #Chinese POV
 china_shared.14.b:0 "Intéressant." #Japanese POV
 china_shared.14.c:0 "Intéressant." #Foreign POV
+
+ china_shared.15.t:9 "Bounce Event"
+ china_shared.15.d:9 "Boing"
+
+ china_shared.16.t:9 "The March of the Volunteers"
+ china_shared.16.d:9 "Written by left-wing filmmakers Nie Er and Tian Han as the score to their anti-Japanese patriotic film "Children of Troubled Times", the March of the Volunteers has caught on amongst Chinese of all walks of life in the face of the final struggle against Japanese aggression."
+ china_shared.16.a:9 "Let the men have their song until war's end."
+ china_shared.16.b:9 "A rousing tune!"
 
 ### Sino-Japanese War
 china_second_sino_japanese_war_UF_decisions:0 "La deuxième guerre sino-japonaise"
@@ -426,3 +435,69 @@ ROC_paternal_autocrat_DEF:0 "la République de Chine"
 ROC_national_populist:0 "République de Chine"
 ROC_national_populist_ADJ:0 "Chinois"
 ROC_national_populist_DEF:0 "la République de Chine"
+
+# Provinces
+ china_province_state_title:9 "[ChinaGetStateProvinceTitle]"
+ china_province_state_desc:9 "[ChinaGetStateProvinceDesc]"
+
+
+ guangdong_province_state:9 "§YGuangdong Province§!"
+ guangdong_province_state_desc:9 ""
+ guangxi_province_state:9 "§YGuangxi Province§!"
+ guangxi_province_state_desc:9 ""
+ zhili_province_state:9 "§YZhili Province§!"
+ zhili_province_state_desc:9 ""
+ henan_province_state:9 "§YHenan Province§!"
+ henan_province_state_desc:9 ""
+ hubei_province_state:9 "§YHubei Province§!"
+ hubei_province_state_desc:9 ""
+ hunan_province_state:9 "§YHunan Province§!"
+ hunan_province_state_desc:9 "Hunan Province joined Sun Chuanfang's League after the KMT fell apart in 1927[GetHunanStateProvinceIndependence]. The Hunan core lands include the states of Xiangjiang and Chenyuan, but Zhenyuan and Shihe have also at times been under Hunan control, even though they are generally considered to be part of Guizhou and Hubei, respectively."
+ hunan_province_state_indepenent:9 ", but today, they stand autonomous and independent"
+ hunan_province_state_controlled_LEPANQ:9 " and today remain under control of the League's successor"
+ hunan_province_state_controlled:9 ", but today, other Chinese powers control the Province"
+ jiangsu_province_state:9 "§YJiangsu Province§!"
+ jiangsu_province_state_desc:9 "The states of Xuhai, Huaiyang, Nantong and Jinling are part of Jiangsu Province. However, Jinling, which includes Nanjing, mostly avoids oversight from the Jiangsu governor as it is a power base in and of it self."
+ jiangxi_province_state:9 "§YJiangxi Province§!"
+ jiangxi_province_state_desc:9 ""
+ shaanxi_province_state:9 "§YShaanxi Province§!"
+ shaanxi_province_state_desc:9 ""
+ shanxi_province_state:9 "§YShanxi Province§!"
+ shanxi_province_state_desc:9 ""
+ shandong_province_state:9 "§YShandong Province§!"
+ shandong_province_state_desc:9 ""
+ anhui_province_state:9 "§YAnhui Province§!"
+ anhui_province_state_desc:9 ""
+ zhejiang_province_state:9 "§YZhejiang Province§!"
+ zhejiang_province_state_desc:9 ""
+ fujian_province_state:9 "§YFujian Province§!"
+ fujian_province_state_desc:9 ""
+ sichuan_province_state:9 "§YSichuan Province§!"
+ sichuan_province_state_desc:9 ""
+ guizhou_province_state:9 "§YGuizhou Province§!"
+ guizhou_province_state_desc:9 ""
+ yunnan_province_state:9 "§YYunnan Province§!"
+ yunnan_province_state_desc:9 ""
+ qinghai_province_state:9 "§YQinghai Province§!"
+ qinghai_province_state_desc:9 ""
+ gansu_province_state:9 "§YGansu Province§!"
+ gansu_province_state_desc:9 ""
+ ningxia_province_state:9 "§YNingxia Province§!"
+ ningxia_province_state_desc:9 ""
+ fengtian_province_state:9 "§YFengtian Province§!"
+ fengtian_province_state_desc:9 ""
+ jilin_province_state:9 "§YJilin Province§!"
+ jilin_province_state_desc:9 ""
+ heilongjiang_province_state:9 "§YHeilongjiang Province§!"
+ heilongjiang_province_state_desc:9 ""
+ taiwan_province_state:9 "§YTaiwan Province§!"
+ taiwan_province_state_desc:9 ""
+ concession_province_state:9 "§YFormer Concession§!"
+ concession_province_state_desc:9 ""
+ mongolia_province_state:9 "§YMongolia§!"
+ mongolia_province_state_desc:9 ""
+ xinjiang_province_state:9 "§YXinjiang Province§!"
+ xinjiang_province_state_desc:9 ""
+ tibet_province_state:9 "§YTibet Province§!"
+ tibet_province_state_desc:9 ""
+

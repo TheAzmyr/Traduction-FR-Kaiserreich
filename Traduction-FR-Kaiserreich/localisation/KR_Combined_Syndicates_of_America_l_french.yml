@@ -118,7 +118,7 @@ CSA_constitutional_convention_done:0 "La seconde convention constitutionnelle a 
 CSA_foster_is_leader:0 "William Z. Foster est président"
 CSA_browder_is_leader:0 "Earl Browder est président"
 CSA_new_industries:0 "Les entreprises capitalistes ont été prises en main par les ouvriers"
- CSA_corruption_in_dockyards:0 "Nous avons découvert la corruption dans l'industrie navale."
+ CSA_corruption_in_dockyards:9 "We have discovered the corruption in the naval industry."
 
 ### Ideas ###
 CSA_righteous_nation:0 "Le président légitime"
@@ -152,7 +152,7 @@ CSA_motor_production_idea:0 "Augmentation de la production automobile"
  CSA_continental_marines:0 "Marines continentaux"
 
  CSA_market_socialism_idea:0 "Socialisme de marché"
- CSA_syndicalist_economics:0 "Économie syndicaliste"
+ CSA_syndicalist_economics:9 "Syndicalist Economics"
  CSA_foster_economic_policy_idea:0 "Politique économique de Foster"
  CSA_browders_economic_policy_idea:0 "Politique économique de Browder"
  CSA_social_revolution:0 "Révolution sociale"
@@ -160,33 +160,33 @@ CSA_motor_production_idea:0 "Augmentation de la production automobile"
 ### Tooltips ###
 CSA_anti_fortification_artillery:0 "240mm Howitzer M1"
 CSA_anti_fortification_artillery_desc:0 "L'Howitzer M1 de 240 mm était une pièce d'artillerie mise au point par la Confédération Syndicaliste d'Amérique pour briser les fortifications, en particulier autour de Washington pendant la guerre civile américaine."
-CSA_anti_fortification_artillery_effect:0 "Active §H240mm Howitzer M1§!\n§HArtillerie de Soutien§!\n    Fort: Attaque: §G+20%§!\n§HArtillerie§!\n    Fort: Attaque: §G+20%§!\n§HArtillerie Motorisé§!\n    Fort: Attaque: §G+20%§!\n"
+ CSA_anti_fortification_artillery_effect:9 "Enables §H$CSA_anti_fortification_artillery$§!\n§HSupport Artillery§!\n    Fort: Attack: §G+20%§!\n§HArtillery§!\n    Fort: Attack: §G+20%§!\n§HMotorised Artillery§!\n    Fort: Attack: §G+20%§!\n"
 
  CSA_has_smedley_butler:0 "A le chef d'unité §HSmedley Butler§!"
  CSA_has_smedley_butler_NOT:0 "N'a pas de chef d'unité §HSmedley Butler§!"
 
- CSA_corruption_in_dockyards:0 "Modifie §HIndustrie Navale Révolutionnaire§!by\nGain de Pouvoir Politique Quotidien : [?-0.1|+=]\nStabilité : [?-0.05|+=%]"
+ CSA_new_american_dockyards_tooltip:9 "Modify §H$CSA_revolutionary_naval_industry$§!by\nDaily Political Power Gain: [?-0.1|+=]\nStability: [?-0.05|+=%]"
 
- CSA_continental_air_command_tooltip:0 "Modifie §HContinental Air Force§! par\nBombardement Stratégique : [?0.1|+=%1]\n"
- CSA_state_air_force_tooltip:0 "Modifie §HContinental Air Force§! par\nDétection aérienne : [?0.05|+=%1]\nSupériorité aérienne : [?0.05|+=%2]\n"
- CSA_wings_of_revolution_tooltip:0 "Modifie §HContinental Air Force§! par\nAttaque supériorité aérienne : [?0.1|+=%2]\nDéfense supériorité aérienne : [?0.1|+=%2]\n"
+ CSA_continental_air_command_tooltip:9 "Modify §H$CSA_continental_air_force$§! by\nStrategic Bombing: [?0.1|+=%1]\n"
+ CSA_state_air_force_tooltip:9 "Modify §H$CSA_continental_air_force$§! by\nAir Detection: [?0.05|+=%1]\nAir Superiority: [?0.05|+=%2]\n"
+ CSA_wings_of_revolution_tooltip:9 "Modify §H$CSA_continental_air_force$§! by\nAir superiority attack: [?0.1|+=%2]\nAir superiority defence: [?0.1|+=%2]\n"
 
- CSA_armoured_thrust_tooltip:0 "Modifie §HIndustrie automobile américaine§! par\n§HMecanisé§!: £production_cost  Coût de production :  [?-0.05|-=%]\n§HBlindage §!: £production_cost  Coût de production :  [?-0.1|-=%]\n"
- CSA_anti_tank_production_tooltip:0 "Modifie §HIndustrie automobile américaine§! par\n§HMécanisé§!: £production_cost  Coût de production :  [?-0.05|-=%]\n§HDestructeur de char léger§!:\n    £production_cost  Coût de production :  [?-0.1|-=%]\n    Percée : [?0.1|+=%0]\n    Attaque lourde : [?0.25|+=%0]\n§HDestructeur de char moyen§!:\n    £production_cost  Coût de production :  [?-0.1|-=%]\n    Percée : [?0.1|+=%0]\n    Attaque lourde : [?0.25|+=%0]\n§HDestructeur de char lourd§!:\n    £production_cost  Coût de production :  [?-0.1|-=%]\n    Percée : [?0.1|+=%0]\n    Attaque lourde : [?0.25|+=%0]\n"
+ CSA_armoured_thrust_tooltip:9 "Modify §H$CSA_motor_production_idea_2$§! by\n§HMechanised§!: £production_cost  Production Cost:  [?-0.05|-=%]\n§HArmour§!: £production_cost  Production Cost:  [?-0.1|-=%]\n"
+ CSA_anti_tank_production_tooltip:9 "Modify §H$CSA_motor_production_idea_2$§! by\n§HMechanised§!: £production_cost  Production Cost:  [?-0.05|-=%]\n§HLight Tank Destroyer§!:\n    £production_cost  Production Cost:  [?-0.1|-=%]\n    Piercing: [?0.1|+=%0]\n    Hard Attack: [?0.25|+=%0]\n§HMedium Tank Destroyer§!:\n    £production_cost  Production Cost:  [?-0.1|-=%]\n    Piercing: [?0.1|+=%0]\n    Hard Attack: [?0.25|+=%0]\n§HHeavy Tank Destroyer§!:\n    £production_cost  Production Cost:  [?-0.1|-=%]\n    Piercing: [?0.1|+=%0]\n    Hard Attack: [?0.25|+=%0]\n"
  CSA_states_red_guards_tooltip:0 "\n§RCe plan est extrêmement impopulaire au sein du haut commandement, et nombreux sont ceux qui démissionneront si nous nous engageons dans cette voie !§!"
- CSA_always_ready_always_there_tooltip:0 "Modifie §HContinental Red Army§! ou §HContinental Red Guards§! by\nOrganisation des divisions : [?0.05|+=%1]\nPertes de soldats expérimentés : [?-0.05|-=%1]"
+ CSA_always_ready_always_there_tooltip:9 "Modify §H$CSA_continental_red_army$§! or §H$CSA_continental_red_guards$§! by\nDivision Organisation: [?0.05|+=%1]\nExperienced Soldier Losses: [?-0.05|-=%1]"
  CSA_demobilization:0 "§RTant que la démobilisation n'est pas terminée, les travailleurs et les bandits vont causer des problèmes !§!"
 
- CSA_new_american_dockyards_tooltip:0 "Remplace §HIndustrie navale révolutionnaire§! par §HIndustrie maritime américaine§!\nChangement effectif :\nGain de pouvoir politique quotidien : [?0.1|+=]\nStabilité : [?0.05|+=%]\nProduction des chantiers navals : [?0.1|+=%]\n§HBase navale§! vitesse de construction : [?0.2|+=%]\n§HChantier naval§! vitesse de construction : [?0.1|+=%]\n§HCroiseur d'escorte§! : £production_cost  Coût de production :  [?-0.1|-=%]\n§HCroiseur§! : £production_cost  Coût de production :  [?-0.1|-=%]"
+ CSA_new_american_dockyards_tooltip:9 "Replace §H$CSA_revolutionary_naval_industry$§! with §H$CSA_martime_industry$§!\nEffective Change:\nDaily Political Power Gain: [?0.1|+=]\nStability: [?0.05|+=%]\nDockyard Output: [?0.1|+=%]\n§HNaval Base§! construction speed: [?0.2|+=%]\n§HDockyard§! construction speed: [?0.1|+=%]\n§HEscort Cruiser§!: £production_cost  Production Cost:  [?-0.1|-=%]\n§HCruiser§!: £production_cost  Production Cost:  [?-0.1|-=%]"
 
- CSA_new_naval_plan_tooltip:0 "Remplace §HGrande Flotte Rouge§! avec §HLa deuxième marine continentale§!\nChangement effectif :\nOrganisation Navale : [?0.05|+=%1]\nFacteur de portée maximale de la marine : [?0.1|+=%]"
- CSA_american_peoples_navy_tooltip:0 "Remplace §HGrande Flotte Rouge§! avec §HMarine populaire américaine§!\nChangement effectif :\nFacteur de portée maximale de la marine : [?-0.05|+=%]\nConsommation de carburant de la marine : [?-0.2|-=%]"
+ CSA_new_naval_plan_tooltip:9 "Replace §H$CSA_big_red_fleet$§! with §H$CSA_second_continental_navy$§!\nEffective Change:\nNavy Organisation: [?0.05|+=%1]\nNaval max range factor: [?0.1|+=%]"
+ CSA_american_peoples_navy_tooltip:9 "Replace §H$CSA_big_red_fleet$§! with §H$CSA_american_peoples_navy$§!\nEffective Change:\nNaval max range factor: [?-0.05|+=%]\nNavy Fuel Consumption: [?-0.2|-=%]"
 
- CSA_refit_old_ships_tooltip_continental_navy:0 "Modifie §HLa deuxième marine continentale§! par\nVitesse de rééquipement des navires : [?0.1|+=%0]\nCoût du réaménagement de l'équipement naval : [?-0.1|-=%0]\nVitesse de réparation des navires : [?0.05|+=%0]"
- CSA_refit_old_ships_tooltip_peoples_navy:0 "Modifie §HMarine populaire américaine§! par\nVitesse de rééquipement des navires : [?0.1|+=%0]\nCoût du réaménagement de l'équipement naval : [?-0.1|-=%0]\nVitesse de réparation des navires : [?0.05|+=%0]"
+ CSA_refit_old_ships_tooltip_continental_navy:9 "Modify §H$CSA_second_continental_navy$§!by\nNaval Equipment Refitting Speed: [?0.1|+=%0]\nNaval Equipment Refitting Cost: [?-0.1|-=%0]\nShip Repair Speed: [?0.05|+=%0]"
+ CSA_refit_old_ships_tooltip_peoples_navy:9 "Modify §H$CSA_american_peoples_navy$§!by\nNaval Equipment Refitting Speed: [?0.1|+=%0]\nNaval Equipment Refitting Cost: [?-0.1|-=%0]\nShip Repair Speed: [?0.05|+=%0]"
 
- CSA_navy_of_new_age_tooltip_continental_navy:0 "Modifie §HLa deuxième marine continentale§! par\nCoordination de la flotte : [?0.05|+=%0]\nVitesse de la recherche sur la doctrine navale : [?0.15|+=%0]"
- CSA_navy_of_new_age_tooltip_peoples_navy:0 "Modifie §HMarine populaire américaine§! par\nCoordination de la flotte: [?0.05|+=%0]\nVitesse de la recherche sur la doctrine navale: [?0.15|+=%0]"
+ CSA_navy_of_new_age_tooltip_continental_navy:9 "Modify §H$CSA_second_continental_navy$§!by\nFleet Co-ordination: [?0.05|+=%0]\nNaval Doctrine Research Speed: [?0.15|+=%0]"
+ CSA_navy_of_new_age_tooltip_peoples_navy:9 "Modify §H$CSA_american_peoples_navy$§!by\nFleet Co-ordination: [?0.05|+=%0]\nNaval Doctrine Research Speed: [?0.15|+=%0]"
 
 ### Decisions ###
 CSA_expanding_the_revolution_decisions:0 "Exporter la révolution"
@@ -513,7 +513,7 @@ CSA_synthetic_rubber_experiments_desc:0 "L'Asie étant aux mains des impérialis
  CSA_armour_development:0 "Développement des blindés"
  CSA_armour_development_desc:0 "Le rôle des blindés a été négligé par la vieille Amérique, et maintenant nous devons faire de grands progrès en très peu de temps pour mettre à jour nos forces. Avec l'expérience que nous avons acquise pendant la guerre civile et que nous avons transmise à nos ingénieurs, nous avons déjà plusieurs propositions pour créer un char moderne".
 
- CSA_armoured_vehicles_industry:0 "Industrie des véhicules blindés"
+ CSA_armoured_vehicles_industry:9 "Industrie des véhicules blindés"
  CSA_armoured_vehicles_industry_desc:0 "La guerre civile nous a obligés à nous appuyer sur des unités motorisées et a prouvé leur efficacité. Mais elle a aussi montré que l'infanterie motorisée avait besoin de plus de véhicules blindés qui pouvaient la protéger sur le champ de bataille contre les balles et les obus ennemis."
 
  CSA_anti_tank_production:0 "Production antichar"
@@ -598,7 +598,7 @@ csa.6.d:0 "Article 15. Le fondement du système économique américain est la pr
 csa.6.a:0 "Approuvé".
 
 csa.7.t:0 "Constitution socialiste - Statut du président"
-csa.7.d:0 "Une vague de délégués non alignés a tenté à plusieurs reprises de partir en vacances sans succès. Il semble que la question du pouvoir exécutif soit dans une impasse et qu'une décision doive être prise avant que les délégués ne crèvent d'impatience. D'un côté, il y a l'IWW, dont le plan pour un gouvernement syndicaliste totalement anarchique exige qu'il n'y ait pas de responsable exécutif. Leur conviction est qu'un président est une position populiste intrinsèquement réactionnaire, et ils feront en sorte qu'une personne comme Huey Long ne puisse jamais s'élever au pouvoir dans la nouvelle Amérique. Thomas suggère une position de chef d'État faible. L'opposition est une autre coopération de l'AFL et de la TUUL qui souhaitent un visage fort pour représenter l'Amérique. Un dirigeant sans moyens, disent-ils, ne pourrait jamais sauver l'Amérique comme l'a fait Reed sans pouvoir. Norman Thomas a condamné l'AFL pour ce qu'il considère comme un "coup d'État boulangiste" perpétré par l'AFL et la TUUL pour faire revivre l'ancien gouvernement fédéral. John L Lewis, de l'AFL, s'élève contre cette condamnation, déclarant que "la subordination au programme de l'IWW n'est pas différente d'un État à parti unique". "
+ csa.7.d:9 "Une vague de délégués non alignés a tenté à plusieurs reprises de partir en vacances sans succès. Il semble que la question du pouvoir exécutif soit dans une impasse et qu'une décision doive être prise avant que les délégués ne crèvent d'impatience. D'un côté, il y a l'IWW, dont le plan pour un gouvernement syndicaliste totalement anarchique exige qu'il n'y ait pas de responsable exécutif. Leur conviction est qu'un président est une position populiste intrinsèquement réactionnaire, et ils feront en sorte qu'une personne comme Huey Long ne puisse jamais s'élever au pouvoir dans la nouvelle Amérique. Thomas suggère une position de chef d'État faible. L'opposition est une autre coopération de l'AFL et de la TUUL qui souhaitent un visage fort pour représenter l'Amérique. Un dirigeant sans moyens, disent-ils, ne pourrait jamais sauver l'Amérique comme l'a fait Reed sans pouvoir. Norman Thomas a condamné l'AFL pour ce qu'il considère comme un "coup d'État boulangiste" perpétré par l'AFL et la TUUL pour faire revivre l'ancien gouvernement fédéral. John L Lewis, de l'AFL, s'élève contre cette condamnation, déclarant que "la subordination au programme de l'IWW n'est pas différente d'un État à parti unique". "
 csa.7.a:0 "Une tête faible ne peut jamais opprimer"
 csa.7.b:0 "Un président avec le pouvoir que nous devons avoir"
 
@@ -957,7 +957,7 @@ csa.84.d:0 "Dans tout le pays, un certain nombre de clubs de littérature appel�
 csa.84.a:0 " Lire pour Reed ".
 
 csa.85.t:0 "Paul Robeson fait un tour du monde".
-csa.85.d:0 "Après une longue interruption, l'activiste socialiste Paul Robeson est prêt pour un tour du monde. Avec une voix puissante et une collection de musique traditionnelle afro-américaine du travail, Robeson est devenu la Marian Anderson des socialistes en Amérique. Tout comme Anderson avant lui, il a choisi d'entreprendre une tournée mondiale pour diffuser sa musique et soutenir les droits des Noirs américains sur les théâtres européens. La tournée comprend des arrêts à Londres, Paris et même Florence. Ces publics européens, bien qu'en contact avec la culture américaine, considèrent toujours la culture noire américaine comme exotique."
+ csa.85.d:9 "Après une longue interruption, l'activiste socialiste Paul Robeson est prêt pour un tour du monde. Avec une voix puissante et une collection de musique traditionnelle afro-américaine du travail, Robeson est devenu la Marian Anderson des socialistes en Amérique. Tout comme Anderson avant lui, il a choisi d'entreprendre une tournée mondiale pour diffuser sa musique et soutenir les droits des Noirs américains sur les théâtres européens. La tournée comprend des arrêts à Londres, Paris et même Florence. Ces publics européens, bien qu'en contact avec la culture américaine, considèrent toujours la culture noire américaine comme exotique."
 csa.85.a:0 "Bon Voyage Robeson."
 
 csa.86.t:0 "Promouvoir le socialisme dans les égouts".
@@ -971,7 +971,7 @@ csa.87.b:0 "Il y a du pouvoir dans une Union."
 csa.87.c:0 "Cette terre est votre terre."
 
 csa.88.t:0 "Stone Mountain Georgia"
-csa.88.d:0 "Dans le sud profond de Stone Mountain se trouve un bas-relief massif sculpté de trois figures confédérées, Jefferson Davis, Robert E. Lee et Stonewall Jackson. Le site a également été le théâtre de la renaissance du Ku Klux Klan. Nombreux sont ceux qui souhaitent éliminer ce fléau, d'autant plus que d'autres monuments de la Confédération sont démolis. Cependant, les gens sont divisés quant à ce qu'il convient de faire pour remédier à cette situation. Certains pensent qu'il faut le détruire. \nJames Ford, dans un tour cynique, souhaite ciseler les Confédérés et les remplacer par Jemmy, John Brown, George Padmore. Ces derniers étant les leaders de l'émancipation afro-américaine, il pense qu'ils sont les mieux placés pour inspirer la nouvelle Amérique. Diego Rivera, l'artiste à l'origine de la rénovation du Rockefeller Plaza, suggère un compromis honorable et bon marché. Il s'agit de remplacer les Confédérés par les leaders de la révolution socialiste. Il s'agit de Karl Marx, Vladimir Lénine et John Reed. "
+ csa.88.d:9 "Dans le sud profond de Stone Mountain se trouve un bas-relief massif sculpté de trois figures confédérées, Jefferson Davis, Robert E. Lee et Stonewall Jackson. Le site a également été le théâtre de la renaissance du Ku Klux Klan. Nombreux sont ceux qui souhaitent éliminer ce fléau, d'autant plus que d'autres monuments de la Confédération sont démolis. Cependant, les gens sont divisés quant à ce qu'il convient de faire pour remédier à cette situation. Certains pensent qu'il faut le détruire. \nJames Ford, dans un tour cynique, souhaite ciseler les Confédérés et les remplacer par Jemmy, John Brown, George Padmore. Ces derniers étant les leaders de l'émancipation afro-américaine, il pense qu'ils sont les mieux placés pour inspirer la nouvelle Amérique. Diego Rivera, l'artiste à l'origine de la rénovation du Rockefeller Plaza, suggère un compromis honorable et bon marché. Il s'agit de remplacer les Confédérés par les leaders de la révolution socialiste. Il s'agit de Karl Marx, Vladimir Lénine et John Reed. "
 csa.88.a:0 "Détruire la sculpture en relief".
 csa.88.b:0 "Le relief montrera les héros de l'émancipation." 
 csa.88.c:0 "Le secours montrera l'histoire du socialisme."
@@ -1132,10 +1132,11 @@ csa.204.a:0 "Nous écraserons ces terroristes."
  csa.205.c:0 "La décentralisation de Burke est l'avenir."
 
  csa.206.t:0 "L'industrie navale après la révolution"
- csa.206.d:0 "Avec le déclenchement de la guerre civile, la plupart des chantiers navals ont été capturés par les ennemis de la Révolution. Les chantiers navals qui restent entre nos mains ne nous permettent pas de recréer l'ancienne flotte américaine, et nous ne pouvons pas lutter contre la flotte ennemie dans notre situation actuelle. Mais il y a du bon pour nous - la plupart des travailleurs de nos chantiers navals ont de l'expérience, et certains d'entre eux ont déjà proposé des plans pour simplifier la production des navires et l'organisation du travail. Cela nécessitera des ressources et des travailleurs expérimentés d'autres endroits, mais nous permettra de nous préparer à une guerre navale contre les Fédéraux. Nos capitaines sont divisés en deux groupes : les partisans des destroyers ou des sous-marins. Le premier groupe insiste sur le fait que les destroyers peuvent se battre contre la plupart des navires ennemis, et peuvent également soutenir nos principaux navires au combat. Le second groupe affirme que les sous-marins sont plus efficaces et peuvent travailler seuls à de grandes distances sans le soutien des forces principales de la flotte. Entre-temps, nos ingénieurs de pointe ont proposé une option entre eux. Bien que cette option ne soit pas aussi efficace que la spécialisation dans une des lignes de production, elle nous permettra de créer une flotte flexible".
- csa.206.a:0 " sur la production de sous-marins."
- csa.206.b:0 "Se concentrer sur la production de destroyers."
- csa.206.c:0 "Gardons nos options ouvertes."
+ csa.206.d.ACW:9 "With the outbreak of civil war, most of the shipyards were captured by the enemies of the Revolution. The shipyards that remain in our hands do not allow us to recreate the old US fleet, and we cannot fight against the enemy fleet in our present situation. But there is good for us - most of our shipyard workers have experience, and some of them have already proposed plans to simplify ship production and organisation of work. This will take resources and experienced workers from other places, but allow us to prepare for a naval war against the Federal Government. Our captains are divided into two groups - supporters of destroyers or submarines. The first group are insisting destroyers can fight against most enemy ships, and can also support our main ships in battle. The second group says that submarines are more efficient and can work alone at large distances without the support of the main forces of the fleet. Meanwhile, our leading engineers have proposed an option between them. Although this option is not as effective as specializing in one of the production lines, it will allow us to create a flexible fleet."
+ csa.206.d.post_ACW:9 "During the civil war, most of the shipyards were captured by the enemies of the Revolution. Now, despite our triumph, the US fleet stands in tatters, broken in the war, leaving us dangerously exposed against enemy fleets in our present situation. But there is good for us - most of our shipyard workers have experience, and some of them have already proposed plans to simplify ship production and organisation of work. This will take resources and experienced workers from other places, but allow us to prepare for a naval war against the reactionaries. Our captains are divided into two groups - supporters of destroyers or submarines. The first group are insisting destroyers can fight against most enemy ships, and can also support our main ships in battle. The second group says that submarines are more efficient and can work alone at large distances without the support of the main forces of the fleet. Meanwhile, our leading engineers have proposed an option between them. Although this option is not as effective as specializing in one of the production lines, it will allow us to create a flexible fleet."
+ csa.206.a:9 " sur la production de sous-marins."
+ csa.206.b:9 "Se concentrer sur la production de destroyers."
+ csa.206.c:9 "Gardons nos options ouvertes."
 
  csa.207.t:0 "Corruption dans les chantiers navals"
  csa.207.d:0 "Après la fin de la seconde guerre révolutionnaire, notre décision d'augmenter la production de navires montre que ce modèle ne fonctionne pas en temps de paix. Un ingénieur en chef de l'un des chantiers navals a récemment été pris en flagrant délit pour avoir reçu un pot-de-vin d'un des membres du syndicat. Cela a conduit à une nomination de son projet avant les autres. Même si cela ne suffit pas, divers chantiers navals ont dépensé de l'argent destiné à la construction de navires pour "améliorer les conditions de travail". La majeure partie de cet argent était concentrée dans les poches des officiers de la marine qui supervisaient la construction, et pour les contremaîtres, pas pour les ouvriers.\nLa corruption croissante dans les chantiers navals est devenue un problème. Tant que nous ne réorganiserons pas notre méthode de production de navires, nous porterons le fardeau de la condamnation publique".
@@ -1171,6 +1172,11 @@ csa.204.a:0 "Nous écraserons ces terroristes."
  csa.215.d:0 "Notre avantage dans la guerre civile - le nombre de troupes - est devenu un problème après la fin de la guerre. Avec des infrastructures ruinées et endommagées et sans soutien du gouvernement pour les aider à se rendre chez eux, la plupart des anciennes milices se sont transformées en une bande de bandits qui volent les gens pour se nourrir. Cela est devenu un problème courant dans les territoires qui étaient sous le contrôle de l'ennemi dans les dernières étapes de la guerre. Ces bandits ne se contentent pas de voler les gens, ils commencent aussi à tirer avec de petits groupes de réactionnaires lorsqu'ils se rencontrent. Certains journaux ont déjà déclaré que "la seconde guerre civile ne s'est pas terminée et est devenue un cortège de seigneurs de la guerre", ce qui a sérieusement porté atteinte à notre autorité, car ces personnes se sont battues pour nous dans une guerre civile. Comme si cela ne suffisait pas, certains des travailleurs ont commencé à protester - au moins maintenant pacifiquement - avec des demandes de réduction des heures de travail et d'arrêt de la production d'armes en masse.
  csa.215.a:0 "Nous devons commencer le programme de démobilisation !"
 
+ csa.216.t:9 "Smedley Butler Passes Away"
+ csa.216.d.CSA:9 "A day of national mourning has been called out amongst [Root.GetNameDef], as news of the passing of former Field Martial Smedley Butler was announced by the government this morning. The war hero had checked into the Philadelphia Naval Hospital the month prior, reportedly having been sick for several weeks. Upon admission, doctors discovered he had an incurable gastrointestinal condition and in spite of their best care, Butler passed away the following fortnight surrounded by his loved ones.\n\nHaving only recently announced his retirement after seeing the end of the Second American Civil War, Butler oversaw important reforms and overhauls to the Second Continental Army, transforming it into a well organised fighting force that ultimately saw the emancipation of the working class all across the continental United States.  His death has rocked the nation to its core, with many in the army still believing his work in guiding it to be unfinished.\n\nAt Capitol Hill, a full state funeral was given in commemoration of him including military honours. The procession led by fellow Marines who had fought alongside him for many years. His coffin was laid in state at the Capitol Rotunda for three days, before being buried at Arlington National Cemetery."
+ csa.216.d.not_CSA:9 "Today the passing of Smedley Butler was announced by his family. The war veteran had checked into the Philadelphia Naval Hospital the month prior, reportedly having been sick for several weeks. Upon admission, doctors discovered he had an incurable gastrointestinal condition and in spite of their best care, Butler passed away the following fortnight surrounded by his loved ones.\n\nA man whose loyalty was often the subject of scepticism and doubt by those in the upper echelons of the Federal Army, Butler fought with distinction under the Olson Administration during the Second American Civil War, seeing the conflict come to a close before announcing his retirement.\n\nHis funeral was attended by members of the Philadelphia Police Department as well as former Marines who had served alongside him for many years. Several politicians were also present, most notable amongst which was Quentin Roosevelt, who personally paid tribute to the deceased general. He was buried at Oaklands Cemetery, Pennsylvania."
+ csa.216.a:9 "Your contributions will never be forgotten. Rest in peace."
+
 ###############################################
 #CSA's Army General Descriptions by Drozdovite#
 ###############################################
@@ -1197,12 +1203,38 @@ CSA_ARLEIGH_BURKE_NAVY_DESC:0 "§YDescription de l'amiral\n§YNée:§W le 19 oct
 CSA_HYMAN_RICKOVER_NAVY_DESC:0 "§YDescription de l'amiral\n§YNée:§W le 27 janvier 1900 à Makow nad Orzycem, Royaume de Pologne, Empire russe\n§YCarrière militaire:§W Hyman Godalia 'George' Rickover, né dans une famille juive polonaise et passé à New York avec sa mère et sa soeur en mars 1906, fuyant les pogroms antisémites pendant la Révolution de 1905 en Russie, puis s'installant à Chicago. La carrière navale de Rickover a commencé en 1918 à l'Académie navale et il a obtenu son diplôme en 1922. Il rejoint le destroyer Overton et impressionne son commandant par son travail acharné et son efficacité. Il est nommé officier du génie en 1923, devenant ainsi le plus jeune officier de l'escadron. Il sert ensuite à bord du cuirassé Missisipi avant d'obtenir une maîtrise de sciences en génie électrique de l'université de Columbia en 1930, en passant par l'école navale supérieure pendant un an. De 1929 à 1933, Rickover se qualifie pour le service et le commandement à bord des sous-marins S-9 et O-3. Alors qu'il était au bureau de l'inspecteur du matériel naval à Philadelphie en 1933, Rickover a traduit Das Unterseeboot (Le sous-marin) de l'amiral Hermann Bauer de la marine impériale allemande Weltkrieg. Au début de l'année 1937, il est nommé commandant de la 3e division sous-marine. Au début de la guerre civile, il s'est engagé dans la deuxième marine continentale et a ordonné à la troisième division sous-marine de se rendre à Philadelphie, ce qui lui a valu d'être promu au rang d'amiral et de devenir l'un des premiers amiraux de la marine continentale".
 CSA_HUGH_MULZAC_NAVY_DESC:0 "§YDescription de l'amiral\n§YNée:§W Le 26 mars 1886 sur l'île de l'Union, colonie fédérale des îles du Vent, Empire britannique\n§YCarrière militaire:§W Hugh Nathaniel Mulzac La vie en mer a commencé immédiatement après le lycée lorsqu'il a servi sur les goélettes britanniques. Il a été envoyé au Swansea Nautical College au Pays de Galles pour s'entraîner en vue de l'obtention de sa licence de capitaine de navire. En 1918, Hugh Mulzac émigre aux États-Unis. En deux ans, il a obtenu son certificat de capitaine de navire, le premier jamais délivré à un Afro-Américain. Il rejoint l'Universal Negro Improvement Association (UNIA) de Marcus Garvey et sert comme capitaine sur le SS Yarmouth de la Black Star Line. Cependant, des désaccords avec l'UNIA l'amènent à démissionner en 1921, puis à rejoindre l'Union internationale des marins d'Amérique (ISUA) en 1927. Avant 1937, le seul travail à bord que Mulzac pouvait obtenir était dans les services de steward sur plusieurs lignes maritimes. En 1934, sous la pression de l'ISUA, il a pu devenir capitaine d'un navire dont l'équipage était composé uniquement d'Afro-Américains, mais il a refusé en disant : "En aucun cas, je ne commanderai un Jim Crow". Après le début de la seconde guerre civile américaine, la CSA ayant besoin de ses services pour les capitaines de navires, il est désigné comme commandant du destroyer CNS Smith Thompson et est choisi pour suivre des cours de haut niveau. Après les avoir terminés, il est devenu célèbre pour avoir été le tout premier amiral noir".
 
+### Country Names ###
+CSA_totalist:0 "Confédération Syndicaliste d'Amérique"
+CSA_totalist_ADJ:0 "Américain"
+CSA_totalist_DEF:0 "la Confédération Syndicaliste d'Amérique"
+CSA_syndicalist:0 "Confédération Syndicaliste d'Amérique"
+CSA_syndicalist_ADJ:0 "Américain"
+CSA_syndicalist_DEF:0 "la Confédération Syndicaliste d'Amérique"
+CSA_radical_socialist:0 "Confédération Syndicaliste d'Amérique"
+CSA_radical_socialist_ADJ:0 "Américain"
+CSA_radical_socialist_DEF:0 "la Confédération Syndicaliste d'Amérique"
+CSA_social_democrat:0 "États-Unis d'Amérique"
+CSA_social_democrat_ADJ:0 "Américain"
+CSA_social_democrat_DEF:0 "les États-Unis d'Amérique"
+CSA_social_liberal:0 "États-Unis d'Amérique"
+CSA_social_liberal_ADJ:0 "Américain"
+CSA_social_liberal_DEF:0 "les États-Unis d'Amérique"
+CSA_market_liberal:0 "États-Unis d'Amérique"
+CSA_market_liberal_ADJ:0 "Américain"
+CSA_market_liberal_DEF:0 "les États-Unis d'Amérique"
+CSA_social_conservative:0 "États-Unis d'Amérique"
+CSA_social_conservative_ADJ:0 "Américain"
+CSA_social_conservative_DEF:0 "les États-Unis d'Amérique"
+CSA_authoritarian_democrat:0 "États-Unis d'Amérique"
+CSA_authoritarian_democrat_ADJ:0 "Américain"
+CSA_authoritarian_democrat_DEF:0 "les États-Unis d'Amérique"
+CSA_paternal_autocrat:0 "États-Unis d'Amérique"
+CSA_paternal_autocrat_ADJ:0 "Américain"
+CSA_paternal_autocrat_DEF:0 "les États-Unis d'Amérique"
+CSA_national_populist:0 "État Unioniste Américain"
+CSA_national_populist_ADJ:0 "Américain"
+CSA_national_populist_DEF:0 "l'État Unioniste Américain"
 
-
-
-
-
-### Cosmetic Tags ###
 CSA_ACW_totalist:0 "Confédération Syndicaliste d'Amérique"
 CSA_ACW_totalist_ADJ:0 "Syndicaliste"
 CSA_ACW_totalist_DEF:0 "Confédération Syndicaliste d'Amérique"

@@ -250,10 +250,10 @@ GER_csavol_tt:0 "Deux divisions de volontaires arriveront à Detroit."
 GER_received_equipment_10000:0 "Nous recevrons 10 000 unités de matériel d'infanterie."
 GER_OTT_victory:0 "L'Axe a capitulé."
 GER_cannot_join_until_WK:0 "§R[From.GetName] ne peut pas rejoindre le [ROOT.GetFactionName] avant la Weltkrieg.§!"
-GER_doctrine_mobile_3_tooltip:0 "Modifie §HComplexe Militaro-industriel§! par \nUsines de biens de consommation : [?-0.05|=%0H]\n§HBlindés§! : £production_cost Production Cost :  [?-0.2|-=%]"
+ GER_doctrine_mobile_3_tooltip:9 "Modify §H$GER_invest_arms_industry$§! by\nConsumer Goods Factories: [?-0.05|=%0H]\n§HArmour§!: £production_cost  Production Cost:  [?-0.2|-=%]"
 
-GER_has_black_monday:0 "A l'esprit national §HEffets du Lundi Noir§!"
-GER_has_black_monday_NOT:0 "N'a pas l'esprit national §HEffets du Lundi Noir§!"
+ GER_has_black_monday:9 "Has national spirit §H$GER_black_monday$§!"
+ GER_has_black_monday_NOT:9 "Does not have national spirit §H$GER_black_monday$§!"
 
 ### Opinion Modifiers ###
 sri_lanka:0 "Salaud d'impérialiste"
@@ -330,6 +330,10 @@ GER_erode_cof_legitimacy:0 "Erode Communard Légitimité"
 GER_erode_cof_legitimacy_desc:0 "Nos efforts doivent viser à convaincre les Français que le gouvernement communal est et a toujours été une construction illégitime, ainsi que leur véritable oppresseur. Si leur volonté de lutter au nom des syndicalistes s'effondre, il y aura peu d'opposition à notre occupation."
 GER_invite_nfa_to_france:0 "Inviter [NFA.GetNameDef] Retour en France"
 GER_invite_nfa_to_france_desc:0 "NFA.GetNameDefCap] a beaucoup plus de capacité que nous à éroder la légitimité de [FRA.GetNameDef]... mais seulement s'ils détiennent suffisamment de territoire en France continentale pour revendiquer une sorte de victoire. Actuellement, ce n'est pas le cas. Afin d'accélérer la progression de la défaite de la résistance française, peut-être vaut-il la peine de se demander si nous ne pourrions pas leur livrer une partie de notre territoire occupé dans le sud ? À tout le moins, cela établirait une certaine gratitude de leur part."
+
+ GER_seize_morocco_decisions:9 "Seizing Moroccan Territories"
+ GER_seize_morocco_decisions_desc:9 "Since the twentieth century, we have fostered ambitions on Morocco. Now that the other powers that have a stake there are in turmoil, it is time to take these lands for our own."
+ GER_seize_spanish_morocco:9 "Seize Spanish Morocco"
 
 GER_black_monday_category:0 "Faire face au lundi noir"
 
@@ -707,23 +711,14 @@ GER_oil_georgia_desc:0 "Dans le cadre de notre opération visant à prendre le c
 GER_oil_caucasus_treaty:0 "La Conférence de Bakou"
 GER_oil_caucasus_treaty_desc:0 "Le moment est venu pour nous d'acquérir notre prix principal, le pétrole d'Azerbaïdjan. Si nous organisons une rencontre avec des diplomates azerbaïdjanais de haut rang à Bakou, nous pourrons peut-être nous entendre avec eux. En garantissant leur indépendance, ils pourraient bien être prêts à venir sous notre suzeraineté sans se battre."
 
-GER_oil_gulf:0 "De Mésopotamie"
-GER_oil_gulf_desc:0 "Notre besoin de pétrole est critique. Nous devons regarder au-delà des zones traditionnelles de production pétrolière pour nos besoins, même dans les déserts et les déchets de l'Orient. Les factions belligérantes y sont mûres pour l'exploitation."
+ GER_Settling_Old_Disputes:9 "Settling Old Disputes"
+ GER_Settling_Old_Disputes_desc:9 ""
 
-GER_oil_gulf_axis:0 "Traité du Pacte du Caire"
-GER_oil_gulf_axis_desc:0 "Nous ne pouvons plus soutenir l'"Empire" ottoman et ce ne serait ni faisable ni raisonnable. Nous chercherons à nouer de nouveaux liens avec les puissances du Pacte du Caire, car leur ascension est notre gain."
+ GER_Research_Cooperation:9 "Research Cooperation"
+ GER_Research_Cooperation_desc:9 ""
 
-GER_oil_gulf_ottos:0 "Les Ottomans ne peuvent pas tomber"
-GER_oil_gulf_ottos_desc:0 "Une fois de plus, nous sommes confrontés à une situation qui consiste à soutenir l'Empire ottoman contre une force stridente qui cherche à le détruire. Nous devons intervenir et protéger notre vieil ami une dernière fois."
-
-GER_oil_gulf_secure:0 "Sécuriser nos investissements"
-GER_oil_gulf_secure_desc:0 "Maintenant que nous avons signé un traité pétrolier, comme toute bonne partie contractante, nous devons nous assurer de remplir nos obligations. Nous enverrons du matériel et des volontaires immédiatement."
-
-GER_oil_gulf_gamble:0 "Le pari du Golfe"
-GER_oil_gulf_gamble_desc:0 "Alors que le traité stipulait qu'il faudrait attendre un certain temps avant que les expéditions de pétrole soient garanties, nos besoins en pétrole sont pressants. Même si la guerre fait rage au Proche-Orient, nous devons insister pour qu'ils remplissent immédiatement leurs obligations."
-
-GER_oil_gulf_safe:0 "Jouez en toute sécurité"
-GER_oil_gulf_safe_desc:0 "Tandis que Le Caire et les Ottomans ont été engagés dans leurs disputes mesquines, notre empire meurt de faim pour le pétrole. Il est essentiel que nous obtenions ce que nous avons négocié."
+ GER_Vanguard_In_The_South:9 "Vanguard in the South"
+ GER_Vanguard_In_The_South_desc:9 ""
 
 ### Decisions ###
 GER_appeal_to_old_friends:0 "Faire appel à[From.GetNameDef] pour obtenir de l'aide"
@@ -1234,11 +1229,6 @@ gerfor.25.t:0 "Die Wacht am Rhein"
 gerfor.25.d:0 "Les Français ont atteint le Rhin. Nos importantes fortifications frontalières n'ont apparemment pas réussi à arrêter leur progression inexorable et maintenant nos villes industrielles cruciales tombent les unes après les autres. La situation est tout à fait désastreuse, et il y a déjà des murmures de trahison selon lesquels les Communards pourraient atteindre Berlin même."
 gerfor.25.a:0 "Il faut les arrêter !"
 
-gerfor.26.t:0 "Le destin du Maroc espagnol"
-gerfor.26.d:0 "Avec la prise de contrôle de l'Espagne par les forces syndicalistes, nos possessions coloniales en Afrique du Nord pourraient être en danger. Par mesure préventive, notre état-major général a suggéré que nous occupions le Maroc espagnol avant que la CNT-FAI ne stabilise son pouvoir et n'étende son influence fétide dans nos colonies."
-gerfor.26.a:0 "Occupez le Maroc espagnol !"
-gerfor.26.b:0 "Les amas de saletés sont en dessous de nos préoccupations en ce moment."
-
 gerfor.27.t:0 "L'Allemagne occupe le Maroc espagnol !"
 gerfor.27.d:0 "L'Empire allemand, dans une démonstration d'arrogance absolue et de manque de respect envers notre Etat, a occupé le Maroc espagnol. Chose choquante, leurs forces se sont même installées à Ceuta et Melilla, deux villes inviolables du territoire espagnol depuis des siècles."
 gerfor.27.a:0 "Il n'y a rien que nous puissions faire...."
@@ -1462,92 +1452,25 @@ gerfor.77.t:0 "Le Reichspakt fusionne avec l'Entente"
 gerfor.77.d:0 "Avec l'Empire allemand unissant le Reichspakt à l'Entente pour sauver le monde de la menace syndicaliste, il est temps de suivre son exemple ou nous serons conquis."
 gerfor.77.a:0 "On est tous dans le même bateau maintenant."
 
-gerfor.78.t:0 "L'Allemagne demande des droits de base"
-gerfor.78.d:0 "Le Kaiserreich a approché notre ambassadeur avec une offre un peu étrange:0"
-gerfor.78.a:0 "L'argent, c'est bien !"
-gerfor.78.b:0 "Nous ne pouvons pas permettre l'influence allemande !"
+ gerfor.80.t:9 "An Offer From Berlin"
+ gerfor.80.d:9 "Entangled in a war for its survival, the German Empire has reopened negotiations concerning the permanent presence of our empire in the Reichspakt, their military alliance. Although the people are exhausted from years of war, there still remains a strong pro-German sentiment amongst the ruling class and a desire to stand side by side with the victors of the new order.\n\nNonetheless our empire does not intend to sell its skin cheaply and has demanded that the Caucasus, traditionally part of the Ottoman sphere, be restored to its control and that Azerbaijan becomes more tightly connected to the Sublime Porte. Although angered by our demands, it nonetheless seems like the German government is willing to consider the cost if it leads to the strengthening of their Southern Flank."
+ gerfor.80.a:9 "Very well, let us rekindle the old alliance."
+ gerfor.80.b:9 "No, this isn't in our best interests."
 
-gerfor.79.t:0 "Hawaii accorde des droits de base"
-gerfor.79.d:0 "Le gouvernement hawaïen a décidé d'accepter notre offre de donner à notre marine le droit de s'établir dans leurs ports ! Une petite commission est déjà en train d'évaluer les investissements nécessaires pour faire d'Honolulu une base navale viable, avec une portée opérationnelle potentielle pour nos navires allant aussi loin à l'est que jamais auparavant."
-gerfor.79.a:0 "Notre base au soleil !"
+ cancel_ott:9 "Not: [OTT.GetNameDefCap] has refused the Baku Accords"
+ GER_upon_completion_of_focus:9 "Within the next month:"
 
-gerfor.80.t:0 "Hawaii refuse les droits de base"
-gerfor.80.d:0 "Le gouvernement hawaïen a décidé de ne pas accepter notre offre de donner à notre marine le droit d'établir des bases dans ses ports, sans citer de raison directe - cependant, il est largement soupçonné que c'est la crainte de notre ingérence dans leurs affaires qui en est la raison. Bien que cela soit compréhensible et pas inattendu, c'est quand même malheureux."
-gerfor.80.a:0 "C'est ce qu'on va voir."
+ gerfor.81.t:9 "[FROM.GetNameDefCap] Accepts"
+ gerfor.81.d:9 "Fantastic news from Konstantiniyye today as the Sublime Porte agreed with our proposal and has today declared its full intention to take up arms with its German comrades. Faced with an evergrowing threat posed by the Russian bear, the Caliph has already given the order to announce Jihad against the godless heathens we call the Eastern Orthodox Church."
+ gerfor.81.a:9 "Excellent."
 
-gerfor.112.t:0 "L'Allemagne propose une aide pour le pétrole"
-gerfor.112.d:0 "L'Allemagne s'est adressée à notre gouvernement pour lui offrir une aide militaire en échange de livraisons ininterrompues de pétrole et de la possibilité pour les entreprises allemandes d'exploiter les gisements inutilisés. Que devrions-nous dire en réponse ?"
-gerfor.112.a:0 "L'aide militaire allemande est cruciale."
-gerfor.112.b:0 "Ces dépôts n'appartiennent qu'à nous."
+ gerfor.82.t:9 "[FROM.GetNameDefCap] Refuses"
+ gerfor.82.d:9 "Faced with the burden of a struggling empire and decades of nigh constant war it can't recover from, the Sublime Porte has refused our offer and instead chosen for a neutral approach to world affairs. Whilst they don't deny the good relations with the German Kaiser, something they can't praise enough, they have let it be known that for the time being, their interests don't align with ours."
+ gerfor.82.a:9 "Traitors!"
 
-gerfor.91.t:0 "Le Pacte du Caire accepte le traité pétrolier"
-gerfor.91.d:0 "Après avoir reçu notre offre, les Arabes semblaient enthousiastes à l'idée de voir leurs forces entraînées par les nôtres."
-gerfor.91.a:0 "Tout s'arrange à la fin."
-
-gerfor.92.t:0 "Le Pacte du Caire refuse le traité pétrolier"
-gerfor.92.d:0 "Malgré notre offre plus que généreuse de former leurs forces inexpérimentées, ils ont refusé notre offre pour l'accès au pétrole."
-gerfor.92.a:0 "Un irritant mineur, au mieux."
-
-gerfor.93.t:0 "Un vieil allié demande un traité pétrolier"
-gerfor.93.d:0 "Les Allemands nous ont approchés et, pour une fois, ils cherchent simplement à conclure un accord au lieu de faire respecter une dette. Ils souhaitent avoir un accès ininterrompu aux champs de pétrole de nos vilayets du sud en échange d'un soutien militaire."
-gerfor.93.a:0 "On a vraiment besoin d'aide."
-gerfor.93.b:0 "Vont-ils un jour cesser de nous exploiter ?"
-
-gerfor.94.t:0 "Les Ottomans acceptent le traité pétrolier"
-gerfor.94.d:0 "Notre vieil allié dans l'Est a accepté de nous donner des expéditions ininterrompues de pétrole en échange d'une expédition militaire dans le Proche-Orient. Il s'agit d'une situation gagnant-gagnant pour toutes les parties concernées."
-gerfor.94.a:0 "On va renvoyer les garçons."
-
-gerfor.95.t:0 "Les Ottomans refusent le traité pétrolier"
-gerfor.95.d:0 "Après de longues négociations, l'empire ottoman ne voulait pas nous rencontrer à mi-chemin sur quoi que ce soit. Après avoir fait quelques dernières offres qui ont été rejetées, nos diplomates ont fait leurs valises et sont partis."
-gerfor.95.a:0 "J'espère que le malade va enfin mourir."
-
-gerfor.96.t:0 "L'Allemagne demande l'exécution des obligations du traité"
-gerfor.96.d:0 "Après avoir accepté l'offre allemande, les Allemands ont attendu patiemment que nous leur assurions l'accès au pétrole et que nous soyons en mesure de commencer les livraisons. Maintenant, leurs représentants se sont présentés à Constantinople pour demander que les expéditions commencent en totalité. Que devrions-nous faire ?"
-gerfor.96.a:0 "Ils méritent leur récompense."
-gerfor.96.b:0 "De quel "traité" parlez-vous encore ?"
-
-gerfor.97.t:0 "L'Empire ottoman commence ses expéditions de pétrole"
-gerfor.97.d:0 "Le gouvernement ottoman a commencé ses expéditions de pétrole à notre demande, et maintenant notre industrie peut à nouveau fonctionner au maximum de son efficacité."
-gerfor.97.a:0 "Que l'or noir se répande."
-
-gerfor.98.t:0 "Trahison ottomane !"
-gerfor.98.d:0 "Une fois que les Ottomans ont eu plus de temps qu'il n'en faut pour sécuriser leurs réserves, ils continuent à gagner du temps et à trouver des excuses. Ces ordures refusent de nous donner ce à quoi nous avons droit en vertu du traité que nous avons signé."
-gerfor.98.a:0 "Le culot de ces rats perfides."
-
-gerfor.99.t:0 "L'Allemagne demande l'exécution des obligations du traité"
-gerfor.99.d:0 "Après avoir accepté l'offre allemande, les Allemands ont attendu patiemment que nous leur assurions l'accès au pétrole et que nous soyons en mesure de commencer les livraisons. Aujourd'hui, leurs représentants se sont présentés au Caire pour demander que les expéditions commencent en totalité. Que devrions-nous faire ?"
-gerfor.99.a:0 "Il vaut mieux les garder de notre côté."
-gerfor.99.b:0 "Ce pétrole est arabe, pas allemand."
-
-gerfor.100.t:0 "Le Pacte du Caire commence les expéditions de pétrole"
-gerfor.100.d:0 "Quelques minutes après que nos diplomates eurent demandé les livraisons de pétrole, nous avons appris que l'appel avait été fait. Déjà, un pétrolier sous pavillon allemand amarré dans le Suez a été chargé de barils de pétrole. Cela semble presque miraculeux."
-gerfor.100.a:0 "La magie de la diplomatie."
-
-gerfor.101.t:0 "Trahison du Pacte du Caire !"
-gerfor.101.d:0 "Après que nous ayons demandé que les livraisons de pétrole promises nous soient envoyées, les gouvernements arabes ont snobé nos diplomates, prétendant que l'Allemagne n'a rien à faire dans le Proche-Orient !"
-gerfor.101.a:0 "Le monde entier, c'est notre affaire."
-
-gerfor.102.t:0 "L'Allemagne exige des livraisons immédiates de pétrole !"
-gerfor.102.d:0 "Bien que nous n'ayons que récemment signé le traité pétrolier avec le Reich allemand, des diplomates sont arrivés à Constantinople au nom du Kaiser, déclarant que les termes du traité étaient modifiés et que nous devrions commencer à envoyer nos livraisons de pétrole immédiatement au lieu de respecter le calendrier convenu."
-gerfor.102.a:0 "Nous ne pouvons pas nous permettre de perdre leur soutien. Faites-le."
-gerfor.102.b:0 "Non. Nous pouvons à peine fournir du pétrole à nos propres forces."
-
-gerfor.103.t:0 "L'Allemagne exige des livraisons immédiates de pétrole !"
-gerfor.103.d:0 "Bien que nous n'ayons que récemment signé le traité pétrolier avec le Reich allemand, des diplomates sont arrivés au Caire au nom du Kaiser, déclarant que les termes du traité étaient modifiés et que nous devrions commencer à envoyer nos livraisons de pétrole immédiatement au lieu de respecter le calendrier convenu."
-gerfor.103.a:0 "Nous leur donnerons ce que nous pouvons."
-gerfor.103.b:0 "Le Kaiser peut être pendu ! Pas une goutte."
-
-gerfor.104.t:0 "Les champs de pétrole du Pacte du Caire perdus !"
-gerfor.104.d:0 "Avec l'effondrement de notre partenaire commercial dans le Pacte du Caire, nous avons perdu notre approvisionnement ininterrompu en pétrole. Déjà, le pincement se fait sentir à Berlin et il y a eu de sérieuses turbulences sur les marchés. Une fois de plus, nos traités ont été rendus inutiles par les événements, peut-être à la surprise générale."
-gerfor.104.a:0 "Pour l'amour de Dieu."
-
-#gerfor.105.t:0 "Axis Lost Our Oil" # Nice version
-#gerfor.105.d:0 "(TEMP LOCALISATON)"
-#gerfor.105.a:0 ""
-
-gerfor.106.t:0 "Les champs de pétrole de l'Empire ottoman perdus !"
-gerfor.106.d:0 "Avec l'effondrement de notre partenaire commercial ottoman, nous avons perdu notre approvisionnement ininterrompu en pétrole. Déjà, le pincement se fait sentir à Berlin et il y a eu de sérieuses turbulences sur les marchés. Une fois de plus, nos traités ont été rendus inutiles par les événements, peut-être à la surprise générale."
-gerfor.106.a:0 "Bien sûr qu'ils foutraient tout en l'air."
+ gerfor.83.t:9 "Signing the Baku Accords"
+ gerfor.83.d:9 "Realising that a friendly Turk is more valuable than an angry Turk, the government of [GER.GetLeader] has agreed with our offer and has decreed the departure of all German troops from Azeri territory. Whilst we won't get the access to the powerful oil deposits of Baku, as the treaty grants these to Germany for a period of 25 years, this is a major victory for all Turkics and has been celebrated with great fanfare in Konstantiniyye."
+ gerfor.83.a:9 "Wonderful!"
 
 gerfor.107.t:0 "L'Allemagne propose un traité pétrolier"
 gerfor.107.d:0 "Les Allemands nous ont fait une offre intéressante. Ils promettent d'investir dans notre économie en échange de notre garantie de la sécurité des expéditions de pétrole et d'un accès préférentiel aux marchés. Les termes du traité sont en cours d'élaboration."
@@ -1884,14 +1807,6 @@ gerfla.7.a:0 "C'était un roturier et un larbin, mais un chancelier avant tout."
 gerfla.8.t:0 "Dixième anniversaire de la mort de von Tirpitz"
 gerfla.8.d:0 "Aujourd'hui marque le dixième anniversaire de la mort du grand chancelier et amiral Alfred von Tirpitz. Alors que le huit chancelier et commandant de la marine allemande Tirpitz dirigeait le Kaiserreich hors de la dictature de Ludendorff, initiant l'âge d'or qui dura jusqu'à sa mort dans les années vingt. Après sa mort, son Deutsche Vaterlandspartei (DVLP), transformé en parti Junker, ouvre la voie à son nouveau chef, Alfred Hugenberg, le parti conservateur allemand, ou DkP, du von Papen, qui est maintenant sous leur direction. Bien que le Reich ait connu la prospérité sous le règne de Tirpitz, il a également continué à retarder l'accomplissement des promesses de Pâques du Kaiser faites en 1917, nous laissant avec des tensions politiques en train de couler ces dernières années.\n\nStill, son prestige est énorme, et l'anniversaire de sa mort a été accompagné de manifestations publiques de respect dans l'Empire."
 gerfla.8.a:0 "Et quel géant c'était !"
-
-gerfla.9.t:0 "Unser Kampf"
-gerfla.9.d:0 "La maison d'édition Propylaen a annoncé aujourd'hui son intention de publier une nouvelle série de livres consacrés aux histoires, récits et poèmes des soldats allemands des conflits du Weltkrieg, intitulée \"Unser Kampf\". Parmi les exemples notables, citons le journal du caporal Adolf Hitler, un signaleur qui, entre autres distinctions, s'est vu décerner pas moins de deux Croix de fer pour sa vaillance sur les fronts occidental et oriental. Quelle meilleure façon de réaffirmer les valeurs et la gloire du Reich en ces temps troublés ?"
-gerfla.9.a:0 "Une bonne lecture !"
-
-gerfla.10.t:0 "Unser Kampf:0"
-gerfla.10.d:0 "Après la grande popularité de la série à succès produite par Propylaen, le metteur en scène Leni Riefenstahl a décidé de transformer le matériel en un film basé sur les témoignages présentés. Unser Kampf' possède les valeurs de production les plus élevées jusqu'à présent - rendues possibles grâce aux investissements de l'Etat dans les studios de Babelsberg - et offre une description effrayante et réelle de la guerre. Mettant en vedette Heinz Ruhmann, Hans Albers et Theodor Loos, l'histoire se concentre sur l'héroïsme et le dévouement des " petits gens " du Weltkrieg, tels que le vaillant caporal Adolf Hitler, qui a tout sacrifié pour son Kaiser et le Reich."
-gerfla.10.a:0 "Un film stellaire !"
 
 gerfla.11.t:0 "Un retour en Europe"
 gerfla.11.d:0 "Nos soldats sillonnent les rues de [GetNameGERCapital], applaudissant sauvagement les dirigeants de l'Allemagne qui débarquent de leurs navires nouvellement arrivés sur le sol européen une fois de plus. Nous ne sommes plus des exilés."
