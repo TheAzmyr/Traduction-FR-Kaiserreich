@@ -1,11 +1,8 @@
 ﻿l_french:
 
-### Syndicalist Social Democrat Notice ###
-SYNDIE_SOC_DEM_NOTICE:0 "(Syndicaliste aligné)"
-
 ### Opening Event ###
  kr.political.1.t:9 "Kaiserreich Beta 0.15 \"Paritr de Syrie\""
-kr.political.1.d:0 "L'équipe de Kaiserreich est fière de vous présenter la version bêta 0.15 de Kaiserreich pour Hearts of Iron 4. Notre équipe a travaillé dur dans tous les coins du monde pour vous présenter cette nouvelle version et nous ne pourrions pas être plus honorés que vous choisissiez d'y jouer. \n\nNous vous prions de bien vouloir noter ce qui suit : \nLe mod est conçu avec l'hypothèse que le joueur annexera toujours tous les états possibles dans les traités de paix, donc assurez-vous de faire cela\nVous pouvez changer la fréquence des nouvelles en basculant l'icône en haut de l'onglet décisions\nVous pouvez sélectionner quel système de nommage des états et des points de victoire utiliser en basculant l'icône remplaçant le menu des réalisations en haut à droite\nRappelez-vous que ce mod est toujours en Bêta, Attendez-vous donc à des bogues, des plantages et divers maux de tête ! Si vous rencontrez l'un d'entre eux, les signaler sur notre GitHub issue tracker est d'une grande aide et permettra de les corriger plus rapidement !"
+ kr.political.1.d:9 "L'équipe de Kaiserreich est fière de vous présenter la version bêta 0.15 de Kaiserreich pour Hearts of Iron 4. Notre équipe a travaillé dur dans tous les coins du monde pour vous présenter cette nouvelle version et nous ne pourrions pas être plus honorés que vous choisissiez d'y jouer. \n\nNous vous prions de bien vouloir noter ce qui suit : \nLe mod est conçu avec l'hypothèse que le joueur annexera toujours tous les états possibles dans les traités de paix, donc assurez-vous de faire cela\nVous pouvez changer la fréquence des nouvelles en basculant l'icône en haut de l'onglet décisions\nVous pouvez sélectionner quel système de nommage des états et des points de victoire utiliser en basculant l'icône remplaçant le menu des réalisations en haut à droite\nRappelez-vous que ce mod est toujours en Bêta, Attendez-vous donc à des bogues, des plantages et divers maux de tête ! Si vous rencontrez l'un d'entre eux, les signaler sur notre GitHub issue tracker est d'une grande aide et permettra de les corriger plus rapidement !"
 kr.political.1.a:0 "Je suis sûr que je le ferai !"
 
 ### Generic Triggered Events ####
@@ -36,6 +33,7 @@ kr.political.76.t:0 "[From.GetNameDefCap] rend les territoires [Root.GetAdjectiv
 kr.political.76.d:0 "Nos alliés de [From.GetNameDefCap] nous ont rendu certaines de nos terres !"
 kr.political.76.a:0 "Super !"
 
+### Ideology ###
 KR_different_ideology_close:0 "Idéologie différente"
 KR_different_ideology:0 "Idéologie différente"
 KR_similar_ideology_close:0 "Idéologie Similaire"
@@ -63,8 +61,12 @@ KR_right_wing_democracy_NOT:0 "N'est pas une démocratie de droite"
 KR_left_wing_democracy:0 "Est une démocratie de gauche"
 KR_left_wing_democracy_NOT:0 "N'est pas une démocratie de gauche"
 
+### At War Notice ###
 has_scripted_peace:0 "Nous sommes en guerre"
 has_scripted_peace_desc:0 "Le pays est en guerre et est déterminé à remporter la victoire - bien qu'il y ait des chances que notre résistance soit un peu plus fragile qu'il n'y paraît. (Note : ceci existe pour les guerres où un événement de paix écrit existe, et il y a des chances que l'événement se déclenche bien avant que cette limite de reddition élevée ne soit atteinte, juste pour que vous soyez au courant.)"
+
+### Syndicalist Social Democrat Notice ###
+SYNDIE_SOC_DEM_NOTICE:0 "(Syndicaliste aligné)"
 
 ### Demobilisation ###
  mobilisation_penalty_modifier:0 "Au-delà de la limite de la division"
@@ -84,7 +86,7 @@ has_scripted_peace_desc:0 "Le pays est en guerre et est déterminé à remporter
 
  unit_limit_desc_fake_intel:0 " (§HLes fausses divisions du renseignement§! ne comptent pas dans la limite de divisions)"
 
- unit_limit_desc_above_limit:0 "\n\n--------------\n\n§RNous avons actuellement dépassé nos capacités, et la seule façon d'alléger la pression sur notre pays sera de supprimer certaines de nos divisions.§!\n\nOrganisation des divisions : [?mobilisation_penalty_var|+=%1]\nUsines de biens de consommation : [?mobilisation_penalty_var_positive|=%H0]\nProduction en usine : [?mobilisation_penalty_var|+=%]\nTemps de formation : [?mobilisation_penalty_var_positive|-=%]\nRenforcer le taux : [?mobilisation_penalty_var|+=%1]"
+ unit_limit_desc_above_limit:9 "\n\n--------------\n\n§RNous avons actuellement dépassé nos capacités, et la seule façon d'alléger la pression sur notre pays sera de supprimer certaines de nos divisions.§!\n\nOrganisation des divisions : [?mobilisation_penalty_var|+=%1]\nUsines de biens de consommation : [?mobilisation_penalty_var_positive|=%H0]\nProduction en usine : [?mobilisation_penalty_var|+=%]\nTemps de formation : [?mobilisation_penalty_var_positive|-=%]\nRenforcer le taux : [?mobilisation_penalty_var|+=%1]"
 
  unit_limit_major_power_desc:0 "\n   - Grande puissance/chef de file : §G+15%§!"
  unit_limit_world_tension_desc:0 "\n   - Tension mondiale 70% ou plus: §G+5§!%"
