@@ -90,8 +90,8 @@ ANQ_fengjapan_aids_reconstruction:0 "Fengtian et le Japon soutiennent nos effort
 ANQ_feng_aid_undecided:0 "L'aide fengtienne à la reconstruction est indécise"
 ANQ_no_reconstruction_aid:0 "Fengtian nous a refusé son aide"
 
- ANQ_can_prospect_resources_qing:9 "Has decided mineral rights"
- ANQ_can_prospect_resources_alone:9 "Has decided mineral rights"
+ ANQ_can_prospect_resources_qing:9 "A décidé des droits miniers"
+ ANQ_can_prospect_resources_alone:9 "A décidé des droits miniers"
 
 ## Tooltips ##
  anq_25_army_xp_doctrine_tt:0 "§Y25§! £army_experience"
@@ -209,14 +209,14 @@ anq_unlocks_war_beijing_tt:0 "Débloque la décision £decision_icon_small §HDe
 ANQ_can_attack_hnngxc_tt:0 "Déverrouille les petites décisions d'attaquer [GXC.GetName] et [HNN.GetName]."
 ANQ_can_attack_hnngxc_proqie_tt:0 "Débloque £decision_icon_small §HDecisions§! pour attaquer [GXC.GetName] et [HNN.GetName] lorsqu'ils sont en paix.\n"
 
- anq_fengtian_guarantee_tt:9 "§H[FNG.GetNameDefCap]§! will guarantee us!\n"
- anq_qing_guarantee_tt:9 "§H[QIE.GetNameDefCap]§! will guarantee us!\n"
+ anq_fengtian_guarantee_tt:9 "§H[FNG.GetNameDefCap]§! nous garantira !\n"
+ anq_qing_guarantee_tt:9 "§H[QIE.GetNameDefCap]§! nous garantira !\n"
 
 anq_denounce_fengtian_tt:0 "§RSi nous les dénonçons de cette manière, nous abandonnerons Fengtian. Cela signifie qu'Anqing se retrouve seul en Chine, ce qui le rend très vulnérable. Cela conduit également à la disparition de toute aide et de tout soutien actuels, ce qui pourrait provoquer un certain chaos.§!\n"
 anq_abandon_conference_tolerated_tt:0 "§RSi nous n'assistons pas à la conférence, cela reviendra à abandonner Fengtian. Ils ont toléré que nous ne soutenions pas leur guerre auparavant, mais cette fois-ci, ils ne le feront pas. Cela signifie qu'Anqing se retrouve seul en Chine, ce qui le rend très vulnérable. Cela conduit également à la disparition de toute aide et de tout soutien actuels, ce qui pourrait provoquer un certain chaos.§!\n"
 anq_join_front_profengtian_tt:0 "§RSi nous rejoignons le Front uni, nous serons contraints d'abandonner totalement la cause de Fengtian. Bien que nous ayons d'autres alliés chinois dans cette guerre, une fois celle-ci terminée, nous serons très probablement seuls.§!\n"
 
- anq_change_gov_pataut:9 "The government changes to Paternal Autocrat.\n"
+ anq_change_gov_pataut:9 "Le gouvernement se transforme en Autocratie Paternaliste.\n"
 
 #Integration and governor tooltips
 anq_integration_time_down_tt:0 "La décision d'intégrer la province en tant qu'État central de [ANQ.GetNameDef] complète la §G20§! Des jours plus rapides !"
@@ -237,7 +237,7 @@ anq_nanjing_purge_integration_tt:0 "§gCes purges donneront des options pour ré
 
 #KMT/Yiguandao tooltips
 anq_can_suppress_tt:0 "La suppression ne peut que réduire le niveau d'agitation à un minimum de 1 !""
- anq_can_eliminate_tt:9 "The movement has been suppressed to an Unrest Level of 1"
+ anq_can_eliminate_tt:9 "Le mouvement a été supprimé jusqu'à un niveau d'agitation de 1"
 
 anq_increase_kmt_unrest_tt:0 "§Si aucune mesure de suppression n'est prise contre les KMT, ils pourront lancer une attaque ! §YKMT Unrest Level§! [getanqkmtcanincrease]"
 anq_unrest_can_increase:0 "Augmentera de §R1§!"
@@ -345,28 +345,28 @@ ANQ_village_reconstruction_decision_desc:0 "Nous devons contribuer à la reconst
 ## Reestablish control
 
 ANQ_reestablish_control:0 "Rétablir l'ordre"
- ANQ_reestablish_control_desc:9 "While we have won the war, our country is still in chaos. We will have to do a lot of work if we wish to get rid of the threats that we still face.\n[getrestablishcontrolgovernors][getanqreestablishcontrolkmt][getanqreestablishcontrolyiguandao]"
+ ANQ_reestablish_control_desc:9 "Bien que nous ayons gagné la guerre, notre pays est toujours dans le chaos. Nous devrons faire beaucoup de travail si nous voulons nous débarrasser des menaces qui pèsent encore sur nous.\n[getrestablishcontrolgovernors][getanqreestablishcontrolkmt][getanqreestablishcontrolyiguandao]"
 
 #Governors
- anq_reestablish_control_governors_desc:9 "\nFate of the Governors\n§gAnhui: [getanqreestablishcontrolanhuigov]\nZhejiang: [getanqreestablishcontrolzhejianggov]\nJiangsu: [getanqreestablishcontroljiangsugov]\nJiangxi: [getanqreestablishcontroljiangxigov]\nFujian: [getanqreestablishcontrolfujiangov]§!\n"
- anq_rcgov_no_invite_back:9 "£trigger_no Has not started §YFate of the Governors§! focus."
- anq_rcgov_waiting_for_decision:9 "£trigger_no The decision will be made soon."
- anq_rcgov_anhui_chen_governor:9 "£trigger_yes §YChen Tiaoyuan§! remains governor."
- anq_rcgov_puppet_governor:9 "£trigger_yes A close confidant of §YChen Tiaoyuan§! has been installed as governor."
- anq_rcgov_zhejiang_chen_yi_governor:9 "£trigger_yes §YChen Yi§! remains governor."
- anq_rcgov_zhejiang_shangguan_governor:9 "£trigger_yes §YShangguan Yunxiang§! is now the official governor."
- anq_rcgov_finding_candidate_governor:9 "£trigger_no It will take some time before a new candidate is found."
- anq_rcgov_jiangsu_zheng_governor:9 "£trigger_yes §YZheng Junyan§! stays on as governor."
- anq_rcgov_jiangsu_ma_yuren_governor:9 "£trigger_yes §YMa Yuren§! has been installed as governor."
- anq_rcgov_waiting_for_offical_reappointment:9 "£trigger_no §YDeng Ruzhou§! will be officially reappointed soon."
- anq_rcgov_jiangxi_deng_governor:9 "£trigger_yes §YDeng Ruzhou§! stays on as governor."
- anq_rcgov_jiangxi_random_governor:9 "£trigger_yes A candidate has been installed as governor."
- anq_rcgov_fujian_kong_governor:9 "£trigger_yes §YKong Zhaotong§! has been installed as governor."
+ anq_reestablish_control_governors_desc:9 "\nDestin des Gouverneurs\n§gAnhui: [getanqreestablishcontrolanhuigov]\nZhejiang: [getanqreestablishcontrolzhejianggov]\nJiangsu: [getanqreestablishcontroljiangsugov]\nJiangxi: [getanqreestablishcontroljiangxigov]\nFujian: [getanqreestablishcontrolfujiangov]§!\n"
+ anq_rcgov_no_invite_back:9 "£trigger_no N'a pas commencé la priorité §YDestin des Gouverneurs§!."
+ anq_rcgov_waiting_for_decision:9 "£trigger_no La décision sera prise prochainement."
+ anq_rcgov_anhui_chen_governor:9 "£trigger_yes §YChen Tiaoyuan§! reste gouverneur."
+ anq_rcgov_puppet_governor:9 "£trigger_yes Un proche confident de §YChen Tiaoyuan§! a été installé comme gouverneur."
+ anq_rcgov_zhejiang_chen_yi_governor:9 "£trigger_yes §YChen Yi§! reste gouverneur."
+ anq_rcgov_zhejiang_shangguan_governor:9 "£trigger_yes §YShangguan Yunxiang§! est maintenant le gouverneur officiel."
+ anq_rcgov_finding_candidate_governor:9 "£trigger_no Il faudra un certain temps avant qu'un nouveau candidat soit trouvé."
+ anq_rcgov_jiangsu_zheng_governor:9 "£trigger_yes §YZheng Junyan§! reste au poste de gouverneur."
+ anq_rcgov_jiangsu_ma_yuren_governor:9 "£trigger_yes §YMa Yuren§! a été installé comme gouverneur."
+ anq_rcgov_waiting_for_offical_reappointment:9 "£trigger_no §YDeng Ruzhou§! sera bientôt officiellement renouvelé."
+ anq_rcgov_jiangxi_deng_governor:9 "£trigger_yes §YDeng Ruzhou§! reste au poste de gouverneur."
+ anq_rcgov_jiangxi_random_governor:9 "£trigger_yes Un candidat a été nommé au poste de gouverneur."
+ anq_rcgov_fujian_kong_governor:9 "£trigger_yes §YKong Zhaotong§! a été installé comme gouverneur."
 
 
 #Deal with KMT and Yiguandao remnants
- anq_reestablish_control_kmt_desc:9 "\n§YKMT Unrest Level§!: §H[?anq_kmt_unrest_level]§! §R([getanqunreststrengthtextkmt])§!"
- anq_reestablish_control_yiguandao_desc:9 "\n§YYiguandao Unrest Level§!: §H[?anq_yiguandao_unrest_level]§! §R([getanqunreststrengthtextyiguandao])§!"
+ anq_reestablish_control_kmt_desc:9 "\n§YNiveau d'agitation KMT§!: §H[?anq_kmt_unrest_level]§! §R([getanqunreststrengthtextkmt])§!"
+ anq_reestablish_control_yiguandao_desc:9 "\n§YNiveau d'agitation du Yiguandao§!: §H[?anq_yiguandao_unrest_level]§! §R([getanqunreststrengthtextyiguandao])§!"
 
 ANQ_temp_suppress_kmt:0 "Supprimer les activités KMT"
 ANQ_temp_suppress_kmt_desc:0 "Le Kuomintang de gauche continue de faire des ravages dans les campagnes du sud, en particulier dans la province du Fujian. Comme nous ne pouvons actuellement pas épargner les ressources pour une campagne d'extermination complète et qu'il nous manque une stratégie cohérente, nous ne pouvons les supprimer que temporairement, et seulement jusqu'à un certain niveau.\n§R Afin de pouvoir supprimer définitivement la présence du KMT, il faut compléter les campagnes d'encerclement du Fujian§! Courage !"
@@ -980,7 +980,7 @@ anq.6.d:0 "Chen Tiaoyuan, gouverneur de la province de l'Anhui au sein de la Lig
 anq.6.a:0 "Une autre pièce est entrée dans l'échiquier"
 
 anq.7.t:0 "Rencontre avec le Japon"
- anq.7.d:9 "Working in shady backrooms and through the network of the Black Dragon Society, [ANQ.GetLeader] has been able to establish contact with [JAP.GetName]. Although their intentions seem questionable at best and their wish for a China for the Chinese is just a plain lie, Chen is fully aware that he has little choice in the matter and their request to recognise Fengtian as the sole Chinese government is more than reasonable in exchange for sorely needed support.\n\Now that the first shipment of gold and small arms has arrived in Anqing, showing that Japan is ready to stand by its word and with the Nanjing military mobilising for an invasion of our domain, it seems that the time for waiting is now fully over. We will strike first and we will strike hard, ensuring that the German stooges on the coast will be incapable of oppressing China any longer!"
+ anq.7.d:9 "Travaillant dans des salles obscures et par le biais du réseau de la Black Dragon Society, [ANQ.GetLeader] a pu établir un contact avec [JAP.GetName]. Bien que leurs intentions semblent au mieux discutables et que leur souhait d'une Chine pour les Chinois ne soit qu'un mensonge, Chen est pleinement conscient qu'il n'a guère le choix en la matière et leur demande de reconnaître Fengtian comme seul gouvernement chinois est plus que raisonnable en échange d'un soutien dont le besoin se fait cruellement sentir.\n\nMaintenant que la première cargaison d'or et d'armes légères est arrivée à Anqing, montrant que le Japon est prêt à tenir sa parole et que les militaires de Nanjing se mobilisent pour une invasion de notre domaine, il semble que le temps de l'attente soit maintenant totalement révolu. Nous frapperons les premiers et nous frapperons fort, en nous assurant que les laquais allemands sur la côte seront incapables d'opprimer la Chine plus longtemps !"
  anq.7.a:9 "Déclarer la guerre à la Ligue"
 anq_pp_note:0 "§RLes plus proches conseillers de Chen Tiaoyuan ont fait comprendre au gouverneur que la guerre détruira une grande partie de notre gouvernement et de notre économie et que même si nous gagnons, Anqing devra faire face à de nombreux problèmes. Ces problèmes nécessiteront une forte volonté politique. Ils conseillent donc de faire attention à nos ressources politiques et d'économiser pour ces temps difficiles.§!\n"
 
@@ -994,7 +994,7 @@ anq.9.d:0 "Probablement frustré par notre trahison antérieure, le gouverneur d
 anq.9.a:0 "C'est malheureux"
 
 anq.10.t:0 "Qing promet son soutien"
- anq.10.d:9 "The League lies weak, smouldering ruins show where once German fatcats dined with Nanjing officials whilst their army is disorganised and squabbling amongst themselves. Not only have our troops the courage and dedication to bring our goals to a successful end, we also have the support of the great Wu Peifu himself and with him the Imperial Army. All the pieces have been placed in motion, the time has come to put the League out of its misery and as a phoenix rising from the ashes so will Chen watch over the rebirth of China!"
+ anq.10.d:9 "La Ligue est faible, des ruines fumantes montrent où autrefois les gros bonnets allemands dînaient avec les officiels de Nankin alors que leur armée est désorganisée et se chamaille entre eux. Non seulement nos troupes ont le courage et le dévouement nécessaires pour mener à bien nos objectifs, mais nous avons également le soutien du grand Wu Peifu lui-même et avec lui l'Armée Impériale. Toutes les pièces ont été mises en mouvement, le temps est venu de sortir la Ligue de sa misère et, tel un phénix renaissant de ses cendres, Chen veillera à la renaissance de la Chine !"
 anq.10.a:0 "Mobilisez les troupes !" 
 
 anq.11.t_1:0 "Shangguan se lève dans le Zhejiang"
@@ -1102,7 +1102,7 @@ anq.31.d:0 "Le Jiangxi est resté une épine dans notre pied pendant un certain 
 anq.31.a:0 "Ce n'est pas l'idéal"
 
 anq.32.t:0 "La question de Fuijan"
- anq.32.d:9 "After the fall of the League we took Zhou Yinren, Fujian’s former governor, into custody. Like many others, he is poised to be executed as a traitor for failing to root out the KMT and for participating on the side of Qi Xieyuan. However, whilst we may not want the man as he was all things considered a failure, we need his network if we wish to install a proper government. Thankfully, one of his former officers, Kong Zhaotong, has proven to be willing to take over. Kong also participated on the side of Qi Xieyuan but he was not the one to make the decision so we can overlook that and as such speed up the process of re-establishing proper authority. If we are unwilling to overlook his crimes, we must install a new governor from among our own clique but he will have a hard time establishing full control without the networks of his predecessor."
+ anq.32.d:9 "Après la chute de la Ligue, nous avons placé Zhou Yinren, l'ancien gouverneur de Fujian, en détention. Comme beaucoup d'autres, il est sur le point d'être exécuté en tant que traître pour avoir échoué à éradiquer le KMT et pour avoir participé aux côtés de Qi Xieyuan. Cependant, même si nous ne voulons pas de cet homme, car il a été considéré comme un échec, nous avons besoin de son réseau si nous voulons mettre en place un véritable gouvernement. Heureusement, un de ses anciens officiers, Kong Zhaotong, s'est montré disposé à prendre la relève. Kong a également participé aux côtés de Qi Xieyuan, mais ce n'est pas lui qui a pris la décision, nous pouvons donc l'ignorer et accélérer le processus de rétablissement d'une véritable autorité. Si nous ne sommes pas disposés à ignorer ses crimes, nous devons installer un nouveau gouverneur parmi notre propre clique, mais il aura du mal à établir un contrôle total sans les réseaux de son prédécesseur."
  anq.32.a:9 "Nommez Kong Zhaotong"
  anq.32.b:9 "Gardons celui-ci plus près de la poitrine"
 
@@ -1228,7 +1228,7 @@ anq.62.d:0 "Le vil régime de la Clique du Shandong, qui pensait étendre son do
 anq.62.a:0 "Excellente"
 
 anq.63.t:0 "Le Kuomintang de gauche est vaincu"
- anq.63.d:9 "The radical leftist regime that was the Left Kuomintang has now been defeated in the field. They will have to retreat back to their hidden bases and won't be a serious military threat any time soon, as all of their forces have been crushed."
+ anq.63.d:9 "Le régime radical de gauche qui était le Kuomintang de gauche a maintenant été défait sur le terrain. Ils devront se replier sur leurs bases cachées et ne constitueront pas de sitôt une menace militaire sérieuse, car toutes leurs forces ont été écrasées."
 anq.63.a:0 "Excellente"
 
 anq.66.t:0 "Anqing prend le contrôle du Shandong"
@@ -1420,8 +1420,8 @@ anq.105.d:0 "Notre approche coopérative de la reconstruction a déjà permis un
 anq.105.a:0 "Toute aide est la bienvenue"
 
 anq.106.t:0 "Production de guerre d'urgence"
-anq.106.d:0 ""
-anq.106.a:0 ""
+ anq.106.d:0 ""
+ anq.106.a:0 ""
 
 anq.107.t:0 "Comité de la fortification"
 anq.107.d:0 ""
@@ -1745,7 +1745,7 @@ anq_reclamation_credibility_not_enough:0 "\nNous avons heureusement trop peu de 
 anq_reclamation_credibility_enough:0 "Heureusement, notre gouvernement a, en utilisant également les arguments contre la guerre de reconquête, suffisamment de crédibilité pour se tenir à l'écart du gouvernement fengtien et refuser d'y participer. Cela nous obligera soit à faire valoir nos propres revendications auprès de la direction nationale, soit à chercher un autre parti à soutenir. "
 
 anq.176.t:0 "Le Shandong passe la main au Fengtian"
- anq.176.d:9 "As agreed upon when we seized Shandong Province, now that the conflict with the [QIE.GetNameDef] has started, we must hand over Shandong Province to Fengtian, as we have no justifiable claims on the region. General Liu Heding, who we temporarily instated as governor of Shandong, has returned to our service."
+ anq.176.d:9 "Comme convenu lors de la prise de la province du Shandong, maintenant que le conflit avec le [QIE.GetNameDef] a commencé, nous devons remettre la province du Shandong à Fengtian, car nous n'avons aucune revendication justifiable sur la région. Le général Liu Heding, que nous avons temporairement institué comme gouverneur du Shandong, est revenu à notre service."
 anq.176.a:0 "Très bien".
 
 anq.177.t:0 " Les Fengtiens coupent les liens"
@@ -1787,10 +1787,10 @@ anq.213.t:0 "Reconnaître le gouvernement Fengtien"
 anq.213.d:0 "Maintenant que la guerre de la Ligue s'est terminée en notre faveur, nous n'avons pas d'autre choix que de conclure notre part du marché avec Fengtian. Nous devons aller de l'avant et annoncer officiellement au monde que nous reconnaissons Fengtian comme le gouvernement national officiel de la Chine. Cela constituera un changement majeur au sein de la Chine et bouleversera presque certainement l'équilibre prudent qui a maintenu la paix entre les différents États jusqu'à l'effondrement de la Ligue."
 anq.213.a:0 "Faire la déclaration."
 
- anq.231.t:9 "Anqing Breaks with Fengtian"
- anq.231.d:9 "The Anqing Clique has officially broken all relations with Fengtian, denouncing them in the process. The leader of the Anqing Clique, Chen Tiaoyuan, has made a public statement saying that [FNG.GetLeader] cannot be trusted and that the [FNG.GetName] represents a step backwards for China. He has not stated exactly why relations broke down, but most likely the [FNG.GetName] could no longer guarantee Anqing's autonomy or compromised too much on the issue of Anti-Concessionism. Chen Tiaoyuan has not indicated if he will support other contenders for the national government, meaning the Anqing Clique stands alone, at least temporarily."
- anq.231.a:9 "We lose an important ally."
- anq.231.b:9 "China remains divided."
+ anq.231.t:9 "Anqing rompt avec Fengtian"
+ anq.231.d:9 "La Clique d'Anqing a officiellement rompu toute relation avec Fengtian, les dénonçant par la même occasion. Le dirigeant de la Clique d'Anqing, Chen Tiaoyuan, a fait une déclaration publique disant qu'on ne peut pas faire confiance à [FNG.GetLeader] et que [FNG.GetName] représente un pas en arrière pour la Chine. Il n'a pas dit exactement pourquoi les relations se sont rompues, mais il est fort probable que le [FNG.GetName] ne pouvait plus garantir l'autonomie d'Anqing ou a fait trop de compromis sur la question de l'anticoncessionnisme. Chen Tiaoyuan n'a pas indiqué s'il soutiendrait d'autres candidats au gouvernement national, ce qui signifie que la clique d'Anqing se retrouve seule, au moins temporairement."
+ anq.231.a:9 "Nous perdons un allié important."
+ anq.231.b:9 "La Chine reste divisée."
 
 ### Cosmetic Tags ###
 ANQ_totalist:0 "Clique d'Anqing"
