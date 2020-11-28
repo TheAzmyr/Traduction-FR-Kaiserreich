@@ -1,8 +1,8 @@
 ﻿l_french:
 
 ### Opening Event ###
- kr.political.1.t:9 "Kaiserreich Beta 0.15 \"Paritr de Syrie\""
- kr.political.1.d:9 "L'équipe de Kaiserreich est fière de vous présenter la version bêta 0.15 de Kaiserreich pour Hearts of Iron 4. Notre équipe a travaillé dur dans tous les coins du monde pour vous présenter cette nouvelle version et nous ne pourrions pas être plus honorés que vous choisissiez d'y jouer. \n\nNous vous prions de bien vouloir noter ce qui suit : \nLe mod est conçu avec l'hypothèse que le joueur annexera toujours tous les états possibles dans les traités de paix, donc assurez-vous de faire cela\nVous pouvez changer la fréquence des nouvelles en basculant l'icône en haut de l'onglet décisions\nVous pouvez sélectionner quel système de nommage des états et des points de victoire utiliser en basculant l'icône remplaçant le menu des réalisations en haut à droite\nRappelez-vous que ce mod est toujours en Bêta, Attendez-vous donc à des bogues, des plantages et divers maux de tête ! Si vous rencontrez l'un d'entre eux, les signaler sur notre GitHub issue tracker est d'une grande aide et permettra de les corriger plus rapidement !"
+ kr.political.1.t:9 "Kaiserreich Beta 0.15.1 \"Paritr de Syrie\""
+ kr.political.1.d:9 "L'équipe de Kaiserreich est fière de vous présenter la version bêta 0.15.1 de Kaiserreich pour Hearts of Iron 4. Notre équipe a travaillé dur dans tous les coins du monde pour vous présenter cette nouvelle version et nous ne pourrions pas être plus honorés que vous choisissiez d'y jouer. \n\nNous vous prions de bien vouloir noter ce qui suit : \nLe mod est conçu avec l'hypothèse que le joueur annexera toujours tous les états possibles dans les traités de paix, donc assurez-vous de faire cela\nVous pouvez changer la fréquence des nouvelles en basculant l'icône en haut de l'onglet décisions\nVous pouvez sélectionner quel système de nommage des états et des points de victoire utiliser en basculant l'icône remplaçant le menu des réalisations en haut à droite\nRappelez-vous que ce mod est toujours en Bêta, Attendez-vous donc à des bogues, des plantages et divers maux de tête ! Si vous rencontrez l'un d'entre eux, les signaler sur notre GitHub issue tracker est d'une grande aide et permettra de les corriger plus rapidement !"
 kr.political.1.a:0 "Je suis sûr que je le ferai !"
 
 ### Generic Triggered Events ####
@@ -10,7 +10,7 @@ kr.political.1.a:0 "Je suis sûr que je le ferai !"
  kr.political.30.d:0 "Nous avons reçu de nombreuses informations selon lesquelles les troupes [FROM.GetAdjective] se rassemblent actuellement et qu'une grande partie de la reconnaissance a lieu de l'autre côté de la frontière [Root.GetAdjective]. Les responsables militaires disent qu'il est clair que [From.GetNameDef] planifie une invasion de [Root.GetNameDef], qui pourrait commencer à tout moment dans les prochaines semaines."
  kr.political.30.a:0 "Nous devons nous préparer !"
  kr.political.31.d:0 "Nous avons reçu un message alarmant de [From.GetNameDef] nous informant que les troupes [From.From.GetAdjective] se regroupent actuellement et qu'une grande partie de la reconnaissance se fait de l'autre côté de la frontière [From.GetAdjective]. Les responsables militaires disent qu'il est clair que [From.GetNameDef] planifie une invasion de [From.GetNameDef], qui pourrait commencer à tout moment dans les prochaines semaines."
- kr.political.32.d:9 "We have received word from our allies in [From.GetNameDef] that their troops are currently massing, and that a great deal of reconnaissance is taking place across the [attack_target.GetAdjective] border. [From.GetNameDef] is planning an invasion of [attack_target.GetNameDef], one that could begin anytime within the next several weeks."
+ kr.political.32.d:9 "Nous avons reçu un message de nos alliés de [From.GetNameDef] nous informant que leurs troupes se regroupent actuellement et qu'une grande partie de la reconnaissance a lieu de l'autre côté de la frontière [attack_target.GetAdjective]. [From.GetNameDef] planifie une invasion de [attack_target.GetNameDef], qui pourrait commencer à tout moment dans les prochaines semaines."
 
 ### Returning Cores ###
 return_cores_to_ally:0 "Redonner le territoire au [From.GetAdjective]"
@@ -86,7 +86,7 @@ SYNDIE_SOC_DEM_NOTICE:0 "(Syndicaliste aligné)"
 
  unit_limit_desc_fake_intel:0 " (§HLes fausses divisions du renseignement§! ne comptent pas dans la limite de divisions)"
 
- unit_limit_desc_above_limit:9 "\n\n--------------\n\n§RNous avons actuellement dépassé nos capacités, et la seule façon d'alléger la pression sur notre pays sera de supprimer certaines de nos divisions.§!\n\nOrganisation des divisions : [?mobilisation_penalty_var|+=%1]\nUsines de biens de consommation : [?mobilisation_penalty_var_positive|=%H0]\nProduction en usine : [?mobilisation_penalty_var|+=%]\nTemps de formation : [?mobilisation_penalty_var_positive|-=%]\nRenforcer le taux : [?mobilisation_penalty_var|+=%1]"
+ unit_limit_desc_above_limit:9 "\n\n--------------\n\n§RNous avons actuellement dépassé nos capacités, et la seule façon d'alléger la pression sur notre pays sera de supprimer certaines de nos divisions.§!\n\nOrganisation des divisions : [?mobilisation_penalty_var|+=%1]\nUsines de biens de consommation : [?mobilisation_penalty_var_positive|=%H1]\nProduction en usine : [?mobilisation_penalty_var|+=%]\nTemps de formation : [?mobilisation_penalty_var_positive|-=%]\nRenforcer le taux : [?mobilisation_penalty_var|+=%1]"
 
  unit_limit_major_power_desc:0 "\n   - Grande puissance/chef de file : §G+15%§!"
  unit_limit_world_tension_desc:0 "\n   - Tension mondiale 70% ou plus: §G+5§!%"
@@ -115,7 +115,7 @@ SYNDIE_SOC_DEM_NOTICE:0 "(Syndicaliste aligné)"
  KR_party_pop_more_than_75:0 "Plus de §Y75%§! de popularité du parti"
  DIPLOMACY_DOCKING_RIGHTS:0 "Droits d'amarrage"
  is_ally_of_ROOT:0 "Est un allié de [ROOT.GetNameDef]"
- has_coalition_with:9 "Is in coalition with the §H[?coalition_partner_to_check.GetTokenLocalizedKey]§!"
+ has_coalition_with:9 "Est en coalisation avec §H[?coalition_partner_to_check.GetTokenLocalizedKey]§!"
 
 ### Decisions ###
 #political_actions:0 "Political Actions" duplicate
