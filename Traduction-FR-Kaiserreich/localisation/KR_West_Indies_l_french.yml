@@ -208,7 +208,7 @@ CAF_Unity_concessions_2nd_Cayenne:0 "Concessions au PU"
 CAF_SocDem_concessions_2nd_Cayenne:0 "Concessions aux Sociaux Democrates"
 
 CAF_2nd_Cayenne_Agreement:0 "Le 2nd Accord de Cayenne"
- CAF_2nd_Cayenne_Agreement_desc:9 "Le 1er accord de Cayenne signé en 1931 a été signé entre les hommes politiques Britanniques et Français au sujet du statut des territoires Français. La 2e Convention de Cayenne garantit cependant l'égalité en droits et en autonomie des colonies Françaises et Britanniques. Elle est beaucoup moins controversée et, en outre, elle protège mieux les droits civils fondamentaux de chacun."
+ CAF_2nd_Cayenne_Agreement_desc:0 "Le 1er accord de Cayenne signé en 1931 a été signé entre les hommes politiques Britanniques et Français au sujet du statut des territoires Français. La 2e Convention de Cayenne garantit cependant l'égalité en droits et en autonomie des colonies Françaises et Britanniques. Elle est beaucoup moins controversée et, en outre, elle protège mieux les droits civils fondamentaux de chacun."
 
 CAF_2nd_Cayenne_Agreement2:0 "Le projet de loi Sangster"
 CAF_2nd_Cayenne_Agreement2_desc:0 "Une série de résolutions sociales libérales qui vont sûrement stimuler l'économie des Antilles."
@@ -251,7 +251,7 @@ UK_loyaloob_tt:0 "Dix-neuf divisions seront levées dans tout le pays."
 west_indies_stable_time:0 "Le soutien politique de gauche va fortement diminuer et les accords avec les îles Françaises seront supprimés."
 CAF_revolution_internationale:0 "§RL'Internationale entrera en guerre. Nous ne sommes peut-être pas prêts à les combattre.§!\n"
 CAF_event_islands_kept:0 "§YNous offrirons une paix qui assure le maintien de notre contrôle sur les Bermudes et les Bahamas.§!\n"
- CAF_nomorerevolt:9 "§CLes tensions ne peuvent plus conduire à des coups d'État socialistes et impériaux spontanés, même si elles peuvent encore créer des malus.§!\n"
+ CAF_nomorerevolt:0 "§CLes tensions ne peuvent plus conduire à des coups d'État socialistes et impériaux spontanés, même si elles peuvent encore créer des malus.§!\n"
 
 ## Party Victories ##
 CAF_unity_party_victory_flag:0 "Le Parti de l'Union a remporté les élections de 1937."
@@ -411,30 +411,30 @@ CAF_add_15_caf_legitimus_support:0 "§RLegitimus§! obtient plus d'influence au 
 CAF_add_15_caf_lemery_support:0 "§HLémery§! obtient plus d'influence au sein du PA\n Le plus tôt sera le mieux. Lémery contrôle Kingston.\n"
 
 ### Social Turmoil ###
- CAF_angereffects_modifier:9 "£pol_idea Turbulences sociales"
- CAF_angereffect_idea:9 "Turbulences Sociales\n§W--------------§!\n§gBien que politiquement unie, la [ROOT.GetName] est socialement divisée. Loyalistes et socialistes se disputent la domination de la vie publique tandis que l'identité locale se développe lentement parmi les nombreuses îles culturellement diverses de la nation.\n\n[CAF_coupornotloc]§YMises à Jour Dynamiques :§!\n§W--------------\nTension courante avec les §! §YSocialistes§!§W:§! [CAF_socornot]\n§WTension courante avec l'§!§YEmpire§!§W:§! [CAF_britornot]\n\n§WStabilité :§! §+[?CAF.var_wif_stability|=%+]§!\n§WSoutien à la Guerre :§! §+[?CAF.var_wif_war_support|=%+]§!\n§WGain de Pouvoir Politique :§! §+[?CAF.var_wif_pol_power|=%+]§!"
- CAF_angereffect_idea_desc:9 "Notes sur le calcul :\n- Les effets de base sont calculés de manière linéaire. Cinq points de stabilité ou cinq pour cent de gain de pouvoir politique sont soustraits pour chaque niveau de colère socialiste ou impérial légèrement supérieur respectivement.\n- Pour des niveaux de colère moyens ou plus élevés, le soutien de guerre est déduit sur la même échelle.\n-  Sous un gouvernement socialiste ou impérial, alors que les malus de la faction au pouvoir sont évidemment niées, les malus de l'autre faction sont intensifiées. Cela n'affecte pas le seuil à partir duquel un coup d'État peut avoir lieu."
+ CAF_angereffects_modifier:0 "£pol_idea Turbulences sociales"
+ CAF_angereffect_idea:0 "Turbulences Sociales\n§W--------------§!\n§gBien que politiquement unie, la [ROOT.GetName] est socialement divisée. Loyalistes et socialistes se disputent la domination de la vie publique tandis que l'identité locale se développe lentement parmi les nombreuses îles culturellement diverses de la nation.\n\n[CAF_coupornotloc]§YMises à Jour Dynamiques :§!\n§W--------------\nTension courante avec les §! §YSocialistes§!§W:§! [CAF_socornot]\n§WTension courante avec l'§!§YEmpire§!§W:§! [CAF_britornot]\n\n§WStabilité :§! §+[?CAF.var_wif_stability|=%+]§!\n§WSoutien à la Guerre :§! §+[?CAF.var_wif_war_support|=%+]§!\n§WGain de Pouvoir Politique :§! §+[?CAF.var_wif_pol_power|=%+]§!"
+ CAF_angereffect_idea_desc:0 "Notes sur le calcul :\n- Les effets de base sont calculés de manière linéaire. Cinq points de stabilité ou cinq pour cent de gain de pouvoir politique sont soustraits pour chaque niveau de colère socialiste ou impérial légèrement supérieur respectivement.\n- Pour des niveaux de colère moyens ou plus élevés, le soutien de guerre est déduit sur la même échelle.\n-  Sous un gouvernement socialiste ou impérial, alors que les malus de la faction au pouvoir sont évidemment niées, les malus de l'autre faction sont intensifiées. Cela n'affecte pas le seuil à partir duquel un coup d'État peut avoir lieu."
 
- CAF_socialistangerloc_very_low:9 "§CTrès Bas§!"
- CAF_socialistangerloc_low:9 "§GBas§!"
- CAF_socialistangerloc_medium:9 "§YMoyen§!"
- CAF_socialistangerloc_high:9 "§OHaut§!"
- CAF_socialistangerloc_very_high:9 "§RTrès Haut§!"
+ CAF_socialistangerloc_very_low:0 "§CTrès Bas§!"
+ CAF_socialistangerloc_low:0 "§GBas§!"
+ CAF_socialistangerloc_medium:0 "§YMoyen§!"
+ CAF_socialistangerloc_high:0 "§OHaut§!"
+ CAF_socialistangerloc_very_high:0 "§RTrès Haut§!"
 
- CAF_britishangerloc_very_low:9 "§CTrès Bas§!"
- CAF_britishangerloc_low:9 "§GBas§!"
- CAF_britishangerloc_medium:9 "§YMoyen§!"
- CAF_britishangerloc_high:9 "§OHaut§!"
- CAF_britishangerloc_very_high:9 "§RTrès Haut§!"
+ CAF_britishangerloc_very_low:0 "§CTrès Bas§!"
+ CAF_britishangerloc_low:0 "§GBas§!"
+ CAF_britishangerloc_medium:0 "§YMoyen§!"
+ CAF_britishangerloc_high:0 "§OHaut§!"
+ CAF_britishangerloc_very_high:0 "§RTrès Haut§!"
 
- CAF_coupornotloc_yes:9 "Si la tesntion d'un groupe atteint §!§RTrès Haut§!§g, un §!§Rcoup d'État§! §gpeut être lancé.§!\n\n"
- CAF_coupornotloc_no:9 ""
+ CAF_coupornotloc_yes:0 "Si la tesntion d'un groupe atteint §!§RTrès Haut§!§g, un §!§Rcoup d'État§! §gpeut être lancé.§!\n\n"
+ CAF_coupornotloc_no:0 ""
 
- CAF_socornot_yes:9 "§WN/A§!"
- CAF_socornot_no:9 "[CAF_socialistangerloc]"
+ CAF_socornot_yes:0 "§WN/A§!"
+ CAF_socornot_no:0 "[CAF_socialistangerloc]"
 
- CAF_britornot_yes:9 "§WN/A§!"
- CAF_britornot_no:9 "[CAF_britishangerloc]"
+ CAF_britornot_yes:0 "§WN/A§!"
+ CAF_britornot_no:0 "[CAF_britishangerloc]"
 
 ## Random ##
 CAF_get_to_work_tooltip:0 "§RLa Commission Moyne publiera son rapport dans un an. Si nous ne considérons pas leurs suggestions et que nous ne les appliquons pas d'ici là, le Parti pour §l'Unité peut faire face à de dures conséquences, ainsi qu'à des changements dans le mouvement de grève !"
@@ -600,7 +600,7 @@ CAF_permanent_junta_2:0 "Règne permanent du Gouverneur-Général"
 CAF_permanent_junta_2_desc:0 "Face à l'instabilité née des élections dans la Fédération, Sir Fiennes a annoncé qu'il continuerait à gouverner sans revenir à la démocratie, de peur qu'elle ne menace à nouveau de détruire le pays."
 
 CAF_tension_category:0 "La saison des grèves"
- CAF_tension_category_desc:9 "Avec une tendance aux grèves et un pic très alarmant de la sympathie française pour la métropole, nous sommes en train d'apaiser la gauche et la droite de notre pays à une échelle très effrayante, ce qui fait que beaucoup parlent cette fois de la \"saison des grèves\" de notre pays. Si jamais nous commençons à aller trop loin dans notre sympathie avec ces anarchistes, le gouverneur général pourrait intervenir. En revanche, si nous les réprimons trop, nous risquons de provoquer une véritable révolution. Nous devrons être prudents dans nos actions à l'avenir tout en gardant cela à l'esprit."
+ CAF_tension_category_desc:0 "Avec une tendance aux grèves et un pic très alarmant de la sympathie française pour la métropole, nous sommes en train d'apaiser la gauche et la droite de notre pays à une échelle très effrayante, ce qui fait que beaucoup parlent cette fois de la \"saison des grèves\" de notre pays. Si jamais nous commençons à aller trop loin dans notre sympathie avec ces anarchistes, le gouverneur général pourrait intervenir. En revanche, si nous les réprimons trop, nous risquons de provoquer une véritable révolution. Nous devrons être prudents dans nos actions à l'avenir tout en gardant cela à l'esprit."
 
 CAF_combat_tax_evasion:0 "Augmenter les charges fiscales des plantation"
 CAF_combat_tax_evasion_desc:0 "Pendant longtemps, la nature même de notre jeune gouvernement a permis aux plantations de falsifier continuellement leurs profits, et donc le montant qu'elles devaient payer. Bien qu'elles nous rapportent encore des revenus sous forme d'exportations, il s'agit là d'une violation flagrante de l'État de droit, et les journaux socialistes n'ont jamais manqués une occasion d'en parler. Nous ferions mieux d'accroître notre surveillance des finances des plantations pour renforcer la confiance dans le gouvernement."
@@ -617,7 +617,7 @@ CAF_allow_yellow_unions_desc:0 "Bien que les syndicats soient toxiques pour l'é
 
 ### Events ###
 wifpol.1.t:0 "Présentation de la Fédération des Antilles"
- wifpol.1.d:9 "La Fédération des Antilles a connu une histoire troublée depuis sa création, avec ce qui était au départ une division entre les Anglais qui voulaient et ne voulaient pas incorporer les colonies françaises, évoluant vers une scission complète entre la culture française et britannique. La victoire du NCP (National Consolidation Party) aux élections de 1925 a entraîné l'incorporation des colonies françaises, mais avec de profondes racines socialistes en elles, cela a immédiatement tourné au chaos.\n\nCela s'est terminé par la victoire de l'UP (Parti de l'Unité) et la signature de l'accord de Cayenne en 1931. Celui-ci établit la possibilité pour les Français de créer leurs propres partis et leur accorde une plus grande autonomie que les colonies britanniques. Si cette démarche a bien tourné au début, elle semble n'avoir fait qu'accroître les tensions à long terme, la droite modérée exigeant l'abrogation de l'ensemble de l'accord et son remplacement par un nouvel accord, tandis que la gauche veut accroître encore l'autonomie des Français ou de tous les territoires de la Fédération.\n\nUn nouveau parti, le PA (Parti pour l'Autonomie), un immense maillage de socialistes et de libéraux français ainsi qu'un petit nombre de politiciens britanniques de gauche destinés à représenter la gauche, a été créé en 1933. En partie en réponse à cela, le NCP n'a cessé de gagner en puissance et en popularité, car une grande partie de la population britannique a le sentiment d'avoir été malmenée par l'accord de Cayenne. Après avoir échappé de justesse aux élections de 1933, le Parti de l'Unité se trouve dans une position dangereuse."
+ wifpol.1.d:0 "La Fédération des Antilles a connu une histoire troublée depuis sa création, avec ce qui était au départ une division entre les Anglais qui voulaient et ne voulaient pas incorporer les colonies françaises, évoluant vers une scission complète entre la culture française et britannique. La victoire du NCP (National Consolidation Party) aux élections de 1925 a entraîné l'incorporation des colonies françaises, mais avec de profondes racines socialistes en elles, cela a immédiatement tourné au chaos.\n\nCela s'est terminé par la victoire de l'UP (Parti de l'Unité) et la signature de l'accord de Cayenne en 1931. Celui-ci établit la possibilité pour les Français de créer leurs propres partis et leur accorde une plus grande autonomie que les colonies britanniques. Si cette démarche a bien tourné au début, elle semble n'avoir fait qu'accroître les tensions à long terme, la droite modérée exigeant l'abrogation de l'ensemble de l'accord et son remplacement par un nouvel accord, tandis que la gauche veut accroître encore l'autonomie des Français ou de tous les territoires de la Fédération.\n\nUn nouveau parti, le PA (Parti pour l'Autonomie), un immense maillage de socialistes et de libéraux français ainsi qu'un petit nombre de politiciens britanniques de gauche destinés à représenter la gauche, a été créé en 1933. En partie en réponse à cela, le NCP n'a cessé de gagner en puissance et en popularité, car une grande partie de la population britannique a le sentiment d'avoir été malmenée par l'accord de Cayenne. Après avoir échappé de justesse aux élections de 1933, le Parti de l'Unité se trouve dans une position dangereuse."
 wifpol.1.a:0 "Le fossé doit être comblé."
 
 wifpol.2.t:0 "Grèves paysannes en Guadeloupe"
@@ -671,7 +671,7 @@ wifpol.14.d:0 "Les Bermudes et les Bahamas ont toujours été nettement plus sta
 wifpol.14.a:0 "Un peu de calme au milieu de la tempête."
 
 wifpol.15.t:0 "La Commission retourne au Canada"
- wifpol.15.d:9 "La Commission est officiellement revenue au Canada aujourd'hui, après avoir vu tout ce qu'elle voulait voir. Nous avons récupéré une grande variété de suggestions de la multitude de personnes interrogée, mais elle peut se résumer comme suit:\n1. La nécessité de faire passer les femmes des usines aux foyers, afin de garantir des emplois aux hommes pour qu'ils puissent gagner leur vie et faire vivre leurs familles.\n2. Effectuer des contrôles dans les nombreuses plantations, en veillant à ce que les normes sanitaires soient respectées, tout en veillant à ce que les gens puissent y travailler sans cruauté. \n3. Contribuer à la construction d'un système d'éducation dans les Antilles, afin d'assurer la lente progression de l'autosuffisance à mesure que les gens s'instruisent, avec pour objectif final de supprimer le système de plantation en faveur d'une économie moderne.\n4. Comme suggestion plus personnelle de Walter Citrine, il veut voir les syndicats des Antilles naître lentement pour forger ensemble les prémices d'un nouveau mode de vie pour la région sous la forme de syndicats non sociaux.\n5. Comme dernière suggestion qui repose davantage sur eux, ils demanderont au gouvernement canadien de financer les heures supplémentaires pour aider au développement des Antilles, bien qu'on ignore si le gouvernement canadien acceptera une telle proposition. Pour l'instant, tout ce que nous pouvons faire, c'est d'essayer de mettre en œuvre certaines de leurs suggestions avant que le rapport ne soit officiellement publié, afin d'éviter autant que possible les réactions négatives."
+ wifpol.15.d:0 "La Commission est officiellement revenue au Canada aujourd'hui, après avoir vu tout ce qu'elle voulait voir. Nous avons récupéré une grande variété de suggestions de la multitude de personnes interrogée, mais elle peut se résumer comme suit:\n1. La nécessité de faire passer les femmes des usines aux foyers, afin de garantir des emplois aux hommes pour qu'ils puissent gagner leur vie et faire vivre leurs familles.\n2. Effectuer des contrôles dans les nombreuses plantations, en veillant à ce que les normes sanitaires soient respectées, tout en veillant à ce que les gens puissent y travailler sans cruauté. \n3. Contribuer à la construction d'un système d'éducation dans les Antilles, afin d'assurer la lente progression de l'autosuffisance à mesure que les gens s'instruisent, avec pour objectif final de supprimer le système de plantation en faveur d'une économie moderne.\n4. Comme suggestion plus personnelle de Walter Citrine, il veut voir les syndicats des Antilles naître lentement pour forger ensemble les prémices d'un nouveau mode de vie pour la région sous la forme de syndicats non sociaux.\n5. Comme dernière suggestion qui repose davantage sur eux, ils demanderont au gouvernement canadien de financer les heures supplémentaires pour aider au développement des Antilles, bien qu'on ignore si le gouvernement canadien acceptera une telle proposition. Pour l'instant, tout ce que nous pouvons faire, c'est d'essayer de mettre en œuvre certaines de leurs suggestions avant que le rapport ne soit officiellement publié, afin d'éviter autant que possible les réactions négatives."
 wifpol.15.a:0 "Nous ferons de notre mieux...."
 
 wifpol.16.t:0 "La Commission reviens"
@@ -1024,7 +1024,7 @@ wifpol.517.c:0 "Programme d'intégration économique"
 
 wifpol.518.t:0 "Le problème de la rue de la Montagne Pelée"
 wifpol.518.d:0 "Le 8 mai 1902, l'éruption volcanique de la montagne Pelée détruisit la ville de Saint-Pierre. Quelques instants plus tard, la quasi-totalité de ses quelque 30 000 habitants sont morts, dont le gouverneur, venu avec sa famille pour rassurer la population. Et dans notre capitale, Kingston, il y a une rue nommée : Rue de la Montagne Pelée. Dans le manifeste, ils nous est demandé de changer ce nom. C'est ridicule. Elle n'a pas été nommée pour se moquer de cette tragédie. Mais nous pouvons l'utiliser à notre avantage. Nous pouvons le changer et honorer le roi Edouard. Nous pouvons aussi rendre hommage aux victimes de cette tragédie. Et enfin nous pouvons construire un monument en leur honneur. \n\nPlus l'option est coûteuse, plus grandes sont les chances de succès. Les coûts de chaque décision (en pouvoir politique) \nA: 10pp\nB: 12pp\nC: 25pp"
- wifpol.518.a:9 "Donnez-lui le nom du roi Édouard"
+ wifpol.518.a:0 "Donnez-lui le nom du roi Édouard"
 wifpol.518.b:0 "Donnez-lui le nom des victimes de la montagne Pelée"
 wifpol.518.c:0 "Construisez un monument pour ces victimes"
 
@@ -1176,7 +1176,7 @@ wifpol.625.a:0 "La stabilité de la coalition va chuter."
 
 
 wifpol.699.t:0 "Numéros du Parlement"
- wifpol.699.d:9 "PA: §R[?CAF_pas_parl]§! \nPA: §H[?CAF_paf_parl]§! \nUP: §Y[?CAF_up_parl]§!\nNCP: §C[?CAF_ncp_parl]§!"
+ wifpol.699.d:0 "PA: §R[?CAF_pas_parl]§! \nPA: §H[?CAF_paf_parl]§! \nUP: §Y[?CAF_up_parl]§!\nNCP: §C[?CAF_ncp_parl]§!"
 wifpol.699.a:0 "K"
 
 wifpol.800.t:0 "Rejoindre l'Internationale"
@@ -1362,7 +1362,7 @@ CAF_unity_lower_french_autonomy_desc:0 "La Convention de Cayenne avait complète
 CAF_unity_increase_english_autonomy:0 "Augmenter l'autonomie des Anglais."
 CAF_unity_increase_english_autonomy_desc:0 "L'idée de ne pas mentionner l'autonomie anglaise dans la convention de Cayenne était ridicule et n'a fait qu'accroître les activités syndicalistes anglaises. Leur autonomie doit être impérativement augmentée afin de compenser son absence dans l'Accord de Cayenne."
 CAF_unity_cayenne_english_autonomy:0 "Maintenir l'autonomie anglaise fixée par l'Accord de Cayenne"
- CAF_unity_cayenne_english_autonomy_desc:9 "L'autonomie anglaise est un sujet encore plus dangereux à aborder que la française, car elle est un élément déclencheur pour les mouvements syndicalistes français et britanniques. Il vaut mieux laisser le sujet en suspens plutôt que de toucher ce nid à problèmes."
+ CAF_unity_cayenne_english_autonomy_desc:0 "L'autonomie anglaise est un sujet encore plus dangereux à aborder que la française, car elle est un élément déclencheur pour les mouvements syndicalistes français et britanniques. Il vaut mieux laisser le sujet en suspens plutôt que de toucher ce nid à problèmes."
 CAF_unity_lower_english_autonomy:0 "Baisser l'autonomie des Anglais."
 CAF_unity_lower_english_autonomy_desc:0 "Ne pas mentionner l'autonomie des Anglais dans l'accord de Cayenne était une erreur de notre part. L'autonomie des Anglais est déjà trop élevée et cela renforce les syndicalistes Français. Elle doit être abaissée pour satisfaire la population française."
 CAF_unity_crack_down_syndicalism:0 "Réprimer le syndicalisme"
