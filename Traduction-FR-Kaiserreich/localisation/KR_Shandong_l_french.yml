@@ -135,6 +135,13 @@ SQI_two_zhangs_tooltip:0 "§CCette priorité décidera du sort du Shandong et de
  SQI_leccontroladd5_tt:0 "Legation loans increase by 5."
  SQI_leccontrolsub5_tt:0 "Legation loans decrease by 5."
 
+ SQI_League_War_Attack_tt:9 "§R[ANQ.GetNameDef] might attack in the near future..."
+ SQI_mobilize_2_units_tt:9 "Take in £manpower_texticon §Y2 Militia Brigades§! defectors from the local garrison."
+
+ SQI_xuzhou_garrison:9 "Recruit From the Xuzhou Garrison"
+ SQI_xuzhou_garrison_desc:9 "Around the city of Xuzhou smaller forces would happily join our army for the right price."
+
+
 ### Decisions ###
 SQI_riot_policy_decisions:0 "Troubles civils au Shandong"
 SQI_riot_policy_decisions_desc:0 "Nous devons faire face aux nombreuses opportunités que l'instabilité politique a engendrées. Ils se cachent dans les montagnes, font des raids dans les villes et insistent sur le fait que notre gouvernance est illégitime."
@@ -176,6 +183,8 @@ SQI_war_intervention_decisions:0 "Intervenir dans les États chefs de guerre"
 SQI_war_intervention_decisions_desc:0 "Nous devons tirer parti de toute frontière non surveillée si nous voulons atteindre notre objectif ultime. Il faut passer à travers les armées idiotes qui s'opposent à nous et qui empêchent le peuple chinois d'avoir la gouvernance qu'il mérite. Nous verrons bientôt les murs de Nanjing, le port des parfums et nous mangerons des épices du Sichuan".
 SQI_intervene_LEP:0 "Intervenir dans la guerre de la Ligue"
 SQI_intervene_LEP_desc:0 "Les imbéciles en charge de Nankin ont finalement pourri jusqu'à la moelle. Si nous ne voulons pas languir éternellement dans le Shandong, nous devons lancer une attaque".
+ SQI_intervene_xuzhou:9 "Seize Xuzhou"
+ SQI_intervene_xuzhou_desc:9 "The city of Xuzhou is one of the more developed areas in Jiangsu and the surrounding area, a prize worthy of interest by itself."
 SQI_intervene_jiangsu:0 "Intervenir dans le Jiangsu"
 SQI_intervene_jiangsu_desc:0 "Le Jiangsu a grand besoin de notre aide, et son peuple souffre sous le talon du Sud. Nous devons consolider leur contrôle sur la province".
 SQI_intervene_southeast:0 "Intervenir dans la [From.GetName]"
@@ -207,7 +216,8 @@ SQI_ask_LEC_protection_desc:0 "Nous avons accumulé suffisamment de prêts aupr�
 SQI_ask_AOG_protection:0 "Demander la protection de la marine de la GEA"
 SQI_ask_AOG_protection_desc:0 "Nous avons accumulé suffisamment de prêts des banques occidentales, environ 80 prêts à grande échelle, pour assurer la pérennité de notre existence financière à la flotte allemande d'Asie de l'Est. Avec cela, Zongchang espère gagner la sympathie de Qingdao et, en fin de compte, assurer sa propre puissance".
 
-SQI_intervene_jiangsu_tt:0 "Si vous contrôlez §YHuaiyang§!, §YXuhai§! ou §YNantong§!, vous pouvez devenir directement leur propriétaire et augmenter de 2% le soutien de guerre."
+ SQI_intervene_jiangsu_tt:9 "If you control §YXuhai§!you can become their owner directly and increase war support by 2%."
+ SQI_intervene_jiangsu_tt:9 "If you control §YHuaiyang§! and §YNantong§!, you can become their owner directly and increase war support by 4%."
 SQI_intervene_southwest_tt_1:0 "Vous devez contrôler, posséder et mettre au centre les états suivants : §YQiantang, Anqing, Jinling, Yuzhang, Xuhai et Minhou§!"
 SQI_intervene_southwest_tt_2:0 "Vous devez supprimer l'esprit national suivant : §YPeasant Revolt§! (Si votre parti au pouvoir est Zongchang Clique)\n §YZongchang Revolt§! (Si votre parti au pouvoir est Yiguandao)"
 SQI_create_LSP_tt:0 "Vous devez contrôler et posséder les états suivants:\n §YShandong§! (Ji'nan, Linyi et Jiaodong)\n §YJiangsu§! (Huaiyang, Jinling, Nantong et Xuhai)\n §YJiangxi§! (Gannan, Yuzhang et Xunyang)\n §YAnhui§!  (Anqing, Wuhu et Huaisi)\n §YZhejiang§! (Qiantang, Jinhua, Kuaiji, Wenzhou et Lishui)\n §YFujian§! (Jian'an, Tingzhang, Xiamen et Minhou)"
@@ -925,6 +935,23 @@ shandong.445.a:0 "Il fait probablement partie du Maha-Kalpa"
 shandong.446.t:0 "La banque de Shanghai étend son offre de prêt à Zongchang"
 shandong.446.d:0 "Après plusieurs demandes de prêts infructueuses auprès de diverses banques de Shanghai, refusées au motif que Zongchang a un dossier de paye défaillant, un accord a finalement été donné. Presque comme si une puissance supérieure était intervenue, une lettre arrive pour Zongchang qui lui prêtera une autre grosse somme d'argent, dont certaines propriétés sont placées en collabaration, au cas où il ne rembourserait pas la banque."
 shandong.446.a:0 "Peut-être que quelqu'un s'occupe de moi ?"
+
+ shandong.447.t:9 "Border Skirmishes Between [ANQ.GetName] and [SQI.GetNameDef]"
+ shandong.447.d1:9 "Up until now, [ANQ.GetLeader]'s revolt against the Nanjing regime and our own interests in the region have avoided directly confronting each other. However, this uneasy cease-fire was never meant to hold, and now local conflicts have arisen with Yiguandao militia and Anqing forces engaging each other.\n\nWith our expedition south into the Five Provinces in direct conflict with [ANQ.GetName]'s regional interests, many close to Zhang Tianran have voiced thier opinion that the reasons we have for engaging the League also apply to [ANQ.GetName], that aside perhaps it is best we focus on Nanjing first."
+ shandong.447.d2:9 "Up until now, [ANQ.GetLeader]'s revolt against the Nanjing regime and our own interests in the region have avoided directly confronting each other. However, this uneasy cease-fire was never meant to hold, and now local conflicts have arisen with both Shandong and Anqing forces engaging each other.\n\nWith our expedition south into the Five Provinces in direct conflict with [ANQ.GetName]'s regional interests, many generals have voiced to Zhang Zongchang that [ANQ.GetNameDef] is weak and has little backing among the military. These generals have been wrong before with reports of large League units defecting to [ANQ.GetName]."
+ shandong.447.a:9 "We should strike them swiftly!"
+ shandong.447.b:9 "Peace will prevail, for now..."
+
+ shandong.448.t:9 "War between [ANQ.GetName] and [SQI.GetNameDef]"
+ shandong.448.d1:9 "Up until now, [SQI.GetLeader]'s intervention against the Nanjing regime and our own uprising have avoided directly confronting each other. However, this uneasy cease-fire was never meant to hold, and now war has officially broke out.\n\nWith the assistance of [FNG.GetNameDef], our forces could have a slight material edge against Shandong forces, provided we are able to hold the coasts."
+ shandong.448.d2:9 "Up until now, [SQI.GetLeader]'s intervention against the Nanjing regime and our own uprising have avoided directly confronting each other. However, this uneasy cease-fire was never meant to hold, and now war has officially broke out.\n\nWith the intervention of [QIE.GetNameDef] on our side of the conflict, our forces will have more breathing room in our struggle against both [LEP.GetLeaderDef] and [SQI.GetLeaderDef], though it still will be a hard fight."
+ cshandong.448.a:9 "[FNG.GetLeader] will bring order to China!"
+ shandong.448.b:9 "[QIE.GetLeader] will bring order to China!"
+
+ shandong.449.t:9 "Border Skirmishes Between [SQI.GetNameDef] and [FROM.GetNameDef]"
+ shandong.449.d:9 "The Nanjing regime hasn't been the only threat our forces have had to deal with, for the past few weeks we have been trying to ignore [FROM.GetNameDef]'s probes into our territory but [QI.GetLeader] has decided action might well be required. If we were to let this continue on with this inaction we will be viewed as weak which may bery well come back to hurt us later however, a weak display may be exactly what we want if a trap is decided as the plan of action. [SQI.GetLeader] has a choice to make, he favours..."
+ shandong.449.a:9 "...striking the [FROM.GetNameDef]'s lines immediately."
+ shandong.449.b:9 "...focusing on our current issues."
 
 ### Beijing loc - organise later ###
 SQI_imprisoned_emperor:0 "L'empereur, emprisonné"
