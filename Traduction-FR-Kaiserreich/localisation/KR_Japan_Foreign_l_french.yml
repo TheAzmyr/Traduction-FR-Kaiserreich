@@ -11,7 +11,15 @@ JAP_FNG_exploit:0 "Exploitation économique"
 japan_research_name:0 "Rikagaku Kenkyusho"
 japan_research_desc:0 "Rikagaku Kenkyusho est l'aile scientifique de la sphère de coprospérité qui vise à contribuer à l'enrichissement de nos colonies et de nos alliés".
 
-### Tooltips ###
+### Naval Tooltips ###
+ JAP_naval_investment:9 "£decision_icon_small New decisions to develop §YNaval building capacities§! of our allies will be unlocked."
+ JAP_naval_prosperity_ships:9 "\n£decision_icon_small New decisions to develop the §YNaval Transport Capacities§! of our allies will be unlocked."
+ JAP_naval_advisors:9 "£decision_icon_small New Decisions to develop the §YNaval Fighting Capacities§! of both us and our allies will be unlocked."
+ JAP_naval_seize_docks:9 "£decision_icon_small New decisions to §YSeize Dockyards§! from our allies during wartime will be unlocked."
+ JAP_invest_docks:9 "Has built dockyards in [From.GetNameDef]"
+ JAP_not_send_advisor_last_180_days:9 "Not: We have already sent advisors to [From.GetNameDef] in the last six months."
+
+### Other Tooltips ###
 JAP_gain_claim_southern_islands:0 "§Y[JAP.GetNameDefCap]§! obtient une revendication sur §HSingapour§!, §H[1020.GetName]§! et toutes les §Yîles non américaines du Pacifique§! qui ne sont pas la propriété d'un allié ou d'un membre de sa sphère économique.\n"
 can_blockade_kor:0 "Nous devrions envisager de déplacer nos flottes vers nos bases coréennes pour bloquer les rebelles".
 JAP_russia_trigger1:0 "Vous ne devez pas être la marionnette ou la faction de l'Etat russe"
@@ -24,8 +32,8 @@ HAW_resist_OOB_TOOLTIP:0 "§GNous allons mobiliser des troupes pour nous opposer
 KOR_pup_oob_tt:0 "§GNous mobiliserons de nouvelles divisions d'infanterie et de milice.§!\n"
 KOR_light_oob_tt:0 "§GNous mobiliserons de nouvelles divisions d'infanterie et de cavalerie, même si certaines seront simplement des milices glorifiées.§!\n"
 KOR_full_oob_tt:0 "§GNous allons mobiliser de nouvelles divisions d'infanterie et de cavalerie, toutes prêtes à se battre.§!\n"
-JAP_offered_peace_and_I_want:0 "§GNous accepterons les conditions de paix du Japon, bien qu'il faudra environ deux semaines pour que l'accord soit finalisé. Soyez avertis que tous ceux qui sont en guerre avec le Japon devront accepter pour que l'accord soit conclu...§!""
-JAP_offered_peace_and_I_hate_peace:0 "§RNous rejetterons les conditions de paix du Japon. Soyez avertis que cela empêchera la paix pour tous ceux qui sont en guerre avec le Japon, pas seulement pour nous...§!"
+ JAP_offered_peace_and_I_want:9 "§GWe will accept Japan's terms of peace.§!"
+ JAP_offered_peace_and_I_hate_peace:9 "§RWe will reject Japan's terms of peace, and will not participate in any peace conferences.§!"
 
 JAP_agree_reconstruction_anqing_tt:0 "Nous sommes d'accord pour aider Anqing. Ce faisant, nous engagerons d'importantes ressources politiques et économiques pour reconstruire Anqing, ce qui permettra à Anqing et à Fengtian de s'opposer plus tôt à Pékin."
 JAP_disagree_anqing_strategy_tt:0 "Nous ne sommes pas d'accord avec cela. Fengtian devra maintenant examiner différentes stratégies."
@@ -128,7 +136,7 @@ JAP_ally14_last:0 "§Y[?global.asian_economic_sphere^13.GetFlag][?global.asian_e
 JAP_ally15_last:0 "§Y[?global.asian_economic_sphere^14.GetFlag][?global.asian_economic_sphere^14.GetName]§! "
 JAP_ally_none:0 ""
 JAP_ally_no_sphere:0 "Aucun"
-JAP_not_invest_within_last_year:0 "N'a pas fait l'objet d'un investissement au cours des douze derniers mois".
+ JAP_invest_timer:9 "Has not been target of investment within the last twelve months"
 
 ### Ideas ###
  JAP_rising_sun_idea_1:0 "Gloire Impériale"
@@ -186,10 +194,8 @@ JAP_india_support:0 "Conseillers japonais"
 JAP_trade_embargoed:0 "Embargo japonais"
 
 ### Focuses - Foreign - Base ###
-JAP_rising_sun:0 "Le soleil levant"
-JAP_rising_sun_desc:0 "La politique intérieure, quoi qu'il en soit, l'Empire du Soleil Levant a une scène mondiale à dominer. Nos armées sont prêtes à répondre à l'appel de l'empereur et notre peuple est prêt à tout sacrifier si nécessaire pour notre gloire. Alors que le monde se concentre sur la guerre civile américaine, la seule question est de savoir où."
-JAP_fight_giants:0 "Hakkou Ichiu"
-JAP_fight_giants_desc:0 "La direction que doit prendre le Japon sur la scène mondiale fait depuis longtemps l'objet de débats entre spécialistes militaires et idéologues, mais tous s'accordent à dire que le monde n'est pas meilleur lorsqu'il est sous un même toit".
+ JAP_rising_sun:9 "Hakkou Ichiu"
+ JAP_rising_sun_desc:9 "Japan's correct direction on the world stage has long been debated between military scholars and ideologues alike but all agree, is all the world not better when it is under one roof?"
 
 ### Focuses - Nanshin-ron ###
 JAP_go_south:0 "Nanshin-ron"
@@ -276,11 +282,20 @@ JAP_invest_in_sphere_member2:0 "Promouvoir l'investissement dans [From.GetNameDe
 JAP_invest_in_sphere_member2_desc:0 "Nous devrions commencer à investir dans [From.GetNameDef], ce qui non seulement nous donnera un accès plus facile à leur commerce mais nous permettra également de construire une présence japonaise dans le pays et, éventuellement, de la reprendre de l'intérieur."
 JAP_invest_in_sphere_member3:0 "Promouvoir l'investissement dans [From.GetNameDef]"
 JAP_invest_in_sphere_member3_desc:0 "Nous devrions commencer à investir dans [From.GetNameDef], ce qui non seulement nous donnera un accès plus facile à leur commerce mais nous permettra également de construire une présence japonaise dans le pays et, éventuellement, de la reprendre de l'intérieur."
+ JAP_invest_in_sphere_member_docks:9 "Promote Naval Investment in [From.GetNameDef]"
+ JAP_invest_in_sphere_member_docks_desc:9 "We should begin investment in [From.GetNameDef], which will not only give us easier access to their trade but will allow us to build a Japanese presence in the country and, eventually, take it over from the inside."
+ JAP_invest_in_sphere_naval_advisors:9 "Send naval advisors to [From.GetNameDef]"
+ JAP_invest_in_sphere_naval_advisors_desc:9 "We should send advisors to [From.GetNameDef], which will help with development of their naval base."
+ JAP_invest_in_sphere_prosperity_ships:9 "Share prosperity ship plans with [From.GetNameDef]"
+ JAP_invest_in_sphere_prosperity_ships_desc:9 "We should send "Prosperity" ship engineers to [From.GetNameDef], which will help with development of their naval transport base."
+ JAP_invest_in_sphere_take_dockyards:9 "Take over [From.GetNameDef] dockyards"
+ JAP_invest_in_sphere_take_dockyards_desc:9 "Our home production isn't able to cover needs of our navy, luckily we build dockyards all around our sphere according to our producing standarts, not it is time to use them."
 JAP_economic_sphere_takeover:0 "Prendre le relais [From.GetNameDef]" 
 JAP_economic_sphere_takeover_desc:0 "Notre pénétration économique de [From.GetNameDef] s'est développée au point que [Root.GetNameDef] les domine entièrement. Le gouvernement [From.GetAdjective] est déjà soumis à nos souhaits... il ne reste plus qu'à se débarrasser de la fiction polie de leur indépendance".
 JAP_co_prosperity_member_decisions:0 "La sphère de coprospérité japonaise"
 JAP_co_prosperity_member_decisions_desc:0 "La sphère de coprospérité est composée d'une partie d'alliance militaire et d'une partie de coopération économique - bien que ces deux aspects soient dominés par [JAP.GetNameDef], qui domine l'Asie de l'Est. Les Japonais sont déterminés à lutter contre l'empiètement de l'impérialisme occidental, même si - dans une certaine mesure - cela signifie qu'ils deviennent eux-mêmes impérialistes".
  JAP_join_rikagaku_kenkyusho:0 "Rejoindre le groupe de recherche Riken"
+ JAP_request_nav_advisors:9 "Request Naval Advisors"
 JAP_withdraw_from_alliance:0 "Se retirer de l'alliance militaire"
 JAP_withdraw_from_alliance_desc:0 "Nous n'avons plus besoin de notre alliance militaire avec [JAP.GetNameDef]. Mettons-y fin maintenant".
 JAP_withdraw_from_sphere:0 "Se retirer de la sphère économique"
@@ -345,8 +360,7 @@ harbin_chemical_research:0 " Recherche chimique de Harbin"
 changchun_industry_investment:0 "La région industrielle de Jilin"
 
 ### Military ###
- JAP_ichigo_mission:0 "Opération Ichi-gou"
-JAP_ichigo_mission_desc:0 "Le temps est venu de mener une campagne qui fera ou défera l'effort de guerre ; une série de batailles décisives soutenues par la pleine puissance de l'armée impériale japonaise. Il ne peut plus y avoir de demi-mesures. Tennou Heika Banzai !"
+ JAP_ichigo_tooltip:9 "Gains National Spirit §H$JAP_ichigo$§!, which grants\n   Attack bonus against §Hall Chinese countries§!: [?0.3|+=%1]\n   Defence bonus against §Hall Chinese countries§!: [?0.1|+=%1]"
 
 ### Events ###
 japfor.1.t:0 "Mantetsu déclare des gains records"
@@ -894,7 +908,6 @@ japfor.231.b:0 "Foutaises, nous poussons à la victoire totale !"
 
 japfor.232.t:0 "Nos conditions sont respectées"
 japfor.232.d:0 "Heureusement, nos conditions ont été acceptées. Bien que nous ayons perdu beaucoup, ce n'est pas encore la fin pour nous. Louez l'Empereur, même en ces temps sombres."
-japfor.232.nopeace:0 "Nos conditions ont été rejetées, ce sera une guerre totale jusqu'à la fin. Espérons que nous nous sommes trompés en proposant des conditions et que c'est pour le mieux".
 japfor.232.a:0 "Enfin la paix."
 japfor.232.b:0 "La guerre doit continuer."
 
@@ -909,6 +922,10 @@ japfor.234.a:0 "Ce sera encore la même chose, j'en suis sûr..."
 japfor.235.t:0 "Le Japon a capitulé !"
 japfor.235.d:0 "Sous l'assaut de toutes les parties, [JAP.GetNameDef] a signé un traité de paix après une conférence de deux semaines à [GetDalianName], préservant les îles de l'invasion... mais aussi jetant [Root.GetNameDef] aux vents. L'alliance japonaise s'est effondrée, et nous devons maintenant nous battre contre nous-mêmes."
 japfor.235.a:0 "Je pensais qu'ils étaient plus forts que ça..."
+
+ japfor.237.t:9 "The Imperial Japanese Navy Seizes the Moment"
+ japfor.237.d:9 "Due to the army's capitulation on the mainland, the IJN has been quick to assert its greatly increased relevance to the defense of the Home Islands. Army generals and their associates in the War Ministry have raised quite a fuss, but few disagree that the navy must stand guard as Japan rebuilds. It seems certain that they will receive a greater share of Japan's national resources than they might have previously."
+ japfor.237.a:9 "The navy must become an impenetrable shield!"
 
 # Involving Anqing #
 
@@ -1031,6 +1048,42 @@ japfor.412.t:0 "Se retirer de la sphère japonaise"
 japfor.412.d:0 "Avec notre adhésion à [Root.GetFactionName], nous ne pouvons plus être considérés comme faisant partie de la sphère économique du Japon."
 japfor.412.a:0 "Qu'il en soit ainsi !"
 
+ japfor.420.t:9 "Investors Build Dockyards"
+ japfor.420.d:9 "The Japanese investors in [Root.GetNameDef] have been busy creating new dockyards - a measurable benefit from our participation in the Asian Co-Prosperity Sphere it seems."
+ japfor.420.a:9 "Very nice!"
+
+ japfor.421.t:9 "Japan Sends Naval Advisors"
+ japfor.421.d:9 "As part of naval development program sponsored by Japanese Empire, group of Advisors came from Japan to aid us with our naval program. They are highly knowledgable in many aspects, so it is up to use to direct them to where would be most useful."
+ japfor.421.a:9 "Direct them to assist our engineers."
+ japfor.421.b:9 "We could use the help of their tactical expertise."
+ japfor.421.c:9 "Some practical experience from training exercises would be best."
+
+ japfor.422.t:9 "First Prosperity Ships"
+ japfor.422.d:9 "The Japanese engineers which came to [Root.GetNameDef] have been busy teaching our dockyard workers how to build modern Japanese cargo ships, so called "Prosperity ships" - a measurable benefit from our participation in the Asian Co-Prosperity Sphere it seems."
+ japfor.422.a:9 "Great news!"
+
+ japfor.423.t:9 "Japan Wants Control of our Dockyards"
+ japfor.423.d:9 "The Japanese army and naval official this morning officially demanded control of all dockyards built by their companies in our country. They are reasoning that during these hard wartimes, naval production must be unified under their command."
+ japfor.423.a:9 "Very well."
+ japfor.423.a:9 "Who do they think they are?"
+
+ japfor.424.t:9 "Japan Returns Dockyards to Us"
+ japfor.424.d:9 "As our common threat is no more there is no legal reason for Japan to have control over our dockyards any more and as such they have returned them to us."
+ japfor.424.a:9 "A surprise to be sure, but a welcome one."
+
+ japfor.425.t:9 "[From.GetNameDefCap] Asks for Naval Advisors"
+ japfor.425.d:9 "This morning we received request from [From.GetNameDef] to send small number of our advisors to help in their naval development."
+ japfor.425.a:9 "A worthy request."
+ japfor.425.b:9 "Oh, I don't think so."
+
+ japfor.426.t:9 "Japan Denies Our Request"
+ japfor.426.d:9 "Sadly Japan has denied our request to send us naval advisors."
+ japfor.426.a:9 "A shame."
+
+ japfor.427.t:9 "[From.GetNameDefCap] Denies Control of Dockyards"
+ japfor.427.d:9 "In a truly audacious move, we have been denied control of the very dockyards we worked to create. While it would be diplomatically ill-advised to react straight away, we will not forget this betrayal. They will regret this."
+ japfor.427.a:9 "So much for being allies."
+
 japfor.450.t:0 "Embargos sur le Japon [Root.GetNameDef] !"
 japfor.450.d:0 "Pendant des mois, nous nous sommes inquiétés de l'ampleur des ambitions japonaises et de leurs actions agressives dans le Pacifique Sud, et nous avons maintenant des raisons de l'être. Ils ont déclaré leur intention de diriger leur sphère d'influence pour mettre immédiatement fin au commerce avec [Root.GetNameDef], nous qualifiant d'"avant-poste du colonialisme et de l'impérialisme européens en Asie". Il ne faut pas sous-estimer la pression que cela pourrait faire peser sur notre économie..."
 japfor.450.a:0 "Nous pouvons endurer cela."
@@ -1102,7 +1155,7 @@ japfor.465.d:0 "Il est désormais de notoriété publique que nos ennemis sont b
 japfor.465.a:0 "Il faut avoir le temps de le retourner..."
 
 japfor.466.t:0 "Nous avons une force écrasante"
-japfor.466.d:0 "Il est devenu de plus en plus évident pour nous et pour le Japon que nos forces sont bien plus nombreuses que les leurs. Alors que la nouvelle de cette situation se répand dans le grand public japonais, l'agitation augmente et le soutien à leur gouvernement diminue. Si nous conservons cet avantage, ils capituleront plus tôt que nous ne l'espérions."
+ japfor.466.d:9 "Il est devenu de plus en plus évident pour nous et pour le Japon que nos forces sont bien plus nombreuses que les leurs. Alors que la nouvelle de cette situation se répand dans le grand public japonais, l'agitation augmente et le soutien à leur gouvernement diminue. Si nous conservons cet avantage, ils capituleront plus tôt que nous ne l'espérions."
 japfor.466.a:0 "Quelle excellente nouvelle !"
 
 ### Fengtian Events ###
@@ -1119,3 +1172,34 @@ japfeng.3.d:0 "Le temps est venu de décider : où se situent nos intentions par
 japfeng.3.a:0 "...le détruire."
 japfeng.3.b:0 "...l'amadouer."
 japfeng.3.c:0 "...l'attendre."
+
+ JAP_treaty_totalist:9 "Japanese Treaty Territories"
+ JAP_treaty_totalist_ADJ:9 "Japanese"
+ JAP_treaty_totalist_DEF:9 "the Japanese Treaty Territories"
+ JAP_treaty_radical_socialist:9 "Japanese Treaty Territories"
+ JAP_treaty_radical_socialist_ADJ:9 "Japanese"
+ JAP_treaty_radical_socialist_DEF:9 "the Japanese Treaty Territories"
+ JAP_treaty_syndicalist:9 "Japanese Treaty Territories"
+ JAP_treaty_syndicalist_ADJ:9 "Japanese"
+ JAP_treaty_syndicalist_DEF:9 "the Japanese Treaty Territories"
+ JAP_treaty_social_democrat:9 "Japanese Treaty Territories"
+ JAP_treaty_social_democrat_ADJ:9 "Japanese"
+ JAP_treaty_social_democrat_DEF:9 "the Japanese Treaty Territories"
+ JAP_treaty_social_liberal:9 "Japanese Treaty Territories"
+ JAP_treaty_social_liberal_ADJ:9 "Japanese"
+ JAP_treaty_social_liberal_DEF:9 "the Japanese Treaty Territories"
+ JAP_treaty_market_liberal:9 "Japanese Treaty Territories"
+ JAP_treaty_market_liberal_ADJ:9 "Japanese"
+ JAP_treaty_market_liberal_DEF:9 "the Japanese Treaty Territories"
+ JAP_treaty_social_conservative:9 "Japanese Treaty Territories"
+ JAP_treaty_social_conservative_ADJ:9 "Japanese"
+ JAP_treaty_social_conservative_DEF:9 "the Japanese Treaty Territories"
+ JAP_treaty_authoritarian_democrat:9 "Japanese Treaty Territories"
+ JAP_treaty_authoritarian_democrat_ADJ:9 "Japanese"
+ JAP_treaty_authoritarian_democrat_DEF:9 "the Japanese Treaty Territories"
+ JAP_treaty_paternal_autocrat:9 "Japanese Treaty Territories"
+ JAP_treaty_paternal_autocrat_ADJ:9 "Japanese"
+ JAP_remnant_paternal_autocrat_DEF:9 "the Japanese Treaty Territories"
+ JAP_remnant_national_populist:9 "Japanese Treaty Territories"
+ JAP_remnant_national_populist_ADJ:9 "Japanese"
+ JAP_remnant_national_populist_DEF:9 "the Japanese Treaty Territories"

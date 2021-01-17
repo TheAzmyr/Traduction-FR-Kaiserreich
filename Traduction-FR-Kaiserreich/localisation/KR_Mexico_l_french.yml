@@ -70,11 +70,7 @@ MEX_corportism_idea:0 "Corporatisme d'État"
 MEX_goldshirts_idea:0 "Acción Revolucionaria Mexicanista"
 MEX_synarchismo_idea:0 "Promotion du Sinarquismo"
 
-
-
 ### Tooltips ###
-MEX_reconquista_tooltip:0 "§GNous revendiquerons les Territoires Perdus !§!"
-MEX_yucatan_war_tooltip:0 "Le Yucatan s'est soulevé"
 200_infantry_equipment_1:0 "£rifle_texticon §H200§!"
 200_infantry_equipment_1_blocked:0 "£rifle_texticon §R200§!"
 200_infantry_equipment_1_tooltip:0 "Nous aurons besoin d'assez d'armes avant de pouvoir les envoyer"
@@ -115,20 +111,15 @@ MEX_junta_goldshirt_alliance:0 "Nous avons formé une alliance avec les Chemises
 ### Decisions ###
 MEX_central_american_intervention:0 "Intervention en Amérique Centrale"
 MEX_central_american_intervention_desc:0 "Le Mexique a un certain nombre d'intérêts en Amérique Centrale. Nous devrions donc nous concentrer sur les interventions dans la région dans l'intérêt du Mexique."
+
 MEX_retake_yucatan_mission:0 "Reprendre le Yucatan"
 MEX_retake_yucatan_mission_desc:0 "Les rebelles et les traîtres ont pris le contrôle du Yucatan, ils doivent être détruits."
-MEX_support_nicaragua:0 "Ravitailler nos alliés Nicaraguayens"
-MEX_support_guatemalan_socialists:0 "Soutenir les socialistes Guatémaltèques"
-MEX_support_honduran_socialists:0 "Soutenir les socialistes Honduriens"
-MEX_support_salvadoran_socialists:0 "Soutenir les socialistes Salvadoriens"
-MEX_fight_reactionary_central_america:0 "Apporter la révolution en Amérique Centrale"
-MEX_claim_central_america:0 "Revendiquer l'Amérique Centrale pour le Mexique"
-MEX_fight_guatemala:0 "Combattre le Guatemala"
-MEX_fight_el_salvador:0 "Combattre le Salvador"
-MEX_fight_honduras:0 "Combattre le Honduras"
-MEX_fight_nicaragua:0 "Combattre le Nicaragua"
-MEX_fight_costa_rica:0 "Combattre le Costa Rica"
-MEX_fight_central_america:0 "Combattre l'Amérique Centrale"
+
+ MEX_support_socialists:9 "Supply our [From.GetAdjective] allies"
+ MEX_fight_reactionary_central_america:9 "Apporter la révolution en Amérique Centrale"
+
+ MEX_claim_central_america:9 "Claim Central America"
+ MEX_fight_central_america:9 "Attack [From.GetNameDef]"
 
 MEX_american_civil_war_intervention_decisions:0 "Intervenir dans la Seconde Guerre de Sécession"
 MEX_american_civil_war_intervention_decisions_descion:0 "La guerre fait rage dans notre territoire Nord et nous devrions intervenir et soutenir l'Amérique qui protégera les intérêts du Mexique."
@@ -142,10 +133,7 @@ MEX_reconquista_decisons:0 "Reconquista Mexicaine"
 MEX_reconquista_decisons_descions:0 "Le Mexique doit récupérer les territoires perdus qui lui ont été volés par les gringos en 1848."
 MEX_reclaim_lost_territories_decisions:0 "Récupérer les Territoires Perdus"
 MEX_reclaim_lost_territories_decisions_desc:0 "Avant d'entrer en guerre contre les Gringos malhonnêtes du Nord, nous devons faire valoir au monde que les Territoires perdus sont mexicains et appartiennent au Mexique."
-MEX_reconquistia_usa:0 "Récupérer nos territoires des États-Unis"
-MEX_reconquistia_psa:0 "Récupérer nos territoires des États Pacifiques"
-MEX_reconquistia_csa:0 "Récupérer nos territoires de Combined Syndicates"
-MEX_reconquistia_aus:0 "Récupérer nos territoires de l'État Unioniste"
+ MEX_reconquista_decision:9 "Reclaim our territories from [FROM.GetNameDef]"
 
 MEX_join_international:0 "Rejoindre l'Internationale"
 MEX_join_international_desc:0 "Nous devrions rejoindre l'Internationale et prendre notre place dans la lutte mondiale pour le socialisme."
@@ -160,26 +148,14 @@ MEX_economic_decisions_desc:0 ""
 MEX_nationalize_oil:0 "Nationaliser l'Industrie Pétrolière"
 MEX_nationalize_oil_desc:0 "Nous devrions nationaliser notre pétrole, ce qui nous permettrait de contrôler l'industrie pétrolière et d'utiliser ces profits pour le bien du Mexique et de ses citoyens."
 
+ MEX_restore_order:9 "Restore Order to [From.GetName]"
+
 MEX_cristero_war:0 "Guerre des Cristero"
 MEX_cristero_war_desc:0 "Les rebelles catholiques mènent une guerre contre le gouvernement et notre volonté d'appliquer nos lois. Il faut les abattre le plus rapidement possible afin d'apporter paix et prospérité au Mexique.\n\nForce des §RCristero§! : §Y[?MEX.MEX_cristero_power]§!"
-MEX_restore_order_oaxaca:0 "Rétablir l'ordre en Oaxaca"
-MEX_restore_order_veracruz:0 "Rétablir l'ordre à Veracruz"
-MEX_restore_order_mexico:0 "Rétablir l'ordre à Mexico"
-MEX_restore_order_guerrero:0 "Rétablir l'ordre en Guerrero"
-MEX_restore_order_jalisco:0 "Rétablir l'ordre en Jalisco"
-MEX_restore_order_tamaulipas:0 "Rétablir l'ordre au Tamaulipas"
-MEX_restore_order_durango:0 "Rétablir l'ordre en Durango"
 MEX_cristero_raid_mission:0 "Raid des Cristero"
 
 MEX_campesinos_war:0 "Guerre des Campesinos"
 MEX_campesinos_war_desc:0 "Les rebelles anarchistes mènent une guerre contre le gouvernement et notre volonté d'appliquer nos lois. Il faut les abattre le plus rapidement possible afin d'apporter la paix et la prospérité au Mexique.\n\nForce des §RCampesinos§!: §Y[?MEX.MEX_campesinos_power]§!"
-MEX_restore_order_oaxaca1:0 "Rétablir l'ordre en Oaxaca"
-MEX_restore_order_veracruz1:0 "Rétablir l'ordre en Veracruz"
-MEX_restore_order_mexico1:0 "Rétablir l'ordre en Mexico state"
-MEX_restore_order_guerrero1:0 "Rétablir l'ordre en Guerrero"
-MEX_restore_order_jalisco1:0 "Rétablir l'ordre en Jalisco"
-MEX_restore_order_tamaulipas1:0 "Rétablir l'ordre en Tamaulipas"
-MEX_restore_order_durango1:0 "Rétablir l'ordre en Durango"
  MEX_campesinos_raid_mission:0 "Raid des campesinos"
 
 ### Leader Descriptions ###
@@ -425,8 +401,8 @@ MEX_army_modernization_desc:0 "Les forces armées mexicaines utilisent encore de
 
 MEX_guerilla_warfare:0 "Tactiques de Guerrilla"
 MEX_guerilla_warfare_desc:0 "Le terrain du Mexique est extrêmement rude avec des déserts variés, des chaînes de montagnes et des jungles. Déjà pendant la Révolution mexicaine, les tactiques de guérilla se sont avérées très efficaces sur un tel terrain qui ne permet pas la présence d'armées importantes et lourdement équipées."
-MEX_zapatas_training:0 "Héritage de Zapata"
-MEX_zapatas_training_desc:0 "C'est grâce à l'excellente tactique militaire d'Emiliano Zapata que nous avons réussi à vaincre les contre-révolutionnaires. Ses tactiques de guérilla ont vaincu avec succès les forces fédéralistes, et nous serons en mesure de repousser toute invasion étrangère si nous renforçons son héritage."
+ MEX_zapatas_training:9 "Study the Mexican Revolution"
+ MEX_zapatas_training_desc:9 "Guerrilla tactics have successfully defeated the federalist forces during the Mexican Revolution. If we build up and further refine these tactics, we shall be able to repel any foreign invasion."
 MEX_night_ambushes:0 "Embuscades Nocturnes"
 MEX_night_ambushes_desc:0 "L'un des piliers de la guérilla est de ne pas être vu avant le début de l'attaque. Pendant la nuit, il sera facile de ne pas être repéré afin que nos troupes puissent se rapprocher de l'ennemi, ce qui augmentera l'efficacité de nos embuscades."
 MEX_citizen_soldier:0 "Soldats Citoyens"
@@ -438,7 +414,7 @@ MEX_recon_scouts_desc:0 "Les embuscades peuvent être très puissantes, comme le
 MEX_small_unit_tactics:0 "Tactiques d’Unités Réduites"
 MEX_small_unit_tactics_desc:0 "Les unités d'embuscade sont habituelles au même niveau d'effectifs que les escadrons, peut-être des pelotons, mais une division entière ne crée pas une bonne embuscade locale. Notre armée devrait fonctionner sur la base de petites unités, de sorte que notre tactique et notre structure de commandement doivent être remaniées."
 MEX_die_standing:0 "Mourrir Debout ou Rien"
-MEX_die_standing_desc:0 "Pas un mètre de sol mexicain ne tombera aux contre-révolutionnaires et aux impérialistes ! Nos glorieux soldats défendront tous les coins du Mexique, et ils ne cèderont jamais ! Le Mexique restera libre, quel qu'en soit le prix."
+ MEX_die_standing_desc:9 "Not a single meter of Mexican soil shall fall to any invaders! Our glorious soldiers shall defend every corner of Mexico, and they shall never yield! Mexico shall stay free, no matter the cost."
 
 MEX_legacy_of_the_revolution:0 "Héritage de la Révolution"
 MEX_legacy_of_the_revolution_desc:0 "La Révolution Mexicaine a été l'un des plus grands événements militaires de l'histoire récente de notre continent. En plus de sa taille, elle a également apporté de nouvelles tactiques et armes au Mexique. Nous devrions renforcer notre armée en tirant les leçons de la guerre."
