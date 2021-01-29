@@ -17,9 +17,9 @@ if_FROM_agrees:0 "Si §H[From.GetFlag] [From.GetNameDef]§! est d'accord :"
 upon_selecting_focus:0 "Lors du choix de la priorité :"
  tooltip_white_line:0 "   \n"
  integration_tooltip:0 "Voir les zones non intégrées"
- cannot_enact_conscription:9 "§RCannot increase conscription laws.§!"
+ cannot_enact_conscription:9 "§RImpossible d'augmenter les lois sur la conscription.§!"
 cannot_train_units_tt:2 "§RImpossible de former des unités, de dissoudre des unités ou de modifier des modèles d'unités.§!\n"
- cannot_mobilise_tt:9 "§RCannot increase conscription or mobilisation laws.§!\n"
+ cannot_mobilise_tt:9 "§RImpossible d'augmenter les lois sur la conscription ou la mobilisation.§!\n"
 
 ### Renaming System ###
 toggle_renaming_button_tooltip:0 "[toggle_renaming_button_tooltip_loc]"
@@ -40,7 +40,7 @@ INTELLIGENCE_AGENCY_BLOCK_TOOLTIP:0 "[!intelligence_agency_blocker_button_click_
 
 ### Splash Screen ###
 KR_SPLASH_TITLE:0 "Bienvenue dans Kaiserreich"
-KR_SPLASH_CREDITS:0 "§YCréé par l'équipe KR4 : §!\nAlpinia, Arvidus, Augenis, Blackfalcon501, DSFDarker, Carmain, Dr. Njitram, Drozdovite, Eragaxshim, Flamefang, Fort, JazzyHugh, Jeankedezeehond, Jonjon428, Jonny BL, Krco, Liegnitz, Maltesefalcon, Matoro, Nijato, NukeGaming, OperationsManagementDecisions, PPsyrius, Pietrus, Rei VL, Rylock, SPQR, Starguard, Telcontar101, The Alpha Dog, The Irredentista, Thomahawk2k, Vidyaország, WordZero, Yard1, Zankoas and Zimbabwe Salt Co.\n§YTraduit par : §!\nBrakmar, Darkusios, Mouchi et Zeplein\n§YAnciennement traduit par : §!\nAegon Targaryen, Demetran, Fanois, Feuxin, Kfateweaver, Klik le Araï, Le Marocain, MVMaroIV, Orakle14, Paralux, Remkiller123, Romain1912, Solal, Superwaffle, TheAzmyr, Vitulus et Youkoulélé"
+KR_SPLASH_CREDITS:0 "§YCréé par l'équipe KR4 : §!\nAdrianator2, Alpinia, Arvidus, Augenis, Blackfalcon501, DSFDarker, Carmain, Chazem, Conor, Dr. Njitram, Drozdovite, Eragaxshim, Flamefang, Fort, Gideones, JazzyHugh, Jeankedezeehond, Jonjon428, Jonny BL, Krco, Liegnitz, Maltesefalcon, Matoro, Nijato, NukeGaming, OperationsManagementDecisions, PPsyrius, Pietrus, Rei VL, Rylock, SPQR, Starguard, Telcontar101, The Alpha Dog, The Irredentista, Thomahawk2k, Vidyaország, WordZero, Yard1, Zankoas and Zimbabwe Salt Co.\n§YTraduit par : §!\nBrakmar, Darkusios, Mouchi et Zeplein\n§YAnciennement traduit par : §!\nAegon Targaryen, Demetran, Fanois, Feuxin, Kfateweaver, Klik le Araï, Le Marocain, MVMaroIV, Orakle14, Paralux, Remkiller123, Romain1912, Solal, Superwaffle, TheAzmyr, Vitulus et Youkoulélé"
 
 ### Autonomy Levels ###
 kr_integrated_puppet:0 "Fantoche Intégré"
@@ -173,7 +173,7 @@ mtg_exile_leader_added.1.t:1 "Le leader [exile_nation.GetAdjective] en exil prop
  mtg_exile_leader_added.1.desc:9 "After a long and hazardous journey through enemy-held territory and several neutral states, a high ranking military officer from one of our capitulated allies has finally arrived in the capital. Following a short period of recovery, he has offered his services in our common struggle."
 mtg_exile_leader_added.1.a:1 "Votre combat n'est pas encore terminé"
 mtg_exile_government.2.title:0 "Le gouvernement [From.GetAdjective] en exil"
- mtg_exile_government.2.desc:9 "[From.GetLeader] a officiellement demandé au gouvernement [Root.GetAdjective] l'autorisation de retourner dans [From.GetNameDef] et de rétablir un cabinet provisoire [From.GetRulingPartyLong] en préparation de la paix d'après-guerre"
+ mtg_exile_government.2.desc:9 "[From.GetLeader] a officiellement demandé au gouvernement [Root.GetAdjective] l'autorisation de retourner dans [From.GetNameDef] et de rétablir un cabinet provisoire [From.GetRulingParty] en préparation de la paix d'après-guerre"
 mtg_exile_government.2.a:0 "Il est temps pour eux de retourner sur leur propre territoire"
 mtg_exile_government.2.b:0 "Le temps n'est pas encore venu"
 mtg_exile_government.3.title:0 "[From.GetName] demande l'intégration navale"
@@ -340,7 +340,7 @@ marshal_of_the_palace:0 "Maréchal du Palais"
 minister_of_native_affairs:0 "Min. des affaires indigènes"
  national_philosopher:0 "Philosophe national"
  faction_minister:0 "Faction Interne"
- kings_trusted_councillor:9 "King's Trusted Councillor"
+ kings_trusted_councillor:9 "Conseiller de confiance du Roi"
 
 ### Company Traits ###
 
@@ -496,8 +496,8 @@ maintenance_company_tech:0 "Compagnie de maintenance"
  cat_light_armor_research:0 "Vitesse de recherche des blindés léger"
 cat_light_spg:0 "Canon automoteurs légers"
 cat_medium_spg:0 "Fusils automoteurs moyens"
- cat_heavy_spg:9 "Heavy Self-Propelled Guns"
- tank_destroyer_tech:9 "Tank Destroyers"
+ cat_heavy_spg:9 "Armes lourdes automotrices"
+ tank_destroyer_tech:9 "Chasseurs de Char"
 efficiency_tech:0 "Technologie de l'efficacité de la production"
  excavation_tech_research:0 "Vitesse de recherche des technologies d'excavation"
  construction_tech_research:0 "Vitesse de Recherche de Construction"
@@ -505,13 +505,13 @@ concentrated_industry_tech:0 "Technologie de l'industrie concentrée"
 dispersed_industry_tech:0 "Technologie de l'industrie dispersée"
 cat_gunnery:0 "Artillerie navale"
 cr_tech:0 "Modèles de croiseurs"
- acr_tech:9 "Armoured Cruiser Models"
+ acr_tech:9 "Modèles de croiseurs blindés"
 cat_targeting:0 "Pompes à incendie"
 cat_torpedo:0 "Technologie des torpilles"
- carrier_ship_tree:9 "Carrier Operations"
- capital_ship_tree:9 "Capital Ships Operations"
- cat_armored_car:9 "Armored Cars"
- cat_special_units:9 "Special Units"
+ carrier_ship_tree:9 "Opérations de Porte-Avions"
+ capital_ship_tree:9 "Opérations de Navires Capitaux"
+ cat_armored_car:9 "Voitures Blindées"
+ cat_special_units:9 "Unités Spéciales"
 
 ### Hidden Techs ###
  camel_corps_tech:9 "Corps de chameaux"
