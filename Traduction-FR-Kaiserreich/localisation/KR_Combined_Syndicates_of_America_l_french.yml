@@ -148,14 +148,11 @@ CSA_leveraging_industry:0 "Le mastodonte industriel"
  CSA_continental_red_guards:0 "Gardes rouges continentaux"
 CSA_motor_production_idea:0 "Augmentation de la production automobile"
  CSA_motor_production_idea_2:0 "Industrie automobile américaine"
- CSA_big_red_fleet:0 "Grande flotte rouge"
- CSA_sea_hunters:0 "Chasseurs de mer"
- CSA_decentralized_command:0 "Commandement décentralisé"
  CSA_unprofessional_officers:0 "Officiers non professionnels"
  CSA_continental_marines:0 "Marines continentaux"
 
  CSA_market_socialism_idea:0 "Socialisme de marché"
- CSA_syndicalist_economics:9 "Syndicalist Economics"
+ CSA_syndicalist_economics_idea:9 "Syndicalist Economics"
  CSA_foster_economic_policy_idea:0 "Politique économique de Foster"
  CSA_browders_economic_policy_idea:0 "Politique économique de Browder"
  CSA_social_revolution:0 "Révolution sociale"
@@ -182,8 +179,8 @@ CSA_anti_fortification_artillery_desc:0 "L'Howitzer M1 de 240 mm était une piè
 
  CSA_new_american_dockyards_tooltip:0 "Remplace §HCSA_revolutionary_naval_industry§! par §HCSA_martime_industry§!\nChangement effectif :\nGain de pouvoir politique quotidien : [?0.1|+=]\nStabilité : [?0.05|+=%]\nProduction des chantiers navals : [?0.1|+=%]\n§HBase navale§! vitesse de construction : [?0.2|+=%]\n§HChantier naval§! vitesse de construction : [?0.1|+=%]\n§HCroiseur d'escorte§! : £production_cost  Coût de production :  [?-0.1|-=%]\n§HCroiseur§! : £production_cost  Coût de production :  [?-0.1|-=%]"
 
- CSA_new_naval_plan_tooltip:0 "Remplace §HCSA_big_red_fleet§! avec §HCSA_second_continental_navy§!\nChangement effectif :\nOrganisation Navale : [?0.05|+=%1]\nFacteur de portée maximale de la marine : [?0.1|+=%]"
- CSA_american_peoples_navy_tooltip:0 "Remplace §HCSA_big_red_fleet§! avec §HCSA_american_peoples_navy§!\nChangement effectif :\nFacteur de portée maximale de la marine : [?-0.05|+=%]\nConsommation de carburant de la marine : [?-0.2|-=%]"
+ CSA_new_naval_plan_tooltip:9 "Modify §H$CSA_second_continental_navy$§! by\nNavy Organisation: [?0.05|+=%1]\nNaval max range factor: [?0.1|+=%]"
+ CSA_american_peoples_navy_tooltip:9 "Modif §H$CSA_american_peoples_navy$§! by\nNaval max range factor: [?-0.05|+=%]\nNavy Fuel Consumption: [?-0.2|-=%]"
 
  CSA_refit_old_ships_tooltip_continental_navy:9 "Modifie §HCSA_second_continental_navy§! par\nVitesse de rééquipement des navires : [?0.1|+=%0]\nCoût du réaménagement de l'équipement naval : [?-0.1|-=%0]\nVitesse de réparation des navires : [?0.05|+=%0]"
  CSA_refit_old_ships_tooltip_peoples_navy:9 "Modifie §HCSA_american_peoples_navy§! par\nVitesse de rééquipement des navires : [?0.1|+=%0]\nCoût du réaménagement de l'équipement naval : [?-0.1|-=%0]\nVitesse de réparation des navires : [?0.05|+=%0]"
@@ -238,7 +235,6 @@ CSA_delay_canadian_intervention:0 "Retarder l'intervention canadienne"
 ### Reconstruction Focuses ###
 CSA_rebuilding_the_country:0 "Reconstruire le Pays"
  CSA_rebuilding_the_country_desc:9 "La Révolution est terminée, mais sans une action rapide, les blessures ouvertes par la Seconde Guerre civile américaine continueront de s'infecter et de saigner. Nous devons travailler avec hâte pour construire une Amérique égalitaire, égale et durable, à partir des ruines de l'ancienne."
- CSA_social_revolution:0 "Révolution sociale"
  CSA_social_revolution_desc:9 "La terre des libres et la maison des braves étaient tout sauf cela. Nous avons du pain sur la planche pour débarrasser l'Amérique de la corruption, du racisme et du chauvinisme. La première étape consiste à détruire le cœur même de toutes ces choses - le système capitaliste lui-même !"
 CSA_redistribute_wealth:0 "Redistribuer les richesses"
  CSA_redistribute_wealth_desc:9 "Nous ne pouvons plus tolérer un ordre social dans lequel des hommes ne faisant strictement rien d'utile pour la société amassent des millions de dollars pendant que des millons de prolétaires qui travaillent dur leur vie entière ont à grande peine gagné de quoi se nourrir et payer leur loyer. La fin des banques, des entreprises capitalistes et des multimillionaires qui accumulent à outrance est enfin venue."
@@ -495,7 +491,6 @@ CSA_synthetic_rubber_experiments_desc:0 "L'Asie étant aux mains des impérialis
  CSA_new_naval_plan:0 " Nouveau plan naval ".
  CSA_new_naval_plan_desc:0 "Avec la victoire de la guerre de Sécession, la flotte américaine a été durement endommagée - de nombreux officiers et marins ont rejoint les forces réactionnaires et se sont battus contre la volonté du peuple. A la fin, lorsqu'ils ont été vaincus, ils ont endommagé et détruit leurs navires. Nos plus anciens commandants de la marine proposent de commencer la restauration de la flotte américaine à son ancien statut".
 
- CSA_american_peoples_navy:0 " Marine du peuple américain "
  CSA_american_peoples_navy_desc:0 "La guerre civile étant terminée, certains hommes politiques disent que notre besoin actuel est de protéger le peuple américain. L'idée a été proposée de réintroduire l'ancienne doctrine navale américaine - mais une proposition supplémentaire a été faite par d'anciens membres de la milice navale qui ont rejoint notre camp - сreation d'une nouvelle marine américaine basée sur le commandement des Etats, qui ne s'unirait sous la direction du commandement central qu'en temps de guerre".
 
  CSA_refit_old_ships:0 " Rénovation de vieux navires ".
@@ -863,9 +858,9 @@ csa.62.t:0 "Earl Browder a été assassiné"
 csa.62.d:0 "Dans un immeuble de bureaux tranquille, la CIA nouvellement créée a secrètement tué Earl Browder. Ce fait, connu seulement de [CSA.GetLeader], est parfaitement couvert par une nouvelle dans les journaux concernant un homme que Browder a mal vu à proximité du lieu du crime. Un seul coup de feu a mis fin à la vie d'un des plus dangereux ennemis de l'Amérique. Un éloge funèbre prononcé par [CSA.GetLeader] dépeint le défunt Earl Browder comme un martyr de la révolution qui est maintenant entre de bonnes mains".
 csa.62.a:0 "Pris longtemps après son temps"
 
-csa.63.t:0 "Des ministres disparaissent".
+ csa.63.t:9 "Des ministres disparaissent"
 csa.63.d.foster:0 "Un certain nombre de ministres du Congrès ont semblé disparaître et ne plus être revus. Notamment, la plupart d'entre eux ont été associés au soutien de Earl Browder. Lorsqu'on leur demande pourquoi ils sont partis, on leur répond généralement qu'ils prennent des vacances".
-csa.63.d.browder:0 "Un certain nombre de ministres du Congrès ont semblé disparaître et ne plus être revus. Notamment, la plupart d'entre eux ont été associés au soutien de William Z. Foster. Lorsqu'on leur demande pourquoi ils sont partis, la plupart d'entre eux répondent qu'ils prennent des vacances".
+ csa.63.d.browder:9 "Un certain nombre de ministres du Congrès ont semblé disparaître et ne plus être revus. Notamment, la plupart d'entre eux ont été associés au soutien de William Z. Foster. Lorsqu'on leur demande pourquoi ils sont partis, la plupart d'entre eux répondent qu'ils prennent des vacances"
 csa.63.a:0 "De longues vacances, c'est ce qu'ils auront."
 
 csa.64.t:0 "L'armée restructurée"

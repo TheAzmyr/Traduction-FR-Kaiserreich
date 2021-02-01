@@ -162,7 +162,8 @@ ACW_times_up_desc:0 "La guerre civile dure depuis trop longtemps, avec trop peu 
 
  ACW_restore_order_decisions:9 "Restaurer l'Amérique"
  ACW_restore_order_tooltip:9 "États non consolidés"
- ACW_crush_resistance:9 "Écraser la résistance dans [From.GetName]"
+ ACW_suppress_resistance:9 "Suppress Resistance in [From.GetName]"
+ ACW_suppress_resistance_tooltip:9 "Suppressed Resistance"
  ACW_restore_order:9 "Rétablir l'Ordre en [From.GetName]"
 
  ACW_gets_event_uprising:9 "Obtient l'événement \"§RSoulèvement de Résistance à [?revolt_state_var.GetName]§!\""
@@ -426,6 +427,7 @@ amcivwar.71.d:0 "À l'approche de la guerre civile, le fait que nous n'ayons pas
 amcivwar.71.a:0 "Omar Bradley"
 amcivwar.71.b:0 "Malin Craig"
 amcivwar.71.c:0 "Walter Smith"
+ amcivwar.71.e:9 "George Marshall"
 
 amcivwar.72.t:0 "Chef de l'armée"
 amcivwar.72.d:0 "À l'approche de la guerre civile, le fait que nous n'ayons pas de chef de l'armée a suscité l'inquiétude de divers dirigeants politiques et militaires. Ils ont donc rencontré [USA.GETLeader] afin de nommer un chef de l'armée pour gagner cette guerre"
@@ -729,12 +731,12 @@ amcivwar.314.d:0 "Au cours des dernières semaines, les forces gouvernementales 
 amcivwar.314.a:0 "Excellente nouvelle !"
 
 amcivwar.320.t:0 "Les syndicalistes prennent le contrôle au Minnesota"
-amcivwar.320.d:0 "La violence des milices syndicalistes s'est étendue à la ville de Minneapolis et à la région environnante, avec des barrages routiers et l'aéroport de Minneapolis qui auraient été envahis par plusieurs groupes armés. Avant que la violence ne s'étende, le gouverneur du Minnesota a déclaré l'allégeance de l'État à la cause de Jack Reed et a ordonné aux divisions de la garde nationale de l'État de se retirer"
+ amcivwar.320.d:9 "Violence by syndicalist militia groups expanded to the city of Minneapolis and the surrounding region, with blockades erected on roads and the Minneapolis airport reportedly invaded by several armed groups. Before the violence could expand, the governor of Minnesota declared the state's allegiance to Jack Reed's cause and ordered the state's national guard divisions to stand down. Having secured the old Minnesota Farmer–Labor Party's bastion, many Farmer-Labor members and leaders have now sworn allegiance to the Socialist cause. The few that resisted, along with other Federalist sympathizers, are now fleeing south, CSA militias hot on their tail, to Iowa, where the next battle in the Midwest is expected to commence"
 amcivwar.320.a:0 "Nous leur souhaitons la bienvenue"
 amcivwar.320.b:0 "Traîtres !"
 
 amcivwar.321.t:0 "Maintien du contrôle fédéral au Minnesota"
-amcivwar.321.d:0 "La violence des milices syndicalistes s'est étendue à la ville de Minneapolis et à la région environnante, avec des barrages routiers et l'aéroport de Minneapolis qui auraient été envahis par plusieurs groupes armés. Mais avant que la violence ne s'étende davantage, le gouverneur du Minnesota a déclaré l'allégeance de l'État au pays proprement dit et a réengagé la garde nationale loyale de l'État à combattre les insurgés. Alors que la lutte se poursuit, l'État reste pour l'instant aux mains du gouvernement fédéral"
+ amcivwar.321.d:9 "Violence by syndicalist militia groups expanded to the city of Minneapolis and the surrounding region, with blockades erected on roads and the Minneapolis airport reportedly invaded by several armed groups. Before the violence could spread further, however, the governor of Minnesota declared the state's allegiance to the country proper and rededicated the state's loyal national guard to fighting back the insurgents. While the struggle continues, for the moment the state remains in Federal hands. A similar uprising in Iowa has likewise failed - with the former Farmer–Labor Party hotbed tamed by the Federalists, Iowa's socialists are unlikely to make much progress."
 amcivwar.321.a:0 "Bon"
 amcivwar.321.b:0 "Je vois"
 
@@ -907,7 +909,7 @@ amcivwar.616.a:0 "Il est temps de se reposer, chers vétérans"
 
 ### MacArthur's War ###
  amcivwar.700.t:9 "MacArthur's War Plan"
- amcivwar.700.d:9 "General MacArthur has long been preparing his plans for combatting civil unrest. The original War Plan White from the early '20s insisted on respecting the Constitution's provisions on states' rights. It said that only the governor could request federal troops to suppress a revolt. The situation in the nation now, unfortunately, requires stronger action. With President MacArthur's 30-day amnesty deadline yielding few results, it seems the United States needs to prepare for war. \n\nThere are three plans that have been proposed to the cabinet and chiefs of the military: \n\n1. War Plan White: Yorktown recommends abandoning the many military bases on the West Coast, in the Rockies, the Great Plains and the Midwest. With the withdrawal of Federal troops east of the Missisippi, the plan hopes the concentration of Federal troops on the eastern seaboard will be able to crush rebellions in Pennslyvania, the Carolinas, New England, and Georgia. \n\nWar Plan White: San Jacinto calls for relocating the government to the Great Plains, along with much of the military, in order to crush resistance in the Pacific states. If properly executed, this would allow us to recapture the mutineering Pacific fleet. \n\n Lastly, MacArthur's original War Plan White, drafted late last year, calls for holding a corridor from Virginia to whichever states remain loyal in the Midwest. We hope that our superior organization and mobility can quickly crush the rebellions before they can link up or begin war production. What should we choose?"
+ amcivwar.700.d:9 "General MacArthur has long been preparing his plans for combatting civil unrest. The original War Plan White from the early '20s insisted on respecting the Constitution's provisions on states' rights. It said that only the governor could request federal troops to suppress a revolt. The situation in the nation now, unfortunately, requires stronger action. With President MacArthur's 30-day amnesty deadline yielding few results, it seems the United States needs to prepare for war. \n\nThere are three plans that have been proposed to the cabinet and chiefs of the military:\n\n1. War Plan White: Yorktown recommends abandoning the many military bases on the West Coast, in the Rockies, the Great Plains and the Midwest. With the withdrawal of Federal troops east of the Missisippi, the plan hopes the concentration of Federal troops on the eastern seaboard will be able to crush rebellions in Pennslyvania, the Carolinas, New England, and Georgia.\n\n2. War Plan White: San Jacinto calls for relocating the government to the Great Plains, along with much of the military, in order to crush resistance in the Pacific states. If properly executed, this would allow us to recapture the mutineering Pacific fleet. \n\n3. Lastly, MacArthur's original War Plan White, drafted late last year, calls for holding a corridor from Virginia to whichever states remain loyal in the Midwest. We hope that our superior organization and mobility can quickly crush the rebellions before they can link up or begin war production. What should we choose?"
  amcivwar.700.a:9 "Abandon the Plains."
  amcivwar.700.b:9 "Washington is too vulnerable, retreat to Denver."
  amcivwar.700.c:9 "We will not cede an inch more to those traitors!"
@@ -929,7 +931,7 @@ amcivwar.616.a:0 "Il est temps de se reposer, chers vétérans"
  amcivwar.704.a:9 "Flee, flee for your lives!"
 
  amcivwar.705.t:9 "Western Governors Defect to the PSA"
- amcivwar.705.d:9 "When Federal troops withdrew from the area of the Rocky Mountains, there were initially split responses. The Governor of Nevada, Maurice J. Sullivan, refused to allow Federal troops to evacuate or abandon their equipment, but the governors of Arizona, Idaho and Utah were more willing to accommodate the President. However, a recent regional conference of the four governors in Salt Lake City has led to them deciding to collectively rely on the provisional government in California for protection and support. Apparently, most of them were led to this by their clear abandonment by the Washington government. They have denounced MacArthur’s takeover pro forma and the Sacramento government has already sent in its own soldiers and airmen to occupy the abandoned bases in the west."
+ amcivwar.705.d:9 "When Federal troops withdrew from the area of the Rocky Mountains, there were initially split responses. The Governor of Nevada, Richard Kirman, Sr., refused to allow Federal troops to evacuate or abandon their equipment, but the governors of Arizona, Idaho and Utah were more willing to accommodate the President. However, a recent regional conference of the four governors in Salt Lake City has led to them deciding to collectively rely on the provisional government in California for protection and support. Apparently, most of them were led to this by their clear abandonment by the Washington government. They have denounced MacArthur’s takeover pro forma and the Sacramento government has already sent in its own soldiers and airmen to occupy the abandoned bases in the west."
  amcivwar.705.a:9 "The true America grows stronger!"
  amcivwar.705.b:9 "Pragmatic traitors are still traitors."
 
@@ -1106,7 +1108,7 @@ amcivwar.616.a:0 "Il est temps de se reposer, chers vétérans"
  amcivwar.755.t:9 "The Arkansas River Campaign"
  amcivwar.755.d:9 "After Southern Texas, Arkansas and Oklahoma too have been overrun by Federal militias, despite their governors declaring support for Huey Long. With both these states and San Antonio firmly in Federal hands, Houston and Austin will probably fall soon, and MacArthur will have access to the Texan oil fields for its army."
  amcivwar.755.a:9 "We need to move quickly, before Patton reinforces its positions."
- amcivwar.755.b:9 "What do they expect to accomlpish with that?"
+ amcivwar.755.b:9 "What do they expect to accomplish with that?"
 
  amcivwar.756.t:9 "Federal Troops Cross the Mississippi"
  amcivwar.756.d:9 "While Governor Stark of Missouri has been aligned with Huey Long for the past two elections, in view of the army of Federal militia and soldiers pouring into his state to spread out west, he has condemned the New Orleans government for attempted dictatorship, and affirmed his loyalty to President MacArthur. With almost all land west of the Mississippi north of Texas secure, Federal troops are now readying for an envelopment of Texas and a strike across the Rockies against Sacramento. Our position in the west seems secure."

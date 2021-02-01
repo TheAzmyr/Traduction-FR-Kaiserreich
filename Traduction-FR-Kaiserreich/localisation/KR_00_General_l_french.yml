@@ -14,6 +14,7 @@ REQUEST_EXP_FORCE_BLOCKED_TT:0 "§RCe pays ne vous permet pas de demander ses fo
 ### Regular Tooltips ###
 is_actual_major_tt:0 "Est considéré comme une grande puissance mondiale"
 if_FROM_agrees:0 "Si §H[From.GetFlag] [From.GetNameDef]§! est d'accord :"
+ needs_approval:9 "If §H[This.GetNameDef]§! agrees:"
 upon_selecting_focus:0 "Lors du choix de la priorité :"
  tooltip_white_line:0 "   \n"
  integration_tooltip:0 "Voir les zones non intégrées"
@@ -189,13 +190,19 @@ mtg_exile_government.5.a:0 "Ils placent leur fierté au-dessus des intérêts de
 mtg_generic.1.title:0 "[From.GetName] applique le changement de gouvernement"
 mtg_generic.1.desc:0 "Citant le manque évident de soutien électoral de notre gouvernement actuel, [From.GetNameDef] a demandé un changement de politique"
 mtg_generic.1.a:0 "Nous n'avons d'autre choix que d'accepter"
-mtg_exile_leader_added.1.t:1 "Le leader [exile_nation.GetAdjective] en exil propose un service"
-mtg_exile_leader_added.1.desc:1 "Après un long et dangereux voyage à travers le territoire tenu par l'ennemi et plusieurs États neutres, [From.GetName] est enfin arrivé dans la capitale. Après une courte période de récupération, [From.GetSheHe] a offert ses services dans notre lutte commune.\n\nIl est rapporté que [From.GetSheHe] est très désireux de \"reprendre le flambeau des choses\""
-mtg_exile_leader_added.1.a:1 "Votre combat n'est pas encore terminé"
 
 ### Land Units ###
 militia:0 "Milice"
  category_mounted_inf:0 "Infanterie Montée"
+
+### Sub-unit Modifiers ###
+ modifier_army_sub_unit_category_bicycle_battalion_attack_factor:9 "Bicycle Attack"
+ modifier_army_sub_unit_category_bicycle_battalion_defence_factor:9 "Bicycle Defence"
+ modifier_army_sub_unit_category_bicycle_battalion_speed_factor:9 "Bicycle Speed"
+
+ modifier_army_sub_unit_category_militia_attack_factor:9 "Militia Attack"
+ modifier_army_sub_unit_category_militia_defence_factor:9 "Militia Defence"
+ modifier_army_sub_unit_category_militia_speed_factor:9 "Militia Speed"
 
 ### Tech ###
 military_police_tech:0 "Police  Militaire "
