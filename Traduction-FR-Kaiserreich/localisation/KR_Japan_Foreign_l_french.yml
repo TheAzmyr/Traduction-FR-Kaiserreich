@@ -47,9 +47,9 @@ is_working_with_JAP:0 "Cette nation s'est engagée à travailler avec le Japon"
 chinese_tag_must_agree:0 "[From.GetNameDefCap] doit accepter pour que cela prenne effet !"
 JAP_you_get_the_mils_back:0 "Vous récupérez les usines !"
 ETS_will_discuss_this:0 "[ETS.GetNameDefCap] deviendra plus amical avec nous"
-army_xp_more_than_10:0 "§H10§!£army_experience"
-army_xp_more_than_10_blocked:0 "§R10§!£army_experience"
-army_xp_more_than_10_tooltip:0 "Cela coûte 10£army_experience pour sélectionner ceci".
+ army_xp_more_than_10:9 "£army_experience §H10§!"
+ army_xp_more_than_10_blocked:9 "£army_experience §R10§!"
+ army_xp_more_than_10_tooltip:9 "It costs $army_xp_more_than_10_blocked$ to take the decision"
 pacific_containment:0 "Nous devons contenir l'agression japonaise !"
 JAP_backed_down_pacific:0 " Recul des revendications sur les îles du Pacifique "
 
@@ -97,9 +97,6 @@ JAP_fading_sun_desc.JAP:0 "Nous avons perdu le contrôle d'une grande partie de 
 JAP_fading_sun_desc.other:0 "Nous avons réussi à pousser le Japon hors d'une grande partie du continent ! Ils vont sans doute essayer de contre-attaquer, mais c'est un coup dur pour eux. S'ils ne reprennent pas rapidement leurs terres, la pression politique croissante les obligera à demander des conditions."
 
 is_fully_controlled_by_JAP_or_war_ally_tooltip:0 "est entièrement contrôlé par §Y[JAP.GetNameDef]§! ou un allié"
- JAP_cannot_call_allies_in_idea:0 "§RNous ne pouvons pas faire appel à des alliés, sauf si nous sommes en guerre avec un pays majeur ou si nous perdons une guerre§!"
- JAP_cannot_call_allies_in:0 "§RNous ne voulons pas partager les fruits de la guerre à moins d'y être obligés ! Nous ne pouvons faire appel à des alliés que si nous sommes en guerre avec un pays majeur ou si nous perdons une guerre§!"
- JAP_wont_let_allies_join:0 "§RLe Japon ne veut pas partager les fruits de la guerre avec nous ! Ils ne nous laisseront pas participer à leur guerre, sauf s'ils sont en guerre avec un pays majeur ou s'ils perdent une guerre§!"
 
  JAP_speed_up_collapse_bad_tooltip:0 "§RLa nature écrasante des forces de nos ennemis signifie que notre effondrement est encore plus proche que nous le pensions initialement.§!"
  JAP_speed_up_collapse_good_tooltip:0 "§GLa nature écrasante de nos forces signifie que l'effondrement du Japon est encore plus proche que nous le pensions au départ.§!"
@@ -361,7 +358,7 @@ harbin_chemical_research:0 " Recherche chimique de Harbin"
 changchun_industry_investment:0 "La région industrielle de Jilin"
 
 ### Military ###
- JAP_ichigo_tooltip:0 "Gains National Spirit §H$JAP_ichigo$§!, which grants\n   Attack bonus against §Hall Chinese countries§!: [?0.3|+=%1]\n   Defence bonus against §Hall Chinese countries§!: [?0.1|+=%1]"
+ JAP_ichigo_tooltip:9 "Gains '§H$JAP_ichigo$§!' which grants (Attack bonus against §Hall Chinese countries§!: [?0.1|+=%1], Defence bonus against §Hall Chinese countries§!: [?0.05|+=%1]) for §H100§! days."
 
 ### Events ###
 japfor.1.t:0 "Mantetsu déclare des gains records"
@@ -432,11 +429,11 @@ japfor.26.d:0 "Il semblerait que les dignitaires [From.GetAdjective] aient été
 japfor.26.a:0 "Honte !"
 
 japfor.27.t:0 "Tokyo : Résolution sur le commerce"
-japfor.27.d:0 "...par conséquent, les participants à cette conférence conviennent que, pour promouvoir la coopération et la fraternité panasiatiques, des traités commerciaux devraient être mis en place et placés en tête de l'ordre du jour national dans chaque nation en vue d'établir une zone douanière asiatique commune et de protéger les économies des peuples asiatiques des principes économiques prédateurs de l'Occident qui sont...".
+ japfor.27.d:9 "...par conséquent, les participants à cette conférence conviennent que, pour promouvoir la coopération et la fraternité panasiatiques, des traités commerciaux devraient être mis en place et placés en tête de l'ordre du jour national dans chaque nation en vue d'établir une zone douanière asiatique commune et de protéger les économies des peuples asiatiques des principes économiques prédateurs de l'Occident qui sont..."
 japfor.27.a:0 "Parfait, ils doivent s'entendre !"
 
 japfor.28.t:0 "Tokyo : concernant le commerce panasiatique"
-japfor.28.d:0 "...par conséquent, les participants à cette conférence conviennent que, pour promouvoir la coopération et la fraternité panasiatiques, des traités commerciaux devraient être mis en place et placés en tête de l'ordre du jour national dans chaque nation en vue d'établir une zone douanière asiatique commune et de protéger les économies des peuples asiatiques des principes économiques prédateurs de l'Occident qui sont...".
+ japfor.28.d:9 "...par conséquent, les participants à cette conférence conviennent que, pour promouvoir la coopération et la fraternité panasiatiques, des traités commerciaux devraient être mis en place et placés en tête de l'ordre du jour national dans chaque nation en vue d'établir une zone douanière asiatique commune et de protéger les économies des peuples asiatiques des principes économiques prédateurs de l'Occident qui sont..."
 japfor.28.a:0 "Ça me paraît bien."
 japfor.28.b:0 "Comme c'est absurde (abandonnez la conférence)"
 
@@ -479,25 +476,6 @@ japfor.342.t:0 "Rejoindre la sphère japonaise"
 japfor.342.d:0 "Ayant indiqué notre intérêt à rejoindre officiellement l'alliance militaire japonaise lors de la conférence de Tokyo, les Japonais sont maintenant arrivés à [Root.GetNameDef] et ont prolongé leur offre en personne."
 japfor.342.a:0 "Il était temps !"
 japfor.342.b:0 "Nous avons reconsidéré..."
-
-japfor.35.t:0 "L'Allemagne a perdu l'Europe"
-japfor.35.d:0 "Notre ennemi mortel, l'Empire allemand, a perdu l'Europe. Le moment est peut-être venu de lancer un ultimatum exigeant que toutes les terres allemandes d'Asie soient prises en compte. Le moment de se libérer du joug de l'impérialisme occidental est peut-être venu !"
-japfor.35.a:0 "Lancer l'ultimatum. Banzaï !"
-japfor.35.b:0 "Ne rien faire."
-
-japfor.36.t:0 "Les Japonais ont lancé un ultimatum"
-japfor.36.d:0 "Le consul du Japon à Saigon a remis une lettre de Tokyo. Les nouvelles sont terribles ; depuis que nous avons perdu la guerre et que nous avons été contraints de capituler, nous avons perdu toute puissance et tout pouvoir en Asie, et les Japonais, comme des vautours affamés, vont incorporer nos colonies asiatiques dans leur sphère de coprospérité".
-japfor.36.a:0 "Se soumettre à leurs exigences."
-japfor.36.b:0 "Déclarer la guerre."
-
-japfor.38.t:0 "Les Allemands ont refusé notre Ultimatum"
-japfor.38.d:0 "Les Allemands têtus et insensés vont payer pour leur arrogance. Que la guerre commence !"
-japfor.38.a:0 "Banzaï !"
-japfor.38.b:0 "Ce n'est pas le moment de faire la guerre."
-
-japfor.380001.t:0 "Les Allemands ont accepté notre Ultimatum"
-japfor.380001.d:0 "Voyant qu'ils n'ont ni le choix ni la capacité de résister, les Allemands ont accepté nos exigences et évité une guerre inutile."
-japfor.380001.a:0 "Excellent."
 
 japfor.41.t:0 "Ultimatum japonais"
 japfor.41.d:0 "Depuis des mois déjà, les Japonais expriment leurs ambitions agressives envers nos terres coloniales dans le cadre de leurs politiques expansionnistes. Aujourd'hui, l'ambassadeur du Japon nous a présenté un ultimatum : ils exigent que nous cédions tout notre territoire en Asie du Sud-Est et dans le Pacifique, sinon nous ferons face à la pleine puissance de l'armée impériale japonaise..."
@@ -700,7 +678,7 @@ japfor.86.a:0 "Je veux la tête de Kim Koo !"
 #japfor.89.d:0 "Against all odds, Korean forces have taken many key strategic positions from the Japanese and are forcing them off the mainland. This may be a great opportunity for us..."
 #japfor.89.a:0 "No, we must remain loyal."
 #japfor.89.b:0 "Yes, seize the moment and attack the Japanese"
-#japfor.89.c:0 "Yes, seize the moment and attack...Korea!"
+#japfor.89.c:0 "Yes, seize the moment and attack... Korea!"
 #
 #japfor.104.t:0 "Naval Blockade of the Korean peninsula"
 #japfor.104.d:0 "With the Korean peninsula engulfed in the fires of revolution, many hostile nations might use this event as an opportunity to weaken our influence in the pacific by direct or indirect support of those damned revolutionaries. We can only prevent this by imposing a naval blockade around the entire Korean peninsula."
@@ -771,7 +749,7 @@ japfor.181.a:0 "Banzaï !"
 
 japfor.182.t:0 "Les Néerlandais résistent !"
 japfor.182.d:0 "Les Hollandais insolents ont refusé nos demandes et se préparent maintenant à affronter seuls nos puissantes armées ! Nous devons envoyer nos marines et les remettre à leur place !"
-japfor.182.a:0 "Ils ne diront plus grand-chose après ça... !"
+ japfor.182.a:9 "Ils ne diront plus grand-chose après ça... !"
 japfor.182.b:0 "En fait, aller à la guerre n'était pas notre intention..."
 
 japfor.183.t:0 "Les Japonais reculent !"
@@ -885,7 +863,7 @@ japfor.218.a:0 "C'est bon à entendre."
 
 japfor.225.t:0 "Les États-Unis dans le désarroi"
 japfor.225.d:0 "La guerre civile a éclaté aux États-Unis, déchirant les derniers morceaux d'unité de l'Union. Cela nous donne l'occasion de supprimer la présence américaine dans le Pacifique central en occupant l'île de Guam. Le gouvernement américain ne peut pas faire grand-chose pour nous arrêter à ce stade".
-japfor.225.a:0 "Saisissez Guam... et réclamez encore plus !"
+ japfor.225.a:9 "Saisissez Guam... et réclamez encore plus !"
 japfor.225.b:0 "S'emparer de Guam."
 japfor.225.c:0 "Il vaut mieux laisser tomber, je pense."
 
@@ -1140,7 +1118,7 @@ japfor.461.d:0 "Il semble que les revendications de longue date du Japon sur la 
 japfor.461.a:0 "Ils le regretteront."
 
 japfor.462.t:0 "Le Japon poursuit la stratégie Réduire en Cendres"
-japfor.462.d:0 "Les rumeurs d'exactions commises par les troupes japonaises contre des civils chinois nous parviennent depuis quelque temps déjà. Le consulat japonais à Mukden nous a toujours assuré que ces exactions étaient exagérées et que lorsque de tels crimes se produisaient, ils étaient le fait de troupes indisciplinées ; une exception plutôt que la norme. Cependant, le Japon a maintenant fait l'impensable.  Il a non seulement signalé son soutien ouvert à ces atrocités horribles, mais il les a codifiées dans le cadre d'une stratégie officielle. Une telle barbarie sans précédent ne peut être tolérée, et nous ne pouvons pas nous permettre d'être peints coupables par association. Heureusement, l'association projaponaise Concordia aura du mal à expliquer celle-ci, perdra de son influence au sein de notre gouvernement."
+ japfor.462.d:9 "Les rumeurs d'exactions commises par les troupes japonaises contre des civils chinois nous parviennent depuis quelque temps déjà. Le consulat japonais à Mukden nous a toujours assuré que ces exactions étaient exagérées et que lorsque de tels crimes se produisaient, ils étaient le fait de troupes indisciplinées ; une exception plutôt que la norme. Cependant, le Japon a maintenant fait l'impensable.  Il a non seulement signalé son soutien ouvert à ces atrocités horribles, mais il les a codifiées dans le cadre d'une stratégie officielle. Une telle barbarie sans précédent ne peut être tolérée, et nous ne pouvons pas nous permettre d'être peints coupables par association. Heureusement, l'association projaponaise Concordia aura du mal à expliquer celle-ci, perdra de son influence au sein de notre gouvernement."
 japfor.462.a:0 "Nous devons sérieusement envisager une nouvelle direction."
 
 japfor.463.t:0 "Le Japon révise ses ambitions"
@@ -1170,9 +1148,9 @@ japfeng.2.a:0 "La Chine ne peut pas danser éternellement sur leur musique."
 
 japfeng.3.t:0 "Pousser pour une décision"
 japfeng.3.d:0 "Le temps est venu de décider : où se situent nos intentions par rapport au gouvernement fengtien que nous soutenons depuis si longtemps ? Leur loyauté envers nous a toujours été douteuse. Qu'allons-nous en faire ?"
-japfeng.3.a:0 "...le détruire."
-japfeng.3.b:0 "...l'amadouer."
-japfeng.3.c:0 "...l'attendre."
+ japfeng.3.a:9 "...le détruire."
+ japfeng.3.b:9 "...l'amadouer."
+ japfeng.3.c:9 "...l'attendre."
 
  JAP_treaty_totalist:0 "Japanese Treaty Territories"
  JAP_treaty_totalist_ADJ:0 "Japanese"

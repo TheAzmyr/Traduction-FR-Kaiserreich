@@ -1,8 +1,8 @@
 ﻿l_french:
 
 ### Opening Event ###
- kr.political.1.t:0 "Kaiserreich Beta 0.16.1 - 'Hindsight is 2020'"
  kr.political.1.d:0 "L'équipe de Kaiserreich est fière de vous présenter la version bêta 0.16.1 - 'Hindsight is 2020' de Kaiserreich pour Hearts of Iron 4. Notre équipe a travaillé dur dans tous les coins du monde pour vous présenter cette nouvelle version et nous ne pourrions pas être plus honorés que vous choisissiez d'y jouer.\n\nNous vous prions de bien vouloir noter ce qui suit :\n- Le mod est conçu avec l'hypothèse que le joueur annexera toujours tous les états possibles dans les traités de paix, donc assurez-vous de faire cela\n- Vous pouvez changer la fréquence des nouvelles en basculant l'icône en haut de l'onglet décisions\n- Vous pouvez sélectionner quel système de nommage des états et des points de victoire utiliser en basculant l'icône remplaçant le menu des réalisations en haut à droite\n- Rappelez-vous que ce mod est toujours en Bêta, Attendez-vous donc à des bogues, des plantages et divers maux de tête ! Si vous rencontrez l'un d'entre eux, les signaler sur notre gestionnaire de problèmes (issues) sur GitHub est d'une grande aide et permettra de les corriger plus rapidement !"
+ kr.political.1.t:9 "Kaiserreich Beta 0.17 - 'Springtime for Kaiser'"
 kr.political.1.a:0 "Je suis sûr que je le ferai !"
 
 ### Generic Triggered Events ####
@@ -22,7 +22,7 @@ kr.political.75.t:0 "Le territoire [From.From.GetAdjective]"
 kr.political.75.d:0 "Le gouvernement [Root.GetAdjective] discute de ce qu'il faut faire des terres [return_to.GetAdjective] que nous occupons actuellement - des terres sur lesquelles nous n'avons aucune revendication légitime. Devrions-nous leur rendre ce territoire ?"
 kr.political.75.a:0 "Oui, rendons-leur toutes les terres"
 KR_will_return_all:0 "Tous les États côtiers ou contigus qui sont des états cœur ou des revendications [return_to.GetAdjective] seront renvoyés aux États §Y[return_to.GetNameDef]§!.\n\nRemarque : cela §Rn'inclut pas§! les États [Root.GetAdjective] §Yrevendiqués§! ou §Ycœur§!."
-kr.political.75.b:0 "Oui, leur rendre leur territoire ... mais garder les états les plus vitaux"
+ kr.political.75.b:9 "Oui, leur rendre leur territoire ... mais garder les états les plus vitaux"
 KR_will_return_rest:0 "Tous les États côtiers ou contigus qui sont des états cœur ou des revendications [return_to.GetAdjective] seront renvoyés aux États §Y[return_to.GetNameDef]§!.\n\nRemarque : cela §Rn'inclut pas§! les États [Root.GetAdjective] §Yrevendiqués§! ou §Ycœur§! ni les États §Yvitaux§! tels que les canaux."
 kr.political.75.c:0 "Rendre leurs territoires principaux seulement"
 KR_will_return_cores:0 "Tous les États côtiers ou contigus qui sont des états cœur [return_to.GetAdjective] seront renvoyés aux États §Y[return_to.GetNameDef]§!.\n\nRemarque : cela §Rn'inclut pas§! les États [Root.GetAdjective] §Yrevendiqués§! ou §Ycœur§! ni les États §Yvitaux§! tels que les canaux."
@@ -46,8 +46,8 @@ head_of_gov_available:0 "§RLes chefs de gouvernement ne peuvent pas être ajout
 minister_available:0 "§RLes ministresne peuvent pas être ajoutés ou supprimés manuellement.§! Ils ne peuvent être changés que par des événements, des focus, des décisions et ainsi de suite.\n\nCette liste représente tous les ministres possibles pour une nation, donc les gens ici peuvent être en désaccord avec le gouvernement actuel, dans un autre pays ou même morts"
 military_staff_available: "Ce membre de l'état-major militaire est vivant et prêt à servir le gouvernement"
 
-KR_is_socialist:0 "A un gouvernement totaliste, syndicaliste, radical socialiste ou syndicaliste aligné social-démocrate"
-KR_is_socialist_NOT:0 "N'a §Rpas§! un gouvernement totaliste, syndicaliste, radical socialiste ou syndicaliste aligné social-démocrate"
+ KR_is_socialist:9 "Has a socialist government"
+ KR_is_socialist_NOT:9 "Does §Rnot§! have a socialist government"
 KR_is_elected:0 "A un gouvernement démocratique et élu"
 KR_is_elected_NOT:0 "N'a §Rpas§! un gouvernement démocratique et élu"
 KR_is_democratic:0 "A un gouvernement démocratique"
@@ -65,9 +65,6 @@ KR_left_wing_democracy_NOT:0 "N'est pas une démocratie de gauche"
 has_scripted_peace:0 "Nous sommes en guerre"
 has_scripted_peace_desc:0 "Le pays est en guerre et est déterminé à remporter la victoire - bien qu'il y ait des chances que notre résistance soit un peu plus fragile qu'il n'y paraît. (Note : ceci existe pour les guerres où un événement de paix écrit existe, et il y a des chances que l'événement se déclenche bien avant que cette limite de reddition élevée ne soit atteinte, juste pour que vous soyez au courant.)"
 
-### Syndicalist Social Democrat Notice ###
-SYNDIE_SOC_DEM_NOTICE:0 "(Syndicaliste aligné)"
-
 ### Demobilisation ###
  mobilisation_penalty_modifier:0 "Au-delà de la limite de la division"
 
@@ -78,35 +75,29 @@ SYNDIE_SOC_DEM_NOTICE:0 "(Syndicaliste aligné)"
  unit_limit_count_green:0 "[?num_actual_divisions|G0]"
 
  unit_limit_factory_bonus:0 "Bonus d'usine à la limite de la division"
- unit_limit_max:0 "Limite de divisions"
  unit_limit_bonus:0 "Limite de divisions"
 
  unit_limit_label:0 "§HDivisions maximales soutenues§!"
- unit_limit_desc:0 "Chaque pays n'a la capacité de soutenir qu'un certain nombre de divisions militaires individuelles avant que son économie et ses infrastructures ne se battent pour les maintenir.§L\n\n - Usines nettes : §! [?net_factory_count]§L[unit_limit_major_power][unit_limit_world_tension]\n - [unit_limit_economy_law]:§! §L[limite_supérieure_percerc]§L[limite_unitaire_a été_capitalisée][limite_unitaire_inférieure_utilisée][limite_unitaire_supérieure_utilisée][limite_unitaire_bonus_utilisée]\n\n TOTAL FINAL : §W[?max_divisions]§! (arrondi vers le haut)\n\nVeuillez noter que les modifications apportées aux éléments ci-dessus prennent jusqu'à une semaine de jeu avant d'être prises en compte dans le calcul.§![above_unit_limit_desc]"
+ unit_limit_desc:9 "Every country only has the ability to support a certain number of individual military divisions before their economy and infrastructure struggle to maintain them.\n\nThe maximum number of supported units is based on the country's total population, and is further influenced by their level of industrialisation, with military factories being worth twice as much as civilian factories or dockyards.\n\n§L   - From Total Population: [?base_units|G0][unit_limit_noncore_population][unit_limit_crownland_population_bonus]\n   - Minimum Factory Points: [?minimum_factory_points|O0]\n   - Total Factory Points: [?factory_points|O0][unit_limit_crownland_factory_bonus]\n   - Industrialisation Modifier: §Hx[?industry_factor|H9]§![unit_limit_faction_leader][unit_limit_economy_law][unit_limit_was_capped][unit_limit_lower_limit_used][unit_limit_upper_limit_used][unit_limit_bonus_used]\n\n   FINAL TOTAL: [?max_divisions|H0]\n\nPlease note that changes to the above take up to one in-game week before they are reflected in the calculation.§![above_unit_limit_desc]"
 
- unit_limit_desc_fake_intel:0 " (§HLes fausses divisions du renseignement§! ne comptent pas dans la limite de divisions)"
+ unit_limit_desc_fake_intel:9 " (§HLes fausses divisions du renseignement§! ne comptent pas dans la limite de divisions)"
 
  unit_limit_desc_above_limit:0 "\n\n--------------\n\n§RNous avons actuellement dépassé nos capacités, et la seule façon d'alléger la pression sur notre pays sera de supprimer certaines de nos divisions.§!\n\nOrganisation des divisions : [?mobilisation_penalty_var|+=%1]\nUsines de biens de consommation : [?mobilisation_penalty_var_positive|=%H1]\nProduction en usine : [?mobilisation_penalty_var|+=%]\nTemps de formation : [?mobilisation_penalty_var_positive|-=%]\nRenforcer le taux : [?mobilisation_penalty_var|+=%1]"
 
- unit_limit_major_power_desc:0 "\n   - Grande puissance/chef de file : §G+15%§!"
- unit_limit_world_tension_desc:0 "\n   - Tension mondiale 70% ou plus: §G+5§!%"
- unit_limit_was_capped_desc:0 "\n   - Total non plafonné : §W[?net_max_divisions]§!"
- unit_limit_cap_used_desc:0 "\n\n   Les divisions maximales soutenues ne peuvent être supérieures à §W[?upper_limit]§! (de [unit_limit_economy_law])."
- unit_limit_manpower_used_desc:0 "\n\n   Parce que le total fourni par les usines était inférieur à celui fourni par la main-d'œuvre totale (§W[?lower_limit_from_manpower]§!), qui a été utilisé à la place."
- unit_limit_num_states_used_desc:0 "\n\n   Parce que le total fourni par les usines était inférieur au nombre d'États propriétaires (§W[?lower_limit_from_states]§!), qui a été utilisé à la place."
- unit_limit_default_used_desc:0 "\n\n   Comme le total fourni par les usines était inférieur à la valeur par défaut (§W5§!), celle-ci a été utilisée à la place."
- unit_limit_bonus_used_desc:0 "\n\n   - Modificateurs supplémentaires : §G+[?upper_limit_unit_bonus]§! à la limite"
+ unit_limit_noncore_population_desc:9 "\n      (§H10%§! from non-core states: [?non_core_base|H1])"
+ unit_limit_crownland_population_bonus_desc:9 "\n      ([?crownland_base_units|H0] from the §HCrownlands§!)"
+ unit_limit_crownland_factory_bonus_desc:9 "\n      ([?crownland_factory_points|H0] from the §HCrownlands§!)"
+ unit_limit_faction_leader_desc:9 "\n   - Faction Leader: §G+15%§!"
+ unit_limit_was_capped_desc:9 "\n   - Total non plafonné : §W[?net_max_divisions]§!"
+ unit_limit_half_factory_points_used_desc:9 "\n\n   Because the total provided was lower than half the total factory points multiplied by our economy law factor ([?lower_limit_from_factories|H0]), that was used instead."
+ unit_limit_num_states_used_desc:9 "\n\n   Because the total provided was lower than the number of owned states ([?lower_limit_from_states|H0]), that was used instead."
+ unit_limit_default_used_desc:9 "\n\n   Because the total provided was less than the default (§H5§!), that was used instead."
+ unit_limit_bonus_used_desc:9 "\n\n   - Additional Modifiers: [?additional_unit_limit|=+0] to cap"
 
- upper_limit_perc_figure_pos:0 "§G+[?upper_limit_from_factory_mult]%§!"
- upper_limit_perc_figure_neg:0 "§R[?upper_limit_from_factory_mult]%§!"
-
- unit_limit_undisturbed_isolation:0 "§YIsolement intact§!"
- unit_limit_isolation:0 "§YIsolement§!"
- unit_limit_civilian_economy:0 "§YÉconomie Civile§!"
- unit_limit_low_economic_mobilisation:0 "§YMobilisation Précoce§!"
- unit_limit_partial_economic_mobilisation:0 "§YMobilisation Partielle§!"
- unit_limit_war_economy:0 "§YÉconomie de Guerre§!"
- unit_limit_tot_economic_mobilisation:0 "§YMobilisation Totale§!"
+ unit_limit_low_economic_mobilisation:9 "\n   - §H$low_economic_mobilisation$§!: [?modifier@unit_limit_factory_bonus|+=%0]"
+ unit_limit_partial_economic_mobilisation:9 "\n   - §H$partial_economic_mobilisation$§!: [?modifier@unit_limit_factory_bonus|+=%0]"
+ unit_limit_war_economy:9 "\n   - §H$war_economy$§!: [?modifier@unit_limit_factory_bonus|+=%0]"
+ unit_limit_tot_economic_mobilisation:9 "\n   - §H$tot_economic_mobilisation$§!: [?modifier@unit_limit_factory_bonus|+=%0]"
 
 ### Tooltips ###
  KR_improving_stability:0 "Déjà en train de renforcer la stabilité"
