@@ -10,7 +10,7 @@
 
 ### Splash Screen Credits ###
 KR_SPLASH_TITLE:0 "Bienvenue dans Kaiserreich"
- KR_SPLASH_CREDITS:9 "§YBrought to you by the KR4 Team:§!\nAdrianator2, Alpinia, Arvidus, Asratius, Augenis, Blackfalcon501, DSFDarker, Carmain, Chazem, Conor, Drozdovite, Flamefang, Gideones, Hildagrim, JazzyHugh, Jonjon428, Jonny BL, Kennedy, Krco, Liegnitz, Maltesefalcon, Matoro, McOmghall, ~mw~, Nijato, NukeGaming, OperationsManagementDecisions, PPsyrius, Pietrus, Rei VL, Retrocognition, Rylock, Starguard, Telcontar101, The Alpha Dog, The Irredentista, Vidyaország, Zankoas and Zimbabwe Salt Co."
+KR_SPLASH_CREDITS:9 "§YCréé par l'équipe KR4 :§!\nAdrianator2, Alpinia, Arvidus, Asratius, Augenis, Blackfalcon501, DSFDarker, Carmain, Chazem, Conor, Drozdovite, Flamefang, Gideones, Hildagrim, JazzyHugh, Jonjon428, Jonny BL, Kennedy, Krco, Liegnitz, Maltesefalcon, Matoro, McOmghall, ~mw~, Nijato, NukeGaming, OperationsManagementDecisions, PPsyrius, Pietrus, Rei VL, Retrocognition, Rylock, Starguard, Telcontar101, The Alpha Dog, The Irredentista, Vidyaország, Zankoas and Zimbabwe Salt Co.\n§YTraduit par : §!Kira, Lazu, Mouchi, Nobelo81, Rosak et TheAzmyr\n§YAnciennement traduit par : §!Aegon Targaryen, Brakmar, Darkusios, Demetran, Fanois, Feuxin, Grikke, Kfateweaver, Klik le Araï, Le Marocain, MVMaroIV, Orakle14, Paralux, Remkiller123, Romain1912, Solal, Superwaffle, Vitulus, Youkoulélé et Zeplein"
 
 ### Main Menu Tooltips ###
 COOP_MAIN_MENU_LINK:0 "Cliquez ici pour aller à la Coop Discord"
@@ -18,7 +18,7 @@ KR_MAIN_MENU_LINK:0 "Cliquez ici pour accéder au Kaiserreich Wiki"
 LOGO_MAIN_MENU_LINK:0 "Cliquez ici pour voir les notes de mise à jour"
 
 ### Vanilla Music Stations ###
- sabaton_TITLE:9 "§RSabaton - turn off 'Weighted Shuffle'!§!"
+ sabaton_TITLE:9 "§RSabaton - Désactiver la musique \"Weighted Shuffle\".!§!"
 
 ### Diplomacy Tooltips ###
 REQUEST_EXP_FORCE_BLOCKED_TT:0 "§RCe pays ne vous permet pas de demander ses forces.§!"
@@ -32,21 +32,21 @@ if_FROM_agrees:0 "Si §H[From.GetFlag] [From.GetNameDef]§! est d'accord :"
 upon_selecting_focus:0 "Lors du choix de la priorité :"
  tooltip_white_line:0 "   \n"
  integration_tooltip:0 "Voir les zones non intégrées"
- integrate_state:9 "Integrate [From.GetName]"
+ integrate_state:9 "Intégrer [From.GetName]"
  cannot_enact_conscription:0 "§RImpossible d'augmenter les lois sur la conscription.§!"
 cannot_train_units_tt:2 "§RImpossible de former des unités, de dissoudre des unités ou de modifier des modèles d'unités.§!\n"
  cannot_mobilise_tt:0 "§RImpossible d'augmenter les lois sur la conscription ou la mobilisation.§!\n"
- upon_starting_focus:9 "§HUpon selecting this focus§!:"
- returned_all_expeditionary_forces_of_puppets:9 "Has returned all expeditionary forces sent by puppets"
+ upon_starting_focus:9 "§HEn sélectionnant cette priorité§!:"
+ returned_all_expeditionary_forces_of_puppets:9 "A renvoyé toutes les forces expéditionnaires envoyées par les marionnettes."
 
 ### Actual Major Power tooltip ###
- is_actual_major_tooltip_base:9 " Is a major world power:"
+ is_actual_major_tooltip_base:9 " Est une puissance majeure mondiale :"
  is_actual_major_tooltip_major:9 "\n     [THIS.MajorWorldPower_MajorCheck] $TRIGGER_IS_MAJOR$"
  is_actual_major_tooltip_OR:9 "\n     $TRIGGER_OR_STARTS$"
- is_actual_major_tooltip_seven_largest:9 "\n          [THIS.MajorWorldPower_AmongSevenLargestIndustries] Has one of the world's seventh largest economies"
- is_actual_major_tooltip_average:9 "\n          [THIS.MajorWorldPower_MoreThanSeventyPercentAverage] Has more than §H70%§! of the average industrial capacity of the seven largest economies"
- is_actual_major_tooltip_countries:9 "\n          [THIS.MajorWorldPower_SpecialCase] Is a §HGerman§!, §HFrench§!, §HBritish§!, §HAmerican§!, §HRussian§! or §HJapanese§! country"
- is_actual_major_tooltip_ENT:9 "\n          [THIS.MajorWorldPower_IsENT] Is the leader of the §HEntente§!"
+ is_actual_major_tooltip_seven_largest:9 "\n          [THIS.MajorWorldPower_AmongSevenLargestIndustries] Possède l'une des sept plus grandes économies du monde"
+ is_actual_major_tooltip_average:9 "\n          [THIS.MajorWorldPower_MoreThanSeventyPercentAverage] Possède plus de §H70 %§! de la capacité industrielle moyenne des sept plus grandes économies."
+ is_actual_major_tooltip_countries:9 "\n          [THIS.MajorWorldPower_SpecialCase] Est un pays §HAllemand§!, §HFrançais§!, §HBritannique§!, §HAméricain§!, §HRusse§! ou §HJaponais§!."
+ is_actual_major_tooltip_ENT:9 "\n          [THIS.MajorWorldPower_IsENT] Est le chef de file de l'§HEntente§!"
 
  is_actual_major:9 "$is_actual_major_tooltip_base$$is_actual_major_tooltip_major$$is_actual_major_tooltip_OR$$is_actual_major_tooltip_seven_largest$$is_actual_major_tooltip_average$$is_actual_major_tooltip_countries$$is_actual_major_tooltip_ENT$"
  is_actual_major_without_exceptions:9 "$is_actual_major_tooltip_base$$is_actual_major_tooltip_major$$is_actual_major_tooltip_OR$$is_actual_major_tooltip_seven_largest$$is_actual_major_tooltip_average$"
@@ -67,10 +67,6 @@ is_actually_an_island:0 "est un État insulaire"
 
 ### Intelligence Agency Blocker ###
 INTELLIGENCE_AGENCY_BLOCK_TOOLTIP:0 "[!intelligence_agency_blocker_button_click_enabled]"
-
-### Splash Screen ###
-KR_SPLASH_TITLE:0 "Bienvenue dans Kaiserreich"
-KR_SPLASH_CREDITS:0 "§YCréé par l'équipe KR4 : §!Adrianator2, Alpinia, Arvidus, Asratius, Augenis, Blackfalcon501, DSFDarker, Carmain, Chazem, Conor, Dr. Njitram, Drozdovite, Eragaxshim, Flamefang, Fort, Gideones, JazzyHugh, Jeankedezeehond, Jonjon428, Jonny BL, Krco, Liegnitz, Maltesefalcon, Matoro, Nijato, NukeGaming, OperationsManagementDecisions, PPsyrius, Pietrus, Rei VL, Retrocognition, Rnk, Rylock, SPQR, Starguard, Telcontar101, The Alpha Dog, The Irredentista, Vidyaország, WordZero, Yard1, Zankoas and Zimbabwe Salt Co.\n§YTraduit par : §!Kira, Lazu, Mouchi, Nobelo81, Rosak et TheAzmyr\n§YAnciennement traduit par : §!Aegon Targaryen, Brakmar, Darkusios, Demetran, Fanois, Feuxin, Grikke, Kfateweaver, Klik le Araï, Le Marocain, MVMaroIV, Orakle14, Paralux, Remkiller123, Romain1912, Solal, Superwaffle, Vitulus, Youkoulélé et Zeplein"
 
 ### Autonomy Levels ###
 kr_integrated_puppet:0 "Fantoche Intégré"
@@ -228,9 +224,9 @@ mtg_generic.1.a:0 "Nous n'avons d'autre choix que d'accepter"
  modifier_army_sub_unit_category_bicycle_battalion_defence_factor:0 "Défense de l'infanterie à bicyclette"
  modifier_army_sub_unit_category_bicycle_battalion_speed_factor:0 "Vitesse de l'infanterie à bicyclette"
 
- modifier_army_sub_unit_category_mobile_infantry_attack_factor:9 "Cav/Mot/Mech Attack"
- modifier_army_sub_unit_category_mobile_infantry_defence_factor:9 "Cav/Mot/Mech Defence"
- modifier_army_sub_unit_category_mobile_infantry_speed_factor:9 "Cav/Mot/Mech Speed"
+ modifier_army_sub_unit_category_mobile_infantry_attack_factor:9 "Attaque Cav/Mot/Mec"
+ modifier_army_sub_unit_category_mobile_infantry_defence_factor:9 "Défense Cav/Mot/Mec"
+ modifier_army_sub_unit_category_mobile_infantry_speed_factor:9 "Vitesse Cav/Mot/Mec"
 
 ### Tech ###
 military_police_tech:0 "Police  Militaire "
@@ -345,7 +341,7 @@ ottos_lose_threat:0 "Empire ottoman vaincu"
 
 ### Other ###
  unlock_focuses:0 "§GCette priorité sera éventuellement contournée automatiquement et déverrouillera les autres priorités.§!\n"
- unlocks_after_event:9 "§GThis focus will automatically unlock via event§!\n"
+ unlocks_after_event:9 "§GCette priorité sera automatiquement déverrouillée par événement§!\n"
  if_accepted:0 "Si accepté :"
 command_economy:0 "Economie de commande"
  asked_to_join:0 "La participation a été demandée par une autre nation"
@@ -474,9 +470,9 @@ artillery_producer_defense_2:0 "Fabricant d'artillerie"
 artillery_producer_mass_0:0 "Fabricant d'artillerie"
 artillery_producer_mass_1:0 "Fabricant d'artillerie"
 artillery_producer_mass_2:0 "Fabricant d'artillerie"
- army_equipment_producer_0:9 "Military-Industrial Complex"
- army_equipment_producer_1:9 "Military-Industrial Complex"
- army_equipment_producer_2:9 "Military-Industrial Complex"
+ army_equipment_producer_0:9 "Complexe militaro-industriel"
+ army_equipment_producer_1:9 "Complexe militaro-industriel"
+ army_equipment_producer_2:9 "Complexe militaro-industriel"
 
 ### Naval ###
 capital_ship_producer_offense_0:0 "Fabricant de navires capitaux"
@@ -543,7 +539,7 @@ concentrated_industry_tech:0 "Technologie de l'industrie concentrée"
 dispersed_industry_tech:0 "Technologie de l'industrie dispersée"
 cat_gunnery:0 "Artillerie navale"
 cr_tech:0 "Modèles de croiseurs"
- acr_tech:9 "Armoured Cruiser Models"
+ acr_tech:9 "Modèles de croiseurs blindés"
 cat_targeting:0 "Pompes à incendie"
 cat_torpedo:0 "Technologie des torpilles"
  carrier_ship_tree:0 "Opérations de Porte-Avions"
@@ -553,10 +549,10 @@ cat_torpedo:0 "Technologie des torpilles"
 
 ### Hidden Techs ###
  camel_corps_tech:0 "Corps de chameaux"
- camel_corps_tech_effect:9 "Active §H$camel_corps_tech$§!\n§HCavalerie\n    Desert§!\n      Attaque: §G+15%§!\n      Défense: §G+5%§!\n      Mouvement: §G+3%§!\n\n"
+ camel_corps_tech_effect:9 "Active §H$camel_corps_tech$§!\n§HCavalerie\n    Desert§!\n      Attaque: §G+15%§!\n      Défense: §G+5%§!\n      Mouvement: §G+3%§!"
 
 tech_ski_infantry:0 "Infanterie à ski"
- tech_ski_infantry_effect:9 "Active §H$tech_ski_infantry$§!\n§HInfanterie\n    Collines§!\n      Attaque: §G+5%§!\n      Défense: §G+5%§!\n      Mouvement: §G+5%§!\n    §HMontagne§!\n      Attaque: §G+5%§!\n      Défense: §G+5%§!\n      Mouvement: §G+10%§!\n"
+ tech_ski_infantry_effect:9 "Active §H$tech_ski_infantry$§!\n§HInfanterie\n    Collines§!\n      Attaque: §G+5%§!\n      Défense: §G+5%§!\n      Mouvement: §G+5%§!\n    §HMontagne§!\n      Attaque: §G+5%§!\n      Défense: §G+5%§!\n      Mouvement: §G+10%§!"
 
 tech_marine_bonus:0 "Marines améliorés"
 tech_marine_bonus_effect:0 "Active §H$tech_marine_bonus$\nMarines§!\n      Attaque Légère : §G+5%§!\n      Attaque Lourde : §G+5%§!\n§HBataillon de l'Amtrac§!\n      Attaque Légère : §G+5%§!\n      Attaque Lourde : §G+5%§!\n§HHBataillon de chars Amphibies§!\n      Attaque Légère : §G+5%§!\n      Attaque Lourde : §G+5%§!"
@@ -571,34 +567,34 @@ improved_field_hospitals:0 "Hôpitaux de campagne améliorés"
 improved_field_hospitals_effect:0 "Active §H$improved_field_hospitals$\nHôpitaux de campagne§!\n      Trickleback: §G+20%§!\n      Perte d'expérience: §G-10%§!"
 
 expanded_engineer_corps_tech:0 "Corps d'ingénieur étendu"
- expanded_engineer_corps_tech_effect:9 "Active §H$expanded_engineer_corps_tech$\nCompagnie d'ingénieur§!\n      Retranchement: §G+2§!\n    §HFort§!\n      Attaque: §G+10%§!\n      Défense: §G+10%§!\n"
+ expanded_engineer_corps_tech_effect:9 "Active §H$expanded_engineer_corps_tech$\nCompagnie d'ingénieur§!\n      Retranchement: §G+2§!\n    §HFort§!\n      Attaque: §G+10%§!\n      Défense: §G+10%§!"
 
 mountain_training_tech:0 "Entraînement de Montagne"
- mountain_training_tech_effect:9 "Active §H$mountain_training_tech$\nInfanterie à pied§!\n    §HMontagne§!\n      Attaque: §G+5%§!\n      Défense: §G+5%§!\n      Mouvement: §G+10%§!\n"
+ mountain_training_tech_effect:9 "Active §H$mountain_training_tech$\nInfanterie à pied§!\n    §HMontagne§!\n      Attaque: §G+5%§!\n      Défense: §G+5%§!\n      Mouvement: §G+10%§!"
 
 improved_recon_units_tech:0 "Unités de reconnaissance améliorées"
- improved_recon_units_tech_effect:9 "Active §H$improved_recon_units_tech$\nCompagnie de reconnaissance§!\n      Percée: §G+1§!\n      Reconnaissance: §G+1§!\n"
+ improved_recon_units_tech_effect:9 "Active §H$improved_recon_units_tech$\nCompagnie de reconnaissance§!\n      Percée: §G+1§!\n      Reconnaissance: §G+1§!"
 
 asymmetrical_warfare:0 "Entraînement à la guerre asymétrique"
  asymmetrical_warfare_effect:9 "Enables §H$asymmetrical_warfare$\nLeg Infantry§!\n    §HUrban§!\n      Attack: §G+10%§!\n      Defence: §G+5%§!\n      Movement: §G+5%§!"
 
 desert_warfare:0 "Entraînement au combat en désert"
- desert_warfare_effect:9 "Active §H$desert_warfare$§!\n§HInfanterie à pied\n    Deserts§!\n      Attaque: §G+10%§!\n      Défense: §G+5%§!\n      Mouvement: §G+5%§!\n\n"
+ desert_warfare_effect:9 "Active §H$desert_warfare$§!\n§HInfanterie à pied\n    Deserts§!\n      Attaque: §G+10%§!\n      Défense: §G+5%§!\n      Mouvement: §G+5%§!"
 
 anti_fortification_artillery:0 "Artillerie Anti-Fortification"
- anti_fortification_artillery_effect:9 "Active §H$anti_fortification_artillery$§!\n§HArtillerie de soutien§!\n    Fort: Attaque: §G+20%§!\n§HArtillerie§!\n    Fort: Attaque: §G+20%§!\n§HArtillerie Motorisé§!\n    Fort: Attaque: §G+20%§!\n"
+ anti_fortification_artillery_effect:9 "Active §H$anti_fortification_artillery$§!\n§HArtillerie de soutien§!\n    Fort: Attaque: §G+20%§!\n§HArtillerie§!\n    Fort: Attaque: §G+20%§!\n§HArtillerie Motorisé§!\n    Fort: Attaque: §G+20%§!"
 
 tech_integrated_specialists:0 "Forces Speciales Intégrées"
 tech_integrated_specialists_effect:0 "Active §H$tech_integrated_specialists$§!\nLimite Forces Speciales: §G+5%§!\n§HForces Speciales§!\n      Attaque Légère: §G+5%§!\n      Attaque Lourde: §G+5%§!"
 
- tech_at_cavalry:9 "Anti-Tank Cavalry"
- tech_at_cavalry_effect:9 "Enables §H$tech_at_cavalry$\nCavalry§!\n      Piercing: §G+75%§!\n      Hard Attack: §G+10%§!"
+ tech_at_cavalry:9 "Cavalerie Anti-Tank"
+ tech_at_cavalry_effect:9 "Active §H$tech_at_cavalry$\nCavalerie§!\n      Perforation : §G+75%§!\n      Attaque Dure: §G+10%§!"
 
- tech_dragoon_tactics:9 "Dragoon Tactics"
- tech_dragoon_tactics_effect:9 "Enables §H$tech_dragoon_tactics$\nCavalry§!\n      Max Organization: §G+5§!\n      Recovery Rate: §G+10%§!\n      Movement: §G+10%§!\n      Night Attack: §G+10§!"
+ tech_dragoon_tactics:9 "Tactiques de Dragons"
+ tech_dragoon_tactics_effect:9 "Active §H$tech_dragoon_tactics$\nCavalerie§!\n      Organisation Max : §G+5§!\n      Taux de Récupération : §G+10%§!\n      Mouvement : §G+10%§!\n      Attaque de Nuit : §G+10§!"
 
- tech_improved_encryption:9 "Improved Encryption"
- tech_improved_encryption_effect:9 "Enables §H$tech_improved_encryption$§!\n$MODIFIER_CRYPTO_STRENGTH$: [?2|+ = 0]"
+ tech_improved_encryption:9 "Cryptage Amélioré"
+ tech_improved_encryption_effect:9 "Active §H$tech_improved_encryption$§!\n$MODIFIER_CRYPTO_STRENGTH$: [?2|+ = 0]"
 
 ### Army Command Traits ###
 
