@@ -79,7 +79,7 @@ has_scripted_peace_desc:0 "Le pays est en guerre et est déterminé à remporter
  unit_limit_bonus:0 "Limite de divisions"
 
  unit_limit_label:0 "§HDivisions maximales soutenues§!"
- unit_limit_desc:0 "Chaque pays n'a la capacité de soutenir qu'un certain nombre de divisions militaires individuelles avant que son économie et ses infrastructures n'aient du mal à les maintenir.\n\nLe nombre maximum d'unités soutenues est basé sur la population totale du pays, et est également influencé par son niveau d'industrialisation, les usines militaires valant deux fois plus que les usines civiles ou les chantiers navals.\n\n§L   - De la Population Totale : [?base_units|G0][unit_limit_noncore_population][unit_limit_crownland_population_bonus]\n   - Points d'Usine Minimum : [?minimum_factory_points|O0]\n   - Points d'Usine Totaux : [?factory_points|O0][unit_limit_crownland_factory_bonus]\n   - Modification d'Industrialisation : §Hx[?industry_factor|H9]§![unit_limit_faction_leader][unit_limit_economy_law][unit_limit_was_capped][unit_limit_lower_limit_used][unit_limit_upper_limit_used][unit_limit_bonus_used]\n\n   TOTAL FINAL: [?max_divisions|H0]\n\nVeuillez noter qu'il faut compter jusqu'à une semaine de jeu pour que les modifications apportées aux éléments ci-dessus soient prises en compte dans le calcul.§![above_unit_limit_desc]"
+ unit_limit_desc:9 "Every country only has the ability to support a certain number of individual military divisions before their economy and infrastructure struggle to maintain them.\n\nThe maximum number of supported units is based on the country's total population and owned states, and is then multiplied by the country's overall level of industrialisation.\n\n§L   - Base from Total Population: [?base_population|G0][unit_limit_noncore_population][unit_limit_crownland_population_bonus]\n   - Base from Owned States: [?base_states|G0][unit_limit_crownland_state_bonus]\n   - Total Base: [?base_units|G0]\n\n   - Industrialisation Modifier: [?industry_factor|H%][unit_limit_modifier_was_capped][unit_limit_extra_modifier_line_break][unit_limit_faction_leader][unit_limit_economy_law][unit_limit_was_capped][unit_limit_lower_limit_used][unit_limit_upper_limit_used][unit_limit_bonus_used]\n\n   FINAL TOTAL: [?max_divisions|H0]\n\nPlease note that changes to the above take up to one in-game week before they are reflected in the calculation.§![above_unit_limit_desc]"
 
  unit_limit_desc_fake_intel:0 "(§HLes fausses divisions du renseignement§! ne comptent pas dans la limite de divisions)"
 
@@ -87,11 +87,11 @@ has_scripted_peace_desc:0 "Le pays est en guerre et est déterminé à remporter
 
  unit_limit_noncore_population_desc:0 "\n      (§H10%§! des états non cœur : [?non_core_base|H1])"
  unit_limit_crownland_population_bonus_desc:0 "\n      ([?crownland_base_units|H0] des §HCrownlands§!)"
- unit_limit_crownland_factory_bonus_desc:0 "\n      ([?crownland_factory_points|H0] des §HCrownlands§!)"
+ unit_limit_crownland_state_bonus_desc:9 "\n      ([?crownland_states|H0] from the §HCrownlands§!)"
+ unit_limit_modifier_was_capped_desc:9 "\n      (Capped to a minimum of [?0.5|H%])"
  unit_limit_faction_leader_desc:0 "\n   - Chef de Faction : §G+15%§!"
- unit_limit_was_capped_desc:0 "\n   - Total non plafonné : §W[?net_max_divisions]§!"
- unit_limit_half_factory_points_used_desc:0 "\n\n   Comme le total fourni était inférieur à la moitié du total des points d'usine multiplié par notre facteur de loi d'économie ([?lower_limit_from_factories|H0]), celui-ci a été utilisé à la place."
- unit_limit_num_states_used_desc:0 "\n\n   Comme le total fourni était inférieur au nombre d'états possédés ([?lower_limit_from_states|H0]), celui-ci a été utilisé à la place."
+ unit_limit_was_capped_desc:9 "\n   - Total non plafonné : §W[?net_max_divisions]§!"
+ unit_limit_num_states_used_desc:9 "\n\n   Because the total provided was lower than the number of owned states ([?num_owned_states|H0]), that was used instead."
  unit_limit_default_used_desc:0 "\n\n   Comme le total fourni était inférieur à la valeur par défaut (§H5§!), celle-ci a été utilisée à la place."
  unit_limit_bonus_used_desc:0 "\n\n   - Modificateurs Additionnels : [?additional_unit_limit|=+0] à la limite"
 
