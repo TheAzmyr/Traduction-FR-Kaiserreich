@@ -1,5 +1,5 @@
 name="Kaiserreich Traduction Francophone"
-path="D:/Documents/Paradox Interactive/Hearts of Iron IV/mod/Traduction-FR-Kaiserreich"
+path="mod/Traduction-FR-Kaiserreich"
 dependencies={
 	"Kaiserreich"
 	"Kaiserreich Dev Build"
