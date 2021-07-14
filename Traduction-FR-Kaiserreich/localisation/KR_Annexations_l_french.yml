@@ -24,7 +24,7 @@ can_offer_land_to_SRD:0 "Est en mesure de faire une offre à §Y[SRD.GetNameDef]
 
 ### Events and Decisions ###
 annexation_decisions:0 "Décisions d'annexion"
- annexation_decisions_desc:0 "Après avoir pris le contrôle de nouvelles étendues de terre, nous devons maintenant décider de ce qu'il faut en faire. L'occupation peut être coûteuse et déstabilisante, mais elle nous donne un accès direct aux richesses de ces nouvelles terres. D'autre part, la création de nations fantoches permet d'éviter de telles occupations mais n'est pas toujours aussi fiable. Dans tous les cas, le destin des nations est entre nos mains."
+ annexation_decisions_desc:9 "Après avoir pris le contrôle de nouvelles étendues de terre, nous devons maintenant décider de ce qu'il faut en faire. L'occupation peut être coûteuse et déstabilisante, mais elle nous donne un accès direct aux richesses de ces nouvelles terres. D'autre part, la création de nations fantoches permet d'éviter de telles occupations mais n'est pas toujours aussi fiable. Dans tous les cas, le destin des nations est entre nos mains."
 
 annex.occupation:0 "L'occupation militaire est la seule réponse."
  annex.integration:0 "Assimiler au territoire [Root.GetAdjective]."
@@ -189,22 +189,21 @@ annexation_LUX_CONQ_desc:0 "Le Grand-Duché de Luxembourg était autrefois un É
  annexation_RHI_CONQ:0 "Le Destin de la Rhénanie"
  annexation_RHI_CONQ_desc:0 "Toute la région rhénane a été placée sous notre contrôle. Actuellement, nos forces armées font face à une certaine opposition de la part des populations locales. Nous pourrions laisser aux gouvernements locaux de la région le soin de s'occuper de toute dissidence."
  annex.1003.a:0 "Libérer un État rhénan loyal"
- annex.1003.b:0 "Le libérer en tant que partie d'un plus grand État d'Allemagne du Nord"
- annex.1003.c:0 "Donnez-la à [NGF.GetNameDef]"
- annex.1003.d:0 "Occuper la Rhénanie, libérer le reste comme un État fantoche."
- annex.1003.e:0 "Occuper la Rhénanie, libérer du reste sous la forme d'un État d'Allemagne du Nord."
+ annex.1003.b:0 "Donnez-la à [NGF.GetNameDef]"
+ annex.1003.c:0 "Occuper la Rhénanie, libérer le reste comme un État fantoche."
 
  annexation_NGF_CONQ:0 "Le destin de l'Allemagne du Nord"
  annexation_NGF_CONQ_desc:0 "Toute la région de l'Allemagne du Nord a été placée sous notre contrôle. Actuellement, nos forces armées sont confrontées à une certaine opposition de la part des populations locales. Nous pourrions laisser aux gouvernements locaux de la région le soin de s'occuper de toute dissidence."
  annex.1004.a:0 "Libérer un État loyal d'Allemagne du Nord"
- annex.1004.b:0 "Libère un État d'Allemagne du Nord qui comprend le Rhin"
+ annex.1004.b:9 "Release a North German state, and include the Rhineland"
+ annex.1004.c:9 "Release a North German state, and include Prussia"
+ annex.1004.d:9 "Release a North German state, and include Prussia and the Rhineland"
 
  annexation_SCHLESWIG_CONQ:0 "Le Destin de [782.GetName]"
  annexation_SCHLESWIG_CONQ_desc:0 "L'état de [782.GetName] a été placé sous notre contrôle alors que nos troupes occupent la région. Nous devons maintenant décider de ce qu'il faut en faire."
- annex.1005.a:0 "Donnez-le à [DEN.GetNameDef]"
+ annex.1005.a:9 "Donnez-le à [DEN.GetNameDef]"
  annex.1005.b:0 "Donnez-le à [58.owner.GetNameDef]"
  annex.1005.c:0 "Intégrez-le à [Root.GetNameDef]"
- annex.1005.e:0 "Donnez-le à [SCA.GetNameDef]"
 
  annexation_DDR_CONQ:0 "Le destin de la Prusse"
  annexation_DDR_CONQ_desc:0 "Une grande partie de la Prusse a été placée sous notre contrôle alors que nos troupes occupent la région. Nous devons maintenant décider de ce qu'il faut en faire."
@@ -233,8 +232,8 @@ annexation_LUX_CONQ_desc:0 "Le Grand-Duché de Luxembourg était autrefois un É
  annexation_MASURIA_CONQ_desc:0 "L'état de [777.GetName] a été placé sous notre contrôle alors que nos troupes occupent la région. Nous devons maintenant décider de ce qu'il faut en faire."
  annex.1010.a:0 "Donnez-le à [5.owner.GetNameDef]"
 
- annexation_GUMBINNEN_CONQ:0 "Le Destin de [188.GetName]"
- annexation_GUMBINNEN_CONQ_desc:0 "L'état de [188.GetName] a été placé sous notre contrôle alors que nos troupes occupent la région. Nous devons maintenant décider de ce qu'il faut en faire."
+ annexation_MEMEL_CONQ:0 "Le Destin de [188.GetName]"
+ annexation_MEMEL_CONQ_desc:0 "L'état de [188.GetName] a été placé sous notre contrôle alors que nos troupes occupent la région. Nous devons maintenant décider de ce qu'il faut en faire."
  annex.1011.b:0 "Donnez-le à [LIT.GetNameDef]"
  annex.1011.c:0 "Donnez-le à [BAT.GetNameDef]"
  annex.1011.d:0 "Donnez-le à [POL.GetNameDef]"
@@ -256,11 +255,21 @@ annexation_POL_CONQ_desc:0 "Nos soldats marchent dans les rues de Varsovie aprè
  annex.1014.d:0 "Libérer la Pologne et lui accorder la Galicie."
  annex.1014.e:0 "Annexer les terres polonaises."
 
- annexation_BIALYSTOK_CONQ:0 "Le Destin de [97.GetName]"
- annexation_BIALYSTOK_CONQ_desc:0 "La région autour de [97.GetName] est maintenant sous notre contrôle, nous devons décider ce que nous allons en faire."
+ annexation_BIALYSTOK_CONQ:9 "[annexation_BIALYSTOK_CONQ_title]"
+ annexation_BIALYSTOK_CONQ_desc:9 "[annexation_BIALYSTOK_CONQ_description]"
+
+ annexation_BIALYSTOK_CONQ_southern_lithuania:9 "The Fate of Southern Lithuania"
+ annexation_BIALYSTOK_CONQ_southern_lithuania_desc:9 "The contested regions formerly belonging to Lithuania are now under our control, we must decide what to do with them."
+
+ annexation_BIALYSTOK_CONQ_bialystok:0 "Le Destin de [97.GetName]"
+ annexation_BIALYSTOK_CONQ_bialystok_desc:0 "La région autour de [97.GetName] est maintenant sous notre contrôle, nous devons décider ce que nous allons en faire."
  annex.1015.a:0 "Donnez-la à [POL.GetNameDef]"
  annex.1015.b:0 "Donnez-la à [WHR.GetNameDef]"
  annex.1015.c:0 "Donnez-la à [LIT.GetNameDef]"
+ annex.1015.d:9 "Split it between [POL.GetNameDef] and [204.Owner.GetNameDef]"
+ annex.1015.e:9 "Give [97.GetName] to [POL.GetNameDef], deal with the others later"
+ annex.1015.f:9 "Give all of it to [POL.GetNameDef]"
+ annex.1015.g:9 "Split the region between the neighbouring countries"
 
  annexation_EST_CONQ:0 "Le destin de l'Estonie"
  annexation_EST_CONQ_desc:0 "Une grande partie de l'Estonie a été placée sous notre contrôle alors que nos troupes occupent la région. Nous devons maintenant décider de ce qu'il faut en faire."
@@ -288,8 +297,9 @@ annexation_LIT_CONQ_desc:0 "La révolte dans le duché de Lituanie est enfin ter
  annexation_VILNIUS_CONQ:0 "Le destin de Vilnius"
  annexation_VILNIUS_CONQ_desc:0 "La ville contestée de Vilnius a été placée sous notre contrôle alors que nos troupes occupent la région. Nous devons maintenant décider de ce qu'il faut en faire."
  annex.1019.a:0 "Donnez-la à [LIT.GetNameDef]"
- annex.1019.b:0 "Donnez-la à [POL.GetNameDef]"
- annex.1019.c:0 "Donnez-la à [WHR.GetNameDef]"
+ annex.1019.b:9 "Donnez-la à [POL.GetNameDef]"
+ annex.1019.c:9 "Donnez-la à [WHR.GetNameDef]"
+ annex.1019.d:0 "Donnez-le à [WHR.GetNameDef]"
 
 annexation_AUS_CONQ:0 "Le destin de l'Autriche"
  annexation_AUS_CONQ_desc:0 "L'Autriche a été contrainte de capituler et nos troupes patrouillent dans les rues de Vienne pour empêcher une rébellion ou tout ce qui pourrait provoquer une plus grande instabilité. Cependant, certains ont proposé que la création d'un gouvernement autrichien local serait plus utile."
@@ -511,7 +521,7 @@ annexation_HOL_CONQ_desc:0 "Après une courte campagne à travers les marais et 
  annex.1049.g:0 "Donner la Flandre à la Wallonie et réunifier la Belgique"
  annex.1049.h:0 "Annexer la Wallonie, mais libérer la Flandre !"
 
- annex.1050.t:0 "Le Statut de la Flandre"
+ annex.1050.t:9 "Le Statut de la Flandre"
  annex.1050.d:0 "Pour notre soutien direct à la cause syndicaliste, la Commune de France nous a récompensé avec le territoire de la Flandre. Nous pouvons l'intégrer directement, ou créer une Flandre syndicaliste sous notre contrôle..."
  annex.1050.a:0 "Annexer directement la Flandre."
  annex.1050.b:0 "Libérer la Flandre."
@@ -549,7 +559,7 @@ annexation_ICE_CONQ_desc:0 "Une campagne dans l'Atlantique Nord a porté ses fru
  annex.1054.e:0 "Donner le Groenland à [CAN.GetNameDef]"
 
 annexation_NOR_CONQ:0 "Le destin de la Norvège"
- annexation_NOR_CONQ_desc:0 "L'armée norvégienne s'est rendue et nous avons fait complètement capitulé le gouvernement norvégien. Notre drapeau flotte sur l'ancien bâtiment de la capitale à Oslo alors que notre campagne militaire touche à sa fin. Nous devons maintenant commencer une campagne pour détruire les partisans norvégiens, mais peut-être que l'enrôlement de sympathisants norvégiens pour former un gouvernement nous aiderait ?"
+ annexation_NOR_CONQ_desc:9 "L'armée norvégienne s'est rendue et nous avons fait complètement capitulé le gouvernement norvégien. Notre drapeau flotte sur l'ancien bâtiment de la capitale à Oslo alors que notre campagne militaire touche à sa fin. Nous devons maintenant commencer une campagne pour détruire les partisans norvégiens, mais peut-être que l'enrôlement de sympathisants norvégiens pour former un gouvernement nous aiderait ?"
  annex.1055.a:0 "Restaurer la monarchie norvégienne !"
  annex.1055.b:0 "Rétablir l'Union entre la Suède et la Norvège"
  annex.1055.c:0 "Établir une république norvégienne."
@@ -588,6 +598,7 @@ annexation_UKR_CONQ_desc:0 "Après un long combat avec le grenier de l'Europe, n
  annex.1061.c:0 "Donnez-la à [WHR.GetNameDef]"
  annex.1061.d:0 "Séparez-la entre [POL.GetNameDef] et [UKR.GetNameDef]"
  annex.1061.e:0 "Séparez-la entre [POL.GetNameDef] et [WHR.GetNameDef]"
+ annex.1061.f:9 "Split it between [POL.GetNameDef] and [204.owner.GetNameDef]"
 
  annexation_POLESIA_CONQ:0 "Le Destin de la Polésie"
  annexation_POLESIA_CONQ_desc:0 "La région tranquille de Polésie est passée sous notre contrôle puisque nos troupes l'occupent. Nous devons maintenant décider ce que nous allons en faire."
@@ -603,6 +614,7 @@ annexation_WHR_CONQ_desc:0 "Après une courte campagne à travers la Biélorussi
  annex.1064.a:0 "Donnez-la à [WHR.GetNameDef]"
  annex.1064.b:0 "Donnez-la à [219.Owner.GetNameDef]"
  annex.1064.c:0 "Séparez-la entre [WHR.GetNameDef] et [219.Owner.GetNameDef]"
+ annex.1064.d:0 "Donnez-la à [LIT.GetNameDef]"
 
 annexation_RUS_CONQ:0 "Le destin de la Russie"
 annexation_RUS_CONQ_desc:0 "Après un long combat avec l'État russe, nous avons lancé une offensive totale et forcé les forces armées russes à se rendre. Moscou est maintenant entre nos mains et le destin de la nation russe avec elle !"
@@ -625,8 +637,7 @@ annexation_RUS_CONQ_desc:0 "Après un long combat avec l'État russe, nous avons
 annexation_ALB_CONQ:0 "Le destin de l'Albanie"
 annexation_ALB_CONQ_desc:0 "Après une campagne à travers la campagne albanaise, nos ennemis à Tirana ont finalement capitulé, nous laissant le contrôle de leur pays. Notre position dans l'Adriatique a été consolidée, mais nous devons maintenant décider de ce que nous allons faire de l'Albanie."
  annex.1068.a:0 "Restaurer une Albanie autonome !"
- annex.1068.b:0 "Libérer l'Albanie sous Guillaume de Wied !"
- annex.1068.c:0 "Prendre l'Épire du Nord et libérer le reste !"
+ annex.1068.c:9 "Prendre l'Épire du Nord et libérer le reste !"
 
 annexation_MNT_CONQ:0 "Le destin du Monténégro"
 annexation_MNT_CONQ_desc:0 "Le Monténégro est maintenant fermement tenu entre nos mains après notre occupation de la région, mais nous ne pouvons pas rester éternellement dans un Monténégro inhospitalier. Nous devons décider de ce qu'il faut en faire."
@@ -836,6 +847,13 @@ annexation_MLT_CONQ_desc:0 "Malte a été placée sous notre direction et nos tr
  annex.1106.c:0 "Donnez-le à [CZE.GetNameDef]"
  annex.1106.d:0 "Donnez-le à [AUS.GetNameDef]"
 
+ annexation_VOLKOVYSK_CONQ:9 "The Fate of [94.GetName]"
+ annexation_VOLKOVYSK_CONQ_desc:9 "The region around [94.GetName] is now under our control, we must decide what to do with it."
+ annex.1107.a:9 "Give it to [204.Owner.GetNameDef]"
+ annex.1107.b:0 "Donnez-le à [POL.GetNameDef]"
+ annex.1107.c:0 "Donnez-la à [LIT.GetNameDef]"
+
+
  annexation_USA_CONQ:0 "Le destin de l'Amérique"
  annexation_USA_CONQ_desc:0 "Now that the war is over, we must decide what to do with our occupied land in America"
  annex.2000.a:0 "Libérez les Etats-Unis !"
@@ -931,7 +949,7 @@ annexation_MLT_CONQ_desc:0 "Malte a été placée sous notre direction et nos tr
  annexation_CAF_CONQ:0 "Le destin de la Fédération des Indes Occidentales"
  annexation_CAF_CONQ_desc:0 "Après une longue campagne, une bonne partie de la région des Caraïbes est maintenant sous notre contrôle. Nous devons décider de ce qu'il faut faire de ses nombreuses îles dispersées."
  annex.2016.a:0 "Libérer la Fédération des Antilles sous un gouvernement ami !"
- annex.2016.b:0 "Nous prendrons des décisions plus approfondies..."
+ annex.2016.b:0 "Nous déciderons de ce que nous ferons de chaque région séparément."
  annex.2016.c:0 "Recréer la Fédération"
 
  annexation_JAM_CONQ:0 "Le destin de la Jamaïque"
@@ -1001,42 +1019,42 @@ annexation_MLT_CONQ_desc:0 "Malte a été placée sous notre direction et nos tr
 
  annexation_AMA_CONQ:0 "Le sort du bassin de l'Amazone"
  annexation_AMA_CONQ_desc:0 "Nos forces armées ont remporté une grande victoire, et toutes les grandes villes et les forts situés de l'autre côté des vastes rivières du bassin amazonien sont tombés sous notre contrôle, dans plusieurs États et territoires brésiliens. Nous devons maintenant décider quel sera l'avenir de ces terres."
- annex.2030.a:0 "Réorganiser les États en une république indépendante"
+ annex.2030.a:9 "Réorganiser les États en une république indépendante"
  annex.2030.b:0 "Le rendre à nos alliés brésiliens"
  annex.2030.c:0 "Donnez-le à [280.owner.GetNameDef]"
  annex.2030.d:0 "Donnez-le à [896.owner.GetNameDef]"
 
  annexation_GOY_CONQ:0 "Le destin de l'arrière-pays brésilien"
  annexation_GOY_CONQ_desc:0 "Les vastes terres de l'intérieur du Brésil sont sous notre contrôle, car les centres de population dispersés de ces États ne pourraient pas faire grand-chose pour contrer nos forces d'invasion. Nous devons maintenant décider de ce que sera l'avenir de cette région."
- annex.2031.a:0 "Réorganiser les États en une république indépendante"
+ annex.2031.a:9 "Réorganiser les États en une république indépendante"
  annex.2031.b:0 "Donnez-les à [898.owner.GetNameDef]"
 
  annexation_GRP_CONQ:0 "Le destin du Nord-Est du Brésil"
- annexation_GRP_CONQ_desc:0 "Le berceau du Brésil, son nord-est, est à nouveau tombé aux mains des forces d'invasion pour la première fois depuis le XVIIe siècle. Nos forces occupent maintenant la quasi-douzaine de capitales d'État ; nous devons décider de l'avenir de cette région."
- annex.2032.a:0 "Réorganiser les États en une république indépendante"
+ annexation_GRP_CONQ_desc:9 "Le berceau du Brésil, son nord-est, est à nouveau tombé aux mains des forces d'invasion pour la première fois depuis le XVIIe siècle. Nos forces occupent maintenant la quasi-douzaine de capitales d'État ; nous devons décider de l'avenir de cette région."
+ annex.2032.a:9 "Réorganiser les États en une république indépendante"
  annex.2032.b:0 "Donnez-les à [499.owner.GetNameDef]"
  annex.2032.c:0 "Donnez-les à [505.owner.GetNameDef]"
 
  annexation_BAH_CONQ:0 "Le destin de Bahia"
  annexation_BAH_CONQ_desc:0 "Alors que les combats s'apaisent, et qu'il ne reste qu'une résistance éparpillée dans l'intérieur des terres, nos forces ont pris le contrôle total de l'Etat de Bahia. Nous devons maintenant décider quel sera l'avenir de cet État."
- annex.2033.a:0 "Réorganiser les États en une république indépendante"
+ annex.2033.a:9 "Réorganiser les États en une république indépendante"
  annex.2033.b:0 "Les rendre à nos alliés brésiliens"
  annex.2033.c:0 "Donnez-les à [496.owner.GetNameDef]"
  annex.2033.d:0 "Donnez-les à [498.owner.GetNameDef]"
 
  annexation_RJM_CONQ:0 "Le destin du sud-est du Brésil"
  annexation_RJM_CONQ_desc:0 "Alors que la résistance de l'autre côté de la forêt atlantique s'estompe, Rio de Janeiro, la capitale du Brésil depuis 1808, et toutes les autres villes de la région sont désormais fermement sous notre contrôle. Nous devons maintenant décider de ce que sera l'avenir de cette région"
- annex.2034.a:0 "Réorganiser les États en une république indépendante"
+ annex.2034.a:9 "Réorganiser les États en une république indépendante"
  annex.2034.b:0 "Rendez-les au Brésil"
 
  annexation_SPO_CONQ:0 "Le destin de São Paulo"
  annexation_SPO_CONQ_desc:0 "Après des combats acharnés, nous avons São Paulo, l'État le plus riche et le plus peuplé du Brésil, entièrement sous notre contrôle. Nous devons maintenant décider quel sera l'avenir de cet État."
- annex.2035.a:0 "Réorganiser l'État en une république indépendante"
+ annex.2035.a:9 "Réorganiser l'État en une république indépendante"
  annex.2035.b:0 "Les rendre à nos alliés brésiliens"
 
  annexation_PIR_CONQ:0 "Le destin des régions frontalières du Brésil"
  annexation_PIR_CONQ_desc:0 "La première ligne de défense du Brésil, historiquement sujette aux rébellions, les trois États les plus méridionaux, sont désormais sous notre contrôle stratégique total. Nous devons maintenant décider de ce que sera l'avenir de ces trois États."
- annex.2036.a:0 "Réorganiser les États en une république indépendante"
+ annex.2036.a:9 "Réorganiser les États en une république indépendante"
  annex.2036.b:0 "Donnez-les à [501.owner.GetName]"
  annex.2036.c:0 "Annexer [502.GetName] et libérer une république amie dans la région."
  annex.2036.d:0 "Annexer [502.GetName] et donner le reste à [501.owner.GetName]."
@@ -1110,6 +1128,7 @@ annexation_MLT_CONQ_desc:0 "Malte a été placée sous notre direction et nos tr
  annexation_ALO_CONQ:0 "Le Destin d'Alash"
  annexation_ALO_CONQ_desc:0 "Alash a été placé sous notre contrôle alors que nos troupes occupent la région. Nous devons maintenant décider de ce qu'il faut en faire."
  annex.3001.a:0 "Libérer Alash."
+ annex.3001.b:0 "Donnez-le à [571.Owner.GetNameDef]."
  annex.3001.c:0 "Donnez-le à [TRK.GetNameDef]."
  
  annexation_TRK_CONQ:0 "Le destin du Turkestan"
@@ -1163,8 +1182,8 @@ annexation_MLT_CONQ_desc:0 "Malte a été placée sous notre direction et nos tr
  annex.3010.h:0 "Restaurer l'Empire Qing."
  annex.3010.i:0 "Libérer une Chine fédéraliste !"
  annex.3010.j:0 "Libérer la République de Beiyang !"
- annex.3010.k:0 "Libérer le Gouvernement Réorganisé de la Chine !"
- annex.3010.l:0 "Annexer le littoral et libérer le Gouvernement Réorganisé de la Chine !"
+ annex.3010.k:9 "Libérer le Gouvernement Réorganisé de la Chine !"
+ annex.3010.l:9 "Annexer le littoral et libérer le Gouvernement Réorganisé de la Chine !"
  annex.3010.m:0 "Donnez-la à nos alliés [china_ally_target.GetAdjective]s !"
 
  annexation_TIB_CONQ:0 "Le destin du Tibet"
@@ -1176,7 +1195,8 @@ annexation_MLT_CONQ_desc:0 "Malte a été placée sous notre direction et nos tr
  annexation_SIK_CONQ:0 "Le destin du Xinjiang"
  annexation_SIK_CONQ_desc:0 "Après le succès de notre campagne dans le Xinjiang, nous avons maintenant la tâche d'établir une nouvelle autorité administrative locale afin de rétablir la paix, mais plusieurs options s'offrent à nous."
  annex.3012.a:0 "Créer un Xinjiang indépendant"
- annex.3012.b:0 "Donnez-le à [ALO.GetNameDef]"
+ annex.3012.b:9 "Donnez-le à [ALO.GetNameDef]"
+ annex.3012.c:9 "Give it to [united_central_asia.GetNameDef]"
 
  annexation_MON_CONQ:0 "Le destin de la Mongolie"
  annexation_MON_CONQ_desc:0 "Après notre campagne réussie dans les steppes de Mongolie, nous avons maintenant la tâche d'établir une nouvelle autorité administrative locale afin de rétablir la paix"
@@ -1238,6 +1258,7 @@ annexation_MLT_CONQ_desc:0 "Malte a été placée sous notre direction et nos tr
  annexation_LAO_CONQ:0 "Le destin du Laos"
  annexation_LAO_CONQ_desc:0 "Nos armées ont pris le contrôle du Laos, et les habitants réclament l'autonomie gouvernementale. Nous devrions décider de ce qu'il faut faire de la région"
  annex.3024.a:0 "Mettre en place un État laotien fantoche."
+ annex.3024.b:9 "Integrate it into our fold."
 
  annexation_CAM_CONQ:0 "Le destin du Cambodge"
  annexation_CAM_CONQ_desc:0 "Nos armées ont pris le contrôle de Phnom Penh, et les Cambodgiens réclament l'autonomie gouvernementale. Nous devrions décider de ce qu'il faut faire de la région"
@@ -1255,9 +1276,11 @@ annexation_MLT_CONQ_desc:0 "Malte a été placée sous notre direction et nos tr
 
  annexation_PNG_CONQ:0 "Le destin de la Papouasie-Nouvelle-Guinée"
  annexation_PNG_CONQ_desc:0 "La Papouasie-Nouvelle-Guinée a été placée sous notre direction et nos troupes occupent l'île. Nous devons maintenant décider de ce qu'il faut en faire."
- annex.3028.a:0 "Libérer la Papouasie-Nouvelle-Guinée en tant que marionnette"
- annex.3028.b:0 "Donnez-la à [AST.GetNameDef]"
- annex.3028.c:0 "Donnez-la à [INS.GetNameDef]"
+ annex.3028.a:9 "Release Papua New Guinea"
+ annex.3028.b:9 "Donnez-la à [AST.GetNameDef]"
+ annex.3028.c:9 "Donnez-la à [INS.GetNameDef]"
+ annex.3028.d:9 "Give it to [DEI.GetNameDef]"
+ annex.3028.e:9 "Give it to [GEA.GetNameDef]"
 
  annexation_MAL_CONQ:0 "Le destin de la Malaisie"
  annexation_MAL_CONQ_desc:0 "Nos armées ont réussi à prendre le contrôle de la Malaisie, et elle est maintenant occupée par nous. Nous avons quelques options à ce stade. Que devons-nous faire ?"
@@ -1480,7 +1503,7 @@ annexation_MLT_CONQ_desc:0 "Malte a été placée sous notre direction et nos tr
  annex.4005.c:0 "Donnez-le à [OTT.GetNameDef]"
  annex.4005.d:0 "Gardez-le"
 
- annexation_SINAI_CONQ:0 "Conquête du Sinaï"
+ annexation_SINAI_CONQ:9 "The Fate of Sinai"
  annexation_SINAI_CONQ_desc:0 "La péninsule du Sinaï, où dans la tradition abrahamique, Moïse aurait rencontré Dieu lui-même, est située au bord du canal vital de Suez et occupe une position stratégique importante. Maintenant que la péninsule est sous notre contrôle, que faut-il en faire ?"
  annex.4006.a:0 "Donnez-le à [EGY.GetNameDef]"
  annex.4006.b:0 "Donnez-le à [454.owner.GetNameDef]"
@@ -1526,11 +1549,6 @@ annexation_MLT_CONQ_desc:0 "Malte a été placée sous notre direction et nos tr
  annex.4012.a:0 "Libérer l'Arménie !"
  annex.4012.b:0 "Réintégrer les terres arméniennes."
  annex.4012.c:0 "Donnez-le à nos alliés russes."
-
- annexation_LORI_CONQ:0 "Le Destin de Lori"
- annexation_LORI_CONQ_desc:0 "La minuscule région de Lori est maintenant sous notre contrôle, nous devons décider quoi en faire."
- annex.4013.a:0 "Donnez-la à [ARM.GetNameDef]"
- annex.4013.b:0 "Donnez-la à [GEO.GetNameDef]"
 
  annexation_KARS_CONQ:0 "Le Destin de [1000.GetName]"
  annexation_KARS_CONQ_desc:0 "La minuscule région de [1000.GetName] a été placée sous notre contrôle alors que nos troupes occupent la région. Nous devons maintenant décider de ce qu'il faut en faire."
@@ -1595,6 +1613,16 @@ annexation_MLT_CONQ_desc:0 "Malte a été placée sous notre direction et nos tr
  annex.4024.a:0 "Donnez-le à [YEM.GetNameDef]"
  annex.4024.b:0 "Donnez-le à [292.owner.GetNameDef]"
 
+ annexation_BATUMI_CONQ:9 "The Fate of Batumi"
+ annexation_BATUMI_CONQ_desc:9 "The port city of Batumi is now under our control, we must decide what to do with it."
+ annex.4025.a:0 "Donnez-la à [GEO.GetNameDef]"
+ annex.4025.b:0 "Donnez-la à [ARM.GetNameDef]"
+ annex.4025.c:9 "Give it to [1001.Owner.GetNameDef]"
+
+ annexation_BASRA_CONQ:9 "The Fate of Basra"
+ annexation_BASRA_CONQ_desc:9 "The southern marshes of Iraq, centred on the city of Basra, are now under our control. We must decide what to do with them."
+ annex.4026.a:9 "Return it to [219.Owner.GetNameDef], we have no use for them."
+
 
  annexation_GAB_CONQ:0 "Le destin du Gabon"
  annexation_GAB_CONQ_desc:0 "Nous contrôlons maintenant l'ancienne colonie allemande du Gabon et avec elle des masses d'Africains qui aspirent à respirer librement, devrions-nous leur donner cette liberté sous notre étroite surveillance ou ce rêve est-il vain ?"
@@ -1651,7 +1679,7 @@ annexation_MLT_CONQ_desc:0 "Malte a été placée sous notre direction et nos tr
  annex.5012.a:0 "Former l'état de la Sierra Leone."
 
  annexation_GNA_CONQ:0 "Le destin de la Guinée"
- annexation_GNA_CONQ_desc:0 "L'ancienne colonie française de Guinée, divisée entre un nord montagneux traditionnel et un sud colonial, a étéannexée à notre empire en expansion. Il nous reste maintenant la tâche complexe d'organiser ce nouveau territoire, devrions-nous l'incorporer directement dans notre structure de pouvoir ou devrions-nous y créer un état fantoches distinct ?"
+ annexation_GNA_CONQ_desc:9 "L'ancienne colonie française de Guinée, divisée entre un nord montagneux traditionnel et un sud colonial, a étéannexée à notre empire en expansion. Il nous reste maintenant la tâche complexe d'organiser ce nouveau territoire, devrions-nous l'incorporer directement dans notre structure de pouvoir ou devrions-nous y créer un état fantoches distinct ?"
  annex.5013.a:0 "Former l'état de la Guinée."
 
  annexation_CVG_CONQ:0 "Le destin du Cap-Vert-Guinée"
@@ -1723,7 +1751,7 @@ annexation_MLT_CONQ_desc:0 "Malte a été placée sous notre direction et nos tr
  annex.5028.b:0 "Transférez-le à [921.owner.GetNameDef]"
 
  annexation_SOM_CONQ:0 "Le destin de la Somalie"
- annexation_SOM_CONQ_desc:0 "Nous contrôlons maintenant les territoires de l'ancien État derviche de Somalie et cette zone inhospitalière peuplée de Somaliens s'avérera difficile à entretenir par l'occupation, nous devrions peut-être laisser les Somaliens s'organiser dans une certaine mesure ?"
+ annexation_SOM_CONQ_desc:9 "Nous contrôlons maintenant les territoires de l'ancien État derviche de Somalie et cette zone inhospitalière peuplée de Somaliens s'avérera difficile à entretenir par l'occupation, nous devrions peut-être laisser les Somaliens s'organiser dans une certaine mesure ?"
  annex.5029.a:0 "L'occupation militaire est la seule réponse."
  annex.5029.b:0 "Créer une Somalie loyale."
 
@@ -1763,7 +1791,10 @@ annexation_MLT_CONQ_desc:0 "Malte a été placée sous notre direction et nos tr
  annexation_SAF_CONQ:0 "Le destin de l'Afrique du Sud"
  annexation_SAF_CONQ_desc:0 "Enfin, la domination africaine de l'Afrique du Sud a capitulé devant nos glorieuses armées qui marchent maintenant à travers le Cap. Après le début de notre occupation militaire et maintenant que la guerre est terminée, certaines voix se sont élevées pour réclamer la création d'une nation sud-africaine fantoche pour garder la région sous contrôle, mais au cours de ces discussions, une autre question a été soulevée : si nous créons cet État fantoche, les protectorats du Bechuanaland et de la Rhodésie que l'Afrique du Sud a saisi en 1925 ou devons-nous réduire leur zone d'influence au fondement même du pays ? C'est maintenant à vous de décider"
  annex.5038.a:0 "Libérez l'Afrique du Sud et laissez-les garder les protectorats."
- annex.5038.b:0 "Soustraire les protectorats à l'influence de l'Afrique du Sud."
+ annex.5038.b:9 "Liberate South Africa, but split off Rhodesia."
+ annex.5038.c:0 "Soustraire les protectorats à l'influence de l'Afrique du Sud."
+ annex.5038.d:9 "Liberate South Africa."
+ annex.5038.e:9 "Give it to the British."
 
  annexation_NMB_CONQ:0 "Le destin de la Namibie"
  annexation_NMB_CONQ_desc:0 "Nous avons annexé l'ancienne colonie allemande de Südwestafrika, plus connue sous le nom de Namibie, mais il nous reste maintenant à gérer des milliers d'Africains sur un territoire que nous ne connaissons pas. Devons-nous instituer un degré d'autodétermination ou devons-nous diriger cet endroit comme une nouvelle colonie ?"

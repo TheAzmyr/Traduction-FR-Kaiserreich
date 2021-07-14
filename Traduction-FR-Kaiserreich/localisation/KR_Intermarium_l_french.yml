@@ -3,11 +3,16 @@
 ### EE Cooperation Mechanics ###
 
  mie.0.t:0 "La Menace Russe"
- mie.0.d:0 "Le marasme de la Russie, qui a duré dix ans, est terminé, et maintenant les Russes se reconstruisent - déjà, ils revendiquent leurs anciens territoires impériaux, et les États d'Europe de l'Est vont sûrement être l'une de leurs cibles. Pour s'assurer que la menace russe est contenue et que les États d'Europe de l'Est peuvent défendre leur souveraineté, les dirigeants et les généraux des Oststaaten se sont réunis à [MIE_leader.GetCapital] pour discuter d'un programme de coopération mutuelle. Un fonds de défense militaire commun a été créé et [MIE_leader.GetNameDef] a été chargé de le gérer pour financer les entreprises de défense communes de la région."
+ mie.0.d:9 "Russia's decade long slump has ended, and now the Russians are rebuilding - already, they raise claims over their former Imperial territories, and Eastern European states are surely going to be one of their targets. To make sure that the Russian threat is contained and Eastern European states can defend their sovereignty, leaders and generals of the Oststaaten have gathered in [MIE_leader.Capital.GetName] to discuss a program of mutual cooperation. A joint military defence fund has been established and [MIE_leader.GetNameDef] has been entrusted with managing it to fund the region's joint defence ventures."
  mie.0.a:0 "Bien !"
 
  MIE_decisions:0 "Coopération en matière de défense de l'Europe de l'Est"
  MIE_decisions_desc:0 "[219.owner.GetNameDefCap] refait surface et la sécurité de la région d'Europe de l'Est est menacée. Lorsque la Seconde Weltkrieg commencera, nous devrons nous préparer à affronter la tempête russe - et si nous ne travaillons pas ensemble, nous serons éliminés un par un.\n\nAprès que [219.owner.GetNameDef] a activé son arbre de politique étrangère, tous les membres orientaux du Reichspakt débloquent la capacité de §Ymettre en commun les ressources§! et de les distribuer entre leurs États membres pour éliminer les maillons faibles. Le pays responsable de la distribution des ressources communes peut investir dans ses États membres pour §Yconstruire des fortifications§!, §Ylever des divisions§! et fournir des §Yidées nationales§! bénéfiques.\n\nLes ressources actuelles mises en commun :\n £rifle_texticon Équipement d'infanterie : §Y[?global.MIE_infantry_equipment]§!\n £support_texticon Équipement de soutien : §Y[?global.MIE_support_equipment]§!\n £unit_artillery_icon_small Équipement d'artillerie : §Y[?global.MIE_artillery_equipment]§!\n\n [MIE_leader.GetNameWithFlag] est actuellement responsable de la distribution du pool de ressources."
+
+ MIE_refuse_equipment_shipments:9 "Refuse Equipment Shipments"
+ MIE_refuse_equipment_shipments_desc:9 "For our own reasons, we must tell our allies that we are not in need of any equipment shipments at the moment, and as such they should be used elsewhere."
+ MIE_allow_equipment_shipments:9 "Allow Equipment Shipments"
+ MIE_allow_equipment_shipments_desc:9 "While we have previously told our allies not to send any equipment, we are free to rescind this decision at any time."
 
  MIE_spend_guns:0 "Envoyer 1000 £rifle_texticon  Équipement d'Infanterie"
  MIE_spend_support_eq:0 "Envoyer 250 £support_texticon  Équipement de Soutien"
@@ -51,7 +56,7 @@
 
  MIE_1500_sup:0 "£support_texticon  §H1500§!"
  MIE_1500_sup_blocked:0 "£support_texticon  §R1500§!"
- MIE_1500_sup_tooltip:0 "Cela coûte $MIE_1500_sup_blocked$ de prendre la décision"
+ MIE_1500_sup_tooltip:9 "Cela coûte $MIE_1500_sup_blocked$ de prendre la décision"
 
  MIE_build_forts_in_whr:0 "L'Ostwall"
  mie.1.t:0 "Coopération de l'Europe de l'Est"
@@ -60,13 +65,13 @@
 
  MIE_joint_offensive_exercises:0 "Exercices offensifs conjoints"
  mie.2.t:0 "Coopération de l'Europe de l'Est"
- mie.2.d:0 "[MIE_leader.GetNameDefCap] a choisi d'investir une partie de notre fonds de coopération de défense commune en organisant un exercice militaire conjoint entre les États d'Europe de l'Est. Ici, des généraux orientés vers l'offensive et les blindés ont simulé une contre-attaque contre les forces ennemies, et ont échangé des astuces et des conseils entre eux."
+ mie.2.d:9 "[MIE_leader.GetNameDefCap] a choisi d'investir une partie de notre fonds de coopération de défense commune en organisant un exercice militaire conjoint entre les États d'Europe de l'Est. Ici, des généraux orientés vers l'offensive et les blindés ont simulé une contre-attaque contre les forces ennemies, et ont échangé des astuces et des conseils entre eux."
  mie.2.a:0 "Bien !"
  MIE_all_gain_1_attack:0 "Tous les généraux des États membres ayant le trait §HChef Panzer§! gagneront §G1§! en Attaque."
 
  MIE_joint_grand_strategy_planning:0 "Grande Stratégie"
  mie.3.t:0 "Coopération de l'Europe de l'Est"
- mie.3.d:0 "[MIE_leader.GetNameDefCap] a choisi d'investir une partie de notre fonds commun de coopération en matière de défense en organisant des wargames entre les états-majors des armées des États d'Europe de l'Est. Nos généraux y ont discuté d'une invasion complète de la région, ont réparti les rôles entre les États-nations et ont élaboré une grande stratégie pour stopper l'assaut."
+ mie.3.d:9 "[MIE_leader.GetNameDefCap] a choisi d'investir une partie de notre fonds commun de coopération en matière de défense en organisant des wargames entre les états-majors des armées des États d'Europe de l'Est. Nos généraux y ont discuté d'une invasion complète de la région, ont réparti les rôles entre les États-nations et ont élaboré une grande stratégie pour stopper l'assaut."
  mie.3.a:0 "Bien !"
  MIE_all_gain_1_planning:0 "Tous les généraux des États membres ayant le trait §HChef d'Infanterie§! gagneront §G1§! en Planification."
 

@@ -25,9 +25,9 @@ CEN_national_populist_party_long:0 "Partido Nacional"
 CEN_national_populist_party:0 "PN"
 
 ### Leaders ###
-POLITICS_MILITARY_COUNCIL_DESC:0 "L'Amérique centrale a enfin été réunifiée, mais la structure politique de la nation n'est pas encore finalisée. Un gouvernement de transition temporaire a été établi pour le moment, avec la plupart des blocs de pouvoir basés sur les forces armées de la région au moins représentés nominalement."
-POLITICS_CENTRAL_AMERICAN_COUNCIL_DESC:0 "L'Amérique centrale a enfin été réunifiée, mais la structure politique de la nation n'est pas encore finalisée. Un gouvernement de transition temporaire a été établi pour le moment, avec la plupart des blocs de pouvoir démocratique de la région représentés au moins nominalement."
-POLITICS_REVOLUTIONARY_COUNCIL_DESC:0 "L'Amérique centrale a enfin été réunifiée, mais la structure politique de la nation n'est pas encore finalisée. Un gouvernement de transition temporaire a été établi pour le moment, avec la plupart des blocs de pouvoir socialistes de la région représentés au moins nominalement."
+ POLITICS_MILITARY_COUNCIL_DESC:9 "L'Amérique centrale a enfin été réunifiée, mais la structure politique de la nation n'est pas encore finalisée. Un gouvernement de transition temporaire a été établi pour le moment, avec la plupart des blocs de pouvoir basés sur les forces armées de la région au moins représentés nominalement."
+ POLITICS_CENTRAL_AMERICAN_COUNCIL_DESC:9 "L'Amérique centrale a enfin été réunifiée, mais la structure politique de la nation n'est pas encore finalisée. Un gouvernement de transition temporaire a été établi pour le moment, avec la plupart des blocs de pouvoir démocratique de la région représentés au moins nominalement."
+ POLITICS_REVOLUTIONARY_COUNCIL_DESC:9 "L'Amérique centrale a enfin été réunifiée, mais la structure politique de la nation n'est pas encore finalisée. Un gouvernement de transition temporaire a été établi pour le moment, avec la plupart des blocs de pouvoir socialistes de la région représentés au moins nominalement."
 
 ### Decisions ###
 Forming_Central_America:0 "Politique d'Amérique centrale"
@@ -35,6 +35,9 @@ Forming_Central_America_desc:0 "La politique en Amérique centrale peut parfois 
 
  CEN_unite_central_america:0 "[CEN_unite_central_america_title]"
  CEN_unite_central_america_desc:0 "[CEN_unite_central_america_description]"
+
+ CEN_core_COS_PAN_states:9 "Core [FROM.GetName]"
+ CEN_core_COS_PAN_states_desc:9 "These new lands closer to the isthmus of Panama require new state institutions if they are going to be a part of the Confederation"
 
  CEN_unite_central_america_socialist:0 "Form Centroamérica"
  CEN_unite_central_america_socialist_desc:0 "The revolution has succeeded! The shackles of military government and those who oppose Socialism have been kicked out of our rightful lands, leaving only liberated lands in its wake. This would be the perfect time to make a united Central America, in order to fend off foreign influence forever more."
@@ -44,6 +47,9 @@ Forming_Central_America_desc:0 "La politique en Amérique centrale peut parfois 
 
  CEN_unite_central_america_military:0 "Form the Central American Republic"
  CEN_unite_central_america_military_desc:0 "We now stand firm above all others as American aligned military governments, with the ideas of Liberalism and Socialism thoroughly suppressed. We can now form a Central American nation in order to both benefit the nation along with helping the Americans in their plight."
+
+ CEN_conflict_escalates_mission:9 "The Battle for Central America"
+ CEN_conflict_escalates_mission_desc:9 "What seemed once so plentiful, will soon be something of the past. Peace is something we will not know for a while as the entire region enters conflict. What is certain is that Central America will change forever and it is up to us to change it for the better. The region's fate lies in the balance..."
 
  CEN_form_ties:0 "Establish Ties with [FROM.GetNameDef]"
  CEN_form_ties_desc:0 "[CEN_form_ties_desc_text]"
@@ -63,18 +69,6 @@ Forming_Central_America_desc:0 "La politique en Amérique centrale peut parfois 
  CEN_form_ties_HON_military:0 "The new rule of Honduras in the 30s has managed to retain itself, weathering the heavy storm the American Civil War had to offer. In the name of preventing another crisis similar to this, we must ensure closer cooperation between our nations."
  CEN_form_ties_NIC_military:0 "Nicaragua had managed to find itself on the back end in its war against Honduras, with the exiled Guardia being placed in power. As a type of congratulations, maybe we should send an envoy?"
 
-CEN_support_guatemala_war_revolutionary:0 "Soutenez la révolution guatémaltèque."
-CEN_support_guatemala_war_revolutionary_desc:0 "Le Guatemala, ayant réussi sa révolution, a été envahi par la dictature militaire au Salvador. Celui qui en sortira vainqueur décidera du sort de toute l'Amérique centrale du Nord, essentiel pour le succès de la révolution contre les hommes forts autocratiques."
-
-CEN_support_el_salvador_war_revolutionary:0 "Soutenez la révolution du Salvador."
- CEN_support_el_salvador_war_revolutionary_desc:0 "El Salvador a réussi à se libérer des griffes du parti Pro-Patria, mais ses ennuis ne sont pas encore terminés. Le Guatemala, qui conserve sa dictature, a envahi El Salvador pour tenter d'éradiquer une fois pour toutes la sympathie révolutionnaire."
-
-CEN_support_honduras_war_revolutionary:0 "Soutenez la révolution hondurienne."
-CEN_support_honduras_war_revolutionary_desc:0 "Le Nicaragua, sous prétexte d'étendre son "libéralisme" au Honduras récemment libéré. Nous devons faire en sorte que ces traîtres échouent dans leur quête, pour le bien de Sandino et du peuple."
-
-CEN_support_nicaragua_war_revolutionary:0 "Soutenez la révolution du Nicaragua."
-CEN_support_nicaragua_war_revolutionary_desc:0 "Le Nicaragua a enfin commencé à libérer les deux Honduras et à détruire les vestiges de son gouvernement militaire. Leur succès ici est de la plus haute importance !"
-
  CEN_found_revolutionary_pact:0 "Fondé le Front révolutionnaire"
 CEN_found_revolutionary_pact_desc:0 "Discutés entre nombre de nos politiciens, nous avons conclu que nous devons fonder un pacte entre les nations socialistes actuelles et futures d'Amérique centrale afin d'opposer les libéraux et les dictateurs à notre égard."
 
@@ -84,9 +78,9 @@ CEN_found_liberal_pact_desc:0 "L'idée d'un pacte entre pays libéraux alignés 
 CEN_found_military_pact:0 "Fonder l'avant-garde du peuple"
  CEN_found_military_pact_desc:0 "The People's Vanguard, meant to safeguard Central Americans from external threats, shall be found here in an attempt to resist the revolution at all costs."
 
- CEN_join_faction:0 "Join the [FROM.GetFactionName]"
- CEN_join_faction_desc:0 "[CEN_join_faction_desc_text]"
- CEN_join_faction_desc_socialist:0 "The Revolutionary Front founded by likeminded individuals hoping to band together to bring socialism to Central America. It is our job to join it, for the sake of our brethren abroad."
+ CEN_join_faction:9 "Join the [ROOT.CEN_join_faction_title]"
+ CEN_join_faction_desc:9 "[ROOT.CEN_join_faction_desc]"
+ CEN_join_faction_desc_socialist:9 "The Revolutionary Front founded by like-minded individuals hoping to band together to bring socialism to Central America. It is our job to join it, for the sake of our brethren abroad."
  CEN_join_faction_desc_liberal:0 "The liberal pact has been founded by a fellow democratic country, ready to overthrow both the socialists and autocracies in the name of the people."
  CEN_join_faction_desc_military:0 "The People's Vanguard has been founded in an attempt to defend the people from themselves, and is most definitely something we should consider joining."
 
@@ -97,7 +91,7 @@ CEN_found_military_pact:0 "Fonder l'avant-garde du peuple"
 
  CEN_invite_country_to_faction_GUA_socialist:0 "Guatemala has managed to end three decades of military stagnation, ready to propel themselves into the future. Together we shall liberate Central America."
  CEN_invite_country_to_faction_ELS_socialist:0 "Honduras, despite some questioning their ruling methods, has fallen to revolution and is a needed member of the front."
- CEN_invite_country_to_faction_HON_socialist:0 "El Salvador, having one of the cruelest dictators of all of Central America, has managed to break free from their chains binding them. Their participation in the front is necessary."
+ CEN_invite_country_to_faction_HON_socialist:9 "El Salvador, having one of the cruellest dictators of all of Central America, has managed to break free from their chains binding them. Their participation in the front is necessary."
  CEN_invite_country_to_faction_NIC_socialist:0 "Nicaragua has served as the bastion of the Central American revolution ever since 1933, and will be an essential member of the front."
 
  CEN_invite_country_to_faction_GUA_liberal:0 "Guatemala has managed to finish their struggle for liberty and Central American unification ideals, ready to join us in our fight for freedom."
@@ -133,8 +127,8 @@ CEN_found_military_pact:0 "Fonder l'avant-garde du peuple"
 
 ### Opinion Modifiers ###
 CEN_established_ties:0 "Nous avons formellement établi des liens entre nos nations."
-CEN_accepted_friendship:0 "A accepté le traité d'amitié"
-CEN_refused_friendship:0 "A refusé le traité d'amitié"
+ CEN_accepted_friendship:9 "A accepté le traité d'amitié"
+ CEN_refused_friendship:9 "A refusé le traité d'amitié"
 
 ### Tooltips ###
 
@@ -150,18 +144,18 @@ CEN_sparks_flying:0 "§RAvec cela, les roues du conflit qui décide du destin de
  CEN_state_aligned:0 "Owner must either be a subject of §Y[Root.GetNameDef]§! or an aligned, [ROOT.CEN_formation_adjective_desc] Central American nation which isn't at war\n"
 
 ### Country Names ###
-CEN_totalist:0 "Centramérique"
+ CEN_totalist:9 "Centramérique"
 CEN_totalist_ADJ:0 "Centraméricain"
-CEN_totalist_DEF:0 "Centramérique"
-CEN_syndicalist:0 "Centramérique"
+ CEN_totalist_DEF:9 "Centramérique"
+ CEN_syndicalist:9 "Centramérique"
 CEN_syndicalist_ADJ:0 "Centraméricain"
-CEN_syndicalist_DEF:0 "Centramérique"
-CEN_radical_socialist:0 "Centramérique"
+ CEN_syndicalist_DEF:9 "Centramérique"
+ CEN_radical_socialist:9 "Centramérique"
 CEN_radical_socialist_ADJ:0 "Centraméricain"
-CEN_radical_socialist_DEF:0 "Centramérique"
-CEN_social_democrat:0 "Centramérique"
+ CEN_radical_socialist_DEF:9 "Centramérique"
+ CEN_social_democrat:9 "Centramérique"
 CEN_social_democrat_ADJ:0 "Centraméricain"
-CEN_social_democrat_DEF:0 "Centramérique"
+ CEN_social_democrat_DEF:9 "Centramérique"
 CEN_social_liberal:0 "Confédération Centrale Américaine"
 CEN_social_liberal_ADJ:0 "Centro-Américain"
 CEN_social_liberal_DEF:0 "Confédération Centrale Américaine"
@@ -182,10 +176,10 @@ CEN_national_populist_ADJ:0 "Centro-Américain"
 CEN_national_populist_DEF:0 "République Centrale Américaine"
 
 CEN_CON_totalist:0 "Centroamérica"
-CEN_CON_totalist_ADJ:0 "Centraméricain"
+ CEN_CON_totalist_ADJ:9 "Centraméricain"
 CEN_CON_totalist_DEF:0 "Centroamérica"
 CEN_CON_syndicalist:0 "Centroamérica"
-CEN_CON_syndicalist_ADJ:0 "Centraméricain"
+ CEN_CON_syndicalist_ADJ:9 "Centraméricain"
 CEN_CON_syndicalist_DEF:0 "Centroamérica"
 CEN_CON_radical_socialist:0 "Confédération Centraméricaine"
 CEN_CON_radical_socialist_ADJ:0 "Centraméricain"
@@ -227,7 +221,7 @@ cend.1.t:0 "[From.GetNameDefCap] envoie une ambassade"
  cend.1.d.HON_liberal:0 "After successfully holding our first truly open elections, our democratic friends from [From.GetNameDefCap] have come to us to establish closer ties. This is a great proposition and we will together work on strengthening democracy in both our countries, and in the rest of Central America."
  cend.1.d.HON_military:0 "Now that we are firmly in power, [From.GetNameDefCap] have offered to develop closer ties. We must accept this, so we can work together to prevent revolution spreading throughout Central America. We do not want others falling, because when one has fallen, they will undoubtedly seek to topple the next."
 
- cend.1.d.NIC_socialist:0 "As we have managed to survive through the storm of American occupation and Central American crisis, we are a highly desired ally among revolutionaries within Central America. [From.GetNameDefCap] has recognized this, sending us an embassy to ensure further cooperation between our nations."
+ cend.1.d.NIC_socialist:9 "As we have managed to survive through the storm of American occupation and Central American crisis, we are a highly desired ally among revolutionaries within Central America. [From.GetNameDefCap] has recognised this, sending us an embassy to ensure further cooperation between our nations."
  cend.1.d.NIC_liberal:0 "Following our liberal transformation, [From.GetNameDefCap] has approached us to congratulate us on our achievement and with the offer of developing closer ties. We will of course accept this and establish a strong bond of friendship between fellow Central American nations, with the aim of strengthening democracy."
  cend.1.d.NIC_military:0 "[From.GetNameDefCap] have come to us to develop better relations. We cannot refuse this as we are always at risk of being consumed by revolution, that is the nature of our regime. Developing closer ties with the countries like us will make sure that revolution will not spread throughout Central America."
 
@@ -236,9 +230,9 @@ cend.1.a:0 "L'unité socialiste en ressort forte."
  cend.1.c:0 "Together, we stand against the revolution."
 
 cend.5.t:0 "Formation du Front révolutionnaire"
- cend.5.d.socialist:0 "The Revolutionary Front, founded by [From.GetNameDefCap] is meant to be a pact to organize the men of Central America against those who would oppress them. The liberals who have betrayed us so many times in the past, the military dictators who have hurt us, and the foreign oppressors who support them. It is time this shackle is thrown off once and for all!"
- cend.5.d.liberal:0 "The Revolutionary Front, founded by [From.GetNameDefCap] is meant to be a pact to organize the men of Central America against those who would oppress them. The liberals who have betrayed us so many times in the past, the military dictators who have hurt us, and the foreign oppressors who support them. It is time this shackle is thrown off once and for all!"
- cend.5.d.military:0 "The Revolutionary Front, founded by [From.GetNameDefCap] is meant to be a pact to organize the men of Central America against those who would oppress them. The liberals who have betrayed us so many times in the past, the military dictators who have hurt us, and the foreign oppressors who support them. It is time this shackle is thrown off once and for all!"
+ cend.5.d.socialist:9 "The Revolutionary Front, founded by [From.GetNameDefCap] is meant to be a pact to organise the men of Central America against those who would oppress them. The liberals who have betrayed us so many times in the past, the military dictators who have hurt us, and the foreign oppressors who support them. It is time this shackle is thrown off once and for all!"
+ cend.5.d.liberal:9 "The Revolutionary Front, founded by [From.GetNameDefCap] is meant to be a pact to organise the men of Central America against those who would oppress them. The liberals who have betrayed us so many times in the past, the military dictators who have hurt us, and the foreign oppressors who support them. It is time this shackle is thrown off once and for all!"
+ cend.5.d.military:9 "The Revolutionary Front, founded by [From.GetNameDefCap] is meant to be a pact to organise the men of Central America against those who would oppress them. The liberals who have betrayed us so many times in the past, the military dictators who have hurt us, and the foreign oppressors who support them. It is time this shackle is thrown off once and for all!"
 cend.5.a:0 "Une chance pour le socialisme..."
  cend.5.b:0 "A new threat emerges."
  cend.5.c:0 "A threat to our existence!"
@@ -299,9 +293,6 @@ cend.11.a:0 "La victoire sera poursuivie même sans eux."
  cend.11.c:0 "The Vanguard can still stand strong."
 
 cend.34.t:0 "[From.GetNameDefCap] se prépare à la guerre"
-cend.34.desc:0 "[From.GetNameDefCap] menace la guerre ! Nous devons nous assurer que nous sommes prêts à les rencontrer sur le terrain. Nous devons mobiliser notre nation, nos hommes et nos femmes et tous ceux qui peuvent se battre. Ce n'est que si nous nous préparons aussi, que nous aurons une chance de les vaincre."
+ cend.34.desc:9 "[From.GetNameDefCap] menace la guerre ! Nous devons nous assurer que nous sommes prêts à les rencontrer sur le terrain. Nous devons mobiliser notre nation, nos hommes et nos femmes et tous ceux qui peuvent se battre. Ce n'est que si nous nous préparons aussi, que nous aurons une chance de les vaincre."
 cend.34.a:0 "Nous devons assurer la victoire !"
 
-cend.conflict.t:0 "Le conflit final"
-cend.conflict.desc:0 "Ce qui semblait autrefois si abondant, fera bientôt partie du passé. La paix est une chose que nous ne connaîtrons pas avant un certain temps, car toute la région entre en conflit. Ce qui est certain, c'est que l'Amérique centrale va changer à jamais et c'est à nous de la changer pour le mieux. La guerre est arrivée."
-cend.conflict.a:0 "Le destin de l'Amérique centrale est dans la balance..."

@@ -28,15 +28,11 @@ Loyalists_party:0 "Loyalistes"
 
 fln.TRA.tt:0 "Le gouvernement de transition dirigera la Flandre jusqu'à ce que son intégration soit achevée."
 
-FLEM_COUNCIL:0 "Le Conseil conserve le pouvoir"
-FLEM_NATIONALISM:0 "Le Gouvernement de transition prend le contrôle"
-FLEM_NEDERLAND:0 "Les Grands-Néerlandais prennent la relève"
-
-FLEM_DEMOCRACY:0 "La Régence continue"
-FLEM_JORIS:0 "Le VNV et Van Severen s'unissent"
 FLEM_ADALBERT:0 "Adalbert accepte la couronne flamande"
-FLEM_MONARCHY:0 "La monarchie n'a pas été repoussée."
 FLEM_REPUBLIC:0 "La régence a pris fin"
+
+ FLN_if_direct_rule:9 "§cIf §H$FLN_Direct_Rule_From_Council$§! is chosen§!:"
+ FLN_if_democratic_transition:9 "§cIf §H$FLN_Democratic_Transition$§! is chosen§!:"
 
 ### Ideas ###
 FLN_Flemish_Lion_2:0 "Lion flamand"
@@ -73,8 +69,8 @@ FLN_Flemish_Dutch_Government:0 "Gouvernement flamano-hollandais"
 
 FLN_Frozen_Food:0 "Pari sur les aliments congelés"
 FLN_Boerenbond:0 "Boerenbond Subventionné"
-FLN_Severed_Trade:0 "Commerce allemand rompu"
-FLN_Trade_Deal:0 "Accord commercial allemand"
+ FLN_Severed_Trade:9 "Commerce allemand rompu"
+ FLN_Trade_Deal:9 "Accord commercial allemand"
 FLN_Grote_Doorsteek:0 "Programme Grote Doorsteek"
 FLN_Import_Foreign_Labour:0  "Travailleurs étrangers"
 FLN_Flemish_Miners:0 "Mineurs flamands"
@@ -116,7 +112,7 @@ fln.2.t:0 "Le comte Charles de Flandre prend le contrôlel"
 fln.2.d:0 "Sous les applaudissements et avec beaucoup de fanfare, Charles de Belgique a pris le contrôle du pays et a pris la position de Graaf van Vlaanderen. Basé sur la monarchie constitutionnelle pré-Weltkrieg, il manque de pouvoir absolu et sert surtout symboliquement à résoudre des crises politiques."
 fln.2.a:0 "Bonne chance, Graaf Charles."
 
-fln.21.t:0 "Adalbert remonte sur le trône"
+ fln.21.t:9 "Adalbert remonte sur le trône"
 fln.21.d:0 "Le Conseil Aristocratique de Flandre a offert la couronne flamande à Adalbert s'il accepte de gouverner uniquement en son nom et reste en dehors des affaires flamandes. Par cette action, le Conseil espère renforcer les relations avec l'Allemagne et renforcer leur indépendance vis-à-vis d'une Wallonie agressive."
 fln.21.a:0 "Vive Adalbert (encore) !"
 
@@ -241,7 +237,7 @@ flnrev.3.d:0 "Afin de préserver leur pouvoir et de maîtriser la situation dans
 flnrev.3.a:0 "La situation s'aggrave."
 
 flnrev.4.t:0 "Divisions au sein de l'Armée de Libération"
-flnrev.4.d:0 "L'Assemblée étant prise en otage, l'armée de Libération est de plus en plus en proie à des conflits internes et à une direction divisée.\n\nMené par Charles Claser, la Légion secrète soutient la dissolution du Conseil flamand et la création d'un nouvel état flamand. Le Frontbeweging, par contre, composé principalement d'anciens combattants de la Weltkrieg, se tient aux côtés du Conseil flamand et a arraché des hommes à l'effort cumulé pour soutenir la Vlaamse Wacht. Le Geuzengroep est déchiré entre ses membres fondateurs qui faisaient partie de la Vlaamse Wacht et les partisans recrutés qui se sont battus pour des raisons anti-allemandes et de mécontentement général envers le Conseil flamand.\n\n\nUne quatrième faction a également émergé pendant la rébellion, composée principalement de volontaires néerlandais et de nationalistes Thiois. Bien que leur nombre soit limité, le soutien de l'armée néerlandaise et une impasse entre les autres factions pourraient aboutir à leur victoire. Sans fin en vue, les différentes factions cherchent à désarmer les autres et à utiliser l'influence de l’église et de l’état pour atteindre leurs objectifs."
+ flnrev.4.d:9 "L'Assemblée étant prise en otage, l'armée de Libération est de plus en plus en proie à des conflits internes et à une direction divisée.\n\nMené par Charles Claser, la Légion secrète soutient la dissolution du Conseil flamand et la création d'un nouvel état flamand. Le Frontbeweging, par contre, composé principalement d'anciens combattants de la Weltkrieg, se tient aux côtés du Conseil flamand et a arraché des hommes à l'effort cumulé pour soutenir la Vlaamse Wacht. Le Geuzengroep est déchiré entre ses membres fondateurs qui faisaient partie de la Vlaamse Wacht et les partisans recrutés qui se sont battus pour des raisons anti-allemandes et de mécontentement général envers le Conseil flamand.\n\n\nUne quatrième faction a également émergé pendant la rébellion, composée principalement de volontaires néerlandais et de nationalistes Thiois. Bien que leur nombre soit limité, le soutien de l'armée néerlandaise et une impasse entre les autres factions pourraient aboutir à leur victoire. Sans fin en vue, les différentes factions cherchent à désarmer les autres et à utiliser l'influence de l’église et de l’état pour atteindre leurs objectifs."
 flnrev.4.a:0 "La Légion secrète obtient la majorité."
 flnrev.4.b:0 "Le Frontbeweging l'emporte sur le Geuzengroep."
 flnrev.4.c:0 "Les nationaliste Thiois renforcent leur pouvoir."
@@ -390,12 +386,12 @@ FLN_tac_focus:0 "Priorité sur les bombardier tactique"
 FLN_tac_focus_desc:0 "Les bombardiers moyens sont l'épine dorsale d'une force aérienne véritablement indépendante. Capables à la fois de soutenir nos forces sur terre et en mer et d'attaquer les bâtiments et installations ennemis, nous devons faire un effort national pour développer des modèles plus efficaces de ces avions."
 
 FLN_army_maneuvers:0 "Manoeuvres de l'armée"
-FLN_army_maneuvers_desc:0 "Bien que l'armée ait été officiellement établie, elle fonctionne toujours comme la résistance qu'elle a été autrefois. Pour bien faire comprendre que le statu quo a changé, nous devrions organiser un grand exercice de guerre pour encourager l'organisation et l'ordre dans lequel nos forces doivent grandir et prendre possession."
+ FLN_army_maneuvers_desc:9 "Bien que l'armée ait été officiellement établie, elle fonctionne toujours comme la résistance qu'elle a été autrefois. Pour bien faire comprendre que le statu quo a changé, nous devrions organiser un grand exercice de guerre pour encourager l'organisation et l'ordre dans lequel nos forces doivent grandir et prendre possession."
 
 FLN_mobile_focus:0 "Priorité à la mobilité"
 FLN_mobile_focus_desc:0 "L'ennemi ne doit pas pouvoir s'approcher de nos villes et menacer nos maisons. Nous devons utiliser la vitesse et une planification soigneuse pour les vaincre sur le champ."
 FLN_Minerva_Trucks:0 "Camions Minerva"
-FLN_Minerva_Trucks_desc:0 "Basée à Anvers, Minerva est le premier producteur d'automobiles et de bicyclettes du pays. Alors que Minerva s'est lancée dans la production militaire sous le régime flamano-wallon, avec l'indépendance, il est d'autant plus essentiel de subventionner la transformation de Minerva en un fournisseur de véhicules militaires."
+ FLN_Minerva_Trucks_desc:9 "Basée à Anvers, Minerva est le premier producteur d'automobiles et de bicyclettes du pays. Alors que Minerva s'est lancée dans la production militaire sous le régime flamano-wallon, avec l'indépendance, il est d'autant plus essentiel de subventionner la transformation de Minerva en un fournisseur de véhicules militaires."
 FLN_develop_tanks:0 "Développer les chars d'assaut"
 FLN_develop_tanks_desc:0 "Les chars britanniques ont été particulièrement efficaces pendant la Weltkrieg et malgré la victoire allemande, le monde a vu le potentiel de cette nouvelle machine de guerre. Nous devons développer nos propres modèles plus avancés pour vraiment en tirer profit."
 FLN_Remember_The_Yzer:0 "En mémoire de d'Yser"
@@ -461,7 +457,7 @@ FLN_carriers_desc:0 "TLe rôle des avions dans la guerre navale s'est rapidement
  FLN_Decentralised_Government:0 "Gouvernement décentralisé"
  FLN_Decentralised_Government_desc:0 "Les Néerlandais ont répondu à nos exigences et le processus d'intégration progresse rapidement. Nous devrions maintenant chercher à formuler la structure exacte de la future région Flamande au sein des Pays-Bas."
  FLN_Unified_Transportation_Net:0 "Réseau de transport unifié"
- FLN_Unified_Transportation_Net_desc:0 "Le processus d'intégration politique et économique a été un franc succès. La pression exercée par l'augmentation de l'activité économique et les problèmes causés par les différences entre nos systèmes de transport et ceux de nos amis du Nord sont devenus un fardeau. Nous devons nous efforcer d'uniformiser toutes sortes de détails et de relier de nombreux réseaux de transport purement nationaux aux Pays-Bas proprement dits."
+ FLN_Unified_Transportation_Net_desc:9 "Le processus d'intégration politique et économique a été un franc succès. La pression exercée par l'augmentation de l'activité économique et les problèmes causés par les différences entre nos systèmes de transport et ceux de nos amis du Nord sont devenus un fardeau. Nous devons nous efforcer d'uniformiser toutes sortes de détails et de relier de nombreux réseaux de transport purement nationaux aux Pays-Bas proprement dits."
  FLN_Vlaamse_Spoorwegen:0 "Vlaamse Spoorwegen"
  FLN_Vlaamse_Spoorwegen_desc:0 "La National Spoorwegen ( chemin de fer ) Néerlandaise doit être reproduite en Flandre, avec une expansion rapide financée par les Pays-Bas avec une seule administration responsable de celle-ci. Ce nouveau Vlaamse Spoorwegen ne doit cependant pas être subordonné à son homologue du Nord, mais doit être la seule Flandre qui gère ses propres systèmes de transport !"
  FLN_Fullfill_Integration:0 "Réaliser l'intégration"
@@ -469,7 +465,7 @@ FLN_carriers_desc:0 "TLe rôle des avions dans la guerre navale s'est rapidement
  FLN_Nation_Within_A_Nation:0 "Nation dans une nation"
  FLN_Nation_Within_A_Nation_desc:0 "La Flandre doit être unie à ses frères culturels, mais elle ne peut être soumise. Au sein de ces nouveaux Pays-Bas Unis, notre région doit être une nation à part entière, dotée d'une large autonomie et de garanties pour la survie d'une identité Flamande unique."
  FLN_Demand_Recognition_Of_The_Flemish_Language:0 "Demander la reconnaissance de la langue flamande"
- FLN_Demand_Recognition_Of_The_Flemish_Language_desc:0 "Notre langue se distingue à bien des égards de celle de nos voisins du Nord. La reconnaissance de notre autonomie linguistique est conditionnée à tout nouveau progrès vers notre intégration aux Pays-Bas. Les Néerlandais protesteront inévitablement vigoureusement et, à ce titre, nous devons faire un effort national concerté pour faire en sorte que nos demandes soient pleinement satisfaites."
+ FLN_Demand_Recognition_Of_The_Flemish_Language_desc:9 "Notre langue se distingue à bien des égards de celle de nos voisins du Nord. La reconnaissance de notre autonomie linguistique est conditionnée à tout nouveau progrès vers notre intégration aux Pays-Bas. Les Néerlandais protesteront inévitablement vigoureusement et, à ce titre, nous devons faire un effort national concerté pour faire en sorte que nos demandes soient pleinement satisfaites."
  FLN_Seperate_Flemish_Parties:0 "Parties flamandes séparées"
  FLN_Seperate_Flemish_Parties_desc:0 "Pendant des siècles de lutte, notre terre a gagné son autonomie en Belgique. Bien que nous ayons choisi à juste titre de nous associer aux Pays-Bas, il ne peut y avoir de compromis ; la Flandre doit jouir au moins du même degré d'autonomie politique qu'en tant que partie de la Belgique. À cette fin, les partis politiques flamands doivent être autorisés à s'établir aux Pays-Bas et seuls nos propres partis peuvent être autorisés à participer aux élections locales flamandes."
 
@@ -496,9 +492,9 @@ FLN_carriers_desc:0 "TLe rôle des avions dans la guerre navale s'est rapidement
  FLN_Unify_The_State_desc:0 "Si l'abolition de la régence a considérablement accru le pouvoir du Conseil, sa popularité n'a jamais été aussi faible. Des actions de propagande à grande échelle et une rhétorique nationaliste influenceront nos citoyens pour qu'ils voient que l'ennemi n'est pas à l'intérieur mais à l'extérieur de la Flandre."
  FLN_Crack_Down_On_Syndicalism:0 "Lutte contre le syndicalisme"
  FLN_Crack_Down_On_Syndicalism_desc:0 "Le mouvement syndicaliste ne peut pas exister dans notre pays car il sape notre autorité et égare faussement nos brebis sur la mauvaise voie. Une action forte et décisive contre sa direction peut mettre fin à la misère de l'organisation."
-#FLN_Enforce_Flemish:0 "Enforce Flemish" already defined above as an idea
+ #FLN_Enforce_Flemish:0 "Enforce Flemish" already defined above as an idea
  FLN_Enforce_Flemish_desc:0 "La Flandre est une nation pour les Flamands, pas pour les Allemands et surtout pas pour les Français. En collaborant avec le VNV, nous pouvons mettre fin aux villes d'installations à la frontière linguistique et appliquer une forme stricte d'enseignement Flamand. Le français ne sera plus enseigné comme troisième langue et sera strictement interdit par le Conseil."
-#FLN_Democratic_Transition:0 "Democratic Transition" already defined above as an idea
+ #FLN_Democratic_Transition:0 "Democratic Transition" already defined above as an idea
  FLN_Democratic_Transition_desc:0 "Le Conseil n'a pris le contrôle que temporairement et attend la nomination d'un nouveau monarque. Les tensions entre la noblesse et les nouveaux riches s'accroissent, les deux groupes cherchant à retarder les élections jusqu'à ce que leur pouvoir soit assuré."
  FLN_Expansion_Of_Council:0 "Élargir le Conseil"
  FLN_Expansion_Of_Council_desc:0 "Le Conseil est dans une impasse et les gens dans la rue sont de plus en plus agités en raison de leur exclusion du Conseil et de leur droit de vote politique élargi. C'est pourquoi nous prévoyons d'ouvrir cinquante nouvelles places au sein du Conseil pour que tous puissent s'affronter. Les catholiques et le VWP se disputeraient ces places car les obtenir pourrait leur donner la majorité qu'ils recherchent."
@@ -524,9 +520,9 @@ FLN_Constitutional_Monarchy_desc:0 "La Flandre est une monarchie et devrait réi
  FLN_Coalition_Socialists_desc:0 "Les élections sont terminées et un formateur a été nommé par le VWP qui tentera de former un gouvernement de coalition aux teintes socialistes."
  FLN_Coalition_Liberals:0 "Former une Coalition Libérale"
  FLN_Coalition_Liberals_desc:0 "Les élections sont terminées et un formateur a été nommé par le KB qui va essayer de former un gouvernement de coalition aux teintes libérales."
-#FLN_Aristocratic_Council:0 "An Aristocratic Council" already defined above as an idea
+ #FLN_Aristocratic_Council:0 "An Aristocratic Council" already defined above as an idea
 FLN_Aristocratic_Council_desc:0 "Le coup d'Etat aristocratique a été couronné de succès et le Conseil flamand est maintenant fermement sous contrôle noble. La nomination d'Adalbert comme Roi titulaire des Flandres nous a permis d'influencer encore plus directement les affaires de l'Etat dans notre propre intérêt."
-#FLN_German_Monarch:0 "Invite a German Monarch" already defined above as an idea
+ #FLN_German_Monarch:0 "Invite a German Monarch" already defined above as an idea
 FLN_German_Monarch_desc:0 "Adalbert a été nommé chef nominal de la Flandre et a obtenu une relation forte et stable avec l'Allemagne, nous permettant de régner librement dans le pays."
  FLN_Resistance_Takes_Control:0 "La Résistance prend le Contrôle"
  FLN_Resistance_Takes_Control_desc:0 "Le Conseil Flamand a été contraint d'abdiquer et un gouvernement temporaire composé des révolutionnaires les plus loyaux a été mis en place."
@@ -559,10 +555,10 @@ FLN_Groot_Nederland_Ambition_desc:0 "The nationalistes Thiois movement has been 
  FLN_Agricultural_Innovation_desc:0 "L'expertise agricole de l'Université de Gand a modernisé notre propre industrie agricole et est très recherchée dans tout le Reichspakt. L'expérience et l'introduction à des cas étrangers ont renforcé nos connaissances nationales et ont permis de nombreuses percées."
  FLN_Synthetic_Refining:0 "Possibilités du Raffinage d'Anvers"
  FLN_Synthetic_Refining_desc:0 "Le pétrole est actuellement importé en grande quantité dans le port d'Anvers. En l'affinant à Anvers même, nous pouvons doubler nos bénéfices et sécuriser notre propre industrie des matières plastiques."
-#FLN_Grote_Doorsteek:0 "Propose the Grote Doorsteek" already defined above as an idea
- FLN_Grote_Doorsteek_desc:0 "Avec l'expansion récente, la relance de l'Allemagne après le Lundi Noir et sa remilitarisation rapide, la demande sur notre nation en tant que point de transit commercial est en augmentation. L'Escaut, cependant, est torsadé autour du port et devra être redressé avant que nous puissions exploiter tout son potentiel."
- FLN_German_Trade_Agreement:0 "Renouveler l'Accord Commercial Allemand"
- FLN_German_Trade_Agreement_desc:0 "Avec un Géant Allemand en voie de rétablissement à nos portes et notre propre économie en bonne voie vers une pleine santé, un traité commercial rétabli entre nos nations respectives serait une issue favorable pour les deux parties."
+ #FLN_Grote_Doorsteek:0 "Propose the Grote Doorsteek" already defined above as an idea
+ FLN_Grote_Doorsteek_desc:9 "With the new trade treaties now in full swing, demand on our nation as a commercial transit point is increasing. The Scheldt however, is twisted around the harbour and will need straightening before we can exploit its full potential."
+ FLN_German_Trade_Agreement:9 "Seek New Trade Agreements"
+ FLN_German_Trade_Agreement_desc:9 "With our own economy well on the way towards full health, restoring trade treaties with our neighbour nations would be a favourable outcome for all parties involved."
  FLN_Frozen_Food_Processing:0 "Transformation d'aliments congelés"
  FLN_Frozen_Food_Processing_desc:0 "Inspirée par la tendance américaine à utiliser des congélateurs et des réfrigérateurs, la demande de produits surgelés augmente en Europe. Il s'agit toutefois d'un investissement risqué, car notre propre demande interne pour ce produit de base est très faible et nous devrions compter sur l'exportation de la nourriture."
  FLN_Boerenbond_Subsidies:0 "Subventionner le Boerenbond"
@@ -585,7 +581,7 @@ FLN_Groot_Nederland_Ambition_desc:0 "The nationalistes Thiois movement has been 
  FLN_Zaventem_Aviation_Industry_desc:0 "Avec l'aéroport international de Bruxelles situé à Zaventem et un intérêt croissant pour l'industrie aéronautique, les terrains ont été défrichés et vendus à des prix cassés pour aider les jeunes pousses de l'aviation."
  FLN_Foreign_Labour:0 "Importation de main-d'œuvre étrangère"
  FLN_Foreign_Labour_desc:0 "Nos compagnies minières actuelles sont incapables de faire face aux quotas de l'État et demandent à plus de travailleurs d'utiliser davantage les grandes réserves. Les immigrés des régions économiquement instables d'Espagne et d'Italie répondent déjà à l'appel et attendent des procédures de visa simplifiées."
-#FLN_Flemish_Miners:0 "Use Flemish Miners" already defined above as an idea
+ #FLN_Flemish_Miners:0 "Use Flemish Miners" already defined above as an idea
  FLN_Flemish_Miners_desc:0 "En nous concentrant sur des équipes plus petites mais plus professionnelles, nous pouvons augmenter notre production sans endommager les réserves de charbon."
  FLN_Solvay_Antwerpen:0 "Ouverture de l'unité de production Solvay"
  FLN_Solvay_Antwerpen_desc:0 "Solvay a décidé d'ouvrir une grande usine de production dans le port d'Anvers avec l'aide de la société Allemande IG Farben."
@@ -594,4 +590,5 @@ FLN_Groot_Nederland_Ambition_desc:0 "The nationalistes Thiois movement has been 
  FLN_Secure_Diamond_Trade:0 "Sécuriser le Commerce des Diamants"
  FLN_Secure_Diamond_Trade_desc:0 "Presque tous les diamants de la planète passent par Anvers où la population majoritairement juive contrôle le secteur du diamant. En obtenant plus de permis d'exploitation minière du gouvernement Mittelafrikan, nous pouvons augmenter la production en Afrique et, par conséquent, le commerce intérieur."
  FLN_Copper_Katanga:0 "Cuivre du Katanga"
+ #?:
  FLN_Copper_Katanga_desc:0 "Le Katanga contient d'importantes réserves de cuivre intactes qui sont exploitées par des sociétés Flamandes, mais des ressources comme le cobalt et d'autres éléments des terres rares ne demandent qu'à être exploitées par nos sociétés minières."

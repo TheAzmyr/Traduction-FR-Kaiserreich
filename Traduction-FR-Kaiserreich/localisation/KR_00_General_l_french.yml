@@ -13,7 +13,6 @@ KR_SPLASH_TITLE:0 "Bienvenue dans Kaiserreich"
 KR_SPLASH_CREDITS:0 "§YCréé par l'équipe KR4 :§!\nAdrianator2, Alpinia, Arvidus, Asratius, Augenis, Blackfalcon501, DSFDarker, Carmain, Chazem, Conor, Drozdovite, Flamefang, Gideones, Hildagrim, JazzyHugh, Jonjon428, Jonny BL, Kennedy, Krco, Liegnitz, Maltesefalcon, Matoro, McOmghall, ~mw~, Nijato, NukeGaming, OperationsManagementDecisions, PPsyrius, Pietrus, Rei VL, Retrocognition, Rylock, Starguard, Telcontar101, The Alpha Dog, The Irredentista, Vidyaország, Zankoas and Zimbabwe Salt Co.\n§YTraduit par : §!Hellh, Lazu, Mouchi et Nobelo81\n§YAnciennement traduit par : §!Aegon Targaryen, Brakmar, Darkusios, Demetran, Fanois, Feuxin, Grikke, Kfateweaver, Kira, Klik le Araï, Le Marocain, MVMaroIV, Orakle14, Paralux, Remkiller123, Romain1912, Rosak, Solal, Superwaffle, TheAzmyr, Vitulus, Youkoulélé et Zeplein"
 
 ### Main Menu Tooltips ###
-COOP_MAIN_MENU_LINK:0 "Cliquez ici pour aller à la Coop Discord"
 KR_MAIN_MENU_LINK:0 "Cliquez ici pour accéder au Kaiserreich Wiki"
 LOGO_MAIN_MENU_LINK:0 "Cliquez ici pour voir les notes de mise à jour"
 
@@ -38,6 +37,19 @@ cannot_train_units_tt:2 "§RImpossible de former des unités, de dissoudre des u
  cannot_mobilise_tt:0 "§RImpossible d'augmenter les lois sur la conscription ou la mobilisation.§!\n"
  upon_starting_focus:0 "§HEn sélectionnant cette priorité§!:"
  returned_all_expeditionary_forces_of_puppets:0 "A renvoyé toutes les forces expéditionnaires envoyées par les marionnettes."
+ puppet_but_keep_government_tt:9 "([to_be_overlord.GetFlag]§H[to_be_overlord.GetName]§!) §H[marked_country.GetName]§! becomes puppet of §H[to_be_overlord.GetName]§!, but keeps its current government and popularity settings."
+
+### Regional Triggers ###
+ is_in_asia:9 "Is an §HAsian§! country"
+ is_in_india:9 "Is an §HIndian§! country"
+ is_in_europe:9 "Is an §HEuropean§! country"
+ is_in_africa:9 "Is an §HAfrica§! country"
+ is_in_north_america:9 "Est un pays d'Amérique du Nord"
+ is_in_central_america:9 "Is a §HCentral American§! country"
+ is_in_south_america:9 "Is a §HSouth American§! country"
+ is_in_americas:9 "Is an §HAmerican§! country"
+ is_in_middle_east:9 "Is a §HMiddle Eastern§! country"
+ is_in_oceania:9 "Is an §HOceanian§! country"
 
 ### Actual Major Power tooltip ###
  is_actual_major_tooltip_base:0 " Est une puissance majeure mondiale :"
@@ -83,6 +95,8 @@ kr_ottoman_emirate:0 "Émirat ottoman"
  kr_ottoman_international_zone:0 "Mandat Internationnal"
 kr_federated_state:0 "État confédéré"
  kr_crownland:0 "Terre de la Couronne"
+ kr_oststaat:9 "Oststaat"
+ kr_oststaat_autonomous:9 "Autonomous Oststaat"
 
 ### Autonomy Tooltips ###
 can_lower_autonomy_level:0 "Peut abaisser le niveau d'autonomie\n"
@@ -182,9 +196,38 @@ kr.political.110.a:0 "Oui, mettons fin à tout cela"
 kr.political.110.b:0 "Non ! Il ne s'agit plus seulement d'indépendance maintenant !"
 
 kr.political.111.t:0 "La guerre d'indépendance [From.GetAdjective]."
-kr.political.111.d:0 "La guerre avec [From.GetNameDef] dure depuis un certain temps, et aucun de nous n'a pu en tirer un avantage clair. Il est peut-être temps de reconnaître simplement leur indépendance et d'en finir avec elle."
+ kr.political.111.d:9 "La guerre avec [From.GetNameDef] dure depuis un certain temps, et aucun de nous n'a pu en tirer un avantage clair. Il est peut-être temps de reconnaître simplement leur indépendance et d'en finir avec elle."
 kr.political.111.a:0 "Oui, mettons fin à tout cela"
 kr.political.111.b:0 "Non ! Nous allons en finir !"
+ 
+ kr.political.250.t:9 "Puppet [marked_country.GetNameDef]?"
+ kr.political.250.d:9 "This will turn [marked_country.GetNameDef] into a subject of [to_be_overlord.GetNameDef], using the default Occupied Puppet autonomous state. If they're in a different faction, they will leave it, but this won't end any of the current wars they're in. If you want to do that, you should do it separately.\n\n§RNOTE: This may very well break Kaiserreich content! Use at your own risk!!§!"
+ kr.political.250.a:0 "Do it"
+ kr.political.250.b:9 "Do it, but let them keep their current government"
+ kr.political.250.c:0 "On second thought..."
+ 
+ kr.political.251.t:9 "Free [marked_country.GetNameDef]?"
+ kr.political.251.d:9 "This will make [marked_country.GetNameDef] completely independent. It will not change their current government (unless the mod has content to do so automatically), not remove [marked_country.GetNameDef] from their faction, if they're in one, nor take them out of any wars.\n\n§RNOTE: This may very well break Kaiserreich content! Use at your own risk!!§!"
+ 
+ kr.political.252.t:9 "Join the [to_be_faction_leader.GetFactionName]?"
+ kr.political.252.d:9 "This will make [marked_country.GetNameDef] join the [to_be_faction_leader.GetFactionName], dismantling their own faction if they're a faction leader or simply leaving their current faction if they're in one. This won't change any wars they're currently in.\n\n§RNOTE: This may very well break Kaiserreich content! Use at your own risk!!§!"
+ 
+ kr.political.253.t:9 "Lead the [marked_country.GetFactionName]?"
+ kr.political.253.d:9 "This will make [marked_country.GetNameDef] faction leader for the [marked_country.GetFactionName].\n\n§RNOTE: This may very well break Kaiserreich content! Use at your own risk!!§!"
+ 
+ kr.political.254.t:9 "Leave the [marked_country.GetFactionName]?"
+ kr.political.254.d:9 "This will make [marked_country.GetNameDef] leave the [marked_country.GetFactionName], dismantling the faction if they are the leader. It will not affect any wars they are currently in.\n\n§RNOTE: This may very well break Kaiserreich content! Use at your own risk!!§!"
+ 
+ kr.political.255.t:9 "Peace with [peace_target.GetNameDef]?"
+ kr.political.255.d:9 "[marked_country.GetNameDefCap], along with all its allies, will white peace with [peace_target.GetNameDef] and all of their allies.\n\n§RNOTE: This may very well break Kaiserreich content! Use at your own risk!!§!"
+ kr.political.255.b:9 "Separate [marked_country.GetNameDef] from its allies, then peace out"
+ 
+ kr.political.256.t:9 "Peace out of all wars?"
+ kr.political.256.d:9 "[marked_country.GetNameDefCap] will make a separate white peace for all its current wars. If it is a subject, it will first be freed, and if it is in a faction, it must first leave it.\n\n§RNOTE: This may very well break Kaiserreich content! Use at your own risk!!§!"
+ 
+ kr.political.257.t:9 "War with [war_target.GetNameDef]?"
+ kr.political.257.d:9 "[marked_country.GetNameDefCap] will declare war on [war_target.GetNameDef]. There are no checks to see if this is a valid declaration, other than the two countries are not allies and not already at war.\n\n§RNOTE: This may very well break Kaiserreich content! Use at your own risk!!§!"
+ 
 
 ### Unit Leader Events ###
  unit_leader.1.t:0 "[From.GetName] tombe malade"
@@ -261,9 +304,10 @@ toggle_news_button_tooltip_desc:0 "[toggle_news_button_tooltip_desc_loc]"
 
 ### Factions ###
 all_zhili_faction:0 "Clique du Zhili"
+ austrian_empire_faction:9 "Austro-Hungarian Monarchy"
 austrian_sphere:0 "Donau-Adriabund"
 Belgrade_Pact:0 "Pacte de Belgrade"
-Belgian-Dutch_Treaty_Organisation:0 "Alliance BeNeSam"
+ benesam:0 "Alliance BeNeSam"
 buenos_aires_lima_faction:0 "Axe Buenos Aires-Lima"
 cairo_pact:0 "Pacte du Caire"
 CEN_anti_revolutionary_alliance:0 "Avant-garde du peuple"
@@ -306,6 +350,87 @@ had_war:0 "A fait la guerre"
 is_invalid_war_target_tooltip:0 "N'est pas une cible valable pour la guerre"
 is_valid_war_target_tooltip:0 "Est une cible valable pour la guerre"
 not_during_ceasefire:0 "Pas tant que le cessez-le-feu est maintenu"
+ 
+### Commonly used custom decision costs ###
+ CP_5:0 "£command_power §H5§!"
+ CP_5_blocked:0 "£command_power §R5§!"
+ CP_5_tooltip:0 "Cela coûte $CP_5_blocked$ de prendre la décision"
+ 
+ CP_10:0 "£command_power §H10§!"
+ CP_10_blocked:0 "£command_power §R10§!"
+ CP_10_tooltip:9 "It costs $CP_10_blocked$ to take the decision"
+ 
+ CP_15:9 "£command_power §H15§!"
+ CP_15_blocked:0 "£command_power §R15§!"
+ CP_15_tooltip:9 "It costs $CP_15_blocked$ to take the decision"
+ 
+ CP_20:9 "£command_power §H20§!"
+ CP_20_blocked:9 "£command_power §R20§!"
+ CP_20_tooltip:9 "It costs $CP_20_blocked$ to take the decision"
+ 
+ CP_25:0 "£command_power §H25§!"
+ CP_25_blocked:0 "£command_power §R25§!"
+ CP_25_tooltip:9 "It costs $CP_25_blocked$ to take the decision"
+ 
+ CP_30:0 "£command_power §H30§!"
+ CP_30_blocked:0 "£command_power §R30§!"
+ CP_30_tooltip:9 "It costs $CP_30_blocked$ to take the decision"
+ 
+ CP_35:0 "£command_power §H35§!"
+ CP_35_blocked:0 "£command_power §R35§!"
+ CP_35_tooltip:9 "It costs $CP_35_blocked$ to take the decision"
+ 
+ CP_40:9 "£command_power §H40§!"
+ CP_40_blocked:9 "£command_power §R40§!"
+ CP_40_tooltip:9 "It costs $CP_40_blocked$ to take the decision"
+ 
+ CP_45:9 "£command_power §H45§!"
+ CP_45_blocked:9 "£command_power §R45§!"
+ CP_45_tooltip:9 "It costs $CP_45_blocked$ to take the decision"
+ 
+ CP_50:0 "£command_power §H50§!"
+ CP_50_blocked:0 "£command_power §R50§!"
+ CP_50_tooltip:9 "It costs $CP_50_blocked$ to take the decision"
+ 
+ CP_55:9 "£command_power §H55§!"
+ CP_55_blocked:9 "£command_power §R55§!"
+ CP_55_tooltip:9 "It costs $CP_55_blocked$ to take the decision"
+ 
+ CP_60:0 "£command_power §H60§!"
+ CP_60_blocked:0 "£command_power §R60§!"
+ CP_60_tooltip:9 "It costs $CP_60_blocked$ to take the decision"
+ 
+ CP_65:9 "£command_power §H65§!"
+ CP_65_blocked:9 "£command_power §R65§!"
+ CP_65_tooltip:9 "It costs $CP_65_blocked$ to take the decision"
+ 
+ CP_70:9 "£command_power §H70§!"
+ CP_70_blocked:9 "£command_power §R70§!"
+ CP_70_tooltip:9 "It costs $CP_70_blocked$ to take the decision"
+ 
+ CP_75:9 "£command_power §H75§!"
+ CP_75_blocked:9 "£command_power §R75§!"
+ CP_75_tooltip:9 "It costs $CP_75_blocked$ to take the decision"
+ 
+ CP_80:0 "£command_power §H80§!"
+ CP_80_blocked:0 "£command_power §R80§!"
+ CP_80_tooltip:0 "It costs $CP_80_blocked$ to take the decision"
+ 
+ CP_85:9 "£command_power §H85§!"
+ CP_85_blocked:9 "£command_power §R85§!"
+ CP_85_tooltip:9 "It costs $CP_85_blocked$ to take the decision"
+ 
+ CP_90:9 "£command_power §H90§!"
+ CP_90_blocked:9 "£command_power §R90§!"
+ CP_90_tooltip:9 "It costs $CP_90_blocked$ to take the decision"
+ 
+ CP_95:9 "£command_power §H95§!"
+ CP_95_blocked:9 "£command_power §R95§!"
+ CP_95_tooltip:9 "It costs $CP_95_blocked$ to take the decision"
+ 
+ CP_100:9 "£command_power §H100§!"
+ CP_100_blocked:9 "£command_power §R100§!"
+ CP_100_tooltip:9 "It costs $CP_100_blocked$ to take the decision"
 
 ### World Tension ###
 second_american_civil_war_threat:0 "La Seconde Guerre Civile Américaine"
@@ -363,14 +488,23 @@ security_minister:0 "Ministre de l'Intérieur"
 head_of_intel:0 "Directeur du renseignement"
 
 ### Country-Specific Ministers ###
+ # BAT:
  knight_captain_of_liv_ord:0 "Chevalier-Capitaine"
+ # BAT:
 land_marshal_of_liv_ord:0 "Maréchal"                # BAT
+ # CAN:
 leader_of_the_british_exiles:0 "Premier ministre britannique" # CAN
+ # LEC:
 underworld_boss:0 "Patron de la pègre"
+ # ROM:
 marshal_of_the_palace:0 "Maréchal du Palais"
+ # SAF, SFR:
 minister_of_native_affairs:0 "Min. des affaires indigènes"
+ # NFA:
  national_philosopher:0 "Philosophe national"
+ # JBS:
  faction_minister:0 "Faction Interne"
+ # POL:
  kings_trusted_councillor:0 "Conseiller de confiance du Roi"
 
 ### Company Traits ###
@@ -517,8 +651,8 @@ oil_concern:0 "Société pétrolière"
 ### General ###
 fighter_techs:0 "Technologie des chasseurs"
 fighter_techs_research:0 "Temps de recherche des techniques des chasseurs"
-#support_tech:0 "Support Tech" already defined in Research loc file
-#support_tech_research:0 "Support Tech Research Time" already defined in Research loc file
+ #support_tech:0 "Support Tech" already defined in Research loc file
+ #support_tech_research:0 "Support Tech Research Time" already defined in Research loc file
 cat_strategic_destruction:0 "Technologie de Destruction Stratégique"
 marine_tech_research:0 " Temps de recherche technologique des Marines"
 early_fighter:0 "Combattant d'entre-deux-guerres"
@@ -539,7 +673,7 @@ concentrated_industry_tech:0 "Technologie de l'industrie concentrée"
 dispersed_industry_tech:0 "Technologie de l'industrie dispersée"
 cat_gunnery:0 "Artillerie navale"
 cr_tech:0 "Modèles de croiseurs"
- acr_tech:0 "Modèles de croiseurs blindés"
+ acr_tech:9 "Modèles de croiseurs blindés"
 cat_targeting:0 "Pompes à incendie"
 cat_torpedo:0 "Technologie des torpilles"
  carrier_ship_tree:0 "Opérations de Porte-Avions"
@@ -581,6 +715,10 @@ asymmetrical_warfare:0 "Entraînement à la guerre asymétrique"
 desert_warfare:0 "Entraînement au combat en désert"
  desert_warfare_effect:0 "Active §H$desert_warfare$§!\n§HInfanterie à pied\n    Deserts§!\n      Attaque: §G+10%§!\n      Défense: §G+5%§!\n      Mouvement: §G+5%§!"
 
+ marsh_warfare:9 "Marsh Combat Training"
+ marsh_warfare_effect:9 "Enables §H$marsh_warfare$§!\n§HLeg Infantry\n    Marshes§!\n      Attack: §G+10%§!\n      Defence: §G+5%§!\n      Movement: §G+5%§!"
+
+
 anti_fortification_artillery:0 "Artillerie Anti-Fortification"
  anti_fortification_artillery_effect:0 "Active §H$anti_fortification_artillery$§!\n§HArtillerie de soutien§!\n    Fort: Attaque: §G+20%§!\n§HArtillerie§!\n    Fort: Attaque: §G+20%§!\n§HArtillerie Motorisé§!\n    Fort: Attaque: §G+20%§!"
 
@@ -591,10 +729,15 @@ tech_integrated_specialists_effect:0 "Active §H$tech_integrated_specialists$§!
  tech_at_cavalry_effect:0 "Active §H$tech_at_cavalry$\nCavalerie§!\n      Perforation : §G+75%§!\n      Attaque Dure: §G+10%§!"
 
  tech_dragoon_tactics:0 "Tactiques de Dragons"
- tech_dragoon_tactics_effect:0 "Active §H$tech_dragoon_tactics$\nCavalerie§!\n      Organisation Max : §G+5§!\n      Taux de Récupération : §G+10%§!\n      Mouvement : §G+10%§!\n      Attaque de Nuit : §G+10§!"
+ tech_dragoon_tactics_effect:9 "Active §H$tech_dragoon_tactics$\nCavalerie§!\n      Organisation Max : §G+5§!\n      Taux de Récupération : §G+10%§!\n      Mouvement : §G+10%§!\n      Attaque de Nuit : §G+10§!"
 
  tech_improved_encryption:0 "Cryptage Amélioré"
  tech_improved_encryption_effect:0 "Active §H$tech_improved_encryption$§!\n$MODIFIER_CRYPTO_STRENGTH$: [?2|+ = 0]"
+
+ tech_mountain_artillery:9 "Mountain Artillery"
+ tech_mountain_artillery_effect:9 "Enables §H$tech_mountain_artillery$§!\n§HArtillery\n    Hills§!\n      Attack: §G+10%§!\n      Movement: §G+10%§!\n    §HMountain§!\n      Attack: §G+10%§!\n      Movement: §G+10%§!"
+
+
 
 ### Army Command Traits ###
 
@@ -710,86 +853,86 @@ air_ace_promoter_1:0 "Héros positif"
 air_ace_promoter_2:0 "Héros positif"
 air_ace_promoter_3:0 "Héros positif"
 
-#air_naval_strike_1:0 "Naval Strike" already defined in Traits loc file
-#air_naval_strike_2:0 "Naval Strike" already defined in Traits loc file
-#air_naval_strike_3:0 "Naval Strike" already defined in Traits loc file
+ #air_naval_strike_1:0 "Naval Strike" already defined in Traits loc file
+ #air_naval_strike_2:0 "Naval Strike" already defined in Traits loc file
+ #air_naval_strike_3:0 "Naval Strike" already defined in Traits loc file
 
-#air_bomber_interception_1:0 "Bomber Interception" already defined in Traits loc file
-#air_bomber_interception_2:0 "Bomber Interception" already defined in Traits loc file
-#air_bomber_interception_3:0 "Bomber Interception" already defined in Traits loc file
+ #air_bomber_interception_1:0 "Bomber Interception" already defined in Traits loc file
+ #air_bomber_interception_2:0 "Bomber Interception" already defined in Traits loc file
+ #air_bomber_interception_3:0 "Bomber Interception" already defined in Traits loc file
 
-#air_air_superiority_1:0 "Air Superiority" already defined in Traits loc file
-#air_air_superiority_2:0 "Air Superiority" already defined in Traits loc file
-#air_air_superiority_3:0 "Air Superiority" already defined in Traits loc file
+ #air_air_superiority_1:0 "Air Superiority" already defined in Traits loc file
+ #air_air_superiority_2:0 "Air Superiority" already defined in Traits loc file
+ #air_air_superiority_3:0 "Air Superiority" already defined in Traits loc file
 
-#air_close_air_support_1:0 "Close Air Support" already defined in Traits loc file
-#air_close_air_support_2:0 "Close Air Support" already defined in Traits loc file
-#air_close_air_support_3:0 "Close Air Support" already defined in Traits loc file
+ #air_close_air_support_1:0 "Close Air Support" already defined in Traits loc file
+ #air_close_air_support_2:0 "Close Air Support" already defined in Traits loc file
+ #air_close_air_support_3:0 "Close Air Support" already defined in Traits loc file
 
-#air_strategic_bombing_1:0 "Strategic Bombing" already defined in Traits loc file
-#air_strategic_bombing_2:0 "Strategic Bombing" already defined in Traits loc file
-#air_strategic_bombing_3:0 "Strategic Bombing" already defined in Traits loc file
+ #air_strategic_bombing_1:0 "Strategic Bombing" already defined in Traits loc file
+ #air_strategic_bombing_2:0 "Strategic Bombing" already defined in Traits loc file
+ #air_strategic_bombing_3:0 "Strategic Bombing" already defined in Traits loc file
 
-#air_tactical_bombing_1:0 "Tactical Bombing" already defined in Traits loc file
-#air_tactical_bombing_2:0 "Tactical Bombing" already defined in Traits loc file
-#air_tactical_bombing_3:0 "Tactical Bombing" already defined in Traits loc file
+ #air_tactical_bombing_1:0 "Tactical Bombing" already defined in Traits loc file
+ #air_tactical_bombing_2:0 "Tactical Bombing" already defined in Traits loc file
+ #air_tactical_bombing_3:0 "Tactical Bombing" already defined in Traits loc file
 
-#air_airborne_1:0 "Airborne Assault" already defined in Traits loc file
-#air_airborne_2:0 "Airborne Assault" already defined in Traits loc file
-#air_airborne_3:0 "Airborne Assault" already defined in Traits loc file
+ #air_airborne_1:0 "Airborne Assault" already defined in Traits loc file
+ #air_airborne_2:0 "Airborne Assault" already defined in Traits loc file
+ #air_airborne_3:0 "Airborne Assault" already defined in Traits loc file
 
 ### Naval ###
-#navy_chief_naval_aviation_1:0 "Naval Aviation" already defined in Traits loc file
-#navy_chief_naval_aviation_2:0 "Naval Aviation" already defined in Traits loc file
-#navy_chief_naval_aviation_3:0 "Naval Aviation" already defined in Traits loc file
+ #navy_chief_naval_aviation_1:0 "Naval Aviation" already defined in Traits loc file
+ #navy_chief_naval_aviation_2:0 "Naval Aviation" already defined in Traits loc file
+ #navy_chief_naval_aviation_3:0 "Naval Aviation" already defined in Traits loc file
 
-#navy_chief_decisive_battle_1:0 "Decisive Battle Doctrine" already defined in Traits loc file
-#navy_chief_decisive_battle_2:0 "Decisive Battle Doctrine" already defined in Traits loc file
-#navy_chief_decisive_battle_3:0 "Decisive Battle Doctrine" already defined in Traits loc file
+ #navy_chief_decisive_battle_1:0 "Decisive Battle Doctrine" already defined in Traits loc file
+ #navy_chief_decisive_battle_2:0 "Decisive Battle Doctrine" already defined in Traits loc file
+ #navy_chief_decisive_battle_3:0 "Decisive Battle Doctrine" already defined in Traits loc file
 
-#navy_chief_commerce_raiding_1:0 "Commerce Raiding Doctrine"
-#navy_chief_commerce_raiding_2:0 "Commerce Raiding Doctrine"
-#navy_chief_commerce_raiding_3:0 "Commerce Raiding Doctrine"
+ #navy_chief_commerce_raiding_1:0 "Commerce Raiding Doctrine"
+ #navy_chief_commerce_raiding_2:0 "Commerce Raiding Doctrine"
+ #navy_chief_commerce_raiding_3:0 "Commerce Raiding Doctrine"
 
-#navy_chief_reform_1:0 "Naval Reformer"
-#navy_chief_reform_2:0 "Naval Reformer"
-#navy_chief_reform_3:0 "Naval Reformer"
+ #navy_chief_reform_1:0 "Naval Reformer"
+ #navy_chief_reform_2:0 "Naval Reformer"
+ #navy_chief_reform_3:0 "Naval Reformer"
 
-#navy_chief_maneuver_1:0 "Naval Manoeuvre"
-#navy_chief_maneuver_2:0 "Naval Manoeuvre"
-#navy_chief_maneuver_3:0 "Naval Manoeuvre"
+ #navy_chief_maneuver_1:0 "Naval Manoeuvre"
+ #navy_chief_maneuver_2:0 "Naval Manoeuvre"
+ #navy_chief_maneuver_3:0 "Naval Manoeuvre"
 
-#navy_anti_submarine_1:0 "Anti-Submarine"
-#navy_anti_submarine_2:0 "Anti-Submarine"
-#navy_anti_submarine_3:0 "Anti-Submarine"
+ #navy_anti_submarine_1:0 "Anti-Submarine"
+ #navy_anti_submarine_2:0 "Anti-Submarine"
+ #navy_anti_submarine_3:0 "Anti-Submarine"
 
-#navy_naval_air_defense_1:0 "Naval Air Defence"
-#navy_naval_air_defense_2:0 "Naval Air Defence"
-#navy_naval_air_defense_3:0 "Naval Air Defence"
+ #navy_naval_air_defense_1:0 "Naval Air Defence"
+ #navy_naval_air_defense_2:0 "Naval Air Defence"
+ #navy_naval_air_defense_3:0 "Naval Air Defence"
 
-#navy_fleet_logistics_1:0 "Fleet Logistics"
-#navy_fleet_logistics_2:0 "Fleet Logistics"
-#navy_fleet_logistics_3:0 "Fleet Logistics"
+ #navy_fleet_logistics_1:0 "Fleet Logistics"
+ #navy_fleet_logistics_2:0 "Fleet Logistics"
+ #navy_fleet_logistics_3:0 "Fleet Logistics"
 
-#navy_amphibious_assault_1:0 "Amphibious Assault"
-#navy_amphibious_assault_2:0 "Amphibious Assault"
-#navy_amphibious_assault_3:0 "Amphibious Assault"
+ #navy_amphibious_assault_1:0 "Amphibious Assault"
+ #navy_amphibious_assault_2:0 "Amphibious Assault"
+ #navy_amphibious_assault_3:0 "Amphibious Assault"
 
-#navy_submarine_1:0 "Submarine Warfare Doctrine"
-#navy_submarine_2:0 "Submarine Warfare Doctrine"
-#navy_submarine_3:0 "Submarine Warfare Doctrine"
+ #navy_submarine_1:0 "Submarine Warfare Doctrine"
+ #navy_submarine_2:0 "Submarine Warfare Doctrine"
+ #navy_submarine_3:0 "Submarine Warfare Doctrine"
 
-#navy_capital_ship_1:0 "Capital Fleet Doctrine"
-#navy_capital_ship_2:0 "Capital Fleet Doctrine"
-#navy_capital_ship_3:0 "Capital Fleet Doctrine"
+ #navy_capital_ship_1:0 "Capital Fleet Doctrine"
+ #navy_capital_ship_2:0 "Capital Fleet Doctrine"
+ #navy_capital_ship_3:0 "Capital Fleet Doctrine"
 
-#navy_screen_1:0 "Forward Escort Doctrine"
-#navy_screen_2:0 "Forward Escort Doctrine"
-#navy_screen_3:0 "Forward Escort Doctrine"
+ #navy_screen_1:0 "Forward Escort Doctrine"
+ #navy_screen_2:0 "Forward Escort Doctrine"
+ #navy_screen_3:0 "Forward Escort Doctrine"
 
-#navy_carrier_1:0 "Carrier Strike Doctrine"
-#navy_carrier_2:0 "Carrier Strike Doctrine"
-#navy_carrier_3:0 "Carrier Strike Doctrine"
+ #navy_carrier_1:0 "Carrier Strike Doctrine"
+ #navy_carrier_2:0 "Carrier Strike Doctrine"
+ #navy_carrier_3:0 "Carrier Strike Doctrine"
 
 black_monday:0 "Lundi noir"
 
@@ -831,8 +974,8 @@ continuous_suppression:0 "Suppression de la résistance"
 continuous_suppression_desc:0 "En infiltrant les principaux groupes de résistance en territoire occupé et en tournant leurs chefs, nous pouvons réduire considérablement les dégâts qu'ils peuvent faire"
 continuous_repair:0 "Réparation de construction"
 continuous_repair_desc:0 "Nous formerons des équipes de réparation spécialisées composées d'ouvriers d'usine et de construction et contrôlerons de manière centralisée leur déploiement pour améliorer la reconstruction des infrastructures endommagées"
-#continuous_tech_share:0 "Technology Sharing"
-#continuous_tech_share_desc:0 "We will encourage our research institutes and universities to reach out to their counter parts in allied countries. This will gain us a tech sharing bonus."
+ #continuous_tech_share:0 "Technology Sharing"
+ #continuous_tech_share_desc:0 "We will encourage our research institutes and universities to reach out to their counter parts in allied countries. This will gain us a tech sharing bonus."
 continuous_boost_freedom:0 "Augmenter l'autonomie"
 continuous_boost_freedom_desc:0 "En réorganisant notre bureaucratie coloniale et en recrutant des administrateurs natifs, nous pourrons, à terme, prendre en charge nos propres affaires"
 continuous_restrict_freedom:0 "Supprimer les sujets"
