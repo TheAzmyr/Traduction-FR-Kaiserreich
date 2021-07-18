@@ -37,19 +37,19 @@ cannot_train_units_tt:2 "§RImpossible de former des unités, de dissoudre des u
  cannot_mobilise_tt:0 "§RImpossible d'augmenter les lois sur la conscription ou la mobilisation.§!\n"
  upon_starting_focus:0 "§HEn sélectionnant cette priorité§!:"
  returned_all_expeditionary_forces_of_puppets:0 "A renvoyé toutes les forces expéditionnaires envoyées par les marionnettes."
- puppet_but_keep_government_tt:9 "([to_be_overlord.GetFlag]§H[to_be_overlord.GetName]§!) §H[marked_country.GetName]§! becomes puppet of §H[to_be_overlord.GetName]§!, but keeps its current government and popularity settings."
+ puppet_but_keep_government_tt:9 "([to_be_overlord.GetFlag]§H[to_be_overlord.GetName]§!) §H[marked_country.GetName]§! devient une marionnette de §H[to_be_overlord.GetName]§!, mais conserve ses paramètres actuels de gouvernement et de popularité."
 
 ### Regional Triggers ###
- is_in_asia:9 "Is an §HAsian§! country"
- is_in_india:9 "Is an §HIndian§! country"
- is_in_europe:9 "Is an §HEuropean§! country"
- is_in_africa:9 "Is an §HAfrica§! country"
+ is_in_asia:9 "Est un pays §HAsiatique§!"
+ is_in_india:9 "Est un pays §HIndien§!"
+ is_in_europe:9 "Est un pays §HEuropéen§!"
+ is_in_africa:9 "Est un pays §HAfricain§!"
  is_in_north_america:9 "Est un pays d'Amérique du Nord"
- is_in_central_america:9 "Is a §HCentral American§! country"
- is_in_south_america:9 "Is a §HSouth American§! country"
- is_in_americas:9 "Is an §HAmerican§! country"
- is_in_middle_east:9 "Is a §HMiddle Eastern§! country"
- is_in_oceania:9 "Is an §HOceanian§! country"
+ is_in_central_america:9 "Est un pays §HCentro-Américain§!"
+ is_in_south_america:9 "Est un pays §HSud-Américain§!"
+ is_in_americas:9 "Est un pays §HAméricain§!"
+ is_in_middle_east:9 "Est un pays §HMoyen-Oriental§!"
+ is_in_oceania:9 "Est un pays §HOcéanien§!"
 
 ### Actual Major Power tooltip ###
  is_actual_major_tooltip_base:0 " Est une puissance majeure mondiale :"
@@ -96,7 +96,7 @@ kr_ottoman_emirate:0 "Émirat ottoman"
 kr_federated_state:0 "État confédéré"
  kr_crownland:0 "Terre de la Couronne"
  kr_oststaat:9 "Oststaat"
- kr_oststaat_autonomous:9 "Autonomous Oststaat"
+ kr_oststaat_autonomous:9 "Oststaat Autonome"
 
 ### Autonomy Tooltips ###
 can_lower_autonomy_level:0 "Peut abaisser le niveau d'autonomie\n"
@@ -200,33 +200,33 @@ kr.political.111.t:0 "La guerre d'indépendance [From.GetAdjective]."
 kr.political.111.a:0 "Oui, mettons fin à tout cela"
 kr.political.111.b:0 "Non ! Nous allons en finir !"
  
- kr.political.250.t:9 "Puppet [marked_country.GetNameDef]?"
- kr.political.250.d:9 "This will turn [marked_country.GetNameDef] into a subject of [to_be_overlord.GetNameDef], using the default Occupied Puppet autonomous state. If they're in a different faction, they will leave it, but this won't end any of the current wars they're in. If you want to do that, you should do it separately.\n\n§RNOTE: This may very well break Kaiserreich content! Use at your own risk!!§!"
- kr.political.250.a:0 "Do it"
- kr.political.250.b:9 "Do it, but let them keep their current government"
- kr.political.250.c:0 "On second thought..."
+ kr.political.250.t:9 "Rendre marionnette[marked_country.GetNameDef]?"
+ kr.political.250.d:9 "Cela transformera [marked_country.GetNameDef] en sujet de [to_be_overlord.GetNameDef], en utilisant l'état d'autonomie par défaut Marionnette Occupée. S'ils font partie d'une autre faction, ils la quitteront, mais cela ne mettra pas fin aux guerres dans lesquelles ils se trouvent. Si vous voulez faire cela, vous devez le faire séparément.\n\n§RNOTE : Cela peut très bien casser le contenu de Kaiserreich ! Utilisez-le à vos risques et périls !§!"
+ kr.political.250.a:0 "Faites-le."
+ kr.political.250.b:9 "Faites-le, mais laissez-les garder leur gouvernement actuel."
+ kr.political.250.c:0 "En y réfléchissant bien..."
  
- kr.political.251.t:9 "Free [marked_country.GetNameDef]?"
- kr.political.251.d:9 "This will make [marked_country.GetNameDef] completely independent. It will not change their current government (unless the mod has content to do so automatically), not remove [marked_country.GetNameDef] from their faction, if they're in one, nor take them out of any wars.\n\n§RNOTE: This may very well break Kaiserreich content! Use at your own risk!!§!"
+ kr.political.251.t:9 "Libérer [marked_country.GetNameDef]?"
+ kr.political.251.d:9 "Cela rendra [marked_country.GetNameDef] complètement indépendant. Cela ne changera pas son gouvernement actuel (à moins que le mod n'ait prévu de le faire automatiquement), ne retirera pas [marked_country.GetNameDef] de sa faction, s'il en fait partie, et ne le sortira d'aucune guerre.\n\n§RNOTE: Cela peut très bien briser le contenu du Kaiserreich ! Utilisez-le à vos risques et périls !§!"
  
- kr.political.252.t:9 "Join the [to_be_faction_leader.GetFactionName]?"
- kr.political.252.d:9 "This will make [marked_country.GetNameDef] join the [to_be_faction_leader.GetFactionName], dismantling their own faction if they're a faction leader or simply leaving their current faction if they're in one. This won't change any wars they're currently in.\n\n§RNOTE: This may very well break Kaiserreich content! Use at your own risk!!§!"
+ kr.political.252.t:9 "Rejoindre le [to_be_faction_leader.GetFactionName]?"
+ kr.political.252.d:9 "[marked_country.GetNameDef] rejoindra ainsi la [to_be_faction_leader.GetFactionName], démantelant sa propre faction s'il est chef de faction ou quittant simplement sa faction actuelle s'il en fait partie. Cela ne changera rien aux guerres dans lesquelles il se trouve actuellement.\n\n§RNOTE: Cela peut très bien briser le contenu du Kaiserreich ! Utilisez-le à vos risques et périls !§!"
  
- kr.political.253.t:9 "Lead the [marked_country.GetFactionName]?"
- kr.political.253.d:9 "This will make [marked_country.GetNameDef] faction leader for the [marked_country.GetFactionName].\n\n§RNOTE: This may very well break Kaiserreich content! Use at your own risk!!§!"
+ kr.political.253.t:9 "Diriger le [marked_country.GetFactionName]?"
+ kr.political.253.d:9 "Cela fera de [marked_country.GetNameDef] le chef de faction de [marked_country.GetFactionName].\n\n§RNOTE: Cela peut très bien briser le contenu du Kaiserreich ! Utilisez-le à vos risques et périls !§!"
  
- kr.political.254.t:9 "Leave the [marked_country.GetFactionName]?"
- kr.political.254.d:9 "This will make [marked_country.GetNameDef] leave the [marked_country.GetFactionName], dismantling the faction if they are the leader. It will not affect any wars they are currently in.\n\n§RNOTE: This may very well break Kaiserreich content! Use at your own risk!!§!"
+ kr.political.254.t:9 "Quitter le [marked_country.GetFactionName]?"
+ kr.political.254.d:9 "Ainsi, [marked_country.GetNameDef] quittera le [marked_country.GetFactionName], démantelant la faction s'il en est le chef. Cela n'affectera pas les guerres dans lesquelles il se trouve actuellement.\n\n§RNOTE: Cela peut très bien briser le contenu du Kaiserreich ! Utilisez-le à vos risques et périls !§!"
  
- kr.political.255.t:9 "Peace with [peace_target.GetNameDef]?"
- kr.political.255.d:9 "[marked_country.GetNameDefCap], along with all its allies, will white peace with [peace_target.GetNameDef] and all of their allies.\n\n§RNOTE: This may very well break Kaiserreich content! Use at your own risk!!§!"
- kr.political.255.b:9 "Separate [marked_country.GetNameDef] from its allies, then peace out"
+ kr.political.255.t:9 "Faire la paix avec [peace_target.GetNameDef] ?"
+ kr.political.255.d:9 "[marked_country.GetNameDefCap], ainsi que tous ses alliés, feront la paix blanche avec [marked_country.GetNameDef] et tous ses alliés.\n\n§RNOTE: Cela peut très bien briser le contenu du Kaiserreich ! Utilisez-le à vos risques et périls !§!"
+ kr.political.255.b:9 "Séparer [marked_country.GetNameDef] de ses alliés, puis faire la paix."
  
- kr.political.256.t:9 "Peace out of all wars?"
- kr.political.256.d:9 "[marked_country.GetNameDefCap] will make a separate white peace for all its current wars. If it is a subject, it will first be freed, and if it is in a faction, it must first leave it.\n\n§RNOTE: This may very well break Kaiserreich content! Use at your own risk!!§!"
+ kr.political.256.t:9 "La paix après toutes les guerres ?"
+ kr.political.256.d:9 "[marked_country.GetNameDefCap] fera une paix blanche séparée pour toutes ses guerres actuelles. S'il s'agit d'un sujet, il devra d'abord être libéré, et s'il fait partie d'une faction, il devra d'abord la quitter.\n\n§RNOTE: Cela peut très bien briser le contenu du Kaiserreich ! Utilisez-le à vos risques et périls !§!"
  
- kr.political.257.t:9 "War with [war_target.GetNameDef]?"
- kr.political.257.d:9 "[marked_country.GetNameDefCap] will declare war on [war_target.GetNameDef]. There are no checks to see if this is a valid declaration, other than the two countries are not allies and not already at war.\n\n§RNOTE: This may very well break Kaiserreich content! Use at your own risk!!§!"
+ kr.political.257.t:9 "Guerre avec [war_target.GetNameDef] ?"
+ kr.political.257.d:9 "[marked_country.GetNameDefCap] va déclarer la guerre à [war_target.GetNameDef]. Il n'y a pas de vérification pour savoir si cette déclaration est valide, si ce n'est que les deux pays ne sont pas alliés et ne sont pas déjà en guerre.\n\n§RNOTE: Cela peut très bien briser le contenu du Kaiserreich ! Utilisez-le à vos risques et périls !§!"
  
 
 ### Unit Leader Events ###
@@ -239,7 +239,7 @@ unit_leader.2.a:0 "C'est regrettable."
 
 ### Government in Exile Events ###
 mtg_exile_leader_added.1.t:1 "Le leader [exile_nation.GetAdjective] en exil propose un service"
- mtg_exile_leader_added.1.desc:0 "After a long and hazardous journey through enemy-held territory and several neutral states, a high ranking military officer from one of our capitulated allies has finally arrived in the capital. Following a short period of recovery, he has offered his services in our common struggle."
+ mtg_exile_leader_added.1.desc:0 "Après un long et périlleux voyage à travers des territoires occupés par l'ennemi et plusieurs états neutres, un officier militaire de haut rang de l'un de nos alliés ayant capitulé est finalement arrivé dans la capitale. Après une courte période de récupération, il a offert ses services dans notre lutte commune."
 mtg_exile_leader_added.1.a:1 "Votre combat n'est pas encore terminé"
 mtg_exile_government.2.title:0 "Le gouvernement [From.GetAdjective] en exil"
  mtg_exile_government.2.desc:0 "[From.GetLeader] a officiellement demandé au gouvernement [Root.GetAdjective] l'autorisation de retourner dans [From.GetNameDef] et de rétablir un cabinet provisoire [From.GetRulingParty] en préparation de la paix d'après-guerre"
@@ -358,79 +358,79 @@ not_during_ceasefire:0 "Pas tant que le cessez-le-feu est maintenu"
  
  CP_10:0 "£command_power §H10§!"
  CP_10_blocked:0 "£command_power §R10§!"
- CP_10_tooltip:9 "It costs $CP_10_blocked$ to take the decision"
+ CP_10_tooltip:9 "Cela coûte $CP_10_blocked$ de prendre la décision"
  
  CP_15:9 "£command_power §H15§!"
  CP_15_blocked:0 "£command_power §R15§!"
- CP_15_tooltip:9 "It costs $CP_15_blocked$ to take the decision"
+ CP_15_tooltip:9 "Cela coûte $CP_15_blocked$ de prendre la décision"
  
  CP_20:9 "£command_power §H20§!"
  CP_20_blocked:9 "£command_power §R20§!"
- CP_20_tooltip:9 "It costs $CP_20_blocked$ to take the decision"
+ CP_20_tooltip:9 "Cela coûte $CP_20_blocked$ de prendre la décision"
  
  CP_25:0 "£command_power §H25§!"
  CP_25_blocked:0 "£command_power §R25§!"
- CP_25_tooltip:9 "It costs $CP_25_blocked$ to take the decision"
+ CP_25_tooltip:9 "Cela coûte $CP_25_blocked$ de prendre la décision"
  
  CP_30:0 "£command_power §H30§!"
  CP_30_blocked:0 "£command_power §R30§!"
- CP_30_tooltip:9 "It costs $CP_30_blocked$ to take the decision"
+ CP_30_tooltip:9 "Cela coûte $CP_30_blocked$ de prendre la décision"
  
  CP_35:0 "£command_power §H35§!"
  CP_35_blocked:0 "£command_power §R35§!"
- CP_35_tooltip:9 "It costs $CP_35_blocked$ to take the decision"
+ CP_35_tooltip:9 "Cela coûte $CP_35_blocked$ de prendre la décision"
  
  CP_40:9 "£command_power §H40§!"
  CP_40_blocked:9 "£command_power §R40§!"
- CP_40_tooltip:9 "It costs $CP_40_blocked$ to take the decision"
+ CP_40_tooltip:9 "Cela coûte $CP_40_blocked$ de prendre la décision"
  
  CP_45:9 "£command_power §H45§!"
  CP_45_blocked:9 "£command_power §R45§!"
- CP_45_tooltip:9 "It costs $CP_45_blocked$ to take the decision"
+ CP_45_tooltip:9 "Cela coûte $CP_45_blocked$ de prendre la décision"
  
  CP_50:0 "£command_power §H50§!"
  CP_50_blocked:0 "£command_power §R50§!"
- CP_50_tooltip:9 "It costs $CP_50_blocked$ to take the decision"
+ CP_50_tooltip:9 "Cela coûte $CP_50_blocked$ de prendre la décision"
  
  CP_55:9 "£command_power §H55§!"
  CP_55_blocked:9 "£command_power §R55§!"
- CP_55_tooltip:9 "It costs $CP_55_blocked$ to take the decision"
+ CP_55_tooltip:9 "Cela coûte $CP_55_blocked$ de prendre la décision"
  
  CP_60:0 "£command_power §H60§!"
  CP_60_blocked:0 "£command_power §R60§!"
- CP_60_tooltip:9 "It costs $CP_60_blocked$ to take the decision"
+ CP_60_tooltip:9 "Cela coûte $CP_60_blocked$ de prendre la décision"
  
  CP_65:9 "£command_power §H65§!"
  CP_65_blocked:9 "£command_power §R65§!"
- CP_65_tooltip:9 "It costs $CP_65_blocked$ to take the decision"
+ CP_65_tooltip:9 "Cela coûte $CP_65_blocked$ de prendre la décision"
  
  CP_70:9 "£command_power §H70§!"
  CP_70_blocked:9 "£command_power §R70§!"
- CP_70_tooltip:9 "It costs $CP_70_blocked$ to take the decision"
+ CP_70_tooltip:9 "Cela coûte $CP_70_blocked$ de prendre la décision"
  
  CP_75:9 "£command_power §H75§!"
  CP_75_blocked:9 "£command_power §R75§!"
- CP_75_tooltip:9 "It costs $CP_75_blocked$ to take the decision"
+ CP_75_tooltip:9 "Cela coûte $CP_75_blocked$ de prendre la décision"
  
  CP_80:0 "£command_power §H80§!"
  CP_80_blocked:0 "£command_power §R80§!"
- CP_80_tooltip:0 "It costs $CP_80_blocked$ to take the decision"
+ CP_80_tooltip:0 "Cela coûte $CP_80_blocked$ de prendre la décision"
  
  CP_85:9 "£command_power §H85§!"
  CP_85_blocked:9 "£command_power §R85§!"
- CP_85_tooltip:9 "It costs $CP_85_blocked$ to take the decision"
+ CP_85_tooltip:9 "Cela coûte $CP_85_blocked$ de prendre la décision"
  
  CP_90:9 "£command_power §H90§!"
  CP_90_blocked:9 "£command_power §R90§!"
- CP_90_tooltip:9 "It costs $CP_90_blocked$ to take the decision"
+ CP_90_tooltip:9 "Cela coûte $CP_90_blocked$ de prendre la décision"
  
  CP_95:9 "£command_power §H95§!"
  CP_95_blocked:9 "£command_power §R95§!"
- CP_95_tooltip:9 "It costs $CP_95_blocked$ to take the decision"
+ CP_95_tooltip:9 "Cela coûte $CP_95_blocked$ de prendre la décision"
  
  CP_100:9 "£command_power §H100§!"
  CP_100_blocked:9 "£command_power §R100§!"
- CP_100_tooltip:9 "It costs $CP_100_blocked$ to take the decision"
+ CP_100_tooltip:9 "Cela coûte $CP_100_blocked$ de prendre la décision"
 
 ### World Tension ###
 second_american_civil_war_threat:0 "La Seconde Guerre Civile Américaine"
@@ -710,13 +710,13 @@ improved_recon_units_tech:0 "Unités de reconnaissance améliorées"
  improved_recon_units_tech_effect:0 "Active §H$improved_recon_units_tech$\nCompagnie de reconnaissance§!\n      Percée: §G+1§!\n      Reconnaissance: §G+1§!"
 
 asymmetrical_warfare:0 "Entraînement à la guerre asymétrique"
- asymmetrical_warfare_effect:0 "Enables §H$asymmetrical_warfare$\nLeg Infantry§!\n    §HUrban§!\n      Attack: §G+10%§!\n      Defence: §G+5%§!\n      Movement: §G+5%§!"
+ asymmetrical_warfare_effect:0 "Active §H$asymmetrical_warfare$\nInfanterie à Pied§!\n    §HUrbain§!\n      Attaque: §G+10%§!\n      Défense: §G+5%§!\n      Mouvement: §G+5%§!"
 
 desert_warfare:0 "Entraînement au combat en désert"
  desert_warfare_effect:0 "Active §H$desert_warfare$§!\n§HInfanterie à pied\n    Deserts§!\n      Attaque: §G+10%§!\n      Défense: §G+5%§!\n      Mouvement: §G+5%§!"
 
- marsh_warfare:9 "Marsh Combat Training"
- marsh_warfare_effect:9 "Enables §H$marsh_warfare$§!\n§HLeg Infantry\n    Marshes§!\n      Attack: §G+10%§!\n      Defence: §G+5%§!\n      Movement: §G+5%§!"
+ marsh_warfare:9 "Entraînement au Combat des Marais"
+ marsh_warfare_effect:9 "Active §H$marsh_warfare$§!\n§HInfanterie à Pied\n    Marais§!\n      Attaque: §G+10%§!\n      Défense: §G+5%§!\n      Mouvement: §G+5%§!"
 
 
 anti_fortification_artillery:0 "Artillerie Anti-Fortification"
@@ -734,8 +734,8 @@ tech_integrated_specialists_effect:0 "Active §H$tech_integrated_specialists$§!
  tech_improved_encryption:0 "Cryptage Amélioré"
  tech_improved_encryption_effect:0 "Active §H$tech_improved_encryption$§!\n$MODIFIER_CRYPTO_STRENGTH$: [?2|+ = 0]"
 
- tech_mountain_artillery:9 "Mountain Artillery"
- tech_mountain_artillery_effect:9 "Enables §H$tech_mountain_artillery$§!\n§HArtillery\n    Hills§!\n      Attack: §G+10%§!\n      Movement: §G+10%§!\n    §HMountain§!\n      Attack: §G+10%§!\n      Movement: §G+10%§!"
+ tech_mountain_artillery:9 "Artillerie de Montagne"
+ tech_mountain_artillery_effect:9 "Active §H$tech_mountain_artillery$§!\n§HArtillerie\n    Collines§!\n      Attaque : §G+10%§!\n      Mouvement : §G+10%§!\n    §HMontagne§!\n      Attaque : §G+10%§!\n      Mouvement : §G+10%§!"
 
 
 
