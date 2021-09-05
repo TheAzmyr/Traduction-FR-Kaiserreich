@@ -10,7 +10,7 @@
 
 ### Splash Screen Credits ###
 KR_SPLASH_TITLE:0 "Bienvenue dans Kaiserreich"
-KR_SPLASH_CREDITS:0 "§YCréé par l'équipe KR4 :§!\nAdrianator2, Alpinia, Arvidus, Asratius, Augenis, Blackfalcon501, Carmain, Chazem, Conor, DSFDarker, El Daddy, Flamefang, Gideones, Hildagrim, Ido, Igor050301, JazzyHugh, Jonjon428, Jonny BL, Kennedy, Krco, Liegnitz, Luwofe, Matoro, McOmghall, ~mw~, Nijato, NukeGaming, OperationsManagementDecisions, Owenomaly, Pelmen, PPsyrius, RagnoStrangeros, Rei VL, Retrocognition, Rylock, Shiroe, Starguard, Suzuha, Telcontar101, The Alpha Dog, The Irredentista, The Italian Jojo, Vidyaország, Zankoas and Zimbabwe Salt Co.\n§YTraduit par : §!Hellh et Mouchi\n§YAnciennement traduit par : §!Aegon Targaryen, Brakmar, Darkusios, Demetran, Fanois, Feuxin, Grikke, Kfateweaver, Kira, Klik le Araï, Lazu, Le Marocain, MVMaroIV, Nobelo81, Orakle14, Paralux, Remkiller123, Romain1912, Rosak, Solal, Superwaffle, TheAzmyr, Vitulus, Youkoulélé et Zeplein"
+KR_SPLASH_CREDITS:0 "§YCréé par l'équipe KR4 :§!\nAdrianator2, Alpinia, Arvidus, Asratius, Augenis, Blackfalcon501, Carmain, Chazem, Conor, DSFDarker, El Daddy, Flamefang, Gideones, Hildagrim, Ido, Igor050301, JazzyHugh, Jonjon428, Jonny BL, Kennedy, Krco, Luwofe, Matoro, McOmghall, ~mw~, Nijato, NukeGaming, OperationsManagementDecisions, Owenomaly, Pelmen, PPsyrius, RagnoStrangeros, Rei VL, Retrocognition, Rylock, Shiroe, Starguard, Suzuha, Telcontar101, The Alpha Dog, The Irredentista, The Italian Jojo, Vidyaország, Zankoas and Zimbabwe Salt Co.\n§YTraduit par : §!Hellh et Mouchi\n§YAnciennement traduit par : §!Aegon Targaryen, Brakmar, Darkusios, Demetran, Fanois, Feuxin, Grikke, Kfateweaver, Kira, Klik le Araï, Lazu, Le Marocain, MVMaroIV, Nobelo81, Orakle14, Paralux, Remkiller123, Romain1912, Rosak, Solal, Superwaffle, TheAzmyr, Vitulus, Youkoulélé et Zeplein"
 
 ### Main Menu Tooltips ###
 KR_MAIN_MENU_LINK:0 "Cliquez ici pour accéder au Kaiserreich Wiki"
@@ -36,10 +36,10 @@ upon_selecting_focus:0 "Lors du choix de la priorité :"
  upon_starting_focus:0 "§HEn sélectionnant cette priorité§!:"
  returned_all_expeditionary_forces_of_puppets:0 "A renvoyé toutes les forces expéditionnaires envoyées par les marionnettes."
  puppet_but_keep_government_tt:0 "([to_be_overlord.GetFlag]§H[to_be_overlord.GetName]§!) §H[marked_country.GetName]§! devient une marionnette de §H[to_be_overlord.GetName]§!, mais conserve ses paramètres actuels de gouvernement et de popularité."
- cannot_call_allies_or_join_wars:9 "\n$TRIGGER_NO$ Cannot call or join allies"
- cannot_call_allies_or_join_wars_warning:9 "$TRIGGER_NO$ §RCannot call or join allies§!"
- cannot_call_allies_or_join_wars_warning_FROM:9 "§H[FROM.GetName]: $TRIGGER_NO$ §RCannot call or join allies§!"
- elections_in_three_months:9 "§HElections will be held in three months§!\n"
+ cannot_call_allies_or_join_wars:9 "\n$TRIGGER_NO$ Impossible d'appeler ou de rejoindre des alliés"
+ cannot_call_allies_or_join_wars_warning:9 "$TRIGGER_NO$ §RImpossible d'appeler ou de rejoindre des alliés§!"
+ cannot_call_allies_or_join_wars_warning_FROM:9 "§H[FROM.GetName]: $TRIGGER_NO$ §RImpossible d'appeler ou de rejoindre des alliés§!"
+ elections_in_three_months:9 "§HLes élections auront lieu dans trois mois§!\n"
 
 ### Regional Triggers ###
  is_in_asia:0 "Est un pays §HAsiatique§!"
@@ -125,9 +125,9 @@ KR_returned_land:0 "Nous a rendu nos terres"
 KR_liberated_us:0 "Nous a libérés"
 KR_approves_of_govt:0 "Approuvé par le gouvernement"
 KR_pleased:0 "Nous les apprécions"
- KR_displeased:9 "Displeased with our Actions"
+ KR_displeased:9 "Mécontent de nos actions"
 KR_disapproves_of_govt:0 "Désapprobation du gouvernement"
- KR_hates_govt:9 "Angry With Government"
+ KR_hates_govt:9 "En colère contre le gouvernement"
 KR_outraged:0 "Outrée"
  KR_hostile:0 "Hostile"
 KR_trade_agreement:0 "Accord commercial"
@@ -152,16 +152,16 @@ compliance_integration:0 "Intégration"
 ### Operatives ###
 CANNOT_RECRUITE_OPERATIVE_NO_SLOT_DESC:5 "Vous pouvez obtenir le premier créneau en construisant l'agence de renseignement. D'autres créneaux seront disponibles après la 5e mise à niveau ou après le recrutement d'un §HDirecteur du renseignement§! (disponible par décision).\nEn tant que maître des espions, vous débloquez plus de créneaux opérationnels en ayant plus de pays dans votre faction. Les marionnettes ou les pays dont le nombre d'usines est très faible ne contribuent pas à l'augmentation des créneaux opérationnels."
 
- operation_infiltrate_armed_forces_army_outcome:9 "$operation_infiltrate_armed_forces_army$ effectiveness"
- operation_infiltrate_armed_forces_army_risk:9 "$operation_infiltrate_armed_forces_army$ risk"
+ operation_infiltrate_armed_forces_army_outcome:9 "efficacité $operation_infiltrate_armed_forces_army$"
+ operation_infiltrate_armed_forces_army_risk:9 "risque $operation_infiltrate_armed_forces_army$"
  operation_infiltrate_armed_forces_army_cost:0 "coût $operation_infiltrate_armed_forces_army$"
 
- operation_infiltrate_armed_forces_navy_outcome:9 "$operation_infiltrate_armed_forces_navy$ effectiveness"
- operation_infiltrate_armed_forces_navy_risk:9 "$operation_infiltrate_armed_forces_navy$ risk"
+ operation_infiltrate_armed_forces_navy_outcome:9 "efficacité $operation_infiltrate_armed_forces_navy$"
+ operation_infiltrate_armed_forces_navy_risk:9 "risque $operation_infiltrate_armed_forces_navy$"
  operation_infiltrate_armed_forces_navy_cost:0 "coût $operation_infiltrate_armed_forces_navy$"
 
- operation_infiltrate_armed_forces_airforce_outcome:9 "$operation_infiltrate_armed_forces_airforce$ effectiveness"
- operation_infiltrate_armed_forces_airforce_risk:9 "$operation_infiltrate_armed_forces_airforce$ risk"
+ operation_infiltrate_armed_forces_airforce_outcome:9 "efficacité $operation_infiltrate_armed_forces_airforce$"
+ operation_infiltrate_armed_forces_airforce_risk:9 "risque $operation_infiltrate_armed_forces_airforce$"
  operation_infiltrate_armed_forces_airforce_cost:0 "coût $operation_infiltrate_armed_forces_airforce$"
 
  operation_infiltrate_civilian_outcome:0 "efficacité $operation_infiltrate_civilian$"
@@ -364,7 +364,7 @@ Syndicalist_Internationale:0 "Internationale syndicaliste"
 Third_International:0 "Troisième Internationale"
 united_front_faction:0 "Front uni chinois"
 yunnan_R_KMT_faction:0 "Groupe nationaliste du Sud"
- SOV_faction:9 "Eastern Front of the Third Internationale"
+ SOV_faction:9 "Front Oriental de la Troisième Internationale"
 
 ### Custom Triggers ###
 had_war:0 "A fait la guerre"
@@ -718,8 +718,8 @@ tech_integrated_specialists_effect:0 "Active §H$tech_integrated_specialists$§!
  tech_dragoon_tactics:0 "Tactiques de Dragons"
  tech_dragoon_tactics_effect:0 "Active §H$tech_dragoon_tactics$\nCavalerie§!\n      Organisation Max : §G+5§!\n      Taux de Récupération : §G+10%§!\n      Mouvement : §G+10%§!\n      Attaque de Nuit : §G+10§!"
 
- tech_semi_motorised_cav:9 "Semi-Motorised Cavalry"
- tech_semi_motorised_cav_effect:9 "Enables §H$tech_semi_motorised_cav$\nCavalry§!\n      Max Organization: §G+5§!\n      Recovery Rate: §G+10%§!\n      Movement: §G+15%§!"
+ tech_semi_motorised_cav:9 "Cavalerie semi-motorisée"
+ tech_semi_motorised_cav_effect:9 "Active §H$tech_semi_motorised_cav$\nCavalerie§!\n      Organisation Max : §G+5§!\n      RTaux de Récupération : §G+10%§!\n      Mouvement : §G+15%§!"
 
  tech_improved_encryption:0 "Cryptage Amélioré"
  tech_improved_encryption_effect:0 "Active §H$tech_improved_encryption$§!\n$MODIFIER_CRYPTO_STRENGTH$: [?2|+ = 0]"
