@@ -39,6 +39,8 @@ upon_selecting_focus:0 "Lors du choix de la priorité :"
  cannot_call_allies_or_join_wars:0 "\n$TRIGGER_NO$ Impossible d'appeler ou de rejoindre des alliés"
  cannot_call_allies_or_join_wars_warning:0 "$TRIGGER_NO$ §RImpossible d'appeler ou de rejoindre des alliés§!"
  cannot_call_allies_or_join_wars_warning_FROM:0 "§H[FROM.GetName]: $TRIGGER_NO$ §RImpossible d'appeler ou de rejoindre des alliés§!"
+ cannot_receive_volunteers:9 "\n$TRIGGER_NO$ §RCannot receive volunteers§!"
+ cannot_receive_volunteers_warning:9 "$TRIGGER_NO$ §RCannot receive volunteers§!"
  elections_in_three_months:0 "§HLes élections auront lieu dans trois mois§!\n"
 
 ### Regional Triggers ###
@@ -69,10 +71,10 @@ upon_selecting_focus:0 "Lors du choix de la priorité :"
 toggle_renaming_button_tooltip:0 "[toggle_renaming_button_tooltip_loc]"
 toggle_renaming_button_tooltip_desc:0 "[toggle_renaming_button_tooltip_desc_loc]"
 toggle_renaming_button_tooltip_mp:0 "§RDésactivé en mode multijoueur§!"
-toggle_renaming_button_tooltip_enable:0 "§HMode Endonymes§!"
-toggle_renaming_button_tooltip_enable_desc:0 "Cela permettra au jeu d'utiliser des noms natifs pour les Etats et les points de victoire (Endonymes), avec la possibilité de les renommer dynamiquement"
-toggle_renaming_button_tooltip_disable:0 "§HMode Exonymes§!"
-toggle_renaming_button_tooltip_disable_desc:0 "Cela permettra au jeu d'utiliser des noms français pour les Etats et les points de victoire (Exonymes), le renommage dynamique de ceux-ci étant désactivé"
+ toggle_renaming_button_tooltip_enable:9 "§HCurrently in English Names Mode§!"
+ toggle_renaming_button_tooltip_enable_desc:9 "The game is currently using English names for States and Victory points (Exonyms), with dynamic renaming of them disabled.\n\nClick here to change to using native names for States and Victory points (Endonyms), with dynamic renaming of them enabled."
+ toggle_renaming_button_tooltip_disable:9 "§HCurrently in Native Names Mode§!"
+ toggle_renaming_button_tooltip_disable_desc:9 "The game is currently using native names for States and Victory points (Endonyms), with dynamic renaming of them enabled.\n\nClick here to change to using English names for States and Victory points (Exonyms), with dynamic renaming of them disabled."
 
 ### Continents ###
 central_america:0 "Amérique centrale"
@@ -150,18 +152,17 @@ FROM_becomes_nominal_puppet:0 "§H[From.GetNameDefCap]§! devient un §HFantoche
 compliance_integration:0 "Intégration"
 
 ### Operatives ###
-CANNOT_RECRUITE_OPERATIVE_NO_SLOT_DESC:5 "Vous pouvez obtenir le premier créneau en construisant l'agence de renseignement. D'autres créneaux seront disponibles après la 5e mise à niveau ou après le recrutement d'un §HDirecteur du renseignement§! (disponible par décision).\nEn tant que maître des espions, vous débloquez plus de créneaux opérationnels en ayant plus de pays dans votre faction. Les marionnettes ou les pays dont le nombre d'usines est très faible ne contribuent pas à l'augmentation des créneaux opérationnels."
 
- operation_infiltrate_armed_forces_army_outcome:0 "efficacité $operation_infiltrate_armed_forces_army$"
- operation_infiltrate_armed_forces_army_risk:0 "risque $operation_infiltrate_armed_forces_army$"
+ operation_infiltrate_armed_forces_army_outcome:9 "$operation_infiltrate_armed_forces_army$ effectiveness"
+ operation_infiltrate_armed_forces_army_risk:9 "$operation_infiltrate_armed_forces_army$ risk"
  operation_infiltrate_armed_forces_army_cost:0 "coût $operation_infiltrate_armed_forces_army$"
 
- operation_infiltrate_armed_forces_navy_outcome:0 "efficacité $operation_infiltrate_armed_forces_navy$"
- operation_infiltrate_armed_forces_navy_risk:0 "risque $operation_infiltrate_armed_forces_navy$"
+ operation_infiltrate_armed_forces_navy_outcome:9 "$operation_infiltrate_armed_forces_navy$ effectiveness"
+ operation_infiltrate_armed_forces_navy_risk:9 "$operation_infiltrate_armed_forces_navy$ risk"
  operation_infiltrate_armed_forces_navy_cost:0 "coût $operation_infiltrate_armed_forces_navy$"
 
- operation_infiltrate_armed_forces_airforce_outcome:0 "efficacité $operation_infiltrate_armed_forces_airforce$"
- operation_infiltrate_armed_forces_airforce_risk:0 "risque $operation_infiltrate_armed_forces_airforce$"
+ operation_infiltrate_armed_forces_airforce_outcome:9 "$operation_infiltrate_armed_forces_airforce$ effectiveness"
+ operation_infiltrate_armed_forces_airforce_risk:9 "$operation_infiltrate_armed_forces_airforce$ risk"
  operation_infiltrate_armed_forces_airforce_cost:0 "coût $operation_infiltrate_armed_forces_airforce$"
 
  operation_infiltrate_civilian_outcome:0 "efficacité $operation_infiltrate_civilian$"
@@ -313,14 +314,14 @@ toggle_news_button_tooltip:0 "[toggle_news_button_tooltip_loc]"
 toggle_news_button_tooltip_desc:0 "[toggle_news_button_tooltip_desc_loc]"
  toggle_news_button_tooltip_mp:0 "§RDésactivé en mode multijoueur§!"
  toggle_news_button_tooltip_all:0 "Changer pour §HNouvelles régionales seulement§!"
- toggle_news_button_tooltip_all_desc:0 "Recevez uniquement les grands événements mondiaux et les actualités de votre région du monde"
+ toggle_news_button_tooltip_all_desc:9 "Receive major news events from all over the world, but only minor news events for your region of the world."
  toggle_news_button_tooltip_some:0 "Changer pour §HPas de nouvelles§!"
- toggle_news_button_tooltip_some_desc:0 "Très peu de nouvelles seront reçues"
+ toggle_news_button_tooltip_some_desc:9 "Only the most important major news events will be received, no minor news events of any kind."
  toggle_news_button_tooltip_none:0 "Changer pour §HToutes les nouvelles§!"
- toggle_news_button_tooltip_none_desc:0 "Toutes les nouvelles seront reçues, peu importe d'où elles proviennent"
- toggle_news_text_all:0 "Afficher toutes les nouvelles"
- toggle_news_text_regional:0 "Afficher les nouvelles régionales"
- toggle_news_text_none:0 "Afficher aucune nouvelle"
+ toggle_news_button_tooltip_none_desc:9 "All news events, both major and minor, will be received regardless of where they originate from."
+ toggle_news_text_all:9 "Afficher toutes les nouvelles"
+ toggle_news_text_regional:9 "Afficher les nouvelles régionales"
+ toggle_news_text_none:9 "Afficher aucune nouvelle"
 
 ### Factions ###
 all_zhili_faction:0 "Clique du Zhili"
@@ -681,7 +682,6 @@ tech_marine_bonus_effect:0 "Active §H$tech_marine_bonus$\nMarines§!\n      Att
 tech_marine_bonus_2:0 "Marines entraînés"
 tech_marine_bonus_2_effect:0 "Enables §H$tech_marine_bonus_2$\nMarines§!\n      Attaque Légère : §G+5%§!\n      Attaque Lourde : §G+5%§!\n§HBataillon de l'Amtrac§!\n      Attaque Légère : §G+5%§!\n      Attaque Lourde : §G+5%§!\n§HHBataillon de chars Amphibies§!\n      Attaque Légère : §G+5%§!\n      Attaque Lourde : §G+5%§!"
 
-jungle_warfare:0 "Entraînement au combat en jungle"
 jungle_warfare_effect:0 "Active §H$jungle_warfare$§!\n§HInfanterie à pied\n    Jungle§!\n      Attaque: §G+10%§!\n      Défense: §G+5%§!\n      Mouvement: §G+5%§!"
 
 improved_field_hospitals:0 "Hôpitaux de campagne améliorés"
