@@ -1,5 +1,4 @@
 name="Kaiserreich Traduction Francophone"
-path="mod/Traduction-FR-Kaiserreich"
 dependencies={
 	"Kaiserreich"
 	"Kaiserreich Dev Build"
