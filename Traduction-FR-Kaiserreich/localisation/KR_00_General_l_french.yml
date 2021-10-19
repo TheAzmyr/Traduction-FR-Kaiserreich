@@ -95,7 +95,6 @@ kr_special_autonomous_dependency:0 "Dépendance Autonome"
 kr_initial_wif_puppet:0 "Colonie fédérée"
 kr_soclib_wif_puppet:0 "Dominion fédéré"
 kr_ottoman_emirate:0 "Émirat ottoman"
- kr_ottoman_vilayet:0 "Vilayet Ottoman"
  kr_ottoman_international_zone:0 "Mandat Internationnal"
 kr_federated_state:0 "État confédéré"
  kr_crownland:0 "Terre de la Couronne"
@@ -152,6 +151,7 @@ FROM_becomes_nominal_puppet:0 "§H[From.GetNameDefCap]§! devient un §HFantoche
 compliance_integration:0 "Intégration"
 
 ### Operatives ###
+
  operation_infiltrate_armed_forces_army_outcome:0 "efficacité $operation_infiltrate_armed_forces_army$"
  operation_infiltrate_armed_forces_army_risk:0 "risque $operation_infiltrate_armed_forces_army$"
  operation_infiltrate_armed_forces_army_cost:0 "coût $operation_infiltrate_armed_forces_army$"
@@ -248,11 +248,11 @@ kr.political.111.b:0 "Non ! Nous allons en finir !"
  kr.political.257.t:0 "Guerre avec [war_target.GetNameDef] ?"
  kr.political.257.d:0 "[marked_country.GetNameDefCap] va déclarer la guerre à [war_target.GetNameDef]. Il n'y a pas de vérification pour savoir si cette déclaration est valide, si ce n'est que les deux pays ne sont pas alliés et ne sont pas déjà en guerre.\n\n§RNOTE: Cela peut très bien briser le contenu du Kaiserreich ! Utilisez-le à vos risques et périls !§!"
 
-
 ### Unit Leader Events ###
  unit_leader.1.t:0 "[From.GetName] tombe malade"
  unit_leader.1.d:0 "Au service de la nation, il semble que [From.GetRank] [From.GetName] ait poussé trop loin. En raison du mauvais climat qui règne dans sa zone opérationnelle, le [From.GetRank] est maintenant tombé malade, et aura probablement besoin d'un certain temps pour se rétablir. Jusqu'à ce qu'il [From.GetSheHe] se rétablisse, [From.GetSheHe] ne sera pas aussi performant qu'[From.GetHerHis] le serait normalement."
 unit_leader.1.a:0 "C'est regrettable."
+
  unit_leader.2.t:0 "[From.GetName] Blessé"
  unit_leader.2.d:0 "En menant la bataille à bien, il semble que le [From.GetRank] [From.GetName] se soit mis un peu trop en danger tout en menant ses hommes. [From.GetSheHeCap] a été blessé, et il faudra probablement un certain temps pour que les blessures cicatrisent complètement, jusqu'à ce que le [From.GetRank] ne puisse plus commander à son niveau habituel."
 unit_leader.2.a:0 "C'est regrettable."
@@ -261,20 +261,25 @@ unit_leader.2.a:0 "C'est regrettable."
 mtg_exile_leader_added.1.t:1 "Le leader [exile_nation.GetAdjective] en exil propose un service"
  mtg_exile_leader_added.1.desc:0 "Après un long et périlleux voyage à travers des territoires occupés par l'ennemi et plusieurs états neutres, un officier militaire de haut rang de l'un de nos alliés ayant capitulé est finalement arrivé dans la capitale. Après une courte période de récupération, il a offert ses services dans notre lutte commune."
 mtg_exile_leader_added.1.a:1 "Votre combat n'est pas encore terminé"
+
 mtg_exile_government.2.title:0 "Le gouvernement [From.GetAdjective] en exil"
  mtg_exile_government.2.desc:0 "[From.GetLeader] a officiellement demandé au gouvernement [Root.GetAdjective] l'autorisation de retourner dans [From.GetNameDef] et de rétablir un cabinet provisoire [From.GetRulingParty] en préparation de la paix d'après-guerre"
 mtg_exile_government.2.a:0 "Il est temps pour eux de retourner sur leur propre territoire"
 mtg_exile_government.2.b:0 "Le temps n'est pas encore venu"
+
 mtg_exile_government.3.title:0 "[From.GetName] demande l'intégration navale"
 mtg_exile_government.3.desc:0 "La direction de la marine [From.GetAdjective] nous a présenté un plan pour l’intégration de notre marine dans la leur. Ils font valoir que, en permettant aux planificateurs navals de [From.GetAdjective] d’avoir le plein contrôle sur nos navires, leur efficacité serait considérablement accrue par rapport à leurs actions indépendantes actuelles"
 mtg_exile_government.3.a:0 "Nous sommes d'accord"
 mtg_exile_government.3.b:0 "Nous ne servirons pas sous leur autorité"
+
 mtg_exile_government.4.title:0 "[From.GetName] accepte l'intégration navale"
 mtg_exile_government.4.desc:0 "Le gouvernement [From.GetAdjective] nous a informés qu'il acceptait notre proposition et que ses navires opéreraient désormais sous notre commandement"
 mtg_exile_government.4.a:0 "Excellent"
+
 mtg_exile_government.5.title:0 "[From.GetName] rejette l'intégration navale"
 mtg_exile_government.5.desc:0 "Le gouvernement [From.GetAdjective] nous a informés que sa marine ne servirait jamais sous le commandement d'une puissance étrangère. Ils veulent nous aider, mais ils le feront de manière indépendante"
 mtg_exile_government.5.a:0 "Ils placent leur fierté au-dessus des intérêts de l’alliance"
+
 mtg_generic.1.title:0 "[From.GetName] applique le changement de gouvernement"
 mtg_generic.1.desc:0 "Citant le manque évident de soutien électoral de notre gouvernement actuel, [From.GetNameDef] a demandé un changement de politique"
 mtg_generic.1.a:0 "Nous n'avons d'autre choix que d'accepter"
@@ -704,7 +709,6 @@ desert_warfare:0 "Entraînement au combat en désert"
  marsh_warfare:0 "Entraînement au Combat des Marais"
  marsh_warfare_effect:0 "Active §H$marsh_warfare$§!\n§HInfanterie à Pied\n    Marais§!\n      Attaque: §G+10%§!\n      Défense: §G+5%§!\n      Mouvement: §G+5%§!"
 
-
 anti_fortification_artillery:0 "Artillerie Anti-Fortification"
  anti_fortification_artillery_effect:0 "Active §H$anti_fortification_artillery$§!\n§HArtillerie de soutien§!\n    Fort: Attaque: §G+20%§!\n§HArtillerie§!\n    Fort: Attaque: §G+20%§!\n§HArtillerie Motorisé§!\n    Fort: Attaque: §G+20%§!"
 
@@ -715,10 +719,10 @@ tech_integrated_specialists_effect:0 "Active §H$tech_integrated_specialists$§!
  tech_at_cavalry_effect:0 "Active §H$tech_at_cavalry$\nCavalerie§!\n      Perforation : §G+75%§!\n      Attaque Dure: §G+10%§!"
 
  tech_dragoon_tactics:0 "Tactiques de Dragons"
- tech_dragoon_tactics_effect:0 "Active §H$tech_dragoon_tactics$\nCavalerie§!\n      Organisation Max : §G+5§!\n      Taux de Récupération : §G+10%§!\n      Mouvement : §G+10%§!\n      Attaque de Nuit : §G+10§!"
+ tech_dragoon_tactics_effect:9 "Active §H$tech_dragoon_tactics$\nCavalerie§!\n      Organisation Max : §G+5§!\n      Taux de Récupération : §G+10%§!\n      Mouvement : §G+10%§!\n      Attaque de Nuit : §G+10§!"
 
  tech_semi_motorised_cav:0 "Cavalerie semi-motorisée"
- tech_semi_motorised_cav_effect:0 "Active §H$tech_semi_motorised_cav$\nCavalerie§!\n      Organisation Max : §G+5§!\n      RTaux de Récupération : §G+10%§!\n      Mouvement : §G+15%§!"
+ tech_semi_motorised_cav_effect:9 "Active §H$tech_semi_motorised_cav$\nCavalerie§!\n      Organisation Max : §G+5§!\n      RTaux de Récupération : §G+10%§!\n      Mouvement : §G+15%§!"
 
  tech_improved_encryption:0 "Cryptage Amélioré"
  tech_improved_encryption_effect:0 "Active §H$tech_improved_encryption$§!\n$MODIFIER_CRYPTO_STRENGTH$: [?2|+ = 0]"
@@ -726,7 +730,11 @@ tech_integrated_specialists_effect:0 "Active §H$tech_integrated_specialists$§!
  tech_mountain_artillery:0 "Artillerie de Montagne"
  tech_mountain_artillery_effect:0 "Active §H$tech_mountain_artillery$§!\n§HArtillerie\n    Collines§!\n      Attaque : §G+10%§!\n      Mouvement : §G+10%§!\n    §HMontagne§!\n      Attaque : §G+10%§!\n      Mouvement : §G+10%§!"
 
-
+ tech_arctic_commando:9 "Arctic Commandos"
+ tech_arctic_commando_effect:9 "Enables §H$tech_arctic_commando$§!\n    Special Forces Supply Grace: [?48|G1=] Hour(s)\n    §HSpecial Forces§!\n        Cold acclimatization gain factor: §G+10%§!\n        §HHills§!\n          Movement: §G+5%§!\n        §HMountains§!\n          Movement: §G+5%§!"
+ 
+ tech_better_paratroopers:9 "Elite Paratroopers"
+ tech_better_paratroopers_effect:9 "Enables §H$tech_better_paratroopers$§!\n§HParatroopers§!\n      Soft Attack: §G+10%§!\n      Recovery Rate: §G+0.20§!\n      Paratrooper Supply Grace: [?24|G1=] Hour(s)"
 
 ### Army Command Traits ###
 
