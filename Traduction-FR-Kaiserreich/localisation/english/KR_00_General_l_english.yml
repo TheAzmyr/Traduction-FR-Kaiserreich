@@ -10,11 +10,14 @@
 
 ### Splash Screen Credits ###
  KR_SPLASH_TITLE:0 "Welcome to Kaiserreich"
- KR_SPLASH_CREDITS:0 "§YBrought to you by the KR4 Team:§!\nAdrianator2, Alpinia, Arvidus, Asratius, Augenis, Blackfalcon501, Carmain, Chazem, Conor, DSFDarker, El Daddy, Flamefang, Gideones, Ido, Igor050301, JazzyHugh, Jeankedezeehond, Jonjon428, Jonny BL, KFateweaver, Kennedy, kergely, Krco, Luwofe, Matoro, McOmghall, ~mw~, Nijato, NukeGaming, OperationsManagementDecisions, Owenomaly, PPsyrius, Pelmen, RagnoStrangeros, Rei VL, Retrocognition, Shiroe, Starguard, Story, Suzuha, The Alpha Dog, The Irredentista, The Italian Jojo, Vidyaország, Zankoas and Zimbabwe Salt Co."
+ KR_SPLASH_CREDITS:0 "§YBrought to you by the KR4 Team:§!\nAdrianator2, Alpinia, Arvidus, Asratius, Augenis, Blackfalcon501, Carmain, Chazem, Conor, DSFDarker, El Daddy, Flamefang, Gaboemi, Gideones, Hamfast, hildagrim, Ido, Igor050301, JazzyHugh, Jeankedezeehond, Jonny BL, KFateweaver, Kennedy, kergely, Krčo, Luwofe, Matoro, McOmghall, ~mw~ // miwaco, NukeGaming, OMD, Owenomaly, PPsyrius, Pelmen, RagnoStrangeros, Rei VL, Retrocognition, Rnk, Shiroe, Starguard, Story, suzuha, The Alpha Dog, The Irredentista, The Italian Jojo, Vidyaország, Zaddy-Chan and Zimbabwe Salt Co."
+
 
 ### Main Menu Tooltips ###
  KR_MAIN_MENU_LINK:0 "Click here to go to the Kaiserreich Wiki"
  LOGO_MAIN_MENU_LINK:0 "Click here to see the patch notes"
+ KR_min_version_warning:0 "§YKR needs v1.11.5 or higher to run§!"
+ KR_min_version_warning_desc:0 "If your version is below v1.11.5, you might have to subscribe to the open beta of HOI4.\n\nYou can subscribe to the §YHOI4 BETA§! by:\n• right-clicking on the game in your §GSteam Library§!\n• clicking "§GProperties...§!"\n• selecting the "§GBETAS§!" category in the menu\n• and there, choosing "§Gopen_beta - Open Beta§!" from the drop-down menu."
 
 ### Diplomacy Tooltips ###
  REQUEST_EXP_FORCE_BLOCKED_TT:0 "§RThis country doesn't allow you to request their forces.§!"
@@ -23,6 +26,7 @@
  RECALL_VOLUNTEERS_ACTION_SEND_DESC:0 "Recall all volunteers sent to §Y[FROM.GetNameDef]§!?"
 
 ### Regular Tooltips ###
+ empty:0 ""
  if_FROM_agrees:0 "If §H[From.GetFlag] [From.GetNameDef]§! agrees:"
  needs_approval:0 "If §H[This.GetNameDef]§! agrees:"
  upon_selecting_focus:0 "Upon selecting focus:"
@@ -42,12 +46,25 @@
  cannot_receive_volunteers:0 "\n$TRIGGER_NO$ §RCannot receive volunteers§!"
  cannot_receive_volunteers_warning:0 "$TRIGGER_NO$ §RCannot receive volunteers§!"
  elections_in_three_months:0 "§HElections will be held in three months§!\n"
+ characters_will_be_retired:0 "§RThe following characters will be retired:§!"
+ characters_will_be_recruited:0 "§GThe following characters will be recruited:§!"
+ tooltip_immediate_effect_upon_focus_start:0 "§YImmediate effect upon focus start:§!\n"
+ tooltip_effect_upon_focus_completion:0 "\n§GEffect upon focus completion:§!\n"
+
+ same_wars_as_ROOT:0 "Isn't at war with anyone who isn't also at war with [Root.GetNameDef]"
+ same_wars_as_FROM:0 "Isn't at war with anyone who isn't also at war with [From.GetNameDef]"
+ same_wars_as_TARGET:0 "Isn't at war with anyone who isn't also at war with [?target.GetNameDef]"
+ same_wars_as_RUS:0 "Isn't at war with anyone who isn't also at war with [RUS.GetNameDef]"
+ same_wars_as_GER:0 "Isn't at war with anyone who isn't also at war with [GER.GetNameDef]"
+ same_wars_as_JAP:0 "Isn't at war with anyone who isn't also at war with [JAP.GetNameDef]"
+ same_wars_as_AUS:0 "Isn't at war with anyone who isn't also at war with [AUS.GetNameDef]"
+ same_wars_as_ENT:0 "Isn't at war with anyone who isn't also at war with the Entente"
 
 ### Regional Triggers ###
  is_in_asia:0 "Is an §HAsian§! country"
  is_in_india:0 "Is an §HIndian§! country"
  is_in_europe:0 "Is an §HEuropean§! country"
- is_in_africa:0 "Is an §HAfrica§! country"
+ is_in_africa:0 "Is an §HAfrican§! country"
  is_in_north_america:0 "Is a §HNorth American§! country"
  is_in_central_america:0 "Is a §HCentral American§! country"
  is_in_south_america:0 "Is a §HSouth American§! country"
@@ -77,8 +94,6 @@
  toggle_renaming_button_tooltip_disable_desc:0 "The game is currently using native names for States and Victory points (Endonyms), with dynamic renaming of them enabled.\n\nClick here to change to using English names for States and Victory points (Exonyms), with dynamic renaming of them disabled."
 
 ### Continents ###
- central_america:0 "Central America"
- india:0 "India"
  is_actually_an_island:0 "is an island state"
 
 ### Intelligence Agency Blocker ###
@@ -114,9 +129,6 @@
 ### Modifiers ###
  chief_of_staff_cost_factor:0 "Chief of Staff Cost"
  chief_of_army_cost_factor:0 "Chief of Army Cost"
- chief_of_navy_cost_factor:0 "Chief of Navy Cost"
- chief_of_air_force_cost_factor:0 "Chief of Air Force Cost"
- weapons_manufacturer_cost_factor:0 "Weapons Manufacturer Cost"
 
 ### Opinion Modifiers ###
  KR_friendly:0 "Friendly"
@@ -151,7 +163,6 @@
  compliance_integration:0 "Integration"
 
 ### Operatives ###
-
  operation_infiltrate_armed_forces_army_outcome:0 "$operation_infiltrate_armed_forces_army$ effectiveness"
  operation_infiltrate_armed_forces_army_risk:0 "$operation_infiltrate_armed_forces_army$ risk"
  operation_infiltrate_armed_forces_army_cost:0 "$operation_infiltrate_armed_forces_army$ cost"
@@ -167,6 +178,48 @@
  operation_infiltrate_civilian_outcome:0 "$operation_infiltrate_civilian$ effectiveness"
  operation_infiltrate_civilian_risk:0 "$operation_infiltrate_civilian$ risk"
  operation_infiltrate_civilian_cost:0 "$operation_infiltrate_civilian$ cost"
+
+### Ship Name Lists ###
+ NAME_THEME_ISLANDS:0 "Islands"
+ NAME_THEME_ROYAL_BARGE:0 "Royal Barge"
+ NAME_THEME_ROYAL_HOUSES:0 "Royal Houses & Nobilities"
+ NAME_THEME_MOUNTAINS:0 "Mountains"
+ NAME_THEME_INSPIRATIONAL:0 "Inspirational"
+ NAME_THEME_STATES_CITIES:0 "States & Cities"
+
+### Colours (for use in scripted loc) ###
+ colour_cyan:0 "C"
+ colour_dirty_grey:0 "L"
+ colour_white:0 "W"
+ colour_blue:0 "B"
+ colour_green:0 "G"
+ colour_red:0 "R"
+ colour_black:0 "b"
+ colour_grey:0 "g"
+ colour_yellow:0 "Y"
+ colour_orange:0 "O"
+
+ colour_gradient_purple:0 "0"
+ colour_gradient_lilac:0 "1"
+ colour_gradient_blue:0 "2"
+ colour_gradient_navy_blue:0 "3"
+ colour_gradient_light_blue:0 "4"
+ colour_gradient_cyan:0 "5"
+ colour_gradient_turquoise:0 "6"
+ colour_gradient_light_green:0 "7"
+ colour_gradient_yellow:0 "8"
+ colour_gradient_orange:0 "9"
+ colour_gradient_red:0 "5"
+
+ colour_totalist_red:0 "o"
+ colour_syndicalist_red:0 "r"
+ colour_socdem_pink:0 "S"
+ colour_soclib_orange:0 "l"
+ colour_marlib_yellow:0 "m"
+ colour_soccon_blue:0 "c"
+ colour_pataut_grey:0 "P"
+ colour_natpop_brown:0 "N"
+ colour_natpop_green:0 "n"
 
 ### Events ###
  kr.political.100.t:0 "Order Restored in [Root.GetNameDef]"
@@ -298,15 +351,11 @@
 
 ### Tech ###
  military_police_tech:0 "Military Police"
- dd_tech_research:0 "Destroyer Research Speed"
- cl_tech_research:0 "Cruiser Research Speed"
 
 ### Research Bonus Names ###
  refinery_bonus:0 "Refinery Bonus"
 
 ### Interface ###
- weapons_manufacturer:0 "Weapons Manufacturer"
- air_naval_manufacturer:0 "Air and Naval Manufacturer"
  can_replace_hog:0 "Can Replace Head Of Government"
  for_cannot_be_replaced:0 "Foreign Minister Can't Be Replaced"
  eco_cannot_be_replaced:0 "Economic Minister Can't Be Replaced"
@@ -376,6 +425,19 @@
  is_invalid_war_target_tooltip:0 "Is not a valid target for war"
  is_valid_war_target_tooltip:0 "Is a valid target for war"
  not_during_ceasefire:0 "Not while the ceasefire is maintained"
+
+### Commonly used in scripted loc ###
+ loc_royal:0 "royal"
+ loc_royal_cap:0 "Royal"
+ loc_royal_with_space:0 "$loc_royal$ "
+ loc_royal_cap_with_space:0 "$loc_royal_cap$ "
+
+ loc_has:0 "has"
+ loc_have:0 "have"
+
+ loc_its:0 "its"
+ loc_their:0 "their"
+ loc_theirs:0 "theirs"
 
 ### Commonly used custom decision costs ###
  CP_5:0 "£command_power §H5§!"
@@ -502,6 +564,14 @@
  kings_trusted_councillor:0 "King's Trusted Councillor"
 
 ### Company Traits ###
+
+ generic_arms_company:0 "Generic Arms Company"
+ generic_tank_company:0 "Generic Tank Company"
+ generic_fighter_company:0 "Generic Fighter Company"
+ generic_artillery_company:0 "Generic Artillery Company"
+ generic_car_company:0 "Generic Motorised Company"
+ generic_industrial_company:0 "Generic Industrial Company"
+ generic_naval_company:0 "Generic Naval Company"
 
 ### Tank ###
  small_tank_producer_offense_0:0 "Light Tank Manufacturer"
@@ -645,22 +715,17 @@
 ### General ###
  fighter_techs:0 "Fighter Tech"
  fighter_techs_research:0 "Fighter Tech Research Time"
- #support_tech:0 "Support Tech" already defined in Research loc file
- #support_tech_research:0 "Support Tech Research Time" already defined in Research loc file
  cat_strategic_destruction:0 "Strategic Destruction Tech"
  marine_tech_research:0 "Marines Tech Research Time"
  early_fighter:0 "Interwar Fighter"
- interwar_antiair:0 "Early Anti-Air"
  signal_company_tech:0 "Signal Company"
  maintenance_company_tech:0 "Maintenance Company"
- cat_anti_air:0 "Anti-Air Guns"
  cat_line_artillery:0 "Line Artillery"
  cat_light_armor_research:0 "Light Armour Research Speed"
  cat_light_spg:0 "Light Self-Propelled Guns"
  cat_medium_spg:0 "Medium Self-Propelled Guns"
  cat_heavy_spg:0 "Heavy Self-Propelled Guns"
  tank_destroyer_tech:0 "Tank Destroyers"
- efficiency_tech:0 "Production Efficiency Tech"
  excavation_tech_research:0 "Excavation Research Speed"
  construction_tech_research:0 "Construction Research Speed"
  cat_gunnery:0 "Naval Gunnery"
@@ -672,6 +737,24 @@
  capital_ship_tree:0 "Capital Ships Operations"
  cat_armored_car:0 "Armoured Cars"
  cat_special_units:0 "Special Units"
+
+ early_ship_hull_light:0 "$ship_hull_light_1$"
+ basic_ship_hull_light:0 "$ship_hull_light_2$"
+ improved_ship_hull_light:0 "$ship_hull_light_3$"
+ advanced_ship_hull_light:0 "$ship_hull_light_4$"
+ early_ship_hull_cruiser:0 "$ship_hull_cruiser_1$"
+ improved_ship_hull_cruiser:0 "$ship_hull_cruiser_3$"
+ advanced_ship_hull_cruiser:0 "$ship_hull_cruiser_4$"
+ early_ship_hull_heavy:0 "$ship_hull_heavy_1$"
+ improved_ship_hull_heavy:0 "$ship_hull_heavy_3$"
+ advanced_ship_hull_heavy:0 "$ship_hull_heavy_4$"
+ basic_ship_hull_carrier:0 "$ship_hull_carrier_1$"
+ improved_ship_hull_carrier:0 "$ship_hull_carrier_2$"
+ advanced_ship_hull_carrier:0 "$ship_hull_carrier_3$"
+ early_ship_hull_submarine:0 "$ship_hull_submarine_1$"
+ basic_ship_hull_submarine:0 "$ship_hull_submarine_2$"
+ improved_ship_hull_submarine:0 "$ship_hull_submarine_3$"
+ advanced_ship_hull_submarine:0 "$ship_hull_submarine_4$"
 
 ### Hidden Techs ###
  camel_corps_tech:0 "Camel Corps"
@@ -732,9 +815,9 @@
 
  tech_arctic_commando:0 "Arctic Commandos"
  tech_arctic_commando_effect:0 "Enables §H$tech_arctic_commando$§!\n    Special Forces Supply Grace: [?48|G1=] Hour(s)\n    §HSpecial Forces§!\n        Cold acclimatization gain factor: §G+10%§!\n        §HHills§!\n          Movement: §G+5%§!\n        §HMountains§!\n          Movement: §G+5%§!"
- 
-tech_better_paratroopers:0 "Elite Paratroopers"
-tech_better_paratroopers_effect:0 "Enables §H$tech_better_paratroopers$§!\n§HParatroopers§!\n      Soft Attack: §G+10%§!\n      Recovery Rate: §G+0.20§!\n      Paratrooper Supply Grace: [?24|G1=] Hour(s)" 
+
+ tech_better_paratroopers:0 "Elite Paratroopers"
+ tech_better_paratroopers_effect:0 "Enables §H$tech_better_paratroopers$§!\n§HParatroopers§!\n      Soft Attack: §G+10%§!\n      Recovery Rate: §G+0.20§!\n      Paratrooper Supply Grace: [?24|G1=] Hour(s)"
 
 ### Army Command Traits ###
 
@@ -935,51 +1018,8 @@ tech_better_paratroopers_effect:0 "Enables §H$tech_better_paratroopers$§!\n§H
 
  jet_aircraft_manufacturer:0 "Jet Aircraft Manufacturer"
 
-### Generic Tech Sharing ###
- TECH_SHARNG_FACTOR_PER_COUNTRY:0 "\n\nEach member with a tech reduces time by $VALUE|+%0$:\n"
- TECH_SHARNG_FACTOR_BASE:0 "Base: $VALUE|0%Y$\n"
- TECH_SHARNG_COUNTRY_BONUS:0 "Bonus: $VALUE|0%Y$\n"
- TECH_SHARNG_FACTOR_EXTRA_DESC:0 "\nEffective Technology Sharing modified to $VALUE|-%0$ due to:\n"
- TECH_SHARNG_RESEARCH_OPPORTUNITIES:0 "\nResearch Opportunities:"
- TECH_SHARNG_COUNTRY_RESEARCH_OPPORTUNITY:0 "\n@$TAG$$COUNTRY|H$: §Y$VALUE$§! technologies"
- TECH_SHARNG_GROUP_CATEGORIE_LIMIT:0 "\n\nLimited to: $LIST|Y$."
- TECH_SHARNG_DESCRIPTION_DELAYED:0 "A Technology Sharing group get stronger the more nations are in it. For each member that has researched a certain Technology, it will speed up researching of that Technology for someone in the group lacking it."
- TECH_SHARNG_RESEARCH_BONUS_VALUE_DESC:0 "Technology Sharing: $VALUE|+%0$\n"
- LICENSED_PRODUCTION_RESEARCH_BONUS_VALUE_DESC:0 "Licensed production: $VALUE|+%0$\n"
- TECH_SHARNG_RESEARCH_BONUS_VALUE_DETAILED_DESC:0 "\n$NAME|H$ membership provides $VALUE|G%0$ bonus (max $MAX|H%0$) from countries:"
- TECH_SHARNG_RESEARCH_BONUS_VALUE_DETAILED_COUNTRY:0 "\n@$TAG$$COUNTRY|H$"
- continuous_tech_share_group_name:0 "Faction Research"
- continuous_tech_share_group_desc:0 "Reduced research time by nations in your faction because of your active Continuous Focus."
- NO_OTHER_SHARING_GROUPS:0 "Is not part of a technology-sharing group"
-
 ### Generic Focus Localisation ###
- WHILE_FOCUSING:0 "While focusing on this, there will be the following effects:\n$EFF$"
  generic_focus:0 "National Focus"
- NATIONAL_FOCUS_MUTUALLY_EXCLUSIVE_TREE:0 "The branches are mutually exclusive."
- NATIONAL_FOCUS_EXCLUSIVE_INFO_DESC:0 "Mutually exclusive with"
- NATIONAL_FOCUS_EXCLUSIVE_INFO_ENTRY:0 "$FOCUS|Y$"
- NATIONAL_FOCUS_NO_CURRENT_EFFECT:0 "This focus currently has no effect. Changes in the world situation may affect this."
- continuous_naval_production:0 "Naval Production"
- continuous_naval_production_desc:0 "By focusing resources on our shipyards and exempting skilled shipbuilders from military service, we can dramatically reduce production time for ships."
- continuous_air_production:0 "Air Production"
- continuous_air_production_desc:0 "We can reorganise our aviation industry to eliminate waste and streamline production."
- continuous_non_factory_construct:0 "Construction Engineering"
- continuous_non_factory_construct_desc:0 "There is still a lot of slack in our construction industry. By focusing our attention on it, we can achieve a significant improvement in construction speed. Unfortunately, the production of machine tools has proven a major bottleneck in the expansion of our heavy industry, so they won't benefit from efforts in this area."
- continuous_reduce_training_time:0 "Army Training"
- continuous_reduce_training_time_desc:0 "By creating specialised advanced training units within each division, we can deploy even divisions that would previously have been held back to finish training to the front."
- continuous_suppression:0 "Resistance Suppression"
- continuous_suppression_desc:0 "By infiltrating the major resistance groups in occupied territory and turning their leaders, we can significantly reduce the amount of damage they can do."
- continuous_repair:0 "Construction Repair"
- continuous_repair_desc:0 "We will form specialised repair teams from factory and construction workers and centrally control their deployment to improve the reconstruction of damaged infrastructure."
- #continuous_tech_share:0 "Technology Sharing"
- #continuous_tech_share_desc:0 "We will encourage our research institutes and universities to reach out to their counterparts in allied countries. This will gain us a tech sharing bonus."
- continuous_boost_freedom:0 "Increase Autonomy"
- continuous_boost_freedom_desc:0 "By reorganising our colonial bureaucracy and recruiting native administrators, we will, in time, be able to take charge of our own affairs."
- continuous_restrict_freedom:0 "Suppress Subjects"
- continuous_restrict_freedom_desc:0 "Our colonial subjects have gotten rather silly ideas about things like "self-determination" or "national independence". It is time to disabuse them of these notions."
- subject_autonomy_mod_tt:0 "Autonomy in subjects: §G-0.5§!"
- unlocks_decision:0 "Unlocks Decision: £decision_icon_small"
-
 ### Generic Ideas ###
  generic_liberty_idea:0 "Spirit Of Freedom"
  generic_liberty_idea_desc:0 "Freedom is something we have pledged to preserve, and this inspires our population to support us even if they may not always agree with our policies or the state of the country in the present moment."
@@ -1100,3 +1140,8 @@ tech_better_paratroopers_effect:0 "Enables §H$tech_better_paratroopers$§!\n§H
  generic_welfare_desc:0 "Equality in rights and equality in education are two important milestones, but economic equality is perhaps the hardest. While we might never reach perfect equality in this area, we can at least prop up the poorest in our country with fair welfare programs. This ought to help our consumer economy speed up, too."
  generic_national_identity:0 "National Identity"
  generic_national_identity_desc:0 "While the ideological debate is one we could get lost in for ages, we must not forget who we are at our core. We are unique, we know our history, our culture and we hope that our destiny is even more brilliant. If we have shaped a better society today, we will shape an even better country tomorrow."
+
+ ### Debug Tag ###
+ XXA:0 "Debug Tag"
+ XXA_ADJ:0 "Debug"
+ XXA_DEF:0 "the Debug Tag"

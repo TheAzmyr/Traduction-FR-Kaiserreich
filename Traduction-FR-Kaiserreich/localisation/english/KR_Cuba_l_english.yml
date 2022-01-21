@@ -2,6 +2,11 @@
 
  CUB_focus:0 "Cuba Focus Tree"
 
+### Country Names ###
+ CUB:0 "Cuba"
+ CUB_ADJ:0 "Cuban"
+ CUB_DEF:0 "Cuba"
+
 ### Parties ###
  CUB_totalist_party:0 "Socialista"
  CUB_totalist_party_long:0 "Movimiento Socialistas - Comunista"
@@ -143,7 +148,7 @@
  CUB_chicago_boys:0 "Chicago Boys"
  CUB_chicago_boys_desc:0 "Organised crime has grown rapidly in the United States both due to political turmoil and the passage of alcohol prohibition laws in many states. Wishing to diversify their income, many criminal organisations have approached our government offering lucrative deals in exchange for safe harbour. We should take them up on their offer."
  CUB_foreign_vices:0 "Foreign Vices"
- CUB_foreign_vices_desc:0 "Advances in civilian aviation and the rise of purpose-built luxury cruise liners precipitated an explosion in leisure travel. Our proximity to the United States and pristine environment makes Cuba a prime destination for tourists. Many of these travelers bring their vices with them or seek out taboos unavailable to them at home. We should capitalise on this."
+ CUB_foreign_vices_desc:0 "Advances in civilian aviation and the rise of purpose-built luxury cruise liners precipitated an explosion in leisure travel. Our proximity to the United States and pristine environment makes Cuba a prime destination for tourists. Many of these travellers bring their vices with them or seek out taboos unavailable to them at home. We should capitalise on this."
  CUB_international_capital:0 "International Capital"
  CUB_international_capital_desc:0 "Cuba is quickly becoming a haven for those whose nations would see them or their passions done away with. Many foreign corporations and institutions could also benefit from a presence in our nation. We should work to bring them here."
  CUB_appease_strikers:0 "Appease Strikers"
@@ -261,8 +266,8 @@
  CUB_weltkrieg_analysis_desc:0 "The tactical and strategic innovation that occurred during the Weltkrieg has irreversibly redefined how wars are fought. Our army, however, has yet to adapt these breakthroughs. We should commission a review of the war and adapt."
  CUB_modernisation:0 "Modernisation"
  CUB_modernisation_desc:0 "Much of our equipment is nearly obsolete. Let us retrofit what we can and develop new models of what is unsalvageable."
- CUB_entice_foreign_experts:0 "Foreign Advisers"
- CUB_entice_foreign_experts_desc:0 "Our allies abroad can provide valuable insights into the theory and prosecution of warfare. We should request advisers from them."
+ CUB_entice_foreign_experts:0 "Foreign Advisors"
+ CUB_entice_foreign_experts_desc:0 "Our allies abroad can provide valuable insights into the theory and prosecution of warfare. We should request advisors from them."
  CUB_carib_lake:0 "Caribbean Lake"
  CUB_carib_lake_desc:0 "While our valiant army must be prepared to defend our nation to the bitter end, it is of course, preferable that they never reach our shores to begin with. The Caribbean must be at the forefront of our military policy."
  CUB_blackbeard:0 "Blackbeard"
@@ -685,6 +690,11 @@
 ### Custom Traits ###
  el_caballo:0 "El Caballo"
 
+### Companies ###
+ havanashipyard:0 "Havana Shipyard"
+ Waco_Aircraft_Company:0 "WACO Aircraft Company"
+ Waco_Aircraft_Company_desc:0 "Lacking a substantial domestic aircraft manufacturer, with the collapse of the Ohio-based WACO Aircraft Company, whose biplanes had achieved a stellar reputation among Cuban pilots, in 1931, the Cuban government purchased the company and enticed its design team to move to Cuba as well."
+
 ### Ideas ###
  CUB_partial_great_depression:0 "Partial Depression Recovery"
  CUB_partial_great_depression_desc:0 "The policies of young President Rafael Trejo and the Unionist party have partially alleviated the effects of the great depression."
@@ -876,8 +886,8 @@
  CUB_comerecobureau_desc:0 "Cuba has established a new set of bureaucratic offices tasked with managing the nation's ever more complex economy."
  CUB_npopecobureau:0 "Collaborativist Economic Bureaucracy"
  CUB_npopecobureau_desc:0 "Cuba has established a new set of bureaucratic offices tasked with managing the nation's ever more complex economy."
- CUB_enticedadvisors:0 "Enticing Advisers"
- CUB_enticedadvisors_desc:0 "Cuba has secured military advisers from its allies."
+ CUB_enticedadvisors:0 "Enticing Advisors"
+ CUB_enticedadvisors_desc:0 "Cuba has secured military advisors from its allies."
  CUB_american_puppet_idea:0 "American Lapdog"
  CUB_american_puppet_idea_desc:0 "Cuba has come fully under the sway of the United States, and while it remains entirely independent politically, American influence now permeates every nook and cranny of the nation's economy and political sphere."
  CUB_american_puppet_idea_2:0 "American Lapdog"
@@ -1038,14 +1048,12 @@
  CUB_socialist_flag_decision_desc:0 "While our flag and other symbols of our country are intimately connected with our history and the struggle for independence, many national symbols also have a distasteful connection to reactionary ideals and practices. Some within our government have proposed replacing such symbols with ones that are uniquely socialist."
  CUB_shady_decisions:0 "Shady Decisions"
  CUB_shady_decisions_desc:0 "Decisions in this category regard dealings with organised crime."
- CUB_criminal_advisors_decision:0 "Integrate American Advisers"
+ CUB_criminal_advisors_decision:0 "Integrate American Advisors"
  CUB_criminal_advisors_decision_desc:0 "With some of America's most powerful criminal syndicates now firmly in our camp, we should begin to begin to bring some of their most politically savvy men into our government. While they may be useful though, such unsavoury fellows will, of course, be closely monitored."
  CUB_socialist_military_decision:0 "Reform The Militias"
  CUB_socialist_military_decision_desc:0 "The impromptu militia-based military structure cemented in the aftermath of the revolution is considered by many to be a threat to our nation's stability and national security. They argue that it must be reformed with the militias brought fully under the command of our central military command structure."
- CUB_stoptrade_can_decision:0 "Cease Trade With Canada"
- CUB_stoptrade_can_decision_desc:0 "Our internal political situation has been stabilised and with it, we are no longer desperate for foreign capital. Let us stand arm in arm with our socialist brothers and cease all trade to and from Canada."
- CUB_stoptrade_ger_decision:0 "Cease Trade With Germany"
- CUB_stoptrade_ger_decision_desc:0 "Our internal political situation has been stabilised and with it, we are no longer desperate for foreign capital. Let us stand arm in arm with our socialist brothers and cease all trade to and from Germany."
+ CUB_stoptrade_decision:0 "Cease Trade With [FROM.GetName]"
+ CUB_stoptrade_decision_desc:0 "Our internal political situation has been stabilised and with it, we are no longer desperate for foreign capital. Let us stand arm in arm with our socialist brothers and cease all trade to and from [FROM.GetName]."
  CUB_foreign_decisions:0 "Foreign Policy Decisions"
  CUB_foreign_decisions_desc:0 "Decisions in this category relate to foreign policy and interactions with other nations."
  CUB_joinmurica_decision:0 "Join [From.GetNameDef]'s Faction"
@@ -1056,6 +1064,7 @@
  CUB_support_centamer_decision_desc:0 "Central America has erupted in war and our ideological brethren in [From.GetNameDef] are under attack! We should send them whatever stockpiled weapons we can spare."
  CUB_radsoceconreplace_decision:0 "Modify Economic Direction"
  CUB_radsoceconreplace_decision_desc:0 "With the tyrants thrown out, we must now work to eliminate the institutional changes they made to our nation's economic apparatus. The type of economy they sought to affect cannot be allowed to come forth."
+ CUB_socialist_removedis:0 "Pacify the Dissidents"
  CUB_USAcivilwar_decisions:0 "American Civil War Decisions"
  CUB_USAcivilwar_decisions_desc:0 "Decisions which relate to the American Civil War."
  CUB_waited_promotesoc_CSAdecision:0 "Send Materiel to the CSA"
@@ -1092,7 +1101,7 @@
 ### Events ###
 # Election & Strike
  cuba.0.t:0 "Cuba: A Brief History"
- cuba.0.d:0 "Cuba, having gained independence only in 1902, is a young nation. While many in the United States seem almost certain that the island will one day become another US State, Cubans hold their national identity close to their hearts. Throughout its first twenty-five years of self-rule, Cuba was plagued by political turmoil caused by American meddling in its internal affairs. On the twentieth of September, 1928, however, Cuban anger towards increasingly dictatorial president, Gerardo Machado, and his American puppet-masters seemed to boil over. By morning the next day, Cuba had a new government comprised of moderates, nationalists, and socialists alike and renewed hope for the future. Even when the leadership of this fleeting caretaker government was forced to appoint the young and inexperienced Rafael Trejo as President, Cubans remained cautiously optimistic. This was not to last.\nThe new regime, while resentful towards the United States, was forced to make concessions to the America-backed Army to maintain power and nominal authority as it struggled to reign in the effects of the Great Depression. By 1935, the coalition of revolutionaries which had toppled Machado was on the verge of collapse, and on election day, tensions between supporters of the Auténtic and Socialist parties boiled over. In the aftermath of that infamous day when the streets of Havana ran red, the socialists and Auténticos alike were expelled from congress and the moderates of the governing Unionist party then found themselves the only true opposition to the Army's influence, with what remained of the 'old-guard', supporters of the Liberal party and its more conservative allies, more concerned with securing power than preserving Cuban democracy. New elections for both the congress and the office of the Presidency are scheduled for the twenty-eighth of January, 1936, and as that date looms, so too, seemingly, does the fate of Cuba."
+ cuba.0.d:0 "Cuba, having gained independence only in 1902, is a young nation. While many in the United States seem almost certain that the island will one day become another US State, Cubans hold their national identity close to their hearts. Throughout its first twenty-five years of self-rule, Cuba was plagued by political turmoil caused by American meddling in its internal affairs. On the twentieth of September, 1928, however, Cuban anger towards increasingly dictatorial president, Gerardo Machado, and his American puppet-masters seemed to boil over. By morning the next day, Cuba had a new government comprised of moderates, nationalists, and socialists alike and renewed hope for the future. Even when the leadership of this fleeting caretaker government was forced to appoint the young and inexperienced Rafael Trejo as President, Cubans remained cautiously optimistic. This was not to last.\n\nThe new regime, while resentful towards the United States, was forced to make concessions to the America-backed Army to maintain power and nominal authority as it struggled to reign in the effects of the Great Depression. By 1935, the coalition of revolutionaries which had toppled Machado was on the verge of collapse, and on election day, tensions between supporters of the Auténtic and Socialist parties boiled over. In the aftermath of that infamous day when the streets of Havana ran red, the socialists and Auténticos alike were expelled from congress and the moderates of the governing Unionist party then found themselves the only true opposition to the Army's influence, with what remained of the 'old-guard', supporters of the Liberal party and its more conservative allies, more concerned with securing power than preserving Cuban democracy. New elections for both the congress and the office of the Presidency are scheduled for the twenty-eighth of January, 1936, and as that date looms, so too, seemingly, does the fate of Cuba."
  cuba.0.a:0 "Interesting."
 
  cuba.1.t:0 "Special General Election"
@@ -1341,7 +1350,7 @@
  cuba.47.h:0 "The militias."
 
  cuba.48.t:0 "Blas's Coup"
- cuba.48.d:0 "While Juan Blas Hernández and the Revolucionario faction of the Socialist Party had supported the overthrow of Guiteras in wake of his unlawful consolidation of power, Mella as President only proved to be more of a tyrant, immediately locking up political opponents and refusing to tolerate any opposition from within the party.\nNow, what started as a minor spat between Blas and one of Mella's many guards regarding the new President's strange personal eccentricities, has led Blas's infamous guerrillas to surround the Presidential Palace, apparently having secretly made their way north in stunning time. Whoever emerges victorious from the standoff, the Socialist Party will have been sufficiently exhausted of internal opposition."
+ cuba.48.d:0 "While Juan Blas Hernández and the Revolucionario faction of the Socialist Party had supported the overthrow of Guiteras in wake of his unlawful consolidation of power, Mella as President only proved to be more of a tyrant, immediately locking up political opponents and refusing to tolerate any opposition from within the party.\n\nNow, what started as a minor spat between Blas and one of Mella's many guards regarding the new President's strange personal eccentricities, has led Blas's infamous guerrillas to surround the Presidential Palace, apparently having secretly made their way north in stunning time. Whoever emerges victorious from the standoff, the Socialist Party will have been sufficiently exhausted of internal opposition."
  cuba.48.a:0 "The coup succeeds."
  cuba.48.b:0 "Long live Mella!"
 
@@ -1542,7 +1551,7 @@
  cuba.88.b:0 "We'll only get burned."
 
  cuba.89.t:0 "Rubber Importation"
- cuba.89.d:0 "American business interests deemed our nation, which sits on the edge of the so-called 'rubber belt', and particularly the area around Pinar del Río suitable for rubber cultivation. This idea, however, failed to ever attract much investment. Perhaps, with the backing of the state, imported rubber trees could become yet another valuable agricultural asset. Current rubber producing nations, however, would be none too happy to have yet more competition, however, so several advisers have drawn up a proposal to secretly purchase seeds of several different varieties of tree and bring them to Pinar del Río. The eccentricities of the plan are certainly questionable, but nonetheless, funding it could be one of the best investments our nation ever made."
+ cuba.89.d:0 "American business interests deemed our nation, which sits on the edge of the so-called 'rubber belt', and particularly the area around Pinar del Río suitable for rubber cultivation. This idea, however, failed to ever attract much investment. Perhaps, with the backing of the state, imported rubber trees could become yet another valuable agricultural asset. Current rubber producing nations, however, would be none too happy to have yet more competition, however, so several advisors have drawn up a proposal to secretly purchase seeds of several different varieties of tree and bring them to Pinar del Río. The eccentricities of the plan are certainly questionable, but nonetheless, funding it could be one of the best investments our nation ever made."
  cuba.89.a:0 "Greenlight the plan."
  cuba.89.b:0 "This will never work."
 
@@ -1572,7 +1581,7 @@
 
 ### Military Chain
  cuba.97.t:0 "Limited Military Reorganisation"
- cuba.97.d:0 "The Cuban military, despite years of cooperation with American advisers, is not an effective fighting force, lacking for modern equipment and any central operational doctrine. While the administration of the army is well-established and intertwined with internal politics and thus currently incapable of being reformed, the Air Corps, a largely independent auxiliary section of the Army, and the Navy could much more easily be affected. Which branch should be the focus of reforms?"
+ cuba.97.d:0 "The Cuban military, despite years of cooperation with American advisors, is not an effective fighting force, lacking for modern equipment and any central operational doctrine. While the administration of the army is well-established and intertwined with internal politics and thus currently incapable of being reformed, the Air Corps, a largely independent auxiliary section of the Army, and the Navy could much more easily be affected. Which branch should be the focus of reforms?"
  cuba.97.a:0 "The Navy."
  cuba.97.b:0 "The Air Corps."
 
@@ -1615,7 +1624,7 @@
 #cuba.104-116 removed
 
  cuba.117.t:0 "Purchasing Foreign Aircraft"
- cuba.117.d:0 "We have decided to purchase aircraft from abroad and while this decision has largely been agreeable to our advisers, some still have serious reservations at not seizing the opportunity to improve our domestic production."
+ cuba.117.d:0 "We have decided to purchase aircraft from abroad and while this decision has largely been agreeable to our advisors, some still have serious reservations at not seizing the opportunity to improve our domestic production."
  cuba.117.a:0 "Make the request to our faction leader."
  cuba.117.b:0 "Approach our american friends."
 
@@ -1903,7 +1912,7 @@
  cuba.150.b:0 "One step closer to victory."
 
  cuba.151.t:0 "Planning The War With The Union State"
- cuba.151.d:0 "The potential for Union State victory in the civil war is an existential threat to our nation, and one that we shall at last attempt to resolve. However, two distinct plans have been proposed by our civilian and military advisers. We could, of course, organise a full-scale invasion, landing troops in Union State controlled Florida. Alternatively, we could begin a campaign of sabotage across those areas under Union State control, perhaps weakening their war effort to the point of defeat."
+ cuba.151.d:0 "The potential for Union State victory in the civil war is an existential threat to our nation, and one that we shall at last attempt to resolve. However, two distinct plans have been proposed by our civilian and military advisors. We could, of course, organise a full-scale invasion, landing troops in Union State controlled Florida. Alternatively, we could begin a campaign of sabotage across those areas under Union State control, perhaps weakening their war effort to the point of defeat."
  cuba.151.a:0 "Prepare for all-out war."
  cuba.151.b:0 "Send in the saboteurs."
 
@@ -2175,7 +2184,7 @@
  cuba.222.b:0 "Never!"
 
  cuba.223.t:0 "The Woman From The Oriente"
- cuba.223.d:0 "While overwhelmingly catholic, many Afro-Cubans incorporate elements of traditional West-African religions, especially the religion of the Yoruba people, into their religious practices. To those not born into this belief system, many of these syncretic customs are shocking and morally reprehensible, even bordering on satanic.\nRecently, rumours that some worshippers have begun to sacrifice young children as part of an occult ritual have run amuck. While for a time, the rumours seemed to have died down, today, a group of men have arrived in Havana claiming to have travelled from Oriente province with an alleged devil worshipper, a slight Afro-Cuban woman, trailing behind them with her hands and feet bound. The woman, they say, had murdered her own child to commune with some perverse demon and authorities in Oriente had refused to discipline her. While there is a lack of evidence to point to any actual wrongdoing on her part and a plethora to justify arresting the vigilantes, the case has caused a ruckus in Havana and calls for a national investigation into the alleged sacrifice are prominent."
+ cuba.223.d:0 "While overwhelmingly catholic, many Afro-Cubans incorporate elements of traditional West-African religions, especially the religion of the Yoruba people, into their religious practices. To those not born into this belief system, many of these syncretic customs are shocking and morally reprehensible, even bordering on satanic.\n\nRecently, rumours that some worshippers have begun to sacrifice young children as part of an occult ritual have run amuck. While for a time, the rumours seemed to have died down, today, a group of men have arrived in Havana claiming to have travelled from Oriente province with an alleged devil worshipper, a slight Afro-Cuban woman, trailing behind them with her hands and feet bound. The woman, they say, had murdered her own child to commune with some perverse demon and authorities in Oriente had refused to discipline her. While there is a lack of evidence to point to any actual wrongdoing on her part and a plethora to justify arresting the vigilantes, the case has caused a ruckus in Havana and calls for a national investigation into the alleged sacrifice are prominent."
  cuba.223.a:0 "Arrest the men and release the woman."
  cuba.223.b:0 "These men are heroes, investigate!"
 
@@ -2284,7 +2293,7 @@
  cuba.244.a:0 "A childish distraction! Rotorcraft hold no military value."
 
  cuba.245.t:0 "Afro-Cuban Jazz"
- cuba.245.d:0 "A recent performance by local jazz artist Mario Bauzá has become the talk of Havana and the nation as a whole. The newest musical trend in certain African communities is a variation on American jazz music. While Bauzá's performance is by no means the first performance of this sort put on in Havana, it has brought the genre previously unheard of attention.\nHowever, many in our government and the political class in general find this new style to be irritating a best, some even accuse Bauzá and others of intentional political subversion. Whatever the case, it seems Pandora's musical box has been opened for good."
+ cuba.245.d:0 "A recent performance by local jazz artist Mario Bauzá has become the talk of Havana and the nation as a whole. The newest musical trend in certain African communities is a variation on American jazz music. While Bauzá's performance is by no means the first performance of this sort put on in Havana, it has brought the genre previously unheard of attention.\n\nHowever, many in our government and the political class in general find this new style to be irritating a best, some even accuse Bauzá and others of intentional political subversion. Whatever the case, it seems Pandora's musical box has been opened for good."
  cuba.245.a:0 "Someone silence that infernal racket!"
 
  cuba.246.t:0 "A Country For Old Men?"
@@ -2376,34 +2385,29 @@
  cuba.407.d_2:0 "Rebellion has broken out across America and our government was quick to issue a response, recognising the moral righteousness of the socialist cause without formally recognising the Combined Syndicates for the time being. We have also denounced the aggressive reactionary Union State of Huey Long."
  cuba.407.a:0 "A house divided..."
 
-### Country Names ###
- CUB_totalist:0 "Cuba"
- CUB_totalist_ADJ:0 "Cuban"
- CUB_totalist_DEF:0 "Cuba"
- CUB_syndicalist:0 "Cuba"
- CUB_syndicalist_ADJ:0 "Cuban"
- CUB_syndicalist_DEF:0 "Cuba"
- CUB_radical_socialist:0 "Cuba"
- CUB_radical_socialist_ADJ:0 "Cuban"
- CUB_radical_socialist_DEF:0 "Cuba"
- CUB_social_democrat:0 "Cuba"
- CUB_social_democrat_ADJ:0 "Cuban"
- CUB_social_democrat_DEF:0 "Cuba"
- CUB_social_liberal:0 "Cuba"
- CUB_social_liberal_ADJ:0 "Cuban"
- CUB_social_liberal_DEF:0 "Cuba"
- CUB_market_liberal:0 "Cuba"
- CUB_market_liberal_ADJ:0 "Cuban"
- CUB_market_liberal_DEF:0 "Cuba"
- CUB_social_conservative:0 "Cuba"
- CUB_social_conservative_ADJ:0 "Cuban"
- CUB_social_conservative_DEF:0 "Cuba"
- CUB_authoritarian_democrat:0 "Cuba"
- CUB_authoritarian_democrat_ADJ:0 "Cuban"
- CUB_authoritarian_democrat_DEF:0 "Cuba"
- CUB_paternal_autocrat:0 "Cuba"
- CUB_paternal_autocrat_ADJ:0 "Cuban"
- CUB_paternal_autocrat_DEF:0 "Cuba"
- CUB_national_populist:0 "Cuba"
- CUB_national_populist_ADJ:0 "Cuban"
- CUB_national_populist_DEF:0 "Cuba"
+### Characters ###
+ CUB_lazaro_pena_gonzalez:0 "Lázaro Peña González"
+ CUB_sandalio_junco_camellon:0 "Sandalio Junco Camellón"
+ CUB_julio_mella_mcpartland:0 "Julio Mella McPartland"
+ CUB_tina_modotti:0 "Tina Modotti"
+ CUB_antonio_guiteras_holmes:0 "Antonio Guiteras Holmes"
+ CUB_raul_roa_garcia:0 "Raul Roa García"
+ CUB_juan_blas_hernandez:0 "Juan Blas Hernández"
+ CUB_alberto_bayo_giroud:0 "Alberto Bayo Giroud"
+ CUB_rafael_trejo_gonzalez:0 "Rafael Trejo González"
+ CUB_manuel_bisbe_alberni:0 "Rafael Trejo González"
+ CUB_carlos_cespedes_quesada:0 "Carlos Céspedes Quesada"
+ CUB_miguel_mariano_gomez:0 "Miguel Mariano Gómez"
+ CUB_jose_agripino_barnet_y_vinajeras:0 "José Agripino Barnet y Vinajeras"
+ CUB_mario_garcia_menocal:0 "Mario García Menocal"
+ CUB_carlos_prio_socarras:0 "Carlos Prío Socarrás"
+ CUB_clemente_vazquez_bello:0 "Clemente Vázquez Bello"
+ CUB_carlos_mendieta_montefur:0 "Carlos Mendieta Montefur"
+ CUB_ramon_grau_san_martin:0 "Ramón Grau San Martín"
+ CUB_martin_diaz_tamayo:0 "Martin Díaz Tamayo"
+ CUB_alberto_lamar_schweyer:0 "Alberto Lamar Schweyer"
+ CUB_alberto_herrera_franchi:0 "Alberto Herrera Franchi"
+ CUB_manuel_lopez_migoya:0 "Manuel Lopez Migoya"
+ CUB_genovevo_perez_damera:0 "Genovevo Pérez Dámera"
+ CUB_jose_marti_zayas_bazan:0 "José Martí Zayas-Bazán"
+ CUB_ernesto_usatorres_ubieta:0 "Ernesto Usatorres Ubieta"

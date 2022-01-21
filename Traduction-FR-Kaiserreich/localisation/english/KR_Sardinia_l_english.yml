@@ -2,6 +2,41 @@
 
  SRD_focus:0 "Sardinia Focus Tree"
 
+### Country Names ###
+ SRD:0 "Sardinia"
+ SRD_ADJ:0 "Sardinian"
+ SRD_DEF:0 "Sardinia"
+
+ SRD_ITA:0 "Italy"
+ SRD_ITA_ADJ:0 "Italian"
+ SRD_ITA_DEF:0 "Italy"
+
+ SRD_ITA_social_democrat:0 "Kingdom of Italy"
+ SRD_ITA_social_democrat_ADJ:0 "Italian"
+ SRD_ITA_social_democrat_DEF:0 "the Kingdom of Italy"
+ SRD_ITA_social_liberal:0 "Kingdom of Italy"
+ SRD_ITA_social_liberal_ADJ:0 "Italian"
+ SRD_ITA_social_liberal_DEF:0 "the Kingdom of Italy"
+ SRD_ITA_market_liberal:0 "Kingdom of Italy"
+ SRD_ITA_market_liberal_ADJ:0 "Italian"
+ SRD_ITA_market_liberal_DEF:0 "the Kingdom of Italy"
+ SRD_ITA_social_conservative:0 "Kingdom of Italy"
+ SRD_ITA_social_conservative_ADJ:0 "Italian"
+ SRD_ITA_social_conservative_DEF:0 "the Kingdom of Italy"
+ SRD_ITA_authoritarian_democrat:0 "Kingdom of Italy"
+ SRD_ITA_authoritarian_democrat_ADJ:0 "Italian"
+ SRD_ITA_authoritarian_democrat_DEF:0 "the Kingdom of Italy"
+ SRD_ITA_paternal_autocrat:0 "Kingdom of Italy"
+ SRD_ITA_paternal_autocrat_ADJ:0 "Italian"
+ SRD_ITA_paternal_autocrat_DEF:0 "the Kingdom of Italy"
+ SRD_ITA_national_populist:0 "Kingdom of Italy"
+ SRD_ITA_national_populist_ADJ:0 "Italian"
+ SRD_ITA_national_populist_DEF:0 "the Kingdom of Italy"
+
+ SRD_piedmont:0 "Sardinia-Piedmont"
+ SRD_piedmont_ADJ:0 "Sardinian"
+ SRD_piedmont_DEF:0 "Sardinia-Piedmont"
+
 ### Parties ###
  SRD_totalist_party:0 "Lega Totalista"
  SRD_totalist_party_long:0 "Lega Totalista"
@@ -40,7 +75,7 @@
  SRD_rad_socialist_party_long:0 "Partito Socialista Italiano"
 
 ### Leaders ###
- POLITICS_AMADEO_SAVOY_DESC:0 "Amedeo of Savoy-Aosta, cousin of the former King of Italy, Victor Emmanuel the Disgraced, is King of Sardinia-Piedmont. However, his title to Piedmont is little more than an empty claim, for he, and the remnants of the Royal Army who support him and fled the peninsula to join him, have lost Piedmont to the hated Socialist Republic of Italy. Closely aligned with National France, to the point claiming him to be a puppet would not be out of place, he sees not only Piedmont but all of Italy as under foreign occupation and seeks to liberate it, but he has also to deal with the ever contentious relationship between Exiles and Sardinians, both of whom question the uneasy balance that has established itself in Sardinia."
+ POLITICS_AMADEO_SAVOY_DESC:0 "Amedeo of Savoy-Aosta, cousin of the former King of Italy, Victor Emmanuel the Disgraced, is King of Sardinia-Piedmont. However, his title to Piedmont is little more than an empty claim, for he, and the remnants of the Royal Army who support him and fled the peninsula to join him, have lost Piedmont to the hated Socialist Republic of Italy. Closely aligned with the French Exiles, to the point claiming him to be a puppet would not be out of place, he sees not only Piedmont but all of Italy as under foreign occupation and seeks to liberate it, but he has also to deal with the ever contentious relationship between Exiles and Sardinians, both of whom question the uneasy balance that has established itself in Sardinia."
 
 ### Tooltips ###
  SRD_build_after_liberation:0 "Will be built after Liberating Piedmont\n\n"
@@ -54,7 +89,6 @@
  SRD_control_any_two:0 "Any two of §Y[159.GetName]§!, §Y[160.GetName]§!, §Y[1004.GetName]§!, or §Y[162.GetName]§! are controlled by §Y[Root.GetNameDef]§! or a subject"
 
 ### Flags ###
- SRD_black_monday_hit_sardinia:0 "Black Monday has hit Sardinia"
  SRD_italian_customs_union_opinion:0 "Italian Customs Union"
 
 ### Decisions ###
@@ -71,10 +105,22 @@
  SRD_invite_into_kingdom:0 "Invite [From.GetNameDef] into the Kingdom"
  SRD_invite_into_kingdom_desc:0 "It is quite clear by now that we hold the strongest position on the Italian peninsula. With the socialist republic now dealt with, perhaps a peaceful route towards reuniting [Root.GetNameDef] and [From.GetNameDef] is possible."
  SRD_develop_cagliari_coal_mines:0 "Develop Coal Mines in [114.GetName]"
- SRD_develop_cagliari_coal_mines_desc:0 ""
+
+### Companies ###
+ societa_mineraria_sarda:0 "Società Mineraria Sarda"
+ industrie_ansaldo:0 "Industrie Ansaldo"
+ universita_di_cagliari:0 "Università di Cagliari"
+ ferrovie_meridionali_sarde:0 "Ferrovie Meridionali Sarde"
+ Accademia_Militare_di_Sassari:0 "Accademia Militare di Sassari"
+ regio_arsenale_di_cagliari:0 "Regio Arsenale di Cagliari"
+ automobili_agnelli:0 "Automobili Agnelli"
+ fabbrica_aerei_piaggio:0 "Fabbrica Aerei Piaggio"
+ cantieri_navali_odero:0 "Cantieri Navali Odero"
+ accademia_aeronautica_di_cagliari:0 "Accademia Aeronautica di Cagliari"
+ accademia_navale_della_maddalena:0 "Accademia Navale della Maddalena"
 
 ### Ideas ###
- SRD_canadian_officers:0 "Canadian Advisers"
+ SRD_canadian_officers:0 "Canadian Advisors"
  SRD_canadian_officers_desc:0 "A Small Cadre of Canadian Officers are advising us on how to better train and organise our divisions."
  SRD_french_officers:0 "French Naval Mission"
  SRD_french_officers_desc:0 "France has sent a small marine cadre from Algiers to better prepare our forces for an eventual amphibious landing on the mainland."
@@ -115,7 +161,6 @@
  SRD_royalist_fervor:0 "Royalist Fervour"
  SRD_royalist_fervor_desc:0 "We have waited many years for this moment yet it has now finally arrived. The People clamour to see Amedeo and view him as their true Monarch. Now we must turn our attentions to a possible homecoming scenario."
  SRD_judicial_reform:0 "Judicial Reform"
- SRD_judicial_reform_desc:0 ""
  SRD_governmental_reform:0 "Governmental Reform"
  SRD_governmental_reform_desc:0 "Corruption has run rampant in our government ever since we left the continent in shameful exile. If we are ever to return to the mainland and resume our rightful leadership over Italy, in any sort of form, we have to root out problem bureaucrats, nepotistic laws, and antiquated systems."
  SRD_new_constitution:0 "New Constitution"
@@ -155,7 +200,7 @@
  SRD_sardinia_piedmont:0 "Proclaim Sardinia-Piedmont"
  SRD_sardinia_piedmont_desc:0 "With Piedmont under our control, we can finally declare we have our heritage back. Sardinia-Piedmont was a great power in the 18th and 19th centuries, and we have brought back its former glory. We will rule northern Italy again!"
  SRD_university_of_turin:0 "Fund the University of Turin"
- SRD_university_of_turin_desc:0 "The University of Turin is one of the oldest universities in Europe, and it has a proud intellectual tradition, boasting such names as Erasmus, Amedeo Avagadro, and Joseph de Maistre in its roll of former graduates and faculty. We should make the institution the centerpiece of our national research."
+ SRD_university_of_turin_desc:0 "The University of Turin is one of the oldest universities in Europe, and it has a proud intellectual tradition, boasting such names as Erasmus, Amedeo Avagadro, and Joseph de Maistre in its roll of former graduates and faculty. We should make the institution the centrepiece of our national research."
  SRD_promote_sardinian:0 "Promote Sardo"
  SRD_promote_sardinian_desc:0 "The language of Sardinia, Sardo, is a remarkably rich language with Catalan, Latin, Spanish, and even Arabic influences. Let us spread this language to the mainland and improve their cultural heritage."
  SRD_italian_free_trade:0 "Italian Customs Union"
@@ -292,7 +337,7 @@
 ### Events ###
 
  srd.0.t:0 "The Kingdom of Sardinia"
- srd.0.d:0 "The Kingdom of Sardinia was born amidst the ashes of the Weltkrieg. King Vittorio Emanuele signed an armistice with the Austrian government in 1919, but furious socialists, radical nationalists and other rabble rose up against his government. He and his son abdicated, and in Sardinia, marked by few, King Emanuele Filiberto, Duke of Aosta, assumed the throne. However, our pretensions to the Italian throne came to an end in 1920, when the Austrians forced the Italian Federation onto the united White forces in mainland Italy. The British forced us to join the Federation as the Austrians demanded, unwilling to anger the Germans and break the Armistice signed at Copenhagen. We withdrew from the Italian Federation in 1926 after the British Empire collapsed and the Austrians withdrew from Italy to deal with internal affairs, though we were still dissuaded from claiming all of Italy until Piedmont is reclaimed This made us a nominally independent nation, though in reality we are almost a puppet state of the French Republic. \n\nThis sombre state of affairs is made no better by internal divisions at home. King Amedeo replaced his father Emanuele Filiberto as King of Sardinia just five years ago, and rules as an absolute monarch, upsetting many who feel that constitutional monarchy is the only path to progress. This fundamental question, between absolutism and constitutionalism, has divided the island since the end of the Weltkrieg, and there is little doubt that the current arrangement is simply untenable. Corruption runs rampant and the judiciary and government both require reform, problems without solutions under the current political deadlock, and without which Sardinia will never be able to take what is rightfully hers."
+ srd.0.d:0 "The Kingdom of Sardinia was born amidst the ashes of the Weltkrieg. King Vittorio Emanuele signed an armistice with the Austrian government in 1919, but furious socialists, radical nationalists and other rabble rose up against his government. He and his son abdicated, and in Sardinia, marked by few, King Emanuele Filiberto, Duke of Aosta, assumed the throne. However, our pretensions to the Italian throne came to an end in 1920, when the Austrians forced the Italian Federation onto the united White forces in mainland Italy. The British forced us to join the Federation as the Austrians demanded, unwilling to anger the Germans and break the Armistice signed at Copenhagen. We withdrew from the Italian Federation in 1926 after the British Empire collapsed and the Austrians withdrew from Italy to deal with internal affairs, though we were still dissuaded from claiming all of Italy until Piedmont is reclaimed This made us a nominally independent nation, though in reality we are almost a puppet state of the French Republic.\n\nThis sombre state of affairs is made no better by internal divisions at home. King Amedeo replaced his father Emanuele Filiberto as King of Sardinia just five years ago, and rules as an absolute monarch, upsetting many who feel that constitutional monarchy is the only path to progress. This fundamental question, between absolutism and constitutionalism, has divided the island since the end of the Weltkrieg, and there is little doubt that the current arrangement is simply untenable. Corruption runs rampant and the judiciary and government both require reform, problems without solutions under the current political deadlock, and without which Sardinia will never be able to take what is rightfully hers."
  srd.0.a:0 "Long Live the King!"
 
 ### Political Events 1 - 10 ###
@@ -349,67 +394,16 @@
  srd.39.d:0 "It has been some time but we have finally liberated our rightful land. Now that the Kingdom has reclaimed them, we can feel secure in knowing that they now support us."
  srd.39.a:0 "Long live Italy!"
 
-### Kingdom of Sardinia-Piedmont 46 - 55 ###
-
-### Cosmetic Tags ###
- SRD_ITA_totalist:0 "Commune of Italy"
- SRD_ITA_totalist_ADJ:0 "Italian"
- SRD_ITA_totalist_DEF:0 "the Commune of Italy"
- SRD_ITA_syndicalist:0 "Commune of Italy"
- SRD_ITA_syndicalist_ADJ:0 "Italian"
- SRD_ITA_syndicalist_DEF:0 "the Commune of Italy"
- SRD_ITA_radical_socialist:0 "Commune of Italy"
- SRD_ITA_radical_socialist_ADJ:0 "Italian"
- SRD_ITA_radical_socialist_DEF:0 "the Commune of Italy"
- SRD_ITA_social_democrat:0 "Kingdom of Italy"
- SRD_ITA_social_democrat_ADJ:0 "Italian"
- SRD_ITA_social_democrat_DEF:0 "the Kingdom of Italy"
- SRD_ITA_social_liberal:0 "Kingdom of Italy"
- SRD_ITA_social_liberal_ADJ:0 "Italian"
- SRD_ITA_social_liberal_DEF:0 "the Kingdom of Italy"
- SRD_ITA_market_liberal:0 "Kingdom of Italy"
- SRD_ITA_market_liberal_ADJ:0 "Italian"
- SRD_ITA_market_liberal_DEF:0 "the Kingdom of Italy"
- SRD_ITA_social_conservative:0 "Kingdom of Italy"
- SRD_ITA_social_conservative_ADJ:0 "Italian"
- SRD_ITA_social_conservative_DEF:0 "the Kingdom of Italy"
- SRD_ITA_authoritarian_democrat:0 "Kingdom of Italy"
- SRD_ITA_authoritarian_democrat_ADJ:0 "Italian"
- SRD_ITA_authoritarian_democrat_DEF:0 "the Kingdom of Italy"
- SRD_ITA_paternal_autocrat:0 "Kingdom of Italy"
- SRD_ITA_paternal_autocrat_ADJ:0 "Italian"
- SRD_ITA_paternal_autocrat_DEF:0 "the Kingdom of Italy"
- SRD_ITA_national_populist:0 "Kingdom of Italy"
- SRD_ITA_national_populist_ADJ:0 "Italian"
- SRD_ITA_national_populist_DEF:0 "the Kingdom of Italy"
-
- SRD_piedmont_totalist:0 "Commune of Sardinia"
- SRD_piedmont_totalist_ADJ:0 "Sardinian"
- SRD_piedmont_totalist_DEF:0 "the Commune of Sardinia"
- SRD_piedmont_syndicalist:0 "Commune of Italy"
- SRD_piedmont_syndicalist_ADJ:0 "Sardinian"
- SRD_piedmont_syndicalist_DEF:0 "the Commune of Sardinia"
- SRD_piedmont_radical_socialist:0 "Commune of Italy"
- SRD_piedmont_radical_socialist_ADJ:0 "Sardinian"
- SRD_piedmont_radical_socialist_DEF:0 "the Commune of Sardinia"
- SRD_piedmont_social_democrat:0 "Sardinia-Piedmont"
- SRD_piedmont_social_democrat_ADJ:0 "Sardinian"
- SRD_piedmont_social_democrat_DEF:0 "Sardinia-Piedmont"
- SRD_piedmont_social_liberal:0 "Sardinia-Piedmont"
- SRD_piedmont_social_liberal_ADJ:0 "Sardinian"
- SRD_piedmont_social_liberal_DEF:0 "Sardinia-Piedmont"
- SRD_piedmont_market_liberal:0 "Sardinia-Piedmont"
- SRD_piedmont_market_liberal_ADJ:0 "Sardinian"
- SRD_piedmont_market_liberal_DEF:0 "Sardinia-Piedmont"
- SRD_piedmont_social_conservative:0 "Sardinia-Piedmont"
- SRD_piedmont_social_conservative_ADJ:0 "Sardinian"
- SRD_piedmont_social_conservative_DEF:0 "Sardinia-Piedmont"
- SRD_piedmont_authoritarian_democrat:0 "Sardinia-Piedmont"
- SRD_piedmont_authoritarian_democrat_ADJ:0 "Sardinian"
- SRD_piedmont_authoritarian_democrat_DEF:0 "Sardinia-Piedmont"
- SRD_piedmont_paternal_autocrat:0 "Sardinia-Piedmont"
- SRD_piedmont_paternal_autocrat_ADJ:0 "Sardinian"
- SRD_piedmont_paternal_autocrat_DEF:0 "Sardinia-Piedmont"
- SRD_piedmont_national_populist:0 "Sardinia-Piedmont"
- SRD_piedmont_national_populist_ADJ:0 "Sardinian"
- SRD_piedmont_national_populist_DEF:0 "Sardinia-Piedmont"
+### Characters ###
+ SRD_amedeo_aosta:0 "Amedeo I"
+ SRD_pietro_badoglio:0 "Pietro Badoglio"
+ SRD_giuseppe_valle:0 "Giuseppe Valle"
+ SRD_pietro_pintor:0 "Pietro Pintor"
+ SRD_umberto_carignano:0 "Prince Umberto"
+ SRD_filiberto_pistoia:0 "Filiberto Duca di Pistoia"
+ SRD_amedeo_guillet:0 "Amedeo Guillet"
+ SRD_giuseppe_montezemolo:0 "Giuseppe Cordero Lanza di Montezemolo"
+ SRD_adalberto_genova:0 "Prince Adalberto"
+ SRD_aimone_aosta:0 "Aimone di Savoia-Aosta"
+ SRD_domenico_cavagnari:0 "Domenico Cavagnari"
+ SRD_angelo_iachino:0 "Angelo Iachino"

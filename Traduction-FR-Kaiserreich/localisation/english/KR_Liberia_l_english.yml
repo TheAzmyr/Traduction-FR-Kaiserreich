@@ -21,6 +21,17 @@
  LIB_national_populist_party_long:0 "Grand Lodge of Liberia"
 
 ### Cosmetic Tags ###
+ LIB:0 "Liberia"
+ LIB_ADJ:0 "Liberian"
+ LIB_DEF:0 "Liberia"
+
+ LIB_totalist:0 "Socialist Republic of Liberia"
+ LIB_totalist_ADJ:0 "Liberian"
+ LIB_totalist_DEF:0 "the Socialist Republic of Liberia"
+ LIB_syndicalist:0 "Socialist Republic of Liberia"
+ LIB_syndicalist_ADJ:0 "Liberian"
+ LIB_syndicalist_DEF:0 "the Socialist Republic of Liberia"
+
  LIB_AUTHDEM_subject:0 "Dominion of Liberia"
  LIB_AUTHDEM_subject_ADJ:0 "Liberian"
  LIB_AUTHDEM_subject_DEF:0 "the Dominion of Liberia"
@@ -82,9 +93,9 @@
  LIB_asking_more_wont_help_TT:0 "§RAsking for the same request again will most likely cause it to be refused again, due to them lacking equipment§!"
 
 ### Decisions ###
- LIB_request_aid_from_ally:0 "Request material aid from [FROM.GetNameDef]."
- LIB_dockyard_mission:0 "Dockyard Lease."
- LIB_industry_mission:0 "Foreign Industrial Aid."
+ LIB_request_rifles_from_ally:0 "Request Rifles from [FROM.GetNameDef]."
+ LIB_request_artillery_from_ally:0 "Request Artillery from [FROM.GetNameDef]."
+ LIB_request_sup_equip_from_ally:0 "Request Support Equipment from [FROM.GetNameDef]."
 
 ### Events ###
  lib.1.t:0 "Liberian Introduction"
@@ -97,9 +108,9 @@
  lib.2.b:0 "Uphold out traditions, they must know their place."
 
  lib.3.t:0 "Presidential Elections, 1939"
- lib.3.d:0 "Today it's election day on our Republic, the first to allow both Americo Liberians and Native Liberians. Four main candidates are participating. the incumbent Edwin Barclay of the conservative True Whig Party. The True Whig Party Center under William Tubman. The True Whig Party New Guard under Louis Grimes, and the sensible socialist J.J. Dossen of the Peoples Party."
+ lib.3.d:0 "Today it's election day on our Republic, the first to allow both Americo Liberians and Native Liberians. Four main candidates are participating. the incumbent Edwin Barclay of the conservative True Whig Party. The True Whig Party Centre under William Tubman. The True Whig Party New Guard under Louis Grimes, and the sensible socialist J.J. Dossen of the Peoples Party."
  lib.3.a:0 "Edwin James Barclay, True Whig Party."
- lib.3.b:0 "William Tubman, True Whig Party (Center)."
+ lib.3.b:0 "William Tubman, True Whig Party (Centre)."
  lib.3.c:0 "Clarence Simpson, True Whig Party (New Guard)."
  lib.3.e:0 "James Jenkins Dossen, Peoples Party."
 
@@ -168,7 +179,7 @@
  lib.23.a:0 "Our Commonwealth Grows."
 
  lib.51.t:0 "Liberia Demands Sierra Leone"
- lib.51.d:0 "Liberia has long desired the state of Sierra Leone, seeing them as kind of a brother nation founded by slaves who were sent back to Africa from Canada. Now they have issued the French colonial overlords an ultimatum. Either we turn it over to them, or there will be war."
+ lib.51.d:0 "Liberia has long desired the state of Sierra Leone, seeing them as kind of a brother nation founded by slaves who were sent back to Africa from Canada. Now they have issued us an ultimatum. Either we turn it over to them, or there will be war."
  lib.51.a:0 "Fine, let them have it."
  lib.51.b:0 "Are they serious? Absolutely not!"
 
@@ -181,7 +192,7 @@
  lib.53.d:0 "It seems the [From.GetAdjective] government was too fearful of becoming embroiled in a war with us - they have agreed to surrender Sierra Leone to us."
  lib.53.a:0 "Excellent."
 
- lib.54.t:0 "We Control Sierra Leone"
+ lib.54.t:0 "The French Defeat"
  lib.54.d:0 "After brutal fighting with the exiled French, we have driven them from the countryside and deeper into the northern deserts. Our military cabinet believes we can negotiate with them on better terms. Signing a deal now would be a major political victory for us."
  lib.54.a:0 "Send the French the peace proposal."
  lib.54.b:0 "We are not ready for peace yet."
@@ -196,25 +207,17 @@
  lib.56.a:0 "They'll live to regret this."
 
  lib.57.t:0 "Liberia Marches Into the Ivory Coast"
- lib.57.d:0 "Liberia has long desired the states of Elfenbeinküste and Akanland, seeing the Ivory Coast as kin. They have deluded themselves into wanting to free the Ivory Coast, that having family in America makes them nobility. Today, however, their delusion has gone to far; with no respect for our borders they have sent troop into our lands and declare the Ivory Coast to be theirs!"
+ lib.57.d:0 "Liberia has long desired the Ivory Coast, seeing the region as kin. They have deluded themselves into wanting to free the Coast, and that having family in America makes them nobility. Today, however, their delusion has gone to far; with no respect for our borders they have sent troop into our lands and declare the Ivory Coast to be theirs!"
  lib.57.a:0 "Fine, if they want it so badly they can have it."
  lib.57.b:0 "How dare they! We will push them back across the border and beyond!"
 
- lib.58.t:0 "[From.GetNameDefCap] Declares War"
- lib.58.d:0 "It seems that we underestimated the [From.GetAdjective] government. They have responded to our incursion with a declaration of war."
- lib.58.a:0 "We probably should have seen this coming..."
+ lib.58.t:0 "[From.GetNameDefCap] Has Refused"
+ lib.58.d:0 "Now that the [From.GetAdjective] government has laughed our diplomats out of the conference room after hearing our demands, we are left with few options about how to proceed. Is this insult the beginning of a great liberation war, or is it another failed dream in Liberia?"
+ lib.58.a:0 "That land shall be free, BY FORCE!"
+ lib.58.b:0 "We cannot hope to oppose them on the battlefield."
 
- lib.59.t:0 "Ivory Coast is Ours"
+ lib.59.t:0 "The Ivory Coast is Ours"
  lib.59.d:0 "It seems the [From.GetAdjective] government was too fearful of becoming embroiled in a war with us - they have agreed to surrender the Ivory Coast."
-
- lib.60.t:0 "We Control the Ivory Coast"
- lib.60.d:0 "After brutal fighting with the Mittelafrikans, we have driven them from the countryside and deeper into the east. Our military cabinet believes we can negotiate with them now, plus signing a deal would be a major political victory for us."
- lib.60.a:0 "Send the Germans the peace proposal."
- lib.60.b:0 "No peace until we reach Dar-es-Salaam!"
-
- lib.61.d:0 "After desperate fighting in the west, we have been forced to fall back. We believe the Liberian Army is securing its gains and preparing another assault. They also offer to end all hostilities if we cede them the Ivory Coast."
- lib.61.a:0 "Let them have that backwater countryside."
- lib.61.b:0 "Never! The German Army is Invincible!"
 
  lib.85.t:0 "A Bailout For Our Economy"
  lib.85.d:0 "After years of economic downturn since the Great Depression and now the effects of Black Monday, our fledgling economy is in tatters. What few economists we have in Liberia suggest we ask for a bailout one of the powers whose economic sphere we are in. We have the USA whom we share closer ties with, but they have a long list of issues at home. Then there is the German Empire, who is in better shape than the US but far less friendly to us. Our last, and by far least, savoury option is asking the Firestone Corporation. They have large economic influence here and aren't burdened down by operating nations with shopping lists of issues, however they also have the weakest moral fibre and are by far the most exploitative. Who shall we ask?"
@@ -240,10 +243,10 @@
  lib.89.a:0 "What a relief."
 
  lib.90.t:0 "Liberia Declares Independence"
- lib.90.d.default:0 "While Liberia has been a protectorate of [Root.GetNameDef] until now, today they declared their independence and have banished all [Root.GetAdjective] advisers from their government. There are concerns over the safety of [Root.GetAdjective] citizens remaining in Liberia, as well as a matter of national pride at stake... but is it truly even worth the cost of reprisal?"
- lib.90.d.germany:0 "While Liberia has been a protectorate of [Root.GetNameDef] until now, today they declared their independence and have banished all [Root.GetAdjective] advisers from their government. Word has it that they have aligned themselves with [GER.GetNameDef] and the Reichspakt, clearly believing the Germans will protect them from any [Root.GetAdjective] reprisal."
- lib.90.d.totalist:0 "While Liberia has been a protectorate of [Root.GetNameDef] until now, this changed after a totalist government came to power in a coup... and they have declared their independence and banished all [Root.GetAdjective] advisers from their government. There are concerns over the safety of [Root.GetAdjective] citizens remaining in Liberia, as well as a matter of national pride at stake... but is it truly even worth the cost of reprisal?"
- lib.90.d.natpop:0 "While Liberia has been a protectorate of [Root.GetNameDef] until now, this changed after a national populist government came to power in a coup... and they have declared their independence and banished all [Root.GetAdjective] advisers from their government. There are concerns over the safety of [Root.GetAdjective] citizens remaining in Liberia, as well as a matter of national pride at stake... but is it truly even worth the cost of reprisal?"
+ lib.90.d.default:0 "While Liberia has been a protectorate of [Root.GetNameDef] until now, today they declared their independence and have banished all [Root.GetAdjective] advisors from their government. There are concerns over the safety of [Root.GetAdjective] citizens remaining in Liberia, as well as a matter of national pride at stake... but is it truly even worth the cost of reprisal?"
+ lib.90.d.germany:0 "While Liberia has been a protectorate of [Root.GetNameDef] until now, today they declared their independence and have banished all [Root.GetAdjective] advisors from their government. Word has it that they have aligned themselves with [GER.GetNameDef] and the Reichspakt, clearly believing the Germans will protect them from any [Root.GetAdjective] reprisal."
+ lib.90.d.totalist:0 "While Liberia has been a protectorate of [Root.GetNameDef] until now, this changed after a totalist government came to power in a coup... and they have declared their independence and banished all [Root.GetAdjective] advisors from their government. There are concerns over the safety of [Root.GetAdjective] citizens remaining in Liberia, as well as a matter of national pride at stake... but is it truly even worth the cost of reprisal?"
+ lib.90.d.natpop:0 "While Liberia has been a protectorate of [Root.GetNameDef] until now, this changed after a national populist government came to power in a coup... and they have declared their independence and banished all [Root.GetAdjective] advisors from their government. There are concerns over the safety of [Root.GetAdjective] citizens remaining in Liberia, as well as a matter of national pride at stake... but is it truly even worth the cost of reprisal?"
  lib.90.a:0 "They cannot escape so easily."
  lib.90.b:0 "We have little choice but to let them be."
 
@@ -274,7 +277,7 @@
  lib.941.a:0 "§RAgain, please report this event if you see it.§!"
 
  lib.95.t:0 "Liberia wishes to get infantry equipment"
- lib.95.desc:0 "The small west african nation of Liberia is by no means an major power, however, it has recently fallen into our sphere of influence, and its geographical location might prove to be of good use.\nThe Liberian government, wishing to build up their armed forces, and lacking the local industry to arm themselves, has contacted us in the hopes of being granted rifles, and more advanced equipment such as artillery. \nIn return for this aid, the Liberian government is promising us concessions in the form of a measure of control over the rubber plantations in their country."
+ lib.95.desc:0 "The small west african nation of Liberia is by no means an major power, however, it has recently fallen into our sphere of influence, and its geographical location might prove to be of good use.\nThe Liberian government, wishing to build up their armed forces, and lacking the local industry to arm themselves, has contacted us in the hopes of being granted rifles, and more advanced equipment such as artillery.\nIn return for this aid, the Liberian government is promising us concessions in the form of a measure of control over the rubber plantations in their country."
  lib.95.descUSA:0 "Ever since its founding, Liberia has had close relationship with America, and with their geographical location on the coast of west africa, they might prove of use, should America need a base in the area.\nThe Liberian government, wishing to build up their armed forces, and lacking the local industry to arm themselves, has contacted us in the hopes of being granted rifles, and more advanced equipment such as artillery.\nIn return for this aid, the Liberian government is promising us concessions in the form of a measure of control over the rubber plantations in their country."
  lib.95.a:0 "Grant them rifles."
  lib.95.b:0 "Grant them rifles, support equipment and artillery."
@@ -320,7 +323,7 @@
 
  lib.98.t:0 "Liberia wants investment in its infrastructure"
  lib.98.desc:0 "The small west african nation of Liberia is by no means an major power, however, it has recently fallen into our sphere of influence, and its geographical location might prove to be of good use.\nThe Liberian government, wishing to build up its domestic infrastructure, has contacted us with the hope of brokering a deal with local companies, that could go to Liberia and work in construction.\nIn return for this aid, the Liberian government is promising us concessions in the form of a measure of control over the rubber plantations in their country."
- lib.98.descUSA:0 "Ever since its founding, Liberia has had close relationship with America, and with their geographical location on the coast of west africa, they might prove of use, should America need a base in the area.\nThe Liberian government, wishing to build up its domestic infrastructure, has contacted us with the hope of brokering a deal with local companies, that could go to Liberia and work in construction. \nIn return for this aid, the Liberian government is promising us concessions in the form of a measure of control over the rubber plantations in their country."
+ lib.98.descUSA:0 "Ever since its founding, Liberia has had close relationship with America, and with their geographical location on the coast of west africa, they might prove of use, should America need a base in the area.\nThe Liberian government, wishing to build up its domestic infrastructure, has contacted us with the hope of brokering a deal with local companies, that could go to Liberia and work in construction.\nIn return for this aid, the Liberian government is promising us concessions in the form of a measure of control over the rubber plantations in their country."
  lib.98.a:0 "Sounds like a good deal."
  lib.98.b:0 "We have no interest in this."
 
@@ -385,7 +388,7 @@
  LIB_totalist_4:0 "Backs Against the Sea"
  LIB_election_soccon:0 "True Whig Victory"
  LIB_election_radsoc:0 "Peoples Party Victory"
- LIB_election_mrklib:0 "True Whig Party Center Victory"
+ LIB_election_mrklib:0 "True Whig Party Centre Victory"
  LIB_secure_citizenship:0 "Secure Citizenship"
  LIB_patronize_allies:0 "Patronise our Allies"
  LIB_judicial_reform:0 "Reform the Judicial System"
@@ -466,17 +469,15 @@
  LIB_african_investment_desc:0 "We fell onto hard time because of the short term thinking of the True Whigs. The only way to ensure we never fall again is to follow the plan set out by Wilmont E. Dennis. We will send our best and brightest out of Africa to build businesses, and bring back wealth to Liberia."
  LIB_peculiar_institutions_desc:0 "Despite our best efforts to hold off erupting emancipation, we can no longer. Gunnar Myrdall's assessment that emancipation will increase the number of educated and skilled is wise. We are willing to buy our freedom, as to not destroy our integrity to Firestone."
  LIB_star_of_africa:0 "Star of Africa"
- LIB_star_of_africa_desc:0 "The First Weltkrieg has endangered the free nations of West Africa. Liberia, Sierra Leone, and the Ivory Coast. We must secure our brethren from their French and German overlords. We are the last free men of Africa, yes, but perhaps not for long."
- LIB_demand_sierra_leone:0 "Demand Sierra Leone"
- LIB_demand_sierra_leone_desc:0 "The French have ruled over Sierra Leone for too long, and done so with an iron fist. Now is our chance to demand they return it, or it will mean war between us."
+ LIB_star_of_africa_desc:0 "The First Weltkrieg has endangered the free nations of West Africa. Liberia, Sierra Leone, and the Ivory Coast. We must secure our brethren from their French overlords. We are the last free men of Africa, yes, but perhaps not for long."
+ LIB_war_for_africa:0 "War for Africa"
+ LIB_war_for_africa_desc:0 "The French have ruled over Africa with an iron fist for far too long. With them embroiled in an European conflict, now is our chance to kick them out, once and for all."
  LIB_claim_sierra_leone:0 "Fight for Sierra Leone"
  LIB_claim_sierra_leone_desc:0 "Sierra Leone is properly part of the greater African commonwealth, and it is our place to reclaim it."
- LIB_sierra_leone_liberated:0 "Sierra Leone Occupied"
- LIB_sierra_leone_liberated_desc:0 "Until we can decide how better to organise our larger nation, the citizens of Sierra Leone have been granted seats in our Parliament and we will treat them as equals among Liberians."
+ LIB_liberation_of_west_africa:0 "Liberation of West Africa"
+ LIB_liberation_of_west_africa_desc:0 ""
  LIB_demand_ivory_coast:0 "March Into the Ivory Coast"
  LIB_demand_ivory_coast_desc:0 "The Ivory Coast has been ruled by other nations with an iron fist for far too long. Now is our chance to march into this land that is rightfully ours and claim it back!"
- LIB_claim_ivory_coast:0 "Fight for the Ivory Coast"
- LIB_claim_ivory_coast_desc:0 "The Ivory Coast is properly part of the greater African commonwealth, and it is our place to reclaim it."
  LIB_ivory_coast_liberated:0 "Ivory Coast Occupied"
  LIB_ivory_coast_liberated_desc:0 "Until we can decide how better to organise our larger nation, the citizens of the Ivory Coast have been granted seats in our Parliament and we will treat them as equals among Liberians."
  LIB_keep_our_promise:0 "Keep our Promise"
@@ -489,12 +490,10 @@
  LIB_greater_liberia_desc:0 "We are weak if we are not united - some believe that the sum of the whole is greater than its parts, but the truth is that our brethren in West Africa are stronger if they stand at our side under a single banner."
  LIB_integrate_guinea:0 "Integrate Guinea"
  LIB_integrate_guinea_desc:0 "The acquisition of Guinea is a great windfall, and a sign that West Africa is ready to unite. Though their peoples are mostly Muslim, it will be an honour to fight alongside our Guinean brothers."
- LIB_integrate_ghana:0 "Integrate Ghana"
- LIB_integrate_ghana_desc:0 "The former Kingdom of Ashanti was one of the strongest in West Africa, challenging the British for many years until they, too, fell to the colonisers. Now they shall stand at our side, adding their strength to the greater whole."
- LIB_integrate_togoland:0 "Integrate Togoland"
- LIB_integrate_togoland_desc:0 "The Togolese people have a strong tradition of freedom, and they will enjoy that and more as part of the Liberian republic."
- LIB_integrate_dahomey:0 "Integrate Dahomey"
- LIB_integrate_dahomey_desc:0 "Dahomey represents the furthest extent of our West African borders, and the Fon people deserve an equal place at the Liberian table."
+ LIB_integrate_mali_and_volta:0 "Integrate Mali and Volta"
+ LIB_integrate_mali_and_volta_desc:0 "
+ LIB_integrate_senegal:0 "Integrate Senegal"
+ LIB_integrate_senegal_desc:0 ""
  LIB_great_minds:0 "Great Minds of Africa"
  LIB_great_minds_desc:0 "Now West African language and culture can flourish. In English, French, and German; we will speak whatever improves our lives the most. We are united at last, and indivisible forever."
  LIB_assess_economy_desc:0 "Our government owes a total of 6.4 million dollars to a combination of private investors and the US government. With the economic crisis in America not lifting, the US government has decided to hold us accountable to our debts, and our investors are likely to do the same. We must find a new source of income, and fast."
@@ -522,3 +521,16 @@
  LIB_mil_ind_3_desc:0 "When that German submarine fired warning shots at Monrovia in 1921, we had nowhere to hide. If we control Monrovia, we control Liberia."
  LIB_mil_ind_2_desc:0 "Although Monrovia has preserved us for almost a century, we need to spread our zone of control south. Maryland, on the Ivorian border, provides us with access to French goods."
  LIB_university_desc:0 "Our education system has never befitted our tradition of liberty. We can construct a new university in Montserrado County, and name it after the honourable D.B King"
+
+### Characters ###
+ LIB_george_padmore:0 "George Padmore"
+ LIB_james_jenkins_dossen:0 "James Jenkins Dossen"
+ LIB_marcus_garvey:0 "Marcus Garvey"
+ LIB_clarence_simpson:0 "Clarence Simpson"
+ LIB_william_tubman:0 "William Tubman"
+ LIB_edwin_barclay:0 "Edwin Barclay"
+ LIB_momolu_massaquoi:0 "Momolu Massaquoi"
+ LIB_frank_emmanuel_tolbert:0 "Frank Emmanuel Tolbert"
+ LIB_jenkins_yancey:0 "Jenkins Yancey"
+ LIB_james_cooper:0 "James Cooper"
+ LIB_william_h_carter:0 "William H. Carter"

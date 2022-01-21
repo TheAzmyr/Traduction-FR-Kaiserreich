@@ -26,7 +26,6 @@
  # should be Ḥezb-e Pān Irānist but the first Ḥ doesn't work
 
 ### Tooltips ###
- PER_bad_military_french_help_tooltip:0 "Modify §H$PER_bad_military$§! by\nLand Doctrine Research Speed: [?0.4|+=%0]\n\n"
  PER_embargo_anti_socialists_tt:0 "All enemies of the Internationale shall be §Hembargoed§! and will no longer receive our oil reserves - and they will embargo us in response."
 
 ### Focuses ###
@@ -102,7 +101,7 @@
  PER_mandatory_edu_desc:0 "Currently education is not mandatory in our nation, so many suffer from illiteracy. it's time to enact a mandatory education law to ensure the future of our nation is guarded by a bright new generation."
  PER_mandatory_nezam:0 "Mandatory Nezam Service"
  PER_mandatory_nezam_desc:0 "Our nation is surrounded by enemies and threats. For too long we have had a small standing army, under the boots of stronger nations. It's time to enact a mandatory conscription for our young generation in order to safeguard our nation from future threats."
- PER_tehran_uni:0 "[266.GetName] University"
+ PER_tehran_uni:0 "[266.GetCapitalVictoryPointName] University"
  PER_tehran_uni_desc:0 "While Dar ul Fununs created by Amir Kabir helped with higher levels of education in [PER.GetNameDef], they aren't modern enough to help create a new generation of intellectuals. We need to expand them and create a new system of higher education. Following western and foreign examples we shall build the first ever modern University in [PER.GetNameDef]."
  PER_tribal_appeasment:0 "Tribal Appeasement"
  PER_tribal_appeasment_desc:0 "For centuries the tribal population of [PER.GetNameDef] has both been a blessing and a curse. If they are loyal they can be of great help but if not... utter chaos. We must begin a country wide program to pacify our tribes, which, due to recent upheaval and state weakness, have begun to act increasingly independent. With an Iron fist we shall bring them into fold and never allow them to rise against the nation's interests."
@@ -219,6 +218,28 @@
  PER_swenavaltext_yes:0 "With our important strategic location, we need a strong navy to protect our nation and trade. Currently as it stands, [PER.GetNameDef]'s navy is a mish mash of fishing boats and in order to have a formidable regional navy first we need to train naval officers. Sweden being neutral in world affairs and a formidable navy, is a good choice for us in order to good officers trained and not get tangled in world affairs."
  PER_swenavaltext_no:0 "Though Sweden has fallen, the naval tradition it cultivated is a model for the nations of the world. Let us direct substantial state resources to adapting the doctrine of the Swedes."
 
+### Companies ###
+ krupp_PER:0 "Krupp Irān"
+ aeg_PER:0 "AEG Irān"
+ solvay_PER:0 "Solvay Irān"
+ imperial_oil_PER:0 "Imperial Oil"
+ aga_PER:0 "AGA Irān"
+ zbrojovka_brno_PER:0 "Zbrojovka Brno Irān"
+ steyr_PER:0 "Steyr Irān"
+ walther_PER:0 "Walther Irān"
+ dominion_cartridge_PER:0 "Dominion Cartridge Irān"
+ krupp2_PER:0 "Krupp Irān"
+ skoda_PER:0 "Skoda Irān"
+ scania_vabis_PER:0 "Scania Vabis"
+ volvo_PER:0 "Volvo"
+ general_motors_iran:0 "General Motors Irān"
+ svenska_aeroplan_PER:0 "Svenska Aeroplan Irān"
+ wilton_fijenoord_PER:0 "Wilton-Fijenoord"
+ shabaz_aircraft_manufacturer:0 "Shabaz Aircraft Manufacturer"
+ imperial_arms_company:0 "Imperial Arms Company"
+ imperial_artillery_company:0 "Imperial Artillery Company"
+ blohm_voss_PER:0 "Blohm & Voss Irān"
+
 ### Ideas ###
  PER_mandatory_education:0 "Mandatory Education"
  PER_fighter_production:0 "Increased Plane Production"
@@ -292,7 +313,7 @@
 
 ### Events ###
  pers.1.t:0 "Introduction to [PER.GetNameDef]"
- pers.1.d:0 "In the past few decades, [PER.GetNameDef] has been in a state of constant change and instability. Having gained full independence from Russia and the British Empire, we have struggled to find our own place in this world. All around [PER.GetNameDef], from the smallest hamlet in the furthest corners of the nation to the big cities like [266.GetName], we can see the difference in beliefs between the people. Just a few years ago, the Shah himself was shot by a socialist assassin. Although he survived, the Shah's health has been declining by the day. It is clear the nation cannot survive like it is, and with the Shah's death looming, there are fears ideological divide could turn into open revolt. Democrats trying to force a republic, royalists who would support a powerful monarchy led by the Shah's brother, Hassan Mirza, and socialists, attempting to create the first socialist state in the Middle East. We can only hope the power transition is peaceful...\n\nOur nation's military is in shambles, and we are still recovering from a famine that killed millions of our people. Not only that, our political class is dominated by a corrupt aristocracy, ruining our political legitimacy. Our nation has many problems to sort out, but if we can do it successfully, we could become the greatest Empire the Middle East has ever seen."
+ pers.1.d:0 "In the past few decades, [PER.GetNameDef] has been in a state of constant change and instability. Having gained full independence from Russia and the British Empire, we have struggled to find our own place in this world. All around [PER.GetNameDef], from the smallest hamlet in the furthest corners of the nation to the big cities like [266.GetCapitalVictoryPointName], we can see the difference in beliefs between the people. Just a few years ago, the Shah himself was shot by a socialist assassin. Although he survived, the Shah's health has been declining by the day. It is clear the nation cannot survive like it is, and with the Shah's death looming, there are fears ideological divide could turn into open revolt. Democrats trying to force a republic, royalists who would support a powerful monarchy led by the Shah's brother, Hassan Mirza, and socialists, attempting to create the first socialist state in the Middle East. We can only hope the power transition is peaceful...\n\nOur nation's military is in shambles, and we are still recovering from a famine that killed millions of our people. Not only that, our political class is dominated by a corrupt aristocracy, ruining our political legitimacy. Our nation has many problems to sort out, but if we can do it successfully, we could become the greatest Empire the Middle East has ever seen."
  pers.1.a:0 "[PER.GetNameDefCap] will be strong!"
 
  pers.2.t:0 "The Shah is Dead!"
@@ -309,19 +330,19 @@
  pers.4.a:0 "Long Live the Shah!"
 
  pers.5.t:0 "What happens now?"
- pers.5.d:0 "Mirza has decided to stay in [PER.GetNameDef]. There are many people loyal to him, willing to fight for him. We could command these people to storm the Majlis to keep order and capture any potential threats. We could also send these people to capture key points in [266.GetName] to try and secure power. However, Hassan Mirza could also not command the people at all to try and keep peace."
+ pers.5.d:0 "Mirza has decided to stay in [PER.GetNameDef]. There are many people loyal to him, willing to fight for him. We could command these people to storm the Majlis to keep order and capture any potential threats. We could also send these people to capture key points in [266.GetCapitalVictoryPointName] to try and secure power. However, Hassan Mirza could also not command the people at all to try and keep peace."
  pers.5.a:0 "Send the loyalists to the Majlis."
- pers.5.b:0 "Send the loyalists to capture key points in [266.GetName]."
+ pers.5.b:0 "Send the loyalists to capture key points in [266.GetCapitalVictoryPointName]."
  pers.5.c:0 "Let's not stir up trouble."
 
  pers.6.t:0 "What happens now?"
- pers.6.d:0 "Although Hassan Mirza has decided to flee [PER.GetNameDef], there are many people still loyal to him, willing to fight. We could command these people to storm the Majlis to keep order and capture any potential threats. We could also send these people to capture key points in [266.GetName] to try and secure power. However, Hassan Mirza could also not command the people at all to try and keep peace."
+ pers.6.d:0 "Although Hassan Mirza has decided to flee [PER.GetNameDef], there are many people still loyal to him, willing to fight. We could command these people to storm the Majlis to keep order and capture any potential threats. We could also send these people to capture key points in [266.GetCapitalVictoryPointName] to try and secure power. However, Hassan Mirza could also not command the people at all to try and keep peace."
  pers.6.a:0 "Send the loyalists to the Majlis."
- pers.6.b:0 "Send the loyalists to capture key points in [266.GetName]."
+ pers.6.b:0 "Send the loyalists to capture key points in [266.GetCapitalVictoryPointName]."
  pers.6.c:0 "Let's not stir up trouble."
 
  pers.7.t:0 "Loyalists capture key points in the city"
- pers.7.d:0 "People loyal to the Shah have successfully captured key parts of [266.GetName]. The police and the army have stopped any rebellion from taking place. However, there are still some politicians that refuse to accept stronger rule from the Shah. These politicians are loyal to the Majlis, not the Shah. Do we allow these politicians to remain free, giving them the opportunity to unify against the Shah? However, we could temporarily arrest these politicians to prevent an uprising."
+ pers.7.d:0 "People loyal to the Shah have successfully captured key parts of [266.GetCapitalVictoryPointName]. The police and the army have stopped any rebellion from taking place. However, there are still some politicians that refuse to accept stronger rule from the Shah. These politicians are loyal to the Majlis, not the Shah. Do we allow these politicians to remain free, giving them the opportunity to unify against the Shah? However, we could temporarily arrest these politicians to prevent an uprising."
  pers.7.a:0 "Temporarily arrest them to secure power."
  pers.7.b:0 "Let them do what they want."
 
@@ -697,7 +718,7 @@
  pers.100.a:0 "Happy Yalda Night!"
 
  pers.101.t:0 "Bear found by soldiers"
- pers.101.d:0 "Recently, a bear cub was found by one of our officers in [266.GetName]'s nearby fortifications. While initially we had planned to take away the bear due to military regulations, we have begun to reconsider, as troops stationed in the fort have petitioned for it to stay. We have decided to allow the bear to stay at the fort for the time being to increase morale. The troops have decided to name him Rostam."
+ pers.101.d:0 "Recently, a bear cub was found by one of our officers in [266.GetCapitalVictoryPointName]'s nearby fortifications. While initially we had planned to take away the bear due to military regulations, we have begun to reconsider, as troops stationed in the fort have petitioned for it to stay. We have decided to allow the bear to stay at the fort for the time being to increase morale. The troops have decided to name him Rostam."
  pers.101.a:0 "What a peculiar occurrence."
 
  pers.102.t:0 "Rostam the bear"
@@ -765,6 +786,24 @@
  PER_Shatt_al_Arab_Protocol_desc:0 "Signed in 1913 under the guidance of the British and Russian attachés to Kostantiniyye and Teheran, an end was put to the border conflicts between the Ottoman Empire and our own which had been ongoing for almost a hundred years. Despite the solution however, many feel that the treaty was too generous to the Ottomans and that it did not adequately provide security for Iranian shipping in the Shatt al-Arab. Furthermore they claim that the establishment of the Fao fortress at the entrance of the Shatt al-Arab is in open breach with the protocols, thus nullifying them and reaffirming the Iranian claim on a larger slice of the estuary."
 
 ### Cosmetic Tags ###
+ PER:0 "Persia"
+ PER_ADJ:0 "Persian"
+ PER_DEF:0 "Persia"
+
+ PER_totalist:0 "Socialist Republic of Persia"
+ PER_totalist_ADJ:0 "Persian"
+ PER_totalist_DEF:0 "the Socialist Republic of Persia"
+ PER_syndicalist:0 "Socialist Republic of Persia"
+ PER_syndicalist_ADJ:0 "Persian"
+ PER_syndicalist_DEF:0 "the Socialist Republic of Persia"
+ PER_radical_socialist:0 "Socialist Republic of Persia"
+ PER_radical_socialist_ADJ:0 "Persian"
+ PER_radical_socialist_DEF:0 "the Socialist Republic of Persia"
+
+ PER_REP:0 "Iran"
+ PER_REP_ADJ:0 "Iranian"
+ PER_REP_DEF:0 "Iran"
+
  PER_REP_totalist:0 "Socialist Republic of Iran"
  PER_REP_totalist_ADJ:0 "Iranian"
  PER_REP_totalist_DEF:0 "the Socialist Republic of Iran"
@@ -786,15 +825,10 @@
  PER_REP_social_conservative:0 "Republic of Iran"
  PER_REP_social_conservative_ADJ:0 "Iranian"
  PER_REP_social_conservative_DEF:0 "the Republic of Iran"
- PER_REP_authoritarian_democrat:0 "Iran"
- PER_REP_authoritarian_democrat_ADJ:0 "Iranian"
- PER_REP_authoritarian_democrat_DEF:0 "Iran"
- PER_REP_paternal_autocrat:0 "Iran"
- PER_REP_paternal_autocrat_ADJ:0 "Iranian"
- PER_REP_paternal_autocrat_DEF:0 "Iran"
- PER_REP_national_populist:0 "Iran"
- PER_REP_national_populist_ADJ:0 "Iranian"
- PER_REP_national_populist_DEF:0 "Iran"
+
+ PER_IRA:0 "Iran"
+ PER_IRA_ADJ:0 "Iranian"
+ PER_IRA_DEF:0 "Iran"
 
  PER_IRA_totalist:0 "Socialist Republic of Iran"
  PER_IRA_totalist_ADJ:0 "Iranian"
@@ -805,24 +839,27 @@
  PER_IRA_radical_socialist:0 "Socialist Republic of Iran"
  PER_IRA_radical_socialist_ADJ:0 "Iranian"
  PER_IRA_radical_socialist_DEF:0 "the Socialist Republic of Iran"
- PER_IRA_social_democrat:0 "Iran"
- PER_IRA_social_democrat_ADJ:0 "Iranian"
- PER_IRA_social_democrat_DEF:0 "Iran"
- PER_IRA_social_liberal:0 "Iran"
- PER_IRA_social_liberal_ADJ:0 "Iranian"
- PER_IRA_social_liberal_DEF:0 "Iran"
- PER_IRA_market_liberal:0 "Iran"
- PER_IRA_market_liberal_ADJ:0 "Iranian"
- PER_IRA_market_liberal_DEF:0 "Iran"
- PER_IRA_social_conservative:0 "Iran"
- PER_IRA_social_conservative_ADJ:0 "Iranian"
- PER_IRA_social_conservative_DEF:0 "Iran"
- PER_IRA_authoritarian_democrat:0 "Iran"
- PER_IRA_authoritarian_democrat_ADJ:0 "Iranian"
- PER_IRA_authoritarian_democrat_DEF:0 "Iran"
- PER_IRA_paternal_autocrat:0 "Iran"
- PER_IRA_paternal_autocrat_ADJ:0 "Iranian"
- PER_IRA_paternal_autocrat_DEF:0 "Iran"
- PER_IRA_national_populist:0 "Iran"
- PER_IRA_national_populist_ADJ:0 "Iranian"
- PER_IRA_national_populist_DEF:0 "Iran"
+
+### Characters ###
+ PER_avetis_soltanzadeh:0 "Avetis Soltanzadeh"
+ PER_jafar_pishevari:0 "Ja'far Pishevari"
+ PER_iraj_eskandari:0 "Iraj Eskandari"
+ PER_sayyed_hasan_taqizadeh:0 "Sayyed Hasan Taqizadeh"
+ PER_mohammad_mosaddegh:0 "Mohammad Mosaddegh"
+ PER_mohammad_ali_foroughi_zoka_ol_molk:0 "Mohammad Ali Foroughi Zoka-ol-Molk"
+ PER_ahmad_qavam:0 "Ahmad Qavām"
+ PER_reza_khan:0 "Reza Khan"
+ PER_mahmud_aqa_ansari:0 "Mahmud Aqa Ansari"
+ PER_ahmad_shah_qajar:0 "Ahmad Shah Qajar"
+ PER_hassan_mirza_qajar:0 "Hassan Mirza Qajar"
+ PER_hamid_mirza_qajar:0 "Hamid Mirza Qajar"
+ PER_karim_agha_khan_buzarjomehri:0 "Karim Agha Khan Buzarjomehri"
+ PER_ahmad_akghar:0 "Ahmad Akghar"
+ PER_ahmad_amir_ahmadi:0 "Ahmad Amir-Ahmadi"
+ PER_abdollah_khan_amir_tahmasebi:0 "Abdollah Khan Amir Tahmasebi"
+ PER_morteza_yazdanpanah:0 "Morteza Yazdanpanah"
+ PER_mohammad_pouladin:0 "Mohammad Pouladin"
+ PER_amanollah_jahanbani:0 "Amanollah Jahanbani"
+ PER_fazlollah_zahedi:0 "Fazlollah Zahedi"
+ PER_mohammad_taqi_khan_pessian:0 "Mohammad Taqi-Khan Pessian"
+ PER_gholamali_bayandor:0 "Gholamali Bayandor"

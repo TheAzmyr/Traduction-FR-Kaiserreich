@@ -44,7 +44,6 @@
  GXC_military_effect_tooltip:0 "Replace §H$GXC_officer_vanguards_idea$§! or §H$GXC_professional_officers$§! with §H$GXC_liangguang_NRA$§!\nEffective change:\nDivision Attack: §G+5.0%§!\nDivision Organisation: §G+5.0%§!\n"
  guangxi_rebels_tt:0 "The Guangxi Clique revolts against our rule!\n"
  guangdong_loyalists_tt:0 "Loyalists in Guangdong will rally against us!\n"
- exploit_guangdong:0 "We are exploiting Guangdong Province"
  civilian_guangxi:0 "We restored civilian authority in Guangxi"
  GXC_ancap_merge:0 "Merge §HMerchant Corps ideas§!\nEffective change:\nPolitical Power Gain: §G+5%§!\nDivision Recovery Rate: §G+10.00%§!\n"
  GXC_had_civil_war:0 "The Guangdong-Guangxi War began"
@@ -127,7 +126,7 @@
 
  GXC_secure_south_decisions:0 "Securing Southern China"
  GXC_secure_south_decisions_desc:0 "Liangguang is now in a position to establish hegemony over Southern China. Where hostile Cliques are weak and vulnerable, we must strike, and bring them to our fold. Soon enough, we will have uncontested control of this part of China, making us highly influential in national politics."
- GXC_secure_south:0 "[FROM.GetFlag] Secure [FROM.GetCliqueShortName]"
+ GXC_secure_south:0 "[FROM.GetFlag] Secure [FROM.GetNonIdeologyNameDef]"
 
  GXC_finding_backers:0 "Finding Backers"
  GXC_finding_backers_desc:0 "Since the collapse of the League, that status of the Central Government has been confusing at best. In order to secure our own position as one of Southern China's prominent leaders, we should find backers among the factions trying to seize control of China's government or, potentially, Japan."
@@ -146,7 +145,7 @@
 
  GXC_UPC_ultimatums_titles_YUN:0 "[FROM.GetFlag] Invite Tang Jiyao"
  GXC_UPC_ultimatums_titles_default:0 "[FROM.GetFlag] Contact [FROM.GetNameDef]"
- GXC_UPC_ultimatums_tooltip:0 "§H[ROOT.GetCliqueShortName]§! and §H[FROM.GetCliqueShortName]§! are not attending the §HUnification Conference§!"
+ GXC_UPC_ultimatums_tooltip:0 "§H[ROOT.GetNonIdeologyNameDef]§! and §H[FROM.GetNonIdeologyNameDef]§! are not attending the §HUnification Conference§!"
 
  GXC_UPC_ultimatums_descs_HNN:0 "Many in Hunan support Federalism, but their control of the provincial government is not guaranteed. Regardless, its leadership should be given an opportunity to make amends and return power to the Hunanese people."
  GXC_UPC_ultimatums_descs_SZC:0 "The province of Sichuan has seen terrible blights after terrible blights. Famine, warlords, bandits, and so on. Perhaps the United Provinces can bring stability to the troubled province and restore the people's faith?"
@@ -157,10 +156,9 @@
  GXC_UPC_ultimatums_descs_YUN:0 "Yunnan is known as a republican stronghold, but its governor may not be wise enough to see our movement as allies. Warlords must be eliminated and power returned to the people."
  GXC_UPC_ultimatums_descs_YUN_tang:0 "Tang Jiyao was made vice-chairman of the Public Interest Party at its founding, but his allegiance to the movement is questionable. Once we are certain he is loyal, we can bring him into the United Provinces."
 
- GXC_ultimatum_northwest:0 "[FROM.GetFlag] Ultimatum to [FROM.GetCliqueShortName]"
+ GXC_ultimatum_northwest:0 "[FROM.GetFlag] Ultimatum to [FROM.GetNonIdeologyNameDef]"
 
  GXC_purge_KMT:0 "[CHI.GetFlag] Purge the Party-State"
- GXC_purge_KMT_desc:0 ""
  GXC_negotiate_with_FNG:0 "[FNG.GetFlag] Diplomatic Overtures to Zhang Zuolin"
  GXC_negotiate_with_FNG_desc:0 "While his dealings with Japan and his personal rule are questionable, Zhang Zuolin's Fengtian Government remains the one closest to the pre-restoration Republic and the Xinhai Revolution. In order to limit bloodshed and reunite China as peacefully as possible, cutting a deal with the northern Marshal will be necessary and Chen Jiongming believes that only a North-South settlement will truly bring peace in the country."
  GXC_negotiate_with_Zhili:0 "[QIE.GetFlag] Negotiate with Wu Peifu"
@@ -182,7 +180,6 @@
  GXC_mobilize_gentry_militia_desc:0 "A large part of both Guangxi and Guangdong's Militia Corps is under the command of the rural gentry. With their interests endangered by the ongoing conflict between the two provinces, the gentry has decided to fully support us and their militia are now under our command."
 
  GXC_KMT_national_revolution:0 "National Revolution"
- GXC_KMT_national_revolution_desc:0 ""
 
  GXC_KMT_secure_southwest:0 "[FROM.GetFlag] Secure [FROM.GetNameDef]"
  GXC_KMT_secure_east:0 "[FROM.GetFlag] Secure [FROM.GetNameDef]"
@@ -192,7 +189,6 @@
  GXC_KMT_puppet_KMT_tags:0 "[FROM.GetFlag] Bring in [FROM.GetNameDef]"
 
  GXC_KMT_integrate_puppets:0 "Integrating the Autonomies"
- GXC_KMT_integrate_puppets_desc:0 ""
 
  GXC_KMT_integrate_puppet_decision:0 "[FROM.GetFlag] Integrate [FROM.GetNameDef]"
 
@@ -201,6 +197,15 @@
  GXC_tang_ded:0 "A eulogy of Tang Jiyao, the late deputy chairman and governor of Yunnan, was read out to the assembly by the chairman himself."
  GXC_tang_jerk:0 "The deputy chairman and governor of Yunnan, Tang Jiyao, is notably absent from this historical assembly"
  GXC_tang_there:0 "The deputy chairman and governor of Yunnan, Tang Jiyao, made a speech on the dangers of the Kuomintang and their thinly-veiled totalitarian ideology and Wu Peifu's betrayal of the Republic."
+
+### Companies ###
+ guangzhou_cement_factory:0 "Guangzhou Cement Factory"
+ yueshen_electric_light_company:0 "Yueshen Electric Light Company"
+ guangdong_arsenal:0 "Guangdong Arsenal"
+ liuzhou_machinery_factory:0 "Liuzhou Machinery Factory"
+ pajiang_artillery_factory:0 "Paijang Artillery Factory"
+ liuzhou_aviation_machinery_factory:0 "Liuzhou Aviation Machinery Factory"
+ whampoa_dock_company:0 "Whampoa Dock Company"
 
 ### Ideas ###
  GXC_backwards_guangxi:0 "Guangxi's Struggling Economy"
@@ -321,88 +326,33 @@
  GXC_nanning_academy_desc:0 "Graduates of the Nanning Military Academy formed the core of the Guangxi Clique when it was founded, training officers that led the overthrow of the Monarchy, and new graduates continue filling the staff of the Clique to this day."
 
  GXC_merchant_corps:0 "Merchant Corps Dominance"
- GXC_merchant_corps_desc:0 ""
-
  GXC_suppressing_labour:0 "Suppressing the Labour Movement"
- GXC_suppressing_labour_desc:0 ""
-
  GXC_trade_regulations:0 "Reformed Trade Regulations"
- GXC_trade_regulations_desc:0 ""
-
  GXC_philantropic_investments:0 "Philanthropy"
- GXC_philantropic_investments_desc:0 ""
-
  GXC_chinese_washington_idea:0 "The Chinese Washington"
- GXC_chinese_washington_idea_desc:0 ""
-
  GXC_chens_NPA:0 "Approaching the Warlords"
- GXC_chens_NPA_desc:0 ""
-
  GXC_rearming_guangdong:0 "Guangdong Rearmament"
- GXC_rearming_guangdong_desc:0 ""
-
  GXC_spreading_federalism:0 "Promoting Federalist Ideals"
- GXC_spreading_federalism_desc:0 ""
-
  GXC_sanmin:0 "Three Principles of the People"
- GXC_sanmin_desc:0 ""
-
  GXC_sanmin_minzu:0 "Three Principles of the People"
- GXC_sanmin_minzu_desc:0 ""
-
  GXC_sanmin_minquan:0 "Three Principles of the People"
- GXC_sanmin_minquan_desc:0 ""
-
  GXC_whampoa_idea:0 "Restored Whampoa Academy"
- GXC_whampoa_idea_desc:0 ""
-
  GXC_political_tutelage:0 "Political Tutelage"
- GXC_political_tutelage_desc:0 ""
-
  GXC_new_guangxi_army:0 "Seventh Army of the National Revolutionary Army"
- GXC_new_guangxi_army_desc:0 ""
-
  GXC_kmt_militarisation:0 "Seventh Army of the National Revolutionary Army"
- GXC_kmt_militarisation_desc:0 ""
-
  GXC_ppp_plan:0 "Policies of the Productive People's Party"
- GXC_ppp_plan_desc:0 ""
-
  GXC_ppp_local_democracy:0 "Policies of the Productive People's Party"
- GXC_ppp_local_democracy_desc:0 ""
-
  GXC_ppp_land_reform:0 "Policies of the Productive People's Party"
- GXC_ppp_land_reform_desc:0 ""
-
  GXC_ppp_plan_all:0 "Policies of the Productive People's Party"
- GXC_ppp_plan_all_desc:0 ""
-
  GXC_ppp_route_armies:0 "Route Armies"
- GXC_ppp_route_armies_desc:0 ""
-
  GXC_RKMT_angry_merchants:0 "Angered Merchants"
- GXC_RKMT_angry_merchants_desc:0 ""
-
  GXC_RKMT_appeased_merchants:0 "Appeased Merchants"
- GXC_RKMT_appeased_merchants_desc:0 ""
-
  GXC_RKMT_purged_merchants:0 "Purging Merchants"
- GXC_RKMT_purged_merchants_desc:0 ""
-
  GXC_RKMT_weary_gentry:0 "Weary Gentry"
- GXC_RKMT_weary_gentry_desc:0 ""
-
  GXC_RKMT_rent_caps:0 "Land Rent Caps"
- GXC_RKMT_rent_caps_desc:0 ""
-
  UPC_general_staff:0 "Federal General Staff"
- UPC_general_staff_desc:0 ""
-
  UPC_economic_integration:0 "Federal Economic Integration"
- UPC_economic_integration_desc:0 ""
-
  UPC_reconstruction:0 "Reconstruction Plan"
- UPC_reconstruction_desc:0 ""
 
  GXC_victory_imminent:0 "Victory Imminent"
  GXC_victory_imminent_desc:0 "We have successfully seized the advantage in the war against [PRC.GetNameDef]. We expect the enemy to give up the fight shortly."
@@ -410,47 +360,36 @@
  GXC_lost_momentum:0 "Momentum Lost"
  GXC_lost_momentum_desc:0 "We have been unable to score a quick victory against [PRC.GetNameDef]. Morale is low has they have gained the momentum and our forces are quickly disintegrating."
 
- PRC_victory_imminent:0 "Victory Imminent"
- PRC_victory_imminent_desc:0 "We have successfully seized the advantage in the war against [GXC.GetNameDef]. We expect the enemy to give up the fight shortly."
+ GXW_victory_imminent:0 "Victory Imminent"
+ GXW_victory_imminent_desc:0 "We have successfully seized the advantage in the war against [GXC.GetNameDef]. We expect the enemy to give up the fight shortly."
 
- PRC_lost_momentum:0 "Momentum Lost"
- PRC_lost_momentum_desc:0 "We have been unable to score a quick victory against [GXC.GetNameDef]. Morale is low has they have gained the momentum and our forces are quickly disintegrating."
+ GXW_lost_momentum:0 "Momentum Lost"
+ GXW_lost_momentum_desc:0 "We have been unable to score a quick victory against [GXC.GetNameDef]. Morale is low has they have gained the momentum and our forces are quickly disintegrating."
 
  GXC_better_logistics:0 "Improved Logistics"
- GXC_better_logistics_desc:0 ""
 
  GXC_new_defense_techniques:0 "Modernised Field Fortifications"
- GXC_new_defense_techniques_desc:0 ""
 
  GXC_HK_tooling_help:0 "Hong Kong Technical Experts"
- GXC_HK_tooling_help_desc:0 ""
 
  GXC_improved_officers:0 "Modernised Officer Corps"
- GXC_improved_officers_desc:0 ""
 
  GXC_integrated_militia:0 "Integrated Militia"
- GXC_integrated_militia_desc:0 ""
 
  GXC_improved_provincial_armies:0 "Improved Provincial Armies"
- GXC_improved_provincial_armies_desc:0 ""
 
  GXC_reformed_minjun:0 "Reformed Minjun"
- GXC_reformed_minjun_desc:0 ""
 
  GXC_guofangjun:0 "Guofangjun"
  GXC_guofangjun_desc:0 "The National Defence Army, Guofangjun, stands ready to defend the Federal Republic against warlords, monarchists, and party-dictators."
 
  GXC_southern_defense_force:0 "Liangguang Defence Force"
- GXC_southern_defense_force_desc:0 ""
 
  GXC_iron_army_legacy:0 "Iron Army's Legacy"
- GXC_iron_army_legacy_desc:0 ""
 
  GXC_NRA_idea:0 "Liangguang's National Revolutionary Army"
- GXC_NRA_idea_desc:0 ""
 
  GXC_french_advisors_idea:0 "French Advisors"
- GXC_french_advisors_idea_desc:0 ""
 
  GXC_federalist_support_-3:0 "Non-Existent Popular Support"
  GXC_federalist_support_-3_desc:0 "The Federalist Government is currently a laughing stock. It has no legitimacy in the eyes of the Chinese people and the rival governments see us as mere upstarts. We will have to work very hard to win the people over to our cause."
@@ -740,7 +679,7 @@
  GXC_Land_to_the_Tiller_desc:0 "Land reform has been central to the Public Interest Party's platform, but has encountered serious opposition from the very beginning. Still, the \"Land to the Tiller\" program must be resumed in order to help the peasantry organise itself and participate in democracy instead of remaining poor, vulnerable to the whims of landowners."
 
  GXC_Promote_Self_Organization:0 "Promote Self-Organisation"
- GXC_Promote_Self_Organization_desc:0 "Self-Organisation is one of the core tenets of Chen Jiongming's ideology. Democracy is not possible if the people isn't free, and the people cannot be free if they aren't politically self-ruling and economically independent. The key to democracy in China will be to organise the people to be able to fight corruption and authoritarianism."
+ GXC_Promote_Self_Organization_desc:0 "Self-Organisation is one of the core tenets of Chen Jiongming's ideology. Democracy is not possible if the people aren't free, and the people cannot be free if they aren't politically self-ruling and economically independent. The key to democracy in China will be to organise the people to be able to fight corruption and authoritarianism."
 
  GXC_Enlightened_Gentry_Dominance:0 "Enlightened Gentry Dominance"
  GXC_Enlightened_Gentry_Dominance_desc:0 "Landowners dominate the rural counties of Liangguang and have serious influence in the Provincial Assembly. Their support has been essential thus far, and it would be unwise to betray them as they have been cooperative from the start and even willing to accept moderate reforms. This will not be a popular move among reformers, however."
@@ -963,7 +902,7 @@
  GXC_revive_china_desc:0 "Without the Nationalist Party, there will be no new China. A vast program of extensive state planning and initiatives is necessary to bring China back up to the same level as the West."
 
  GXC_national_reconstruction_commission:0 "National Reconstruction Commission"
- GXC_national_reconstruction_commission_desc:0 "Inspired by proposals drafted by Zhang Renjie, a centrally-directed National Reconstruction Commission should be formed by the Nationalist Government to plan a nationwide program of capital investments and standardisations. This program will involve multiple independently-scaling efforts centred around several major population centers."
+ GXC_national_reconstruction_commission_desc:0 "Inspired by proposals drafted by Zhang Renjie, a centrally-directed National Reconstruction Commission should be formed by the Nationalist Government to plan a nationwide program of capital investments and standardisations. This program will involve multiple independently-scaling efforts centred around several major population centres."
 
  GXC_first_industrialization:0 "First Industrialisation Phase"
  GXC_first_industrialization_desc:0 "The first planned phase of industrialisation for each base region will involve expanding the infrastructural capacity and heavy industries needed for future construction."
@@ -987,7 +926,7 @@
  GXC_appoint_premier_desc:0 "The Generalissimo cannot rule alone. As a military man, Li Zongren has limited legitimacy and appeal despite his massive popularity. Thus, he wants to appoint a Premier to lead the civilian government with the objective of promoting stability and his loyalty to Sun Yat-sen's ideals."
 
  GXC_national_mausoleum:0 "Build the National Mausoleum"
- GXC_national_mausoleum_desc:0 "It is long past due to honour those who have fallen in service of Chinese Democracy. A national mausoleum will be constructed outside of [Root.Capital.GetName] to house the remains of Sun Yat-Sen, Chiang Kai-Shek, and other prominent revolutionaries."
+ GXC_national_mausoleum_desc:0 "It is long past due to honour those who have fallen in service of Chinese Democracy. A national mausoleum will be constructed outside of [Root.Capital.GetCapitalVictoryPointName] to house the remains of Sun Yat-Sen, Chiang Kai-Shek, and other prominent revolutionaries."
 
  GXC_organic_law:0 "Organic Law of the Republic"
  GXC_organic_law_desc:0 "While Political Tutelage continues and the final Constitution is drafted, the Organic Law of the National Government has been promulgated. This act reorganised the National Government into five branches, or Yuan, and reinforced the Kuomintang's exercise of sovereign power for the duration of Political Tutelage."
@@ -1334,7 +1273,7 @@
  lngraids.7.b:0 "Send a large expedition."
 
  lngraids.8.t:0 "Raiding the German Concessions"
- lngraids.8.d:0 "The blatantly-illegal consessions of the AOG are a great target for our raiders: The locals hate them, they have quality equipment for us to seize, and their defence forces are spread thin and unreliable. Raiding them is not only justified, but righteous."
+ lngraids.8.d:0 "The blatantly-illegal concessions of the AOG are a great target for our raiders: The locals hate them, they have quality equipment for us to seize, and their defence forces are spread thin and unreliable. Raiding them is not only justified, but righteous."
  lngraids.8.a:0 "Send a small expedition."
  lngraids.8.b:0 "Send a large expedition."
 
@@ -1381,8 +1320,8 @@
  lngkmt.3.d:0 "[FROM.GetName] submitted to our pressure. His armies will be integrated into the NRA and [FROM.GetNameDef] will be under the supervision of the Central Committee."
  lngkmt.3.a:0 "Unexpected, but welcome."
 
- lngkmt.4.t:0 "Li Zongren Proclaims a New Republic"
- lngkmt.4.d:0 "With the Leftists on the run and Li Zongren having taken control of the Kuomintang Central Committee, the expected proclamation arrived today: A new Republic of China is founded, with the National Revolutionary Army once more taking leadership of Sun Yat-sen's legacy and National Revolution. It will be an uphill battle, but it is the last hope for the Nationalists to claim victory from the jaws of defeat and free China."
+ lngkmt.4.t:0 "Li Zongren Proclaims a New National Government"
+ lngkmt.4.d:0 "With the Leftists on the run and Li Zongren having taken control of the Kuomintang Central Committee, the expected proclamation arrived today: A new Republic of China is to be founded, with the National Revolutionary Army once more taking leadership of Sun Yat-sen's legacy and National Revolution. It will be an uphill battle, but it is the last hope for the Nationalists to claim victory from the jaws of defeat and free China."
  lngkmt.4.a:0 "Long Live China!"
 
  lngkmt.5.t:0 "Guangdong Elites Protest"
@@ -1441,33 +1380,47 @@
  lngkmt.16.a:0 "Excellent!"
 
  lngkmt.19.t:0 "Status of the Temples in Guangdong"
- lngkmt.19.d:0 "A famous story amongst the schoolchildren of Guangdong is how Sun Yat-Sen vandalised an image of the patron deity of his hometown in Xingshan county. Yet as the Federalists and Nationalists bicker over the status and regime of Guangdong, the question of religion persists. Proponents of both governments are eager to move away from the imperial past as deity worship would serve to integrate state and society.\n Modern concepts such as evolution and rationalism have indeed entered Guangdong society, and there is no doubt that much of the city’s administration believes that Guangdong should take its place as a “model province” - one that displays modernity and westernisation in comparison to the backward cities of the warlords and the Qing. But temples and religious rituals have been a part of Chinese traditions for centuries, and the outward removal of such would undoubtedly spark dissent among the local population. In imperial China, the city god played an essential role in urban administration - the city god was considered a co-ruler of the city. For example, in Guangzhou, officials made their way to the City God Temple to invoke blessings such as rain or protection from ghosts.\n But for the Federalists and the Kuomintang, the jointly ruled cities are a fabrication of the past, a physical depiction of the backwardness that has plagued China into a century of humiliation. To the modernists, the temples are a place of ignorance and disorder - the “old China” that must be destroyed. However, for the ordinary people of China, these temples carry a significant meaning of cultural and religious pride and significance. Businesses such as fortune-telling are held here, and even disputes are mediated by the city god. The temple was the center of community life, and to simply eradicate them would undoubtedly earn the wrath of the populace."
+ lngkmt.19.d:0 "A famous story amongst the schoolchildren of Guangdong is how Sun Yat-Sen vandalised an image of the patron deity of his hometown in Xiangshan county. Yet as the Federalists and Nationalists bicker over the status and regime of Guangdong, the question of religion persists. Proponents of both governments are eager to move away from the imperial past as deity worship would serve to integrate state and society.\n\nModern concepts such as evolution and rationalism have indeed entered Guangdong society, and there is no doubt that much of the city’s administration believes that Guangdong should take its place as a “model province” - one that displays modernity and westernisation in comparison to the backward cities of the warlords and the Qing. But temples and religious rituals have been a part of Chinese traditions for centuries, and the outward removal of such would undoubtedly spark dissent among the local population. In imperial China, the city god played an essential role in urban administration - the city god was considered a co-ruler of the city. For example, in Guangzhou, officials made their way to the City God Temple to invoke blessings such as rain or protection from ghosts.\n\nBut for the Federalists and the Kuomintang, the jointly ruled cities are a fabrication of the past, a physical depiction of the backwardness that has plagued China into a century of humiliation. To the modernists, the temples are a place of ignorance and disorder - the “old China” that must be destroyed. However, for the ordinary people of China, these temples carry a significant meaning of cultural and religious pride and significance. Businesses such as fortune-telling are held here, and even disputes are mediated by the city god. The temple was the centre of community life, and to simply eradicate them would undoubtedly earn the wrath of the populace."
  lngkmt.19.a:0 "Out with the Old!"
  lngkmt.19.b:0 "We are not going to destroy our own temples!"
 
  lngkmt.20.t:0 "The Opium Dens of Guangzhou"
- lngkmt.20.d:0 "The stench of opium permeates throughout all of China, the cursed plant that has brought nothing but an addiction. While not as prevalent as in other parts of China, opium has perverted itself into Guangdong society and culture. Often depicted as dank halls of infamy, the reality is that the opium houses of Guangzhou are pretty fashionable - clean and nice-looking buildings for the elite to partake in. From the lowest of the coolie to the elite, opium smoking is a popular socialite pastime in Guangdong. Considered premier entertainment venues, the 500+ opium houses are undoubtedly a part of the fabric that makes up Guangzhou. Opium houses ranged from shady dens to the high-class “Gaodeng tanhuaguan” fitted with modern amenities such as radios, heaters, and electric fans.\n\n The sale of raw opium and permits of possession of opium constitutes a form of indispensable revenue for Guangzhou. As the [old_controller.GetAdjective]regime solidifies their control of Guangzhou; they will be in control of the opium houses. And yet, despite the profit and temptation, opium certainly has its enemies. Anti opium organizations such as the Woman’s Anti Drug Association and the Guangzhou branch of the National Anti-Opium Association clamour to eradicate the drug that has had China hooked. Suppression of the houses would certainly spark dissent but would be the first step in defeating the menace; however, keeping the houses would earn provide us with a great source of income..."
+ lngkmt.20.d:0 "The stench of opium permeates throughout all of China, the cursed plant that has brought nothing but an addiction. While not as prevalent as in other parts of China, opium has perverted itself into Guangdong society and culture. Often depicted as dank halls of infamy, the reality is that the opium houses of Guangzhou are pretty fashionable - clean and nice-looking buildings for the elite to partake in. From the lowest of the coolie to the elite, opium smoking is a popular socialite pastime in Guangdong. Considered premier entertainment venues, the 500+ opium houses are undoubtedly a part of the fabric that makes up Guangzhou. Opium houses ranged from shady dens to the high-class “Gaodeng tanhuaguan” fitted with modern amenities such as radios, heaters, and electric fans.\n\nThe sale of raw opium and permits of possession of opium constitutes a form of indispensable revenue for Guangzhou. As the [old_controller.GetAdjective]regime solidifies their control of Guangzhou; they will be in control of the opium houses. And yet, despite the profit and temptation, opium certainly has its enemies. Anti opium organisations such as the Woman’s Anti Drug Association and the Guangzhou branch of the National Anti-Opium Association clamour to eradicate the drug that has had China hooked. Suppression of the houses would certainly spark dissent but would be the first step in defeating the menace; however, keeping the houses would earn provide us with a great source of income..."
  lngkmt.20.a:0 "We will not have this poison in our city!"
  lngkmt.20.b:0 "Leave them alone, we need the funds."
 
  lngkmt.21.t:0 "Chinese High Tea"
- lngkmt.21.d:0 "The concept of Dim Sum originates in Guangdong province as a popular form of breakfast or lunch. Dim sum refers to small dishes that “lightly touch your heart without filling your stomach,” while “yum cha” is the practice of drinking tea. Arriving in China during the Song Dynasty, the practice of dim sum has incorporated influences from not just China but also around the world. Up until the 1920s, however, the practice of yum cha and consuming dim sum was only a privilege allocated to the elite and wealthy. Customers to high-end pavilions would inspect tea leaves to verify their temperature and quality to dine in privacy and comfort.\n\n However, nowadays, the practice of dim sum has extended to people with average incomes, students, and government employees. Indeed Guangzhou’s teahouse culture has led to the creation of chefs with celebrity-like status and thus heavy competition between teahouses. New varieties of dim sum are being invented almost daily - influenced heavily by the tea pastry dishes of Shanghai, Beijing, and the West. However, as the situation in China continues to become unstable and war more frequent, more and more chefs are taking their culinary expertise to nearby Hong Kong. Nonetheless, the ancient practice of dim sum will undoubtedly continue to carry on, a true form of cultural pride and significance for the Cantonese people."
+ lngkmt.21.d:0 "The concept of Dim Sum originates in Guangdong province as a popular form of breakfast or lunch. Dim sum refers to small dishes that “lightly touch your heart without filling your stomach,” while “yum cha” is the practice of drinking tea. Arriving in China during the Song Dynasty, the practice of dim sum has incorporated influences from not just China but also around the world. Up until the 1920s, however, the practice of yum cha and consuming dim sum was only a privilege allocated to the elite and wealthy. Customers to high-end pavilions would inspect tea leaves to verify their temperature and quality to dine in privacy and comfort.\n\nHowever, nowadays, the practice of dim sum has extended to people with average incomes, students, and government employees. Indeed Guangzhou’s teahouse culture has led to the creation of chefs with celebrity-like status and thus heavy competition between teahouses. New varieties of dim sum are being invented almost daily - influenced heavily by the tea pastry dishes of Shanghai, Beijing, and the West. However, as the situation in China continues to become unstable and war more frequent, more and more chefs are taking their culinary expertise to nearby Hong Kong. Nonetheless, the ancient practice of dim sum will undoubtedly continue to carry on, a true form of cultural pride and significance for the Cantonese people."
  lngkmt.21.a:0 "Let's Eat!"
 
  lngkmt.22.t:0 "Remembering the Martyrs"
- lngkmt.22.d:0 "Guangdong...the cradle of the revolution. Ever since the collapse of the Ming Dynasty, dissent towards the Manchu rulers of the north has been ever so prevalent in the southernmost province of China. Guangdong is indeed the birthplace of the national revolution. The martyrs of the revolution were born in Guangdong such as the 72 martyrs who gave their lives in the Second Guangzhou Uprising to get rid of the Qing. Like a suicide squad, they wrote letters to their loved ones before they carried out their fateful activities. Indeed the spirit of martyrdom would be carried on in the Dare to Die Corps, patriots willing to give their lives for a freer China in the subsequent revolution of 1911 and the Northern Expedition. With the return of the Qing, the sacrifices of the martyrs were indeed put into question. Were their sacrifices in vain?\n\n No more. With the return of a republican government in Guangzhou however, this has changed. Like the mythical phoenix, the movement towards a free China is born again! We have regrouped and are more invigorated to avenge our fallen brothers and to rid ourselves of the pollution that is the Qing Dynasty. We will avenge our brothers and undertake a new expedition to the north. The martyrs will be glorified and remembered in statues and prose from all over China. With our position secured, we will plan, we will practice, and we will be ready to depose the Qing despots once and for all."
+ lngkmt.22.d:0 "Guangdong...the cradle of the revolution. Ever since the collapse of the Ming Dynasty, dissent towards the Manchu rulers of the north has been ever so prevalent in the southernmost province of China. Guangdong is indeed the birthplace of the national revolution. The martyrs of the revolution were born in Guangdong such as the 72 martyrs who gave their lives in the Second Guangzhou Uprising to get rid of the Qing. Like a suicide squad, they wrote letters to their loved ones before they carried out their fateful activities. Indeed the spirit of martyrdom would be carried on in the Dare to Die Corps, patriots willing to give their lives for a freer China in the subsequent revolution of 1911 and the Northern Expedition. With the return of the Qing, the sacrifices of the martyrs were indeed put into question. Were their sacrifices in vain?\n\nNo more. With the return of a republican government in Guangzhou however, this has changed. Like the mythical phoenix, the movement towards a free China is born again! We have regrouped and are more invigorated to avenge our fallen brothers and to rid ourselves of the pollution that is the Qing Dynasty. We will avenge our brothers and undertake a new expedition to the north. The martyrs will be glorified and remembered in statues and prose from all over China. With our position secured, we will plan, we will practice, and we will be ready to depose the Qing despots once and for all."
  lngkmt.22.a:0 "Fan Qīng fù Míng!"
 
 ### Cosmetic Tags ###
- GXC_republican_totalist:0 "Liangguang"
- GXC_republican_totalist_ADJ:0 "Liangguang"
- GXC_republican_totalist_DEF:0 "Liangguang"
- GXC_republican_syndicalist:0 "Liangguang"
- GXC_republican_syndicalist_ADJ:0 "Liangguang"
- GXC_republican_syndicalist_DEF:0 "Liangguang"
- GXC_republican_radical_socialist:0 "Liangguang"
- GXC_republican_radical_socialist_ADJ:0 "Liangguang"
- GXC_republican_radical_socialist_DEF:0 "Liangguang"
+ GXC:0 "Liangguang"
+ GXC_ADJ:0 "Liangguang"
+ GXC_DEF:0 "Liangguang"
+
+ GXC_social_democrat:0 "Liangguang Clique"
+ GXC_social_democrat_ADJ:0 "Liangguang"
+ GXC_social_democrat_DEF:0 "the Liangguang Clique"
+ GXC_social_liberal:0 "Liangguang Clique"
+ GXC_social_liberal_ADJ:0 "Liangguang"
+ GXC_social_liberal_DEF:0 "the Liangguang Clique"
+ GXC_market_liberal:0 "Liangguang Clique"
+ GXC_market_liberal_ADJ:0 "Liangguang"
+ GXC_market_liberal_DEF:0 "the Liangguang Clique"
+ GXC_social_conservative:0 "Liangguang Clique"
+ GXC_social_conservative_ADJ:0 "Liangguang"
+ GXC_social_conservative_DEF:0 "the Liangguang Clique"
+ GXC_authoritarian_democrat:0 "Liangguang Military Government"
+ GXC_authoritarian_democrat_ADJ:0 "Liangguang"
+ GXC_authoritarian_democrat_DEF:0 "the Liangguang Military Government"
+ GXC_paternal_autocrat:0 "Guangxi Clique"
+ GXC_paternal_autocrat_ADJ:0 "Guangxi"
+ GXC_paternal_autocrat_DEF:0 "the Guangxi Clique"
+
  GXC_republican_social_democrat:0 "Liangguang People's Government"
  GXC_republican_social_democrat_ADJ:0 "Liangguang"
  GXC_republican_social_democrat_DEF:0 "the Liangguang People's Government"
@@ -1486,19 +1439,11 @@
  GXC_republican_paternal_autocrat:0 "Guangxi Clique"
  GXC_republican_paternal_autocrat_ADJ:0 "Guangxi"
  GXC_republican_paternal_autocrat_DEF:0 "the Guangxi Clique"
- GXC_republican_national_populist:0 "Liangguang"
- GXC_republican_national_populist_ADJ:0 "Liangguang"
- GXC_republican_national_populist_DEF:0 "Liangguang"
 
- GXC_Guangdong_republican_totalist:0 "Guangdong"
- GXC_Guangdong_republican_totalist_ADJ:0 "Guangdong"
- GXC_Guangdong_republican_totalist_DEF:0 "Guangdong"
- GXC_Guangdong_republican_syndicalist:0 "Guangdong"
- GXC_Guangdong_republican_syndicalist_ADJ:0 "Guangdong"
- GXC_Guangdong_republican_syndicalist_DEF:0 "Guangdong"
- GXC_Guangdong_republican_radical_socialist:0 "Guangdong"
- GXC_Guangdong_republican_radical_socialist_ADJ:0 "Guangdong"
- GXC_Guangdong_republican_radical_socialist_DEF:0 "Guangdong"
+ GXC_Guangdong_republican:0 "Guangdong"
+ GXC_Guangdong_republican_ADJ:0 "Guangdong"
+ GXC_Guangdong_republican_DEF:0 "Guangdong"
+
  GXC_Guangdong_republican_social_democrat:0 "Guangdong People's Government"
  GXC_Guangdong_republican_social_democrat_ADJ:0 "Guangdong"
  GXC_Guangdong_republican_social_democrat_DEF:0 "the Guangdong People's Government"
@@ -1514,22 +1459,14 @@
  GXC_Guangdong_republican_authoritarian_democrat:0 "Guangdong Military Government"
  GXC_Guangdong_republican_authoritarian_democrat_ADJ:0 "Guangdong"
  GXC_Guangdong_republican_authoritarian_democrat_DEF:0 "the Guangdong Military Government"
- GXC_Guangdong_republican_paternal_autocrat:0 "Guangxi Clique"
- GXC_Guangdong_republican_paternal_autocrat_ADJ:0 "Guangxi"
- GXC_Guangdong_republican_paternal_autocrat_DEF:0 "the Guangxi Clique"
- GXC_Guangdong_republican_national_populist:0 "Guangdong"
- GXC_Guangdong_republican_national_populist_ADJ:0 "Guangdong"
- GXC_Guangdong_republican_national_populist_DEF:0 "Guangdong"
+ GXC_Guangdong_republican_paternal_autocrat:0 "Guangdong Clique"
+ GXC_Guangdong_republican_paternal_autocrat_ADJ:0 "Guangdong"
+ GXC_Guangdong_republican_paternal_autocrat_DEF:0 "the Guangdong Clique"
 
- GXC_Guangdong_totalist:0 "Guangdong"
- GXC_Guangdong_totalist_ADJ:0 "Guangdong"
- GXC_Guangdong_totalist_DEF:0 "Guangdong"
- GXC_Guangdong_syndicalist:0 "Guangdong"
- GXC_Guangdong_syndicalist_ADJ:0 "Guangdong"
- GXC_Guangdong_syndicalist_DEF:0 "Guangdong"
- GXC_Guangdong_radical_socialist:0 "Guangdong"
- GXC_Guangdong_radical_socialist_ADJ:0 "Guangdong"
- GXC_Guangdong_radical_socialist_DEF:0 "Guangdong"
+ GXC_Guangdong: "Guangdong"
+ GXC_Guangdong_ADJ:0 "Guangdong"
+ GXC_Guangdong_DEF:0 "Guangdong"
+
  GXC_Guangdong_social_democrat:0 "Guangdong Clique"
  GXC_Guangdong_social_democrat_ADJ:0 "Guangdong"
  GXC_Guangdong_social_democrat_DEF:0 "the Guangdong Clique"
@@ -1548,19 +1485,11 @@
  GXC_Guangdong_paternal_autocrat:0 "Guangdong Clique"
  GXC_Guangdong_paternal_autocrat_ADJ:0 "Guangdong"
  GXC_Guangdong_paternal_autocrat_DEF:0 "the Guangdong Clique"
- GXC_Guangdong_national_populist:0 "Guangdong"
- GXC_Guangdong_national_populist_ADJ:0 "Guangdong"
- GXC_Guangdong_national_populist_DEF:0 "Guangdong"
 
- GXC_Guangxi_totalist:0 "Guangxi"
- GXC_Guangxi_totalist_ADJ:0 "Guangxi"
- GXC_Guangxi_totalist_DEF:0 "Guangxi"
- GXC_Guangxi_syndicalist:0 "Guangxi"
- GXC_Guangxi_syndicalist_ADJ:0 "Guangxi"
- GXC_Guangxi_syndicalist_DEF:0 "Guangxi"
- GXC_Guangxi_radical_socialist:0 "Guangxi"
- GXC_Guangxi_radical_socialist_ADJ:0 "Guangxi"
- GXC_Guangxi_radical_socialist_DEF:0 "Guangxi"
+ GXC_Guangxi:0 "Guangxi"
+ GXC_Guangxi_ADJ:0 "Guangxi"
+ GXC_Guangxi_DEF:0 "Guangxi"
+
  GXC_Guangxi_social_democrat:0 "Guangxi Clique"
  GXC_Guangxi_social_democrat_ADJ:0 "Guangxi"
  GXC_Guangxi_social_democrat_DEF:0 "the Guangxi Clique"
@@ -1579,9 +1508,6 @@
  GXC_Guangxi_paternal_autocrat:0 "Guangxi Clique"
  GXC_Guangxi_paternal_autocrat_ADJ:0 "Guangxi"
  GXC_Guangxi_paternal_autocrat_DEF:0 "the Guangxi Clique"
- GXC_Guangxi_national_populist:0 "Guangxi"
- GXC_Guangxi_national_populist_ADJ:0 "Guangxi"
- GXC_Guangxi_national_populist_DEF:0 "Guangxi"
 
  GXC_government_totalist:0 "Guangzhou Federal Government"
  GXC_government_totalist_ADJ:0 "Liangguang"
@@ -1616,63 +1542,90 @@
 
  GXC_KMT_totalist:0 "Guangdong Autonomy"
  GXC_KMT_totalist_ADJ:0 "Guangdong Autonomy"
- GXC_KMT_totalist_DEF:0 "Guangdong Autonomy"
+ GXC_KMT_totalist_DEF:0 "the Guangdong Autonomy"
  GXC_KMT_syndicalist:0 "Guangdong Autonomy"
  GXC_KMT_syndicalist_ADJ:0 "Guangdong Autonomy"
- GXC_KMT_syndicalist_DEF:0 "Guangdong Autonomy"
+ GXC_KMT_syndicalist_DEF:0 "the Guangdong Autonomy"
  GXC_KMT_radical_socialist:0 "Guangdong Autonomy"
  GXC_KMT_radical_socialist_ADJ:0 "Guangdong Autonomy"
- GXC_KMT_radical_socialist_DEF:0 "Guangdong Autonomy"
+ GXC_KMT_radical_socialist_DEF:0 "the Guangdong Autonomy"
  GXC_KMT_social_democrat:0 "Guangdong Autonomy"
  GXC_KMT_social_democrat_ADJ:0 "Guangdong Autonomy"
- GXC_KMT_social_democrat_DEF:0 "Guangdong Autonomy"
+ GXC_KMT_social_democrat_DEF:0 "the Guangdong Autonomy"
  GXC_KMT_social_liberal:0 "Guangdong Autonomy"
  GXC_KMT_social_liberal_ADJ:0 "Guangdong Autonomy"
- GXC_KMT_social_liberal_DEF:0 "Guangdong Autonomy"
+ GXC_KMT_social_liberal_DEF:0 "the Guangdong Autonomy"
  GXC_KMT_market_liberal:0 "Guangdong Autonomy"
  GXC_KMT_market_liberal_ADJ:0 "Guangdong Autonomy"
- GXC_KMT_market_liberal_DEF:0 "Guangdong Autonomy"
+ GXC_KMT_market_liberal_DEF:0 "the Guangdong Autonomy"
  GXC_KMT_social_conservative:0 "Guangdong Autonomy"
  GXC_KMT_social_conservative_ADJ:0 "Guangdong Autonomy"
- GXC_KMT_social_conservative_DEF:0 "Guangdong Autonomy"
+ GXC_KMT_social_conservative_DEF:0 "the Guangdong Autonomy"
  GXC_KMT_authoritarian_democrat:0 "Guangdong Autonomy"
  GXC_KMT_authoritarian_democrat_ADJ:0 "Guangdong Autonomy"
- GXC_KMT_authoritarian_democrat_DEF:0 "Guangdong Autonomy"
+ GXC_KMT_authoritarian_democrat_DEF:0 "the Guangdong Autonomy"
  GXC_KMT_paternal_autocrat:0 "Guangdong Autonomy"
  GXC_KMT_paternal_autocrat_ADJ:0 "Guangdong Autonomy"
- GXC_KMT_paternal_autocrat_DEF:0 "Guangdong Autonomy"
+ GXC_KMT_paternal_autocrat_DEF:0 "the Guangdong Autonomy"
  GXC_KMT_national_populist:0 "Guangdong Autonomy"
  GXC_KMT_national_populist_ADJ:0 "Guangdong Autonomy"
- GXC_KMT_national_populist_DEF:0 "Guangdong Autonomy"
+ GXC_KMT_national_populist_DEF:0 "the Guangdong Autonomy"
 
  GXC_KMT_guangxi_totalist:0 "Guangxi Autonomy"
  GXC_KMT_guangxi_totalist_ADJ:0 "Guangxi Autonomy"
- GXC_KMT_guangxi_totalist_DEF:0 "Guangxi Autonomy"
+ GXC_KMT_guangxi_totalist_DEF:0 "the Guangxi Autonomy"
  GXC_KMT_guangxi_syndicalist:0 "Guangxi Autonomy"
  GXC_KMT_guangxi_syndicalist_ADJ:0 "Guangxi Autonomy"
- GXC_KMT_guangxi_syndicalist_DEF:0 "Guangxi Autonomy"
+ GXC_KMT_guangxi_syndicalist_DEF:0 "the Guangxi Autonomy"
  GXC_KMT_guangxi_radical_socialist:0 "Guangxi Autonomy"
  GXC_KMT_guangxi_radical_socialist_ADJ:0 "Guangxi Autonomy"
- GXC_KMT_guangxi_radical_socialist_DEF:0 "Guangxi Autonomy"
+ GXC_KMT_guangxi_radical_socialist_DEF:0 "the Guangxi Autonomy"
  GXC_KMT_guangxi_social_democrat:0 "Guangxi Autonomy"
  GXC_KMT_guangxi_social_democrat_ADJ:0 "Guangxi Autonomy"
- GXC_KMT_guangxi_social_democrat_DEF:0 "Guangxi Autonomy"
+ GXC_KMT_guangxi_social_democrat_DEF:0 "the Guangxi Autonomy"
  GXC_KMT_guangxi_social_liberal:0 "Guangxi Autonomy"
  GXC_KMT_guangxi_social_liberal_ADJ:0 "Guangxi Autonomy"
- GXC_KMT_guangxi_social_liberal_DEF:0 "Guangxi Autonomy"
+ GXC_KMT_guangxi_social_liberal_DEF:0 "the Guangxi Autonomy"
  GXC_KMT_guangxi_market_liberal:0 "Guangxi Autonomy"
  GXC_KMT_guangxi_market_liberal_ADJ:0 "Guangxi Autonomy"
- GXC_KMT_guangxi_market_liberal_DEF:0 "Guangxi Autonomy"
+ GXC_KMT_guangxi_market_liberal_DEF:0 "the Guangxi Autonomy"
  GXC_KMT_guangxi_social_conservative:0 "Guangxi Autonomy"
  GXC_KMT_guangxi_social_conservative_ADJ:0 "Guangxi Autonomy"
- GXC_KMT_guangxi_social_conservative_DEF:0 "Guangxi Autonomy"
+ GXC_KMT_guangxi_social_conservative_DEF:0 "the Guangxi Autonomy"
  GXC_KMT_guangxi_authoritarian_democrat:0 "Guangxi Autonomy"
  GXC_KMT_guangxi_authoritarian_democrat_ADJ:0 "Guangxi Autonomy"
- GXC_KMT_guangxi_authoritarian_democrat_DEF:0 "Guangxi Autonomy"
+ GXC_KMT_guangxi_authoritarian_democrat_DEF:0 "the Guangxi Autonomy"
  GXC_KMT_guangxi_paternal_autocrat:0 "Guangxi Autonomy"
  GXC_KMT_guangxi_paternal_autocrat_ADJ:0 "Guangxi Autonomy"
- GXC_KMT_guangxi_paternal_autocrat_DEF:0 "Guangxi Autonomy"
+ GXC_KMT_guangxi_paternal_autocrat_DEF:0 "the Guangxi Autonomy"
  GXC_KMT_guangxi_national_populist:0 "Guangxi Autonomy"
  GXC_KMT_guangxi_national_populist_ADJ:0 "Guangxi Autonomy"
- GXC_KMT_guangxi_national_populist_DEF:0 "Guangxi Autonomy"
- 
+ GXC_KMT_guangxi_national_populist_DEF:0 "the Guangxi Autonomy"
+
+ PRC:0 "Liangguang"
+ PRC_ADJ:0 "Liangguang"
+ PRC_DEF:0 "Liangguang"
+
+### Characters ###
+ GXC_chen_mingshu:0 "Chen Mingshu"
+ GXC_chen_jiongming:0 "Chen Jiongming"
+ GXC_chen_qiyou:0 "Chen Qiyou"
+ GXC_chen_lianbo:0 "Chen Lianbo"
+ GXC_li_zongren:0 "Li Zongren"
+ GXC_ma_ji:0 "Ma Ji"
+ GXC_chen_jitang:0 "Chen Jitang"
+ GXC_jiang_guangnai:0 "Jiang Guangnai"
+ GXC_lin_hu:0 "Lin Hu"
+ GXC_lu_yuguang:0 "Lu Yuguang"
+ GXC_cai_tingkai:0 "Cai Tingkai"
+ GXC_li_pinxian:0 "Li Pinxian"
+ GXC_zhang_gan:0 "Zhang Gan"
+ GXC_hong_zhaolin:0 "Hong Zhaolin"
+ GXC_huang_qixiang:0 "Huang Qixiang"
+ GXC_liu_fei:0 "Liu Fei"
+ GXC_ye_jianying:0 "Ye Jianying"
+ GXC_ye_ju:0 "Ye Ju"
+ GXC_bai_chongxi:0 "Bai Chongxi"
+ GXC_yu_zuobai:0 "Yu Zuobai"
+ GXC_li_qingwen:0 "Li Qingwen"
+ GXC_chen_ce:0 "Chen Ce"

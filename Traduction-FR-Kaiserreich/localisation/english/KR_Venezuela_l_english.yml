@@ -2,8 +2,32 @@
 
  kleinevenedig_focus:0 "Venezuela Focus Tree"
 
+### Country Names ###
+ VEN:0 "Venezuela"
+ VEN_ADJ:0 "Venezuelan"
+ VEN_DEF:0 "Venezuela"
+
+ VEN_totalist:0 "Socialist Republic of Venezuela"
+ VEN_totalist_ADJ:0 "Venezuelan"
+ VEN_totalist_DEF:0 "the Socialist Republic of Venezuela"
+ VEN_syndicalist:0 "Socialist Republic of Venezuela"
+ VEN_syndicalist_ADJ:0 "Venezuelan"
+ VEN_syndicalist_DEF:0 "the Socialist Republic of Venezuela"
+ VEN_radical_socialist:0 "Socialist Republic of Venezuela"
+ VEN_radical_socialist_ADJ:0 "Venezuelan"
+ VEN_radical_socialist_DEF:0 "the Socialist Republic of Venezuela"
+
 ### Leaders ###
  POLITICS_ROMULO_BETANCOURT_DESC:0 "A young bombastic, but moderate, member of the broad coalition which brought down the dictator Juan Vicente Gómez, Betancourt's election led to a schism in that coalition. Betancourt moves to consolidate the restoration of democracy in Venezuela and move away from dependence on oil for economic growth."
+
+### Companies ###
+ VEN_sivensa:0 "Siderúrgica Venezolana S.A."
+ VEN_cvp:0 "Corporación Venezolana del Petróleo"
+ VEN_cavim:0 "Compañía Anónima Venezolana de Industrias Militares"
+ VEN_dmm:0 "División Metal-mecánica de la CAVIM"
+ VEN_iafe:0 "Instituto Autónomo Ferrocarriles del Estado"
+ VEN_eam:0 "Escuela de Aviación Militar"
+ VEN_env:0 "Escuela Naval de Venezuela"
 
 ### Ideas ###
  VENblackmonday:0 "Black Monday Hits the Oil Wells"
@@ -132,19 +156,16 @@
 
 ### Decisions ###
  VEN_COL_intervention_decisions:0 "Intervention in Colombia"
- VEN_COL_intervention_decisions_desc:0 ""
  VEN_COL_org_exiles:0 "Organise Colombian Exiles"
- VEN_COL_org_exiles_desc:0 ""
  VEN_COL_intervene:0 "Liberate Colombia"
- VEN_COL_intervene_desc:0 ""
 
  VEN_essequibo_decisions:0 "Reclaiming Guayana Esequiba"
  VEN_essequibo_decisions_desc:0 "Ever since the Crisis of 1895, Venezuela and the British Empire (or what's left of it nowadays) dispute the region of Essequibo, currently part of British Guiana. Now that the West Indies Federation is distracted in another war, we have an opportunity to press our legitimate claims on the region."
  VEN_demand_essequibo:0 "Demand Essequibo"
  VEN_demand_essequibo_desc:0 "With the Anglos distracted, we have the chance of a lifetime to reclaim our lost lands west of the Essequibo River."
- VEN_peace_essequibo_start:0 "Sue for Peace with [CAF.GetNameDef]"
+ VEN_peace_essequibo_start:0 "Sue for Peace with [WIF.GetNameDef]"
  VEN_peace_essequibo_start_desc:0 "We have control of all of Guyana, and our war aims are fulfulled. It is time to end this war before the full might of the West Indian alliance is brought to bear on our poor country."
- VEN_peace_essequibo_timer:0 "Sue for Peace with the [CAF.GetNameDef]"
+ VEN_peace_essequibo_timer:0 "Sue for Peace with [WIF.GetNameDef]"
  VEN_peace_essequibo_timer_desc:0 "We have control of all of Guyana, and our war aims are fulfulled. It is time to end this war before the full might of the West Indian alliance is brought to bear on our poor country."
 
  VEN_GCL_decisions:0 "The Bolivarian Dream"
@@ -161,8 +182,8 @@
  VEN_secure_cauca_desc:0 "The southern half of the Pacific region, mainly the Department of Cauca, is dominated by the Andes, and we all know how easy it is to hide in them."
  VEN_secure_amazonia:0 "Securing Amazonía"
  VEN_secure_amazonia_desc:0 "Amazonía is, obviously, covered in tropical rainforest. This is exceedingly difficult terrain and securing the region will test our proficiency in jungle warfare."
- VEN_bolivars_boner:0 "Proclaim Gran Colombia"
- VEN_bolivars_boner_desc:0 "While the Republic of Colombia may have failed to maintain Bolívar's dream of a unified Spanish America, we have succeeded in restoring his legacy. We are creating something bigger, learning from a century of mistakes: Great Colombia."
+ VEN_proclaim_gran_columbia:0 "Proclaim Gran Colombia"
+ VEN_proclaim_gran_columbia_desc:0 "While the Republic of Colombia may have failed to maintain Bolívar's dream of a unified Spanish America, we have succeeded in restoring his legacy. We are creating something bigger, learning from a century of mistakes: Great Colombia."
 
  VEN_oil_decisions:0 "Dealing with the Foreign Oil Companies"
  VEN_oil_decisions_desc:0 "The vast majority of Venezuela's petroleum industry is in the hands of foreign companies such as Shell and the successors of Standard Oil. Their influence in the country is vast and is both good and detrimental to our economy, but we might be able to limit the negatives by acquiring a greater share in those companies... Or, we could simply seize them should the opportunity present itself."
@@ -171,7 +192,7 @@
  VEN_oil_USA_seize:0 "Seize Yanqui Assets!"
  VEN_oil_USA_seize_desc:0 "Now that the Yanqui are busy shooting at each other for idiotic reasons, we have a great opportunity to... acquire a number of assets owned by American oil companies should they refuse to play by our new rules. This will surely anger the USA, but what can they do?"
  VEN_oil_HOL_buy:0 "Shares in local Shell Assets"
- VEN_oil_HOL_buy_desc:0 "Royal Dutch Shell was one of the first companies to acquire consessions in Venezuela. Now that our economy can sustain such an operation, we can acquire a larger share of the so-called Shell de Venezuela, reducing the power of the Dutch company in the country."
+ VEN_oil_HOL_buy_desc:0 "Royal Dutch Shell was one of the first companies to acquire concessions in Venezuela. Now that our economy can sustain such an operation, we can acquire a larger share of the so-called Shell de Venezuela, reducing the power of the Dutch company in the country."
  VEN_oil_HOL_seize:0 "Seize Shell Assets!"
  VEN_oil_HOL_seize_desc:0 "With a syndicalist revolution under way in the Netherlands, we have a chance to seize Shell's assets in the country and reduce their power and influence in Venezuela. The Dutch certainly can't stop us now."
 
@@ -389,11 +410,11 @@
  VEN_study_foreign_designs:0 "Study Foreign Designs"
  VEN_study_foreign_designs_desc:0 "Since we have a number of foreign aircraft designs in our inventory, we should study them thoroughly, which will help our own engineers improve in the field of aeronautics. Hopefully, this will help us start our own aviation industry."
  VEN_local_air_production:0 "Local Air Production"
- VEN_local_air_production_desc:0 "Now that we have a decent number of foreign aircrafts in service and good experience using and maintaining them, we are able to start producing military planes of our own. This is hopefully the birth of a great aircraft manufacturing industry."
+ VEN_local_air_production_desc:0 "Now that we have a decent number of foreign aircraft in service and good experience using and maintaining them, we are able to start producing military planes of our own. This is hopefully the birth of a great aircraft manufacturing industry."
  VEN_domestic_fighter:0 "Domestic Fighter Design"
  VEN_domestic_fighter_desc:0 "With talented engineers being hired by local aircraft producers, we can begin the ambitious project of designing a fighter aircraft of our own. This completely native design should allow us to independently develop our own air force while limiting imports."
  VEN_domestic_bomber:0 "Local Bomber Design"
- VEN_domestic_bomber_desc:0 "Bomber aircrafts have proven to be versatile in modern war. Producing one locally has many advantages, even if it is a costly endeavour, reducing our dependence on foreign arms imports and stimulating the military industry."
+ VEN_domestic_bomber_desc:0 "Bomber aircraft have proven to be versatile in modern war. Producing one locally has many advantages, even if it is a costly endeavour, reducing our dependence on foreign arms imports and stimulating the military industry."
  VEN_domestic_NAV:0 "Venezuelan Naval Bomber"
  VEN_domestic_NAV_desc:0 "Considering the long coastline Venezuela has, a naval bomber is essential to defend our country. Making one of our own will be an interesting endeavour, but hopefully one that our nascent aviation industry can handle."
 
@@ -494,7 +515,7 @@
  ven.15.d.a:0 "The aviation industry in Venezuela is practically non-existent, but aircraft have been already proven to be an integral part of modern warfare. The Germans and the United States, if stability has returned there, should have enough surplus aircraft to sell to us at a cheap price, letting us outfit our nascent air force and study their designs."
  ven.15.d.b:0 "Our first choice for surplus aircraft is unable to provide us with the equipment we requested. Thankfully, we have an alternative to fall back to and we can only hope that they will prove more willing than the first."
  ven.15.d.c:0 "It appears that we have ran out of options as the main players in the aeronautics industry are either unavailable to us or unwilling to spare us surplus aircraft. We will have to figure out another way to get new aircraft for our air force and to jump-start out own industry with limited help."
- ven.15.d.d:0 "The aviation industry in Venezuela is practically non-existent, but aircraft have been already proven to be an integral part of modern warfare. Our French comrades may be able to supply us with some aircrafts to help us build up our air force."
+ ven.15.d.d:0 "The aviation industry in Venezuela is practically non-existent, but aircraft have been already proven to be an integral part of modern warfare. Our French comrades may be able to supply us with some aircraft to help us build up our air force."
  ven.15.a:0 "Ask a German company."
  ven.15.b:0 "Ask an American company."
  ven.15.c:0 "We couldn't trust them after all."
@@ -526,7 +547,7 @@
  ven.19.c:0 "We couldn't trust them after all."
 
  ven.20.t:0 "Acquiring Surplus Fighters"
- ven.20.d.a:0 "The aviation industry in Venezuela is practically non-existent, but aircraft have been already proven to be an integral part of modern warfare. Our French and British comrades, or even the revolutionaries in America, may be able to supply us with some aircrafts to help us build up our air force."
+ ven.20.d.a:0 "The aviation industry in Venezuela is practically non-existent, but aircraft have been already proven to be an integral part of modern warfare. Our French and British comrades, or even the revolutionaries in America, may be able to supply us with some aircraft to help us build up our air force."
  ven.20.d.b:0 "Our first choice for surplus aircraft is unable to provide us with the equipment we requested. Thankfully, we have an alternative to fall back to and we can only hope that they will prove more willing than the first."
  ven.20.d.c:0 "It appears that we have ran out of options as the main players in the aeronautics industry are either unavailable to us or unwilling to spare us surplus aircraft. We will have to figure out another way to get new aircraft for our air force and to jump-start out own industry with limited help."
  ven.20.a:0 "Ask our French comrades."
@@ -550,7 +571,7 @@
  ven.24.d:0 "The Venezuelans have claimed the region west of the Essequibo River in Guyana since independence from Spain, even though in 1899 it was decided by the United States that the territory would remain British. Caracas never gave up however, and now Venezuela seems to have taken advantage of our fight against the British to make territorial demands on Guyana. They have declared that we have forty-eight hours to evacuate the territory before their troops move in, and woe to any of our personnel left at that time. This is a ridiculous demand, and it is clear that we will have to defend Guyana against the treacherous Venezuelans once more."
  ven.24.a:0 "We must prepare for war. There is no other choice."
 
- ven.25.t:0 "[CAF.GetNameDefCap] Refuses our Ultimatum"
+ ven.25.t:0 "[WIF.GetNameDefCap] Refuses our Ultimatum"
  ven.25.d:0 "Unsurprisingly, the perfidious, stubborn Anglos have refused to cede the occupied territory of Guyana Esequiba. It appears that we will have to retake it by force. All patriotic Venezuelans celebrate today as we move in to reclaim what is ours."
  ven.25.a:0 "We shall retake our rightful lands!"
 
@@ -628,7 +649,7 @@
  ven.40.a:0 "¡Dios y Federación!"
 
  ven.41.t:0 "The West Indians Refuse Peace"
- ven.41.d:0 "[CAF.GetNameDefCap] have treacherously refused our generous peace deal. They have once again declared they will never cede Guyana Esequiba to us, and so the war must carry on. Some in our government are privately wondering if we can truly win a drawn-out conflict, but the people are, for now, committed to go on."
+ ven.41.d:0 "[WIF.GetNameDefCap] have treacherously refused our generous peace deal. They have once again declared they will never cede Guyana Esequiba to us, and so the war must carry on. Some in our government are privately wondering if we can truly win a drawn-out conflict, but the people are, for now, committed to go on."
  ven.41.a:0 "Damn Anglos!"
 
  ven.42.t:0 "The Venezuelan Government Offers Alliance"
@@ -653,3 +674,21 @@
  ven.46.t:0 "[FROM.GetNameDefCap] Refuses"
  ven.46.d:0 "Although the Americans had clearly already shown their willingness to help us, their alliance has proved less friendly. Our offer of alliance has been rebuffed, on the grounds that we might drag them into wars with our neighbours. This is a national outrage, and has shaken our popularity with the people."
  ven.46.a:0 "We were foolish to trust the imperialists."
+
+### Characters ###
+ VEN_tomas_contreras_villalobos:0 "Tomás Contreras Villalobos"
+ VEN_marcos_evangelista_perez_jimenez:0 "Marcos Evangelista Pérez Jiménez"
+ VEN_diogenes_escalante_ugarte:0 "Diógenes Escalante Ugarte"
+ VEN_jose_eleazar_lopez_contreras:0 "José Eleazar López Contreras"
+ VEN_rafael_antonio_caldera_rodriguez:0 "Rafael Antonio Caldera Rodríguez"
+ VEN_isaias_medina_angarita:0 "Isaías Medina Angarita"
+ VEN_elias_toro_ponce_de_leon:0 "Elías Toro Ponce de Léon"
+ VEN_romulo_ernesto_betancourt_bello:0 "Rómulo Ernesto Betancourt Bello"
+ VEN_juan_bautista_fuenmayor:0 "Juan Bautista Fuenmayor"
+ VEN_gustavo_machado_morales:0 "Gustavo Machado Morales"
+ VEN_carlos_roman_delgado_chalbaud_gomez:0 "Carlos Román Delgado Chalbaud Gómez"
+ VEN_elias_guiterrez:0 "Elías Guiterrez"
+ VEN_lopez_marino:0 "Lopez Marino"
+ VEN_reyes_chamorra:0 "Reyes Chamorra"
+ VEN_mariano_henrique_lopez_mendez_y_ron:0 "Mariano Henrique López Méndez y Ron"
+ VEN_wolfgang_enrique_larrazabal_ugerto:0 "Wolfgang Enrique Larrazábal Ugueto"
