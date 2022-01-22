@@ -2,6 +2,21 @@
 
 SFR_focus:0 "Natal Focus Tree"
 
+### Country Names ###
+ SFR:0 "Natal"
+ SFR_ADJ:0 "Natalien"
+ SFR_DEF:0 "Natal"
+
+SFR_totalist:0 "Commune du Natal"
+SFR_totalist_ADJ:0 "Natalien"
+SFR_totalist_DEF:0 "la Commune du Natal"
+SFR_syndicalist:0 "Commune du Natal"
+SFR_syndicalist_ADJ:0 "Natalien"
+SFR_syndicalist_DEF:0 "la Commune du Natal"
+SFR_radical_socialist:0 "Commune du Natal"
+SFR_radical_socialist_ADJ:0 "Natalien"
+SFR_radical_socialist_DEF:0 "la Commune du Natal"
+
 ### Parties ###
 SFR_totalist_party:0 "ICU"
 SFR_radical_socialist_party:0 "NIC"
@@ -38,11 +53,9 @@ SFR_organise_the_native_workforce_desc:0 "Abuse of native labour has been extrem
  SFR_recognize_Zulu_paramount_chief:0 "Recognise the Zulu Paramount Chief"
  SFR_recognize_Zulu_paramount_chief_desc:0 "The Zulu people have historically, always had their own chiefdoms and chiefs. While the government does not currently recognise any of them as legitimate, we have decided to take a step in that direction."
  SFR_encourage_Zulu_communalism:0 "Encourage Zulu Communalism"
- SFR_encourage_Zulu_communalism_desc:0 ""
 SFR_collaborate_john_dube:0 "Collaborate with Dube"
  SFR_collaborate_john_dube_desc:0 "John Dube is a well-known activist for native equal rights. While he is controversial, it would be wise for the government to collaborate with him."
 SFR_establish_the_land_settlement:0 "Establish the Land Settlement"
-SFR_establish_the_land_settlement_desc:0 ""
 SFR_state_sponsored_native_education:0 "State-Sponsored Native Education"
  SFR_state_sponsored_native_education_desc:0 "The native population has lacked education for as long as we have been on the shores of Natal. It has been decided that the Zulu peoples will get state-sponsored education to increase their overall welfare."
 SFR_establish_native_council:0 "Establish the Native Council"
@@ -209,6 +222,22 @@ SFR_Natal_Royal_Navy:0 "Royal Natal Navy"
 SFR_Natal_Great_Crusade:0 "Natal's Contribution to the Great Crusade"
  SFR_Natal_Great_Crusade_desc:0 "Though being dubbed the "Northern Ireland of Africa", the Natal Armed Forces stand ready to assist Canada in its Great Crusade in reclaiming the Home Isles and being rid of the Syndicalist beast that strangles it."
 
+
+### Companies ###
+ nat_south_african_steel_and_iron:0 "South African Iron and Steel Industrial Corp."
+ nat_university_of_cape_town:0 "University of Cape Town"
+ nat_african_explosives:0 "African Explosives and Industries"
+ nat_pretoria_mint:0 "Pretoria National Mint"
+ nat_dorman_long:0 "Dorman Long"
+ nat_marmon_herrington_south_africa:0 "Marmon-Herrington South Africa"
+ nat_south_african_railways:0 "South African Railways"
+ nat_de_havilland_south_africa:0 "de Havilland South Africa"
+ nat_south_african_vickers:0 "Vickers-Armstrong South Africa"
+ nat_elgin_brown_and_hamer:0 "Elgin, Brown & Hamer"
+ nat_retief_de_ville_co:0 "Retief, De Ville & Co."
+ nat_anglo_american:0 "Anglo American Corporation"
+ nat_engen_petroleum:0 "Engen Petroleum"
+ nat_directorate_of_supplies:0 "Directorate of Supplies"
 
 ### Ideas ###
 SFR_his_majestys_most_loyal_servants:0 "Loyalist Bastion"
@@ -436,14 +465,13 @@ SFR_rebuffed_influence_operation:0 "Rebuffed Influence Operation"
 ### Flags ###
 sfr_mission_completed:0 "The §Yother mission§! is already firing a peace to end the Boer War."
 sfr_boer_war_over:0 "The §YThird Boer War§! is over."
- sfr_nice_to_Zulu:0 "Chose to take a §Yconciliatory approach§! towards the Zulu majority."
- sfr_not_nice_to_Zulu:0 "Chose to take a §Yrepressive approach§! towards the Zulu majority."
+ SFR_nice_to_zulu:0 "Chose to take a §Yconciliatory approach§! towards the Zulu majority."
+ SFR_not_nice_to_zulu:0 "Chose to take a §Yrepressive approach§! towards the Zulu majority."
 sfr_nice_to_indians:0 "Chose to take a §Yconciliatory approach§! towards the Indian diaspora."
 sfr_not_nice_to_indians:0 "Chose to take a §Yrepressive approach§! towards the Indian diaspora."
 sfr_has_had_elections:0 "General Elections have been held in Natal since independence."
 
 ### Oobs ###
-SFR:0 "Natal Militias"
  SFR_reinforcements:0 "South African British Uprising"
 SFR_British_India:0 "British Indian Rifle Regiment"
 
@@ -493,13 +521,17 @@ natal.11.t:0 "The Naval Volunteer Reserve defects to Natal"
 natal.11.d:0 "Disaster, the navy of the Union of South Africa, the Naval Volunteer Reserve, has defected from our ranks and declared their allegiance to the rebels in Natal. While this isn't much of a surprise, given the sympathies held by most marine personnel and the inhabitants of the main marine base of Simon's Town, it is still considered a setback as military control could perhaps delay the influx of supplies from the British empire or delay any potential invasion, to which we are now certainly exposed."
 natal.11.a:0 "Treachery on the land and in the sea!"
 
+ SAF_boer_war_surviving_secessions_both:9 "$SAF_boer_war_surviving_secessions_SFR$ and $SAF_boer_war_surviving_secessions_ZIM$"
+ SAF_boer_war_surviving_secessions_SFR:9 "[SFR.GetNonIdeologyName]"
+ SAF_boer_war_surviving_secessions_ZIM:9 "[ZIM.GetNonIdeologyName]"
+
 natal.12.t:0 "Peace with [SAF.GetNameDef]"
  natal.12.d:0 "We have successfully defended [SAF_boer_war_surviving_secessions] from the republicans of South Africa, and their morale is dangling as a result of the failure. We could take this opportunity to enforce peace and secure the independence of [SAF_boer_war_surviving_secessions] and their loyalty to the Empire, but this would entail giving up on the hoped notion of destroying the republican government and restoring British governance throughout all of South Africa."
 natal.12.a:0 "It is time to extend the olive branch."
 natal.12.b:0 "We will not rest until those vile republicans are destroyed!"
 
 natal.13.t:0 "The Newcastle Convention"
- natal.13.d:0 "[SAF_boer_war_surviving_secessions_have_or_has] finally secured [SAF_its_or_theirs] independence. In the Natal Industrial town of Newcastle, a historic location because of its involvement in the drafting of the Pretoria convention of 1881, representatives of [SAF.GetNameDef] and [ENT.GetNameDef] as well as other Entente representatives have signed the treaty that ensures [SAF_its_or_their] continued existence. The treaty does mean that [SAF.GetNameDef] will also live to see another day, and that any pretences of an alternative [SAF.GetAdjective] government are forfeit. Hopefully this will serve for us to be equal and friendly members of the international community for the coming future."
+ natal.13.d:9 "[SAF_boer_war_surviving_secessions][SAF_boer_war_surviving_secessions_have_or_has] finally secured [SAF_its_or_theirs] independence. In the Natal Industrial town of Newcastle, a historic location because of its involvement in the drafting of the Pretoria convention of 1881, representatives of [SAF.GetNameDef] and [ENT.GetNameDef] as well as other Entente representatives have signed the treaty that ensures [SAF_its_or_their] continued existence. The treaty does mean that [SAF.GetNameDef] will also live to see another day, and that any pretences of an alternative [SAF.GetAdjective] government are forfeit. Hopefully this will serve for us to be equal and friendly members of the international community for the coming future."
 natal.13.a:0 "Signed and stamped."
 
 natal.14.t:0 "The Newcastle Convention"
@@ -560,12 +592,12 @@ natal.26.d:0 "Once again, the British stand victorious. D.F. Malan's rebellious 
 natal.26.a:0 "God save the King!"
 
 natal.27.t:0 "Federal Elections of [GetYear]"
- natal.27.d:0 "It is time to hold our new federation's first federal elections. Much like in the Union, most of the electorate is still white, but it is most definitely different from before: large amounts of Afrikaners affiliated with the treacherous National Party, or those who fought on the Boer side during the war have been disenfranchised, making up for the demographic gap between Afrikaners and English-speaking South Africans.\nThe election is somewhat similar to those in the early days of the union, with Nicholls' Union Federal Party fulfilling the role of the English-speaking Unionists and the South African Party, now led by Jan Hendrik Hofmeyr following the retirement of general Smuts, being supported by Afrikaners, although most former Nationalists, insofar they are not disenfranchised, do not recognise themselves in the liberal path Hofmeyr is pulling the party towards."
+ natal.27.d:9 "It is time to hold our new federation's first federal elections. Much like in the Union, most of the electorate is still white, but it is most definitely different from before: large amounts of Afrikaners affiliated with the treacherous National Party, or those who fought on the Boer side during the war have been disenfranchised, making up for the demographic gap between Afrikaners and English-speaking South Africans.\n\nThe election is somewhat similar to those in the early days of the union, with Nicholls' Union Federal Party fulfilling the role of the English-speaking Unionists and the South African Party, now led by Jan Hendrik Hofmeyr following the retirement of general Smuts, being supported by Afrikaners, although most former Nationalists, insofar they are not disenfranchised, do not recognise themselves in the liberal path Hofmeyr is pulling the party towards."
 natal.27.a:0 "Victory for Nicholls, father of the Federation!"
 natal.27.b:0 "Hofmeyr's liberal program wins the day!"
 
 natal.28.t:0 "Militias occupy the Houses of Parliament"
-natal.28.d:0 "'The notion that, after having defeated Afrikaner forces, the mechanics of democracy once again put the Afrikaners in power at the cost of South Africa's British population, is unacceptable.' is what the MP for Roodepoort, Charles Stallard, of the fringe Dominion Party declared. Today was supposed to be the festive assembly of the first federal parliament of South Africa, after the SAP's victory. Not so, as militias who fought for the Federal side during the Boer War occupied Cape Town's Houses of Parliament at this very day. Stallard, acting as the speaker for these rebels, directed the Governor-General directly: to safeguard the interests of the British diaspora in South Africa, parliament is to be suspended for an undetermined period and the Governor-General is to assume control of the government in a similar fashion to Australasia's situation in the 1920s, while a Dominion Party caretaker government shall assist in this task.\nThe Governor-General then stepped up and..."
+ natal.28.d:9 "'The notion that, after having defeated Afrikaner forces, the mechanics of democracy once again put the Afrikaners in power at the cost of South Africa's British population, is unacceptable.' is what the MP for Roodepoort, Charles Stallard, of the fringe Dominion Party declared. Today was supposed to be the festive assembly of the first federal parliament of South Africa, after the SAP's victory. Not so, as militias who fought for the Federal side during the Boer War occupied Cape Town's Houses of Parliament at this very day. Stallard, acting as the speaker for these rebels, directed the Governor-General directly: to safeguard the interests of the British diaspora in South Africa, parliament is to be suspended for an undetermined period and the Governor-General is to assume control of the government in a similar fashion to Australasia's situation in the 1920s, while a Dominion Party caretaker government shall assist in this task.\n\nThe Governor-General then stepped up and..."
  natal.28.a:0 "... invoked his Emergency Powers to follow up on the call!"
  natal.28.b:0 "... denounced the disrespect to the democratic process."
 

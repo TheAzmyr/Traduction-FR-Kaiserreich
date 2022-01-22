@@ -77,10 +77,14 @@ CEN_found_military_pact:0 "Fonder l'avant-garde du peuple"
  CEN_found_military_pact_desc:0 "The People's Vanguard, meant to safeguard Central Americans from external threats, shall be found here in an attempt to resist the revolution at all costs."
 
  CEN_join_faction:0 "Join the [ROOT.CEN_join_faction_title]"
+ CEN_join_faction_socialist:9 "[CEN_socialist_leader.GetFactionName]"
+ CEN_join_faction_military:9 "[CEN_military_leader.GetFactionName]"
+ CEN_join_faction_liberal:9 "[CEN_liberal_leader.GetFactionName]"
+
  CEN_join_faction_desc:0 "[ROOT.CEN_join_faction_desc]"
  CEN_join_faction_desc_socialist:0 "The Revolutionary Front founded by like-minded individuals hoping to band together to bring socialism to Central America. It is our job to join it, for the sake of our brethren abroad."
- CEN_join_faction_desc_liberal:0 "The liberal pact has been founded by a fellow democratic country, ready to overthrow both the socialists and autocracies in the name of the people."
  CEN_join_faction_desc_military:0 "The People's Vanguard has been founded in an attempt to defend the people from themselves, and is most definitely something we should consider joining."
+ CEN_join_faction_desc_liberal:0 "The liberal pact has been founded by a fellow democratic country, ready to overthrow both the socialists and autocracies in the name of the people."
 
  CEN_leave_faction:0 "Leave the [FROM.GetFactionName]"
 
@@ -131,7 +135,6 @@ CEN_established_ties:0 "Nous avons formellement établi des liens entre nos nati
 ### Tooltips ###
 
 soc_dem_revolutionary:0 "Vous êtes un révolutionnaire social-démocrate."
-soc_dem_democratic:0 "Vous êtes un social-démocrate aligné sur les libéraux."
 CEN_prepare_your_ass:0 "§Un conflit va bientôt éclater sur le sous-continent, nous devons être prêts§!"
 CEN_sparks_flying:0 "§RAvec cela, les roues du conflit qui décide du destin de l'Amérique centrale vont commencer à tourner§!"
  CEN_demgeneraltransfer_tt:0 "Gagne de nouveaux ministres et tous les généraux démocratiquement alignés d'Amérique centrale.\n\n"
@@ -139,9 +142,13 @@ CEN_sparks_flying:0 "§RAvec cela, les roues du conflit qui décide du destin de
  CEN_socgeneraltransfer_tt:0 "Gagne de nouveaux ministres et tous les généraux d'Amérique centrale alignés sur les socialistes.\n\n"
 
 ## Trigger Tooltips ##
- CEN_state_aligned:0 "Owner must either be a subject of §Y[Root.GetNameDef]§! or an aligned, [ROOT.CEN_formation_adjective_desc] Central American nation which isn't at war\n"
+ CEN_state_aligned:9 "Owner must either be a subject of §Y[Root.GetNameDef]§! or an aligned Central American nation which isn't at war"
 
 ### Country Names ###
+ CEN:0 "Amérique centrale"
+ CEN_ADJ:0 "Centraméricain"
+ CEN_DEF:0 "Amérique centrale"
+
  CEN_totalist:0 "Centramérique"
 CEN_totalist_ADJ:0 "Centraméricain"
  CEN_totalist_DEF:0 "Centramérique"
@@ -172,37 +179,6 @@ CEN_paternal_autocrat_DEF:0 "République Centrale Américaine"
 CEN_national_populist:0 "République Centrale Américaine"
 CEN_national_populist_ADJ:0 "Centro-Américain"
 CEN_national_populist_DEF:0 "République Centrale Américaine"
-
-CEN_CON_totalist:0 "Centroamérica"
- CEN_CON_totalist_ADJ:0 "Centraméricain"
-CEN_CON_totalist_DEF:0 "Centroamérica"
-CEN_CON_syndicalist:0 "Centroamérica"
- CEN_CON_syndicalist_ADJ:0 "Centraméricain"
-CEN_CON_syndicalist_DEF:0 "Centroamérica"
-CEN_CON_radical_socialist:0 "Confédération Centraméricaine"
-CEN_CON_radical_socialist_ADJ:0 "Centraméricain"
-CEN_CON_radical_socialist_DEF:0 "la Confédération Centraméricaine"
-CEN_CON_social_democrat:0 "Confederation Centraméricaine"
-CEN_CON_social_democrat_ADJ:0 "Centraméricain"
-CEN_CON_social_democrat_DEF:0 "La Confederation Centraméricaine"
-CEN_CON_social_liberal:0 "Confederation Centraméricaine"
-CEN_CON_social_liberal_ADJ:0 "Centraméricain"
-CEN_CON_social_liberal_DEF:0 "La Confederation Centraméricaine"
-CEN_CON_market_liberal:0 "Confederation Centraméricaine"
-CEN_CON_market_liberal_ADJ:0 "Centraméricain"
-CEN_CON_market_liberal_DEF:0 "La Confederation Centraméricaine"
-CEN_CON_social_conservative:0 "Confederation Centraméricaine"
-CEN_CON_social_conservative_ADJ:0 "Centraméricain"
-CEN_CON_social_conservative_DEF:0 "La Confederation Centraméricaine"
-CEN_CON_authoritarian_democrat:0 "République Centraméricaine"
-CEN_CON_authoritarian_democrat_ADJ:0 "Centraméricain"
-CEN_CON_authoritarian_democrat_DEF:0 "La République Centraméricaine"
-CEN_CON_paternal_autocrat:0 "République Centraméricaine"
-CEN_CON_paternal_autocrat_ADJ:0 "Centraméricain"
-CEN_CON_paternal_autocrat_DEF:0 "La République Centraméricaine"
-CEN_CON_national_populist:0 "République Centraméricaine"
-CEN_CON_national_populist_ADJ:0 "Centraméricain"
-CEN_CON_national_populist_DEF:0 "La République Centraméricaine"
 
 ### Events ###
 cend.1.t:0 "[From.GetNameDefCap] envoie une ambassade"
@@ -293,3 +269,8 @@ cend.11.a:0 "La victoire sera poursuivie même sans eux."
 cend.34.t:0 "[From.GetNameDefCap] se prépare à la guerre"
  cend.34.desc:0 "[From.GetNameDefCap] menace de guerre ! Nous devons nous assurer que nous sommes prêts à les rencontrer sur le terrain. Nous devons mobiliser notre nation, nos hommes et nos femmes et tous ceux qui peuvent se battre. Ce n'est que si nous nous préparons aussi, que nous aurons une chance de les vaincre."
 cend.34.a:0 "Nous devons assurer la victoire !"
+
+### Characters ###
+ CEN_revolutionary_council:9 "Revolutionary Council"
+ CEN_democratic_council:9 "Central American Council"
+ CEN_military_council:9 "Military Council"

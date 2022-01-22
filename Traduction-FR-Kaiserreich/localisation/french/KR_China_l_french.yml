@@ -1,5 +1,9 @@
 ﻿l_french:
 
+### Factions & Names
+ china_upc:0 "Provinces-Unies de Chine"
+ china_roc:0 "République de Chine"
+
 ### Integration Decisions
 integrate_china:0 "Établir l'administration/réintégrer les concessions"
 integrate_china_desc:0 "Nous n'avons besoin que d'un seul gouvernement. Bien que nous ayons vaincu les menaces sur le champ de bataille, une série de campagnes visant à démanteler les bases de soutien de nos rivaux, à saisir leurs biens et à abroger leurs ports conventionnels sera nécessaire pour assurer notre paix future. Notre gouvernement a récupéré des territoires qui appartiennent à notre ancien ennemi. La mise en place d'administrations locales est essentielle à notre succès futur. [GetIntegrateChina]"
@@ -46,16 +50,52 @@ kr_integrate_wehaiwei_concession:0 "Intégrer la concession Weihaiwei"
 kr_integrate_zhanjiang_concession:0 "Intégrer la concession de Guangzhouwan"
 
 ### Tooltips
+ china_requested_units_text:9 "[?china_requested_quantity] [?china_requested_equipment.GetTokenLocalizedKey]"
+
 effect_after_they_agree:0 "S'ils sont d'§Yaccord§! avec nos exigences, nous obtiendrons les effets suivants :"
 
  is_ruled_by_pro_zhili:0 "Est régi par un régime §Lami des Zhili§!"
+ is_ruled_by_pro_zhili_NOT:9 "Is §Rnot§! ruled by a §LZhili-friendly§! regime"
+
  is_ruled_by_pro_manchu:0 "Est régi par un régime §Cami des Mandchous§!"
+ is_ruled_by_pro_manchu_NOT:9 "Is §Rnot§! ruled by a §CManchu-friendly§! regime"
+
  is_ruled_by_pro_fengtian:0 "Est régi par un régime §Oami des Fegtian§!"
+ is_ruled_by_pro_fengtian_NOT:9 "Is §Rnot§! ruled by a §OFengtian-friendly§! regime"
+
  is_ruled_by_kmt:0 "Est régi par le §RKuomintang§!"
+ is_ruled_by_kmt_NOT:9 "Is §Rnot§! ruled by the §RKuomintang§!"
+
  is_ruled_by_left_kmt:0 "Est régi par le §RKuomintang de Gauche§!"
+ is_ruled_by_left_kmt_NOT:9 "Is §Rnot§! ruled by the §RLeft Kuomintang§!"
+
  is_ruled_by_right_kmt:0 "Est régi par le §RKuomintang de Droite§!"
+ is_ruled_by_right_kmt_NOT:9 "Is §Rnot§! ruled by the §RRight Kuomintang§!"
+
  is_ruled_by_pro_kmt:0 "Est régi par un régime §Rami du KMT§!"
+ is_ruled_by_pro_kmt_NOT:9 "Is §Rnot§! ruled by a §RKMT-friendly§! regime"
+
  is_ruled_by_federalists:0 "Est régi par les §RFédéralistes§!"
+ is_ruled_by_federalists_NOT:9 "Is §Rnot§! ruled by the §HFederalists§!"
+
+ china_alignment_puppet:9 "Puppet of [Overlord.GetNameDef]"
+ china_alignment_manchu_leader:9 "Manchu Leader"
+ china_alignment_zhili_leader:9 "Zhili Leader"
+ china_alignment_anguojun_leader:9 "Anguojun Leader"
+ china_alignment_lkmt_leader:9 "Left Kuomintang Leader"
+ china_alignment_rkmt_leader:9 "Right Kuomintang Leader"
+ china_alignment_npa_leader:9 "NPA Leader"
+ china_alignment_federalist_leader:9 "Federalist Leader"
+ china_alignment_opportunistic:9 "Opportunistic"
+ china_alignment_manchu:9 "Manchu-aligned"
+ china_alignment_zhili:9 "Zhili-aligned"
+ china_alignment_anguojun:9 "Anguojun-aligned"
+ china_alignment_republican:9 "Republican-aligned"
+ china_alignment_kmt:9 "KMT-aligned"
+ china_alignment_federalist:9 "Federalist-aligned"
+ china_alignment_npa:9 "NPA Member"
+ china_alignment_independent:9 "Independent"
+ china_alignment_unaligned:9 "Unaligned"
 
 ### Army Reform
 china_army_decisions:0 "Réforme de l'armée"
@@ -65,11 +105,12 @@ china_army_decisions_desc:0 "Les armées chinoises ont longtemps lutté pour rat
  china_army_reform_5:0 "Terminer la réforme de l'armée"
 
 china_inadequate_army:0 "Réforme de l'armée"
- china_army_reform_idea:0 "§HProgrès de la réforme de l'armée§!\nDéfense des divisions: [?Root.army_reform_var|1%=+]\n"
+ china_army_reform_idea:9 "[GetArmyReformTooltipFix]"
+ china_army_reform_idea_tooltip:9 "§HArmy Reform Progress§!\n$MODIFIER_MOBILIZATION_SPEED$: [?Root.army_reform_var|+=%]\n$MODIFIERS_ARMY_ATTACK_FACTOR$: [?Root.army_reform_var|+=%1]\n$MODIFIERS_ARMY_DEFENCE_FACTOR$: [?Root.army_reform_var|+=%1]"
 china_army_reform_idea_desc:0 "§LQue ce soit à cause de la corruption rampante, d'un leadership incompétent, de tactiques dépassées, d'équipements obsolètes, d'une mauvaise formation ou d'un mélange de toutes ces choses, la seule chose que toutes les armées en Chine semblent avoir en commun est qu'elles sont terriblement inadaptées par rapport aux normes militaires contemporaines. Surmonter ces décennies de négligence demandera du temps et des efforts, et les performances de nos forces en souffriront jusqu'à ce que nous y parvenions.§!"
 
- china_army_reform_effect:0 "La §Hréforme de l'armée§! continue:\nDéfense des divisions: [?0.15|G1%=]\n"
- china_army_reform_effect_complete:0 "La §Hréforme de l'armée§! est §Gterminée!§!\nDéfense des divisions : [?0.15|G1%=]\n"
+ china_army_reform_effect:9 "The §HArmy Reform§! continues:\n$MODIFIER_MOBILIZATION_SPEED$: [?0.05|+=%]\n$MODIFIERS_ARMY_ATTACK_FACTOR$: [?0.05|+=%1]\n$MODIFIERS_ARMY_DEFENCE_FACTOR$: [?0.05|+=%1]"
+ china_army_reform_effect_complete:9 "The §HArmy Reform§! is §Gcompleted!§!\n$MODIFIER_MOBILIZATION_SPEED$: [?0.05|+=%]\n$MODIFIERS_ARMY_ATTACK_FACTOR$: [?0.05|+=%1]\n$MODIFIERS_ARMY_DEFENCE_FACTOR$: [?0.05|+=%1]"
 
  china_army_reform_trait:0 ""
 
@@ -88,6 +129,22 @@ china_army_reform_idea_desc:0 "§LQue ce soit à cause de la corruption rampante
  china_army_reform_tooltip_50:0 "£army_experience [?50|H0]"
  china_army_reform_tooltip_50_blocked:0 "£army_experience [?50|R0]"
  china_army_reform_tooltip_50_tooltip:0 "It costs $china_army_reform_tooltip_50_blocked$ to take the decision"
+
+ china_doctrine_level_tooltip_2:9 "Researched §Y2§! land doctrine"
+ china_doctrine_level_tooltip_2_blocked:9 "Researched §Y2§! land doctrine."
+ china_doctrine_level_tooltip_2_tooltip:9 "Researched §Y2§! land doctrine."
+ china_doctrine_level_tooltip_4:9 "Researched §Y4§! land doctrine."
+ china_doctrine_level_tooltip_4_blocked:9 "Researched §Y4§! land doctrine."
+ china_doctrine_level_tooltip_4_tooltip:9 "Researched §Y4§! land doctrine."
+ china_doctrine_level_tooltip_5:9 "Researched §Y5§! land doctrine."
+ china_doctrine_level_tooltip_5_blocked:9 "Researched §Y5§! land doctrine."
+ china_doctrine_level_tooltip_5_tooltip:9 "Researched §Y5§! land doctrine."
+ china_doctrine_level_tooltip_6:9 "Researched §Y6§! land doctrine."
+ china_doctrine_level_tooltip_6_blocked:9 "Researched §Y6§! land doctrine."
+ china_doctrine_level_tooltip_6_tooltip:9 "Researched §Y6§! land doctrine."
+ china_doctrine_level_tooltip_8:9 "Has at least §Y8§! researched land doctrine level."
+ china_doctrine_level_tooltip_8_blocked:9 "Has at least §Y8§! researched land doctrine level."
+ china_doctrine_level_tooltip_8_tooltip:9 "Has at least §Y8§! researched land doctrine level."
 
 ### League War Support
  china_league_collapse_war_support_decisions:0 "Soutien à la Guerre de la Ligue"
@@ -124,6 +181,10 @@ unite_china_justification_idea:0 "Chine unie !"
  league_collapse_idea_1_desc:0 "Maintenant que la Ligue s'est brisée et que la guerre ouverte a commencé, les forces de Nankin sont dans le chaos et obligées de se battre sur de multiples fronts contre leurs ennemis. Le temps est venu pour nous de frapper et de revendiquer ce qui nous revient de droit !"
  league_collapse_idea_2:0 "Nanjing Ré-Organisé"
  league_collapse_idea_2_desc:0 "Les traîtres n'ont pas réussi à nous briser malgré nos faiblesses, le temps est venu pour nous de riposter et de récupérer ce qui nous appartient !"
+
+ ROC:0 "la Chine"
+ ROC_ADJ:0 "Chinois"
+ ROC_DEF:0 "la Chine"
 
 ROC_totalist:0 "République de Chine"
 ROC_totalist_ADJ:0 "Chinois"
@@ -219,7 +280,7 @@ ROC_national_populist_DEF:0 "la République de Chine"
  suiyuan_province_state_desc:0 ""
  xinjiang_province_state:0 "§YProvince du Xinjiang§!"
  xinjiang_province_state_desc:0 ""
- tibet_province_state:0 "§YProvince du Tibet§!"
+ tibet_province_state:9 "§YProvince du Tibet§!"
  tibet_province_state_desc:0 ""
  jehol_province_state:0 "§YProvince de Jehol§!"
  jehol_province_state_desc:0 ""
