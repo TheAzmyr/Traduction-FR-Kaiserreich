@@ -150,7 +150,7 @@ POLITICS_AIME_CESAIRE_DESC:0 "Né en 1913 sur l'île de la Martinique, Aimé a �
  WIF_cayenne_agreement_ncp2_desc:0 "L'Accord de Cayenne signé en 1931 a été signé entre les hommes politiques Britanniques et Français au sujet du statut des territoires Français. L'accord garantit une plus grande autonomie des colonies Françaises par rapport aux colonies Britanniques et a fait l'objet de vives controverses. Après les élections de 1937, l'Accord de Cayenne a été systématiquement remis en cause par le NCP. Cet accord n'est maintenant en cours d'application que dans la théorie."
 
  WIF_federal_institute:0 "L'Institut Fédéral des Antilles"
- WIF_federal_institute_desc:9 "L'Institut fédéral des Antilles est un organe consultatif dont la mission est d'organiser le processus d'intégration. [WIF_federal_institute_head]"
+ WIF_federal_institute_desc:0 "L'Institut fédéral des Antilles est un organe consultatif dont la mission est d'organiser le processus d'intégration. [WIF_federal_institute_head]"
  WIF_federal_institute_head1:0 "Ralph Grey en est le directeur."
  WIF_federal_institute_head2:0 "Robert Arundell en est le directeur."
  WIF_federal_institute_head3:0 "Il n'y a actuellement aucun directeur."
@@ -192,7 +192,7 @@ POLITICS_AIME_CESAIRE_DESC:0 "Né en 1913 sur l'île de la Martinique, Aimé a �
  WIF_freedom_of_press_desc:0 "Il a été décrété que la presse doit être libre et que les journaux d'information peuvent s'exprimer librement sans crainte."
 
  WIF_united_workers:0 "Troubles ouvriers"
- WIF_united_workers_desc:9 "La lutte des travailleurs a pris fin - les travailleurs sont organisés en syndicats, unis contre leurs oppresseurs, les capitalistes."
+ WIF_united_workers_desc:0 "La lutte des travailleurs a pris fin - les travailleurs sont organisés en syndicats, unis contre leurs oppresseurs, les capitalistes."
 
  WIF_indies_culture:0 "Une nouvelle culture antillaise"
  WIF_indies_culture_desc:0 "Les Antillais partagent dorénavant une culture commune. Les habitants des Antilles ne seront plus divisés selon des critères ethniques et linguistiques. Au lieu de cela, ils ne formeront plus qu'un seul peuple."
@@ -418,7 +418,7 @@ west_indies_stable_time:0 "Le soutien politique de gauche va fortement diminuer 
 
 ### Social Turmoil ###
  WIF_angereffects_modifier:0 "£pol_idea Turbulences sociales"
- WIF_angereffect_idea:9 "Turbulences sociales\n§W--------------§!\n§gBien que politiquement unie, [ROOT.GetNameDef] est socialement divisé. Les forces loyalistes et socialistes se disputent la domination de la vie publique tandis que l'identité localiste se développe lentement parmi les nombreuses îles culturellement diverses de la nation\n\n[WIF_coupornotloc]§YMises à jour dynamiques:§!\n§W--------------\nTensions actuelles avec les§! §YSocialistes§!§W:§! [WIF_socornot]\n§WTensions actuelles avec l'§! §YEmpire§!§W:§! [WIF_britornot]\n\n§WStabilité:§! [?WIF.var_wif_stability|=%+]\n§WSoutien à la guerre:§! [?WIF.var_wif_war_support|=%+]\n§WGain de pouvoir politique:§! [?WIF.var_wif_pol_power|=%+]"
+ WIF_angereffect_idea:0 "Turbulences sociales\n§W--------------§!\n§gBien que politiquement unie, [ROOT.GetNameDef] est socialement divisé. Les forces loyalistes et socialistes se disputent la domination de la vie publique tandis que l'identité localiste se développe lentement parmi les nombreuses îles culturellement diverses de la nation\n\n[WIF_coupornotloc]§YMises à jour dynamiques:§!\n§W--------------\nTensions actuelles avec les§! §YSocialistes§!§W:§! [WIF_socornot]\n§WTensions actuelles avec l'§! §YEmpire§!§W:§! [WIF_britornot]\n\n§WStabilité:§! [?WIF.var_wif_stability|=%+]\n§WSoutien à la guerre:§! [?WIF.var_wif_war_support|=%+]\n§WGain de pouvoir politique:§! [?WIF.var_wif_pol_power|=%+]"
  WIF_angereffect_idea_desc:0 "Notes sur le calcul :\n- Les effets de base sont calculés de manière linéaire. Cinq points de stabilité ou cinq pour cent de gain de pouvoir politique sont soustraits pour chaque niveau de colère socialiste ou impérial légèrement supérieur respectivement.\n- Pour des niveaux de colère moyens ou plus élevés, le soutien de guerre est déduit sur la même échelle.\n-  Sous un gouvernement socialiste ou impérial, alors que les malus de la faction au pouvoir sont évidemment niées, les malus de l'autre faction sont intensifiées. Cela n'affecte pas le seuil à partir duquel un coup d'État peut avoir lieu."
 
  WIF_socialistangerloc_very_low:0 "§CTrès Bas§!"
@@ -434,13 +434,13 @@ west_indies_stable_time:0 "Le soutien politique de gauche va fortement diminuer 
  WIF_britishangerloc_very_high:0 "§RTrès Haut§!"
 
  WIF_coupornotloc_yes:0 "Si la tesntion d'un groupe atteint §!§RTrès Haut§!§g, un §!§Rcoup d'État§! §gpeut être lancé.§!\n\n"
- WIF_coupornotloc_no:9 ""
+ WIF_coupornotloc_no:0 ""
 
  WIF_socornot_yes:0 "§WN/A§!"
- WIF_socornot_no:9 "[WIF_socialistangerloc]"
+ WIF_socornot_no:0 "[WIF_socialistangerloc]"
 
  WIF_britornot_yes:0 "§WN/A§!"
- WIF_britornot_no:9 "[WIF_britishangerloc]"
+ WIF_britornot_no:0 "[WIF_britishangerloc]"
 
 ## Random ##
  WIF_get_to_work_tooltip:0 "§RLa Commission Moyne publiera son rapport dans un an. Si nous ne considérons pas leurs suggestions et que nous ne les appliquons pas d'ici là, le Parti pour §l'Unité peut faire face à de dures conséquences, ainsi qu'à des changements dans le mouvement de grève !"
@@ -533,7 +533,7 @@ NAVY_REGINALD_DRAX_DESC:0 "§YDescription de l'Amiral§!\n§YNaissance:§! le 28
  WIF_integration_process_NCP_francophonie_desc:0 "Déjà en septembre 1937, les premières tentatives de coopération avec la Sorbonne ont été faites. Il est temps d'intensifier cette relation. Nous pouvons inviter un représentant de la Sorbonne. Cependant, pour obtenir l'autorisation de son arrivée, nous devons améliorer les relations avec la Commune Française. Ça va redorer l'image du PCN parmi les habitants de l'île. De plus, il nous permettra d'organiser un département de littérature Française à l'Université de Kingston. Une partie des habitants de la Martinique et de la Guadeloupe aura la possibilité de bénéficier d'un enseignement de qualité en Français."
 
  WIF_NCP_new_constitution_category:0 "Nouvelle Constitution pour la Fédération des Antilles"
- WIF_NCP_new_constitution_category_desc:9 "Each category allows us to achieve a specific bonus. However, we must remember that §Hthe most favourable decisions may not be liked by the voters§!, and thus may not allow the adoption of a new constitution. Additionally, at the moment of voting, the §Cquality§! of our new constitution will be assessed. §C50%§! is enough to consider it §Cgood§!. This high quality constitution would §Cstabilise§! federation, improve national spirit and push us towards §Cmodernisation§!.\n\n§gTherefore, you should find equilibrium between the number of votes in favour, the quality of the new constitution and the amount of additional bonuses.§!\nVotes for: §G[?WIF_const_for]§!\nVotes against: §R[?WIF_const_against]§!\nConstitutional quality: §C[?WIF_const_qual]%§!"
+ WIF_NCP_new_constitution_category_desc:0 "Each category allows us to achieve a specific bonus. However, we must remember that §Hthe most favourable decisions may not be liked by the voters§!, and thus may not allow the adoption of a new constitution. Additionally, at the moment of voting, the §Cquality§! of our new constitution will be assessed. §C50%§! is enough to consider it §Cgood§!. This high quality constitution would §Cstabilise§! federation, improve national spirit and push us towards §Cmodernisation§!.\n\n§gTherefore, you should find equilibrium between the number of votes in favour, the quality of the new constitution and the amount of additional bonuses.§!\nVotes for: §G[?WIF_const_for]§!\nVotes against: §R[?WIF_const_against]§!\nConstitutional quality: §C[?WIF_const_qual]%§!"
 
  WIF_NCP_new_constitution_free_trade:0 "Aborder la question de l'économie capitaliste dans la constitution"
  WIF_NCP_new_constitution_personal_liberties:0 "Aborder la question des libertés individuelles dans la Constitution"
@@ -546,10 +546,10 @@ NAVY_REGINALD_DRAX_DESC:0 "§YDescription de l'Amiral§!\n§YNaissance:§! le 28
  WIF_NCP_final_voting_desc:0 "Si nous avons plus de voix pour que contre, la nouvelle constitution sera adoptée. L'effet de la nouvelle constitution sur l'ordre juridique dépendra de sa qualité. D'autre part, si nous perdons le vote, cela provoquera un fiasco politique pour le PCN et une perte de stabilité."
 
  WIF_parliament_category:0 "Le Parlement de la Fédération des Antilles"
- WIF_parliament_category_desc:9 "£social_democrat_small    PA:   §R[?WIF_pas_parl]§!\n\n£social_liberal_small    PA:   §H[?WIF_paf_parl]§!\n\n£market_liberal_small    UP:   §Y[?WIF_up_parl]§!\n\n£social_conservative_small    NCP:   §C[?WIF_ncp_parl]§!\n\n§GRuling party: §![Root.GetRulingParty] ([Root.GetRulingIdeologyNoun])"
+ WIF_parliament_category_desc:0 "£social_democrat_small    PA:   §R[?WIF_pas_parl]§!\n\n£social_liberal_small    PA:   §H[?WIF_paf_parl]§!\n\n£market_liberal_small    UP:   §Y[?WIF_up_parl]§!\n\n£social_conservative_small    NCP:   §C[?WIF_ncp_parl]§!\n\n§GRuling party: §![Root.GetRulingParty] ([Root.GetRulingIdeologyNoun])"
 
  WIF_2nd_cayenne_meeting_category:0 "2e rencontre de Cayenne"
- WIF_2nd_cayenne_meeting_category_desc:9 "Undecided pool: §Y[?WIF_2nd_cayenne_meeting_undecided]§!\nRepresentatives for agreement: §G[?WIF_2nd_cayenne_meeting_for]§!\nRepresentatives against agreement: §R[?WIF_2nd_cayenne_meeting_against]§!\n\nWe need to gain as many supporters as we can, but 51 will allow us to pass the new agreement."
+ WIF_2nd_cayenne_meeting_category_desc:0 "Undecided pool: §Y[?WIF_2nd_cayenne_meeting_undecided]§!\nRepresentatives for agreement: §G[?WIF_2nd_cayenne_meeting_for]§!\nRepresentatives against agreement: §R[?WIF_2nd_cayenne_meeting_against]§!\n\nWe need to gain as many supporters as we can, but 51 will allow us to pass the new agreement."
 
 ###PA-LP
  WIF_pa_lp_politics_category:0 "Coalition Parti pour l'Autonomie-Parti des Travailleurs"
@@ -663,7 +663,7 @@ wifpol.14.d:0 "Les Bermudes et les Bahamas ont toujours été nettement plus sta
 wifpol.14.a:0 "Un peu de calme au milieu de la tempête."
 
 wifpol.15.t:0 "La Commission retourne au Canada"
- wifpol.15.d:9 "La Commission est officiellement revenue au Canada aujourd'hui, après avoir vu tout ce qu'elle voulait voir. Nous avons récupéré une grande variété de suggestions de la multitude de personnes interrogée, mais elle peut se résumer comme suit:\n1. La nécessité de faire passer les femmes des usines aux foyers, afin de garantir des emplois aux hommes pour qu'ils puissent gagner leur vie et faire vivre leurs familles.\n2. Effectuer des contrôles dans les nombreuses plantations, en veillant à ce que les normes sanitaires soient respectées, tout en veillant à ce que les gens puissent y travailler sans cruauté. \n3. Contribuer à la construction d'un système d'éducation dans les Antilles, afin d'assurer la lente progression de l'autosuffisance à mesure que les gens s'instruisent, avec pour objectif final de supprimer le système de plantation en faveur d'une économie moderne.\n4. Comme suggestion plus personnelle de Walter Citrine, il veut voir les syndicats des Antilles naître lentement pour forger ensemble les prémices d'un nouveau mode de vie pour la région sous la forme de syndicats non sociaux.\n5. Comme dernière suggestion qui repose davantage sur eux, ils demanderont au gouvernement canadien de financer les heures supplémentaires pour aider au développement des Antilles, bien qu'on ignore si le gouvernement canadien acceptera une telle proposition. Pour l'instant, tout ce que nous pouvons faire, c'est d'essayer de mettre en œuvre certaines de leurs suggestions avant que le rapport ne soit officiellement publié, afin d'éviter autant que possible les réactions négatives."
+ wifpol.15.d:0 "La Commission est officiellement revenue au Canada aujourd'hui, après avoir vu tout ce qu'elle voulait voir. Nous avons récupéré une grande variété de suggestions de la multitude de personnes interrogée, mais elle peut se résumer comme suit:\n1. La nécessité de faire passer les femmes des usines aux foyers, afin de garantir des emplois aux hommes pour qu'ils puissent gagner leur vie et faire vivre leurs familles.\n2. Effectuer des contrôles dans les nombreuses plantations, en veillant à ce que les normes sanitaires soient respectées, tout en veillant à ce que les gens puissent y travailler sans cruauté. \n3. Contribuer à la construction d'un système d'éducation dans les Antilles, afin d'assurer la lente progression de l'autosuffisance à mesure que les gens s'instruisent, avec pour objectif final de supprimer le système de plantation en faveur d'une économie moderne.\n4. Comme suggestion plus personnelle de Walter Citrine, il veut voir les syndicats des Antilles naître lentement pour forger ensemble les prémices d'un nouveau mode de vie pour la région sous la forme de syndicats non sociaux.\n5. Comme dernière suggestion qui repose davantage sur eux, ils demanderont au gouvernement canadien de financer les heures supplémentaires pour aider au développement des Antilles, bien qu'on ignore si le gouvernement canadien acceptera une telle proposition. Pour l'instant, tout ce que nous pouvons faire, c'est d'essayer de mettre en œuvre certaines de leurs suggestions avant que le rapport ne soit officiellement publié, afin d'éviter autant que possible les réactions négatives."
 wifpol.15.a:0 "Nous ferons de notre mieux...."
 
 wifpol.16.t:0 "La Commission reviens"
@@ -735,10 +735,10 @@ getwifpol28_a2:0 "Nous avançons à notre propre rythme !"
 getwifpol28_a3:0 "Nous ne faisons que ce qu'il y a de mieux pour la Fédération."
 
 wifpol.29.t:0 "les vents du changement dans le paysage politique"
- wifpol.29.d:9 "Alors que les élections se profilent à l'horizon, les événements qui ont secoué récemment notre Fédération, principalement la vague de troubles et le rapport Moyne, ont entraîné d'importants changements dans le paysage politique de notre pays. "
+ wifpol.29.d:0 "Alors que les élections se profilent à l'horizon, les événements qui ont secoué récemment notre Fédération, principalement la vague de troubles et le rapport Moyne, ont entraîné d'importants changements dans le paysage politique de notre pays. "
 getwifpol29_d1:0 "L'absence totale de réforme a éloigné les gens du Parti de l'Unité, ce qui en fait un parti pratiquement non-existant auprès de l'électorat. Le statut des réformes a également contraint le Parti pour §l'Autonomie à mettre à l'écart ses membres modérés et à former une coalition avec le Parti National du Peuple, dirigé par Norman Manley. "
- getwifpol29_d2:9 "Les réformes peu reluisantes ont affaibli le soutien au Parti de l'Unité, mais une propagande efficace de leur part pourrait encore assurer une victoire. \nEn raison des tensions accrues dues à ce qui est perçu comme un manque de réforme, le Parti pour l'Autonomie a vu ses membres les plus modérés mis à l'écart et a formé une coalition avec le Parti National du Peuple, dirigé par Norman Manley. "
- getwifpol29_d3:9 "La série de bonnes réformes a garanti au Parti de l'Unité une chance de victoire. En raison de la résolution de leurs problèmes les plus urgents, le Parti pour l'Autonomie a vu ses membres radicaux mis à l'écart, et a formé une coalition avec le Parti travailliste, dirigé par Alexander Bustamante."
+ getwifpol29_d2:0 "Les réformes peu reluisantes ont affaibli le soutien au Parti de l'Unité, mais une propagande efficace de leur part pourrait encore assurer une victoire. \nEn raison des tensions accrues dues à ce qui est perçu comme un manque de réforme, le Parti pour l'Autonomie a vu ses membres les plus modérés mis à l'écart et a formé une coalition avec le Parti National du Peuple, dirigé par Norman Manley. "
+ getwifpol29_d3:0 "La série de bonnes réformes a garanti au Parti de l'Unité une chance de victoire. En raison de la résolution de leurs problèmes les plus urgents, le Parti pour l'Autonomie a vu ses membres radicaux mis à l'écart, et a formé une coalition avec le Parti travailliste, dirigé par Alexander Bustamante."
 wifpol.29.a:0 "En avant, vers les élections !"
 
 wifpol.30.t:0 "Élections fédérales"
@@ -758,7 +758,7 @@ wifpol.3100.a:0 "Nous devons les faire tomber !"
 wifpol.3100.b:0 "Se retirer. Ils n'en valent pas le coût."
 
 wifpol.32.t:0 "Le coup d'État du Gouverneur-Général"
- wifpol.32.d:9 "Alors que le courant social envahit les Antilles, le Gouverneur-Général reçoit de plus en plus de plaintes des sujets les plus fidèles de Sa Majesté. De plus en plus d'appels à l'égalité et à la répartition des richesses ont étouffés les appels à l'aide des personnes qui ont le plus aidé la Couronne.\nAlors que le pays s'éloignait de plus en plus de la Couronne, le Gouverneur-Général a fait un choix difficile. Il a choisi d'écouter les demandes des rares loyalistes qui restaient dans la fédération et s'est allié à l'armée pour remplacer le gouvernement démocratiquement élu. La loi martiale a été déclarée et des mesures ont commencé à être prises pour inverser les réformes les plus dommageables."
+ wifpol.32.d:0 "Alors que le courant social envahit les Antilles, le Gouverneur-Général reçoit de plus en plus de plaintes des sujets les plus fidèles de Sa Majesté. De plus en plus d'appels à l'égalité et à la répartition des richesses ont étouffés les appels à l'aide des personnes qui ont le plus aidé la Couronne.\nAlors que le pays s'éloignait de plus en plus de la Couronne, le Gouverneur-Général a fait un choix difficile. Il a choisi d'écouter les demandes des rares loyalistes qui restaient dans la fédération et s'est allié à l'armée pour remplacer le gouvernement démocratiquement élu. La loi martiale a été déclarée et des mesures ont commencé à être prises pour inverser les réformes les plus dommageables."
 wifpol.32.a:0 "Vive le Roi ! Que Dieu sauve la Fédération des Antilles !"
 
 wifpol.33.t:0 "Les futurs pouvoirs du Gouverneur-Général"
@@ -819,12 +819,12 @@ wifarmy.1.a:0 "Bien sûr que nous aiderons."
 wifarmy.1.b:0 "Nous en avons besoin pour préparer la reconquête du pays."
 
 wifarmy.2.t:0 "Arrivée de la cargaison"
- wifarmy.2.d:9 "La cargaison en provenance de [WIF_event_army_4] est arrivée aujourd'hui comme prévu, avec 1000 fusils. Ceux-ci sont peut-être anciens et désuets, mais ils serviront de base à l'édification de notre armée."
+ wifarmy.2.d:0 "La cargaison en provenance de [WIF_event_army_4] est arrivée aujourd'hui comme prévu, avec 1000 fusils. Ceux-ci sont peut-être anciens et désuets, mais ils serviront de base à l'édification de notre armée."
 wifarmy.2.a:0 "Parfait"
 
 wifarmy.3.t:0 "Aucune livraison ne sera expédiée"
- wifarmy.3.entente:9 "[WIF_event_army_4] n'a pas envoyé de chargement à notre pays, si bien que nous ne pouvons compter que sur notre production militaire déjà superficielle pour continuer à maintenir notre armée. Cette situation a aussi provoqué indirectement une augmentation des mouvements sociaux à l'intérieur des colonies depuis qu'elle est perçue comme un manque de protection de notre jeune nation par le Canada. Espérons que le Canada ne nous décevra pas la prochaine fois."
- wifarmy.3.syndie:9 "[WIF_event_army_4] n'a pas envoyé de chargement à notre pays, si bien que nous ne pouvons compter que sur notre propre production militaire déjà superficielle pour continuer à maintenir notre armée. Il semble que nous devrons concentrer nos efforts sur notre propre protection plutôt que de compter sur les autres."
+ wifarmy.3.entente:0 "[WIF_event_army_4] n'a pas envoyé de chargement à notre pays, si bien que nous ne pouvons compter que sur notre production militaire déjà superficielle pour continuer à maintenir notre armée. Cette situation a aussi provoqué indirectement une augmentation des mouvements sociaux à l'intérieur des colonies depuis qu'elle est perçue comme un manque de protection de notre jeune nation par le Canada. Espérons que le Canada ne nous décevra pas la prochaine fois."
+ wifarmy.3.syndie:0 "[WIF_event_army_4] n'a pas envoyé de chargement à notre pays, si bien que nous ne pouvons compter que sur notre propre production militaire déjà superficielle pour continuer à maintenir notre armée. Il semble que nous devrons concentrer nos efforts sur notre propre protection plutôt que de compter sur les autres."
 wifarmy.3.a:0 "Autant pour un nouveau départ...."
 
 wifarmy.4.t:0 "L'état de la doctrine"
@@ -845,12 +845,12 @@ wifarmy.6.d:0 "Le gouvernement des Antilles a demandé 25 avions de la Grande Gu
 wifarmy.6.a:0 "Qu'est-ce qu'on allait faire de ces avions poussiéreux de toute façon ?"
 wifarmy.6.b:0 "Désolé, mais nous avons de plus grandes priorités."
 
- wifarmy.7.t:9 "[WIF_event_army_7] Envoie les avions"
- wifarmy.7.d:9 "L'envoi en provenance [WIF_event_army_7] est arrivé aujourd'hui comme prévu, avec 25 chasseurs de la Grande Guerre. Même s'ils sont vieux et désuets, ils aideront à relancer notre petite force aérienne qui nous aidera à sécuriser nos eaux."
+ wifarmy.7.t:0 "[WIF_event_army_7] Envoie les avions"
+ wifarmy.7.d:0 "L'envoi en provenance [WIF_event_army_7] est arrivé aujourd'hui comme prévu, avec 25 chasseurs de la Grande Guerre. Même s'ils sont vieux et désuets, ils aideront à relancer notre petite force aérienne qui nous aidera à sécuriser nos eaux."
 wifarmy.7.a:0 "Les Antillais sont dans les airs !"
 
 wifarmy.8.t:0 "Pas d'avion"
- wifarmy.8.d:9 "[WIF_event_army_7] n'a pas envoyé de cargaison à notre pays, ce qui nous oblige à ne compter que sur notre production militaire déjà peu développée pour essayer de créer une force aérienne à partir de zéro. Il semble que nous devrons concentrer nos efforts sur notre propre protection plutôt que de compter sur les autres."
+ wifarmy.8.d:0 "[WIF_event_army_7] n'a pas envoyé de cargaison à notre pays, ce qui nous oblige à ne compter que sur notre production militaire déjà peu développée pour essayer de créer une force aérienne à partir de zéro. Il semble que nous devrons concentrer nos efforts sur notre propre protection plutôt que de compter sur les autres."
 wifarmy.8.a:0 "Notre armée de l'air faite maison sera la fierté du pays !"
 
  WIF_internationale_event_army_7:0 "France"
@@ -1061,31 +1061,31 @@ wifpol.524.c:0 "Heureux de vous revoir."
 wifpol.524.e:0 "La commune française est morte."
 
 wifpol.525.t:0 "Aborder la question de l'économie capitaliste dans la constitution"
- wifpol.525.d:9 "Nous devons établir les fondements juridiques de notre économie dans la Constitution. La plupart de nos pairs du PCN sont en faveur du capitalisme conservateur. Un système transparent créera les conditions idéales pour un boom économique. Nous avons le choix entre 3 options:\n1. Une économie clairement capitaliste. 2. Des règles claires de l'économie capitaliste. 2. Se référer seulement aux questions de base pour satisfaire plus de gens. 3. Il y a trop de syndicalistes dans ce pays. Ignorez la question dans la constitution. \nPour la qualité de la constitution, la clarté des règlements serait importante. Cependant, il sera plus facile d'adopter une constitution qui convienne à un groupe plus large."
+ wifpol.525.d:0 "Nous devons établir les fondements juridiques de notre économie dans la Constitution. La plupart de nos pairs du PCN sont en faveur du capitalisme conservateur. Un système transparent créera les conditions idéales pour un boom économique. Nous avons le choix entre 3 options:\n1. Une économie clairement capitaliste. 2. Des règles claires de l'économie capitaliste. 2. Se référer seulement aux questions de base pour satisfaire plus de gens. 3. Il y a trop de syndicalistes dans ce pays. Ignorez la question dans la constitution. \nPour la qualité de la constitution, la clarté des règlements serait importante. Cependant, il sera plus facile d'adopter une constitution qui convienne à un groupe plus large."
 wifpol.525.a:0 "1. Gagner en qualité, perdre en votes"
 wifpol.525.b:0 "2. Status quo"
 wifpol.525.c:0 "3. Perdre en qualité, gagner en votes"
 
 wifpol.526.t:0 "Aborder la question des droits des citoyens dans la Constitution"
- wifpol.526.d:9 "Nous devons établir un ensemble de droits fondamentaux pour nos citoyens. Bien sûr, les droits accordés doivent respecter les valeurs traditionnelles. Malgré cela, notre parti sait que certains changements sont nécessaires. Nous avons le choix entre 3 options:\n1. Un ensemble moderne de droits fondamentaux qui va être impopulaire dans notre propre parti. \n2. Copiez ce passage de la constitution actuelle. \n3. La Constitution ne peut rien garantir. Ne faisons pas plus de concessions. \nPour la qualité de la constitution, il serait important de codifier les droits fondamentaux compatibles avec notre époque. Cependant, il sera plus facile d'adopter une constitution qui convienne à plus grand nombre de personnes."
+ wifpol.526.d:0 "Nous devons établir un ensemble de droits fondamentaux pour nos citoyens. Bien sûr, les droits accordés doivent respecter les valeurs traditionnelles. Malgré cela, notre parti sait que certains changements sont nécessaires. Nous avons le choix entre 3 options:\n1. Un ensemble moderne de droits fondamentaux qui va être impopulaire dans notre propre parti. \n2. Copiez ce passage de la constitution actuelle. \n3. La Constitution ne peut rien garantir. Ne faisons pas plus de concessions. \nPour la qualité de la constitution, il serait important de codifier les droits fondamentaux compatibles avec notre époque. Cependant, il sera plus facile d'adopter une constitution qui convienne à plus grand nombre de personnes."
 wifpol.526.a:0 "1. Gagner en qualité, perdre en votes"
 wifpol.526.b:0 "2. Status quo"
 wifpol.526.c:0 "3. Perdre en qualité, Gagner en votes"
 
 wifpol.527.t:0 "Aborder la question des solutions à apporter au système politique dans la Constitution"
- wifpol.527.d:9 "Le PCN s'est toujours battu pour créer une fédération forte sans régions autonomes. La rédaction d'une nouvelle constitution nous a permis d'éviter de futures tentatives de fragmentation de notre fédération. Nous avons le choix entre 3 options:\n1. Une fédération forte. \n2. Une fédération, mais avec la possibilité de régions autonomes. \n3. Laissez le système tel qu'il est. Pour la qualité de la constitution, il serait important de moderniser les institutions qui définissent le système politique des Antilles. D'autre part, le PCN a épuisé une grande partie de ses ressources pour le processus de consolidation. La constitution récente semble être une solution plus facile."
+ wifpol.527.d:0 "Le PCN s'est toujours battu pour créer une fédération forte sans régions autonomes. La rédaction d'une nouvelle constitution nous a permis d'éviter de futures tentatives de fragmentation de notre fédération. Nous avons le choix entre 3 options:\n1. Une fédération forte. \n2. Une fédération, mais avec la possibilité de régions autonomes. \n3. Laissez le système tel qu'il est. Pour la qualité de la constitution, il serait important de moderniser les institutions qui définissent le système politique des Antilles. D'autre part, le PCN a épuisé une grande partie de ses ressources pour le processus de consolidation. La constitution récente semble être une solution plus facile."
 wifpol.527.a:0 "1. Gagner en qualité, perdre en votes"
 wifpol.527.b:0 "2. Status quo"
 wifpol.527.c:0 "3. Perdre en qualité, Gagner en votes"
 
 wifpol.528.t:0 "Aborder la question de la primauté du droit dans la Constitution"
- wifpol.528.d:9 "La Fédération des Antilles est un pays fier, mais nous devons être conscients qu'en termes de gouvernement, nous nous écartons des normes européennes. Dans la constitution, nous pouvons créer des instruments pour lutter efficacement contre les affections qui ruinent le travail du PCN. Nous avons le choix entre 3 options:\n1. Des instruments efficaces pour lutter contre la corruption et la criminalité. \n2. L'État fonctionne déjà efficacement à cet égard aujourd'hui. \n3. Nous ne devrions pas combattre la corruption. Cela pourrait se retourner contre nous. \nPour la qualité de la Constitution, il serait important de créer un système juridique dans lequel notre prospérité et notre force se développeraient. Rappelez-vous, cependant, que la lutte sur de nombreux fronts pourrait se terminer tragiquement pour nous."
+ wifpol.528.d:0 "La Fédération des Antilles est un pays fier, mais nous devons être conscients qu'en termes de gouvernement, nous nous écartons des normes européennes. Dans la constitution, nous pouvons créer des instruments pour lutter efficacement contre les affections qui ruinent le travail du PCN. Nous avons le choix entre 3 options:\n1. Des instruments efficaces pour lutter contre la corruption et la criminalité. \n2. L'État fonctionne déjà efficacement à cet égard aujourd'hui. \n3. Nous ne devrions pas combattre la corruption. Cela pourrait se retourner contre nous. \nPour la qualité de la Constitution, il serait important de créer un système juridique dans lequel notre prospérité et notre force se développeraient. Rappelez-vous, cependant, que la lutte sur de nombreux fronts pourrait se terminer tragiquement pour nous."
 wifpol.528.a:0 "1. Gagner en qualité, perdre en votes"
 wifpol.528.b:0 "2. Status quo"
 wifpol.528.c:0 "3. Perdre en qualité, Gagner en votes"
 
 wifpol.529.t:0 "Aborder la question de notre relation avec le Canada dans la Constitution"
- wifpol.529.d:9 "Nous devons donner un nom précis à la relation que nous entretenons avec le Canada dans la Constitution. Nous avons le choix entre 3 options:\n1. Définir notre relation en détail. \n2. Nomme les principes fondamentaux de cette relation. \n3. Ignorez le sujet. \nPour la qualité de la constitution, il serait important de définir cette relation. Toutefois, certains de nos opposants préféreraient que la Constitution ne contienne que des réponses ambiguës."
+ wifpol.529.d:0 "Nous devons donner un nom précis à la relation que nous entretenons avec le Canada dans la Constitution. Nous avons le choix entre 3 options:\n1. Définir notre relation en détail. \n2. Nomme les principes fondamentaux de cette relation. \n3. Ignorez le sujet. \nPour la qualité de la constitution, il serait important de définir cette relation. Toutefois, certains de nos opposants préféreraient que la Constitution ne contienne que des réponses ambiguës."
 wifpol.529.a:0 "1. Gagner en qualité, perdre en votes"
 wifpol.529.b:0 "2. Status quo"
 wifpol.529.c:0 "3. Perdre en qualité, Gagner en votes"
@@ -1168,7 +1168,7 @@ wifpol.625.a:0 "La stabilité de la coalition va chuter."
 
 
 wifpol.699.t:0 "Numéros du Parlement"
- wifpol.699.d:9 "PA: §R[?WIF_pas_parl]§! \nPA: §H[?WIF_paf_parl]§! \nUP: §Y[?WIF_up_parl]§!\nNCP: §C[?WIF_ncp_parl]§!"
+ wifpol.699.d:0 "PA: §R[?WIF_pas_parl]§! \nPA: §H[?WIF_paf_parl]§! \nUP: §Y[?WIF_up_parl]§!\nNCP: §C[?WIF_ncp_parl]§!"
 wifpol.699.a:0 "K"
 
 wifpol.800.t:0 "Rejoindre l'Internationale"
@@ -1300,30 +1300,30 @@ wifpol.830.d:0 "Même si les habitants des Bermudes sont très pro-Canada et ant
 wifpol.830.a:0 "Les Bermudes ne peuvent pas nous résister."
 
 wifpol.831.t:0 "Les Antilles ont entamé des pourparlers avec l'Internationale"
- wifpol.831.d:9 "Depuis quelques semaines, nous sommes en conflit avec les révolutionnaires syndicalistes des Antilles. Mais maintenant, nos loyalistes à Kingston nous ont informés que les révolutionnaires ont entamé des pourparlers avec la Commune de France et l'Union britannique, avec la possibilité de se joindre à leur alliance. Cela nous place dans une situation difficile - si nous continuons à poursuivre cette guerre, nous entrerons bientôt dans un conflit armé avec les syndicalistes du continent, un conflit auquel nous et/ou nos alliés ne serons peut-être pas prêts à faire face. Nous avons quelques options : nous pouvons simplement nous retirer entièrement de la région, en accordant effectivement la victoire aux rebelles et en perdant la face, [WIF_event_keep_islands] ou nous pouvons continuer cette guerre, avec la possibilité d'une escalade presque garantie. Les Caraïbes valent-elles vraiment la peine de se donner tant de mal ?"
+ wifpol.831.d:0 "Depuis quelques semaines, nous sommes en conflit avec les révolutionnaires syndicalistes des Antilles. Mais maintenant, nos loyalistes à Kingston nous ont informés que les révolutionnaires ont entamé des pourparlers avec la Commune de France et l'Union britannique, avec la possibilité de se joindre à leur alliance. Cela nous place dans une situation difficile - si nous continuons à poursuivre cette guerre, nous entrerons bientôt dans un conflit armé avec les syndicalistes du continent, un conflit auquel nous et/ou nos alliés ne serons peut-être pas prêts à faire face. Nous avons quelques options : nous pouvons simplement nous retirer entièrement de la région, en accordant effectivement la victoire aux rebelles et en perdant la face, [WIF_event_keep_islands] ou nous pouvons continuer cette guerre, avec la possibilité d'une escalade presque garantie. Les Caraïbes valent-elles vraiment la peine de se donner tant de mal ?"
 wifpol.831.a:0 "Se retirer des Caraïbes. Elles n'en valent pas la peine."
- wifpol.831.b:9 "Retirez-vous, mais gardez une garnison sur les [WIF_event_islands]."
+ wifpol.831.b:0 "Retirez-vous, mais gardez une garnison sur les [WIF_event_islands]."
 wifpol.831.c:0 "Nous refusons de nous incliner devant les rebelles. La guerre va continuer."
 
  WIF_event_islands_bermuda:0 "Bermudes"
  WIF_event_islands_bahamas:0 "les Bahamas"
  WIF_event_islands_bermuda_bahamas:0 "Bermudes et Bahamas"
 
- WIF_event_keep_islands_none:9 ""
- WIF_event_keep_islands_some:9 "withdraw while retaining [WIF_event_islands], "
+ WIF_event_keep_islands_none:0 ""
+ WIF_event_keep_islands_some:0 "withdraw while retaining [WIF_event_islands], "
 
 wifpol.832.t:0 "Les Canadiens se retirent des Caraïbes"
 wifpol.832.d:0 "Nos discussions avec l'Internationale ont déjà porté leurs fruits. Nous avons reçu un avis du gouvernement canadien. Peu disposé à risquer un conflit avec nos camarades, il a ordonné la fin de toutes les hostilités et la restitution de chacun de nos territoires, et ses forces se retirent déjà entièrement des Caraïbes. Il semble que notre révolution ait été couronnée de succès."
 wifpol.832.a:0 "Relevez le niveau de l'écarlate !"
 
 wifpol.833.t:0 "Les Canadiens se retirent des Caraïbes"
- wifpol.833.d:9 "Nos discussions avec l'Internationale ont déjà porté leurs fruits. Nous avons reçu un avis du gouvernement canadien. Ne voulant pas risquer un conflit avec nos camarades, il a ordonné la fin de toutes les hostilités, et ses forces se retirent déjà de nos terres. Cependant, ils ont clairement indiqué, et en termes très clairs, que [WIF_event_islands] sont un territoire canadien légitime et ils refusent même d'envisager la possibilité d'un retour pacifique. Il semble que notre révolution ait été en partie couronnée de succès."
+ wifpol.833.d:0 "Nos discussions avec l'Internationale ont déjà porté leurs fruits. Nous avons reçu un avis du gouvernement canadien. Ne voulant pas risquer un conflit avec nos camarades, il a ordonné la fin de toutes les hostilités, et ses forces se retirent déjà de nos terres. Cependant, ils ont clairement indiqué, et en termes très clairs, que [WIF_event_islands] sont un territoire canadien légitime et ils refusent même d'envisager la possibilité d'un retour pacifique. Il semble que notre révolution ait été en partie couronnée de succès."
 wifpol.833.a:0 "On n'a pas vraiment le choix, n'est-ce pas ?"
 wifpol.833.b:0 "Inacceptable, notre territoire doit être rendu !"
 
 wifpol.834.t:0 "Les Antilles refusent notre retrait"
- wifpol.834.d:9 "Les syndicalistes des Antilles sont clairement devenus fous. Notre représentant, qui devait les informer de notre retrait, est revenu les mains vides. Les révolutionnaires, semble-t-il, n'accepteront pas notre retrait si nous ne leur remettons pas les [WIF_event_islands]. C'est une insolence totale, bien sûr, mais le risque d'une guerre avec l'Internationale demeure. Au dire de tous, les [WIF_event_islands] ne valent pas la peine qu'on se batte pour elles, mais nos ministres les plus conservateurs préconisent une position ferme contre la propagation du syndicalisme."
- wifpol.834.a:9 "Ça n'en vaut pas la peine. Rendre [WIF_event_islands]."
+ wifpol.834.d:0 "Les syndicalistes des Antilles sont clairement devenus fous. Notre représentant, qui devait les informer de notre retrait, est revenu les mains vides. Les révolutionnaires, semble-t-il, n'accepteront pas notre retrait si nous ne leur remettons pas les [WIF_event_islands]. C'est une insolence totale, bien sûr, mais le risque d'une guerre avec l'Internationale demeure. Au dire de tous, les [WIF_event_islands] ne valent pas la peine qu'on se batte pour elles, mais nos ministres les plus conservateurs préconisent une position ferme contre la propagation du syndicalisme."
+ wifpol.834.a:0 "Ça n'en vaut pas la peine. Rendre [WIF_event_islands]."
 wifpol.834.b:0 "Nous allons punir cette insolence !"
 
 wifpol.835.t:0 "La Fin de l'Influence Française"
@@ -1602,14 +1602,14 @@ wifpol.835.a:0 "Au Revoir."
 ## Army Tree ##
  WIF_upgrading_standards:0 "Mettre à jour nos normes"
  WIF_upgrading_standards_desc:0 "Devant la nouveauté de nos forces armées, nous avons été forcés d'abaisser les normes moyennes de formation et d'entrainement afin de pouvoir déployer une force décente plus rapidement. Maintenant que nous avons depuis longtemps atteint cet objectif, nous pouvons à nouveau augmenter nos normes de recrutement et de formation afin de nous hisser au niveau des autres pays de l'Empire."
- WIF_arms_shipments:9 "Envois de l'[WIF_faction_scriped_loc]"
- WIF_arms_shipments_desc:9 "Considérant que nos entreprises locales de fabrication d'armes sont insuffisantes pour maintenir un flux régulier de fusils et de fournitures pour nos forces armées, nous devrons compter une fois de plus sur nos alliés de l'[WIF_faction_scriped_loc] afin d'approvisionner notre armée permanente !"
+ WIF_arms_shipments:0 "Envois de l'[WIF_faction_scriped_loc]"
+ WIF_arms_shipments_desc:0 "Considérant que nos entreprises locales de fabrication d'armes sont insuffisantes pour maintenir un flux régulier de fusils et de fournitures pour nos forces armées, nous devrons compter une fois de plus sur nos alliés de l'[WIF_faction_scriped_loc] afin d'approvisionner notre armée permanente !"
  WIF_beginning_proper_army:0 "Début d'une armée en bonne et due forme"
  WIF_beginning_proper_army_desc:0 "Nos normes étant à la hauteur de celles de nos alliés et de nos forces dotées des équipements nécessaires, nous pouvons enfin entamer nos réformes afin d'amener les forces armées de la Fédération vers de nouveaux sommets."
- WIF_study_military_academy:9 "Utiliser les stratégies  de l'[WIF_faction_scriped_loc]."
- WIF_study_military_academy_desc:9 "Comme nous ne disposons pas de notre propre académie militaire, nous devrions nous concentrer sur la mise à profit des développements de l'[WIF_faction_scriped_loc] en matière de guerre terrestre afin d'améliorer l'efficacité et la capacité de combat de notre armée."
- WIF_entente_gun_study:9 "Étude des armes à feu de l'[WIF_faction_scriped_loc] "
- WIF_entente_gun_study_desc:9 "L'[WIF_faction_scriped_loc] est à la pointe du développement des armes depuis des décennies. Au lieu d'essayer de créer notre propre modèle, nous devrions essayer de les contacter et d'utiliser leurs conceptions. De cette façon, nous pourrons obtenir un modèle de base fiable à partir duquel nous pourrons développer une variation pour l'adapter à nos besoins environnementaux."
+ WIF_study_military_academy:0 "Utiliser les stratégies  de l'[WIF_faction_scriped_loc]."
+ WIF_study_military_academy_desc:0 "Comme nous ne disposons pas de notre propre académie militaire, nous devrions nous concentrer sur la mise à profit des développements de l'[WIF_faction_scriped_loc] en matière de guerre terrestre afin d'améliorer l'efficacité et la capacité de combat de notre armée."
+ WIF_entente_gun_study:0 "Étude des armes à feu de l'[WIF_faction_scriped_loc] "
+ WIF_entente_gun_study_desc:0 "L'[WIF_faction_scriped_loc] est à la pointe du développement des armes depuis des décennies. Au lieu d'essayer de créer notre propre modèle, nous devrions essayer de les contacter et d'utiliser leurs conceptions. De cette façon, nous pourrons obtenir un modèle de base fiable à partir duquel nous pourrons développer une variation pour l'adapter à nos besoins environnementaux."
  WIF_request_general:0 "Demander des généraux"
  WIF_request_general_desc:0 "Le haut commandement de la Fédération manque cruellement de personnel et a grand besoin de nouveaux commandants. Nous les demanderons à nos alliés afin d'avoir une force de combat plus compétente pour les aider."
  WIF_increase_military_funding:0 "Augmenter les fonds aloués à l'armée"
@@ -1646,8 +1646,8 @@ wifpol.835.a:0 "Au Revoir."
  WIF_secured_army_desc:0 "Notre armée recevra un soutien de reconnaissance régulier de notre force aérienne. De cette façon, l'Armée de terre peut bénéficier directement des avantages d'une meilleure force aérienne, et cette dernière peut enfin prouver son utilité sur le champ de bataille  à ceux qui doutaient autrefois qu'elle devrait être un organe indépendant."
 
 ## Air Tree ##
- WIF_entente_planes:9 "Demande d'avion de l'[WIF_faction_scriped_loc]"
- WIF_entente_planes_desc:9 "L'armée de l'air est une arme relativement nouvelle sur les champs de bataille modernes. En tant que telle, nous ne disposons pas vraiment d'une force aérienne respectable. Cependant, nos amis de l'[WIF_faction_scriped_loc] en ont une, et l'achat de leurs avions obsolètes pourrait être un bon point de départ pour nous permettre de lancer notre propre force aérienne !"
+ WIF_entente_planes:0 "Demande d'avion de l'[WIF_faction_scriped_loc]"
+ WIF_entente_planes_desc:0 "L'armée de l'air est une arme relativement nouvelle sur les champs de bataille modernes. En tant que telle, nous ne disposons pas vraiment d'une force aérienne respectable. Cependant, nos amis de l'[WIF_faction_scriped_loc] en ont une, et l'achat de leurs avions obsolètes pourrait être un bon point de départ pour nous permettre de lancer notre propre force aérienne !"
  WIF_airway_project:0 "Projet de bases aériennes"
  WIF_airway_project_desc:0 "Si la Fédération veut se doter d'une force aérienne, nous aurons besoin de terrains d'aviation décents pour qu'ils puissent fonctionner efficacement. C'est pourquoi nous devrions affecter nos fonds à un projet de construction de bases aériennes afin de disposer de l'infrastructure nécessaire pour projeter une force aérienne importante."
  WIF_opening_airforce:0 "Création de l'Armée de l'air"
@@ -1730,9 +1730,9 @@ wifpol.835.a:0 "Au Revoir."
  WIF_war_effort_desc:0 "En raison de la guerre actuelle, nous nous trouvons dans une légère pénurie de matériel et d'équipement pour nos hommes sur le front, et c'est donc une priorité pour notre gouvernement d'investir dans de nouvelles usines pour produire le matériel dont nos hommes ont grandement besoin sur le terrain."
 
 ### Country Names ###
- WIF:9 "Antilles"
+ WIF:0 "Antilles"
  WIF_ADJ:0 "Antillais"
- WIF_DEF:9 "les Antilles"
+ WIF_DEF:0 "les Antilles"
 
  WIF_totalist:0 "Union des Indes occidentales"
  WIF_totalist_ADJ:0 "Antillais"
@@ -1796,9 +1796,9 @@ wifpol.835.a:0 "Au Revoir."
  WIF_confederation_national_populist_ADJ:0 "des Caraïbes"
  WIF_confederation_national_populist_DEF:0 "l'État des Caraïbes"
 
- ANT_1:9 "Antilles"
+ ANT_1:0 "Antilles"
  ANT_1_ADJ:0 "Antillais"
- ANT_1_DEF:9 "les Antilles"
+ ANT_1_DEF:0 "les Antilles"
 
 ANT_1_totalist:0 "Union antillaise"
 ANT_1_totalist_ADJ:0 "antillais"
@@ -1831,9 +1831,9 @@ ANT_1_national_populist:0 "Union antillaise"
 ANT_1_national_populist_ADJ:0 "antillais"
 ANT_1_national_populist_DEF:0 "l'Union antillaise"
 
- ANT_2:9 "Antilles"
+ ANT_2:0 "Antilles"
  ANT_2_ADJ:0 "antillais"
- ANT_2_DEF:9 "les Antilles"
+ ANT_2_DEF:0 "les Antilles"
 
 ANT_2_totalist:0 "Union antillaise"
 ANT_2_totalist_ADJ:0 "antillais"
@@ -1883,17 +1883,17 @@ ANT_2_national_populist_DEF:0 "l'Union antillaise"
  TRI_DEF:0 "Trinité-et-Tobago"
 
 ### Characters ###
- WIF_cyril_lionel_robert_james:9 "Cyril Lionel Robert James"
+ WIF_cyril_lionel_robert_james:0 "Cyril Lionel Robert James"
  WIF_tubal_uriah_butler:0 "Tubal Uriah Butler"
- WIF_aime_cesaire:9 "Aimé Césaire"
+ WIF_aime_cesaire:0 "Aimé Césaire"
  WIF_joseph_lagrosilliere:0 "Joseph Lagrosillière"
- WIF_grantley_herbert_adams:9 "Grantley Herbert Adams"
+ WIF_grantley_herbert_adams:0 "Grantley Herbert Adams"
  WIF_norman_manley:0 "Norman Manley"
- WIF_victor_severe:9 "Victor Sévère"
- WIF_joseph_trounsell_gilbert:9 "Joseph Trounsell Gilbert"
- WIF_solomon_hochoy:9 "Solomon Hochoy"
- WIF_georges_robert:9 "Georges Robert"
- WIF_joel_augustus_rogers:9 "Joel Augustus Rogers"
+ WIF_victor_severe:0 "Victor Sévère"
+ WIF_joseph_trounsell_gilbert:0 "Joseph Trounsell Gilbert"
+ WIF_solomon_hochoy:0 "Solomon Hochoy"
+ WIF_georges_robert:0 "Georges Robert"
+ WIF_joel_augustus_rogers:0 "Joel Augustus Rogers"
  WIF_eustace_fiennes:0 "Eustace Fiennes"
  WIF_gordon_james_lethem:0 "Gordon James Lethem"
  WIF_arthur_andrew_cipriani:0 "Arthur Andrew Cipriani"
@@ -1903,8 +1903,8 @@ ANT_2_national_populist_DEF:0 "l'Union antillaise"
  WIF_archibald_currie:0 "Archibald Currie"
  WIF_thomas_cubitt:0 "Thomas Cubitt"
  WIF_reginald_hildyard:0 "Reginald Hildyard"
- WIF_geoffrey_archer:9 "Geoffrey Archer"
+ WIF_geoffrey_archer:0 "Geoffrey Archer"
  WIF_bede_clifford:0 "Bede Clifford"
  WIF_felix_eboue:0 "Félix Éboué"
- WIF_ralph_leatham:9 "Ralph Leatham"
+ WIF_ralph_leatham:0 "Ralph Leatham"
  WIF_reginald_drax:0 "Reginald Drax"
