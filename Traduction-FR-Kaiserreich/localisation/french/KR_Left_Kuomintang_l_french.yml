@@ -57,9 +57,9 @@ KR_focus_CHI_mass_production_desc:0 ""
  KR_CHI_event_other_KMT_support_desc:0 "Le KMT de Fujian a envoyé plusieurs officiers expérimentés pour se rendre secrètement au Guangxi. Ces officiers nous aideront à mieux organiser l'armée et à améliorer notre moral."
 
  CHI_NRA:0 "Armée nationale révolutionnaire"
- #CHI_NRA_desc:0 "With the establishment of the Second National Revolutionary Army, we must deepen reforms to deal with all kinds of warlords and imperialists. This army will be accompanied by a revolutionary road that we have been through for a long time."
+ CHI_NRA_desc:9 "With the establishment of the Second National Revolutionary Army, we must deepen reforms to deal with all kinds of warlords and imperialists. This army will be accompanied by a revolutionary road that we have been through for a long time."
  CHI_EAC:0 "Commission des affaires économiques"
- #CHI_EAC_desc:0 "The Economic Affairs Commission is the basic organisation that the National Government directs economic operations. It will be an important department for the implementation of various economic regulations."
+ CHI_EAC_desc:9 "The Economic Affairs Commission is the basic organisation that the National Government directs economic operations. It will be an important department for the implementation of various economic regulations."
 
  KR_focus_CHI_land_rent1:0 "Propriétaires expropriés"
 KR_focus_CHI_land_rent1_desc:0 ""
@@ -721,7 +721,7 @@ chi_for.9.t:0 "Guerre entre [ANQ.GetName] et [CHI.GetNameDef]" # ANQ side
  # ANQ allied with FNG:
  chi_for.9.d1:0 "Jusqu'à présent, la révolte de [CHI.GetLeader] contre le régime de Nanjing et notre propre soulèvement ont évité de s'affronter directement. Cependant, ce cessez-le-feu précaire n'a jamais été censé tenir, et maintenant la guerre a officiellement éclaté.\n\n Avec l'aide de [FNG.GetNameDef], nos forces pourraient avoir un léger avantage matériel sur les nationalistes, à condition que nous soyons capables de tenir les côtes."
  # ANQ allied with QIE:
- chi_for.9.d2:0 "Jusqu'à présent, la révolte de [CHI.GetLeader] contre le régime de Nanjing et notre propre soulèvement ont évité de s'affronter directement. Cependant, ce cessez-le-feu précaire n'a jamais été censé tenir, et maintenant la guerre a officiellement éclaté.\n\nAvec l'intervention de [QIE.GetNameDef] de notre côté du conflit, nos forces auront une plus grande marge de manœuvre dans notre lutte contre [LEP.GetLeaderDef] et [CHI.GetLeaderDef], même si ce sera toujours un combat difficile."
+ chi_for.9.d2:9 "Jusqu'à présent, la révolte de [CHI.GetLeader] contre le régime de Nanjing et notre propre soulèvement ont évité de s'affronter directement. Cependant, ce cessez-le-feu précaire n'a jamais été censé tenir, et maintenant la guerre a officiellement éclaté.\n\nAvec l'intervention de [QIE.GetNameDef] de notre côté du conflit, nos forces auront une plus grande marge de manœuvre dans notre lutte contre [LEP.GetLeaderDef] et [CHI.GetLeaderDef], même si ce sera toujours un combat difficile."
  chi_for.9.a:0 "[FNG.GetLeader] va mettre de l'ordre en Chine !"
  chi_for.9.b:0 "[QIE.GetLeader] va mettre de l'ordre en Chine !"
 
@@ -739,9 +739,9 @@ chi_for.12.t:0 "La [ANQ.GetName] est défaite"
  chi_for.12.d:0 "Nos alliés la [ANQ.GetName] ont été envahis par [606.controller.GetNameDef], et avec leur défaite, le but du combat dans le sud de la Chine n'est pas très utile. Nous pourrions poursuivre la campagne afin de sécuriser nous-mêmes les cinq provinces et mettre en place un gouvernement régional plus tard, mais notre principale menace est et reste [QIE.GetNameDef], dont la capitale borde notre territoire principal. Il serait prudent de nous retirer pour l'instant afin de ne plus avoir à nous soucier que d'une guerre sur un seul front."
 chi_for.12.a:0 "Nous devons nous regrouper et nous concentrer sur le front de Pékin."
 
-chi_for.13.t:0 "Le [FNG.GetName] évacue le sud de la Chine"
-chi_for.13.d:0 "Avec notre défaite [ANQ.GetNameDef], [FNG.GetNameDef], leurs alliés, ont officiellement retiré leurs forces expéditionnaires de l'intervention en Chine du Sud. Leur pari initial de soutenir les ambitions de [ANQ.GetLeader] dans la sécurisation des cinq provinces a suscité la colère de [QIE.GetNameDef], et il n'est pas surprenant que [FNG.GetName] se concentre sur la défense de leurs terres du nord-est. Avec le retrait des forces fengtiennes, notre conflit avec elles s'est terminé comme il avait commencé officieusement."
-chi_for.13.a:0 "Paix avec le Nord-Est, pour l'instant."
+ chi_for.13.t:9 "Le [FNG.GetName] évacue le sud de la Chine"
+ chi_for.13.d:9 "With our defeat of [ANQ.GetNameDef], [FNG.GetNameDef], their allies, have officially withdrawn their expeditionary forces from intervening in Eastern China. [FNG.GetLeader]'s gamble in supporting [ANQ.GetLeader]'s struggle has clearly not paid off, leaving him with one ally fewer south of the Great Wall.\n\nNow that Fengtian's forces have withdrawn, our conflict with them has ended just as it started- unofficially."
+ chi_for.13.a:9 "Paix avec le Nord-Est, pour l'instant."
 
 chi_for.14.t:0 "La proclamation anti-fédéraliste de [CHI.GetLeader]"
  chi_for.14.d:0 "Dans un discours prononcé aujourd'hui, [CHI.GetLeader] a réagi durement à la nouvelle alliance des fédéralistes chinois dans le sud. Le soi-disant idéal fédéraliste qui est suggéré pour la Chine a été, et continuera d'être, une fausse solution colportée par les seigneurs de la guerre. Si la Chine devient une république sans contrôle centralisé, alors les vainqueurs seront les seigneurs de guerre qui contrôlent une province, et non le peuple. En pratique, le fédéralisme est en fait un seigneur de guerre, et seul un État centralisé peut apporter la démocratie et la paix au peuple"
@@ -1245,16 +1245,10 @@ CHI_alignment_integration_category:0 "Intégrations des régions autonomes chino
  CHI_alignment_integration_category_desc:0 "Notre victoire dans le Nord de la Chine nous a permis de centraliser notre nation en un gouvernement cohésif ; cependant, certaines provinces de Chine sont dirigées par des gouverneurs autonomes qui devraient être placés plus directement sous notre contrôle..."
 CHI_capital_relocation_category:0 "Déclarer une capitale permanente"
  CHI_capital_relocation_category_desc:0 "Il y a eu de nombreuses capitales d'un Etat chinois unifié et avec des parties clés de la Chine sous notre régime, nous pouvons proclamer une capitale permanente pour la république. Trois choix principaux s'offrent à nous si nous voulons contrôler cette ville : Nanjing, Pékin ou Wuchang. Chacun d'entre eux présente des avantages uniques. Nous devons y réfléchir attentivement car cette décision sera irréversible"
-CHI_dec_LEP_expedition:0 "Commencer l'expédition dans le bas du Yangtsé contre [From.GetNameDef]"
-CHI_dec_LEP_expedition_desc:0 "Pour mettre fin au conflit dans les cinq provinces et sécuriser notre position à l'Est, nous devons couper directement dans les restes des cinq provinces de l'Est alors qu'elles sont divisées et arracher le cœur de l'ancien régime de la Ligue."
-CHI_dec_2nd_northern_expedition:0 "Commencez la deuxième expédition nordique contre [From.GetNameDef]"
- CHI_dec_2nd_northern_expedition_desc:0 "Le temps est venu pour la NRA de se diriger enfin vers le nord contre le gouvernement central et d'unifier le pays !"
 CHI_dec_south_warlord_expedition:0 "Préparez-vous à la guerre contre [From.GetNameDef]"
 CHI_dec_south_warlord_expedition_desc:0 "La première priorité de l'unification nationale est de sécuriser le sud de la Chine. Vaincre les seigneurs de guerre [From.GetNameDef] est un pas important dans cette direction"
 CHI_dec_west_warlord_expedition:0 "Préparez une expédition contre [From.GetNameDef]"
  CHI_dec_west_warlord_expedition_desc:0 "Les seigneurs de guerre [From.GetName] à l'ouest seront une menace pour nos arrières stratégiques jusqu'à ce qu'ils soient soit alignés sur notre Révolution, soit neutralisés."
-CHI_dec_SQI_expedition:0 "Gérer [From.GetNameDef]"
-CHI_dec_SQI_expedition_desc:0 "Le régime [From.GetName] est une menace pour tout avenir moderne et juste de la Chine. Nous devons les frapper alors qu'ils sont isolés".
 CHI_dec_SHX_expedition:0 "Mettre fin à la menace [From.GetNameDef]".
 CHI_dec_XSM_expedition:0 "Reprendre le Nord-ouest aux [From.GetNameDef]"
 CHI_dec_xinjiang_expedition:0 "Frontière sécurisée avec [From.GetNameDef]"
@@ -1271,8 +1265,6 @@ CHI_offer_autonomy_TIB:0 "Offre aux  [TIB.GetFlag] [TIB.GetNameDef] l'autonomie 
 CHI_KMT_crisis:0 "Élection présidentielle"
 CHI_KMT_crisis_desc:0 "La bataille pour devenir président est en cours entre Chen Mingshu et Soong Qingling, le gouvernement provisoire a exigé qu'une élection pour régler la question ait lieu bientôt."
 
-CHI_dec_seize_treaty_ports:0 "Envoyer Ultimatum à [From.GetNameDef]"
-CHI_dec_seize_treaty_ports_desc:0 "Les puissances occidentales impérialistes ont aspiré les richesses de la Chine par leurs concessions depuis des générations. Il est temps que ces ports conventionnés soient réincorporés au pays, et c'est à eux de décider si cela nécessitera une force militaire."
 CHI_dec_recall_Xue_and_Zhang:0 "Rappeler Xue Yue et Zhang Fakui".
  CHI_dec_recall_Xue_and_Zhang_desc:0 "Les anciens généraux du Kuomintang Xue Yue et Zhang Fakui sont restés en Inde après l'échec de l'Expédition du Nord. Ils ont passé plusieurs années en Inde en tant que conseillers militaires. Après que nous aurons mené à bien la révolution, ils seront prêts à retourner en Chine pour poursuivre notre cause révolutionnaire"
 CHI_dec_hui_brigades:0 "Brigades Hui"
