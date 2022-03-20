@@ -84,8 +84,8 @@ UPC_after_reforms_tooltip:0 "\nAprès §H300§! jours:\n"
 
 UPC_foreign_ministry_tt:0 "Débloque la £decision_icon_small §HPolitique étrangère§!"
  
- UPC_will_join_faction_after_war:9 "§GNous pourrons rejoindre les §H[FROM.GetFactionName]§! une fois nos guerres terminées.§!."
- UPC_will_join_faction_after_war_FROM:9 "§H[FROM.GetNameWithFlag] rejoindra les §H[FROM.GetFactionName]§! une fois que ses guerres seront terminées.§!."
+ UPC_will_join_faction_after_war:0 "§GNous pourrons rejoindre les §H[FROM.GetFactionName]§! une fois nos guerres terminées.§!."
+ UPC_will_join_faction_after_war_FROM:0 "§H[FROM.GetNameWithFlag] rejoindra les §H[FROM.GetFactionName]§! une fois que ses guerres seront terminées.§!."
 
 ### Flags ###
  UPC_built_to_nanning:0 "A complété la décision £decision_icon_small §H$UPC_guangzhou_nanning$§!"
@@ -411,20 +411,20 @@ lngupc.110.t:0 "Fin de la conférence [GetConferenceCity]"
 lngupc.110.d:0 "La conférence [GetConferenceCity] est terminée et la scission entre Chen Jiongming et Tang Jiyao est devenue une affaire très publique car les deux anciens alliés sont devenus des ennemis hostiles. Il est clair pour nous que les fédéralistes manquent d'unité, mais elle pourrait sortir très forte de cette crise. Nous devrions garder un oeil sur le Sud".
 lngupc.110.a:0 "La troisième fois n'est clairement pas la bonne."
 
- lngupc.111.t:9 "Rejoindre officiellement les Provinces-Unies ?"
- lngupc.111.d:9 "Bien que nous ayons été présents pour observer la conférence de Chen Jiongming à Shantou, nous n'avons pas été en mesure de prendre un engagement à ce moment-là - notre état de guerre nous a rendus distraits d'une grande partie de la conférence, en dehors de fournir des déclarations de soutien assez vagues. Alors que Jiongming a déclaré les Provinces Unies de Chine et construit une alliance pour l'aider à atteindre son objectif d'un pays libre et uni, nous avons été laissés de côté en raison de notre conflit en cours, car ni nous ni les dirigeants fédéralistes n'étaient prêts à s'engager dans une guerre à grande échelle contre nos ennemis.\n\nCependant, notre guerre est maintenant terminée, et les déclarations de soutien que nous avons faites à Shantou sont maintenant censées avoir un sens. [UPC.GetNonIdeologyNameDefCap] nous demande maintenant de respecter nos engagements précédents et de rejoindre les Provinces Unies. Malgré cela, certains de nos conseillers se sont opposés à l'idée dès le début, ou ont depuis changé d'avis - cela nous priverait de toute flexibilité diplomatique et rendrait presque certainement certains acteurs majeurs de la Chine définitivement hostiles à notre égard. Cependant, refuser signifierait probablement la même chose pour les Fédéralistes - ainsi, un choix doit être fait."
- lngupc.111.a:9 "Unissons nos forces."
- lngupc.111.b:9 "En fait, nous sommes mieux lotis par nous-mêmes."
+ lngupc.111.t:0 "Rejoindre officiellement les Provinces-Unies ?"
+ lngupc.111.d:0 "Bien que nous ayons été présents pour observer la conférence de Chen Jiongming à Shantou, nous n'avons pas été en mesure de prendre un engagement à ce moment-là - notre état de guerre nous a rendus distraits d'une grande partie de la conférence, en dehors de fournir des déclarations de soutien assez vagues. Alors que Jiongming a déclaré les Provinces Unies de Chine et construit une alliance pour l'aider à atteindre son objectif d'un pays libre et uni, nous avons été laissés de côté en raison de notre conflit en cours, car ni nous ni les dirigeants fédéralistes n'étaient prêts à s'engager dans une guerre à grande échelle contre nos ennemis.\n\nCependant, notre guerre est maintenant terminée, et les déclarations de soutien que nous avons faites à Shantou sont maintenant censées avoir un sens. [UPC.GetNonIdeologyNameDefCap] nous demande maintenant de respecter nos engagements précédents et de rejoindre les Provinces Unies. Malgré cela, certains de nos conseillers se sont opposés à l'idée dès le début, ou ont depuis changé d'avis - cela nous priverait de toute flexibilité diplomatique et rendrait presque certainement certains acteurs majeurs de la Chine définitivement hostiles à notre égard. Cependant, refuser signifierait probablement la même chose pour les Fédéralistes - ainsi, un choix doit être fait."
+ lngupc.111.a:0 "Unissons nos forces."
+ lngupc.111.b:0 "En fait, nous sommes mieux lotis par nous-mêmes."
 
- lngupc.112.t:9 "[FROM.GetNonIdeologyNameDefCap] rejoint les [ROOT.GetFactionName]."
- lngupc.112.d:9 "Nous avons été informés par [FROM.GetNonIdeologyNameDefCap] qu'ils ont terminé leur guerre et sont maintenant prêts à se déclarer plus officiellement nos alliés. Notre mouvement pour une Chine libre continue de se renforcer de jour en jour."
- lngupc.112.a:9 "Nous saluons nos nouveaux amis !"
+ lngupc.112.t:0 "[FROM.GetNonIdeologyNameDefCap] rejoint les [ROOT.GetFactionName]."
+ lngupc.112.d:0 "Nous avons été informés par [FROM.GetNonIdeologyNameDefCap] qu'ils ont terminé leur guerre et sont maintenant prêts à se déclarer plus officiellement nos alliés. Notre mouvement pour une Chine libre continue de se renforcer de jour en jour."
+ lngupc.112.a:0 "Nous saluons nos nouveaux amis !"
 
- lngupc.113.t:9 "[FROM.GetNonIdeologyNameDefCap] nous trahit !"
- lngupc.113.d.refused:9 "[FROM.GetNonIdeologyNameDefCap] a fait un revirement soudain et a indiqué qu'ils ne rejoindraient pas notre alliance après tout. Nous avons été pris au dépourvu - si nous souhaitons étendre les Provinces-Unies à leur territoire, il faudra désormais passer par la force."
- lngupc.113.d.refused_after_war:9 "Au cours de la Conférence de Shantou, [FROM.GetNonIdeologyNameDefCap] a exprimé son alignement sur nos objectifs et sa volonté de rejoindre les Provinces Unies qui allaient bientôt être proclamées - cependant, l'état de guerre dans lequel ils se trouvaient ne nous permettait pas de réagir, et il a donc été décidé que nous devions attendre la fin du conflit pour étendre notre alliance. Pourtant, maintenant que la guerre est terminée, [FROM.GetNonIdeologyNameDefCap] a fait un revirement soudain et a indiqué qu'il ne rejoindrait pas notre alliance après tout. Nous avons été pris au dépourvu - si nous souhaitons étendre les Provinces-Unies à leur territoire, il faudra désormais passer par la force."
- lngupc.113.a:9 "Quelle est cette trahison ?"
- lngupc.113.b:9 "*C'est* leur choix..."
+ lngupc.113.t:0 "[FROM.GetNonIdeologyNameDefCap] nous trahit !"
+ lngupc.113.d.refused:0 "[FROM.GetNonIdeologyNameDefCap] a fait un revirement soudain et a indiqué qu'ils ne rejoindraient pas notre alliance après tout. Nous avons été pris au dépourvu - si nous souhaitons étendre les Provinces-Unies à leur territoire, il faudra désormais passer par la force."
+ lngupc.113.d.refused_after_war:0 "Au cours de la Conférence de Shantou, [FROM.GetNonIdeologyNameDefCap] a exprimé son alignement sur nos objectifs et sa volonté de rejoindre les Provinces Unies qui allaient bientôt être proclamées - cependant, l'état de guerre dans lequel ils se trouvaient ne nous permettait pas de réagir, et il a donc été décidé que nous devions attendre la fin du conflit pour étendre notre alliance. Pourtant, maintenant que la guerre est terminée, [FROM.GetNonIdeologyNameDefCap] a fait un revirement soudain et a indiqué qu'il ne rejoindrait pas notre alliance après tout. Nous avons été pris au dépourvu - si nous souhaitons étendre les Provinces-Unies à leur territoire, il faudra désormais passer par la force."
+ lngupc.113.a:0 "Quelle est cette trahison ?"
+ lngupc.113.b:0 "*C'est* leur choix..."
 
 lngupc.2.t:0 "Participer à la conférence [GetConferenceCity]" ?
  lngupc.2.d:0 "Avec sa position sécurisée à Liangguang, Chen Jiongming nous a invités à la conférence [GetConferenceCity]. Nous avons participé aux deux premières conférences en 1924 en tant que membres du mouvement fédéraliste, ce qui a conduit à des résultats mitigés car notre mouvement n'a pas réussi à mettre fin à la guerre entre le Nord et le Sud. Nous espérons que, cette fois, Chen Jiongming vise à former un nouveau gouvernement national basé sur ses idéaux pour une Chine démocratique et fédérale, ce qui, selon lui, est la seule façon pour le peuple chinois d'être libre et prospère. \NSi nous devons assister et accepter son plan de reconstruction, il est clair que nous aurons finalement adopté une constitution fédéraliste, transféré le pouvoir à une assemblée élue et, plus important encore, fait absorber nos armées par un commandement central. Bien que cela ne soit pas idéal pour nous, les idées de Chen sont devenues populaires dans le sud de la Chine, et le fait de le rejoindre contribuera à stabiliser notre province et à nous placer dans une position de premier plan au sein du mouvement"

@@ -237,9 +237,9 @@ CAN_iedc_none:0 ""
  CAN_will_enact_no_conscription:0 "si le projet de loi C-7 est adopté, la conscription ne pourra être mise en œuvre que par le biais de la décision "promulguer la conscription".\n"
  CAN_will_enact_full_conscription:0 "si le projet de loi C-7 est adopté, la §YConscription étendue§! sera promulguée et pourra être augmentée pendant la guerre\n"
  CAN_will_enact_limited_conscription:0 "si le projet de loi C-7 est adopté, la §YConscription limitée§! sera promulguée et ne pourra être augmentée que par la décision de \"promulguer la conscription complète\".\n"
- CAN_will_build_civ_slots:9 "si le projet de loi C-7 est adopté, l'économie se concentrera sur l'§Yindustrie civile§! et les §Yemplacements de construction vides§!\n"
- CAN_will_build_mil_docks:9 "si le projet de loi C-7 est adopté, l'économie se concentrera sur les §Yusines d'armement§! et les §Ychantiers navals§!\n"
- CAN_will_build_comp:9 "si le projet de loi C-7 est adopté, l'économie se concentrera sur un mélange d'§Yindustrie civile§! et d'§Yusines d'armement§!\n"
+ CAN_will_build_civ_slots:0 "si le projet de loi C-7 est adopté, l'économie se concentrera sur l'§Yindustrie civile§! et les §Yemplacements de construction vides§!\n"
+ CAN_will_build_mil_docks:0 "si le projet de loi C-7 est adopté, l'économie se concentrera sur les §Yusines d'armement§! et les §Ychantiers navals§!\n"
+ CAN_will_build_comp:0 "si le projet de loi C-7 est adopté, l'économie se concentrera sur un mélange d'§Yindustrie civile§! et d'§Yusines d'armement§!\n"
  CAN_secret_police_winter:0 "si le projet de loi C-7 est adopté, les §YRCMP§! se verront attribuer des pouvoirs spéciaux sous la direction de §YMaxwell Knight§!\n"
  CAN_secret_police_lapointe:0 "si le projet de loi C-7 est adopté, les §YRCMP§! se verront attribuer des pouvoirs spéciaux sous la direction de §YErnest Lapointe§!\n"
  CAN_resistance_effects_reduced:0 "les modificateurs d'état négatifs seront réduits en §Y[This.GetName]§!\n"
@@ -954,7 +954,7 @@ canada.14.c:0 "Harry Crerar est notre nouveau commandant !"
 canada.14.e:0 "Kenneth Stuart est l'homme du Canada !"
 
 canada.20.t:0 "La Coupe Stanley [GetYear]"
- canada.20.d:9 "Deux équipes ont atteint la finale de la Coupe Stanley [GetYear] : les Maple Leads de Toronto, qui en sont à leur sixième participation, et les Red Wings de Detroit, qui en sont à leur deuxième participation et qui ont toujours envie de remporter leur première coupe. Après une brève interruption lors du premier match à Detroit, les manifestations du Parti socialiste américain ont perturbé le déroulement de la compétition à l'extérieur du stade. La série s'est déroulée sans problème et a captivé le public dans les deux pays. Qui remportera la coupe cette année ?"
+ canada.20.d:0 "Deux équipes ont atteint la finale de la Coupe Stanley [GetYear] : les Maple Leads de Toronto, qui en sont à leur sixième participation, et les Red Wings de Detroit, qui en sont à leur deuxième participation et qui ont toujours envie de remporter leur première coupe. Après une brève interruption lors du premier match à Detroit, les manifestations du Parti socialiste américain ont perturbé le déroulement de la compétition à l'extérieur du stade. La série s'est déroulée sans problème et a captivé le public dans les deux pays. Qui remportera la coupe cette année ?"
 canada.20.a:0 "Allez, Toronto !"
 canada.20.b:0 "Allez, Detroit !"
 
@@ -1319,11 +1319,11 @@ canada.170.d:0 "Le gouvernement [From.GetAdjective] nous a fait une offre intér
 canada.170.a:0 "On ne peut pas refuser ça"
 canada.170.b:0 "Nous devons malheureusement refuser"
 
- canada.171.t:9 "[From.GetNameDefCap] Accepte"
+ canada.171.t:0 "[From.GetNameDefCap] Accepte"
 canada.171.d:0 "Bien que le gouvernement [From.GetAdjective] soit réticent à s'impliquer dans une guerre, il est suffisamment désespéré pour accepter notre proposition."
 canada.171.a:0 "Excellent"
 
- canada.172.t:9 "[From.GetNameDefCap] refuse"
+ canada.172.t:0 "[From.GetNameDefCap] refuse"
 canada.172.d:0 "Bien que le gouvernement [From.GetAdjective] admette qu'il est dans une situation désespérée, il prétend être en bonne voie de rétablissement et n'a aucune envie de se mettre entre nous et [ENG.GetNameDef]. Ils ont exprimé leurs remerciements pour notre offre, mais l'ont malheureusement déclinée"
 canada.172.a:0 "Malheureux"
 
@@ -1967,8 +1967,8 @@ entente.112.t:0 "Le Prince Henry nommé gouverneur général"
 entente.112.d:0 "Ayant servi dans l'armée [Root.GetAdjective] depuis la chute du Royaume-Uni en 1925, le Prince Henry a été nommé nouveau gouverneur général de [AST.GetNameDef]. Des membres de la famille royale se sont présentés à l'aérodrome pour lui souhaiter bonne chance pour son vol transpacifique vers le nouveau continent et ses nouvelles fonctions".
 entente.112.a:0 "Merci pour votre service"
 
- entente.113.t:9 "[windsor.GetName] sera Couronné"
- entente.113.d:9 "De manière inattendue, [windsor.GetName] a été choisi comme nouveau roi de l'Empire britannique. Il devra immédiatement abandonner ses fonctions de gouverneur général [Root.GetAdjective] et retourner au [From.GetName]. Le poste sera occupé par le gouverneur de la Nouvelle-Galles du Sud, Sir Alexander Hore-Ruthven."
+ entente.113.t:0 "[windsor.GetName] sera Couronné"
+ entente.113.d:0 "De manière inattendue, [windsor.GetName] a été choisi comme nouveau roi de l'Empire britannique. Il devra immédiatement abandonner ses fonctions de gouverneur général [Root.GetAdjective] et retourner au [From.GetName]. Le poste sera occupé par le gouverneur de la Nouvelle-Galles du Sud, Sir Alexander Hore-Ruthven."
 entente.113.a:0 "Notre gouverneur général est maintenant le roi ! Pitié !"
 
 entente.200.t:0 "Invitation à la conférence impériale"
