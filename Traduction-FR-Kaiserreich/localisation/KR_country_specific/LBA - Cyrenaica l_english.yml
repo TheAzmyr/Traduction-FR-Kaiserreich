@@ -175,7 +175,7 @@
  LBA_nig_Kufra_Benghazi_Caravan_desc: "Wie oft sind wir geschritten\nAuf schmalem Negerpfad\nWohl durch der Steppen Mitten,\nWenn früh der Morgen naht.\nWie lauschten wir dem Klange,\nDem alten trauten Sange\nDer Träger und Askari:\nHeia heia Safari!"
 
  LBA_Senussi_Network_dc: "The Struggle against Imperialism"
- LBA_Senussi_Network_dc_desc: "Whilst we style ourselves as a fully fledged Emirate, it is apparent that the Senussi Order forms the centrepoint of our administration. A Sufi Order founded by the great Senussi himself in the early 19th century, their message of virulent anti-imperialism and a return to Islamic traditions has spread far and wide in Northern Africa through an expansive network of Lodges or 'Zawiya'.\n\nThese lodges not only provide spiritual guidance and theological education but serve as resting stops on the Trans-Saharan trade routes, provide security to the local communities and more often than not form important economic nuclei.\n\n§OLevel I§! §YZawiyas§! provide the following benefits:\n    - Unlocks §YRe-open Trade Route§! decision\n    - Adds §R-10%§! §YCompliance§! to the state\n    - Adds §R+10%§! §YResistance Target§! to the state\n    - Provides §G+30§! §YSenussi Volunteers§! every week\n\n§OLevel II§! §YZawiyas§! provide the following benefits:\n    - Unlocks §OLevel II§! §YTrading Post§! upgrades\n    - Unlocks §YArm Resistance Cells§! decision\n    - Adds §R-30%§! §YRecruitable Population Factor§! to the state\n    - Adds §R-30%§! §YAvailable Buildings Slots Factor§! to the state\n    - Adds §R-30%§! §YLocal Resources Factor§! to the state\n    - Provides §G+100§! §YSenussi Volunteers§! every week"
+ LBA_Senussi_Network_dc_desc: "Whilst we style ourselves as a fully fledged Emirate, it is apparent that the Senussi Order forms the centrepoint of our administration. A Sufi Order founded by the great Senussi himself in the early 19th century, their message of virulent anti-imperialism and a return to Islamic traditions has spread far and wide in Northern Africa through an expansive network of Lodges or 'Zawiya'.\n\nThese lodges not only provide spiritual guidance and theological education but serve as resting stops on the Trans-Saharan trade routes, provide security to the local communities and more often than not form important economic nuclei.\n\n§OLevel I§! §YZawiyas§! provide the following benefits:\n    - Unlocks §YRe-open Trade Route§! decision\n    - Adds §R-10%§! §YCompliance§! to the state\n    - Adds §R+10%§! §Y$MODIFIER_RESISTANCE_TARGET$§! to the state\n    - Provides §G+30§! §YSenussi Volunteers§! every week\n\n§OLevel II§! §YZawiyas§! provide the following benefits:\n    - Unlocks §OLevel II§! §YTrading Post§! upgrades\n    - Unlocks §YArm Resistance Cells§! decision\n    - Adds §R-30%§! §Y$MODIFIER_RECRUITABLE_POPULATION_FACTOR$§! to the state\n    - Adds §R-30%§! §YAvailable Buildings Slots Factor§! to the state\n    - Adds §R-30%§! §YLocal Resources Factor§! to the state\n    - Provides §G+100§! §YSenussi Volunteers§! every week"
 
  lba_senussi_zawiya_modifier: "Senussi Zawiya Present"
 
@@ -267,10 +267,17 @@
  LBA_nig_add_guns: "The §YCaravan§! will transport §Y[?LBA.nig_route]§! £rifle_texticon per connected trading post not blockaded on this route.\n§YTotal Amount§! £rifle_texticon on this §YCaravan§!: [?LBA.nig_route_total]\n\n"
  lba_trading_post_upgraded_tt: "§gUpgrades §YTrading Post§! to §OLevel II§!, granting the following effects:§!\nShipping Time: §G-5 days§!"
  lba_zawiya_1_tt: "§gUpgrades §YZawiya§! to §OLevel I§!, granting the following effects:§!\n"
- lba_zawiya_2_tt: "§gUpgrades §YZawiya§! to §OLevel II§!, granting the following effects:§!\nRecruitable Population Factor: §R-30%§!\nAvailable Buildings Slots Factor: §R-30%§!\nLocal Resources Factor: §R-30%§!\n"
+ lba_zawiya_2_tt: "§gUpgrades §YZawiya§! to §OLevel II§!, granting the following effects:§!\n$MODIFIER_RECRUITABLE_POPULATION_FACTOR$: §R-30%§!\nAvailable Buildings Slots Factor: §R-30%§!\nLocal Resources Factor: §R-30%§!\n"
  lba_blocked_tt: "§OCaravan§! route will be blockaded by the authorities"
  lba_blocked_destroyed_tt: "§OCaravan§! route will be blockaded by the authorities\n§CZawiya§! will be destroyed\n"
  lba_weapons_smuggling_tt: "All §YCaravan Stops§! will provide an extra §Y10§! £rifle_texticon per connected trading post not blockaded"
+ lba_weapons_smuggling_15_tt: "All §YCaravan Stops§! will provide an extra §Y15§! £rifle_texticon per connected trading post not blockaded"
+ lba_weapons_smuggling_15_neg_tt: "All §YCaravan Stops§! will provide §Y15§! less £rifle_texticon per connected trading post not blockaded"
+ lba_desert_cartographers_tt: "\nThis will reduce the chances that our Caravans are lost in the Sahara!"
+ lba_desert_spy_ring_tt: "\nThis will hinder French units from catching our operations."
+ lba_armed_caravans_tt: "\nWhile the extra guns may slow the Caravans, the extra firepower comes in handy!"
+ lba_pliant_authority_tt: "\nThe right people, given the right gifts will help ensure our Caravans are more likely to make it home safe!"
+ lba_libya_has_formed: "The united nation of Libya has been formed"
  trading_post_level_1: "§C(Level 1/2)§!"
  trading_post_level_2: "§C(Level 2/2)§!"
  zawiya_level_0: "§C(Level 0/2)§!"
@@ -783,6 +790,14 @@
  LBA_omar_shegewi: "Omar Shegewi"
  LBA_omar_faiek_shennib: "Omar Faiek Shennib"
 
+ LBA_senussi_cartographers: "Senussi Cartographers"
+ LBA_senussi_spy_ring: "Senussi Spy Ring"
+ LBA_well_armed_bannermen: "Well Armed Bannermen"
+ LBA_pliant_authorities: "Pliant Authorities"
+
+ LBA_as_siddig_al_mutassir: "As-Siddig al-Mutassir"
+ LBA_yousef_borheil_al_massari: "Yousef Borheil al-Massari"
+
 ### Characters ###
  TRP_bashir_bin_hamza: "Bashir Bin Hamza"
  TRP_ahmad_faqih_hasan: "Ahmad Faqih Hasan"
@@ -791,4 +806,12 @@
  TRP_salim_bey_al_muntasir: "Salim Bey al-Muntasir"
  TRP_ramadan_al_suwayhili: "Ramadan al-Suwayhili"
  TRP_ali_rajab: "'Ali Rajab"
+
+ TRP_mahmud_al_muntasir: "Mahmud al-Muntasir"
+ TRP_abdul_majid_kubar: "Abdul Majid Kubar"
+ TRP_abdul_salam_al_buseiri: "Abdul Salam al-Buseiri"
+ TRP_muhammad_sakizli: "Muhammad Sakizli"
+ TRP_ali_aneizi: "Ali Aneizi"
+
  TRP_salim_b_abd_al_nabi: "Salim B. Abd al-Nabi"
+ LBA_senussi_military_council: "Senussi Military Council"

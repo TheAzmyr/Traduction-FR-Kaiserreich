@@ -2,6 +2,10 @@
 
  finnish_focus: "Finland Focus Tree"
 
+### World Tension ###
+ FIN_revolution_threat: "Revolution in Finland"
+ FIN_coup_threat: "Nationalist Coup in Finland"
+
 ### Parties ###
  FIN_totalist_party: "Punakaarti"
  FIN_totalist_party_long: "Punakaarti"
@@ -24,9 +28,8 @@
  FIN_national_populist_party: "Lapuan Liike"
  FIN_national_populist_party_long: "Lapuan Liike"
 
-### Leaders ###
- POLITICS_FREDRIK_KAARLE_DESC: "Friedrich Karl Landgraf von Hessen-Kassel was elected king of Finland by the Finnish parliament on 9 October 1918 and arrived with his son prince Wolfgang as future crown prince in 1919, presiding over Finland as it was recovering from the civil war that ravaged the country in conjunction with the national coalition that has been ruling Finland.\n\nIn more recent years however, the Finnish king of German heritage has increasingly developed into a symbol of German influence in Finland and despite his best attempts, his popularity that had been growing in the wake of reconstructing the country has waned beyond loyalists of the National Coalition."
- POLITICS_VAINO_DESC: ""
+ FIN_party_patriotic_peoples_movement: "IKL"
+ FIN_party_patriotic_peoples_movement_long: "Isänmaallinen Kansanliike"
 
 ### Focuses ###
  FIN_democracy_triumphant: "Democracy Triumphant"
@@ -98,9 +101,9 @@
  FIN_socialist_victory: "Socialist Victory"
  FIN_socialist_victory_desc: "The Finnish People's Delegation, working in lockstep with the Red Guard, have managed to defeat back both the forces of the former King and the White Guard, having seized power for themselves. It seems as though, in the end, the red forces have finally prevailed in taking over Finland..."
  FIN_denounce_monarchism: "Denounce Monarchism"
- FIN_denounce_monarchism_desc: "We must vehemently denounce any and all forms of monarchism. No human should be or deserves to be above any other human."
+ FIN_denounce_monarchism_desc: "Finland has been under the control of the Germans and their lapdogs for years now, sowing the seeds of discontent and stifling the people under the oppressive ideology of monarchism blended with a mix of reactionary thought. The state has taken it upon itself to remove monarchist ideals from the nation, though this has displeased our more rural citizens, who are rather conservative in their thought and would prefer a monarch over a syndicalist government."
  FIN_disband_state_sponsored_religious_institutions: "Disband State Religious Institutions"
- FIN_disband_state_sponsored_religious_institutions_desc: "The state-sponsored religious institutions, during the Civil War, had worked against us. Perhaps it is time that we take our revenge against these institutions as well."
+ FIN_disband_state_sponsored_religious_institutions_desc: "The Evangelical Lutheran Church of Finland, which had once taken a stand against us during the civil war, has been declared an unnecessary institution. The Red Guard, who have been given free reign (for the moment) in order to allow us to more easily initiate our directives, have begun purging members of the clergy."
  FIN_a_new_constitution: "A New Constitution"
  FIN_a_new_constitution_desc: "In order to garner legitimacy for our rule alongside solidifying the framework for the new Finnish state, it is important that we begin the drafting and eventual passage of a new state constitution."
  FIN_the_red_guard_seizes_power: "The Red Guard Seizes Power!"
@@ -165,10 +168,8 @@
  FIN_marginalise_the_socialists_desc: "The socialists have always been the bane of our rule within Finland. It is time that we take decisive action against them, by slowly turning the ordinary citizenry away from the corrupt ideas of socialism."
  FIN_strengthen_the_presidents_power: "Strengthen the President's Power"
  FIN_strengthen_the_presidents_power_desc: "A strong executive is required to lead Finland and represent the will of the people on the world stage."
- FIN_monolingualism: "Monolingualism"
- FIN_monolingualism_desc: "The question of the Swedish-speaking Finns has always been a complicated one within Finnish society. However, if there is any party that can solve such a controversial issue, we believe it is us."
- FIN_compulsory_education: "Compulsory Education"
- FIN_compulsory_education_desc: "The idea that every Finn has the right to an education is a correct one. We must provide our people with the resources needed to bolster the welfare of our citizenry and prosperity of our nation."
+ FIN_language_question: "Monolingualism"
+ FIN_language_question_desc: "The question of the Swedish-speaking Finns has always been a complicated one within Finnish society. We are prepared to offer an olive branch to them, as long as the Swedish regions are just as loyal to the nation as its Finnish-speaking ones are."
  FIN_progressive_taxation: "Progressive Taxation"
  FIN_progressive_taxation_desc: "We must restructure the taxation system so as to allow for a more fair and efficient system of taxation."
  FIN_reward_the_businessmen: "Reward the Businessmen"
@@ -440,10 +441,6 @@
  finland.23.d: "In order to ensure that another fiasco, such as the [Root.GetAdjective] Civil War and the recent infighting between various factions within [Root.GetName], does not take place, the Red-Earth government has been working tirelessly in order to promote democratic ideals and foster national unity.\n\nWhile the effort is still ongoing, it seems to have borne fruit as the youth of [Root.GetAdjective] seemed less inclined towards the radical politics of some of their elders and have shown strong support for the democratic ideals championed by the government."
  finland.23.a: "This will surely ensure for a brighter future!"
 
- finland.24.t: "[Root.GetAdjective] Sovereignty"
- finland.24.d: "Endorsing and ensuring the protection of [Root.GetAdjective] sovereignty is important. We must not allow for [Root.GetName] to fall under the yoke of imperialist powers. Whether it’d be [GER.GetNameDef] or [RUS.GetNameDef], we cannot allow for the [Root.GetName] people to remain under the oppression of a foreign power any longer. That is why we must foster a sense of patriotism and pride within the [Root.GetAdjective] people and ensure the protection of our great nation for the years to come."
- finland.24.a: "Long live [Root.GetName]!"
-
  finland.25.t: "Mending Societal Divisions"
  finland.25.d: "Avoiding the fiasco which occurred and had nearly torn apart [Root.GetName] is one of the biggest priorities for the Red-Earth government, with said event still fresh in the minds of the [Root.GetAdjective] people. In order to circumvent this and prevent the mistakes of the past, prominent leaders from within the Red-Earth government have taken to meeting with moderates from both the left and the right and working to bring the [Root.GetAdjective] people together, uniting the nation as one. Whether or not the actions taken by the coalition will work, only time will tell..."
  finland.25.a: "We must foster unity."
@@ -466,10 +463,6 @@
  finland.29.d: "Historically known for its extremely left leaning views prior to the conclusion of the [Root.GetAdjective] Civil War, the remaining members of the Social Democratic Party of [Root.GetName], coalescing under the leadership of Väinö Tanner began to move further to the right, despite maintaining its original goals, in order to appear as a more patriotic party while also remaining palatable to the average [Root.GetAdjective] voter.\n\nAs it stands, the agenda of the SDP is to further the rights of workers, regulate [Root.GetName]’s capitalist economy, and push for the continued, yet gradual, reform of the nation."
  finland.29.a: "A new era for [Root.GetName] has begun!"
 
- finland.30.t: "The Confederation of [Root.GetAdjective] Trade Unions"
- finland.30.d: "In order to allow for labour and unions to more effectively organise in the face of opposition, the Social Democratic Party have seen fit to create the Confederation of [Root.GetAdjective] Trade Unions, containing many of [Root.GetName]’s most notable and powerful unions."
- finland.30.a: "Interesting."
-
  finland.31.t: "The Agrarian League"
  finland.31.d: "Founded in 1906 by [Root.GetAdjective] living in rural parts of [Root.GetName], the Agrarian League have long supported the decentralisation and progression of [Root.GetName]. Today, primarily composed of farmers, the Agrarian League has always been an opponent of monarchism.\n\nAs it stands, the agenda of the Agrarians are to foster [Root.GetAdjective] independence, decentralise the current political system, and provide support for the farmers."
  finland.31.a: "A new era for [Root.GetName] has begun!"
@@ -482,14 +475,6 @@
  finland.33.t: "Freeing Kullervo Manner"
  finland.33.d: "Following the victory of the [Root.GetAdjective] People’s Delegation and their subsequent purge of reactionaries within [Root.GetName], Kullervo Manner, who had once led the governing body, has officially been freed after nearly two decades of imprisonment in Suomenlinna.\n\nFerried across the island to the capital, Helsinki, Manner, not missing a beat, gave an impassioned speech to an audience of thousands, who were elated to see their former leader freed once more. What this may hold for the future of [Root.GetName], only the [Root.GetAdjective] People’s Delegation and their allies, the Red Guard, know..."
  finland.33.a: "A truly joyous occasion!"
-
- finland.34.t: "Denouncing Monarchism"
- finland.34.d: "The [Root.GetName] has been under the control of the [GER.GetAdjective]s and their lapdogs for years now, sowing the seeds of discontent and stifling the [Root.GetAdjective] people under the oppressive ideology of monarchism blended with a mix of reactionary thought.\n\nThe state has taken it upon itself to remove monarchist ideals from the nation, though this has displeased our more rural citizens, who are rather conservative in their thought and would prefer a monarch over a syndicalist government."
- finland.34.a: "They'll come around soon enough."
-
- finland.35.t: "Evangelical Lutheran Church of Finland"
- finland.35.d: "The Evangelical Lutheran Church of Finland, which had once taken a stand against us during the [Root.GetAdjective] Civil War, has been declared by the [Root.GetAdjective] People’s Delegation as an unnecessary institution.\n\nThe Red Guard, who have been given free reign (for the moment) in order to allow us to more easily initiate our directives, have begun purging members of the clergy. Of course, this has not endeared us to many of the more conservative people within [Root.GetName]."
- finland.35.a: "No matter."
 
  finland.36.t: "The [Root.GetAdjective] Constitution"
  finland.36.d.syndicalist: "In order to properly cement their power, the [Root.GetAdjective] People’s Delegation have taken to drafting and ratifying a new constitution for [Root.GetName].\n\nAs it stands, the newly passed constitution provides for the protection of [Root.GetAdjective] democracy, greater rights for the labour movement, a better–and more efficient–method of tax collection for the government, the furthering and support of the new regime’s ideological goals, and administrative restructuring in order to allow for a smoother transition to the new form of government.\n\nAlready, trade unions, now infinitely greater in terms of the power possessed, have begun to slowly take over and now make up the government. What this may hold for [Root.GetName], only the [Root.GetAdjective] People’s Delegation and their close allies know..."
@@ -515,50 +500,14 @@
  finland.40.a: "The Red Guard has been disbanded!"
  finland.40.b: "The Red Guard has seized power!"
 
- finland.41.t: "The Question of Capitalist Newspapers"
- finland.41.d: "In order to prevent and reverse the current indoctrination of the [Root.GetAdjective] people under the capitalist system, while also building support for the current regime, we must ban all capitalist and/or counter-revolutionary papers. Of course, this will not reflect well on us in the short term due to our willingness, in the eyes of the people, to erode the freedom of press, but it is necessary to ensure the stability of [Root.GetName]."
- finland.41.a: "We cannot halt now."
-
- finland.42.t: "Tax Collection"
- finland.42.d: "One of the biggest issues on part of the [Root.GetAdjective] People’s Delegation, which had also been a prevalent issue throughout the [Root.GetAdjective] Civil War, was the lack of proper tax collection on behalf of our government. In order to allow for the various functions of the government to run properly and receive sufficient funding, we must enforce tax collection from our citizens. While this will not endear us any further to the [Root.GetAdjective] citizenry, it is something that must be done."
- finland.42.a: "Better to get it over with now."
-
  finland.43.t: "The Red Guard"
  finland.43.d: "Paramilitary units of the [Root.GetAdjective] labour movement, the Red Guard were initially founded in 1905, and re-established in 1917 following the October Revolution in Russia.\n\nServing as the army of Red Finland, the Red Guards were known to many within Finland to be an aggressive revolutionary army, willing to do anything to push their ideology. This had put them at odds with the [Root.GetAdjective] People’s Delegation, who wished to control the increasingly radicalised paramilitary units.\n\nHowever, neither of the sides within the [Root.GetAdjective] Civil War were able to make a move as, in 1918, the combined White Guard and [GER.GetAdjective] forces were able to defeat the socialists and assume control of the nation.\n\nForced with no other option, those who belonged to the [Root.GetAdjective] People’s Delegation and the Red Guard, and who were not arrested, were forced to flee to Bolshevik Russia.\n\nAfter the formal surrender by the Bolsheviks in 1920, the Red Guard and the [Root.GetAdjective] People’s Delegation were forced to relocate to Finland, hiding underground. Now led by Otto Wille Kuusinen, the Red Guard forged yet another alliance with the Delegation, promising to take power and bring socialism to Finland."
  finland.43.a: "We shall bring greatness to Finland!"
-
- finland.44.t: "The Second Red Terror"
- finland.44.d: "In order to crush all dissent from opposing figures, political parties, or newspapers, the Red Guard has taken to imprisoning, trying, and executing various counter-revolutionaries and ideological enemies of the state. While this will allow for us to better consolidate our power over the fearful people, who, for now, know not to oppose us, this will have painful ramifications on the functions of the state as many of our leading figures have been removed from power."
- finland.44.a: "So be it."
-
- finland.45.t: "Expanding the Bureaucracy"
- finland.45.d: "So as to allow for the centralisation of power under the new regime alongside a greater hold on power by the Red Guard, Otto Wille Kuusinen has seen fit to expand the [Root.GetAdjective] bureaucracy and staff it with civil servants who are willing to carry out the directives of the new government.\n\nWhile this has harmed our standing with the farmers, who would rather see greater representation for rural Finland, this has increased our standing with the urban [Root.GetAdjective] population, who are content with the fact that the government will be receptive to their needs."
- finland.45.a: "You win some, you lose some."
-
- finland.46.t: "The Question of Private Assets"
- finland.46.d: "It is important that we turn our attention towards the bourgeois institutions within [Root.GetNameDef], such as the various banks within the nation, industrial conglomerates, and other profitable financial institutions.\n\nAllowing for the government to properly function while also ensuring that we have money on hand to help carry out our directives is key. Thus, we must take to seizing private assets from the wealthiest individuals."
- finland.46.a: "I'm sure they won't mind."
-
- finland.47.t: "Anti-Parliamentarism"
- finland.47.d: "It is already well established that within the doctrine of the Lapua Movement, the parliament itself is a self-serving and ineffective organ of the government that is only effective at fostering disunity and bickering amongst the [Root.GetAdjective] people. Such a branch within the government must be dealt with at a later date..."
- finland.47.a: "Indeed."
 
  finland.48.t: "The Question of the Military High Command"
  finland.48.d: "The question of the military high command has been a very prevalent discussion between various members of the Lapua Movement. As the issue of the remnants of the [GER.GetAdjective] presence in [Root.GetName] and its eventual removal has always been a goal of the Lapua Movement, it is only natural, to many, that members of the military high command who had served in the Royal Prussian 27th Jäger Battalion should be removed from their positions within the military. However, Kurt Martti Wallenius, who himself had been a part of the battalion, is not a supporter of such a purge and argues that getting rid of the military’s best men would only weaken the state of the [Root.GetAdjective] Army.\n\nWith this in mind, the best course of action would be to..."
  finland.48.a: "Purge any and all Jägers!"
  finland.48.b: "Allow the men to remain in power."
-
- finland.49.t: "Purging Socialists"
- finland.49.d: "In order to solidify our control over [Root.GetName] and prevent any dissent against our rule, we must take to purging any and all socialists. We have even gone as far as purging anybody who is sympathetic towards the socialist platform. This has provided us with the stability needed to continue running the nation without further obstacles."
- finland.49.a: "Wonderful!"
-
- finland.50.t: "The Role of the Clergy"
- finland.50.d: "For the longest time, alongside much of [Root.GetName]’s rural population, the clergymen have been one of the biggest supporters of the Lapua Movement, having spoken out in favour of our cause, thus helping spread it. Many of the more prestigious clergymen have also been apart of a support group of sorts, who have helped fund and proliferate our cause to the masses. We must reward the clergy, and strengthen their role in the new [Root.GetAdjective] state."
- finland.50.a: "It is only natural that we expand their role."
-
- finland.51.t: "Abolition of Parliament"
- finland.51.d: "Rather than a parliament to lead the [Root.GetAdjective] nation to greatness, what is in fact needed is a strong executive who will work in the interests of both the nation and the people. Political parties and members of parliament are inherently self-serving and cannot save the [Root.GetAdjective] nation from destruction, as seen by the [Root.GetAdjective] Civil War. We must abolish the parliament at once and swiftly begin to carry out our directives."
- finland.51.a: "Such an institution is corrupt to the very core..."
 
  finland.52.t: "[FIN.GetName] has Remilitarised the Åland Islands!"
  finland.52.d: "It seems as though the nationalist [FIN.GetAdjective] has done what we’d feared: namely, the remilitarisation of the Åland Islands. The former government had, with the mediation of [GER.GetNameDef], agreed to respect the rights of the [Root.GetName] citizens in the area. Unfortunately, the Lapua Movement have reneged on that promise, remilitarising the island and silencing any dissent.\n\nWhile many of our more nationalist citizens are clamouring for us to declare war on [FIN.GetName] and take by the islands by military force, moderate politicians argue that we should use diplomacy to take back the islands. What should we do?"
@@ -572,10 +521,6 @@
  finland.54.t: "The National Coalition"
  finland.54.d: "Despite having been dominated by the ethnically [GER.GetAdjective] King Fredrik I and the more conservative wing of the National Coalition for most of [Root.GetName]’s history, the National Coalition has also had within it members who belong to a more moderately conservative ilk.\n\nLed by Pehr Evind Svinhufvud, who himself is not unwilling to take advantage of the republican atmosphere within [Root.GetName], despite having pleaded with the [GER.GetAdjective]s for aid during the [Root.GetAdjective] Civil War. Svinhufvud, who himself is an ardent supporter of the White Guard, yet also resists the radical Lapua Movement and [Root.GetAdjective] Delegation, has promised to restore peace and order within [Root.GetName], while also ensuring that sovereignty is maintained.\n\nUnder Svinhufvud’s directive, the National Coalition wishes to empower the office of presidency while also preserving the systems put in place."
  finland.54.a: "We cannot abandon our traditions!"
-
- finland.55.t: "Monolingualism"
- finland.55.d: "One of the big questions on the minds of the [Root.GetAdjective] people and, indeed, the politicians of the National Coalition is the question of what [Root.GetName]’s official language and the issue of monolingualism. While the [SWE.GetAdjective] language is most popular throughout Åland, coastal communities within southern and eastern [Root.GetName] also contain many [SWE.GetAdjective] speakers.\n\nHaving made up their minds, the politicians within the National Coalition have decided to officially opt [Root.GetAdjective] as the official language of [Root.GetName]."
- finland.55.a: "This will allow for greater uniformity."
 
  finland.56.t: "The Citizens of Åland React!"
  finland.56.d: "The citizens of Åland, having bore the brunt of our new changes, are clearly dissatisfied with the government choosing [Root.GetAdjective] as the sole language of [Root.GetName]. This has, unfortunately, had the side effect of already hurting our already strained relationship with Åland, whose citizens ultimately wish to join [SWE.GetNameDef]."
@@ -593,17 +538,9 @@
  finland.59.d: "It is clear that we must take to expanding the role of the State Police, so as to allow the detection of activities deemed as stirring up dissent and, hopefully, end such activities before they can take hold on the nation and gain widespread influence amongst the people.\n\nAs such, King [Root.GetLeader] has seen fit to increase the budget and powers of the State Police while also delegating day to day matters to intelligence ministers within his cabinet. The increase in funding has allowed for the investigation office of the State Police to employ a greater amount of employees while also allowing them to test out new methods to deal with any sort of dissidents and protect [Root.GetNameDef]’s internal security. This has, of course, not been popular with large segments of the population, who view the measure as both excessive and totalitarian..."
  finland.59.a: "It is for the greater good."
 
- finland.60.t: "Stabilising [Root.GetName]"
- finland.60.d: "Despite having managed to successfully take and consolidate power, for now, it is clear that Mannerheim has much to do with regards to the stability of the nation. While the radicals on both the left and the right no longer pose a credible threat, the [Root.GetAdjective] people remain unsure about the new government and its goals for [Root.GetName].\n\nIn order to clear up most of the uncertainty, Mannerheim has openly stated that his goal is to bring back stability to [Root.GetName] while ensuring both peace and prosperity for the nation."
- finland.60.a: "Admirable."
-
  finland.61.t: "The Constitution of [Root.GetName]"
  finland.61.d: "Working tirelessly with several former and current government officials, legal and constitutional experts, and members of his inner circle, Mannerheim has been working on the creation for a new [Root.GetAdjective] constitution, so as to lay the foundation for a solid and stable [Root.GetName].\n\nIncluded in the constitution is the strengthening of parliament as the strongest organ of the government, the official abolition of the monarchy, provisions regarding human rights, justice, international relations, and the administration of the nation.\n\nWith so many experts having written the constitution, and the [Root.GetAdjective] people in favour of legitimising [Root.GetName]’s newfound status in the world, it is no surprise that, earlier today, the constitution passed with flying colours, with parliament unanimously ratifying it. It’s effects, however, remain to be seen..."
  finland.61.a: "Wonderful!"
-
- finland.62.t: "Unifying the People"
- finland.62.d: "So as to not allow our efforts to go to waste, it is key that we bridge the gaps left over by the [Root.GetAdjective] Civil War alongside coercing the [Root.GetAdjective] people to put aside their ideological differences in order to truly come together and make [Root.GetName] a great and prosperous nation. While the task of doing so is certainly one that requires dedication and compassion, it is clear that Mannerheim embodies those traits and wishes to empower the nation and its people."
- finland.62.a: "We must go forth, with our heads held high."
 
  finland.63.t: "[FIN.GetName] Pursues Ties"
  finland.63.d: "In order to garner worldwide support for their newfound independence, it seems as though the [FIN.GetAdjective] government under [FIN.GetLeader] has pushed for establishing ties with our nation. Having sent diplomats on behalf of the [FIN.GetAdjective] state and petitioning us to recognise the new government, it seems as though, ultimately, the choice is up to us with regards to how this situation should be approached."
@@ -953,7 +890,6 @@
  FIN_irridentism_idea: "Irredentism"
  FIN_the_clergy_idea: "The Clergy"
  FIN_corporatist_economics_idea: "Corporatist Economics"
- FIN_compulsory_education_idea: "Compulsory Education"
  FIN_educating_the_citizenry_idea: "Educating the Citizenry"
  FIN_economic_liberalism_idea: "Economic Liberalism"
  FIN_expanded_state_police_idea: "Expanded State Police"
@@ -1126,8 +1062,15 @@
  FIN_pehr_evind_svinhufvud: "Pehr Evind Svinhufvud"
  FIN_carl_gustaf_mannerheim: "Carl Gustaf Mannerheim"
  FIN_juho_kusti_paasikivi: "Juho Kusti Paasikivi"
- FIN_fredrik_kaarle_i: "Fredrik Kaarle"
- FIN_vaino_i: "Väinö I"
+
+ FIN_friedrich_karl_von_hessen_kassel: "Friedrich Karl von Hessen-Kassel"
+ FIN_friedrich_karl_von_hessen_kassel_regnal: "Fredrik Kaarle"
+ FIN_friedrich_karl_von_hessen_kassel_leader_desc: "Friedrich Karl von Hessen-Kassel, Kaiser Wilhelm's brother-in-law, was elected king of Finland by the Finnish parliament on 9 October 1918 and arrived with his son prince Wolfgang as future crown prince in 1919. He was proved to be stern, silent man, who directed the country with firm hand with his supporters in the National Coalition Party.\n\nIn more recent years however, the Finnish king of German heritage has increasingly developed into a symbol of German influence in Finland and despite his best attempts, his popularity that had been growing in the wake of reconstructing the country has waned beyond loyalists of the National Coalition."
+
+ FIN_wolfgang_von_hessen_kassel: "Wolfgang von Hessen-Kassel"
+ FIN_wolfgang_von_hessen_kassel_regnal: "Väinö I"
+ FIN_wolfgang_von_hessen_kassel_leader_desc: "If Prince Wolfgang's late father was solemn and distant, his son has done his best to truly integrate into the Finnish high society. He has served in the Finnish army, married a Finnish noblewoman and paid much attention to Finland's economic and cultural life. All this has prepared him to be well-liked king, perhaps capable of truly solidifying Finland as a monarchy."
+
  FIN_kurt_martti_wallenius: "Kurt Martti Wallenius"
  FIN_vilho_annala: "Vilho Annala"
  FIN_erik_heinrichs: "Erik Heinrichs"
@@ -1148,3 +1091,27 @@
  FIN_vaino_valve: "Väinö Valve"
  FIN_eero_rahola: "Eero Rahola"
  FIN_svante_sundman: "Svante Sundman"
+ FIN_tuomas_hyrskymurto: "Tuomas Hyrskymurto"
+ FIN_adolf_taimi: "Adolf Taimi"
+ FIN_karl-august_fagerholm: "Karl-August Fagerholm"
+ FIN_aimo_cajander: "Aimo Cajander"
+ FIN_juho_sunila: "Juho Sunila"
+ FIN_edwin_flinck: "Edwin Flinck"
+ FIN_bruno_salmiala: "Bruno Salmiala"
+ FIN_johan_henrik_lumivuokko: "Johan Henrik Lumivuokko"
+ FIN_august_wesley: "August Wesley"
+ FIN_edvard_gylling: "Edward Gylling"
+ FIN_hella_wuolijoki: "Hella Wuolijoki"
+ FIN_vaino_voionmaa: "Väinö Voionmaa"
+ FIN_urho_kekkonen: "Urho Kekkonen"
+ FIN_eljas_erkko: "Eljas Erkko"
+ FIN_risto_ryti: "Risto Ryti"
+ FIN_rafael_haarla: "Rafael Haarla"
+ FIN_hjalmar_procope: "Hjalmar Procopé"
+ FIN_elmo_kaila: "Elmo Kaila"
+ FIN_elias_simojoki: "Elias Simojoki"
+ FIN_vihtori_kosola: "Vihtori Kosola"
+ FIN_aladar_paasonen: "Aladár Paasonen"
+ FIN_reino_hallamaa: "Reino Hallamaa"
+ FIN_vaino_vuori: "Väinö Vuori"
+ FIN_sixtus_hjelmman: "Sixtus Hjelmman"

@@ -1,20 +1,5 @@
 ﻿l_english:
 
-### Leaders ###
- POLITICS_SEBASTIEN_FAURE_DESC: "Sébastien Faure is the first Anarchiste to serve as Chairman of the Bourse Générale du Travail. Originally empowered to chairman in a compromise between the Travailleurs and Anarchistes, factionalism has grown considerably during his time in office, and the apparatus of the state has weakened. If any faction manages to gain a clear majority in the Comité de Salut Public and the Bourse Générale du Travail, Faure is likely to be ousted."
- POLITICS_LEON_JOUHAUX_DESC: "Léon Jouhaux has been elected Chairman of the Bourse Générale du Travail. Jouhaux, as a revolutionary trade unionist, participated in the general strike of 1919 which precipitated the Commune's establishment. He is an adherent of orthodox French syndicalism, a true centrist among the factions of the Commune."
- POLITICS_BENOIT_FRACHON_DESC: "Benoît Frachon, a veteran of the French Civil War, has become chairman of the Bourse Générale du Travail. While a Syndicalist, he is sympathetic towards the opposing anarchiste faction; to that end, he has declared mending the Commune's factionalism the chief goal of his chairmanship."
- POLITICS_GAMELIN_DESC: "General Maurice Gamelin has overthrown the Jacobin regime of Marcel Déat. While his coup is an obvious affront to the already dubious Communard democratic process, many now regard Gamelin as the saviour of the Commune, and even syndicalism itself."
- POLITICS_MARCEL_CACHIN_DESC: "Marcel Cachin, former diplomat and bureau chief of the state-owned newspaper, Humanité, has become chairman of the Commune of France. While a Leninist, his diplomatic attitude and general charisma, allow him to retain some degree cordiality with syndicalists and anarchists."
- POLITICS_GEORGES_VALOIS_DESC: "Georges Valois, an adherent to the national-syndicalist teachings of Georges Sorel, has become chairman of the Bourse Générale du Travail. Valois advocates the unification of the chairmanships of the Bourse Générale du Travail and Comité de Salut Public, a precursor in the eyes of many Communards, to tyranny."
- POLITICS_JACQUES_DORIOT_DESC: "Jacques Doriot, veteran of the Weltkrieg, returned from captivity in Germany to find a France forever changed. His personal transformation from moderate socialist, to Leninist, and now national-syndicalist, has instilled in him an engrained proclivity for compromise."
- POLITICS_VINCENT_AURIOL_DESC: "Vincent Auriol, long accused by hardline syndicalists of harbouring sympathies for the bourgeoisie, has become chairman of the Bourse Générale du Travail. He advocates the gradual transition to a more democratic system of government in the Commune."
- POLITICS_DANIEL_GUERIN_DESC: "Daniel Guérin has now not only usurped from the charismatic Nestor Makhno leadership of the Anarchiste faction of the French Commune, but also won the chairmanship itself. Guérin is an academic, and a moderate in comparison to Makhno, who has proven to be a capable lawmaker."
- POLITICS_MARCEL_DEAT_DESC: "Marcel Déat has upended the Communard political system. A Leninist who has frequently made public his contempt for syndicalism, Déat stands in opposition to much of France's political establishment. His many enemies both within and outside France could lead to his, and perhaps also the Commune's, downfall."
-
-### Unit Leaders ###
- FRA_NAVY_FRANCOIS_DARLAN_DESC: "§YAdmiral Description\n§YBorn:§L\n7 August 1881 in Nérac, Lot-et-Garonne.\n§YNaval Career:§L\nJean Louis Xavier François Darlan was born to a family long connected to the navy. He would graduate from the École Navale in 1902, and during the Weltkrieg would notably serve in an artillery battery at the Battle of Verdun. Swept in the chaos of the Revolution and spurned by his patriotism and moderate left-wing convictions, Darlan would rejoin the Communard Navy and over the next several years would rise rapidly through the ranks. He is now one of the most respected men in the French Navy, proud of the institution he has helped to rebuild."
-
 ### Tooltips ###
  FRA_ongoing_phalanstere_development: "§YIs helping in developing another country.§!"
  CSA_redeagles_tt: "New volunteer aviators and aircraft will arrive."
@@ -22,11 +7,11 @@
 
  INT_phalanstere: "Phalanstère International"
 
- KR_phalanstere_tooltip: "§H[GetPhalanstereName]§!"
+ KR_phalanstere_tooltip: "[GetPhalanstereName]"
  KR_phalanstere_tooltip_desc: "§L[GetPhalanstereDesc]§!"
 
- KR_phalanstere_name_INT: "Leader of the Phalanstère Internationale"
- KR_phalanstere_name: "Member of the Phalanstère Internationale"
+ KR_phalanstere_name_INT: "Leader of the §H$INT_phalanstere$§!"
+ KR_phalanstere_name: "Member of the §H$INT_phalanstere$§!"
 
  KR_phalanstere_desc_INT: ""
  KR_phalanstere_desc: ""
@@ -40,7 +25,13 @@
  FRA_all_but_chad_niger: "§HFrench Sudan§!, §HGuinea§!, §HMauritania§!, §HTunisia§!, §HUpper Volta§!"
 
  FRA_wave_of_dissent: "Wave of Dissent"
- FRA_wave_of_dissent_tooltip: "Gains §H$FRA_wave_of_dissent$§! for §H200§! days, which grants (Resistance Growth: [?2|- = %0], Daily Compliance Gain: [?0.02|- = %])."
+
+### World Tension ###
+ FRA_rearmament_threat: "French Rearmament"
+ FRA_attacks_germany_threat: "France Attacks Germany"
+
+### Traits ###
+ FRA_atomic_pair: "Atomic Pair"
 
 ### Companies ###
  metallurgique_de_normandie: "Société Métallurgique de Normandie"
@@ -136,12 +127,6 @@
 
  FRA_Red_Army: "Grande Armée Rouge"
  FRA_Red_Army_desc: "Our army is in better shape than ever to face the evils of this capitalist world."
-
- Capital_Ship_Primacy: "Capital Ship Primacy"
- Capital_Ship_Primacy_desc: "A grand navy will be crucial to defeat the Kaiserliche Marine and bring the pain to Germany's northern coast. And in that role, the grand Battleship still shines. Its naval artillery will flatten the reactionaries with rolling barrages of thunder and steel, and send their boats to the bottom of the sea."
-
- Carrier_Primacy: "Carrier Primacy"
- Carrier_Primacy_desc: "The future of naval warfare is not in big, clunky warships, but in a combined arms approach with another front of future warfare, air warfare. Let us ensure that every naval group has a Carrier. Its fighters will ensure global air dominance, its naval bombers will wreck enemy ships and harbours alike."
 
  FRA_working_women_idea: "Working Women"
  FRA_working_women_idea_desc: "For too long have women been suppressed by reactionary thinkers. Even under the French Republic, they selflessly supported the nation while our brothers were sent to the slaughter. It is time for us to recognise their contribution to society, and formalise the rights of the working woman, in peace and war."
@@ -393,14 +378,12 @@
  FRA_extend_line_desc: "While we have mostly focused our fortification efforts on those segments of the line that are the most defensible, it is quite obvious that Germany will target our weaker points instead. The solution is quite simple, we will not have weak points. Least they learn how to walk on water, good luck for them to cross this line!"
  FRA_Demand_Romandy: "Demand Haute-Savoie"
  FRA_Demand_Romandy_desc: "The illegal Swiss occupation of Haute-Savoie has gone on for far too long! The Swiss have shown themselves brutish tyrants and oppressors of our people on our own rightful land! No-one can have the audacity to persecute and hunt down Frenchmen and think they may get away with it, the perfidious Swiss have made their last mistake."
- FRA_Demand_Alsace_Lorraine: "Demand Alsace-Lorraine"
- FRA_Demand_Alsace_Lorraine_desc: "The French people shall wait no longer! The time has finally come for Germany to return the whole of Alsace-Lorraine or face the ultimate consequences! And should they refuse, we will bring unto them a war of a brutality and fierceness that will send their pawns running straight back to Berlin! We will avenge our fallen brothers!"
  FRA_war_with_spain: "Liberate Iberia"
  FRA_war_with_spain_desc: "Right at our southern border, just across the Pyrenees, capitalism and imperialism still persists. With our efforts, we will achieve what no French imperialist could - total control of Iberia. But we are different. We do it for the common people, not imperial ambitions. Syndicalism will succeed in Iberia!"
  FRA_War_with_germany: "Take Down Germany"
- FRA_War_with_germany_desc: "Much to our surprise, the German reactionaries have ceded Alsace-Lorraine. But we never intended to just stop there! The Revolution shall prevail, our brothers will be avenged for what they have been put through in the Weltkrieg! They will just wish they had lost the first war, for we will stop at nothing until they are utterly destroyed!"
- FRA_War_with_austria: "Turn the Danube Red"
- FRA_War_with_austria_desc: "The Austrian peoples have proven their incapability to commence a successful socialist revolution in their country and liberate themselves from the Habsburg tyranny. We shall assist them, then. Likewise, all the peoples still under the tyranny of this anachronistic empire will be freed. Europe will be free of the last of the reactionary empires."
+ FRA_War_with_germany_desc: "The French people shall wait no longer! The time has finally come - the Revolution shall prevail, and our brothers will be avenged for what they have been put through in the Weltkrieg! Germany will just wish they had lost the first war, for we will stop at nothing until they are utterly destroyed!"
+ FRA_War_with_austria: "The Red Danube"
+ FRA_War_with_austria_desc: "The Danubian peoples have proven their incapability to commence a successful socialist revolution in their country and liberate themselves from the Habsburg tyranny. We shall assist them, then. Likewise, all the peoples still under the tyranny of this anachronistic empire will be freed. Europe will be free of the last of the reactionary empires."
  FRA_War_with_Netherlands: "Around Ludendorff"
  FRA_War_with_Netherlands_desc: "Lowlands of Benelux are strategically vital to our war efforts. The Germans will not expect the attack from this side and if we succeed, we will cut Germany off from its vital economic areas in the Rhineland. Germany will fall."
  FRA_World_revolution: "World Revolution"
@@ -430,7 +413,7 @@
  FRA_armee_de_lair: "Armée de l'Air du Peuple"
  FRA_armee_de_lair_desc: "Planes are a strange new aspect of warfare. These machines are quite complex to handle, and the punishment for failing to fly properly obvious. And yet, any able man can be a pilot. We must open the ranks of the air force to the conscripts, like the army and navy has. Our air force will have no shortage of pilots."
  FRA_amateur_pilots: "Amateur Pilots"
- FRA_amateur_pilots_desc: "No-one is born a pilot, and while some study to excel at air handling and combat and their efforts are admirable, we cannot expect every single pilot to be an ace. We must give civilian pilots and amateur pilots their chance to shine. This also includes women, who would normally not be conscripted."
+ FRA_amateur_pilots_desc: "No one is born a pilot. While some study to excel at air handling and combat with admirable effort, we cannot expect every single pilot to be an ace. We must give civilian pilots and amateur pilots their chance to shine. This also includes women, who would normally not be conscripted."
  FRA_valin_doctrine: "Valin Doctrine"
  FRA_valin_doctrine_desc: "Martial Valin is a brilliant aviator, and he has much to teach us about this new, strange world of air warfare. While his words are no gospel, we heavily value his unique experience and aim to make his teachings the frame of future air doctrine. A start, certainly."
  FRA_ecole_air: "École de l'Air"
@@ -440,11 +423,11 @@
  FRA_fighters: "Fighter Focus"
  FRA_fighters_desc: "The air is a new, vast angle of attack for our enemies, and as such it is a new angle of defence for us. Unlike on land, there are no forts, no cover, just one-on-one dogfights. If we invest in fighter production, we ensure no-one will freely navigate our air. Our fighters will always be upon them and ready to bring them back to the ground."
  FRA_bombers: "Bomber Focus"
- FRA_bombers_desc: "The air is a new, vast angle of attack for us, and it is one our enemies might not defend adequately against yet. Bombs present a single yet elegant way of transporting ordnance from the hangar to the target. We must invest in bombers to ensure that our enemies are assaulted from all sides, an advantage we cannot ignore."
+ FRA_bombers_desc: "The air is a new, vast angle of attack for us, and it is one our enemies might not defend adequately against yet. Bombs present a simple yet elegant way of transporting ordnance from the hangar to the target. We must invest in bombers to ensure that our enemies are assaulted from all sides, an advantage we cannot ignore."
  FRA_strat_bombers: "Strategic Destruction Focus"
- FRA_strat_bombers_desc: "If one bomb works well against an enemy, then ten bombs must only work better. Further development in bomber models have unveiled new air frames capable of carrying massive amounts of bombs, or a few devastatingly big bombs. Whatever the case, we may soon flatten entire cities or armies with a few waves of air attacks."
+ FRA_strat_bombers_desc: "If one bomb works well against an enemy, then ten bombs must only work better. Further developments in bomber models have unveiled new airframes capable of carrying massive amounts of bombs, or a few devastatingly big bombs. Whatever the case, we may soon flatten entire cities or armies with a few waves of air attacks."
  FRA_paratrooper_focus: "Paratroopers Development"
- FRA_paratrooper_focus_desc: "Until now, we have always considered that the only way to transport troops are trucks and landing craft. However, recent breakthroughs in aviation means we now have planes capable of carrying entire squads, and dropping them into battle in a safe manner. We must immediately train regiments capable of this vertical encirclement!"
+ FRA_paratrooper_focus_desc: "Until now, we have always assumed that the only ways to transport troops are trucks and landing craft. However, recent breakthroughs in aviation means we now have planes capable of carrying entire squads, and dropping them into battle in a safe manner. We must immediately train regiments capable of this vertical encirclement!"
  FRA_rocket_development: "Rocketry Effort"
  FRA_rocket_development_desc: "The rocket engine is the pinnacle of our research in new propulsion methods for aircraft. While the path to creating rocket craft might still be long and arduous, our scientists propose a simpler use for rockets. By strapping an explosive charge and flinging them at the enemy, we can bomb them from afar. Simple, devastating."
 
@@ -453,7 +436,7 @@
  FRA_arsenaux_back_on: "Put the Arsenaux Back On"
  FRA_arsenaux_back_on_desc: "The naval dockyards have for long been silent, abandoned in favour of military factories and civilian needs. Today, we will reinvest into those old Arsenaux, staff them again, and fund them so that we might once again have a navy that compares with the one of the Republic."
  FRA_old_doctrine: "The Old Doctrine"
- FRA_old_doctrine_desc: "Our navy is one grand ensemble, slowly navigating the seas, ready to lay waste to the navies of our enemies. They protect our convoys and fight off marauders, but stand ready to face off any large fleet with the full might of the entire French navy. Why change what is not broken?"
+ FRA_old_doctrine_desc: "Our navy is one grand ensemble, slowly navigating the seas, ready to lay waste to the navies of our enemies. They protect our convoys, fight off marauders and stand ready to face any large fleet with the full might of the entire French navy. Why change what is not broken?"
  FRA_new_doctrine: "The New Doctrine"
  FRA_new_doctrine_desc: "Our navy is a tool, to be applied carefully when the situation calls for it. Instead of falling for the enemy's bait and joining into those massive open-seas scrapyards, we must seek to strike their convoys, their isolated fleets, and keep them on the run while we rapidly destroy their entire economy."
  FRA_castex_plan: "The Castex Plan"
@@ -469,7 +452,7 @@
  FRA_submarines: "Guerre Sous-Marine"
  FRA_submarines_desc: "As modern war takes to the air, it also goes under the seas. Submarines provide a new, revolutionary change to naval warfare. Their torpedoes can end even the most armoured of battleships, and their profile is stealthy, with only the most advanced technologies able to find and attack them."
  FRA_cut_off_capitalists: "Cut off the Capitalists"
- FRA_cut_off_capitalists_desc: "We cannot simply sit and watch as the Empires of old extort the peoples of the world and bring their blunder back to their colonial offices to count and enjoy. We will ensure that every convoy hauling their unjustly seized goods fears the Communal submarine."
+ FRA_cut_off_capitalists_desc: "We cannot simply sit and watch as the Empires of old extort the peoples of the world and bring their plunder back to their colonial offices to count and enjoy. We will ensure that every convoy hauling their unjustly seized goods fears the Communal submarine."
  FRA_naval_bombers: "Develop Naval Bombers"
  FRA_naval_bombers_desc: "The air can well pair with the sea. Planes carrying torpedoes allow us to instantly kill even the biggest of ships with great accuracy, the torpedoes preventing us from having to hit dead centre on a ship's deck with a bomb. We must invest in naval bombers to gain an edge on big, bulky navies."
  FRA_protect_coastlines: "Protect our Coastlines"
@@ -550,7 +533,7 @@
  comfrance.17.a: "Congratulations, Camarades."
 
  comfrance.18.t: "The End of the Chairmanship"
- comfrance.18.d: ""
+ comfrance.18.d: "As the Anarchistes have been swept to power during the last elections of the Commune and the Revolution Progresses, it has become obvious that reform must come to the highest positions as well. While previously the power of the Chairman was not unlimited, having one person lead the Commune is obviously a restrictive, bourgeoisie concept. It is a spit in the face of the ideas represented by the victorious Anarchistes, who prefer a more communal leadership style."
  comfrance.18.a: "Abolish the position, it's time for collective leadership!"
 
  comfrance.19.t: "Sébastien Faure's Resignation"
@@ -966,17 +949,6 @@
  comfrance.165.d: "An efforts were made by the French government to establish an International Avant-Garde. It will aim to create new artistic styles, unique in their unorthodoxy presentations, something this world has never seen before.\n\nFrench Government believes it will be a helpful tool in spreading syndicalist teaching through non-violent means. Now they expect us to join on it. "
  comfrance.165.a: "Count us in!"
 
- comfrance.166.t: "France has declared war on us!"
- comfrance.166.d: "Those bastards violated our neutrality! We can either fight alone or with the help of Germans. What should we choose?"
- comfrance.166.a: "Have Berlin on the phone!"
- comfrance.166.b: "We'll fight alone!"
- comfrance.166.c: "Get Ottawa on the line!"
-
- comfrance.167.t: "France has declared war on us!"
- comfrance.167.d: "Those bastards violated our neutrality! We can either fight alone or with the help of Germans. What should we choose?"
- comfrance.167.a: "Have Berlin on the phone!"
- comfrance.167.b: "We'll fight alone!"
-
  comfrance.170.t: "An Alliance with the Internationale?"
  comfrance.170.d: "The Internationale, the military alliance of the world’s foremost socialist powers, has discreetly approached us with an offer to join its ranks, considering an alliance with our nation to be in the interest of all and a great step forward in the long struggle towards the liberation of the international proletariat. This offer comes with undeniable benefits, we could certainly expect a great amount of support: help against our enemies and towards the realisation of our military objectives, protection should it ever be needed, and just as importantly, support for the development of our armed forces and even our economy through the Phalanstère program. However, it comes with perhaps daunting obligations, setting us on a course of eventual but certain conflict with the Kaiser and his allies. How should we respond to their offer?"
  comfrance.170.a: "Stronger together!"
@@ -988,6 +960,10 @@
  comfrance.171.d.refuse: "To our chagrin, [From.GetNameDef] has refused our offer to join our military alliance. Perhaps too intimidated by the undeniable might of our enemies, or simply not committed enough to the fight for the liberation of the proletariat. In any case, though this is certainly a regrettable result of our diplomatic overture, many others will join us in this struggle: “the Internationale shall be the human race”!"
  comfrance.171.a: "Excellent!"
  comfrance.171.b: "Their loss."
+
+ comfrance.200.t: "The Damocles Project"
+ comfrance.200.d: "German spies have recently uncovered the papers of a research and development programme sponsored by the members of the Third Internationale. Dubbed 'The Damocles Project', it is an extensive multi-nation study into the destructive power of nuclear fission with the intent of creating 'bombs with a destructiveness vastly greater than anything now known'. The famous German physicist Albert Einstein had previously warned that a successful 'nuclear bomb' might even be able to turn entire cities into ash.\n\nGerman intelligence agencies have shared the information about this project to their closest allies, so naturally the whole world now knows. Some have dismissed the project as a childish fantasy, but many experts fear a breakthrough."
+ comfrance.200.a: "If they should succeed..."
 
  comfrance.1000.t: "Gamelin Marches on Paris"
  comfrance.1000.d: "A few days ago, General Maurice Gamelin, launched a successful coup against the Jacobin regime of Marcel Déat. While this seems like a staunch attack on the commune’s democratic system, many argue that the Jacobins would have destroyed the democratic system if not for Gamelin’s intervention. Gamelin has promised to restore France to traditional syndicalism, and the process of De-Jacobinisation is already taking place. It is still unknown how his plans will turn out. We can only wait..."
@@ -1067,37 +1043,129 @@
 
 ### Characters ###
  FRA_marcel_deat: "Marcel Déat"
+ FRA_marcel_deat_leader_desc: "Marcel Déat has upended the Communard political system. A Leninist who has frequently made public his contempt for syndicalism, Déat stands in opposition to much of France's political establishment. His many enemies both within and outside France could lead to his, and perhaps also the Commune's, downfall."
+
  FRA_georges_valois: "Georges Valois"
+ FRA_georges_valois_leader_desc: "Georges Valois, an adherent to the national-syndicalist teachings of Georges Sorel, has become chairman of the Bourse Générale du Travail. Valois advocates the unification of the chairmanships of the Bourse Générale du Travail and Comité de Salut Public, a precursor in the eyes of many Communards, to tyranny."
+
  FRA_marcel_cachin: "Marcel Cachin"
+ FRA_marcel_cachin_leader_desc: "Marcel Cachin, former diplomat and bureau chief of the state-owned newspaper, Humanité, has become chairman of the Commune of France. While a Leninist, his diplomatic attitude and general charisma, allow him to retain some degree cordiality with syndicalists and anarchists."
+
  FRA_leon_jouhaux: "Léon Jouhaux"
+ FRA_leon_jouhaux_leader_desc: "Léon Jouhaux has been elected Chairman of the Bourse Générale du Travail. Jouhaux, as a revolutionary trade unionist, participated in the general strike of 1919 which precipitated the Commune's establishment. He is an adherent of orthodox French syndicalism, a true centrist among the factions of the Commune."
+
  FRA_vincent_auriol: "Vincent Auriol"
+ FRA_vincent_auriol_leader_desc: "Vincent Auriol, long accused by hardline syndicalists of harbouring sympathies for the bourgeoisie, has become chairman of the Bourse Générale du Travail. He advocates the gradual transition to a more democratic system of government in the Commune."
+
  FRA_jacques_doriot: "Jacques Doriot"
+ FRA_jacques_doriot_leader_desc: "Jacques Doriot, veteran of the Weltkrieg, returned from captivity in Germany to find a France forever changed. His personal transformation from moderate socialist, to Leninist, and now national-syndicalist, has instilled in him an engrained proclivity for compromise."
+
  FRA_benoit_frachon: "Benoît Frachon"
+ FRA_benoit_frachon_leader_desc: "Benoît Frachon, a veteran of the French Civil War, has become chairman of the Bourse Générale du Travail. While a Syndicalist, he is sympathetic towards the opposing anarchiste faction; to that end, he has declared mending the Commune's factionalism the chief goal of his chairmanship."
+
  FRA_sebastien_faure: "Sébastien Faure"
+ FRA_sebastien_faure_leader_desc: "Sébastien Faure is the first Anarchiste to serve as Chairman of the Bourse Générale du Travail. Originally empowered to chairman in a compromise between the Travailleurs and Anarchistes, factionalism has grown considerably during his time in office, and the apparatus of the state has weakened. If any faction manages to gain a clear majority in the Comité de Salut Public and the Bourse Générale du Travail, Faure is likely to be ousted."
+
  FRA_conseil_de_defense_federal: "Conseil de Défense Fédéral"
+
+ FRA_pierre_jules_cot: "Pierre Jules Cot"
+
  FRA_maurice_gamelin: "Maurice Gamelin"
+ FRA_maurice_gamelin_leader_desc: "General Maurice Gamelin has overthrown the Jacobin regime of Marcel Déat. While his coup is an obvious affront to the already dubious Communard democratic process, many now regard Gamelin as the saviour of the Commune, and even syndicalism itself."
+ FRA_maurice_gamelin_commander_desc: "§YGeneral Description\n§YBorn:§L\n20 September 1872, in Paris, Île-de-France, Third French Republic"
+
  FRA_georges_catroux: "Georges Catroux"
+ FRA_georges_catroux_commander_desc: "§YGeneral Description\n§YBorn:§L\n29 January 1877, in Limoges, Haute-Vienne, Third French Republic"
+
  FRA_gaston_billotte: "Gaston Billotte"
+ FRA_gaston_billotte_commander_desc: "§YGeneral Description\n§YBorn:§L\n10 February 1875, in Sommeval, Aube, Third French Republic"
+
  FRA_charles_delestraint: "Charles Delestraint"
+ FRA_charles_delestraint_commander_desc: "§YGeneral Description\n§YBorn:§L\n12 March 1879, in Biache-Saint-Vaast, Pas-de-Calais, Third French Republic"
+
  FRA_marie_pierre_koenig: "Marie-Pierre Koenig"
+ FRA_marie_pierre_koenig_commander_desc: "§YGeneral Description\n§YBorn:§L\n10 October 1898, in 10 October 1898, Caen, Calvados, Third French Republic"
+
  FRA_ernest_petit: "Ernest Petit"
+ FRA_ernest_petit_commander_desc: "§YGeneral Description\n§YBorn:§L\n20 February 1888, in Paimbœuf, Loire-Inférieure, Third French Republic"
+
  FRA_henri_tanguy: "Henri Tanguy"
+ FRA_henri_tanguy_commander_desc: "§YGeneral Description\n§YBorn:§L\n12 June 1908, in Morlaix, Finistère, Third French Republic"
+
  FRA_rene_olry: "René Olry"
+ FRA_rene_olry_commander_desc: "§YGeneral Description\n§YBorn:§L\n28 June 1880, in Lille, Nord, Third French Republic"
+
  FRA_diego_brosset: "Diego Brosset"
+ FRA_diego_brosset_commander_desc: "§YGeneral Description\n§YBorn:§L\n3 October 1898, in Buenos Aires, Argentine Republic"
+
  FRA_nestor_makhno: "Nestor Makhno"
+ FRA_nestor_makhno_commander_desc: "§YGeneral Description\n§YBorn:§L\n8 November 1888, in Huliaipole, Yekaterinoslav Governorate, Russian Empire\n§YMilitary Career:§L Born in extreme poverty in rural Eastern Ukraine, Nestor Makhno experienced the worst of the late Russian Empire - he lost his father when he was ten months old and any chance at gaining an education at ten years old, as he had to abandon school to work odd jobs to feed his family. He developed a primal rage for the landlord and the factory-owner, led a wildcat strike against his landlord when he was twelve, and fully devoted himself to the impending revolution since he was seventeen, after witnessing the Revolution of 1905. He led anarchist study groups, skirmished with the police, and was ultimately convicted to a life sentence of hard labour.\n\nSickly, yet energetic, Makhno was released after the February Revolution, and immediately travelled to Ukraine to continue his work. Now, he was no longer a propagandist, but a revolutionary leader. After being briefly exiled from Huliapole due to the German occupation, he bore witness to the rise of the Bolsheviks, which he denounced as a "paper revolution" and returned home in July 1918. There, he set up the Revolutionary Insurgent Army and began a year long war of resistance against the Germans and Ukrainian nationalists. Though brutal and not at all educated in army affairs, Makhno earned the favor of the countryside and gave the Hetman a much tougher fight than expected before being forced to flee. Ultimately, he arrived in the Commune of France, which he immediately denounced as yet another paper revolution. Uninterested in its intellectual foundations, Makhno merely saw disunity, inaction and oligarchy which threatened to overturn the accomplishments of the Revolution by creating yet another aristocracy. Much like Bolshevik exiles, he was integrated into the Federal Army, and earned a following with tales of his exploits - however, he was a maverick in the officer corps, clashing with his superiors and ignoring his duties. Neither him nor the Army were satisfied, so, Makhno left for the wider world - serving in revolutionary volunteer corps throughout the post-war to further the world revolution instead. This path has brought him to Patagonia - where he can serve the cause while being out of mind for the Communards."
+
  FRA_raoul_magrin_vernerey: "Raoul Magrin Vernerey"
+ FRA_raoul_magrin_vernerey_commander_desc: "§YGeneral Description\n§YBorn:§L\n7 February 1892, in Budapest, Pest-Pilis-Solt-Kiskun, Austro-Hungarian Empire"
+
  FRA_joseph_putz: "Joseph Putz"
+ FRA_joseph_putz_commander_desc: "§YGeneral Description\n§YBorn:§L\n24 April 1895, in Brussels, Kingdom of Belgium"
+
  FRA_andre_marty: "André Marty"
+ FRA_andre_marty_commander_desc: "§YGeneral Description\n§YBorn:§L\n6 November 1886, in Perpignan, Pyrénées-Orientales, Third French Republic"
+
  FRA_georges_blanchard: "Georges Blanchard"
+ FRA_georges_blanchard_commander_desc: "§YGeneral Description\n§YBorn:§L\n9 December 1877, in Orléans, Loiret, Third French Republic"
+
  FRA_clement_blanc: "Clément Blanc"
+ FRA_clement_blanc_commander_desc: "§YGeneral Description\n§YBorn:§L\n1 October 1897, in Perpignan, Pyrénées-Orientales, Third French Republic"
+
  FRA_paul_legentilhomme: "Paul Legentilhomme"
+ FRA_paul_legentilhomme_commander_desc: "§YGeneral Description\n§YBorn:§L\n26 March 1884, in Valognes, Manche, Third French Republic"
+
  FRA_henri_frenay: "Henri Frenay"
+ FRA_henri_frenay_commander_desc: "§YGeneral Description\n§YBorn:§L\n11 November 1905, in Lyon, Rhône, Third French Republic"
+
  FRA_louis_buisson: "Louis Buisson"
+ FRA_louis_buisson_commander_desc: "§YGeneral Description\n§YBorn:§L\n14 December 1889, in Le Bourget-du-Lac, Savoie, Third French Republic"
+
  FRA_jacques_sadoul: "Jacques Sadoul"
+ FRA_jacques_sadoul_commander_desc: "§YGeneral Description\n§YBorn:§L\nMay 22 1881, in Paris, Île-de-France, Third French Republic"
+
  FRA_francois_darlan: "François Darlan"
+ FRA_francois_darlan_admiral_desc: "§YAdmiral Description\n§YBorn:§L\n7 August 1881, in Nérac, Lot-et-Garonne, Third French Republic\n§YNaval Career:§L\nJean Louis Xavier François Darlan was born to a family long connected to the navy. He would graduate from the École Navale in 1902, and during the Weltkrieg would notably serve in an artillery battery at the Battle of Verdun. Swept in the chaos of the Revolution and spurned by his patriotism and moderate left-wing convictions, Darlan would rejoin the Communard Navy and over the next several years would rise rapidly through the ranks. He is now one of the most respected men in the French Navy, proud of the institution he has helped to rebuild."
+
  FRA_raoul_castex: "Raoul Castex"
+ FRA_raoul_castex_admiral_desc: "§YAdmiral Description\n§YBorn:§L\n27 October 1878, in Saint-Omer, Pas-de-Calais, Third French Republic"
+
  FRA_andre_georges_lemmonier: "André-Georges Lemonnier"
+ FRA_andre_georges_lemmonier_admiral_desc: "§YAdmiral Description\n§YBorn:§L\n24 February 1896, in Guingamp, Côtes-du-Nord, Third French Republic"
+
  FRA_gabriel_auphan: "Gabriel Auphan"
+ FRA_gabriel_auphan_admiral_desc: "§YAdmiral Description\n§YBorn:§L\n4 November 1894, in Alès, Gard, Third French Republic"
+
  FRA_philippe_auboyneau: "Philippe Auboyneau"
+ FRA_philippe_auboyneau_admiral_desc: "§YAdmiral Description\n§YBorn:§L\n9 November 1899, in Constantinople, Ottoman Empire"
+
  FRA_marcel_gensoul: "Marcel Gensoul"
+ FRA_marcel_gensoul_admiral_desc: "§YAdmiral Description\n§YBorn:§L\n12 October 1880, in Montpellier, Hérault, Third French Republic"
+
  FRA_edouard_peisson: "Édouard Peisson"
+ FRA_edouard_peisson_admiral_desc: "§YAdmiral Description\n§YBorn:§L\n7 March 1896, in Marseille, Bouches-du-Rhône, Third French Republic"
+
+ FRA_irene_and_frederic_joliot_curie: "Irène & Frédéric Joliot-Curie"
+ FRA_robert_esnault_pelterie: "Robert Esnault-Pelterie"
+
+ FRA_etienne_schlumberger: "Étienne Schlumberger"
+ FRA_joseph_vuillemin: "Joseph Vuillemin"
+ FRA_martial_henri_valin: "Martial Henri Valin"
+ FRA_maryse_bastie: "Maryse Bastié"
+ FRA_victor_leon_ernest_denain: "Victor Léon Ernest Denain"
+ FRA_leon_blum: "Léon Blum"
+ FRA_pierre_monatte: "Pierre Monatte"
+ FRA_daniel_guerin: "Daniel Guérin"
+ FRA_maurice_thorez: "Maurice Thorez"
+ FRA_charles_rappoport: "Charles Rappoport"
+ FRA_henri_barbe: "Henri Barbé"
+ FRA_gabriel_lafaye: "Gabriel Lafaye"
+ FRA_joseph_paul_boncour: "Joseph Paul Boncour"
+ FRA_jacque_duclos: "Jacque Duclos"
+ FRA_jean_zyromski: "Jean Zyromski"
+ FRA_suzanne_girault: "Suzanne Girault"
+ FRA_confederation_general_du_travail: "Confédération Générale du Travail"

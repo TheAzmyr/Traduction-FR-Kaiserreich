@@ -58,9 +58,6 @@
  OMA_national_populist_ADJ: "Muscati"
  OMA_national_populist_DEF: "Muscat"
 
-### Leaders ###
- POLITICS_SAID_TAIMUR_DESC: "The Al Said dynasty, which had reaped the benefits of British support in the 19th century, still lives. Following the Peace with Honour in 1919, the young Said bin Taimur accelerated through his political education in Muscat. The former Sultan Taimur bin Feisal had prepared a wise council for his son in 1935 when he abdicated the throne. Said bin Taimur was left with a sense of superiority over the Shia in the Trucial coast and the Ibadi tribesman in Oman proper. More concerning was the new Sultan's attitude towards Dhofaris. Said bin Taimur has taxed them mercilessly, and remained silent to the slave trade that oppresses Dhofar."
-
 ### Decisions ###
  OMA_Saudi_Invasion: "War in the Desert"
  OMA_Saudi_Invasion_desc: "The stubborn refusal of the Imam to cooperate with Muscat and the lack of cohesive leadership on both sides of our nation has left us open to attack by the Ikhwan. With many following the incredible rise in power of the Saudi dynasty, some of the tribes even within our lands are starting to doubt whether Ibn Saud isn't truly sent by Allah to reunite the Arab people..."
@@ -68,7 +65,6 @@
 ### Ideas ###
  OMA_tribal_army: "Disorganised Armed Forces"
  OMA_DiCT: "Defence of Oman"
- OMA_DiCT_2: "Defence of our Nation"
  OMA_indian_idea: "Advisors from the Raj"
  OMA_persian_idea: "Advisors from Persia"
  OMA_black_monday: "Black Monday Ripples"
@@ -79,7 +75,6 @@
  OMA_modern_budget: "Reformed Budget"
  OMA_industrialisation_boost: "Widespread Armament Effort"
  OMA_industrialisation_boost_2: "Industrialisation Plan"
- OMA_entente_navy: "Doing our Part"
 
  OMA_tribal_army_desc: "Our army still has large swaths of tribal militias, leading to mass disorganisation, and an overall lack of support across the country."
  OMA_DiCT_desc: "Our training across Oman has left our regiments better able to defend our country."
@@ -95,7 +90,6 @@
  OMA_industrialisation_boost_desc: "Economic incentives are speeding up military factory construction!"
  OMA_industrialisation_boost_2_desc: "Economic incentives are speeding up civilian factory construction!"
  OMA_entente_navy_desc: "We might not be a superpower, but we can still contribute! Our ports will produce destroyers to guard our allies' trade!"
-
 
 ### Focuses ###
  oman_focus: "Oman Focus Tree"
@@ -190,8 +184,8 @@
  OMA_prepare_for_resistance_desc: "We know they are coming, it's just a matter of when now. We need to prepare every man to defend the land we have worked so hard to improve and expand upon. For the Imam!"
  OMA_call_upon_the_raj: "Call Upon the Raj"
  OMA_call_upon_the_raj_desc: "India has worked with the Entente to secure the rest of their country. Since we have a common experience with India and old ties with the British, let's petition them and the Entente for protection from the outside forces that are assembling against us."
- OMA_join_the_isac: "Join the ISAC"
- OMA_join_the_isac_desc: "Canada has offered us a place in the Imperial Scientific and Academic Council. It's a prestigious organisation, and our research and development team is salivating at the prospect of getting access to a global supply of new ideas and prototypes."
+ OMA_indian_business_ties: "Indian Business Ties"
+ OMA_indian_business_ties_desc: "Now that we're once again under the British umbrella, we can access extra funding from influential Indian entrepreneurs. Convincing them to invest in [ROOT.GetNonIdeologyName] shouldn't be very hard."
  OMA_royal_navy_cooperation: "Royal Navy Cooperation"
  OMA_royal_navy_cooperation_desc: "Canada is now leading the Entente, and focusing on building larger ships of the line. They have offered to help us with the technology of building destroyers cheaper and more efficiently than we thought possible. We need to do our part to support the alliance that is keeping us from ultimate destruction."
  OMA_a_special_relationship: "A Special Relationship"
@@ -218,16 +212,6 @@
  oma.1.d: "Oman's splendid isolation did not end with the Weltkrieg and the Sultan hoped it wouldn't end any time soon. However, the wheel of fate stops for no one, and their protectors in Britain and India fell into utter and complete disarray. With Ottoman forces moving into the Trucial States, and an ever more aggressive Ibn Saud in Nejd, it seemed war was coming fast to Oman, and the tale of the Ibadi Sultanate was to finally end.\n\nHowever, the much feared war never came. The warriors mobilised by the state never saw battle against the Ikhwan and the Saudis... Perhaps Ibn Saud has other, more obscure plans in his mind? Regardless of reason, Oman stood alone, and has not received aid from British India in a decade. This may very well become an extremely worrisome state of affairs as instability rapidly spreads throughout the region.\n\nBut to properly fight external threats, internal ones must be properly dealt with. More specifically the Imamate of Oman, and the tribes that have their allegiance to the Hinterlands Imam higher than to Muscat; not to mention the degraded and archaic state of the Monarchy. But if these challenges can be overcome, Oman's tale is not to end so soon."
  oma.1.a: "Very well."
 
- oma.6.t: "Offer from Oman"
- oma.6.d: "Afraid of the Arabian nations on their borders, Oman has requested protection from us once again. While the British revolution and subsequent fall of the Empire had seen them break off and attempt to sustain their neutrality, they have now realised that without our protection they are doomed to fall."
- oma.6.a: "Offer them protection."
- oma.6.b: "Refuse their request."
-
- oma.7.t: "Offer from Oman"
- oma.7.d: "Aware of our conflicts with the Arabians and they themselves involved in a struggle with their neighbours to the West and North, Oman has requested us to assist them in any future conflicts on the peninsula. While our protection should deter them from attacking Oman, we could get bogged down in an unwanted conflict with Egypt and its allies if we aren't careful."
- oma.7.a: "Offer them protection."
- oma.7.b: "Refuse their request."
-
  oma.10.t: "Imam loyalists refuse to pay taxes"
  oma.10.d: "The Imamate has long been exempting its loyalists from paying their taxes to our administers which has led to outcry from the citizens who do pay their share. Something will have to be done about this system if we want to ensure a stable system and reduce the power of Imam and likewise factions."
  oma.10.a: "Loyalty should be rewarded!"
@@ -250,6 +234,8 @@
 
 ### Characters ###
  OMA_said_ibn_taimur: "Said ibn Taimur"
+ OMA_said_ibn_taimur_leader_desc: "The Al Said dynasty, which had reaped the benefits of British support in the 19th century, still lives. Following the Peace with Honour in 1919, the young Said bin Taimur accelerated through his political education in Muscat. The former Sultan Taimur bin Feisal had prepared a wise council for his son in 1935 when he abdicated the throne. Said bin Taimur was left with a sense of superiority over the Shia in the Trucial coast and the Ibadi tribesman in Oman proper. More concerning was the new Sultan's attitude towards Dhofaris. Said bin Taimur has taxed them mercilessly, and remained silent to the slave trade that oppresses Dhofar."
+
  OMA_suleiman_bin_himayer_al_ryami: "Suleiman bin Himayer Al Ryami"
  OMA_talib_bin_ali_al_hinai: "Talib bin Ali Al Hinai"
  OMA_ali_bin_serhan: "Ali bin Serhan"

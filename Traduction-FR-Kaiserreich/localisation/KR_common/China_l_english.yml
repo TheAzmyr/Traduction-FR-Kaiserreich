@@ -50,10 +50,6 @@
  kr_integrate_zhanjiang_concession: "Integrate the Guangzhouwan Concession"
 
 ### Tooltips
- china_requested_units_text: "[?china_requested_quantity] [?china_requested_equipment.GetTokenLocalizedKey]"
-
- effect_after_they_agree: "If they §Yagree§! with our requirements, we will get the following effects:\n"
-
  is_ruled_by_pro_zhili: "Is ruled by a §LZhili-friendly§! regime"
  is_ruled_by_pro_zhili_NOT: "Is §Rnot§! ruled by a §LZhili-friendly§! regime"
 
@@ -78,7 +74,7 @@
  is_ruled_by_federalists: "Is ruled by the §HFederalists§!"
  is_ruled_by_federalists_NOT: "Is §Rnot§! ruled by the §HFederalists§!"
 
- china_alignment_puppet: "Puppet of [Overlord.GetNameDef]"
+ china_alignment_puppet: "Puppet of [This.Overlord.GetNameDef]"
  china_alignment_manchu_leader: "Manchu Leader"
  china_alignment_zhili_leader: "Zhili Leader"
  china_alignment_anguojun_leader: "Anguojun Leader"
@@ -96,6 +92,16 @@
  china_alignment_npa: "NPA Member"
  china_alignment_independent: "Independent"
  china_alignment_unaligned: "Unaligned"
+ effect_after_they_agree: "If they §Yagree§! with our requirements, we will get the following effects:\n"
+
+ china_morale_will_change_by: "£GFX_pol_violence §YMorale§! will change by [?change_league_war_morale_by|+0]."
+ china_has_sixty_morale: "Has more than §Y60§! £GFX_pol_violence §YMorale§!"
+
+ china_mobilize_1_units_tt: "Raise £manpower_texticon §Y1 Division§! in the liberated zone."
+ china_mobilize_2_units_tt: "Raise £manpower_texticon §Y2 Divisions§! in the liberated zone."
+ china_mobilize_3_units_tt: "Raise £manpower_texticon §Y3 Divisions§! in the liberated zone."
+
+ china_men_will_begin_to_defect_tt: "§RMen will defect from our army!§!"
 
 ### Army Reform
  china_army_decisions: "Army Reform"
@@ -106,11 +112,11 @@
 
  china_inadequate_army: "Army Troubles"
  china_army_reform_idea: "[GetArmyReformTooltipFix]"
- china_army_reform_idea_tooltip: "§HArmy Reform Progress§!\n$MODIFIER_MOBILIZATION_SPEED$: [?Root.army_reform_var|+=%]\n$MODIFIERS_ARMY_ATTACK_FACTOR$: [?Root.army_reform_var|+=%1]\n$MODIFIERS_ARMY_DEFENCE_FACTOR$: [?Root.army_reform_var|+=%1]"
+ china_army_reform_idea_tooltip: "§HArmy Reform Progress§!\n$MODIFIER_MOBILIZATION_SPEED$: [?Root.army_reform_var|+=%]\n$MODIFIERS_ARMY_ATTACK_FACTOR$: [?Root.army_reform_var|+=%1]\n$MODIFIERS_ARMY_DEFENCE_FACTOR$: [?Root.army_reform_var|+=%1]\n$MODIFIER_CONSCRIPTION_TOTAL_FACTOR$: [?Root.army_reform_var_con|+=%1]"
  china_army_reform_idea_desc: "§LWhether it's through rampant corruption, incompetent leadership, outdated tactics, obsolete equipment, poor training or a mix of all these things, the one thing that all armies in China seem to have in common is that they're woefully inadequate compared to contemporary military standards. Overcoming these decades of neglect will take time and effort, and the performance of our forces will suffer until we do so.§!"
 
- china_army_reform_effect: "The §HArmy Reform§! continues:\n$MODIFIER_MOBILIZATION_SPEED$: [?0.05|+=%]\n$MODIFIERS_ARMY_ATTACK_FACTOR$: [?0.05|+=%1]\n$MODIFIERS_ARMY_DEFENCE_FACTOR$: [?0.05|+=%1]"
- china_army_reform_effect_complete: "The §HArmy Reform§! is §Gcompleted!§!\n$MODIFIER_MOBILIZATION_SPEED$: [?0.05|+=%]\n$MODIFIERS_ARMY_ATTACK_FACTOR$: [?0.05|+=%1]\n$MODIFIERS_ARMY_DEFENCE_FACTOR$: [?0.05|+=%1]"
+ china_army_reform_effect: "The §HArmy Reform§! continues:\n$MODIFIER_MOBILIZATION_SPEED$: [?0.05|+=%]\n$MODIFIERS_ARMY_ATTACK_FACTOR$: [?0.05|+=%1]\n$MODIFIERS_ARMY_DEFENCE_FACTOR$: [?0.05|+=%1]\n$MODIFIER_CONSCRIPTION_TOTAL_FACTOR$: [?0.10|+=%1]"
+ china_army_reform_effect_complete: "The §HArmy Reform§! is §Gcompleted!§!\n$MODIFIER_MOBILIZATION_SPEED$: [?0.05|+=%]\n$MODIFIERS_ARMY_ATTACK_FACTOR$: [?0.05|+=%1]\n$MODIFIERS_ARMY_DEFENCE_FACTOR$: [?0.05|+=%1]\n$MODIFIER_CONSCRIPTION_TOTAL_FACTOR$: [?0.10|+=%1]"
 
  china_army_reform_trait: ""
 
@@ -146,6 +152,18 @@
  china_doctrine_level_tooltip_8_blocked: "Has at least §Y8§! researched land doctrine level."
  china_doctrine_level_tooltip_8_tooltip: "Has at least §Y8§! researched land doctrine level."
 
+ china_northern_school: "Northern School"
+ KR_northern_school: "Ordnance and Orthodoxy"
+ china_northern_school_desc: "§LChina's northern warlords mostly hail from the Xuantong-era military schools at Baoding and Tianjin and represent the cream of an increasingly old crop of officers. Educated in the Prussian style and fighting mainly on the northern plain, their style of command emphasises positional warfare alongside the importance of well-drilled troops; especially the artillery.§!"
+
+ china_southern_school: "Southern School"
+ KR_southern_school: "Mass and Mobility"
+ china_southern_school_desc: "§LLacking the resources of the northern warlords and fighting mainly in the tumbling mountains and valleys of the south, China's southern warlords emphasise numbers and manoeuvre warfare. Aggression is rewarded, openings are always to be exploited, and heavy artillery is replaced by swift mountain guns.§!"
+
+ china_green_forest_school: "Green Forest School"
+ KR_green_forest_school: "Resilience and Requisition"
+ china_green_forest_school_desc: "§LSome of China's warlords have no military schooling whatsoever and instead refer to themselves as having attended the 'university of the green forest'. Yet, for all their shortcomings, these former (and sometimes active) bandits bring a unique approach to warfare, able to remain flexible and resilient in even the most trying circumstances. Some may call their methods crude or even criminal, but they often get results.§!"
+
 ### League War Support
  china_league_collapse_war_support_decisions: "League War Support"
  china_request_infantry_equipment: "Request [FROM.GetAdjective] Rifles"
@@ -154,8 +172,9 @@
  china_request_refused: "Not: §H[FROM.GetNameDefCap]§! has refused a request in the last three months."
  china_awaiting_request: "Awaiting a response about another request."
 
-### League War Scavenging
- china_league_collapse_scavenging_decisions: "League War Scavenging"
+### League War Decisions
+ china_league_collapse_decisions: "The League War"
+ china_league_war_gui_text: "With the death of Sun Chuanfang, the §YLeague of Eight Provinces§! has collapsed in one fell stroke. The winner of the League War is sure to play a major role in determining China's future, and to survive the trial by fire, our people have been promised - and expect - a short, decisive campaign.\n\n£GFX_pol_violence §YMorale§! is a representation of the people's belief in our victory and their willingness to fight for that victory. With high £GFX_pol_violence §YMorale§!, we will be capable of rallying the people to our cause and securing foreign support. £GFX_pol_violence §YMorale§! can be §Ggained§! through:\n - Capturing enemy territory\n - Holding the city of Nanjing\n\nOn the other hand, the longer the war takes, the more we will seem to fail to live up to our promises. Should £GFX_pol_violence §YMorale§! drop low enough, our troops will begin to defect and their fighting ability will be severely crippled. £GFX_pol_violence §YMorale§! can be §Rlost§! by:\n - Losing territory\n - Progression of time"
  china_scavenge_jiangxi: "Scavenge for Supplies in Jiangxi"
  china_scavenge_fujian: "Scavenge for Supplies in Fujian"
  china_scavenge_zhejiang: "Scavenge for Supplies in Zhejiang"
@@ -163,6 +182,68 @@
  china_scavenge_anhui: "Scavenge for Supplies in Anhui"
  china_scavenge_jiangsu: "Scavenge for Supplies in Jiangsu"
  china_scavenge_shandong: "Scavenge for Supplies in Shandong"
+
+ china_raise_men_in_jiangxi: "Raise Men in Jiangxi"
+ china_raise_men_in_fujian: "Raise Men in Fujian"
+ china_raise_men_in_zhejiang: "Raise Men in Zhejiang"
+ china_raise_men_in_nanjing: "Raise Men in Nanjing"
+ china_raise_men_in_anhui: "Raise Men in Anhui"
+ china_raise_men_in_jiangsu: "Raise Men in Jiangsu"
+ china_raise_men_in_shandong: "Raise Men in Shandong"
+
+ china_appeal_for_japanese_support: "Appeal for Japanese Support"
+ china_appeal_for_zhili_support: "Appeal for Zhili Support"
+ china_appeal_for_german_support: "Appeal for German Support"
+ china_appeal_for_internationale_support: "Appeal for Internationale Support"
+ china_raise_nationalists: "Raise Nationalists"
+
+ china_control_nanjing: "Control Nanjing"
+ china_control_nanjing_desc: "By holding China's old capital, we possess a powerful symbol of legitimacy both to our people and the world."
+ china_take_nanjing: "Take Nanjing"
+ china_take_nanjing_desc: "We must move quickly to secure control of Nanjing, lest the war drags on..."
+ china_collapsing_morale: "Collapsing Morale"
+ china_collapsing_morale_desc: "We have failed to make advances, and now the tide of the war has turned against us..."
+
+ china_league_war_gui_text_morale: "Current §YMorale§!: [GetLeagueWarMorale] ([?china_league_war_morale])"
+
+ GetLeagueWarMorale90: "§4Unbreakable§!"
+ GetLeagueWarMorale80: "§GVery High§!"
+ GetLeagueWarMorale70: "§nHigh§!"
+ GetLeagueWarMorale60: "§7Rising§!"
+ GetLeagueWarMorale50: "§mMedium§!"
+ GetLeagueWarMorale40: "§8Middling§!"
+ GetLeagueWarMorale30: "§9Falling§!"
+ GetLeagueWarMorale20: "§RLow§!"
+ GetLeagueWarMorale10: "§rVery Low§!"
+ GetLeagueWarMorale0: "§oDestroyed§!"
+
+ china_morale_dm: "League War Morale"
+
+ china_has_thirty_morale: "Has more than §Y30§! £GFX_pol_violence §YMorale§!"
+
+ china_morale_sink_danger: "£GFX_pol_violence §YMorale§! will sink §odangerously low!§!"
+
+ china_five_morale: "£GFX_pol_violence §H5§!"
+ china_five_morale_blocked: "£GFX_pol_violence §R5§!"
+ china_five_morale_tooltip: "It costs $china_five_morale_blocked$ to take the decision"
+ china_ten_morale: "£GFX_pol_violence §H10§!"
+ china_ten_morale_blocked: "£GFX_pol_violence §R10§!"
+ china_ten_morale_tooltip: "It costs $china_ten_morale_blocked$ to take the decision"
+
+ china_league_war_mission_loop: "This mission will continue to §Yrepeat§!"
+
+ china_morale_sqi: "£GFX_pol_violence §YMorale§!: [SQI.GetLeagueWarMorale] ([?SQI.china_league_war_morale])"
+ china_morale_anq: "£GFX_pol_violence §YMorale§!: [ANQ.GetLeagueWarMorale] ([?ANQ.china_league_war_morale])"
+ china_morale_lep: "£GFX_pol_violence §YMorale§!: [LEP.GetLeagueWarMorale] ([?LEP.china_league_war_morale])"
+ china_morale_chi: "£GFX_pol_violence §YMorale§!: [CHI.GetLeagueWarMorale] ([?CHI.china_league_war_morale])"
+ china_morale_sqi_tt: "§Y[SQI.GetName]§!\n--------------\n[GetLeagueWarMoraleSQI]"
+ china_morale_anq_tt: "§Y[ANQ.GetName]§!\n--------------\n[GetLeagueWarMoraleANQ]"
+ china_morale_lep_tt: "§Y[LEP.GetName]§!\n--------------\n[GetLeagueWarMoraleLEP]"
+ china_morale_chi_tt: "§Y[CHI.GetName]§!\n--------------\n[GetLeagueWarMoraleCHI]"
+ china_morale_sun_tt: "§Y[LEP.GetName]§!\n--------------\n§RThis contender is not currently in the war!!"
+ china_morale_ded: "§RThis contender is not currently in the war!§!"
+
+ LEP_league_war_over: "The League War has ended."
 
 ### Form China
  form_republic_china_decision: "Form the [GetROCvsUPC]"
@@ -174,6 +255,37 @@
  china_shared.16.a: "Let the men have their song until war's end."
  china_shared.16.b: "A rousing tune!"
 
+ lepwar.1.t: "Our Men Defect!"
+ lepwar.1.desc: "Day by day, our morale collapses. We have no victories to show, no glory to held, and have been sent into a spiral of death from which we may not return. Close confidants of [THIS.GetLeader] have urged him to flee to safety, but while he refuses and holds on to faith in victory, our soldiers have already begun to melt away..."
+ lepwar.1.a: "We just need more time!"
+
+ # lepwar.2 (hidden event)
+
+ lepwar.3.t.good: "Motivated Soldiers"
+ lepwar.3.t.bad: "Increasing Desertions"
+ lepwar.3.desc.good: "When a man believes that victory is close at hand, he will fight harder and better, it is often said. Whether or not this is true, recent battlefield success have done well to boost morale, having a positive effect on the war effort."
+ lepwar.3.desc.bad: "A string of mistakes, setbacks, and plain bad luck have meant that our forces have been unable to meet their objectives. We are failing to make significant gain, and as the war drags on, more men begin to question our cause, leaving the army to return home or become bandits."
+ lepwar.3.a: "Well done..."
+ lepwar.3.b: "Terrible..."
+
+ lepwar.4.t.good: "Enemy Stockpile Captured"
+ lepwar.4.t.bad: "Equipment Losses"
+ lepwar.4.desc.good: "With recent victories on the battlefield, our men have recently captured a supply depot full of enemy weapons! Though retreating forces had tried to leave nothing for us, the speed of our advance caught them off guard."
+ lepwar.4.desc.bad: "With a series of defeats on the battlefield, morale has sunk to a new low. While retreating from advancing enemy forces, a group of soldiers sent to bring supplies further towards the capital instead deserted and took the supplies with them. This represents both a breakdown in general discipline and a heavy loss for our logistics situation."
+ lepwar.4.a.good: "Excellent!"
+ lepwar.4.b.bad: "Crooks, the lot of them"
+
+ lepwar.5.t.good: "[THIS.GetLeader] Praised"
+ lepwar.5.t.bad: "[THIS.GetLeader] Attacked"
+ lepwar.5.desc.good: "Recent advances in the war have done well to strengthen [THIS.GetLeader]'s position. Members of the government once critical of his rule have begun to fall silent, while supporting voices have grown louder. If this trend continues, the war will see a swift conclusion."
+ lepwar.5.desc.bad: "Recent setbacks in the war have brought increasing criticism upon [THIS.GetLeader]'s leadership. Voices opposed to his rule have grown louder, with rumours of plots to remove him circulating, while promised victories seem to be slipping further and further away. If this trend continues, [THIS.GetNameDef] may collapse along internal divisions long before an enemy army takes [THIS.Capital.GetCapitalVictoryPointName]."
+ lepwar.5.a: "It's only right"
+ lepwar.5.b: "Can't they just shut up?"
+
+ lepwar.6.t: "Defectors from Anqing"
+ lepwar.6.desc: "It seems that with the collapse of the Anqing Clique, a number of warlords, generals, and petty despots tainted by Chen Tiaoyuan's association with the Japanese have chosen place their bet on [SQI.GetLeader] rather than risk retribution from the Kuomintang. There skills will surely prove an asset to us."
+ lepwar.6.a: "Welcome!"
+
 ### Ideas ###
  unite_china_justification_idea: "China United!"
  unite_china_justification_idea_desc: "Now that we have captured the capital and formed a new Chinese government, we must subjugate the remaining warlords."
@@ -181,6 +293,14 @@
  league_collapse_idea_1_desc: "Now that the League has broken and open warfare has begun, the forces of Nanjing are in chaos and forced to fight on multiple fronts against their enemies. Now is the time for us to strike and lay claim to what is rightfully ours!"
  league_collapse_idea_2: "Nanjing Re-Organised"
  league_collapse_idea_2_desc: "The traitors have failed to break us despite our weaknesses, now the time has come for us to strike back and reclaim what is ours!"
+ china_foreign_support: "Foreign Support"
+ china_foreign_support_desc: "Due to our success in the war, a foreign mission has been spent to help us see through our victory."
+ china_desertions_common: "Desertions Common"
+ china_desertions_common_desc: "A string of defeats has resulted in more and more men refusing to fight, sometimes joining the army to receive a new pair clothes and sell them off at the nearest market."
+ china_morale_effects_tooltip: "§YLeague War Morale§!\nPolitical Power Gain: [?china_morale_dm_political_power_gain|+=%0]\nWar Support: [?china_morale_dm_war_support_factor|+%=2]\nSurrender Limit: [?china_morale_dm_surrender_limit|+%=0]\nBreakthrough: [?china_morale_dm_breakthrough_factor|+%=1]"
+ china_anti_stalemate_idea_2: "Collapsing Morale"
+ china_anti_stalemate_idea_2_desc: "[THIS.GetLeader]'s failure to bring a decisive end to war has resulted in a complete and utter collapse of morale among the ranks. Day by day, soldiers lay down their weapons or turn to banditry, leaving our cause to its fate."
+ china_motivated_soldiers: "Motivated Soldiers"
 
  ROC: "China"
  ROC_ADJ: "Chinese"

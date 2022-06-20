@@ -30,6 +30,9 @@
  SOV_frunzes_reform_plan: "Frunze's Reform Plan"
  SOV_tukhachevskiys_reform_plan: "Tukhachevskiy's Reform Plan"
 
+### World Tension ###
+ SOV_spreading_the_revolution_threat: "§Y[SOV.GetNameDef]§! Joins the §Y[INT.GetFactionName]§!"
+
 ### Decisions ###
  SOV_The_First_Five_Year_Plan: "The First Five-Year Plan"
 
@@ -38,20 +41,24 @@
  SOV_Join_The_Internationale_desc: "Rather than having all of us try to stand up to the German imperialists on our own we should join hands with our comrades in Britain, France, Italy and beyond."
  SOV_Protect_The_Baltics: "Protect [FROM.GetNameDef]"
 
-### Tooltips ###
- SOV_Control_The_Unions_tooltip: "Modify §H$SOV_proletarian_humanism_idea$§! or §H$SOV_revolutionary_vanguard_idea$§! by\nFactory Output: [?0.1|+=%]"
- SOV_Proletarian_Revolution_tooltip: "Modify §H$SOV_revolutionary_vanguard_idea$§! or §H$SOV_industrial_democracy_idea$§! by\nIndustrial Research Speed: [?0.1|+=%0]"
- SOV_Mass_Collectivisation_tooltip: "Modify §H$SOV_revolutionary_vanguard_idea$§! or §H$SOV_industrial_democracy_idea$§! by\n£prod_eff Production Efficiency Growth: [?0.15|+=%]"
+ SOV_join_INT_wars: "Defend [FROM.GetNonIdeologyName]"
+ SOV_request_INT_join_wars: "Call [FROM.GetNonIdeologyName] to Our Defence"
 
- SOV_Research_Investments_tooltip: "Modify §H$SOV_gosplan$§! by\nResearch Speed: [?0.1|+=%]"
+ INT_join_SOV_wars: "Defend [FROM.GetNonIdeologyName]"
+ INT_request_SOV_join_wars: "Call [FROM.GetNonIdeologyName] to Our Defence"
+
+### Tooltips ###
+ SOV_Control_The_Unions_tooltip: "Modify §H$SOV_proletarian_humanism_idea$§! or §H$SOV_revolutionary_vanguard_idea$§! by\n$MODIFIER_INDUSTRIAL_CAPACITY_FACTOR$: [?0.1|+=%]"
+ SOV_Proletarian_Revolution_tooltip: "Modify §H$SOV_revolutionary_vanguard_idea$§! or §H$SOV_industrial_democracy_idea$§! by\n$MODIFIER_PRODUCTION_FACTORY_EFFICIENCY_GAIN_FACTOR$: [?0.1|+=%]"
+ SOV_Mass_Collectivisation_tooltip: "Modify §H$SOV_revolutionary_vanguard_idea$§! or §H$SOV_industrial_democracy_idea$§! by\n$MODIFIER_PRODUCTION_FACTORY_MAX_EFFICIENCY_FACTOR$: [?0.1|+=%]"
+
+ SOV_Research_Investments_tooltip: "Modify §H$SOV_gosplan$§! by\n$MODIFIER_RESEARCH_SPEED_FACTOR$: [?0.1|+=%]"
 
  SOV_Rally_The_Defectors_tooltip: "§RDefections will be hampered by Okhrannoye Otdeleniye operatives.§!"
- SOV_The_Peoples_Logistics_Corps_tooltip: "Modify §H$SOV_armament_production$§! by\nSupply Consumption: [?-0.1|-=%1]\nArmy Fuel Consumption: [?-0.1|-=%]"
- SOV_Dedicated_Artillery_Battalions_tooltip: "Modify §H$SOV_armament_production$§! by\n§HTowed Artillery§!: £production_cost  Production Cost:  [?-0.1|-=%]"
- SOV_Mass_Breakthroughs_tooltip: "Modify §H$SOV_tukhachevskiys_reform_plan$§! by\nDivisions Speed: [?0.1|+=%]\n§HArmour§!: Breakthrough: [?0.1|+=%0]"
- SOV_Land_Air_Integration_tooltip: "Modify §H$SOV_tukhachevskiys_reform_plan$§! by\n§HClose Air Support§!: £production_cost  Production Cost:  [?-0.1|-=%]"
-
- SOV_is_guaranteed: "Will be guaranteed by §H[ROOT.GetNameDef]§!."
+ SOV_The_Peoples_Logistics_Corps_tooltip: "Modify §H$SOV_armament_production$§! by\n$MODIFIER_SUPPLY_CONSUMPTION_FACTOR$: [?-0.1|-=%1]\n$MODIFIER_ARMY_FUEL_CONSUMPTION_FACTOR$: [?-0.1|-=%]"
+ SOV_Dedicated_Artillery_Battalions_tooltip: "Modify §H$SOV_armament_production$§! by\n§HTowed Artillery§!: $STAT_COMMON_BUILD_COST_IC$[?-0.1|-=%]"
+ SOV_Mass_Breakthroughs_tooltip: "Modify §H$SOV_tukhachevskiys_reform_plan$§! by\n$MODIFIER_ARMY_SPEED_FACTOR$: [?0.1|+=%]\n§HArmour§!: Breakthrough: [?0.1|+=%0]"
+ SOV_Land_Air_Integration_tooltip: "Modify §H$SOV_tukhachevskiys_reform_plan$§! by\n§HClose Air Support§!: $STAT_COMMON_BUILD_COST_IC$[?-0.1|-=%]"
 
 ### Parties ###
  SOV_totalist_party: "KNOF"
@@ -112,7 +119,7 @@
  SOV_First_Five_Year_Plan_desc: "The taxation of the peasantry and thus taking the surplus value of the peasants will allow for the productive forces to transition to socialism to be created, which is best done through a central planning agency creating plans which allow for rapid industrialisation."
 
  SOV_Industrial_Democracy: "Industrial Democracy"
- SOV_Industrial_Democracy_desc: "Kollontay's vision for union control over the economy has succeeded in winning over a majority of comrades. Despite her noble ancestry, she has always been a fighter for more control of unions and thus workers over the economy, as unions are the best representation of the will of the proletariat."
+ SOV_Industrial_Democracy_desc: "Kollontai's vision for union control over the economy has succeeded in winning over a majority of comrades. Despite her noble ancestry, she has always been a fighter for more control of unions and thus workers over the economy, as unions are the best representation of the will of the proletariat."
 
  SOV_Break_The_Smychka: "Break The Smychka"
  SOV_Break_The_Smychka_desc: "As a result of centuries of feudal and capitalist rule, Russia has few true peasants. It's therefore inconceivable that the farmer will be at the centre of the revolution, albeit through no fault of their own. No, it's the worker and not the peasant that will be the vanguard of the revolution, and he should be elevated as such."
@@ -266,10 +273,12 @@
  russoc.101.a: "A poor decision on their part."
 
  russoc.102.t: "Conflict in the Party"
- russoc.102.d: "The party has come to be divided between three factions, one lead by Bukharin, one by Kollontay and one by Radek. The one by Bukharin champions a path of socialism at a snail's pace, where cautious industrialisation prevents the creation of a massive state bureaucracy as well as wanting to preserve the smychka at all costs and wanting to bridge the general urban-rural divide in the country.\n\nThe faction lead by Kollontay promotes the unions managing the economy, seeing them as the best way to give workers a voice in the economy and the nation. They also are very opposed to the perceived influence of the peasants and thus want to break-up the smychka strongly, supporting the further workerisation of the party.\n\nLast but not least, the faction lead by Radek supports the idea of primitive socialist accumulation, that is to extract the peasant surplus value and to use this to develop the productive forces to transition to make Russia ready for socialism, which is best developed in their mind through five-year plan."
- russoc.102.a: "Bukharin's faction wins the day."
- russoc.102.b: "Kollontay's faction establishes itself as the winner."
- russoc.102.c: "Radek wins a surprise victory."
+ russoc.102.d: "The party has come to be divided between three factions, one lead by Bukharin and Rykov, one by Kollontai and Shlyapnikov and one by Radek. The first champions a path of socialism at a snail's pace, where cautious industrialisation prevents the creation of a massive state bureaucracy as well as wanting to preserve the Smychka at all costs and wanting to bridge the general urban-rural divide in the country.\n\nThe syndicalist faction promotes the unions managing the economy, seeing them as the best way to give workers a voice in the economy and the nation. They also are very opposed to the perceived influence of the peasants and thus want to break-up the Smychka strongly, supporting the further workerisation of the party.\n\nLast but not least, the faction lead by Radek supports the idea of primitive socialist accumulation, that is to extract the peasant surplus value and to use this to develop the productive forces to transition to make Russia ready for socialism, which is best developed in their mind through five-year plan."
+ russoc.102.a: "Rykov's leadership will continue."
+ russoc.102.b: "Bukharin's supporters win the day."
+ russoc.102.c: "Shlyapnikov will lead Russia forward."
+ russoc.102.e: "Kollontai establishes herself as the winner."
+ russoc.102.f: "Radek wins a surprise victory."
 
  russoc.103.t: "The Eastern Threat"
  russoc.103.d: "Despite their best efforts and our generous support, the republican government of Russia has collapsed in the face of the socialist forces' onslaught. This is nothing less than an utter catastrophe - the newly-empowered Russian socialists are all but certain to align with [FRA.GetNameDef] and the Third Internationale, reviving the dreaded spectre of another two-front war. However, [SOV.GetNameDef] will need time to recover from the devastation of the civil war, a time we must use to extend our protection to any countries endangered by the new regime.\n\nPoland, Finland and the Caucasus all stand unprotected - we must do whatever we can to protect them, lest they fall to the incoming Russians."
@@ -344,5 +353,112 @@
  russoc.119.c: "Refuse."
 
  russoc.120.t: "[From.GetNameDefCap] joins the Reichspakt"
- russoc.120.d: "[From.GetNameDefCap] has accepted our offer. Now they are a part of the Reichspakt."
+ russoc.120.d: "The [From.GetAdj] government has accepted our offer for protection and have signed a treaty of military cooperation without any delays. Moscow issued a formal protest and declared the move as blatant German aggression, but for now the military might of the Reichspakt seems to be keeping the peace."
  russoc.120.a: "Excellent!"
+
+ russoc.121.t: "[From.GetNameDefCap] Offers Aid"
+ russoc.121.d: "In a show of international solidarity, [From.GetName] has declared their support for our struggle and they intend to deliver their own declaration of war upon our enemies."
+ russoc.121.a: "All help is welcome!"
+ russoc.121.b: "We're doing fine on our own."
+
+ russoc.122.t: "[From.GetNameDefCap] Calls for Aid"
+ russoc.122.d: "[From.GetAdj] diplomats have approached us discreetly, asking us to join their wars in the name of shared struggle for the liberation of mankind. Given our close relations with this, such call is hardly unexpected. Still, we aren't bound to join their conflict - but such move would be hard to justify, given our aligned goals."
+ russoc.122.a: "And [ROOT.GetNonIdeologyName] will answer!"
+ russoc.122.b: "They can deal with it on their own."
+
+### Traits ###
+ INT_russian_exile_trait: "Russian Exile"
+ INT_russian_exile_trait_desc: "§LA military leader forced to flee Russia after the failure of its revolution. Their loyalty to the socialist ideals led them to serve the Internationale, perhaps hoping for the slightest chance of seeing a Red Russia arise.§!"
+
+### Characters ###
+ RUS_karl_radek: "Karl Radek"
+ RUS_karl_radek_leader_desc: "Karl Radek would struggle to count the number of socialist movements he's had a hand in over the years. Born in Austria-Hungary to a Jewish Litvak family, he joined the Social Democracy of Poland and Lithuania and participated in the Revolution of 1905 in Warsaw - only to get expelled a few years later as a part of an anti-semitic and anti-Leninist campaign within the party. Briefly, he worked for the German SPD, before getting expelled as well. He worked for the Bremen Left, attended the Zimmerwald Conference in Zurich, and ultimately left for Petrograd in the same sealed train as Lenin to join the October Revolution. He did not stay in Russia either, however - in late 1918, he crossed borders in secret to join the revolutionary events taking place in Germany, moments before they were crushed by the Kaiser.\n\nThis brief adventure is what saved his life, however - instead of executing him like what the Whites did to all Bolsheviks they could find, Radek was kept in prison by the Germans and was eventually released in the late twenties, at which point he once again moved to Russia, "the weakest link in the capitalist system". An ardent revolutionary and a radical even among radicals, Radek stresses the need for Russia to quickly develop itself through use of extensive state planning, in order to prepare for the coming world revolution."
+
+ RUS_aleksandra_kollontai: "Aleksandra Kollontai"
+ RUS_aleksandra_kollontai_leader_desc: "Aleksandra Domontovich, marriage name Kollontai, was born to a liberal cavalry general from whom she inherited an interest in history, analytics and political reform. Her leftist sympathies began when she was sent to Western Europe to distance her from a relationship with a poor fellow student, and she started reading into radical leftist literature during the exile. During this time, she became an ardent supporter of women rights, and trade unionism, these views of hers were further driven towards Syndicalism by her lover, Aleksandr Shlyapnikov.\n\nKollontai was a Menshevik until 1915, when she broke over the issue of the Great War, and joined the Bolsheviks instead. During the botched October Revolution, she was a member of the Central Committee and sought to use her position to put her feminist ideology into practice, but the Russian Civil War put an end to her designs. Alongside Shlyapnikov, she helped found the Trade Unions' Socialist Party, the movement closest to orthodox French syndicalism on Russian soil - it proclaims the needs of the urban worker, the forefront of the Revolution, and declares trade unions to be the building bloc of socialism, while distrusting the Russian peasantry and rural labourers, whom they see as inherently reactionary."
+
+ RUS_aleksey_rykov: "Aleksey Rykov"
+ RUS_aleksey_rykov_leader_desc: "Born from rural Russian peasantry, Aleksey Rykov was an early member of Social Democratic Labour's Bolshevik faction and a supporter of Vladimir Lenin over his political rivals in the movement. After returning from exile in Siberia in 1917, he joined the October Revolution, although he disagreed with the radical inclinations of the Bolshevik movement, and was put in charge of the fledgling Soviet state's industry. During this period, he organised the policy of War Communism, although he later regretted its most brutish measures and the peasant resentment it sparked.\n\nRykov survived the end of the Russian Civil War and joined Nikolay Bukharin in exile to form the People's Socialist Party - the two men found a lot of common ground in their call for caution while transforming the Russian economy and for moderation among the radical factions of the Central Committee."
+
+ RUS_nikolay_bukharin: "Nikolay Bukharin"
+ RUS_nikolay_bukharin_leader_desc: "Born in a middle class family in the capital of Russia, Bukharin has been a member of the Russian far left for the last three decades. He was an early member of Social Democratic Labour and its Bolshevik faction, convened the conference which founded its youth movement, the Komsomol, and maintained contact with the rest of the party while in exile in the West. There, his political thought was influenced by the European Left, the Austrian Marxists and non-Marxist scholars such as Aleksandr Bogdanov, and he constantly came into ideological conflict with Vladimir Lenin despite remaining a loyal Bolshevik.\n\nBukharin played a key role in the botched October Revolution and emerged as a member of the Soviet republic's left wing - he vehemently opposed the Treaty of Brest-Litovsk and believed in the prospect of a world revolution, especially when revolutionary events in France began to break out. After the revolution was suppressed, Bukharin was one of the few who managed to escape the gallows, and organised the underground Bolsheviks in the following years into the People's Socialist Party. Wary of possible bureaucratisation and "military-feudal exploitation" of the peasantry, Bukharin endorses a moderate approach of cautious industrialisation and an alliance between the proletariat and peasantry."
+
+ RUS_aleksandr_shlyapnikov: "Aleksandr Shlyapnikov"
+ RUS_aleksandr_shlyapnikov_leader_desc: "Born from a family of poor Old Believers, Aleksandr Shlyapnikov worked in various factories in Petrograd since he was thirteen and grew to become an ardent revolutionary. Devoted to trade unionism and the struggle of Russian labour for control of their means of production, he allied himself with several radical leftist parties before finally joining the Bolsheviks, although he always pronounced his goals above any of their ideological designs. Because of this, though he participated in the October Revolution, Shlyapnikov constantly came into conflict with Lenin and the Bolsheviks, and constantly criticised their authoritarian tendencies when the rights of workers should be their primary concern.\n\nAs a less prominent Bolshevik, Shlyapnikov escaped the gallows, but continued his political crusade. Alongside his lover Aleksandra Kollontai, he founded the Trade Unions' Socialist Party, and started drifting towards Syndicalism after seeing the success of the French revolution - the TUSP proclaims the needs of the urban worker, the forefront of the Revolution, and declares trade unions to be the building bloc of socialism, while distrusting the Russian peasantry and rural labourers, whom they see as inherently reactionary."
+
+ RUS_all_russian_congress: "All-Russian Congress"
+
+ RUS_ivan_smirnov: "Ivan Smirnov"
+ RUS_ivar_smilga: "Ivar Smilga"
+ RUS_yevgeni_preobrazhensky: "Yevgeni Preobrazhensky"
+ RUS_mikhail_tomsky: "Mikhail Tomsky"
+ RUS_grigory_sokolnikov: "Grigory Sokolnikov"
+ RUS_grigory_zinoviev: "Grigory Zinoviev"
+ RUS_lev_kamenev: "Lev Kamenev"
+ RUS_martemyan_ryutin: "Martemyan Ryutin"
+ RUS_nikolai_yezhov: "Nikolai Yezhov"
+
+ RUS_mikhail_tukhachevsky: "Mikhail Tukhachevsky"
+ RUS_mikhail_tukhachevsky_FRA_commander_desc: "§YGeneral Description\n§YBorn:§L\n16 February 1893, in Alexandrovskoye, Smolensk Governorate, Russian Empire"
+ RUS_mikhail_tukhachevsky_commander_desc: "§YGeneral Description\n§YBorn:§L\nFebruary 16th, 1893, in Alexandrovskoye, Smolensk Governorate, Russian Empire\n§YMilitary Career:§L\nBorn to impoverished Russian nobility of rumoured Flemish crusader origin, Mikhail Tukhachevsky enrolled to the cadet corps of the Russian Imperial Army in 1912. Even at a young age, he did not lack ambition - once the Weltkrieg began, he proudly declared that he will either be a general at thirty or dead by then. After showing skill and bravery in the Eastern Front, Tukhachevsky fulfilled this goal - but not in the way he anticipated. He joined the Red Army as a volunteer and rapidly rose in rank, becoming a close associate to Leon Trotsky and achieving the rank of General not long after Lenin's assassination. The Fifth Army he commanded was one of the Red Army's finest units and pioneered the concept of motorised concentration warfare, but was ultimately defeated by Vladimir Kappel.\n\nAlongside several high ranking Bolsheviks and Red Army leaders, Tukhahevskiy escaped to France, a nation he was already familiar with, and offered his service to the newly established Commune. In the following years, he dedicated his time to essay after essay on the reforms which he believed the French army needs - his close associates said that he owns over a hundred volumes on military tactics and has read every single one. Tukhachevsky expressed dismay at the decentralised structure of the Syndicalist Commune, believing it unfit for modern warfare, and proposed the creation of a unified, centralised, apolitical army instead. Because of this, he came into constant conflict with the Faure government, but the CGT could not simply remove him from the academy - even they understood that Tukhachevsky was the best general which the Internationale has available.\n\nTo resolve this, he and the other Bolsheviks were sent to Patagonia to lead a military mission to help the Argentinean Revolution."
+
+ RUS_mikhail_frunze: "Mikhail Frunze"
+ RUS_vasily_blyukher: "Vasily Blyukher"
+
+ RUS_aleksandr_yegorov: "Aleksandr Yegorov"
+ RUS_aleksandr_yegorov_commander_desc: "§YGeneral Description\n§YBorn:§L\nOctober 13, 1883, in Buzuluk, Samara Governorate, Russian Empire\n§YMilitary Career:§L\nAleksandr Yegorov started off as a career officer. By 1905, he was second lieutenant without stain in his career. In 1904, he became member of the Socialist-Revolutionary Party, setting him to the path towards the Red Army and eventual exile. Once the war began, he rose quickly through the ranks. By 1917 Yegorov, fresh lieutenant colonel, had been wounded five times on the line of duty, and was decorated for his bravery and boldness in the face of danger.\n\nAfter the October Revolution, Yegorov radicalized further towards the Bolshevik cause. He became organizer in the newly-born Red Army, and used his experience in trying to hammer an effective fighting force out of the irregular Bolshevik militias. As the war grew more grim for the Reds, he was dispatched to command the southern front. Yegorov was wounded yet again in bloody fighting near Tsaritsyn. Despite his skill and respect by his men, the tide of the war was turning against the Revolution for good. He kept fighting to the bitter end, and would have decided to die in Russia if not for his comrades pleading him to escape.\n\nHaving forged reputation of expert organizer and fearless frontline commander, Yegorov was respected as a revolutionary specialist, with skills to turn scattered revolutionary bands into proper military formations."
+
+ RUS_georgy_zhukov: "Georgy Zhukov"
+ RUS_georgy_zhukov_commander_desc: "§YGeneral Description\n§YBorn:§L\nDecember 1st, 1896, in Strelkovka, Kaluga Governorate, Russian Empire\n§YMilitary Career:§L\nBorn to an impoverished peasant family in Central Russia, Georgy Zhukov never considered himself to be a military man in the making, instead apprenticing to be a furrier in his brother's workshop in Moscow. Then the Weltkrieg came, and with it, Zhukov was conscripted to the Imperial Russian Army. Here, he found his calling, displaying skill, bravery, and finishing server as a non-commissioned cavalry officer. After the October Revolution, he briefly went back home, but once again returned to the frontlines, this time as a junior commander in the Red Army.\n\nZhukov's service was rather brief, however, but once the Soviet regime collapsed, he escaped his homeland with numerous other Red Army commanders, and landed in France. Getting accustomed to a completely foreign country was difficult, but Zhukov had fully dedicated himself to the Bolshevik course by then and pushed forward with dedication - he completed officer training courses, maintained contact with Mikhail Tukhachevsky, studied modern strategy from his superior, and voluntarily joined the Internationale mission to Patagonia. Dutifully loyal to the cause of the Revolution, he is often seen as the most trustworthy and reliable of the Bolshevik trio, even if his inexperience holds him back from promotions."
+
+ RUS_iosib_dzugashvili: "Iosib Dzhugashvili"
+ RUS_iosib_dzugashvili_commander_desc: "§YGeneral Description\n§YBorn:§L\nDecember 18th, 1878\nGori, Tiflis Governorate, Russian Empire\n§YMilitary Career:§L\nIoseb Dzhugashvili is a man known by many names - Soselo, Stalin, Koba are just a few of the most famous ones. Born to an impoverished Georgian family, Ioseb was physically disabled from young age and had a troubled childhood, marked by fights, abuse and alcoholism. Early in his life, he got drawn to Georgian nationalist poetry and enrolled in the Tiflis Seminary, but abandoned his previous calling when he came into contact with socialist literature. He dedicated himself to Marxism, joined the Bolshevik faction of the RSDLP, and raised money for the revolution with protection rackets, counterfeiting and bank robberies. He was a loyal follower of Lenin and represented the party in the public by running the newspaper 'Pravda', and his articles there helped make a name for himself as well.\n\nDuring the fateful months of 1917, Dzhugashvili helped organise the July Days uprising and the October Revolution, and gained a seat in the Sovnarkom. He, Lenin and Trotsky formed the informal troika which controlled the state - as a result, Dzhugashvili was sent to Tsaritsyn to organise resistance against the Whites, where he showed himself as an adequate, if reckless commander. Once Lenin was assassinated in August 1918, it was Trotsky who took charge and not him - but the Soviet state was not one to last, eventually collapsing. Dzhugashvili, unlike Trotsky, managed to escape, making his way to France with the rest of the Bolshevik remnants, and helped reestablish the Party in exile.\n\nTo support the Patagonian Syndicalist revolution, Dzhugashvili was sent to the Southern Cone alongside a mission of other Bolsheviks, and alongside Makhno, he is one of the highest ranking Internationale officials in Patagonia - albeit unlike Makhno, representing the political interests of the Internationale.\n§YImportant Notes:§L- Aligned with the Communist faction."
+
+ RUS_aleksandr_vasilevsky: "Aleksandr Vasilevsky"
+ RUS_aleksandr_vasilevsky_commander_desc: "§YGeneral Description\n§YBorn:§L\nSeptember 30th, 1895, in Novaya Golchikha, Kostroma Governorate, Russian Empire\n§YMilitary Career:§L\nBorn to an extremely poor family of a priest in the Central Russian countryside, Vasilevsky completed studies in the seminary before the Weltkrieg and considered an agronomist's career, but his plans were changed by the war, which, in his own words, "overwhelmed him with patriotic feelings". He completed a course in military law and joined the front during the Brusilov Offensive, where he served with distinction and achieved the rank of captain, thanks to high casualties among his fellow officers leaving a vacancy to fill. The war left Vasilevsky sick, however, and he returned to his village after being demobilised in 1917, hoping to return to an agronomist's career.\n\nThat did not come to be, as in 1919, he ended up conscripted into the White Army and fought in the Volunteer Army during the last few months of the Russian Civil War. This time, Vasilevsky stayed, accepting a commission in the new Russian army and rapidly rising through the ranks. Considered to be one of the best organisers in the general staff and a grey eminence, he is seen by many as a vanguard of the new generation of Russian officers. In person, Vasilevsky is kind hearted, polite and extremely modest, to the point where he avoids mentioning his medals and assigns many of his achievements to the perceived brilliance of others."
+
+ RUS_boris_shaposhnikov: "Boris Shaposhnikov"
+ RUS_boris_shaposhnikov_commander_desc: "§YGeneral Description\n§YBorn:§L\nOctober 2nd, 1882\nZlatoust, Ufa Governorate, Russian Empire\n§YMilitary Career:§L\nThe backstory of Boris Shaposhnikov, one of the most talented generals in the Russian general staff, has so far remained mostly a mystery. The tight-lipped, mild-mannered, apolitical general has kept his former sympathies towards the Bolshevik Revolution under wraps - not long after Lenin's death at the hands of Fanny Kaplan, he defected from the Red Army, returning to demobilisation once again and rejoining the Russian army in 1923. Shaposhnikov's most famous contribution to the Russian army is the three volume military theory work named 'The Brain of the Army', in which he detailed his view on the future of warfare.\n\nDrawing from his experience of the Weltkrieg, he asserts that wars following it will be even more deadly than before, and require mass mobilisation never once imagined, the 'opium of war'. For a country to prevail in modern warfare, they must subordinate military matters to political imperative and a some sort of overarching ideology, which would be able to justify mass mobilisation and maintain the morale of the average soldier during years of war. In the Russian general staff, he stands as a supporter of army reform according to his military theory."
+
+ RUS_ivan_konev: "Ivan Konev"
+ RUS_maksim_purkayev: "Maksim Purkayev"
+ RUS_aleksandr_gorbatov: "Aleksandr Gorbatov"
+
+ RUS_nikolay_vatutin: "Nikolay Vatutin"
+ RUS_nikolay_vatutin_commander_desc: "§YGeneral Description\n§YBorn:§L\nDecember 16th, 1901, in Chepukino, Voronezh Governorate, Russian Empire\n§YMilitary Career:§L\nNikolay Vatutin was born to a middling peasant family in Voronezh, deep in rural Russia, and lived a simple life until the events of 1917, when his scholarship was suspended because of the impending Civil War. Kicked out of school, he returned to his village, where two years later, he was conscripted by Anton Denikin's forces into the Volunteer Army. After serving the last few months of the civil war as an infantryman, he chose to stay in the military and enrolled for officer education, which he passed with stellar grades - not that he had anywhere to return to, as the post-war Volga famines claimed the lives of his family. In the Russian army, Vatutin is known as innovative and hard-working, and with an eye for talented subordinates - but far from experienced, and with an absent-minded view towards grand strategy, preferring to focus on small scale tactics instead."
+
+ RUS_leonid_govorov: "Leonid Govorov"
+ RUS_kirill_meretskov: "Kirill Meretskov"
+ RUS_vasily_kuznetsov: "Vasily Kuznetsov"
+ RUS_andrey_vlasov: "Andrey Vlasov"
+ RUS_nikolay_berzarin: "Nikolay Berzarin"
+ RUS_nikolay_krylov: "Nikolay Krylov"
+ RUS_semyon_timoshenko: "Semyon Timoshenko"
+
+ RUS_arseny_golovko: "Arseny Golovko"
+ RUS_neon_antonov: "Neon Antonov"
+ RUS_filipp_ivanov: "Filipp Ivanov"
+ RUS_gordey_levchenko: "Gordey Levchenko"
+
+ RUS_vasily_glazunov: "Vasily Glazunov"
+ RUS_sergey_goriunov: "Sergey Goriunov"
+ RUS_konstantin_vershinin: "Konstantin Vershinin"
+ RUS_timofei_kutsevalov: "Timofei Kutsevalov"
+
+### Traits ###
+ SOV_faded_star: "Faded Star"
+ SOV_hero_of_the_peasantry: "Hero of the Peasantry"
+ SOV_champion_of_feminism: "Champion of Feminism"
+ SOV_labour_defence_organiser: "Labour Defence Organiser"
+ SOV_relentless_revolutionary: "Relentless Revolutionary"
+
+ SOV_commissar_of_heavy_industry: "Commissar of Heavy Industry"
+ SOV_economic_planner: "Economic Planner"
+ SOV_economist_and_publicist: "Economist and Publicist"
+ SOV_commissar_of_labour: "Commissar of Labour"
+ SOV_trade_union_council_chairman: "Trade Union Council Chairman"
+ SOV_commissar_for_posts_and_telegraphs: "Commissar for Posts and Telegraphs"
+ SOV_old_bolshevik: "Old Bolshevik"
+ SOV_technocrat: "Technocrat"
+ SOV_peasant_propagandist: "Peasant Propagandist"
+ SOV_commissar_of_finance: "Commissar of Finance"

@@ -2,16 +2,15 @@
 
  norway_focus: "Norway Focus Tree"
 
-### Leaders ###
- NOR_PRINCE_CARL_DESC: "Prince Carl, Duke of Västergötland, is the current Viceroy of Norway. He is the representative of his brother, King Gustaf V of Sweden and Norway."
- POLITICS_Haakon_VII_DESC: "After Norway secured its independence from Sweden in 1905, prince Carl of Denmark was asked to become king of the newly independent nation. Known to be a strong proponent of Democracy, the prince only accepted the throne after he was legitimised by plebiscite, adopting the regnal name Haakon that had been used by the Norwegian kings of old.\n\nIn more recent years, Norway's perceived support for the Entente during the Weltkrieg has pushed it into diplomatic and economic isolation, resulting in an increased growth of the socialist movement. Despite being respected and supported by the Norwegian people, and his declaration in 1928 that he is also the king of the syndicalists, this republican movement renders Haakon's position all but secure."
-
 ### Opinion Modifiers ###
 
  NOR_established_relations: "Established Diplomatic Relations"
  NOR_CAN_ties: "Anglo-Norwegian Ties"
  NOR_anglo_norwegian_cooperation: "Anglo-Norwegian Cooperation"
  NOR_political_meddling: "Influencing our Politics"
+
+### World Tension ###
+ NOR_revolution_threat: "Revolution in Norway"
 
 ### Parties ###
  NOR_totalist_party: "Arbeiderpartiet"
@@ -65,7 +64,7 @@
  NOR_labour_conflicts_strike: "General Strike"
  NOR_labour_conflicts_strike_desc: "The trade unions have declared a general strike that is paralysing the economy."
  NOR_weak_economy: "Sluggish Economy"
- NOR_weak_economy_desc: "After the Weltkrieg, Norway remained in the British sphere of influence, both politically and economically. The British revolution of 1925 therefore proved disastrous to the export-orientated Norwegian economy. Since then, the nation has been excluded from most European markets due to the German 'Reichspakt'. The lack of international trade is crippling our economy."
+ NOR_weak_economy_desc: "After the Weltkrieg, Norway remained in the British sphere of influence, both politically and economically. The British revolution of 1925 therefore proved disastrous to the export-orientated Norwegian economy. Since then, the nation has been excluded from most European markets due to the German 'Mitteleuropa'. The lack of international trade is crippling our economy."
  NOR_agricultural_foreclosures: "Agricultural Foreclosures"
  NOR_agricultural_foreclosures_desc: "Our decision to allow agricultural foreclosures to take place is in line with liberal economic theories. However, the decision is highly unpopular among the affected farmers and is hurting our popularity."
  NOR_uob_support_idea: "Syndicalist Interference"
@@ -374,7 +373,7 @@
  NOR_NAT_arbeidstjenesten: "NS Arbeidstjeneste"
  NOR_NAT_arbeidstjenesten_desc: "Not everybody can serve in the armed forces, but even women and the youth can serve our state. The 'NS Arbeidstjeneste' shall put them to work in the cities and the fields to help build a new society through good, honest labour."
  NOR_NAT_greenland_claim: "The Greenland Question"
- NOR_NAT_greenland_claim_desc: "Greenland is an integral part of the Norwegian state. We should therefore demand its return and rectify this historical injustice."
+ NOR_NAT_greenland_claim_desc: "In 1814, when the treaty of Kiel entered Norway into a personal union with Sweden, Denmark kept its Northern Atlantic possessions. However, Greenland is an integral part of the Norwegian state. We should therefore demand its return and rectify this historical injustice."
  NOR_NAT_iceland_claim: "North Atlantic Claims"
  NOR_NAT_iceland_claim_desc: "Iceland and the Faroe Islands are sparsely populated and used to belong to Norway before our subjugation to Denmark. We should therefore demand their return."
  NOR_NAT_orkney_claim: "The Northern Islands"
@@ -460,16 +459,6 @@
  norway.16.d: "The conservative and far-right parties have issued a formal protest against the formation of a radical Labour government. The claim said government is a threat to the stability of the nation and demand that the king appoints someone else. However, the king is not inclined to break with parliamentary procedure and has stated that 'I am also king for the syndicalists'."
  norway.16.a: "It is the will of the people!"
 
- norway.17.t: "Choosing the Prime Minister"
- norway.17.d: "After gaining a majority in the election, the social-democratic Labour Party will form a government together with the Liberal Party. There are two candidates for the post of Prime Minister. The favourite, Magnus Nilssen, has lead the party since splitting from the radicals in 1921. The other option is the charismatic parliamentarian, Johan Nygaardsvold, who is wanted by younger members of the party. Who is the new Prime Minister?"
- norway.17.a: "Magnus Nilssen, the party leader."
- norway.17.b: "Johan Nygaardsvold, darling of the young guard."
-
- norway.18.t: "Choosing the Prime Minister"
- norway.18.d: "After forming a coalition with the Farmers Party, the Conservative Party will now form a government. There are two candidates for the post of Prime Minister. Carl Joachim Hambro, the able and experienced party veteran, and Johan Henrik Andresen, the famous industrialist. Who is the new Prime Minister?"
- norway.18.a: "Carl Joachim Hambro, president of the Storting."
- norway.18.b: "Johan Henrik Andresen, the businessman."
-
  norway.20.t: "The Opening of the 85th Storting"
  norway.20.d: "Today, the king opened the 85th Storting and announced the political programme of the new government. The transfer of power has been peaceful and the new government will begin its work as soon as possible."
  norway.20.a: "Our democracy is strong."
@@ -499,11 +488,6 @@
  norway.27.t: "A Syndicalist Norway"
  norway.27.d: "With the help of the Trade Unionists, the labour government has managed to survive the bourgeois attacks on the rightful government. Now they have the power and capacity to reform Norway in a manner that has not been seen before. At the end of this, Norway will have achieved socialism!"
  norway.27.a: "All Power to the Workers."
-
- norway.28.t: "Choosing a New General-Secretary"
- norway.28.d: "Who will fill the post of general secretary in our new government?"
- norway.28.a: "Konrad Nordahl, the Trade Unionist Leader."
- norway.28.b: "Haakon Lie, the Party Secretary."
 
  norway.29.t: "A Nationalist Norway"
  norway.29.d: "Vidkun Quisling has formed a national government to combat the syndicalist threat. Today, parliament passed a law granting Quisling the power to enact laws, before Quisling suspended parliament indefinitely. There is no doubt that a new age has come to Norway. Also, the King has fled to Canada."
@@ -671,20 +655,6 @@
  norway.134.t: "Our War Games Are a Success"
  norway.134.d: "Our wargames have proved to be a complete success. Our men have come to accept the necessity of liberating our Swedish brothers and army morale is at an all-time high."
  norway.134.a: "Great!"
-
- norway.135.t: "The Norwegian Ultimatum"
- norway.135.d: "This morning, a bomb killed three people in the Norwegian city of Halden. Six hours later, the Norwegian ambassador presented us with an outrageous list of demands. We must transfer Jämtland and Bohuslän to Norwegian control, extradite king Haakon VII to face criminal charges and accept trade unionists in to our government. The cabinet has been united in its condemnation of this ridiculous document."
- norway.135.a: "Refuse these outrageous demands!"
- norway.135.b: "We must submit..."
-
- norway.136.t: "Sweden Reject Our Demand"
- norway.136.d: "The Swedish government has, as to be expected, rejected our demands. It seems this time we have no other option than to use force."
- norway.136.a: "Let us liberate our Swedish brothers!"
- norway.136.b: "Oh... Nevermind then..."
-
- norway.137.t: "Sweden Accepts Our Demands"
- norway.137.d: "In a surprising turn of events, the Swedish government has accepted our demands."
- norway.137.a: "Huzzah! The Scandinavian workers are strong!"
 
  norway.138.t: "The Formation of Kompani Linge"
  norway.138.d: "Martin Linge has gathered his band of patriots and crossed the border into Sweden. We hope they'll succeed at sabotaging and destroying vital industries."
@@ -933,17 +903,19 @@
  norway.224.d: "Realising the futility of their position, [FROM.GetNameDef] has decided to withdraw their irredentist claims."
  norway.224.a: "A victory for diplomacy."
 
- norway.225.t: "Norway Wants to Join the Reichspakt"
- norway.225.d: "Norway, which is currently in conflict with the Syndicalist menace, has requested to join our alliance."
- norway.225.a: "Yes."
- norway.225.b: "No."
+ norway.225.t: "Norway Wants to Join the [ROOT.GetFactionName]"
+ norway.225.d1: "Norway, which is currently threatened by the Syndicalist menace, has requested to join our alliance."
+ norway.225.d2: "Norway, stating admiration for our strong ruling government, sees us as the future of Europe and has requested to join our alliance."
+ norway.225.a: "Welcome."
+ norway.225.b: "That Quisling has a bad name, we're better off without him."
 
- norway.226.t: "Germany Accepted Our Request"
- norway.226.d: "The Germans have decided to accept us into their military alliance."
- norway.226.a: "Together we'll crush the syndicalist scum!"
+ norway.226.t: "[FROM.GetNonIdeologyName] Has Accepted Our Request"
+ norway.226.d: "The [FROM.GetAdjective]s have decided to accept us into their military alliance."
+ norway.226.a1: "Together we'll crush the syndicalist scum!"
+ norway.226.a2: "The weakness of the old order will be laid bare!"
 
- norway.227.t: "Germany Refused Our Request"
- norway.227.d: "Unfortunately, the Germans have decided to reject our petition to join the Reichspakt."
+ norway.227.t: "[FROM.GetNonIdeologyName] Has Refused Our Request"
+ norway.227.d: "Unfortunately, [FROM.GetAdjective]s have decided to reject our petition to join the [FROM.GetFactionName]."
  norway.227.a: "It seems we're on our own..."
 
  norway.320.t: "The Abolition of the Monarchy"
@@ -964,7 +936,7 @@
 
  norway.324.t: "Vidkun Quisling's Counter Revolution"
  norway.324.d: "This morning, Vidkun Quisling, an outspoken Norwegian nationalist executed a counter coup against the recently instated Norwegian syndicalist government with the assistance of the army. Quisling has long been a outspoken critic of any socialist beliefs, and has ran a prominent radio broadcast on his thoughts on the state of the nation, and his steps to destroy socialism. Army units loyal to the syndicalist cause have engaged in sporadic combat with the Norwegian Armed Forces, who have sworn allegiance to their new leader. While it is believed that there will still be significant opposition to Quisling's regime, escalation to a civil war has been found to be unlikely. As Norway finally gives into its nationalist underbelly, the world can only watch as hallmark of European liberal democracy slips into obscurity."
- norway.324.a: "For better or for worse, Norways path is her own"
+ norway.324.a: "For better or for worse, Norway's path is her own"
 
 ### Norwegian Socialism elections ###
  nor_syncon.1.t: "Landsorganisasjonen - Foreign Policy"
@@ -1006,7 +978,7 @@
  nor_syncon.5.f: "... Elias Volan is elected Chairman."
 
 ### Decisions ###
- NOR_join_reichspakt: "Join the Reichspakt"
+ NOR_join_faction: "Join the [FROM.GetFactionName]"
 
 ### Tooltips ###
  NOR_red_guards_tooltip: "You will gain §Y3§! Militia Divisions."
@@ -1086,7 +1058,36 @@
  NOR_nils_traedal: "Nils Trædal"
  NOR_rolf_fuglesang: "Rolf Fuglesang"
  NOR_vidkun_quisling: "Vidkun Quisling"
+
  NOR_haakon_vii: "Haakon VII"
+ NOR_haakon_vii_leader_desc: "After Norway secured its independence from Sweden in 1905, prince Carl of Denmark was asked to become king of the newly independent nation. Known to be a strong proponent of Democracy, the prince only accepted the throne after he was legitimised by plebiscite, adopting the regnal name Haakon that had been used by the Norwegian kings of old.\n\nIn more recent years, Norway's perceived support for the Entente during the Weltkrieg has pushed it into diplomatic and economic isolation, resulting in an increased growth of the socialist movement. Despite being respected and supported by the Norwegian people, and his declaration in 1928 that he is also the king of the syndicalists, this republican movement renders Haakon's position all but secure."
+
+ NOR_olav_scheflo: "Olav Scheflo"
+ NOR_sverre_stoestad: "Sverre Stoestad"
+ NOR_haakon_lie: "Haakon Lie"
+ NOR_johan_henrik_andersen: "Johan Henrik Andersen"
+ NOR_magnus_nilssen: "Magnus Nilssen"
+ NOR_johan_nygaardsvold: "Johan Nygaardsvold"
+ NOR_gulbrand_lunde: "Gulbrand Lunde"
+ NOR_stortinget: "Stortinget"
+
+ NOR_wilhelm_morgenstierne: "Wilhelm Morgenstierne"
+ NOR_adolf_indreboe: "Adolf Indreboe"
+ NOR_jakob_friis: "Jakob Friis"
+ NOR_arnulf_oeverland: "Arnulf Oeverland"
+ NOR_olav_hindahl: "Olav Hindahl"
+ NOR_arne_scheel: "Arne Scheel"
+ NOR_ivar_lykke: "Ivar Lykke"
+ NOR_odd_klingenberg: "Odd Klingenberg"
+ NOR_erik_colban: "Erik Colban"
+ NOR_kornelius_bergsvik: "Kornelius Bergsvik"
+ NOR_terje_wold: "Terje Wold"
+ NOR_finn_stoeren: "Finn Stoeren"
+ NOR_frederik_prytz: "Frederik Prytz"
+ NOR_jon_sundby: "Jon Sundby"
+ NOR_sven_nielsen: "Sven Nielsen"
+ NOR_harald_gram: "Harald Gram"
+
  NOR_kristian_laake: "Kristian Laake"
  NOR_carl_gustav_fleischer: "Carl Gustav Fleischer"
  NOR_otto_ruge: "Otto Ruge"
@@ -1099,12 +1100,26 @@
  NOR_jacob_hvinden_haug: "Jacob Hvinden Haug"
  NOR_trygve_frivold_graffwang: "Trygve Frivold Graff-Wang"
  NOR_oswald_nordlie: "Oswald Nordlie"
+
  NOR_jonas_lie: "Jonas Lie"
  NOR_karl_marthinsen: "Karl Marthinsen"
  NOR_oliver_moystad: "Oliver Møystad"
  NOR_henrik_rogstad: "Henrik Rogstad"
  NOR_axel_stang: "Axel Stang"
  NOR_konrad_sundlo: "Konrad Sundlo"
+
  NOR_carsten_tank_nielsen: "Carsten Tank-Nielsen"
  NOR_henry_diesen: "Henry Diesen"
  NOR_edgar_otto: "Edgar Otto"
+
+ NOR_andreas_wettre: "Andreas Wettre"
+ NOR_ole_reistad: "Ole Reistad"
+ NOR_hjalmar_riiser_larsen: "Hjalmar Riiser-Larsen"
+ NOR_bjarne_oen: "Bjarne Øen"
+ NOR_skule_storheill: "Skule Storheill"
+ NOR_tryggve_gran: "Tryggve Gran"
+ NOR_georg_jacob_falck_bull: "Georg Jacob Falck Bull"
+ NOR_bjorn_christopherson: "Bjørn Christophersen"
+ NOR_kristian_welhaven: "Kristian Welhaven"
+ NOR_norwegian_army_council: "Norwegian Army Council"
+

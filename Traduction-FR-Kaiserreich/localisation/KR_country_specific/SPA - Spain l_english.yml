@@ -4,32 +4,25 @@
 
 ### Parties ###
  SPA_totalist_party: "POUM"
- SPA_totalist_party_long: "Partido Obrero de Unificación Marxista"
- SPA_syndicalist_party: "CNT-FAI"
- SPA_syndicalist_party_long: "Confederación Nacional del Trabajo - Federación Anarquista Ibérica"
- SPA_radical_socialist_party: "Caballeistas"
- SPA_radical_socialist_party_long: "Caballeistas"
- SPA_social_democrat_party: "Prietistas"
- SPA_social_democrat_party_long: "Prietistas"
- SPA_social_liberal_party: "Izquierda Republicana"
- SPA_social_liberal_party_long: "Izquierda Republicana"
- SPA_market_liberal_party: "PLM"
- SPA_market_liberal_party_long: "Partido Liberal Moderado"
- SPA_social_conservative_party: "Acción Popular"
- SPA_social_conservative_party_long: "The Moderate Faction of the Acción Popular"
- SPA_authoritarian_democrat_party: "Acción Popular"
- SPA_authoritarian_democrat_party_long: "The Radical Faction of the Acción Popular"
- SPA_paternal_autocrat_party: "Falange Española"
- SPA_paternal_autocrat_party_long: "Falange Española"
+ SPA_totalist_party_long: "Partido Obrero de Unificación Marxista (Workers' Party of Marxist Unification)"
+ SPA_syndicalist_party: "CNT"
+ SPA_syndicalist_party_long: "Confederación Nacional del Trabajo (National Confederation of Labor)"
+ SPA_radical_socialist_party: "PS"
+ SPA_radical_socialist_party_long: "Partido Sindicalista (Syndicalist Party)"
+ SPA_social_democrat_party: "PSOE"
+ SPA_social_democrat_party_long: "Partido Socialista Obrero Español (Spanish Socialist Workers' Party)"
+ SPA_social_liberal_party: "Acción Republicana"
+ SPA_social_liberal_party_long: "Acción Republicana (Republican Action)"
+ SPA_market_liberal_party: "Derecha Liberal"
+ SPA_market_liberal_party_long: "Derecha Liberal Republicana (Liberal Republican Right)"
+ SPA_social_conservative_party: "Acción Nacional"
+ SPA_social_conservative_party_long: "National Action (Moderate)"
+ SPA_authoritarian_democrat_party: "Acción Nacional"
+ SPA_authoritarian_democrat_party_long: "National Action (Radical)"
+ SPA_paternal_autocrat_party: "Falange"
+ SPA_paternal_autocrat_party_long: "Falange Española (Spanish Phalanx)"
  SPA_national_populist_party: "JONS"
- SPA_national_populist_party_long: "Juntas de Ofensiva Nacional-Sindicalista"
-
-### Leaders ###
- POLITICS_ALPHONSO_BOURBON_DESC: "Alphonso XIII of Bourbon, king from the moment of his birth in 1886, was, to popular contempt, restored to the throne of Spain in 1932. His second reign has been even more tumultuous than his first; republican, Carlist, and socialist dissidents all undermine his authority, and economic growth has stagnated. Spain, under Alphonso, has become a powder keg liable to explode."
- POLITICS_JUAN_BOURBON_DESC: "Juan of Bourbon inherited a Spain divided, a Spain on the brink of the abyss. As the son and successor to the widely despised Alphonso, his reign will forever be marred by the spectre of his father, but it is Juan, not Alphonso, who must lead Spain into a better future."
- POLITICS_MIGUEL_FERRER_DESC: "Miguel Cabanellas Ferrer, who commanded Spain's African colonial conscripts in the Rif war has risen to the forefront of Spanish politics through strict discipline and focus. His long years of service at the front of Spanish troops and prowess in battle has given him the trust of his peers in the high command as a strong leader capable of handing unstable situations."
- POLITICS_GIL_ROBLES_QUINONES_DESC: "José María Gil-Robles y Quiñones, a committed monarchist and militant Catholic, has risen to prominence in Spain. His firebrand speeches denouncing the Kingdom's enemies while extolling religious virtues might even appear radical to a Carlist; nonetheless, Quiñones stands defiantly at the helm of the troubled Spanish nation."
- POLITICS_JAIME_BOURBON_DESC: "Jaime of Bourbon, second son of King Alphonso XIII, deaf and once considered likely to renounce any claim to the throne, has been crowned King of Spain. While not lacking in mental faculties, his reputation as an invalid precedes him. This unlikely King, however, must lead Spain into its uncertain future."
+ SPA_national_populist_party_long: "Juntas de Ofensiva Nacional-Sindicalista (Councils of National-Syndicalist Offensive)"
 
 ### Companies ###
  altos_hornos: "Altos Hornos de Vizcaya"
@@ -51,6 +44,10 @@
  talleres_loring: "Talleres Loring"
  sociedad_espanola_construccion: "Sociedad Española de Construcción Naval"
  euskalduna: "Euskalduna"
+
+### World Tension ###
+ SPA_civil_war_threat: "Spanish Civil War"
+ SPA_revolution_threat: "CNT-FAI Victorious"
 
 ### Ideas ###
  SPA_memories_of_the_republic: "Memories of the Republic"
@@ -103,12 +100,12 @@
 
 ### Dynamic Modifiers ###
  SPA_SPR_SWF_civil_war_fervor: "Spanish Civil War Fervour: [fervor_text]§W\n[SPA_SPR_SWF_fervor_fast_modifier][SPA_SPR_SWF_fervor_combat_modifier][SPA_SPR_SWF_fervor_dig_modifier]§!"
- SPA_SPR_SWF_civil_war_fervor_desc: "The Spanish Civil War is a conflict caused by deep economic and societal problems, the slow decline of Spain as a world power during the last 2 centuries, and the failure to keep up with the rest of the world in terms of progress.\nWhat the root causes of those problems are is what Spaniards disagree on, however, and the violence has been escalating for years culminating in this war of extremes against each other, resulting in an almost religious devotion to \"Cleanse Spain of all the problems that ail it\" by any means necessary."
- SPA_SPR_SWF_fervor_fast_modifier_text: "Division Organisation: [?THIS.fervor_org_modifier|=%+]\nDivisions speed: [?THIS.fervor_fast_modifier|=%+]\nArmy Organisation Regain: [?THIS.fervor_fast_modifier|=%+]\nTerrain Penalty Reduction: [?THIS.fervor_terrain_modifier|=%+]\n"
- SPA_SPR_SWF_fervor_fast_modifier_text_last: "Divisions speed: [?THIS.fervor_fast_modifier|=%+]\nArmy Organisation Regain: [?THIS.fervor_fast_modifier|=%+]\nTerrain Penalty Reduction: [?THIS.fervor_terrain_modifier|=%+]"
- SPA_SPR_SWF_fervor_combat_modifier_text: "Division Attack: [?THIS.fervor_combat_modifier|=%+]\nDivision Defence: [?THIS.fervor_combat_modifier|=%+]\nDivision Reinforce Rate: [?THIS.fervor_reinforce_modifier|=%+]\n"
- SPA_SPR_SWF_fervor_combat_modifier_text_last: "Division Attack: [?THIS.fervor_combat_modifier|=%+]\nDivision Defence: [?THIS.fervor_combat_modifier|=%+]\nDivision Reinforce Rate: [?THIS.fervor_reinforce_modifier|=%+]"
- SPA_SPR_SWF_fervor_dig_modifier_text: "Max Entrenchment: [?THIS.fervor_dig_modifier|=%+]\nEntrenchment Speed: [?THIS.fervor_dig_modifier|=%+]"
+ SPA_SPR_SWF_civil_war_fervor_desc: "The Spanish Civil War is a conflict caused by deep economic and societal problems, the slow decline of Spain as a world power during the last 2 centuries, and the failure to keep up with the rest of the world in terms of progress.\nWhat the root causes of those problems are is what Spaniards disagree on, however, and the violence has been escalating for years culminating in this war of extremes against each other, resulting in an almost religious devotion to \"Cleanse Spain of all the problems that ail it\"... by any means necessary."
+ SPA_SPR_SWF_fervor_fast_modifier_text: "$SPA_SPR_SWF_fervor_fast_modifier_text_last$\n"
+ SPA_SPR_SWF_fervor_fast_modifier_text_last: "$MODIFIER_ARMY_ORG_FACTOR$: [?THIS.fervor_org_modifier|=%+]\n$MODIFIER_ARMY_SPEED_FACTOR$: [?THIS.fervor_fast_modifier|=%+]\n$MODIFIER_ARMY_ORG_REGAIN$: [?THIS.fervor_fast_modifier|=%+]\n$MODIFIER_TERRAIN_PENALTY_REDUCTION$: [?THIS.fervor_terrain_modifier|=%+]"
+ SPA_SPR_SWF_fervor_combat_modifier_text: "$SPA_SPR_SWF_fervor_combat_modifier_text_last$\n"
+ SPA_SPR_SWF_fervor_combat_modifier_text_last: "$MODIFIERS_ARMY_ATTACK_FACTOR$: [?THIS.fervor_combat_modifier|=%+]\n$MODIFIERS_ARMY_DEFENCE_FACTOR$: [?THIS.fervor_combat_modifier|=%+]\n$MODIFIER_LAND_REINFORCE_RATE$: [?THIS.fervor_reinforce_modifier|=%+]"
+ SPA_SPR_SWF_fervor_dig_modifier_text: "$MODIFIER_MAX_DIG_IN_FACTOR$: [?THIS.fervor_dig_modifier|=%+]\n$MODIFIER_DIG_IN_SPEED_FACTOR$: [?THIS.fervor_dig_modifier|=%+]"
  SPA_SPR_SWF_fervor_none: "§gNo Fervour§!"
  SPA_SPR_SWF_fervor_waning: "§O[?fervor_level|%] (Waning)§!"
  SPA_SPR_SWF_fervor_low: "§R[?fervor_level|%] (Low)§!"
@@ -402,15 +399,12 @@
  sprd.26.d: "This Election day has been marred by countless acts of violence, 4 polling places have been bombed, over a thousand people have been killed in other violence. Entire groups of Police and Military troops have disappeared"
  sprd.26.a: "This was a mistake!"
 
- sprd.27.t: "What to do with the King?"
- sprd.27.d: "The war is over and the King is still in a coma. Should we officially announce that Juan III is the new king, or should he remain in the background?"
+ sprd.27.t.juan: "What to do with the King?"
+ sprd.27.d.juan: "The war is over and the King is still in a coma. Should we officially announce that Juan III is the new king, or should he remain in the background?"
+ sprd.27.t.jaime: "Restoring the Monarchy"
+ sprd.27.d.jaime: "After the assassination of Juan, a void was left in the terms of a Royal Regent. Now Juan's older brother Jaime has returned from abroad and is requesting his rightful place as the heir to our Kingdom."
  sprd.27.a: "Name him as Alfonso's successor."
- sprd.27.b: "No, perhaps the time of the kingdom is over."
-
- sprd.28.t: "Restoring the Monarchy"
- sprd.28.d: "After the assassination of Juan, a void was left in the terms of a Royal Regent. Now Juan's older brother Jaime has returned from abroad and is requesting his rightful place as the heir to our Kingdom."
- sprd.28.a: "Name him as Alfonso's successor."
- sprd.28.b: "No, perhaps the time of the kingdom is over."
+ sprd.27.b: "No, the time of the kingdom is over."
 
  sprd.31.t: "[From.GetNameDefCap] wants to join the [Root.GetFactionName]"
  sprd.31.d: "[From.GetNameDefCap] has announced recently that it wishes to join the [Root.GetFactionName]. How shall we respond?"
@@ -518,20 +512,6 @@
  sprc.122.d: "During ongoing civil war some of our commanders started to use rather doubtful methods to permanently suppress civilian population suspicious of helping our mortal enemies. Such policies, even if looks drastic, are necessary in these dark times."
  sprc.122.a: "War is war..."
 
- sprc.124.t: "We Must Surrender"
- sprc.124.d: "Our position has become untenable, and it is clear we have lost the war. Already our soldiers are deserting en masse, with several of our generals out in the field having already surrendered to the enemy."
- sprc.124.a: "So must it be..."
-
- sprc.125.t: "[SPA.GetNameDefCap] Surrenders"
- sprc.125.d: "With Madrid taken and the remainder of the [SPA.GetAdjective] forces routed, the government has finally realised the futility of its position and admitted defeat. Already officials are either fleeing the country or surrendering to any [Root.GetAdjective] soldier they see."
- sprc.125.a: "Excellent news."
-
- sprc.127.t: "[SPR.GetNameDefCap] Surrenders"
- sprc.127.d: "With Burgos taken and the remainder of the [SPR.GetAdjective] forces routed, the Carlist pretender has finally realised the futility of his position and admitted defeat. While some of his supporters claim they will fight to the last, Javier himself has approached [Root.GetAdjective] forces and surrendered himself - on the condition of leniency for both him and his senior officials. A sad day for the ardent Catholics in Spain, it seems."
-
- sprc.129.t: "[SWF.GetNameDefCap] Surrenders"
- sprc.129.d: "With Barcelona taken and the remainder of the [SWF.GetAdjective] forces routed, the anarchists have finally realised the futility of their position and admitted defeat. While this is almost certainly not the end of the syndicalists in Spain, this is at least a defeat they will not soon forget. For now, the CNT-FAI banner - tattered and worn - has vanished from the political landscape."
-
 ### Post-War ###
 
 ### SWF ###
@@ -618,7 +598,7 @@
 
  sprc.310.t: "The Crown Prince is Dead!"
  sprc.310.d: "Last night a group of assassins killed the crown prince, Infante Juan! He had been in the Regency position since his father's coma, and now the country is thrown into chaos as there is not only no regent but no clear successor to the throne! Someone must act quickly to keep the country together!"
- sprc.310.a: "Miguel Ferrer takes control."
+ sprc.310.a: "Emilio Mola takes control."
  sprc.310.b: "J.M. Gil-Robles Quiñones retains the government."
 
  sprc.311.t: "Crown Prince Assassinated"
@@ -647,6 +627,10 @@
  sprc.327.d: "The anarchist-syndicalists in Spain have taken control over the Spanish colony of Equatorial Guinea, and more than one member of the [Root.GetAdjective] government is suggesting that allowing [SWF.GetNameDef] to possess land in the middle of Africa is hardly a wise idea."
  sprc.327.a: "Seize it at once!"
  sprc.327.b: "Leave it be."
+
+ sprc.400.t: "The Spanish Civil War"
+ sprc.400.d: "Ever since the defeat of Napoleon, Spain has been plagued by violence, dissent and turmoil. No amount of pleading, deal-making and appeasement has managed to do more than paper over the cracks as tensions bubbled. Finally they boiled over, the Spanish kingdom has been ripped apart by a three-sided civil war between numerous factions - the loyalists of the Madrid government, the supporters of the pretender Javier and finally the anarcho-syndicalist CNT-FAI. There are already numerous reports of volunteers and equipment being shipped to Spain from all over the world to support one faction or another.\n\nSpain will be torn to shreds as a battlefield for the ideological forces of the wider world..."
+ sprc.400.a: "It was inevitable."
 
 ### Cosmetic Tags ###
  SPA: "Spain"
@@ -698,25 +682,54 @@
  SPA_republic_social_democrat_DEF: "the Spanish Republic"
 
 ### Characters ###
+ SPA_augusto_barcia_trelles: "Augusto Barcia y Trelles"
+ SPA_manuel_azana_diaz: "Manuel Azaña Díaz"
+ SPA_niceto_alcala_zamora: "Niceto Alcalá-Zamora"
+ SPA_jose_calvo_sotelo: "José Calvo Sotelo"
+
+ SPA_gil_robles: "José Maria Gil-Robles Quiñones"
+ SPA_gil_robles_leader_desc: "José María Gil-Robles y Quiñones, a committed monarchist and militant Catholic, has risen to prominence in Spain. His firebrand speeches denouncing the Kingdom's enemies while extolling religious virtues might even appear radical to a Carlist; nonetheless, Quiñones stands defiantly at the helm of the troubled Spanish nation."
+
+ SPA_emilio_mola_vidal: "Emilio Mola Vidal"
  SPA_camilo_alonso_vega: "Camilo Alonso Vega"
- SPA_miguel_cabanellas_ferrer: "Miguel Cabanellas Ferrer"
- SPA_alfonso_xiii: "Alfonso XIII"
- SPA_ramon_otero_pedrayo: "Ramón Otero Pedrayo"
- SPA_jaime_i: "Jaime I"
- SPA_juan_iii: "Juan III"
- SPA_gil_robles: "J.M. Gil-Robles Quiñones"
- SPA_jose_calvo_sotelo: "José Calvo-Sotelo"
- SPA_manuel_azana: "Manuel Azaña Díaz"
- SPA_augusto_barcia_trelles: "Augusto Barcia Trelles"
- SPA_jose_diaz_ramos: "José Díaz Ramos"
- SPA_julian_besteiro_fernandez: "Julián Besteiro Fernández"
- SPA_dolores_ibarruri_gomez: "Dolores Ibárruri Gómez"
+
+ SPA_alfonso_de_borbon: "Alfonso de Borbón"
+ SPA_alfonso_de_borbon_regnal: "Alfonso XIII"
+ SPA_alfonso_de_borbon_leader_desc: "Alphonso XIII of Bourbon, king from the moment of his birth in 1886, was, to popular contempt, restored to the throne of Spain in 1932. His second reign has been even more tumultuous than his first; republican, Carlist, and socialist dissidents all undermine his authority, and economic growth has stagnated. Spain, under Alphonso, has become a powder keg liable to explode."
+
+ SPA_juan_de_borbon: "Juan de Borbón"
+ SPA_juan_de_borbon_regnal: "Juan III"
+ SPA_juan_de_borbon_leader_desc: "Juan of Bourbon inherited a Spain divided, a Spain on the brink of the abyss. As the son and successor to the widely despised Alphonso, his reign will forever be marred by the spectre of his father, but it is Juan, not Alphonso, who must lead Spain into a better future."
+
+ SPA_jaime_de_borbon: "Jaime de Borbón"
+ SPA_jaime_de_borbon_regnal: "Jaime I"
+ SPA_jaime_de_borbon_leader_desc: "Jaime of Bourbon, second son of King Alphonso XIII, deaf and once considered likely to renounce any claim to the throne, has been crowned King of Spain. While not lacking in mental faculties, his reputation as an invalid precedes him. This unlikely King, however, must lead Spain into its uncertain future."
+
  SPA_jose_sanjurjo_sacanell: "José Sanjurjo Sacanell"
  SPA_francisco_franco_bahamonde: "Francisco Franco Bahamonde"
- SPA_carlos_asensio_cabanillas: "Carlos Asensio Cabanillas"
- SPA_fidel_davila_arrondo: "Fidel Dávila Arrondo"
+ SPA_leopoldo_saro_marin: "Leopoldo Saro Marín"
+ SPA_emilio_barrera_luyando: "Emilio Barrera Luyando"
  SPA_francisco_de_borbon_y_de_la_torre: "Francisco de Borbon y de la Torre"
  SPA_manuel_goded_llopis: "Manuel Goded Llopis"
- SPA_severiano_martinez_anido: "Severiano Martínez Anido"
- SPA_rafael_estrada_arnais: "Rafael Estrada Arnais"
- SPA_cervera_valderrama: "Cervera Valderrama"
+ SPA_damaso_berenguer_fuste: "Dámaso Berenguer Fusté"
+ SPA_salvador_moreno_hernandez: "Salvador Moreno Hernandez"
+ SPA_manuel_vierna_belando: "Manuel Vierna Belando"
+
+ SPA_juan_yague_blanco: "Juan Yagüe y Blanco"
+ SPA_luis_carrero_blanco: "Luís Carrero Blanco"
+ SPA_francisco_moreno_fernandez: "Francisco Moreno Fernández"
+ SPA_joaquin_garcia_morato: "Joaquín García-Morato y Castaño"
+ SPA_miguel_ponte_manso_de_zuniga: "Miguel Ponte Manso de Zíñiga"
+ SPA_enrique_canovas_lacruz: "Enrique Cánovas Lacruz"
+ SPA_angel_salas_larrazabal: "Ángel Salas Larrazábal"
+
+ SPA_miguel_primo_de_rivera: "Miguel Primo de Rivera y Orbaneja"
+ SPA_francisco_de_borbon_de_la_torre: "Francisco de Borbón y de la Torre"
+ SPA_francisco_serrat_y_bonastre: "Francisco de Asis Serrat y Bonastre"
+ SPA_miguel_maura_gamazo: "Miguel Maura Gamazo"
+ SPA_fidel_davila_arrondo: "Fidel Dávila Arrondo Gil y Arija"
+ SPA_german_gil_y_yuste: "Germán Gil y Yuste"
+ SPA_juan_march_ordinas: "Juan March Ordinas"
+ SPA_pilar_millan_astray: "Pilar Millán Astray"
+
+ KR_kingmaker: "Kingmaker of Spain"

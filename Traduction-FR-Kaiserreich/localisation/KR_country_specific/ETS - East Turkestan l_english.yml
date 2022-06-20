@@ -24,10 +24,6 @@
  ETS_national_populist_party: "Hotan Amirs"
  ETS_national_populist_party_long: "Hotan Amirs"
 
-### Leaders ###
- POLITICS_MUHAMMAD_AMIN_BUGHRA_DESC: "The early life of Muhammad Amin Bughra is shrouded in mystery, with scant clues alluding to him teaching at a Madrassa prior to his military service. Bughra's background as a Jadidist and a Turk granted him few luxuries, even under Ma Shaowu's governance in Hotan. Bughra displayed a strong determination to work for Xinjiang's unification, and despised the weak attitude for which Governor Yang kept his garrisons. At the same time, Bughra opposed the Han-centric army reforms being proposed by General Sheng Shicai, which placed the blame for army mismanagement on Islam rather than the opium epidemic."
- POLITICS_SABIT_DAMULLA_ABDULBAKI_DESC: "Sabit Damulla Abdulbaki never expected to be the face of the Turkic nationalist movement in Xinjiang. A highly educated academic and journalist, Abdulbaki has corresponded with several of the world's most prominent living Jadidist scholars. Through Jadid circles, he became acquainted with prominent members of the East Turkestan nationalist movement, including the wealthy aristocrat Muhammad Amin Bughra, and through Bughra the wider nationalist movement. Due to his pleasant demeanour, pragmatic viewpoint, and fluency in several languages, the often at-odds nationalist factions agreed on Damulla to for the role of East Turkestan's first head of state and government. Should East Turkestan secure its bid for independence, it is likely however that Damulla will be subsumed by whichever of the nation's factions comes out on top."
-
 #Opinion modifiers
  ETS_friendship_opinion_mod: "Friendship"
 
@@ -43,7 +39,6 @@
  ETS_foreign_talent_idea: "Recruiting Foreign Talent"
  ETS_new_gentry_idea: "A New Gentry"
  ETS_madrassa_idea: "National Islamic Education System"
- ETS_fuel_idea: "Fuel Infrastructure"
  ETS_welfare_idea: "Social Welfare"
  ETS_assimilation_idea: "Assimilation Program"
  ETS_assimilation_idea_2: "Assimilation Program"
@@ -57,7 +52,6 @@
  ETS_rebellion_victory: "Victory in the Revolution"
  ETS_firearm_expert_hired: "Firearm expert has been hired"
  ETS_hotan_conversion_completed: "Hotan Carpet Factory has been converted"
- ETS_firearm_expert_hiring: "In the process of hiring a Firearm Expert"
  ETS_gunpowder_learned: "Source of gunpowder has been secured"
  ETS_mineral_processing_learned: "Know how to process minerals"
  ETS_openelectimur: "The Victory Parade went off without a hitch"
@@ -91,13 +85,13 @@
  ETS_convert_hotan_factory_tt: "§GWe will begin converting the Hotan Carpet Factory into a Military Factory§!\n§CForeign support from major countries would speed up the process§!\nUnlocks §HHotan Carpet Factory Conversion Decisions§!.\n"
  ETS_not_enough_gold_for_factory_tt: "§YNo Civilian Factory§! will be built due to §Rinsufficient gold§!"
  ETS_convert_hotan_tt: "§YHotan§!:\nReplace §Y1 Civilian Factory§! with §Y1 Military Factory§!"
- ETS_army_training_adopt_formation_foreign_tt: "Modify §Y$ETS_fledgling_military$§! by\nDivision Organisation: §G+5.0%§!\nDivision Recovery Rate: §G+10.0%§!\n"
- ETS_army_training_adopt_formation_local_tt: "Modify §Y$ETS_fledgling_military$§! by\nDivision Organisation: §G+2.5%§!\nDivision Recovery Rate: §G+5.0%§!\n"
- ETS_army_training_combat_techniques_foreign_tt: "Modify §Y$ETS_fledgling_military$§! by\nDivision Attack: §G+10.0%§!\nDivision Defence: §G+10.0%§!\nReconnaissance: §G+10.0%§!\n"
- ETS_army_training_combat_techniques_local_tt: "Modify §Y$ETS_fledgling_military$§! by\nDivision Attack: §G+5.0%§!\nDivision Defence: §G+5.0%§!\nReconnaissance: §G+5.0%§!\n"
+ ETS_army_training_adopt_formation_foreign_tt: "Modify §Y$ETS_fledgling_military$§! by\n$MODIFIER_ARMY_ORG_FACTOR$: §G+5.0%§!\n$MODIFIER_ARMY_MORALE_FACTOR$: §G+10.0%§!\n"
+ ETS_army_training_adopt_formation_local_tt: "Modify §Y$ETS_fledgling_military$§! by\n$MODIFIER_ARMY_ORG_FACTOR$: §G+2.5%§!\n$MODIFIER_ARMY_MORALE_FACTOR$: §G+5.0%§!\n"
+ ETS_army_training_combat_techniques_foreign_tt: "Modify §Y$ETS_fledgling_military$§! by\n$MODIFIERS_ARMY_ATTACK_FACTOR$: §G+10.0%§!\n$MODIFIERS_ARMY_DEFENCE_FACTOR$: §G+10.0%§!\n$MODIFIER_RECON_FACTOR$: §G+10.0%§!\n"
+ ETS_army_training_combat_techniques_local_tt: "Modify §Y$ETS_fledgling_military$§! by\n$MODIFIERS_ARMY_ATTACK_FACTOR$: §G+5.0%§!\n$MODIFIERS_ARMY_DEFENCE_FACTOR$: §G+5.0%§!\n$MODIFIER_RECON_FACTOR$: §G+5.0%§!\n"
  ETS_army_training_tt: "Unlocks §HArmy Formation and Combat Technique Training Decisions§!.\n"
- ETS_bughra_raise_militia_tt: "§G1§! militia unit is raised in Hotan\nModify §Y$ETS_fledgling_military$§! by\nDivision Organisation: §R-1.0%§!\nDivision Recovery Rate: §R-2.0%§!\nDivision Attack: §R-2.0%§!\nDivision Defence: §R-2.0%§!\nReconnaissance: §R-2.0%§!\n"
- ETS_timur_raise_militia_tt: "§G1§! militia unit is raised in Kashgar\nModify §Y$ETS_fledgling_military$§! by\nDivision Organisation: §R-1.0%§!\nDivision Recovery Rate: §R-2.0%§!\nDivision Attack: §R-2.0%§!\nDivision Defence: §R-2.0%§!\nReconnaissance: §R-2.0%§!\n"
+ ETS_bughra_raise_militia_tt: "§G1§! militia unit is raised in Hotan\nModify §Y$ETS_fledgling_military$§! by\n$MODIFIER_ARMY_ORG_FACTOR$: §R-1.0%§!\n$MODIFIER_ARMY_MORALE_FACTOR$: §R-2.0%§!\n$MODIFIERS_ARMY_ATTACK_FACTOR$: §R-2.0%§!\n$MODIFIERS_ARMY_DEFENCE_FACTOR$: §R-2.0%§!\n$MODIFIER_RECON_FACTOR$: §R-2.0%§!\n"
+ ETS_timur_raise_militia_tt: "§G1§! militia unit is raised in Kashgar\nModify §Y$ETS_fledgling_military$§! by\n$MODIFIER_ARMY_ORG_FACTOR$: §R-1.0%§!\n$MODIFIER_ARMY_MORALE_FACTOR$: §R-2.0%§!\n$MODIFIERS_ARMY_ATTACK_FACTOR$: §R-2.0%§!\n$MODIFIERS_ARMY_DEFENCE_FACTOR$: §R-2.0%§!\n$MODIFIER_RECON_FACTOR$: §R-2.0%§!\n"
  ETS_create_an_army_tt: "Victory in the Rebellion\n§YFledging Military§! has no §Rdebuffs§!"
  ETS_change_popularities: "Change in popularity of National Populism: [?ETS_change_tooltip1|+%]\nChange in popularity of Authoritarian Dem.: [?ETS_change_tooltip2|+%]"
  ETS_authelect_tt: "Regular but highly controlled national elections will be held every four years."
@@ -108,6 +102,7 @@
  ETS_local_gunpowder_tooltip: "§GWe will learn how to create gunpowder locally.§!"
  ETS_mineral_processing_tooltip: "§GWe will begin the processing of minerals.§!"
 
+ ETS_get_new_advisors: "§LThe following advisors will defect to our side:§!\n§YOspan Batyr§!\n§YDalelkhan Sugirbayev§!\n§YKalibek Rakhimbekovich§!"
 
 #Define Text
  ETS_hotan_conversion_overview: "[ETS.get_ETS_hotan_conversion][get_ETS_hotan_firearm_expert][get_ETS_hotan_learn_gunpowder][get_ETS_hotan_learn_mineral_processing]"
@@ -123,133 +118,192 @@
 #National Focuses
  ETS_uyghur_revolution: "The National Revolution"
  ETS_uyghur_revolution_desc: "The centuries long oppression of the Turkic people of Xinjiang must end. While the Chinese would artificially divide us as Uyghur, Kazakhs, and Kyrgyz, we shall rise as one to throw off the yoke of the Chinese."
+
  ETS_seek_foreign_support: "Seek Foreign Support"
  ETS_seek_foreign_support_desc: "Our movement teeters on the brink of annihilation. We will need foreign help to fix the deep problems with our upstart army and state."
+
  ETS_construct_kashgar_hotan_highway: "Construct the Kashgar-Hotan Highway"
  ETS_construct_kashgar_hotan_highway_desc: "Kashgar and Hotan are the most steadfast redoubts of nationalism and the dual 'seats' of our splintered government. While we cannot yet build a robust system of roads between them, we should carve an impromptu route across the desert where Chinese troops cannot follow."
+
  ETS_emergency_factory_conversion: "Convert the Hotan Carpet Factory"
  ETS_emergency_factory_conversion_desc: "Much of our economy is centred on traditional textile manufacturing. Our carpets are especially prized internationally, which has catalysed a degree of industrialisation in the sector. The largest factory by far is centred in Hotan and should be converted to produce arms for the war effort."
+
  ETS_build_second_military_factory: "Build the Kashgar Small Arms Factory"
  ETS_build_second_military_factory_desc: "As the largest city under our control, Kashgar naturally has the potential to reduce our deficit of firearms. We should put any bit of capital we can into the construction of a central small arms factory in the city."
+
  ETS_timur_military_academy: "Establish the Timur Military Academy"
  ETS_timur_military_academy_desc: "Timur Beg has ample experience as a commander of men, unique among our leadership. He should be directed to set up an academy to train officers and set up a modern system of officer commissions."
+
  ETS_army_training: "Train a Professional Army"
  ETS_army_training_desc: "The new army is made up mostly of irregulars and former guerrillas. Few men have any sort of education. Even as we battle the Chinese, we must begin to better their fighting ability and knowledge of modern doctrine."
+
  ETS_organise_seized_gold_and_rifle: "Gather Seized Treasury and Weaponry"
  ETS_organise_seized_gold_and_rifle_desc: "Much was seized from the Chinese during the initial uprising, so much in fact that we have been unable to sort and properly reapportion the materiel. A concerted effort must be made to accomplish such."
+
  ETS_hotan_gold: "Gold from Keriya Mine"
  ETS_hotan_gold_desc: "The miners at Keriya have borne incredible hardship at the hands of the Chinese and have consequently embraced the cause wholeheartedly. The mine must be brought back to working order."
+
  ETS_uyghur_independence: "Turkic Declaration of Independence"
  ETS_uyghur_independence_desc: "The great battle is over, all of what was once Xinjiang is ours. East Turkestan shall rise from ashes greater than ever before. With control now obtained both de-facto and de-jure, let us issue a new declaration of independence and join the wide world."
+
  ETS_a_night_to_remember: "A Night to Remember"
  ETS_a_night_to_remember_desc: "With independence achieved, internal factions struggle for power. One day, these divisions will surely come to a dramatic head."
+
  ETS_timur_win: "Timur Survives"
  ETS_timur_win_desc: "Timur Beg has survived the attempt on his life and driven his enemies from power. The state is now his to command, and surely he has proven a most benevolent man."
+
  ETS_victory_parade: "Military Parade"
  ETS_victory_parade_desc: "Timur Beg is known for his extravagance and love of military discipline. With his power secured, his first course of action shall be, of course, to hold a massive military parade in Kashgar."
+
  ETS_timur_open_elections: "Open 'Elections'"
  ETS_timur_open_elections_desc: "East Turkestan is, after all, a republic, and as such the people must have a say in politics. The people, however, are easily taken by self-destructive foolishness, so the outcome of certain high level elections should not be left to chance."
+
  ETS_dilate_presidential_powers: "Executive Administration"
  ETS_dilate_presidential_powers_desc: "The presidency, rather than the council or the legislature, must have direct control of the bureaucracy. The constitution must be amended to that end."
+
  ETS_rewrite_constitution: "Rewrite the Constitution"
  ETS_rewrite_constitution_desc: "The flaws of the constitution have been made apparent following the debacle over the bureaucracy. It must be rewritten entirely."
+
  ETS_flexible_prime_minister: "Timur the Flexible"
  ETS_flexible_prime_minister_desc: "Timur Beg is nothing if not adaptable. Administrators must be trained in rapid reorientation. While bureaucracies may necessitate a certain degree of inertia, we will put a spring in their step."
+
  ETS_business_ties: "Encourage Business Ties"
  ETS_business_ties_desc: "Timur Beg has many ties of businesses and merchants across the region. They could be useful in making East Turkestan more industrialised."
+
  ETS_military_might: "Military Might"
  ETS_military_might_desc: "The military is a key point in helping keep the great Timur Beg in power, and stopping any more rebellion. We must use it to silence our enemies."
+
  ETS_timur_caravan: "Timur the Merchant"
  ETS_timur_caravan_desc: "Timur once led caravans of camels and mules across the harshest terrain and parleyed with the sharpest merchants. His knowledge of commerce and trade is immense and we should put this knowledge to use in regulating the caravans, which are unfortunately responsible for the introduction of a good deal of contraband."
+
  ETS_strong_arm_council: "Strong-Arm the Council"
  ETS_strong_arm_council_desc: "The state council has a great deal of control over the executive. It stands in the way of the great nation Timur Beg seeks to usher in. We must ensure the loyalty of the council to our regime through threat of force."
+
  ETS_force_sabit_into_retirement: "Force Sabit into Retirement"
  ETS_force_sabit_into_retirement_desc: "Sabit Damulla Abdulbaki has outlived his usefulness. He is now the last remnant of the power of Hotan and its former Amirs still in government. He and his supporters should be forced out while maintaining an air of legality."
+
  ETS_merge_president_prime_minister: "Power to the President"
  ETS_merge_president_prime_minister_desc: "The power of the executive should not be split artificially, nor should anyone but the nation's undeniable leader represent it in foreign affairs. The president must be given far reaching powers if we are to survive."
+
  ETS_timur_shah: "Timur Shah"
  ETS_timur_shah_desc: "Timur, as a representative of the petty nobility, has always desired a crown. With power now centred in his hands, he shall have it if only he possesses the fortitude to overcome one last challenge."
+
  ETS_bughra_win: "Back to Hotan"
  ETS_bughra_win_desc: "Hotan has been a hotbed of resistance and the informal capital of our nation before the formal beginning of the revolt. With the victory of the Bughra Amirs, it shall once again be our centre of power."
+
  ETS_a_piece_in_the_puzzle: "A Piece of the Puzzle"
  ETS_a_piece_in_the_puzzle_desc: "The ambitions of Pan-Turkism span thousands of miles. We must decide whether to pursue these lofty ambitions immediately or focus on domestic issues in preparation."
+
  ETS_islam_in_one_country: "Islam in One Country"
  ETS_islam_in_one_country_desc: "Circumstance dictates that we focus inward and improve the dignity of our own corner of the Turkish nation. The people must be brought into modernity with a knowledge of proper religion. God willing, we shall transform this country into a bastion of progress."
+
  ETS_fight_inauthentic: "Combat Inauthentic Religion"
  ETS_fight_inauthentic_desc: "Many outside the cities hold fast to cultural perversions of God's religion. They care not for His Prophets and little for His final messenger. With force of arms, we shall enter the villages and correct this."
+
  ETS_all_madrasas: "Nationalise and Expand Madrassas"
  ETS_all_madrasas_desc: "The Madrassas, enlightened by foreign teachers, are a bastion of light amidst widespread perversion. We must directly administer these schools with secular schools likewise transformed into the image of them. All who still deny the call of the true faith or adhere to some corruption of it shall be enlightened."
  ETS_transform_desert: "Transform the Desert"
  ETS_transform_desert_desc: "The Taklamakan desert is without any sort of infrastructure beyond dirt paths and camel trails. We should build a modern system of railways crossing the wasteland and new purpose built communities along the tracks."
+
  ETS_deal_with_hui: "The Tungan Question"
  ETS_deal_with_hui_desc: "The Tungans, who were once erroneously categorised as 'Hui' by the uncaring Chinese bureaucracy, have stolen much land from its rightful Turkic owners. After decades of cruel domination, it is only right we pay the Tungans back and correct every historical injustice in one fell swoop."
+
  ETS_turkic_nationalism: "Turkic Nationalism"
  ETS_turkic_nationalism_desc: "We are different from those in China who wish to crush us once again. We are not Chinese at all, we are Turkic!"
+
  ETS_hotan_development: "Hotan Development Scheme"
  ETS_hotan_development_desc: "Hotan is the key to most of the Bughras power. We must develop the city, to link together the rest of East Turkestan and to defend our base of power."
+
  ETS_realm_of_turks: "Realm of the Turks"
  ETS_realm_of_turks_desc: "God is truly great, for He has made the path towards true unity of the Turks clear. We would be fools to deny the destiny He has laid before us."
+
  ETS_unified_language: "Linguistic Unification"
  ETS_unified_language_desc: "Various attempts to create a standard language for the Turks of Central Asia have come and gone. The most prominent is derived mostly from a standard form of Chagatay to which our own dialects are closely related. We should adopt this standard language and aggressively promote it to the people."
+
  ETS_internationalize_council: "Internationalise the Council"
  ETS_internationalize_council_desc: "Many prominent Pan-Turkist intellectuals suffer under the thumb of hostile regimes. They should be invited to join our state council and have a hand in building this great new nation. Of course, with their power diminished, some present members may take offence."
+
  ETS_unfied_infrastructure: "Integrated Infrastructure"
  ETS_unfied_infrastructure_desc: "Much of the nation's fringe is not properly connected to the infrastructure of the Tarim Basin. We must adopt new technologies from abroad if we are to ever overcome this unfortunate result of history and geography alike."
 
  ETS_republic_inequals: "A Republic of Inequals"
  ETS_republic_inequals_desc: "The petty nobility has been toppled and the republic shall be reborn. Of course, we must take care, groups within and without seeking to destroy the great nation we seek to build, to subvert it for their own ends."
+
  ETS_look_east: "The Sun Rises in the East"
  ETS_look_east_desc: "While past leadership sought to sever all ties to China, we realise how deeply flawed that policy was. We should seek to repair relations with the Chinese factions and ensure our survival no matter what transpires to the east."
+
  ETS_democracy: "Genuine Representation"
  ETS_democracy_desc: "Liberty is the most fragile thing and it is without doubt that as it was wrested from the Chinese, it was promptly squandered. There is hope however; the core of this new nation's foundations are righteous, and with a regime at last in place which seeks to actually uphold such noble words, God willing, the nation can be brought back to liberty's light."
+
  ETS_ensure_constitution: "Ensure Constitutional Protections"
  ETS_ensure_constitution_desc: "The constitution is quite idealistic, but lacks sufficient mechanisms to actually ensure the rights it promises or prevent the total consolidation of power. With some small changes and a clearly defined role for God's laws in it, the nation shall be safe from tyranny."
+
  ETS_investigation_office: "The Investigative Branch"
  ETS_investigation_office_desc: "Our experiences with the Chinese have affected many with a deep hatred for that land's legal and philosophical ideas. Of interest, however, and much studied by the President, is Sun Yat-Sen's idea of an independent branch of government entirely dedicated to investigating subversion and corruption."
+
  ETS_ensure_women: "Sisters in Islam"
  ETS_ensure_women_desc: "Many would deny women their basic rights in contradiction with the Sunnah. We must fight these cultural perversions of Islam and promulgate the rights assured to women by God, and by extension, this state founded on His laws."
+
  ETS_patronize_poor: "Benevolent Patrons"
  ETS_patronize_poor_desc: "Much of China now looks to the west to inspiration in creating so called 'social safety nets', ensuring farmers' livelihoods and providing basic services to the most downtrodden. We should copy this model."
+
  ETS_maintain_rule: "Rule by Decree"
  ETS_maintain_rule_desc: "A strong hand is needed to keep any republic steady, let along one as new and fragile as our own. Let God give power to those most able, now and forever."
+
  ETS_smash_amirs: "Restrict Local Nobility"
  ETS_smash_amirs_desc: "The various local lords and amirs of the land undermine state control and hinder progress. They must brought to heel, or even have their lands seized if need be."
+
  ETS_foreign_talent: "Recruit Foreign Talent"
  ETS_foreign_talent_desc: "Foreign teachers, through places of worship and study, have brought great progress to our nation. But alas, our land is still so backwards yet. A substantial portion of the state budget must be dedicated to identifying and acquiring foreign, especially Ottoman, intellectuals to advise the government and improve the administration."
+
  ETS_turk_trade: "A New Gentry"
  ETS_turk_trade_desc: "To entice skilled foreigners to settle permanently, we will need to offer more than just money. Turkish hires should be offered expansive swaths of land to settle in exchange for their services and the development of their holdings."
+
  ETS_business_reform: "Business Reform"
  ETS_business_reform_desc: "Businesses in East Turkestan have always worked without regulation and any form of workers rights. If we are to become a more modernised society, we must implement these laws."
+
  ETS_unify_the_people: "Unify the People"
  ETS_unify_the_people_desc: "We must work to bring the people of East Turkestan together, to unite us into one people."
 
-
  ETS_military_modernisation: "Military Modernisation"
  ETS_military_modernisation_desc: "The army was hastily built during the war of independence. While it possesses a sufficient command structure, it remains woefully inadequate as a fighting force and social institution. To begin the process of modernisation, let us finally develop a standardised uniform and distribute them to our men."
+
  ETS_expand_districts_system: "Expand District System"
  ETS_expand_districts_system_desc: "The rough of terrain in East Turkestan makes addressing local issues centrally difficult. As such, a system of regional authority for military units to augment law enforcement was established in certain areas. It should be expanded across the country."
+
  ETS_create_air_force: "Create an Air Force"
  ETS_create_air_force_desc: "Air power ignores terrain and provides invaluable support to the men on the ground. With basic fuel infrastructure established, we should seek to import basic, and affordable, aircraft."
+
  ETS_artillery_integration: "Integrate Artillery"
  ETS_artillery_integration_desc: "Artillery capable of accurate indirect fire has transformed the very nature of war. To contest the armies of the future, we will need the most advanced piece we can acquire."
+
  ETS_research_scavenged_weapons: "Research Scavenged Weapons"
  ETS_research_scavenged_weapons_desc: "Though our allies pour in from Central Asia to fight for our sovereignty, our internal ability to arm citizens is nonexistant. Having spent the last three decades forming militias using any firearms available, it is time we take an active role in supplying Eastern Turks with modern, formidable arms."
+
  ETS_mountainous_officer_training: "Mountainous Officer Training"
  ETS_mountainous_officer_training_desc: "Volunteers coming into East Turkestan bring with them years of experience in traversing desert brush. Our own Officers lack some of this experience afforded to students in [773.GetName] military academies. We must requisition training manuals from [773.GetName] and rectify this oversight."
+
  ETS_doctrine_research: "Doctrine Research"
  ETS_doctrine_research_desc: "The decades of conflict Turks in western Asia took part in informed their modern military doctrine. It is definitely worth the cost to seek out military doctrine and detailed after-action reports in [773.GetName] for studying."
+
  ETS_thorough_army_training: "Thorough Army Training"
  ETS_thorough_army_training_desc: "Volunteers that overcame the Han garrisons in Khotan will not be enough to withstand the eventual tide of militarism from Beijing. Through proper regimentation of the human body, as achieved by such turkish legends like Mustafa Kemal, we can survive."
+
  ETS_connect_to_dihua: "Connect to Dihua"
  ETS_connect_to_dihua_desc: "The road to Dihua, overburdened by refugees and toll roads, is the lifeline of our young country. If we are not able to cut down the impediments to travel, our own military will lose valuable time travelling across the road."
+
  ETS_develop_the_cities: "Develop the Cities"
  ETS_develop_the_cities_desc: "Madrassas closed, markets paralysed with inflation, and conmen everywhere. Our young country must rectify all three of these things to create that paradise for Turks we promised this generation."
+
  ETS_connect_to_the_outer_areas: "Connect to the Outer Areas"
  ETS_connect_to_the_outer_areas_desc: "Rebel Han and even Russians are subverting our authority in the outer reaches of East Turkestan. They are but results of our failure to allow Turks to move freely to the countryside. Failures no more."
+
  ETS_refurbish_dihua_industry: "Refurbish Dihua's Industry"
  ETS_refurbish_dihua_industry_desc: "Fear that paralyses industry in Dihua is finally conquered. With an influx of corvee labour, surely the factories of Dihua can restart production."
+
  ETS_dzungar_military_factory: "Dzungaria Small Arms Factory"
  ETS_dzungar_military_factory_desc: "An attractive proposal has been delivered to Dzungaria's largest landowner. In exchange for several of his buildings, a contingent of volunteer labourers will be sent to assemble firearms for our army."
+
  ETS_working_the_land: "Working the Land"
  ETS_working_the_land_desc: "With the elevation of Turks to the gentry, many towns are experiencing a shortage of farm labour. Conveniently, our corvee is also looking for employment that can serve the national interest."
 
@@ -300,6 +354,16 @@
  ETS_turkic_diplo_decisions_desc: "As a newly independent Turkic nation, we should try to reach out to other Turkic nations across the world, for mutual cooperation and development."
  ETS_reach_out_to_country_decision: "Reach out to [FROM.GetNameDef]"
  ETS_send_officers_to_train_in_otto_decision: "Send Officers to train in [FROM.GetNameDef]"
+
+#Tooltips
+ ETS_not_already_receiving_from_help_training: "Not receiving help from [From.GetNameWithFlag] in other areas of the training process"
+ ETS_not_already_receiving_from_help_conversion: "Not receiving help from [From.GetNameWithFlag] in other areas of the conversion process"
+
+#Flags
+ ETS_army_adopt_formation_training: "In the process of adopting infantry formations"
+ ETS_army_combat_techniques_training: "In the process of developing combat techniques"
+ ETS_mineral_processing_learning: "In the process of discovering Gunpowder Formula"
+ ETS_firearm_expert_hiring: "In the process of hiring a Firearms Expert"
 
 #Events
  ets.0.t: "Situation in Kashgar and Hotan"
@@ -467,7 +531,7 @@
  ets.33.a: "Excellent."
 
  ets.34.t: "Dealing With the Tungans"
- ets.34.d: "With preparations made, the Tungan Question must be addressed. The Tungans are the large ethnic group in East Turkestan, and though they are muslim, they are firmly Chinese, and are very closely aligned with the Chinese states. While a program of assimilation will undoubtedly be passed, and one which heavily restricts the Chinese language has been drafted, the question of deportations, sought by many in our government has caused much debate. While ultimately deporting Tungan populations in areas of strategic importance may provide some benefit, it would also deprive the army of much-needed manpower, and created sizeable dissident populations abroad, all at a substantial cost."
+ ets.34.d: "With preparations made, the Tungan Question must be addressed. The Tungans are the large ethnic group in East Turkestan, and though they are Muslim, they are firmly Chinese, and are very closely aligned with the Chinese states. While a program of assimilation will undoubtedly be passed, and one which heavily restricts the Chinese language has been drafted, the question of deportations, sought by many in our government has caused much debate. While ultimately deporting Tungan populations in areas of strategic importance may provide some benefit, it would also deprive the army of much-needed manpower, and created sizeable dissident populations abroad, all at a substantial cost."
  ets.34.a: "Deport From Critical Areas, Assimilation for the others."
  ets.34.b: "Assimilation Will Be Enough"
 
@@ -599,13 +663,25 @@
  ETS_puppet_radical_socialist_ADJ: "Xinjiang"
  ETS_puppet_radical_socialist_DEF: "the People's Republic of Xinjiang"
 
-
 ### Characters ###
  ETS_ishaq_bey: "Ishaq Bey"
  ETS_isa_alptekin: "Isa Alptekin"
  ETS_timur_beg: "Timur Beg"
  ETS_masud_sabri: "Masud Sabri"
+
  ETS_sabit_damulla_abdulbaki: "Sabit Damulla Abdulbaki"
+ ETS_sabit_damulla_abdulbaki_leader_desc: "Sabit Damulla Abdulbaki never expected to be the face of the Turkic nationalist movement in Xinjiang. A highly educated academic and journalist, Abdulbaki has corresponded with several of the world's most prominent living Jadidist scholars. Through Jadid circles, he became acquainted with prominent members of the East Turkestan nationalist movement, including the wealthy aristocrat Muhammad Amin Bughra, and through Bughra the wider nationalist movement. Due to his pleasant demeanour, pragmatic viewpoint, and fluency in several languages, the often at-odds nationalist factions agreed on Damulla to for the role of East Turkestan's first head of state and government. Should East Turkestan secure its bid for independence, it is likely however that Damulla will be subsumed by whichever of the nation's factions comes out on top."
+
  ETS_muhammad_amin_bughra: "Muhammad Amin Bughra"
+ ETS_muhammad_amin_bughra_leader_desc: "The early life of Muhammad Amin Bughra is shrouded in mystery, with scant clues alluding to him teaching at a Madrassa prior to his military service. Bughra's background as a Jadidist and a Turk granted him few luxuries, even under Ma Shaowu's governance in Hotan. Bughra displayed a strong determination to work for Xinjiang's unification, and despised the weak attitude for which Governor Yang kept his garrisons. At the same time, Bughra opposed the Han-centric army reforms being proposed by General Sheng Shicai, which placed the blame for army mismanagement on Islam rather than the opium epidemic."
+
  ETS_abdullah_bughra: "Abdullah Bughra"
  ETS_nur_ahmadjan_bughra: "Nur Ahmadjan Bughra"
+ ETS_saifuddin_azizi: "Saifuddin Azizi"
+ ETS_ishaq_beg_munonov: "Ishaq Beg Munonov"
+ ETS_ehmetjan_qasim: "Ehmetjan Qasim"
+ ETS_id_mirab: "Id Mirab"
+ ETS_li_huanzhang: "Li Huanzhang"
+ ETS_gheni_batur: "Gheni Batur"
+ ETS_abdul_niyaz_sijiang: "Abdul Niyaz Sijiang"
+

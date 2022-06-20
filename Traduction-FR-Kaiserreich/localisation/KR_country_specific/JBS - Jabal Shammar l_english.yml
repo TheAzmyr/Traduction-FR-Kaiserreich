@@ -7,13 +7,13 @@
 
  JBS_totalist: "Ha'il Commune"
  JBS_totalist_ADJ: "Ha'ilian"
- JBS_totalist_DEF: "Ha'il Commune"
+ JBS_totalist_DEF: "the Ha'il Commune"
  JBS_syndicalist: "Ha'il Commune"
  JBS_syndicalist_ADJ: "Ha'ilian"
- JBS_syndicalist_DEF: "Ha'il Commune"
+ JBS_syndicalist_DEF: "the Ha'il Commune"
  JBS_radical_socialist: "Ha'il Commune"
  JBS_radical_socialist_ADJ: "Ha'ilian"
- JBS_radical_socialist_DEF: "Ha'il Commune"
+ JBS_radical_socialist_DEF: "the Ha'il Commune"
  JBS_social_democrat: "Jabal Shammar"
  JBS_social_democrat_ADJ: "Shammari"
  JBS_social_democrat_DEF: "Jabal Shammar"
@@ -99,25 +99,25 @@
 
  JBS_HEJ_social_democrat: "Sultanate of Jabal Shammar and Hejaz"
  JBS_HEJ_social_democrat_ADJ: "Rashidi"
- JBS_HEJ_social_democrat_DEF: "Sultanate of Jabal Shammar and Hejaz"
+ JBS_HEJ_social_democrat_DEF: "the Sultanate of Jabal Shammar and Hejaz"
  JBS_HEJ_social_liberal: "Sultanate of Jabal Shammar and Hejaz"
  JBS_HEJ_social_liberal_ADJ: "Rashidi"
- JBS_HEJ_social_liberal_DEF: "Sultanate of Jabal Shammar and Hejaz"
+ JBS_HEJ_social_liberal_DEF: "the Sultanate of Jabal Shammar and Hejaz"
  JBS_HEJ_market_liberal: "Sultanate of Jabal Shammar and Hejaz"
  JBS_HEJ_market_liberal_ADJ: "Rashidi"
- JBS_HEJ_market_liberal_DEF: "Sultanate of Jabal Shammar and Hejaz"
+ JBS_HEJ_market_liberal_DEF: "the Sultanate of Jabal Shammar and Hejaz"
  JBS_HEJ_social_conservative: "Sultanate of Jabal Shammar and Hejaz"
  JBS_HEJ_social_conservative_ADJ: "Rashidi"
- JBS_HEJ_social_conservative_DEF: "Sultanate of Jabal Shammar and Hejaz"
+ JBS_HEJ_social_conservative_DEF: "the Sultanate of Jabal Shammar and Hejaz"
  JBS_HEJ_authoritarian_democrat: "Sultanate of Jabal Shammar and Hejaz"
  JBS_HEJ_authoritarian_democrat_ADJ: "Rashidi"
- JBS_HEJ_authoritarian_democrat_DEF: "Sultanate of Jabal Shammar and Hejaz"
+ JBS_HEJ_authoritarian_democrat_DEF: "the Sultanate of Jabal Shammar and Hejaz"
  JBS_HEJ_paternal_autocrat: "Sultanate of Jabal Shammar and Hejaz"
  JBS_HEJ_paternal_autocrat_ADJ: "Rashidi"
- JBS_HEJ_paternal_autocrat_DEF: "Sultanate of Jabal Shammar and Hejaz"
+ JBS_HEJ_paternal_autocrat_DEF: "the Sultanate of Jabal Shammar and Hejaz"
  JBS_HEJ_national_populist: "Sultanate of Jabal Shammar and Hejaz"
  JBS_HEJ_national_populist_ADJ: "Rashidi"
- JBS_HEJ_national_populist_DEF: "Sultanate of Jabal Shammar and Hejaz"
+ JBS_HEJ_national_populist_DEF: "the Sultanate of Jabal Shammar and Hejaz"
 
  JBS_subhan_social_democrat: "Ha'il"
  JBS_subhan_social_democrat_ADJ: "Shammari"
@@ -180,12 +180,19 @@
 ### Tooltips ###
  jbs_TPC_deal: "§GWe will be rewarded further in the future should the oil wells strike more of the black gold§!."
  jbs_peacefire: "§gIf the timer runs out, the nation with §GPositive War Score§! will §RAnnex§! the other:§!"
- jbs_abdullah_goes_woop: "§RDark forces start moving against [JBS.GetLeader]§.!"
+ jbs_abdullah_goes_woop: "§RDark forces start moving against [JBS.GetLeader].§!"
+
+ JBS_ulemma_increase_support_tt: "§YUlemma§! support will §GIncrease§!, having the following effects:"
+ JBS_ulemma_decrease_support_tt: "§YUlemma§! support will §Rdecrease§!, having the following effects:"
+ JBS_bedouin_increase_support_tt: "§YBedouin§! support will §GIncrease§!, having the following effects:"
+ JBS_bedouin_decrease_support_tt: "§YBedouin§! support will §Rdecrease§!, having the following effects:"
+ JBS_urban_nobility_increase_support_tt: "§YUrban Nobility§! support will §GIncrease§!, having the following effects:"
+ JBS_urban_nobility_decrease_support_tt: "§YUrban Nobility§! support will §Rdecrease§!, having the following effects:"
 
  JBS_Rajails_tt: "£nato_unit_mountaineers_icon_small Gain 1 §YMountaineer Division§! units with Elite training and 1936-year infantry equipment in §YHa'il§!."
  JBS_Levies_tt: "£nato_unit_cavalry_icon_small Gain 2 §YCavalry Division§! units with Recruit training and 1918-year infantry equipment in §YHa'il§!."
  jbs_destroy_ikhwan_tt: "§RThe §YIkhwan§! will raise their flag in revolt if they have not yet been dealt with§!."
- jbs_integrate_central_najd_tt: "§RThe §YPro-Saudi Loyalists§! will raise their flag in revolt if they have not yet been dealt with§!."
+ jbs_integrate_central_najd_tt: "§RThe §YPro-Saudi Loyalists§! will raise their flag in revolt if they have not yet done so previously§!."
  jbs_fundamental_provisions_tt: "§Y[JBS.GetNameWithFlag]§! and §Y[HEJ.GetNameWithFlag]§! will be united in a §Csingular state§!, ruled from §CHa'il§!.\n\n"
  jbs_constituent_assembly_tt: "§Y[JBS.GetNameWithFlag]§! and §Y[HEJ.GetNameWithFlag]§! will be ruled as two §Cseparate states§!, with split domestic and foreign departments ruled in a §Cpersonal union§! under [JBS.GetLeader].\n\n"
  jbs_majlis_tt: "\n§gIf we directly control §YHejaz§!, we will receive the following effects:§!"
@@ -199,6 +206,8 @@
  jbs_ajman_tt: "£nato_unit_cavalry_icon_small Gain 1 §YCavalry Division§! units with Recruit training and 1918-year infantry equipment in §YSumman§! when §Rat war§! with §G[SAU.GetNameWithFlag]§!\n\n£nato_unit_infantry_icon_small Gain 1 §YMilitia Division§! units with Recruit training and 1918-year infantry equipment in §YSumman§! when §Rat war§! with §G[SAU.GetNameWithFlag]§!\n\n£army_experience Gain a §GLevel 1 General§! named §YZaidan ibn Hithlain§!.\n"
  jbs_utaibah_tt: "£nato_unit_cavalry_icon_small Gain 1 §YCavalry Division§! units with Recruit training and 1918-year infantry equipment in §YQasim§! when §Rat war§! with §G[SAU.GetNameWithFlag]§!\n\n£nato_unit_infantry_icon_small Gain 1 §YMilitia Division§! units with Recruit training and 1918-year infantry equipment in §YQasim§! when §Rat war§! with §G[SAU.GetNameWithFlag]§!\n\n£army_experience Gain a §GLevel 1 General§! named §YAbd al-Rahman ibn Rubayin§!.\n"
  jbs_awazim_tt: "£nato_unit_infantry_icon_small Gain 1 §YMilitia Division§! units with Recruit training and 1918-year infantry equipment in §Yal-Hasa§! when §Rat war§! with §G[SAU.GetNameWithFlag]§!.\n"
+
+ JBS_effect_after_picking_company: "We will receive the following effects after we pick a company:"
 
 ### Decisions ###
  JBS_Ottoman_Favours: "Diplomacy with the Sublime Porte"
@@ -245,7 +254,6 @@
  TPC_tt: "§CTurkish Petroleum Company§! has purchased the §Yal Hasa§! concession"
  DAMAG_tt: "§CDAMAG§! has purchased the §Yal Hasa§! concession"
 
-
 ### OOBs ###
  JBS_Rajails: "Ha'il Rajails"
 
@@ -282,52 +290,7 @@
  JBS_looming_invasion: "Looming Invasion"
  JBS_looming_invasion_desc: "In the fallout of the overthrowal of the Rashidi dynasty, sinister forces both within the country and abroad are plotting to overthrow the al-Subhanis and restore the Rashidis to the throne."
 
- JBS_Ulemma_Very_Happy: "Ulemma - §GExalted§!"
- JBS_Ulemma_Very_Happy_desc: "Literally translated as "the learned ones", the Ulemma are the guardians and interpreters of religious knowledge within Islam. Within our society, these groups holds tremendous powers as they not only have sway over the pious masses who anxiously await their religious dogmas but they are also the only form of educators within our realm and can as such already from a young age play a key role in the life of our citizens.\n\nWithin the Ulemma there is also a divide between those toeing the Wahhabist line, swearing fealty to the Imam of Riyadh (Ibn Saud) and those educated by the Ottoman religious apparatus in the cities of Mecca or Kostantiniyye. Although the latter are in general less strict and more open to religious dialogue, they nonetheless share some fanatic aspects of their Wahhabist colleagues, a result of decades of influence imposed by Riyadh."
- JBS_Ulemma_Happy: "Ulemma - §GHappy§!"
- JBS_Ulemma_Happy_desc: "Literally translated as "the learned ones", the Ulemma are the guardians and interpreters of religious knowledge within Islam. Within our society, these groups holds tremendous powers as they not only have sway over the pious masses who anxiously await their religious dogmas but they are also the only form of educators within our realm and can as such already from a young age play a key role in the life of our citizens.\n\nWithin the Ulemma there is also a divide between those toeing the Wahhabist line, swearing fealty to the Imam of Riyadh (Ibn Saud) and those educated by the Ottoman religious apparatus in the cities of Mecca or Kostantiniyye. Although the latter are in general less strict and more open to religious dialogue, they nonetheless share some fanatic aspects of their Wahhabist colleagues, a result of decades of influence imposed by Riyadh."
- JBS_Ulemma_Pleased: "Ulemma - §GPleased§!"
- JBS_Ulemma_Pleased_desc: "Literally translated as "the learned ones", the Ulemma are the guardians and interpreters of religious knowledge within Islam. Within our society, these groups holds tremendous powers as they not only have sway over the pious masses who anxiously await their religious dogmas but they are also the only form of educators within our realm and can as such already from a young age play a key role in the life of our citizens.\n\nWithin the Ulemma there is also a divide between those toeing the Wahhabist line, swearing fealty to the Imam of Riyadh (Ibn Saud) and those educated by the Ottoman religious apparatus in the cities of Mecca or Kostantiniyye. Although the latter are in general less strict and more open to religious dialogue, they nonetheless share some fanatic aspects of their Wahhabist colleagues, a result of decades of influence imposed by Riyadh."
- JBS_Ulemma_Neutral: "Ulemma - §YNeutral§!"
- JBS_Ulemma_Neutral_desc: "Literally translated as "the learned ones", the Ulemma are the guardians and interpreters of religious knowledge within Islam. Within our society, these groups holds tremendous powers as they not only have sway over the pious masses who anxiously await their religious dogmas but they are also the only form of educators within our realm and can as such already from a young age play a key role in the life of our citizens.\n\nWithin the Ulemma there is also a divide between those toeing the Wahhabist line, swearing fealty to the Imam of Riyadh (Ibn Saud) and those educated by the Ottoman religious apparatus in the cities of Mecca or Kostantiniyye. Although the latter are in general less strict and more open to religious dialogue, they nonetheless share some fanatic aspects of their Wahhabist colleagues, a result of decades of influence imposed by Riyadh."
- JBS_Ulemma_Discontent: "Ulemma - §RDiscontent§!"
- JBS_Ulemma_Discontent_desc: "Literally translated as "the learned ones", the Ulemma are the guardians and interpreters of religious knowledge within Islam. Within our society, these groups holds tremendous powers as they not only have sway over the pious masses who anxiously await their religious dogmas but they are also the only form of educators within our realm and can as such already from a young age play a key role in the life of our citizens.\n\nWithin the Ulemma there is also a divide between those toeing the Wahhabist line, swearing fealty to the Imam of Riyadh (Ibn Saud) and those educated by the Ottoman religious apparatus in the cities of Mecca or Kostantiniyye. Although the latter are in general less strict and more open to religious dialogue, they nonetheless share some fanatic aspects of their Wahhabist colleagues, a result of decades of influence imposed by Riyadh."
- JBS_Ulemma_Unhappy: "Ulemma - §RUnhappy§!"
- JBS_Ulemma_Unhappy_desc: "Literally translated as "the learned ones", the Ulemma are the guardians and interpreters of religious knowledge within Islam. Within our society, these groups holds tremendous powers as they not only have sway over the pious masses who anxiously await their religious dogmas but they are also the only form of educators within our realm and can as such already from a young age play a key role in the life of our citizens.\n\nWithin the Ulemma there is also a divide between those toeing the Wahhabist line, swearing fealty to the Imam of Riyadh (Ibn Saud) and those educated by the Ottoman religious apparatus in the cities of Mecca or Kostantiniyye. Although the latter are in general less strict and more open to religious dialogue, they nonetheless share some fanatic aspects of their Wahhabist colleagues, a result of decades of influence imposed by Riyadh."
- JBS_Ulemma_Very_Unhappy: "Ulemma - §ROutraged§!"
- JBS_Ulemma_Very_Unhappy_desc: "Literally translated as "the learned ones", the Ulemma are the guardians and interpreters of religious knowledge within Islam. Within our society, these groups holds tremendous powers as they not only have sway over the pious masses who anxiously await their religious dogmas but they are also the only form of educators within our realm and can as such already from a young age play a key role in the life of our citizens.\n\nWithin the Ulemma there is also a divide between those toeing the Wahhabist line, swearing fealty to the Imam of Riyadh (Ibn Saud) and those educated by the Ottoman religious apparatus in the cities of Mecca or Kostantiniyye. Although the latter are in general less strict and more open to religious dialogue, they nonetheless share some fanatic aspects of their Wahhabist colleagues, a result of decades of influence imposed by Riyadh."
-
- JBS_Bedouin_Very_Happy: "Bedouin - §GExalted§!"
- JBS_Bedouin_Very_Happy_desc: "Forming the majority of our 'citizens', the Bedouin are the life and blood of Arab society. Known for their carefree and apolitical lifestyle, they are nonetheless also a great enemy of those wishing to centralise the state as it has proven nigh impossible to impose reliable taxes or conscription quotas on the highly volatile Bedouin tribes.\n\nA common element in Arab politics, power is not so much derived from positions or political parties but from family relations and affiliation to one of the dozens of tribes that roam our domains. These families function quasi autonomously and it is vital for any Emir to maintain good relations with their heads, lest an Emir may soon find himself without allies, income and an angry host on his doorstep."
- JBS_Bedouin_Happy: "Bedouin - §GHappy§!"
- JBS_Bedouin_Happy_desc: "Forming the majority of our 'citizens', the Bedouin are the life and blood of Arab society. Known for their carefree and apolitical lifestyle, they are nonetheless also a great enemy of those wishing to centralise the state as it has proven nigh impossible to impose reliable taxes or conscription quotas on the highly volatile Bedouin tribes.\n\nA common element in Arab politics, power is not so much derived from positions or political parties but from family relations and affiliation to one of the dozens of tribes that roam our domains. These families function quasi autonomously and it is vital for any Emir to maintain good relations with their heads, lest an Emir may soon find himself without allies, income and an angry host on his doorstep."
- JBS_Bedouin_Pleased: "Bedouin - §GPleased§!"
- JBS_Bedouin_Pleased_desc: "Forming the majority of our 'citizens', the Bedouin are the life and blood of Arab society. Known for their carefree and apolitical lifestyle, they are nonetheless also a great enemy of those wishing to centralise the state as it has proven nigh impossible to impose reliable taxes or conscription quotas on the highly volatile Bedouin tribes.\n\nA common element in Arab politics, power is not so much derived from positions or political parties but from family relations and affiliation to one of the dozens of tribes that roam our domains. These families function quasi autonomously and it is vital for any Emir to maintain good relations with their heads, lest an Emir may soon find himself without allies, income and an angry host on his doorstep."
- JBS_Bedouin_Neutral: "Bedouin - §YNeutral§!"
- JBS_Bedouin_Neutral_desc: "Forming the majority of our 'citizens', the Bedouin are the life and blood of Arab society. Known for their carefree and apolitical lifestyle, they are nonetheless also a great enemy of those wishing to centralise the state as it has proven nigh impossible to impose reliable taxes or conscription quotas on the highly volatile Bedouin tribes.\n\nA common element in Arab politics, power is not so much derived from positions or political parties but from family relations and affiliation to one of the dozens of tribes that roam our domains. These families function quasi autonomously and it is vital for any Emir to maintain good relations with their heads, lest an Emir may soon find himself without allies, income and an angry host on his doorstep."
- JBS_Bedouin_Discontent: "Bedouin - §RDiscontent§!"
- JBS_Bedouin_Discontent_desc: "Forming the majority of our 'citizens', the Bedouin are the life and blood of Arab society. Known for their carefree and apolitical lifestyle, they are nonetheless also a great enemy of those wishing to centralise the state as it has proven nigh impossible to impose reliable taxes or conscription quotas on the highly volatile Bedouin tribes.\n\nA common element in Arab politics, power is not so much derived from positions or political parties but from family relations and affiliation to one of the dozens of tribes that roam our domains. These families function quasi autonomously and it is vital for any Emir to maintain good relations with their heads, lest an Emir may soon find himself without allies, income and an angry host on his doorstep."
- JBS_Bedouin_Unhappy: "Bedouin - §RUnhappy§!"
- JBS_Bedouin_Unhappy_desc: "Forming the majority of our 'citizens', the Bedouin are the life and blood of Arab society. Known for their carefree and apolitical lifestyle, they are nonetheless also a great enemy of those wishing to centralise the state as it has proven nigh impossible to impose reliable taxes or conscription quotas on the highly volatile Bedouin tribes.\n\nA common element in Arab politics, power is not so much derived from positions or political parties but from family relations and affiliation to one of the dozens of tribes that roam our domains. These families function quasi autonomously and it is vital for any Emir to maintain good relations with their heads, lest an Emir may soon find himself without allies, income and an angry host on his doorstep."
- JBS_Bedouin_Very_Unhappy: "Bedouin - §ROutraged§!"
- JBS_Bedouin_Very_Unhappy_desc: "Forming the majority of our 'citizens', the Bedouin are the life and blood of Arab society. Known for their carefree and apolitical lifestyle, they are nonetheless also a great enemy of those wishing to centralise the state as it has proven nigh impossible to impose reliable taxes or conscription quotas on the highly volatile Bedouin tribes.\n\nA common element in Arab politics, power is not so much derived from positions or political parties but from family relations and affiliation to one of the dozens of tribes that roam our domains. These families function quasi autonomously and it is vital for any Emir to maintain good relations with their heads, lest an Emir may soon find himself without allies, income and an angry host on his doorstep."
-
- JBS_Urban_Nobility_Very_Happy: "Urban Nobility - §GExalted§!"
- JBS_Urban_Nobility_Very_Happy_desc: "Although it may seem strange that urban notables hold so much sway in such an empty nation, don't be fooled. Around the various oases of the Arab interior, large settled communities have developed that rely on the wisdom and administration of urban notables. Nowhere is this more visible than in the city of Ha'il where merchants, princes and aristocratic figures have for centuries ruled supreme. These groups, often mostly concerned with increasing their own profits, have significant influence on the throne and have in the past already played the role of kingmaker.\n\nMost famous amongst these nobles is the al-Subhan family, cleverly using the young age of the Emir at the time of his coronation to increase their power and cement themselves as the real power behind the curtains."
- JBS_Urban_Nobility_Happy: "Urban Nobility - §GHappy§!"
- JBS_Urban_Nobility_Happy_desc: "Although it may seem strange that urban notables hold so much sway in such an empty nation, don't be fooled. Around the various oases of the Arab interior, large settled communities have developed that rely on the wisdom and administration of urban notables. Nowhere is this more visible than in the city of Ha'il where merchants, princes and aristocratic figures have for centuries ruled supreme. These groups, often mostly concerned with increasing their own profits, have significant influence on the throne and have in the past already played the role of kingmaker.\n\nMost famous amongst these nobles is the al-Subhan family, cleverly using the young age of the Emir at the time of his coronation to increase their power and cement themselves as the real power behind the curtains."
- JBS_Urban_Nobility_Pleased: "Urban Nobility - §GPleased§!"
- JBS_Urban_Nobility_Pleased_desc: "Although it may seem strange that urban notables hold so much sway in such an empty nation, don't be fooled. Around the various oases of the Arab interior, large settled communities have developed that rely on the wisdom and administration of urban notables. Nowhere is this more visible than in the city of Ha'il where merchants, princes and aristocratic figures have for centuries ruled supreme. These groups, often mostly concerned with increasing their own profits, have significant influence on the throne and have in the past already played the role of kingmaker.\n\nMost famous amongst these nobles is the al-Subhan family, cleverly using the young age of the Emir at the time of his coronation to increase their power and cement themselves as the real power behind the curtains."
- JBS_Urban_Nobility_Neutral: "Urban Nobility - §YNeutral§!"
- JBS_Urban_Nobility_Neutral_desc: "Although it may seem strange that urban notables hold so much sway in such an empty nation, don't be fooled. Around the various oases of the Arab interior, large settled communities have developed that rely on the wisdom and administration of urban notables. Nowhere is this more visible than in the city of Ha'il where merchants, princes and aristocratic figures have for centuries ruled supreme. These groups, often mostly concerned with increasing their own profits, have significant influence on the throne and have in the past already played the role of kingmaker.\n\nMost famous amongst these nobles is the al-Subhan family, cleverly using the young age of the Emir at the time of his coronation to increase their power and cement themselves as the real power behind the curtains."
- JBS_Urban_Nobility_Discontent: "Urban Nobility - §RDiscontent§!"
- JBS_Urban_Nobility_Discontent_desc: "Although it may seem strange that urban notables hold so much sway in such an empty nation, don't be fooled. Around the various oases of the Arab interior, large settled communities have developed that rely on the wisdom and administration of urban notables. Nowhere is this more visible than in the city of Ha'il where merchants, princes and aristocratic figures have for centuries ruled supreme. These groups, often mostly concerned with increasing their own profits, have significant influence on the throne and have in the past already played the role of kingmaker.\n\nMost famous amongst these nobles is the al-Subhan family, cleverly using the young age of the Emir at the time of his coronation to increase their power and cement themselves as the real power behind the curtains."
- JBS_Urban_Nobility_Unhappy: "Urban Nobility - §RUnhappy§!"
- JBS_Urban_Nobility_Unhappy_desc: "Although it may seem strange that urban notables hold so much sway in such an empty nation, don't be fooled. Around the various oases of the Arab interior, large settled communities have developed that rely on the wisdom and administration of urban notables. Nowhere is this more visible than in the city of Ha'il where merchants, princes and aristocratic figures have for centuries ruled supreme. These groups, often mostly concerned with increasing their own profits, have significant influence on the throne and have in the past already played the role of kingmaker.\n\nMost famous amongst these nobles is the al-Subhan family, cleverly using the young age of the Emir at the time of his coronation to increase their power and cement themselves as the real power behind the curtains."
- JBS_Urban_Nobility_Very_Unhappy: "Urban Nobility - §ROutraged§!"
- JBS_Urban_Nobility_Very_Unhappy_desc: "Although it may seem strange that urban notables hold so much sway in such an empty nation, don't be fooled. Around the various oases of the Arab interior, large settled communities have developed that rely on the wisdom and administration of urban notables. Nowhere is this more visible than in the city of Ha'il where merchants, princes and aristocratic figures have for centuries ruled supreme. These groups, often mostly concerned with increasing their own profits, have significant influence on the throne and have in the past already played the role of kingmaker.\n\nMost famous amongst these nobles is the al-Subhan family, cleverly using the young age of the Emir at the time of his coronation to increase their power and cement themselves as the real power behind the curtains."
-
-### Companies ###
+ ### Companies ###
  jbs_ankara_tufek: "ATF"
 
 ### National Focuses ###
@@ -437,7 +400,7 @@
  JBS_Hajj_Regulation: "Regulate the Hajj"
  JBS_Hajj_Regulation_desc: "Supervised by the department of the Kaaba under the interior ministry and the department of Hajj under the foreign ministry, the regulation of the yearly Hajj has been paid the utmost attention by our rulers in Ha'il. Breaking with the Ottoman tradition of subsidising the Hajj and returning to the Hejazi administration of 1917, pilgrim taxes and other financial arrangements will be set up to enrich the state."
  JBS_Foreign_Consulates: "Re-open Foreign Consulates"
- JBS_Foreign_Consulates_desc: "The port-city of Jeddah under Ottoman times was home to a wide variety of foreign consulates, mostly from Empires and states with large muslim populations as to provide for their citizens during the yearly Hajj. Although many of these buildings were cleared out during the Levantine War, various governments have expressed interest in recognising us as an independent state and have offered to re-open their consulates."
+ JBS_Foreign_Consulates_desc: "The port-city of Jeddah under Ottoman times was home to a wide variety of foreign consulates, mostly from Empires and states with large Muslim populations as to provide for their citizens during the yearly Hajj. Although many of these buildings were cleared out during the Levantine War, various governments have expressed interest in recognising us as an independent state and have offered to re-open their consulates."
  JBS_Port_Jeddah: "Shipping Port of Jeddah"
  JBS_Port_Jeddah_desc: "The largest and most important harbour in the Red Sea, the port of Jeddah is of fabulous importance to our state. Not only is it the primary entrance to hundreds of thousands of Muslims worldwide to the Holy Cities, it is also a bustling mercantile centre with expansive docks, a shipyard and a railroad connection to Mecca, Medina and Syria. It is clear that to expand our economy, Jeddah can not be overlooked."
  JBS_Motor_Transport_Radio_Department: "Motor Transport & Radio Department"
@@ -707,6 +670,40 @@
  JBS_saud_al_subhan: "Saud al-Subhan"
  JBS_dulaim_ibn_barrak: "Dulaim ibn Barrak"
  JBS_abd_al_rahman_ibn_rubayin: "Abd al-Rahman ibn Rubayin"
+
+ ### Advisors ###
+ JBS_ulemma_influence: "Ulemma"
+ JBS_ulemma_influence_desc: "§LLiterally translated as "the learned ones", the Ulemma are the guardians and interpreters of religious knowledge within Islam. Within our society, these groups holds tremendous powers as they not only have sway over the pious masses who anxiously await their religious dogmas but they are also the only form of educators within our realm and can as such already from a young age play a key role in the life of our citizens.\n\nWithin the Ulemma there is also a divide between those toeing the Wahhabist line, swearing fealty to the Imam of Riyadh (Ibn Saud) and those educated by the Ottoman religious apparatus in the cities of Mecca or Kostantiniyye. Although the latter are in general less strict and more open to religious dialogue, they nonetheless share some fanatic aspects of their Wahhabist colleagues, a result of decades of influence imposed by Riyadh.§!"
+
+ JBS_bedouin_influence: "Bedouin"
+ JBS_bedouin_influence_desc: "§LForming the majority of our 'citizens', the Bedouin are the life and blood of Arab society. Known for their carefree and apolitical lifestyle, they are nonetheless also a great enemy of those wishing to centralise the state as it has proven nigh impossible to impose reliable taxes or conscription quotas on the highly volatile Bedouin tribes.\n\nA common element in Arab politics, power is not so much derived from positions or political parties but from family relations and affiliation to one of the dozens of tribes that roam our domains. These families function quasi autonomously and it is vital for any Emir to maintain good relations with their heads, lest an Emir may soon find himself without allies, income and an angry host on his doorstep.§!"
+
+ JBS_urban_nobility_influence: "Urban Nobility"
+ JBS_urban_nobility_influence_desc: "§LAlthough it may seem strange that urban notables hold so much sway in such an empty nation, don't be fooled. Around the various oases of the Arab interior, large settled communities have developed that rely on the wisdom and administration of urban notables. Nowhere is this more visible than in the city of Ha'il where merchants, princes and aristocratic figures have for centuries ruled supreme. These groups, often mostly concerned with increasing their own profits, have significant influence on the throne and have in the past already played the role of kingmaker.\n\nMost famous amongst these nobles is the al-Subhan family, cleverly using the young age of the Emir at the time of his coronation to increase their power and cement themselves as the real power behind the curtains.§!"
+
+ JBS_Ulemma_Very_Happy: "§GExalted§!"
+ JBS_Ulemma_Happy: "§GHappy§!"
+ JBS_Ulemma_Pleased: "§GPleased§!"
+ JBS_Ulemma_Neutral: "§LNeutral§!"
+ JBS_Ulemma_Discontent: "§tDiscontent§!"
+ JBS_Ulemma_Unhappy: "§RUnhappy§!"
+ JBS_Ulemma_Very_Unhappy: "§rOutraged§!"
+
+ JBS_Bedouin_Very_Happy: "§GExalted§!"
+ JBS_Bedouin_Happy: "§GHappy§!"
+ JBS_Bedouin_Pleased: "§GPleased§!"
+ JBS_Bedouin_Neutral: "§LNeutral§!"
+ JBS_Bedouin_Discontent: "§tDiscontent§!"
+ JBS_Bedouin_Unhappy: "§RUnhappy§!"
+ JBS_Bedouin_Very_Unhappy: "§rOutraged§!"
+
+ JBS_Urban_Nobility_Very_Happy: "§GExalted§!"
+ JBS_Urban_Nobility_Happy: "§GHappy§!"
+ JBS_Urban_Nobility_Pleased: "§GPleased§!"
+ JBS_Urban_Nobility_Neutral: "§LNeutral§!"
+ JBS_Urban_Nobility_Discontent: "§tDiscontent§!"
+ JBS_Urban_Nobility_Unhappy: "§RUnhappy§!"
+ JBS_Urban_Nobility_Very_Unhappy: "§rOutraged§!"
 
 ### Characters ###
  TRU_hamad_bin_isa_al_khalifa: "Hamad Bin Isa Al-Khalifa"

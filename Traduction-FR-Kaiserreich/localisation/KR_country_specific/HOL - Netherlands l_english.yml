@@ -2,8 +2,8 @@
 
  HOL_focus: "Netherlands Base Focus Tree"
 
-### Leaders ###
- POLITICS_WILHELMINA_DESC: "Inaugurated as the Netherlands' first queen after her father's death, Wilhelmina van Oranje-Nassau has ruled the Netherlands as constitutional monarchy since 1890. Her rule saw the Netherlands remaining neutral in Weltkrieg, which some view as the product of the queen's relationship with the German Kaiser, an abortive attempt at a socialist revolution in 1918, the failure of which is attributed to the queen's personal popularity, and the establishment of the Netherlands' first catholic prime minister - much against her majesty's will.\n\nTime will tell however, whether the queen can maintain her position of a symbol of unity to the Dutch people as dark clouds start to gather at the horizon."
+### World Tension ###
+ HOL_revolution_threat: "Revolution in the Netherlands"
 
 ### Flags ###
  hol_leftwing_negotiations_failed: "Negotiations with the leftists failed"
@@ -187,6 +187,8 @@
  HOL_idea_lone_wolf: "Lone Wolf Operations"
  HOL_idea_ship_a_day_tactics: "Ship a day tactics"
  HOL_idea_convoy_sailing: "Convoy Sailing Tactics"
+ HOL_indirect_design_ss: "Atlantic Submarine Focus"
+ HOL_indirect_design_cs: "Cruiser Submarine Focus"
 
  HOL_destroyer_AA_design: "Anti-Aircraft destroyer designs"
  HOL_light_cruiser_aa: "Anti-Aircraft Cruisers"
@@ -213,20 +215,6 @@
  HOL_light_cruiser_design_AA: "AA cruiser"
  HOL_pantserschip_design_1: "Coastal Defence Pantserschip"
  HOL_pantserschip_design_2: "AA-oriented Pantserschip"
-
- HOL_indirect_design_dd: "Anti-Submarine Destroyers"
- HOL_indirect_design_cl: "Anti-Submarine Cruisers"
- HOL_indirect_design_cl_dd: "Anti-Submarine Ships"
- HOL_indirect_design_ss: "Atlantic Submarine Focus"
- HOL_indirect_design_cs: "Cruiser Submarine Focus"
- HOL_base_design_dd: "Escort-Focused Destroyers"
- HOL_base_design_cl: "Escort-Focused Cruisers"
- HOL_base_design_dd_cl: "Escort-Focused Ships"
- HOL_power_design_ac: "Protected Armoured Cruisers"
- HOL_power_design_cb: "Protected Battle Cruisers"
- HOL_power_design_cl: "Protected Cruisers"
- HOL_power_design_cl_cb: "Protected Ships"
- HOL_power_design_cl_ac: "Protected Ships"
 
 ### Air ideas ###
  HOL_idea_huisje_boompje_beestje: "Huisje-Boompje-Beestje Tactics"
@@ -542,10 +530,6 @@
  HOL_Rembering_DBR_desc: "Our history is rife with the Germans, and all the forms they take, attempting to rob us of our freedom. We shall ensure the Dutch Proletariat is aware of these facts, regardless how \"embellished\" they are."
  HOL_CS6: "CS 6"
  HOL_CS6_desc: "The CS 6 was formed under the auspices of R.E.D agents, with the origin of its name lost. Its goal is to help preserve syndicalist ideology within [HOL.getname].. by any means"
- HOL_idea_south_africa_in_exile: "South African Government in Exile"
- HOL_idea_south_africa_in_exile_desc: "This country hosts a Boer government in exile in The Hague, where it claims to be the legitimate government of South Africa."
- HOL_idea_convention_host: "International Convention Host"
- HOL_idea_convention_host_desc: "This country is renowned for hosting multiple international conventions, making it harder for potential invaders to justify their attack."
  HOL_batavian_committee_of_science: "Batavian Committee of Science"
  HOL_batavian_committee_of_science_desc: "By nationalising the assets of research companies and placing them under the oversight of one committee by, for and with the people, we will be able to conduct research far more efficiently."
  HOL_dutch_researching: "Dutch Research Institute"
@@ -909,7 +893,6 @@
 
  HOL_sdap_name: "SDAP"
  HOL_pvda_name: "PvdA"
-
 
 ### Events ###
  holst.1.t: "The Netherlands in 1936"
@@ -1742,7 +1725,7 @@
  holpostel.115.c: "Deep-Red with the RSAP."
 
  holpostel.117.t: "Second Prussian Intervention"
- holpostel.117.d: "Syndicalists have taken over the Netherlands, exposing a vulnerable flank through which the Ruhr area, our primary industrial centre can be hit. Military hotheads are proposing that we invade right now, while they still lack international recognition, but the Dutch, or Batavians as they call themselves now, are surely dug in having expected this move already. Others propose that we send agents to undermine the new regime's stability, which could be a more subtle way of securing their loyalty. The third possibility is to just leave them alone, at the current they seem unsupported by the International and even if they would join that alliance, what harm can the Netherlands do?"
+ holpostel.117.d: "Syndicalists have taken over the Netherlands, exposing a vulnerable flank through which the Ruhr area, our primary industrial centre can be hit. Military hotheads are proposing that we invade right now, while they still lack international recognition, but the Dutch, or Batavians as they call themselves now, are surely dug in having expected this move already. Others propose that we send agents to undermine the new regime's stability, which could be a more subtle way of securing their loyalty. The third possibility is to just leave them alone - direct intervention might escalate into full-out war with the Internationale."
  holpostel.117.a: "Send the agents!"
  holpostel.117.b: "Send the soldiers!"
  holpostel.117.c: "Send the border guards!"
@@ -1768,15 +1751,6 @@
  hol.201.t: "The Future of the Dutch Navy"
  hol.201.d: "The Admiralty is discussing the best way to proceed onwards. Our resources are limited, so a plan is needed to be devised on how to make use of our naval assets the most.\n\nSome of the admiralty place our merchant fleet above all. They believe that if the merchant fleet is unable to operate, our country will be reduced to poverty. They want to emphasise the need of our navy to protect the fleet with fast surface ships, and if possible, harass the fleet of potential adversaries with submarines.\n\nArguments to focus on large surface ships to protect our vital colonies from a potential Japanese incursion are also heard. Our capital ships are reaching a respectable vintage and will probably not be able to protect the Dutch East Indies in particular if they are not modernised or even expanded in number.\n\nSome propose the Dutch navy to focus on naval aviation, a relatively new but potentially radically altering the way how naval battles are fought in the future. They wish to see a further expansion of the carrier force supported by a strong naval aviation branch."
  hol.201.a: "An important choice will be made soon."
-
- hol.202.t: "New Oil Refinery on Curaçao?"
- hol.202.d: "Curaçao lies in close proximity to the oil producing Venezuela. Seeing the opportunity this presents, Royal Dutch Shell has asked the government to lease a large piece of land near Willemstad to construct a new refinery.\n\nIf we agree to this, we will also need to construct new docking facilities for oil tankers to enter and leave the harbour.\n\nThe construction of the refinery will give a massive economic boost to the Dutch Antilles, however it might put us on odds against Venezuela... especially considering the fact that they claim these islands as theirs."
- hol.202.a: "We can never have enough oil, proceed!"
- hol.202.b: "Actually, we have enough oil already... never mind."
-
- hol.203.t: "Willemstad Refinery Completed!"
- hol.203.d: "The work on the new refinery and necessary harbour facilities is being finished and the new refinery in the heart of Curaçao has been put into operation!"
- hol.203.a: "Driewerf Hoera!"
 
  holfocus.4.t: "The Search For Resources"
  holfocus.4.d: "Although the vast majority of our resources come from our colonies, our homeland should also harbour some resources we have not yet uncovered.\n\nGeological surveys in Brabant have found traces of tungsten, a resource we thus far completely lack. Furthermore, we can dig deeper in our mines in southern Limburg and perhaps find usable iron for our smelters to produce steel from."
@@ -2143,7 +2117,7 @@
  holfocus.88.a: "Welkom, medeburgers!"
 
  holfocus.89.t: "[From.GetNameDefCap] Refuses Demands"
- holfocus.89.d:9 "In their infinite foolishness, the [From.GetAdjective] have failed to respond in a timely manner to our ultimatum. It appears that we will have to fight to get what is rightfully ours."
+ holfocus.89.d: "In their infinite foolishness, the [From.GetAdjective] have failed to respond in a timely manner to our ultimatum. It appears that we will have to fight to get what is rightfully ours."
  holfocus.89.a: "You've asked for it!"
 
  holfocus.90.t: "[HOL.GetNameDefCap] Attempts to Seize Flanders"
@@ -2590,24 +2564,61 @@
  HOL_david_wijnkoop: "David Wijnkoop"
  HOL_paul_de_groot: "Paul de Groot"
  HOL_jacques_de_kadt: "Jacques de Kadt"
- HOL_harm_kolthek: "Harm Kolthek"
- HOL_anton_pannekoek: "Anton Pannekoek"
+ HOL_antonie_pannekoek: "Antonie Pannekoek"
  HOL_henk_sneevliet: "Henk Sneevliet"
  HOL_willem_drees: "Willem Drees"
- HOL_adriaan_gerhard: "Adriaan Gerhard"
+ HOL_adriaan_henri_gerhard: "Adriaan Henri Gerhard"
  HOL_roelof_kranenburg: "Roelof Kranenburg"
  HOL_cornelis_lodewijk_van_der_bilt: "Cornelis Lodewijk van der Bilt"
  HOL_carel_goseling: "Carel Goseling"
  HOL_military_junta: "Military Junta"
- HOL_henri_swart: "Henri Swart"
+ HOL_henri_nicolas_alfred_swart: "Henri Nicolas Alfred Swart"
  HOL_cornelis_van_geelkerken: "Cornelis van Geelkerken"
- HOL_wilhelmina_van_orange_nassau: "Wilhelmina"
+
+ HOL_wilhelmina_van_orange_nassau: "Wilhelmina van Orange-Nassau"
+ HOL_wilhelmina_van_orange_nassau_regnal: "Wilhelmina"
+ HOL_wilhelmina_van_orange_nassau_leader_desc: "Inaugurated as the Netherlands' first queen after her father's death, Wilhelmina van Oranje-Nassau has ruled the Netherlands as constitutional monarchy since 1890. Her rule saw the Netherlands remaining neutral in Weltkrieg, which some view as the product of the queen's relationship with the German Kaiser, an abortive attempt at a socialist revolution in 1918, the failure of which is attributed to the queen's personal popularity, and the establishment of the Netherlands' first Catholic prime minister - much against her majesty's will.\n\nTime will tell however, whether the queen can maintain her position of a symbol of unity to the Dutch people as dark clouds start to gather at the horizon."
+
  HOL_juliana_van_orange_nassau: "Juliana van Orange-Nassau"
+ HOL_juliana_van_orange_nassau_regnal: "Juliana"
+
+ HOL_states_general: "States-General"
+ HOL_johan_willem_albarda: "Johan Willem Albarda"
+ HOL_willem_schermerhorn: "Willem Schermerhorn"
+ HOL_pieter_jacobus_oud: "Pieter Jacobus Oud"
+ HOL_andries_cornelis_dirk_de_graeff: "Andries Cornelis Dirk de Graeff"
+ HOL_dirk_jan_de_geer: "Dirk Jan de Geer"
+ HOL_hendrikus_colijn: "Hendrikus Colijn"
+ HOL_louis_joseph_maria_beel: "Louis Joseph Maria Beel"
+
+ HOL_louis_de_visser: "Louis de Visser"
+ HOL_evert_kupers: "Evert Kupers"
+ HOL_abraham_menist: "Abraham Menist"
+ HOL_willem_van_ravensteyn: "Willem van Ravensteyn"
+ HOL_daniel_daan_goulooze: "Daniel Daan Goulooze"
+ HOL_nicolaas_beuzemaker: "Nicolaas Beuzemaker"
+ HOL_servatius_protatius_baart: "Servatius Protatius Baart"
+ HOL_george_van_den_bergh: "George van den Bergh"
+ HOL_fedde_schurer: "Fedde Schurer"
+ HOL_johan_willem_beyen: "Johan Willem Beyen"
+ HOL_jacob_adriaan_nicolaas_patijn: "Jacob Adriaan Nicolaas Patijn"
+ HOL_dirk_uipko_stikker: "Dirk Uipko Stikker"
+ HOL_jan_eduard_de_quay: "Jan Eduard de Quay"
+ HOL_josephus_robertus_hendricus_van_schaik: "Josephus Robertus Hendricus van Schaik"
+ HOL_hugo_visscher: "Hugo Visscher"
+ HOL_willem_bernhard_engelbrecht: "Willem Bernhard Engelbrecht"
+ HOL_coenraad_alfred_augustus_haighton: "Coenraad Alfred Augustus Haighton"
+ HOL_louis_einthoven: "Louis Einthoven"
+ HOL_frederik_carel_gerretson: "Frederik Carel Gerretson"
+ HOL_jan_tinbergen: "Jan Tinbergen"
+ HOL_tietse_pieter_sevensma: "Tietse Pieter Sevensma"
+ HOL_jacob_van_gelderen: "Jacob van Gelderen"
+
  HOL_petrus_wilhelmus_best: "Petrus Wilhelmus Best"
- HOL_willem_hackstroh: "Willem Hackstroh"
+ HOL_willem_hackstroh: "Willem Frederik Alard Hackstroh"
  HOL_jakob_harberts: "Jakob Harberts"
- HOL_izaak_reijnders: "Izaäk Reijnders"
- HOL_hendrik_seyffardt: "Hendrik Seyffardt"
+ HOL_izaak_reijnders: "Izaak Herman Reijnders"
+ HOL_hendrik_seyffardt: "Hendrik Alexander Seyffardt"
  HOL_gustave_statius_muller: "Gustave Statius-Muller"
  HOL_herman_van_voorst_tot_voorst: "Herman van Voorst tot Voorst"
  HOL_godfried_van_voorst_tot_voorst: "Godfried van Voorst tot Voorst"
@@ -2618,11 +2629,16 @@
  HOL_gerardus_johannes_berenschot: "Gerardus Johannes Berenschot"
  HOL_murk_boerstra: "Murk Boerstra"
  HOL_simon_spoor: "Simon Spoor"
- HOL_johannes_furstner: "Johannes Fürstner"
+
+ HOL_johannes_furstner: "Johannes Theodorus Furstner"
  HOL_karel_doorman: "Karel Doorman"
  HOL_conrad_helfrich: "Conrad Helfrich"
- HOL_jan_van_dulm: "Jan van Dulm"
+ HOL_jan_van_dulm: "Johannes Frans van Dulm"
  HOL_maarten_van_dulm: "Maarten van Dulm"
  HOL_willem_jan_kruys: "Willem Jan Kruys"
  HOL_albertus_samuel_pinke: "Albertus Samuel Pinke"
  HOL_alfred_de_booy: "Alfred de Booy"
+
+ HOL_ludolph_hendrik_van_oyen: "Ludolph Hendrik van Oyen"
+ HOL_marius_raaijmakers: "Marius Raaijmakers"
+ HOL_floris_albert_van_heyst: "Floris Albert van Heyst"

@@ -24,9 +24,6 @@
  ITA_national_populist_party: "ANI"
  ITA_national_populist_party_long: "Associazione Nazionalista Italiana"
 
-### Leaders ###
- POLITICS_IVANOE_BONOMI_DESC: "When the Sicilians and Sardinians withdrew from the Italian Federation, then Prime Minister of the Federation Ivanoe Bonomi dissolved the Federation in 1930. Subsequently elected Prime Minister of the new Italian Republic, Bonomi's willingness to work with the much-maligned Austria, while economically beneficial, continues to draw great internal scrutiny. Bonomi struggles to weather these increasingly virulent criticisms while cementing the republic's political institutions."
-
 ### Companies ###
  accademia_militare_milano: "Accademia Militare di Milano"
  breda: "Breda"
@@ -53,6 +50,9 @@
  societa_edison: "Società Edison"
  societa_pont_saint_martin: "Società Pont Saint Martin"
  pirelli: "Pirelli"
+
+### World Tension ###
+ italian_wars_threat: "Italian Civil War"
 
 ### Ideas ###
  ITA_republic_federation: "The Unstable Republic"
@@ -86,7 +86,6 @@
  ITA_auto_industry_idea: "Subsidised Automotive Industry"
  ITA_recovering_economy: "Recovering Economy"
  ITA_workers_rights_idea: "Worker's Rights"
- ITA_social_welfare_idea: "Social Welfare"
  ITA_defending_italia_idea: "Defend Italia"
  ITA_defending_italia_idea_desc: "The Federation stands ready to defend the good people of Italy against any who might assail them!"
  ITA_nationalist_birth_act: "Nationalist Birth Act"
@@ -133,6 +132,7 @@
  NAME_THEME_HISTORICAL_SEI_SUBMARINES: "Historical 'SEI' Class Submarines"
  NAME_THEME_POPES: "Popes"
  ITA_generals_still_remain: "Still has generals\n"
+ italy_generic_neighbor_state_is_core: "Any §Yneighboring State§! is our §Ycore§!"
 
 ### Opinion Modifiers ###
  ITA_austrian_no_freindship: "No Austrian Friendship"
@@ -175,36 +175,9 @@
  ITA_join_reichspakt_desc: "With Austria now out of the picture, we stand as the strongest southern ally possible for the Germans - and we theirs."
  ITA_resorgimento_decisions: "Risorgimento"
  ITA_resorgimento_decisions_desc: "Italy has been divided since the Italian Civil War of 1920. Monarchists, Socialists, Republicans, and exiles glare at each other from behind their fortifications. In the face of this division, few are certain of Italy's swift reunification. God willing, however, we shall soon reunite all Italians in a new Risorgimento, like that of Cavour and the Savoyards seventy years ago."
- ITA_restore_order_aosta: "Restore Order in [1003.GetName]"
- ITA_restore_order_piedmont: "Restore Order in [158.GetName]"
- ITA_restore_order_liguria: "Restore Order in [838.GetName]"
- ITA_restore_order_lombardy: "Restore Order in [159.GetName]"
- ITA_restore_order_venetia: "Restore Order in [160.GetName]"
- ITA_restore_order_friuli: "Restore Order in [759.GetName]"
- ITA_restore_order_trieste: "Restore Order in [488.GetName]"
- ITA_restore_order_emilia: "Restore Order in [1004.GetName]"
- ITA_restore_order_romagna: "Restore Order in [161.GetName]"
- ITA_restore_order_tuscany: "Restore Order in [162.GetName]"
- ITA_restore_order_marche: "Restore Order in [157.GetName]"
- ITA_restore_order_umbria: "Restore Order in [1005.GetName]"
- ITA_restore_order_viterbo: "Restore Order in [764.GetName]"
- ITA_restore_order_latium: "Restore Order in [2.GetName]"
- ITA_restore_order_abruzzo: "Restore Order in [742.GetName]"
- ITA_restore_order_campania: "Restore Order in [117.GetName]"
- ITA_restore_order_apulia: "Restore Order in [837.GetName]"
- ITA_restore_order_calabria: "Restore Order in [156.GetName]"
- ITA_restore_order_sicily: "Restore Order in [115.GetName]"
- ITA_restore_order_cagliari: "Restore Order in [114.GetName]"
- ITA_restore_order_sassari: "Restore Order in [1002.GetName]"
- ITA_restore_order_ticino: "Restore Order in [761.GetName]"
- ITA_restore_order_nice: "Restore Order in [762.GetName]"
- ITA_restore_order_savoy: "Restore Order in [735.GetName]"
- ITA_restore_order_upper_savoy: "Restore Order in [943.GetName]"
- ITA_restore_order_trentino: "Restore Order in [783.GetName]"
- ITA_restore_order_southern_tyrol: "Restore Order in [39.GetName]"
- ITA_restore_order_istria: "Restore Order in [736.GetName]"
- ITA_restore_order_malta: "Restore Order in [116.GetName]"
- ITA_restore_order_corsica: "Restore Order in [1.GetName]"
+ italy_generic_gain_core: "Restore Order in §Y[FROM.GetName]§!"
+ italy_generic_weaken_resistance: "Weaken Resistance in §Y[FROM.GetName]§!"
+ italy_generic_increase_control: "Increase Control in §Y[FROM.GetName]§!"
  ITA_claim_ticino: "Establish Irredentist Claim on Ticino"
  ITA_claim_ticino_desc: "Ticino is a region of Switzerland primarily inhabited by Italians, and it is in our interests to establish a more permanent claim on the region."
  ITA_claim_nice: "Establish Irredentist Claim on Nice"
@@ -223,8 +196,8 @@
  ITA_claim_istria_desc: "Once part of the domain of Venice, Istria is properly Italian territory and it is in our interests to establish a more permanent claim on the region."
  ITA_claim_dalmatia: "Establish Irredentist Claim on the Dalmatian Coast"
  ITA_claim_dalmatia_desc: "Once part of the domain of Venice, the Dalmatian Coast is properly Italian territory and it is in our interests to establish a more permanent claim on the region."
- ITA_claim_lika: "Establish Irredentist Claim on Lika"
- ITA_claim_lika_desc: "Once part of the domain of Venice, Lika is properly Italian territory and it is in our interests to establish a more permanent claim on the region."
+ ITA_claim_fiume: "Establish Irredentist Claim on Fiume"
+ ITA_claim_fiume_desc: "Once part of the domain of Venice, Fiume is properly Italian territory and it is in our interests to establish a more permanent claim on the region."
  ITA_claim_malta: "Establish Irredentist Claim on Malta"
  ITA_claim_malta_desc: "The island of Malta is an integral part of Italy, and it is in our interests to establish a more permanent claim on the region."
  ITA_claim_corsica: "Establish Irredentist Claim on Corsica"
@@ -310,7 +283,6 @@
  ITA_defend_the_kingdom_desc: "Our nation will never be completely safe from attack. We must construct new fortifications and other defences to prevent the success of any hostile invasion."
  ITA_towards_risorgimento: "Towards a United Italy"
  ITA_towards_risorgimento_desc: "Now that we have proven to our people the justice of our rule, we are ready to unite Italy. May all those who stand in our way on the global stage fall just as our domestic rivals have! Viva l'Italia!"
-
 
 ### Economic Focuses ###
  ITA_assess_the_economy: "Fund Italian Industry"
@@ -470,8 +442,6 @@
  ITA_rule_the_skies: "Rule the Skies"
  ITA_rule_the_skies_desc: "The air force is no longer a rag-tag collection of volunteers, but a fully functioning organ of our military. Let us rule the skies of Italy and beyond!"
 
-
-
 ### Events ###
 
  ita.1.t: "The History of the Republic of Italy: Defeat and Civil War"
@@ -499,7 +469,7 @@
  ita.4.a: "We should keep an eye on him"
 
  ita.5.t: "The Church Comments on the Crisis"
- ita.5.d: "A number of influential figures within the church have been rallying support for political figures during their sermons. Of particular note are the Archbishops of Milan and Venice, who have urged parishioners to follow traditional catholic values during this crisis, a none too subtle nod of support for the conservative Popolare Italiano party. However some bishops, though not as influential as those in Milan and Venice, have instead urged support for Catholic Social Teaching and the ruling Liberal Democratic party. In both cases, people are listening to the advice of the church."
+ ita.5.d: "A number of influential figures within the church have been rallying support for political figures during their sermons. Of particular note are the Archbishops of Milan and Venice, who have urged parishioners to follow traditional Catholic values during this crisis, a none too subtle nod of support for the conservative Popolare Italiano party. However some bishops, though not as influential as those in Milan and Venice, have instead urged support for Catholic Social Teaching and the ruling Liberal Democratic party. In both cases, people are listening to the advice of the church."
  ita.5.a: "Let us hope the Church is right"
 
  ita.6.t: "Rosselli Supports Bonomi"
@@ -588,7 +558,6 @@
  ita.25.d: "Today, a few of the generals that fought for Sardinia have requested to fight for [Root.GetName]. Some feel that they should not fight for Italy, seeing as they fought against us, but others think that allowing them to fight for our shared country would make for an excellent statement of national unity."
  ita.25.a: "They should fight for Italy!"
  ita.25.b: "We don't need people who fought against us"
-
 
  ita.28.t: "The Royal Academy of Italy"
  ita.28.d: "Today the Reale Accademia d'Italia(Royal Academy of Italy) was founded by royal decree, inspired by the French Academy, and sixty Italians have been selected for their scientific, literary, and artistic achievements. Members of the academy are granted first-class travel on the national railroads, are to be addressed as 'Your Excellency', and receive 3,000 lire a month. While one of the stated goals was to support and promote the sciences, literature and the arts, another goal is to help the new monarchy be better accepted by the people of Italy. To both ends it is succeeding, if slowly."
@@ -711,11 +680,11 @@
  ita.54.a: "Let's hope this amounts to nothing"
 
  ita.55.t: "Riots in Venice"
- ita.55.d: "Opposition to the unitary republic has grown throughout Italy, with much of it concentrated in the city of Venice. There, Partito Republicano Veneto leader Giuseppe Volpi has given fiery speeches denouncing the ANI and calling on 'loyal Venetians' to rise up and fight against its tyranny. Riots have broken out throughout the city, with violence concentrated against central government offices and troops. Officials fear it is just a matter of days before the state legislature takes a vote on whether or not to withdraw from the republic."
+ ita.55.d: "Opposition to the unitary republic has grown throughout Italy, with much of it concentrated in the city of Venice. There, Partito Repubblicano Veneto leader Giuseppe Volpi has given fiery speeches denouncing the ANI and calling on 'loyal Venetians' to rise up and fight against its tyranny. Riots have broken out throughout the city, with violence concentrated against central government offices and troops. Officials fear it is just a matter of days before the state legislature takes a vote on whether or not to withdraw from the republic."
  ita.55.a: "As if we would allow such a thing!"
 
  ita.56.t: "The Venetian Revolt"
- ita.56.d: "As predicted, the vote in Venice - with the controlling Partito Republicano Veneto voting unanimously in favour - has led to the declaration of their opposition to the unitary republic. Until, and if, state rights are restored they will see the Republic of Venice separated from [ITA.GetNameDef]. Last-minute talks are being held, but at the moment all government troops are being ordered out of Venetia, and militia forces are quickly being assembled - most likely with aid and assistance by the Austrians."
+ ita.56.d: "As predicted, the vote in Venice - with the controlling Partito Repubblicano Veneto voting unanimously in favour - has led to the declaration of their opposition to the unitary republic. Until, and if, state rights are restored they will see the Republic of Venice separated from [ITA.GetNameDef]. Last-minute talks are being held, but at the moment all government troops are being ordered out of Venetia, and militia forces are quickly being assembled - most likely with aid and assistance by the Austrians."
  ita.56.a: "This cannot be allowed to stand"
  ita.56.b: "Fight for La Serrenisima! (Play as Venice)"
 
@@ -1148,15 +1117,19 @@
 
 ### Characters ###
  ITA_italo_balbo: "Italo Balbo"
- ITA_pietro_ferdinando: "Pietro Ferdinando I"
- ITA_adriano_visconti: "Adriano I"
+ ITA_pietro_ferdinando: "Pietro Ferdinando d'Asburgo-Lorena"
+ ITA_adriano_visconti: "Adriano Visconti"
  ITA_emilio_de_bono: "Emilio de Bono"
  ITA_giovanni_gronchi: "Giovanni Gronchi"
  ITA_luigi_einaudi: "Luigi Einaudi"
  ITA_marcello_soleri: "Marcello Soleri"
+
  ITA_ivanoe_bonomi: "Ivanoe Bonomi"
+ ITA_ivanoe_bonomi_leader_desc: "When the Sicilians and Sardinians withdrew from the Italian Federation, then Prime Minister of the Federation Ivanoe Bonomi dissolved the Federation in 1930. Subsequently elected Prime Minister of the new Italian Republic, Bonomi's willingness to work with the much-maligned Austria, while economically beneficial, continues to draw great internal scrutiny. Bonomi struggles to weather these increasingly virulent criticisms while cementing the republic's political institutions."
+
  ITA_ferruccio_parri: "Ferruccio Parri"
  ITA_carlo_rosselli: "Carlo Rosselli"
+
  ITA_rodolfo_graziani: "Rodolfo Graziani"
  ITA_ettore_bastico: "Ettore Bastico"
  ITA_annibale_bergonzoli: "Annibale Bergonzoli"
@@ -1166,11 +1139,37 @@
  ITA_enrico_riccardi: "Enrico Riccardi"
  ITA_gabriele_nasci: "Gabriele Nasci"
  ITA_italo_gariboldi: "Italo Gariboldi"
- ITA_venanzio_gabrotti: "Venanzio Gabrotti"
+ ITA_venanzio_gabrotti: "Venanzio Gabriotti"
  ITA_fedele_de_giorgis: "Fedele de Giorgis"
+ ITA_domenico_mondelli: "Domenico Mondelli"
+
  ITA_alberto_da_zara: "Alberto da Zara"
  ITA_gino_pavesi: "Gino Pavesi"
  ITA_raffaele_de_courten: "Raffaele de Courten"
  ITA_carlo_bergamini: "Carlo Bergamini"
  ITA_costanzo_ciano: "Costanzo Ciano"
  ITA_giovanni_galati: "Giovanni Galati"
+
+ ITA_Federico_Comandini: "Federico Comandini"
+ ITA_Marcello_Soleri: "Marcello Soleri"
+ ITA_Giovanni_Uberti: "Giovanni Uberti"
+ ITA_Augusto_de_Marsenisch: "Augusto de Marsenisch"
+ ITA_Cesare_Forni: "Cesare Forni"
+ ITA_Mario_Abbiate: "Mario Abbiate"
+ ITA_Carlo_Schanzer: "Carlo Schanzer"
+ ITA_Fedele_De_Giorgis: "Fedele de Giorgis"
+ ITA_Luigi_Gasparotto: "Luigi Gasparotto"
+ ITA_Anonio_Mosconi: "Antonio Mosconi"
+ ITA_Duccio_Galimberti: "Duccio Galimberti"
+ ITA_Alessandro_Pavolini: "Alessandro Pavolini"
+ ITA_Nicolo_Carandini: "Nicolo Carandini"
+ ITA_Ezio_Vanoni: "Ezio Vanoni"
+ ITA_Roberto_Tremelloni: "Roberto Tremelloni"
+ ITA_Giovanni_Conti: "Giovanni Conti"
+ ITA_Arrigo_Solmi: "Arrigo Solmi"
+ ITA_giuseppe_tellera: "Giuseppe Tellera"
+ ITA_ferruccio_ranza: "Ferruccio Ranza"
+ ITA_mario_stoppani: "Mario Stoppani"
+ ITA_marziale_cerutti: "Marziale Cerutti"
+ ITA_pietro_piacentini: "Pietro Piacentini"
+ ITA_giuseppe_fioravanzo: "Giuseppe Fioravanzo"

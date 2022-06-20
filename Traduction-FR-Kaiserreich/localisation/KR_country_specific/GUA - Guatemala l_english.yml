@@ -24,9 +24,6 @@
  GUA_national_populist_party_long: "Partido Populista"
  GUA_national_populist_party: "PP"
 
-### Leaders ###
- POLITICS_JOSE_MARIA_ORELLANA_DESC: "Orellana's military dictatorship beginning in 1921 has grown stagnant, with both him and his cabinet exhausted with constantly having to deal with protests against his presidency, social uprisings, and people wishing for true democracy to be returned. His main focus of building the economy and fighting illiteracy has also begun to slow down over time due to some sort of opposition from one side or another. Guatemala grows tired and demands change which Orellana cannot bring in the countries current state, and a shakeup could make him meet his undesirable fate..."
-
 ### Ideas ###
  GUA_socialist_compensation: "Socialist Compensation"
  GUA_socialist_compensation_desc: "The Socialists within Guatemala have been protesting with Mexican funding ever since the Dockyard and Railroad strikes, resulting in the government being forced to compensate the Socialists with empty reforms and changes often."
@@ -35,7 +32,7 @@
  GUA_socialist_compensation_2_desc: "The Socialists within Guatemala have been protesting with Mexican funding ever since the Dockyard and Railroad strikes, resulting in the government being forced to compensate the Socialists with empty reforms and changes often."
 
  GUA_united_fruit: "United Fruit Company"
- GUA_united_fruit_desc: "The United Fruit Company has held a tight grip on Guatemalan politics and economy ever since Cabrera's dictatorship in 1898. While Guatemala has seen significant economic development as a result, it causes the United Fruit Company to hold Guatemala's fate in the balance. It currently controls §Y[?UFC_power]%§! of our land.\n§LThis gives us the following effects:\nDaily Political Power Gain: [?UFC_effect11|+=]\nConstruction Speed: [?UFC_effect12|+=%]\nConsumer Goods Factories: [?UFC_effect13|H=%1]\nWar Support: [?UFC_effect14|+=%]"
+ GUA_united_fruit_desc: "The United Fruit Company has held a tight grip on Guatemalan politics and economy ever since Cabrera's dictatorship in 1898. While Guatemala has seen significant economic development as a result, it causes the United Fruit Company to hold Guatemala's fate in the balance. It currently controls §Y[?UFC_power]%§! of our land.\n§LThis gives us the following effects:\n$MODIFIER_POLITICAL_POWER_GAIN$: [?UFC_effect11|+=]\n$MODIFIER_PRODUCTION_SPEED_BUILDINGS_FACTOR$: [?UFC_effect12|+=%]\n$MODIFIER_CONSUMER_GOODS_FACTOR$: [?UFC_effect13|H=%1]\n$MODIFIER_WAR_SUPPORT_FACTOR$: [?UFC_effect14|+=%]"
 
  CEN_united_fruit_land: "United Fruit Company"
 
@@ -70,8 +67,6 @@
  GUA_more_fighters_idea: "Swarm the Skies"
 
  GUA_university_investments: "University Investments"
-
- GUA_cash_crops_idea: "Cash Crop Profits"
 
  GUA_eternal_president_idea: "El Presidente Eterno"
 
@@ -236,7 +231,6 @@
  guatemala.106.a: "The Socialists are behind this."
  guatemala.106.b: "The Liberals are behind this."
 
-
 ### UFC ###
  GUA_UFC_2up: "The UFC will obtain §Y2%§! of our land!\n"
  GUA_UFC_3up: "The UFC will obtain §Y3%§! of our land!\n"
@@ -339,7 +333,7 @@
  GUA_execute_bourgeousie: "Execute the Bourgeoisie"
  GUA_execute_bourgeousie_desc: "The bane of our nation has been the wealthy capitalists that have grown rich at the expense of the common Guatemalan workers and peasants. We shall have no mercy with such scoundrels!"
  GUA_nationalise: "Finish Nationalisation"
- GUA_nationalise_desc: "In order to truly finish our reforms, we need to finally nationalize the key industries that keep our nation going. This will finally defang our enemies in the UFC and get precious assets into the government hands to distribute amongst the Guatemalan workers."
+ GUA_nationalise_desc: "In order to truly finish our reforms, we need to finally nationalise the key industries that keep our nation going. This will finally defang our enemies in the UFC and get precious assets into the government hands to distribute amongst the Guatemalan workers."
  GUA_centroamerica: "Push for Centroamérica"
  GUA_centroamerica_desc: "With our reforms finalised, our industry at our disposal and the workers rallying at our cause, we can start pushing for the reunification of Central America under the socialist banner!"
  GUA_broke_socialists: "Cleanse Guatemala of the PAR"
@@ -352,7 +346,6 @@
  GUA_soccon_power_desc: "With our strengthened constitution and a new sense of democracy being instilled to our citizens, we can begin introducing safeguards to our law code in order to prevent an authoritarian takeover in the future."
  GUA_demo_unionism: "Push for a Free Union"
  GUA_demo_unionism_desc: "As Guatemala is slowly but surely rejecting the idea of totalitarianism, our party should strive to reunite with our brethren, to face the future together."
-
 
  GUA_abandon_monroe_thought: "Stop Relying on the Monroe Doctrine"
  GUA_abandon_monroe_thought_desc: "The infamous Monroe Doctrine, in effect since 1823, has made us rely too much in our northern neighbour for our self defence, and now that they are not in any position to help us, we will have to kickstart our forces from scratch if we hope to survive the storm that approaches Central America."
@@ -426,14 +419,13 @@
  GUA_shadow_napoleon: "The Shackled Emperor"
  GUA_shadow_napoleon_desc: "Ubico may posture himself as Napoleon, but even he knows that the true power-broker around these parts is the United Fruit Company. Without them, there is no past. Without them, we would have no present. Without them, there is no future."
 
-
 ##Army Generals##
 
- ARMY_GUA_JORGE_UBICO_CASTANEDA_DESC: "§YGeneral Description\n§YBorn:§L November 10, 1878, in Ciudad de Guatemala, Guatemala.\n§YMilitary Career:§LJorge Ubico Castañeda was a sports prodigy in his youth, excelling in cycling, swimming, horse riding, gymnastics, target shooting and the use of foil and sword for fencing. In 1897 he graduated from the Military academy at Alta Verapaz as a second lieutenant, and his sheer talent and intelligence managed to turn him into a Brigadier General by 1906 after taking part in the War of Totoposte. In 1923 he became War Secretary, and with Orellana's coup, he became chief of the secret police and Vice President.\n§YImportant Notes:§L- He has expressed profound disagreements with Orellana, and despite being Orellana's VP, Ubico stands to be one of Orellana's main rivals in the political scene."
- ARMY_JACOBO_ARBENZ_DESC: "§YGeneral Description\n§YBorn:§L September 14, 1913, in Quetzaltenango, Guatemala.\n§YMilitary Career:§LJuan Jacobo Árbenz Guzmán wanted to study to become an economist or an engineer in his youth, however his father's morphine addiction drove his family to financial ruin. The opening of scholarships for the Escuela Politécnica, a military academy in San Juan Sacatepéquez, convinced him to join the institution in 1932 as the only way to sustain his family. He has since then become an exceptional student, reaching the rank of First Sergeant of the Company of Knight-Cadets, a post that has only been achieved by 4 other students in the last 12 years. His talent gained him the respect of the staff of the academy, including the American headmaster, John Considine. Árbenz graduated in 1935, and he has since then served as a teacher in the academy while having the respect of most of the army staff.\n§YImportant Notes:§L- Staunch Defender of Democracy."
- ARMY_JUAN_JOSE_AREVALO_BERMEJO_DESC: "§YGeneral Description\n§YBorn:§L September 10, 1904, in Taxisco, Guatemala.\n§YMilitary Career:§LJuan José Arévalo Bermejo has no formal military education to speak off, but with the recent rebellion, he has offered his services for the weakened military. Given his practice as a teacher, he has been quick to read and learn some of the basic military books, but he still has a long way to go before reaching the level of his predecessors.\n§YImportant Notes:§L- Staunch Defender of Democracy."
- ARMY_JOSE_MARIA_ORELLANA_DESC: "§YGeneral Description\n§YBorn:§L July 11, 1872, in El Progreso, Guatemala.\n§YMilitary Career:§LJosé María Orellana Pinto graduated the Escuela Politécnica in 1890 as a second lieutenant and as a topographic engineer from the Escuela Facultativa de Ingeniería in 1895. During the presidency of Estrada Cabrera, he was promoted to Brigadier General, and was present when in 1907 a couple of terrorists tried to assassinate president Cabrera, managing to survive the encounter unscathed and undeterred. After overthrowing Cabrera, he has held the post of President and has promoted himself to Field Marshall to operate the army more effectively from his new position of power.\n§YImportant Notes:§L- Member of the Military wing of the Partido Liberal."
- ARMY_LAZARO_CHACON_GONZALEZ_DESC: "§YGeneral Description\n§YBorn:§L June 27, 1873, in Zacapa, Guatemala.\n§YMilitary Career:§LLázaro Chacón González joined the Escuela Politecnica as soon as he came of age and led a rather unremarkable military career up to 1920, where he was imprisoned for joining the Unionistas. He was set free by Orellana in 1921, and would later become Chief of the Honour Guard from 1922 to 1926 and was later promoted to Army General by Orellana himself.\n§YImportant Notes:§L- Rumours say Gonzalez is member of a Central American lodge of Theosofists, but there's no substantial evidence to support this.\n- Affiliated to the Unionista Party."
+ GUA_jorge_ubico_castaneda_commander_desc: "§YGeneral Description\n§YBorn:§L November 10, 1878, in Ciudad de Guatemala, Guatemala.\n§YMilitary Career:§LJorge Ubico Castañeda was a sports prodigy in his youth, excelling in cycling, swimming, horse riding, gymnastics, target shooting and the use of foil and sword for fencing. In 1897 he graduated from the Military academy at Alta Verapaz as a second lieutenant, and his sheer talent and intelligence managed to turn him into a Brigadier General by 1906 after taking part in the War of Totoposte. In 1923 he became War Secretary, and with Orellana's coup, he became chief of the secret police and Vice President.\n§YImportant Notes:§L- He has expressed profound disagreements with Orellana, and despite being Orellana's VP, Ubico stands to be one of Orellana's main rivals in the political scene."
+ GUA_jacobo_arbenz_commander_desc: "§YGeneral Description\n§YBorn:§L September 14, 1913, in Quetzaltenango, Guatemala.\n§YMilitary Career:§LJuan Jacobo Árbenz Guzmán wanted to study to become an economist or an engineer in his youth, however his father's morphine addiction drove his family to financial ruin. The opening of scholarships for the Escuela Politécnica, a military academy in San Juan Sacatepéquez, convinced him to join the institution in 1932 as the only way to sustain his family. He has since then become an exceptional student, reaching the rank of First Sergeant of the Company of Knight-Cadets, a post that has only been achieved by 4 other students in the last 12 years. His talent gained him the respect of the staff of the academy, including the American headmaster, John Considine. Árbenz graduated in 1935, and he has since then served as a teacher in the academy while having the respect of most of the army staff.\n§YImportant Notes:§L- Staunch Defender of Democracy."
+ GUA_juan_jose_arevalo_bermejo_commander_desc: "§YGeneral Description\n§YBorn:§L September 10, 1904, in Taxisco, Guatemala.\n§YMilitary Career:§LJuan José Arévalo Bermejo has no formal military education to speak off, but with the recent rebellion, he has offered his services for the weakened military. Given his practice as a teacher, he has been quick to read and learn some of the basic military books, but he still has a long way to go before reaching the level of his predecessors.\n§YImportant Notes:§L- Staunch Defender of Democracy."
+ GUA_jose_maria_orellana_commander_desc: "§YGeneral Description\n§YBorn:§L July 11, 1872, in El Progreso, Guatemala.\n§YMilitary Career:§LJosé María Orellana Pinto graduated the Escuela Politécnica in 1890 as a second lieutenant and as a topographic engineer from the Escuela Facultativa de Ingeniería in 1895. During the presidency of Estrada Cabrera, he was promoted to Brigadier General, and was present when in 1907 a couple of terrorists tried to assassinate president Cabrera, managing to survive the encounter unscathed and undeterred. After overthrowing Cabrera, he has held the post of President and has promoted himself to Field marshal to operate the army more effectively from his new position of power.\n§YImportant Notes:§L- Member of the Military wing of the Partido Liberal."
+ GUA_lazaro_chacon_gonzalez_commander_desc: "§YGeneral Description\n§YBorn:§L June 27, 1873, in Zacapa, Guatemala.\n§YMilitary Career:§LLázaro Chacón González joined the Escuela Politecnica as soon as he came of age and led a rather unremarkable military career up to 1920, where he was imprisoned for joining the Unionistas. He was set free by Orellana in 1921, and would later become Chief of the Honour Guard from 1922 to 1926 and was later promoted to Army General by Orellana himself.\n§YImportant Notes:§L- Rumours say Gonzalez is member of a Central American lodge of Theosofists, but there's no substantial evidence to support this.\n- Affiliated to the Unionista Party."
 
 ### Cosmetic Tags ###
  GUA: "Guatemala"
@@ -444,8 +436,30 @@
  GUA_silverio_ortiz: "Silverio Ortiz"
  GUA_juan_jose_arevalo_bermejo: "Juan José Arévalo Bermejo"
  GUA_lazaro_chacon_gonzalez: "Lázaro Chacón González"
- GUA_jose_azmitia_gonzalez: "José Azmitia González"
+ GUA_jose_azmitia_gonzalez: "José Perfecto Azmitia González"
  GUA_julio_domingo_bianchi_smout: "Julio Domingo Bianchi Smout"
+
  GUA_jose_maria_orellana: "José María Orellana"
+ GUA_jose_maria_orellana_leader_desc: "Orellana's military dictatorship beginning in 1921 has grown stagnant, with both him and his cabinet exhausted with constantly having to deal with protests against his presidency, social uprisings, and people wishing for true democracy to be returned. His main focus of building the economy and fighting illiteracy has also begun to slow down over time due to some sort of opposition from one side or another. Guatemala grows tired and demands change which Orellana cannot bring in the countries current state, and a shakeup could make him meet his undesirable fate..."
+
  GUA_jorge_ubico_castaneda: "Jorge Ubico Castañeda"
  GUA_jacobo_arbenz: "Juan Jacobo Árbenz Guzmán"
+ GUA_jose_manuel_fortuny: "José Manuel Fortuny"
+ GUA_flavio_herrera: "Flavio Herrera"
+ GUA_federico_guillermo_toriello_garrido: "Federico Guillermo Toriello Garrido"
+ GUA_carlos_federico_mora: "Carlos Federico Mora"
+ GUA_david_vela: "David Vela Salvatierra"
+ GUA_manuel_maria_orellana_contreras: "Manuel Maria Orellana Contreras"
+ GUA_juan_federico_ponce_vaides: "Juan Federico Ponce Vaides"
+ GUA_buenaventura_pineda: "Buenaventura Piñeda"
+ GUA_eduardo_villagran_ariza: "Eduardo Villagrán Ariza"
+ GUA_francisco_javier_arana: "Francisco Javier Arana"
+ GUA_rafael_arevalo_martinez: "Rafael Arevalo Martinez"
+ GUA_miguel_angel_asturias: "Miguel Angel Asturias"
+ GUA_jorge_toriello_garrido: "Jorge Toriello Garrido"
+ GUA_carlos_aldana_sandoval: "Carlos Aldana Sandoval"
+ GUA_arturo_ramirez: "Arturo Ramírez"
+ GUA_mauro_de_leon: "Mauro de Leòn"
+ GUA_carlos_enrique_diaz_de_leon: "Carlos Enrique Díaz de León"
+ GUA_jacinto_rodriguez_diaz: "Jacinto Rodríguez Díaz"
+ GUA_miguel_garcia_granados_solis: "Miguel García Granados Solís"

@@ -17,17 +17,17 @@
  UPC_paternal_autocrat_party: "Warlord Remnants"
  UPC_national_populist_party: "Yiguandao"
 
-### Leaders ###
- POLITICS_UPC_DAI_CHUNFENG_DESC: ""
- POLITICS_UPC_TANG_JIYAO_DESC: ""
- POLITICS_UPC_YAN_HUIQING_DESC: "A native of Shanghai and a graduate of the University of Virginia, Yan received prizes and medals for debate, and was elected to Phi Beta Kappa. Yan taught English at St. John's University, Shanghai for a short time after coming back from the United States, where he became a Freemason, and then went to Beijing to start his political career. In 1906, Yan became an editor at the Commercial Press, received a Doctorate in Literature from the Beiyang University (now Tianjin University), and was appointed to the Imperial Ministry of Education. Yan distinguished himself as Foreign Minister of the Beijing Government under Wu Peifu. During the 2nd Zhifeng war, Yan translated and compiled Stories of Old China in Hong Kong. "
- POLITICS_UPC_TANG_JIYAO_SOCCON_DESC: ""
- POLITICS_UPC_HU_SHIH_DESC: ""
- POLITICS_UPC_ZHANG_JUNMAI_DESC: ""
- POLITICS_FED_SONG_QINGLING_DESC: ""
- POLITICS_UPC_CHEN_DUXIU_DESC: ""
- POLITICS_UPC_ZHANG_XUELIANG_DESC: ""
- POLITICS_UPC_ZHANG_TIANRAN_DESC: ""
+### Leader Descs ###
+ FNG_zhang_xueliang_UPC_leader_desc: ""
+ GXC_chen_qiyou_UPC_leader_desc: ""
+ QIE_hu_shih_UPC_leader_desc: ""
+ QIE_yan_huiqing_UPC_leader_desc: ""
+ UPC_zhang_junmai_leader_desc: ""
+ YUN_tang_jiyao_UPC_leader_desc: ""
+ YUN_tang_jiyao_UPC_soccon_leader_desc: ""
+
+### Characters ###
+ UPC_zhang_junmai: "Zhang Junmai"
 
 ### Ideas ###
  UPC_corruption: "The Issue of Corruption"
@@ -37,11 +37,21 @@
  UPC_federal_authority_3: "Medium Federal Authority"
  UPC_federal_authority_4: "High Federal Authority"
  UPC_federal_authority_5: "Very High Federal Authority"
- UPC_popular_support_1: "Very Low Popular Support"
- UPC_popular_support_2: "Low Popular Support"
- UPC_popular_support_3: "Medium Popular Support"
- UPC_popular_support_4: "High Popular Support"
- UPC_popular_support_5: "Very High Popular Support"
+
+ UPC_popular_support_1: "Low Popular Support"
+ UPC_popular_support_1_desc: "The Federalist Government is currently unpopular. It has almost no legitimacy in the eyes of the Chinese people and the rival governments see us as mere upstarts. We will have to work very hard to win the people over to our cause."
+
+ UPC_popular_support_2: "Insignificant Popular Support"
+ UPC_popular_support_2_desc: "The Federalist Government is currently insignificant outside of Southern China. It is not seen as a serious contender in the eyes of the Chinese people and the rival governments see us as mere upstarts. We are slowly winning the people over to our cause."
+
+ UPC_popular_support_3: "Limited Popular Support"
+ UPC_popular_support_3_desc: "The Federalist Government currently has limited support from outside Southern China. It has attracted some attention from Chinese people and the rival governments are starting to see us as a real, if limited, threat. We are slowly winning the people over to our cause."
+
+ UPC_popular_support_4: "Significant Popular Support"
+ UPC_popular_support_4_desc: "The Federalist Government currently has significant support throughout China. It is now seen as a viable republican government in the eyes of the Chinese people. We are clearly winning the people over to our cause."
+
+ UPC_popular_support_5: "Widespread Popular Support"
+ UPC_popular_support_5_desc: "The Federalist Government currently has widespread support throughout China. Its position as sole government of China is now uncontested and we can expect stability to return to the country."
 
  UPC_gentry_cooperation: "Gentry Cooperation"
  UPC_business_relations: "Business Relations"
@@ -65,13 +75,15 @@
  UPC_shipbuilding_program: "Federal Shipbuilding Program"
  UPC_coastal_defense: "Coastal Defence"
 
+ UPC_reconstruction: "Reconstruction Plan"
+
 ### Tooltips ###
  UPC_after_reforms_tooltip: "\nAfter §H300§! days:\n"
- UPC_Federal_Ministry_Of_Railways_tooltip: "Modify §H$UPC_Decentralised_Economic_Development$§! or §H$UPC_Industrialisation_Committee$§! by\n§HInfrastructure§! construction speed: [?0.1|%+ = ]\n"
+ UPC_Federal_Ministry_Of_Railways_tooltip: "Modify §H$UPC_Decentralised_Economic_Development$§! or §H$UPC_Industrialisation_Committee$§! by\n§HInfrastructure§! construction speed: [?0.1|%+=]\n"
 
- UPC_Aircraft_Repair_Schools_tooltip: "Modify §H$UPC_new_aviation_ministry$§! by\nAir Accidents Chance: [?-0.1|%- = 1]\n"
- UPC_Civil_Aviation_Administration_tooltip: "Modify §H$UPC_new_aviation_ministry$§! by\nAir Experience Gain: [?0.1|%+ = ]\n"
- UPC_Central_Aviation_School_tooltip: "Modify §H$UPC_new_aviation_ministry$§! by\nAce Generation Chance: [?0.1|%+ = ]\n"
+ UPC_Aircraft_Repair_Schools_tooltip: "Modify §H$UPC_new_aviation_ministry$§! by\n$MODIFIER_AIR_ACCIDENTS_FACTOR$: [?-0.1|%-=1]\n"
+ UPC_Civil_Aviation_Administration_tooltip: "Modify §H$UPC_new_aviation_ministry$§! by\n$MODIFIER_XP_GAIN_AIR_FACTOR$: [?0.1|%+=]\n"
+ UPC_Central_Aviation_School_tooltip: "Modify §H$UPC_new_aviation_ministry$§! by\nAce Generation Chance: [?0.1|%+=]\n"
  UPC_Build_A_Merchant_Navy_tooltip: "Modify §H$UPC_shipbuilding_program$§! or §H$UPC_coastal_defense$§! by\n§HTrade Convoy§!: £production_cost  Production Cost:  [?-0.15|%-]\n"
 
  UPC_Tie_Up_Loose_Ends_tt: "Unlocks £decision_icon_small §HDecisions§! to §YDeal with Separatists§!"
@@ -83,7 +95,7 @@
  UPC_public_works_tt: "Unlocks £decision_icon_small §HAdditional Decisions§! to the §HReconstruction Plan§!"
 
  UPC_foreign_ministry_tt: "Unlocks £decision_icon_small §HForeign Policy§!"
- 
+
  UPC_will_join_faction_after_war: "§GWe will be able to join the §H[FROM.GetFactionName]§! once our wars are concluded§!."
  UPC_will_join_faction_after_war_FROM: "§H[FROM.GetNameWithFlag] will join the §H[FROM.GetFactionName]§! once their wars are concluded§!."
 
@@ -97,7 +109,6 @@
  UPC_connected_northwest: "Has completed decision £decision_icon_small §H$UPC_connect_northwest$§!"
 
 ### Decisions ###
-
  UPC_mopping_up: "Dealing with Separatists"
  UPC_mopping_up_desc: "China's periphery has always been more loosely integrated into the central government and have a violent history of uprisings, ethnic tensions, and separatism. During the Civil War, a couple of states attempted to break away from the Central Government and declared their independence. While few in China want to recognise them, reintegrating them may be more difficult than it is worth just to appease Han chauvinist attitudes. Either way, we must make a decision whether to recognise them or reel them back."
 
@@ -146,7 +157,7 @@
  UPC_connect_xinjiang_desc: "Naturally, with our railway network reaching the northwestern provinces, the next goal is to reach the even more remote Xinjiang. We cannot allow the region to fall to bandits, rebels, corruption, and foreign imperialists ever again, and a railway to the most remote region of China is the first step in the final integration of China's frontier."
 
  UPC_foreign_policy: "Federal Foreign Policy"
- UPC_foreign_policy_desc: "The United Provinces of China is the uncontested central government of China and is on the way towards modernisation and prosperity. However, we are fairly isolated and there remain several unequal treaties with other powers. If China is to become a great power, these treaties must be reppealed and new treaties signed on the basis of equality of nations. This will be a tough task to do so peacefully, but the Century of Humiliation must end!"
+ UPC_foreign_policy_desc: "The United Provinces of China is the uncontested central government of China and is on the way towards modernisation and prosperity. However, we are fairly isolated and there remain several unequal treaties with other powers. If China is to become a great power, these treaties must be repealed and new treaties signed on the basis of equality of nations. This will be a tough task to do so peacefully, but the Century of Humiliation must end!"
 
  UPC_reppeal_unequal_treaties: "Repeal Unequal Treaties"
  UPC_reppeal_unequal_treaties_desc: "It is time for China to reassert herself as a Great Power in her own right. We, from now on, shall be treated as equals. No more unequal treaties! Let us end the Century of Humiliation!"
@@ -162,7 +173,6 @@
  UPC_attack_non_aligned_LEC: "[LEC.GetFlag] Retake Shanghai"
  UPC_threaten_ger_treaty_ports: "[GER.GerFlag]Seize the German Concessions"
  UPC_integrate_allies: "Offer membership to [FROM.GetNameDef]"
-
 
 ### Flags ###
  UPC_dealt_with_feds: "[ROOT.GetName] made a deal with Federalist China"
@@ -625,7 +635,7 @@
  lngupc.37.a: "China, long divided, must be united!"
 
  lngupc.340.t: "German Cities are Ceded!"
- lngupc.340.d: "Even the second archtypical imperialist, the Germans, bowed to pressure! This is a serious diplomatic coup that will restore the Chinese people's self-confidence and clearly demonstrates the success of our peaceful policies."
+ lngupc.340.d: "Even the second archetypical imperialist, the Germans, bowed to pressure! This is a serious diplomatic coup that will restore the Chinese people's self-confidence and clearly demonstrates the success of our peaceful policies."
  lngupc.340.a: "Great!"
 
  lngupc.341.t: "Germany Refuses!"

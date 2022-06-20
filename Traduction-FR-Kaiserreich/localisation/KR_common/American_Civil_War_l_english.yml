@@ -11,8 +11,9 @@
  ACW_syndicalist_front_idea: "Push Against the Syndicalists"
  ACW_longist_front_idea: "Push Against the Longists"
  ACW_pacific_front_idea: "Push Against the Pacific States"
- ACW_wavering_momentum_idea: ""
- ACW_wavering_momentum: "Wavering Momentum"
+
+### World Tension ###
+ american_civil_war_threat: "Second American Civil War"
 
 ### Tooltips ###
  ACW_liberia_rally: "We shall Rally our people to defend Liberia"
@@ -86,7 +87,7 @@
 
  ACW_federal_deadline_looms: "The Federal Deadline Looms"
  ACW_federal_deadline_looms_desc: "General MacArthur's demand was clear: the rebels should stand down and disarm in a month, or the Federal forces will force them to do so – consequences be damned. America waits in silence as days go by with neither side seemingly ready to budge. It is clear that days for diplomacy are long over..."
- 
+
  ACW_move_quickly: "We Must Move Quickly"
  ACW_move_quickly_desc: "The Federal government controls a great deal more territory than we do, and our mission appears - to some - doomed from the outset. And yet we fight on. We must make progress soon, and strike into the heart of Federal territory as soon as we dare, lest we find ourselves unable trapped in a war we cannot hope to win."
 
@@ -127,6 +128,14 @@
  ACW_restore_order: "Restore Order in [From.GetName]"
 
  ACW_gets_event_uprising: "Gets event '§HResistance Uprising in [?revolt_state_var.GetName]§!'."
+
+### ACW Mobilization Decisions ###
+ ACW_mobilization_decisions: "American Civil War Mobilisation"
+ ACW_mobilization_decisions_desc: "The day that many feared is now upon us. Brother has been turned against brother for the second time within 75 years. If we wish to stand a chance, we must rally the populace and our industrial might to defeat those who would seek to impose their ideal of America upon us!"
+ ACW_mobilize_economy: "Mobilize The Economy"
+ ACW_raise_conscription: "Raise Conscription"
+ ACW_convert_heartland_factories: "Shift £GFX_half_factory §Y[FROM.GetName]§! to Military Production"
+ ACW_convert_outlier_factories: "Shift £GFX_half_factory §Y[FROM.GetName]§! to Military Production"
 
 ### Set Up Events ###
  amcivwar.1.t.president: "President Reed Escapes to Chicago"
@@ -233,9 +242,9 @@
  amcivwar.33.a: "Enact War Syndicalism"
  amcivwar.33.b: "That's not Socialism!"
 
- amcivwar.34.t: "The Red Witches"
- amcivwar.34.d: "Gender equality has long been a major ideological component of socialist thought, and we have yet more evidence that it works! A squadron of female pilots has earned renown throughout the CSA for their daring raids on enemy territory, their coordinated and synchronised attack formations allowing them to take down larger enemy air forces with ease. Derisively named the 'Red Witches' by the reactionary forces under Huey Long, the squadron, led by Florence 'Pancho' Barnes, has taken their new nickname up with a great deal of pride."
- amcivwar.34.a: "Death is in the air"
+ amcivwar.34.t: "The Betsy Ross Flying Corps"
+ amcivwar.34.d: "Gender equality has long been a major ideological component of socialist thought, and we have yet more evidence that it works! A squadron of female pilots has earned renown throughout the CSA for their daring raids on enemy territory, their coordinated and synchronised attack formations allowing them to take down larger enemy air forces with ease. Named after the creator of the American flag by its founder Opal Kunz, the squadron has taken their new nickname up with a great deal of pride."
+ amcivwar.34.a: "Death is in the air."
 
  amcivwar.35.t: "Female Soldiers"
  amcivwar.35.d: "As the Revolutionary struggle continues a number of women have joined the armed struggle in accordance with the socialist ideals of gender equality. While not all are accepted by their male comrades, it has not deterred many from fighting and dying for the revolution. Manuals have been distributed to recruiters on how to effectively organise Women Detachments, of which the militias can teach the military a thing or two."
@@ -246,11 +255,6 @@
  amcivwar.36.a: "Side with the IWW"
  amcivwar.36.b: "Let the Vanguard compromise"
  amcivwar.36.c: "Side with the AFL"
-
- amcivwar.37.t: "Directive 656: Winter Resource Allocation Program([GetYear])"
- amcivwar.37.d: "The revolution must succeed, but the revolution is also for the people. When supporting the revolution and supporting the people are the same, the choice is trivial, but when one must be prioritised over the other, hard choices must be made. The Central Committee has been made aware that the supply situation is critical, and either the people or the army must be under-supplied through the winter."
- amcivwar.37.a: "We fight for the people"
- amcivwar.37.b: "We fight for the revolution"
 
  amcivwar.38.t: "Directive 764: Revolutionary Education Act"
  amcivwar.38.d: "To those who are well educated, either formally or through bitter experience, revolutionary thought comes as easily as breathing. However, many of our comrades, whether in the Steel Belt or elsewhere in America, have been lied to their entire lives by the capitalists, and do not understand how the revolution frees them. Many do not give their heart and soul to the revolution, and some even attempt to sabotage our efforts, unaware that we are the only force that truly cares for them. This must be remedied, and our comrades must be deprogrammed. Should we focus on reaching those in our territory, keeping our own morale up, or should we spread our message throughout enemy territory, and sap their will to fight their liberators?"
@@ -271,6 +275,10 @@
  amcivwar.41.t: "Red Terror"
  amcivwar.41.d: "War is hell. Civil war, even more so. The psychological strain caused by having to repeatedly kill, even if the enemy are capitalists, has caused some of our soldiers and commanders to become sadistic beyond what some consider to be acceptable. Although not commonplace, reports of systematic mass executions and torture are being reported from both the front lines and core territories to suppress populations suspected of aiding the capitalist factions. Reed has made an executive decision to suppress these reports from the free media. 'If the revolution were to fail because of a few bad apples', says Reed 'then humanity would collectively suffer for centuries longer'."
  amcivwar.41.a: "Tis' the final conflict, after all"
+
+ amcivwar.42.t: "The Final Struggle"
+ amcivwar.42.d: ""To no one's surprise, the arch-reactionaries in Canada have finally decided to step in to try and squash the revolution in America, in a desperate attempt to prevent us from destroying their decaying monarchy. The final struggle has thus begun, and only one victor may emerge in North America: revolution, or reaction?"
+ amcivwar.42.a: "We must not waver!"
 
 ### AUS Flavour Events ###
  amcivwar.46.t: "Lindbergh appeals to Long"
@@ -301,10 +309,6 @@
  amcivwar.62.d: "With the outbreak of the civil war, our garrison in the Legation Cities has been left sitting on their hands in China. Though recalling the division would leave our Chinese concessions relatively unguarded, and our influence in the Cities smaller, many are advising us that it must be done to win the war. Should we recall the division?"
  amcivwar.62.a: "Bring our boys home!"
  amcivwar.62.b: "We shouldn't risk it."
-
- amcivwar.63.t: "Panama Garrison"
- amcivwar.63.d: "With the outbreak of the civil war, the garrison in Panama has decided to return to America to fight for the government. This has left the canal defenceless but on the other hand, we need everybody that we can to fight."
- amcivwar.63.a: "Welcome the Boys home"
 
  amcivwar.64.t: "Hardship of the Civil War"
  amcivwar.64.d: "The civil war is bringing the hardship home. People within a number of loyal cities are starving. We could focus on relieving their suffering, but this will mean diverting supplies that are needed for the front to fight the civil war. Congress and the Military are at odds in this regard. What should we do?"
@@ -344,7 +348,6 @@
  amcivwar.76.b: "San Francisco"
  amcivwar.76.c: "Helena"
  amcivwar.76.e: "Phoenix"
-
 
  amcivwar.90.t.CSA: "Support from the Syndicalists"
  amcivwar.90.t.USA: "Support from the Loyalists"
@@ -702,7 +705,7 @@
 
  amcivwar.527.t: "America is Reunited"
  amcivwar.527.d.USA: "At long last America has been reunited. We stretch once again from sea to shining sea. The traitors to the country have been destroyed and the stars and stripes now fly proudly from coast to coast knowing that liberty is secured for all."
- amcivwar.527.d.CSA: "At long last all of America is now part of [Root.GetNameDef]. The revolution has achieved its a major victory and the people have been unshackled from the chains of capitalism. All our waving the red flag of socialism from California to New York Island. While the scars of the revolution are everywhere we can look forward to bringing the revolution to everyone."
+ amcivwar.527.d.CSA: "At long last all of America is now part of [Root.GetNameDef]. The revolution has achieved a major victory and the people have been unshackled from the chains of capitalism. From California to New York Island, all our waving the red flag of socialism . While the scars of the revolution are everywhere, we can look forward to bringing the revolution to everyone."
  amcivwar.527.d.TEX: "At long last America has been united under [Root.GetNameDef]'s banner. Traitors and would-be tyrants have tried to destroy and corrupt this great nation, yet we held firm and took control. A question has arisen, however, in those territories which did not initially rise up with Huey Long in the civil war: is this country the United States of America, or is it truly [Root.GetNameDef]? There is a longing among many to return to the stability of the Stars and Stripes, even if things have irrevocably changed. Should we appease them and show that the America Huey originally envisioned still exists?"
  amcivwar.527.d.PSA: "At long last the United States of America has been reunited. The tyrant MacArthur has been cast down, all other traitors to the country that seek to turn America into something it is not have been defeated. The stars and stripes now fly proudly from coast to coast knowing that liberty is secured for all Americans."
  #USA/PSA:
@@ -721,10 +724,6 @@
  amcivwar.527.g: "Together, now and forever.\n§L(Switch map colour)§!"
 
 ### Sanity Checks ###
-
- amcivwar.600.t: "The [Root.GetAdjective] Collapse"
- amcivwar.600.d: "Our forces cannot hold out against the enemy any longer - already our troops are beginning to desert en masse, and the ripple of disorganisation is working its way up the ranks. [Root.GetNameDefCap] is near the point of defeat, and we must admit that it is so."
- amcivwar.600.a: "Thus it ends here..."
 
  amcivwar.607.t: "The Federal Collapse"
  amcivwar.607.d: "It appears that the Federal government is on its last legs in the American Civil War. Already most of its land has been swallowed up by the other American factions, and what is left is but the last remnants of its army - now demoralised and suffering from mass desertions, but holding out against all hope that a miracle might save them. Some Federal leaders have already met with the enemy factions' generals to negotiate the terms of their inevitable complete surrender."

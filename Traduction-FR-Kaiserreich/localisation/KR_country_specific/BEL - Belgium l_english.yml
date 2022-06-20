@@ -2,17 +2,6 @@
 
  BEL_focus: "Belgium German Focus Tree"
 
-### Leaders ###
- POLITICS_ADALBERT_I_DESC: "Adelbert von Hohenzollern's tenure as king of the Flems and Walloons has been quite peculiar. Inaugurated not by coronation, but by swearing an oath on the constitution, Adelbert, who also converted to Catholicism to align himself with his nation's populace, has long sought the respect, if not admiration, of his people. Years of oppression under the German regime and a tendency for Adelbert to cling on to a more absolutist type of monarchy than the Belgian system have led to great anti-German sentiment among the populace, making Adelbert despised and hated amongst the common folk."
- POLITICS_ALBERT_I_DESC: "Albert of Saxe-Coburg and Gotha, the king who trounced the invading Germans at the Yzer, has returned to Belgium from exile in Canada. When his motorcade entered Brussels for the first time since the outbreak of the Weltkrieg, church bells across the nation rang, and many Belgians wept with joy. German collaborators and syndicalists, however, lament the restored king, and plot to undermine the new Belgian government. Albert must now mend the deep wounds which have marred Belgium, and create a renewed sense of hope among its people."
- POLITICS_JORIS_SEVEREN_DESC: "Joris Van Severen, Flemish leader who begrudgingly cooperated with the occupying Germans, has assumed control of the country. His Verdinaso has a radical vision for the direction of Belgium, including territorial expansion and the promotion of Catholicism in all aspects of society. Under van Severen, a new Belgium will certainly arise; though that new nation may be incredibly different from the one that came before it."
- POLITICS_PAUL_ZEELAND_DESC: "Paul van Zeeland and the Catholic Party led Flemish resistance to German control. With electoral victory in the now restored Belgium, van Zeeland endeavours to establish Christian Democracy in Belgium, and reconcile that which divides Belgium's people, Flems and Walloons alike. Principle among his policy goals is the betterment of working conditions for both farmers and industrial labourers."
- POLITICS_BELGIAN_PARLIAMENT_DESC: "The Belgian Parliament, successor to the Flemish Council which advised the German controlled government of Flanders-Wallonia, has assumed power in the recently restored Belgium. While the Government is restructured and elections prepared, Parliament acts not just as a legislature, but collectively as interim head of state."
- POLITICS_ACHILLE_VAN_ACKER_DESC: "Achille Van Acker, a moderate social democrat, has consolidated his leadership of the Belgian Workers' Party, and now achieved victory in Belgium's latest national elections. Van Acker advocates limited economic nationalisation and the empowerment of union leaders to a governmental advisory role. Belgium, Van Acker believes, must actively serve its people and promote fair competition; his reforms, though controversial, may yet decrease economic hardship and political radicalisation in Belgium."
- POLITICS_JOSEPH_JACQUEMOTTE_DESC: "Joseph Jacquemotte, creator and editor of the leftist pre-Weltkrieg newspaper 'L'Exploité', and his Syndicalist faction of the Belgian Workers' Party have achieved victory both within the party, and now, Belgium itself. Jacquemotte advocates rural industrialisation and the collectivisation of industry and agriculture alike. A Belgium led by Jacquemotte is certain to see drastic societal and economic upheaval."
- POLITICS_PAUL_HENRI_SPAAK_DESC: "Paul Henri Spaak, once a prominent lawyer, believes that, above all else, to truly serve the people, government bureaucracy must be efficient. Spaak is now in control of the Belgian Workers' Party, and the party's subsequent victory in the most recent Belgian national elections has elevated him to head of state. Spaak has already begun to greatly decrease the bloated Belgian civil service and introduced new incentives to prospective entrepreneurs; as a result, optimism seems to be steadily increasing in Belgium."
- POLITICS_PAUL_EMILE_JANSON_DESC: "Paul-Émile Janson and his Liberal Party has achieved victory in Belgium's latest national elections. Janson is an advocate of laissez faire economics and free trade; all aspects of society, to Janson, have been far too regulated by past administrations. Belgium, under Janson, is quickly becoming one of the most economically free nations in Europe and the world."
-
 ### Ship Name Lists ###
  NAME_BEL_SM: "Sous Marins"
  NAME_BEL_RIVERS: "Rivers in Latin"
@@ -23,6 +12,9 @@
 
 ### Tooltips ###
  BEL_add_HOL_to_benesam: "§H[HOL.GetName]§! joins §H$benesam$§!."
+
+### World Tension ###
+ BEL_revolution_threat: "Revolution in Wallonia"
 
 ### Companies ###
  cockerill: "Cockerill"
@@ -119,20 +111,6 @@
  BEL_Nationalise_Basic_desc: "Through nationalisation and government control of the basic industries, the Belgian government and the BWP increase their influence over the national economy allowing for better crisis management and pro-Belgian trade agreements."
  BEL_Repairing_Damage: "Flemish Reconstruction Effort"
  BEL_Repairing_Damage_desc: "Due to heavy fighting in the urban environments of Flanders and the damage caused by Flemish terrorist attacks, large swaths of industrial terrain in the Harbours of Antwerpen, Ghent and Zeebrugge are awaiting reconstruction funds."
- BEL_Language_Trouble_FO: "Language Troubles Partially Resolved"
- BEL_Language_Trouble_FO_desc: "In an effort to secure the loyalty of the Flemish and strengthen our grip over the region, Flemish citizens are now allowed limited autonomy."
- BEL_Language_Trouble_WO: "Language Troubles Partially Resolved"
- BEL_Language_Trouble_WO_desc: "By allowing both the Flemish and Walloon region limited autonomy and splitting the army in Walloon and Flemish divisions, we can avoid the linguistic issues that plagued us in the Weltkrieg."
- BEL_Risk_Famine: "Risk of Famine"
- BEL_Risk_Famine_desc: "Due to exporting a large portion of our already limited food supplies to assist the German Empire, food shortages are to be expected come winter."
- BEL_Risk_Famine_small: "Small Risk Famine"
- BEL_Risk_Famine_small_desc: "Due to exporting a large portion of our already limited food supplies to assist the German Empire, food shortages are to be expected come winter."
- BEL_Well_Fed: "Good Harvest Year"
- BEL_Well_Fed_desc: "Because of the bountiful harvest and large government prevention programs we will easily get through the harsh winter."
- BEL_Tax: "German Emergency Taxation"
- BEL_Tax_desc: "To help German recovery, the Kaiser has imposed new taxation on the rich lands of Flanders-Wallonia hampering our own recovery"
- BEL_Tax_small: "Small German Tax"
- BEL_Tax_small_desc: "To help German recovery, the Kaiser has imposed new taxation on the rich lands of Flanders-Wallonia hampering our own recovery"
  BEL_Bad_Deal: "Pro-German Trade Agreement"
  BEL_Good_Deal: "Pro-Flemish-Walloon Trade Agreement"
  BEL_Schelle_Power: "Schelle Power Plant"
@@ -141,12 +119,8 @@
  BEL_Cement_Export_desc: "Due to the Black Monday crisis, many governments of the Reichspakt have decided to fund large construction projects to kick start their recovery. We are gladly profiting from this by expanding our cement export and thus helping our own economy back on track until the large petrochemical, steel and textile industries have recovered."
  BEL_Abolish_Flemish_Council_idea: "Abolished Flemish Council"
  BEL_Abolish_Flemish_Council_idea_desc: "In an effort to centralise power around the monarch and his closest advisors, the Government has abolished the Flemish Council."
- BEL_Flemish_Council_desc: "To align the Flemish population behind Adelbert, he has guaranteed and restored their old privileges allowing for more decisive executive power on a local scale."
- BEL_Flemish_Council: "Privileges for the Flemish Council"
  BEL_Create_VRT: "NIR"
  BEL_Create_VRT_desc: "The NIR will from now on only transmit radio and television programs curated by a panel of German and Government advisors."
- BEL_Taxation: "Raised Taxation"
- BEL_Taxation_desc: "By temporarily raising taxes, the Government is able to gather the funds required for its sweeping reforms."
  BEL_State_Funded_Research: "State Funded Research"
  BEL_Lib_Science: "Free Research Funding"
  BEL_Cat_Science: "Catholic Education Reform"
@@ -156,7 +130,6 @@
  BEL_Last_Stand_desc: "We were unable to deter an enemy attack and therefore must now throw everything we got at the enemy to preserve Belgian independence."
  BEL_export_focus3: "Belgian Arms Programme"
  BEL_export_focus3_desc: "Due to our neutral position we are able to benefit fully from the increased importance of the arms trade. Exporting weapons to revolutions everywhere in the world and conflicts in Europe has made us rich and skilled."
- BEL_Reparations: "Reparations to the German Empire"
  BEL_Refugee_Program: "Refugee Programme"
  BEL_LTank_Production: "Focus on Light Tanks"
  BEL_MTank_Production: "Focus on Medium Tanks"
@@ -165,7 +138,6 @@
  BEL_Solvay_Institute_idea: "Solvay Institute"
  BEL_Antwerp_Harbor_Blockaded: "Antwerp Harbour Blockaded"
  BEL_German_Officers: "German Officers"
- BEL_Local_Officers: "Local Officers"
  BEL_Solvay_Institute2: "Solvay Institute"
  BEL_Small_Strike: "Strike"
  BEL_Royal_Naval_Academy: "Royal Naval Academy"
@@ -289,8 +261,6 @@
  BEL_Reclaim_Our_Rightfull_Place_In_The_World: "Reclaim Our Rightful Place in the World"
  BEL_Reclaim_Our_Rightfull_Place_In_The_World_desc: "We have shown the world that Belgium cannot be ignored. We stood our ground and enlarged our territory. Who knows what the future may bring?"
 
-
-
  BEL_Expand_the_Boerenbond: "Expand the Boerenbond"
  BEL_Expand_the_Boerenbond_desc: "The farmers of Flanders were heavily hit by Black Monday. Therefore the KP has proposed the creation of a farmer organisation free from the grasps of the unions."
  BEL_Improve_working_conditions: "Improve Working Conditions"
@@ -309,7 +279,6 @@
  BEL_Fund_Catholic_Education_desc: "Catholic education is the foundation of our excellent education system and should only be further expanded reaching even more students."
  BEL_Large_State_Investements: "Large State Investments"
  BEL_Large_State_Investements_desc: "New jobs will have to be created to recover from the Economic crisis and this can only be done by large investments by the State."
-
 
  BEL_Decrease_Governement_Control: "Decrease Government Control"
  BEL_Decrease_Governement_Control_desc: "Belgian bureaucracy is a convoluted mess mainly created to let the Catholic party pay out its supporters. By cutting heavily in their organisations we can let the invisible hand steer us."
@@ -585,7 +554,6 @@
  chasseurs_ardennais.tt: "\nSpawn £nato_unit_mountaineers_icon_small  §Y"Chasseurs Ardennais"§! in §CWallonia§!"
  BEL.LC.tt: "Creates £light_cruiser_texticon §YBNS Adalbert§! in §CKiel§!\nCreates £light_cruiser_texticon §YBNS Ambiorix§! in §CKiel§!"
  BEL_reservemob_tt: "\nMobilise §Y20§! £nato_unit_infantry_icon_small  §YInfantry Divisions§! from the reserves"
- BEL_same_wars_as_HOL: "Isn't at war with anyone who isn't also at war with [HOL.GetNameDef]"
 
 ### Opinion Modifiers ###
  BEL_Arlon_Refused: "Treaty of Arel Refused"
@@ -656,8 +624,6 @@
 ### Tech Sharing ###
  belgian_research_name: "Koninklijke Academie"
  belgian_research_desc: "A cooperative academic research group consisting of all Belgian and Dutch Universities sponsored by the leadership of both countries."
- belgian_german_joint_research: "German Joint Doctrine Group"
- belgian_german_joint_research_desc: ""
  belgian_german_naval_program: "Flemish-Walloon Naval Cooperation Program"
  belgian_german_naval_program_desc: ""
 
@@ -725,7 +691,6 @@
  bel.2.t: "Black Monday Hits Flanders-Wallonia!"
  bel.2.d: "On the 2nd of February the German Stock Market crashed resulting in an economic crisis like never before. Flanders-Wallonia, already weakened by the reparations and reconstruction of its country has been hit very hard. Hundreds left the Brussels stock exchange crying and screaming. Drastic action will be required to save the struggling people of Flanders-Wallonia."
  bel.2.a: "What will we do?"
-
 
 ### Black Monday ###
  belbla.2.t: "Run on the Banks"
@@ -908,7 +873,7 @@
  bel.28.b: "Launch a counter-offensive on the Walloon perimeter!"
 
  bel.29.t: "Counter-Offensive Fails"
- bel.29.d: "At 6:32 AM German artillery placed on the top of the hill opened fire on the Walloon defences. The barrage was followed up by an infantry assault trying to breach their line. Waves after waves of brave Germans threw themselves at the line but at 11:6 AM they had to retreat. The offensive has failed. German troops are exhausted and the Walloon line still stands."
+ bel.29.d: "At 6:32 AM German artillery placed on the top of the hill opened fire on the Walloon defences. The barrage was followed up by an infantry assault trying to breach their line. Waves after waves of brave Germans threw themselves at the line but at 11:16 AM they had to retreat. The offensive has failed. German troops are exhausted and the Walloon line still stands."
  bel.29.a: "Surrender to the rebels."
 
 ###########
@@ -1153,7 +1118,7 @@
  bel.485.a: "Long may it last!"
 
  bel.486.t: "The Belgian Demand at Antwerp"
- bel.486.d.wallonia: "The Belgians have met with our representatives at Antwerp, and are willing to conduct a peace treaty. However, they demand the retrocession of Wallonian Luxembourg, annexed to the Grand Duchy of Luxemburg in 1919. Should we agree to their offer?"
+ bel.486.d.wallonia: "The Belgians have met with our representatives at Antwerp, and are willing to conduct a peace treaty. However, they demand the retrocession of Walloon Luxembourg, annexed to the Grand Duchy of Luxemburg in 1919. Should we agree to their offer?"
  bel.486.d.luxemburg: "The Belgians have met with our representatives at Antwerp, and are willing to conduct a peace treaty. However, they demand the full annexation of the Grand Duchy of Luxemburg, claiming that all of the Low Countries should be freed from 'foreign occupation'. Should we agree to their offer?"
  bel.486.a: "We accept these terms."
  bel.486.b: "We will give away no inch of Luxemburg!"
@@ -1443,7 +1408,7 @@
 
 #News Events
  bel.219.t: "Belgium Declares Independence"
- bel.219.d: "Sick of German oppression and the disaster of Black Monday, Belgian independence movements throughout the country have been revolting and performing guerrilla strikes on the German army. Due to their own recovery they have been unable to support Adelbert I to the fullest and have made the situation get out of control. After coordinated strikes by The Independence Army on the cities of Mons and Antwerp, they were finally able to push the Flemish-Walloon army back to Brussels where after fierce fighting the German king surrendered. With no clear answer yet from the German Empire, many fear that an independent Belgium might be shortlived especially with tensions between the Empire and the Commune of France rising and the strategic location of the country."
+ bel.219.d: "Sick of German oppression and the disaster of Black Monday, Belgian independence movements throughout the country have been revolting and performing guerrilla strikes on the German army. Due to their own recovery they have been unable to support Adelbert I to the fullest and have made the situation get out of control. After coordinated strikes by The Independence Army on the cities of Mons and Antwerp, they were finally able to push the Flemish-Walloon army back to Brussels where after fierce fighting the German king surrendered. With no clear answer yet from the German Empire, many fear that an independent Belgium might be short-lived especially with tensions between the Empire and the Commune of France rising and the strategic location of the country."
  bel.219.a: "Good luck Belgium!"
 
 #Elections
@@ -1752,7 +1717,6 @@
  flawa.62.a: "The BWP achieves a sweeping victory."
  flawa.62.b: "The KP achieves an absolute majority."
 
-
 #Prelude to Revolution
  bel.225.t: "Strikes at the Zolder Mines"
  bel.225.d: "Miners and workers in the nearby industrial zone have laid down their equipment to protest against the inhumane conditions they are regularly being exposed to. To fulfil the quotas imposed by the regional industrial head, many of the workers have been forced to work seven days a week, some for over twelve hours a day, or risk losing their jobs. The cooperative of Zolder has decided to take action and has prepared a large strike to fight against their conditions and has sworn to uphold the strike until their terms are met."
@@ -1844,8 +1808,6 @@
  belind.19.d: "Due to the collapse of large parts of Walloon industry and increasingly commercial focus on Flanders, it has become clear to many that Wallonia has become the lesser partner in the union. To remedy this, the federal government has authorised large transfers of subsidy and investments into the Sillon Industriel to help the Walloons recover. The Volksunie is now proclaiming that if they win the elections, these transfers will be completely cut and fully used to aid Flanders. This has caused heavy outrage from the BWP who has accused the Volksunie of being asocial and detrimental to Belgian stability."
  belind.19.a: "The Volksunie is becoming a threat."
 
-
-
 #No Communities
  belind.12.t: "Unrest in the Flemish Ardennes"
  belind.12.d: "In Ronse-Renaix, large protests have been organised by the Flemish Movement against the increasingly French speaking population. They fear that if Brussels does not intervene in the Language Crisis, the Flemish language will be pushed further north due to the migration and refusal to adapt of the Walloon populace. They argue that further consolidating of the educational department and equal enforcement of both languages on a national level should be top priorities for the Government if they wish to solve this crisis."
@@ -1871,7 +1833,7 @@
  Small_Vlaamse_Wacht: "Has not restored the rights of the Vlaamse Wacht"
  Feldgendarmerie: "The Feldgendarmerie have been given the right to operate in Flanders-Wallonia"
  Belgium_Guaranteed_Germ: "The Treaty of Arel has been signed"
- BEL_SYN_REV: "The Wallonian Syndicalist Uprising Has Occurred"
+ BEL_SYN_REV: "The Walloon Syndicalist Uprising Has Occurred"
 
 ### Country Names ###
  BEL: "Belgium"
@@ -1904,20 +1866,43 @@
 
 ### Characters ###
  BEL_hendrik_de_man: "Hendrik De Man"
+
  BEL_joseph_jacquemotte: "Joseph Jacquemotte"
+ BEL_joseph_jacquemotte_leader_desc: "Joseph Jacquemotte, creator and editor of the leftist pre-Weltkrieg newspaper 'L'Exploité', and his Syndicalist faction of the Belgian Workers' Party have achieved victory both within the party, and now, Belgium itself. Jacquemotte advocates rural industrialisation and the collectivisation of industry and agriculture alike. A Belgium led by Jacquemotte is certain to see drastic societal and economic upheaval."
+
  BEL_xavier_relecom: "Xavier Relecom"
+
  BEL_achille_van_acker: "Achille Van Acker"
+ BEL_achille_van_acker_leader_desc: "Achille Van Acker, a moderate social democrat, has consolidated his leadership of the Belgian Workers' Party, and now achieved victory in Belgium's latest national elections. Van Acker advocates limited economic nationalisation and the empowerment of union leaders to a governmental advisory role. Belgium, Van Acker believes, must actively serve its people and promote fair competition; his reforms, though controversial, may yet decrease economic hardship and political radicalisation in Belgium."
+
  BEL_paul_henri_spaak: "Paul-Henri Spaak"
+ BEL_paul_henri_spaak_leader_desc: "Paul Henri Spaak, once a prominent lawyer, believes that, above all else, to truly serve the people, government bureaucracy must be efficient. Spaak is now in control of the Belgian Workers' Party, and the party's subsequent victory in the most recent Belgian national elections has elevated him to head of state. Spaak has already begun to greatly decrease the bloated Belgian civil service and introduced new incentives to prospective entrepreneurs; as a result, optimism seems to be steadily increasing in Belgium."
+
  BEL_paul_emile_janson: "Paul-Emile Janson"
+ BEL_paul_emile_janson_leader_desc: "Paul-Émile Janson and his Liberal Party has achieved victory in Belgium's latest national elections. Janson is an advocate of laissez faire economics and free trade; all aspects of society, to Janson, have been far too regulated by past administrations. Belgium, under Janson, is quickly becoming one of the most economically free nations in Europe and the world."
+
  BEL_paul_van_zeeland: "Paul Van Zeeland"
- BEL_charles_d_aspremont_lynden: "Charles d'Aspremont-Lynden"
+ BEL_paul_van_zeeland_leader_desc: "Paul van Zeeland and the Catholic Party led Flemish resistance to German control. With electoral victory in the now restored Belgium, van Zeeland endeavours to establish Christian Democracy in Belgium, and reconcile that which divides Belgium's people, Flems and Walloons alike. Principle among his policy goals is the betterment of working conditions for both farmers and industrial labourers."
+
+ BEL_charles_daspremont_lynden: "Charles d'Aspremont-Lynden"
+
  BEL_joris_van_severen: "Joris Van Severen"
+ BEL_joris_van_severen_leader_desc: "Joris Van Severen, Flemish leader who begrudgingly cooperated with the occupying Germans, has assumed control of the country. His Verdinaso has a radical vision for the direction of Belgium, including territorial expansion and the promotion of Catholicism in all aspects of society. Under van Severen, a new Belgium will certainly arise; though that new nation may be incredibly different from the one that came before it."
+
  BEL_leon_degrelle: "Léon Degrelle"
  BEL_georges_prosper_remi: "Georges Prosper Remi"
- BEL_parliament: "Belgian Parliament"
+
+ BEL_belgian_parliament: "Belgian Parliament"
+ BEL_belgian_parliament_leader_desc: "The Belgian Parliament, successor to the Flemish Council which advised the German controlled government of Flanders-Wallonia, has assumed power in the recently restored Belgium. While the Government is restructured and elections prepared, Parliament acts not just as a legislature, but collectively as interim head of state."
+
  BEL_adelbert_von_hohenzollern: "Adelbert"
+ BEL_adelbert_von_hohenzollern_leader_desc: "Adelbert von Hohenzollern's tenure as king of the Flems and Walloons has been quite peculiar. Inaugurated not by coronation, but by swearing an oath on the constitution, Adelbert, who also converted to Catholicism to align himself with his nation's populace, has long sought the respect, if not admiration, of his people. Years of oppression under the German regime and a tendency for Adelbert to cling on to a more absolutist type of monarchy than the Belgian system have led to great anti-German sentiment among the populace, making Adelbert despised and hated amongst the common folk."
+
  BEL_albert_van_belgie: "Albert"
+ BEL_albert_van_belgie_leader_desc: "Albert of Saxe-Coburg and Gotha, the king who trounced the invading Germans at the Yzer, has returned to Belgium from exile in Canada. When his motorcade entered Brussels for the first time since the outbreak of the Weltkrieg, church bells across the nation rang, and many Belgians wept with joy. German collaborators and syndicalists, however, lament the restored king, and plot to undermine the new Belgian government. Albert must now mend the deep wounds which have marred Belgium, and create a renewed sense of hope among its people."
+
  BEL_leopold_van_belgie: "Prince Leopold"
+
  BEL_julien_lahaut: "Julien Lahaut"
  BEL_lucie_dejardin: "Lucie Dejardin"
  BEL_albert_marteaux: "Albert Marteaux"
@@ -1926,6 +1911,7 @@
  BEL_auguste_buisseret: "Auguste Buisseret"
  BEL_hubert_pierlot: "Hubert Pierlot"
  BEL_paul_hoornaert: "Paul Hoornaert"
+
  BEL_august_borms: "August Borms"
  BEL_corneel_heymans: "Corneel Heymans"
  BEL_frans_van_cauwelaert: "Frans van Cauwelaert"
@@ -1934,6 +1920,22 @@
  BEL_leo_frenssen: "Leo Frenssen"
  BEL_jef_rens: "Jef Rens"
  BEL_karel_van_vlaanderen: "Karel"
+
+ BEL_georges_theunis: "Georges Theunis"
+ BEL_emile_francqui: "Emile Francqui"
+ BEL_alexandre_galopin: "Alexandre Galopin"
+ BEL_albert_eduard_janssen: "Albert-Eduard Janssen"
+ BEL_henri_baels: "Henri Baels"
+ BEL_gustave_sap: "Gustave Sap"
+ BEL_adolphe_max: "Adolphe Max"
+ BEL_julius_hoste_jr: "Julius Hoste Jr."
+ BEL_edward_anseele: "Edward Anseele"
+ BEL_emile_vandervelde: "Emile Vandervelde"
+ BEL_ernest_ghislain_graff: "Ernest-Ghislain Graff"
+
+ BEL_karel_jan_bossart: "Karel Jan Bossart"
+ BEL_robert_desmet: "Robert Desmet"
+
  BEL_edouard_van_den_bergen: "Édouard van den Bergen"
  BEL_jean_baptiste_piron: "Jean Baptiste Piron"
  BEL_victor_van_strydonck_de_burkel: "Victor van Strydonck de Burkel"
@@ -1943,3 +1945,15 @@
  BEL_raoul_daufresne_de_la_chevalerie: "Raoul Daufresne de la Chevalerie"
  BEL_georges_timmermans: "Georges Timmermans"
  BEL_victor_billet: "Victor Billet"
+
+ BEL_henri_denis: "Henri Denis"
+ BEL_raoul_van_overstraeten: "Raoul van Overstraeten"
+ BEL_eduard_blondeel: "Eduard Blondeel"
+ BEL_felix_iserentant: "Felix Iserentant"
+ BEL_emile_galet: "Émile Galet"
+ BEL_herman_bodson: "Herman Bodson"
+ BEL_oscar_michiels: "Oscar Michiels"
+ BEL_adolphe_cumont: "Adolphe Cumont"
+ BEL_lambert_robins: "Lambert Robins"
+ BEL_paul_hierneaux: "Paul Hierneaux"
+

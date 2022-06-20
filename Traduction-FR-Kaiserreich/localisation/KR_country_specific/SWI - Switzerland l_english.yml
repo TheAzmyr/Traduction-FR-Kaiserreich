@@ -2,24 +2,6 @@
 
  KR_Switzerland: "Switzerland Focus Tree"
 
-### Leaders ###
- POLITICS_SWITZERLAND_COUNCIL_DESC: "Founded in 1848, the Swiss Federal Council is a seven-member executive council which serves as the collective head of state for Switzerland. Each council member heads one of seven different federal departments, and the position of Federal President moves between the seven Councillors every year, with the current year's Vice President serving as the next year's President."
- POLITICS_BIRCHER_DESC: "A Germanophile and diehard anti-Syndicalist, Eugen Bircher is a physician by trade and invented several groundbreaking procedures dealing with arthroscopy of the knee. After the rise of Syndicalism in France Bircher largely gave up his medical work and founded the SVV, which quickly pervaded Swiss military and political circles as a counterbalance to the rising tide of Socialism in the nation."
- POLITICS_SWI_UNION_DESC: "The Federal Union Council is the temporary governmental body of the Swiss Syndicalist state after the overthrow of the government, dedicated to the stabilisation and reformation of the Swiss nation."
- POLITICS_EXECUTIVE_DIRECTORY_DESC: "The Executive Directory acts as the permanent Helvetic Head of State in the wake of the revolution, occupying a similar position to the Federal Council of old, but with more executive power vested in the Directory to allow for more decisive action to be taken in times of crisis."
- POLITICS_HERZOG_DESC: ""
- POLITICS_GENEVA_DESC: "The temporary movement of the capital to Geneva has placed the burden of governance on the current Geneva Council of State, which has taken over control of the nation until a more permanent office can be created to guide the nation."
-
- POLITICS_SWI_HENRI_GUISAN_ARMY_DESC: "§YGeneral Description\n§YBorn:§L\nOctober 21st, 1874\nMézières, Vaud, Switzerland\n§YMilitary Career:§L\nBorn in a French-speaking part of Switzerland, Guisan originally attended school and studied agricultural medicine. However, after entering the Swiss military in 1894, he has gradually climbed the ranks, and was promoted to Lieutenant General in 1932, the highest rank in peacetime. Guisan participates in politics less than many of his peers, and views the best path forward as neutrality by deterrence, supporting strong and elaborate defences to make conquering Switzerland a long and painful feat."
- POLITICS_SWI_EUGEN_BIRCHER_ARMY_DESC: "§YGeneral Description\n§YBorn:§L\nFebruary 17th, 1882\nAarau, Aargau, Switzerland\n§YMilitary Career:§L\nAlong with Henri Guisan, Bircher occupies the highest rank of the Swiss military available during peacetime. However, unlike his equal, he spends much of his time in politics, spearheading a semi-secret far-right organisation with great influence in the Swiss government."
- POLITICS_SWI_GUSTAVE_COMBE_ARMY_DESC: "§YGeneral Description\n§YBorn:§L\nMay 27th, 1882\nOrbe, Vaud, Switzerland\n"
- POLITICS_SWI_HERMANN_FLUCKIGER_ARMY_DESC: "§YGeneral Description\n§YBorn:§L\nApril 30th, 1885\nBargen, Bern, Switzerland\n"
- POLITICS_SWI_JAKOB_LABHARDT_ARMY_DESC: "§YGeneral Description\n§YBorn:§L\nJanuary 28th, 1881\nSteckborn, Thurgau, Switzerland\n"
- POLITICS_SWI_JAKOB_HUBER_ARMY_DESC: "§YGeneral Description\n§YBorn:§L\nNovember 1st, 1883\nJonen, Aargau, Switzerland\n"
- POLITICS_SWI_LOUIS_DE_MONTMOLLIN_ARMY_DESC: "§YGeneral Description\n§YBorn:§L\nNovember 17th, 1893\nSavagnier, Neuchâtel, Switzerland\n"
- POLITICS_SWI_HANS_BANDI_ARMY_DESC: "§YGeneral Description\n§YBorn:§L\nJuly 19th, 1882\nBern, Bern, Switzerland\n"
- POLITICS_SWI_JEAN_DE_MURALT_ARMY_DESC: "§YGeneral Description\n§YBorn:§L\nJuly 18th, 1877\nZürich, Zürich, Switzerland\n"
-
 ### Ship Name Lists ###
  NAME_SWI_SM: "U-Boot"
  NAME_SWI_CITIES: "Swiss Cities"
@@ -27,6 +9,10 @@
  NAME_SWI_GEOGRAPHY: "Swiss Geography"
  NAME_SWI_LEADERSHIP: "Swiss Leaders"
  NAME_SWI_BATTLES: "Swiss Battles"
+
+### World Tension ###
+ SWI_haute_savoie_threat: "Savoyard Crisis"
+ SWI_revolution_threat: "Revolution in Switzerland"
 
 ### Focuses ###
  SWI_combat_economic_crisis: "Referendum: Combat the Economic Crisis"
@@ -332,7 +318,6 @@
  SWI_national_bank_idea: "The Swiss National Bank"
  SWI_national_bank_idea1: "The Swiss National Bank"
  SWI_joint_command_idea: "Joint Command"
- SWI_mitteleuropan_assisstance: "Mitteleuropan Assistance"
  SWI_nuclear_research_idea: "Study Commission for Nuclear Energy"
  SWI_tech_sharing_idea: "Technology Sharing"
  SWI_populist_fortress_idea: "National Fortresses"
@@ -384,7 +369,6 @@
  SWI_national_bank_idea_desc: "The Swiss National Bank is the strong economic arm of the entire country, handling the finances of the vast majority of the population and the government alike."
  SWI_national_bank_idea1_desc: "The Swiss National Bank is the strong economic arm of the entire country, handling the finances of the vast majority of the population and the government alike."
  SWI_joint_command_idea_desc: "The lessons learned from joining our command to the German Empire's have improved our ability to plan large scale operations drastically."
- SWI_mitteleuropan_assisstance_desc: "The flow of goods from the Mitteleuropan bloc serves to bolster our struggling economy and improve our ability to wage war."
  SWI_nuclear_research_idea_desc: "The Study Commission for Nuclear Energy is tasked with researching the feasibility of incorporating nuclear arms into our armed forces."
  SWI_tech_sharing_idea_desc: "We are sharing our technology with our allies, and they are sharing with us in turn."
  SWI_populist_fortress_idea_desc: "Our nation is blessed with a wide array of natural defences. Incorporating these natural barriers into new defensive networks will make our nation all but impenetrable to any would-be invader."
@@ -566,12 +550,8 @@
  swiss.40.a: "Switzerland needs no allies."
 
  swiss.41.t: "The State of Switzerland"
- swiss.41.d: "The Swiss Confederation saw crisis in 19th century. In several cantons liberal powers prevailed, calling for more democracy and more centralism. This met the opposition of the catholic, conservatively dominated cantons who formed the Sonderbund in 1845. The Sonderbund War erupted in 1847 which saw the liberals as victors. In 1848 a Federal Constitution was ratified, turning the loose league of cantons into a federal state with a new federal capital in Bern. The new constitution created new institutions like the Bundesrat (Federal Council), Bundesversammlung (Federal Assembly), and Bundesgericht (Federal Court). Switzerland remained neutral throughout the Weltkrieg, although there were various domestic conflicts between German and French speaking Swiss citizens. In addition economic problems arose, completely surrounded as the country was by warring nations. The radical left gained a lot of support during that time, and in 1919 a strike in Geneva called for by the workers movement attempted to push through major social changes. The attempt failed because of the fear of spreading of French syndicalism and its subsequent repression by Swiss government, but in its wake social reforms were begun, bringing about higher wages and shorter work days. In 1919 the system of proportional representation was introduced. The conservative Freisinnige lost their majority while the social democrats grew stronger. Into the 1930s domestic politics were governed in response to the conflict between social democrats and conservatives. The struggles between communities in Switzerland are now taking more political values: French-speakers are more socialist, Germans more conservative and Italians more clerical. Will the rising belligerence in Europe have consequences on the neutral Confederation?"
+ swiss.41.d: "The Swiss Confederation saw crisis in 19th century. In several cantons liberal powers prevailed, calling for more democracy and more centralism. This met the opposition of the Catholic, conservatively dominated cantons who formed the Sonderbund in 1845. The Sonderbund War erupted in 1847 which saw the liberals as victors. In 1848 a Federal Constitution was ratified, turning the loose league of cantons into a federal state with a new federal capital in Bern. The new constitution created new institutions like the Bundesrat (Federal Council), Bundesversammlung (Federal Assembly), and Bundesgericht (Federal Court). Switzerland remained neutral throughout the Weltkrieg, although there were various domestic conflicts between German and French speaking Swiss citizens. In addition economic problems arose, completely surrounded as the country was by warring nations. The radical left gained a lot of support during that time, and in 1919 a strike in Geneva called for by the workers movement attempted to push through major social changes. The attempt failed because of the fear of spreading of French syndicalism and its subsequent repression by Swiss government, but in its wake social reforms were begun, bringing about higher wages and shorter work days. In 1919 the system of proportional representation was introduced. The conservative Freisinnige lost their majority while the social democrats grew stronger. Into the 1930s domestic politics were governed in response to the conflict between social democrats and conservatives. The struggles between communities in Switzerland are now taking more political values: French-speakers are more socialist, Germans more conservative and Italians more clerical. Will the rising belligerence in Europe have consequences on the neutral Confederation?"
  swiss.41.a: "Onwards!"
-
- swiss.42.t: "Expand the Swiss Guard"
- swiss.42.d: "With our fates intertwined with those of the Swiss after our most recent diplomatic developments, our Swiss allies have made an interesting proposition. The Swiss Guard, a longstanding traditional guard of the pope, is to be expanded heavily and continuously supported by the current Swiss government. This increase in manpower will make the Swiss Guard a proper military force, and is obviously a sign of goodwill from our friends in Switzerland."
- swiss.42.a: "To our friendship."
 
  swiss.43.t: "Switzerland Calls for Aid!"
  swiss.43.d: "Switzerland, the small mountain nation in the centre of Europe, has sent out a moving plea for assistance against the imperialistic actions of the French Commune. As we are one of the major powers of the world, accepting would show our support against French imperialism. Should we help the Swiss in their moment of need?"
@@ -580,10 +560,6 @@
  swiss.43.b: "They are on their own."
  swiss.43.c: "We have our own war to fight."
 
- swiss.44.t: "Foreign Aid Arrives"
- swiss.44.d: "A foreign power has responded to our call for aid by sending supplies and materiel for our defensive efforts. We owe them a great deal for their support."
- swiss.44.a: "The support is much needed."
-
  swiss.45.t: "Black Monday hits Switzerland"
  swiss.45.d: "The recent run on the Berlin Stock Exchange is not without consequences for Switzerland. The Swiss economy relies heavily on German trading and the collapse of the German markets has sent immediate shock-waves through the Swiss economy. We must act if we are to save our economy from total collapse."
  swiss.45.a: "The horror!"
@@ -591,10 +567,6 @@
  swiss.46.t: "Switzerland joins the Vienna Circle"
  swiss.46.d: "Responding to our calls for Europe's best and brightest to join our research initiative in Vienna, our friends the Swiss have responded favourably and have sent a handful of researchers to contribute to our initiative. Together we will make great discoveries in the name of scientific advancement."
  swiss.46.a: "Fantastic."
-
- swiss.47.t: "Switzerland joins the Kaiser Wilhelm Society"
- swiss.47.d: "Compounding on our newfound influence in our southern neighbour Switzerland, Swiss scientists have begun to move to take part in the Kaiser Wilhelm Society. These scientists will join our own research efforts and will hopefully create new opportunities for both our nations."
- swiss.47.a: "Fantastic."
 
  swiss.48.t: "The Foundation of the Helvetic Commune"
  swiss.48.d: "Emotions were largely muted at the official signing of the papers that would make the new Helvetic Commune the official government in Switzerland, cementing the power of Syndicalism in governmental structure for the foreseeable future. Drawing on inspiration from the Helvetic Republic of old, the new Directorate promises to lead the Swiss people in a fashion that will benefit all Swiss people, and uphold their values for decades to come."
@@ -777,10 +749,6 @@
  swiss.101.t: "France Loses Interest"
  swiss.101.d: "Despite increasing tensions between ourselves and the French commune over the status of Haute-Savoie, today we have learned that the French government has suddenly dropped all plans to incense activism inside of Switzerland. It seems that the government in Paris has become dissuaded from pursuing the matter further, content to simply rattle its sabre. We have dodged what could have become a major international crisis."
  swiss.101.a: "Luck is on our side."
-
- swiss.102.t: "Backstabbed!"
- swiss.102.d: "Despite an initial promise of assistance against the French Commune, our ally has instead reversed that promise and instead publicly declared non-interference against this imperialist land-grab by the French Commune! It seems that our ally wanted to call France's bluff, but when France did not back down, they fled from the fight like the cowards they are. We are all alone in the world."
- swiss.102.a: "Damn them all!"
 
  swiss.103.t: "The Savoyard Crisis Defused"
  swiss.103.d: "For many months, the regions of Romandie and Haute-Savoie have been gripped by tension as Swiss socialists have petitioned the Commune of France for annexation and intervention in order to unite the French speaking peoples under one banner. However, it appears that despite initial threats against the stability of the Swiss nation, no intervention seems forthcoming from the Commune. Lacking a serious supporter and seemingly acting against the wishes of the greater Swiss nation, today Syndicalist leaders have met with the Federal government for what appears to be the first of many negotiations to end the hostilities. It seems that peace has won the day, the crisis is over."
@@ -1157,19 +1125,6 @@
  swiss.194.d: "Unable to accept the truth of a unified France under a Syndicalist regime, the reactionary government of Switzerland has begun a new campaign of persecution against the population of French-speaking Swiss still within their borders. This has resulted in a flow of migrants over the border into our nation, and many have shown an interest in taking up arms for an eventual liberation of their homeland from the reactionary menace."
  swiss.194.a: "You are welcomed with open arms."
 
- swiss.195.t: "Death of Arthur Fonjallaz"
- swiss.195.d: "Early this morning, a minister in our government, Arthur Fonjallaz, was found dead. After preliminary examination, doctors have determined that he passed peacefully in his sleep. He was a truly great man who worked tirelessly for his country, and the party."
- swiss.195.d_syn: "Early this morning, Arthur Fonjallaz was found dead in his home. After preliminary examination, doctors have determined that he died in his sleep. He was a dangerous reactionary politician, advocating for anti-semitism, and consistently putting himself at odds with the interests of the workers."
- swiss.195.d_dem: "Early this morning, a minister in our government, Arthur Fonjallaz, was found dead. After preliminary examination, doctors have determined that he passed peacefully in his sleep. While we did not always agree with his views, he served his country in the Swiss military, and deserves to be remembered."
- swiss.195.a: "We lost a good man today."
- swiss.195.b: "He will not be missed."
- swiss.195.c: "Give my condolences to his family."
-
- swiss.196.t: "Death of Giuseppe Motta"
- swiss.196.d: "Early this morning, the statesman Giuseppe Motta passed away. He spent his last few days in the company of his family and doctors, however he could not be cured. He was a truly great man who worked tirelessly in service and advocacy for his country, and will be remembered by many."
- swiss.196.d_syn: "Early this morning, the statesman Giuseppe Motta passed away. He spent his last few days in the company of his family and doctors, however he could not be cured. While we did not agree with his views, and some of the more hardline members of our government view him as a traitor to the people, it is undeniable that he did spend a significant part of his life helping people, and that is to be respected."
- swiss.196.a: "He will be missed."
-
  swiss.197.t: "Integrating the Militias"
  swiss.197.d: "Eugene Bircher's political militias helped us prevent syndicalist subversion before the coup, but many in the government are questioning the use of the militias now. Bircher has committed to disbanding many of the militias, however it is the choice of the government whether to simply encourage the conscription of militia personnel into our military, or to take a more direct approach."
  swiss.197.a: "Accept those willing."
@@ -1231,6 +1186,15 @@
  swiss.217.t: "Switzerland to hold Campione's Plesbicite"
  swiss.217.d: "Campione has been part of Italy since Roman times, but since the War of the Holy League in the early sixteenth century it has been entirely surrounded by Swiss land. More recently, it has been under the Swiss administration and protection since the Italian Civil War, under an arrangement made with the collapsing Kingdom of Italy in 1919.\n\nWhile the people of the commune of Campione voted against being annexed into Switzerland back in 1814. However, given the nature of the Italian reunification, some in both our government and that of Campione believe this vote might be different. The Swiss official wishes us to act as observers for the upcoming plesbicite, which is planned to occur in the next 60 days."
  swiss.217.a: "And we shall be there!"
+
+ swiss.1000.t: "The Savoyard Crisis Resolved"
+ swiss.1000.surrender: "A few days ago a demand from the Commune of France was telegraphed to the Swiss government: cede the province of Haute-Savoie under threat of armed coercion. The French characterised their demand as a need to end the 'persecution of the French population' within the province. The Swiss government decided to avoid war and agreed, stating that a peaceful transfer of ownership was preferable to bloodshed.\n\nThis is a victory for the French government, which has already declared the reclamation of Haute-Savoie a victory for the world's working class."
+ swiss.1000.swiwin: "A few days ago a demand from the Commune of France was telegraphed to the Swiss government: cede the province of Haute-Savoie under threat of armed coercion. The French characterised their demand as a need to end the 'persecution of the French population' within the province. After tense debates and political discourse, the crisis has been resolved without bloodshed or the concession of Swiss occupied territories.\n\nFor now, the fragile peace in Europe is maintained, although the French willingness to resort to confrontational tactics over territorial disputes has rattled international observers."
+ swiss.1000.enemies: "A few days ago a demand from the Commune of France was telegraphed to the Swiss government: cede the province of Haute-Savoie under threat of armed coercion. The French characterised their demand as a need to end the 'persecution of the French population' within the province. Despite a desperate attempt to find international support for the retention of the region under the Swiss government, no nation seemed willing to risk war over the French demands.\n\nThis is a victory for the French government, which has already declared the reclamation of Haute-Savoie a victory for the world's working class."
+ swiss.1000.austria: "Peace reigned supreme today as the Commune of France revoked their demands for the immediate return of the Haute-Savoie region. It is reported that France decided to revoke its claim after a pledge to "Preserve the time-honoured neutrality of Switzerland" from the Austrian Empire, who supported Switzerland in the crisis over the region.\n\nFor now the region will remain under the guardianship of the Swiss Confederation, who have promised to return the territory once a 'responsible French government' is restored in Paris."
+ swiss.1000.germany: "Peace reigned supreme today as the Commune of France revoked their demands for the immediate return of the Haute-Savoie region. It is reported that the Communards decided to revoke their claim after a pledge to do "All that was necessary to defend Swiss territorial integrity" from the German Empire, who supported Switzerland in the crisis over the region.\n\nFor now the region will remain under the guardianship of the Swiss Confederation, who have promised to return the territory once a 'legitimate French government' is restored in Paris."
+ swiss.1000.a: "Syndicalism spreads."
+ swiss.1000.b: "Swiss neutrality is preserved!"
 
 ### Parties ###
  SWI_national_populist_party: "SVV"
@@ -1351,8 +1315,6 @@
  SWI_foreign_volunteers: "You will gain §Y6§! Militia Divisions formed from disorganised foreign volunteers.\n"
  SWI_swiss_ski_troops: "You will gain §Y3§! Mountain Divisions.\n"
  SWI_swiss_border_troops: "You will gain §Y6§! Militia Divisions to man your border defences.\n"
- BIRCHER_PLAN: "Eugen Bircher has been elected General"
- GUISAN_PLAN: "Henri Guisan has been elected General"
  SWI_GER_alliance: "We have allied with Germany"
  SWI_traitors: "Recognised the Commune"
  SWI_totalist_win: "Totalists have received popular support"
@@ -1382,23 +1344,13 @@
  SWI_martial_law_declared: "Martial Law has been declared"
  SWI_natpop_control: "The Government has been secured"
  SWI_language_acts_tooltip: "§CThis will begin a referendum that will provide the nation with§!§Y Stability §!§Cif passed.§!"
- SWI_revise_constitution_tooltip: "§CThis will begin a referendum that will provide the nation with§!§Y War Support §!§Cif passed.§!"
+ SWI_revise_constitution_tooltip: "§CThis will begin a referendum that will provide the nation with§!§Y $MODIFIER_WAR_SUPPORT_FACTOR$ §!§Cif passed.§!"
  SWI_combat_economic_crisis_tooltip: "§CThis will begin a referendum that will provide the nation with§!§Y Industrial Research §!§Cif passed.§!"
  SWI_syndicalist_unions_tooltip: "§CThis will begin a referendum that will provide the nation with§!§Y Lower Syndicalist Influence §!§Cif passed.§!"
  SWI_army_reorganization_tooltip: "§CThis will begin a referendum that will provide the nation with§!§Y Land Doctrine §!§Cif passed.§!"
  SWI_freemasonry_tooltip: "§CThis will begin a referendum that will provide the nation with§!§Y Political Power §!§Cif passed.§!"
  SWI_transport_of_goods_tooltip: "§CThis will begin a referendum that will provide the nation with§!§Y Construction Research §!§Cif passed.§!"
- SWI_commerce_tooltip: "Modify §YSwiss Merchant Marine§! by\nConstruction Speed: §G+10.00%§!\n§YTrade Convoy§!: £production_cost  Production Cost: §G-10.00%§!"
- SWI_not_socialist: "Not: Has a socialist government"
- SWI_integration_choice: "Our government will proceed with integrating Bircher's political militias."
- SWI_aggressive_integration: "You will gain §Y2§! Militia Divisions."
- SWI_guard_tooltip: "You will gain §Y3§! Infantry Divisions."
- SWI_forts_tooltip: "gains moderate defensive infrastructure.\n"
- SWI_coast_tooltip: "You must own a port for this focus to have an effect"
-
- SWI_combe_purged: "§RGustav Combe will be purged.§!"
- SWI_montmollin_purged: "§RLouis de Montmollin will be purged.§!"
- SWI_guisan_purged: "§RHenri Guisan will be purged.§!"
+ SWI_commerce_tooltip: "Modify §YSwiss Merchant Marine§! by\n$MODIFIER_PRODUCTION_SPEED_BUILDINGS_FACTOR$: §G+10.00%§!\n§YTrade Convoy§!: $STAT_COMMON_BUILD_COST_IC$§G-10.00%§!"
 
 ### Cosmetic Tags ###
  SWI: "Switzerland"
@@ -1438,16 +1390,72 @@
 
 ### Characters ###
  SWI_jakob_herzog: "Jakob Herzog"
+ SWI_jakob_herzog_leader_desc: "Jakob Herzog was born in 1892 to a working-class family in Zurich. His father was a railway worker and farmer, while his mother was a cook. Raised a Catholic, he attempted a carpentry apprenticeship but ultimately found his true calling as part of the Socialist Youth in 1912. He became an editor of Freie Jugend (‘Free Youth’) and began his career as an anarcho-syndicalist, but ultimately broke from the more mainstream socialists as the years went on. He found himself more sympathetic and based his ideas off the more authoritarian Russian revolutionary model over the more local French model his Swiss contemporaries followed. However, with the rising vanguardist sentiment in Britain, Herzog soon found new friends with men such as Oswald Mosley and Benito Mussolini. His new party, the paramilitary Die Arbeiterwache (‘the Workers’ Guard) grew out this totalist mold and soon split from the other Syndicalists.\n\nDespite Herzog’s humble origins, it would appear that he has done it! International political crisis and internal chaos have collapsed the old order, and thanks to Herzog’s effective leadership Die Arbeiterwache has grown from a persecuted, fringe band to a leading political force in the post-revolutionary order. Having outmaneuvered his Syndicalist party rivals, Herzog is now the leader of a changed Helvetic nation."
+
  SWI_federal_union_council: "Federal Union Council"
+ SWI_federal_union_council_leader_desc: "The Federal Union Council is the temporary governmental body of the Swiss Syndicalist state after the overthrow of the government, dedicated to the stabilisation and reformation of the Swiss nation."
+ SWI_federal_union_council_executive_leader_desc: "The Executive Directory acts as the permanent Helvetic Head of State in the wake of the revolution, occupying a similar position to the Federal Council of old, but with more executive power vested in the Directory to allow for more decisive action to be taken in times of crisis."
+
  SWI_geneva_council_of_state: "Geneva Council of State"
+ SWI_geneva_council_of_state_leader_desc: "The temporary movement of the capital to Geneva has placed the burden of governance on the current Geneva Council of State, which has taken over control of the nation until a more permanent office can be created to guide the nation."
+
  SWI_swiss_federal_council: "Swiss Federal Council"
+ SWI_swiss_federal_council_leader_desc: "Founded in 1848, the Swiss Federal Council is a seven-member executive council which serves as the collective head of state for Switzerland. Each council member heads one of seven different federal departments, and the position of Federal President moves between the seven Councillors every year, with the current year's Vice President serving as the next year's President."
+
  SWI_eugen_bircher: "Eugen Bircher"
+ SWI_eugen_bircher_leader_desc: "A Germanophile and diehard anti-Syndicalist, Eugen Bircher is a physician by trade and invented several groundbreaking procedures dealing with arthroscopy of the knee. After the rise of Syndicalism in France Bircher largely gave up his medical work and founded the SVV, which quickly pervaded Swiss military and political circles as a counterbalance to the rising tide of Socialism in the nation."
+ SWI_eugen_bircher_commander_desc: "§YGeneral Description\n§YBorn:§L\nFebruary 17th, 1882\nAarau, Aargau, Switzerland\n§YMilitary Career:§L\nAlong with Henri Guisan, Bircher occupies the highest rank of the Swiss military available during peacetime. However, unlike his equal, he spends much of his time in politics, spearheading a semi-secret far-right organisation with great influence in the Swiss government."
+
+ SWI_hans_heinrich_itschner: "Hans Heinrich Itschner"
+ SWI_fritz_brupbacher: "Fritz Brupbacher"
+ SWI_jules_humbert_droz: "Jules Humbert-Droz"
+ SWI_ernst_nobs: "Ernst Nobs"
+ SWI_hans_muller: "Hans Müller"
+ SWI_ernst_wetter: "Ernst Wetter"
+ SWI_philip_etter: "Philip Etter"
+ SWI_markus_feldmann: "Markus Feldmann"
+ SWI_theodore_aubert: "Théodore Aubert"
+ SWI_burri_scherrer_franz: "Burri-Scherrer Franz"
+
+ SWI_walter_gunthart: "Walter Günthart"
+ SWI_otto_punter: "Otto Pünter"
+ SWI_max_rotter: "Max Rotter"
+ SWI_hans_oprecht: "Hans Oprecht"
+ SWI_marcel_pilet_golaz: "Marcel Pilet-Golaz"
+ SWI_emil_keller: "Emil Keller"
+ SWI_jean_marie_musy: "Jean-Marie Musy"
+ SWI_eduard_von_steiger: "Eduard Von Steiger"
+ SWI_ernst_leonhardt: "Ernst Leonhardt"
+ SWI_robert_tobler: "Robert Tobler"
+ SWI_hans_hausamann: "Hans Hausamann"
+
  SWI_henri_guisan: "Henri Guisan"
+ SWI_henri_guisan_commander_desc: "§YGeneral Description\n§YBorn:§L\nOctober 21st, 1874\nMézières, Vaud, Switzerland\n§YMilitary Career:§L\nBorn in a French-speaking part of Switzerland, Guisan originally attended school and studied agricultural medicine. However, after entering the Swiss military in 1894, he has gradually climbed the ranks, and was promoted to Lieutenant General in 1932, the highest rank in peacetime. Guisan participates in politics less than many of his peers, and views the best path forward as neutrality by deterrence, supporting strong and elaborate defences to make conquering Switzerland a long and painful feat."
+
  SWI_gustave_combe: "Gustave Combe"
+ SWI_gustave_combe_commander_desc: "§YGeneral Description\n§YBorn:§L\nMay 27th, 1882\nOrbe, Vaud, Switzerland\n"
+
  SWI_hermann_flueckiger: "Hermann Flückiger"
+ SWI_hermann_flueckiger_commander_desc: "§YGeneral Description\n§YBorn:§L\nApril 30th, 1885\nBargen, Bern, Switzerland\n"
+
  SWI_jakob_labhardt: "Jakob Labhardt"
+ SWI_jakob_labhardt_commander_desc: "§YGeneral Description\n§YBorn:§L\nJanuary 28th, 1881\nSteckborn, Thurgau, Switzerland\n"
+
  SWI_jean_de_muralt: "Jean de Muralt"
+ SWI_jean_de_muralt_commander_desc: "§YGeneral Description\n§YBorn:§L\nJuly 18th, 1877\nZürich, Zürich, Switzerland\n"
+
  SWI_jakob_huber: "Jakob Huber"
+ SWI_jakob_huber_commander_desc: "§YGeneral Description\n§YBorn:§L\nNovember 1st, 1883\nJonen, Aargau, Switzerland\n"
+
  SWI_louis_de_montmollin: "Louis de Montmollin"
+ SWI_louis_de_montmollin_commander_desc: "§YGeneral Description\n§YBorn:§L\nNovember 17th, 1893\nSavagnier, Neuchâtel, Switzerland\n"
+
  SWI_hans_bandi: "Hans Bandi"
- SWI_franz_prisi: "Franz Prisi"
+ SWI_hans_bandi_commander_desc: "§YGeneral Description\n§YBorn:§L\nJuly 19th, 1882\nBern, Bern, Switzerland\n"
+
+ SWI_fritz_rihner: "Fritz Rihner"
+ SWI_etienne_primault: "Etienne Primault"
+ SWI_werner_lindecker: "Werner Lindecker"
+
+### Traits ###
+ SWI_paranoid_francophobe: "Paranoid Francophobe"

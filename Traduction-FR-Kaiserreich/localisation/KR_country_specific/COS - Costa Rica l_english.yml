@@ -29,10 +29,6 @@
  COS_national_populist_party_long: "Légion del Caribe"
  COS_national_populist_party: "LC"
 
-### Leaders ###
- POLITICS_RICARDO_JIMENEZ_OREAMUNO_DESC: "The son of two-time president Jesús Jiménez Zamora, Ricardo Jiménez Oreamuno rose to prominence before the Weltkrieg. In his first term as president between 1910 and 1914, he oversaw the repayment of the country's crippling national debt. By his third stint as president, the country's national debt had again skyrocketed, and again President Jiménez attempted, less successfully than before, to bring Costa Rica back from the brink of default.\nLooking forward, Jiménez fears that without a principled hand to guide it, Costa Rican democracy could be hijacked by foreign economic interests. Perhaps though he wishes to retire from politics, such fears will ensure his continued presence."
- POLITICS_COUNCIL_COS_DESC: "With great political disruption at hand, a mostly conservative Council of Ministers has been appointed collectively act as both head of state and government while national affairs are sorted."
-
 ### Tooltips ###
  USA_DENIED: "§YUSA§! has refused our request"
  GER_DENIED: "§YGermany§! has refused our request"
@@ -93,8 +89,8 @@
  COS_UFC_plus_8: "§YUFC§! influence increases by £banana_texticon §R8%§!\n"
  COS_UFC_minus_3: "§YUFC§! influence decreases by £banana_texticon §G3%§!\n"
  COS_UFC_minus_8: "§YUFC§! influence decreases by £banana_texticon §G8%§!\n"
- UFC_Profit_1: "§YUFC§! profits increase by §G1§!\n\nModify §Y$UFC_Profit_1_idea$§! by\nConsumer Goods Factories: §Y-1.0%§!"
- UFC_Profit_2: "§YUFC§! profits increase by §G2§!\n\nModify §Y$UFC_Profit_1_idea$§! by\nConsumer Goods Factories: §Y-2.0%§!"
+ UFC_Profit_1: "§YUFC§! profits increase by §G1§!\n\nModify §Y$UFC_Profit_1_idea$§! by\n$MODIFIER_CONSUMER_GOODS_FACTOR$: §Y-1.0%§!"
+ UFC_Profit_2: "§YUFC§! profits increase by §G2§!\n\nModify §Y$UFC_Profit_1_idea$§! by\n$MODIFIER_CONSUMER_GOODS_FACTOR$: §Y-2.0%§!"
 
  COS_EXPANDING_OPERATIONS: "§YUFC§! is expanding its operations"
 
@@ -374,7 +370,7 @@
  COS_Public_Works: "Public Works"
  COS_Public_Works_desc: "Influenced by the economic policies of both Keynes in the United States and Schacht in the German Empire, the government has decreed a policy of massive public investments to keep the population employed and ensure a solid base for our economy to flourish on."
  COS_Cultural_Growth: "Cultural Growth"
- COS_Cultural_Growth_desc: "Many of our intellectuals have chosen to study in the nation of Flanders-Wallonia, more precise at the Catholic University of Leuven, and the continued partnership between the two has led to an increased interest by the Flemish-Wallonian people in our culture and traditions. Aware of our pride in our National Theatre, their government has shown willingness to fund its renovation and strengthen cultural ties."
+ COS_Cultural_Growth_desc: "Many of our intellectuals have chosen to study in the nation of Flanders-Wallonia, more precise at the Catholic University of Leuven, and the continued partnership between the two has led to an increased interest by the Flemish-Walloon people in our culture and traditions. Aware of our pride in our National Theatre, their government has shown willingness to fund its renovation and strengthen cultural ties."
  COS_Mitteleuropan_Trade_Agreement: "Mitteleuropan Trade Agreement"
  COS_Mitteleuropan_Trade_Agreement_desc: "Timid investments from the German companies has thus far kept us from recovering fully but the terms of the new agreements drafted up by our government with the [REDACTED] have shown promise for both our citizens and the assets under control by our German allies."
 
@@ -450,7 +446,7 @@
  COS_Diversify_the_Economy: "Handling the Budget"
  COS_Diversify_the_Economy_desc: "Even though we have made massive headway in the development of our social system, the economy has taken a massive hit and is groaning under the weight of these new expenditures. We should cut down on funding here and there and encourage entrepreneurs to step away from the traditional agricultural market to soften the blow."
  COS_University_of_Costa_Rica: "University of Costa Rica"
- COS_University_of_Costa_Rica_desc: "Founded as the Universidad de Santo Tomás in 1843, the catholic institution was forced to close down in 1888 under the progressive anti-clerical government of President Bernardo Soto Alfaro as part of a campaign to modernise public education. The schools of law, agronomy, fine arts, and pharmacy however continued to operate independently now to be reunited into the Universidad de Costa Rica."
+ COS_University_of_Costa_Rica_desc: "Founded as the Universidad de Santo Tomás in 1843, the Catholic institution was forced to close down in 1888 under the progressive anti-clerical government of President Bernardo Soto Alfaro as part of a campaign to modernise public education. The schools of law, agronomy, fine arts, and pharmacy however continued to operate independently now to be reunited into the Universidad de Costa Rica."
  COS_Rural_Credits: "Rural Credit"
  COS_Rural_Credits_desc: "To assist the workers in gathering the necessary funds for their enterprises, especially the farmers, the government has created a sort of credit bank that will provide loans at low interest to the Costa Rican people to rapidly increase the economy."
  COS_Socialism_Done_Right: "Socialism in One Nation"
@@ -515,9 +511,6 @@
  COS_Purchase_American_Fighthers_desc: "Surprised by our lack of airpower, the American government has offered the sale of Boeing P-26 fighters to guard our skies and deter incursions from our neighbours."
  COS_Aircraft_Contracts: "American Weapons Contracts"
  COS_Aircraft_Contracts_desc: "Through a system of lend lease and for the sake of protecting the Americas, the US have sent us the necessary arms to supply our troops with and avoid us being underprepared should war arrive on our shores. Not only through sales but also local partnerships, the Americans hope to continue building on our good relations and at the same time establish a loyal base of operations close to the Canal."
-
-### Commanders ###
- ARMY_COS_FERNANDO_FIGULS_QUIROS_DESC: ""
 
 ### Events ###
  cos.1.t: "Costa Rica: A Central American Success Story"
@@ -829,7 +822,7 @@
  cos.65.a: "The Elections should be fair and open to all."
  cos.65.b: "Dismiss Carlos Luis Sáenz from office!"
 
- cos.66.t: "Flemish-Wallonian exchange program"
+ cos.66.t: "Flemish-Walloon exchange program"
  cos.66.d: ""
  cos.66.a: "Deny their offer."
  cos.66.b: "We value their expertise."
@@ -839,7 +832,7 @@
  cos.67.a: "Very nice."
 
  cos.68.t: "Teatro Nacional de Costa Rica receives Funding"
- cos.68.d: "Constructed in the late 19th century, when San Jose's population was only around 19,000 people with the money earned during the coffee boom, the Teatro Nacional has long served as one of the prime institutes of high-quality musical and theatrical performances in Central America. Waning interest by the people however and a lack of homegrown plays suited for the prestige of the building however have left it in a somewhat neglected state.\n\nThat was until a company of Flemish-Wallonian investors travelling through the nation during a trade mission sent out by Mitteleuropa came upon the site, instantly falling in love with the institution. Promising to send aid and performers from their homeland, the Teatro has received a sizeable grant to continue its operations with. When a recent reportage was subsequently featured in the Flemish-Wallonian paper De Standaard, a public crowdfunding campaign to support the Teatro was started with great success across their nation.\n\nPresented today by the Ambassador from Mitteleuropa, a small ceremony was held in front of the building in which the grant was symbolically exchanged for a bag of Costa Rican coffee beans."
+ cos.68.d: "Constructed in the late 19th century, when San Jose's population was only around 19,000 people with the money earned during the coffee boom, the Teatro Nacional has long served as one of the prime institutes of high-quality musical and theatrical performances in Central America. Waning interest by the people however and a lack of homegrown plays suited for the prestige of the building however have left it in a somewhat neglected state.\n\nThat was until a company of Flemish-Walloon investors travelling through the nation during a trade mission sent out by Mitteleuropa came upon the site, instantly falling in love with the institution. Promising to send aid and performers from their homeland, the Teatro has received a sizeable grant to continue its operations with. When a recent reportage was subsequently featured in the Flemish-Walloon paper De Standaard, a public crowdfunding campaign to support the Teatro was started with great success across their nation.\n\nPresented today by the Ambassador from Mitteleuropa, a small ceremony was held in front of the building in which the grant was symbolically exchanged for a bag of Costa Rican coffee beans."
  cos.68.a: "Most generous of them."
 
 ### Not Yet Coded ##
@@ -885,7 +878,7 @@
  cos.77.a: "H-he can't do this!"
 
  cos.78.t: "Education Reform"
- cos.78.d: "Ever since liberal reforms back in 1884 and 1894 put a stop to the catholic influence in our education program, the nation has prided itself on having an advanced level of literacy. "Costa Rica has more teachers than soldiers" is one of the favourite ways a Costa Rican describes his country and this pride is deeply nested.\n\nThat is until now as President Calderón has recently announced dramatic changes to primary and secondary education based on his inspiration source, the Papal encyclical "Rerum Novarum". "religion should be obeyed; that a high standard of morality should prevail, both in public and private life." Based on these ideas, Calderón not only reverted the 1894 ban on teachers from monastic orders but even obligated parents who want their child excluded from Catholic teachings to personally deliver a written not to the teacher, by doing so making children who use such notes be seen as "special" and laughing stocks for the others."
+ cos.78.d: "Ever since liberal reforms back in 1884 and 1894 put a stop to the Catholic influence in our education program, the nation has prided itself on having an advanced level of literacy. "Costa Rica has more teachers than soldiers" is one of the favourite ways a Costa Rican describes his country and this pride is deeply nested.\n\nThat is until now as President Calderón has recently announced dramatic changes to primary and secondary education based on his inspiration source, the Papal encyclical "Rerum Novarum". "religion should be obeyed; that a high standard of morality should prevail, both in public and private life." Based on these ideas, Calderón not only reverted the 1894 ban on teachers from monastic orders but even obligated parents who want their child excluded from Catholic teachings to personally deliver a written note to the teacher, by doing so making children who use such notes be seen as "special" and laughing stocks for the others."
  cos.78.a: "The separation between Church and State becomes less distinct by the day."
 
  cos.79.t: ""Paco o Medias""
@@ -1061,7 +1054,6 @@
  cos.118.d: "It has taken blood, sweat and tears but finally we can proudly proclaim that Coto is back under our control. Whilst the international community looks down on us for denying a peaceful resolution, they have no desire to intervene a second time, leaving Costa Rica at our mercy."
  cos.118.a: "Long Live Panama."
 
-
  cos.120.t: "[COS.GetName] in our Faction?"
  cos.120.d: "Since we took care of their little nation after the American Civil War broke out, the Costa Ricans have offered to join our war effort. Whilst their input in this war will be minimal of any, it's a nice gesture from them and is a morale boost for the people at home."
  cos.120.a: "Welcome aboard!"
@@ -1119,7 +1111,23 @@
  COS_rafael_angel_calderon_guardia: "Rafael Ángel Calderón Guardia"
  COS_teodoro_picado_michalski: "Teodoro Picado Michalski"
  COS_jose_figueres_ferrer: "José Figueres Ferrer"
+
  COS_ricardo_jimenez_oreamuno: "Ricardo Jiménez Oreamuno"
+ COS_ricardo_jimenez_oreamuno_leader_desc: "The son of two-time president Jesús Jiménez Zamora, Ricardo Jiménez Oreamuno rose to prominence before the Weltkrieg. In his first term as president between 1910 and 1914, he oversaw the repayment of the country's crippling national debt. By his third stint as president, the country's national debt had again skyrocketed, and again President Jiménez attempted, less successfully than before, to bring Costa Rica back from the brink of default.\nLooking forward, Jiménez fears that without a principled hand to guide it, Costa Rican democracy could be hijacked by foreign economic interests. Perhaps though he wishes to retire from politics, such fears will ensure his continued presence."
+
  COS_leon_cortes_castro: "León Cortés Castro"
+
  COS_consejo_de_seguridad_nacional: "Consejo de Seguridad Nacional"
+ COS_consejo_de_seguridad_nacional_leader_desc: "With great political disruption at hand, a mostly conservative Council of Ministers has been appointed collectively act as both head of state and government while national affairs are sorted."
+
  COS_fernando_figuls_quiros: "Fernando Figuls Quiros"
+
+ COS_julio_acosta_garcia: "Julio Acosta Garcia"
+ COS_ricardo_castro_beeche: "Ricardo Castro Beeche"
+ COS_rafael_calderon_mumoz: "Rafael Calderon Mumoz"
+ COS_jose_albertazzi_avendano: "Jose Albertazzi Avendano"
+ COS_juan_rafael_arias_bonilla: "Juan Rafael Arias Bonilla"
+ COS_cleto_gonzalez_viquez: "Cleto Gonzalez Viquez"
+ COS_santos_leon_herrera: "Santos Leon Herrera"
+ COS_jorge_volio_jimenez: "Jorge Volio Jimenez"
+ COS_manuel_zuniga_jiron: "Manuel Zuniga Jiron"

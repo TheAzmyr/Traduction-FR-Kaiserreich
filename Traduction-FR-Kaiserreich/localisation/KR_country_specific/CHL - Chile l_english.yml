@@ -1,17 +1,18 @@
 ﻿l_english:
 
  chile_focus: "Chile Focus Tree"
+ Southern_Alliance: "Southern Syndicalist Alliance"
 
 ### Country Names ###
  CHL: "Chile"
  CHL_ADJ: "Chilean"
  CHL_DEF: "Chile"
 
-### Leaders ###
- POLITICS_MARMADUKE_GROVE_DESC: "Grove was born in the northern city of Copiapó on 6 July 1878 to José Marmaduke Grove Abalos, a lawyer, and Ana Vallejo Burgoa. In 1891, his father was exiled for opposing President José Manuel Balmaceda. Despite his early opposition to the ruling authorities, he joined the Chilean naval academy in 1892. Exiled due to his socialist tendencies, he was chosen to perform a role as a liaison in Great Britain, effectively just to keep him out of Chile. But there he took part in the Revolution, and during his exile, During the rule of President Ibañez Del Campo, Chile's economy worsened and in 1931 the country went bankrupt. Shortly after this, Ibañez was deposed when most of the army and navy mutinied, allowing for Grove's return to Chile and the proclamation of the Socialist Republic. His recent ascension to the post of Chairman is one that clearly signals that both Military and Civil authorities in Chile consider conflict with Argentina nigh inevitable after years of support for the Patagonian rebels."
-
 ### Ship Name Lists ###
  NAME_THEME_CHL_SUBMARINE_NUMBERED: "H-Class Submarines"
+
+### World Tension ###
+ CHL_counterrevolution_threat: "Counterrevolution in Chile"
 
 ### Ideas ###
  CHL_airmanufactury: "Aerial Production"
@@ -73,6 +74,7 @@
  arsenales_de_marina: "Arsenales de Marina"
  maestranza_central_aviacion: "Maestranza Central de Aviación"
  linea_area_nacional: "Linea Aérea Nacional"
+ corfo: "CORFO"
 
 ### Country Flags ###
  CHLelectionshappened: "The Elections for the Third Chairman have occurred"
@@ -173,8 +175,8 @@
  CHL_andean_strategy_desc: "The so-called Santiago Line will be the last stand of our nation, if Argentina overpowers us and crossed the Andes. The rough terrain near and around Santiago will be made impenetrable to foreign invaders, which will allow us to resist even the harshest numerical disadvantage."
  CHL_long_term_planning: "Long Term Planning"
  CHL_long_term_planning_desc: "Not only battles and combat engagements are important, but the very movement and organisation of both our forces and that of our enemies will be thoroughly studied, and prepare our general staff for the challenge of the coming War of Imperialism."
- CHL_strategic_mining: "Strategic Mining"
- CHL_strategic_mining_desc: "Let us open new mines to sustain our military production, for the riches of Chile must be used to safeguard its safety."
+ CHL_strategic_mining: "Economic Development"
+ CHL_strategic_mining_desc: "To be effective in wartime, we must invest in the economy. Further industrialization will be extremely beneficial to our country."
  CHL_doctrine_offense: "Offensive Doctrine"
  CHL_doctrine_offense_desc: "We will ensure our forces and general staff are ready to go on the offensive against our enemies. Regimental pride can only go so far, strategy and planning will ensure our final victory!"
  CHL_miltarism: "Military Supremacy"
@@ -387,7 +389,7 @@
 
  chl.11.t: "Chile asks for Tierra del Fuego"
  chl.11.d: "Our comrades in Chile are asking for control over the state of Tierra del Fuego as reparations for their help in the war against Argentina."
- chl.11.a: "Its worthless, they can have it."
+ chl.11.a: "It's worthless, they can have it."
  chl.11.b: "Never!"
 
  chl.12.t: "Seize the Galapagos"
@@ -412,6 +414,10 @@
  chl.16.d: "Despite our best efforts we are currently losing our war to the Argentinians, and rumours of an anti-syndicalist coup are brewing..."
  chl.16.a: "A committee of officers deposes the Syndicalists!"
  chl.16.b: "We must hold on!"
+
+ chl.161.t: "Counter-revolutionary coup in Chile!"
+ chl.161.d: "Chile, the birthplace of the South American revolution, has fallen to both internal and external foes! Reactionary officers overthrew the government and concluded a separate peace treaty with Argentina. We've been betrayed!"
+ chl.161.a: "We are doomed..."
 
  chl.17.t: "The Coup Succeeds!"
  chl.17.d: "The committee of officers have succeeded! The two main factions of the group are the officers led by Bartolomé Blanche, who advocates for a temporary Junta to return to Democracy, and the second group led by Francisco Díaz Valderrama, who wants to secure the power of the state in a Nationalist Junta. Only one of these factions can emerge on top of Chile's new government though..."
@@ -594,18 +600,24 @@
  chl.56.d: "Inexplicably, [From.GetNameDefCap] has refused to allow our entry into the Third Internationale."
  chl.56.a: "Are they out of their minds?"
 
-
 ### Decisions ###
  CHL_join_internationale: "Join the Internationale"
  CHL_join_internationale_desc: "Many of our men, including Marmaduke Grove himself, were part of the Revolution both there and in Britain. Now, with socialism having triumphed decisively in Argentina, we should take our place amidst our brothers and sisters of the international syndicalist community."
 
- CHL_industrial_development: "Industrial Development"
- CHL_state_category_development: "Develop [FROM.GetName]"
+ CHL_industrial_development_decisions: "Industrial Development"
+ CHL_state_category_development: "Preliminary Industrial Development in [FROM.GetName]"
+ CHL_state_category_development_further: "Further Industrial Development in [FROM.GetName]"
+ CHL_infrastructure_development: "Modernise Infrastructure in [FROM.GetName]"
+ CHL_industrial_development: "Create New Factories in [FROM.GetName]"
+ CHL_state_category_development_INT_help: "Attract Internationale Industrial Assistance to [FROM.GetName]"
 
 ### Characters ###
  CHL_carlos_contrera_labarca: "Carlos Contrera Labarca"
  CHL_pablo_de_rokha: "Pablo de Rokha"
+
  CHL_marmaduke_grove_vallejo: "Marmaduke Grove Vallejo"
+ CHL_marmaduke_grove_vallejo_leader_desc: "Grove was born in the northern city of Copiapó on 6 July 1878 to José Marmaduke Grove Abalos, a lawyer, and Ana Vallejo Burgoa. In 1891, his father was exiled for opposing President José Manuel Balmaceda. Despite his early opposition to the ruling authorities, he joined the Chilean naval academy in 1892. Exiled due to his socialist tendencies, he was chosen to perform a role as a liaison in Great Britain, effectively just to keep him out of Chile. But there he took part in the Revolution, and during his exile, During the rule of President Ibañez Del Campo, Chile's economy worsened and in 1931 the country went bankrupt. Shortly after this, Ibañez was deposed when most of the army and navy mutinied, allowing for Grove's return to Chile and the proclamation of the Socialist Republic. His recent ascension to the post of Chairman is one that clearly signals that both Military and Civil authorities in Chile consider conflict with Argentina nigh inevitable after years of support for the Patagonian rebels."
+
  CHL_clotario_leopoldo_blest_riffo: "Clotario Leopoldo Blest Riffo"
  CHL_ricardo_eliecer_neftali_reyes_basoalto: "Ricardo Eliécer Neftalí Reyes Basoalto"
  CHL_salvador_guillermo_allende_gossens: "Salvador Guillermo Allende Gossens"
@@ -632,3 +644,15 @@
  CHL_carlos_jouanne_de_la_motte_du_portail: "Carlos Jouanne de la Motte du Portail"
  CHL_francisco_oryan_orrego: "Francisco O'Ryan Orrego"
  CHL_vicente_merino_bielich: "Vicente Meriño Bielich"
+
+ CHL_oscar_schnake: "Óscar Alex Enrique Schnake Vergara"
+ CHL_carlos_davila: "Carlos Gregorio Dávila Espinoza"
+ CHL_carlos_alberto_martinez: "Carlos Alberto Martínez"
+ CHL_hernan_barros_bianchi: "Hernán Barros Bianchi"
+ CHL_gaston_kulczewski_garcia: "Gastón Kulczewski García"
+ CHL_arturo_merino_benitez: "Arturo Merino Benítez"
+ CHL_oscar_novoa_fuentes: "Oscar Novoa Fuentes"
+ CHL_manuel_tovarias: "Manuel Tovarías Arroyo"
+ CHL_raul_gonzalez_nolle: "Raúl González Nolle"
+ CHL_luis_otero_mujica: "Luis Otero Mujica"
+ CHL_diego_aracena: "Diego Aracena"
