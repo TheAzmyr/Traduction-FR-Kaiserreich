@@ -43,8 +43,8 @@
  NMB_GER_DEF: "Südwestafrika"
 
 ### Decisions ###
- NMB_retake_africa_category: "Reprendre l'Afrique"
  NMB_invade_target: "Envahir [FROM.GetNameDef]"
+ NMB_invade_target_tt: "§GDébloquer les décisions pour reprendre l'Afrique§!"
 
 ### Ideas ###
  NMB_idea_increase_conscription1: "Augmentation de la conscription"
@@ -125,8 +125,7 @@ statthalter_choice: "Notre décision sur cette politique sera décidée par le S
  NMB_land_campaign_ready: "Déverouille la priorité §YLancer la Campagne§!\n"
  NMB_land_campaign_ready_flag: "Nos forces doivent être prêtes à lancer la campagne !"
  NMB_BRT_german_tooltip: "Une fois la campagne lancée, nous demanderons l'aide de l'Allemagne. S'ils acceptent, nous obtiendrons des unités §Y1.00K§! de §Ymatériel d'infanterie§! et §G+1000§! de main d'œuvre."
- NMB_BRT_preparation_tooltip: "Une fois la campagne lancée, nous obtiendrons \"§YPreparations de Campagne§!\", qui accorde (Organisation des Divisions : §G+15,0%§!, taux de Recouvrement des Divisions : §G+15,0%§!) pour 60 jours de campagne."
- NMB_retake_africa_tt: "Débloque £decision_icon_small §HDecisions§! to §YReprendre l'Afrique§!"
+ NMB_BRT_preparation_tooltip: "Une fois la campagne commencée, nous obtiendrons \"§YPréparation de Campagne§!\", qui octroie ($MODIFIER_ARMY_ORG_FACTOR$ : §G+15.0%§!, $MODIFIER_ARMY_MORALE_FACTOR$ : §G+15,0%§!) pendant §Y60§! jours."
 
 ### Focuses ###
 
@@ -194,7 +193,10 @@ statthalter_choice: "Notre décision sur cette politique sera décidée par le S
  NMB_BRT_railway_expansion: "Le chemin de fer atteint la Barotseland"
  NMB_BRT_railway_expansion_desc: "Le chemin de fer que nous avons commencé à construire en Namibie peut également être utilisé à Barotseland. L'extension de la voie ferrée à Barotseland peut nous aider à atteindre le reste de l'Afrique".
  NMB_retake_africa: "Reprendre l'Afrique"
- NMB_retake_africa_desc: "Mittelafrika est peut-être tombée, mais nous sommes toujours debout. Il est temps de reprendre l'Afrique et de rendre la gloire allemande à tous les coins du continent."
+ NMB_retake_africa_desc:9 "Mittelafrika est peut-être tombée, mais nous sommes toujours debout. Il est temps de reprendre l'Afrique et de rendre la gloire allemande à tous les coins du continent."
+
+ NMB_the_return_of_mittelafrika:0 "La réforme de la Mittelafrika"
+ NMB_the_return_of_mittelafrika_desc:0 "La plupart des territoires africains allemands étant récupérés par notre administration compétente, nous pouvons officiellement considérer que la Mittelafrika est à nouveau reconstruite au nom de l'empire"
 
 ### Expansion ###
  NMB_german_rule: "Rétablir la règle allemande"
@@ -402,10 +404,6 @@ statthalter_choice: "Notre décision sur cette politique sera décidée par le S
  nmb.24.t: "La recherche ne mène nulle part"
  nmb.24.d: "Malgré de vigoureuses recherches, le pétrole est introuvable. L'ensemble du projet s'est avéré être un gaspillage de ressources et généralement sans valeur. Les espoirs de voir la Namibie devenir une colonie rentable ont été anéantis et le moral n'a jamais été aussi bas".
  nmb.24.a: "Quelle perte de temps."
-
- nmb.25.t: "La réforme de la Mittelafrika"
- nmb.25.d: "La plupart des territoires africains allemands étant récupérés par notre administration compétente, nous pouvons officiellement considérer que la Mittelafrika est à nouveau reconstruite au nom de l'empire".
- nmb.25.a: "La plupart pensaient que c'était impossible, mais ils avaient tort."
 
  nmb.26.t: "La Südwestafrika demande des fournitures"
  nmb.26.d: "Südwestafrika s'est retrouvé impliqué dans un conflit avec l'un des perfides seigneurs de la guerre africains et demande notre aide. Il serait sage de lui venir en aide, car chaque arme que nous y déposons nous aide à nous rapprocher de la réforme de Mittelafrika, et de notre présence en Afrique".

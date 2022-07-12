@@ -1,17 +1,18 @@
 ﻿l_french:
 
 chile_focus: "Arbre des priorités chilien"
+ Southern_Alliance: "Alliance Syndicaliste du Sud"
 
 ### Country Names ###
  CHL: "Chili"
  CHL_ADJ: "Chilien"
  CHL_DEF: "le Chili"
 
-### Leaders ###
-POLITICS_MARMADUKE_GROVE_DESC: "Grove est né le 6 juillet 1878 dans la ville de Copiapó, au nord du pays, de José Marmaduke Grove Abalos, avocat, et d'Ana Vallejo Burgoa. En 1891, son père est exilé pour s'être opposé au président José Manuel Balmaceda. Malgré son opposition précoce au pouvoir en place, il entre à l'académie navale chilienne en 1892. Exilé en raison de ses tendances socialistes, il est choisi pour jouer un rôle de liaison en Grande-Bretagne, dans le seul but de l'empêcher d'entrer au Chili. Mais là, il participe à la révolution et, pendant son exil, sous le règne du président Ibañez Del Campo, l'économie chilienne se dégrade et, en 1931, le pays fait faillite. Peu de temps après, Ibañez a été destitué lorsque la majeure partie de l'armée et de la marine se sont mutinées, ce qui a permis le retour de Grove au Chili et la proclamation de la République socialiste. Sa récente accession au poste de président indique clairement que les autorités militaires et civiles du Chili considèrent le conflit avec l'Argentine comme presque inévitable après des années de soutien aux rebelles patagoniens."
-
 ### Ship Name Lists ###
  NAME_THEME_CHL_SUBMARINE_NUMBERED: "Sous-marins Classe H"
+
+### World Tension ###
+ CHL_counterrevolution_threat: "Contre-révolution au Chili"
 
 ### Ideas ###
 CHL_airmanufactury: "Production aéronautique"
@@ -73,6 +74,7 @@ CHL_home_of_south_american_syndicalism_desc: "Depuis la révolution originelle d
  arsenales_de_marina: "Arsenales de Marina"
  maestranza_central_aviacion: "Maestranza Central de Aviación"
  linea_area_nacional: "Linea Aérea Nacional"
+ corfo: "CORFO"
 
 ### Country Flags ###
 CHLelectionshappened: "Les élections du troisième Président ont eu lieu"
@@ -173,8 +175,8 @@ CHL_andean_strategy: "Stratégie andine"
 CHL_andean_strategy_desc: "La bien-nommée Ligne de Santiago sera le dernier rempart de otre Nation, si l'Argentine nous surpasse et traverse les Andes. Le terrain difficile autour de Santiago doit être rendu impénétrable pour les envahisseurs, ce qui nous permettra de résister même à la pire infériorité numérique"
 CHL_long_term_planning: "Planification à long terme"
 CHL_long_term_planning_desc: "Il n'y a pas que les batailles qui comptent : les mouvements et l'organisation à la fois de nos troupes et des troupes ennemies sera étudié avec attention, et notre Etat-major préparé pour le défi de la guerre contre l'Impérialisme à venir"
-CHL_strategic_mining: "Forages stratégiques"
-CHL_strategic_mining_desc: "Ouvrons de nouvelles mines pour soutenir notre production militaire, que les richesses du Chili soient utilisées pour assurer sa sécurité"
+ CHL_strategic_mining:0 "Développement Economique"
+ CHL_strategic_mining_desc: "Pour être efficace en temps de guerre, nous devons investir dans l'économie. Une industrialisation plus poussée sera extrêmement bénéfique pour notre pays."
 CHL_doctrine_offense: "Doctrine offensive"
 CHL_doctrine_offense_desc: "Nous devons nous assurer que nos forces et notre Etat-major sont prêts à lancer une offensive contre nos ennemis. La fierté des soldats suffit pour l'instant, la stratégie et la planification nous assureros la victoire finale !"
 CHL_miltarism: "Suprématie de l'Armée"
@@ -387,7 +389,7 @@ chl.10.b: "C'est inutile, ils peuvent la garder."
 
 chl.11.t: "Le Chili demande la Terre de feu"
 chl.11.d: "Nos camarades chiliens nous demandent le contrôle de la province de Terre de feu comme compensation en échange de leur aide durant la guerre contre l'Argentine."
-chl.11.a: "Ce territoire est inutile, ils l'auront."
+ chl.11.a:9 "Ce territoire est inutile, ils l'auront."
 chl.11.b: "Jamais !"
 
 chl.12.t: "Saisir les Galapagos"
@@ -412,6 +414,10 @@ chl.16.t: "L'effort de guerre est en train d'échouer !"
 chl.16.d: "Malgré nos efforts nous sommes en train de perdre la guerre contre l'Argentine, et des rumeurs de coup d'état anti-syndicaliste circulent..."
 chl.16.a: "Un groupe d'officiers dépose les Syndicalistes !"
 chl.16.b: "Nous devons tenir !"
+
+ chl.161.t: "Coup d'Etat contre-révolutionnaire au Chili !"
+ chl.161.d: "Le Chili, berceau de la révolution sud-américaine, est tombé aux mains d'ennemis internes et externes ! Des officiers réactionnaires ont renversé le gouvernement et conclu un traité de paix séparé avec l'Argentine. Nous avons été trahis !"
+ chl.161.a:0 "We are doomed..."
 
  chl.17.t: "Le coup d'Etat réussit !"
  chl.17.d: "Les groupe d'officiers a réussi ! Les deux principales factions sont les officiers menées par Bartolomé Blanche, qui défendent l'idée d'une Junte temporaire avant le retour à la Démocratie, et le groupe mené par Francisco Díaz Valderrama, qui veut sécuriser le pouvoir de l'Etat grâce à une Junte nationaliste. Une seule de ces factions peut diriger la pensée du nouveau gouvernement chilien..."
@@ -594,18 +600,24 @@ chl.53.d: "Malgré notre brillant plan pour s'emparer des Iles Galapagos pendant
  chl.56.d: "Inexplicablement, [From.GetNameDefCap] a refusé de nous laisser entrer dans la Troisième Internationale."
  chl.56.a: "Ont-ils perdu la tête ?"
 
-
 ### Decisions ###
 CHL_join_internationale: "Rejoindre l'Internationale"
 CHL_join_internationale_desc: "Beaucoup de nos hommes, dont Marmaduque Grove lui-même, ont pris part à la fois aux Révolutions chilienne et britannique. Désormais, avec le triomphe décisif du socialisme en Argentine, nous devons prendre notre place parmi nos frères et soeurs de la communauté syndicaliste internationale."
 
- CHL_industrial_development: "Développement industriel"
- CHL_state_category_development: "Développer [FROM.GetName]"
+ CHL_industrial_development_decisions:0 "Développement industriel"
+ CHL_state_category_development: "Développement industriel préliminaire dans [FROM.GetName]."
+ CHL_state_category_development_further: "Poursuite du développement industriel dans [FROM.GetName]"
+ CHL_infrastructure_development: "Moderniser les infrastructures en [FROM.GetName]."
+ CHL_industrial_development: "Créer de nouvelles usines dans [FROM.GetName]."
+ CHL_state_category_development_INT_help: "Attirer l'assistance industrielle internationale vers [FROM.GetName]."
 
 ### Characters ###
  CHL_carlos_contrera_labarca: "Carlos Contrera Labarca"
  CHL_pablo_de_rokha: "Pablo de Rokha"
+
  CHL_marmaduke_grove_vallejo: "Marmaduke Grove Vallejo"
+ CHL_marmaduke_grove_vallejo_leader_desc:0 "Grove est né le 6 juillet 1878 dans la ville de Copiapó, au nord du pays, de José Marmaduke Grove Abalos, avocat, et d'Ana Vallejo Burgoa. En 1891, son père est exilé pour s'être opposé au président José Manuel Balmaceda. Malgré son opposition précoce au pouvoir en place, il entre à l'académie navale chilienne en 1892. Exilé en raison de ses tendances socialistes, il est choisi pour jouer un rôle de liaison en Grande-Bretagne, dans le seul but de l'empêcher d'entrer au Chili. Mais là, il participe à la révolution et, pendant son exil, sous le règne du président Ibañez Del Campo, l'économie chilienne se dégrade et, en 1931, le pays fait faillite. Peu de temps après, Ibañez a été destitué lorsque la majeure partie de l'armée et de la marine se sont mutinées, ce qui a permis le retour de Grove au Chili et la proclamation de la République socialiste. Sa récente accession au poste de président indique clairement que les autorités militaires et civiles du Chili considèrent le conflit avec l'Argentine comme presque inévitable après des années de soutien aux rebelles patagoniens."
+
  CHL_clotario_leopoldo_blest_riffo: "Clotario Leopoldo Blest Riffo"
  CHL_ricardo_eliecer_neftali_reyes_basoalto: "Ricardo Eliécer Neftalí Reyes Basoalto"
  CHL_salvador_guillermo_allende_gossens: "Salvador Guillermo Allende Gossens"
@@ -632,3 +644,15 @@ CHL_join_internationale_desc: "Beaucoup de nos hommes, dont Marmaduque Grove lui
  CHL_carlos_jouanne_de_la_motte_du_portail: "Carlos Jouanne de la Motte du Portail"
  CHL_francisco_oryan_orrego: "Francisco O'Ryan Orrego"
  CHL_vicente_merino_bielich: "Vicente Meriño Bielich"
+
+ CHL_oscar_schnake: "Óscar Alex Enrique Schnake Vergara"
+ CHL_carlos_davila:0 "Carlos Gregorio Dávila Espinoza"
+ CHL_carlos_alberto_martinez: "Carlos Alberto Martínez"
+ CHL_hernan_barros_bianchi: "Hernán Barros Bianchi"
+ CHL_gaston_kulczewski_garcia: "Gastón Kulczewski García"
+ CHL_arturo_merino_benitez: "Arturo Merino Benítez"
+ CHL_oscar_novoa_fuentes: "Oscar Novoa Fuentes"
+ CHL_manuel_tovarias: "Manuel Tovarías Arroyo"
+ CHL_raul_gonzalez_nolle: "Raúl González Nolle"
+ CHL_luis_otero_mujica:0 "Luis Otero Mujica"
+ CHL_diego_aracena:0 "Diego Aracena"

@@ -19,36 +19,13 @@ REQUEST_EXP_FORCE_BLOCKED_TT: "§RCe pays ne vous permet pas de demander ses for
  RECALL_VOLUNTEERS_ACTION_SEND_DESC: "Rappeler tous les volontaires envoyés à §Y[FROM.GetNameDef]§!?"
 
 ### Regular Tooltips ###
- empty: ""
-if_FROM_agrees: "Si §H[From.GetFlag] [From.GetNameDef]§! est d'accord :"
- needs_approval: "Si §H[This.GetNameDef]§! est d'accord :"
-upon_selecting_focus: "Lors du choix de la priorité :"
- tooltip_white_line: "   \n"
- integration_tooltip: "Voir les zones non intégrées"
- integrate_state: "Intégrer [From.GetName]"
- cannot_enact_conscription_tt: "§RImpossible d'augmenter les lois sur la conscription.§!"
- cannot_train_units_tt: "§RImpossible de former des unités, de dissoudre des unités ou de modifier des modèles d'unités.§!\n"
- cannot_mobilise_tt: "§RImpossible d'augmenter les lois sur la conscription ou la mobilisation.§!\n"
- cannot_build_armor_tt: "§RNe peut pas construire de blindés.§!"
- upon_starting_focus: "§HEn sélectionnant cette priorité§!:"
  returned_all_expeditionary_forces_of_puppets: "A renvoyé toutes les forces expéditionnaires envoyées par les marionnettes."
  puppet_but_keep_government_tt: "([to_be_overlord.GetFlag]§H[to_be_overlord.GetName]§!) §H[marked_country.GetName]§! devient une marionnette de §H[to_be_overlord.GetName]§!, mais conserve ses paramètres actuels de gouvernement et de popularité."
- elections_in_three_months: "§HLes élections auront lieu dans trois mois§!\n"
- characters_will_be_retired: "§RLes personnages suivants seront retirés :§!"
- characters_will_be_recruited: "§GLes personnages suivants seront recrutés :§!"
- tooltip_immediate_effect_upon_focus_start: "§YEffet immédiat dès le lancement de la priorité :§!\n"
- tooltip_effect_upon_focus_completion: "\n§GEffet lors de l'achèvement de la priorité :§!\n"
- cannot_justify_on_capitulated_country: "§RLes objectifs de guerre ne peuvent être justifiés sur des nations capitulées.§!"
 
- same_wars_as_ROOT: "N'est pas en guerre avec quelqu'un qui n'est pas aussi en guerre avec [Root.GetNameDef]"
- same_wars_as_FROM: "N'est pas en guerre avec quelqu'un qui n'est pas aussi en guerre avec [From.GetNameDef]"
- same_wars_as_TARGET: "N'est pas en guerre contre quiconque n'est pas également en guerre contre [?target.GetNameDef]"
- same_wars_as_RUS: "N'est pas en guerre avec quelqu'un qui n'est pas aussi en guerre avec [RUS.GetNameDef]"
- same_wars_as_GER: "N'est pas en guerre avec quelqu'un qui n'est pas aussi en guerre avec [GER.GetNameDef]"
- same_wars_as_JAP: "N'est pas en guerre avec quelqu'un qui n'est pas aussi en guerre avec [JAP.GetNameDef]"
- same_wars_as_AUS: "N'est pas en guerre avec quelqu'un qui n'est pas aussi en guerre avec [AUS.GetNameDef]"
- same_wars_as_ENT: "N'est pas en guerre avec quelqu'un qui n'est pas aussi en guerre avec l'Entente"
+ RULE_GUARANTEES_AFTER_WK2_TT: "§RAvant le début de la Seconde Weltkrieg, les garanties ne peuvent être données qu'à travers les priorités, les événements et les décisions nationales.§!"
+ RULE_WARGOALS_AFTER_WK2_TT: "§RAvant le début de la Seconde Weltkrieg, les objectifs de guerre ne peuvent être obtenus qu'à partir des priorités, événements et décisions nationales.§!"
 
+### Plurality Triggers ###
  totalist_plurality: "§o[?token:totalist.GetTokenLocalizedKey]§! a la plus haute popularité"
  syndicalist_plurality: "§r[?token:syndicalist.GetTokenLocalizedKey]§! a la plus haute popularité"
  radical_socialist_plurality: "§R[?token:radical_socialist.GetTokenLocalizedKey]§! a la plus haute popularité"
@@ -59,7 +36,7 @@ upon_selecting_focus: "Lors du choix de la priorité :"
  authoritarian_democrat_plurality: "§L[?token:authoritarian_democrat.GetTokenLocalizedKey]§! a la plus haute popularité"
  paternal_autocrat_plurality: "§P[?token:paternal_autocrat.GetTokenLocalizedKey]§! a la plus haute popularité"
  national_populist_plurality: "§N[?token:national_populist.GetTokenLocalizedKey]§! a la plus haute popularité"
- 
+
 ### Diplomacy Triggers ###
  cannot_call_allies_or_join_wars: "Impossible d'appeler des alliés ou de participer à des guerres"
  cannot_call_allies_or_join_wars_warning: "§Y[ROOT.GetNameWithFlag]§! §Rne peut pas appeler des alliés ou rejoindre des guerres.§!"
@@ -80,16 +57,15 @@ upon_selecting_focus: "Lors du choix de la priorité :"
  is_in_middle_east: "Est un pays §HMoyen-Oriental§!"
  is_in_oceania: "Est un pays §HOcéanien§!"
 
-### Actual Major Power tooltip ###
+### Actual Major Power Tooltip ###
  is_actual_major_tooltip_base: " Est une puissance majeure mondiale :"
  is_actual_major_tooltip_major: "\n     [THIS.MajorWorldPower_MajorCheck] $TRIGGER_IS_MAJOR$"
  is_actual_major_tooltip_OR: "\n     $TRIGGER_OR_STARTS$"
  is_actual_major_tooltip_seven_largest: "\n          [THIS.MajorWorldPower_AmongSevenLargestIndustries] Possède l'une des sept plus grandes économies du monde"
  is_actual_major_tooltip_average: "\n          [THIS.MajorWorldPower_MoreThanSeventyPercentAverage] Possède plus de §H70 %§! de la capacité industrielle moyenne des sept plus grandes économies."
- is_actual_major_tooltip_countries: "\n          [THIS.MajorWorldPower_SpecialCase] Est un pays §HAllemand§!, §HFrançais§!, §HBritannique§!, §HAméricain§!, §HRusse§! ou §HJaponais§!."
  is_actual_major_tooltip_ENT: "\n          [THIS.MajorWorldPower_IsENT] Est le chef de file de l'§HEntente§!"
 
- is_actual_major: "$is_actual_major_tooltip_base$$is_actual_major_tooltip_major$$is_actual_major_tooltip_OR$$is_actual_major_tooltip_seven_largest$$is_actual_major_tooltip_average$$is_actual_major_tooltip_countries$$is_actual_major_tooltip_ENT$"
+ is_actual_major: "$is_actual_major_without_exceptions$$is_actual_major_tooltip_ENT$"
  is_actual_major_without_exceptions: "$is_actual_major_tooltip_base$$is_actual_major_tooltip_major$$is_actual_major_tooltip_OR$$is_actual_major_tooltip_seven_largest$$is_actual_major_tooltip_average$"
 
 ### Renaming System ###
@@ -113,6 +89,7 @@ kr_occupied_puppet: "Fantoche Occupé"
 kr_default_puppet: "Fantoche"
 kr_autonomous_puppet: "Fantoche Autonome"
 kr_colonial_government: "gouvernement colonial"
+ kr_french_colonial_government:0 "Gouvernement colonial"
 kr_nominal_puppet: "Fantoche Nominal"
 kr_special_autonomous_dependency: "Dépendance Autonome"
 kr_initial_wif_puppet: "Colonie fédérée"
@@ -125,18 +102,14 @@ kr_federated_state: "État confédéré"
  kr_oststaat_autonomous: "Oststaat Autonome"
 
 ### Autonomy Tooltips ###
-can_lower_autonomy_level: "Peut abaisser le niveau d'autonomie\n"
-can_raise_autonomy_level: "Peut augmenter le niveau d'autonomie\n"
-puppet_can_become_free: "Peut devenir indépendant\n"
-puppet_can_be_annexed: "Peut être annexé par le suzerain\n"
-may_raise_autonomy: "§Y[Root.GetNameDefCap]§! peut augmenter le niveau d'autonomie une fois que l'autonomie a suffisamment augmenté\n"
-may_become_free: "§Y[Root.GetNameDefCap]§! peut maintenant œuvrer vers l'indépendance\n"
-clamour_for_independence: "Réclamer l'indépendance\n"
-clamour_for_autonomy: "Réclamer de l'autonomie\n"
-
-### Modifiers ###
-chief_of_staff_cost_factor: "Coût du chef du Cabinet "
-chief_of_army_cost_factor: "Coût du chef de l'armée de terre "
+ can_lower_autonomy_level: "Peut abaisser le niveau d'autonomie\n"
+ can_raise_autonomy_level: "Peut augmenter le niveau d'autonomie\n"
+ puppet_can_become_free: "Peut devenir indépendant\n"
+ puppet_can_be_annexed: "Peut être annexé par le suzerain\n"
+ may_raise_autonomy: "§Y[Root.GetNameDefCap]§! peut augmenter le niveau d'autonomie une fois que l'autonomie a suffisamment augmenté\n"
+ may_become_free: "§Y[Root.GetNameDefCap]§! peut maintenant œuvrer vers l'indépendance\n"
+ clamour_for_independence: "Réclamer l'indépendance\n"
+ clamour_for_autonomy: "Réclamer de l'autonomie\n"
 
 ### Opinion Modifiers ###
 KR_friendly: "Amical"
@@ -170,6 +143,20 @@ FROM_becomes_nominal_puppet: "§H[From.GetNameDefCap]§! devient un §HFantoche 
 ### Compliance ###
 compliance_integration: "Intégration"
 
+### World Tension ##
+ AL_avricourt_shelled: "Village d'Avricourt bombardé par §Y[GER.GetNonIdeologyNameDef]§!"
+ AL_elfringen_shelled: "Village d'Elfringen bombardé par §Y[FRA.GetNonIdeologyNameDef]§!"
+ FRA_mobilizes_on_border: "§Y[FRA.GetNonIdeologyNameDefCap]§! mobilise ses forces sur la frontière §Y[GER.GetAdjective]§!"
+ GER_mobilizes_on_border: "§Y[GER.GetNonIdeologyNameDefCap]§! mobilise ses forces sur la frontière §Y[FRA.GetAdjective]§!"
+ AL_avricourt_apology: "§Y[GER.GetNonIdeologyNameDefCap]§! s'excuse d'avoir bombardé Avricourt"
+ AL_elfringen_apology: "§Y[FRA.GetNonIdeologyNameDefCap]§! s'excuse d'avoir bombardé Elfringen"
+ AL_avricourt_compensation_sent: "§Y[GER.GetNonIdeologyNameDefCap]§! compense §Y[FRA.GetNonIdeologyNameDef]§! pour Avricourt"
+ AL_elfringen_compensation_sent: "§Y[FRA.GetNonIdeologyNameDefCap]§! compense §Y[GER.GetNonIdeologyNameDef]§! pour Elfringen"
+ AL_uneasy_ceasefire: "Cessez-le-feu §YFranco-Allemand§! difficile"
+ AL_rally_for_war: "§Y[THIS.GetNonIdeologyNameDefCap]§! rejoint la guerre"
+ second_weltkrieg_threat:0 "Seconde Weltkrieg"
+ country_joins_alliance_threat: "§Y[THIS.GetNonIdeologyNameDefCap]§! rejoint le §Y[PREV.GetFactionName]§!"
+
 ### Operatives ###
  operation_infiltrate_armed_forces_army_outcome: "efficacité $operation_infiltrate_armed_forces_army$"
  operation_infiltrate_armed_forces_army_risk: "risque $operation_infiltrate_armed_forces_army$"
@@ -195,39 +182,12 @@ compliance_integration: "Intégration"
  NAME_THEME_INSPIRATIONAL: "Inspirant"
  NAME_THEME_STATES_CITIES: "États et Villes"
 
-### Colours (for use in scripted loc) ###
- colour_cyan: "C"
- colour_dirty_grey: "L"
- colour_white: "W"
- colour_blue: "B"
- colour_green: "G"
- colour_red: "R"
- colour_black: "b"
- colour_grey: "g"
- colour_yellow: "Y"
- colour_orange: "O"
+### Second in Command ###
+ second_in_command_slot: "Commandant en Second"
+ second_in_command: "Commandant en Second"
 
- colour_gradient_purple: "0"
- colour_gradient_lilac: "1"
- colour_gradient_blue: "2"
- colour_gradient_navy_blue: "3"
- colour_gradient_light_blue: "4"
- colour_gradient_cyan: "5"
- colour_gradient_turquoise: "6"
- colour_gradient_light_green: "7"
- colour_gradient_yellow: "8"
- colour_gradient_orange: "9"
- colour_gradient_red: "5"
-
- colour_totalist_red: "o"
- colour_syndicalist_red: "r"
- colour_socdem_pink: "S"
- colour_soclib_orange: "l"
- colour_marlib_yellow: "m"
- colour_soccon_blue: "c"
- colour_pataut_grey: "P"
- colour_natpop_brown: "N"
- colour_natpop_green: "n"
+#empty - should be hidden
+ second_in_command_trait: "   "
 
 ### Events ###
 kr.political.100.t: "L'Ordre Restauré en [Root.GetNameDef]"
@@ -363,13 +323,6 @@ military_police_tech: "Police  Militaire "
 ### Research Bonus Names ###
 refinery_bonus: "Bonus de raffinage"
 
-### Interface ###
-can_replace_hog: "Peut Remplacer le Chef du Gouvernement"
-for_cannot_be_replaced: "Le Ministre des Affaires étrangères Ne Peut Pas Être Remplacé"
-eco_cannot_be_replaced: "Le Ministre de l'Economie Ne Peut Pas Être Remplacé"
-sec_cannot_be_replaced: "Le Ministre de la Sécurité Ne Peut Pas Être Remplacé"
-ministers_cannot_be_replaced: "Les Ministres Ne Peuvent Pas Être Remplacés"
-
 ### News Events ###
 toggle_news_button_tooltip: "[toggle_news_button_tooltip_loc]"
 toggle_news_button_tooltip_desc: "[toggle_news_button_tooltip_desc_loc]"
@@ -384,341 +337,14 @@ toggle_news_button_tooltip_desc: "[toggle_news_button_tooltip_desc_loc]"
  toggle_news_text_regional: "Afficher les nouvelles régionales"
  toggle_news_text_none: "Afficher aucune nouvelle"
 
-### Factions ###
-all_zhili_faction: "Clique du Zhili"
- austrian_empire_faction: "Monarchie Austro-Hongroise"
-austrian_sphere: "Donau-Adriabund"
-Belgrade_Pact: "Pacte de Belgrade"
- benesam: "Alliance BeNeSam"
-buenos_aires_lima_faction: "Axe Buenos Aires-Lima"
-cairo_pact: "Pacte du Caire"
-CEN_anti_revolutionary_alliance: "Avant-garde du peuple"
-CEN_liberal_pact: "Pacte libéral"
-CEN_revolutionary_front: "Front révolutionnaire"
-china_upc_faction: "Provinces unies de Chine"
-co_prosperity_sphere: "Sphère de coprospérité"
-colombia_gran_alliance: "Pacte andin"
- cos_carib_faction: "Alliance démocratique des Caraïbes"
-EANL_faction: "Ligue nationale d'Asie orientale"
-Entente: "Entente"
-golestan_pact_faction: "Pacte du Golestan"
-indian_alliance_faction: "Alliance indienne"
-league_of_american_states: "Ligue des États américains"
-litrut_faction: "Alliance lituano-ruthène"
- maphilinsul_faction: "Maphilinsul"
-Mittelmacht: "Reichspakt"
-moscow_accord: "Accord de Moscou"
-north_zhili_faction: "Clique du Zhili septentrional"
-npa_faction: "Alliance nationale de protection"
-NRF_faction: "Front national révolutionnaire"
-pacification_faction: "Armée nationale de pacification"
-polukr_faction: "Intermarium syndicaliste"
-Qing_faction: "Empire Qing"
-qing_sphere_faction: "Sphère Qing"
-SA_socialist_states: "États socialistes d'Amérique du Sud"
- SA_dismantle_patagonia: "Coalition pour le démantèlement de l'Andésie"
-Scandinavian_Pact: "Pacte scandinave"
-SCA_faction_scandinavian_defense_union: "Union scandinave de défense"
-SIA_SEATO_alliance: "SEATO"
-syndicalist_asia: "Union syndicaliste orientale"
-syndicalist_asia_per: "Union Socialiste Asiatique"
-Syndicalist_Internationale: "Internationale syndicaliste"
-Third_International: "Troisième Internationale"
-united_front_faction: "Front uni chinois"
-yunnan_R_KMT_faction: "Groupe nationaliste du Sud"
- SOV_faction: "Front Oriental de la Troisième Internationale"
-
 ### Custom Triggers ###
 had_war: "A fait la guerre"
-is_invalid_war_target_tooltip: "N'est pas une cible valable pour la guerre"
-is_valid_war_target_tooltip: "Est une cible valable pour la guerre"
 not_during_ceasefire: "Pas tant que le cessez-le-feu est maintenu"
 
-### Commonly used in scripted loc ###
- loc_royal: "royal"
- loc_royal_cap: "Royal"
- loc_royal_with_space: "$loc_royal$ "
- loc_royal_cap_with_space: "$loc_royal_cap$ "
-
- loc_has: "a"
- loc_have: "a"
-
- loc_its: "son"
- loc_their: "leur"
- loc_theirs: "leur"
-
-### Commonly used custom decision costs ###
- CP_5: "£command_power §H5§!"
- CP_5_blocked: "£command_power §R5§!"
- CP_5_tooltip: "Cela coûte $CP_5_blocked$ de prendre la décision"
-
- CP_10: "£command_power §H10§!"
- CP_10_blocked: "£command_power §R10§!"
- CP_10_tooltip: "Cela coûte $CP_10_blocked$ de prendre la décision"
-
- CP_15: "£command_power §H15§!"
- CP_15_blocked: "£command_power §R15§!"
- CP_15_tooltip: "Cela coûte $CP_15_blocked$ de prendre la décision"
-
- CP_20: "£command_power §H20§!"
- CP_20_blocked: "£command_power §R20§!"
- CP_20_tooltip: "Cela coûte $CP_20_blocked$ de prendre la décision"
-
- CP_25: "£command_power §H25§!"
- CP_25_blocked: "£command_power §R25§!"
- CP_25_tooltip: "Cela coûte $CP_25_blocked$ de prendre la décision"
-
- CP_30: "£command_power §H30§!"
- CP_30_blocked: "£command_power §R30§!"
- CP_30_tooltip: "Cela coûte $CP_30_blocked$ de prendre la décision"
-
- CP_35: "£command_power §H35§!"
- CP_35_blocked: "£command_power §R35§!"
- CP_35_tooltip: "Cela coûte $CP_35_blocked$ de prendre la décision"
-
- CP_40: "£command_power §H40§!"
- CP_40_blocked: "£command_power §R40§!"
- CP_40_tooltip: "Cela coûte $CP_40_blocked$ de prendre la décision"
-
- CP_45: "£command_power §H45§!"
- CP_45_blocked: "£command_power §R45§!"
- CP_45_tooltip: "Cela coûte $CP_45_blocked$ de prendre la décision"
-
- CP_50: "£command_power §H50§!"
- CP_50_blocked: "£command_power §R50§!"
- CP_50_tooltip: "Cela coûte $CP_50_blocked$ de prendre la décision"
-
- CP_55: "£command_power §H55§!"
- CP_55_blocked: "£command_power §R55§!"
- CP_55_tooltip: "Cela coûte $CP_55_blocked$ de prendre la décision"
-
- CP_60: "£command_power §H60§!"
- CP_60_blocked: "£command_power §R60§!"
- CP_60_tooltip: "Cela coûte $CP_60_blocked$ de prendre la décision"
-
- CP_65: "£command_power §H65§!"
- CP_65_blocked: "£command_power §R65§!"
- CP_65_tooltip: "Cela coûte $CP_65_blocked$ de prendre la décision"
-
- CP_70: "£command_power §H70§!"
- CP_70_blocked: "£command_power §R70§!"
- CP_70_tooltip: "Cela coûte $CP_70_blocked$ de prendre la décision"
-
- CP_75: "£command_power §H75§!"
- CP_75_blocked: "£command_power §R75§!"
- CP_75_tooltip: "Cela coûte $CP_75_blocked$ de prendre la décision"
-
- CP_80: "£command_power §H80§!"
- CP_80_blocked: "£command_power §R80§!"
- CP_80_tooltip: "Cela coûte $CP_80_blocked$ de prendre la décision"
-
- CP_85: "£command_power §H85§!"
- CP_85_blocked: "£command_power §R85§!"
- CP_85_tooltip: "Cela coûte $CP_85_blocked$ de prendre la décision"
-
- CP_90: "£command_power §H90§!"
- CP_90_blocked: "£command_power §R90§!"
- CP_90_tooltip: "Cela coûte $CP_90_blocked$ de prendre la décision"
-
- CP_95: "£command_power §H95§!"
- CP_95_blocked: "£command_power §R95§!"
- CP_95_tooltip: "Cela coûte $CP_95_blocked$ de prendre la décision"
-
- CP_100: "£command_power §H100§!"
- CP_100_blocked: "£command_power §R100§!"
- CP_100_tooltip: "Cela coûte $CP_100_blocked$ de prendre la décision"
-
 ### Other ###
- unlock_focuses: "§GCette priorité sera éventuellement contournée automatiquement et déverrouillera les autres priorités.§!\n"
- unlocks_after_event: "§GCette priorité sera automatiquement déverrouillée par événement§!\n"
- if_accepted: "Si accepté :"
 command_economy: "Economie de commande"
  asked_to_join: "La participation a été demandée par une autre nation"
- received_equipment_500: "Vous avez reçu §G500§! de matériel d'infanterie de ce pays\n"
-received_equipment_1000: "Vous avez reçu §G1000§! de matériel d'infanterie de ce pays\n"
-received_equipment_1500: "Vous avez reçu §G1500§! de matériel d'infanterie de ce pays\n"
-received_equipment_2000: "Vous avez reçu §G2000§! de matériel d'infanterie de ce pays\n"
-received_equipment_5000: "Vous avez reçu §G5000§! de matériel d'infanterie de ce pays\n"
-generic_head_of_intelligence: "Directeur du service de renseignement"
  generic_research_advances: "Recherches Avancées"
-recruit_generic_spymaster: "Recruter un directeur du renseignement"
-recruit_generic_spymaster_desc: "Nous devrons nommer un directeur pour les services de renseignement qui soit efficace."
-
-### Generic Ministers ###
-head_of_government: "Chef du Gouvernement"
-foreign_minister: "Affaires Étrangères"
-economy_minister: "Ministre de l'Économie"
-security_minister: "Ministre de l'Intérieur"
-head_of_intel: "Directeur du renseignement"
-
-### Country-Specific Ministers ###
- # BAT:
- knight_captain_of_liv_ord: "Chevalier-Capitaine"
- # BAT:
-land_marshal_of_liv_ord: "Maréchal"                # BAT
- # CAN:
-leader_of_the_british_exiles: "Premier ministre britannique" # CAN
- # LEC:
-underworld_boss: "Patron de la pègre"
- # ROM:
-marshal_of_the_palace: "Maréchal du Palais"
- # SAF, SFR:
-minister_of_native_affairs: "Min. des affaires indigènes"
- # NFA:
- national_philosopher: "Philosophe national"
- # JBS:
- faction_minister: "Faction Interne"
- # POL:
- kings_trusted_councillor: "Conseiller de confiance du Roi"
-
-### Company Traits ###
-
-generic_arms_company: "Société générique d'armement"
-generic_tank_company: "Société générique de chars d'assaut "
-generic_fighter_company: "Société générique de chasseurs "
-generic_artillery_company: "Société générique d'artillerie "
-generic_car_company: "Société générique de motorisation"
-generic_industrial_company: "Société générique industrielle"
-generic_naval_company: "Société générique de la marine "
-
-### Tank ###
-small_tank_producer_offense_0: "Fabricant de Char Léger"
-small_tank_producer_offense_1: "Fabricant de Char Léger"
-small_tank_producer_offense_2: "Fabricant de Char Léger"
-small_tank_producer_defense_0: "Fabricant de Char Léger"
-small_tank_producer_defense_1: "Fabricant de Char Léger"
-small_tank_producer_defense_2: "Fabricant de Char Léger"
-small_tank_producer_mass_0: "Fabricant de Char Léger"
-small_tank_producer_mass_1: "Fabricant de Char Léger"
-small_tank_producer_mass_2: "Fabricant de Char Léger"
-medium_tank_producer_offense_0: "Fabricant de Char Moyen"
-medium_tank_producer_offense_1: "Fabricant de Char Moyen"
-medium_tank_producer_offense_2: "Fabricant de Char Moyen"
-medium_tank_producer_defense_0: "Fabricant de Char Moyen"
-medium_tank_producer_defense_1: "Fabricant de Char Moyen"
-medium_tank_producer_defense_2: "Fabricant de Char Moyen"
-medium_tank_producer_mass_0: "Fabricant de Char Moyen"
-medium_tank_producer_mass_1: "Fabricant de Char Moyen"
-medium_tank_producer_mass_2: "Fabricant de Char Moyen"
-heavy_tank_producer_offense_0: "Fabricant de Char Lourd"
-heavy_tank_producer_offense_1: "Fabricant de Char Lourd"
-heavy_tank_producer_offense_2: "Fabricant de Char Lourd"
-heavy_tank_producer_defense_0: "Fabricant de Char Lourd"
-heavy_tank_producer_defense_1: "Fabricant de Char Lourd"
-heavy_tank_producer_defense_2: "Fabricant de Char Lourd"
-heavy_tank_producer_mass_0: "Fabricant de Char Lourd"
-heavy_tank_producer_mass_1: "Fabricant de Char Lourd"
-heavy_tank_producer_mass_2: "Fabricant de Char Lourd"
-
-### Air ###
-fighter_producer_offense_0: "Fabricant des chasseurs"
-fighter_producer_offense_1: "Fabricant des chasseurs"
-fighter_producer_offense_2: "Fabricant des chasseurs"
-fighter_producer_defense_0: "Fabricant des chasseurs"
-fighter_producer_defense_1: "Fabricant des chasseurs"
-fighter_producer_defense_2: "Fabricant des chasseurs"
-fighter_producer_mass_0: "Fabricant des chasseurs"
-fighter_producer_mass_1: "Fabricant des chasseurs"
-fighter_producer_mass_2: "Fabricant des chasseurs"
-bomber_producer_offense_0: "Fabricant de bombardiers lourds"
-bomber_producer_offense_1: "Fabricant de bombardiers lourds"
-bomber_producer_offense_2: "Fabricant de bombardiers lourds"
-bomber_producer_defense_0: "Fabricant de bombardiers lourds"
-bomber_producer_defense_1: "Fabricant de bombardiers lourds"
-bomber_producer_defense_2: "Fabricant de bombardiers lourds"
-bomber_producer_mass_0: "Fabricant de bombardiers lourds"
-bomber_producer_mass_1: "Fabricant de bombardiers lourds"
-bomber_producer_mass_2: "Fabricant de bombardiers lourds"
-nav_cas_producer_offense_0: "Fabricant de bombardier léger"
-nav_cas_producer_offense_1: "Fabricant de bombardier léger"
-nav_cas_producer_offense_2: "Fabricant de bombardier léger"
-nav_cas_producer_defense_0: "Fabricant de bombardier léger"
-nav_cas_producer_defense_1: "Fabricant de bombardier léger"
-nav_cas_producer_defense_2: "Fabricant de bombardier léger"
-nav_cas_producer_mass_0: "Fabricant de bombardier léger"
-nav_cas_producer_mass_1: "Fabricant de bombardier léger"
-nav_cas_producer_mass_2: "Fabricant de bombardier léger"
-
-### Arms ###
-motorised_equipment_producer_offense_0: "Fabricant d'éq. mécanisés"
-motorised_equipment_producer_offense_1: "Fabricant d'éq. mécanisés"
-motorised_equipment_producer_offense_2: "Fabricant d'éq. mécanisés"
-motorised_equipment_producer_defense_0: "Fabricant d'éq. mécanisés"
-motorised_equipment_producer_defense_1: "Fabricant d'éq. mécanisés"
-motorised_equipment_producer_defense_2: "Fabricant d'éq. mécanisés"
-motorised_equipment_producer_mass_0: "Fabricant d'éq. mécanisés"
-motorised_equipment_producer_mass_1: "Fabricant d'éq. mécanisés"
-motorised_equipment_producer_mass_2: "Fabricant d'éq. mécanisés"
-infantry_equipment_producer_offense_0: "Fabricant d'équipement d'infanterie"
-infantry_equipment_producer_offense_1: "Fabricant d'équipement d'infanterie"
-infantry_equipment_producer_offense_2: "Fabricant d'équipement d'infanterie"
-infantry_equipment_producer_defense_0: "Fabricant d'équipement d'infanterie"
-infantry_equipment_producer_defense_1: "Fabricant d'équipement d'infanterie"
-infantry_equipment_producer_defense_2: "Fabricant d'équipement d'infanterie"
-infantry_equipment_producer_assualt_0: "Fabricant d'équipement d'infanterie"
-infantry_equipment_producer_assualt_1: "Fabricant d'équipement d'infanterie"
-infantry_equipment_producer_assualt_2: "Fabricant d'équipement d'infanterie"
-infantry_equipment_producer_allround_0: "Fabricant d'équipement d'infanterie"
-infantry_equipment_producer_allround_1: "Fabricant d'équipement d'infanterie"
-infantry_equipment_producer_allround_2: "Fabricant d'équipement d'infanterie"
-infantry_equipment_producer_mass_0: "Fabricant d'équipement d'infanterie"
-infantry_equipment_producer_mass_1: "Fabricant d'équipement d'infanterie"
-infantry_equipment_producer_mass_2: "Fabricant d'équipement d'infanterie"
-support_equipment_producer_mass_0: "Fabricant d'équipement de soutien"
-support_equipment_producer_mass_1: "Fabricant d'équipement de soutien"
-support_equipment_producer_mass_2: "Fabricant d'équipement de soutien"
-artillery_producer_offense_0: "Fabricant d'artillerie"
-artillery_producer_offense_1: "Fabricant d'artillerie"
-artillery_producer_offense_2: "Fabricant d'artillerie"
-artillery_producer_defense_0: "Fabricant d'artillerie"
-artillery_producer_defense_1: "Fabricant d'artillerie"
-artillery_producer_defense_2: "Fabricant d'artillerie"
-artillery_producer_mass_0: "Fabricant d'artillerie"
-artillery_producer_mass_1: "Fabricant d'artillerie"
-artillery_producer_mass_2: "Fabricant d'artillerie"
- army_equipment_producer_0: "Complexe militaro-industriel"
- army_equipment_producer_1: "Complexe militaro-industriel"
- army_equipment_producer_2: "Complexe militaro-industriel"
-
-### Naval ###
-capital_ship_producer_offense_0: "Fabricant de navires capitaux"
-capital_ship_producer_offense_1: "Fabricant de navires capitaux"
-capital_ship_producer_offense_2: "Fabricant de navires capitaux"
-capital_ship_producer_defense_0: "Fabricant de navires capitaux"
-capital_ship_producer_defense_1: "Fabricant de navires capitaux"
-capital_ship_producer_defense_2: "Fabricant de navires capitaux"
-capital_ship_producer_mass_0: "Fabricant de navires capitaux"
-capital_ship_producer_mass_1: "Fabricant de navires capitaux"
-capital_ship_producer_mass_2: "Fabricant de navires capitaux"
-cruiser_producer_offense_0: "Constructeur de croiseur"
-cruiser_producer_offense_1: "Constructeur de croiseur"
-cruiser_producer_offense_2: "Constructeur de croiseur"
-cruiser_producer_defense_0: "Constructeur de croiseur"
-cruiser_producer_defense_1: "Constructeur de croiseur"
-cruiser_producer_defense_2: "Constructeur de croiseur"
-cruiser_producer_mass_0: "Constructeur de croiseur"
-cruiser_producer_mass_1: "Constructeur de croiseur"
-cruiser_producer_mass_2: "Constructeur de croiseur"
-small_ship_producer_offense_0: "Fabricant de petits navires"
-small_ship_producer_offense_1: "Fabricant de petits navires"
-small_ship_producer_offense_2: "Fabricant de petits navires"
-small_ship_producer_defense_0: "Fabricant de petits navires"
-small_ship_producer_defense_1: "Fabricant de petits navires"
-small_ship_producer_defense_2: "Fabricant de petits navires"
-small_ship_producer_mass_0: "Fabricant de petits navires"
-small_ship_producer_mass_1: "Fabricant de petits navires"
-small_ship_producer_mass_2: "Fabricant de petits navires"
-convoy_producer_0: "Compagnie maritime"
-convoy_producer_1: "Compagnie maritime"
-convoy_producer_2: "Compagnie maritime"
-
-### General Industry ###
-mining_company: "Compagnie minière"
-chemical_producer: "Société chimique"
-industrial_manufacturer: "Société industrielle"
-electronics_manufacturer: "Fabricant d'électronique"
-railroad_company: "Société des chemins de fer"
-oil_concern: "Société pétrolière"
 
 ### General ###
 fighter_techs: "Technologie des chasseurs"
@@ -766,388 +392,73 @@ cat_torpedo: "Technologie des torpilles"
 
 ### Hidden Techs ###
  camel_corps_tech: "Corps de chameaux"
- camel_corps_tech_effect: "Active §H$camel_corps_tech$§!\n§HCavalerie\n    Desert§!\n      Attaque: §G+15%§!\n      Défense: §G+5%§!\n      Mouvement: §G+3%§!"
+ camel_corps_tech_effect: "Active §H$camel_corps_tech$§!\n§HChameaux\n    $desert$§!\n      $STAT_ADJUSTER_ATTACK$§G+15%§!\n      $STAT_ADJUSTER_DEFENCE$§G+5%§!\n      $STAT_ADJUSTER_MOVEMENT$§G+3%§!"
 
 tech_ski_infantry: "Infanterie à ski"
- tech_ski_infantry_effect: "Active §H$tech_ski_infantry$§!\n§HInfanterie\n    Collines§!\n      Attaque: §G+5%§!\n      Défense: §G+5%§!\n      Mouvement: §G+5%§!\n    §HMontagne§!\n      Attaque: §G+5%§!\n      Défense: §G+5%§!\n      Mouvement: §G+10%§!"
+ tech_ski_infantry_effect: "Active §H$tech_ski_infantry$§!\n§H$infantry$\n    $hills$§!\n      $STAT_ADJUSTER_ATTACK$§G+5%§!\n      $STAT_ADJUSTER_DEFENCE$§G+5%§!\n      $STAT_ADJUSTER_MOVEMENT$§G+5%§!\n    §H$mountain$§!\n      $STAT_ADJUSTER_ATTACK$§G+5%§!\n      $STAT_ADJUSTER_DEFENCE$§G+5%§!\n      $STAT_ADJUSTER_MOVEMENT$§G+10%§!"
 
 tech_marine_bonus: "Marines améliorés"
-tech_marine_bonus_effect: "Active §H$tech_marine_bonus$\nMarines§!\n      Attaque Légère : §G+5%§!\n      Attaque Lourde : §G+5%§!\n§HBataillon de l'Amtrac§!\n      Attaque Légère : §G+5%§!\n      Attaque Lourde : §G+5%§!\n§HHBataillon de chars Amphibies§!\n      Attaque Légère : §G+5%§!\n      Attaque Lourde : §G+5%§!"
+ tech_marine_bonus_effect: "Active §H$tech_marine_bonus$\n$marine$§!\n      $STAT_ARMY_SOFT_ATTACK$§G+5%§!\n      $STAT_ARMY_HARD_ATTACK$§G+5%§!\n§H$amphibious_mechanized$§!\n      $STAT_ARMY_SOFT_ATTACK$§G+5%§!\n      $STAT_ARMY_HARD_ATTACK$§G+5%§!\n§H$amphibious_armor$§!\n      $STAT_ARMY_SOFT_ATTACK$§G+5%§!\n      $STAT_ARMY_HARD_ATTACK$§G+5%§!"
 
 tech_marine_bonus_2: "Marines entraînés"
-tech_marine_bonus_2_effect: "Enables §H$tech_marine_bonus_2$\nMarines§!\n      Attaque Légère : §G+5%§!\n      Attaque Lourde : §G+5%§!\n§HBataillon de l'Amtrac§!\n      Attaque Légère : §G+5%§!\n      Attaque Lourde : §G+5%§!\n§HHBataillon de chars Amphibies§!\n      Attaque Légère : §G+5%§!\n      Attaque Lourde : §G+5%§!"
+ tech_marine_bonus_2_effect: "Active §H$tech_marine_bonus_2$\n$marine$§!\n      $STAT_ARMY_SOFT_ATTACK$§G+5%§!\n      $STAT_ARMY_HARD_ATTACK$§G+5%§!\n§HAmtrac Battalion§!\n      $STAT_ARMY_SOFT_ATTACK$§G+5%§!\n      $STAT_ARMY_HARD_ATTACK$§G+5%§!\n§HAmphibious Tank Battalion§!\n      $STAT_ARMY_SOFT_ATTACK$§G+5%§!\n      $STAT_ARMY_HARD_ATTACK$§G+5%§!"
 
-jungle_warfare_effect: "Active §H$jungle_warfare$§!\n§HInfanterie à pied\n    Jungle§!\n      Attaque: §G+10%§!\n      Défense: §G+5%§!\n      Mouvement: §G+5%§!"
+ tech_marine_bonus_combined_effect: "Active §H$tech_marine_bonus$\n$marine$§!\n      $STAT_ARMY_SOFT_ATTACK$§G+10%§!\n      $STAT_ARMY_HARD_ATTACK$§G+10%§!\n§HBataillon Amtrac§!\n      $STAT_ARMY_SOFT_ATTACK$§G+10%§!\n      $STAT_ARMY_HARD_ATTACK$§G+10%§!\n§HBataillon de Chars Amphibies§!\n      $STAT_ARMY_SOFT_ATTACK$§G+10%§!\n      $STAT_ARMY_HARD_ATTACK$§G+10%§!"
+
+ jungle_warfare_effect: "Active §H$jungle_warfare$\n$category_light_infantry$\n    $jungle$§!\n      $STAT_ADJUSTER_ATTACK$§G+10%§!\n      $STAT_ADJUSTER_DEFENCE$§G+5%§!\n      $STAT_ADJUSTER_MOVEMENT$§G+5%§!"
+
+ forest_warfare: "Formation d'Infanterie des Rangers"
+ forest_warfare_effect: "Active §H$forest_warfare$\n$category_light_infantry$\n    $forest$§!\n      $STAT_ADJUSTER_ATTACK$§G+10%§!\n      $STAT_ADJUSTER_DEFENCE$§G+5%§!\n      $STAT_ADJUSTER_MOVEMENT$§G+5%§!"
 
 improved_field_hospitals: "Hôpitaux de campagne améliorés"
-improved_field_hospitals_effect: "Active §H$improved_field_hospitals$\nHôpitaux de campagne§!\n      Rétablissement : §G+20%§!\n      Perte d'expérience : §G-10%§!"
+ improved_field_hospitals_effect: "Active §H$improved_field_hospitals$\n$field_hospital$§!\n      $STAT_ARMY_CASUALTY_TRICKLEBACK$§G+20%§!\n      $STAT_ARMY_EXPERIENCE_LOSS_FACTOR$§G-10%§!"
 
 expanded_engineer_corps_tech: "Corps d'ingénieur étendu"
- expanded_engineer_corps_tech_effect: "Active §H$expanded_engineer_corps_tech$\nCompagnie d'ingénieur§!\n      Retranchement: §G+2§!\n    §HFort§!\n      Attaque: §G+10%§!\n      Défense: §G+10%§!"
+ expanded_engineer_corps_tech_effect: "Active §H$expanded_engineer_corps_tech$\n$engineer$§!\n      $STAT_ARMY_ENTRENCHMENT$§G+2§!\n    §H$FORT$§!\n      $STAT_ADJUSTER_ATTACK$§G+10%§!\n      $STAT_ADJUSTER_DEFENCE$§G+10%§!"
 
 mountain_training_tech: "Entraînement de Montagne"
- mountain_training_tech_effect: "Active §H$mountain_training_tech$\nInfanterie à pied§!\n    §HMontagne§!\n      Attaque: §G+5%§!\n      Défense: §G+5%§!\n      Mouvement: §G+10%§!"
+ mountain_training_tech_effect: "Active §H$mountain_training_tech$\n$category_light_infantry$§!\n    §H$mountain$§!\n      $STAT_ADJUSTER_ATTACK$§G+5%§!\n      $STAT_ADJUSTER_DEFENCE$§G+5%§!\n      $STAT_ADJUSTER_MOVEMENT$§G+10%§!"
 
 improved_recon_units_tech: "Unités de reconnaissance améliorées"
- improved_recon_units_tech_effect: "Active §H$improved_recon_units_tech$\nCompagnie de reconnaissance§!\n      Percée: §G+1§!\n      Reconnaissance: §G+1§!"
+ improved_recon_units_tech_effect: "Active §H$improved_recon_units_tech$\n$category_recon$§!\n      $STAT_ARMY_BREAKTHROUGH$§G+1§!\n      $STAT_ARMY_RECON$§G+1§!"
 
 asymmetrical_warfare: "Entraînement à la guerre asymétrique"
- asymmetrical_warfare_effect: "Active §H$asymmetrical_warfare$\nInfanterie à Pied§!\n    §HUrbain§!\n      Attaque: §G+10%§!\n      Défense: §G+5%§!\n      Mouvement: §G+5%§!"
+ asymmetrical_warfare_effect: "Active §H$asymmetrical_warfare$\n$category_light_infantry$§!\n    §H$urban$§!\n      $STAT_ADJUSTER_ATTACK$§G+10%§!\n      $STAT_ADJUSTER_DEFENCE$§G+5%§!\n      $STAT_ADJUSTER_MOVEMENT$§G+5%§!"
 
 desert_warfare: "Entraînement au combat en désert"
- desert_warfare_effect: "Active §H$desert_warfare$§!\n§HInfanterie à pied\n    Deserts§!\n      Attaque: §G+10%§!\n      Défense: §G+5%§!\n      Mouvement: §G+5%§!"
+ desert_warfare_effect: "Active §H$desert_warfare$§!\n§H$category_light_infantry$\n    $desert$§!\n      $STAT_ADJUSTER_ATTACK$§G+10%§!\n      $STAT_ADJUSTER_DEFENCE$§G+5%§!\n      $STAT_ADJUSTER_MOVEMENT$§G+5%§!"
 
  marsh_warfare: "Entraînement au Combat des Marais"
- marsh_warfare_effect: "Active §H$marsh_warfare$§!\n§HInfanterie à Pied\n    Marais§!\n      Attaque: §G+10%§!\n      Défense: §G+5%§!\n      Mouvement: §G+5%§!"
+ marsh_warfare_effect: "Active §H$marsh_warfare$§!\n§H$category_light_infantry$\n    $marsh$§!\n      $STAT_ADJUSTER_ATTACK$§G+10%§!\n      $STAT_ADJUSTER_DEFENCE$§G+5%§!\n      $STAT_ADJUSTER_MOVEMENT$§G+5%§!"
 
 anti_fortification_artillery: "Artillerie Anti-Fortification"
- anti_fortification_artillery_effect: "Active §H$anti_fortification_artillery$§!\n§HArtillerie de soutien§!\n    Fort: Attaque: §G+20%§!\n§HArtillerie§!\n    Fort: Attaque: §G+20%§!\n§HArtillerie Motorisé§!\n    Fort: Attaque: §G+20%§!"
+ anti_fortification_artillery_effect: "Active §H$anti_fortification_artillery$§!\n§H$category_artillery$§!\n    $FORT$: $STAT_ADJUSTER_ATTACK$§G+20%§!"
 
 tech_integrated_specialists: "Forces Speciales Intégrées"
-tech_integrated_specialists_effect: "Active §H$tech_integrated_specialists$§!\nLimite Forces Speciales: §G+5%§!\n§HForces Speciales§!\n      Attaque Légère: §G+5%§!\n      Attaque Lourde: §G+5%§!"
+ tech_integrated_specialists_effect: "Active §H$tech_integrated_specialists$§!\n$MODIFIER_SPECIAL_FORCES_CAP$: §G+5%§!\n§H$category_special_forces$§!\n      $STAT_ARMY_SOFT_ATTACK$§G+5%§!\n      $STAT_ARMY_HARD_ATTACK$§G+5%§!"
 
  tech_at_cavalry: "Cavalerie Anti-Tank"
- tech_at_cavalry_effect: "Active §H$tech_at_cavalry$\nCavalerie§!\n      Perforation : §G+75%§!\n      Attaque Dure: §G+10%§!"
+ tech_at_cavalry_effect: "Active §H$tech_at_cavalry$\n$cavalry$§!\n      $STAT_COMMON_PIERCING$§G+75%§!\n      $STAT_ARMY_HARD_ATTACK$§G+10%§!"
 
  tech_dragoon_tactics: "Tactiques de Dragons"
- tech_dragoon_tactics_effect: "Active §H$tech_dragoon_tactics$\nCavalerie§!\n      Organisation Max : §G+5§!\n      Taux de Récupération : §G+0.10§!\n      Mouvement : §G+10%§!\n      Attaque de Nuit : §G+10§!"
+ tech_dragoon_tactics_effect: "Active §H$tech_dragoon_tactics$\n$cavalry$§!\n      $STAT_COMMON_MAX_ORG$: §G+5§!\n      $STAT_ARMY_DEFAULT_MORALE$: §G+0.10§!\n      $STAT_ADJUSTER_MOVEMENT$§G+10%§!\n      $STAT_ADJUSTER_ATTACK$ de Nuit §G+10§!"
 
  tech_semi_motorised_cav: "Cavalerie semi-motorisée"
- tech_semi_motorised_cav_effect: "Active §H$tech_semi_motorised_cav$\nCavalerie§!\n      Organisation Max : §G+5§!\n      RTaux de Récupération : §G+0.10§!\n      Mouvement : §G+15%§!"
+ tech_semi_motorised_cav_effect: "Active §H$tech_semi_motorised_cav$\n$cavalry$§!\n      $STAT_COMMON_MAX_ORG$: §G+5§!\n      $STAT_ARMY_DEFAULT_MORALE$: §G+0.10§!\n      $STAT_ADJUSTER_MOVEMENT$§G+15%§!"
 
  tech_improved_encryption: "Cryptage Amélioré"
  tech_improved_encryption_effect: "Active §H$tech_improved_encryption$§!\n$MODIFIER_CRYPTO_STRENGTH$: [?2|+ = 0]"
 
  tech_mountain_artillery: "Artillerie de Montagne"
- tech_mountain_artillery_effect: "Active §H$tech_mountain_artillery$§!\n§HArtillerie\n    Collines§!\n      Attaque : §G+10%§!\n      Mouvement : §G+10%§!\n    §HMontagne§!\n      Attaque : §G+10%§!\n      Mouvement : §G+10%§!"
+ tech_mountain_artillery_effect: "Active §H$tech_mountain_artillery$§!\n§H$EQUIPMENT_ARTILLERY$\n    $hills$§!\n      $STAT_ADJUSTER_ATTACK$§G+10%§!\n      $STAT_ADJUSTER_MOVEMENT$§G+10%§!\n    §H$mountain$§!\n      $STAT_ADJUSTER_ATTACK$§G+10%§!\n      $STAT_ADJUSTER_MOVEMENT$§G+10%§!"
 
  tech_arctic_commando: "Commandos Artique"
- tech_arctic_commando_effect: "Active §H$tech_arctic_commando$§!\n    Forces spéciales sans ravitaillement : [?48|G1=] Heures\n    §HForces Spéciales§!\n        Facteur de gain d'acclimation au froid : §G+10%§!\n        §HCollines§!\n          Mouvement : §G+5%§!\n        §HMontagnes§!\n          Mouvement: §G+5%§!"
+ tech_arctic_commando_effect: "Active §H$tech_arctic_commando$§!\n    $MODIFIER_SPECIAL_FORCES_NO_SUPPLY_GRACE$: [?48|G1=] $MOD_HOUR$\n    §H$category_special_forces$§!\n        $MODIFIER_ACCLIMATIZATION_COLD_CLIMATE_GAIN_FACTOR$: §G+10%§!\n        §H$hills$§!\n          $STAT_ADJUSTER_MOVEMENT$§G+5%§!\n        §H$mountain$§!\n          $STAT_ADJUSTER_MOVEMENT$§G+5%§!"
 
  tech_better_paratroopers: "Parachutistes d'élite"
- tech_better_paratroopers_effect: "Active §H$tech_better_paratroopers$§!\n§HParachutistes§!\n     Attaque Légère : §G+10%§!\n      Taux de Récupération : §G+0.20§!\n      Parachutistes sans ravitaillement : [?24|G1=] Heures"
-
-### Army Command Traits ###
-
-### Land ###
-land_defense_1: "Doctrine défensive"
-land_defense_2: "Doctrine défensive"
-land_defense_3: "Doctrine défensive"
-
-land_offensive_1: "Doctrine offensive"
-land_offensive_2: "Doctrine offensive"
-land_offensive_3: "Doctrine offensive"
-
-mobile_warfare_1: "Guerre mobile"
-mobile_warfare_2: "Guerre mobile"
-mobile_warfare_3: "Guerre mobile"
-
-entrenchment_1: "Doctrine de la Grande Guerre"
-entrenchment_2: "Doctrine de la Grande Guerre"
-entrenchment_3: "Doctrine de la Grande Guerre"
-
-morale_1: "Leader inspirateur"
-morale_2: "Leader inspirateur"
-morale_3: "Leader inspirateur"
-
-organization_1: "Planificateur stratégique"
-organization_2: "Planificateur stratégique"
-organization_3: "Planificateur stratégique"
-
-attrition_1: "Planificateur prudent"
-attrition_2: "Planificateur prudent"
-attrition_3: "Planificateur prudent"
-
-supply_use_1: "Planificateur logistique"
-supply_use_2: "Planificateur logistique"
-supply_use_3: "Planificateur logistique"
-
-### Artillery ###
-artillery_offense_1: "Barrage offensif"
-artillery_offense_2: "Barrage offensif"
-artillery_offense_3: "Barrage offensif"
-
-artillery_defense_1: "Barrage défensif"
-artillery_defense_2: "Barrage défensif"
-artillery_defense_3: "Barrage défensif"
-
-### Infantry ###
-infantry_offense_1: "Attaque de l'infanterie"
-infantry_offense_2: "Attaque de l'infanterie"
-infantry_offense_3: "Attaque de l'infanterie"
-
-infantry_defense_1: "Défense d'infanterie"
-infantry_defense_2: "Défense d'infanterie"
-infantry_defense_3: "Défense d'infanterie"
-
-### Tanks ###
-armored_offense_1: "Attaque des blindés"
-armored_offense_2: "Attaque des blindés"
-armored_offense_3: "Attaque des blindés"
-
-armored_defense_1: "Défense des blindés"
-armored_defense_2: "Défense des blindés"
-armored_defense_3: "Défense des blindés"
-
-### Cavalry ###
-cavalry_offense_1: "Charge de cavalerie"
-cavalry_offense_2: "Charge de cavalerie"
-cavalry_offense_3: "Charge de cavalerie"
-
-cavalry_defense_1: "Défense de la cavalerie"
-cavalry_defense_2: "Défense de la cavalerie"
-cavalry_defense_3: "Défense de la cavalerie"
-
-### Commando ###
-commando_offense_1: "Attaque commando"
-commando_offense_2: "Attaque commando"
-commando_offense_3: "Attaque commando"
-
-commando_defense_1: "Défense Commando"
-commando_defense_2: "Défense Commando"
-commando_defense_3: "Défense Commando"
-
-### XP ###
-army_reform_1: "Réforme de l'armée"
-army_reform_2: "Réforme de l'armée"
-army_reform_3: "Réforme de l'armée"
-
-### Air ###
-concealment_1: "Dissimulation"
-concealment_2: "Dissimulation"
-concealment_3: "Dissimulation"
-
-air_reform_1: "Réforme de l'air"
-air_reform_2: "Réforme de l'air"
-air_reform_3: "Réforme de l'air"
-
-air_safety_1: "Sécurité aérienne"
-air_safety_2: "Sécurité aérienne"
-air_safety_3: "Sécurité aérienne"
-
-air_night_operations_1: "Opérations_de_nuit"
-air_night_operations_2: "Opérations_de_nuit"
-air_night_operations_3: "Opérations_de_nuit"
-
-air_ground_suppression_1: "La destruction au sol"
-air_ground_suppression_2: "La destruction au sol"
-air_ground_suppression_3: "La destruction au sol"
-
-air_weather_1: "Tous temps"
-air_weather_2: "Tout temps"
-air_weather_3: "Tout temps"
-
-air_ace_promoter_1: "Héros positif"
-air_ace_promoter_2: "Héros positif"
-air_ace_promoter_3: "Héros positif"
-
- #air_naval_strike_1: "Naval Strike" already defined in Traits loc file
- #air_naval_strike_2: "Naval Strike" already defined in Traits loc file
- #air_naval_strike_3: "Naval Strike" already defined in Traits loc file
-
- #air_bomber_interception_1: "Bomber Interception" already defined in Traits loc file
- #air_bomber_interception_2: "Bomber Interception" already defined in Traits loc file
- #air_bomber_interception_3: "Bomber Interception" already defined in Traits loc file
-
- #air_air_superiority_1: "Air Superiority" already defined in Traits loc file
- #air_air_superiority_2: "Air Superiority" already defined in Traits loc file
- #air_air_superiority_3: "Air Superiority" already defined in Traits loc file
-
- #air_close_air_support_1: "Close Air Support" already defined in Traits loc file
- #air_close_air_support_2: "Close Air Support" already defined in Traits loc file
- #air_close_air_support_3: "Close Air Support" already defined in Traits loc file
-
- #air_strategic_bombing_1: "Strategic Bombing" already defined in Traits loc file
- #air_strategic_bombing_2: "Strategic Bombing" already defined in Traits loc file
- #air_strategic_bombing_3: "Strategic Bombing" already defined in Traits loc file
-
- #air_tactical_bombing_1: "Tactical Bombing" already defined in Traits loc file
- #air_tactical_bombing_2: "Tactical Bombing" already defined in Traits loc file
- #air_tactical_bombing_3: "Tactical Bombing" already defined in Traits loc file
-
- #air_airborne_1: "Airborne Assault" already defined in Traits loc file
- #air_airborne_2: "Airborne Assault" already defined in Traits loc file
- #air_airborne_3: "Airborne Assault" already defined in Traits loc file
-
-### Naval ###
- #navy_chief_naval_aviation_1: "Naval Aviation" already defined in Traits loc file
- #navy_chief_naval_aviation_2: "Naval Aviation" already defined in Traits loc file
- #navy_chief_naval_aviation_3: "Naval Aviation" already defined in Traits loc file
-
- #navy_chief_decisive_battle_1: "Decisive Battle Doctrine" already defined in Traits loc file
- #navy_chief_decisive_battle_2: "Decisive Battle Doctrine" already defined in Traits loc file
- #navy_chief_decisive_battle_3: "Decisive Battle Doctrine" already defined in Traits loc file
-
- #navy_chief_commerce_raiding_1: "Commerce Raiding Doctrine"
- #navy_chief_commerce_raiding_2: "Commerce Raiding Doctrine"
- #navy_chief_commerce_raiding_3: "Commerce Raiding Doctrine"
-
- #navy_chief_reform_1: "Naval Reformer"
- #navy_chief_reform_2: "Naval Reformer"
- #navy_chief_reform_3: "Naval Reformer"
-
- #navy_chief_maneuver_1: "Naval Manoeuvre"
- #navy_chief_maneuver_2: "Naval Manoeuvre"
- #navy_chief_maneuver_3: "Naval Manoeuvre"
-
- #navy_anti_submarine_1: "Anti-Submarine"
- #navy_anti_submarine_2: "Anti-Submarine"
- #navy_anti_submarine_3: "Anti-Submarine"
-
- #navy_naval_air_defense_1: "Naval Air Defence"
- #navy_naval_air_defense_2: "Naval Air Defence"
- #navy_naval_air_defense_3: "Naval Air Defence"
-
- #navy_fleet_logistics_1: "Fleet Logistics"
- #navy_fleet_logistics_2: "Fleet Logistics"
- #navy_fleet_logistics_3: "Fleet Logistics"
-
- #navy_amphibious_assault_1: "Amphibious Assault"
- #navy_amphibious_assault_2: "Amphibious Assault"
- #navy_amphibious_assault_3: "Amphibious Assault"
-
- #navy_submarine_1: "Submarine Warfare Doctrine"
- #navy_submarine_2: "Submarine Warfare Doctrine"
- #navy_submarine_3: "Submarine Warfare Doctrine"
-
- #navy_capital_ship_1: "Capital Fleet Doctrine"
- #navy_capital_ship_2: "Capital Fleet Doctrine"
- #navy_capital_ship_3: "Capital Fleet Doctrine"
-
- #navy_screen_1: "Forward Escort Doctrine"
- #navy_screen_2: "Forward Escort Doctrine"
- #navy_screen_3: "Forward Escort Doctrine"
-
- #navy_carrier_1: "Carrier Strike Doctrine"
- #navy_carrier_2: "Carrier Strike Doctrine"
- #navy_carrier_3: "Carrier Strike Doctrine"
+ tech_better_paratroopers_effect: "Active §H$tech_better_paratroopers$§!\n§H$paratrooper$§!\n      $STAT_ARMY_SOFT_ATTACK$§G+10%§!\n      $STAT_ARMY_DEFAULT_MORALE$: §G+0.20§!\n      $MODIFIER_PARATROOPER_EXTRA_SUPPLY_GRACE$: [?24|G1=] $MOD_HOUR$"
 
 black_monday: "Lundi noir"
-
-jet_aircraft_manufacturer: " Fabricant d'avions à réaction "
-
-### Generic Focus Localisation ###
-generic_focus: "Focus national"
-### Generic Ideas ###
-generic_liberty_idea: "Esprit de liberté"
-generic_liberty_idea_desc: "La liberté est quelque chose que nous nous sommes engagés à préserver, et cela inspire notre population à nous soutenir même si elle n'est pas toujours d'accord avec nos politiques ou l'état du pays dans le moment présent"
-generic_militarism_focus: " Militarisme "
-generic_militarism_focus_desc: "Notre peuple en est venu à considérer l'armée comme une partie intégrante de notre nation, et chaque appelé joue son rôle. Cela nous permet de mobiliser des réserves, des milices et d'autres forces paramilitaires en un clin d'œil"
-generic_military_youth_focus: " Jeunesses militaires "
-generic_military_youth_focus_desc: "Dès le plus jeune âge, nos citoyens apprennent les valeurs militaires et les intègrent dans leur vie. Cela augmente évidemment le nombre de vocations pour l'armée à l'âge adulte"
-generic_ideological_fanaticism_focus: "Fanatisme idéologique"
- generic_ideological_fanaticism_focus_desc: "Notre pays est le centre de notre idéologie, et notre idéologie est le tissu du pays. Beaucoup sont prêts à mourir pour sa survie alors que d'autres se retireraient facilement vers de nouvelles positions"
-generic_liberty_research_idea: "Bourses universitaires"
-generic_liberty_research_idea_desc: "Nous versons des bourses universitaires modestes mais relativement décentes pour que tout aspirant étudiant ait une chance de faire des études supérieures. Cela ne manquera pas d'augmenter la taille de notre intelligentsia"
-generic_welfare_idea: "Programmes de bien-être social"
-generic_welfare_idea_desc: "Nous faisons en sorte que les plus pauvres de notre société reçoivent l'aide dont ils ont besoin pour survivre, afin qu'ils n'aient pas à se débrouiller seuls et puissent un jour travailler pour notre économie"
-
-### Generic Focuses ###
-generic_army_effort: "Guerre moderne"
-generic_army_effort_desc: "La Grande Guerre, de son début à sa fin, a changé la guerre pour toujours en mettant fin à l'emprise de la guerre napoléonienne sur la pensée militaire et en confirmant l'extrême dangerosité du fusil, de la mitrailleuse et du canon. Notre armée doit s'adapter ou périr, au sens propre du terme"
-generic_equipment_effort: "Modernisation de l'équipement"
- generic_equipment_effort_desc: "Pendant longtemps, les percées militaires ont été lentes, et avoir un bon fusil à verrou était suffisant. Cependant, ces fusils du 19e siècle sont complètement hors de propos sur le champ de bataille de l'après Grande Guerre. Nous devons cesser de nous reposer sur nos lauriers et nous équiper d'un nouvel équipement"
-generic_motorization_effort: "Motorisation de l'armée"
- generic_motorization_effort_desc: "Les charges de cavalerie de la Grande Guerre étaient probablement les dernières. Le camion n'est plus seulement un outil de transport et s'intègre rapidement aux tactiques de guerre mobiles. Nous devons nous débarrasser des idées dépassées et utiliser la motorisation pour accélérer nos offensives et nos renforts"
-generic_doctrine_effort: "Etudier la Weltkrieg"
-generic_doctrine_effort_desc: "Nous connaissons la Grande Guerre, mais qu'en avons-nous appris ? En seulement cinq ans de conflit, d'innombrables soldats sont morts pour nous enseigner la nouvelle dynamique de la guerre. Si nous n'en apprenons rien, nos soldats subiront le même sort sur le champ de bataille"
-generic_equipment_effort_2: "Recherche sur l'équipement"
-generic_equipment_effort_2_desc: "Nous avons peut-être rattrapé notre retard par rapport à l'équipement moderne, mais de nouveaux modèles rendent déjà les nôtres obsolètes. Quoi qu'il en soit, nous devons persévérer et nous assurer de ne jamais prendre une seule année de retard en matière d'équipement. Cela signifie que nous devrons commencer à développer nos propres conceptions"
-generic_mechanization_effort: "Guerre mécanisée"
-generic_mechanization_effort_desc: "Les camions se sont mal débrouillés en première ligne, mais il semble que nous puissions maintenant nous retrouver à mi-chemin entre les camions et les chars. Les véhicules blindés de transport de troupes peuvent amener les troupes directement au combat, les protéger du feu, et même fournir un puissant soutien-feu si nécessaire"
-generic_doctrine_effort_2: "Les exercices militaires"
-generic_doctrine_effort_2_desc: "Chaque grande puissance exerce, et nous devrions en faire autant. Les jeux de guerre sont plus qu'un divertissement en temps de paix pour les généraux, ils nous permettent de tester à la fois des tactiques vraies et éprouvées et révolutionnaires sans gaspiller d'innombrables vies. Cela nous permet de compléter nos découvertes théoriques"
-generic_equipment_effort_3: "Percées en matière d'équipement"
-generic_equipment_effort_3_desc: "Nous avons acquis une telle expérience dans la recherche sur l'équipement que nous ne sommes plus limités à rattraper éternellement ou à acheter de l'équipement étranger pour obtenir de l'équipement militaire de pointe. Même les grandes puissances pourraient bientôt être surprises par ce qui sera bientôt entre les mains de nos soldats"
-generic_armor_effort: "Guerre des blindés"
- generic_armor_effort_desc: "Les chars sont le sommet de la guerre moderne. Véhicules mobiles armés de canons dignes de l'artillerie, et imperméables au fusil moyen. Même si nous n'en produisons que peu, nous labourerons nos ennemis en utilisant judicieusement ces mastodontes d'acier"
-generic_special_forces: "Forces spéciales"
-generic_special_forces_desc: "Les Forces Spéciales sont plus que les Unités d'Elite d'autrefois. Avec un équipement moderne, même un conscrit peut se débrouiller sur le champ de bataille. Cependant, certaines situations sont si hostiles qu'elles nécessitent des hommes spécialement formés. Chaînes de montagnes, atterrissages amphibies, attaques aériennes"
-
-generic_aviation_effort: "Armée de l'air nationale"
-generic_aviation_effort_tt: "Pas assez de créneaux de construction pour §YAir Base§!"
-generic_aviation_effort_desc: "Le domaine de l'aviation est né presque à temps pour la Grande Guerre. Même deux décennies après cette guerre, elle est encore nouvelle, et toutes les nations s'efforcent d'être prêtes pour la prochaine fois que leurs avions pourraient être appelés à la guerre. Nous aussi, nous devons le faire. Nous devons trouver une armée de l'air solide pour les organiser"
-generic_fighter_focus: "Supériorité aérienne"
-generic_fighter_focus_desc: "Les combats aériens de la Grande Guerre n'étaient que le début de la guerre air-air. À mesure que les avions deviennent plus rapides, plus blindés et plus lourdement armés, nous devons déployer tous nos efforts pour nous assurer de contrôler l'air. Alors, frapper le sol est une formalité"
-generic_bomber_focus: "Bombardement stratégique"
-generic_bomber_focus_desc: "Même lorsqu'ils étaient tout neufs, les bombardiers ont inspiré la peur et beaucoup ont vu leur potentiel. Comme les charges utiles deviennent de plus en plus grandes, même les barrages d'artillerie de la Grande Guerre ne sont pas comparables. Un jour, nous pourrions même les surpasser et détruire des villes ou des régions entières en un seul passage"
-generic_aviation_effort_2: "Tactiques aériennes modernes"
-generic_aviation_effort_2_desc: "Les avions ne sont plus seulement des outils de reconnaissance et de harcèlement. En les intégrant pleinement dans nos opérations militaires, l'armée de l'air est capable de faire face à autant de dégâts et de faire avancer nos opérations que le commandement militaire moyen"
-generic_CAS_effort: "Soutien aérien rapproché"
-generic_CAS_effort_desc: "Tandis que les chasseurs et les bombardiers peuvent indirectement affecter la bataille, les avions dédiés du CAS ont à la fois l'agilité et l'armement nécessaires pour effectuer des tirs et des bombardements sur des cibles au sol, causant des dégâts majeurs aux armées non préparées tout en se comportant correctement en combat aérien"
-generic_rocket_effort: "Fusée expérimentale"
-generic_rocket_effort_desc: "Le domaine de la fusée est peut-être l'un des domaines les plus récents de la science militaire. Si l'on en croit nos scientifiques, les moteurs de fusée peuvent atteindre des vitesses qui feraient honte aux moteurs radiaux. Certains disent qu'ils pourraient aller encore plus vite que le son, certainement extrêmement excitant"
- generic_NAV_effort: "Aéronavale"
- generic_NAV_effort_desc: "Peut-être l'une des percées majeures dans la guerre navale, les bombardiers navals sont capables de détruire les flottes ennemies avec des torpilles et d'autres charges utiles navales spécialisées comme les mines. En soutenant nos flottes, ils peuvent défier les navires de la capitale et faire des ravages dans les écrans navals"
-
-generic_naval_effort: "Les chantiers navals modernes"
-generic_naval_effort_tt: "Pas assez de slots pour les chantiers navals §YNaval§!"
-generic_naval_effort_desc: "Si nous voulons établir une marine forte, nous devons d'abord la produire. Les méthodes de construction navale ont évolué et les anciennes cales sèches doivent être modernisées autant que les nouveaux chantiers navals doivent être construits de toutes pièces. Le navire moderne n'est pas un rouage, et nous devons voir grand pour avoir une flotte digne de la mer"
-generic_flexible_navy: "Tactiques flexibles"
- generic_flexible_navy_desc: "Nous n'aurons jamais les marines des puissances mondiales, capables de nettoyer des mers entières d'opposition, mais cela ne signifie pas que notre flotte se cachera au port. Grâce à des tactiques souples et à des inventions modernes comme les sous-marins, nous n'avons pas besoin de nous mesurer à ces grandes flottes pour faire des ravages"
-generic_large_navy: "Projection de puissance naval"
- generic_large_navy_desc: "Notre marine n'est peut-être pas encore capable de rivaliser avec les plus grandes marines de ce monde, mais en choisissant nos combats intelligemment et en gardant nos flottes concentrées, nous pouvons nous assurer que toute confrontation est à notre avantage tout en conservant une marine puissante qui peut dérouter les marines plus faibles"
-generic_submarine_effort: "La guerre sous-marine"
-generic_submarine_effort_desc: "La guerre sous-marine est le développement naval le plus passionnant depuis l'invention du bateau torpilleur, et défie même les doctrines les plus classiques de la guerre maritime. Nous ferions bien de nous protéger non seulement contre les sous-marins, mais aussi contre les navires ennemis"
-generic_cruiser_effort: "Navires écrans"
-generic_cruiser_effort_desc: "Les croiseurs ne sont pas seulement des " cuirassés bon marché ", et une pensée aussi dépassée ruine le potentiel de ces navires. Nous devrions les utiliser comme escortes jusqu'à nos navires de la capitale, car ils sont très vulnérables aux bombardiers navals et aux petits navires comme les torpilleurs"
-generic_destroyer_effort: "Lutte anti-sous-marine"
-generic_destroyer_effort_desc: "En étudiant la conception et l'utilisation stratégique des sous-marins, nous apprenons aussi à les contrer. Nos destroyers auront besoin d'équipements spécialisés tels que des grenades sous-marines et des conceptions spécifiques à la fois légères et petites pour pouvoir escorter efficacement les convois et les patrouilles"
-generic_capital_ships_effort: "Les navires capitaux"
-generic_capital_ships_effort_desc: "En fin de compte, une flotte n'est rien sans une pièce maîtresse, et l'ancien cuirassé et le porte-avions moderne remplissent ce rôle. Bien que vulnérables lors d'une confrontation directe, ils peuvent causer des dommages massifs aux flottes ennemies si nous les laissons bombarder et essaimer les navires ennemis à une distance sûre"
-
-generic_industrial_effort: "Méthodes industrielles"
-generic_industrial_effort_desc: "Pour construire une large base industrielle, il nous faudra mettre en place les bases de l'industrie moderne, et peut-être même faire des choix initiaux. Centres industriels concentrés ou dispersés, investissant dans les machines-outils et les outils de construction. Ce sont des choses importantes sur lesquelles il faut se concentrer"
-generic_construction_effort: "Subventions industrielles"
-generic_construction_effort_tt: "Pas assez de créneaux de construction pour §YCivilian Factories§!"
-generic_construction_effort_desc: "Une industrie saine et forte ne surgit pas de nulle part. Même si nous devrons peut-être commencer des projets plus ambitieux plus tard, nous devons commencer par faire en sorte que ceux qui ont de bonnes compétences en gestion puissent démarrer des entreprises saines et prospères qui pourraient par la suite devenir des géants"
-generic_production_effort: "Arsenal d'Etat"
-generic_production_effort_tt: "Pas assez de créneaux de construction pour §YMilitary Factory§!"
-generic_production_effort_desc: "Jusqu'à ce que nous soyons capables de produire notre propre équipement militaire, nous devrions créer des armureries modernes pour notre armée. Leur but est assez modeste, acheter l'équipement dont notre armée a besoin en utilisant les fonds de l'État, la production civile et la production simple, mais c'est mieux que de ne pas avoir de nouveaux fusils"
-generic_construction_effort_2: "Centres industriels"
- generic_construction_effort_2_desc: "L'esprit d'entreprise est une chose, mais pour avoir une économie digne d'une puissance régionale, nous devrons encourager les grandes régions industrielles qui ont fait la révolution industrielle. Les germes de ces régions sont d'importants investissements dans des sites industriels prometteurs"
-generic_production_effort_2: "Fabrications militaires"
-generic_production_effort_2_desc: "Nous devons produire notre propre équipement militaire si nous voulons que notre armée soit plus qu'une force de réserve. Le seul moyen d'y parvenir est de financer massivement la création d'usines militaires spécialisées et de les soutenir par des contrats réguliers et des promesses pour qu'elles puissent se maintenir à flot"
-generic_production_effort_3: "Industries militaires"
-generic_production_effort_3_desc: "Nous avons enfin atteint un point où nous avons des entreprises capables de construire les équipements dont nous avons besoin, même si leur production est encore limitée. Cependant, nos besoins sont encore grands, et en leur apportant un soutien absolu par rapport aux entreprises étrangères, ils s'adapteront peu à peu à nos besoins"
-generic_infrastructure_effort: "Infrastructure nationale"
- generic_infrastructure_effort_desc: "Notre industrie en croissance a besoin d'une infrastructure solide pour assurer le transit des marchandises. Il faut en finir avec la planification chaotique, de ville à ville, et enfin dessiner les routes de notre pays. Ceux qui existent, ceux qui seront élargis ou liés, et ceux qui n'existent pas encore"
-generic_infrastructure_effort_tt: "Pas assez de créneaux de construction pour §YInfrastructure§!"
-generic_synth_oil_effort_tt: "Pas assez de créneaux de construction pour §YRaffinerie synthétique§!"
-generic_infrastructure_effort_2: "Réseaux ferroviaires"
-generic_infrastructure_effort_2_desc: "Les pays modernes ont besoin de réseaux ferroviaires capables de transporter rapidement et efficacement n'importe quoi d'un point du pays à un autre. Cela signifie que nous devrons agrandir nos voies ferrées et créer des jonctions qui ne nous sont pas venues à l'esprit il y a encore quelques années"
-generic_construction_effort_3: "Réseaux industriels"
-generic_construction_effort_3_desc: "Tout comme les routes et les chemins de fer, les industries sont reliées entre elles par de grands réseaux étendus, basés sur les intrants et les extrants, les importations et les exportations. Au fur et à mesure que notre infrastructure s'améliore, ces liens s'améliorent, et notre industrie se renforce, car elle peut compter sur l'économie de nos quelques provinces riches"
-
-generic_extra_tech_slot: "Conseils de R&D"
- generic_extra_tech_slot_desc: "Notre croissance industrielle a attiré de nombreux scientifiques, nationaux et étrangers, à la recherche d'un emploi. Nous devrions financer les conseils de recherche pour nous assurer qu'ils trouvent des tâches sur lesquelles travailler, jusqu'à ce que notre base industrielle se développe suffisamment pour attirer des instituts de recherche privés"
-generic_extra_tech_slot_2: "Les instituts de recherche"
-generic_extra_tech_slot_2_desc: "Au fur et à mesure que notre base industrielle s'étend, nous passons finalement de la simple fabrication à la conception et à la création, ou du moins à attirer ceux qui le font. Ces instituts de recherche ont non seulement les esprits, mais aussi les fonds nécessaires pour faire des découvertes. Ne perdons pas de temps à encourager leur implantation"
-generic_technology_sharing: "Le partage de technologies"
-generic_technology_sharing_desc: "En partageant les progrès technologiques avec nos alliés, toute notre faction sera en mesure de mener plus efficacement la recherche et le développement en temps de guerre. Bien sûr, nous devrons prouver que notre aide a un impact sur eux, mais une fois que nous aurons prouvé tout cela, nous bénéficierons grandement de leurs recherches"
-generic_secret_weapons: " Armes secrètes "
-generic_secret_weapons_desc: "Il est tentant de dépenser toutes les ressources supplémentaires uniquement pour développer des chars et des avions, mais le secret pour gagner des guerres réside dans de nouveaux domaines de la science : l'électronique, la fusée et la recherche nucléaire. Ce n'est pas parce que nous ne sommes pas une grande puissance que nous ne pouvons pas faire nos propres progrès dans ces domaines"
-
-generic_political_effort: "Réforme politique"
-generic_political_effort_desc: "Pour provoquer un changement dans le monde, nous devons pouvoir provoquer un changement dans notre propre pays. Le renforcement de notre position politique doit passer en premier, nous devons nous débarrasser de l'ancienne doctrine politique et être prêts à adopter des vues audacieuses et ambitieuses sur la manière dont notre nation doit être dirigée à partir de maintenant"
-generic_collectivist_ethos_kr: " Unir la nation "
- generic_collectivist_ethos_kr_desc: "Cette époque est étrange, avec la montée du syndicalisme, la position fragile de la démocratie et l'ordre ancien autoritaire maintenu. Nous devons protéger notre pays des influences extérieures en nous assurant que notre peuple croit aux valeurs fondatrices de notre pays, au moins nous sommes emportés par des opinions opposées"
-generic_militarism: " Militarisme "
-generic_militarism_desc: "Ceux qui considèrent l'armée comme un mal nécessaire sont condamnés à hésiter face à la guerre. Nous enracinerons le militarisme dans notre culture pour devenir un peuple de soldats, sinon une armée avec un État. Si une chose est certaine depuis la Grande Guerre, c'est qu'il se pourrait très bien que ce ne soit pas La Guerre pour mettre fin à la guerre"
-generic_military_youth: " Jeunesses militaires "
-generic_military_youth_desc: "Les organisations de promotion de la discipline et de l'éducation politique des jeunes dans notre nation encourageront la loyauté et l'abnégation dès le début de la vie d'un citoyen. Ces valeurs fondamentales doivent être apprises dès le plus jeune âge, afin que les prochaines générations soient prêtes à se battre pour notre pays"
-generic_ideological_fanaticism: "Le fanatisme idéologique"
-generic_ideological_fanaticism_desc: "Nos valeurs et objectifs politiques valent la peine de mourir pour autant que n'importe quelle foi ancienne. Tout adepte devrait être prêt à affronter la mort, et ceux qui s'égarent devraient être mieux préparés à affronter la mort. Il n'y a pas de juste milieu dans cette lutte idéologique entre les grandes et les petites puissances"
-generic_liberty_ethos_kr: " Esprit de liberté "
- generic_liberty_ethos_kr_desc: "La liberté n'est pas seulement un heureux hasard, c'est quelque chose qui doit être préservé contre la tyrannie. La Grande Guerre et la montée du syndicalisme ont pour beaucoup mis en doute cet esprit, mais aucune nation n'est trop petite pour raviver sa flamme dans ses gouvernements et ses populations et lutter contre ceux qui tentent de l'éteindre"
-generic_rights_of_man: "Les droits de l'homme"
-generic_rights_of_man_desc: "Les droits de l'homme sont peut-être l'acte fondateur de la démocratie moderne, abolissant l'ordre féodal et assurant l'égalité des droits pour tous. Il y a toujours eu des doutes bizarres quant à notre position sur ces droits essentiels, et nous les dissiperons sans ambiguïté. Nous ne pouvons qu'en profiter"
-generic_liberty_research: "Bourses universitaires"
-generic_liberty_research_desc: "L'université moderne est une grande réussite, qui permet à des personnes d'origine même modeste de s'élever grâce à l'enseignement supérieur. Cependant, cela nous oblige à financer des bourses universitaires pour permettre un tel accès à des étudiants plus pauvres mais aspirants. Faisons-le maintenant, ces futurs boursiers vont payer des dividendes"
-generic_welfare: "Programmes de protection sociale"
- generic_welfare_desc: "L'égalité en matière de droits et l'égalité en matière d'éducation sont deux jalons importants, mais l'égalité économique est peut-être la plus difficile. Même si nous ne parviendrons peut-être jamais à une égalité parfaite dans ce domaine, nous pouvons au moins soutenir les plus pauvres de notre pays avec des programmes d'aide sociale équitables. Cela devrait aider notre économie de consommation à s'accélérer aussi"
-generic_national_identity: " Identité nationale "
-generic_national_identity_desc: "Bien que le débat idéologique soit un débat dans lequel nous pourrions nous perdre pendant des siècles, nous ne devons pas oublier qui nous sommes au cœur. Nous sommes uniques, nous connaissons notre histoire, notre culture et nous espérons que notre destin est encore plus brillant. Si nous avons façonné une société meilleure aujourd'hui, nous façonnerons un pays encore meilleur demain"
 
  ### Debug Tag ###
  XXA: "Debug Tag"

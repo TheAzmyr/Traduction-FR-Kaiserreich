@@ -11,8 +11,9 @@ ACW_federal_front_idea: "Poussez contre les fédéraux"
 ACW_syndicalist_front_idea: "Poussez contre les syndicalistes"
 ACW_longist_front_idea: "Poussez contre les Longistes"
 ACW_pacific_front_idea: "Poussez contre les États du Pacifique"
-ACW_wavering_momentum_idea: ""
-ACW_wavering_momentum: "Wavering Momentum"
+
+### World Tension ###
+ american_civil_war_threat:0 "2nde guerre civile américaine"
 
 ### Tooltips ###
 ACW_liberia_rally: "Nous allons rallier notre peuple pour défendre le Libéria"
@@ -86,7 +87,7 @@ ACW_times_up_desc: "La guerre civile dure depuis trop longtemps, avec trop peu d
 
  ACW_federal_deadline_looms: "L'échéance fédérale approche"
  ACW_federal_deadline_looms_desc: "La demande du Général MacArthur est claire : les rebelles doivent se retirer et désarmer dans un mois, ou les forces fédérales les y obligeront - quelles que soient les conséquences. L'Amérique attend en silence alors que les jours passent sans qu'aucune des parties ne semble prête à bouger. Il est clair que les jours de la diplomatie sont révolus depuis longtemps..."
- 
+
  ACW_move_quickly: "Nous devons agir rapidement"
  ACW_move_quickly_desc: "Le gouvernement fédéral contrôle beaucoup plus de territoire que nous, et notre mission semble - pour certains - vouée à l'échec dès le départ. Et pourtant, nous continuons à nous battre. Nous devons progresser rapidement, et frapper au cœur du territoire fédéral dès que nous l'osons, de peur de nous retrouver coincés dans une guerre que nous ne pouvons espérer gagner"
 
@@ -127,6 +128,14 @@ ACW_times_up_desc: "La guerre civile dure depuis trop longtemps, avec trop peu d
  ACW_restore_order: "Rétablir l'Ordre en [From.GetName]"
 
  ACW_gets_event_uprising: "Obtient l'événement \"§RSoulèvement de Résistance à [?revolt_state_var.GetName]§!\""
+
+### ACW Mobilization Decisions ###
+ ACW_mobilization_decisions: "Mobilisation de la Guerre Civile Américaine"
+ ACW_mobilization_decisions_desc: "Le jour que beaucoup craignaient est maintenant arrivé. Les frères se retournent contre leurs frères pour la seconde fois en 75 ans. Si nous voulons avoir une chance de nous en sortir, nous devons rallier la population, et mobiliser notre puissance industrielle pour vaincre ceux qui chercheraient à nous imposer leur vision de l'Amérique !"
+ ACW_mobilize_economy: "Mobiliser l'Économie"
+ ACW_raise_conscription: "Mettre en place la Conscription"
+ ACW_convert_heartland_factories: "Basculer £GFX_half_factory  §Y[FROM.GetName]§! vers une Production Militaire"
+ ACW_convert_outlier_factories: "Basculer £GFX_half_factory  §Y[FROM.GetName]§! vers une Production Militaire"
 
 ### Set Up Events ###
  amcivwar.1.t.president: "Le Président Reed s'échappe à Chicago"
@@ -233,9 +242,9 @@ amcivwar.33.d: "Alors que la guerre est dans l'impasse et pourrait même se reto
 amcivwar.33.a: "Promulguer le syndicalisme de guerre"
 amcivwar.33.b: "Ce n'est pas du socialisme !"
 
-amcivwar.34.t: "Les sorcières rouges"
-amcivwar.34.d: "L'égalité des sexes a longtemps été une composante idéologique majeure de la pensée socialiste, et nous avons encore une fois la preuve que cela fonctionne ! Un escadron de femmes pilotes s'est fait connaître dans tout le CSA pour ses raids audacieux sur le territoire ennemi, ses formations d'attaque coordonnées et synchronisées permettant d'abattre facilement des forces aériennes ennemies plus importantes. Dénommée avec dérision "Sorcières rouges" par les forces réactionnaires de Huey Long, l'escadron, dirigé par Florence "Pancho" Barnes, a pris son nouveau surnom avec beaucoup de fierté"
-amcivwar.34.a: "La mort est dans l'air"
+ amcivwar.34.t: "Le Corps Aérien de Betsy Ross"
+ amcivwar.34.d: "L'égalité des sexes est depuis longtemps une composante idéologique majeure de la pensée socialiste, et nous avons encore plus de preuves que cela fonctionne ! Un escadron de femmes pilotes a acquis une renommée dans toute l'ASC pour ses raids audacieux en territoire ennemi, ses formations d'attaque coordonnées et synchronisées leur permettant d'abattre facilement des forces aériennes ennemies plus importantes. Nommé par sa fondatrice Opal Kunz d'après le créateur du drapeau américain, l'escadron a adopté son nouveau surnom avec beaucoup de fierté."
+ amcivwar.34.a: "La mort est dans l'air"
 
 amcivwar.35.t: "Les femmes soldats"
  amcivwar.35.d: "Alors que la lutte révolutionnaire se poursuit, un certain nombre de femmes ont rejoint la lutte armée conformément aux idéaux socialistes d'égalité des sexes. Bien que toutes ne soient pas acceptées par leurs camarades masculins, cela n'a pas dissuadé beaucoup de femmes de se battre et de mourir pour la révolution. Des manuels ont été distribués aux recruteurs sur la manière d'organiser efficacement les détachements de femmes, dont les militas peuvent apprendre aux militaires une chose ou deux"
@@ -246,11 +255,6 @@ amcivwar.36.t: "Conflits internes"
 amcivwar.36.a: "Aux côtés de l'IWW"
 amcivwar.36.b: "Laissez le compromis de l'avant-garde"
 amcivwar.36.c: "Aux côtés de l'AFL"
-
-amcivwar.37.t: "Directive 656 : Programme d'allocation des ressources pour l'hiver ([GetYear])"
- amcivwar.37.d: "La révolution doit réussir, mais la révolution est aussi pour le peuple. Quand soutenir la révolution et soutenir le peuple sont les mêmes, le choix est trivial, mais quand l'un doit être prioritaire par rapport à l'autre, des choix difficiles doivent être faits. Le Comité central a été informé que la situation de l'approvisionnement est critique, et que le peuple ou l'armée doivent être sous-approvisionnés pendant l'hiver"
-amcivwar.37.a: "Nous nous battons pour le peuple"
-amcivwar.37.b: "Nous nous battons pour la révolution"
 
 amcivwar.38.t: "Directive 764 : Loi sur l'éducation révolutionnaire"
 amcivwar.38.d: "Pour ceux qui sont bien éduqués, que ce soit de manière formelle ou par une expérience amère, la pensée révolutionnaire vient aussi facilement que la respiration. Cependant, beaucoup de nos camarades, que ce soit dans la Ceinture d'acier ou ailleurs en Amérique, ont été trompés toute leur vie par les capitalistes et ne comprennent pas comment la révolution les libère. Beaucoup ne donnent pas leur cœur et leur âme à la révolution, et certains tentent même de saboter nos efforts, ignorant que nous sommes la seule force qui se soucie vraiment d'eux. Il faut y remédier et déprogrammer nos camarades. Devrions-nous nous concentrer sur la lutte contre ceux qui se trouvent sur notre territoire, pour garder notre propre moral, ou devrions-nous diffuser notre message sur le territoire ennemi et saper leur volonté de combattre leurs libérateurs ?"
@@ -271,6 +275,10 @@ amcivwar.40.b: "Il n'est pas nécessaire pour l'instant"
 amcivwar.41.t: "Terreur rouge"
 amcivwar.41.d: "La guerre, c'est l'enfer. La guerre civile, encore plus. La tension psychologique causée par le fait de devoir tuer à répétition, même si l'ennemi est un capitaliste, a fait que certains de nos soldats et commandants sont devenus sadiques au-delà de ce que certains considèrent comme acceptable. Bien que cela ne soit pas courant, on signale des exécutions massives et des tortures systématiques, tant sur les lignes de front que dans les territoires centraux, pour supprimer les populations soupçonnées d'aider les factions capitalistes. Reed a pris la décision exécutive de réprimer ces rapports des médias libres. Si la révolution devait échouer à cause de quelques mauvaises pommes", dit Reed, "alors l'humanité souffrirait collectivement pendant des siècles de plus"
 amcivwar.41.a: "C'est le dernier conflit, après tout"
+
+ amcivwar.42.t:0 "La Lutte Finale"
+ amcivwar.42.d: "Sans surprise, les archi-réactionnaires du Canada ont finalement décidé d'intervenir pour tenter d'écraser la révolution en Amérique, dans une tentative désespérée de nous empêcher de détruire leur monarchie en décomposition. La lutte finale a ainsi commencé, et un seul vainqueur peut émerger en Amérique du Nord : révolution ou réaction ?"
+ amcivwar.42.a: "Nous ne devons pas hésiter !"
 
 ### AUS Flavour Events ###
 amcivwar.46.t: "Lindbergh fait appel à Long"
@@ -301,10 +309,6 @@ amcivwar.62.t: "Rappelez-vous les Marines de Chine ?"
 amcivwar.62.d: "Avec l'éclatement de la guerre civile, notre garnison dans les villes de légation a été laissée en plan en Chine. Bien que le rappel de la division laisserait nos concessions chinoises relativement peu surveillées et notre influence dans les villes plus petites, beaucoup nous conseillent de le faire pour gagner la guerre. Devrions-nous rappeler la division ?"
 amcivwar.62.a: "Ramenez nos garçons à la maison !"
 amcivwar.62.b: "Nous ne devrions pas prendre ce risque"
-
-amcivwar.63.t: "La garnison de Panama"
-amcivwar.63.d: "Avec le déclenchement de la guerre civile, la garnison du Panama a décidé de retourner en Amérique pour se battre pour le gouvernement. Cela a laissé le canal sans défense, mais d'un autre côté, nous avons besoin de tous ceux que nous pouvons pour nous battre"
-amcivwar.63.a: "Bienvenue aux garçons"
 
 amcivwar.64.t: "Les difficultés de la guerre civile"
 amcivwar.64.d: "La guerre civile ramène les difficultés chez nous. Les habitants d'un certain nombre de villes loyales sont affamés. Nous pourrions nous concentrer sur le soulagement de leurs souffrances, mais cela impliquerait de détourner les fournitures nécessaires au front pour combattre la guerre civile. Le Congrès et l'armée sont en désaccord à cet égard. Que devrions-nous faire ?"
@@ -344,7 +348,6 @@ amcivwar.76.a: "Denver"
 amcivwar.76.b: "San Francisco"
 amcivwar.76.c: "Helena"
 amcivwar.76.e: "Phoenix"
-
 
  amcivwar.90.t.CSA: "Soutien des Syndicalistes"
  amcivwar.90.t.USA: "Soutien des Loyalistes"
@@ -702,7 +705,7 @@ amcivwar526_tt: "§Y[Root.GetNameDefCap]§! rejoindra §Y[can_ally.GetNameDef]§
 
  amcivwar.527.t: "L'Amérique est réunifiée"
  amcivwar.527.d.USA: "L'Amérique est enfin réunifiée. Nous nous étendons à nouveau d'une mer à l'autre. Les traîtres au pays ont été détruits et les étoiles et les rayures volent maintenant fièrement d'une côte à l'autre, sachant que la liberté est assurée pour tous."
- amcivwar.527.d.CSA: "Enfin, toute l'Amérique fait maintenant partie de [Root.GetNameDef]. La révolution a remporté une grande victoire et le peuple a été libéré des chaînes du capitalisme. Nous agitons tous le drapeau rouge du socialisme, de la Californie à l'île de New York. Alors que les cicatrices de la révolution sont partout, nous pouvons espérer que la révolution sera accessible à tous."
+ amcivwar.527.d.CSA: "Enfin, toute l'Amérique fait désormais partie de [Root.GetNameDef]. La Révolution a remporté une victoire majeure et le peuple a été libéré des chaînes du capitalisme. De la Californie à l'île de New York, tous agitent le drapeau rouge du socialisme. Et même si les cicatrices de la Révolution sont visibles un peu partout, nous pouvons désormais la diffuser sans entrave."
  amcivwar.527.d.TEX: "L'Amérique a enfin été unie sous la bannière de [Root.GetNameDef]. Des traîtres et des tyrans en puissance ont essayé de détruire et de corrompre cette grande nation, mais nous avons tenu bon et pris le contrôle. Une question s'est toutefois posée dans les territoires qui n'ont pas été soulevés au départ avec Huey Long pendant la guerre civile : ce pays est-il les États-Unis d'Amérique ou est-il vraiment [Root.GetNameDef] ? Nombreux sont ceux qui aspirent à retrouver la stabilité de la Bannière Étoilée, même si les choses ont irrévocablement changé. Devrions-nous les apaiser et montrer que l'Amérique que Huey a initialement envisagée existe toujours ?"
  amcivwar.527.d.PSA: "Les États-Unis d'Amérique ont enfin été réunis. Le tyran MacArthur a été renversé, tous les autres traîtres au pays qui cherchent à transformer l'Amérique en quelque chose qu'elle n'est pas ont été vaincus. Les étoiles et les rayures volent maintenant fièrement d'un océan à l'autre, sachant que la liberté est assurée pour tous les Américains."
  #USA/PSA:
@@ -721,10 +724,6 @@ amcivwar526_tt: "§Y[Root.GetNameDefCap]§! rejoindra §Y[can_ally.GetNameDef]§
  amcivwar.527.g: "Ensemble, maintenant et pour toujours.\n§L(Changer de couleur sur la carte)§!"
 
 ### Sanity Checks ###
-
-amcivwar.600.t: "L'effondrement de [Root.GetAdjective]"
- amcivwar.600.d: "Nos forces ne peuvent plus tenir face à l'ennemi - déjà nos troupes commencent à déserter en masse, et l'onde de désorganisation se propage dans les rangs. [Root.GetNameDefCap] est proche du point de défaite, et nous devons admettre qu'il en est ainsi"
-amcivwar.600.a: "Ainsi, cela se termine ici..."
 
 amcivwar.607.t: "L'effondrement fédéral"
  amcivwar.607.d: "Il semble que le gouvernement fédéral en soit à ses derniers instants dans la guerre civile américaine. La plupart de ses terres ont déjà été englouties par les autres factions américaines et il ne reste que les derniers vestiges de son armée - aujourd'hui démoralisée et souffrant de désertions massives, mais qui résiste à tout espoir qu'un miracle puisse les sauver. Certains dirigeants fédéraux ont déjà rencontré les généraux des factions ennemies pour négocier les termes de leur inévitable reddition complète."

@@ -18,7 +18,6 @@ Belgrade_Pact_Balkan_War: "Le pacte de Belgrade"
 Belgrade_Pact_invite_member: "Inviter [From.GetNameDef] à participer au Pacte de Belgrade"
 Belgrade_Pact_invite_member_desc: "Les armées [From.GetAdjective] seront cruellement nécessaires si nous voulons atteindre nos objectifs. Il est temps de les inviter au sein de notre grande alliance"
 
-
 Belgrade_Pact_Romania_capture_dobrudzha_mission: "Capture de Dobrogea"
 Belgrade_Pact_Romania_capture_dobrudzha_mission_desc: "Nous pouvons enfin prendre notre revanche sur les Bulgares. Il est de notre devoir de reprendre Dobrogea, qui nous a été volé par les puissances centrales après la Weltkrieg"
 Belgrade_Pact_Serbia_capture_macedonia_mission: "Capture de la Macédoine"
@@ -29,8 +28,6 @@ Belgrade_Pact_race_to_sofia: "En route vers Sofia"
 Belgrade_Pact_race_to_sofia_desc: "Les défenses bulgares ont été percées et la route vers Sofia est désormais ouverte. C'est une question de temps avant que la capitale bulgare ne tombe. La capture de cette ville importante serait un grand succès pour notre nation"
 
 ### Opinion Modifiers ###
-Balkans_hates_bulgaria: "Sentiment anti-bulgare"
-Balkans_hates_neighbours: "Hégémon des Balkans"
 Belgrade_Pact_anti_bulgaria: "Contre la Bulgarie"
 Belgrade_Pact_joined_boo: "Pacte d'adhésion contre la Bulgarie"
 Belgrade_Pact_did_not_join_yay: "N'a pas adhéré au pacte de Belgrade"
@@ -46,7 +43,6 @@ Belgrade_Pact_didnt_send_promised_aid: "N'a pas envoyé l'aide promise"
 Belgrade_Pact_sent_promised_aid: "Aide envoyée pendant la guerre balkanique"
 Belgrade_Pact_serbia_wont_pressure_ottomans: "A refusé de faire pression sur les Ottomans"
 Belgrade_Pact_refused_thrace: "A refusé de céder la Thrace"
-Belgrade_Pact_supported_serbia_boo: "A soutenu la Serbie"
 Belgrade_Pact_refused_occupation_zone: "Refuse de diviser la Bulgarie"
 Belgrade_Pact_refused_to_end_occupation: "Refuse de mettre fin à l'occupation de la Bulgarie"
 
@@ -337,9 +333,8 @@ pact.113.a: "Super !"
  pact.204.d: "Le ministère des affaires étrangères de [FROM.GetNameDef] nous a répondu, nous informant qu'il acceptait de se joindre à notre cause commune contre l'Autriche."
  pact.204.a: "Excellent."
 
-#use GetCongressMembers for the list:
  pact.205.t: "Les délégués arrivent"
- pact.205.d: "Aujourd'hui, une foule multinationale de diplomates, d'observateurs et de responsables militaires est descendue à Belgrade pour assister à la cérémonie d'ouverture du deuxième congrès de Belgrade. Dans un bref discours, le Premier ministre a remercié tous les délégués de leur présence, puis a porté un toast à notre victoire certaine sur nos ennemis mutuels à Vienne. Demain, les discussions sérieuses commenceront, concernant les revendications de chacun sur le territoire des Habsbourg et notre approche pour les traiter. Mais aujourd'hui est un jour à chérir pour cette rare célébration de l'unité pan-nationale !"
+ pact.205.d: "Aujourd'hui, une foule multinationale de diplomates, d'observateurs et de responsables militaires de [GetCongressMembers] s'est rassemblée à Belgrade pour assister à la cérémonie d'ouverture du Deuxième Congrès de Belgrade. Au cours d'un bref discours, le Premier Ministre a remercié tous les délégués pour leur présence, puis a porté un toast à notre victoire certaine sur nos ennemis communs à Vienne. Dès demain, les discussions sérieuses commenceront, elles porteront sur les revendications de chacun sur le territoire des Habsbourg, et notre approche commune pour parvenir à contenter tout le monde. Mais aujourd'hui profitons de ce jour pour chérir cette rare célébration de l'unité pan-nationale !"
  pact.205.a: "Que le Congrès commence !"
 
  CongressMembers_Pact_minus_one: "[?SER_attending_congress^0.GetNameDef]"

@@ -3,10 +3,10 @@
  Honduras: "Arbre de Priorités du Honduras"
 
 ### Parties ###
-HON_totalist_party_long: "Movimiento Nacional Revolucionario"
-HON_totalist_party: "MNR"
-HON_syndicalist_party_long: "Partido Sindicalista Hondureño"
-HON_syndicalist_party: "PSH"
+ HON_totalist_party_long: "$HON_radical_socialist_party_long$"
+ HON_totalist_party: "$HON_radical_socialist_party$"
+ HON_syndicalist_party_long: "$HON_radical_socialist_party_long$"
+ HON_syndicalist_party: "$HON_radical_socialist_party$"
 HON_radical_socialist_party_long: "Partido Democrático Revolucionario de Honduras"
 HON_radical_socialist_party: "PDRH"
 HON_social_democrat_party_long: "Partido de Innovación y Unidad-Social Democracia"
@@ -21,13 +21,8 @@ HON_authoritarian_democrat_party_long: "Partido Anticorrupción"
 HON_authoritarian_democrat_party: "PA"
 HON_paternal_autocrat_party_long: "Alianza Patriótica Hondureña"
 HON_paternal_autocrat_party: "APH"
-HON_national_populist_party_long: "Frente Hondureño para la Salvación Nacional"
-HON_national_populist_party: "FHSN"
-HON_paternal_autocrat_americans_party: "AGPP"
-HON_paternal_autocrat_americans_party_long: "American Governate for Peace and Progress"
-
-### Leaders ###
- POLITICS_HONDURAN_COUNCIL_DESC: "Le suicide du président Andino en 1933, suite à la prise de la capitale par les rebelles paysans, a créé une onde de choc dans tout le Honduras. Au lendemain de la révolution, une coalition d'intelligentsia et de militaires ambitieux a pris le pouvoir et a institué une \"grande purge\" des dissidents et des éléments pro-américains. Cependant, même eux ne purent résister à l'attrait de la United Fruit Company et à son emprise sur l'économie hondurienne. Aujourd'hui en grave déclin, la \"République paysanne\" s'accroche en utilisant la force militaire pour contrôler les fragiles liaisons de transport à travers le pays et a pratiquement perdu le contrôle."
+ HON_national_populist_party_long: "$HON_paternal_autocrat_party_long$"
+ HON_national_populist_party: "$HON_paternal_autocrat_party$"
 
 #Ideas
 HON_peasant_republic: "République paysanne"
@@ -134,10 +129,6 @@ honduras.222.d: "La construction d'un croiseur qui servira de navire amiral à l
 honduras.222.a: "Il est temps de se mettre au travail !"
 
 ### Tooltips
-honduras_revolution_tt: "Les §CTotalistes ont pris le contrôle du gouvernement§!"
-HON_better_trait_natpop: "Notre cher leader aura un beau trait§!"
-HON_american_reinforcements: "Deux divisions marines seront envoyées pour sécuriser notre nation."
-
 honduras_destroyers_tt: "Deux destroyers de niveau technologique de 1919 vont opérer sur notre côte pacifique."
 honduras_submarines_tt: "Deux sous-marins de niveau technique de 1919 opéreront sur notre côte pacifique."
 
@@ -226,7 +217,6 @@ HON_ufc_banned: "Suppression de l'UFC"
 HON_monzadas_revolution: "Un gouvernement propre"
 HON_urban_growth: "Urbanisation"
 HON_red_youth: "Chemises rouges"
-HON_peacenik: "La paix en notre temps"
 HON_callejas_revolution: "La révolution"
 HON_church_property: "Saisie des biens de l'église"
 HON_coffee_cash: "Profits du café"
@@ -261,8 +251,6 @@ HON_stronghold: "Le bastion du libéralisme"
 HON_stronghold_desc: "Le Honduras restera un bastion du libéralisme pour les années à venir, en promouvant la dignité, l'égalité et la fraternité de tous les hommes."
 HON_motto: "Souverain, indépendant et libre"
 HON_motto_desc: "Nous ne baisserons plus jamais la tête devant les tyrans, nous sommes maintenant et pour toujours souverains, indépendants et libres."
-
-
 
 #Events
 honduras.1.t: " La République bananière originelle "
@@ -400,7 +388,7 @@ HON_purge_rightists: "Purger le droit"
 HON_purge_rightists_desc: "Oh, allez, vous saviez que celui-là allait venir."
 HON_socialist_republic: "La République Socialiste"
 HON_socialist_republic_desc: "Bien que ce ne soit qu'une formalité, la désignation officielle du Honduras comme "république socialiste" plutôt que comme simple "république" est d'une importance cérémoniale capitale."
-HON_Utopia: "L'utopie totalitaire"
+ HON_Utopia:9 "L'utopie totalitaire"
 HON_Utopia_desc: "Les gens ont-ils jamais été plus heureux ou plus libres que sous la direction du Premier ministre Callejas ? Non, bien sûr que non."
 HON_planned_economy: "Économie planifiée"
 HON_planned_economy_desc: "En prenant le contrôle direct de l'économie, nous pouvons empêcher l'exportation de ressources vitales du Honduras et les utiliser pour notre propre compte."
@@ -471,7 +459,6 @@ HON_finish_reform_irreg_desc: "Nos efforts d'élargissement commencent à porter
 HON_mil_research: "Recherche militaire"
 HON_mil_research_desc: "Quels que soient nos choix en matière de doctrine, il est indéniable que nous manquons de spécialistes et de techniciens dont l'expertise pourrait nous donner le dessus dans un conflit. Nous devons commencer à les attirer pour servir notre cause !"
 
-
 ## Air Force
 HON_air_founding: "Le FAH"
 HON_air_founding_desc: "Notre haut commandement militaire a officiellement inauguré la Fuerza Aérea Hondureña pour prendre la fuite contre nos ennemis."
@@ -518,11 +505,10 @@ HON_clash: "Le conflit frontalier"
 
 ##Army_Generals##
 
- ARMY_HON_JOSE_MARIA_MONCADA_DESC: "§YDescription générale\n§YBorn:§W\n§YCarrière militaire:§W\n§YNotes importantes:§W."
- ARMY_HON_FEDERICO_DAVIDSON_BLANCO_DESC: "§YDescription générale\n§YBorn:§W \n§YCarrière militaire:§W \n§YNotes importantes:§W."
- ARMY_HON_OSWALDO_LOPEZ_ARELLANO_DESC: "§YDescription générale\n§YBorn:§W \n§YCarrière militaire:§W \n§YNotes importantes:§W."
- ARMY_HON_ANASTASIO_SOMOZA_GARCIA_DESC: "§YDescription générale\n§YBorn:§W \n§YMCarrière militaire:§W \n§YNotes importantes:§W."
- ARMY_HON_JUAN_GALVEZ_DESC: ""
+ HON_jose_maria_moncada_commander_desc:0 "§YDescription générale\n§YBorn:§W \n§YMCarrière militaire:§W \n§YNotes importantes:§W."
+ NIC_federico_davidson_blanco_commander_desc:0 "§YDescription générale\n§YBorn:§W \n§YMCarrière militaire:§W \n§YNotes importantes:§W."
+ HON_oswaldo_lopez_arellano_commander_desc:0 "§YDescription générale\n§YBorn:§W \n§YMCarrière militaire:§W \n§YNotes importantes:§W."
+ HON_juan_manuel_galvez_commander_desc:9 ""
 
 ### Country Names ###
  HON: "Honduras"
@@ -540,12 +526,39 @@ HON_radical_socialist_ADJ: "Hondurien"
 HON_radical_socialist_DEF: "la République Socialiste du Honduras"
 
 ### Characters ###
- HON_venancio_callejas: "Venancio Callejas"
- HON_ramon_villeda_morales: "Ramon Villeda Morales"
- HON_jose_maria_moncada: "José Maria Moncada"
+ HON_venancio_callejas_lozano: "Venancio Callejas Lozano"
+ HON_jose_ramon_adolfo_villeda_morales:0 "José Ramón Adolfo Villeda Morales"
+ HON_jose_maria_moncada_tapia: "José Maria Moncada Tapia"
  HON_jose_angel_zuniga_huete: "José Ángel Zúñiga Huete"
- HON_juan_manuel_galvez: "Juan Manuel Galvez"
+ HON_juan_manuel_galvez_duron: "Juan Manuel Gálvez Durón"
+
  HON_honduran_council: "Conseil Hondurien"
+ HON_honduran_council_leader_desc:0 "Le suicide du président Andino en 1933, suite à la prise de la capitale par les rebelles paysans, a créé une onde de choc dans tout le Honduras. Au lendemain de la révolution, une coalition d'intelligentsia et de militaires ambitieux a pris le pouvoir et a institué une \"grande purge\" des dissidents et des éléments pro-américains. Cependant, même eux ne purent résister à l'attrait de la United Fruit Company et à son emprise sur l'économie hondurienne. Aujourd'hui en grave déclin, la \"République paysanne\" s'accroche en utilisant la force militaire pour contrôler les fragiles liaisons de transport à travers le pays et a pratiquement perdu le contrôle."
+
  HON_jose_leon_castro: "José León Castro"
- HON_carl_ericsson_von_rosen: "Carl Ericsson von Rosen"
- HON_frederic_lord: "Frederic Lord"
+
+ HON_arturo_martinez_galindo:0 "Arturo Martínez Galindo"
+ HON_ramon_amaya_amador:0 "Ramón Amaya Amador"
+ HON_francisco_murillo_selva:0 "Francisco Murillo Selva"
+ HON_dionisio_romero_narvaez: "Dionisio Romero Narvaez"
+ HON_rafael_heliodoro_valle:0 "Rafael Heliodoro Valle"
+ HON_rafael_medina_raudales: "Rafael Medina Raudales"
+ HON_rafael_diaz_chavez: "Rafael Díaz Chávez"
+ HON_ernesto_argueta_ayes: "Ernesto Argueta Ayes"
+ HON_mariano_bertrand_anduray:0 "Mariano Bertrand Anduray"
+ HON_abraham_williams_calderon:0 "Abraham Williams Calderón"
+ HON_julio_lozano_diaz:0 "Julio Lozano Díaz"
+ HON_rafael_camilo_rivera_reina: "Rafael Camilo Rivera Reina"
+
+ HON_jose_lino_zuniga: "José Lino Zúniga"
+ HON_justo_umana_alvarado: "Justo Umaña Alvarado"
+ HON_calixto_carias_rodriguez: "Calixto Carías Rodríguez"
+ HON_william_edgar_coleman: "William Edgar Coleman"
+ HON_rufino_solis_juarez: "Rufino Solis Juárez"
+ HON_leonidas_pineda_maldonado: "Leonidas Piñeda Maldonado"
+ HON_joaquin_medina_planas: "Joaquín Medina Planas"
+ HON_luis_alonzo_fiallos: "Luís Alonzo Fiallos"
+ HON_jose_rafael_aguilar: "José Rafael Aguilar"
+ HON_ramon_lisandro_garay_mejia: "Ramón Lisandro Garay Mejia"
+ HON_salvador_machado_cisneros: "Salvador Machado Cisneros"
+ HON_francisco_martinez_funes: "Francisco Martínez Funes"

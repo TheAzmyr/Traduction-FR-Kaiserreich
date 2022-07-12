@@ -17,17 +17,17 @@ UPC_authoritarian_democrat_party: "Centralistes"
 UPC_paternal_autocrat_party: "Vestiges de seigneurs de guerre"
 UPC_national_populist_party: "Yiguandao"
 
-### Leaders ###
-POLITICS_UPC_DAI_CHUNFENG_DESC: ""
-POLITICS_UPC_TANG_JIYAO_DESC: ""
-POLITICS_UPC_YAN_HUIQING_DESC: "Natif de Shanghai et diplômé de l'université de Virginie, Yan a reçu des prix et des médailles pour le débat, et a été élu à Phi Beta Kappa. Yan a enseigné l'anglais à l'université St. John's de Shanghai pendant une courte période après son retour des États-Unis, où il est devenu franc-maçon, puis est allé à Beijing pour commencer sa carrière politique. En 1906, Yan est devenu rédacteur à la Commercial Press, a obtenu un doctorat en littérature à l'université de Beiyang (aujourd'hui l'université de Tianjin) et a été nommé au ministère impérial de l'éducation. Yan s'est distingué en tant que ministre des affaires étrangères du gouvernement de Beijing sous Wu Peifu. Pendant la deuxième guerre de Zhifeng, Yan a traduit et compilé les Histoires de la Chine ancienne à Hong Kong."
-POLITICS_UPC_TANG_JIYAO_SOCCON_DESC: ""
-POLITICS_UPC_HU_SHIH_DESC: ""
-POLITICS_UPC_ZHANG_JUNMAI_DESC: ""
-POLITICS_FED_SONG_QINGLING_DESC: ""
-POLITICS_UPC_CHEN_DUXIU_DESC: ""
-POLITICS_UPC_ZHANG_XUELIANG_DESC: ""
-POLITICS_UPC_ZHANG_TIANRAN_DESC: ""
+### Leader Descs ###
+ FNG_zhang_xueliang_UPC_leader_desc: ""
+ GXC_chen_qiyou_UPC_leader_desc: ""
+ QIE_hu_shih_UPC_leader_desc: ""
+ QIE_yan_huiqing_UPC_leader_desc: ""
+ UPC_zhang_junmai_leader_desc: ""
+ YUN_tang_jiyao_UPC_leader_desc: ""
+ YUN_tang_jiyao_UPC_soccon_leader_desc: ""
+
+### Characters ###
+ UPC_zhang_junmai:0 "Zhang Junmai"
 
 ### Ideas ###
 UPC_corruption: "La question de la corruption"
@@ -37,11 +37,21 @@ UPC_federal_authority_2: "Autorité fédérale faible"
 UPC_federal_authority_3: "Autorité fédérale moyenne"
 UPC_federal_authority_4: "Autorité fédérale élevée"
 UPC_federal_authority_5: "Autorité fédérale très élevée"
-UPC_popular_support_1: "Soutien populaire très faible"
-UPC_popular_support_2: "Soutien populaire faible"
-UPC_popular_support_3: "Soutien populaire moyen"
-UPC_popular_support_4: "Soutien populaire élevé"
-UPC_popular_support_5: "Soutien populaire très élevé"
+
+ UPC_popular_support_1: "Soutien populaire très faible"
+ UPC_popular_support_1_desc:0 "Le Gouvernement Fédéraliste est actuellement impopulaire. Il n'a presque aucune légitimité aux yeux du peuple chinois et les gouvernements rivaux nous voient comme de simples parvenus. Nous devrons travailler très dur pour rallier les gens à notre cause."
+
+ UPC_popular_support_2:0 "Soutien populaire insignifiant"
+ UPC_popular_support_2_desc:0 "Le Gouvernement Fédéraliste est actuellement insignifiant en dehors du sud de la Chine. Il n'est pas considéré comme un concurrent sérieux aux yeux du peuple chinois et les gouvernements rivaux nous voient comme de simples parvenus. Nous gagnons lentement les gens à notre cause."
+
+ UPC_popular_support_3: "Soutien populaire moyen"
+ UPC_popular_support_3_desc:0 "Le Gouvernement Fédéraliste dispose actuellement d'un soutien limité à l'extérieur de la Chine méridionale. Cela a attiré l'attention du peuple chinois et les gouvernements rivaux commencent à nous considérer comme une menace réelle, quoique limitée. Nous gagnons lentement les gens à notre cause."
+
+ UPC_popular_support_4: "Soutien populaire élevé"
+ UPC_popular_support_4_desc:0 "Le gouvernement fédéraliste bénéficie actuellement d'un soutien important dans toute la Chine. Il est désormais considéré comme un gouvernement républicain viable aux yeux du peuple chinois. Nous sommes clairement en train de gagner les gens à notre cause."
+
+ UPC_popular_support_5:0 "Large soutien populaire"
+ UPC_popular_support_5_desc:0 "Le Gouvernement Fédéraliste bénéficie actuellement d'un large soutien dans toute la Chine. Sa position de gouvernement unique de la Chine est désormais incontestée et nous pouvons nous attendre à ce que la stabilité revienne dans le pays."
 
 UPC_gentry_cooperation: "Coopération entre les générations"
 UPC_business_relations: "Relations commerciales"
@@ -65,12 +75,14 @@ UPC_power_projection: "Projection de la puissance"
 UPC_shipbuilding_program: "Programme fédéral de construction navale"
 UPC_coastal_defense: "Défense côtière"
 
+ UPC_reconstruction: "Plan de reconstruction"
+
 ### Tooltips ###
 UPC_after_reforms_tooltip: "\nAprès §H300§! jours:\n"
  UPC_Federal_Ministry_Of_Railways_tooltip: "Modifie §H$UPC_Decentralised_Economic_Development$§! ou §H$UPC_Industrialisation_Committee$§! par\nVitesse de construction d'§HInfratructure§! : [?0.1|%+=]\n"
 
- UPC_Aircraft_Repair_Schools_tooltip: "Modifie §H$UPC_new_aviation_ministry$§! par\nRisques d'accidents aériens : [?-0.1|%-=1]\n"
- UPC_Civil_Aviation_Administration_tooltip: "Modifie §H$UPC_new_aviation_ministry$§! par\nGain d'expérience aérienne : [?0.1|%+=]\n"
+ UPC_Aircraft_Repair_Schools_tooltip: "Modifie §H$UPC_new_aviation_ministry$§! par\n$MODIFIER_AIR_ACCIDENTS_FACTOR$: [?-0.1|%-=1]\n"
+ UPC_Civil_Aviation_Administration_tooltip: "Modifie §H$UPC_new_aviation_ministry$§! par\n$MODIFIER_XP_GAIN_AIR_FACTOR$: [?0.1|%+=]\n"
  UPC_Central_Aviation_School_tooltip: "Modifie §H$UPC_new_aviation_ministry$§! par\nChance de génération d'As: [?0.1|%+=]\n"
  UPC_Build_A_Merchant_Navy_tooltip: "Modifie §H$UPC_shipbuilding_program$§! ou §H$UPC_coastal_defense$§! par\n§HConvoi commercial§! : £production_cost  Coût de Production :  [?-0.15|%-]\n"
 
@@ -83,7 +95,7 @@ UPC_after_reforms_tooltip: "\nAprès §H300§! jours:\n"
  UPC_public_works_tt: "Débloque des  £decision_icon_small §HDécisions supplémentaires§! pour le §HPlan de reconstruction§!"
 
 UPC_foreign_ministry_tt: "Débloque la £decision_icon_small §HPolitique étrangère§!"
- 
+
  UPC_will_join_faction_after_war: "§GNous pourrons rejoindre les §H[FROM.GetFactionName]§! une fois nos guerres terminées.§!."
  UPC_will_join_faction_after_war_FROM: "§H[FROM.GetNameWithFlag] rejoindra les §H[FROM.GetFactionName]§! une fois que ses guerres seront terminées.§!."
 
@@ -97,7 +109,6 @@ UPC_foreign_ministry_tt: "Débloque la £decision_icon_small §HPolitique étran
  UPC_connected_northwest: "A complété la décision £decision_icon_small §H$UPC_connect_northwest$§!"
 
 ### Decisions ###
-
 UPC_mopping_up: "Traiter avec les séparatistes"
  UPC_mopping_up_desc: "La périphérie de la Chine a toujours été plus lâchement intégrée au gouvernement central et a un passé violent de soulèvements, de tensions ethniques et de séparatisme. Pendant la guerre civile, deux États ont tenté de se séparer du gouvernement central et ont déclaré leur indépendance. Bien que peu de gens en Chine veuillent les reconnaître, leur réintégration peut être plus difficile qu'il n'y paraît pour apaiser les attitudes chauvinistes des Han. Dans les deux cas, nous devons décider si nous voulons les reconnaître ou les réintégrer"
 
@@ -162,7 +173,6 @@ UPC_attack_GER_LEC: "[LEC.GetFlag] Reprendre Shanghai"
 UPC_attack_non_aligned_LEC: "[LEC.GetFlag] Reprendre Shanghai"
 UPC_threaten_ger_treaty_ports: "[GER.GerFlag]Saisir les concessions allemandes"
 UPC_integrate_allies: "Offrir l'adhésion à [FROM.GetNameDef]"
-
 
 ### Flags ###
 UPC_dealt_with_feds: "[ROOT.GetName] a conclu un accord avec la Chine fédéraliste"
@@ -625,7 +635,7 @@ lngupc.37.d: "[FROM.GetLeader] de [FROM.GetNameDef] a refusé de s'intégrer cor
 lngupc.37.a: "La Chine, longtemps divisée, doit être unie !"
 
 lngupc.340.t: "Les villes allemandes sont cédées !"
-lngupc.340.d: "Même le deuxième impérialiste archi-connu, les Allemands, s'est plié à la pression ! C'est un coup diplomatique sérieux qui redonnera confiance au peuple chinois et démontre clairement le succès de notre politique pacifique".
+ lngupc.340.d: "Même le deuxième impérialiste archi-connu, les Allemands, s'est plié à la pression ! C'est un coup diplomatique sérieux qui redonnera confiance au peuple chinois et démontre clairement le succès de notre politique pacifique"
 lngupc.340.a: "Super !"
 
 lngupc.341.t: "L'Allemagne refuse !"

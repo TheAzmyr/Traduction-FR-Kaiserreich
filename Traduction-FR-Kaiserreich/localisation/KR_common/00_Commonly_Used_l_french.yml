@@ -1,0 +1,243 @@
+﻿l_french:
+
+### Regular Tooltips (for use in custom_effect_tooltip) ###
+ tooltip_white_line: "   \n"
+
+ elections_in_one_months: "§HDes Élections auront lieu dans un mois§!"
+ elections_in_three_months: "§HLes élections auront lieu dans trois mois§!\n"
+
+ characters_will_be_retired: "§RLes personnages suivants seront retirés :§!"
+ characters_will_be_recruited: "§GLes personnages suivants seront recrutés :§!"
+
+ tooltip_immediate_effect_upon_focus_start: "§YEffet immédiat dès le lancement de la priorité :§!\n"
+ tooltip_effect_upon_focus_completion: "\n§GEffet lors de l'achèvement de la priorité :§!\n"
+ after_idea_expires: "Après l'expiration de l'Esprit National :"
+
+ unlock_focuses: "§GCette priorité sera éventuellement contournée automatiquement et déverrouillera les autres priorités.§!\n"
+ unlocks_after_event: "§GCette priorité sera automatiquement déverrouillée par événement§!\n"
+
+ if_controlled_by_PREV: "si est contrôlé par §Y[PREV.GetNonIdeologyName]§! :"
+
+ # used to generate tooltips in dockyard or naval base foci when the country doesn't own any coastal states
+ random_owned_controlled_coastal_state: "Un État côtier détenu et contrôlé de manière aléatoire"
+
+ received_equipment_500: "Vous avez reçu §G500§! de matériel d'infanterie de ce pays\n"
+ received_equipment_1000: "Vous avez reçu §G1000§! de matériel d'infanterie de ce pays\n"
+ received_equipment_1500: "Vous avez reçu §G1500§! de matériel d'infanterie de ce pays\n"
+ received_equipment_2000: "Vous avez reçu §G2000§! de matériel d'infanterie de ce pays\n"
+ received_equipment_5000: "Vous avez reçu §G5000§! de matériel d'infanterie de ce pays\n"
+
+### Flag Loc segments ###
+ has_completed_decision: "A pris la décision £decision_icon_small §H"
+
+ # example of the above
+ # flag_loc_entry: "$has_completed_decision$$your_decision_here$§!"
+
+### On Map Area Names ###
+ integration_tooltip: "Voir les zones non intégrées"
+
+### Decision Names ###
+ integrate_state: "Intégrer [From.GetName]"
+
+### Custom Modifier Tooltips ###
+ cannot_enact_conscription_tt: "§RImpossible d'augmenter les lois sur la conscription.§!"
+ cannot_train_units_tt: "§RImpossible de former des unités, de dissoudre des unités ou de modifier des modèles d'unités.§!\n"
+ cannot_mobilise_tt: "§RImpossible d'augmenter les lois sur la conscription ou la mobilisation.§!\n"
+ cannot_build_armor_tt: "§RNe peut pas construire de blindés.§!"
+ cannot_replace_character: "§YCe conseiller ne peut pas être remplacé manuellement§!"
+
+### Colours (for use in scripted loc) ###
+ colour_cyan: "C"
+ colour_dirty_grey: "L"
+ colour_white: "W"
+ colour_blue: "B"
+ colour_green: "G"
+ colour_red: "R"
+ colour_black: "b"
+ colour_grey: "g"
+ colour_yellow: "Y"
+ colour_orange: "O"
+
+ colour_gradient_purple: "0"
+ colour_gradient_lilac: "1"
+ colour_gradient_blue: "2"
+ colour_gradient_navy_blue: "3"
+ colour_gradient_light_blue: "4"
+ colour_gradient_cyan: "5"
+ colour_gradient_turquoise: "6"
+ colour_gradient_light_green: "7"
+ colour_gradient_yellow: "8"
+ colour_gradient_orange: "9"
+ colour_gradient_red: "5"
+
+ colour_totalist_red: "o"
+ colour_syndicalist_red: "r"
+ colour_socdem_pink: "S"
+ colour_soclib_orange: "l"
+ colour_marlib_yellow: "m"
+ colour_soccon_blue: "c"
+ colour_pataut_grey: "P"
+ colour_natpop_brown: "N"
+ colour_natpop_green: "n"
+
+### KR-added Modifiers ###
+ offmap_military_factories_tooltip: "Usines Militaires Hors Carte"
+ offmap_civilian_factories_tooltip: "Usines Civiles Hors Carte"
+ offmap_dockyards_tooltip: "Chantiers Navals Hors Carte"
+
+### Modifiers (for use as tooltips in variable effects) ###
+ consumer_goods_tooltip: "$MODIFIER_CONSUMER_GOODS_FACTOR$: $RIGHT|H=%1$"
+ factory_output_tooltip:0 "$MODIFIER_INDUSTRIAL_CAPACITY_FACTOR$ : $RIGHT|+=%$"
+ dockyard_output_tooltip: "$MODIFIER_INDUSTRIAL_CAPACITY_DOCKYARD_FACTOR$: $RIGHT|+=%$"
+ construction_speed_tooltip:0 "$MODIFIER_PRODUCTION_SPEED_BUILDINGS_FACTOR$ : $RIGHT|+=%$"
+ industry_repair_tooltip: "$MODIFIER_INDUSTRY_REPAIR_FACTOR$: $RIGHT|+=%$"
+ local_resources_factor_tooltip: "$MODIFIER_LOCAL_RESOURCES_FACTOR$: $RIGHT|+=%$"
+ global_building_slots_tooltip: "$MODIFIER_GLOBAL_BUILDING_SLOTS_FACTOR$: $RIGHT|+=%0$"
+
+ max_efficiency_tooltip: "$MODIFIER_PRODUCTION_FACTORY_MAX_EFFICIENCY_FACTOR$: $RIGHT|=%+$"
+ start_efficiency_tooltip: "$MODIFIER_PRODUCTION_FACTORY_START_EFFICIENCY_FACTOR$: $RIGHT|=%+$"
+ efficiency_gain_tooltip: "$MODIFIER_PRODUCTION_FACTORY_START_EFFICIENCY_FACTOR$: $RIGHT|=%+$"
+ line_change_efficiency_tooltip: "$MODIFIER_LINE_CHANGE_PRODUCTION_EFFICIENCY_FACTOR$: $RIGHT|=%+$"
+
+ industrial_factory_donations_tooltip: "$MODIFIER_INDUSTRIAL_FACTORY_DONATIONS$: $RIGHT|+=0$"
+ military_factory_donations_tooltip: "$MODIFIER_MILITARY_FACTORY_DONATIONS$: $RIGHT|+=0$"
+ dockyard_donations_tooltip: "$MODIFIER_DOCKYARD_DONATIONS$: $RIGHT|+=0$"
+
+ pp_gain_tooltip:0 "$MODIFIER_POLITICAL_POWER_GAIN$ : $RIGHT|+=$"
+ pp_cost_tooltip: "$MODIFIER_POLITICAL_POWER_COST$: $RIGHT|-=$"
+ pp_factor_tooltip: "$MODIFIER_POLITICAL_POWER_FACTOR$: $RIGHT|+=%0$"
+ stability_tooltip: "$MODIFIER_STABILITY_FACTOR$: $RIGHT|=%+$"
+ stability_weekly_tooltip: "$MODIFIER_STABILITY_WEEKLY$: $RIGHT|=%+$"
+ war_support_tooltip: "$MODIFIER_WAR_SUPPORT_FACTOR$: $RIGHT|=%+$"
+ war_support_weekly_tooltip: "$MODIFIER_WAR_SUPPORT_WEEKLY$: $RIGHT|=%+$"
+
+ monthly_population_tooltip: "$MODIFIER_GLOBAL_MONTHLY_POPULATION$: $RIGHT|=%+1$"
+
+ conscription_tooltip: "$MODIFIER_CONSCRIPTION_FACTOR$: $RIGHT|H%$"
+ conscription_factor_tooltip: "$MODIFIER_CONSCRIPTION_TOTAL_FACTOR$: $RIGHT|%+0$"
+
+ army_org_tooltip: "$MODIFIER_ARMY_ORG$: $RIGHT|+=1$"
+ army_org_factor_tooltip: "$MODIFIER_ARMY_ORG_FACTOR$: $RIGHT|+=%1$"
+ army_morale_tooltip: "$MODIFIER_ARMY_MORALE$: $RIGHT|+=1$"
+ army_morale_factor_tooltip: "$MODIFIER_ARMY_MORALE_FACTOR$: $RIGHT|+=%1$"
+
+ navy_org_tooltip: "$MODIFIER_NAVY_ORG$"
+ navy_org_factor_tooltip: "$MODIFIER_NAVY_ORG_FACTOR$"
+ naval_morale_tooltip: "$MODIFIER_NAVAL_MORALE$: $RIGHT|+=1$"
+ naval_morale_factor_tooltip: "$MODIFIER_NAVAL_MORALE_FACTOR$: $RIGHT|+=%1$"
+
+ army_xp_gain_tooltip: "$MODIFIER_XP_GAIN_ARMY$: $RIGHT|+=$ $MOD_DAILY$"
+ army_xp_gain_factor_tooltip: "$MODIFIER_XP_GAIN_ARMY_FACTOR$: $RIGHT|+=%1$"
+ navy_xp_gain_tooltip: "$MODIFIER_XP_GAIN_ARMY$: $RIGHT|+=$ $MOD_DAILY$"
+ navy_xp_gain_factor_tooltip: "$MODIFIER_XP_GAIN_ARMY_FACTOR$: $RIGHT|+=%1$"
+ air_xp_gain_tooltip: "$MODIFIER_XP_GAIN_AIR$: $RIGHT|+=$ $MOD_DAILY$"
+ air_xp_gain_factor_tooltip: "$MODIFIER_XP_GAIN_AIR_FACTOR$: $RIGHT|+=%1$"
+
+ army_unit_xp_gain_tooltip: "$MODIFIER_XP_GAIN_ARMY_UNIT$: $RIGHT|+=$ $MOD_DAILY$"
+ army_unit_xp_gain_factor_tooltip: "$MODIFIER_XP_GAIN_ARMY_UNIT_FACTOR$: $RIGHT|+=%1$"
+ navy_unit_xp_gain_tooltip: "$MODIFIER_XP_GAIN_NAVY_UNIT$: $RIGHT|+=$ $MOD_DAILY$"
+ navy_unit_xp_gain_factor_tooltip: "$MODIFIER_XP_GAIN_NAVY_UNIT_FACTOR$: $RIGHT|+=%1$"
+
+ army_speed_tooltip: "$MODIFIER_ARMY_SPEED_FACTOR$: $RIGHT|+=%$"
+ army_attack_speed_tooltip: "$MODIFIER_ARMY_ATTACK_SPEED_FACTOR$: $RIGHT|+=%$"
+
+ army_attack_tooltip: "$MODIFIERS_ARMY_ATTACK_FACTOR$: $RIGHT|+=%1$"
+ army_defence_tooltip: "$MODIFIERS_ARMY_DEFENCE_FACTOR$: $RIGHT|+=%1$"
+ army_core_attack_tooltip: "$MODIFIERS_ARMY_CORE_ATTACK_FACTOR$: $RIGHT|+=%1$"
+ army_core_defence_tooltip: "$MODIFIERS_ARMY_CORE_DEFENCE_FACTOR$: $RIGHT|+=%1$"
+
+### Scripted Loc ###
+ empty: ""
+
+ loc_royal: "royal"
+ loc_royal_cap: "Royal"
+ loc_royal_with_space: "$loc_royal$ "
+ loc_royal_cap_with_space: "$loc_royal_cap$ "
+
+ loc_has: "a"
+ loc_have: "a"
+
+ loc_its: "son"
+ loc_their: "leur"
+ loc_theirs: "leur"
+
+### Custom Cost Tooltips (for use in decisions) ###
+ CP_5: "£command_power §H5§!"
+ CP_5_blocked: "£command_power §R5§!"
+ CP_5_tooltip: "Cela coûte $CP_5_blocked$ de prendre la décision"
+
+ CP_10: "£command_power §H10§!"
+ CP_10_blocked: "£command_power §R10§!"
+ CP_10_tooltip: "Cela coûte $CP_10_blocked$ de prendre la décision"
+
+ CP_15: "£command_power §H15§!"
+ CP_15_blocked: "£command_power §R15§!"
+ CP_15_tooltip: "Cela coûte $CP_15_blocked$ de prendre la décision"
+
+ CP_20: "£command_power §H20§!"
+ CP_20_blocked: "£command_power §R20§!"
+ CP_20_tooltip: "Cela coûte $CP_20_blocked$ de prendre la décision"
+
+ CP_25: "£command_power §H25§!"
+ CP_25_blocked: "£command_power §R25§!"
+ CP_25_tooltip: "Cela coûte $CP_25_blocked$ de prendre la décision"
+
+ CP_30: "£command_power §H30§!"
+ CP_30_blocked: "£command_power §R30§!"
+ CP_30_tooltip: "Cela coûte $CP_30_blocked$ de prendre la décision"
+
+ CP_35: "£command_power §H35§!"
+ CP_35_blocked: "£command_power §R35§!"
+ CP_35_tooltip: "Cela coûte $CP_35_blocked$ de prendre la décision"
+
+ CP_40: "£command_power §H40§!"
+ CP_40_blocked: "£command_power §R40§!"
+ CP_40_tooltip: "Cela coûte $CP_40_blocked$ de prendre la décision"
+
+ CP_45: "£command_power §H45§!"
+ CP_45_blocked: "£command_power §R45§!"
+ CP_45_tooltip: "Cela coûte $CP_45_blocked$ de prendre la décision"
+
+ CP_50: "£command_power §H50§!"
+ CP_50_blocked: "£command_power §R50§!"
+ CP_50_tooltip: "Cela coûte $CP_50_blocked$ de prendre la décision"
+
+ CP_55: "£command_power §H55§!"
+ CP_55_blocked: "£command_power §R55§!"
+ CP_55_tooltip: "Cela coûte $CP_55_blocked$ de prendre la décision"
+
+ CP_60: "£command_power §H60§!"
+ CP_60_blocked: "£command_power §R60§!"
+ CP_60_tooltip: "Cela coûte $CP_60_blocked$ de prendre la décision"
+
+ CP_65: "£command_power §H65§!"
+ CP_65_blocked: "£command_power §R65§!"
+ CP_65_tooltip: "Cela coûte $CP_65_blocked$ de prendre la décision"
+
+ CP_70: "£command_power §H70§!"
+ CP_70_blocked: "£command_power §R70§!"
+ CP_70_tooltip: "Cela coûte $CP_70_blocked$ de prendre la décision"
+
+ CP_75: "£command_power §H75§!"
+ CP_75_blocked: "£command_power §R75§!"
+ CP_75_tooltip: "Cela coûte $CP_75_blocked$ de prendre la décision"
+
+ CP_80: "£command_power §H80§!"
+ CP_80_blocked: "£command_power §R80§!"
+ CP_80_tooltip: "Cela coûte $CP_80_blocked$ de prendre la décision"
+
+ CP_85: "£command_power §H85§!"
+ CP_85_blocked: "£command_power §R85§!"
+ CP_85_tooltip: "Cela coûte $CP_85_blocked$ de prendre la décision"
+
+ CP_90: "£command_power §H90§!"
+ CP_90_blocked: "£command_power §R90§!"
+ CP_90_tooltip: "Cela coûte $CP_90_blocked$ de prendre la décision"
+
+ CP_95: "£command_power §H95§!"
+ CP_95_blocked: "£command_power §R95§!"
+ CP_95_tooltip: "Cela coûte $CP_95_blocked$ de prendre la décision"
+
+ CP_100: "£command_power §H100§!"
+ CP_100_blocked: "£command_power §R100§!"
+ CP_100_tooltip: "Cela coûte $CP_100_blocked$ de prendre la décision"

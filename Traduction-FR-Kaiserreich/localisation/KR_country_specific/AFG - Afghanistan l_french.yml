@@ -2,9 +2,8 @@
 
 bukhara_kabul_pact: "Le Pacte Bukhara-Kabul"
 
-### Leaders ###
- POLITICS_AMANULLAH_KHAN_DESC: "Qui d'autre que Babur a jamais apporté plus de changements et de prestige à l'Afghanistan qu'Amanullah Khan ? Monté sur le trône au milieu de la Weltkrieg, Amanullah a immédiatement attaqué l'Empire britannique et a obtenu de belles concessions. Il a capitalisé sur cette victoire et sur les gains supplémentaires qui ont suivi l'effondrement de l'Empire britannique pour mettre en œuvre des réformes sociales de grande envergure. Bien que le règne d'Amanullah reste absolu, il rêve d'apporter une véritable gouvernance constitutionnelle en Afghanistan et de surmonter les profondes divisions ethniques et tribales de la nation. Le temps nous dira si la vision de ce grand réformateur se réalisera."
- POLITICS_HABIBULLAH_KALAKANI_DESC: "D'origine tadjike, Kalakani était un officier de longue date de l'armée royale afghane qui a déserté un peu avant le chaos de l'effondrement de l'Empire britannique. Profitant de ce chaos et de la préoccupation de l'armée régulière, Kalakani s'est tourné vers une vie de criminel. Mais une fois que l'armée a réussi à rétablir un minimum d'ordre, Kalakani s'est enfui et a cherché la protection de ses coethniques tadjiks.\nOfficiellement opposé aux réformes et aux campagnes de modernisation d'Amamnullah Khan, Kalakani est venu à la tête d'un mouvement rural ultra-conservateur portant son nom. De façon assez choquante, son mouvement a réussi à renverser Amanullah et Kalakani a remporté la couronne afghane."
+### World Tension ###
+ AFG_anglo_afghan_war_threat: "Cinquième Guerre Anglo-Afghane"
 
 ### Events ###
 afg.0.t: "La 5e guerre anglo-afghane ?"
@@ -69,11 +68,9 @@ afg.15.b: "L'assemblée dénonce Mohammed Nadir !"
 
 afg.16.t: "L'oligarchie royale de Nadir Khan"
 afg.16.d: "Le pays ravagé par la guerre ayant enfin retrouvé un semblant d'ordre, Nadir Khan a décidé de réorganiser son cabinet afin d'assurer une stabilité continue pour l'Afghanistan. Le fait de remplir le gouvernement de parents serait le moyen évident de lier l'appareil d'État aux ambitions de Nadir, mais tendre la main à certains des partisans d'Amanullah pourrait également combler un large fossé entre les réformistes radicaux et modérés."
-afg.16.a: "Laissez mon jeune frère, Shah Wali Khan, faire respecter ma volonté !"
-afg.16.b: "Mon frère, Muhammed Hashim, va diriger le gouvernement !"
-afg.16.c: "Le doux académicien Muhammed Ghobar dirigera le cabinet !"
- afg.16.e: "Woo clique d'Amanulah et nommez Abdul Hadi Dawai !"
-afg.16.f: "Contrôle royal total ! J'exercerai seul tout le pouvoir exécutif !"
+ afg.16.a:0 "Le doux académicien Muhammed Ghobar dirigera le cabinet !"
+ afg.16.b:0 "Woo clique d'Amanulah et nommez Abdul Hadi Dawai !"
+ afg.16.c: "Mon frère Mahmud Khan, aux manières douces, conservera le poste !"
 
 afg.17.t: "Etat des réformes d'Amanullah"
 afg.17.d: "Mohammed Nadir Khan a pris le contrôle de notre nation secouée après l'échec d'Amanullah Khan à imposer les progrès afghans. Bien conscient que l'un des principaux facteurs de la chute de son prédécesseur a été la rapidité de ses réformes d'occidentalisation, Nadir Khan n'en doit pas moins s'attaquer à la grande question de la reconstruction de l'Afghanistan"
@@ -90,26 +87,26 @@ afg.19.d: "La guerre est terminée et les frontières sont désormais sûres. Ri
 afg.19.a: "Bienvenue, messieurs !"
 
 ### Parties ###
-AFG_totalist_party: "FPI"
-AFG_totalist_party_long: "Faction Pro-Internationale"
-AFG_syndicalist_party: "FPI"
-AFG_syndicalist_party_long: "Faction Pro-Internationale"
-AFG_radical_socialist_party: "OR"
-AFG_radical_socialist_party_long: "Occidentalistes radicaux"
-AFG_social_democrat_party: "FPO"
-AFG_social_democrat_party_long: "Faction pro-occidentale"
-AFG_social_liberal_party: "FPO"
-AFG_social_liberal_party_long: "Faction pro-occidentale"
-AFG_market_liberal_party: "FPO"
-AFG_market_liberal_party_long: "Faction pro-occidentale"
-AFG_social_conservative_party: "FA"
-AFG_social_conservative_party_long: "Faction académique"
-AFG_authoritarian_democrat_party: "GR"
-AFG_authoritarian_democrat_party_long: "Gouvernement Royal"
-AFG_paternal_autocrat_party: "GR"
-AFG_paternal_autocrat_party_long: "Gouvernement Royal"
-AFG_national_populist_party: "IR"
-AFG_national_populist_party_long: "Islamistes radicaux"
+ AFG_totalist_party: "Travailleurs"
+ AFG_totalist_party_long: "Travailleurs"
+ AFG_syndicalist_party: "Travailleurs"
+ AFG_syndicalist_party_long: "Travailleurs"
+ AFG_radical_socialist_party: "Travailleurs"
+ AFG_radical_socialist_party_long: "Travailleurs"
+ AFG_social_democrat_party: "Travailleurs"
+ AFG_social_democrat_party_long: "Travailleurs"
+ AFG_social_liberal_party: "Intellectuels"
+ AFG_social_liberal_party_long: "Intellectuels"
+ AFG_market_liberal_party: "Marchands"
+ AFG_market_liberal_party_long: "Marchands"
+ AFG_social_conservative_party: "Ulemma"
+ AFG_social_conservative_party_long: "Ulemma"
+ AFG_authoritarian_democrat_party:9 "GR"
+ AFG_authoritarian_democrat_party_long: "Jeunes Afghans"
+ AFG_paternal_autocrat_party:9 "GR"
+ AFG_paternal_autocrat_party_long: "Dynastie Barakzai"
+ AFG_national_populist_party:9 "IR"
+ AFG_national_populist_party_long: "Mouvements Tribaux"
 
 ### Country Names ###
  AFG: "Afghanistan"
@@ -134,7 +131,25 @@ AFG_chaos_tooltip: "§g\nCe choix peut entraîner §RChaos§! et §RAgitation§!
 
 ### Characters ###
  AFG_amanullah_khan: "Amanullah Khan"
- AFG_mohammed_nadir_khan: "Mohammed Nadir Khan"
+ AFG_amanullah_khan_leader_desc:0 "Qui d'autre que Babur a jamais apporté plus de changements et de prestige à l'Afghanistan qu'Amanullah Khan ? Monté sur le trône au milieu de la Weltkrieg, Amanullah a immédiatement attaqué l'Empire britannique et a obtenu de belles concessions. Il a capitalisé sur cette victoire et sur les gains supplémentaires qui ont suivi l'effondrement de l'Empire britannique pour mettre en œuvre des réformes sociales de grande envergure. Bien que le règne d'Amanullah reste absolu, il rêve d'apporter une véritable gouvernance constitutionnelle en Afghanistan et de surmonter les profondes divisions ethniques et tribales de la nation. Le temps nous dira si la vision de ce grand réformateur se réalisera."
+
  AFG_habibullah_kalakani: "Habibullah Kalakani"
- AFG_shah_wali_khan: "Shah Wali Khan"
- AFG_mohammed_daoud_khan: "Mohammed Daoud Khan"
+ AFG_habibullah_kalakani_leader_desc:0 "D'origine tadjike, Kalakani était un officier de longue date de l'armée royale afghane qui a déserté un peu avant le chaos de l'effondrement de l'Empire britannique. Profitant de ce chaos et de la préoccupation de l'armée régulière, Kalakani s'est tourné vers une vie de criminel. Mais une fois que l'armée a réussi à rétablir un minimum d'ordre, Kalakani s'est enfui et a cherché la protection de ses coethniques tadjiks.\nOfficiellement opposé aux réformes et aux campagnes de modernisation d'Amamnullah Khan, Kalakani est venu à la tête d'un mouvement rural ultra-conservateur portant son nom. De façon assez choquante, son mouvement a réussi à renverser Amanullah et Kalakani a remporté la couronne afghane."
+
+ AFG_mohammad_nadir_khan: "Mohammad Nadir Khan"
+ AFG_wali_khan: "Wali Khan"
+ AFG_mohammad_daoud_khan: "Mohammad Daoud Khan"
+ AFG_nasrullah_khan: "Nasrullah Khan"
+ AFG_mahmud_khan: "Mahmud Khan"
+ AFG_mohammad_ghobar: "Ghulam Mohammad Ghobar"
+ AFG_abdul_hadi_dawi: "Abdul Hadi Dawi"
+ AFG_mohammad_hashim_khan: "Mohammad Hashim Khan"
+ AFG_mohammad_gul_khan_momand: "Mohammad Gul Khan Momand"
+ AFG_inayatullah_khan: "Inayatullah Khan"
+ AFG_ali_ahmad_khan: "Ali Ahmad Khan"
+ AFG_faiz_mohammad_khan_zikeria: "Faiz Mohammad Khan Zikeria"
+ AFG_mohammad_yusuf: "Mohammad Yusuf"
+ AFG_abdul_ahad_wardak: "Abdul Ahad Wardak"
+ AFG_abdul_majid_zabuli:0 "Abdul Majid Zabuli"
+ ARG_sher_khan_nashir: "Sher Khan Nashir"
+

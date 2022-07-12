@@ -217,6 +217,8 @@
 
  ROM_great_game_active: "Possède l'esprit national §HLe Grand Jeu§!"
  ROM_great_game_active_NOT: "Ne possède pas l'esprit national §HLe Grand Jeu§!"
+ ROM_selectcarol: "A pris le parti du Roi dans le Grand Jeu."
+ ROM_selectczc: "A pris le parti du Capitaine dans le Grand Jeu."
 
  ROM_great_game_start_category: "Le Grand Jeu"
  ROM_great_game_start_category_desc: "Deux hommes sont à la tête de la Roumanie, et la seule chose qui les unit est leur souhait de voir leur pays réunifié avec la Transylvanie. D'ici là, le roi Carol II et le Conducâtor Codreanu maintiendront leur trêve.\n\n[ROM_great_game_balance]\n\nInfluence du roi Carol II : [ROM_king_influence]\nInfluence du gouvernement de Codreanu : [ROM_captain_influence]"
@@ -263,7 +265,6 @@
  ROM_foreign_policy: "Relations Etrangères"
  ROM_join_entente: "Rejoindre l'Entente"
  ROM_entente_join: "Nous chercherons à reserrer les liens avec nos anciens alliés."
- ROM_same_wars_as_entente: "N'est pas en guerre avec quelqu'un qui n'est pas également en guerre avec l'Entente"
  ROM_leave_belgrade_pact_if_leader: "Quitter le Pacte de Belgrade"
  ROM_leave_belgrade_pact_if_leader_desc: "Maintenant que nous avons recouvré nos terres ancestrales et vaincu nos ennemis communs, certains remettent en question notre alliance militaire continue avec nos voisins des Balkans. Devrions-nous poursuivre cette alliance formelle, de peur d'être entraînés dans un nouveau conflit dont nos alliés actuels pourraient se trouver partie prenante, ou nos intérêts devraient-ils rester proches de ceux qui sont les plus proches de nous ?"
  ROM_leave_faction: "Quitter le [FROM.GetFactionName]"
@@ -278,8 +279,8 @@
  ROM_pol_cap: "Améliore l'influence de §GCodreanu§!.\n"
  ROM_pol_cap10: "Améliore grandement l'infuence de §GCodreanu§!.\n"
  ROM_pol_cap_d: "Activer ceci va §Rdépenser§! l'§Ginfluence politique de Codreanu§!.\n"
- ROM_select_czc: "Vous allez jouer du point de vue du Mouvement Légionnaire. Votre gain de Pouvoir Politique sera lié à la popularité du §NNational Populisme§!.\n"
- ROM_select_carol: "Vous allez jouer du point de vue du Roi Carol II. Votre gain de Pouvoir Politique sera lié à la popularité de l'§PAutocratie Paternaliste§!.\n"
+ ROM_select_czc: "Vous jouerez du point de vue du mouvement légionnaire. Votre $MODIFIER_POLITICAL_POWER_FACTOR$ sera lié à la popularité du parti §NNational Populiste§!.\n"
+ ROM_select_carol: "Vous jouerez du point de vue du Roi Carol II. Votre $MODIFIER_POLITICAL_POWER_FACTOR$ sera lié à la popularité du parti §PAutocratie Paternelle§!.\n"
 
  ROM_prepare_union_tooltip: "Débloque £decision_icon_small les §Hdécisions§! pour §HSoutenir les séparatistes en Transylvanie.§!\n"
  ROM_ultimatum_tooltip: "Active £decision_icon_small la §Hdécision§! pour §HRevendiquer la Transylvanie.§!\n"
@@ -309,9 +310,9 @@
  ROM_PNT_maniu_tt: "§HIuliu Maniu§! et le §Hcentre§! dirigeront le §HParti National des Paysans§!.\n"
  ROM_PNT_vaida_tt: "§HAlexandru Vaida-Voevod§! et l'§Baile droite§! dirigeront le §HParti National des Paysans§!.\n"
 
- ROM_PNT_soccon_constitution_tt: "Remplace §H$ROM_peasant_state_idea$§! et §H$ROM_dirigism$§! par §H$ROM_peasant_constitution_soccon$§!\nChangement effectif:\nStabilité: §G+20.00%§!"
- ROM_PNT_soclib_constitution_tt: "Remplace §H$ROM_peasant_state_idea$§! et §H$ROM_dirigism$§! par §H$ROM_peasant_constitution_soclib$§!\nChangement effectif:\nStabilité: §G+20.00%§!"
- ROM_PNT_socdem_constitution_tt: "Remplace §H$ROM_peasant_state_idea$§! et §H$ROM_dirigism$§! par §H$ROM_peasant_constitution_socdem$§!\nChangement effectif:\nStabilité: §G+20.00%§!"
+ ROM_PNT_soccon_constitution_tt: "Remplace §H$ROM_peasant_state_idea$§! et §H$ROM_dirigism$§! par §H$ROM_peasant_constitution_soccon$§!\nChangement Effectif :\n$MODIFIER_STABILITY_FACTOR$: §G+20.00%§!"
+ ROM_PNT_soclib_constitution_tt: "Remplace §H$ROM_peasant_state_idea$§! et §H$ROM_dirigism$§! par §H$ROM_peasant_constitution_soclib$§!\nChangement Effectif :\n$MODIFIER_STABILITY_FACTOR$: §G+20.00%§!"
+ ROM_PNT_socdem_constitution_tt: "Remplace §H$ROM_peasant_state_idea$§! et §H$ROM_dirigism$§! par §H$ROM_peasant_constitution_socdem$§!\nChangement Effectif :\n$MODIFIER_STABILITY_FACTOR$: §G+20.00%§!"
 
  ROM_PNT_electoral_status_socdem: "Le Parti National des Paysans (PNT) de Virgil Madgearu s'affirme comme la principale alternative au PNL. Menant une forte campagne progressiste, Madgearu fait pression pour de nouvelles réformes et l'amélioration des conditions de vie dans les zones rurales comme le prétendent les représentants de la paysannerie."
  ROM_PNT_electoral_status_soclib: "Le Parti National des Paysans (PNT) dirigé par Iuliu Maniu se présente comme la principale alternative au PNL. Menant une forte campagne centriste, Maniu espère obtenir une large base de soutien au parlement par le biais de compromis, afin de faire pression pour des réformes modérées et l'amélioration des conditions de vie dans les zones rurales."
@@ -359,9 +360,9 @@
  ROM_transylvanian_collaboration: "Collaboration Transylvanienne"
  ROM_transylvanian_resistance_tooltip: "Nous allons commencer à organiser une révolte ouverte en Transylvanie afin de soutenir notre invasion."
  ROM_transylvanian_resistance_effect_tooltip: "§HTransylvanie§!:"
- ROM_transylvanian_resistance_target_tooltip: "Cible de la Résistance: $RIGHT|-=%0$"
- ROM_transylvanian_resistance_activity_tooltip: "Chance d'activité de la Résistance: $RIGHT|-=%1$"
- ROM_transylvanian_resistance_garrison_tooltip: "Chance de pénétration de la Garnison: $RIGHT|-=%$"
+ ROM_transylvanian_resistance_target_tooltip: "$MODIFIER_RESISTANCE_TARGET$: $RIGHT|-=%0$"
+ ROM_transylvanian_resistance_activity_tooltip: "$MODIFIER_RESISTANCE_ACTIVITY_FACTOR$: $RIGHT|-=%1$"
+ ROM_transylvanian_resistance_garrison_tooltip: "$MODIFIER_RESISTANCE_GARRISON_PENETRATION_CHANCE$: $RIGHT|-=%$"
  SER_lost_balkan_war: "A participé à la Guerre des Balkans et a perdu\n"
 
  ROM_will_lead_to_war_with_austria: "L'§RAutriche pourrait nous déclarer la guerre afin de protéger l'intégrité territoriale de l'Empire!§!"
@@ -400,7 +401,7 @@
 
  ROM_legion_category: "Factions de la Légion"
  ROM_legion_category_desc: "La Légion n'est pas vraiment un mouvement unitaire. Même si chacun ne cherche que la grandeur pour tous les Roumains, beaucoup sont en désaccord sur les méthodes à adopter et sur la question du leadership. Corneliu Codreanu a consolidé sa position en tant que personnalité de premier plan au sein du mouvement ...\n\n... mais sa position ne sera pas éternelle, et son emprise sur le mouvement demande à être constamment réaffirmée. L'emprise de Codreanu sur le mouvement est actuellement [ROM_IG_CZC_influence].\n§GEmprise de Codereanu:§! [?ROM_IG_CZC]\n§YVieille Garde de la Légion:§! [?ROM_IG_OG]\n§C Corps des Ouvriers Légionnaires:§! [?ROM_IG_CML]\n§RL'aile Radicale:§! [?ROM_IG_CNTZ]"
- ROM_IG_CZC_influence_2: "§GForte§!"
+ ROM_IG_CZC_influence_2:9 "§GForte§!"
  ROM_IG_CZC_influence_1: "§RContestée§!"
 
  ROM_rein_in_factions: "Rein dans la Légion"
@@ -411,6 +412,9 @@
  ROM_assassins_punished: "Les assassins seront punis pour régicide."
  ROM_assassins_punished_tt: "§RLa faction radicale ne va pas aimer cela.§!"
  ROM_czc_dead: "Codreanu est mort"
+ ROM_og_supported: "Coopérer avec la Vieille Garde"
+ ROM_cml_supported: "Coopérer avec le Corps des Travailleurs Légionnaires"
+ ROM_radicals_supported: "Coopérer avec les Radicaux"
 
  ROM_secure_tt: "§GCodreanu§! a le plus d'influence."
  ROM_appoint_OG_tt: "La §GVieille Garde§! a le plus d'influence."
@@ -449,10 +453,7 @@
  ROM_IG_CNTZ_tt: "Les Radicaux §Rgagnent§! du pouvoir."
  ROM_IG_CNTZ3_tt: "Les Radicaux §Rgagne beaucoup§! de pouvoir."
  ROM_IG_ALL_tt: "L'emprise de Codreanu sur la Légion §Rs'affaiblit.§!"
- ROM_IG_compromise_tt: "Le compromis §Gréduit§! grandement leur pouvoir, mais nous devons leur confier des postes ministériels."
-
- ROM_selectczc: "A choisi le camp du Capitaine."
- ROM_selectcarol: "A choisi le camp du Roi."
+ ROM_IG_compromise_tt: "Compromettre §Gréduit§! leur pouvoir."
 
  ROM_king_category: "Le Sauveur de la Roumanie"
  ROM_king_category_desc: "Le roi Carol II a conduit la Roumanie à la grandeur et à la prospérité et exerce un contrôle indiscutable sur la nation. Cependant, son ambition ne connaît pas de limites, car c'est son devoir divin de conduire tous les Roumains vers un nouvel âge d'or de prospérité et de paix ... et peut-être aussi de profiter des fruits bien mérités de son travail."
@@ -479,9 +480,9 @@
  ROM_start_the_uprising: "Sécuriser la Transylvanie"
 
  ROM_TRS_separatism_tt: "Diffuser un séparatisme pro-Roumain."
- ROM_funded_separatist: "A terminé la décision £decision_icon_small   §H$ROM_fund_separatist$§!"
+ ROM_funded_separatist: "$has_completed_decision$$ROM_fund_separatist$§!"
  ROM_TRS_arms: "A débuté ou complété la décision £decision_icon_small  §H$ROM_smuggle_arms$§!"
- ROM_TRS_prepared: "A terminé la décision £decision_icon_small   §H$ROM_organise_the_revolt$§!"
+ ROM_TRS_prepared: "$has_completed_decision$$ROM_organise_the_revolt$§!"
 
  1000_infantry_equipment_1: "£rifle_texticon  §H1000§!"
  1000_infantry_equipment_1_blocked: "£rifle_texticon  §R1000§!"
@@ -626,7 +627,7 @@
  ROM_compromise_with_the_landholders: "Compromis avec les Propriétaires Terriens"
  ROM_compromise_with_the_landholders_desc: "La redistribution des terres ne peut se faire sans un accord avec l'aristocratie possédante. Peut-être pouvons-nous trouver un compromis avec les grands domaines, qui satisfasse à la fois les propriétaires terriens et les petits agriculteurs."
  ROM_rural_development_loans: "Prêts pour les Petits Agriculteurs"
- ROM_rural_development_loans_desc: "Comme la Légion considère le paysan comme un élément central de la nation roumaine, il est naturel que nous donnions à nos convictions une dimension concrète en soutenant économiquement les petits agriculteurs. Les prêts dans les zones rurales, qui constituent la majorité du pays, devraient être abordables afin de contribuer à la croissance de l'économie et à l'amélioration des conditions de vie."
+ ROM_rural_development_loans_desc: "Comme la Légion considère que le paysan est un élément central de la nation roumaine, il est tout à fait naturel que nous reflétions réellement nos convictions en soutenant économiquement les petits agriculteurs. Les prêts dans les zones rurales, qui constituent la majorité du pays, doivent être abordables afin de contribuer à la croissance de l'économie et à l'amélioration des conditions."
  ROM_export_more_than_grain: "Exporter plus que du grain"
  ROM_export_more_than_grain_desc: "Pour que l'économie roumaine prospère dans un monde de marchés, la diversification est le meilleur moyen de créer une base économique nationale solide. Ainsi, l'économie roumaine ne sera plus à la merci du marché des céréales, et de ses prix fluctuants."
  ROM_begin_mechanization: "Agriculture Mécanisée"
@@ -920,7 +921,7 @@
 
 ##Nationalisation of the Foreign Assets
  romania.3.t: "Nationalisation des Entreprises Allemandes"
- romania.3.d: "Lorsque les banques allemandes se sont effondrées, les sociétés allemandes détenant de grandes parties de l'industrie pétrolière roumaine n'ont pas tardé à suivre. L'économie roumaine principalement basée sur les exportations de pétrole et de produits agricoles s'est effondrée en même temps que la demande des pays du Reichspakt, principal partenaire commercial de la Roumanie. Le chômage a grimpé en flèche en quinze jours, et notre plus grande banque est maintenant sur le point de s'effondrer.\n\nAlors que la plupart des pays non-syndicalistes sont réduits à endurer l'effondrement, notre gouvernement détient un contrôle significatif sur le système économique. Si nous le désirons, nous pourrions saisir les actifs des sociétés allemandes en faillite à peu de frais, et nationaliser l'industrie du raffinage, sauvant ainsi des milliers d'emplois roumains. Cette décision ne provoquera surement pas des réactions enthousiastes à Berlin, mais enverra un message fort que le gouvernement de Codreanu est fortement impliqué dans le bien être de tous les Roumains."
+ romania.3.d:9 "Lorsque les banques allemandes se sont effondrées, les sociétés allemandes détenant de grandes parties de l'industrie pétrolière roumaine n'ont pas tardé à suivre. L'économie roumaine principalement basée sur les exportations de pétrole et de produits agricoles s'est effondrée en même temps que la demande des pays du Reichspakt, principal partenaire commercial de la Roumanie. Le chômage a grimpé en flèche en quinze jours, et notre plus grande banque est maintenant sur le point de s'effondrer.\n\nAlors que la plupart des pays non-syndicalistes sont réduits à endurer l'effondrement, notre gouvernement détient un contrôle significatif sur le système économique. Si nous le désirons, nous pourrions saisir les actifs des sociétés allemandes en faillite à peu de frais, et nationaliser l'industrie du raffinage, sauvant ainsi des milliers d'emplois roumains. Cette décision ne provoquera surement pas des réactions enthousiastes à Berlin, mais enverra un message fort que le gouvernement de Codreanu est fortement impliqué dans le bien être de tous les Roumains."
  romania.3.a: "Nationalisez les industries sous contrôle Allemand. Assez de Berlin."
  romania.3.b: "Poursuivez la nationalisation, mais payez une compensation modeste aux entreprises."
 
@@ -939,7 +940,7 @@
 
 ##Safeguard Banking Sector
  romania.5.t: "La Banca de Credit Roman a été sauvée!"
- romania.5.d: "Après la faillite de la grande banque Marmorosch-Blank en 1931, le gouvernement a créé des garde-fous pour éviter de telles catastrophes économiques, à l'avenir. Le Conseil Supérieur des Banques a été créé pour réglementer et enquêter sur le secteur bancaire en 1934, et l'institution ne s'est jamais avérée aussi nécessaire. Alors que les banques de nombreux pays se sont effondrées durement et rapidement, un effondrement total de la Banca de Credit Roman a été évité grâce aux garanties de la SBC. La catastrophe qui a brisé les reins des grandes banques internationales allemandes a étonnamment épargné les roumaines."
+ romania.5.d:9 "Après la faillite de la grande banque Marmorosch-Blank en 1931, le gouvernement a créé des garde-fous pour éviter de telles catastrophes économiques, à l'avenir. Le Conseil Supérieur des Banques a été créé pour réglementer et enquêter sur le secteur bancaire en 1934, et l'institution ne s'est jamais avérée aussi nécessaire. Alors que les banques de nombreux pays se sont effondrées durement et rapidement, un effondrement total de la Banca de Credit Roman a été évité grâce aux garanties de la SBC. La catastrophe qui a brisé les reins des grandes banques internationales allemandes a étonnamment épargné les roumaines."
  romania.5.a: "Excellent!"
 
 ##Entente Trade Deals
@@ -1141,10 +1142,6 @@
  romania.67.b: "Pousser le bouchon encore plus loin ne ferait que faire passer le roi pour un idiot."
 
 #Victory from Bulgaria
- romania.33.t: "Grande Victoire"
- romania.33.d: "Les Bulgares sont vaincus! Le premier pas vers la restauration de l'honneur de la nation a été franchi ; l'hégémonie bulgare a été détruite une fois de plus, et nos revendications légitimes sur Dobrogea confortées.  Le sud étant maintenant sécurisé, nos yeux se tournent vers l'ouest vers nos frères emprisonnés de l'autre côté des Carpathes. Leur jour de leur libération approche!"
- romania.33.a: "Longue vie à la Roumanie!"
-
  romania.70.t: "Le Danube est de nous à nous"
  romania.70.d: "Malgré le Traité de Bucarest censé assurer le libre accès à la mer Noire, une grande partie de notre économie a été étranglée par le contrôle bulgare du delta danubien, car le fleuve est peut-être notre route commerciale la plus importante. Maintenant que l'ennemi du sud a été vaincu une fois de plus, nous ne serons plus liés par ce traité tyrannique et nous pourrons enfin utiliser le fleuve à sa pleine capacité pour transporter des marchandises et des fournitures sans aucune implication des bulgares. Le Delta fait partie intégrante de la Roumanie, maintenant et pour toujours!"
  romania.70.a: "Nous ne le perdrons plus jamais."
@@ -1641,7 +1638,7 @@
 
 #Racovski retires from Thot spot
  romania.142.t: "Racovski quitte la direction du PSR"
- romania.142.d: "Cristian Racovski, jusqu'à présent l'un des dirigeants du Parti Syndicaliste Roumain, a annoncé sa retraite au Comité Central du Parti. Son poste au sein du Comité et en tant que chef de la faction informelle Vanguardist sera dorénavant assumé par son protégé, Gheorghe Gheorghiu.\n\nNé en Bulgarie, il s'installe en Roumanie en 1904 après avoir hérité de la succession de son père. Déjà révolutionnaire engagé, il écrit pour le journal socialiste Romania Muncitoare et sera expulsé du pays en 1907 pour agitation rebelle, puis de nouveau en 1911 après son retour clandestin à Bucarest. En exil, il est resté dévoué à la cause socialiste en Roumanie avant de s'impliquer dans la guerre civile russe en tant que diplomate pour le compte des bolcheviks. Lors de leur défaite, Racovski était l'un des nombreux anciens rouges à se retrouver dans le Paris révolutionnaire et continuerait à représenter le mouvement socialiste roumain à l'étranger, en tant que membre de la Troisième Internationale.\n\nAprès des décennies de service, le vieux révolutionnaire a jugé qu'il était temps de céder sa place à la jeune génération. Gheorghe Gheorghiu a pris sa place à la tête de la gauche informelle du PSR."
+ romania.142.d:9 "Cristian Racovski, jusqu'à présent l'un des dirigeants du Parti Syndicaliste Roumain, a annoncé sa retraite au Comité Central du Parti. Son poste au sein du Comité et en tant que chef de la faction informelle Vanguardist sera dorénavant assumé par son protégé, Gheorghe Gheorghiu.\n\nNé en Bulgarie, il s'installe en Roumanie en 1904 après avoir hérité de la succession de son père. Déjà révolutionnaire engagé, il écrit pour le journal socialiste Romania Muncitoare et sera expulsé du pays en 1907 pour agitation rebelle, puis de nouveau en 1911 après son retour clandestin à Bucarest. En exil, il est resté dévoué à la cause socialiste en Roumanie avant de s'impliquer dans la guerre civile russe en tant que diplomate pour le compte des bolcheviks. Lors de leur défaite, Racovski était l'un des nombreux anciens rouges à se retrouver dans le Paris révolutionnaire et continuerait à représenter le mouvement socialiste roumain à l'étranger, en tant que membre de la Troisième Internationale.\n\nAprès des décennies de service, le vieux révolutionnaire a jugé qu'il était temps de céder sa place à la jeune génération. Gheorghe Gheorghiu a pris sa place à la tête de la gauche informelle du PSR."
  romania.142.a: "Bienvenue, Camarade Gheorghiu!"
  romania.142.b: "Ces socialistes ne disent que des bêtises."
 
@@ -2076,16 +2073,6 @@
  ROM_friend_of_the_legion: "Ami de la Légion"
  ROM_green_prince: "Le Prince Vert"
 
-### Leaders ###
- POLITICS_MICHAEL_I_DESC: "Fils du prince héritier Carol et de la princesse Helen de Grèce en 1921, le jeune prince Mihai a été marqué par la vie tumultueuse de sa famille et le malaise de son pays après la défaite lors de la Weltkrieg. Il a été témoin de beaucoup d'évènement au cours de sa vie relativement courte, et aujourd'hui il monte enfin sur le trône après la lutte de pouvoir féroce entre son père le Roi, et le Premier Ministre de l'époque, Corneliu Zelea Codreanu.\n\nIndividu beaucoup plus réservé que son père, lui même très à cheval sur la pompe, la profonde anglophilie de Mihai et son admiration de la monarchie britannique l'ont poussé à renouveler le processus démocratique dramatiquement affaibli dans son pays, y voyant le moyen de véritablement guérir les blessures ouvertes à la suite de la défaite lors de la Grande Guerre, et que l'unification nationale a commencé à réparer. Cela peut être un lourd fardeau pour ses jeunes épaules, mais le Roi estime qu'avec des conseils appropriés, lui et son pays surmonteront toutes les adversités et avanceront comme un seul homme."
- POLITICS_MICHAEL_I_2_DESC: "Fils du prince héritier Carol et de la princesse Helen de Grèce en 1921, le jeune prince Mihai a été marqué par la vie tumultueuse de sa famille et le malaise de son pays après la défaite lors de la Weltkrieg. Il a été témoin de beaucoup d'évènement au cours de sa vie relativement courte, et aujourd'hui il monte enfin sur le trône après la lutte de pouvoir féroce entre son père le Roi, et le Premier Ministre de l'époque, Corneliu Zelea Codreanu.\n\nMalgré son goût plus prononcé pour la démocratie que celui de son ambitieux père, la domination des Légionnaires au sein de son gouvernement l'oblige à faire profil bas. L'emprise de l'hydre verte sur son pays est en effet trop formidable à l'heure actuelle pour que le jeune Roi soit en mesure de restaurer l'autorité de la démocratie dans son pays d'origine, et réaliser le rêve de son grand-père Ferdinand. Les chemises vertes ont appris de leurs erreurs vis à vis du Roi Carol, et bien qu'ils n'aient encore rien tenté contre lui, les hommes de l'Archange gardent un œil vigilant sur les propres entreprises de Mihai. Bien qu'il trouve un soulagement dans son goût pour les voitures et les avions, le jeune Roi doit constamment surveiller ses actes et ses paroles, de peur de provoquer la colère des Chemises Vertes. A lors actuelle, celui-ci n'a d'autre choix que d'acquiescer, au moins silencieusement à leurs projets mais le jeune roi espère qu'un jour il aura la possibilité de déraciner enfin la Légion de son perchoir, de restaurer la démocratie et de panser les plaies de sa nation."
- POLITICS_CAROL_II_DESC: "À l'époque où il n'était que le prince héritier, Carol II de Roumanie aurait semblé être la personne la plus inapte à prendre le trône de Roumanie, comme le montre l'incident de Zizi Lambrino au cours des derniers jours de la Weltkrieg. Cependant, la défaite de son pays a frappé durement et, voyant le malaise dans lequel son futur royaume était tombé, il a alors juré de redonner à son pays la place qu'il était censé occuper. Charmeur autocratique par excellence, il a utilisé le Mouvement Légionnaire, alors petit mais en plein essor, comme un marteau de forgeron pour affaiblir davantage la PNL en déclin, ainsi que les anciens rivaux des Légionnaires, la Ligue de Défense Nationale-Chrétienne. Aujourd'hui, le Roi intrigant fait toutefois face à un dernier obstacle sur le chemin qu'il entend que son pays suive; le Mouvement Légionnaire lui même, et son ténébreux capitaine, Corneliu Zelea Codreanu. Alors que les nuages ​​s'amoncellent à l'horizon de l'ordre post-Weltkrieg, le Roi et le Capitaine guettent toutes les opportunités d'atteindre leur objectif d'unification nationale et de briser le pouvoir de l'autre, et le Roi, bien qu'imparfait, agira sur toutes les opportunités qui se présenteront à lui pour s'imposer comme maître incontesté de son pays."
- POLITICS_CAROL_II_2_DESC: "À l'époque où il n'était que le prince héritier, Carol II de Roumanie aurait semblé être la personne la plus inapte à prendre le trône de Roumanie, comme le montre l'incident de Zizi Lambrino au cours des derniers jours de la Weltkrieg. Cependant, la défaite de son pays a frappé durement et, voyant le malaise dans lequel son futur royaume était tombé, il a alors juré de redonner à son pays la place qu'il était censé occuper. Charmeur autocratique par excellence, il a utilisé le Mouvement Légionnaire, alors petit mais en plein essor, comme un marteau de forgeron pour affaiblir davantage la PNL en déclin, ainsi que les anciens rivaux des Légionnaires, la Ligue de Défense Nationale-Chrétienne. A présent, ces derniers ont également été écarté suite à l'incident de Stelescu. Désormais maître incontesté de la Roumanie, il prévoit d'utiliser sa position inattaquable pour faire du pays une véritable puissance régionale, basée sur une industrie forte, une agriculture abondante, une culture florissante et unie sous la main ferme et le regard inébranlable de son Roi. Advienne que pourra, le peuple roumain uni sera conduit vers un avenir radieux, et sera à jamais redevable aux conseils de son monarque visionnaire."
- POLITICS_CANTACUZINO_DESC: "Issu de l'ancienne famille princière remontant jusqu'aux temps de l'Empire Byzantin, les Kantakouzenos, le prince Alexandru Cantacuzino est un noble très atypique. Fervent partisan des préceptes de la Légion de l'Archange Michel, Cantacuzino s'est fait remarquer dans de nombreux congrès étudiants nationalistes, tenant des discours enflammés, dénonçant ce qu'il considérait comme des fléaux pour son pays. Gravissant rapidement les échelons du Mouvement Légionnaire, pour devenant membre du cercle restreint du Capitaine, reconnu pour ses qualités de théoricien et d'organisateur efficace, Cantacuzino est devenu ministre dans le gouvernement du Capitaine après leur ascension au pouvoir. Se faisant la main pendant la Guerre Civile Espagnole, le prince rentra chez lui pour se retrouver mêlé à l'escalade du conflit entre le Capitaine et le Roi.\n\nChoqué par l'assassinat de Codreanu, Cantacuzino rejoint alors le combat, ralliant de nombreux légionnaires à sa cause et aidant à réorganiser le mouvement pour la lutte, tout en émergeant comme un favori pour la succession du Capitaine. Rapidement la ferveur des hommes de l'Archange l'emporta, et la croix barrée flotta à nouveau au-dessus de toute la Roumanie. Après s'être affirmé comme digne du poste, le Sénat Légionnaire l'a confirmé comme successeur du Capitaine, et désormais, il est prêt à mettre en œuvre sa vision pour la Roumanie, en tant que chef d'orchestre et Régent."
- POLITICS_NICOLAE_I_DESC: "Né en 1903, quatrième enfant du roi Ferdinand et de la reine Maria de Roumanie, le prince Nicolae semblait destiné à une vie facile. Libre des responsabilités associées à l'héritier du trône - bien que certaines affaires, comme le scandale Lambrino, aient donné lieu à des discussions sur l'opportunité de préparer Nicolae à monter sur le trône - le jeune prince a développé une passion pour le sport, les voitures et la vie dans la haute société. Malgré les protestations de sa mère, il est tombé amoureux d'une femme, Ioana Dumitrescu-Doletti, belle-fille du politicien libéral Nicolae N. Saveanu, qui a divorcé de son mari d'alors pour être aux côtés de son nouvel amant. Contrairement à son frère cependant, Nicolae a épousé Ioana, violant par là même le Statut de la Maison Royale et créant une rupture entre lui et son frère ; une rupture qui le conduira à faire des ouvertures en faveur du Mouvement Légionnaire.\n\nAprès l'abdication de son frère, Nicolae a accepté un accord avec les Légionnaires, alors en plein ascendance, grâce auquel il monterait sur le trône si le Statut de la Maison Royale était modifié pour légitimer son mariage avec Ioana. A présent, en tant que roi, il continue de ne pas montrer beaucoup d'intérêt pour les affaires politiques, préférant se concentrer sur ses propres entreprises et passe-temps."
-
-#####################Old sTuff
-
 ### Opinion modifiers ###
  ROM_claimed_transylvania: "A réclamé la Transylvanie"
  ROM_handed_over_dobrudzha: "Nous a cédé la Dobroudja"
@@ -2094,9 +2081,9 @@
 ### Tooltips ###
  ROM_unlocks_company: "Déverrouille l'entreprise "
 
- ROM_monetary_union_completed: "A terminé la décision £decision_icon_small  §H$ROM_monetary_union$§!"
- ROM_undo_foreign_influence_completed: "A terminé la décision £decision_icon_small  §H$ROM_undo_foreign_influence$§!"
- ROM_UDR: "A terminé la décision £decision_icon_small  §H$ROM_reorganise_UDR$§!"
+ ROM_monetary_union_completed: "$has_completed_decision$$ROM_monetary_union$§!"
+ ROM_undo_foreign_influence_completed: "$has_completed_decision$$ROM_undo_foreign_influence$§!"
+ ROM_UDR: "$has_completed_decision$$ROM_reorganise_UDR$§!"
 
 ### Characters ###
  ROM_cristian_racovski: "Cristian Racovski"
@@ -2105,10 +2092,21 @@
  ROM_barbu_lazareanu: "Barbu Lazareanu"
  ROM_ion_mihalache: "Ion Mihalache"
  ROM_dinu_bratianu: "Dinu Bratianu"
+
  ROM_alexandru_cantacuzino: "Alexandru Cantacuzino"
+ ROM_alexandru_cantacuzino_leader_desc:0 "Issu de l'ancienne famille princière remontant jusqu'aux temps de l'Empire Byzantin, les Kantakouzenos, le prince Alexandru Cantacuzino est un noble très atypique. Fervent partisan des préceptes de la Légion de l'Archange Michel, Cantacuzino s'est fait remarquer dans de nombreux congrès étudiants nationalistes, tenant des discours enflammés, dénonçant ce qu'il considérait comme des fléaux pour son pays. Gravissant rapidement les échelons du Mouvement Légionnaire, pour devenant membre du cercle restreint du Capitaine, reconnu pour ses qualités de théoricien et d'organisateur efficace, Cantacuzino est devenu ministre dans le gouvernement du Capitaine après leur ascension au pouvoir. Se faisant la main pendant la Guerre Civile Espagnole, le prince rentra chez lui pour se retrouver mêlé à l'escalade du conflit entre le Capitaine et le Roi.\n\nChoqué par l'assassinat de Codreanu, Cantacuzino rejoint alors le combat, ralliant de nombreux légionnaires à sa cause et aidant à réorganiser le mouvement pour la lutte, tout en émergeant comme un favori pour la succession du Capitaine. Rapidement la ferveur des hommes de l'Archange l'emporta, et la croix barrée flotta à nouveau au-dessus de toute la Roumanie. Après s'être affirmé comme digne du poste, le Sénat Légionnaire l'a confirmé comme successeur du Capitaine, et désormais, il est prêt à mettre en œuvre sa vision pour la Roumanie, en tant que chef d'orchestre et Régent."
+
  ROM_carol_ii: "Carol II"
+ ROM_carol_ii_leader_desc:0 "À l'époque où il n'était que le prince héritier, Carol II de Roumanie aurait semblé être la personne la plus inapte à prendre le trône de Roumanie, comme le montre l'incident de Zizi Lambrino au cours des derniers jours de la Weltkrieg. Cependant, la défaite de son pays a frappé durement et, voyant le malaise dans lequel son futur royaume était tombé, il a alors juré de redonner à son pays la place qu'il était censé occuper. Charmeur autocratique par excellence, il a utilisé le Mouvement Légionnaire, alors petit mais en plein essor, comme un marteau de forgeron pour affaiblir davantage la PNL en déclin, ainsi que les anciens rivaux des Légionnaires, la Ligue de Défense Nationale-Chrétienne. Aujourd'hui, le Roi intrigant fait toutefois face à un dernier obstacle sur le chemin qu'il entend que son pays suive; le Mouvement Légionnaire lui même, et son ténébreux capitaine, Corneliu Zelea Codreanu. Alors que les nuages ​​s'amoncellent à l'horizon de l'ordre post-Weltkrieg, le Roi et le Capitaine guettent toutes les opportunités d'atteindre leur objectif d'unification nationale et de briser le pouvoir de l'autre, et le Roi, bien qu'imparfait, agira sur toutes les opportunités qui se présenteront à lui pour s'imposer comme maître incontesté de son pays."
+ ROM_carol_ii_restoration_leader_desc:0 "À l'époque où il n'était que le prince héritier, Carol II de Roumanie aurait semblé être la personne la plus inapte à prendre le trône de Roumanie, comme le montre l'incident de Zizi Lambrino au cours des derniers jours de la Weltkrieg. Cependant, la défaite de son pays a frappé durement et, voyant le malaise dans lequel son futur royaume était tombé, il a alors juré de redonner à son pays la place qu'il était censé occuper. Charmeur autocratique par excellence, il a utilisé le Mouvement Légionnaire, alors petit mais en plein essor, comme un marteau de forgeron pour affaiblir davantage la PNL en déclin, ainsi que les anciens rivaux des Légionnaires, la Ligue de Défense Nationale-Chrétienne. A présent, ces derniers ont également été écarté suite à l'incident de Stelescu. Désormais maître incontesté de la Roumanie, il prévoit d'utiliser sa position inattaquable pour faire du pays une véritable puissance régionale, basée sur une industrie forte, une agriculture abondante, une culture florissante et unie sous la main ferme et le regard inébranlable de son Roi. Advienne que pourra, le peuple roumain uni sera conduit vers un avenir radieux, et sera à jamais redevable aux conseils de son monarque visionnaire."
+
  ROM_nicolae_i: "Nicolae I"
+ ROM_nicolae_i_leader_desc:0 "Né en 1903, quatrième enfant du roi Ferdinand et de la reine Maria de Roumanie, le prince Nicolae semblait destiné à une vie facile. Libre des responsabilités associées à l'héritier du trône - bien que certaines affaires, comme le scandale Lambrino, aient donné lieu à des discussions sur l'opportunité de préparer Nicolae à monter sur le trône - le jeune prince a développé une passion pour le sport, les voitures et la vie dans la haute société. Malgré les protestations de sa mère, il est tombé amoureux d'une femme, Ioana Dumitrescu-Doletti, belle-fille du politicien libéral Nicolae N. Saveanu, qui a divorcé de son mari d'alors pour être aux côtés de son nouvel amant. Contrairement à son frère cependant, Nicolae a épousé Ioana, violant par là même le Statut de la Maison Royale et créant une rupture entre lui et son frère ; une rupture qui le conduira à faire des ouvertures en faveur du Mouvement Légionnaire.\n\nAprès l'abdication de son frère, Nicolae a accepté un accord avec les Légionnaires, alors en plein ascendance, grâce auquel il monterait sur le trône si le Statut de la Maison Royale était modifié pour légitimer son mariage avec Ioana. A présent, en tant que roi, il continue de ne pas montrer beaucoup d'intérêt pour les affaires politiques, préférant se concentrer sur ses propres entreprises et passe-temps."
+
  ROM_mihai_i: "Mihai I"
+ ROM_mihai_i_leader_desc:0 "Fils du prince héritier Carol et de la princesse Helen de Grèce en 1921, le jeune prince Mihai a été marqué par la vie tumultueuse de sa famille et le malaise de son pays après la défaite lors de la Weltkrieg. Il a été témoin de beaucoup d'évènement au cours de sa vie relativement courte, et aujourd'hui il monte enfin sur le trône après la lutte de pouvoir féroce entre son père le Roi, et le Premier Ministre de l'époque, Corneliu Zelea Codreanu.\n\nIndividu beaucoup plus réservé que son père, lui même très à cheval sur la pompe, la profonde anglophilie de Mihai et son admiration de la monarchie britannique l'ont poussé à renouveler le processus démocratique dramatiquement affaibli dans son pays, y voyant le moyen de véritablement guérir les blessures ouvertes à la suite de la défaite lors de la Grande Guerre, et que l'unification nationale a commencé à réparer. Cela peut être un lourd fardeau pour ses jeunes épaules, mais le Roi estime qu'avec des conseils appropriés, lui et son pays surmonteront toutes les adversités et avanceront comme un seul homme."
+ ROM_mihai_i_legion_leader_desc:0 "Fils du prince héritier Carol et de la princesse Helen de Grèce en 1921, le jeune prince Mihai a été marqué par la vie tumultueuse de sa famille et le malaise de son pays après la défaite lors de la Weltkrieg. Il a été témoin de beaucoup d'évènement au cours de sa vie relativement courte, et aujourd'hui il monte enfin sur le trône après la lutte de pouvoir féroce entre son père le Roi, et le Premier Ministre de l'époque, Corneliu Zelea Codreanu.\n\nMalgré son goût plus prononcé pour la démocratie que celui de son ambitieux père, la domination des Légionnaires au sein de son gouvernement l'oblige à faire profil bas. L'emprise de l'hydre verte sur son pays est en effet trop formidable à l'heure actuelle pour que le jeune Roi soit en mesure de restaurer l'autorité de la démocratie dans son pays d'origine, et réaliser le rêve de son grand-père Ferdinand. Les chemises vertes ont appris de leurs erreurs vis à vis du Roi Carol, et bien qu'ils n'aient encore rien tenté contre lui, les hommes de l'Archange gardent un œil vigilant sur les propres entreprises de Mihai. Bien qu'il trouve un soulagement dans son goût pour les voitures et les avions, le jeune Roi doit constamment surveiller ses actes et ses paroles, de peur de provoquer la colère des Chemises Vertes. A lors actuelle, celui-ci n'a d'autre choix que d'acquiescer, au moins silencieusement à leurs projets mais le jeune roi espère qu'un jour il aura la possibilité de déraciner enfin la Légion de son perchoir, de restaurer la démocratie et de panser les plaies de sa nation."
+
  ROM_petre_dumitrescu: "Petre Dumitrescu"
  ROM_ion_antonescu: "Ion Antonescu"
  ROM_gheorghe_argeseanu: "Gheorghe Argeseanu"
@@ -2126,3 +2124,27 @@
  ROM_nicolae_radescu: "Nicolae Radescu"
  ROM_constantin_tobescu: "Constantin Tobescu"
  ROM_horia_macellariu: "Horia Macellariu"
+ ROM_gheorge_apostol: "Gheorge Apostol"
+ ROM_virgil_madgearu:0 "Virgil Madgearu"
+ ROM_iuliu_maniu:0 "Iuliu Maniu"
+ ROM_constantin_bratianu: "Constantin Brătianu"
+ ROM_constantin_angelescu:0 "Constantin Angelescu"
+ ROM_alexandru_vaida-voevod:0 "Alexandru Vaida-Voevod"
+ ROM_armand_calinescu: "Armand Călinescu"
+ ROM_corneliu_codreanu:0 "Corneliu Codreanu"
+ ROM_horia_sima:0 "Horia Sima"
+ ROM_ion_mota:0 "Ion Mota"
+ ROM_ernest_urdrianu: "Ernest Urdărianu"
+ ROM_gheorge_clime: "Gheorge Clime"
+ ROM_constantin_papanace:0 "Constantin Papanace"
+ ROM_mihail_sturdza:0 "Mihail Sturdza"
+ ROM_grigore_gafencu:0 "Grigore Gafencu"
+ ROM_gheorge_tatarescu: "Gheorghe Tătărescu"
+ ROM_victor_slavescu: "Victor Slăvescu"
+ ROM_max_auschnitt: "Max Auschnitt"
+ ROM_nicolae_malaxa: "Nicolae Malaxa"
+ ROM_mikhail_moruzov: "Mihail Moruzov"
+ ROM_dimitrie_gusti: "Dimitrie Gusti"
+ ROM_emanoil_ionescu: "Emanoil Ionescu"
+ ROM_ermil_gheorghiu:0 "Ermil Gheorghiu"
+ ROM_gheorghe_jienescu: "Gheorge Jienescu"

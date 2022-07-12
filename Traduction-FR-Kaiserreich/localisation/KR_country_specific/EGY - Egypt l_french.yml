@@ -24,9 +24,6 @@ EGY_paternal_autocrat_party_long: " Dynastie des Alawiyya"
 EGY_national_populist_party: "Parti Nationaliste Islamique"
 EGY_national_populist_party_long: "Parti Nationaliste Islamique"
 
-### Leaders ###
-POLITICS_FUAD_I_DESC: "Fuad est monté sur le trône égyptien au milieu des troubles de la Weltkrieg et d'un nationalisme croissant, renforcé par les défaites continues des Britanniques en Europe. Lorsque la révolution britannique a éclaté, l'Égypte s'est révoltée à son tour. Fuad a coopté la révolution, se présentant comme un ardent nationaliste, et a promulgué un système de gouvernement modelé sur celui de l'Allemagne.\nLes réformes sociales et économiques ultérieures de Fuad ont soulevé des questions dans la société égyptienne sur l'identité même du peuple égyptien et sa place dans une région encore dominée par le Turc détesté. Peut-être que les graines de progrès cousues par Fuad mèneront à la gloire. Peut-être que ses successeurs réussiront là où d'autres dirigeants ont échoué et conduiront l'Égypte à la place qui lui revient en tant que bouclier et épée d'un peuple arabe enfin libéré."
-
 ### Tooltips ###
 royal_guard: "§GCette priorité mobilisera de nouveaux régiments de la garde d'élite du sultan pour protéger notre noble souverain. §!\n"
  EGY_farouk_becomes_sultan: "Le prince Farouk monte sur le trône en tant que sultan d'Égypte."
@@ -89,7 +86,6 @@ EGY_sided_with_the_arabs: " Du côté des Arabes"
 EGY_sided_with_the_persians: " Du côté des Perses"
  EGY_cairo_pact_victorious: "Le pacte du Caire est victorieux"
 
-
 ### Companies ###
 heliopolis_chemical: "Heliopolis Chemical Industries"
 egyptian_telephone_telegraph: "Egyptian Telephone and Telegraph Company"
@@ -107,7 +103,6 @@ hanomag_egypt: "Hanomag Ägypten"
 walther_egypt: "Walther Ägypten"
 mauser_egypt: "Mauser Ägypten"
 shoubra_engineering: "Shoubra Engineering"
-
 
 ### Ideas ###
 EGY_building_costs: "Coûts de construction"
@@ -164,6 +159,7 @@ EGY_merchant_marine_idea: "La marine marchande égyptienne"
  EGY_farouks_reforms_unclear_outlook_desc: "Les réformes du Jeune Sultan ont été ... incohérentes, au mieux. Chaque mesure contredisant la précédente, les murmures des critiques ne peuvent plus être ignorés."
 
  League_of_Arab_States_dynamic_modifier: "Membre de la Ligue des États Arabes"
+ League_of_Arab_States_tt: "A le modificateur : §YMembre de la Ligue des Arabe ([Root.GetName])§!"
 
 #### Decisions ####
 
@@ -180,6 +176,7 @@ EGY_meet_with_the_greeks_decision_desc: "Les Grecs sont les ennemis de l'Empire 
  EGY_ally_with_morroco_decision_desc: "[FROM.GetNameDefCap] est récemment devenu indépendant. Nous devrions envoyer un diplomate pour rencontrer les Marocains afin de voir s'ils adhèrent au Pacte du Caire."
 
  EGY_ally_with_africa_decision: "S'allier avec [FROM.GetNameDef]"
+ EGY_ally_with_africa_decision_desc: "[EGY_ally_with_africa_desc_text]"
  EGY_ally_with_africa_desc_CEA: "Comme [FROM.GetNameDef] borde notre frontière sud, nous devrions chercher à nous allier avec eux et les amener dans notre sphère d'influence."
  EGY_ally_with_africa_desc_SOM: "[FROM.GetNameDefCap] existe au bord de la Corne de l'Afrique, ils feraient de précieux alliés pour nous."
  EGY_ally_with_africa_desc_generic: "Alors que nous étendons notre pouvoir, nous devrions chercher à faire entrer [FROM.GetNameDef] dans le Pacte du Caire et dans notre sphère d'influence."
@@ -195,14 +192,19 @@ EGY_egyptian_reforms_decisions_desc: "Le sultan Farouk, bien qu'encore adolescen
 
  EGY_libyan_egyptian_unification_decisions: "Unification libyenne et égyptienne"
  EGY_libyan_egyptian_unification_decisions_desc: "Avec la poussière déposée au Levant, les faucons égyptiens ont jeté leur dévolu sur la nation en difficulté de la Tripolitaine. L'État, qui n'a obtenu son indépendance que récemment, lutte encore pour décider de son identité avec des concepts tels que la nationalité, nouveaux pour la plupart des Libyens. Cela a ouvert une fenêtre d'expansion puisque le Bureau des affaires arabes du Caire a proposé d'utiliser un subterfuge pour amener la HIMT au pouvoir et, par leur intermédiaire, annexer la Tripolitaine à un grand État égyptien."
+
  EGY_promote_the_HIMT: "Financer le HIMT"
  EGY_promote_the_HIMT_desc: "Baptisé Parti de l'unification égypto-trypolitaine, ce petit dérivé du mouvement nationaliste arabe au sens large est l'initiative d'Ali Rajab qui, éclairé par la grandeur de l'Égypte lors de sa visite à Alexandrie, poursuit l'intégration de la Tripolitaine dans le grand État égyptien, affirmant que la Tripolitaine n'a pas les ressources ni le pouvoir de se suffire à elle-même."
+ TRP_promote_the_HIMT: "L'Égypte finance le HIMT"
+
  EGY_pan_arabist_propaganda: "Propagande panarabe"
  EGY_pan_arabist_propaganda_desc: "Utilisée avec beaucoup d'efficacité à l'approche de la guerre dans le désert, Radio Free Cairo et notre réseau de propagandistes arabes font des heures supplémentaires pour diffuser leur message à grande échelle. Même dans le plus petit village, les Libyens doivent être collés à leur poste de radio, à l'écoute des grandes actions du peuple égyptien et de ses immenses prouesses martiales."
  TRP_pan_arabist_propaganda: "L'Egypte promeut le panarabisme"
+
  EGY_decry_tripolitanian_nationalism: "Contre le nationalisme tripolitain"
  EGY_decry_tripolitanian_nationalism_desc: "Bien qu'il y ait eu récemment une montée du nationalisme tripolitain, dépassant les liens urbains et familiaux normaux que les Libyens tenaient traditionnellement pour sacrés, il est encore faible et, grâce aux efforts renouvelés de notre machine de propagande, il peut être remplacé par un sentiment d'appartenance à un État arabe et avec lui un désir de faire partie de l'État égyptien."
  TRP_decry_tripolitanian_nationalism: "L'Égypte contre le nationalisme tripolitain"
+
  EGY_propose_unification: "Proposer l'unification"
  EGY_propose_unification_desc: "Avec nos alliés du HIMT fermement en selle, le temps est venu d'unir officiellement nos deux États. Pour la plus grande gloire de l'Arabie, évidemment..."
 
@@ -466,8 +468,6 @@ EGY_egyptian_paratroopers: "Parachutistes égyptiens"
  EGY_egyptian_paratroopers_desc: "Une proposition conjointe de l'armée égyptienne et de l'armée de l'air égyptienne est parvenue au ministère de la Guerre, proposant la formation de forces Sa'ka ou "Thunderbolt" Ces hommes seraient des bataillons d'élite de l'armée déposés par l'armée de l'air afin de mener des actions de sabotage et de saisir des objectifs clés derrière les lignes ennemies. Leur formation pourrait commencer dès que le Sultan le souhaiterait"
 EGY_rule_the_skies: "Régner sur les cieux"
  EGY_rule_the_skies_desc: "L'armée de l'air égyptienne est prête à imposer son hégémonie sur le Moyen-Orient et une grande partie de la Méditerranée. Avec ce puissant symbole d'une armée moderne qui pourrait oser résister à notre puissance ?"
-
-
 
 ### Events ###
 
@@ -823,7 +823,7 @@ egy.123.t: "Orphelins coptes"
 egy.123.a: "Une organisation noble"
 
  egy.124.t: "Découverte de la bibliothèque de Nag Hammadi"
- egy.124.d: "En Haute Égypte, non loin de Louxor, un fermier de la ville de Nag Hammadi a découvert une collection de textes chrétiens et gnostiques anciens. Remis à un prêtre copte local, les textes ont attiré pas mal d'attention pour l'intérêt littéraire, ainsi que pour l'intérêt religieux"
+ egy.124.d:9 "En Haute Égypte, non loin de Louxor, un fermier de la ville de Nag Hammadi a découvert une collection de textes chrétiens et gnostiques anciens. Remis à un prêtre copte local, les textes ont attiré pas mal d'attention pour l'intérêt littéraire, ainsi que pour l'intérêt religieux"
 egy.124.a: "Une grande découverte !"
 
  egy.125.t: "La légation française quitte l'Égypte"
@@ -916,7 +916,7 @@ egy.144.t: "Mort de Joseph de Picciotto Bey"
 egy.144.a: "Il nous manquera."
 
 egy.145.t: "La mort de Howard Carter"
- egy.145.d: "En 1925, le monde a été mis à feu dans la première Weltkrieg. Alors que des sociologues comme T.E Lawrence changeaient l'histoire avec des épées, Howard Carter le faisait avec des balais. La découverte d'un Boy King, Toutankhamon, a fait vibrer le monde de l'archéologie et de la culture populaire. La découverte d'un nouveau tombeau dans la Vallée des Rois alors que les palais d'Angleterre brûlaient a rendu impossible la sortie de leurs trouvailles en toute sécurité de l'Egypte. Howard Carter est retrouvé mort aujourd'hui dans son appartement à Louxor, le dernier d'une série de décès liés à la tombe de Toutankhamon. Ces morts sont-elles une simple coïncidence, ou le roi des garçons a-t-il eu sa revanche ?"
+ egy.145.d:9 "En 1925, le monde a été mis à feu dans la première Weltkrieg. Alors que des sociologues comme T.E Lawrence changeaient l'histoire avec des épées, Howard Carter le faisait avec des balais. La découverte d'un Boy King, Toutankhamon, a fait vibrer le monde de l'archéologie et de la culture populaire. La découverte d'un nouveau tombeau dans la Vallée des Rois alors que les palais d'Angleterre brûlaient a rendu impossible la sortie de leurs trouvailles en toute sécurité de l'Egypte. Howard Carter est retrouvé mort aujourd'hui dans son appartement à Louxor, le dernier d'une série de décès liés à la tombe de Toutankhamon. Ces morts sont-elles une simple coïncidence, ou le roi des garçons a-t-il eu sa revanche ?"
  egy.145.a: "Ce ne sont que des histoires... n'est-ce pas ?"
 egy.145.b: "Étant moi-même un jeune roi, ils ont eu ce qu'ils méritaient."
 
@@ -1082,7 +1082,10 @@ EGY_national_populist_DEF: "le Sultanat d'Egypte"
  EGY_hussein_el_shafei: "Hussein el-Shafei"
  EGY_abdel_hakim_amer: "Abdel Hakim Amer"
  EGY_farouk_i: "Farouk I"
+
  EGY_fuad_i: "Fuad I"
+ EGY_fuad_i_leader_desc:0 "Fuad est monté sur le trône égyptien au milieu des troubles de la Weltkrieg et d'un nationalisme croissant, renforcé par les défaites continues des Britanniques en Europe. Lorsque la révolution britannique a éclaté, l'Égypte s'est révoltée à son tour. Fuad a coopté la révolution, se présentant comme un ardent nationaliste, et a promulgué un système de gouvernement modelé sur celui de l'Allemagne.\nLes réformes sociales et économiques ultérieures de Fuad ont soulevé des questions dans la société égyptienne sur l'identité même du peuple égyptien et sa place dans une région encore dominée par le Turc détesté. Peut-être que les graines de progrès cousues par Fuad mèneront à la gloire. Peut-être que ses successeurs réussiront là où d'autres dirigeants ont échoué et conduiront l'Égypte à la place qui lui revient en tant que bouclier et épée d'un peuple arabe enfin libéré."
+
  EGY_hussein_refki: "Hussein Refki"
  EGY_aziz_ezzat: "Aziz Ezzat"
  EGY_hassan_sabry: "Hassan Sabry"
@@ -1096,3 +1099,19 @@ EGY_national_populist_DEF: "le Sultanat d'Egypte"
  EGY_ahmed_bek_badr: "Ahmed Bek Badr"
  EGY_mohamed_nashid: "Mohamed Nashid"
  EGY_mahmoud_hamza: "Mahmoud Hamza"
+ EGY_abdul_rahman_hassan_azzam: "Abdul Rahman Hassan Azzam"
+ EGY_mostafa_el_nahas:0 "Mostafa El-Nahas"
+ EGY_makram_ebeid:0 "Makram Ebeid"
+ EGY_muhammad_ahmad_abbud: "Muhammad Ahmad Abbud"
+ EGY_hassan_allam:0 "Hassan Allam"
+ EGY_ali_moustafa_mosharafa: "Ali Moustafa Mosharafa"
+ EGY_ahmed_naguib_el_hilaly:0 "Ahmed Naguib el-Hilaly"
+ EGY_ahmad_maher: "Ahmad Maher"
+ EGY_hassan_al_banna: "Hassan al Banna"
+ EGY_saba_habachy:0 "Saba Habachy"
+ EGY_youssef_seddik: "Youssef Seddik"
+ EGY_rashad_mehanna: "Rashad Mehanna"
+ EGY_ahmed_ali_al_mwawi: "Ahmed Ali al-Mwawi"
+ EGY_ahmed_abdel_raziq: "Ahmed Abdel-Raziq"
+ EGY_fuad_abdel_hamid: "Fuad Abdel-Hamid"
+

@@ -1,7 +1,7 @@
 ﻿l_french:
 
 ### Opening Event ###
- kr.political.1.t: "Kaiserreich Beta 0.20.1"
+ kr.political.1.t: "Kaiserreich Beta 0.21.1"
  kr.political.1.d: "L'équipe de Kaiserreich est fière de vous présenter la version bêta 0.20.1 de Kaiserreich pour Hearts of Iron 4.\n\nNotre équipe a travaillé dur dans tous les coins du monde pour vous présenter cette nouvelle version et nous ne pourrions pas être plus honorés que vous choisissiez d'y jouer.\n\nNous vous prions de bien vouloir noter ce qui suit :\n\n- Le mod est conçu avec l'hypothèse que le joueur annexera toujours tous les états possibles dans les traités de paix, donc assurez-vous de faire cela\n\n- Vous pouvez changer la fréquence des événements de nouvelles en basculant l'icône en haut de l'onglet décisions\n\n- Vous pouvez sélectionner quel système de nommage des états et des points de victoire utiliser en basculant l'icône remplaçant le menu des succès en haut à droite\n\n- Rappelez-vous que ce mod est toujours en Bêta, donc des bogues et des plantages sont malheureusement possibles ! Si vous rencontrez l'un ou l'autre, les signaler sur notre gestionnaire de problèmes (issues) sur GitHub est d'une grande aide et permettra de les corriger plus rapidement !\n\nNous espérons que vous aurez autant de plaisir à jouer à Kaiserreich que nous en avons eu à le créer !"
  kr.political.1.a: "Je suis sûr que je le ferai !"
 
@@ -46,20 +46,32 @@ head_of_gov_available: "§RLes chefs de gouvernement ne peuvent pas être ajout�
 minister_available: "§RLes ministresne peuvent pas être ajoutés ou supprimés manuellement.§! Ils ne peuvent être changés que par des événements, des focus, des décisions et ainsi de suite.\n\nCette liste représente tous les ministres possibles pour une nation, donc les gens ici peuvent être en désaccord avec le gouvernement actuel, dans un autre pays ou même morts"
 military_staff_available: "Ce membre de l'état-major militaire est vivant et prêt à servir le gouvernement"
 
- KR_is_socialist: "A un gouvernement socialiste"
- KR_is_socialist_NOT: "N'a §Rpas§! un gouvernement socialiste"
-KR_is_elected: "A un gouvernement démocratique et élu"
-KR_is_elected_NOT: "N'a §Rpas§! un gouvernement démocratique et élu"
-KR_is_democratic: "A un gouvernement démocratique"
-KR_is_democratic_NOT: "N'a §Rpas§! un gouvernement démocratique"
-KR_is_authoritarian: "A un gouvernement non socialiste et autoritaire"
-KR_is_authoritarian_NOT: "N'a §Rpas§! un gouvernement non socialiste et autoritaire"
-KR_is_dictatorship: "A un gouvernement dictatorial non socialiste"
-KR_is_dictatorship_NOT: "N'a §Rpas§! un gouvernement dictatorial non socialiste"
-KR_right_wing_democracy: "Est une démocratie de droite"
-KR_right_wing_democracy_NOT: "N'est pas une démocratie de droite"
-KR_left_wing_democracy: "Est une démocratie de gauche"
-KR_left_wing_democracy_NOT: "N'est pas une démocratie de gauche"
+ government_is_loc: "Le Parti actuellement au pouvoir est"
+ government_is_not_loc: "Le Parti actuellement au pouvoir n'est pas"
+
+ KR_is_socialist: "$government_is_loc$ §Y$totalist$§!,§Y$syndicalist$§! ou §Y$radical_socialist$§!"
+ KR_is_socialist_NOT: "$government_is_not_loc$ §Y$totalist$§!, §Y$syndicalist$§! ou §Y$radical_socialist$§!"
+
+ KR_is_elected: "$government_is_loc$ §Y$social_democrat$§!, §Y$social_liberal$§!, §Y$market_liberal$§! ou §Y$social_conservative$§!"
+ KR_is_elected_NOT: "$government_is_not_loc$ §Y$social_democrat$§!, §Y$social_liberal$§!, §Y$market_liberal$§! ou §Y$social_conservative$§!"
+
+ KR_is_democratic: "$government_is_loc$ §Y$social_democrat$§!, §Y$social_liberal$§!, §Y$market_liberal$§!, §Y$social_conservative$§! ou §Y$authoritarian_democrat$§!"
+ KR_is_democratic_NOT: "$government_is_not_loc$ §Y$social_democrat$§!, §Y$social_liberal$§!, §Y$market_liberal$§!, §Y$social_conservative$§! ou §Y$authoritarian_democrat$§!"
+
+ KR_is_authoritarian: "$government_is_loc$ §Y$authoritarian_democrat$§!, §Y$paternal_autocrat$§! ou §Y$national_populist$§!"
+ KR_is_authoritarian_NOT: "$government_is_not_loc$ §Y$authoritarian_democrat$§!, §Y$paternal_autocrat$§! ou §Y$national_populist$§!"
+
+ KR_is_dictatorship: "$government_is_loc$ §Y$paternal_autocrat$§! ou §Y$national_populist$§!"
+ KR_is_dictatorship_NOT: "$government_is_not_loc$ §Y$paternal_autocrat$§! ou §Y$national_populist$§!"
+
+ KR_right_wing_democracy: "$government_is_loc$ §Y$market_liberal$§! ou §Y$social_conservative$§!"
+ KR_right_wing_democracy_NOT: "$government_is_not_loc$ §Y$market_liberal$§! ou §Y$social_conservative$§!"
+
+ KR_left_wing_democracy: "$government_is_loc$ §Y$social_democrat$§! ou §Y$social_liberal$§!"
+ KR_left_wing_democracy_NOT: "$government_is_not_loc$ §Y$social_democrat$§! ou §Y$social_liberal$§!"
+
+ KR_is_any_authoritarian: "$government_is_loc$ §Y$totalist$§!, §Y$authoritarian_democrat$§!, §Y$paternal_autocrat$§! ou §Y$national_populist$§!"
+ KR_is_any_authoritarian_NOT: "$government_is_not_loc$ §Y$totalist$§!, §Y$authoritarian_democrat$§!, §Y$paternal_autocrat$§! ou §Y$national_populist$§!"
 
 ### At War Notice ###
 has_scripted_peace: "Nous sommes en guerre"
@@ -78,12 +90,13 @@ has_scripted_peace_desc: "Le pays est en guerre et est déterminé à remporter 
  unit_limit_bonus: "Limite de divisions"
 
  unit_limit_label: "§HDivisions maximales soutenues§!"
- unit_limit_desc: "Chaque pays n'a la capacité de soutenir qu'un certain nombre de divisions militaires individuelles avant que son économie et ses infrastructures n'aient du mal à les maintenir.\n\nLe nombre maximum d'unités soutenues est basé sur la population totale du pays et les États possédés, et est ensuite multiplié par le niveau global d'industrialisation du pays.\n\n§L   - Base à partir de la Population Totale: [?base_population|G0][unit_limit_noncore_population][unit_limit_crownland_population_bonus]\n   - Base à partir des États Possédés : [?base_states|G0][unit_limit_crownland_state_bonus]\n   - Base Totale : [?base_units|G0]\n\n   - Modificateur d'Industrialisation : [?industry_factor|H%][unit_limit_modifier_was_capped][unit_limit_extra_modifier_line_break][unit_limit_faction_leader][unit_limit_economy_law][unit_limit_was_capped][unit_limit_lower_limit_used][unit_limit_upper_limit_used][unit_limit_bonus_used]\n\n   TOTAL FINAL : [?max_divisions|H0]\n\nVeuillez noter qu'il faut compter jusqu'à une semaine de jeu pour que les modifications apportées aux éléments ci-dessus soient prises en compte dans le calcul..§![above_unit_limit_desc]"
+ unit_limit_desc: "Chaque pays n'a la capacité de soutenir qu'un certain nombre de divisions militaires individuelles avant que son économie et ses infrastructures n'aient du mal à les maintenir.\n\nLe nombre maximum d'unités soutenues est basé sur la population totale du pays et les états possédés, puis est multiplié par le niveau global d'industrialisation du pays. [unit_limit_civil_war]\n\n§L - Base de la Population Totale : [?base_population|G0][unit_limit_noncore_population][unit_limit_crownland_population_bonus]\n   - Base des États Possédés : [?base_states|G0] [unit_limit_crownland_state_bonus]\n   - Base Totale : [?base_units|G0]\n\n   - Modificateur d'Industrialisation : [?industry_factor|H%] [unit_limit_modifier_was_capped] [unit_limit_extra_modifier_line_break] [unit_limit_faction_leader] [unit_limit_economy_law] [unit_limit_was_capped] [unit_limit_lower_limit_used] [unit_limit_upper_limit_used] [unit_limit_bonus_used].\n\n   TOTAL FINAL : [?max_divisions|H0]\n\nVeuillez noter qu'il faut compter jusqu'à une semaine de jeu pour que les modifications apportées aux éléments ci-dessus soient prises en compte dans le calcul.§! [above_unit_limit_desc]"
 
  unit_limit_desc_fake_intel: "(§HLes fausses divisions du renseignement§! ne comptent pas dans la limite de divisions)"
 
- unit_limit_desc_above_limit: "\n\n--------------\n\n§RNous avons actuellement dépassé nos capacités, et la seule façon d'alléger la pression sur notre pays sera de supprimer certaines de nos divisions.§!\n\nOrganisation des divisions : [?mobilisation_penalty_var|+=%1]\nUsines de biens de consommation : [?mobilisation_penalty_var_positive|=%H1]\nProduction en usine : [?mobilisation_penalty_var|+=%]\nTemps de formation : [?mobilisation_penalty_var_positive|-=%]\nRenforcer le taux : [?mobilisation_penalty_var|+=%1]"
+ unit_limit_desc_above_limit: "\n\n--------------\n\n§RNous avons actuellement dépassé nos capacités, et la seule façon de soulager la pression sur notre pays sera de supprimer certaines de nos divisions.§!\n\n$MODIFIER_ARMY_ORG_FACTOR$: [?mobilisation_penalty_var|+=%1]\n$MODIFIER_CONSUMER_GOODS_FACTOR$: [?mobilisation_penalty_var_positive|=%H1]\n$MODIFIER_INDUSTRIAL_CAPACITY_FACTOR$: [?mobilisation_penalty_var|+=%]\n$MODIFIER_TRAINING_TIME_ARMY_FACTOR$: [?mobilisation_penalty_var_positive|-=%]\n$MODIFIER_LAND_REINFORCE_RATE$: [?mobilisation_penalty_var|+=%1]"
 
+ unit_limit_civil_war_desc: "\n\nLors d'une §Hguerre civile§!, les pays ennemis sont aussi comptés comme faisant partie de nos limites, et les nôtres, des leurs."
  unit_limit_noncore_population_desc: "\n      (§H10%§! des états non cœur : [?non_core_base|H1])"
  unit_limit_crownland_population_bonus_desc: "\n      ([?crownland_base_units|H0] des §HCrownlands§!)"
  unit_limit_crownland_state_bonus_desc: "\n      ([?crownland_states|H0] des §HCrownlands§!)"
@@ -129,9 +142,6 @@ has_scripted_peace_desc: "Le pays est en guerre et est déterminé à remporter 
  turn_off_plpc_debug_desc: "Cela désactivera temporairement les conférences de paix dirigées par des joueurs - ce qui signifie que les conférences de paix se dérouleront normalement, et que les pays de l'IA ne se retireront pas si un joueur est impliqué."
  turn_on_plpc_debug: "Activer Player-Led Conferences"
  turn_on_plpc_debug_desc: "Cela rétablira la fonctionnalité normale des conférences de paix menées par les joueurs. Les pays de l'IA se retireront toujours des conférences de paix si un joueur est impliqué dans le camp gagnant."
- turn_off_stt_debug: "Désactiver State & Country Transfer Tool"
- turn_off_stt_debug_desc: "\n§RPresser §Y\"Ctrl-S\"§! peut également être utilisé pour désactiver l'interface, si vous ne préférez pas la désactiver complètement.§!"
- turn_on_stt_debug: "Activer State & Country Transfer Tool"
  KR_player_leads_conferences: "La règle §YPrimauté du Joueur§! pour les Conférences de Paix est §Gactivée§!\n"
  KR_plpc_disable_tt: "La règle §YPrimauté du Joueur§! pour les Conférences de Paix sera temporairement §Rdésactivée§!\n"
  KR_plpc_enable_tt: "La règle §YPrimauté du Joueur§! pour les Conférences de Paix sera de nouveau §Gactivée§!\n"
@@ -143,16 +153,16 @@ has_scripted_peace_desc: "Le pays est en guerre et est déterminé à remporter 
 ##################
 
 ### Names ###
-totalist: "Totalistes"
-syndicalist: "Syndicalistes"
-radical_socialist: "Radical-Socialistes"
-social_democrat: "Social-Démocrates"
-social_liberal: "Social-Libéraux"
-market_liberal: "Liberaux Économique"
-social_conservative: "Conservateurs Social"
+ totalist: "Totalistes"
+ syndicalist: "Syndicalistes"
+ radical_socialist: "Radical-Socialistes"
+ social_democrat: "Social-Démocrates"
+ social_liberal: "Social-Libéraux"
+ market_liberal: "Liberaux Économique"
+ social_conservative: "Conservateurs Social"
  authoritarian_democrat: "Démocrates Autoritaires"
-paternal_autocrat: "Autocrates Paternels"
-national_populist: "National-Populistes"
+ paternal_autocrat: "Autocrates Paternels"
+ national_populist: "National-Populistes"
 
 ### Nouns ###
 totalist_noun: "Totalisme"
@@ -192,25 +202,13 @@ market_liberal_subtype_desc: "Les Libéraux Économiques se considèrent comme l
 national_populist_subtype_desc: "Englobant une variété de mouvements ultra-nationalistes et militaristes, le national-populisme vénère généralement la dévotion à l'État, unissant le peuple sous un leader fort et une économie de corporation. Le populisme national, qui embrasse souvent la politique raciale et la rhétorique violente, est farouchement combattu par la plupart des autres partis politiques"
 
 ### Drift ###
-totalist_drift: "Soutien quotidien Totaliste"
-syndicalist_drift: "Soutien quotidien Syndicaliste"
-radical_socialist_drift: "Soutien quotidien Radical Socialiste"
-social_democrat_drift: "Soutien quotidien Social Démocrate"
-social_liberal_drift: "Soutien quotidien Social Libéral"
-market_liberal_drift: "Soutien quotidien Libéral Économique"
-social_conservative_drift: "Soutien quotidien Conservateur Social"
-authoritarian_democrat_drift: "Soutien quotidien Démocrate Autoritaire"
-paternal_autocrat_drift: "Soutien quotidien Autocrate Paternel"
-national_populist_drift: "Soutien quotidien National-Populiste"
-
-### Banned ###
-totalist_banned: "Totalistes bannis"
-syndicalist_banned: "Syndicalistes bannis"
-radical_socialist_banned: "Radicaux-Socialistes bannis"
-social_democrat_banned: "Sociaux-Démocrates bannis"
-social_liberal_banned: "Sociaux-Libéraux bannis"
-market_liberal_banned: "Libéraux Économiques bannis"
-social_conservative_banned: "Sociaux-Conservateurs bannis"
-authoritarian_democrat_banned: "Démocrates Autoritaires bannis"
-paternal_autocrat_banned: "Autocrates Paternels bannis"
-national_populist_banned: "National-Populistes bannis"
+ totalist_drift: "Soutien quotidien Totaliste"
+ syndicalist_drift: "Soutien quotidien Syndicaliste"
+ radical_socialist_drift: "Soutien quotidien Radical Socialiste"
+ social_democrat_drift: "Soutien quotidien Social Démocrate"
+ social_liberal_drift: "Soutien quotidien Social Libéral"
+ market_liberal_drift: "Soutien quotidien Libéral Économique"
+ social_conservative_drift: "Soutien quotidien Conservateur Social"
+ authoritarian_democrat_drift: "Soutien quotidien Démocrate Autoritaire"
+ paternal_autocrat_drift: "Soutien quotidien Autocrate Paternel"
+ national_populist_drift: "Soutien quotidien National-Populiste"
