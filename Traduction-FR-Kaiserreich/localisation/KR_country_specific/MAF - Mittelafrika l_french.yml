@@ -335,10 +335,17 @@ african_divisions_3: "§GDeux divisions motorisées expertes de la Mittelafrika 
  MAF_british_nigeria: "Colonie et Protectorat du Nigeria"
  MAF_british_nigeria_desc: "Le Nigeria britannique est sous mandat allemand depuis 1925. Cependant, les Britanniques insistent pour maintenir leur propre sécurité. Les troupes ne peuvent entrer qu'en temps de guerre."
 
- MAF_british_uganda: "Protectorat de l'Ouganda"
- MAF_british_rhodesia: "Protectorat de la Rhodésie du Nord"
- MAF_british_nyasaland: "Protectorat du Nyasaland"
  MAF_british_gold_coast: "Colonie de la Côte d'Or"
+ MAF_british_gold_coast_desc: "La Côte d'Or Britannique est sous mandat allemand depuis 1925. Cependant, les Britanniques insistent pour maintenir leur propre sécurité. Les troupes ne peuvent y entrer qu'en temps de guerre."
+
+ MAF_british_uganda: "Protectorat de l'Ouganda"
+ MAF_british_uganda_desc: "L'Ouganda Britannique est sous protection Allemande depuis 1925."
+
+ MAF_british_rhodesia: "Protectorat de la Rhodésie du Nord"
+ MAF_british_rhodesia_desc: "La Rhodésie du Nord Britannique est sous protection Allemande depuis 1925."
+
+ MAF_british_nyasaland: "Protectorat du Nyasaland"
+ MAF_british_nyasaland_desc: "Le Nyasaland Britannique est sous protection Allemande depuis 1925."
 
  MAF_autonomous_protectorate: "Protectorat Autonome"
 
@@ -907,7 +914,7 @@ mittel.41.t: "Défaite en Afrique"
  mittel.427.a: "Un choix intelligent."
 
  mittel.428.t: "[From.GetName] refuse une paix limitée"
- mittel.428.d: "Il semble que la bêtise habituelle des [From.GetAdj]s ait eu raison d'eux, nos demandes raisonnables pour la fin des combats en Afrique ayant été complètement ignorées, il semble qu'ils ne soient pas disposés à négocier, du moins pas pour le moment."
+ mittel.428.d: "Il semble que la bêtise habituelle des [From.GetAdjective]s ait eu raison d'eux, nos demandes raisonnables pour la fin des combats en Afrique ayant été complètement ignorées, il semble qu'ils ne soient pas disposés à négocier, du moins pas pour le moment."
  mittel.428.a: "Un geste très imprudent."
 
  mittel.429.t: "Un cessez-le-feu en Afrique ?"
@@ -1348,12 +1355,12 @@ mittel.187.a: "Merveilleux !"
  mittel.189.b: "Le bureau colonial doit être consulté."
 
  mittel.190.t: "L'administration de Mittelafrika achète des actions de DKAEB"
- mittel.190.d: "Le chemin de fer Deutsche Kaiserliche Abessinien Eisenbahn (DKAEB) a été créé au début du 20e siècle, reliant Addis-Abeba, en Éthiopie, à Djibouti. Après une série d'extensions financées par l'Allemagne, il est aujourd'hui utilisé principalement pour le transport de minerai du bassin du Congo, en Afrique centrale, vers Djibouti. En raison de la crise économique mondiale actuelle, le minerai n'est plus acheté au même rythme qu'auparavant, ce qui entraîne une diminution des transports pour la DKAEB. Afin d'empêcher l'État éthiopien de prendre le contrôle de la DKAEB et de perdre un lien commercial précieux, l'État de Mittelafrikan a acheté de nombreuses actions du chemin de fer, afin de fournir un soutien public à la société en difficulté. Cependant, permettre à Mittelafrika d'agir unilatéralement si peu de temps après l'affaire Kenyatta-Solf pourrait enhardir le dangereux Goering."
+ mittel.190.d: "Le chemin de fer Deutsche Kaiserliche Abessinien Eisenbahn (DKAEB) a été créé au début du 20e siècle, reliant Addis-Abeba, en Éthiopie, à Djibouti. Après une série d'extensions financées par l'Allemagne, il est aujourd'hui utilisé principalement pour le transport de minerai du bassin du Congo, en Afrique centrale, vers Djibouti. En raison de la crise économique mondiale actuelle, le minerai n'est plus acheté au même rythme qu'auparavant, ce qui entraîne une diminution des transports pour la DKAEB. Afin d'empêcher l'État éthiopien de prendre le contrôle de la DKAEB et de perdre un lien commercial précieux, l'État de Mittelafrikan a acheté de nombreuses actions du chemin de fer, afin de fournir un soutien public à la société en difficulté. Cependant, permettre à Mittelafrika d'agir unilatéralement si peu de temps après l'affaire Kenyatta-Solf pourrait enhardir le dangereux [ROOT.GetLeader]."
  mittel.190.a: "Exigez que Mittelafrika vende ses parts à l'Ethiopie !"
  mittel.190.b: "Ils n'auraient pas dû agir, mais c'était la bonne action."
 
  mittel.191.t: "Le bureau colonial émet une plainte"
- mittel.191.d: "Le Bureau Colonial à Berlin a déposé une plainte officielle contre le Statthalter Goering pour son achat unilatéral des actions de la DKAEB. Il est clair qu'il craint ses ambitions politiques et qu'il agit à courte vue et contre le véritable intérêt allemand. Le Bureau exige que nous vendions les actions à l'État éthiopien. Devons-nous obéir aux souhaits de Berlin ?"
+ mittel.191.d: "Le Bureau Colonial à Berlin a déposé une plainte officielle contre le Statthalter [ROOT.GetLeader] pour son achat unilatéral des actions de la DKAEB. Il est clair qu'il craint ses ambitions politiques et qu'il agit à courte vue et contre le véritable intérêt allemand. Le Bureau exige que nous vendions les actions à l'État éthiopien. Devons-nous obéir aux souhaits de Berlin ?"
  mittel.191.a: "Nous continuerons à faire rouler ce train même si c'est la dernière chose que nous faisons !"
  mittel.191.b: "Très bien, redescendez."
 
@@ -1364,7 +1371,7 @@ mittel.187.a: "Merveilleux !"
  mittel.192.c: "Dites à Mittelafrika de prendre les actions."
 
  mittel.193.t: "Le ministère des Colonies refuse de s'engager"
- mittel.193.d: "Il semble que personne à Berlin n'ait voulu prendre la responsabilité de prendre une décision sur l'achat des actions de DKAEB. Ils nous ont renvoyé le problème, en nous disant qu'ils font confiance au jugement du Statthalter Goering dans cette affaire. Si nous devions garder le chemin de fer, nous devrions probablement consacrer du temps à le maintenir à flot, temps que nous pourrions consacrer à l'arrêt des effets du lundi noir, mais si nous ne faisions rien, nous perdrions les Éthiopiens comme allié possible."
+ mittel.193.d: "Il semble que personne à Berlin n'ait voulu prendre la responsabilité de prendre une décision sur l'achat des actions de DKAEB. Ils nous ont renvoyé le problème, en nous disant qu'ils font confiance au jugement du Statthalter [ROOT.GetLeader] dans cette affaire. Si nous devions garder le chemin de fer, nous devrions probablement consacrer du temps à le maintenir à flot, temps que nous pourrions consacrer à l'arrêt des effets du lundi noir, mais si nous ne faisions rien, nous perdrions les Éthiopiens comme allié possible."
  mittel.193.a: "Nous allons prendre le contrôle du chemin de fer."
  mittel.193.b: "Nous réduirons le soutien de l'État à la DKAEB."
 
@@ -1376,19 +1383,19 @@ mittel.187.a: "Merveilleux !"
  mittel.194.c: "Non, nous allons accorder les actions à l'Ethiopie."
 
  mittel.195.t: "L'Afrique centrale désobéit à notre ordre"
- mittel.195.d: "Le Statthalter Goering à Dar es-Salaam a désobéi à notre ordre direct concernant le DKAEB ! Nombreux sont ceux qui, à Berlin, regrettent déjà d'avoir envoyé ce pilote en sursaut pour gouverner un demi-continent, et le ministère des Colonies a déposé une plainte officielle auprès du gouvernement Mittelafrikan."
+ mittel.195.d: "Le Statthalter [ROOT.GetLeader] à Dar es-Salaam a désobéi à notre ordre direct concernant le DKAEB ! Nombreux sont ceux qui, à Berlin, regrettent déjà d'avoir envoyé ce pilote en sursaut pour gouverner un demi-continent, et le ministère des Colonies a déposé une plainte officielle auprès du gouvernement Mittelafrikan."
  mittel.195.a: "C'est scandaleux !"
 
  mittel.196.t: "Le ministère colonial se plaint"
- mittel.196.d: "Le ministère des Colonies nous a envoyé une plainte officielle concernant notre décision de désobéir à leur ordre direct dans l'affaire des actions de la DKAEB. Les officiels allemands ont déjà commencé à murmurer contre la règle arbitraire de Goering, et si son entreprise échoue, il y aura certainement des conséquences sur sa popularité."
+ mittel.196.d: "Le ministère des Colonies nous a envoyé une plainte officielle concernant notre décision de désobéir à leur ordre direct dans l'affaire des actions de la DKAEB. Les officiels allemands ont déjà commencé à murmurer contre la règle arbitraire de [ROOT.GetLeader], et si son entreprise échoue, il y aura certainement des conséquences sur sa popularité."
  mittel.196.a: "Nous avons déjà pris notre décision."
 
  mittel.197.t: "Les chemins de fer DKAEB font des bénéfices"
- mittel.197.d: "La fin du troisième trimestre n'a pas été généralement bonne pour Mittelafrika - l'absence de remèdes économiques au lundi noir frappe durement la colonie dans son ensemble. Cependant, le DKAEB a signalé que le volume de wagons militaires et commerciaux chargés par leur chemin de fer a augmenté depuis le premier trimestre, et il semble que les investisseurs aient à nouveau confiance dans le chemin de fer. Le plan du Statthalter Goering a porté ses fruits."
+ mittel.197.d: "La fin du troisième trimestre n'a pas été généralement bonne pour Mittelafrika - l'absence de remèdes économiques au lundi noir frappe durement la colonie dans son ensemble. Cependant, le DKAEB a signalé que le volume de wagons militaires et commerciaux chargés par leur chemin de fer a augmenté depuis le premier trimestre, et il semble que les investisseurs aient à nouveau confiance dans le chemin de fer. Le plan du Statthalter [ROOT.GetLeader] a porté ses fruits."
  mittel.197.a: "Notre lien d'exportation est sécurisé."
 
  mittel.198.t: "Le chemin de fer DKAEB fait faillite !"
- mittel.198.d: "La fin du troisième trimestre économique est arrivée, mais la Deutsche Kaiserliche Abessinien Eisenbahn ne l'a pas poursuivi. Nous avons mal géré le projet pour le sauver, bien que les Éthiopiens semblent avoir coopéré, et nous n'avons maintenant plus le choix de vendre nos parts au gouvernement éthiopien. La réputation de Statthalter Goering en a souffert - il semble de plus en plus improbable qu'il puisse rendre Mittelafrika rentable sans recourir à des mesures drastiques."
+ mittel.198.d: "La fin du troisième trimestre économique est arrivée, mais la Deutsche Kaiserliche Abessinien Eisenbahn ne l'a pas poursuivi. Nous avons mal géré le projet pour le sauver, bien que les Éthiopiens semblent avoir coopéré, et nous n'avons maintenant plus le choix de vendre nos parts au gouvernement éthiopien. La réputation de Statthalter [ROOT.GetLeader] en a souffert - il semble de plus en plus improbable qu'il puisse rendre Mittelafrika rentable sans recourir à des mesures drastiques."
  mittel.198.a: "Les Ethiopiens peuvent avoir les pistes maintenant !"
 
  mittel.199.t: "La DKAEB reste à flot"
@@ -1396,15 +1403,15 @@ mittel.187.a: "Merveilleux !"
  mittel.199.a: "Bonne nouvelle."
 
  mittel.200.t: "La DKAEB fait faillite"
- mittel.200.d: "L'administration Mittelafrikane a échoué une fois de plus, puisque la DKAEB d'Afrique de l'Est a fait faillite. Cela a ostracisé notre allié éthiopien, tout en gaspillant de précieuses ressources allemandes pour sauver le chemin de fer. Nous avons accordé une certaine confiance au Statthalter Goering pour cette opération - ce que nous ne ferons plus jamais."
+ mittel.200.d: "L'administration Mittelafrikane a échoué une fois de plus, puisque la DKAEB d'Afrique de l'Est a fait faillite. Cela a ostracisé notre allié éthiopien, tout en gaspillant de précieuses ressources allemandes pour sauver le chemin de fer. Nous avons accordé une certaine confiance au Statthalter [ROOT.GetLeader] pour cette opération - ce que nous ne ferons plus jamais."
  mittel.200.a: "Imbéciles incompétents !"
 
  mittel.201.t: "Le Ministère des Colonies se plaint"
- mittel.201.d: "Le ministère des Colonies à Berlin a réprimandé le Statthalter Hermann Goering pour ne pas avoir réussi à maintenir la DKAEB à flot. Bien que cette réprimande soit, dans une certaine mesure, justifiée, les Éthiopiens doivent également assumer une part de responsabilité. Néanmoins, les perspectives politiques de Goering en ont été grandement affectées."
+ mittel.201.d: "Le ministère des Colonies à Berlin a réprimandé le Statthalter [ROOT.GetLeader] pour ne pas avoir réussi à maintenir la DKAEB à flot. Bien que cette réprimande soit, dans une certaine mesure, justifiée, les Éthiopiens doivent également assumer une part de responsabilité. Néanmoins, les perspectives politiques de [ROOT.GetLeader] en ont été grandement affectées."
  mittel.201.a: "Des administrateurs de fauteuil arrogants !"
 
  mittel.202.t: "Le Gambit réussit"
- mittel.202.d: "La décision du Statthalter Goering de prendre le contrôle des actions de la DKAEB est apparemment passée inaperçue à Berlin. Le plan pour sauver l'empire allemand en Afrique commence maintenant !"
+ mittel.202.d: "La décision du Statthalter [ROOT.GetLeader] de prendre le contrôle des actions de la DKAEB est apparemment passée inaperçue à Berlin. Le plan pour sauver l'empire allemand en Afrique commence maintenant !"
  mittel.202.a: "Contactez notre nouveau partenaire à Addis Abeba !"
 
  mittel.300.t: "Mise à jour sur Mittelafrika : Policier abattu"

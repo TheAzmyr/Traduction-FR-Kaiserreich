@@ -575,21 +575,34 @@ ARG_Oficina_Central_de_Hidrografia: "Oficina Central de Hidrografía"
  ARG_successful_campaign_desc: "La guerre a commencé entre le Chili et la Patagonie socialistes d'un côté, et l'Argentine de l'autre. Les généraux ont prévu des plans de bataille pour écraser notre ennemi ; nous devons agir rapidement pour réussir !"
 
 ## Tooltips
- FOP_has_achieved_success_in_war: "§7Donner un coup décisif à [ARG.GetName] assez rapidement facilitera considérablement la liberté de notre pays.§!"
- ARG_has_achieved_success_in_war: "§7Donner un coup décisif à [FOP.GetName] assez rapidement déstabilisera gravement les révolutionnaires.§!"
- FOP_failed_to_finish_the_war_in_time: "§OSi nous ne parvenons pas à atteindre nos objectifs dans le conflit avec [ARG.GetNameDef], le moral de nos hommes sera sérieusement affecté. Nous devons mettre fin à cette guerre le plus rapidement possible.§!"
- ARG_failed_to_finish_the_war_in_time: "§OSi nous ne parvenons pas à atteindre nos objectifs dans le conflit avec [FOP.GetNameDef], le moral de nos hommes sera sérieusement affecté. Nous devons mettre fin à cette guerre le plus rapidement possible.§!"
+ FOP_has_achieved_success_in_war: "§7En portant un coup décisif à [ARG.GetName] assez rapidement, nous pourrons briser les réactionnaires et accroître notre influence politique.§!"
+ ARG_has_achieved_success_in_war: "§7En portant assez rapidement un coup décisif à [FOP.GetName], nous déstabiliserons gravement les révolutionnaires et renforcerons notre influence politique.§!"
  FOP_lost_the_war: "§ONotre armée s'effondre...§!"
  ARG_lost_the_war: "§ONotre armée s'effondre...§!"
 
 ## Events
- argmil.100.t: "Effondrement de l'Armée"
- argmil.100.d: "La défaite catastrophique de la Guerre du Cône Sud engendre d'énormes problèmes au sein de l'armée - les hommes font défection et le moral des forces restantes est extrêmement bas."
- argmil.100.a:0 "Un désastre!"
+ arg_chl_war.120.t: "Effondrement de l'Armée"
+ arg_chl_war.120.d: "La défaite catastrophique de la guerre du cône sud entraîne d'énormes problèmes au sein de l'armée - les hommes font défection et le moral des forces restantes est extrêmement bas."
+ arg_chl_war.120.a: "Nous sommes condamnés..."
 
- argmil.200.t: "Effondrement de l'Armée"
- argmil.200.d: "La défaite catastrophique de la Guerre du Cône Sud engendre d'énormes problèmes au sein de l'armée - les hommes font défection et le moral des forces restantes est extrêmement bas."
- argmil.200.a:0 "Un désastre!"
+ arg_chl_war.101.t: "Défections dans l'Armée"
+ arg_chl_war.101.d: "Avec l'échec de notre effort militaire contre [FOP.GetName], nos troupes commencent à perdre le moral, et plusieurs régiments changent de camp et rejoignent l'armée [FOP.GetAdjective] ! Seule une victoire décisive peut restaurer la confiance de nos troupes et mettre un terme aux défections."
+ arg_chl_war.101.a: "Un désastre !"
+
+ arg_chl_war.102.t: "Defections in the Army"
+ arg_chl_war.102.d: "With our military effort against [ARG.GetName] failing, our troops begin to lose morale, with separate regiments switching sides and joining the [ARG.GetAdjective] army! Only a decisive victory can restore our troops' trust and put an end to the defections."
+ arg_chl_war.102.a: "Un désastre !"
+
+ arg_chl_war.104.t: "Les régiments [FROM.GetAdjective]s rejoignent notre armée"
+ arg_chl_war.104.d: "Bien que la victoire absolue contre [FROM.GetName] n'ait pas encore été remportée, les régiments [FROM.GetAdjective]s ont choisi de rejoindre notre cause. Chaque jour, nous nous rapprochons de la victoire totale !"
+ arg_chl_war.104.a: "Parfait !"
+
+ ARG_FOP_our_defection_tooltip: "§OUn petit pourcentage d'unités §Y[FROM.GetAdjective]es§! passe à l'ennemi§!"
+ ARG_FOP_enemy_defection_tooltip: "§7Certaines unités de §Y[FROM.GetNameWithFlag]§! font défaut à §Y[ROOT.GetNameWithFlag].§!"
+
+ arg_chl_war.121.t: "Effondrement de l'Armée"
+ arg_chl_war.121.d: "La défaite catastrophique de la guerre du cône sud entraîne d'énormes problèmes au sein de l'armée - les hommes font défection et le moral des forces restantes est extrêmement bas."
+ arg_chl_war.121.a: "Nous sommes condamnés..."
 
  ARG_losing_war: "Effondrement de l'Armée"
 
