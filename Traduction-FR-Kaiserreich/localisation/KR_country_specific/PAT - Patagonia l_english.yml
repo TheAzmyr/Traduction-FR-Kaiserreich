@@ -247,6 +247,98 @@
  FOP_resource_exploitation_scheme: "Resource Exploitation Scheme"
  FOP_resource_exploitation_scheme_desc: "With the Argentinian industry slowly getting back and running, we are quickly running into raw material shortages as we surpass the pre-revolution standards. While importing will do for now, Argentina is a vast nation with untapped resources in many regions, and as such, a committee has been created by the Congress in order to organise the extraction of said resources."
 
+### Andesia tooltips and decisions ###
+ FOP_AND_declare_andesia_tt: "§gTo form Andesia, communist Patagonia should own territory of all South American countries except Brazil and Guyana. It is not necessary to set up military occupation on conquered territories; instead, puppet regimes can be installed in subjugated South American countries and later those puppets can be annexed via decisions.§!"
+ FOP_decided_to_form_andesia: "Decided to form §oAndesia§!"
+ FOP_AND_internationale_warning_tt: "§OIf we join the Internationale, other members of the faction will be against us achieving the dream of Andesia until the Second Weltkrieg is over§!"
+ FOP_AND_will_unlock_andesia_tt: "Unlocks decisions to form §oAndesia§!"
+ FOP_AND_all_countries_socialist_tt: "All countries in §YAmerica§!:\n   Has socialist government"
+ FOP_AND_liberate_attacking_socialists_tt: "§O[FROM.GetName] has a socialist regime - although we can label them as 'reactionaries' and 'traitors of the Revolution' and attack them anyway, it will come at a price.§!"
+ FOP_AND_liberate_south_america_tt: "Enable decisions to liberate countries in §YSouth America§! that don't have a socialist government"
+ FOP_AND_liberate_central_america_tt: "Enable decisions to liberate countries in §YCentral America§! that don't have a socialist government"
+ FOP_AND_liberate_north_america_tt: "Enable decisions to liberate countries in §YNorth America§! that don't have a socialist government"
+ FOP_AND_no_resistance_against_andesia_tt: "The internal resistance against §oAndesia§! has been eliminated"
+ FOP_AND_no_economical_chaos_tt: "§YEconomical Chaos§! has been dealt with"
+ FOP_AND_faction: "Anti-Imperialist League"
+ FOP_AND_research_group: "American Scientific Treaty"
+ FOP_AND_research_group_desc: ""
+
+### Andesia focus tree ###
+ FOP_AND_andesia_declared: "Declare Andesia"
+ FOP_AND_andesia_declared_desc: "The dream of [ROOT.GetLeader] has come true - all of Hispanic South America is now unified under the flag of Andesia. The question of whether this new socialist utopia will last or disintegrate after the dust settles is still up in the air."
+ FOP_AND_first_south_american_congress: "First Andesian Congress"
+ FOP_AND_first_south_american_congress_desc: "It's time: members of socialist movements from all across Andesia are gathering in Buenos Aires to decide the future of the continent. The congress, which will define Andesia's governmental structure and lay the groundwork for the state, will be headed over by Chairman [ROOT.GetLeader]."
+ FOP_AND_establish_local_governments: "[FOP_AND_establish_local_governments_scripted]"
+ FOP_AND_establish_local_governments_federalised: "Federalise Andesia"
+ FOP_AND_establish_local_governments_unitary: "Empower the Central Government"
+ FOP_AND_establish_local_governments_desc: "[FOP_AND_establish_local_governments_desc_scripted]"
+ FOP_AND_establish_local_governments_desc_federalised: "Although the original concept theorised by Justo was to make Andesia a unitary state, members of socialist movements persuaded him to instead offer autonomy to Andesia's regions and turn it into a federation. This way, the new Pan-Hispanic state will be more stable since local governments will have more authority, but Argentina and Justo will have less power over Andesia."
+ FOP_AND_establish_local_governments_desc_unitary: "Chairman Justo is determined to make Andesia a unitary country with no regional autonomy, instead subjugating the entire state to the government in Buenos Aires. Justo will have more control over the new Pan-Hispanic state in this manner, but there will undoubtedly be more resistance."
+ FOP_AND_spread_marxism_ideas: "Spread Marxist Ideas"
+ FOP_AND_spread_marxism_ideas_desc: "Let the ruling classes tremble at a Communistic revolution. The proletarians have nothing to lose but their chains. They have a world to win.\nWorking Men of All Countries, Unite!"
+ FOP_AND_suppress_resistance: "Suppress Reactionaries"
+ FOP_AND_suppress_resistance_desc: "Unfortunately, not all Andesian people have accepted our ideals or at least ceased opposing them. Counterrevolutionaries continue to terrorise and cause mayhem. A strong [ROOT.GetAgency] should be able to track out and apprehend state opponents."
+ FOP_AND_embrace_andesia: "Embrace Andesia"
+ FOP_AND_embrace_andesia_desc: "Political turmoil is beginning to dissipate as governmental structures are established, ideology is propagated, and counterrevolutionaries are suppressed. Years will be needed to overcome the remaining resistance, but at least many of the issues have been resolved."
+ FOP_AND_south_american_unification: "National Unification"
+ FOP_AND_south_american_unification_desc: "Slowly but surely people of Andesia are embracing the idea of Pan-Hispanic harmony. The South American nations' union is strengthened by their shared foes, as well as by their shared history and culture."
+ FOP_AND_create_central_planning_committee: "Create Central Planning Committee"
+ FOP_AND_create_central_planning_committee_desc: "The Andesian economy is in disarray because, prior to their unification, South American countries had different economic systems. The government's top priority is to combine these systems to create a self-sufficient and efficient economy. The Central Planning Committee will be in charge of completing those objectives."
+ FOP_AND_economical_integration_program: "Economical Integration Program"
+ FOP_AND_economical_integration_program_desc: "Andesia has radically varying climates, resources, and levels of industrialisation. Economical Integration Program should help to reduce economic turmoil and increase economic efficiency - we have excellent manufacturing capabilities and a large market. It's time to connect them together."
+ FOP_AND_agricultiral_economy_reforms: "Socialist Agricultural Reforms"
+ FOP_AND_agricultiral_economy_reforms_desc: "One of our government's primary concerns is achieving self-sufficiency in food production. While broad collectivisation is not a possibility due to the high risk of revolts, we may modernise agriculture on new areas through mechanisation and the use of fertilisers. It may not entirely fulfil our political objectives, but it will keep our populace fed and prevent peasant revolts."
+ FOP_AND_industrialise_andesia: "Andesian Industrialisation"
+ FOP_AND_industrialise_andesia_desc: "With the food issue handled, the next phase in our economic plan is industrialisation. While we lack the means for widespread industrialisation, a more gradual method might be chosen to incrementally establish new factories in Andesian cities."
+ FOP_AND_defence_against_imperialism: "Defence Against Imperialism"
+ FOP_AND_defence_against_imperialism_desc: "The foundation of [ROOT.GetName] caught reactionaries off guard, but they are not sitting idle - foes are gathering along our borders, dreaming of our demise. It is time for socialists in America to get together and fight reactionaries!"
+ FOP_AND_liberate_central_america: "Liberate Central America"
+ FOP_AND_liberate_central_america_desc: "We must liberate Central American nations and push reactionaries away from our northern borders!"
+ FOP_AND_liberate_south_america: "Liberate South America"
+ FOP_AND_liberate_south_america_desc: "It is time to attack the remaining reactionaries in South America; we cannot afford for them to exist so near to the borders of Andesia."
+ FOP_AND_liberate_north_america: "Strike the Empires"
+ FOP_AND_liberate_north_america_desc: "To ensure Andesia's free future, all reactionaries in the Western Hemisphere must be eradicated. The war will be difficult, but if we win, the age of peace and prosperity may finally begin."
+ FOP_AND_free_america: "Liberated America"
+ FOP_AND_free_america_desc: "The entire American continent has been liberated, and the period of wealth for [ROOT.GetName] has begun. We will forge our bright future alongside comrades from other American countries."
+
+### Andesia ideas ###
+ FOP_resistance_to_andesia_political: "Resistance to Andesia"
+ FOP_resistance_to_andesia_political_desc: "Despite liberating most of Hispanic America from their Bourgeois capitalist and neo-colonial corrupt governments, we have faced steep resistance from the local population. From the mountains of Chile to the jungles of Ecuador and all the way up to the oil fields of Venezuela the people of our new glorious state still deny their shared common 'Andesian' ancestry and identity and so have taken up armed resistance in hopes of fracturing our socialist utopia."
+ FOP_resistance_to_andesia_political_lingering: "Lingering Resistance to Andesia"
+ FOP_resistance_to_andesia_political_lingering_desc: "The government's economic and political measures to unite Andesia have weakened the resistance."
+ FOP_resistance_to_andesia_political_instability: "Political Instability in Andesia"
+ FOP_resistance_to_andesia_political_instability_desc: "Although the majority of the opposition has been subdued, there remains a period of political instability caused by the formation of Andesia. Enough time should pass before the government can operate properly."
+ FOP_resistance_to_andesia_economical: "Economical Chaos"
+ FOP_resistance_to_andesia_economical_lingering: "Merging the Economies Together"
+ FOP_andesian_red_army: "Andesian Red Army"
+ FOP_AND_federalised: "Federalised Andesia"
+ FOP_AND_unitary: "Unitary Andesia"
+
+### Andesia decisions ###
+
+ FOP_Andesian_formation_decisions: "The Andesia Project"
+ FOP_attack_country: "Invade [FROM.GetNameDef]"
+ FOP_integrate_country: "Integrate [FROM.GetNameDef]"
+ FOP_declare_Andesia: "Declare Andesia!"
+ FOP_declare_Andesia_desc: "Following the independence of the United States of America in 1776 and Haiti in 1804, the struggle for independence by the Hispanic American countries sparked a sense of unification, especially in South America where were cooperative efforts under Simón Bolvar in the north and José de San Martn in the south.\nThe decay of South American Pan-Americanism came with nationalism rising in the region. The Central American Federation disintegrated in 1838, Venezuela and Ecuador withdrew from Gran Colombia in 1830, Argentina and Brazil fought continuously over Uruguay, all three countries defeated Paraguay in the Paraguayan War (1865-1870), and Chile defeated Peru and Bolivia in the War of the Pacific.\n20th century, however, brings unification ideas back to life. With imperialist powers attempting to subjugate the South American nations via economic dominance, political influence and military force, [ROOT.GetLeader] feels that the only way for Hispanic America to defend itself against imperialism is by forging a united South-American front.\nA new entity, 'Andesia', is envisioned by [ROOT.GetLeader] as a state that will unite Hispanic South America from mountains of Chile to oil fields of Venezuela under communist banner, with himself as a leader guiding the united South America to its better future..."
+ FOP_AND_invade_target: "Liberate [FROM.GetName]"
+ FOP_AND_integrate_new_state: "Integrate [FROM.GetName]"
+
+### Andesia events ###
+ fop.499.t: "A question of Andesia"
+ fop.499.d: "Following the independence of the United States of America in 1776 and Haiti in 1804, the struggle for independence by the Hispanic American countries after 1810 sparked a sense of unification, especially in South America where there were cooperative efforts under Simón Bolvar in the north and José de San Martn in the south.\n\nThe decay of South American Pan-Americanism came in the 19th century with nationalism rising in the region. The Central American Federation disintegrated in 1838, Venezuela and Ecuador withdrew from Gran Colombia in 1830, Argentina and Brazil fought continuously over Uruguay, all three countries joined forces to defeat Paraguay in the Paraguayan War (1865-1870), and Chile defeated Peru and Bolivia in the War of the Pacific.\n\n20th century, however, brings Hispanoamericanist ideas back to life. With imperialist powers attempting to subjugate the South American nations via economic dominance, political influence and military force, [ROOT.GetLeader] feels that the only way for Hispanic America to defend itself against imperialism is by forging a united South-American front.\n\nA new entity, 'Andesia', is envisioned by [ROOT.GetLeader] as a state that will unite Hispanic South America from mountains of Chile to oil fields of Venezuela under communist banner, with himself as a leader guiding the united South America to its better future. Will we strive to achieve this utopia?"
+ fop.499.a: "Yes - time to unite South America!"
+ fop.499.b: "It is only a dream..."
+
+ fop.500.t: "Declaration of Andesia"
+ fop.500.d: "Today we celebrate the Andesia Declaration, which unifies all of Hispanic South America under one banner, from the highlands of Chile to the jungles of Ecuador, all the way up to Venezuela's oil fields! This astounding achievement was made possible by a series of wars, and today there is a parade in Buenos Aires with victorious Argentine troops marching across the city and saluting members of high command and, of course, Chairman Justo. From humiliated and starved revolt survivors to the hegemon of South America, it may sound like a fairy tale, but it has become a reality."
+ fop.500.a: "Long live Chairman Justo! Long live Andesia!"
+
+ fop.501.t: "The First Andesian Congress"
+ fop.501.d: "Members of socialist parties from all across Andesia have been invited to the First Andesian Congress in Buenos Aires. The four-week congress will determine the governmental organization of Andesia and create the basis for the state.\n\nThe main question for the Congress is to define the governing system. Chairman Justo's plan is to establish Andesia a unified country with no regional autonomy, although most socialist movement members prefer Andesia to be a federation. Justo will have more authority over Andesia under a unitary government, and he will encounter less opposition under a federal system. After several days of discussions, the Chairman's decision is:"
+ fop.501.a: "Federalism will ensure Andesia's stability!"
+ fop.501.b: "Unitary system is pushed by Justo."
+
 ### Army Tree ###
 
  FOP_the_revolutionary_army: "The Revolutionary Army"
@@ -345,7 +437,7 @@
  FOP_develop_new_bombers: "Develop New Bombers"
  FOP_develop_new_bombers_desc: "In the past, our enemies grew accustomed to bomb us with impunity. We were weaker back then, and now that we've grown stronger it's time that we returned the favour by developing our own bomber craft to support our war effort."
 
- FOP_expand_the_airforce_academy: "Expand the Airforce Academy"
+ FOP_expand_the_airforce_academy: "Expand the Air Force Academy"
  FOP_expand_the_airforce_academy_desc: "Our army has held a role of primacy as far as our military education goes. As such, we've been able to produce a far smaller amount of quality air officers than most of our peers. If we don't want to be outdone by the imperialists, we must devote more resources to improve their training."
 
  FOP_sink_their_ships: "Sink their Ships"
@@ -553,7 +645,16 @@
  FOP_commie_secret_police: "The CSE"
  FOP_suspended_constitution: "Restored Constitution"
  FOP_revolutionary_democracy: "Revolutionary Democracy Maintained"
- FOP_economic_support: "Argentinean Material Aid"
+ FOP_economic_support_1: "Argentinean Food Shipments"
+ FOP_economic_support_2: "Argentinean Limited Material Aid"
+ FOP_economic_support_3: "Argentinean Material Aid"
+ FOP_economic_support_4: "Argentinean Extensive Material Aid"
+ FOP_economic_support_idea_for_FOP: "Argentinean Material Aid for The Internationale"
+ FOP_economic_support_modifier_2_tt: "Industrial Factory Donations: §G2% of §YArgentinean§! Factories§!"
+ FOP_economic_support_modifier_3_tt: "Industrial Factory Donations: §G5% of §YArgentinean§! Factories§!"
+ FOP_economic_support_modifier_4_tt: "Industrial Factory Donations: §G10% of §YArgentinean§! Factories§!"
+ FOP_economic_aid_for_the_internationale_effect_1_tt: "§7Assist both §Y[ENG.GetNameWithFlag]§! and §Y[FRA.GetNameWithFlag]§! in their struggle against reactionaries with food supplies and material assistance. We are able to select, how much can we spare, starting from:§!"
+ FOP_economic_aid_for_the_internationale_effect_2_tt: "§7And scaling up to:§!"
  FOP_new_hierarchy: "New Socialist Hierarchy"
  FOP_breadbasket: "Revolutionary Breadbasket"
  FOP_militarized_labour: "Militarised Labour"
@@ -584,8 +685,6 @@
  FOP_illegitimate_republic: "Illegitimate Republic"
  FOP_revolutionary_training_idea: "Revolutionary Training"
  FOP_asymmetrical_warfare_idea: "Asymmetrical Warfare"
- FOP_resistance_to_andesia: "Resistance to Andesia"
- FOP_resistance_to_andesia_desc: "Despite liberating most of Hispanic America from their Bourgeois capitalist and neo-colonial corrupt governments, we have faced steep resistance from the local population. From the mountains of Chile to the jungles of Ecuador and all the way up to the oil fields of Venezuela the people of our new glorious state still deny their shared common "Andesian" ancestry and identity and so have taken up armed resistance in hopes of fracturing our socialist utopia."
  FOP_limited_trade: "Relief Supplies"
  FOP_construction_planning_idea: "Central Construction Agency"
  FOP_five_year_plan_idea: "The First Five Year Plan"
@@ -786,13 +885,13 @@
  fop.65.a: "Another victory for the revolution!"
 
  fop.100.t: "Request Support from the Native Populations"
- fop.100.d: "In our desperate search for manpower, we have largely ignored one of the ethnic makings of our nation: Its natives. While many native groups find themselves alienated from the workers movement given their general alienation from Argentine society, perhaps we can still draw some common ground against a government that has been disfavouring them for the last half a century, and maybe we could recruit their help as long as we promised to grant them some much needed autonomy once we are victorious."
+ fop.100.d: "In our desperate search for manpower, we have largely ignored a large source of manpower: the native peoples of Patagonia. While many native groups find themselves alienated from the workers' movement given their general alienation from Argentine society, perhaps we can still draw some common ground against a government that has been disfavouring them for the last half a century, and maybe we could recruit their help as long as we promise to grant them some much needed autonomy once we are victorious."
  fop.100.a: "Start consulting with their organisations and promise the Mapuche autonomy."
  fop.100.b: "Start consulting with their organisations but don't promise anything."
  fop.100.c: "Traditionalist natives are not part of the proletariat - we can win ourselves."
 
  fop.101.t: "The SCDdlA Pledges its Support"
- fop.101.d: "The Sociedad Caupolicán Defensora de la Araucanía, a political organisation made up by the Mapuche people and based in the Argentine-Chilean border, has agreed to send support for our cause. While we expected them to set some form of conditions, they have merely stated that they will set their demands once we are in a position to fulfil them. Whether that means they expect much or nothing at all from us, remains to be seen."
+ fop.101.d: "The Sociedad Caupolicán Defensora de la Araucanía, a political organisation made up by the Mapuche people and based in the Argentine-Chilean border, has agreed to send support for our cause. While we expected them to present a list of conditions, they have merely stated that they will set their demands once we are in a position to fulfil them. Whether that means they expect much or nothing at all from us, remains to be seen."
  fop.101.a: "Their support is nonetheless greatly appreciated."
 
  fop.102.t: "The SCDdlA has Refused to Provide Support"
@@ -800,7 +899,7 @@
  fop.102.a: "No choice, then. Let's hope they don't come back asking for favours later."
 
  fop.103.t: "The Corporación Araucana Requests Further Concessions"
- fop.103.d: "The Corporación Araucana, the new semblance of power amongst the Mapuches after the SCDdlA was dissolved, is demanding the favour they give us back when we were in need to be returned. Now led by Venancio Coñuepán Huenchal and Manuel Aburto Panguilef, they have asked for an expansion of native rights to full citizen status and the establishment of a series of reservoirs where they are able to carry on with their lives with a semblance of self governance without our direct intervention, as well as some small subsidies for their activities. While many point out that by granting these demands we would be healing the divide created by the previous regimes, there are also many detractors that point at the nearly reactionary traditionalist, identitarian, and borderline secessionist nature of the demands. With that in mind, should we truly grant them what they ask for? or should we reassert our authority to also apply the lessons of the revolution in their communities?"
+ fop.103.d: "The Corporación Araucana, the new semblance of power amongst the Mapuches after the SCDdlA was dissolved, is demanding the favour they give us back when we were in need to be returned. Now led by Venancio Coñuepán Huenchal and Manuel Aburto Panguilef, they have asked for an expansion of native rights to full citizen status and the establishment of a series of reservoirs where they are able to carry on with their lives with a semblance of self governance without our direct intervention, as well as some small subsidies for their activities. While many point out that by granting these demands we would be healing the divide created by the previous regimes and that they'll see the benefits of the revolution eventually, there are also many detractors that point at the nearly reactionary traditionalist, identitarian, and borderline secessionist nature of the demands. With that in mind, should we truly grant them what they ask for or should we reassert our authority to also apply the lessons of the revolution in their communities?"
  fop.103.a: "We shall grant their wishes."
  fop.103.b: "Reactionaries won't be allowed, native or otherwise."
 
@@ -1148,6 +1247,29 @@
  fop.357.d: "With the resources we sent the Patagonians previously, they now believe they will be able to float their first submarines and begin field trials. They're now asking us to send some advisors to help guide the vessels better and to instruct their officers on proper procedure."
  fop.357.a: "Of course, anything for friends."
 
+ fop.400.t: "Support The Internationale"
+ fop.400.d: "With Argentina unified and our regime stabilized, it is time to repay our debts to our European comrades. A new World War is deciding the fate of the European Revolution, and our allies badly need food, resources, and industry to succeed. [ENG.GetAdjective] and [FRA.GetAdjective] ambassadors continue to ask for economic assistance - what can we spare?"
+ fop.400.a: "Limited food supplies - we can't spare more resources."
+ fop.400.b: "Food supplies and limited material assistance."
+ fop.400.c: "Food shipments, as well as extended material assistance."
+ fop.400.e: "Everything we can scratch."
+
+ fop.401.t: "[FOP.GetName] Provides Food Shipments"
+ fop.401.d: "A new World War is deciding the fate of the European Revolution, and [FOP.GetAdjective] comrades decided to assist our struggle with food shipments. The convoys from Buenos Aires will ensure our people are fed."
+ fop.401.a: "Thanks."
+
+ fop.402.t: "[FOP.GetName] Provides Food Shipments and Limited Material Assistance"
+ fop.402.d: "A new World War is deciding the fate of the European Revolution, and [FOP.GetAdjective] comrades decided to assist our struggle with food shipments and limited material assistance. The convoys from Buenos Aires will ensure our people are fed, and [FOP.GetAdjective] products will ease the hardship of the wartime."
+ fop.402.a: "Thanks comrades!"
+
+ fop.403.t: "[FOP.GetName] Provides Food Shipments and Material Assistance"
+ fop.403.d: "A new World War is deciding the fate of the European Revolution, and [FOP.GetAdjective] comrades decided to help us with a wide variety of products, including food, consumer goods and machinery. The shipments from Buenos Aires will greatly assist our economy during the wartime."
+ fop.403.a: "Thanks comrades!"
+
+ fop.404.t: "[FOP.GetName] Provides Extended Economic Assistance"
+ fop.404.d: "A new World War is deciding the fate of the European Revolution, and [FOP.GetAdjective] comrades have answered our requests, promising to provide everything they can, including food, consumer goods and machinery. The shipments from Buenos Aires will greatly assist our economy during the wartime."
+ fop.404.a: "Thanks comrades - we will never forget your assistance!"
+
 ### Totalist Coup Chain ###
 
  fopcoup.001.t: "The Battle of Buenos Aires"
@@ -1435,11 +1557,6 @@
  FOP_economic_crisis_2: "Rebuild the Cities"
  FOP_economic_crisis_3: "Rebuild the Industrial Centers"
  FOP_economic_crisis_4: "Collectivise the Countryside"
-
- FOP_Andesian_formation_decisions: "The Andesia Project"
- FOP_attack_country: "Invade [FROM.GetNameDef]"
- FOP_integrate_country: "Integrate [FROM.GetNameDef]"
- FOP_declare_Andesia: "Declare Andesia!"
 
  FOP_strike_reactionaries_decisions: "Strike the Reactionaries!"
  FOP_strike_reactionary_country: "Strike [FROM.GetNameDef]!"
