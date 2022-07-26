@@ -1,11 +1,38 @@
 ﻿l_french:
 
 ### Opening Event ###
- kr.political.1.t: "Kaiserreich Beta 0.21.2"
- kr.political.1.d: "L'équipe de Kaiserreich est fière de vous présenter la version bêta 0.21.2 de Kaiserreich pour Hearts of Iron 4.\n\nNotre équipe a travaillé dur dans tous les coins du monde pour vous présenter cette nouvelle version et nous ne pourrions pas être plus honorés que vous choisissiez d'y jouer.\n\nNous vous prions de bien vouloir noter ce qui suit :\n\n- Le mod est conçu avec l'hypothèse que le joueur annexera toujours tous les états possibles dans les traités de paix, donc assurez-vous de faire cela\n\n- Vous pouvez changer la fréquence des événements de nouvelles en basculant l'icône en haut de l'onglet décisions\n\n- Vous pouvez sélectionner quel système de nommage des états et des points de victoire utiliser en basculant l'icône remplaçant le menu des succès en haut à droite\n\n- Rappelez-vous que ce mod est toujours en Bêta, donc des bogues et des plantages sont malheureusement possibles ! Si vous rencontrez l'un ou l'autre, les signaler sur notre gestionnaire de problèmes (issues) sur GitHub est d'une grande aide et permettra de les corriger plus rapidement !\n\nNous espérons que vous aurez autant de plaisir à jouer à Kaiserreich que nous en avons eu à le créer !"
+ kr.political.1.t: "Kaiserreich Beta 0.21.3"
+ kr.political.1.d: "L'équipe de Kaiserreich est fière de vous présenter la version bêta 0.21.3 de Kaiserreich pour Hearts of Iron 4.\n\nNotre équipe a travaillé dur dans tous les coins du monde pour vous présenter cette nouvelle version et nous ne pourrions pas être plus honorés que vous choisissiez d'y jouer.\n\nNous vous prions de bien vouloir noter ce qui suit :\n\n- Le mod est conçu avec l'hypothèse que le joueur annexera toujours tous les états possibles dans les traités de paix, donc assurez-vous de faire cela\n\n- Vous pouvez changer la fréquence des événements de nouvelles en basculant l'icône en haut de l'onglet décisions\n\n- Vous pouvez sélectionner quel système de nommage des états et des points de victoire utiliser en basculant l'icône remplaçant le menu des succès en haut à droite\n\n- Rappelez-vous que ce mod est toujours en Bêta, donc des bogues et des plantages sont malheureusement possibles ! Si vous rencontrez l'un ou l'autre, les signaler sur notre gestionnaire de problèmes (issues) sur GitHub est d'une grande aide et permettra de les corriger plus rapidement !\n\nNous espérons que vous aurez autant de plaisir à jouer à Kaiserreich que nous en avons eu à le créer !"
  kr.political.1.a: "Je suis sûr que je le ferai !"
 
-### Generic Triggered Events ####
+### Generic Faction Joining ###
+ kr.political.10.t: "Une Alliance avec [FROM.GetNonIdeologyNameDef] ?"
+ kr.political.10.d: "Ses affaires internes étant réglées, il semble que [FROM.GetNameDefCap] se tourne maintenant vers l'extérieur et souhaite rejoindre l'alliance [ROOT.GetFactionName]. Devons-nous les accepter ?"
+ kr.political.10.a: "Plus forts ensemble !"
+ kr.political.10.b: "À la réflexion, non..."
+
+ kr.political.11.t: "[From.GetNonIdeologyNameDefCap] a accepté !"
+ kr.political.11.d: "Il est temps de se réjouir ! [From.GetNameDefCap] a accepté notre demande de rejoindre le [ROOT.GetFactionName], comme nous l'espérions tant !"
+ kr.political.11.a: "Excellent !"
+
+ kr.political.12.t: "[From.GetNonIdeologyNameDefCap] a refusé !"
+ kr.political.12.d: "A notre grand dam, [From.GetNameDef] a refusé notre demande de rejoindre le [ROOT.GetFactionName]."
+ kr.political.12.a: "Leur perte."
+
+ kr.political.13.t: "Une Alliance avec [FROM.GetNonIdeologyNameDef]?"
+ kr.political.13.d: "Une tournure d'événements surprenante - il semble que [FROM.GetNameDef] soit à la recherche d'alliés, et nous a donc invités à rejoindre le [FROM.GetFactionName]. Devons-nous accepter ?"
+ kr.political.13.a: "Plus forts ensemble !"
+ kr.political.13.b: "À la réflexion, non..."
+
+ kr.political.14.t: "[From.GetNonIdeologyNameDefCap] a accepté !"
+ kr.political.14.d: "Il est temps de se réjouir ! Comme nous l'espérions, [From.GetNameDefCap] a accepté notre invitation à rejoindre le [ROOT.GetFactionName] !"
+ kr.political.14.a: "Excellent !"
+
+ kr.political.15.t: "[From.GetNonIdeologyNameDefCap] a refusé !"
+ kr.political.15.d: "À notre grand dam, [From.GetNameDef] a rejeté notre invitation à rejoindre le [ROOT.GetFactionName]."
+ kr.political.15.a: "Leur perte."
+
+### Incoming War-ning ###
  kr.political.30.t: "Se préparer à la guerre!"
  kr.political.30.d: "Nous avons reçu de nombreuses informations selon lesquelles les troupes [FROM.GetAdjective] se rassemblent actuellement et qu'une grande partie de la reconnaissance a lieu de l'autre côté de la frontière [Root.GetAdjective]. Les responsables militaires disent qu'il est clair que [From.GetNameDef] planifie une invasion de [Root.GetNameDef], qui pourrait commencer à tout moment dans les prochaines semaines."
  kr.political.30.a: "Nous devons nous préparer !"
@@ -91,7 +118,7 @@ has_scripted_peace_desc: "Le pays est en guerre et est déterminé à remporter 
  unit_limit_subject_bonus: "Ajout d'une Limite de Division pour le maître"
 
  unit_limit_label: "§HDivisions maximales soutenues§!"
- unit_limit_desc: "Chaque pays n'a la capacité de soutenir qu'un certain nombre de divisions militaires individuelles avant que son économie et ses infrastructures n'aient du mal à les maintenir.\n\nLe nombre maximum d'unités soutenues est basé sur la population totale du pays et les états possédés, puis est multiplié par le niveau global d'industrialisation du pays. [unit_limit_civil_war]\n\n§L - Base de la Population Totale : [?base_population|G0][unit_limit_noncore_population][unit_limit_crownland_population_bonus]\n   - Base des États Possédés : [?base_states|G0] [unit_limit_crownland_state_bonus]\n   - Base Totale : [?base_units|G0]\n\n   - Modificateur d'Industrialisation : [?industry_factor|H%] [unit_limit_modifier_was_capped] [unit_limit_extra_modifier_line_break] [unit_limit_faction_leader] [unit_limit_economy_law] [unit_limit_was_capped] [unit_limit_lower_limit_used] [unit_limit_upper_limit_used] [unit_limit_bonus_used].\n\n   TOTAL FINAL : [?max_divisions|H0]\n\nVeuillez noter qu'il faut compter jusqu'à une semaine de jeu pour que les modifications apportées aux éléments ci-dessus soient prises en compte dans le calcul.§! [above_unit_limit_desc]"
+ unit_limit_desc: "Chaque pays n'a la capacité de soutenir qu'un certain nombre de divisions militaires individuelles avant que son économie et ses infrastructures n'aient du mal à les maintenir.\n\nLe nombre maximum d'unités soutenues est basé sur la population totale et les états possédés du pays, et est ensuite multiplié par le niveau global d'industrialisation du pays. [unit_limit_civil_war]\n\n§L - Base de la population totale : [?base_population|G0][unit_limit_noncore_population] [unit_limit_subject_population_bonus]\n - Base des États possédés : [?base_states|G1][unit_limit_subject_state_bonus]\n - Base totale : [?base_units|G1]\n\n - Modificateur d'industrialisation : [?industry_factor_uncapped|H%][unit_limit_modifier_was_capped][unit_limit_extra_modifier_line_break][unit_limit_faction_leader][unit_limit_economy_law][unit_limit_was_capped][unit_limit_lower_limit_used][unit_limit_bonus_used]\n\n TOTAL FINAL : [ ? max_divisions|H1]\n\nVeuillez noter que les modifications apportées aux éléments ci-dessus prennent jusqu'à une semaine en jeu avant d'être prises en compte dans le calcul.§![above_unit_limit_desc]"
 
  unit_limit_desc_fake_intel: "(§HLes fausses divisions du renseignement§! ne comptent pas dans la limite de divisions)"
 
@@ -114,27 +141,49 @@ has_scripted_peace_desc: "Le pays est en guerre et est déterminé à remporter 
  unit_limit_tot_economic_mobilisation: "\n   - §H$Mobilisation Totale$§! : [?modifier@unit_limit_factory_bonus|+=%0]"
 
 ### Tooltips ###
- KR_improving_stability: "Déjà en train de renforcer la stabilité"
- KR_improving_popularity: "Déjà en train de développer la popularité du parti"
- KR_party_pop_less_than_50: "Moins de §Y50%§! de popularité du parti"
- KR_party_pop_more_than_75: "Plus de §Y75%§! de popularité du parti"
+ KR_party_pop_less_than_100: "Moins de §Y100%§! de soutien pour [Root.GetRulingParty]."
  is_ally_of_ROOT: "Est un allié de [ROOT.GetNameDef]"
  has_coalition_with: "Est en coalisation avec §H[?coalition_partner_to_check.GetTokenLocalizedKey]§!"
 
 ### Decisions ###
- #political_actions: "Political Actions" duplicate
- legislate_more_freedoms: "Légiférer sur les libertés"
- legislate_more_freedoms_desc: "La façon la plus simple d'améliorer la stabilité de notre pays est peut-être de donner aux gens ce qu'ils veulent. Cela impliquera des compromis inconfortables, mais idéalement, il s'agit de mesures qui ne sont que temporaires et conçues pour les apaiser jusqu'à ce que l'ordre puisse être rétabli comme il se doit"
- police_crackdown: "Répression policière"
- police_crackdown_desc: "Le désordre est devenu endémique. Nous devons assouplir les restrictions imposées à nos forces de police et leur donner la liberté de faire leur travail en arrêtant les pires des auteurs"
- send_in_the_army: "Envoyez l'armée"
- send_in_the_army_desc: "Pour faire face au désordre dans notre pays, il faut envoyer l'armée et l'éliminer complètement. Tout le monde n'en sera pas heureux, c'est vrai, mais parfois la loi martiale est la seule alternative"
+ generic_raise_stability: "[generic_raise_stability_text]"
+ generic_raise_stability_desc: "[generic_raise_stability_desc_text]"
+
+ generic_raise_stability_socialist: "Amélioration de la condition ouvrière"
+ generic_raise_stability_socialist_desc: "Le travail dans les usines est difficile et dangereux. Y améliorer les conditions de travail réduirait la productivité sur le court terme, mais les avantages à long terme en valent la peine."
+
+ generic_raise_stability_liberal: "Légiférer sur les Libertés"
+ generic_raise_stability_liberal_desc: "La façon la plus simple d'améliorer la stabilité de notre pays est peut-être de donner aux gens ce qu'ils veulent. Cela impliquera des compromis inconfortables, mais idéalement, il s'agit de mesures qui ne sont que temporaires et conçues pour les apaiser jusqu'à ce que l'ordre puisse être rétabli comme il se doit"
+
+ generic_raise_stability_conservative: "Répression policière"
+ generic_raise_stability_conservative_desc: "Le désordre est devenu endémique. Nous devons assouplir les restrictions imposées à nos forces de police et leur donner la liberté de faire leur travail en arrêtant les pires des auteurs"
+
+ generic_raise_stability_authoritarian: "Envoyer l'Armée"
+ generic_raise_stability_authoritarian_desc: "Pour faire face au désordre dans notre pays, il faut envoyer l'armée et l'éliminer complètement. Tout le monde n'en sera pas heureux, c'est vrai, mais parfois la loi martiale est la seule alternative"
+
+ generic_raise_support: "[generic_raise_support_text]"
+ generic_raise_support_desc: "[generic_raise_support_desc_text]"
+
  rally_public_support: "Ralliement du soutien public"
  rally_public_support_desc: "Avec un certain pouvoir politique et un certain soutien industriel, nous rallierons nos partisans à notre cause. Cela prendra du temps et des ressources, mais à long terme, cela améliorera notre position politique"
+
  solidify_control: "Solidifier le contrôle"
  solidify_control_desc: "Un peu de tact dans l'utilisation du pouvoir politique ici et là, quelques ressources et nous supprimerons nos obstacles politiques ; nous ne pourrons peut-être pas nous débarrasser de tous ces obstacles, mais même en éliminer certains nous éclaireront la voie et amélioreront notre pouvoir politique à la longue"
+
+ hidden_raise_support_totalist: "£decision_icon_small Solidifier le Contrôle"
+ hidden_raise_support_syndicalist: "£decision_icon_small Rallier le Soutien Public"
+ hidden_raise_support_radical_socialist: "£decision_icon_small Rallier le Soutien Public"
+ hidden_raise_support_social_democrat: "£decision_icon_small Rallier le Soutien Public"
+ hidden_raise_support_social_liberal: "£decision_icon_small Rallier le Soutien Public"
+ hidden_raise_support_market_liberal: "£decision_icon_small Rallier le Soutien Public"
+ hidden_raise_support_social_conservative: "£decision_icon_small Rallier le Soutien Public"
+ hidden_raise_support_authoritarian_democrat: "£decision_icon_small Solidifier le Contrôle"
+ hidden_raise_support_paternal_autocrat: "£decision_icon_small Solidifier le Contrôle"
+ hidden_raise_support_national_populist: "£decision_icon_small Solidifier le Contrôle"
+
  restructure_supply_system: "Réorganiser le Système Ferroviaire"
  restructure_supply_system_desc: "En réorientant les matériaux de construction et les cheminots, nous pouvons rapidement créer un petit nombre de dépôts d'approvisionnement improvisés le long de certains de nos chemins de fer. Mais cette solution n'est pas durable.\n\n§RCette décision ne peut être prise qu'une seule fois. Le bonus disparaîtra si vous construisez plus de 3 centres de ravitaillement supplémentaires.§!"
+
  seize_some_trains_woo: "Réquisitionner les Trains Civils"
  seize_some_trains_woo_desc: "Avec la guerre qui se profile, nous avons le droit de réquisitionner des moteurs et du matériel roulant pour l'État."
 
@@ -179,14 +228,14 @@ national_populist_noun: "National-Populisme"
 
 ### Ideology Grouping ###
 kr_government_grouping: "Groupe d'idéologie"
-totalist_desc: "Révolutionnaire"
-syndicalist_desc: "Révolutionnaire"
-radical_socialist_desc: "Révolutionnaire"
+ totalist_desc: "Socialiste"
+ syndicalist_desc: "Socialiste"
+ radical_socialist_desc: "Socialiste"
 social_democrat_desc: "Libéral"
 social_liberal_desc: "Libéral"
 market_liberal_desc: "Libéral"
-social_conservative_desc: "Libéral"
-authoritarian_democrat_desc: "Réactionnaire"
+ social_conservative_desc: "Conservateur"
+ authoritarian_democrat_desc: "Conservateur"
 paternal_autocrat_desc: "Réactionnaire"
 national_populist_desc: "Réactionnaire"
 
@@ -213,3 +262,14 @@ national_populist_subtype_desc: "Englobant une variété de mouvements ultra-nat
  authoritarian_democrat_drift: "Soutien quotidien Démocrate Autoritaire"
  paternal_autocrat_drift: "Soutien quotidien Autocrate Paternel"
  national_populist_drift: "Soutien quotidien National-Populiste"
+
+ totalist_acceptance: "Acceptation de la Diplomatie Totaliste"
+ syndicalist_acceptance: "Acceptation de la Diplomatie Syndicaliste"
+ radical_socialist_acceptance: "Acceptation de la Diplomatie Radicale Socialiste"
+ social_democrat_acceptance: "Acceptation de la Diplomatie Sociale-Démocrate"
+ social_liberal_acceptance: "Acceptation de la Diplomatie Sociale Libérale"
+ market_liberal_acceptance: "Acceptation de la Diplomatie Libérale de Marché"
+ social_conservative_acceptance: "Acceptation de la Diplomatie Sociale Conservatrice"
+ authoritarian_democrat_acceptance: "Acceptation de la Diplomatie Démocratie Autoritaire"
+ paternal_autocrat_acceptance: "Acceptation de la Diplomatie Autocratique Paternelle"
+ national_populist_acceptance: "Acceptation de la Diplomatie Nationale Populiste"

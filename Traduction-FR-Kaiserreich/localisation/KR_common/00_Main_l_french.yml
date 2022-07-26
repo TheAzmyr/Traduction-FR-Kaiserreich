@@ -10,7 +10,7 @@
 
 ### Splash Screen Credits ###
 KR_SPLASH_TITLE: "Bienvenue dans Kaiserreich"
-KR_SPLASH_CREDITS: "§YCréé par l'équipe KR4 :§!\nAdrianator2, Alpinia, Arvidus, Asratius, Augenis, Blackfalcon501, Carmain, Chazem, Conchobhar, DSFDarker, DuoDex, El Daddy, Flamefang, Gaboemi, Gideones, Hamfast, Ido, Igor050301, JazzyHugh, Jeankedezeehond, Jonny BL, Juliet Wehrwolf, KFateweaver, Kennedy, kergely, Klyntar King, Krčo, Luwofe, Matoro, McOmghall, ~mw~ // miwaco., NukeGaming, OperationsManagementDecisions, Owenomaly, PPsyrius, Pelmen, Purple Jinjo, RagnoStrangeros, Rei!, Retrocognition, Rnk, Rylock, Shiroe, Sonny O'Cad, Story, suzuha, The Alpha Dog, The Irredentista, The Italian Jojo, Vidyaország, Zimbabwe Salt Co.\n§YTraduit par : §!Hellh, Mouchi et UltraNico\n§YAnciennement traduit par : §!Aegon Targaryen, Brakmar, Darkusios, Demetran, Fanois, Feuxin, Grikke, Kfateweaver, Kira, Klik le Araï, Lazu, Le Marocain, MVMaroIV, Nobelo81, Orakle14, Paralux, Remkiller123, Romain1912, Rosak, Solal, Superwaffle, TheAzmyr, Vitulus, Youkoulélé et Zeplein"
+KR_SPLASH_CREDITS: "§YCréé par l'équipe KR4 :§!\nAdrianator2, Alpinia, Arvidus, Asratius, Augenis, Blackfalcon501, Carmain, Chazem, Conchobhar, DSFDarker, DuoDex, El Daddy, Flamefang, Gaboemi, Gideones, Hamfast, Ido, Igor050301, JazzyHugh, Jeankedezeehond, Jonny BL, Juliet Wehrwolf, KFateweaver, Kennedy, kergely, Klyntar King, Krčo, Luwofe, Matoro, McOmghall, ~mw~ // miwaco., NukeGaming, OperationsManagementDecisions, Owenomaly, PPsyrius, Pelmen, Purple Jinjo, RagnoStrangeros, Rei!, Retrocognition, Rnk, Shiroe, Sonny O'Cad, Story, suzuha, The Alpha Dog, The Irredentista, The Italian Jojo, Vidyaország, Zimbabwe Salt Co.\n§YTraduit par : §!Hellh, Mouchi et UltraNico\n§YAnciennement traduit par : §!Aegon Targaryen, Brakmar, Darkusios, Demetran, Fanois, Feuxin, Grikke, Kfateweaver, Kira, Klik le Araï, Lazu, Le Marocain, MVMaroIV, Nobelo81, Orakle14, Paralux, Remkiller123, Romain1912, Rosak, Solal, Superwaffle, TheAzmyr, Vitulus, Youkoulélé et Zeplein"
 
 ### Diplomacy Tooltips ###
 REQUEST_EXP_FORCE_BLOCKED_TT: "§RCe pays ne vous permet pas de demander ses forces.§!"
@@ -186,6 +186,22 @@ compliance_integration: "Intégration"
  second_in_command_slot: "Commandant en Second"
  second_in_command: "Commandant en Second"
 
+### Character Tooltips ###
+ character_is_dead: "Est décédé"
+ character_is_dead_NOT: "N'est pas décédé"
+
+ is_second_in_command: "Est le commandant en second"
+ is_second_in_command_NOT: "N'est pas le commandant en second"
+
+ has_free_political_advisor_slot: "Au moins un poste de conseiller politique vide"
+ has_free_political_advisor_slot_NOT: "Aucun poste vide de conseiller politique"
+
+ has_two_political_advisors: "Au moins §Ydeux§! cconseillers politiques engagés"
+ has_two_political_advisors_NOT: "Moins de §Ydeux§! cconseillers politiques engagés"
+
+ has_any_political_advisor: "A engagé au moins un conseiller politique"
+ has_any_political_advisor_NOT: "N'a pas de conseillers politiques engagés"
+
 #empty - should be hidden
  second_in_command_trait: "   "
 
@@ -348,20 +364,15 @@ command_economy: "Economie de commande"
 
 ### General ###
 fighter_techs: "Technologie des chasseurs"
-fighter_techs_research: "Temps de recherche des techniques des chasseurs"
 cat_strategic_destruction: "Technologie de Destruction Stratégique"
-marine_tech_research: " Temps de recherche technologique des Marines"
 early_fighter: "Combattant d'entre-deux-guerres"
 signal_company_tech: "compagnie de transmission"
 maintenance_company_tech: "Compagnie de maintenance"
  cat_line_artillery: "Artillerie de Ligne"
- cat_light_armor_research: "Vitesse de recherche des blindés léger"
 cat_light_spg: "Canon automoteurs légers"
 cat_medium_spg: "Fusils automoteurs moyens"
  cat_heavy_spg: "Armes lourdes automotrices"
  tank_destroyer_tech: "Chasseurs de Char"
- excavation_tech_research: "Vitesse de recherche des technologies d'excavation"
- construction_tech_research: "Vitesse de Recherche de Construction"
 cat_gunnery: "Artillerie navale"
 cr_tech: "Modèles de croiseurs"
  acr_tech: "Modèles de croiseurs blindés"
@@ -371,6 +382,12 @@ cat_torpedo: "Technologie des torpilles"
  capital_ship_tree: "Opérations de Navires Capitaux"
  cat_armored_car: "Voitures Blindées"
  cat_special_units: "Unités Spéciales"
+
+ fighter_techs_research: "Vitesse de recherche technologique des Chasseurs"
+ marine_tech_research: " Vitesse de recherche technologique des Marines"
+ cat_light_armor_research: "Vitesse de recherche des Blindés Légers"
+ excavation_tech_research: "Vitesse de recherche technologique d'Excavation"
+ construction_tech_research: "Vitesse de Recherche de Construction"
 
  early_ship_hull_light: "$ship_hull_light_1$"
  basic_ship_hull_light: "$ship_hull_light_2$"
