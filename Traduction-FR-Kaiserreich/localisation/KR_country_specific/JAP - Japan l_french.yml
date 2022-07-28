@@ -398,10 +398,9 @@ mil_choose_neither: "§GNous ne soutenons aucun général et nous avancerons san
 mil_choose_neither_warning: "§Une mobilisation de masse de cette nature peut avoir des conséquences négatives...§!\n"
 mil_choose_Nagata: "§GNous soutenons Nagata et avancerons sous sa direction.§!\n"
 mil_choose_Obata: "§GNous soutenons Obata et avancerons sous sa direction.§!\n"
- JAP_DESPERATION_OOB: "§GNous allons mobiliser les divisions d'urgence !§!"
  NAT_COMPANY_WARNING: "Un tel programme de nationalisation §Rverrouillera§! les entreprises suivantes :\n§Y$nissan$\n$mitsubishi$\n$kr_nakajima$\n$kawasaki$\n$sumitomo$\n$nichitsu$\n$Mitsui_Zaibatsu$§!\n"
  ZAI_BRIBE_WARNING: "§RLes Zaibatsu, bien qu'utiles par moments, ont également été impliqués dans de nombreux cas de corruption. Nous devons être prudents lorsque nous traitons avec eux.§!"
- JAP_upgrade_zaibatsu_tt: "Certaines entreprises seront §Gaméliorées§! :\nModifie §H$mitsubishi$§! par\nCoût : £GFX_pol_power  [?-100|=-0]\nVitesse de Recherche de l'Air: [?0.05|+=%]\n$MODIFIER_INDUSTRIAL_CAPACITY_FACTOR$: [?0.05|+=%]\n\nModifie §H$Mitsui_Zaibatsu$§! par\nCoût : £GFX_pol_power  [?-100|=-0]\n$industry_research$: [?0.05|+=%]\n$modifier_production_speed_industrial_complex_factor$: [?0.15|+=%]\n$modifier_production_speed_arms_factory_factor$: [?0.15|+=%]\n\nModifie §H$sumitomo$§! par\nCoût : £GFX_pol_power  [?-100|=-0]\n$MODIFIER_CONSUMER_GOODS_FACTOR$: [?-0.05|Y=%0]"
+ JAP_upgrade_zaibatsu_tt:9 "Certaines entreprises seront §Gaméliorées§! :\nModifie §H$mitsubishi$§! par\nCoût : £GFX_pol_power  [?-100|=-0]\nVitesse de Recherche de l'Air: [?0.05|+=%]\n$MODIFIER_INDUSTRIAL_CAPACITY_FACTOR$: [?0.05|+=%]\n\nModifie §H$Mitsui_Zaibatsu$§! par\nCoût : £GFX_pol_power  [?-100|=-0]\n$industry_research$: [?0.05|+=%]\n$modifier_production_speed_industrial_complex_factor$: [?0.15|+=%]\n$modifier_production_speed_arms_factory_factor$: [?0.15|+=%]\n\nModifie §H$sumitomo$§! par\nCoût : £GFX_pol_power  [?-100|=-0]\n$MODIFIER_CONSUMER_GOODS_FACTOR$: [?-0.05|Y=%0]"
  JAP_Unlock_Land_Reform: "Un certain nombre de £decision_icon_small §Hdecisions§! seront débloqués en traitant la question de la réforme agraire."
 JAP_land_reform_in_progress: "Réforme agraire en cours"
 JAP_land_reform_idea: "\nAvec nos progrès actuels de §Hla réforme agraire§! nous obtiendrons ce résultat :\n"
@@ -484,12 +483,14 @@ JAP_alliance_tt: "En choisissant ce thème, toutes les nations qui se sont align
  JAP_korea_garrison_factor_tt: "$MODIFIER_REQUIRED_GARRISON_FACTOR$: $RIGHT|-=%0$"
  JAP_korea_manpower_tt: "$MODIFIER_LOCAL_MANPOWER$: $RIGHT|+=%0$"
  JAP_korean_autonomy: "A accepté avec succès l'autonomie §HChōsen§!"
+ JAP_koreans_strongly_oppose:9 "§oLa délégation Chōsen va sortir !§!"
+ JAP_koreans_dont_like:9 "§RLa délégation Chōsen ne va pas aimer ça.§!"
 
  JAP_ichigo_tooltip: "Gagne \"§H$JAP_ichigo$§!\" qui donne (Bonus d'Attaque contre §Htous les pays Chinois§!: [?0.1|+=%1], Bonus de Défense contre §Htous les pays Chinois§!: [?0.05|+=%1]) pour §H100§! jours."
 
 ### Fixing a vanilla bug
- JAP_nav_mass_bug: "Modifie §HConstruction Navale Modulaire§! par\n§HSous-marin§! : $STAT_COMMON_BUILD_COST_IC$[?-0.1|-=%]\nVisibilité de Surface :  [?+0.05|-=%]\nVisibilité Sous-marine:  [?+0.05|-=%]\n§HDestroyer§! : $STAT_COMMON_BUILD_COST_IC$[?-0.1|-=%]\nAttaque Légère :  [?-0.05|+=%]\nCharges de Profondeur :  [?-0.05|+=%]\n§HCroiseur§! : $STAT_COMMON_BUILD_COST_IC$[?-0.1|-=%]\nBlindage :  [?-0.1|+=%]\nAttaque Légère :  [?-0.1|+=%]\nAttaque Lourde :  [?-0.1|+=%]\nCharges de Profondeur :  [?-0.1|+=%]\n§H[AC,BB,DN] Lourd§!: $STAT_COMMON_BUILD_COST_IC$[?-0.1|-=%]\nBlindage :  [?-0.1|+=%]\nAttaque Légère :  [?-0.1|+=%]\nAttaque Lourde :  [?-0.1|+=%]\n§HPorte-Avions§!: $STAT_COMMON_BUILD_COST_IC$[?-0.1|-=%]\nBlindage :  [?-0.1|+=%]\nEspace de Pont :  [?-0.1|+=%]"
- JAP_nav_qual_bug: "Modifie §HIngénierie Supérieure§! par\n§HSous-marin§! : $STAT_COMMON_BUILD_COST_IC$[?+0.1|-=%]\nVisibilité de Surface :  [?-0.05|-=%]\nVisibilité Sous-marine:  [?-0.05|-=%]\n§HDestroyer§! : $STAT_COMMON_BUILD_COST_IC$[?+0.1|-=%]\nAttaque Légère :  [?+0.1|+=%]\nCharges de Profondeur :  [?+0.1|+=%]\n§HCroiseur§! : $STAT_COMMON_BUILD_COST_IC$[?+0.1|-=%]\nBlindage :  [?+0.05|+=%]\nAttaque Légère :  [?+0.1|+=%]\nAttaque Lourde :  [?+0.1|+=%]\nCharges de Profondeur :  [?+0.1|+=%]\n§H[AC,BB,DN] Lourd§!: $STAT_COMMON_BUILD_COST_IC$[?+0.1|-=%]\nBlindage :  [?+0.1|+=%]\nAttaque Légère :  [?+0.1|+=%]\nAttaque Lourde :  [?+0.1|+=%]\n§HPorte-Avions§!: $STAT_COMMON_BUILD_COST_IC$[?+0.1|-=%]\nBlindage :  [?+0.05|+=%]\nEspace de Pont :  [?+0.05|+=%]"
+ JAP_nav_mass_bug:9 "Modifie §HConstruction Navale Modulaire§! par\n§H$ship_hull_submarine$§! : $STAT_COMMON_BUILD_COST_IC$[?-0.1|-=%]\nVisibilité de Surface :  [?+0.05|-=%]\nVisibilité Sous-Marine :  [?+0.05|-=%]\n§H$ship_hull_light$§! : $STAT_COMMON_BUILD_COST_IC$[?-0.1|-=%]\nLight Attack:  [?-0.05|+=%]\nDepth Charges:  [?-0.05|+=%]\n§H$ship_hull_cruiser$§!: $STAT_COMMON_BUILD_COST_IC$[?-0.1|-=%]\nBlindage :  [?-0.1|+=%]\nAttaque Légère :  [?-0.1|+=%]\nAttaque Lourde :  [?-0.1|+=%]\nCharges Profondes :  [?-0.1|+=%]\n§H$ship_hull_heavy$§! : $STAT_COMMON_BUILD_COST_IC$[?-0.1|-=%]\nBlindage :  [?-0.1|+=%]\nAttaque Légère :  [?-0.1|+=%]\nAttaque Lourde :  [?-0.1|+=%]\n§H$ship_hull_carrier$§! : $STAT_COMMON_BUILD_COST_IC$[?-0.1|-=%]\nBlindage :  [?-0.1|+=%]\nEspace sur le Pont :  [?-0.1|+=%]"
+ JAP_nav_qual_bug:9 "Modifie §HIngénierie Supérieure§! par\n§H$ship_hull_submarine$§ !: $STAT_COMMON_BUILD_COST_IC$[?+0.1|-=%]\nVisibilité de Surface :  [?-0.05|-=%]\nVisibilité Sous-Marine :  [?-0.05|-=%]\n§H$ship_hull_light$§! : $STAT_COMMON_BUILD_COST_IC$[?+0.1|-=%]\nLight Attack:  [?+0.1|+=%]\nDepth Charges:  [?+0.1|+=%]\n§H$ship_hull_cruiser$§!: $STAT_COMMON_BUILD_COST_IC$[?+0.1|-=%]\nBlindage :  [?+0.05|+=%]\nAttaque Légère :  [?+0.1|+=%]\nAttaque Lourde :  [?+0.1|+=%]\nCharges Profondes :  [?+0.1|+=%]\n§H$ship_hull_heavy$§! : $STAT_COMMON_BUILD_COST_IC$[?+0.1|-=%]\nBlindage:  [?+0.1|+=%]\nAttaque Légère :  [?+0.1|+=%]\nAttaque Lourde :  [?+0.1|+=%]\n§H$ship_hull_carrier$§! : $STAT_COMMON_BUILD_COST_IC$[?+0.1|-=%]\nBlindage :  [?+0.05|+=%]\nEspace sur le Pont :  [?+0.05|+=%]"
 
 ### Scripted Loc ###
  JAP_ally1_name: "§Y[?global.asian_economic_sphere^0.GetFlag][?global.asian_economic_sphere^0.GetName]§!, "
@@ -981,7 +982,7 @@ JAP_MIL_naval_start_desc: "Nous ne pouvons pas nous concentrer uniquement sur no
 
 ### Focuses - Military - Air ###
 JAP_MIL_air_start: "Réforme de l'armée de l'air"
-JAP_MIL_air_start_desc: "Nous ne pouvons pas nous concentrer uniquement sur le terrain, les forces aériennes de l'armée et de la marine doivent également être réformées.""
+ JAP_MIL_air_start_desc:9 "Nous ne pouvons pas nous concentrer uniquement sur le terrain, les forces aériennes de l'armée et de la marine doivent également être réformées.""
 JAP_MIL_FIGHTER_FOCUS: "Priorité aux chasseurs"
  JAP_MIL_FIGHTER_FOCUS_desc: "Contrôler l'air, c'est contrôler le monde ! Nous devons maintenir nos chasseurs à jour pour conserver notre supériorité aérienne"
 JAP_MIL_BOMBER_FOCUS: "Priorité aux bombardiers"
@@ -1119,8 +1120,8 @@ KR_co_prosperity_sphere_tooltip_desc: "§L[GetCoProsperitySphereDesc]§"
  KR_co_prosperity_sphere_name_JAP:9 "Leader de la sphère de coprospérité de l'Asie de l'Est"
  KR_co_prosperity_sphere_name:9 "Membre de la sphère de coprospérité de l'Asie de l'Est"
 
- KR_co_prosperity_sphere_desc_JAP: ""
- KR_co_prosperity_sphere_desc: ""
+ KR_co_prosperity_sphere_desc_JAP:9 "La §HSphère de Coprospérité Est-Asiatique§! est une alliance économique et politique qui vise à renverser l'influence de l'impérialisme occidental en Asie. En tant que leader de la Sphère de Coprospérité Est-Asiatique, le Japon fournit des investissements, des technologies et des spécialistes aux membres de la Sphère, au prix de l'exploitation de leurs ressources et de l'enracinement de son influence politique.\n\nLes membres actuels de la Sphère de Coprospérité Est-Asiatique : §H[JAP.GetNameWithFlag]§!, [JAP_ally0][JAP_ally1][JAP_ally2][JAP_ally3][JAP_ally4][JAP_ally5][JAP_ally6][JAP_ally7][JAP_ally8][JAP_ally9][JAP_ally10][JAP_ally11][JAP_ally12][JAP_ally13][JAP_ally14]"
+ KR_co_prosperity_sphere_desc:9 "La §HSphère de Coprospérité Est-Asiatique§! est une alliance économique et politique qui vise à renverser l'influence de l'impérialisme occidental en Asie. Le Japon, qui en est le chef, apporte un soutien économique à ses autres membres, au prix de l'exploitation de ses ressources naturelles et de l'enracinement de son influence politique.\n\nLes membres actuels de la Sphère de Coprospérité Est-Asiatique : §H[JAP.GetNameWithFlag]§!, [JAP_ally0][JAP_ally1][JAP_ally2][JAP_ally3][JAP_ally4][JAP_ally5][JAP_ally6][JAP_ally7][JAP_ally8][JAP_ally9][JAP_ally10][JAP_ally11][JAP_ally12][JAP_ally13][JAP_ally14]"
 
  KR_co_prosperity_sphere_effects_JAP: "$MODIFIER_CONSUMER_GOODS_FACTOR$: [?global.sphere_goods_boost|=%H]\n$MODIFIER_INDUSTRIAL_CAPACITY_FACTOR$: [?global.sphere_industry_boost|+=%]\n$MODIFIER_INDUSTRIAL_CAPACITY_DOCKYARD_FACTOR$: [?global.sphere_industry_boost|+=%]"
  KR_co_prosperity_sphere_effects: "$MODIFIER_PRODUCTION_SPEED_BUILDINGS_FACTOR$: [?0.2|+=%]\nEfficacité du Gain de Ressources : [?global.sphere_resources_boost_member|+=%]\n$MODIFIER_CONSUMER_GOODS_FACTOR$: [?global.sphere_goods_boost_member|=%1H]"
@@ -1330,13 +1331,10 @@ japdom.57.a: "Je vous salue, Empereur Yasuhito !"
 japdom.57.b: "Ce serait une erreur. Il est le véritable empereur."
 
 japdom.58.t: "Hayashi Senjuro est mort !"
-japdom.58.d: "Membre des centralistes et général dans notre armée, Hayashi Senjuro est mort aujourd'hui."
+ japdom.58.d.pataut:9 "Un triste jour est arrivé - le Premier Ministre Hayashi Senjūrō a été retrouvé décédé à son domicile. Un homme qui s'est joué à la fois des factions Centristes et Restaurationnistes pour s'élever au rang de chef du nouveau régime militaire, son travail de Premier Ministre a vu de grands changements dans tous les aspects de la vie japonaise, le consacrant sans aucun doute comme l'une des figures les plus influentes - et peut-être infâmes - de l'histoire moderne de notre nation.\n\nLe seul véritable choix pour le successeur de Hayashi, le Général Nagata Tetsuzan, semble confirmer la voie que suit le Japon. Connu comme le principal théoricien de la faction Centriste de l'Armée, Nagata travaille en coulisses depuis les années 30 pour obtenir le soutien des hommes d'affaires et des politiciens afin de transformer le Japon en l'État de Défense Nationale rêvé par son équipe de partisans de la guerre totale. Il semble que le régime de l'armée soit là pour rester."
+ japdom.58.d.defaul:9 "Un triste jour est arrivé - le général à la retraite Hayashi Senjūrō a été retrouvé mort à son domicile. Un homme qui a joué à la fois les factions Centristes et Restaurationnistes tout au long de sa carrière politique finalement décevante, son association avec les radicaux de l'Armée en a inquiété plus d'un parfois, pourtant tout cela semble n'avoir été rien au final."
  japdom.58.a:0 "Nommez Nagata Tetsuzan."
  japdom.58.b:0 "Gomeifuku wo inorimasu."
-
- japdom.59.t: "Un Nouveau 1281"
-japdom.59.d: "Nos ennemis mortels ont réussi à débarquer sur nos îles sacrées ! La nation doit se mobiliser pleinement afin de les arrêter ..."
-japdom.59.a: "Nous les arrêterons !"
 
 japdom.60.t: "La sécheresse fait des ravages"
 japdom.60.d: "Les zones rurales du pays étant déjà en difficulté après la décennie perdue, la sécheresse a contribué à appauvrir davantage les agriculteurs et à mettre en faillite les industries légères construites autour des produits agricoles. Les effets de la sécheresse semblent devoir se poursuivre pendant un certain temps".
@@ -1900,15 +1898,15 @@ japfor.227.a: "En effet, une lettre forte !"
  #japfor.232.b: "The war must go on."
 
  #japfor.233.t: "Peace With the Empire of the Fading Sun"
- #japfor.233.d: "The two week conference in [GetDalianName] has ended in agreements; the terms Japan offered were accepted and peace has been achieved. We have gained much and this is nothing less than a great victory."
+ #japfor.233.d: "The two week conference in [745.GetCapitalVictoryPointName] has ended in agreements; the terms Japan offered were accepted and peace has been achieved. We have gained much and this is nothing less than a great victory."
  #japfor.233.a: "We fought well and deserve nothing less."
 
  #japfor.234.t: "War With the Empire of the Fading Sun"
- #japfor.234.d: "The two week conference in [GetDalianName] has ended in nothing; this war will be a total war. If we pushed the Japanese out of Manchuria and Korea we can surely push them out of the Home Islands."
+ #japfor.234.d: "The two week conference in [745.GetCapitalVictoryPointName] has ended in nothing; this war will be a total war. If we pushed the Japanese out of Manchuria and Korea we can surely push them out of the Home Islands."
  #japfor.234.a: "It'll be the same again I'm sure..."
 
  #japfor.235.t: "Japan has Surrendered!"
- #japfor.235.d: "Under assault from all sides, [JAP.GetNameDef] has signed a peace treaty after a two-week conference in [GetDalianName], preserving the Home Islands from enduring invasion... but also casting [Root.GetNameDef] to the winds. The Japanese alliance has crumbled, and now we must fight on ourselves."
+ #japfor.235.d: "Under assault from all sides, [JAP.GetNameDef] has signed a peace treaty after a two-week conference in [745.GetCapitalVictoryPointName], preserving the Home Islands from enduring invasion... but also casting [Root.GetNameDef] to the winds. The Japanese alliance has crumbled, and now we must fight on ourselves."
  #japfor.235.a: "I thought they were stronger than that..."
 
  #japfor.237.t: "The Imperial Japanese Navy Seizes the Moment"
@@ -2160,29 +2158,29 @@ japfor.510.a: "Acceptez la proposition, voyons ce qu'ils ont à offrir"
 japfor.510.b: "Arienai!"
 
 japfor.511.t: "Politiques de japonisation"
- japfor.511.d: "Actuellement, nous appliquons une politique de japonisation de nos sujets dans la péninsule coréenne, en espérant les intégrer un jour à la société japonaise. Les Coréens demandent l'abolition de cette politique et la reconnaissance de la culture coréenne."
-japfor.511.a: "Insister sur les efforts de japonisation"
- japfor.511.b: "Reconnaître la culture coréenne"
+ japfor.511.d:9 "Actuellement, nous appliquons une politique de japonisation de nos sujets dans la péninsule coréenne, en espérant les intégrer un jour à la société japonaise. Les Coréens demandent l'abolition de cette politique et la reconnaissance de la culture coréenne."
+ japfor.511.a:0 "Reconnaître la culture coréenne"
+ japfor.511.b:0 "Insister sur les efforts de japonisation"
 
 japfor.512.t: "Le statut de la Corée dans l'empire"
 japfor.512.d: "La Corée est désormais une région semi-autonome de l'empire, elle n'est pas un sujet totalement autonome comme le gouvernement Fengtian, mais elle a son propre gouverneur général. Quelle place la Corée aura-t-elle au Japon à l'avenir ?"
-japfor.512.a: "Conserver son statut colonial"
-japfor.512.b: "L'incorporer dans l'empire"
+ japfor.512.a:0 "L'incorporer dans l'empire"
+ japfor.512.b:9 "Conserver son statut colonial"
 
  japfor.513.t:0 "Gouverneur général de Corée"
- japfor.513.d:0 "Tous les gouverneurs généraux de Corée sont japonais depuis l'annexion de la Corée par le Japon en 1910. Les Coréens réclament leur propre gouverneur général coréen. Cela facilitera probablement la prise de décision à leur sujet, mais ce n'est pas un petit compromis..."
+ japfor.513.d:9 "Tous les gouverneurs généraux de Corée sont japonais depuis l'annexion de la Corée par le Japon en 1910. Les Coréens réclament leur propre gouverneur général coréen. Cela facilitera probablement la prise de décision à leur sujet, mais ce n'est pas un petit compromis..."
  japfor.513.a:0 "Choisir un gouverneur coréen"
  japfor.513.b:0 "Choisir un gouverneur japonais"
 
  japfor.514.t:0 "Des Coréens au service du gouvernement ?"
- japfor.514.d:0 "L'intégration des Coréens au sein du peuple japonais ayant été désignée comme notre principal objectif à long terme, devrions-nous permettre aux Coréens de servir dans les gouvernements locaux pour assurer l'égalité entre les Japonais et les Coréens ?"
+ japfor.514.d:9 "Puisque l'assimilation des Coréens au sein du peuple japonais a été désignée comme notre principal objectif à long terme, devrions-nous autoriser les Coréens à siéger dans les gouvernements locaux afin de garantir l'égalité entre les Japonais et les Coréens ?"
  japfor.514.a:0 "Permettre aux Coréens de servir dans la fonction publique"
- japfor.514.b:0 "Ce sont des citoyens de seconde classe !"
+ japfor.514.b:9 "Ce sont des citoyens de seconde classe !"
 
  japfor.515.t:0 "La démocratie en Corée ?"
- japfor.515.d:0 "Alors que la démocratie tient bon au Japon continental, nos sujets coréens réclament les mêmes droits démocratiques. Devrions-nous autoriser le suffrage partiel en Corée ?"
+ japfor.515.d:9 "Alors que la démocratie tient bon au Japon continental, nos sujets coréens réclament les mêmes droits démocratiques. Devrions-nous autoriser le suffrage partiel en Corée ?"
  japfor.515.a:0 "Permettre le suffrage partiel"
-japfor.515.b: "Ce sont des citoyens de seconde classe !"
+ japfor.515.b:9 "Ce sont des citoyens de seconde classe !"
 
  japfor.516.t:0 "Le sort des prisonniers politiques"
  japfor.516.d:0 "Depuis l'annexion de la Corée par le Japon, nous avons arrêté de nombreux dirigeants du mouvement indépendantiste coréen. Aujourd'hui, les Coréens négocient leur libération. Leur permettre de retourner en Corée pourrait entraîner des menaces potentielles contre notre régime en Corée, mais cela satisfera les Coréens."
@@ -2190,11 +2188,11 @@ japfor.515.b: "Ce sont des citoyens de seconde classe !"
  japfor.516.b:0 "Ils devraient rester enfermés !"
 
  japfor.517.t: "Succès des négociations de Busan !"
- japfor.517.d: "La conférence tenue entre l'autorité japonaise et les dirigeants coréens a été couronnée de succès. Le Chōsen s'est vu accorder une généreuse autonomie, et bien que tous les habitants ne soient pas satisfaits de nos réformes, elle sera suffisante à court terme, du moins pour réprimer l'agitation."
+ japfor.517.d:9 "La conférence tenue entre les autorités japonaises et les dirigeants coréens a été couronnée de succès. Le Chōsen s'est vu accorder une généreuse autonomie, et bien que tous les habitants ne soient pas satisfaits de nos réformes, elle sera au moins suffisante à court terme pour faire cesser l'agitation."
  japfor.517.a:0 "Splendide."
 
  japfor.518.t: "Les négociations de Busan ont échoué !"
- japfor.518.d: "La conférence qui s'est tenue entre les autorités japonaises et les dirigeants coréens s'est terminée par un échec complet et total ! Les dirigeants coréens ont quitté la conférence en furie, déclarant que les délégués japonais étaient totalement déraisonnables ! Nous ne pouvons que nous demander où tout cela a mal tourné..."
+ japfor.518.d:9 "La conférence qui s'est tenue entre les autorités japonaises et les dirigeants coréens s'est terminée par un échec complet et total ! Les dirigeants coréens ont quitté la conférence en furie, déclarant que les délégués japonais étaient totalement déraisonnables ! Nous ne pouvons que nous demander où tout cela a mal tourné..."
  japfor.518.a: "Quelle insolence de leur part !"
 
 ### Sino - Japanese War Events ###
@@ -2281,7 +2279,7 @@ japfeng.3.d: "Le temps est venu de décider : où se situent nos intentions par 
  JAP_yoshida_zengo: "Yoshida Zengo"
  JAP_daigo_tadashige: "Daigo Tadashige"
  JAP_hyakutake_gengo: "Hyakutake Gengo"
- # Advisors and SiCs
+
  JAP_okawa_shumei: "Ōkawa Shūmei"
  JAP_nakano_seigo: "Nakano Seigō"
  JAP_hashimoto_kingoro: "Hashimoto Kingorō"
@@ -2332,3 +2330,5 @@ japfeng.3.d: "Le temps est venu de décider : où se situent nos intentions par 
  JAP_obata_toshiro: "Obata Toshirō"
  JAP_tokugawa_yoshitoshi: "Tokugawa Yoshitoshi"
 
+### Traits ###
+ JAP_imperial_regent:9 "Régent Impérial"

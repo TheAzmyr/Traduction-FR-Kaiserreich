@@ -13,8 +13,8 @@ FRA_tank_division_tooltip: "Trois divisions de £nato_unit_light_armor_icon_smal
  KR_phalanstere_name_INT: "Chef du §H$INT_phalanstere$§!"
  KR_phalanstere_name: "Membre du §H$INT_phalanstere$§!"
 
- KR_phalanstere_desc_INT: ""
- KR_phalanstere_desc: ""
+ KR_phalanstere_desc_INT: "Le Phalanstère International est une organisation de développement économique et de coopération entre les États socialistes. Le Phalanstère vise à mieux coordonner les ressources entre les États membres et dispose de nombreux programmes d'aide pour soutenir l'industrialisation des pays les moins riches."
+ KR_phalanstere_desc: "Le Phalanstère International est une organisation de développement économique et de coopération entre les États socialistes. Le Phalanstère vise à mieux coordonner les ressources entre les États membres et dispose de nombreux programmes d'aide pour soutenir l'industrialisation des pays les moins riches."
 
  FRA_syndicalist_agitation: "Agitation Syndicaliste : §R40%§!"
 
@@ -240,8 +240,8 @@ FRA_support_bharatiya: "Accord pour une mission militaire dans la commune de Bha
 FRA_created_phalanstere: "§HCommune de France§!: a complété la priorité §H$FRA_Phalanstere_internationale$§!"
 
 ### Techs ###
- phalanstere_research_name: "Phalanstère Internationale"
- phalanstere_research_desc: "Au cours de la réunion dans l'ancienne université de Cambridge a été décidé l'établissement d'un plan mondial pour combiner les progrès technologiques des pays syndicalistes. Ce plan s'est depuis transformé en un plan plus ambitieux, le Phalanstère International, visant à aider les régimes syndicalistes du monde entier."
+ phalanstere_research_name:0 "Phalanstère International"
+ phalanstere_research_desc:9 "Au cours de la réunion dans l'ancienne université de Cambridge a été décidé l'établissement d'un plan mondial pour combiner les progrès technologiques des pays syndicalistes. Ce plan s'est depuis transformé en un plan plus ambitieux, le Phalanstère International, visant à aider les régimes syndicalistes du monde entier."
 
 FRA_tech_marine_bonus: "Les Colonnes de Neptune"
  FRA_tech_marine_bonus_effect: "Active §H$FRA_tech_marine_bonus$\nMarines§!\n      Attaque Légère : §G+5%§!\n      Attaque Lourde : §G+5%§!\n§HBataillon Amtrac§!\n      Attaque Légère : §G+5%§!\n      Attaque Lourde : §G+5%§!\n§HBataillon de Char Amphibie§!\n      Attaque Légère : §G+5%§!\n      Attaque Lourde : §G+5%§!"
@@ -458,8 +458,8 @@ FRA_naval_bombers_desc: "L'air peut bien se marier avec la mer. Les avions trans
 FRA_protect_coastlines: "Protéger nos côtes"
 FRA_protect_coastlines_desc: "En fin de compte, notre marine ne peut pas protéger toutes les plages et tous les petits ports de notre pays. Cependant, nous pouvons planifier à l'avance et ajouter quelques fortifications de base pour nous assurer de ne pas être pris par surprise. S'ils débarquent sur nos plages, nous sauront les recevoir."
 
- FRA_Phalanstere_internationale: "Création du Phalanstère International"
- FRA_Phalanstere_internationale_desc: "La nécessité du secret exige certaines inefficacités dans la recherche militaire. En travaillant en étroite collaboration avec d'autres nations syndicalistes et en permettant aux chercheurs d'avoir accès aux secrets les mieux gardés des autres, cette question fondamentale peut être surmontée. Le Phalanstère de l'Internationale est l'autorité centrale pour l'échange de ces secrets."
+ FRA_Phalanstere_internationale:9 "Création du Phalanstère International"
+ FRA_Phalanstere_internationale_desc:9 "La nécessité du secret exige certaines inefficacités dans la recherche militaire. En travaillant en étroite collaboration avec d'autres nations syndicalistes et en permettant aux chercheurs d'avoir accès aux secrets les mieux gardés des autres, cette question fondamentale peut être surmontée. Le Phalanstère de l'Internationale est l'autorité centrale pour l'échange de ces secrets."
 
 ### Events ###
 
@@ -507,9 +507,8 @@ comfrance.10.c: "Pierre Comert (Sorélien)- Revanchisme anti-allemand"
  comfrance.10.e: "Fernand Desprès (Anarchiste)- Socialisme Européen."
 
 comfrance.12.t: "Les résultats : Majorité de travailleurs"
-comfrance.12.d: "Même si beaucoup ont vu dans cette élection la chute du consensus des Travailleurs qui gouverne la Commune depuis la mort d'Emile Pouget, ils ont réussi à obtenir une majorité ferme à l'élection.\n\nBien que Pivert puisse être rappelé pour prendre le poste, cela serait très improbable. Les Travailleurs se tournent maintenant vers l'émigré russe Boris Souvarine, qui, contrairement à Pivert, est considéré à la fois comme assez fort pour maintenir les factions radicales en ligne et capable de mener la Commune à sa gloire finale !"
+comfrance.12.d: "Même si beaucoup ont vu dans cette élection la chute du consensus dirigé par les Travailleurs qui a gouverné la Commune depuis la mort d'Emile Pouget, ils ont réussi à obtenir une majorité ferme dans l'élection.\n\nLes Travailleurs se tournent maintenant vers l'émigré russe Boris Souvarine, qui, contrairement à Pivert, est considéré comme suffisamment fort pour garder les factions radicales dans le droit chemin et capable de mener la Commune à sa gloire finale !"
 comfrance.12.a: "Félicitations, Camarade Souvarine"
-comfrance.12.b: "Rappeler Pivert"
 
 comfrance.13.t: "Les résultats : Majorité jacobine"
 comfrance.13.d: "Les élections ont finalement mis les Jacobins au pouvoir, permettant le retour des valeurs léninistes pour conduire la Commune à la révolution mondiale ! Les structures syndicalistes sont maintenant entre les mains des Jacobins alors que les partisans soréliens sont chassés, exilés ou abattus. Désormais, le Parti communiste français nouvellement créé devra choisir entre le général Jacques Duclos et le diplomate Marcel Cachin pour diriger la France!"
@@ -796,11 +795,11 @@ comfrance.125.a: "Utilisez-le pour améliorer notre armée."
 comfrance.125.b: "Utilisez-le pour améliorer notre industrie."
 comfrance.125.c: "Utilisez-le pour fortifier notre frontière avec l'Argentine."
 
- comfrance.127.t: "L'Organisation internationale de recherche Phalanstère"
- comfrance.127.d: "Au fil du temps, il est rapidement devenu évident que la révolution mondiale exige bien plus qu'un simple dévouement à la cause. La France et la Grande-Bretagne étant les seuls pays socialistes hautement développés du monde, il est désormais largement admis qu'ils devraient lancer un programme d'aide à la recherche à long terme pour les autres pays. C'est ainsi qu'est née l'"Organisation internationale de recherche du Phalanstère international", une branche du programme "Phalanstère International" visant à apporter un soutien technologique aux pays socialistes dans le monde entier. La question est maintenant de savoir si nous devons nous joindre à cette entreprise."
+ comfrance.127.t:9 "L'Organisation internationale de recherche Phalanstère"
+ comfrance.127.d:9 "Au fil du temps, il est rapidement devenu évident que la révolution mondiale exige bien plus qu'un simple dévouement à la cause. La France et la Grande-Bretagne étant les seuls pays socialistes hautement développés du monde, il est désormais largement admis qu'ils devraient lancer un programme d'aide à la recherche à long terme pour les autres pays. C'est ainsi qu'est née l'"Organisation internationale de recherche du Phalanstère international", une branche du programme "Phalanstère International" visant à apporter un soutien technologique aux pays socialistes dans le monde entier. La question est maintenant de savoir si nous devons nous joindre à cette entreprise."
 comfrance.127.a: "La participation semble bonne."
 
- comfrance.128.t: "Le Programme industriel international de Phalanstère"
+ comfrance.128.t:9 "Le Programme industriel international de Phalanstère"
 comfrance.128.d: "Il est devenu évident pour beaucoup dans l'Internationale qu'il est de la responsabilité de toutes les nations syndicalistes suffisamment développées de fournir un soutien industriel aux nations qui sont moins capables de subvenir à leurs besoins. Il nous appartient maintenant de décider si nous devons être solidaires des travailleurs du monde entier en contribuant à la mise en œuvre d'un vaste programme d'aide industrielle aux côtés de nos frères d'armes français"
 comfrance.128.a: "Ça a l'air d'être une bonne idée !"
 
@@ -954,16 +953,21 @@ comfrance.164.a: "Ce sera le premier d'une longue série, le gouvernement s'en a
  comfrance.170.a: "Plus forts ensemble !"
  comfrance.170.b: "À la réflexion, non..."
 
- comfrance.171.t.accept: "[From.GetNameDefCap] a accepté !"
- comfrance.171.t.refuse: "[From.GetNameDefCap] a refusé !"
- comfrance.171.d.accept: "Il est temps de se réjouir ! Comme nous l'espérions, [From.GetNameDefCap] a accepté notre offre de rejoindre notre alliance militaire. Avec cette décision, ils ont été assurés de notre soutien indéfectible en tant qu'alliés dans la lutte mondiale pour la libération de la classe ouvrière, et nous avons gagné un allié précieux contre nos ennemis indéniablement puissants. Bientôt, beaucoup d'autres les suivront : \"l'Internationale sera la race humaine\" !"
- comfrance.171.d.refuse: "À notre grand regret, [From.GetNameDef] a refusé notre offre de rejoindre notre alliance militaire. Peut-être trop intimidé par la puissance indéniable de nos ennemis, ou simplement pas assez engagé dans la lutte pour la libération du prolétariat. Quoi qu'il en soit, bien que ce soit certainement un résultat regrettable de notre ouverture diplomatique, beaucoup d'autres se joindront à nous dans cette lutte : \"l'Internationale sera le genre humain\" !"
+ comfrance.171.t: "[From.GetNameDefCap] a accepté !"
+ comfrance.171.d: "Il est temps de se réjouir ! Comme nous l'espérions, [From.GetNameDefCap] a accepté notre offre de rejoindre notre alliance militaire. Avec cette décision, ils ont été assurés de notre soutien indéfectible en tant qu'alliés dans la lutte mondiale pour la libération de la classe ouvrière, et nous avons gagné un allié précieux contre nos ennemis indéniablement puissants. Bientôt, beaucoup d'autres les suivront : \"l'Internationale sera la race humaine\" !"
  comfrance.171.a: "Excellent !"
- comfrance.171.b: "Leur perte."
+
+ comfrance.172.t:0 "[From.GetNameDefCap] a refusé !"
+ comfrance.172.d:0 "À notre grand regret, [From.GetNameDef] a refusé notre offre de rejoindre notre alliance militaire. Peut-être trop intimidé par la puissance indéniable de nos ennemis, ou simplement pas assez engagé dans la lutte pour la libération du prolétariat. Quoi qu'il en soit, bien que ce soit certainement un résultat regrettable de notre ouverture diplomatique, beaucoup d'autres se joindront à nous dans cette lutte : \"l'Internationale sera le genre humain\" !"
+ comfrance.172.a:0 "Leur perte."
 
  comfrance.200.t:0 "Le projet Damoclès"
  comfrance.200.d:0 "Des espions allemands ont récemment découvert les documents d'un programme de recherche et développement parrainé par les membres de la Troisième Internationale. Surnommé Projet Damoclès, il s'agit d'une vaste étude multinationale sur la puissance destructrice de la fission nucléaire visant à créer des bombes dont "le pouvoir destructeur est bien supérieur à tout ce que l'on connaît actuellement". Le célèbre physicien allemand Albert Einstein avait déjà prévenu qu'une "bombe nucléaire" réussie risquerait même de transformer des villes entières en ruines.\n\nLes services de renseignement allemands ont partagé les informations sur ce projet avec leurs plus proches alliés, de sorte que le monde entier le sait maintenant. Certains ont balayé le projet comme un rêve fantastique, mais beaucoup d'experts redoutent une véritable révolution."
  comfrance.200.a:0 "S'ils parviennent à leurs fins...."
+
+ comfrance.999.t: "Les économies capitalistes s'effondrent !"
+ comfrance.999.d: "Ces derniers jours, les ouvriers et les paysans du monde entier ont vu les banquiers, les capitalistes et les tyrans se battre pour récolter les fruits du travail des ouvriers pour leur propre profit égoïste. Ils l'appellent le Lundi Noir, un événement terrible, disent-ils ! Ils disent qu'un tel effondrement était complètement injustifié, ce qu'aucun économiste n'aurait pu prévoir ! Bien sûr, les travailleurs ne sont pas des imbéciles. Le peuple voit à travers ses mensonges.\n\nComme l'a prédit le grand philosophe Karl Marx, de tels effondrements sont un résultat inévitable du capitalisme. Alors que le capitaliste abuse et récolte les bénéfices des travailleurs, ceux-ci commencent à se manger tout cru comme des chiens enragés. Tout cela alors qu'ils laissent leurs travailleurs se battre et mourir par le gâchis en se battant pour le dernier morceau de viande.\n\nNotre nation, cependant, s'est découplée du monde capitaliste et a commencé la construction d'un véritable État populaire. Par conséquent, nous ne sommes pas affectés et nous ne pouvons que regarder les nations du monde être dévorées vivantes par leurs chefs capitalistes. C'est un grand réveil pour les paysans et les travailleurs du monde et bientôt, les travailleurs de ces nations commenceront à s'organiser contre leurs oppresseurs. Nous devons nous tenir prêts et être un véritable exemple pour les travailleurs du monde !"
+ comfrance.999.a: "Travailleurs du monde entier, unissez-vous !"
 
  comfrance.1000.t: "Gamelin Marche sur Paris"
  comfrance.1000.d: "Il y a quelques jours, le général Maurice Gamelin, a lancé un coup d'État réussi contre le régime jacobin de Marcel Déat. Bien que cela semble être une attaque acharnée contre le système démocratique de la commune, beaucoup soutiennent que les Jacobins auraient détruit le système démocratique si Gamelin n'était pas intervenu. Gamelin a promis de restaurer le syndicalisme traditionnel en France, et le processus de dé-jacobinisation est déjà en cours. On ne sait toujours pas comment ses plans vont se concrétiser. Nous ne pouvons qu'attendre..."
@@ -982,7 +986,7 @@ comfrance.164.a: "Ce sera le premier d'une longue série, le gouvernement s'en a
  FRA_internationale_category_desc: "L'alliance de tous les socialistes de notre monde est vraiment quelque chose de beau. Nous travaillerons ensemble pour faire du monde un endroit meilleur pour nous tous."
 
 #WIP
-FRA_phalanstere_category: "Le Phalanstère International"
+ FRA_phalanstere_category:9 "Le Phalanstère International"
  FRA_phalanstere_category_desc: "Au cours du deuxième Congrès international, nous avons décidé de nous lancer dans un plan ambitieux d'investissement industriel et économique pour toutes les nations socialistes en développement qui souhaitent s'appliquer. Nous travaillerons ensemble pour faire du monde un endroit meilleur pour nous tous."
 
 FRA_join_phalanstere: "Rejoindre la Phalanstère"
@@ -992,17 +996,17 @@ FRA_join_phalanstere_desc: "La Phalanstère scientifique a été créée pour re
  FRA_Develop_Country: "Développer [FROM.GetNameDef]"
 
 FRA_Develop_ENG_desc: "La Grande-Bretagne, bien qu'elle soit en deuxième position après nous, a encore besoin de notre aide pour reconstruire son industrie perdue et oubliée qui était autrefois l'une des meilleures au monde. Avec notre aide, la Grande-Bretagne s'élèvera encore plus haut que son illustre passé, faisant honte aux capitalistes et aux impérialistes."
- FRA_Develop_SRI_desc: "Nos camarades [SRI.GetAdjective] ont demandé à rejoindre la Phalanstère International. Avec la République italienne soutenue par les Habsbourg qui menace la frontière du Pô et les Deux Sicile zélées et anti-syndicalistes dans le sud, il n'est que juste d'aider nos camarades dans leur lutte."
- FRA_Develop_SWF_desc: "Nos camarades [SWF.GetNameDef] ont demandé à rejoindre la Phalanstère Internationale. Après les graves destructions causées par la guerre civile espagnole, il est normal d'aider nos camarades dans leur lutte."
+ FRA_Develop_SRI_desc:9 "Nos camarades [SRI.GetAdjective] ont demandé à rejoindre la Phalanstère International. Avec la République italienne soutenue par les Habsbourg qui menace la frontière du Pô et les Deux Sicile zélées et anti-syndicalistes dans le sud, il n'est que juste d'aider nos camarades dans leur lutte."
+ FRA_Develop_SWF_desc:9 "Nos camarades [SWF.GetNameDef] ont demandé à rejoindre la Phalanstère Internationale. Après les graves destructions causées par la guerre civile espagnole, il est normal d'aider nos camarades dans leur lutte."
  FRA_Develop_NOR_desc: "Récemment, nos camarades scandinaves en Norvège ont fait une demande d'adhésion à la Phalanstères International. Le socialisme en Norvège étant relativement jeune, il est préférable de l'entretenir tant que nous le pouvons."
- FRA_Develop_HND_desc: "Nos camarades [HND.GetAdjective] ont demandé à rejoindre la Phalanstère International. Avec le socialisme en Inde face aux impérialistes à Delhi et aux réactionnaires dans la Fédération, il est tout à fait approprié d'aider nos camarades dans leur lutte."
- FRA_Develop_MEX_desc: "Nos camarades mexicains ont demandé à rejoindre la Phalanstère International. Avec un socialisme plus fort que jamais, nous serions fous de ne pas assurer cet ancrage de la liberté."
- FRA_Develop_Central_America_desc: "Nos camarades [FROM.GetAdjective] ont demandé à rejoindre la Phalanstère International. Avec un socialisme plus fort que jamais, nous serions fous de ne pas assurer cet ancrage de la liberté."
- FRA_Develop_CEN_desc: "Nos camarades [FROM.GetAdjective] ont demandé à rejoindre la Phalanstère International après leur récente unification. Avec un socialisme plus fort que jamais, nous serions fous de ne pas assurer cet ancrage de la liberté."
- FRA_Develop_Caribbean_desc: "Nos camarades [FROM.GetAdjective] ont demandé à rejoindre la Phalanstère International. Avec le socialisme dans les Caraïbes qui fait face à la menace actuelle de représailles canadiennes, nous serions fous de ne pas assurer cet ancrage de la liberté."
- FRA_Develop_BRA_desc: "Nos camarades [FROM.GetAdjective] ont demandé à rejoindre la Phalanstère International. Le socialisme au Brésil étant confronté à une opposition interne acharnée, il n'est que juste de les aider dans leur lutte."
- FRA_Develop_FOP_desc: "Nos camarades [FOP.GetAdjective] ont demandé à rejoindre la Phalanstère International. Après les destructions causées par la guerre Chilienne-Argentine, ils ont cruellement besoin de notre aide, et nous avons le devoir de les aider dans leur lutte."
- FRA_Develop_South_America_desc: "Nos camarades [FROM.GetAdjective] ont demandé à rejoindre la Phalanstère International. Le socialisme en Amérique du Sud étant confronté à une opposition acharnée, il n'est que juste d'aider nos camarades dans leur lutte."
+ FRA_Develop_HND_desc:9 "Nos camarades [HND.GetAdjective] ont demandé à rejoindre la Phalanstère International. Avec le socialisme en Inde face aux impérialistes à Delhi et aux réactionnaires dans la Fédération, il est tout à fait approprié d'aider nos camarades dans leur lutte."
+ FRA_Develop_MEX_desc:9 "Nos camarades mexicains ont demandé à rejoindre la Phalanstère International. Avec un socialisme plus fort que jamais, nous serions fous de ne pas assurer cet ancrage de la liberté."
+ FRA_Develop_Central_America_desc:9 "Nos camarades [FROM.GetAdjective] ont demandé à rejoindre la Phalanstère International. Avec un socialisme plus fort que jamais, nous serions fous de ne pas assurer cet ancrage de la liberté."
+ FRA_Develop_CEN_desc:9 "Nos camarades [FROM.GetAdjective] ont demandé à rejoindre la Phalanstère International après leur récente unification. Avec un socialisme plus fort que jamais, nous serions fous de ne pas assurer cet ancrage de la liberté."
+ FRA_Develop_Caribbean_desc:9 "Nos camarades [FROM.GetAdjective] ont demandé à rejoindre la Phalanstère International. Avec le socialisme dans les Caraïbes qui fait face à la menace actuelle de représailles canadiennes, nous serions fous de ne pas assurer cet ancrage de la liberté."
+ FRA_Develop_BRA_desc:9 "Nos camarades [FROM.GetAdjective] ont demandé à rejoindre la Phalanstère International. Le socialisme au Brésil étant confronté à une opposition interne acharnée, il n'est que juste de les aider dans leur lutte."
+ FRA_Develop_FOP_desc:9 "Nos camarades [FOP.GetAdjective] ont demandé à rejoindre la Phalanstère International. Après les destructions causées par la guerre Chilienne-Argentine, ils ont cruellement besoin de notre aide, et nous avons le devoir de les aider dans leur lutte."
+ FRA_Develop_South_America_desc:9 "Nos camarades [FROM.GetAdjective] ont demandé à rejoindre la Phalanstère International. Le socialisme en Amérique du Sud étant confronté à une opposition acharnée, il n'est que juste d'aider nos camarades dans leur lutte."
 
  FRA_help_SWF: "Approvisionner CNT-FAI"
  FRA_help_SWF_desc: "La CNT est au bord du gouffre. Nous devons assurer la sécurité de l'Espagne, et de notre frontière sud, pour le socialisme."
@@ -1152,11 +1156,16 @@ FRA_radical_socialist_DEF: "la Commune de France"
  FRA_irene_and_frederic_joliot_curie: "Irène & Frédéric Joliot-Curie"
  FRA_robert_esnault_pelterie: "Robert Esnault-Pelterie"
 
- FRA_etienne_schlumberger: "Étienne Schlumberger"
+ FRA_louis_lazare_kahn:9 "Louis-Lazare Kahn"
+
  FRA_joseph_vuillemin:0 "Joseph Vuillemin"
  FRA_martial_henri_valin: "Martial Henri Valin"
  FRA_maryse_bastie:0 "Maryse Bastié"
  FRA_victor_leon_ernest_denain: "Victor Léon Ernest Denain"
+ FRA_jean_francois_jannekeyn:9 "Jean-François Jannekeyn"
+ FRA_alfred_heurtaux:9 "Alfred Heurtaux"
+ FRA_georges_guynemer:9 "Georges Guynemer"
+
  FRA_leon_blum:0 "Léon Blum"
  FRA_pierre_monatte:0 "Pierre Monatte"
  FRA_daniel_guerin:0 "Daniel Guérin"
@@ -1168,4 +1177,5 @@ FRA_radical_socialist_DEF: "la Commune de France"
  FRA_jacque_duclos: "Jacque Duclos"
  FRA_jean_zyromski: "Jean Zyromski"
  FRA_suzanne_girault: "Suzanne Girault"
+
  FRA_confederation_general_du_travail: "Confédération Générale du Travail"
