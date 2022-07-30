@@ -118,6 +118,10 @@ RUS_eurasianist_ideologue: "Idéologue eurasianistee"
 RUS_milyukov_of_the_dardanelles: "Milyukov des Dardanelles"
 RUS_savvy_politician: "Opérateur politique avisé"
  RUS_patriarch_of_moscow_and_all_russias: "Patriarche de Moscou et de toutes les Russies"
+ RUS_cossack_ataman:9 "Cosaque Ataman"
+ RUS_cossack_ataman_spawned:9 "Cosaque Ataman"
+
+ RUS_cossack_ataman_tt:9 "§YForme cinq divisions de cavalerie Cosaque.§!"
 
 ### Ship Name Lists ###
  NAME_THEME_ANIMALS_RUS: "Animaux (Sous-marins)"
@@ -446,6 +450,9 @@ RUS_Front_Line_Commissars_desc: "L'Okhranka Otdeleniye a reçu des postes dans n
 RUS_Equipment_Modernisation: "Modernisation de l'équipement"
 RUS_Equipment_Modernisation_desc: "Nous avons parcouru une partie du chemin, mais nous pouvons encore faire plus. Le cœur de toute armée est, en fin de compte, l'artillerie et le fusil, comme dans la Weltkrieg"
 
+ RUS_Defensive_Measures:0 "Mesures Défensives"
+ RUS_Defensive_Measures_desc:9 "Aucun plan ne survit au contact avec l'ennemi, et la guerre avec l'Allemagne n'est pas garantie d'aller dans notre sens. Il serait sage de créer des contre-mesures au cas où nous serions obligés de battre en retraite - Moscou ne doit pas tomber aux mains de l'ennemi."
+
 RUS_Rearmament_Programme: "Programme de Réarmement"
 RUS_Rearmament_Programme_desc: "Alors que les tensions entre les Français et les Allemands continuent de s'accroître, le monde se trouve de plus en plus proche du déclenchement d'une nouvelle guerre, qui définira l'avenir de l'Europe. Nous devons être prêts à affronter l'Allemagne le moment venu et, à cette fin, nous devons nous lancer dans un programme ambitieux de réarmement de l'armée russe."
 
@@ -631,7 +638,7 @@ RUS_Enemy_In_The_East: "Ennemi à l'Est"
 
  RUS_may_lead_to_war_with_FROM: "§RPeut mener à une guerre avec [From.GetNameDef]§!"
  RUS_may_lead_to_war_with_FROM_overlord: "§RPeut mener à une guerre avec [From.Overlord.GetNameDef]§!"
- RUS_will_declare_war_on_ROOT: "§R[FROM.GetNameDefCap] nous déclarera la guerre§!"
+ RUS_will_declare_war_on_ROOT:9 "§R[FROM.GetNameDefCap] nous déclarera la guerre !§!"
 
  RUS_Realpolitik_tooltip: "Déverrouille des alliances potentielles avec les §HÉtats Baltes§!, la §HFinlande§!, la §HRoumanie§!, la §HGéorgie§! et la §HMongolie§!."
  RUS_Expansionism_tooltip: "Débloque des options d'expansion supplémentaires contre la §HPologne§!, l'§HAutriche§!, la §HRoumanie§!, la §HPerse§! et l'§HAfghanistan§!."
@@ -666,6 +673,8 @@ RUS_A_Firm_Hand_military_tooltip: "§CLa Russie sera une dictature militaire !§
  RUS_average_compliance_tooltip:9 "Conformité moyenne dans [From.GetName] plus de §H40%§!"
 
  RUS_state_duma_trait_change: "§Y$RUS_state_duma$§! perd §Y$KR_parliament_sic$§! et gagne §Y$KR_authoritarian_sic$§!\n  -$MODIFIER_POLITICAL_POWER_FACTOR$: [?-0.08|+=%0]\n  -$MODIFIER_STABILITY_FACTOR$: [?0.05|+=%]\n  -$MODIFIER_WAR_SUPPORT_FACTOR$: [?0.1|+=%]"
+
+ RUS_defensive_measures_forts:9 "Ajoute un total de §Y28 Forts Terrestres§! dans les provinces autour de Moscou."
 
 ### Flags ###
  RUS_demanding_armenia: "N'a pas choisi la décision §Y$RUS_Demand_Armenia$§!"
@@ -799,6 +808,14 @@ russia.9.t: "Nomination d'un premier ministre"
  russia.24.d: "L'assassinat du président Kerenskiy et la situation politique instable en Russie ont conduit à la montée de nouvelles forces politiques et de nouvelles alliances pour les soutenir. Espérant consolider les nombreux partis d'extrême gauche marginalisés sous une seule bannière, les mencheviks ont formé une alliance électorale avec le Parti socialiste du peuple et le Parti socialiste syndical. Cette alliance, surnommée le \"cartel de gauche\" (Levyj Kartel'), est naturellement fragile, mais représente néanmoins un sérieux défi pour les forces politiques établies en Russie. Dans son manifeste d'alliance, le Cartel appelle à une réforme socialiste démocratique dans la République, à une position hostile à l'impérialisme allemand et au maintien des institutions démocratiques."
  russia.24.a: "On devrait les surveiller de près !"
  russia.24.b: "Ensemble, nous sommes plus forts !"
+
+ russia.1901.t:9 "La Russie capitule"
+ russia.1901.d:9 "Un télégramme fortement crypté vient d'être livré par le diplomate de [RUS.GetName] aujourd'hui, apportant de mauvaises nouvelles. En raison de la forte pression et de l'occupation par les forces ennemies, l'Armée Russe ne sera probablement pas en mesure d'organiser une défense coordonnée. En conséquence. [RUS.GetLeader] a choisi de s'exiler et de monter une défense depuis les territoires de ses alliés. Cependant, avec la disparition du chef de la faction, il est peu probable que nous, membres de l'[RUS.GetFactionName], poursuivions un conflit prolongé avec les ennemis de [RUS.GetNameDef] et recherchions plutôt la paix par souci d'auto-préservation. Dans ces conditions, l'effondrement de l'[RUS.GetFactionName] sera inévitable."
+ russia.1901.a:9 "Il semble qu'ils ne soient pas une \"superpuissance potentielle\" après tout."
+
+ russia.1902.t:9 "La Chute de la Russie"
+ russia.1902.d:9 ""
+ russia.1902.a:9 "L'ours a été tué."
 
  russia.1917.t: "Révolution!"
  russia.1917.d.dmitriy: "Après la "contre-révolution russe", personne ne s'attendait à ce que les choses se calment de sitôt. Seuls les pessimistes les plus cyniques auraient pu imaginer qu'en quelques semaines, la Russie serait à nouveau embrasée par les feux de la révolution. Si la décision de Kornilov de transférer le pouvoir à une administration civile a suffi à empêcher les centristes de rompre les rangs avec la droite, il n'en reste pas moins que les méthodes lourdes de l'armée en matière d'arrestations massives ont poussé la gauche du pays à se tourner massivement vers des partis plus radicaux. Avec un espoir de réforme aussi mort que Kerensky, ce n'était qu'une question de temps avant que beaucoup d'entre eux ne descendent dans la rue.\n\nCe qui avait commencé par des émeutes de radicaux à Petrograd et à Moscou a rapidement pris de l'ampleur car la police n'était pas en mesure de les réprimer. Lorsque l'armée, qui aurait agi sur ordre de Kornilov plutôt que de Dmitry, est intervenue, elle n'a fait qu'empirer les choses par ses mesures musclées. Au fil des jours, les émeutes se sont intensifiées et de plus en plus de gens se sont rangés du côté des rouges. Malgré les efforts du gouvernement civil pour garder les choses sous contrôle, le fait est que ce gouvernement n'avait que le nom. Il venait à peine d'être inauguré et avait déjà perdu toute légitimité auprès d'une grande partie de la population du pays, en particulier les victimes des mesures draconiennes de Kornilov. Quelques jours après les émeutes qui ont balayé l'ouest du pays, l'armée a dû évacuer Dmitry et sa cabane de la capitale. Une capitale provisoire fut établie à l'est, et déjà des préparatifs furent faits pour combattre afin de reconquérir les parties occidentales du pays. Dans la vieille capitale, les révolutionnaires qui ont saisi l'occasion l'ont peut-être fait sans un large soutien populaire, mais une fois au pouvoir, de nombreuses régions autour de Moscou et de Petrograd ont rapidement rejoint leurs rangs, car de nombreux paysans et intellectuels ont saisi l'occasion de gagner par la révolution ce qu'ils ne pourraient jamais gagner par la réforme. Bien que le nouveau gouvernement socialiste soit dans une position précaire, il prend déjà des mesures pour mobiliser les milices et rallier le soutien populaire alors que la Russie semble s'acheminer vers une nouvelle guerre civile sanglante."
@@ -1171,7 +1188,7 @@ rusd.130.d: "Le Tsar a récemment visité l'un des magasins locaux de notre capi
 rusd.130.a: "Trois hourras pour notre bienveillant Tsar !"
 
 rusd.131.t: "Un complot contre la Russie"
- rusd.131.d: "La mort de Maria Spiridonova a porté un coup sévère à la gauche SR, mais de nombreux ennemis du régime de Savinkov demeurent. Au fil du temps, le Vozhd est devenu de plus en plus paranoïaque à l'idée qu'il suivra le chemin des tyrans que son jeune compagnon a éliminés avec une bombe à la main. Pour atténuer cette paranoïa, le Parti national républicain a mis en place un plan d'action. Les journaux russes parlent de plus en plus d'un \"complot contre la Russie\", orchestré par des syndicalistes et des socialistes de mèche avec l'Allemagne et les autres puissances. De nombreuses personnalités de haut rang comme Dmitri Merezhovskiy et Dmitri Romanov ont publié leurs propres articles dans lesquels ils affirment qu'une certaine \"saignée\" est nécessaire pour rétablir la stabilité en Russie. \n\nSous l'égide du ministre de l'intérieur, [RUS.GetMinisterOfInterior], une vague de répression massive contre les opposants politiques présumés a commencé. La Okhrana a reçu des pouvoirs extraordinaires pour fouiller les maisons et arrêter les dissidents sans l'approbation d'aucune institution judiciaire, plusieurs politiciens et publicistes de gauche notables ont carrément disparu de la face de la Russie. Alors que certains sont soumis à des procès pour l'exemple, d'autres, en particulier les membres de la base des partis SR, mencheviks et syndicalistes, sont exécutés sommairement ou déportés. Savinkov a personnellement présidé plusieurs des procès-spectacles, notamment ceux de ses anciens camarades des révolutionnaires socialistes. En privé, devant Merezhovskiy, il a fait remarquer combien il est cathartique de voir la Okhrana, la police qu'il fuyait et craignait il y a trois décennies, se plier à tous ses caprices."
+ rusd.131.d:9 "La mort de Maria Spiridonova est un coup dur pour le SR de gauche, mais de nombreux ennemis du régime de Savinkov demeurent. Au fil du temps, le Vozhd est devenu de plus en plus paranoïaque, craignant de suivre le chemin des tyrans que son jeune âge a éliminés, une bombe à la main, et pour apaiser cette paranoïa, le Parti National Républicain a mis un plan à exécution. Les journaux russes ont commencé à parler de plus en plus d'un \"complot contre la Russie\", orchestré par les Syndicalistes et les socialistes de mèche avec l'Allemagne et les autres puissances. De nombreuses personnalités publiques de haut rang, telles que Dmitry Merezhovskiy et Dmitry Romanov, ont publié leurs propres articles dans lesquels ils affirment qu'une certaine \"saignée\" est nécessaire pour restaurer la stabilité en Russie.\n\nSous l'organisation de l'Okhrana, une vague de répression massive des opposants politiques présumés a commencé. L'Okhrana a reçu des pouvoirs extraordinaires pour fouiller les domiciles et arrêter les dissidents sans l'approbation d'aucune institution judiciaire, plusieurs politiciens et publicistes de gauche notables ont carrément disparu de la surface de la Russie. Alors que certains sont jugés pour l'exemple, d'autres, en particulier les membres de base des partis SR, Mencheviks et Syndicalistes, sont exécutés sommairement ou déportés. Savinkov a personnellement présidé plusieurs de ces procès pour l'exemple, en particulier ceux de ses anciens camarades des Révolutionnaires Socialistes. En privé, à Merezhovskiy, il a fait remarquer à quel point c'était une catharsis de voir l'Okhrana, la police qu'il fuyait et craignait il y a trois décennies, se plier maintenant à tous ses caprices."
 rusd.131.a: "Tous les ennemis de la nation seront arrêtés"
 
 rusd.132.t: "La nation russe tout entière"
@@ -1417,11 +1434,6 @@ rusfor.47.d.authoritarian_GER: "L'histoire se répète - nous sommes à nouveau 
 rusfor.47.a: "Nous allons marcher sur l'avenue des Champs-Elysées !"
 rusfor.47.b: "Nous marcherons sous la Porte de Brandebourg !" 
 
-rusfor.51.t.1812: "Un nouveau 1812"
-rusfor.51.t.1328: "Un nouveau 1328"
- rusfor.51.d: "Nos ennemis ont atteint la périphérie de Moscou ! La nation doit se mobiliser pleinement pour les arrêter !"
-rusfor.51.a: "Il n'y a nulle part où battre en retraite, Moscou est derrière nous !"
-
  rusfor.52.t: "La Russie nous offre une alliance"
  rusfor.52.d: "Nous avons reçu une demande aujourd'hui de la part de [From.Capital.GetCapitalVictoryPointName] elle-même, ils souhaitent nous inviter dans une alliance militaire mutuellement bénéfique. Bien que [From.GetNameDef] ait certainement besoin de toute l'aide possible en ces temps incertains, nous devrions également envisager le risque d'être entraînés dans des enchevêtrements non désirés avec d'autres nations. Comment devons-nous répondre ?"
 rusfor.52.a: "Nous acceptons"
@@ -1450,7 +1462,7 @@ rusfor.53.a: "Excellent !"
  rusfor.57.a: "Leur perte."
 
  rusfor.58.t: "Accord d'amitié russo-finlandais"
- rusfor.58.d: "[From.GetNameDefCap] nous a envoyé une proposition surprenante. Pour assurer la sécurité de Saint-Pétersbourg et de [FIN.GetDefName] contre l'agression allemande omniprésente, nos deux nations doivent mettre de côté leurs désaccords et travailler ensemble pour une région balte plus sûre. Les Russes renoncent à toute revendication sur notre territoire, si en échange nous nous allions à eux et acceptons de défendre la région ensemble, et de ne pas céder à la pression allemande.\nIl y a une pointe à peine voilée dans leurs paroles, presque une manière d'acceptation présumée, mais leur offre semble authentique."
+ rusfor.58.d:9 "[From.GetNameDefCap] nous a envoyé une proposition surprenante. Pour assurer la sécurité de Saint-Pétersbourg et de [FIN.GetNameDef] contre l'agression allemande omniprésente, nos deux nations doivent mettre de côté leurs désaccords et travailler ensemble pour une région balte plus sûre. Les Russes renoncent à toute revendication sur notre territoire, si en échange nous nous allions à eux et acceptons de défendre la région ensemble, et de ne pas céder à la pression allemande.\nIl y a une pointe à peine voilée dans leurs paroles, presque une manière d'acceptation présumée, mais leur offre semble authentique."
  rusfor.58.a: "C'est une surprise, mais elle est la bienvenue."
  rusfor.58.b: "C'est un autre de leurs complots. Non !"
 
@@ -1818,15 +1830,21 @@ RUS_empire_national_populist_DEF: "l'Empire Russe"
  RUS_kirill_romanov_abs_leader_desc:0 "Grand Duke Kirill Vladimirovich, now Kirill I of Russia, is one of the most troublesome members of the House of Romanov. Strong-willed, ambitious, and determined to seize the throne, he has caused a headache to his first cousin, Nikolay II, several times. It is an open secret that during the February Revolution, Kirill actively worked against the Tsar and the rest of the House, even to the point where he ordered his men to raise the red flag above Petrograd - not because of any dedication to revolutionary ideals, but because of the hopes that he would become regent, or possibly even Tsar, after his cousin's abdication.\n\nAfter the execution of Nikolay and his family, Kirill claimed his rule over the scattered house of Romanov, a claim which was hotly contested by the rest of the family, who claimed that Kirill had no right to a restored Russian throne nor to lead the Russian royal family. By 1929, however, he was ultimately recognised, the untimely death of Grand Duke Nikolay certainly helped. While Kirill accepts his role as an unquestioned autocrat, it truly doesn't matter to him whether Russia is constitutional or authoritarian - as long as he is the one in charge."
 
  RUS_state_duma: "State Duma"
-
- RUS_vladimir_nabokov:0 "Vladimir Nabokov"
+ 
+ RUS_gerasim_vdovenko:9 "Gerasim Vdovenko"
  RUS_patriarch_kirill:0 "Patriarch Kirill"
+ RUS_sergey_obolensky:9 "Sergey Obolensky"
+ RUS_aleksandr_rodzyanko:9 "Aleksandr Rodzyanko"
+ RUS_ilya_fondaminsky:9 "Ilya Fondaminsky"
+ RUS_boris_bakhmetev:0 "Boris Bakhmetev"
  RUS_vasily_kharlamov:0 "Vasily Kharlamov"
- RUS_ivan_erdeli: "Ivan Erdeli"
- RUS_mikhail_bernatsky: "Mikhail Bernatskiy"
- RUS_aleksandr_kazembek: "Aleksander Kazembek"
- RUS_aleksey_putilov:0 "Aleksey Putilov"
- RUS_feliks_yusupov: "Feliks Yusupov"
+ RUS_nikolay_markov:9 "Nikolay Markov"
+ RUS_boris_vysheslavtsev:9 "Boris Vysheslavtsev"
+ RUS_pyotr_sokolov:9 "Pyotr Sokolov"
+ RUS_nikolay_kondratyev:9 "Nikolay Kondratyev"
+ RUS_aleksandr_liverovsky:9 "Aleksandr Liverovsky"
+ RUS_lev_kafenhaus:9 "Lev Kafenhaus"
+ RUS_aleksandr_voznesensky:9 "Aleksandr Voznesensky"
  RUS_klavdiy_foss: "Klavdiy Foss"
 
  RUS_anton_denikin: "Anton Denikin"
