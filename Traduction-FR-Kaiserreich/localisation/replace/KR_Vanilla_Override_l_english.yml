@@ -334,8 +334,8 @@
  MODIFIER_ORG_LOSS_AT_LOW_ORG_FACTOR: "Organisation loss when below 25%"
  MODIFIER_LOCAL_ORG_REGAIN: "Organisation Regain"
  MODIFIER_ARMY_ORG_REGAIN: "Army Organisation Regain"
- MODIFIER_OUT_OF_SUPPLY_FACTOR_DESC:1 "Reduces the organisation and recovery penalty that troops take when they run out of supplies."
- MODIFIER_OUT_OF_SUPPLY_DESC:1 "How severe an organisation and recovery penalty troops take when they run out of supplies."
+ MODIFIER_OUT_OF_SUPPLY_FACTOR_DESC: "Reduces the organisation and recovery penalty that troops take when they run out of supplies."
+ MODIFIER_OUT_OF_SUPPLY_DESC: "How severe an organisation and recovery penalty troops take when they run out of supplies."
  MODIFIER_ARMY_ORG: "Division Organisation"
  MODIFIER_ARMY_ORG_FACTOR: "Division Organisation"
  MODIFIER_NAVY_ORG: "Navy Organisation"
@@ -422,6 +422,12 @@
  MODIFIER_TRADE_TO_TARGET_FACTOR_DESC: "Extra produced resources available for trade to target country"
  MODIFIER_BREAKTHROUGH_BONUS_AGAINST_A_COUNTRY: "Breakthrough bonus against country"
  cl_tech_research: "Cruiser Research Speed"
+ temporary_state_resource_oil: "Oil"
+ temporary_state_resource_aluminium: "Aluminium"
+ temporary_state_resource_rubber: "Rubber"
+ temporary_state_resource_tungsten: "Tungsten"
+ temporary_state_resource_steel: "Steel"
+ temporary_state_resource_chromium: "Chromium"
 
 ### multiplayer_l_english
  HOST_LOADING_SAVEGAME: "Host started loading save game: $NAME|Y$."
@@ -446,7 +452,7 @@
  upgrade_commando_training: "Commando Training"
 
 ### politics_l_english
- POLITICS_LEADER: "§THead of State: $LEADER|H$§!"
+ POLITICS_LEADER: "§TCountry Leader: $LEADER|H$§!"
  POLITICS_NEXT_ELECTION: "Next Election: $DATE|H$"
  POLITICS_IDEA_CANCEL_DESC: "Will be cancelled if:"
 
@@ -780,8 +786,8 @@
  TRIGGER_HAS_DYMAMIC_MODIFIER: "Has Modifier: $NAME|H$ ($NUM|H$ days)\n"
  TRIGGER_HAS_NOT_DYMAMIC_MODIFIER: "Does not have Modifier: $NAME|H$\n"
  TRIGGER_HAS_RAILWAY_CONNECTION: "Has Railway connection between $START|H$ and $GOAL|H$\n"
- TRIGGER_IS_FRIEND:0 "Is ally of @$TAG$$OTHER|H$\n"
- TRIGGER_IS_NOT_FRIEND:0 "Is not ally of @$TAG$$OTHER|H$\n"
+ TRIGGER_IS_FRIEND: "Is ally of @$TAG$$OTHER|H$\n"
+ TRIGGER_IS_NOT_FRIEND: "Is not ally of @$TAG$$OTHER|H$\n"
 
 #Missing altogether
  TRIGGER_OVERLORD: "Overlord"
@@ -789,6 +795,7 @@
 #Changed from vanilla
  TRIGGER_IS_SUBJECT: "Is a subject of another country"
  TRIGGER_IS_NOT_SUBJECT: "Is fully independent"
+ TRIGGER_HAS_DYMAMIC_MODIFIER: "Has Modifier: $NAME|H$"
 
 ### units_l_english
  CURRENT_ORGANIZATION: "Organisation: $CUR|0Y$/$MAX|0Y$"

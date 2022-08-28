@@ -192,6 +192,8 @@
  CAN_promised_ireland_ind: "Promised §Y[IRE.GetName]§! full independence\n"
  entente_research_name: "The Imperial Scientific and Academic Council"
  entente_research_desc: "The Imperial Scientific and Academic Council is the scientific institute of the British Empire as well as the Entente."
+ joint_north_american_naval_programme_name: "Joint Canadian-American Naval Programme"
+ joint_north_american_naval_programme_desc: "The Joint Canadian-American Naval Programme is an effort to streamline naval development through the shared resources of America and Canada"
 
  CAN_not_currently_inviting: "Not currently inviting another member"
  CAN_rebellion_quelled: "Revolt has been quelled in this state"
@@ -277,20 +279,6 @@
  NAME_THEME_HISTORICAL_KTYPE_SUBMARINES: "Historical K-Type Submarines"
  NAME_THEME_HISTORICAL_NTYPE_SUBMARINES: "Historical N-Type Submarines"
  NAME_THEME_HISTORICAL_X1TYPE_SUBMARINES: "Historical X1-Type Submarines"
-
-### Traits ###
- CAN_autocratic_tendencies: "Autocratic Tendencies"
- CAN_unpopular_monarch: "Unpopular Monarch"
- CAN_humble: "Humble"
- CAN_popular_figurehead: "Popular Figurehead"
- CAN_biddable: "Biddable"
- CAN_army_experience: "Army Experience"
- CAN_smooth_talking_charmer: "Smooth Talking Charmer"
- CAN_hedonist: "Hedonist"
- CAN_returning_king: "The Returning King"
-
- CAN_british_exile_trait: "British Exile"
- CAN_british_exile_trait_desc: "§LOne of the military leaders that is loyal to the British government-in-exile, and who will return to the United Kingdom if and when it is restored.§!"
 
 ### Companies ###
  dominion_steel_and_coal: "Dominion Steel & Coal Corporation"
@@ -513,6 +501,7 @@
  CAN_erode_uob_legitimacy_desc: "Our efforts must be to convince the British people that the [ENG.GetName] government is and always was an illegitimate construction, as well as their true oppressor. If their will to fight on behalf of the syndicalists collapses, the reconstruction of the United Kingdom can truly begin."
  CAN_attack_uob: "Retake the Home Isles"
  CAN_attack_uob_desc: "We must be careful to time our attack carefully, as [From.GetNameDef] and its allies are far more powerful than us on an individual level. We cannot, however, sit on our hands forever. At some point, caution must be thrown to the wind, as fate favours the bold!"
+ CAN_return_home_war_threat: "Reclamation of the Home Isles"
  CAN_all_hands_on_deck: "All Hands on Deck!"
  CAN_all_hands_on_deck_desc: "The fight against the syndicalists will take everything we got - and that means casting our net for conscription wider than ever before."
  CAN_contact_british_loyalists: "Contact the British Loyalists"
@@ -625,7 +614,7 @@
  CAN_develop_ontario_chromium_mines: "Develop Chromium in [FROM.GetName]"
  CAN_develop_ontario_chromium_mines_desc: "We have discovered chromium deposits in northern Ontario, and it will take some time and effort to create a productive mine there."
  CAN_develop_quebec_chromium_mines: "Develop Chromium in [FROM.GetName]"
- CAN_develop_quebec_chromium_mines_desc: "We have discovered chromium deposits in Québec, and it will take some time and effort to create a productive mine there."
+ CAN_develop_quebec_chromium_mines_desc: "We have discovered chromium deposits in northern Québec, and it will take some time and effort to create a productive mine there."
 
 ### Focuses ###
  CAN_kings_speech: "The King's Speech"
@@ -2060,6 +2049,48 @@
  entente.277.d: "TThe [From.GetAdjective] government has refused our request for access to their bases in southern Africa. They don't wish to get involved."
  entente.277.a: "Unfortunate"
 
+ entente.278.t: "Negotiate For American Shipbuilding?"
+ entente.278.d.gbrexists: "While the United Kingdom has been restored, the royal navy is still greatly diminished since the British Revolution. Historically, the empire's fleet has always been constructed in the dockyards of Great Britain, but recent circumstances found us leaning more on our southern neighbor in the United States. Their dockyards helped us complete some of the larger battleships that we managed to secure from the Revolutionaries at the end of the civil war. As the dockyards back in Europe are busy rebuilding a fleet for [GBR.GetNameDef], perhaps we should reach out to our ally in [361.owner.GetNameDef] to see about leasing some of their shipyards to bolster our own forces?"
+ entente.278.d.gbrdoesnotexist: "Ever since the British Revolution, the dockyards that for centuries churned out the Royal Navy have fallen into enemy hands. Comparatively, local Canadian shipbuilding can not hope to match the home isles. If we are to retake the United Kingdom, we will need a large navy. Our southern neighbor has much more capability to do this than we do. Just as their dockyards were leased to finish the construction of the King George and King David dreadnoughts, should we approach [361.owner.GetNameDef] about leasing the Brooklyn Naval Yard to bolster our own fleet?"
+ entente.278.a: "A worthy venture."
+ entente.278.b: "The empire can produce enough."
+ entente.278.c: "We do not have the resources at the moment, but it is a tempting idea."
+
+ entente.279.t: "[CAN.GetNameDefCap] Requests Lease Of Brooklyn Yard"
+ entente.279.d.gbrexists: "While the Canadians and their British Exiles were able to successfully reclaim the United Kingdom, the Royal Navy has received its most critical blow ever since the battle of Jutland during the first world war. It will undoubtebly take years for the Royal Navy to rebuild to her former pre-revolution levels. As the dockyards in the home isles are busy rebuilding the British fleet, the Canadians have reached out with the possibility of leasing dockyards from us. Despite large gains in shipbuilding capacity developed during the exile, our shipyards can still far outpace their Canadian counterparts. If we agree to lease the Brooklyn Yard to the Canadians, they are offering us support in rebuilding the nation."
+ entente.279.d.gbrdoesnotexist: "As the dust settles on the Second American Civil War, we have been approached by the Canadians with an enticing offer. In exchange for leasing of the Brooklyn Naval Yard, they will contribute funding and other resource to help us rebuild the wartorn nation. If the Canadians and the British Exiles are to reconquer the United Kingdom they will need a strong navy; one that our shipyards could produce. This could also pave the way towards future cooperation between our two nations in shipbuilding. Our assistance in building ships to take part in the Homecoming would earn us much gratitude from our neighbors to the north."
+ entente.279.a: "We accept the terms"
+ entente.279.b: "We will keep the dockyard"
+
+ entente.280.t: "[FROM.GetNameDefCap] Agrees To Lease Brooklyn Yard"
+ entente.280.d: "Since 1801, the Brooklyn Naval Yard has served the interests of the American Navy by providing it with modern shipyards, facilities, drydocks - to build and refine some of the largest and most powerful warships of the American fleet. In the years before the Great War, the Brooklyn Naval Yard helped facilitate the construction of the Connecticut-class battleships although the workforce of the naval yard dropped significantly as a result of the Great Depression.\n\nDuring the Second American Civil War, the borough of Brooklyn became the battleground for some of the most intense and fierce fighting of the war. When [FROM.GetNameDefCap] asserted their full control over the city of New York, the Brooklyn Naval Yard was eventually rebuilt and refurbished (despite extensive war-time damage) to fulfill their naval capacities. Due to the necessity of maintaining the Royal Navy, our government has approached [FROM.GetNameDef] about their willingness to lease the dockyard. It appears that our persuasion and arguments have borne fruit since they have expressed their willingness to lease the Brooklyn Naval Yard for the time being in order to allow us to expand our naval power."
+ entente.280.a: "Splendid!"
+
+ entente.281.t: "[FROM.GetNameDefCap] Refuses To Lease Brooklyn Yard"
+ entente.281.d: "Since 1801, the Brooklyn Naval Yard has served the interests of the American Navy by providing it with modern shipyards, facilities, drydocks - to build and refine some of the largest and most powerful warships of the American fleet. In the years before the Weltkreig, the Brooklyn Naval Yard helped facilitate the construction of the Connecticut-class battleships although the workforce of the naval yard dropped significantly as a result of the Great Depression.\n\nDuring the Second American Civil War, the borough of Brooklyn became the battleground for some of the most intense and fierce fighting of the war. When [FROM.GetNameDefCap] asserted their full control over the city of New York, the Brooklyn Naval Yard was eventually rebuilt and refurbished (despite extensive war-time damage) to fulfill their naval capacities. Due to the necessity of maintaining the Royal Navy, our government has approached [FROM.GetNameDef] about their willingness to lease the dockyard. Unfortunately, our offer has been turned down. The government of [FROM.GetNameDefCap] has cited their own necessary purposes for their dockyard and have also sternly reminded our government, that despite the contribution we provided them in the American Civil War, they are unwilling to provide American land for our utilisation. Accordingly, we will have to continue developing our own naval capabilities on our own soil."
+ entente.281.a: "Unfortunate!"
+
+ entente.282.t: "[FROM.GetNameDefCap] Returns Brooklyn Yard" #ACW - CAN ends lease
+ entente.282.d: "With their conflict overseas over, the Canadian Government has formally approached us today regarding the status of the Brooklyn Naval Yard. They are extremely thankful for the aid that we have provided them in allowing us to utilise the naval facilities for their own construction purposes and are most of all, thankful that the labour pool drawn to aid them came from the American nation. However, with their conflict now over, they no longer have any purpose in maintaining control of the naval yard. In the spirit of our strong alliance, they have formally ended their lease to the Brooklyn Naval Yard, returning this valuable dockyard of liberty to the American nation."
+ entente.282.a: "A debt repaid!"
+
+ entente.283.t: "[FROM.GetNameDefCap] Recquistions The Brooklyn Yard" #CAN - ACW ends lease
+ entente.283.d: "A message came from the American government today that our lease to the Brooklyn Naval Yard has now been terminated. This comes as a result of [FROM.GetNameDef]'s' current state of war requiring that all of their naval facilities be utilised to their utmost potential in order to facilitate mass construction of warships, submarines, and aircraft carriers in the newly revived American navy. As such, while they value our friendship and alliance, they have cited that their current efforts require that our lease be terminated as they need all hands on deck for their coming storm. While this is regretful to hear, we wish them the best of luck in their endeavors and will do what we can to aid them in their conflict."
+ entente.283.a: "Understandable given the circumstances."
+
+ CAN_request_brooklyn_yard_lease: "Request Brooklyn Yard Lease" #decision
+ CAN_cancel_brooklyn_yard_lease: "Cancel Brooklyn Yard Lease"
+ CAN_ACW_cancel_brooklyn_yard_lease: "Abrogate Brooklyn Yard Lease"
+ CAN_backed_rebuilding: "Canadian Backed Reconstruction" #hidden idea
+ CAN_leased_brooklyn_yard: "Canadian Brooklyn Yard Lease" #dynamic modifier
+ CAN_lease_length: "\n§gFor the duration of the §YBrooklyn Yard Lease§!, the above §Cpolitical power§! and §Ccompliance gain§! will be applied across all of our territories§!"
+
+ CAN_create_naval_research_group: "Create Joint Naval Programme" #decision
+ entente.284.t: "Joint Naval Programme Created"
+ entente.284.d: "Both the United States Navy and the Royal Navy are distinguishable in their long-standing naval histories and experience throughout the world. The Royal Navy has always been the premier world navy especially in regards to maintaining control and protection of the former British Empire. When the British Revolution occurred, most of the experienced naval commanders of the former United Kingdom managed to flee to Canada with a large portion of their former fleet. Since then, they have maintained the quality and tradition of the Royal Navy - making them worthy heirs of the United Kingdom's former navy.\n\nThe United States Navy has long been the darling of its armed forces. First established in the American Revolutionary War, it has remained one of the largest and modern parts of the American Armed Forces up until the Second American Civil War. Most of the naval commanders from [FROM.GetNameDefCap] earned invaluable experience fighting on the high seas or partaking in blockade operations during the civil war.\n\nIn order to strengthen the bonds between our two countries and to modernise both countries' respective fleets, the Canadian Government and [FROM.GetNameDefCap] have agreed to create a new naval think tank. This collaboration seeks to not only modernise the navies of the Entente but also to share ideas on how to develop new ships and tactics with the advice from our engineers and shipbuilders. Together, we can push the boundaries of what is possible and ensure the freedom and liberty of the seas."
+ entente.284.a: "Together for victory!"
+ CAN_joint_naval_research_nontfv: "Joint North American Naval Programme"
+
  entente.300.t: "Cooperation with the Entente?"
  entente.300.d: "Many of our military experts believe our war against the Third Internationale will be a difficult one to win without some additional force applying pressure to the syndicalists. Fortunately, the experts in [From.GetNameDef] appear to agree. They have suggested that we meet with leaders from the [From.GetFactionName], now that they are also at war with [FRA.GetNameDef], and discuss the possibility we might work together. An alliance is out of the question, of course. What is the question is how much their cooperation is worth, considering they must fight the syndicalists anyhow."
  entente.300.a: "Let us meet - we'll help them however we can"
@@ -2303,46 +2334,24 @@
  CAN_william_samuel_stephenson: "William Samuel Stephenson"
 
  CAN_bernice_weldon_sargent: "Bernice Weldon Sargent"
- CAN_john_frederick_charles_fuller: "John Frederick Charles Fuller"
 
- CAN_bernard_montgomery: "Bernard Law Montgomery"
- CAN_harold_alexander: "Harold Rupert Alexander"
  CAN_bert_hoffmeister: "Bertram Meryl Hoffmeister"
  CAN_guy_simonds: "Guy Granville Simonds"
- CAN_henry_maitland_wilson: "Henry Maitland Wilson"
- CAN_adrian_carton_de_wiart: "Adrian Carton de Wiart"
  CAN_charles_foulkes: "Charles Howard Foulkes"
  CAN_andrew_mccaughton: "Andrew George Latta McNaughton"
  CAN_kenneth_stuart: "Kenneth Stuart"
- CAN_orde_wingate: "Orde Charles Wingate"
- CAN_robert_brooke_popham: "Robert Brooke-Popham"
  CAN_georges_vanier: "Georges-Philias Vanier"
- CAN_philip_neame: "Philip Neame"
- CAN_alan_brooke: "Alan Francis Brooke"
- CAN_richard_o_connor: "Richard Nugent O'Connor"
- CAN_john_dill: "John Greer Dill"
- CAN_john_vereker: "John Vereker"
  CAN_john_hamilton_roberts: "John Hamilton Roberts"
  CAN_harry_leonard_nowell_salmon: "Harry Leonard Nowell Salmon"
  CAN_george_kitching: "George Kitching"
  CAN_garner_ormsby_currie: "Garner Ormsby Currie"
 
- CAN_john_cunningham: "John Cunningham"
  CAN_percy_nelles: "Percy Walker Nelles"
- CAN_louis_mountbatten: "Louis Mountbatten"
  CAN_harry_dewolf: "Harry George DeWolf"
- CAN_roger_backhouse: "Roger Roland Charles Backhouse"
- CAN_tom_phillips: "Tom Spencer Vaughan Phillips"
- CAN_dudley_pound: "Alfred Dudley Pound"
  CAN_leonard_murray: "Leonard Warren Murray"
- CAN_james_somerville: "James Fownes Somerville"
- CAN_john_tovey: "John Cronyn Tovey"
  CAN_horatio_nelson_lay: "Horatio Nelson Lay"
 
  CAN_william_avery_bishop: "William Avery Bishop"
- CAN_arthur_travers_harris: "Arthur Travers Harris"
- CAN_charles_frederick_algernon_portal: "Charles Frederick Algernon Portal"
  CAN_clifford_mackay_mcewen: "Clifford Mackay McEwen"
- CAN_hugh_montague_trenchard: "Hugh Montague Trenchard"
  CAN_george_owen_johnson: "George Owen Johnson"
  CAN_robert_leckie: "Robert Leckie"
