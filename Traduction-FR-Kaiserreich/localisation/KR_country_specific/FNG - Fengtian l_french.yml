@@ -150,6 +150,7 @@ FNG_Disagreements_in_Economic_Policy_desc: "Yang Yuting a eu quelques désaccord
 
 ### World Tension ###
  FNG_zhifeng_war_threat: "Cinquième Guerre de Zhifeng"
+ FNG_qing_feng_war_threat: "Guerre Qing-Fengtian"
 
 ### Decisions ###
  FNG_Join_The_Zhifeng_War: "Rejoindre la Guerre [QIE.GetAdjective]-[FNG.GetAdjective]."
@@ -262,7 +263,7 @@ FNG_railways: "Construction de chemins de fer"
  FNG_Liaobei_Jilin_Infrastructure: "Développer les infrastructures à Liaobei et Jilin"
  FNG_Nenjiang_Songjiang_Infrastructure: "Développer les infrastructures à Nenjinang et Songjiang"
  FNG_Railway_Construction_Jilin_Hailong: "Terminer la ligne Jilin-Hailong"
- FNG_Railway_Construction_Jilin_desc: "Le premier grand projet de la CTN réorganisée est le chemin de fer Jilin-Hailong, initialement prévu en 1927. Malheureusement, le projet a pris beaucoup de retard en raison de l'éclatement de la guerre dans le sud et des tentatives japonaises de retarder la construction. La ligne fonctionne de manière limitée depuis 1931, mais reste incapable de remplir son véritable objectif : fournir une alternative stratégique contrôlée par la Chine à la ligne principale du chemin de fer de Mandchourie du Sud."
+ FNG_Railway_Construction_Jilin_Hailong_desc:0 "Le premier grand projet de la CTN réorganisée est le chemin de fer Jilin-Hailong, initialement prévu en 1927. Malheureusement, le projet a pris beaucoup de retard en raison de l'éclatement de la guerre dans le sud et des tentatives japonaises de retarder la construction. La ligne fonctionne de manière limitée depuis 1931, mais reste incapable de remplir son véritable objectif : fournir une alternative stratégique contrôlée par la Chine à la ligne principale du chemin de fer de Mandchourie du Sud."
  FNG_Railway_Construction_Changchun_Dalai: "Construire la ligne Changchun-Dalai"
  FNG_Railway_Construction_Changchun_Dalai_desc: "Le prochain grand projet de la CTN est la ligne Changchun-Dalai, qui a été proposée à l'origine par les Japonais dans le cadre d'un projet plus vaste visant à relier les petites lignes provinciales de Mantetsu aux lignes centrales traversant les grandes villes. Pour nous, son achèvement sert un objectif stratégique ; elle devrait faciliter le déplacement des hommes et des matériaux du nord au sud de manière significative, et surtout, sans dépendre de la ligne ferroviaire de Mantetsu en Mandchourie du Sud."
  FNG_Railway_Construction_Taonan_Suolun: "Construire la ligne Taonan-Suolun"
@@ -443,8 +444,6 @@ FNG_leads_to_reclamation_war: "Commence la voie vers la §Rguerre§! avec §Y[60
  FNG_dongbei_tejian: "La division de chars §YDongbei Tejian§! va apparaître près de [745.GetCapitalVictoryPointName].\n"
 
  FNG_shanhaiguan_modifier_desc: "Nos infiltrés vont appliquer les effets suivants au §Y[608.Owner.GetName]§! de §YTangshan§!\nRenseignements aux ennemis : §R+200%§!\n$MODIFIERS_ARMY_DEFENCE_FACTOR$ : §R-80.0%§!\n"
-
-FNG_CCPOP_5: "§HAssociation Concordia§! changement d'influence : §G5.00%§!\n"
 
 FNG_move_capital_to_beijing: "Déplacement de la capitale vers §YBeijing§!\n"
 
@@ -669,6 +668,8 @@ FNG_MANTETSU_COLLAB: "Collaboration Mantetsu"
 FNG_SILVER_RESERVE_FULL: "Réserve d'argent pleine"
 FNG_NATIONAL_RECLAMATION_SUPPORT: "Le Japon soutient la guerre de reconquête nationale"
 FNG_NATIONAL_RECLAMATION_NO_SUPPORT: "Le Japon a refusé de soutenir la guerre de reconquête nationale"
+ FNG_FENGTIAN_PARADE: "Le gouvernement de Fengtian a paradé seul"
+ FNG_JAPAN_PARADE: "Le Japon a refusé de parader avec nous"
 
 ### Focuses ###
 FNG_Preservation_of_the_Xinhai_Order: "Préservation de la révolution Xinhai"
@@ -1405,13 +1406,13 @@ fengtian.971.t: "Le Japon refuse d'envoyer du matériel"
 fengtian.971.d: "Le Japon a refusé notre demande d'expédition de matériel, en invoquant ses propres "besoins plus importants" Certes, c'est loin d'être surprenant"
 fengtian.971.a: "Tant pis pour la fraternité panasiatique"
 
-fengtian.98.t: "Réservoirs excédentaires du Japon"
- fengtian.98.d: "Bien que les Japonais aient refusé, comme on pouvait s'y attendre, de nous envoyer leur dernier équipement blindé, ils ont accepté d'envoyer un certain nombre de chars légers excédentaires d'un modèle plus ancien mais pas entièrement obsolète."
-fengtian.98.a: "Bien."
+ fengtian.98.t: "Chars obsolètes du Japon"
+ fengtian.98.d:0 "Bien que les Japonais aient refusé, comme on pouvait s'y attendre, de nous envoyer leur dernier équipement blindé, seuls les plus cyniques anticipaient l'arrivée des chars rouillés et cabossés de l'ère Weltkrieg qui sont actuellement déchargés à Yingkou. Bien qu'ils soient mieux que rien du tout, c'est nettement décevant"
+ fengtian.98.a: "Ainsi soit-il."
 
-fengtian.99.t: "Chars obsolètes du Japon"
- fengtian.99.d: "Bien que les Japonais aient refusé, comme on pouvait s'y attendre, de nous envoyer leur dernier équipement blindé, seuls les plus cyniques anticipaient l'arrivée des chars rouillés et cabossés de l'ère Weltkrieg qui sont actuellement déchargés à Yingkou. Bien qu'ils soient mieux que rien du tout, c'est nettement décevant"
-fengtian.99.a: "Ainsi soit-il."
+ fengtian.99.t: "Chars en surplus du Japon"
+ fengtian.99.d:0 "Bien que les Japonais aient refusé, comme on pouvait s'y attendre, de nous envoyer leur dernier équipement blindé, ils ont accepté d'envoyer un certain nombre de chars légers excédentaires d'un modèle plus ancien mais pas entièrement obsolète."
+ fengtian.99.a: "Bien"
 
 fengtian.100.t: "Fengtian demande des chars légers"
  fengtian.100.d1: "Le gouvernement de Fengtian a depuis longtemps un avantage sur ses rivaux chinois grâce à nos fréquentes aides matérielles. Dans ce cas particulier, on nous demande des chars légers, qui sont mieux adaptés que les modèles plus lourds aux terrains accidentés et aux infrastructures primitives de la Chine. Les derniers véhicules blindés seraient gaspillés, voire carrément dangereux, entre les mains des Chinois, mais nous avons des stocks excédentaires de chars à peine dépassés qui pourraient être appréciés. Nous pourrions aussi envoyer des équipements encore plus anciens sans frais réels pour nous, bien que nous puissions bien sûr choisir de ne rien envoyer du tout"
@@ -2019,7 +2020,7 @@ fengtian.228.d: "Le gouvernement fengtien a déclaré que notre attitude intrans
 
  fengtian.229.t: "Le fengtian présente un compromis"
 fengtian.229.d1split: "Le gouvernement fengtien, dans un effort pour résoudre notre problème avec le Shandong, a proposé un compromis. Ils disent qu'en divisant la province du Jiangsu, nous obtiendrons tous deux quelque chose de valeur. Nous obtiendrions Huaiyang, y compris Nantong. Bien sûr, nous ne pouvons pas accepter cela, car Xuhai est le cœur du Jiangsu, et la ville de Xuzhou est un important nœud ferroviaire. Nous ne pouvons pas accepter de céder une partie des cinq provinces ! Fengtian n'a absolument pas réussi à désamorcer la situation"
-fengtian.229.d1specrzhang: "Le gouvernement fengtien, dans un effort pour résoudre notre problème avec le Shandong, a proposé un compromis. Ils disent que nous allons contrôler la province politiquement. Nous devrions nommer un gouverneur quelque peu indépendant en signe de bonne volonté envers le Shandong. En échange, Zhang obtiendrait le contrôle économique de la province, ce qui signifie qu'il est autorisé à prélever des impôts et à mener des recrutements. Cela signifie que nous pouvons dire de manière plausible que nous contrôlons l'ensemble des cinq provinces. Permettre à Zhang ce contrôle économique est un petit prix à payer pour la paix, surtout si cela rend Fengtian, notre bienfaiteur, heureux"
+ fengtian.229.d1specrzhang: "Le gouvernement fengtien, dans un effort pour résoudre notre problème avec le Shandong, a proposé un compromis. Ils disent que nous allons contrôler la province politiquement. Nous devrions nommer un gouverneur quelque peu indépendant en signe de bonne volonté envers le Shandong. En échange, Zhang obtiendrait le contrôle économique de la province, ce qui signifie qu'il est autorisé à prélever des impôts et à mener des recrutements. Cela signifie que nous pouvons dire de manière plausible que nous contrôlons l'ensemble des cinq provinces. Permettre à Zhang ce contrôle économique est un petit prix à payer pour la paix, surtout si cela rend Fengtian, notre bienfaiteur, heureux"
 fengtian.229.d1specrchen: "Le gouvernement fengtien, dans un effort pour résoudre notre problème avec le Shandong, a proposé un compromis. Ils disent que nous aurions permis que le contrôle politique soit entre les mains de Zhang, qui aurait nommé un gouverneur quelque peu indépendant en signe de bonne volonté. En échange, nous obtiendrions le contrôle économique de la province, ce qui inclut la perception d'impôts. C'est bien, mais cela signifierait que sur toutes les cartes, c'est Zhang qui détient le Jiangsu. Nous céderions une partie intégrante de notre territoire, l'une des cinq provinces. C'est inacceptable !"
 fengtian.229.d2split: "Le gouvernement fengtien, dans un effort pour résoudre notre problème avec le Shandong, a proposé un compromis. Ils disent qu'en divisant la province de Jiangsu, nous obtiendrons tous deux quelque chose de valeur. Nous obtiendrions Xuhai, qui comprend la ville de Xuzhou, qui est un important nœud ferroviaire. Bien sûr, nous ne pouvons pas accepter cela, car cela laisse la région sans accès à la mer et signifie également que pour tous nos efforts dans la guerre, nous n'obtenons que la moitié d'une province ! Nous ne pouvons pas accepter une proposition aussi ridicule. Fengtian n'a absolument pas réussi à désamorcer la situation"
 fengtian.229.d2specrzhang: "Le gouvernement fengtien, dans un effort pour résoudre notre problème avec le Shandong, a proposé un compromis. Ils disent que Chen contrôlera la province politiquement et devra nommer un gouverneur quelque peu indépendant en signe de bonne volonté à notre égard. En échange, nous obtiendrons le contrôle économique de la province, ce qui signifie que nous serons autorisés à prélever des impôts et à procéder à des recrutements. Cela signifie que nous n'aurons pas d'expansion territoriale à montrer pour nos efforts contre la Ligue, mais la province du Jiangsu est très riche. Cela nous permettrait de renforcer considérablement nos rangs également et nous donnerait amplement l'occasion d'étendre nos armées afin de frapper à nouveau à l'avenir. Cependant, avoir un contrôle total reste l'idéal et si Chen est capable de reconstruire, il sera très difficile de le vaincre un jour"
@@ -3168,10 +3169,6 @@ fngconf.71.d: "Fengtian a pris parti contre nous concernant les revendications t
 fngconf.71.a: "Cède le territoire contesté."
 fngconf.71.b: "Quittez la conférence."
 
-fngconf.72.t: "Ma Clique revendique le Xinjiang"
-fngconf.72.d: "Dans une démonstration d'avidité scandaleuse, les Mas ont revendiqué la totalité de notre territoire à la Conférence, ce qui signifie qu'ils nous annexeront effectivement si cela va de l'avant ! Nous devons faire quelque chose, sinon notre indépendance disparaîtra !"
-fngconf.72.a: "Déposez une protestation !"
-
 fngconf.73.t: "Fin de la conférence d'unification"
  fngconf.73.d.success: "Zhang Zuolin a accompli ce que beaucoup ont qualifié d'impossible. Le monde entier a regardé les participants à la conférence se frayer un chemin à travers leurs nombreux points de friction et, à la surprise de nombreux observateurs tant au niveau national qu'international, les Chinois ont réussi à mettre de côté leurs différences et à s'unir pour le bien commun de leur pays. La plupart des Chinois ont enfin une chance de connaître une paix et une unité durables après le dur labeur accompli par les nombreux diplomates présents à la conférence.\n\nÀ la fin de la conférence, des plaisanteries et des formalités ont été échangées. Certains étaient plus heureux que d'autres des accords qui avaient été conclus, mais tous étaient bien conscients que l'histoire était écrite. Lors de la cérémonie de clôture, le maréchal fengtien a tenu un discours dans lequel il a exprimé sa plus sincère gratitude aux participants pour leur travail acharné au cours des épreuves et des tribulations que la conférence avait posées. En effet, ils avaient tous réussi à prouver au monde que les Chinois étaient capables de se rassembler, de mettre leurs différences de côté et d'œuvrer pour un avenir meilleur.\n\nLa Chine est maintenant plus proche que jamais d'être unie. Grâce aux efforts de Zhang Zuolin et à ceux des délégués, un bain de sang sans précédent a probablement été évité également."
 fngconf.73.d.failure: "Les opposants étaient nombreux, et leur pessimisme n'était pas sans raison, même s'il est probable qu'ils se contentent pour l'instant d'appeler cela une perspective réaliste. Au fur et à mesure que les choses allaient d'un échec à l'autre, ils ont malheureusement eu raison à maintes reprises, alors que la malheureuse mascarade d'une conférence se poursuivait jusqu'à ce que le clou final soit mis dans son cercueil. La conférence s'est terminée sans grande fanfare et aucun gagnant n'a pu être compté parmi les participants. Ce qui avait été entrepris avec tant d'espoir par le maréchal Zuolin ne sera plus qu'une note de bas de page historique parmi les nombreuses autres initiatives ratées pour rassembler la Chine"
@@ -3357,6 +3354,11 @@ FNG_JAP_national_populist_DEF: "le Gouvernement réformé de la Chine"
  FNG_jin_yunpeng:0 "Jin Yunpeng"
  FNG_pan_fu:0 "Pan Fu"
  FNG_cao_rulin:0 "Cao Rulin"
+
+ FNG_guan_xiangying: "Guan Xiangying"
+ FNG_guan_xiangying_desc: "Issu d'une famille mandchoue du clan Guerjia, Guan Xiangying a vu dès son plus jeune âge les horreurs de l'impérialisme en travaillant dans une imprimerie financée par les Japonais. Il a vu la Mandchourie tomber progressivement sous l'influence des Japonais et a été le témoin direct de la corruption rampante de la clique Fengtian, qui domine les vastes plaines de Mandchourie. À l'âge de 22 ans, il rejoint une ligue de jeunesse socialiste et, lorsque l'expédition du Nord vers le sud éclate en 1925, il adhère au parti syndicaliste chinois - rejoignant ainsi beaucoup d'autres personnes dans une ferveur de nationalisme anti-impérialiste.\n\nMalheureusement, avec l'effondrement de l'Expédition du Nord et la désintégration du Kuomintang, le Parti syndicaliste chinois se retrouve encore plus désorganisé. En ces temps difficiles, Guan a été contraint, comme beaucoup d'autres, de se cacher et d'attendre son heure pour la révolution. Et pourtant, la révolution est bel et bien venue. Les troupes socialistes étrangères ayant libéré la Mandchourie des Japonais et de la clique Fengtian, Guan est sorti de la clandestinité et de la guérilla pour participer à la direction d'une nouvelle Mandchourie révolutionnaire - une Mandchourie qui défendra et valorisera le véritable travail des peuples de Mandchourie !"
+
+
 
  FNG_yang_yuting: "Yang Yuting"
  FNG_yang_yuting_commander_desc:0 "§YGeneral Description\n§YBorn:§L\nAugust 29th, 1885\nFaku, Fengtian, Qing Empire\n§YMilitary Career:§L\nYang Yuting served as the Fengtian's Clique Chief of Staff during its early days, and participated in early raids against Zhili with Xu Shuzheng of the Anhui Clique. Since then, he has served as the Chief of Staff for the Fengtian Army, Army Training Director, and manager of the Three Northeast Provinces Armament Factory.\nHe has long been a core member of Zhang Zuolin's inner circle, but he has an informal relationship with the Japanese Kwantung Army which has called his loyalties into question. Some say he considers the Japanese to present an opportunity to gian fortune and power. He opposes the possible succession of Zhang Xueliang to his father's position, and is known for a regionalist attitude; sceptical of Zhang's ambitions to reunite China.\nAlthough he could be considered a member of the Concordia Association, he is more accurately the leader of the "Shikan Clique", an informal group of Fengtian officials originally sent to study at Japanese institutions."

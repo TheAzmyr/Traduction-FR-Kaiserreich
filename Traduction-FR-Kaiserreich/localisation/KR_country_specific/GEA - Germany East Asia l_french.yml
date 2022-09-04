@@ -17,10 +17,10 @@ GEA_market_liberal_party: "NLP"
 GEA_market_liberal_party_long: "Nationalliberale Partei"
 GEA_social_conservative_party: "La Ligue des Sultans"
 GEA_social_conservative_party_long: "La Ligue des Sultans"
-GEA_authoritarian_democrat_party: "La Clique d'Hellmuth"
-GEA_authoritarian_democrat_party_long: "La Clique d'Hellmuth"
-GEA_paternal_autocrat_party: "La Clique d'Hellmuth"
-GEA_paternal_autocrat_party_long: "La Clique d'Hellmuth"
+ GEA_authoritarian_democrat_party: "Administration Coloniale"
+ GEA_authoritarian_democrat_party_long: "Administration Coloniale"
+ GEA_paternal_autocrat_party: "Administration Coloniale"
+ GEA_paternal_autocrat_party_long: "Administration Coloniale"
 GEA_national_populist_party: "LNM"
 GEA_national_populist_party_long: "Ligue nationale de Malaisie"
 
@@ -68,6 +68,10 @@ GEA_Nantong_locked: "- §RNantong§!"
 ### Opinion Modifier ###
  LEP_refused_help_modifier: "Ils ont refusé notre aide !"
  sinogerman_cooperation: "Coopération sino-allemande"
+
+### State Modifiers ###
+ GER_east_asian_naval_yards: "Chantiers Navals d'Asie de l'Est"
+ GER_east_asian_naval_yards_desc: "Un certain nombre de chantiers navals de cet État sont sous le contrôle de l'amirauté de l'Asie de l'Est et servent leurs flottes."
 
 ### Focuses ###
 GEA_mission1: "La situation de l'Amirauté"
@@ -338,7 +342,7 @@ Ostasien.17.a: "Ils peuvent gérer ça."
 Ostasien.17.b: "Envoyez des renforts !"
 Ostasien.17.c: "Une guerre en Asie ? Tally ho !"
 
-Ostasien.18.t: "L'Union indochinoise envoie une proposition de paix"
+ Ostasien.18.t: "[INC.GetNameDefCap] envoie une offre de paix"
 Ostasien.18.d: "Le soulèvement en Indochine s'est aggravé. Les positions clés sont tombées aux mains de bandits Viet Minh et nous avons du mal à nous en sortir. Maintenant, les rebelles indochinois nous envoient une initiative de pourparlers de paix. Bien que l'on craigne que cela ne soit considéré comme une humiliation, il pourrait être judicieux de renoncer au contrôle de la région."
 Ostasien.18.a: "Non, nous continuerons à combattre ces rebelles !"
 Ostasien.18.b: "On ne peut plus se permettre de se battre."
@@ -588,10 +592,10 @@ GEA_take_east_asian_navy: "Prendre le contrôle de la marine d'Extrême-Orient"
 
  GEA_development_idea: "Opérations minières"
  #Change to the German spelling 'Johore' for lore-consistency:
- GEA_develop_aluminum_deposits: "Développer l'exploitation de bauxite dans [GetNameGEAJohore]"
- GEA_develop_aluminum_deposits_desc: "Nos prospecteurs ont découvert un riche gisement de bauxite dans l'état de [GetNameGEAJohore], parfait pour la production d'aluminium. Bien que le coût initial de l'extraction soit important, le tonnage prévu en vaut la peine."
- GEA_develop_aluminum_deposits_wtt: "Développer l'exploitation de bauxite dans [GetNameGEAJohore]"
- GEA_develop_aluminum_deposits_wtt_desc: "Nos prospecteurs ont découvert un riche gisement de bauxite dans l'état de [GetNameGEAJohore], parfait pour la production d'aluminium. Bien que le coût initial de l'extraction soit important, le tonnage prévu en vaut la peine."
+ GEA_develop_aluminium_deposits:0 "Développer l'exploitation de bauxite dans [GetNameGEAJohore]"
+ GEA_develop_aluminium_deposits_desc:0 "Nos prospecteurs ont découvert un riche gisement de bauxite dans l'état de [GetNameGEAJohore], parfait pour la production d'aluminium. Bien que le coût initial de l'extraction soit important, le tonnage prévu en vaut la peine."
+ GEA_develop_aluminium_deposits_wtt:0 "Développer l'exploitation de bauxite dans [GetNameGEAJohore]"
+ GEA_develop_aluminium_deposits_wtt_desc:0 "Nos prospecteurs ont découvert un riche gisement de bauxite dans l'état de [GetNameGEAJohore], parfait pour la production d'aluminium. Bien que le coût initial de l'extraction soit important, le tonnage prévu en vaut la peine."
  #Change to the German spelling 'Johore' for lore-consistency:
 GEA_develop_sarawak_oil: "Opérations pétrolières au Sarawak" #Change to the German spelling 'Johore' for lore-consistency
 GEA_develop_sarawak_oil_desc: "Nos niveaux de consommation de pétrole sont actuellement incapables de soutenir notre flotte en cas d'opérations navales à long terme. Toutefois, en augmentant notre production locale de pétrole à Bornéo, nous pouvons commencer à constituer une réserve pour éviter les pénuries de carburant."

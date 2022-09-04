@@ -615,13 +615,13 @@ amcivwar.325.d: "Des rapports contradictoires sur les batailles entre les milice
 amcivwar.325.a: "C'est un soulagement"
 amcivwar.325.b: "Traîtres !"
 
-amcivwar.326.t: "La victoire des syndicalistes à New York"
-amcivwar.326.d: "La bataille entre les milices syndicalistes à New York, jusqu'au sud du New Jersey, s'est terminée par la victoire des forces syndicalistes. Bien qu'elles n'aient pas étendu leur contrôle au reste de l'État de New York, le gouverneur ayant déclaré l'état d'urgence et bloqué les ponts menant à la ville elle-même, les zones les plus peuplées des deux États sont désormais fermement sous le contrôle des syndicalistes, des barricades ayant déjà été érigées le long des frontières sud de l'État du New Jersey"
+ amcivwar.326.t: "La victoire des syndicalistes au New Jersey"
+ amcivwar.326.d: "La bataille entre les milices syndicalistes à travers le New Jersey, de Newark jusqu'au sud près de Philadelphie, s'est terminée avec la victoire des forces syndicalistes. Bien qu'elles n'aient pas étendu leur contrôle au reste de l'État de New York, le gouverneur ayant déclaré l'état d'urgence et bloqué les ponts menant à la ville elle-même, les zones les plus peuplées des deux États sont désormais fermement sous contrôle syndicaliste, des barricades ayant déjà été érigées le long des frontières sud de l'État du New Jersey."
 amcivwar.326.a: "Une victoire bienvenue"
 amcivwar.326.b: "Une perte malheureuse"
 
-amcivwar.327.t: "Les fédéralistes victorieux à New York"
- amcivwar.327.d: "La bataille entre les milices syndicalistes à New York, jusqu'au sud du New Jersey, s'est terminée par une victoire des forces fédérales. Les chefs des milices syndicalistes sont déjà rassemblés et emprisonnés, bien que beaucoup aient disparu dans les zones urbaines et que des rapports de violence persistent. En effet, il faudra probablement des mois pour que le gouvernement fédéral rétablisse un contrôle ferme sur la zone urbaine. Pour l'instant, les forces loyales au gouvernement se concentrent sur la sécurisation de la côte est et le renforcement de la frontière avec la Pennsylvanie voisine"
+ amcivwar.327.t: "Les fédéralistes victorieux au New Jersey"
+ amcivwar.327.d: "La bataille entre les milices syndicalistes à travers le New Jersey, de Newark jusqu'au sud près de Philadelphie, s'est terminée avec les forces fédérales qui ont déclaré la victoire. Les chefs des milices syndicalistes ont déjà été arrêtés et emprisonnés, bien que beaucoup aient disparu dans les zones urbaines où l'on signale encore des violences. En effet, il faudra probablement des mois au gouvernement fédéral pour rétablir un contrôle ferme sur la zone urbaine. Pour le moment, les forces loyales au gouvernement se concentrent sur la sécurisation de la côte est et le renforcement de la frontière avec la Pennsylvanie voisine et la ville de New York assiégée."
 amcivwar.327.a: "Une victoire bienvenue"
 amcivwar.327.b: "Une perte malheureuse"
 amcivwar.327.c: "Intéressant"
@@ -1053,3 +1053,23 @@ amcivwar.616.a: "Il est temps de se reposer, chers vétérans"
  amcivwar.768.d: "La rébellion de la Nouvelle-Angleterre contre notre régime étant écrasée, nous avons sécurisé la région dissidente qui s'était réfugiée sous le bras canadien en 1937. Deux généraux éminents de l'opposition étaient Leslie Groves et Mark Clark de la Nouvelle-Angleterre. Alors qu'ils attendent leur sort, beaucoup commencent à se demander si ces hommes n'ont pas été simplement forcés à se battre contre nous par les Canadiens qui ne souhaitaient pas voir leur morceau d'Amérique retourner chez eux. Aucune preuve n'indique d'actes flagrants commis par l'un ou l'autre de ces hommes dans leur défense de la Nouvelle-Angleterre. De plus, les deux hommes promettent de servir fidèlement le drapeau de [ROOT.GetNameDef] s'ils peuvent recevoir un pardon officiel de notre gouvernement."
  amcivwar.768.a: "Leur accorder le pardon"
  amcivwar.768.b: "On ne peut pas leur faire confiance"
+
+# ACW Desertions
+ ACW_unit_desertion_tt: "Une petite partie de l'armée désertera vers [FROM.GetNameDef] !\n\n§gCela entraînera une réduction de 25% de l'organisation et de 5% de la force sur l'ensemble du front. Nous devons pousser en terre ennemie pour éviter des désertions répétées à l'avenir !§!"
+ ACW_state_desertion_tooltip: "Une petite partie de l'armée va déserter vers [FROM.GetNameDef] !\n\n§gCela entraînera une réduction de 25% de l'organisation et de 10% de la force des unités en [acw_state_control_changed.GetName]. Nous devons empêcher l'ennemi de s'emparer des capitales d'état pour éviter des désertions répétées à l'avenir !§!"
+
+ amcivwar.801.t: "Désertions au Front"
+ amcivwar.801.d: "Avec la récente chute de [acw_state_control_changed.GetName] au profit de [acw_new_controller.GetNameDef], le moral des troupes [acw_old_controller.GetAdjective]s est tombé bien bas. On rapporte même que de petites quantités de troupes ont commencé à déserter l'armée [acw_old_controller.GetAdjective] et à se frayer un chemin à travers les lignes [acw_new_controller.GetAdjective]s pour combattre pour [acw_new_controller.GetNameDef]."
+ amcivwar.801.a: "Nous devons renforcer le moral des troupes !"
+
+ amcivwar.802.t: "Désertions au Front"
+ amcivwar.802.d: "Avec la récente chute de [acw_state_control_changed.GetName] au profit de [acw_new_controller.GetNameDef], le moral des troupes [acw_old_controller.GetAdjective]s est tombé bien bas. On rapporte même que de petites quantités de troupes ont commencé à déserter l'armée [acw_old_controller.GetAdjective] et à se frayer un chemin à travers les lignes [acw_new_controller.GetAdjective]s pour combattre pour [acw_new_controller.GetNameDef]."
+ amcivwar.802.a: "Bienvenue à la libération !"
+
+ amcivwar.805.t: "Des désertions croissantes sur les lignes de front"
+ amcivwar.805.d: "Alors qu'elles avaient initialement l'espoir d'une victoire, les armées de [acw_losing_side.GetNameDef] ont souffert de problèmes logistiques et moraux dus à la perte récente du contrôle de leurs territoires. En conséquence, nos services de renseignement ont rapporté que, malgré leur propagande annonçant une éventuelle victoire totale, leur front intérieur et leurs lignes de front ont été paralysés par un moral bas et un défaitisme.\n\nAlors que la guerre civile se prolonge, et que les Américains se battent contre les Américains, un petit nombre de leurs forces armées ont commencé à se faufiler à travers le champ de bataille vers nos lignes pour passer dans notre armée. Voyant notre cause comme juste et voulant peut-être finir du bon côté de l'histoire, ils ont offert leurs services aux forces armées de [acw_winning_side.GetNameDef]- promettant fidélité au gouvernement légitime de l'Amérique !"
+ amcivwar.805.a:0 "Notre cause est juste !"
+
+ amcivwar.806.t: "Nos troupes font défection !"
+ amcivwar.806.d: "Lorsque nous sommes entrés dans la mêlée, nous avons compris la difficulté et l'épreuve qui nous attendaient en tant que faction plus mineure de la guerre civile américaine. Malgré les meilleurs efforts de notre haut commandement militaire et de nos industries civiles, nos forces ont subi des défaites successives sur les lignes de front, et nos civils commencent à faire l'expérience des difficultés de la guerre. En conséquence, les officiers de première ligne signalent au haut commandement militaire un nombre croissant de problèmes logistiques et moraux.\n\nMalheureusement, cela concerne également les nombreux détachements de nos forces armées qui considèrent que notre cause est perdue et qui ont commencé à passer du côté de [acw_winning side.GetNameDef]. Comme les Américains se battant contre les Américains dans la guerre civile, ils ont vu notre position comme apparemment ingagnable et ont donc décidé de rejoindre ce qu'ils croyaient être le côté légitime de l'histoire. Bien que nous donnions des ordres stricts pour encourager la discipline, notre situation devient de plus en plus désespérée chaque jour."
+ amcivwar.806.a: "Nous ne tolérerons pas la trahison sur les lignes de front !"

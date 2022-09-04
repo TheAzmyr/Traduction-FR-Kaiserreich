@@ -38,9 +38,9 @@
  NMB_ADJ: "Namibien"
  NMB_DEF: "la Namibie"
 
- NMB_GER: "Südwestafrika"
- NMB_GER_ADJ: "Südwestafrikaner"
- NMB_GER_DEF: "Südwestafrika"
+ NMB_GER: "Afrique du Sud-Ouest"
+ NMB_GER_ADJ: "Sud-Ouest Africain"
+ NMB_GER_DEF: "Afrique du Sud-Ouest"
 
 ### Decisions ###
  NMB_invade_target: "Envahir [FROM.GetNameDef]"
@@ -115,7 +115,7 @@
  NMB_assault_ready: "L'unité d'assaut n'a pas été découverte"
  NMB_assault_tooltip: "Cela donnera naissance à §Ydeux divisions de milice§! dans le nord-ouest du Namibland."
  NMB_oil_struck: "Du pétrole a été trouvé"
-statthalter_choice: "Notre décision sur cette politique sera décidée par le Statthalter qui dirige la Südwestafrika".
+ governor_choice: "Notre décision sur cette politique sera prise par le gouverneur qui dirige la Südwestafrika."
  NMB_remove_german_process: "§RNous allons commencer le processus d'expulsion des Allemands et des Namibiens. Cela pourrait avoir des conséquences.§!"
  NMB_deploy_defense_corps: "Nous allons déployer trois divisions de milice pour défendre le pays"
  NMB_germans_removed_flag: "Les Namibiens allemands ont déjà été enlevés"
@@ -201,8 +201,8 @@ statthalter_choice: "Notre décision sur cette politique sera décidée par le S
 ### Expansion ###
  NMB_german_rule: "Rétablir la règle allemande"
  NMB_german_rule_desc: "Notre crise étant officiellement terminée, l'Allemagne peut revenir en Afrique en toute sécurité à travers nous. Avec nous, le rêve de refaire la Mittelafrika n'est pas loin".
- NMB_statthalter: "Un nouveau Statthalter ?"
- NMB_statthalter_desc: "L'actuel gouverneur du Südwest, Heinrich Kirchheim, a ouvertement accueilli les restes des Schutztruppen dans son domaine. Cependant, la question du leadership au sein de ce qui reste de l'Afrique allemande n'a pas été résolue, et une véritable nomination à un tel poste a été retardée par la révolte des Ovambo. Maintenant que le pays est en paix, nous avons une chance de nommer enfin un nouveau Statthalter. Nos choix sont tous des vétérans de la Weltkrieg originaires du Südwest, il ne nous reste plus qu'à choisir lequel d'entre eux nous mènera vers l'avenir."
+ NMB_governor: "Un Nouveau Gouverneur ?"
+ NMB_governor_desc: "Le gouverneur Heinrich Kirchheim a ouvertement accueilli les restes des Schutztruppen dans son domaine. Cependant, la question du leadership sur les restes de l'Afrique allemande n'est toujours pas résolue, et une véritable nomination à un tel poste a été encore retardée par la révolte des Ovambo. Maintenant que le pays est en paix, nous avons la possibilité de nommer enfin un nouveau gouverneur."
  NMB_mittelafrika_claim: "La revendication Mittelafrika"
  NMB_mittelafrika_claim_desc: "L'époque de la domination allemande sur l'Afrique est révolue, mais le rêve ne l'est pas. Aujourd'hui, nous nous revendiquons comme le successeur de la Mittelafrika et nous nous engageons à la réunifier sous la forte bannière allemande".
  NMB_journey_scientists: "Voyage retour des scientifiques"
@@ -226,9 +226,9 @@ statthalter_choice: "Notre décision sur cette politique sera décidée par le S
  NMB_native_policy: "Native Policy"
  NMB_native_policy_desc: "Avec la récente mise en place de notre régime, notre armée est presque entièrement composée de volontaires allemands et de germano-namibiens recrutés localement. Bien que cela ait conduit à un haut niveau de professionnalisme au sein de l'armée, cela a conduit à une taille minuscule de notre armée. Nous devrons revoir notre politique pour voir comment nous allons évoluer à l'avenir"
  NMB_native_recruitment: "Native Recruitment"
- NMB_native_recruitment_desc: "Hans Hollander étant notre choix actuel pour Statthalter, il a décidé de mettre en place une politique de recrutement autochtone. Alors que nous continuerons à accepter des volontaires allemands, il nous a donné la permission de commencer à recruter des populations indigènes intégrées, par des moyens pacifiques ou plus violents. Alors que la taille de notre armée a augmenté, elle a mis à mal son professionnalisme"
+ NMB_native_recruitment_desc: "Hans Hollander, notre candidat actuel au poste de gouverneur, a décidé de mettre en place une politique de recrutement d'autochtones. Bien que nous acceptions toujours les volontaires allemands, il a donné la permission de commencer à recruter des populations indigènes intégrées, par des moyens pacifiques ou plus violents. Alors que la taille de notre armée a augmenté, cela a mis à mal son professionnalisme."
  NMB_askari_cooperation: "Askari Cooperation"
- NMB_askari_cooperation_desc: "Theodore von Hippel étant notre choix actuel pour Statthalter, il a décidé qu'il était nécessaire de coopérer avec les divisions locales d'Askari. Bien que cela nous permette de recruter plus facilement, les forces des Askaris ne sont pas aussi professionnelles que celles des Allemands, et notre armée en est quelque peu freinée".
+ NMB_askari_cooperation_desc: "Theodore von Hippel, notre choix actuel de gouverneur, a décidé qu'il était nécessaire de coopérer avec les divisions Askari locales. Bien que cela nous permette d'élargir notre recrutement, les forces Askari ne sont pas aussi professionnelles que les forces allemandes, et notre armée est un peu freinée par cela."
  NMB_askari_resistance: "La résistance Askari"
  NMB_askari_resistance_desc: "Les Askari peuvent facilement se fondre dans le décor et attaquer l'ennemi dans nos terres occupées. Cela rendra plus difficile pour l'ennemi d'opérer à l'intérieur de notre territoire sans faire face à une résistance acharnée".
  NMB_recruit_askari: "Recruter des Askaris locaux"
@@ -363,8 +363,8 @@ statthalter_choice: "Notre décision sur cette politique sera décidée par le S
  nmb.15.d: "Südwestafrika est impliqué dans une guerre civile depuis que Mittelafrika s'est effondré, mais ils ont repoussé les indigènes stupides. Une fois le conflit terminé, Südwestafrika nous a invités à les dominer à nouveau. Une fois nos délégués arrivés, il y a eu des discussions sur la réforme de Mittelafrika, mais elles restent des rumeurs pour l'instant".
  nmb.15.a: "Tout n'est pas perdu."
 
- nmb.16.t: "Un nouvel État ?"
- nmb.16.d: "La crise étant enfin officiellement terminée, il est temps de décider qui sera le Statthalter officiel. Diverses suggestions ont été faites et trois vétérans de la Weltkrieg qui ont combattu à Sudwestafrika ont été mis à contribution. La première option est de garder Heinrich Kircheim, l'actuel Statthalter qui prône l'écrasement des adversaires africains inférieurs par une puissance de feu allemande supérieure, la deuxième est Hans Hollander, qui prône la mobilisation de la population africaine pour une réunification rapide et soudaine de Mittelafrika, et la troisième option, Theodor von Hippel qui pense qu'une planification minutieuse et une réflexion à trois pas d'avance est la clé de notre expansion"
+ nmb.16.t: "Un Nouveau Gouverneur ?"
+ nmb.16.d: "La crise étant enfin officiellement terminée, il est temps de décider qui sera le gouverneur officiel. Plusieurs suggestions ont été faites et trois vétérans de la Weltkrieg qui ont combattu au Sudwestafrika ont été proposés pour cette tâche. La première option est de garder Heinrich Kircheim, le gouverneur actuel, qui préconise de submerger les adversaires africains inférieurs avec la puissance de feu allemande supérieure, la deuxième est Hans Hollander, qui préconise de mobiliser la population africaine pour voir une réunification rapide et soudaine de la Mittelafrika, et la troisième option, Theodor von Hippel, qui pense qu'une planification prudente et la pensée de trois pas en avant est la clé de notre expansion."
  nmb.16.a: "Heinrich Kircheim, qui nous a guidés pendant la récente guerre."
  nmb.16.b: "Hans Hollander, pour une réunification rapide."
  nmb.16.c: "Theodor von Hippel, pour sa planification minutieuse."

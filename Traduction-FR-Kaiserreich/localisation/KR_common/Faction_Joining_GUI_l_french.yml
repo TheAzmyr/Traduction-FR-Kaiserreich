@@ -1,68 +1,74 @@
 ﻿l_french:
 
-FACTION_JOINING_ALERT_TITLE: "Développement diplomatique"
-FACTION_JOINING_ALERT_DESC: "[faction_member.GetFlag] §Y[faction_member.GetName]§! s'est rallié à §Y[faction_leader.GetFactionName]§!."
+#######################
+### Faction Joining ###
+#######################
 
-FACTION_JOINING_CLOSE: "Fermer"
+ faction_joining_alert_title: "Transmission de [?faction_joining_alerts.GetNameDef]"
+ faction_joining_alert_message: "§Y[THIS.GetName]§! a rejoint l'§Y[THIS.GetFactionName]§!"
 
-JF_GENERIC_FLAVOUR: "Leur comportement agressif a marqué un changement dans l'équilibre mondial et pourrait avoir des conséquences désastreuses pour la stabilité en Europe et au-delà."
+#Generic
 
-JF_GENERIC_FLAVOUR_1936: "L'équilibre des forces commence à changer, mettant à rude épreuve l'ordre délicat que l'Allemagne a longtemps eu du mal à bâtir après la Weltkrieg. Le fait de conclure cette alliance pourrait avoir des conséquences."
-JF_GENERIC_FLAVOUR_1937_ACW: "Avec l'éclatement de la guerre civile en Amérique du Nord, l'équilibre du pouvoir a soudainement et peut-être irrévocablement changé. Il y aura des conséquences pour la région et au-delà."
-JF_GENERIC_FLAVOUR_1937: "L'équilibre du pouvoir continue de changer. Il peut y avoir des conséquences pour la région et au-delà."
-JF_GENERIC_FLAVOUR_1938: "La Géopolitique continue de basculer, modifiant l'équilibre, et avec eux beaucoup de calculs stratégiques. Il y aura des conséquences pour la région et le monde."
-JF_GENERIC_FLAVOUR_1939: "La croissance de blocs géopolitiques s'accompagne d'une tension croissante, et de nombreux autres pays sont maintenant confrontés à des choix difficiles en matière d'alignement. Le spectre de la guerre plane sur la région, et peut-être sur le monde entier."
-JF_GENERIC_FLAVOUR_WK: "Même en temps de guerre, il existe un rapport de force qui change au fur et à mesure. Seul l'avenir nous dira si cet accord fera pencher la balance en faveur de l'une ou l'autre partie."
-JF_GENERIC_FLAVOUR_WK_START: "L'ancien ordre mondial est brisé et englouti par la guerre, son réseau d'alliances s'est transformé presque au-delà de toute reconnaissance."
-JF_GENERIC_FLAVOUR_GER_DEFEAT: "La domination allemande étant aujourd'hui incontestablement brisée, nombreux sont ceux qui se tournent déjà vers l'avenir. Un accord à la fois, un nouvel ordre mondial se construit."
-JF_GENERIC_FLAVOUR_FRA_DEFEAT: "Même avec les armes allemandes encore une fois victorieuses en Europe, le monde n'est plus ce qu'il était avant la deuxième Weltkrieg. Un accord à la fois, l'avenir se dessine."
-JF_GENERIC_FLAVOUR_ENT_VICTORY: "La victoire de l'Entente, malgré tous les obstacles, a remplacé le nouveau par l'ancien. Les puissances dominantes du siècle dernier négligent aujourd'hui un ordre mondial familier, alors même que de nouvelles alliances émergent pour le changer."
-JF_GENERIC_FLAVOUR_OTHER_VICTORY: "Alors que l'ancien ordre mondial est maintenant en ruines, de nouvelles puissances renaissent de leurs cendres. Un accord à la fois, le monde se reconstruit."
+ faction_joining_alert_pre_acw:0 "L'équilibre des forces commence à changer, mettant à rude épreuve l'ordre délicat que l'Allemagne a longtemps eu du mal à bâtir après la Weltkrieg. Le fait de conclure cette alliance pourrait avoir des conséquences."
+ faction_joining_alert_acw:0 "Avec l'éclatement de la guerre civile en Amérique du Nord, l'équilibre du pouvoir a soudainement et peut-être irrévocablement changé. Il y aura des conséquences pour la région et au-delà."
 
-### Add Custom Localisation Here ###
+ faction_joining_alert_pre_wk:0 "La croissance de blocs géopolitiques s'accompagne d'une tension croissante, et de nombreux autres pays sont maintenant confrontés à des choix difficiles en matière d'alignement. Le spectre de la guerre plane sur la région, et peut-être sur le monde entier."
+ faction_joining_alert_weltkrieg:0 "Même en temps de guerre, il existe un rapport de force qui change au fur et à mesure. Seul l'avenir nous dira si cet accord fera pencher la balance en faveur de l'une ou l'autre partie."
+
+ faction_joining_alert_post_wk_internationale:0 "La domination allemande étant aujourd'hui incontestablement brisée, nombreux sont ceux qui se tournent déjà vers l'avenir. Un accord à la fois, un nouvel ordre mondial se construit."
+ faction_joining_alert_post_wk_germany:0 "Même avec les armes allemandes encore une fois victorieuses en Europe, le monde n'est plus ce qu'il était avant la deuxième Weltkrieg. Un accord à la fois, l'avenir se dessine."
+ faction_joining_alert_post_wk_entente:0 "La victoire de l'Entente, malgré tous les obstacles, a remplacé le nouveau par l'ancien. Les puissances dominantes du siècle dernier négligent aujourd'hui un ordre mondial familier, alors même que de nouvelles alliances émergent pour le changer."
+ faction_joining_alert_post_wk_other:0 "Alors que l'ancien ordre mondial est maintenant en ruines, de nouvelles puissances renaissent de leurs cendres. Un accord à la fois, le monde se reconstruit."
 
 #North America
-JF_CAN_USA_FLAVOUR: "Bien qu'à peine remis de leur Seconde Guerre Civile, les Etats-Unis ont décidé de se joindre au [CAN.GetNameDef] dans leur quête pour libérer leur patrie et l'Europe du syndicalisme."
-JF_GER_USA_FLAVOUR: "Bien qu'à peine remis de leur Seconde Guerre Civile, les Etats-Unis ont décidé de rejoindre l' [GER.GetNameDef] dans le Reichspakt, en raison d'une haine commune pour le syndicalisme."
-JF_FRA_CSA_FLAVOUR: "Maintenant que la Confédération Syndicaliste est victorieuse en Amérique, elle se dirige vers l'Europe et rejoint formellement l'alliance syndicaliste. Les réactionnaires tremblent alors que la puissance industrielle de l'Amérique se reconvertit pour la révolution."
+ faction_joining_USA_ENT:0 "Bien qu'à peine remis de leur Seconde Guerre Civile, les Etats-Unis ont décidé de se joindre au [CAN.GetNameDef] dans leur quête pour libérer leur patrie et l'Europe du syndicalisme."
+ faction_joining_USA_GER:0 "Bien qu'à peine remis de leur Seconde Guerre Civile, les Etats-Unis ont décidé de rejoindre l' [GER.GetNameDef] dans le Reichspakt, en raison d'une haine commune pour le syndicalisme."
+
+ faction_joining_CSA_INT: "Maintenant que la Confédération Syndicaliste a gagné en Amérique, elle a pivoté vers l'Europe, rejoignant officiellement l'alliance syndicaliste. Les réactionnaires tremblent alors que la puissance industrielle de l'Amérique est mise au service de la révolution."
 
 #Central America
-JF_COS_GER_FLAVOUR: "Entrelacés par l'intermédiaire des barons du café ZKG, un traité d'assistance militaire a été signé avec le [faction_leader.GetFactionName] ainsi que l'accès aux installations navales de Puerto Limon."
-JF_COS_CAN_FLAVOUR: "Abandonné par son allié de confiance à Washington, San José a été contraint de chercher plus au nord pour assurer sa protection contre ses voisins les plus prédateurs. Ottawa, toujours désireux d'avoir des amis près du canal, a embrassé le Costa Rica."
+ faction_joining_COS_GER: "Entretenu par les barons du café du ZKG, un traité d'assistance militaire a été signé avec le [faction_leader.GetFactionName] ainsi que l'accès aux installations navales de Puerto Limón."
+ faction_joining_COS_ENT:0 "Abandonné par son allié de confiance à Washington, San José a été contraint de chercher plus au nord pour assurer sa protection contre ses voisins les plus prédateurs. Ottawa, toujours désireux d'avoir des amis près du canal, a embrassé le Costa Rica."
 
 #South America
-JF_ARG_GER_FLAVOUR: "Suite au succès de l'accord commercial et de la coopération militaire entre les deux nations, [faction_member.GetLeader] a annoncé sa participation dans le [faction_leader.GetFactionName]."
-JF_ARG_CAN_FLAVOUR: "Grâce à une diplomatie astucieuse [faction_membre.GetLeader] et [faction_leader.GetName] ont résolu la crise des îles Malvinas, mettant de côté leurs différends pour la menace commune."
+ faction_joining_ARG_GER:0 "Suite au succès de l'accord commercial et de la coopération militaire entre les deux nations, [faction_member.GetLeader] a annoncé sa participation dans le [faction_leader.GetFactionName]."
+ faction_joining_ARG_ENT:0 "Grâce à une diplomatie astucieuse [faction_membre.GetLeader] et [faction_leader.GetName] ont résolu la crise des îles Malvinas, mettant de côté leurs différends pour la menace commune."
 
 #Western Europe
-JF_BEL_GER_FLAVOUR: "Convenue dans le Traité d'Arlon, la nouvelle nation belge a officiellement rejoint le [faction_leader.GetFactionName] pour protéger sa souveraineté des faucons syndicalistes."
-JF_BEL_CAN_FLAVOUR: "Alliés sur l'Yser pendant la Weltkrieg et liés par le sang à la couronne britannique, les belges ont fait le choix de se joindre à leurs anciens alliés pour assurer leur survie."
-JF_BEL_FRA_FLAVOUR: "L'Ancien Ordre s'effondre, l' [GER.GetName] se désintègre, réveillez-vous victimes de l’oppression et faites tomber le Géant en représailles de 1914 !"
-JF_CAN_POR_FLAVOUR: "En raison de ses liens de longue date avec la famille royale d'Ottawa, le [POR.GetName] s'est joint officiellement à l'Entente, donnant au Canada un tremplin en Europe pour la reconquête prévue des îles Britanniques."
-JF_GER_IRE_FLAVOUR: "En raison de la provocation britannique, l'[IRE.GetName] a rejoint le [GER.GetFactionName], espérant que le Kaiser puisse les protéger des machinations syndicalistes..."
+ faction_joining_BEL_GER: "Comme convenu dans le Traité d'Arlon, la nouvelle nation belge a officiellement rejoint l'[faction_leader.GetFactionName] pour protéger sa souveraineté des faucons syndicalistes."
+ faction_joining_BEL_ENT:0 "Alliés sur l'Yser pendant la Weltkrieg et liés par le sang à la couronne britannique, les belges ont fait le choix de se joindre à leurs anciens alliés pour assurer leur survie."
+ faction_joining_BEL_INT:0 "L'Ancien Ordre s'effondre, l' [GER.GetName] se désintègre, réveillez-vous victimes de l’oppression et faites tomber le Géant en représailles de 1914 !"
+
+ faction_joining_POR_ENT:0 "En raison de ses liens de longue date avec la famille royale d'Ottawa, le [POR.GetName] s'est joint officiellement à l'Entente, donnant au Canada un tremplin en Europe pour la reconquête prévue des îles Britanniques."
+
+ faction_joining_IRE_GER: "Suite à la provocation britannique, [IRE.GetNameDef] a rejoint [GER.GetFactionName], espérant que le Kaiser puisse les protéger des machinations syndicalistes."
 
 #Northern Europe
-JF_GER_SWE_FLAVOUR: "Forte d'une longue histoire de relations économiques avec Berlin et d'un radicalisme croissant dans la région, la [SWE.GetName] a officiellement rejoint le Reichspakt."
- JF_FRA_SWE_FLAVOUR: "Suite au renversement du gouvernement suédois par [SWE.GetLeader], ils ont formellement aligné [SWE.GetNameDef] sur Paris, rejoignant ainsi la troisième Internationale."
-JF_GER_FIN_FLAVOUR: "Face à la menace de la Russie qui cherche à reconquérir ses territoires européens, [FIN.GetLeader] a consolidé ses relations avec le Reichspakt, espérant qu'il pourra assurer la sécurité dont la petite nation a tant besoin."
-JF_FRA_FIN_FLAVOUR: "Après le renversement de la monarchie par [FIN.GetLeader], ils se sont alignés sur le mouvement syndicaliste mondial et ont officiellement rejoint la Troisième Internationale."
-JF_FRA_NOR_FLAVOUR: "Après le renversement de la monarchie, le nouveau gouvernement syndicaliste Norvégien s'est formellement aligné sur la Troisième Internationale."
-JF_CAN_NOR_FLAVOUR: "La menace immédiate d'un radicalisme intérieur étant écrasée, la [NOR.GetName] s'est alignée sur l'Entente."
- JF_AUS_SWI_FLAVOUR_peace: "Si la menace française est pour l'instant modéré, la Suisse s'est formellement alliée à l'Autriche pour assurer la paix et la stabilité future."
- JF_AUS_SWI_FLAVOUR_war: "Avec la progression du conflit français, la Suisse a décidé de rejoindre officiellement l'alliance autrichienne, au cas où quelqu'un penserait qu'elle est encore neutre."
- JF_GER_SWI_FLAVOUR_war: "La guerre contre les syndicalistes progressant, la Suisse a décidé de rejoindre officiellement le Reichspakt, ne faisant que les aligner davantage sur l'Empire allemand."
- JF_GER_SWI_FLAVOUR_peace: "Alors que la menace française est temporairement atténuée, la Suisse a décidé de s'aligner sur le Reichspakt, pour assurer la paix et la sécurité future."
- JF_FRA_SWI_FLAVOUR: "Suite à la révolution syndicaliste en Suisse, le gouvernement provisoire a décidé d'adhérer à la Troisième Internationale, officialisant ainsi les relations déjà étroites entre la Commune de France et la [SWI.GetNameDef]."
+ faction_joining_SWE_GER:0 "Forte d'une longue histoire de relations économiques avec Berlin et d'un radicalisme croissant dans la région, la [SWE.GetName] a officiellement rejoint le Reichspakt."
+ faction_joining_SWE_INT:0 "Suite au renversement du gouvernement suédois par [SWE.GetLeader], ils ont formellement aligné [SWE.GetNameDef] sur Paris, rejoignant ainsi la troisième Internationale."
+
+ faction_joining_FIN_GER:0 "Face à la menace de la Russie qui cherche à reconquérir ses territoires européens, [FIN.GetLeader] a consolidé ses relations avec le Reichspakt, espérant qu'il pourra assurer la sécurité dont la petite nation a tant besoin."
+ faction_joining_FIN_INT:0 "Après le renversement de la monarchie par [FIN.GetLeader], ils se sont alignés sur le mouvement syndicaliste mondial et ont officiellement rejoint la Troisième Internationale."
+
+ faction_joining_NOR_INT:0 "Après le renversement de la monarchie, le nouveau gouvernement syndicaliste Norvégien s'est formellement aligné sur la Troisième Internationale."
+ faction_joining_NOR_ENT:0 "La menace immédiate d'un radicalisme intérieur étant écrasée, la [NOR.GetName] s'est alignée sur l'Entente."
+
+ faction_joining_SWI_AUS_peace:0 "Si la menace française est pour l'instant modéré, la Suisse s'est formellement alliée à l'Autriche pour assurer la paix et la stabilité future."
+ faction_joining_SWI_AUS_war:0 "Avec la progression du conflit français, la Suisse a décidé de rejoindre officiellement l'alliance autrichienne, au cas où quelqu'un penserait qu'elle est encore neutre."
+ faction_joining_SWI_GER_peace:0 "Alors que la menace française est temporairement atténuée, la Suisse a décidé de s'aligner sur le Reichspakt, pour assurer la paix et la sécurité future."
+ faction_joining_SWI_GER_war:0 "La guerre contre les syndicalistes progressant, la Suisse a décidé de rejoindre officiellement le Reichspakt, ne faisant que les aligner davantage sur l'Empire allemand."
+ faction_joining_SWI_INT:0 "Suite à la révolution syndicaliste en Suisse, le gouvernement provisoire a décidé d'adhérer à la Troisième Internationale, officialisant ainsi les relations déjà étroites entre la Commune de France et la [SWI.GetNameDef]."
 
 #Southern Europe
-JF_AUS_ITA_FLAVOUR: "Avec le radicalisme de Italo Balbo contenu dans l'urne, l'[ITA.GetNameDef] a officiellement rejoint le pacte de défense de l'Autriche."
+ faction_joining_ITA_AUS:0 "Avec le radicalisme de Italo Balbo contenu dans l'urne, l'[ITA.GetNameDef] a officiellement rejoint le pacte de défense de l'Autriche."
 
 #Eastern Europe
 
 #Balkans
-JF_SER_GRE_FLAVOUR: "En raison d'une haine partagée pour la puissance croissante de la Bulgarie, la Grèce a décidé d'adhérer au Pacte de Belgrade avec la Serbie pour faire tomber la Bulgarie une fois pour toutes. Cela pourrait très bien ébranler l'équilibre des pouvoirs dans les Balkans."
-JF_SER_ROM_FLAVOUR: "Pour contenir le pouvoir croissant de l'Autriche et de la Bulgarie, la Roumanie a adhéré au Pacte de Belgrade. L'Autriche et la Bulgarie ont peur de voir le poudrière exploser à nouveau."
-JF_CAN_GRE_FLAVOUR: "Alliés pendant la Weltkrieg, [GRE.GetNameDef] a officiellement demandé à rejoindre le Canada dans l'Entente, donnant au bloc une base de pouvoir dans les Balkans."
+ faction_joining_GRE_BPL:0 "En raison d'une haine partagée pour la puissance croissante de la Bulgarie, la Grèce a décidé d'adhérer au Pacte de Belgrade avec la Serbie pour faire tomber la Bulgarie une fois pour toutes. Cela pourrait très bien ébranler l'équilibre des pouvoirs dans les Balkans."
+ faction_joining_GRE_ENT:0 "Alliés pendant la Weltkrieg, [GRE.GetNameDef] a officiellement demandé à rejoindre le Canada dans l'Entente, donnant au bloc une base de pouvoir dans les Balkans."
+
+ faction_joining_ROM_BPL:0 "Pour contenir le pouvoir croissant de l'Autriche et de la Bulgarie, la Roumanie a adhéré au Pacte de Belgrade. L'Autriche et la Bulgarie ont peur de voir le poudrière exploser à nouveau."
 
 #Middle East
 
@@ -75,9 +81,12 @@ JF_CAN_GRE_FLAVOUR: "Alliés pendant la Weltkrieg, [GRE.GetNameDef] a officielle
 #South East Asia
 
 #East Asia
- JF_SHX_QIE_COUP_FLAVOUR: "Suite à l'auto-coup d'Etat réalisé par Puyi avec l'aide de [SHX.GetNameDef], [SHX.GetLeader] est intervenu contre les restes de la clique zhili, s'alignant officiellement sur Beijing."
- JF_SQI_QIE_COUP_FLAVOUR: "Suite à l'auto-coup d'Etat réalisé par Puyi avec l'aide de [SQI.GetNameDef], [SQI.GetLeader] est intervenu contre les restes de la clique zhili, s'alignant officiellement sur Beijing."
- JF_ANQ_QIE_FLAVOR: "À la suite du soutien réussi de Wu Peifu à [ANQ.GetNameDef] la lutte contre [LEP.GetNameDef], Le gouverneur Chen Tiaoyuan s'est rallié à la Clique du Nord de la Zhili."
- JF_RKMT_FLAVOUR: "Après avoir sécurisé ses anciens bastions du sud, le KMT de droite s'unit sous une seule bannière. Alors qu'ils se tournent vers le nord, la Chine se demande s'ils peuvent réussir là où les Chiang ont échoué..."
+ faction_joining_SHX_QIE:0 "Suite à l'auto-coup d'Etat réalisé par Puyi avec l'aide de [SHX.GetNameDef], [SHX.GetLeader] est intervenu contre les restes de la clique zhili, s'alignant officiellement sur Beijing."
+
+ faction_joining_SQI_QIE:0 "Suite à l'auto-coup d'Etat réalisé par Puyi avec l'aide de [SQI.GetNameDef], [SQI.GetLeader] est intervenu contre les restes de la clique zhili, s'alignant officiellement sur Beijing."
+
+ faction_joining_ANQ_QIE:0 "À la suite du soutien réussi de Wu Peifu à [ANQ.GetNameDef] la lutte contre [LEP.GetNameDef], Le gouverneur Chen Tiaoyuan s'est rallié à la Clique du Nord de la Zhili."
+
+ faction_joining_RKMT:0 "Après avoir sécurisé ses anciens bastions du sud, le KMT de droite s'unit sous une seule bannière. Alors qu'ils se tournent vers le nord, la Chine se demande s'ils peuvent réussir là où les Chiang ont échoué..."
 
 #Oceania

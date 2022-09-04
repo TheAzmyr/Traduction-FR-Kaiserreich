@@ -55,8 +55,68 @@ KUR_national_populist_party_long: "Hamidiye"
 ### Ideas ###
  KDR_Religious_Fevour: "Religious Fervour"
  KDR_Religious_Fevour_desc: "Allahu Akbar! The heretic government in Kostantiniyye has proven that it cares little for the Islamic unity promoted by the office of the Caliph. It is now up to us, religious orders, tribesmen and devout followers of the Kurdish Sheikhs to take up arms and oust the traitors from their cushy seats in the capital."
+
  KDR_Irregular_Army: "Hamidiye Army"
  KDR_Irregular_Army_desc: "Based around the disbanded 'Hamidiye' regiments of the late Abdulhamid II, the Kurdish army suffers from an almost complete lack of discipline and unity as it relies far too much on a decentralised force led by Sheikhs and Aghas. Equipped with mostly pre-weltkrieg weapons, they furthermore suffer a serious material disadvantage compared to the much better equipped Turks."
+
+ KDR_islamic_fervour: "Ferveur Islamique"
+ KDR_islamic_fervour_desc: "La foi inébranlable en l'Islam est le cœur de notre révolte, elle unit notre peuple et assure la cohésion de notre pays, par ailleurs si fragile. En outre, la croyance en la volonté d'Allah donne à nos courageux soldats et citoyens la force nécessaire pour endurer les rigueurs de la guerre, et garantit qu'aucun d'entre eux ne songerait à se rendre à nos ennemis turcs."
+
+ KDR_junta: "Règne de la Junte"
+ KDR_junta_desc: "Depuis notre déclaration d'indépendance et de sécession de l'État turc en déclin, nous avons été dirigés par une junte militaire, dont le leadership fort assurera la sécurité et la souveraineté de notre État, aujourd'hui et à l'avenir."
+
+ KDR_junta_1: "Règne de la Junte"
+ KDR_junta_1_desc: "Depuis notre déclaration d'indépendance et de sécession de l'État turc en déclin, nous avons été dirigés par une junte militaire, dont le leadership fort assurera la sécurité et la souveraineté de notre État, aujourd'hui et à l'avenir."
+
+ KDR_islamic_nation: "Traditions Islamiques"
+ KDR_islamic_nation_desc: "Depuis des siècles, l'Islam a joué un rôle important dans le façonnement de la culture et de la société kurdes et, à ce jour, les traditions et coutumes islamiques constituent une part importante de la vie quotidienne de nombreux Kurdes. Naturellement, il est de notre devoir de défendre et de maintenir ces traditions au lieu d'abandonner ce qui a fait de nous ce que nous sommes."
+
+ KDR_islamic_nation_1: "Une Nation d'Islam"
+ KDR_islamic_nation_1_desc: "L'Islam est le principal pilier de notre nation et joue un rôle important non seulement en politique, mais aussi dans la vie de notre peuple. Alors que d'autres nations peuvent avoir abandonné les principes islamiques en faveur des valeurs plus "modernes" de l'Occident, nous savons mieux qu'eux et nous resterons fidèles à la foi qui a guidé notre peuple pendant des siècles dans les périodes les plus sombres."
+
+ KDR_agriculture: "Développer l'Agriculture"
+ KDR_agriculture_desc: "La force économique du Kurdistan ne réside pas dans son industrie, mais plutôt dans son agriculture. Une grande partie de notre population rurale gagne sa vie en gardant des moutons, des bovins et des volailles ou en cultivant différentes sortes de céréales et de légumes. Bien que certains puissent nous qualifier d'arriérés pour cette raison, ils ne voient pas les avantages de cette autosuffisance."
+
+ KDR_final_stand_idea: "Dernière chance du Kurdistan"
+ KDR_final_stand_idea_desc: "Après des centaines d'années d'occupation turque et de révoltes ratées, nous avons enfin goûté à la liberté, et la véritable indépendance semble accessible pour la première fois depuis des siècles. Nous devons saisir cette opportunité, défendre nos terres et nous battre jusqu'à la mort et au-delà, car si nous échouons maintenant, le Kurdistan aura manqué sa dernière chance."
+
+### National Focuses ###
+ kdr_focus: "Arbre de Priorités Kurdes"
+
+ KDR_independence_secured:0 "Notre Indépendance, Assurée"
+ KDR_independence_secured_desc: ""
+ KDR_kurdish_revolt: "La Révolte Kurde"
+ KDR_kurdish_revolt_desc: ""
+ KDR_maintain_the_junta: "Soutenir la Junte Militaire"
+ KDR_maintain_the_junta_desc: ""
+ KDR_an_autonomous_nation: "Une Nation Autonome"
+ KDR_an_autonomous_nation_desc: ""
+ KDR_build_railway: "Le Chemin de Fer Kurde"
+ KDR_build_railway_desc: ""
+ KDR_convert_textile_factories: "Développer nos Usines de Textile"
+ KDR_convert_textile_factories_desc: ""
+ KDR_refuge_in_belief: "Refuge dans la Croyance"
+ KDR_refuge_in_belief_desc: ""
+ KDR_etablish_the_shariah_law: "Réintroduire la Charia"
+ KDR_etablish_the_shariah_law_desc: ""
+ KDR_reinstate_the_caliph: "Rétablir le Calife"
+ KDR_reinstate_the_caliph_desc: ""
+ KDR_call_to_bandit: "Appeler les Brigands"
+ KDR_call_to_bandit_desc: ""
+ KDR_sabotage_turkish_railways: "Saboter les Chemins de Fer Turcs"
+ KDR_sabotage_turkish_railways_desc: ""
+ KDR_agricultural_nation: "Une Nation Agricole"
+ KDR_agricultural_nation_desc: ""
+ KDR_a_modern_nation: "Une Nation de Modernité"
+ KDR_a_modern_nation_desc: ""
+ KDR_a_nation_of_islam: "Une Nation d'Islam"
+ KDR_a_nation_of_islam_desc: ""
+ KDR_british_help: "Solliciter le Soutien Britannique"
+ KDR_british_help_desc: ""
+ KDR_call_to_the_faithful:0 "Faire Appel aux Fidèles"
+ KDR_call_to_the_faithful_desc: ""
+ KDR_final_stand: "Notre Dernier Combat"
+ KDR_final_stand_desc: ""
 
 ### Events ###
  kur.1.t: "A Fragile Rebellion"
@@ -67,11 +127,24 @@ KUR_national_populist_party_long: "Hamidiye"
  kur.2.d: "Declared by the recently-returned Sheikh Mahmut Barzinji, the city of Sulaymaniyah and the surrounding territory has decided to break with the Ottoman Empire and use the ruling chaos in the Mashriq to carve out a state of their own. This decision comes a bit as a surprise for his former ally in [PER.GetName], who intended for him to destabilise the Porte but not declare a Kurdish state. Fearing support from their own Kurdish population for his cause, it remains currently unclear whether Iran will turn their guns on him before the situation could further deteriorate."
  kur.2.a: "Damn Barzinji!"
 
+ kdr.1.t: "La Défaite Turque"
+ kdr.1.d: "Enfin, le rêve est devenu réalité et les Turcs ont été chassés de nos terres, sans pouvoir briser la volonté de nos courageux soldats ! Après que les soulèvements successifs aient été écrasés par les forces ottomanes au cours des siècles derniers, l'indépendance kurde était considérée comme un objectif inatteignable. Cependant, nous avons montré le contraire à ceux qui doutaient de nous et de notre peuple. Plus jamais nous ne serons soumis à une quelconque puissance étrangère ! Le peuple kurde ne sera gouverné que par ses compatriotes, et notre nation prospérera maintenant que nous nous sommes libérés du joug turc ! L'âge d'or du Kurdistan commence maintenant !"
+ kdr.1.a: "La liberté, enfin !"
+
+ kdr.2.t: "L'Avenir de Notre Nation"
+ kdr.2.d: "Avec la mise en place de la bête turque, l'alliance fragile des chefs de tribus, des leaders religieux et des militaires commence lentement mais sûrement à se désagréger, car il n'y a plus de cause commune derrière laquelle se rallier. Cependant, deux factions cherchant à empêcher notre nation de tomber dans l'anarchie totale sont apparues, et sont maintenant en compétition pour savoir qui devrait diriger notre nouvel état kurde.\n\nLa première de ces factions, la junte, se compose principalement de figures militaires importantes, dont certaines ont même servi sous la bannière ottomane dans le passé. Bien qu'ils n'aient toujours pas de direction centrale et incontestée, ces hommes sont les instigateurs de notre révolte et dirigent de facto le Kurdistan depuis qu'il a déclaré son indépendance, ce qui leur vaut la confiance d'une grande partie de la population. L'autre faction est principalement composée d'islamistes radicaux sous la bannière de Selahaddin Efendî et prétend qu'il est nécessaire de revenir à nos traditions islamiques pour que notre nation prospère. Comme ces ecclésiastiques sont également très respectés par le public, il est normal que beaucoup se voient maintenant déchirés entre les deux camps.\n\nCes derniers jours, les débats dans [KDR.Capital.GetCapitalVictoryPointName] ont été de plus en plus animés, ce qui a fait naître la crainte générale que la situation ne dégénère en une véritable guerre civile. Cependant, alors que la journée touche à sa fin, il semble que les deux parties soient finalement parvenues à un accord. A partir de maintenant, ..."
+ kdr.2.a: "La junte doit nous guider !"
+ kdr.2.b: "L'Islam nous guidera !"
+
+ kdr.3.t: "Chef de la Junte"
+ kdr.3.d: "Depuis le début de notre rébellion contre la domination turque, notre nation a été dirigée par Mehmet Şerif Paşa. Jusqu'à présent, personne n'a pris la peine de s'opposer à son règne, car une grande partie de notre population est satisfaite de son commandement ou reste apolitique, et parce que les autres figures de proue de notre nation avaient d'autres chats à fouetter pendant la guerre. Mais maintenant que les Turcs ont été battus et que le pouvoir de la junte a été cimenté, certaines voix dissidentes se font entendre. Plus concrètement, il semble que Mustafa Yamulki, un autre célèbre chef militaire kurde, soit devenu assez ambitieux et veuille affirmer son autorité sur la junte afin de former l'État kurde conformément à ses propres visions. Dans ce but, il a commencé à influencer des membres importants de la junte, espérant obtenir leur soutien dans ses efforts pour provoquer un changement de cap. Mais ces hommes sont-ils prêts à trahir Şerif Paşa, ou feront-ils preuve de loyauté envers lui ?"
+ kdr.3.a: "Şerif Paşa nous a bien servi jusqu'à présent !"
+ kdr.3.b: "Il est temps de procéder à un petit changement de cap..."
+
 ### Characters ###
- KDR_xalis_bege_sipki: "Xalis Begê Sîpkî"
- KDR_xalid_bege_cibiri: "Xalîd Begê Cibirî"
+ KDR_mustafa_yamulki: "Mustafa Yamulki"
+ KDR_mehmet_serif_pasha: "Mehmet Şerif Paşa"
  KDR_selahaddin_efendi: "Selahaddin Efendî"
- KDR_mehmed_vehip_pasha: "Mehmed Vehip Pasha"
 
 ### Characters ###
  KUR_qazi_mihemed: "Qazî Mihemed"
