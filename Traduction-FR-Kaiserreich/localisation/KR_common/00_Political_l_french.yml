@@ -1,8 +1,8 @@
 ﻿l_french:
 
 ### Opening Event ###
- kr.political.1.t: "Kaiserreich Beta 0.22"
- kr.political.1.d: "L'équipe de Kaiserreich est fière de vous présenter la version bêta 0.22 de Kaiserreich pour Hearts of Iron 4.\n\nNotre équipe a travaillé dur dans tous les coins du monde pour vous présenter cette nouvelle version et nous ne pourrions pas être plus honorés que vous choisissiez d'y jouer.\n\nNous vous prions de bien vouloir noter ce qui suit :\n\n- Le mod est conçu avec l'hypothèse que le joueur annexera toujours tous les états possibles dans les traités de paix, donc assurez-vous de faire cela\n\n- Vous pouvez changer la fréquence des événements de nouvelles en basculant l'icône en haut de l'onglet décisions\n\n- Vous pouvez sélectionner quel système de nommage des états et des points de victoire utiliser en basculant l'icône remplaçant le menu des succès en haut à droite\n\n- Rappelez-vous que ce mod est toujours en Bêta, donc des bogues et des plantages sont malheureusement possibles ! Si vous rencontrez l'un ou l'autre, les signaler sur notre gestionnaire de problèmes (issues) sur GitHub est d'une grande aide et permettra de les corriger plus rapidement !\n\nNous espérons que vous aurez autant de plaisir à jouer à Kaiserreich que nous en avons eu à le créer !"
+ kr.political.1.t: "Kaiserreich Beta 0.22.2"
+ kr.political.1.d: "L'équipe de Kaiserreich est fière de vous présenter la version bêta 0.22.2 de Kaiserreich pour Hearts of Iron 4.\n\nNotre équipe a travaillé dur dans tous les coins du monde pour vous présenter cette nouvelle version et nous ne pourrions pas être plus honorés que vous choisissiez d'y jouer.\n\nNous vous prions de bien vouloir noter ce qui suit :\n\n- Le mod est conçu avec l'hypothèse que le joueur annexera toujours tous les états possibles dans les traités de paix, donc assurez-vous de faire cela\n\n- Vous pouvez changer la fréquence des événements de nouvelles en basculant l'icône en haut de l'onglet décisions\n\n- Vous pouvez sélectionner quel système de nommage des états et des points de victoire utiliser en basculant l'icône remplaçant le menu des succès en haut à droite\n\n- Rappelez-vous que ce mod est toujours en Bêta, donc des bogues et des plantages sont malheureusement possibles ! Si vous rencontrez l'un ou l'autre, les signaler sur notre gestionnaire de problèmes (issues) sur GitHub est d'une grande aide et permettra de les corriger plus rapidement !\n\nNous espérons que vous aurez autant de plaisir à jouer à Kaiserreich que nous en avons eu à le créer !"
  kr.political.1.a: "Je suis sûr que je le ferai !"
 
 ### Generic Faction Joining ###
@@ -12,11 +12,11 @@
  kr.political.10.b: "À la réflexion, non..."
 
  kr.political.11.t: "[From.GetNonIdeologyNameDefCap] a accepté !"
- kr.political.11.d: "Il est temps de se réjouir ! [From.GetNameDefCap] a accepté notre demande de rejoindre le [ROOT.GetFactionName], comme nous l'espérions tant !"
+ kr.political.11.d: "Il est temps de se réjouir ! [From.GetNameDefCap] a accepté notre demande de rejoindre le [FROM.GetFactionName], comme nous l'espérions tant !"
  kr.political.11.a: "Excellent !"
 
  kr.political.12.t: "[From.GetNonIdeologyNameDefCap] a refusé !"
- kr.political.12.d: "A notre grand dam, [From.GetNameDef] a refusé notre demande de rejoindre le [ROOT.GetFactionName]."
+ kr.political.12.d: "A notre grand dam, [From.GetNameDef] a refusé notre demande de rejoindre le [FROM.GetFactionName]."
  kr.political.12.a: "Leur perte."
 
  kr.political.13.t: "Une Alliance avec [FROM.GetNonIdeologyNameDef]?"
@@ -100,6 +100,12 @@ military_staff_available: "Ce membre de l'état-major militaire est vivant et pr
  KR_is_any_authoritarian: "$government_is_loc$ §Y$totalist$§!, §Y$authoritarian_democrat$§!, §Y$paternal_autocrat$§! ou §Y$national_populist$§!"
  KR_is_any_authoritarian_NOT: "$government_is_not_loc$ §Y$totalist$§!, §Y$authoritarian_democrat$§!, §Y$paternal_autocrat$§! ou §Y$national_populist$§!"
 
+ KR_is_liberal: "$government_is_loc$§Y$social_democrat$§!, §Y$social_liberal$§! ou §Y$market_liberal$§!"
+ KR_is_liberal_NOT: "$government_is_not_loc$§Y$social_democrat$§!, §Y$social_liberal$§! ou §Y$market_liberal$§!"
+
+ KR_is_conservative: "$government_is_loc$§Y$social_conservative$§! ou §Y$authoritarian_democrat$§!"
+ KR_is_conservative_NOT: "$government_is_not_loc$§Y$social_conservative$§! ou §Y$authoritarian_democrat$§!"
+
 ### At War Notice ###
 has_scripted_peace: "Nous sommes en guerre"
 has_scripted_peace_desc: "Le pays est en guerre et est déterminé à remporter la victoire - bien qu'il y ait des chances que notre résistance soit un peu plus fragile qu'il n'y paraît. (Note : ceci existe pour les guerres où un événement de paix écrit existe, et il y a des chances que l'événement se déclenche bien avant que cette limite de reddition élevée ne soit atteinte, juste pour que vous soyez au courant.)"
@@ -169,17 +175,6 @@ has_scripted_peace_desc: "Le pays est en guerre et est déterminé à remporter 
 
  solidify_control: "Solidifier le contrôle"
  solidify_control_desc: "Un peu de tact dans l'utilisation du pouvoir politique ici et là, quelques ressources et nous supprimerons nos obstacles politiques ; nous ne pourrons peut-être pas nous débarrasser de tous ces obstacles, mais même en éliminer certains nous éclaireront la voie et amélioreront notre pouvoir politique à la longue"
-
- hidden_raise_support_totalist: "£decision_icon_small Solidifier le Contrôle"
- hidden_raise_support_syndicalist: "£decision_icon_small Rallier le Soutien Public"
- hidden_raise_support_radical_socialist: "£decision_icon_small Rallier le Soutien Public"
- hidden_raise_support_social_democrat: "£decision_icon_small Rallier le Soutien Public"
- hidden_raise_support_social_liberal: "£decision_icon_small Rallier le Soutien Public"
- hidden_raise_support_market_liberal: "£decision_icon_small Rallier le Soutien Public"
- hidden_raise_support_social_conservative: "£decision_icon_small Rallier le Soutien Public"
- hidden_raise_support_authoritarian_democrat: "£decision_icon_small Solidifier le Contrôle"
- hidden_raise_support_paternal_autocrat: "£decision_icon_small Solidifier le Contrôle"
- hidden_raise_support_national_populist: "£decision_icon_small Solidifier le Contrôle"
 
  restructure_supply_system: "Réorganiser le Système Ferroviaire"
  restructure_supply_system_desc: "En réorientant les matériaux de construction et les cheminots, nous pouvons rapidement créer un petit nombre de dépôts d'approvisionnement improvisés le long de certains de nos chemins de fer. Mais cette solution n'est pas durable.\n\n§RCette décision ne peut être prise qu'une seule fois. Le bonus disparaîtra si vous construisez plus de 3 centres de ravitaillement supplémentaires.§!"

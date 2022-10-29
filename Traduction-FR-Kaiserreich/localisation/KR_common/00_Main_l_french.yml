@@ -10,7 +10,8 @@
 
 ### Splash Screen Credits ###
 KR_SPLASH_TITLE: "Bienvenue dans Kaiserreich"
-KR_SPLASH_CREDITS: "§YCréé par l'équipe KR4 :§!\nAdrianator2, Alpinia, Arvidus, Asratius, Augenis, Blackfalcon501, Carmain, Chazem, Chiron29, Conchobhar, DSFDarker, DuoDex, El Daddy, Fedex, Flamefang, Gaboemi, Gideones, Hamfast, Ido, Igor050301, JazzyHugh, Jeankedezeehond, Jonny BL, Juliet Wehrwolf, KFateweaver, Kennedy, kergely, Klyntar King, Krčo, Luwofe, Matoro, McOmghall, ~mw~ // miwaco., NukeGaming, OperationsManagementDecisions, Owenomaly, PPsyrius, Pelmen, RagnoStrangeros, Rei!, Retrocognition, Rnk, Shiroe, Sonny O'Cad, Story, suzuha, The Alpha Dog, The Irredentista, The Italian Jojo, Vidyaország, Zimbabwe Salt Co.\n§YTraduit par : §!Diro, Hellh, IGgame, IlluminatiX, LRP2580, Mouchi et UltraNico\n§YAnciennement traduit par : §!Aegon Targaryen, Brakmar, Darkusios, Demetran, Fanois, Feuxin, Grikke, Kfateweaver, Kira, Klik le Araï, Lazu, Le Marocain, MVMaroIV, Nobelo81, Orakle14, Paralux, Remkiller123, Romain1912, Rosak, Solal, Superwaffle, TheAzmyr, Vitulus, Youkoulélé et Zeplein"
+KR_SPLASH_CREDITS: "§YCréé par l'équipe KR4 :§!\nAdrianator2, Alpinia, Arvidus, Asratius, Augenis, Blackfalcon501, Carmain, Chazem, Chiang Kai-shrek, Chiron29, Conchobhar, DSFDarker, DuoDex, El Daddy, Fedex, Flamefang, Gaboemi, Gideones, Hamfast, Ido, Igor050301, JazzyHugh, Jeankedezeehond, Jonny BL, Juliet Wehrwolf, KFateweaver, Kennedy, kergely, Klyntar King, Krčo, Luwofe, Matoro, McOmghall, ~mw~ // miwaco., NukeGaming, OperationsManagementDecisions, Owenomaly, PPsyrius, Pelmen, RagnoStrangeros, Retrocognition, Rnk, Shiroe, Sonny O'Cad, suzuha, The Alpha Dog, The Irredentista, The Italian Jojo, Vidyaország, Zimbabwe Salt Co.\n§YTraduit par : §!Diro, Hellh, IGgame, IlluminatiX, LRP2580, Mouchi et UltraNico\n§YAnciennement traduit par : §!Aegon Targaryen, Brakmar, Darkusios, Demetran, Fanois, Feuxin, Grikke, Kfateweaver, Kira, Klik le Araï, Lazu, Le Marocain, MVMaroIV, Nobelo81, Orakle14, Paralux, Remkiller123, Romain1912, Rosak, Solal, Superwaffle, TheAzmyr, Vitulus, Youkoulélé et Zeplein"
+
 
 ### Diplomacy Tooltips ###
 REQUEST_EXP_FORCE_BLOCKED_TT: "§RCe pays ne vous permet pas de demander ses forces.§!"
@@ -57,6 +58,45 @@ REQUEST_EXP_FORCE_BLOCKED_TT: "§RCe pays ne vous permet pas de demander ses for
  is_in_middle_east: "Est un pays §HMoyen-Oriental§!"
  is_in_oceania: "Est un pays §HOcéanien§!"
 
+ is_american_tag: "Est un pays Américain"
+ is_arab_tag: "Est un pays Arabophone"
+ is_arabian_tag: "Est un pays Arabe"
+ is_libya_tag: "Est un pays Libyen"
+ is_portuguese_tag: "Est un pays lusophone"
+ is_brazilian_tag: "Est un pays Brésilien"
+ is_han_chinese_tag: "Est un pays majoritairement chinois"
+ is_chinese_tag: "Est en Chine"
+ is_dutch_tag: "Est un pays Néerlandophone"
+ is_english_tag: "Est un pays Anglophone"
+ is_commonwealth_tag: "Est un pays du Commonwealth"
+ is_british_tag: "Est un pays Britannique"
+ is_catholic_tag: "Est un pays Catholique"
+ is_french_tag: "Est un pays français"
+ is_french_africa_tag: "Est un pays d'Afrique française"
+ is_french_speaking_tag: "Est un pays Francophone"
+ is_german_tag: "Est un pays germanophone"
+ is_germany_or_splinter_tag: "Est un pays allemand"
+ is_italian_tag: "Est un pays italien"
+ is_polish_tag: "Est un pays polonais"
+ is_russian_tag: "Est un pays Russe"
+ is_south_slav_tag: "Est un pays slave du sud"
+ is_central_asian_tag: "Est un pays d'Asie centrale"
+ is_spanish_speaking_tag: "Est un pays hispanophone"
+ is_central_american_tag: "Est un pays d'Amérique centrale"
+ is_spanish_south_american_tag: "Est un pays Hispano-américain"
+ is_quechua_speaking_tag: "Est un pays de langue quechua"
+ is_indian_tag: "Est un pays Indien"
+ is_farsi_speaking_tag: "Est un pays parlant le farsi"
+ is_danubian_tag: "Est un pays Danubien"
+ is_balkan_tag: "Est un pays des Balkans"
+ is_belgian_tag: "Est en Belgique"
+ is_uighur_tag: "Est un pays Ouïghour"
+ is_scandinavian_tag: "Est un pays Scandinave"
+ is_czechoslovak_tag: "Est un pays Tchécoslovaque"
+ is_turkish_tag: "Est un pays Turc"
+ is_romanian_tag: "Est un pays Roumain"
+ is_greek_tag: "Est un pays Grec"
+
 ### Actual Major Power Tooltip ###
  is_actual_major_tooltip_base: " Est une puissance majeure mondiale :"
  is_actual_major_tooltip_major: "\n     [THIS.MajorWorldPower_MajorCheck] $TRIGGER_IS_MAJOR$"
@@ -68,14 +108,19 @@ REQUEST_EXP_FORCE_BLOCKED_TT: "§RCe pays ne vous permet pas de demander ses for
  is_actual_major: "$is_actual_major_without_exceptions$$is_actual_major_tooltip_ENT$"
  is_actual_major_without_exceptions: "$is_actual_major_tooltip_base$$is_actual_major_tooltip_major$$is_actual_major_tooltip_OR$$is_actual_major_tooltip_seven_largest$$is_actual_major_tooltip_average$"
 
-### Renaming System ###
-toggle_renaming_button_tooltip: "[toggle_renaming_button_tooltip_loc]"
-toggle_renaming_button_tooltip_desc: "[toggle_renaming_button_tooltip_desc_loc]"
-toggle_renaming_button_tooltip_mp: "§RDésactivé en mode multijoueur§!"
- toggle_renaming_button_tooltip_enable: "§HActuellement en mode Noms Français§!"
- toggle_renaming_button_tooltip_enable_desc: "Le jeu utilise actuellement des noms français pour les États et les points de victoire (Exonymes), avec un renommage dynamique désactivé.\n\nCliquez ici pour passer à l'utilisation de noms natifs pour les États et les points de victoire (Endonymes), avec un renommage dynamique activé."
- toggle_renaming_button_tooltip_disable: "§HActuellement en mode Noms natifs§!"
- toggle_renaming_button_tooltip_disable_desc: "Le jeu utilise actuellement des noms natifs pour les États et les points de victoire (Endonymes), avec une renomination dynamique activée.\n\nCliquez ici pour passer à l'utilisation de noms français pour les États et les points de victoire (Exonymes), avec une renomination dynamique désactivée."
+### Options GUI ###
+ kr_options_title: "§YOptions de Kaiserreich§!"
+ kr_options_tooltip: "Bascule les options de jeu spécifiques à Kaiserreich"
+ kr_options_explanation: "§RAVIS IMPORTANT§! :\n\nDepuis le patch 0.22.2, un certain nombre de paramètres KR tels que les endonymes et les événements d'actualité ont été déplacés vers leur propre menu, que vous trouverez dans la barre supérieure, près du bouton de tension du monde."
+
+ rename_text: "Renominations des États/Points de Victoires"
+ rename_tooltip: "§GCliquez§! ici pour activer le renommage dynamique des états et des points de victoire en fonction de leur contrôleur actuel."
+
+ regional_news_text: "Événements d'Actualité Régionaux"
+ regional_news_tooltip: "§GCliquez§! ici pour activer les popups d'événements d'actualité pour les événements mondiaux qui affectent directement les pays qui les reçoivent."
+
+ world_news_text: "Événements d'Actualité Mondiale"
+ world_news_tooltip: "§GCliquez§! ici pour activer les popups d'événements d'actualité pour tous les événements mondiaux, indépendamment de leur pertinence pour le pays qui les reçoit."
 
 ### Continents ###
 is_actually_an_island: "est un État insulaire"
@@ -189,8 +234,8 @@ compliance_integration: "Intégration"
  second_in_command: "Commandant en Second"
 
 ### Character Tooltips ###
- character_is_dead: "Est décédé"
- character_is_dead_NOT: "N'est pas décédé"
+ is_dead:0 "Est décédé"
+ is_dead_NOT:0 "N'est pas décédé"
 
  is_second_in_command: "Est le commandant en second"
  is_second_in_command_NOT: "N'est pas le commandant en second"
@@ -343,25 +388,8 @@ mtg_generic.1.a: "Nous n'avons d'autre choix que d'accepter"
  modifier_army_sub_unit_category_mobile_infantry_defence_factor: "Défense Cav/Mot/Mec"
  modifier_army_sub_unit_category_mobile_infantry_speed_factor: "Vitesse Cav/Mot/Mec"
 
-### Tech ###
-military_police_tech: "Police  Militaire "
-
 ### Research Bonus Names ###
 refinery_bonus: "Bonus de raffinage"
-
-### News Events ###
-toggle_news_button_tooltip: "[toggle_news_button_tooltip_loc]"
-toggle_news_button_tooltip_desc: "[toggle_news_button_tooltip_desc_loc]"
- toggle_news_button_tooltip_mp: "§RDésactivé en mode multijoueur§!"
- toggle_news_button_tooltip_all: "Changer pour §HNouvelles régionales seulement§!"
- toggle_news_button_tooltip_all_desc: "Receive major news events from all over the world, but only minor news events for your region of the world."
- toggle_news_button_tooltip_some: "Changer pour §HPas de nouvelles§!"
- toggle_news_button_tooltip_some_desc: "Seuls les événements majeurs les plus importants seront reçus, aucun événement mineur d'aucune sorte."
- toggle_news_button_tooltip_none: "Changer pour §HToutes les nouvelles§!"
- toggle_news_button_tooltip_none_desc: "Tous les événements d'actualité, qu'ils soient majeurs ou mineurs, seront reçus, quelle que soit leur origine."
- toggle_news_text_all: "Afficher toutes les nouvelles"
- toggle_news_text_regional: "Afficher les nouvelles régionales"
- toggle_news_text_none: "Afficher aucune nouvelle"
 
 ### Custom Triggers ###
 had_war: "A fait la guerre"
@@ -376,7 +404,6 @@ command_economy: "Economie de commande"
 fighter_techs: "Technologie des chasseurs"
 cat_strategic_destruction: "Technologie de Destruction Stratégique"
 early_fighter: "Combattant d'entre-deux-guerres"
-signal_company_tech: "compagnie de transmission"
 maintenance_company_tech: "Compagnie de maintenance"
  cat_line_artillery: "Artillerie de Ligne"
 cat_light_spg: "Canon automoteurs légers"
@@ -398,53 +425,6 @@ cat_torpedo: "Technologie des torpilles"
  cat_light_armor_research: "Vitesse de recherche des Blindés Légers"
  excavation_tech_research: "Vitesse de recherche technologique d'Excavation"
  construction_tech_research: "Vitesse de Recherche de Construction"
-
- early_ship_hull_light: "$ship_hull_light_1$"
- basic_ship_hull_light: "$ship_hull_light_2$"
- improved_ship_hull_light: "$ship_hull_light_3$"
- advanced_ship_hull_light: "$ship_hull_light_4$"
- early_ship_hull_cruiser: "$ship_hull_cruiser_1$"
-# basic_ship_hull_cruiser: "$ship_hull_cruiser_2$" #in overide file
- improved_ship_hull_cruiser: "$ship_hull_cruiser_3$"
- advanced_ship_hull_cruiser: "$ship_hull_cruiser_4$"
- early_ship_hull_heavy: "$ship_hull_heavy_1$"
-# basic_ship_hull_heavy: "$ship_hull_heavy_2$" #in overide file
- improved_ship_hull_heavy: "$ship_hull_heavy_3$"
- advanced_ship_hull_heavy: "$ship_hull_heavy_4$"
- basic_ship_hull_carrier: "$ship_hull_carrier_1$"
- improved_ship_hull_carrier: "$ship_hull_carrier_2$"
- advanced_ship_hull_carrier: "$ship_hull_carrier_3$"
- early_ship_hull_submarine: "$ship_hull_submarine_1$"
- basic_ship_hull_submarine: "$ship_hull_submarine_2$"
- improved_ship_hull_submarine: "$ship_hull_submarine_3$"
- advanced_ship_hull_submarine: "$ship_hull_submarine_4$"
-
- early_destroyer: "$destroyer_1$"
- basic_destroyer: "$destroyer_2$"
- improved_destroyer: "$destroyer_3$"
- advanced_destroyer: "$destroyer_4$"
- early_light_cruiser: "$light_cruiser_1$"
- basic_light_cruiser: "$light_cruiser_2$"
- improved_light_cruiser: "$light_cruiser_3$"
- advanced_light_cruiser: "$light_cruiser_4$"
- early_heavy_cruiser: "$heavy_cruiser_1$"
-# basic_heavy_cruiser: "$heavy_cruiser_2$" #in overide file
- improved_heavy_cruiser: "$heavy_cruiser_3$"
- advanced_heavy_cruiser: "$heavy_cruiser_4$"
- early_battleship: "$battleship_1$"
- basic_battleship: "$battleship_2$"
- improved_battleship: "$battleship_3$"
- advanced_battleship: "$battleship_4$"
- early_battlecruiser: "$battle_cruiser_1$"
- basic_battlecruiser: "$battle_cruiser_2$"
-# early_carrier: "$carrier_1$" #in overide file
- basic_carrier: "$carrier_2$"
- improved_carrier: "$carrier_3$"
- advanced_carrier: "$carrier_4$"
- early_submarine: "$submarine_1$"
- basic_submarine: "$submarine_2$"
- improved_submarine: "$submarine_3$"
- advanced_submarine: "$submarine_4$"
 
 ### Hidden Techs ###
  camel_corps_tech: "Corps de chameaux"
