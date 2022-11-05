@@ -12,6 +12,10 @@
 KR_SPLASH_TITLE: "Bienvenue dans Kaiserreich"
 KR_SPLASH_CREDITS: "§YCréé par l'équipe KR4 :§!\nAdrianator2, Alpinia, Arvidus, Asratius, Augenis, Blackfalcon501, Carmain, Chazem, Chiang Kai-shrek, Chiron29, Conchobhar, DSFDarker, DuoDex, El Daddy, Fedex, Flamefang, Gaboemi, Gideones, Hamfast, Ido, Igor050301, JazzyHugh, Jeankedezeehond, Jonny BL, Juliet Wehrwolf, KFateweaver, Kennedy, kergely, Klyntar King, Krčo, Luwofe, Matoro, McOmghall, ~mw~ // miwaco., NukeGaming, OperationsManagementDecisions, Owenomaly, PPsyrius, Pelmen, RagnoStrangeros, Retrocognition, Rnk, Shiroe, Sonny O'Cad, suzuha, The Alpha Dog, The Irredentista, The Italian Jojo, Vidyaország, Zimbabwe Salt Co.\n§YTraduit par : §!Diro, Hellh, IGgame, IlluminatiX, LRP2580, Mouchi et UltraNico\n§YAnciennement traduit par : §!Aegon Targaryen, Brakmar, Darkusios, Demetran, Fanois, Feuxin, Grikke, Kfateweaver, Kira, Klik le Araï, Lazu, Le Marocain, MVMaroIV, Nobelo81, Orakle14, Paralux, Remkiller123, Romain1912, Rosak, Solal, Superwaffle, TheAzmyr, Vitulus, Youkoulélé et Zeplein"
 
+
+### Career Profile ###
+ KAISERREICH_CAREER_PROFILE: "Kaiserreich"
+
 ### Diplomacy Tooltips ###
 REQUEST_EXP_FORCE_BLOCKED_TT: "§RCe pays ne vous permet pas de demander ses forces.§!"
  RECALL_VOLUNTEERS_TITLE: "Rappeler les volontaires"
@@ -52,6 +56,7 @@ REQUEST_EXP_FORCE_BLOCKED_TT: "§RCe pays ne vous permet pas de demander ses for
  is_in_africa: "Est un pays §HAfricain§!"
  is_in_north_america: "Est un pays d'Amérique du Nord"
  is_in_central_america: "Est un pays §HCentro-Américain§!"
+ is_in_caribbean: "Est un pays §HCaribéen§!"
  is_in_south_america: "Est un pays §HSud-Américain§!"
  is_in_americas: "Est un pays §HAméricain§!"
  is_in_middle_east: "Est un pays §HMoyen-Oriental§!"
@@ -88,13 +93,13 @@ REQUEST_EXP_FORCE_BLOCKED_TT: "§RCe pays ne vous permet pas de demander ses for
  is_farsi_speaking_tag: "Est un pays parlant le farsi"
  is_danubian_tag: "Est un pays Danubien"
  is_balkan_tag: "Est un pays des Balkans"
- is_belgian_tag: "Est en Belgique"
+ is_belgian_tag: "Est un pays Belge"
  is_uighur_tag: "Est un pays Ouïghour"
  is_scandinavian_tag: "Est un pays Scandinave"
  is_czechoslovak_tag: "Est un pays Tchécoslovaque"
- is_turkish_tag: "Est un pays Turc"
- is_romanian_tag: "Est un pays Roumain"
- is_greek_tag: "Est un pays Grec"
+ is_turkish_tag: "Est un pays de langue Turque"
+ is_romanian_tag: "Est un pays de langue Roumaine"
+ is_greek_tag: "Est un pays de langue Greque"
 
 ### Actual Major Power Tooltip ###
  is_actual_major_tooltip_base: " Est une puissance majeure mondiale :"
@@ -106,6 +111,9 @@ REQUEST_EXP_FORCE_BLOCKED_TT: "§RCe pays ne vous permet pas de demander ses for
 
  is_actual_major: "$is_actual_major_without_exceptions$$is_actual_major_tooltip_ENT$"
  is_actual_major_without_exceptions: "$is_actual_major_tooltip_base$$is_actual_major_tooltip_major$$is_actual_major_tooltip_OR$$is_actual_major_tooltip_seven_largest$$is_actual_major_tooltip_average$"
+ 
+### Political Tab UI ###
+ power_balance_button_disabled: "Votre pays n'a pas d'§YEquilibre du Pouvoir§! actif."
 
 ### Options GUI ###
  kr_options_title: "§YOptions de Kaiserreich§!"
@@ -120,6 +128,13 @@ REQUEST_EXP_FORCE_BLOCKED_TT: "§RCe pays ne vous permet pas de demander ses for
 
  world_news_text: "Événements d'Actualité Mondiale"
  world_news_tooltip: "§GCliquez§! ici pour activer les popups d'événements d'actualité pour tous les événements mondiaux, indépendamment de leur pertinence pour le pays qui les reçoit."
+ 
+### Static Modifiers ###
+ volunteer_limit_plus_three: "Limite des Volontaires Augmentée"
+ volunteer_limit_plus_two: "$volunteer_limit_plus_three$"
+ volunteer_limit_plus_one: "$volunteer_limit_plus_three$"
+ volunteer_limit_plus_fifty_percent: "$volunteer_limit_plus_three$"
+ volunteer_limit_plus_hundred_percent: "$volunteer_limit_plus_three$"
 
 ### Continents ###
 is_actually_an_island: "est un État insulaire"
@@ -497,7 +512,23 @@ tech_integrated_specialists: "Forces Speciales Intégrées"
  tech_better_paratroopers: "Parachutistes d'élite"
  tech_better_paratroopers_effect: "Active §H$tech_better_paratroopers$§!\n§H$paratrooper$§!\n      $STAT_ARMY_SOFT_ATTACK$§G+10%§!\n      $STAT_ARMY_DEFAULT_MORALE$: §G+0.20§!\n      $MODIFIER_PARATROOPER_EXTRA_SUPPLY_GRACE$: [?24|G1=] $MOD_HOUR$"
 
-black_monday: "Lundi noir"
+ tech_irregulars: "Infanterie Irrégulière"
+ tech_irregulars_effect: "Active les bataillons de §Y$irregular_infantry$§!"
+
+ tech_militias: "Milice"
+ tech_militias_effect: "Active les bataillons de §Y$militia$§!"
+
+ ### Units ###
+ rangers: "Rangers"
+ rangers_desc: "Des unités de forces spéciales formées et équipées pour opérer attachées à des divisions ordinaires."
+
+ tech_rangers: "Rangers"
+ tech_rangers_effect: "Active §Y$rangers$§! :\n   $rangers_desc$"
+
+ modifier_army_sub_unit_rangers_attack_factor: "Attaque des $rangers$"
+ modifier_army_sub_unit_rangers_defence_factor: "Défense des $rangers$"
+ modifier_army_sub_unit_rangers_speed_factor: "Vitesse des $rangers$"
+ modifier_army_sub_unit_rangers_max_org_factor: "Organisation des $rangers$"
 
  ### Debug Tag ###
  XXA: "Debug Tag"

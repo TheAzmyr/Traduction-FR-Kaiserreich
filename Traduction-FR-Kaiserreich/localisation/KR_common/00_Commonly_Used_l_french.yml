@@ -14,7 +14,10 @@
  after_idea_expires: "Après l'expiration de l'Esprit National :"
 
  unlock_focuses: "§GCette priorité sera éventuellement contournée automatiquement et déverrouillera les autres priorités.§!\n"
- unlocks_after_event: "§GCette priorité sera automatiquement déverrouillée par événement§!\n"
+ tooltip_focus_unlocked_by_event: "§GCette priorité sera automatiquement déverrouillée via l'événement§!"
+
+ tooltip_apply_one_of_effects_depending_on_ideas: "§gAppliquez l'un des effets suivants en fonction de notre esprit national actuel :§!"
+ tooltip_apply_one_of_effects_depending_on_ruling_party: "§gAppliquez l'un des effets suivants en fonction de notre parti dirigeant actuel :§!"
 
  if_controlled_by_PREV: "si est contrôlé par §Y[PREV.GetNonIdeologyName]§! :"
 
@@ -45,6 +48,12 @@
  cannot_mobilise_tt: "§RImpossible d'augmenter les lois sur la conscription ou la mobilisation.§!\n"
  cannot_build_armor_tt: "§RNe peut pas construire de blindés.§!"
  cannot_replace_character: "§YCe conseiller ne peut pas être remplacé manuellement§!"
+
+ volunteer_limit_plus_three_tt: "$MODIFIER_SEND_VOLUNTEER_SIZE$: [?3|+=0]"
+ volunteer_limit_plus_two_tt: "$MODIFIER_SEND_VOLUNTEER_SIZE$: [?2|+=0]"
+ volunteer_limit_plus_one_tt: "$MODIFIER_SEND_VOLUNTEER_SIZE$: [?1|+=0]"
+ volunteer_limit_plus_fifty_percent_tt: "$MODIFIER_SEND_VOLUNTEER_SIZE$: [?0.5|+=%1]"
+ volunteer_limit_plus_hundred_percent_tt: "$MODIFIER_SEND_VOLUNTEER_SIZE$: [?0.1|+=%1]"
 
 ### Colours (for use in scripted loc) ###
  colour_cyan: "C"
