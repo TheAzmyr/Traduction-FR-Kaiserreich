@@ -1,8 +1,8 @@
 ﻿l_french:
 
 ### Opening Event ###
- kr.political.1.t: "Kaiserreich Beta 0.22.4"
- kr.political.1.d: "L'équipe Kaiserreich est fière de vous présenter la version bêta 0.22.4 de Kaiserreich pour Hearts of Iron 4.\n\nNotre équipe a travaillé dur depuis les quatre coins du monde pour vous apporter cette nouvelle version et nous ne pourrions être plus honorés que vous choisissiez d'y jouer.\n\nVeuillez noter ce qui suit :\n\n     - Ce mod est conçu en partant du principe que le joueur annexe tous les États possibles lors des conférences de paix, alors veillez à le faire.\n\n     - La fréquence des événements et le système de dénomination utilisé pour les états et les points de victoire peuvent être ajustés dans un menu auquel on accède en cliquant sur l'icône remplaçant le menu des réalisations en haut à droite.\n\n    - N'oubliez pas que ce mod est encore en version bêta, donc les bugs et les plantages sont malheureusement une possibilité. Si vous rencontrez des problèmes, signalez-les sur notre gestionnaire de problèmes GitHub (issues), ce qui nous aidera à les résoudre plus rapidement.\n\nNous espérons que vous aurez autant de plaisir à jouer à Kaiserreich que nous en avons eu à le créer !"
+ kr.political.1.t: "Kaiserreich Beta 0.23"
+ kr.political.1.d:9 "L'équipe Kaiserreich est fière de vous présenter la version bêta 0.23 de Kaiserreich pour Hearts of Iron 4.\n\nNotre équipe a travaillé dur depuis les quatre coins du monde pour vous apporter cette nouvelle version et nous ne pourrions être plus honorés que vous choisissiez d'y jouer.\n\nVeuillez noter ce qui suit :\n\n     - Ce mod est conçu en partant du principe que le joueur annexe tous les États possibles lors des conférences de paix, alors veillez à le faire.\n\n     - La fréquence des événements et le système de dénomination utilisé pour les états et les points de victoire peuvent être ajustés dans un menu auquel on accède en cliquant sur l'icône remplaçant le menu des réalisations en haut à droite.\n\n    - N'oubliez pas que ce mod est encore en version bêta, donc les bugs et les plantages sont malheureusement une possibilité. Si vous rencontrez des problèmes, signalez-les sur notre gestionnaire de problèmes GitHub (issues), ce qui nous aidera à les résoudre plus rapidement.\n\nNous espérons que vous aurez autant de plaisir à jouer à Kaiserreich que nous en avons eu à le créer !"
  kr.political.1.a: "Je suis sûr que je le ferai !"
 
 ### Generic Faction Joining ###
@@ -105,7 +105,7 @@ military_staff_available: "Ce membre de l'état-major militaire est vivant et pr
 
  KR_is_conservative: "$government_is_loc$§Y$social_conservative$§! ou §Y$authoritarian_democrat$§!"
  KR_is_conservative_NOT: "$government_is_not_loc$§Y$social_conservative$§! ou §Y$authoritarian_democrat$§!"
- 
+
 ### Party Popularity Tooltips ###
  popularity_ideology_tooltip: "Votre parti actuel au pouvoir est §H[?current_party_ideology_group.GetTokenLocalizedKey]§!"
  popularity_ideology_desc: "§L[GetPopularityTooltipDesc]§!"
@@ -162,7 +162,7 @@ has_scripted_peace_desc: "Le pays est en guerre et est déterminé à remporter 
 
  unit_limit_desc_above_limit: "\n\n--------------\n\n§RNous avons actuellement dépassé nos capacités, et la seule façon de soulager la pression sur notre pays sera de supprimer certaines de nos divisions.§!\n\n$MODIFIER_ARMY_ORG_FACTOR$: [?mobilisation_penalty_var|+=%1]\n$MODIFIER_CONSUMER_GOODS_FACTOR$: [?mobilisation_penalty_var_positive|=%H1]\n$MODIFIER_INDUSTRIAL_CAPACITY_FACTOR$: [?mobilisation_penalty_var|+=%]\n$MODIFIER_TRAINING_TIME_ARMY_FACTOR$: [?mobilisation_penalty_var_positive|-=%]\n$MODIFIER_LAND_REINFORCE_RATE$: [?mobilisation_penalty_var|+=%1]"
 
- unit_limit_civil_war_desc: "\n\nLors d'une §Hguerre civile§!, les pays ennemis sont aussi comptés comme faisant partie de nos limites, et les nôtres, des leurs."
+ unit_limit_civil_war_desc: "\n\nDans les §Hguerres civiles§!, les valeurs de base sont calculées à partir de la somme de tous les états possédés par tous les participants."
  unit_limit_noncore_population_desc: "\n      (§H10%§! des états non cœur : [?non_core_base|H1])"
  unit_limit_subject_population_bonus_desc: "\n      ([?subject_base_units|H1] des §HSujets§!)"
  unit_limit_subject_state_bonus_desc: "\n      ([?subject_states|H1] des §HSujets§!)"
