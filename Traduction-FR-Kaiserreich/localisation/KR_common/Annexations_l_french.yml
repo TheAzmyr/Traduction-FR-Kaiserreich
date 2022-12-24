@@ -27,16 +27,23 @@ can_offer_land_to_SRD: "Est en mesure de faire une offre à §Y[SRD.GetNameDef]�
 annexation_decisions: "Décisions d'annexion"
  annexation_decisions_desc: "Après avoir pris le contrôle de nouvelles étendues de terre, nous devons maintenant décider de ce qu'il faut en faire. L'occupation peut être coûteuse et déstabilisante, mais elle nous donne un accès direct aux richesses de ces nouvelles terres. D'autre part, la création de nations fantoches permet d'éviter de telles occupations mais n'est pas toujours aussi fiable. Dans tous les cas, le destin des nations est entre nos mains."
 
-annex.occupation: "L'occupation militaire est la seule réponse."
+ annex.give_to_ally: "Donnez-le à nos alliés [?target.GetAdjective]s."
+ annex.give_to_neutral: "Accordez-le à [?target.GetNonIdeologyNameDef] - nous n'en avons pas besoin"
+
+ annex.occupation: "L'occupation militaire est la seule réponse."
  annex.integration: "Assimiler au territoire [Root.GetAdjective]."
+ annex.africa.give_to_maf: "[MAF.GetGrantTerritoryEventOption]"
+ annex.africa.give_to_tzn: "[TZN.GetGrantTerritoryEventOption]"
+
+ annex.asia.give_to_gea: "[GEA.GetGrantTerritoryEventOption]"
+
+ annex.2.t:0 "[granted_land.GetName] Repris !"
+ annex.2.d:0 "Le gouvernement [From.GetAdjective] a choisi de nous rendre [granted_land.GetName], sans conditions."
+ annex.2.a:0 "Hourra !"
 
 annex.18.t: "Territoires reconquis !"
  annex.18.d: "Le gouvernement [From.GetAdjective] a choisi de nous restituer des terres situées dans l'ancienne Italie occupée par les Autrichiens."
 annex.18.a: "Hourra !"
-
- annex.38.t: "[granted_land.GetName] Repris !"
- annex.38.d: "Le gouvernement [From.GetAdjective] a choisi de nous rendre [granted_land.GetName], sans conditions."
- annex.38.a: "Hourrah !"
 
 annex.184.t: "Une restauration O'Neill ?"
  annex.184.d: "Maintenant que nous avons recréé un État irlandais, certains ont proposé la restauration d'une monarchie irlandaise. L'option la plus évidente serait les O'Neill, descendants du dernier grand roi d'Irlande, Brian O'Neill, qui a joué un rôle majeur dans la guerre de Neuf Ans et dans les guerres confédérées irlandaises avec Hugh O'Neill et Owen Roe O'Neill qui ont remporté de grandes victoires contre les Anglais et les Écossais. L'actuel chef de la lignée Clanaboy de la dynastie O'Neill et vicomte de Santa Mónica Hugo José Jorge O'Neill réside au Portugal, et a été officier dans la marine portugaise et officier aux ordres des rois Carlos I du Portugal et Manuel II du Portugal"
@@ -77,6 +84,7 @@ annexation_PAL_CONQ_desc: " Nos armées ont pris le contrôle de la partie sud d
  annex.247.c: "Donnez-le à notre allié [SYR.GetAdjective]."
  annex.247.d: "Donnez-le à notre allié [EGY.GetAdjective]."
 
+#Italy
  annex.281.t: "Une Offre en provenance de [From.GetNonIdeologyNameDef]"
  annex.281.d.allitaly: "Une délégation en provenance de [From.GetNonIdeologyNameDef] est arrivée avec une offre : en échange de notre prise de contrôle sur la majeure partie de l'Italie, actuellement sous contrôle [From.GetAdjective], ils demandent à [Root.GetNonIdeologyNameDef] de rejoindre [From.GetFactionName]. C'est une offre tentante, même si cela signifie abandonner toutes nos alliances actuelles, et les guerres dans lesquelles nous nous battons."
  annex.281.d.centralitaly: "Une délégation en provenance de [From.GetNonIdeologyNameDef] est arrivée avec une offre : en échange de notre prise de contrôle sur la majeure partie de l'Italie Centrale, actuellement sous contrôle [From.GetAdjective], ils demandent à [Root.GetNonIdeologyNameDef] de rejoindre [From.GetFactionName]. C'est une offre tentante, même si cela signifie abandonner toutes nos alliances actuelles, et les guerres dans lesquelles nous nous battons."
@@ -95,6 +103,24 @@ annex.283.a: "Leur perte semble-t-il"
 annex.284.t: "[From.GetNameDefCap] abandonne le [Root.GetFactionName]"
  annex.284.d: "Il semblerait que l'offre faite par [From.From.GetNonIdeologyNameDef] pour le retour de territoires en Italie se soit avérée inacceptable pour [From.GetNonIdeologyNameDef] qui l'a donc refusé. Ils ont quitté notre alliance, et ont rejoint à la place [From.From.GetFactionName]. C'est peut-être un territoire que nous n'aurions jamais pu leur livrer, mais même ainsi, c'est une pilule amère à avaler."
 annex.284.a: "Espérons que nous ne nous retrouvons pas dans des camps opposés"
+
+#Serbia
+ annex.285.t:0 "Une Offre en provenance de [From.GetNonIdeologyNameDef]"
+ annex.285.d: "Les dirigeants serbes ont été contactés par un représentant de [FROM.GetNameDef]. La nouvelle possession par le gouvernement  [FROM.GetAdjective] de territoires dans les Balkans est une situation qui nécessite une solution à plus long terme, disent-ils, et ils ont peu à gagner d'une occupation coûteuse. Ils sont conscients des ambitions serbes, depuis longtemps contrariées, d'unir les Slaves du Sud en une seule entité politique, et de leur échec continu dans cette entreprise, même s'il ne fait aucun doute que l'idée de la Yougoslavie conserve beaucoup d'attrait.\n\nL'offre présentée est simple. Les territoires qui constituent l'État proposé de Yougoslavie, en échange d'une pleine participation serbe à la [FROM.GetFactionName].\n\nLa plupart des membres du gouvernement considèrent que cette proposition est trop belle pour être vraie, bien que les voix dissidentes habituelles fassent déjà courir le risque d'être entraînées dans une nouvelle effusion de sang non désirée. Cela impliquerait bien sûr de se séparer de tous les alliés actuels, ce que les mêmes voix qualifient de dédaigneux, mais cela en vaudrait presque certainement la peine."
+ annex.285.a: "Où devons-nous signer ?"
+ annex.285.b: "Il doit y avoir une sorte de piège."
+
+ annex.286.t: "[From.GetNameDefCap] a accepté"
+ annex.286.d: "À la surprise générale, les Serbes ont accepté la proposition d'alliance, en échange des territoires qu'ils convoitent tant. La Yougoslavie tant désirée peut maintenant être créée, [ROOT.GetName] gagne un allié dans les Balkans et [ROOT.GetFactionName] s'agrandit !"
+ annex.286.a:0 "Hej, Sloveni!"
+
+ annex.287.t:0 "[From.GetNameDefCap] a refusé"
+ annex.287.d: "Faisant état de l'incertitude quant à la capacité de leur gouvernement actuel à gérer le transfert de territoire, avec un soupçon de ne pas vouloir être entraînés dans de nouveaux conflits, les Serbes ont choqué le corps diplomatique par leur refus de l'offre généreuse. Il semble que nous devrons maintenant mettre en place des gouvernements locaux supervisés pour administrer la région."
+ annex.287.a:0 "Leur perte."
+
+ annex.288.t:0 "[From.GetNameDefCap] Abandonne le [Root.GetFactionName]"
+ annex.288.d: "Il semble qu'une offre faite par [From.From.GetNonIdeologyNameDef] pour le transfert de leurs revendications dans les Balkans était trop importante pour que [From.GetNonIdeologyNameDef] la refuse. Ils ont abandonné notre alliance et ont rejoint la [From.From.GetFactionName]. Il s'agit peut-être d'une terre que nous n'aurions jamais pu leur livrer, mais même ainsi - c'est une pilule amère à avaler."
+ annex.288.a: "Espérons que nous ne finirons pas dans des camps opposés..."
 
 ## let's sort these out ##
 
@@ -145,8 +171,8 @@ annexation_LUX_CONQ: "Le destin du Luxembourg"
  annex.1005.b: "Donnez-le à [58.owner.GetNonIdeologyNameDef]"
  annex.1005.c: "Intégrez-le au sein de [Root.GetNonIdeologyNameDef]"
 
- annexation_DDR_CONQ: "Le destin de la Prusse"
- annexation_DDR_CONQ_desc: "Une grande partie de la Prusse a été placée sous notre contrôle alors que nos troupes occupent la région. Nous devons maintenant décider de ce qu'il faut en faire."
+ annexation_PRE_CONQ:0 "Le destin de la Prusse"
+ annexation_PRE_CONQ_desc:0 "Une grande partie de la Prusse a été placée sous notre contrôle alors que nos troupes occupent la région. Nous devons maintenant décider de ce qu'il faut en faire."
  annex.1006.a:0 "Libérer un État prussien loyal"
  annex.1006.b: "Le Grand Duc Boris comme Roi de Prusse !"
  annex.1006.c:0 "Donnez la Prusse Occidentale à [NGF.GetNonIdeologyNameDef], nous déciderons quoi faire du reste plus tard"
@@ -245,7 +271,6 @@ annexation_AUS_CONQ: "Le destin de l'Autriche"
  annex.1020.a: "Nous devons les libérer."
  annex.1020.b: "Annexez l'Autriche au territoire de [52.owner.GetNonIdeologyNameDef]."
  annex.1020.c: "Réunir les terres danubiennes."
- annex.1020.d: "Nous allons recréer une vieille idée ..."
 
 annexation_CZE_CONQ: "La conquête de la Bohême"
  annexation_CZE_CONQ_desc: "L'ancien cœur des Tchèques a été conquis par nos forces victorieuses. Le vénérable joyau de la rivière Vltava, Prague, est occupé par nos troupes qui défilent élégamment sur la place Wenceslas. Devons-nous soutenir un gouvernement tchèque fidèle aux desseins de notre propre État ou maintenir cette splendide occupation militaire ?"
@@ -337,7 +362,8 @@ annexation_CRO_CONQ: "Le destin de la Croatie"
  annexation_CRO_CONQ_desc: "Nous avons pris le contrôle des territoires croates, et il y a un certain degré de résistance parmi les habitants. Nous devons décider de ce qu'il faut faire de leurs terres."
  annex.1031.a: "Nous devons les libérer."
  annex.1031.b: "Donnez-le à [AUS.GetNonIdeologyNameDef]"
- annex.1031.c: "Donnez-les territoires non-dalmates à [HUN.GetNonIdeologyNameDef]"
+ annex.1031.c:0 "Donnez-le à [HUN.GetNonIdeologyNameDef]"
+ annex.1031.d: "Offrez-le à [SER.GetNonIdeologyNameDef] en échange d'une alliance."
 
  annexation_CRO_DALMATIA_CONQ: "Le destin de la Dalmatie"
  annexation_CRO_DALMATIA_CONQ_desc: "Nos troupes ont occupé la petite région de Dalmatie, et nous devons décider de ce qu'il faut en faire."
@@ -426,7 +452,6 @@ annexation_FRA_CONQ_desc: "Paris a été capturé et les Français ont été dé
  annex.1044.b: "Partager l'île entre l'Angleterre et l'Écosse."
  annex.1044.c: "Diviser l'île entre l'Angleterre, le Pays de Galles et l'Écosse."
  annex.1044.e: "Restaurer un Royaume-Uni libre !"
- annex.1044.f: "Rendez les territoires britanniques à nos alliés du [CAN.GetNonIdeologyNameDef]"
  annex.1044.g: "Créer un gouvernement anglais loyal."
  annex.1044.h: "Rétablir l'Union Britannique !"
  annex.1044.i: "Créer un gouvernement anglais - nous traiterons l'Ecosse et le Pays de Galles séparément."
@@ -603,10 +628,8 @@ annexation_BOS_CONQ_desc: "L'État divisé de Bosnie est maintenant sous notre o
 
  annexation_SER_KOSOVO_CONQ: "Le Destin du Kosovo"
  annexation_SER_KOSOVO_CONQ_desc: "Le petit État du Kosovo est maintenant sous notre contrôle, nous devons décider quoi en faire."
- annex.1071.a: "Donnez-le à nos alliés de [SER.GetNonIdeologyNameDef]"
- annex.1071.b: "Donnez-le à nos alliés [ALB.GetNonIdeologyNameDef]"
- annex.1071.c: "Donnez-le à [SER.GetNonIdeologyNameDef] - nous n'en avons pas besoin"
- annex.1071.d: "Donnez-le à [ALB.GetNonIdeologyNameDef] - nous n'en avons pas besoin"
+ annex.1071.a: "[SER.GetGrantTerritoryEventOption]"
+ annex.1071.b: "[ALB.GetGrantTerritoryEventOption]"
 
 annexation_SER_CONQ: "Le destin de la Serbie"
  annexation_SER_CONQ_desc: "L'État serbe a été effectivement éliminé et son armée a complètement capitulé face à nos forces. Nos troupes défilant maintenant à Belgrade, le moment est venu de décider ce que nous devons faire de ces terres."
@@ -632,11 +655,9 @@ annexation_NIIS_CONQ_desc: " La région de Nis est revendiquée par la Bulgarie 
 
  annexation_SER_MACED_CONQ: "Le Destin de la Macédoine"
  annexation_SER_MACED_CONQ_desc: "Le petit État de Macédoine est maintenant sous notre contrôle, nous devons décider quoi en faire."
- annex.1075.a: "Donnez-le à nos alliés de [SER.GetNonIdeologyNameDef]"
- annex.1075.b: "Donnez-le à nos alliés de [BUL.GetNonIdeologyNameDef]"
- annex.1075.c: "Donnez le à [SER.GetNonIdeologyNameDef] - nous n'en avons pas besoin"
- annex.1075.e: "Donnez le à [BUL.GetNonIdeologyNameDef] - nous n'en avons pas besoin"
- annex.1075.f: "Proposez aux Bulgares une alliance pour cela."
+ annex.1075.a: "[SER.GetGrantTerritoryEventOption]"
+ annex.1075.b: "[BUL.GetGrantTerritoryEventOption]"
+ annex.1075.c: "Offrez-le aux Bulgares en échange d'une alliance."
 
 annexation_ROM_CONQ: "Le destin de la Roumanie"
  annexation_ROM_CONQ_desc: "Les forces roumaines ont finalement capitulé devant notre puissance supérieure. Le temps est venu de décider ce qu'il faut faire de leurs terres."
@@ -985,7 +1006,10 @@ annexation_MLT_CONQ_desc: "Malte a été placée sous notre direction et nos tro
  annex.2023.b: "Donnez-le à [PRU.GetNonIdeologyNameDef]"
 
  annexation_ECU_CONQ: "Le destin de l’Équateur"
- annexation_ECU_CONQ_desc: "Après une campagne à travers l’Équateur, nous avons finalement réussi à briser les défenses équatoriennes. Quito est maintenant entre nos mains ! Nous devons maintenant décider de l'avenir de l’Équateur"
+ annexation_ECU_CONQ_desc: "[annexation_ECU_CONQ_description]"
+
+ annexation_ECU_CONQ_galapagos: "Quito est tombé, et l'Équateur n'est plus. Cependant, tout le pays n'est pas sous le contrôle de ses envahisseurs - nous avons la possibilité de rétablir son gouvernement dans les îles Galapagos... si nous le voulons."
+ annexation_ENG_CONQ_normal:0 "Après une campagne à travers l’Équateur, nous avons finalement réussi à briser les défenses équatoriennes. Quito est maintenant entre nos mains ! Nous devons maintenant décider de l'avenir de l’Équateur"
  annex.2024.a: "Libérer l'Équateur sous un gouvernement ami !"
 
  annexation_COL_CONQ: "Le destin de la Colombie"
@@ -1266,7 +1290,6 @@ annexation_MLT_CONQ_desc: "Malte a été placée sous notre direction et nos tro
  annexation_INC_CONQ_desc: "Nous contrôlons maintenant les régions sauvages d'Indochine et nous devons décider quoi faire de tous ces peuples différents"
  annex.3022.a: "Libérer un gouvernement fantoche indochinois"
  annex.3022.b: "Nous déciderons de ce que nous ferons des régions individuellement."
- annex.3022.c: "Transférez le à [GEA.GetNonIdeologyNameDef]"
  annex.3022.d: "Intégrer le Laos et le Cambodge dans notre giron - nous déciderons plus tard de ce qu'il faut faire avec le Vietnam."
 
  annexation_VIN_CONQ: "Le destin du Vietnam"
@@ -1293,7 +1316,6 @@ annexation_MLT_CONQ_desc: "Malte a été placée sous notre direction et nos tro
  annex.3027.b: "Restaurer les Indes Orientales Néerlandaises."
  annex.3027.c: "Rendez le à [DEI.GetNonIdeologyNameDef]."
  annex.3027.d: "Transférez le à [HOL.GetNonIdeologyNameDef]."
- annex.3027.e: "Intégrez le au sein de [GEA.GetNonIdeologyNameDef]."
 
  annexation_PNG_CONQ: "Le destin de la Papouasie-Nouvelle-Guinée"
  annexation_PNG_CONQ_desc: "La Papouasie-Nouvelle-Guinée a été placée sous notre direction et nos troupes occupent l'île. Nous devons maintenant décider de ce qu'il faut en faire."
@@ -1301,14 +1323,12 @@ annexation_MLT_CONQ_desc: "Malte a été placée sous notre direction et nos tro
  annex.3028.b: "Donnez-le à [INS.GetNonIdeologyNameDef]"
  annex.3028.c: "Donnez-le à [AST.GetNonIdeologyNameDef]"
  annex.3028.d: "Donnez-le à [DEI.GetNonIdeologyNameDef]"
- annex.3028.e: "Donnez-le à [GEA.GetNonIdeologyNameDef]"
 
  annexation_MAL_CONQ: "Le destin de la Malaisie"
  annexation_MAL_CONQ_desc: "Nos armées ont réussi à prendre le contrôle de la Malaisie, et elle est maintenant occupée par nous. Nous avons quelques options à ce stade. Que devons-nous faire ?"
  annex.3029.a: "Libérer la Malaisie"
  annex.3029.b: "Donnez-le à [INS.GetNonIdeologyNameDef]"
  annex.3029.c: "Donnez-le à [SIA.GetNonIdeologyNameDef]"
- annex.3029.d: "Donnez-le à [GEA.GetNonIdeologyNameDef]"
  annex.3029.e: "Donnez-le à [DEI.GetNonIdeologyNameDef]"
 
  annexation_SAR_CONQ: "Le destin de Sarawak"
@@ -1316,7 +1336,6 @@ annexation_MLT_CONQ_desc: "Malte a été placée sous notre direction et nos tro
  annex.3030.a: "Libérer le Sarawak comme une marionnette"
  annex.3030.b: "Donnez-le à [MAL.GetNonIdeologyNameDef]"
  annex.3030.c: "Donnez-le à [INS.GetNonIdeologyNameDef]"
- annex.3030.d: "Donnez-le à [GEA.GetNonIdeologyNameDef]"
  annex.3030.e: "Donnez-le à [DEI.GetNonIdeologyNameDef]"
 
  annexation_IND_CONQ: "Le destin de l'Inde"
@@ -1466,18 +1485,18 @@ annexation_MLT_CONQ_desc: "Malte a été placée sous notre direction et nos tro
  annexation_AST_CONQ: "[annexation_AST_CONQ_title]"
  annexation_AST_CONQ_desc: "[annexation_AST_CONQ_description]"
 
- annexation_AST_other: "Le destin de l'Australasie"
- annexation_AST_other_desc: "Après une dure campagne à travers les îles isolées de la confédération australasienne, nos armées ont finalement atteint Canberra et avec la capitulation de l'Australasie, nous devons décider comment nous voulons la gérer."
- annexation_AST_restoring_australia_desc: "Après une dure campagne à travers les îles isolées de l'Australie, nos armées ont finalement atteint Canberra. Avec la capitulation de l'Australie, nous devons décider comment nous voulons la gérer."
+ annexation_AST_CONQ_australasia:0 "Le Destin de l'Australasie"
+ annexation_AST_CONQ_australia: "Le Destin de l'Australie"
+ annexation_AST_CONQ_entente_desc:0 "Le gouvernement australasien a été défait et est actuellement sous notre contrôle. La question qui se pose à nous est de savoir s'il faut rétablir son indépendance sous le contrôle de la Garde australasienne loyaliste - malgré ses tendances extrémistes - et espérer qu'elle soit capable de maintenir l'ordre, ou si nous devons à nouveau promulguer les Protocoles d'urgence et assumer le pouvoir direct par l'intermédiaire de notre Gouverneur général"
+ annexation_AST_CONQ_australasia_desc:0 "Après une dure campagne à travers les îles isolées de la confédération australasienne, nos armées ont finalement atteint Canberra et avec la capitulation de l'Australasie, nous devons décider comment nous voulons la gérer."
+ annexation_AST_CONQ_australia_desc:0 "Après une dure campagne à travers les îles isolées de l'Australie, nos armées ont finalement atteint Canberra. Avec la capitulation de l'Australie, nous devons décider comment nous voulons la gérer."
  annex.3058.a: "Libérer une Australasie unie."
- annex.3058.b: "Libérez l'Australasie et donnez-leur le pouvoir sur leur zone du Pacifique."
- annex.3058.c: "Libérez l'Australie et la Nouvelle-Zélande."
- annex.3058.e: "Libérez l'Australie."
-
- annexation_AST_restoring_australasia: "Le Destin de l'Australasie"
- annexation_AST_restoring_australasia_desc: "Le gouvernement australasien a été défait et est actuellement sous notre contrôle. La question qui se pose à nous est de savoir s'il faut rétablir son indépendance sous le contrôle de la Garde australasienne loyaliste - malgré ses tendances extrémistes - et espérer qu'elle soit capable de maintenir l'ordre, ou si nous devons à nouveau promulguer les Protocoles d'urgence et assumer le pouvoir direct par l'intermédiaire de notre Gouverneur général"
- annex.3059.a: "La Garde est plus que capable de restaurer l'ordre."
- annex.3059.b: "Le Gouverneur Général gouvernera en notre nom."
+ annex.3058.b:0 "Libérez l'Australie et la Nouvelle-Zélande."
+ annex.3058.c:0 "Libérez l'Australasie et donnez-leur le pouvoir sur leur zone du Pacifique."
+ annex.3058.d:0 "Libérez l'Australie."
+ annex.3058.e:0 "La Garde est plus que capable de restaurer l'ordre."
+ annex.3058.f:0 "Le Gouverneur Général gouvernera en notre nom."
+ annex.3058.g:0 "Rendez la aux Britanniques."
 
  annexation_NZL_CONQ: "Le destin de la Nouvelle-Zélande"
  annexation_NZL_CONQ_desc: "Les îles de la Nouvelle-Zélande ont été placées sous notre contrôle alors que nos troupes occupent la région. Nous devons maintenant décider de ce qu'il faut en faire."
@@ -1490,7 +1509,6 @@ annexation_MLT_CONQ_desc: "Malte a été placée sous notre direction et nos tro
  annex.3061.b: "Libérez Hawaï en tant que monarchie"
  annex.3061.c: "Rendez les à [797.owner.GetNonIdeologyNameDef]"
  annex.3061.d: "Donnez-les à nos alliés [JAP.GetAdjective]"
- annex.3061.e: "Intégrez les au sein de [GEA.GetNonIdeologyNameDef]"
  annex.3061.f: "Intégrer l'archipel d'Hawaï"
 
  annexation_STUNGTRENG_CONQ: "Le Destin de [826.GetName]"
@@ -1517,14 +1535,12 @@ annexation_MLT_CONQ_desc: "Malte a été placée sous notre direction et nos tro
  annex.3065.a: "Donnez-le à [LAO.GetNonIdeologyNameDef]"
  annex.3065.b: "Donnez-le à [SIA.GetNonIdeologyNameDef]"
  annex.3065.c: "Donnez-le à [INC.GetNonIdeologyNameDef]"
- annex.3065.d: "Donnez-le à [GEA.GetNonIdeologyNameDef]"
 
  annexation_BATTAMBANG_CONQ: "Le Destin de [825.GetName]"
  annexation_BATTAMBANG_CONQ_desc: "Le territoire de [825.GetName] a été placé sous notre contrôle alors que nos troupes occupent la région. Nous devons maintenant décider ce que nous allons en faire."
  annex.3066.a: "Donnez-le à [CAM.GetNonIdeologyNameDef]"
  annex.3066.b: "Donnez-le à [SIA.GetNonIdeologyNameDef]"
  annex.3066.c: "Donnez-le à [INC.GetNonIdeologyNameDef]"
- annex.3066.d: "Donnez-le à [GEA.GetNonIdeologyNameDef]"
 
  annexation_KELANTAN_CONQ: "Le Destin de [751.GetName]"
  annexation_KELANTAN_CONQ_desc: "Le territoire de [751.GetName] a été placé sous notre contrôle alors que nos troupes occupent la région. Nous devons maintenant décider ce que nous allons en faire."
@@ -1538,7 +1554,6 @@ annexation_MLT_CONQ_desc: "Malte a été placée sous notre direction et nos tro
  annex.3067.a: "Donnez-le à [MAL.GetNonIdeologyNameDef]"
  annex.3067.b: "Donnez-le à [SIA.GetNonIdeologyNameDef]"
  annex.3067.c: "Donnez-le à [INS.GetNonIdeologyNameDef]"
- annex.3067.d: "Donnez-le à [GEA.GetNonIdeologyNameDef]"
 
  annexation_SINGAPORE_CONQ: "Le Destin de Singapour"
  annexation_SINGAPORE_CONQ_desc: "La grande ville de Singapour a été placée sous notre contrôle alors que nos troupes occupent la région. Nous devons maintenant décider ce que nous allons en faire."
@@ -1546,7 +1561,6 @@ annexation_MLT_CONQ_desc: "Malte a été placée sous notre direction et nos tro
  annex.3068.b: "Donnez-le à [MAL.GetNonIdeologyNameDef]"
  annex.3068.c: "Donnez-le à [SIA.GetNonIdeologyNameDef]"
  annex.3068.d: "Donnez-le à [INS.GetNonIdeologyNameDef]"
- annex.3068.e: "Donnez-le à [GEA.GetNonIdeologyNameDef]"
 
  annexation_SYR_CONQ: "Le destin du Levant"
  annexation_SYR_CONQ_desc: "Nous avons conquis les riches terres du Levant, y compris la grande et ancienne ville de Damas. Que devons-nous faire de ces anciennes provinces ottomanes ?"
@@ -1688,7 +1702,7 @@ annexation_MLT_CONQ_desc: "Malte a été placée sous notre direction et nos tro
  annex.4022.a: "Libérer Oman !"
 
  annexation_YEM_CONQ: "Le destin du Yémen"
- annexation_YEM_CONQ_desc: "Après un long combat avec les Yéménites, nous avons lancé une offensive totale et forcé l'armée yéménite à se rendre. Sana'a est maintenant entre nos mains !"
+ annexation_YEM_CONQ_desc: "Après un long combat avec les Yéménites, nous avons lancé une offensive totale et forcé l'armée yéménite à se rendre. San'ā est maintenant entre nos mains !"
  annex.4023.a: "Libérer le Yémen !"
 
  annexation_ASIR_CONQ: "Le Destin de l'Asir"
@@ -1730,9 +1744,8 @@ annexation_MLT_CONQ_desc: "Malte a été placée sous notre direction et nos tro
  annexation_ZAM_CONQ: "Le destin du Zambèze"
  annexation_ZAM_CONQ_desc: "Maintenant que nous avons le contrôle de l'ancienne colonie allemande du Zambèze, il nous reste à choisir comment administrer la région. Devrions-nous créer un Zambèze indépendant et, si oui, y inclure le Nyasaland ?"
  annex.5004.a: "Former l'État du Zambèze et inclure le Nyasaland."
- annex.5004.b: "Forme l'État du Zambèze, mais sans le Nyasaland."
- annex.5004.c: "Former l'État de Zambèze."
- annex.5004.d: "Donnez-le à [ZIM.GetNonIdeologyNameDef]."
+ annex.5004.b:0 "Former l'État de Zambèze."
+ annex.5004.c:0 "Donnez-le à [ZIM.GetNonIdeologyNameDef]."
 
  annexation_ANG_CONQ: "Le destin de l'Angola"
  annexation_ANG_CONQ_desc: " Notreannexion de l'ancienne colonie portugaise d'Angola nous a laissés gérer ces millions d'Africains loin des mers. L'installation d'un gouvernement local sera certainement plus facile à gérer pour nous, mais devrions-nous faire confiance à la population locale pour cela ?"
@@ -1803,11 +1816,6 @@ annexation_MLT_CONQ_desc: "Malte a été placée sous notre direction et nos tro
  annexation_MOR_CONQ_desc: "Nous avons libéré le Maroc des Allemands et nos forces ont maintenant des difficultés à occuper les régions montagneuses et semi-arides du pays. Bien que les centres urbains soient sous notre contrôle, il serait peut-être sage de confier davantage de contrôle aux locaux."
  annex.5021.a: "Nous devons les libérer."
 
- annexation_SPAMOR_CONQ: "Le destin du Maroc espagnol"
- annexation_SPAMOR_CONQ_desc: "Nous contrôlons maintenant la partie espagnole du Maroc, devrions-nous la donner à notre sujet marocaine ou la garder pour nous ?"
- annex.5022.a: "Transférez-le à notre marionnette marocaine."
- annex.5022.b: "Transférez-le à notre marionnette espagnole."
-
  annexation_RIO_DE_ORO_CONQ: "Le destion de Rio de Oro"
  annexation_RIO_DE_ORO_CONQ_desc: "La région désertique du Rio de Oro est maintenant sous notre contrôle, nous devons décider quoi en faire."
  annex.5023.a: "Donnez-le à [MOR.GetNonIdeologyNameDef]"
@@ -1834,8 +1842,8 @@ annexation_MLT_CONQ_desc: "Malte a été placée sous notre direction et nos tro
  annex.5027.a: "Libérez l'Érythrée sous un gouvernement ami !"
  annex.5027.b: "Rendez-le à notre ami l'Éthiopie."
 
- annexation_GERSOM_CONQ: "Le destin de la Somalie allemande"
- annexation_GERSOM_CONQ_desc: "Nous contrôlons maintenant la Somalie allemande, mais nous avons un sujet proche qui pourrait être mieux à même de gérer le territoire, devrions-nous la leur donner ?"
+ annexation_DJIBOUTI_CONQ: "Le Destin de [268.GetName]"
+ annexation_DJIBOUTI_CONQ_desc: "Nous contrôlons maintenant [268.GetName] mais nous avons une marionnette proche qui pourrait être mieux à même de gérer le territoire, devrions-nous lui donner ?"
  annex.5028.a: "Transférez le à [SOM.GetNonIdeologyNameDef]"
  annex.5028.b: "Transférez le à [921.owner.GetNonIdeologyNameDef]"
 

@@ -65,9 +65,9 @@ KR_Argentina_Democratic: "Arbre de priorité de l'Argentine démocratique"
 
  ARG_pact_of_lima_signed:0 "Le Pacte de Lima est entré en vigueur"
  argentinian_sphere_faction: "Sphère Argentine"
- ARG_ties_with_peru_effect_tt:9 "§7Nous demanderons au Pérou de transformer le §YPacte de Lima§! en une alliance militaire ou nous créerons notre propre faction si le Pérou ne peut pas ou ne veut pas rejoindre notre faction§!"
+ ARG_ties_with_peru_effect_tt: "§7Nous demanderons au Pérou de transformer le §YPacte de Lima§! en une alliance militaire ou nous créerons notre propre faction si le Pérou ne peut pas ou ne veut pas rejoindre notre faction§!"
  ARG_rio_negro_probing_attack_tt:0 "§YNous allons lancer des attaques dans tout le Rio Negro.\n§!"
- ARG_spawn_initial_oob_tt:9 "§YL'armée argentine obéit désormais aux ordres de Buenos Aires§!"
+ ARG_spawn_initial_oob_tt: "§YL'armée argentine obéit désormais aux ordres de Buenos Aires§!"
 
  ARG_may_cause_coup_tt: "§RAttention, avec le mécontentement du GOU envers notre gouvernement, augmenter le pouvoir de l'armée pourrait s'avérer être un pari dangereux...§!"
 
@@ -176,6 +176,9 @@ ARG_Railway3: "Ferrocarriles Argentinos"
  ARG_coastal_fortifications_tooltip: "§6Construit 2 £GFX_coastal_fort_texticon §Y$coastal_bunker_plural$§! et 2 £GFX_land_fort_texticon §Y$bunker_plural$§! dans chaque province nationale avec une base navale§!"
  ARG_BRA_reparations_tt: "Dons d'Usine Industrielle : §G20% des usines §YBrésiliennes§!§!"
  ARG_every_country_in_south_america_tt: "Tous les autres pays d'§YAmérique du Sud§! :"
+
+ ARG_PAR_reparations_ARG: "Réparations de Guerre du Paraguay"
+ ARG_PAR_reparations_PAR: "Réparations de Guerre à l'Argentine"
 
 ### Focuses ###
  ARG_Woes_of_the_Christmas_Coup: "Les maux du Coup d'Etat de Noël"
@@ -725,22 +728,32 @@ ARG_Oficina_Central_de_Hidrografia: "Oficina Central de Hidrografía"
  southern.10.t: "Paix avec le Paraguay ?"
  southern.10.d: "Hier, nos troupes ont finalement pris Asunción et ont forcé les Paraguayens qui se sont rendus à battre en retraite, démoralisés et brisés. Bien qu'ils jurent de poursuivre le combat jusqu'au bout s'il le faut, ils ne refuseraient pas un traité de paix clément. Même si cela nous fait mal, nous pourrions faire une trêve avec eux pour l'instant sans modifier la frontière - même si l'arrangement n'existe que pour nous permettre de faire face à la menace syndicaliste dans le sud. Ne vous méprenez pas, cela leur permet seulement de gagner du temps, rien d'autre."
  southern.10.a: "Oui, offrez-leur la paix."
- southern.10.b: "Jamais !"
+ southern.10.b: "Oui, offrez-leur la paix, mais exigez des réparations raisonnables."
+ southern.10.c: "Oui, offrez-leur la paix, mais exigez d'énormes réparations."
+ southern.10.e:0 "Jamais!"
+
+ southern.14.t: "Le Paraguay a refusé nos conditions"
+ southern.14.d: "Le Paraguay a rejeté nos conditions de paix - la diplomatie a échoué, et le seul choix restant est de continuer la guerre jusqu'à ce qu'ils se rendent."
+ southern.14.a: "Au moins, on a essayé..."
 
  #for PAR:
  southern.11.t: "Paix avec l'Argentine ?"
- southern.11.d: "Après qu'Asunción soit tombée aux mains des Argentins, il est devenu clair qu'ils avaient gagné le terrain. Bien que certains au sein de notre gouvernement appellent à la guérilla et au combat à mort comme l'a fait López lui-même, ils sont minoritaires. Après tout, les conditions argentines sont très raisonnables, et ne prévoient aucune modification des frontières. Il serait facile de faire la paix sans perdre la face, en ayant fait la paix sans rien céder à l'ennemi au final."
+ southern.11.d: "Après qu'Asunción soit tombé aux mains des Argentins, il est devenu clair qu'ils avaient gagné le terrain. Bien que certains membres de notre gouvernement appellent à la guérilla et à se battre à mort comme l'a fait López lui-même, ils sont minoritaires. Après tout, les conditions argentines sont très raisonnables, et ne prévoient aucune modification des frontières ni aucune réparation. Il serait facile de faire la paix sans perdre la face, en ayant fait la paix sans rien céder à l'ennemi au final."
  southern.11.a: "Oui, nous avons perdu."
  southern.11.b: "Le Paraguay ne se rendra jamais !"
 
- southern.12.t: "Le Paraguay occupe l'Argentine !"
- southern.12.d: "En dépit de ce que beaucoup espéraient, il semble que la guerre ne se soit pas terminée avec la défaite des réactionnaires à Buenos Aires - défiant toute logique et toute attente, les Paraguayens ont étendu une zone de contrôle au-delà de leurs revendications officielles, et occupent désormais une grande partie de l'Argentine. [PAR.Capital.GetCapitalVictoryPointName] a effrontément déclaré que la ligne qu'ils ont tracée est nécessaire pour établir une zone de sécurité contre le gouvernement patagonien \"ouvertement hostile\", à notre grande exaspération - la seule explication est qu'ils ne croient pas que leurs revendications sur le Misiones et le Chaco seront respectées... ou que le [PAR.GetLeader] est devenu fou et essaie de construire un empire paraguayen insensé.\n\nBien que les revendications officielles du Paraguay n'englobent qu'une petite partie de l'Argentine, les zones que [PAR.GetNameDef] contrôle désormais représentent des centaines de milliers de personnes - trop nombreuses pour être simplement ignorées. Bien que le Paraguay ait la réputation de tenir tête à des nations censées être beaucoup plus fortes que lui, il est difficile de concevoir qu'il puisse résister à nos forces tout en essayant de défendre une zone aussi vaste, et les faucons ont donc fait valoir qu'une attaque devait être menée dès que possible. Tout ce que nous devons faire, c'est donner le signal."
- southern.12.a: "Ils ne peuvent pas s'en tirer comme ça !"
- southern.12.b: "Ils sont trop forts pour affronter..."
+ southern.12.d: "Après qu'Asunción soit tombé aux mains des Argentins, il est devenu clair qu'ils avaient gagné le terrain. Bien que certains membres de notre gouvernement appellent à la guérilla et au combat à mort comme l'a fait López lui-même, ils sont en minorité. Après tout, les conditions argentines sont très raisonnables et ne prévoient aucune modification des frontières, mais elles exigent des réparations et du matériel militaire en guise de contribution. Il serait assez facile de faire la paix sans perdre la face."
 
- southern.13.t: "[FROM.GetNameDefCap] se prépare à la guerre"
- southern.13.d: "À la surprise générale, il semble que notre décision de garder le contrôle d'une grande partie de l'Argentine mène maintenant à la guerre. Suite à notre déclaration d'une zone de sécurité autour de notre zone d'occupation, le gouvernement [FROM.GetAdjective] a réagi avec indignation - déjà, les forces qui ont été utilisées contre le gouvernement de Buenos Aires sont mobilisées contre nous, accompagnées d'une déclaration selon laquelle \"l'Empire du Paraguay sera détruit\".\n\nL'armée est en état d'alerte - la première campagne contre l'Argentine n'a pas été une mince affaire, et la seconde ne devrait pas être plus facile."
- southern.13.a: "Préparez-vous ..."
+ southern.13.d: "Après qu'Asunción soit tombée aux mains des Argentins, il est devenu clair qu'ils avaient gagné le terrain. Alors que certains au sein de notre gouvernement appellent à la guérilla et à se battre à mort comme l'a fait López lui-même. Les conditions argentines ne prévoient aucune modification des frontières, mais elles exigent de lourdes réparations et la démilitarisation de notre économie. La décision de paix sera peut-être difficile à prendre, mais au moins nous resterons indépendants."
+
+ southern.20.t:0 "Le Paraguay occupe l'Argentine !"
+ southern.20.d:0 "En dépit de ce que beaucoup espéraient, il semble que la guerre ne se soit pas terminée avec la défaite des réactionnaires à Buenos Aires - défiant toute logique et toute attente, les Paraguayens ont étendu une zone de contrôle au-delà de leurs revendications officielles, et occupent désormais une grande partie de l'Argentine. [PAR.Capital.GetCapitalVictoryPointName] a effrontément déclaré que la ligne qu'ils ont tracée est nécessaire pour établir une zone de sécurité contre le gouvernement patagonien \"ouvertement hostile\", à notre grande exaspération - la seule explication est qu'ils ne croient pas que leurs revendications sur le Misiones et le Chaco seront respectées... ou que le [PAR.GetLeader] est devenu fou et essaie de construire un empire paraguayen insensé.\n\nBien que les revendications officielles du Paraguay n'englobent qu'une petite partie de l'Argentine, les zones que [PAR.GetNameDef] contrôle désormais représentent des centaines de milliers de personnes - trop nombreuses pour être simplement ignorées. Bien que le Paraguay ait la réputation de tenir tête à des nations censées être beaucoup plus fortes que lui, il est difficile de concevoir qu'il puisse résister à nos forces tout en essayant de défendre une zone aussi vaste, et les faucons ont donc fait valoir qu'une attaque devait être menée dès que possible. Tout ce que nous devons faire, c'est donner le signal."
+ southern.20.a:0 "Ils ne peuvent pas s'en tirer comme ça !"
+ southern.20.b:0 "Ils sont trop forts pour affronter..."
+
+ southern.21.t:0 "[FROM.GetNameDefCap] se prépare à la guerre"
+ southern.21.d:0 "À la surprise générale, il semble que notre décision de garder le contrôle d'une grande partie de l'Argentine mène maintenant à la guerre. Suite à notre déclaration d'une zone de sécurité autour de notre zone d'occupation, le gouvernement [FROM.GetAdjective] a réagi avec indignation - déjà, les forces qui ont été utilisées contre le gouvernement de Buenos Aires sont mobilisées contre nous, accompagnées d'une déclaration selon laquelle \"l'Empire du Paraguay sera détruit\".\n\nL'armée est en état d'alerte - la première campagne contre l'Argentine n'a pas été une mince affaire, et la seconde ne devrait pas être plus facile."
+ southern.21.a:0 "Préparez-vous ..."
 
 ## Foreign ##
  argfor.100.t: "L'Argentine offre un Pacte d'Amitié"

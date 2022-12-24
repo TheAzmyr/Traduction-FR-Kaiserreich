@@ -352,14 +352,20 @@ jungle_warfare: "Entraînement au combat en jungle"
  EFFECT_CHANGE_LAW_mobilization_laws: "Fait passer la législation sur la conscription à $NAME|Y$ ($DESC$)."
  EFFECT_UNLOCK_DECISION: "Donne accès à la décision £decision_icon_small£$NAME|H$$EFFECT$"
  EFFECT_UNLOCK_DECISION_CATEGORY: "Donne accès aux décisions £decision_icon_small£$NAME|H$"
- EFFECT_SET_STATE_CATEGORY: "L'État devient une $CATEGORY|Y$."
+ EFFECT_SET_STATE_CATEGORY: "La catégorie de l'état devient $CATEGORY|Y$."
  EFFECT_ACTIVATE_TARGETED_DECISION: "Permet la décision £decision_icon_small£$NAME|H$."
  EFFECT_REMOVE_TARGETED_DECISION: "Retire la décision £decision_icon_small£$NAME|H$."
+
+ EFFECT_ADD_CLAIM_BY: "@$TAG$$COUNTRY|H$ revendique l'État."
+ EFFECT_REMOVE_CLAIM_BY: "@$TAG$$COUNTRY|H$ perd sa revendication sur l'État."
 
 # missing line breaks
  EFFECT_ADD_VP: "Ajoute $VALUE|H$£victory_points£ à $PROVINCE|H$."
  EFFECT_SUBTRACT_VP: "Retire $VALUE|H$£victory_points£ à $PROVINCE|H$."
  EFFECT_SET_VP: "Fixe le nombre de points de victoire de $PROVINCE|H$ à $VALUE|H$£victory_points£"
+ EFFECT_ADD_DYMAMIC_MODIFIER: "Ajoute $NAME|H$ qui accorde :\n$DESC$\n"
+ EFFECT_ADD_DYMAMIC_MODIFIER_WITH_DAYS: "Ajoute $NAME|H$ ($NUM|H$ jours) qui accorde :\n$DESC$\n"
+ EFFECT_REMOVE_DYMAMIC_MODIFIER: "Retire $NAME|H$ qui accordait :\n$DESC$\n"
 
 ### frontend_l_english
  FE_COOP_LABEL: "Coopération"
@@ -470,7 +476,32 @@ jungle_warfare: "Entraînement au combat en jungle"
  MODIFIER_TRADE_TO_TARGET_FACTOR_DESC: "Ressources supplémentaires disponibles pour le commerce avec le pays visé."
  MODIFIER_BREAKTHROUGH_BONUS_AGAINST_A_COUNTRY: "Avantage en percée contre ce pays "
 
+#missing in vanilla
  large_plane_airframe_design_cost_factor: "Coût de Conception des Cellules de Grande Taille"
+
+#entry names are missing the _speed portion in vanilla
+ modifier_state_production_speed_infrastructure_factor: "$modifier_state_production_infrastructure_factor$"
+ modifier_state_production_speed_infrastructure_factor_desc: "$modifier_state_production_infrastructure_factor_desc$"
+ modifier_state_production_speed_arms_factory_factor: "$modifier_state_production_arms_factory_factor$"
+ modifier_state_production_speed_arms_factory_factor_desc: "$modifier_state_production_arms_factory_factor_desc$"
+ modifier_state_production_speed_air_base_factor: "$modifier_state_production_air_base_factor$"
+ modifier_state_production_speed_air_base_factor_desc: "$modifier_state_production_air_base_factor_desc$"
+ modifier_state_production_speed_naval_base_factor: "$modifier_state_production_naval_base_factor$"
+ modifier_state_production_speed_naval_base_factor_desc: "$modifier_state_production_naval_base_factor_desc$"
+ modifier_state_production_speed_dockyard_factor: "$modifier_state_production_dockyard_factor$"
+ modifier_state_production_speed_dockyard_factor_desc: "$modifier_state_production_dockyard_factor_desc$"
+ modifier_state_production_speed_anti_air_building_factor: "$modifier_state_production_anti_air_building_factor$"
+ modifier_state_production_speed_anti_air_building_factor_desc: "$modifier_state_production_anti_air_building_factor_desc$"
+ modifier_state_production_speed_synthetic_refinery_factor: "$modifier_state_production_synthetic_refinery_factor$"
+ modifier_state_production_speed_synthetic_refinery_factor_desc: "$modifier_state_production_synthetic_refinery_factor_desc$"
+ modifier_state_production_speed_fuel_silo_factor: "$modifier_state_production_fuel_silo_factor$"
+ modifier_state_production_speed_fuel_silo_factor_desc: "$modifier_state_production_fuel_silo_factor_desc$"
+ modifier_state_production_speed_radar_station_factor: "$modifier_state_production_radar_station_factor$"
+ modifier_state_production_speed_radar_station_factor_desc: "$modifier_state_production_radar_station_factor_desc$"
+ modifier_state_production_speed_rocket_site_factor: "$modifier_state_production_rocket_site_factor$"
+ modifier_state_production_speed_rocket_site_factor_desc: "$modifier_state_production_rocket_site_factor_desc$"
+ modifier_state_production_speed_nuclear_reactor_factor: "$modifier_state_production_nuclear_reactor_factor$"
+ modifier_state_production_speed_nuclear_reactor_factor_desc: "$modifier_state_production_nuclear_reactor_factor_desc$"
 
 ### multiplayer_l_english
  HOST_LOADING_SAVEGAME: "L'hôte a commencé à charger la sauvegarde $NAME|Y$"

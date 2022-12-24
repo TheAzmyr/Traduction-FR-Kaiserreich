@@ -135,9 +135,9 @@
  NAME_THEME_SULTANS_OTT: "Sultans Ottomans"
 
 ### Traits
- warrior_prince: "Le Guerrier"
- OTT_poet_artist:0 "Sultan des Arts"
- OTT_architect_sultan:0 "Sultan de l'Architecture"
+ TUR_sultan_of_the_arts:0 "Sultan des Arts"
+ TUR_sultan_of_architecture:0 "Sultan de l'Architecture"
+ TUR_the_warrior_sultan: "Le Sultan Guerrier"
 
 ### Factions
  istanbul_pact: "Pacte d'Istanbul"
@@ -310,10 +310,7 @@
  ott_increase_tri_int_20: "Augmente l'§Yintégration des Vilayets de Tripolitaine§! de §G20%§!"
  ott_increase_tri_int_50: "Augmente l'§Yintégration des Vilayets de Tripolitaine§! de §G50%§!"
 
-# Millet Mektepleri
- millet_mektepleri_increase_4: "Modifie §YMillet Mektepleri (Ottoman Empire)§! par $MODIFIER_RESEARCH_SPEED_FACTOR$: §G+4%§!"
- millet_mektepleri_increase_2: "Modifie §YMillet Mektepleri (Ottoman Empire)§! par $MODIFIER_RESEARCH_SPEED_FACTOR$: §G+2%§!"
- millet_mektepleri_increase_1: "Modifie §YMillet Mektepleri (Ottoman Empire)§! par $MODIFIER_RESEARCH_SPEED_FACTOR$: §G+1%§!"
+ TUR_millet_mektepleri_tooltip: "Modifie §Y$ott_millet_mektepleri_idea$§! par"
 
  OTT_autonomous_regions: "Régions Autonomes"
  OTT_vilayets: "Vilayets"
@@ -348,10 +345,9 @@
 #####################
 # Dynamic Modifiers #
 #####################
- millet_mektepleri_dynamic_modifier: "£pol_idea Millet Mektepleri"
+ millet_mektepleri_dynamic_modifier: "£pol_idea $ott_millet_mektepleri_idea$"
  ott_millet_mektepleri_idea: "Millet Mektepleri"
- ott_millet_mektepleri_idea_desc: "§W$MODIFIER_RESEARCH_SPEED_FACTOR$: [?var_millet_mektepleri|+=%]§!"
- ott_millet_mektepleri_add_tooltip: "Ajouter le modificateur : §H$ott_millet_mektepleri_idea$§!"
+ ott_millet_mektepleri_modifier_tt: "$MODIFIER_RESEARCH_SPEED_FACTOR$ : [?var_millet_mektepleri|+=%]§!"
 
  vilayet_stability_dynamic_modifier: "£pol_idea Stabilité du Royaume"
  ott_vilayet_stability_idea: "Stabilité du Royaume"
@@ -728,7 +724,7 @@
 
 ### Internal Policy Post-CP
  OTT_Ottoman_Renaissance: "Aube de la Renaissance Ottomane"
- OTT_Ottoman_Renaissance_desc:9 "Les Européens nous considéraient comme faibles et malades, les Iraniens pensaient que nous aurions peur de les affronter, et les Arabes pensaient qu'ils étaient à la hauteur de la puissance des bottes turques. Avec le croissant blanc sur fond rouge flotte sur les remparts du Caire jusqu'au lac d'Ourmiah, nous avons une fois pour toutes montré que notre déclin a été définitivement stoppé et inversé !"
+ OTT_Ottoman_Renaissance_desc: "Les Européens nous considéraient comme faibles et malades, les Iraniens pensaient que nous aurions peur de les affronter, et les Arabes pensaient qu'ils étaient à la hauteur de la puissance des bottes turques. Avec le croissant blanc sur fond rouge flotte sur les remparts du Caire jusqu'au lac d'Ourmiah, nous avons une fois pour toutes montré que notre déclin a été définitivement stoppé et inversé !"
 
  OTT_Reform_on_the_Homefront: "Stabiliser le Front Intérieur"
  OTT_Reform_on_the_Homefront_desc: "Les nécessités de la guerre et les réformes kémalistes qui devaient être menées à bien sans distractions causées par le sentiment populaire ont forcé notre régime à restreindre certaines \"libertés\" de nos citoyens. Cependant, avec la mort de Mustafa Kemal, il devient rapidement évident que le même régime autoritaire ne restera pas en place sans son charisme et son prestige."
@@ -1765,7 +1761,7 @@
 
  ottkem.34.t: "Révolte des Conservateurs Écrasée"
  ottkem.34.d: "Une fois les derniers foyers vidés, l'opposition conservatrice a finalement été complètement écrasée. Non seulement l'OHF règne désormais sans contestation, l'opposition réelle ayant été fermement écrasée, mais cela a également établi une certaine paix au sein de l'empire car un lien étroitement tissé entre l'armée et l'État empêche l'escalade des troubles civils."
- ottkem.34.a: "Pax Ottomana"
+ ottkem.34.a: "Pax Ottomana."
 
 ### Naqshbandi plot
  ottkem.35.t: "Une conspiration au sein des Naqshbandi ?"
@@ -2603,7 +2599,7 @@
  ottfor.8.t: "Les Ottomans veulent s'allier à nous"
  ottfor.8.d: "La junte nationaliste radicale au pouvoir dans l'Empire Ottoman et inspirée par notre régime National- Populiste, proclame désormais son intérêt à travailler avec nous dès maintenant, rassemblés dans un axe contre l'impérialisme. Devrions-nous accepter leur demande !"
  ottfor.8.a: "Nous devrions travailler main dans la main avec les Turcs"
- ottfor.8.b: "Les Turcs nous nourrissent, ce ne sont pas des alliés"
+ ottfor.8.b: "Une alliance avec les Turcs est hors de question."
 
  ottfor.9.t: "La Russie accepte"
  ottfor.9.d: "L'État russe a accepté notre offre et à partir de maintenant, nous sommes le plus récent membre de l'Accord de Moscou !"
@@ -3060,7 +3056,7 @@
 
  ottfor.85.t: "[FROM.GetName] accepte l'invitation"
  ottfor.85.d: "Le gouvernement de [FROM.GetName] a gracieusement accepté notre invitation, promettant son plein soutien à ce qu'il considère également comme un grand projet qui unira tout l'Islam à travers la solidarité, le progrès culturel et la protection de nos valeurs sacrées."
- ottfor.85.a: "Allah Akbar"
+ ottfor.85.a: "Allah Akbar."
 
  ottfor.86.t: "[FROM.GetName] refuse l'invitation"
  ottfor.86.d: "Les porcs impies de [FROM.GetName] nous ont notifié aujourd'hui leur refus de rejoindre l'Association des Nations Musulmanes. Mettant clairement les valeurs des Kouffars et autres cochons occidentaux avant les leurs, c'est clairement un jour triste pour toute l'Oumma. Nous ne pouvons qu'espérer qu'ils rectifieront bientôt leur énorme erreur"

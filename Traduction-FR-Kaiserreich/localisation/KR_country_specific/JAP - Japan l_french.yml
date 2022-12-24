@@ -217,7 +217,6 @@ JAP_DEM_CUL_idea: "Boom culturel"
 JAP_ZAI: "\"Avantages\" du Zaibatsu"
 JAP_manpower_bonus: "Conscription Intense"
 JAP_double_team_penalty: "Désaccords de commandement".
-JAP_Fading_Sun: "Le Japon n'est plus une nation leader dans le monde"
 JAP_no_army_focus: "Armée divisée"
 JAP_no_army_focus_desc: "L'armée japonaise manque de direction. Il y a des luttes intestines au sein du haut commandement et il n'y a pas de doctrine militaire centrale. Tout cela entravera toute action offensive jusqu'à ce qu'elle soit résolue".
 JAP_bad_land: "Mauvaise utilisation des terres"
@@ -480,18 +479,11 @@ JAP_alliance_tt: "En choisissant ce thème, toutes les nations qui se sont align
  JAP_harder_eco_int_tt: "Les décisions £decision_icon_small §HPromouvoir l'Investissement dans§! et £decision_icon_small §HS'Emparer§! seront §Hdoublées§! en coût. Augmentation de la durée du délai de récupération de l'investissement de §H100§! jours."
 
  JAP_korean_military_administration_tooltip: "Modifie §H$JAP_korean_military_administration$§! par"
- JAP_korea_slots_tt: "$MODIFIER_LOCAL_BUILDING_SLOTS_FACTOR$: $RIGHT|+=%0$"
- JAP_korea_garrison_factor_tt: "$MODIFIER_REQUIRED_GARRISON_FACTOR$: $RIGHT|-=%0$"
- JAP_korea_manpower_tt: "$MODIFIER_LOCAL_MANPOWER$: $RIGHT|+=%0$"
  JAP_korean_autonomy: "A accepté avec succès l'autonomie §HChōsen§!"
  JAP_koreans_strongly_oppose: "§oLa délégation Chōsen va sortir !§!"
  JAP_koreans_dont_like: "§RLa délégation Chōsen ne va pas aimer ça.§!"
 
  JAP_ichigo_tooltip: "Gagne \"§H$JAP_ichigo$§!\" qui donne (Bonus d'Attaque contre §Htous les pays Chinois§!: [?0.1|+=%1], Bonus de Défense contre §Htous les pays Chinois§!: [?0.05|+=%1]) pour §H100§! jours."
-
-### Fixing a vanilla bug
- JAP_nav_mass_bug: "Modifie §HConstruction Navale Modulaire§! par\n§H$ship_hull_submarine$§! : $STAT_COMMON_BUILD_COST_IC$[?-0.1|-=%]\nVisibilité de Surface :  [?+0.05|-=%]\nVisibilité Sous-Marine :  [?+0.05|-=%]\n§H$ship_hull_light$§! : $STAT_COMMON_BUILD_COST_IC$[?-0.1|-=%]\nLight Attack:  [?-0.05|+=%]\nDepth Charges:  [?-0.05|+=%]\n§H$ship_hull_cruiser$§!: $STAT_COMMON_BUILD_COST_IC$[?-0.1|-=%]\nBlindage :  [?-0.1|+=%]\nAttaque Légère :  [?-0.1|+=%]\nAttaque Lourde :  [?-0.1|+=%]\nCharges Profondes :  [?-0.1|+=%]\n§H$ship_hull_heavy$§! : $STAT_COMMON_BUILD_COST_IC$[?-0.1|-=%]\nBlindage :  [?-0.1|+=%]\nAttaque Légère :  [?-0.1|+=%]\nAttaque Lourde :  [?-0.1|+=%]\n§H$ship_hull_carrier$§! : $STAT_COMMON_BUILD_COST_IC$[?-0.1|-=%]\nBlindage :  [?-0.1|+=%]\nEspace sur le Pont :  [?-0.1|+=%]"
- JAP_nav_qual_bug: "Modifie §HIngénierie Supérieure§! par\n§H$ship_hull_submarine$§ !: $STAT_COMMON_BUILD_COST_IC$[?+0.1|-=%]\nVisibilité de Surface :  [?-0.05|-=%]\nVisibilité Sous-Marine :  [?-0.05|-=%]\n§H$ship_hull_light$§! : $STAT_COMMON_BUILD_COST_IC$[?+0.1|-=%]\nLight Attack:  [?+0.1|+=%]\nDepth Charges:  [?+0.1|+=%]\n§H$ship_hull_cruiser$§!: $STAT_COMMON_BUILD_COST_IC$[?+0.1|-=%]\nBlindage :  [?+0.05|+=%]\nAttaque Légère :  [?+0.1|+=%]\nAttaque Lourde :  [?+0.1|+=%]\nCharges Profondes :  [?+0.1|+=%]\n§H$ship_hull_heavy$§! : $STAT_COMMON_BUILD_COST_IC$[?+0.1|-=%]\nBlindage:  [?+0.1|+=%]\nAttaque Légère :  [?+0.1|+=%]\nAttaque Lourde :  [?+0.1|+=%]\n§H$ship_hull_carrier$§! : $STAT_COMMON_BUILD_COST_IC$[?+0.1|-=%]\nBlindage :  [?+0.05|+=%]\nEspace sur le Pont :  [?+0.05|+=%]"
 
 ### Scripted Loc ###
  JAP_ally1_name: "§Y[?global.asian_economic_sphere^0.GetFlag][?global.asian_economic_sphere^0.GetName]§!, "
@@ -563,19 +555,21 @@ JAP_land_reform_desc: "La réforme agraire est une question qui se pose dans la 
 
 ## Peace Deals ##
 JAP_fading_sun: "Le soleil qui s'éteint"
- JAP_fading_sun_desc: "Nous avons perdu le contrôle de nos possessions continentales ! Bien que nous puissions soutenir une telle guerre pour le moment, nous avons peu de temps à perdre. Le soutien politique à la guerre s'affaiblit rapidement au sein de l'élite, et la honte de nos défaites répétées a fait descendre les masses dans les rues ; si l'Empire veut survivre, nous devons rapidement reprendre pied sur le continent !"
 
- JAP_we_are_losing: "Nous perdons"
- JAP_we_are_losing_desc: "La perte de la péninsule coréenne et de Port Arthur aux mains de forces étrangères porte un coup sérieux à nos efforts de guerre en cours. Bien que le risque d'une invasion des Îles d'origine soit faible, si nous ne parvenons pas à reprendre pied sur le continent, l'agitation intérieure suscitée par nos nombreuses défaites nous obligera bientôt à nous asseoir à la table des négociations."
+ JAP_fading_sun_timer:0 "Le Soleil Couchant"
+ JAP_fading_sun_timer_desc:0 "Nous avons perdu le contrôle de nos possessions continentales ! Bien que nous puissions soutenir une telle guerre pour le moment, nous avons peu de temps à perdre. Le soutien politique à la guerre s'affaiblit rapidement au sein de l'élite, et la honte de nos défaites répétées a fait descendre les masses dans les rues ; si l'Empire veut survivre, nous devons rapidement reprendre pied sur le continent !"
+
+ JAP_fading_sun_timer_enemy:0 "Le Soleil Couchant"
+ JAP_fading_sun_timer_enemy_desc: "La perte de la péninsule coréenne et de Port Arthur aux mains de forces étrangères porte un coup sérieux aux efforts de guerre du Japon. À moins qu'il ne parvienne à reprendre pied sur le continent, l'agitation intérieure suscitée par les nombreuses défaites que nous lui avons infligées obligera bientôt l'Empire du Soleil Levant à s'asseoir à la table des négociations."
 
  JAP_offer_peace_to_china: "Offrir la paix à la Chine"
  JAP_offer_peace_to_china_desc: "Les Chinois ont vaincu nos armées et contrôlent maintenant la Mandchourie et la Corée. Bien qu'ils soient incapables d'envahir les îles de la patrie, la honte et l'humiliation de cette défaite ont déclenché une agitation interne massive. Le meilleur plan d'action est maintenant de négocier une paix, quelle que soit la honte, et de se tourner vers la lutte contre nos nouveaux problèmes internes."
  JAP_offer_peace_to_russia: "Offrir la Paix à [From.GetNameDef]"
  JAP_offer_peace_to_russia_desc: "Les Russes ont vaincu nos armées et contrôlent désormais nos territoires sur le continent, se vengeant une fois pour toutes de leur défaite de 1905. Bien qu'ils soient incapables d'envahir les îles de la patrie, la honte et l'humiliation de cette défaite ont déclenché une agitation interne massive. Le meilleur plan d'action est maintenant de négocier une paix, quelle que soit la honte, et de se tourner vers la lutte contre nos nouveaux problèmes internes."
 
- JAP_all_chinese_allies_capitulated: "Nous n'avons plus d'alliés chinois en Asie continentale."
-
- JAP_all_owned_chinese_states_occupied: "Nous ne contrôlons plus nos territoires en Chine"
+ JAP_will_surrender_if_forced_out_of_china: "Effet si le Japon ne contrôle aucun État en Chine continentale :"
+ JAP_all_chinese_allies_capitulated: "Tous les alliés de la Chine en Asie continentale ont capitulé."
+ JAP_all_owned_chinese_states_occupied: "Tous les états possédés en Chine continentale sont occupés"
 
 ### War Decisions ###
  JAP_second_sino_japanese_war: "La deuxième guerre sino-japonaise"
@@ -2214,6 +2208,17 @@ japfor.512.d: "La Corée est désormais une région semi-autonome de l'empire, e
  japfor.603.d: "Au fur et à mesure que la guerre en Chine s'est intensifiée, nos vaillantes troupes se sont retrouvées dans une situation désavantageuse malgré leur équipement et leur entraînement exceptionnels. Nos commandants sur le terrain ont déjà commencé à se chamailler et à se disputer, entreprenant leurs propres initiatives divergentes, que le gouvernement de Tokyo et parfois même le quartier général impérial ne peuvent contraindre. En outre, la rivalité de longue date entre l'Armée et la Marine a déjà débordé sur la Guerre de Chine, la marine refusant d'expédier des équipements, voire les jetant par-dessus bord dans les ports, laissant à l'armée le soin de les repêcher.\n\nMaintenant que nous sommes prêts à pousser plus avant en Chine, nos lignes d'approvisionnement serpentant sur des sentiers boueux et à travers des cols de montagne traîtres, ce problème ne peut que s'aggraver. Nous devons nous efforcer de résoudre les conflits internes, et optimiser nos moyens de guerre, ou bien risquer la défaite face à un ennemi inférieur."
  japfor.603.a: "Shō ga nai ..."
 
+ japfor.470.t: "La Grande Guerre du Pacifique"
+ japfor.470.d: "Depuis la Seconde Guerre Civile Américaine, l'Empire du Japon est resté pratiquement sans opposition dans le Pacifique, et nombreux sont ceux qui prédisent qu'il deviendra la première puissance de la région, éclipsant ses rivaux américains et allemands en termes d'influence. Reconstruisant sa puissance militaire et industrielle après la guerre civile, le gouvernement américain a de nouveau jeté son dévolu sur le Pacifique, défiant ouvertement la domination du Japon - avec des rapports d'engagements navals entre les deux grandes puissances. \n\nMalgré les succès retentissants du Japon dans le Pacifique, il doit maintenant relever le défi le plus important de son histoire, car la puissance industrielle américaine se débarrasse des décombres de la guerre civile et sa machine de guerre reprend vie."
+ worldnews_japan_vs_america_JAP: "Le soleil ne se couchera pas sur nous !"
+ worldnews_japan_vs_america_JAP_allies: "Puissions-nous l'emporter, et vite !"
+ worldnews_japan_vs_america_USA: "Dans un moment de faiblesse, nous avons trébuché, mais nous ne faiblirons pas !"
+ worldnews_japan_vs_america_USA_allies: "Nous sommes aux côtés de l'aigle !"
+ worldnews_japan_vs_america_GER: "Il semble que le Japon ait dépassé ses limites pour la dernière fois."
+ worldnews_japan_vs_america_INT: "Les impérialistes se battent entre eux !"
+ worldnews_japan_vs_america_neutralasia: "L'équilibre des forces sera réglé d'une manière ou d'une autre."
+ worldnews_japan_vs_america_generic: "Le juggernaut peut-il résister à la domination du Japon ?"
+
 ### Fengtian Events ###
 japfeng.1.t: "Notre influence en Mandchourie"
  japfeng.1.d: "Depuis de nombreuses années maintenant, nous avons travaillé pour prendre le contrôle de la Mandchourie, et à long terme de toute la Chine, par le biais d'un groupe d'intérêts panasiatiques connu sous le nom d'Association Concordia. Il s'agit d'un parti politique qui cherche à promouvoir des points de vue pro-japonais dans [FNG.GetNameDef] et à maintenir [FNG.GetLeader] sous son contrôle. À long terme, ses objectifs sont d'étendre le contrôle économique japonais sur la Mandchourie en partenariat avec Mantetsu, et d'amener lentement la Chine dans notre orbite également. En dehors de la politique des autorités civiles de la Mandchourie, il y a notre propre armée, l'armée Kwantung, qui est notoirement ambitieuse. Depuis des décennies maintenant, l'armée cherche à conquérir et annexer la Mandchourie, et ses méthodes de travail préférées et sa patience pour travailler avec des gens comme [FNG.GetLeader] sont tristement brutales et faibles respectivement./n/n Récemment, les objectifs politiques du gouvernement ont changé, la situation de guerre à laquelle nous sommes confrontés rend l'indépendance politique du [FNG.GetNameDef] est de moins en moins adaptée à mesure que certains alliés gagnent en valeur. Nous sommes confrontés à un choix : faisons-nous confiance à l'Association Concordia et au pouvoir souple qu'elle n'a cessé de développer, ou allons-nous laisser l'armée lâcher prise et faire tomber Zhang par tous les moyens nécessaires ?"
@@ -2319,7 +2324,7 @@ japfeng.3.d: "Le temps est venu de décider : où se situent nos intentions par 
  JAP_sugawara_michio:0 "Sugawara Michio"
  JAP_kanin_kotohito: "Kan'in Kotohito"
  JAP_sugiyama_hajime: "Sugiyama Hajime"
- JAP_nishi_yoshizaku: "Nishi Yoshizaku"
+ JAP_nishi_yoshikazu: "Nishi Yoshikazu"
  JAP_fushimi_hiroyasu:0 "Fushimi Hiroyasu"
  JAP_nagano_osami: "Nagano Osami"
  JAP_shimada_shigetaro: "Shimada Shigetarō"
@@ -2334,3 +2339,5 @@ japfeng.3.d: "Le temps est venu de décider : où se situent nos intentions par 
 
 ### Traits ###
  JAP_imperial_regent: "Régent Impérial"
+ JAP_samurai_lineage: "Lignée de Samouraïs"
+ JAP_samurai_lineage_desc: "§LCet homme est issu d'une fière lignée de samouraïs et reste fidèle aux anciennes traditions et loyautés.§!"
