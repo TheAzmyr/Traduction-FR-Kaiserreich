@@ -113,15 +113,13 @@ goring_flugzeugwerke: "Von Göring Flugzeugwerke"
 deutsche_ost_afrika_linie: "Deutsche Ost-Afrika Linie"
 
 ### Ideas ###
- MAF_colonial_budget_idea: "Budget de l'année [GetYear]\n§WDons d'usines civiles §G+[?MAF_offmap_civs]§!\nDons d'usines militaires §G+[?MAF_offmap_mils]§!§!"
+ MAF_colonial_budget_idea: "Budget de [GetYear]\n§WDons d'Usines Industrielles : §G+[?MAF_offmap_civs]§!\nDons d'Usines Militaires : §G+[?MAF_offmap_mils]§!\nMain d'œuvre hebdomadaire : §G+[?MAF_weekly_manpower]§!§!"
  MAF_colonial_budget_idea_desc: "Nous recevons la majeure partie de notre budget grâce aux subventions et au commerce, ainsi que des troupes fraîches, en provenance d'Allemagne."
 
  MAF_colonial_budget_idea_dummy: "Budget de l'année [GetYear]"
  MAF_colonial_budget_idea_dummy_desc: "Nous recevons la majeure partie de notre budget grâce aux subventions et au commerce, ainsi que des troupes fraîches, en provenance d'Allemagne."
 
  MAF_Black_Monday_idea: "Une économie en ruine"
- MAF_Black_Monday_Improved:0 "Faire face à la crise"
- MAF_Black_Monday_MoreImproved:0 "Faire face à la crise"
  MAF_Black_Monday_1937_mils: "2ème année : Priorité Militaire"
  MAF_Black_Monday_1937_civs: "2ème année : Priorité Civile"
  MAF_Black_Monday_1938_mils: "3ème année : Priorité Militaire"
@@ -281,9 +279,9 @@ african_divisions_3: "§GDeux divisions motorisées expertes de la Mittelafrika 
 
  MAF_Bush_War_start_tt: "§RLa Guerre de Bush va commencer.§!\n§H[Root.GetNameDef]§! déclare la guerre à §H$POR$§!."
 
- MAF_Bush_War_MAF_victory_requirement_tt: "§PMittelafrika§! §Lgagnera si elle contrôle plus de trois des états suivants détenus par le§! §CPortugal§!§L : §!§gAngola central, Zambésie, Angola du Sud§! §Let§! §gInhambane-Gaza.§!"
+ MAF_Bush_War_MAF_victory_requirement_tt: "§PMittelafrika§! §Lgagnera si elle contrôle plus de trois des états suivants détenus par le§! §CPortugal§! §L:§! §g[540.GetName], [544.GetName], [917.GetName]§! §Let§! §g[950.GetName].§!"
 
- MAF_Bush_War_POR_victory_requirement_tt: "§LLe §CPortugal§! gagnera si Mittelafrika est proche de §m50§!§g%§! de la capitulation.§!"
+ MAF_Bush_War_POR_victory_requirement_tt: "§LLe§! §CPortugal§! §Lgagnera s'il contrôle plus de trois des états suivants détenus par§! §CMittelafrika§! §L:§! §g[813.GetName], [871.GetName], [879.GetName]§! §Let§! §g[958.GetName].§!"
 
  MAF_Bush_War_POR_advantage_tt: "Le §CPortugal§! a actuellement l'avantage."
  MAF_Bush_War_MAF_advantage_tt: "§PMittelafrika§! a actuellement l'avantage."
@@ -319,6 +317,19 @@ african_divisions_3: "§GDeux divisions motorisées expertes de la Mittelafrika 
 
  MAF_CtC_Khartoum-Addis:0 "De Kampala à Addis-Abeba"
  MAF_CtC_Khartoum-Addis_desc:0 "Il est temps d'étendre le chemin de fer du Cap au Caire en le reliant à l'Éthiopie, ouvrant ainsi une nouvelle voie pour le commerce en Afrique. Une fois de plus, nous devons fournir la main-d'œuvre, mais les avantages économiques l'emporteront certainement sur les inconvénients."
+
+ ### Resource Extraction Decisions ###
+ MAF_resource_extraction_1: "Développer les Plantations d'Hévéas"
+ MAF_resource_extraction_1_desc:0 "Les richesses naturelles de l'Afrique sont stupéfiantes, nous devons développer nos moyens d'y accéder."
+
+ MAF_resource_extraction_2: "Extraire du Pétrole au Nigeria"
+ MAF_resource_extraction_2_desc:0 "C'est le moment de développer encore davantage nos moyens d'extraction des ressources."
+
+ MAF_resource_extraction_3: "Extraire les Métaux Rares"
+ MAF_resource_extraction_3_desc:0 "Le moment est venu de faire de l'Afrique le moteur des ressources qu'elle a toujours été censée être."
+
+ MAF_resource_extraction_4: "Efforts d'Amélioration des Ressources"
+ MAF_resource_extraction_4_desc:0 "Nous devons continuer à développer nos moyens d'affiner les nombreuses ressources produites par le sol africain."
 
  ###
  MAF_take_mittelafrikan_navy: "Prendre le contrôle de la marine de Mittelafrika"
@@ -405,9 +416,6 @@ MAF_Kulturkampf: "Un Second Kulturkampf"
 
 MAF_Strategic_Export: "Exportation de Ressources Stratégiques"
 MAF_Strategic_Export_desc: "En cas de guerre, la Mittelafrika doit servir à nourrir la grande machine de guerre allemande. L'expansion de notre production de ressources stratégiques nous permettra de surproduire nos ennemis et de renforcer le Vaterland."
-
- MAF_vital_industries: "Industries Vitales"
- MAF_vital_industries_desc: "Il est temps de \"renflouer\" certaines des entreprises privées les moins rentables qui sont \"en difficulté\" depuis la crise économique de 1936."
 
 MAF_Protect_Animals: "Protéger les Espèces Menacées d'Extinction"
  MAF_Protect_Animals_desc: "C'est incroyable à penser, mais certaines des espèces les plus emblématiques d'Afrique, notamment le lion, risquent d'être totalement exterminées, comme l'a été le loup en Europe. En 1870, le dernier ours de l'Atlas a été abattu par des chasseurs. Notre gouverneur a un intérêt particulier à faire adopter des lois qui garantissent que cela n'arrivera pas à nos espèces indigènes."
@@ -504,17 +512,8 @@ MAF_Airforce_Infantry_desc: "Ludwig von Bockholt, l'un des principaux membres de
  MAF_british_protectorates: "Le Statut Juridique des Protectorats Britanniques"
  MAF_british_protectorates_desc: "Le statu quo qui entoure les colonies et protectorats britanniques ne satisfait personne. Efforçons-nous de le modifier au plus vite."
 
- MAF_Deal_With_Europeans: "Une Nouvelle Politique de Colonisation"
-MAF_Deal_With_Europeans_desc: "Les citoyens belges et britanniques de notre colonie ont une influence disproportionnée et il est temps que nous nous en occupions d'une manière ou d'une autre."
-
- MAF_Block_FW_Investment: "Bloquer les Investissements Belges"
- MAF_Block_FW_Investment_desc: "Pendant trop longtemps, les Belges ont joué un rôle disproportionné dans l'économie de notre colonie. Nous devrions prendre des mesures pour que seules les entreprises allemandes aient accès à ces opportunités."
-
- MAF_Seize_FW_Industries: "Saisir les Industries Belges"
- MAF_Seize_FW_Industries_desc: "Maintenant que nous avons brisé le pouvoir de la capitale belge, leurs investisseurs sont impatients de partir. Nous pouvons saisir toutes les excuses que nous voulons pour nous approprier leurs industries, ou les acheter pour une somme dérisoire."
-
- MAF_Expel_Alien_Nationals: "Expulser les Ressortissants Belges"
- MAF_Expel_Alien_Nationals_desc: "Contrairement aux Britanniques, les Belges viennent rarement ici pour s'installer. La plupart d'entre eux sont des techniciens et des ouvriers qualifiés qui travaillent ici et retournent ensuite simplement en Europe pour être remplacés plus tard par leurs compatriotes. Par conséquent, il est beaucoup plus facile de les expulser simplement vers la Belgique."
+ MAF_vital_industries:0 "Saisir les Industries Belges"
+ MAF_vital_industries_desc: "Pendant trop longtemps, les Belges ont joué un rôle disproportionné dans l'économie de notre colonie. Nous devrions prendre des mesures pour que seules les entreprises allemandes aient accès à ces opportunités.\n\nUne fois que nous aurons brisé le pouvoir du capital belge, leurs investisseurs s'empresseront de partir. Nous pouvons saisir toutes les excuses que nous voulons pour revendiquer leurs industries comme nôtres, ou les acheter pour une somme dérisoire."
 
  MAF_Attract_Belgian_Investment: "Attirer les Investissements Belges"
  MAF_Attract_Belgian_Investment_desc: "Les Belges étaient là bien avant nous en tant que puissance coloniale, et ils ne sont jamais vraiment partis. Nous entretenons des relations de travail confortables avec de nombreuses sociétés minières qui se sont en fait développées au-delà de leurs exploitations initiales dans le Kongo. Si nous poursuivons cette politique, nous pouvons récolter les bénéfices de leur capital."
@@ -556,29 +555,11 @@ MAF_Deal_With_British: "Négocier avec les Britanniques"
  MAF_Deal_With_British_desc: "Maintenant que nous avons traité avec les Britanniques et leurs petits clubs de chasse, il est temps de rendre notre arrangement avec eux permanent."
 
  ### Black Monday
-MAF_Black_Monday: "Ajustement du Lundi Noir"
-MAF_Black_Monday_desc: "Face à cette crise économique sans précédent, nous devons nous attendre à toutes sortes de revers économiques..."
-
-MAF_Float_Mark: "Mark Flottant"
-MAF_Float_Mark_desc: "Depuis 1921, notre colonie imprime sa propre monnaie, le Mark Afrikan, qui a été rattaché au Mark allemand. En permettant à notre monnaie de fluctuer, nous pouvons réduire le prix de nos exportations et ramener nos revenus à la normale."
-
-MAF_Fiscal_Austerity: "Austérité Salariale"
-MAF_Fiscal_Austerity_desc: "Les temps sont durs et nous devons tous nous serrer la ceinture, il est temps d'introduire une réduction de salaire à tous les employés Mittelafrikains."
-
-MAF_1937_Budget: "Budget de 1937"
-MAF_1937_Budget_desc: "À l'aube de 1937, nous devons préparer un budget austère, un budget qui prévoit peu de dépenses et de croissance en dehors des domaines vitaux."
-
-MAF_1938_Budget: "Budget de 1938"
-MAF_1938_Budget_desc: "Pour 1938, nous nous sommes préparés à compenser la perte de croissance et à entreprendre des projets de développement impossibles à réaliser en 1937."
-
  MAF_University_Kinshasa: "Université de Lovanium"
  MAF_University_Kinshasa_desc: "Les Belges ont créé une école de commerce dans la capitale du Congo. Son intégration formelle à notre administration favorisera la croissance technologique."
 
-MAF_1939_Budget: "Budget de 1939"
-MAF_1939_Budget_desc: "1939 voit le monde en flammes, nous devons ajuster notre budget à la guerre."
-
-MAF_Post_War_Budget: "Budget de 1940"
-MAF_Post_War_Budget_desc: "Le pire est derrière nous et nous pouvons maintenant entrer dans une nouvelle ère de croissance économique."
+ MAF_rail_expansion: "Extension du Matériel Roulant"
+ MAF_rail_expansion_desc: "Si le réseau de voies ferrées qui traverse le continent noir a connu une croissance exponentielle depuis l'avènement du colonialisme, ce sont les trains eux-mêmes qui deviennent lentement obsolètes. Nous allons rectifier cela en important des trains d'Europe."
 
 MAF_Cape_Cairo: "Le Chemin de Fer du Cap au Caire"
  MAF_Cape_Cairo_desc: "Il est temps de terminer ce que les Britanniques ont commencé, le chemin de fer du Cap au Caire va entraîner une croissance économique massive sur tout le continent. Nous devons d'abord construire les infrastructures autour de Daressalam."
@@ -594,18 +575,6 @@ MAF_Continue_Industrial_Research_desc: "C'est le moment de faire de la recherche
 
 MAF_War_Industries: "Industries de Guerre"
 MAF_War_Industries_desc: "Le monde se dirige vers la guerre, et nous ne pouvons pas être laissés pour compte dans le développement de l'armement."
-
-MAF_Resource_Extraction: "Extraction des Ressources"
-MAF_Resource_Extraction_desc: "Les richesses naturelles de l'Afrique sont stupéfiantes, nous devons développer nos moyens d'y accéder."
-
-MAF_Improved_Resource_Extraction: "Amélioration de l'Extraction des Ressources"
-MAF_Improved_Resource_Extraction_desc: "C'est le moment de développer encore davantage nos moyens d'extraction des ressources."
-
-MAF_Superior_Resource_Extraction: "Extraction des Ressources de Qualité Supérieure"
-MAF_Superior_Resource_Extraction_desc: "Le moment est venu de faire de l'Afrique le moteur des ressources qu'elle a toujours été censée être."
-
-MAF_Resource_Refinement: "Raffinement des Ressources"
-MAF_Resource_Refinement_desc: "Nous devons continuer à développer nos moyens d'affiner les nombreuses ressources produites par le sol africain."
 
  ### Military
 MAF_Military_Reforms: "Réformes Militaires"
@@ -1006,7 +975,7 @@ mittel.59.b: "Georg Kraut, qui était le commandant en second de Lettow-Vorbeck 
 mittel.59.c: "Rudolf Asmis, notre administrateur célèbre et expérimenté."
 
  mittel.60.t: "Un Nouveau Gouverneur"
- mittel.60.d: "Le Kaiser a nommé le commodore Ludwig Bockholt comme notre nouveau gouverneur. Bockholt est surtout connu pour son audacieux réapprovisionnement du général von Lettow-Vorbeck pendant la Weltkrieg. Le jeune commandant Bockholt a piloté le dirigeable L 59 "Afrika-Schiff" depuis la station d'atterrissage de Jamboli en Bulgarie jusqu'au plateau de Mahange en Ostafrika, après un vol exténuant de 100 heures à travers les déserts d'Égypte et du Soudan. Ce voyage a permis de réapprovisionner nos armées en Afrique avec de nouvelles armes, des munitions et, surtout, de la quinine, qui a contribué à maintenir nos armées en bon état de marche jusqu'à la Paix ave Honneur. Ce fut le seul réapprovisionnement de l'Afrique de l'Est pendant la guerre, et il détient d'autres distinctions telles que le record du vol militaire le plus long, et le vol de la première mission de réapprovisionnement aérien. Comme la mission était un aller simple, Buckholt a servi le reste de la guerre comme officier d'infanterie navale sur le théâtre de l'Afrique de l'Est. Après la guerre, le commodore Bockholt a continué à perfectionner ses tactiques et son équipement de réapprovisionnement aérien, créant des unités d'infanterie navale aéromobiles, puis parachutistes. Malgré cet esprit novateur, il est l'un des principaux officiers de la Deutsche Kolonialgesellschaft, et s'avère être une épine dans le pied du gouverneur von Göring, s'opposant fréquemment à lui sur la direction et le commandement de l'armée de l'air du Mittelafrika. Avec Bockholt comme Gouverneur, nous pouvons nous attendre à ce que la Mittelafrika maintienne une infanterie aérienne de classe mondiale."
+ mittel.60.d: "Le Kaiser a nommé le Commodore Ludwig Bockholt comme notre nouveau Gouverneur. Bockholt est surtout connu pour son audacieux réapprovisionnement du Général von Lettow-Vorbeck pendant la Weltkrieg. Le jeune commandant Bockholt a piloté le dirigeable L 59 "Afrika-Schiff" depuis la station d'atterrissage de Jamboli en Bulgarie jusqu'au plateau de Mahange en Ostafrika, après un vol exténuant de 100 heures à travers les déserts d'Égypte et du Soudan. Ce voyage a permis de réapprovisionner nos armées en Afrique avec de nouvelles armes, des munitions et, surtout, de la quinine, qui a contribué à maintenir nos armées en bon état de marche jusqu'au Traité de Versailles. Ce fut le seul réapprovisionnement de l'Afrique de l'Est pendant la guerre, et il détient d'autres distinctions telles que le record du vol militaire le plus long, et le vol de la première mission de réapprovisionnement aérien. Comme la mission était un aller simple, Buckholt a servi le reste de la guerre comme officier d'infanterie navale sur le théâtre de l'Afrique de l'Est. Après la guerre, le Commodore Bockholt a continué à perfectionner ses tactiques et son équipement de ravitaillement aérien, créant des unités d'infanterie navale aéromobiles et plus tard parachutistes. Malgré cet esprit novateur, il est l'un des principaux officiers de la Deutsche Kolonialgesellschaft, et s'avère être une épine dans le pied du Gouverneur von Göring, s'opposant fréquemment à lui sur la direction et le commandement de l'armée de l'air du Mittelafrika. Avec Bockholt comme Gouverneur, nous pouvons nous attendre à ce que la Mittelafrika maintienne une infanterie aérienne de classe mondiale."
  mittel.60.a: "Vive le Nouveau Gouverneur !"
 
  mittel.61.t: "Un Nouveau Gouverneur"

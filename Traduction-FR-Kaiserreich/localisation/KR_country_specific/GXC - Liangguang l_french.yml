@@ -18,7 +18,7 @@
  guangxi_rebels_tt: "La clique du Guangxi se révolte contre notre autorité!\n"
  guangdong_loyalists_tt: "Les loyalistes du Guangdong se rallieront contre nous!\n"
  civilian_guangxi: "Nous avons restauré l'autorité civile au Guangxi"
- GXC_ancap_merge: "Fusionne les §Hidées de Corps Marchands§!\nChangement effectif :\n$MODIFIER_POLITICAL_POWER_FACTOR$: §G+5%§!\n$MODIFIER_ARMY_MORALE_FACTOR$: §G+10.00%§!\n"
+ GXC_ancap_merge: "Fusionner les §HIdées de Corps Marchand§!\nChangement effectif :\n$MODIFIER_POLITICAL_POWER_FACTOR$ : §G+5%§!\n$MODIFIER_STABILITY_FACTOR$ : §G+5%§!\n$MODIFIER_ARMY_MORALE_FACTOR$ : §G+10.00%§!\n"
  GXC_had_civil_war: "La Guerre Guangdong-Guangxi a commencé"
  GXC_guangdong_victory: "Le Guangdong a défait le Guangxi"
  GXC_guangxi_victory: "Le Guangxi a défait le Guangdong"
@@ -657,7 +657,7 @@ whampoa_dock_company: "Whampoa Dock Company"
  GXC_End_Labor_Movement: "Supprimer le Mouvement du Travail"
  GXC_End_Labor_Movement_desc: "Le mouvement ouvrier du Guangdong s'est développé avec l'industrialisation, protégé par les politiques socialistes de Chen Jiongming. Cela ne peut pas continuer, car le mouvement syndical continue de menacer la stabilité économique et la prospérité de la province. Après tout, peut-on vraiment faire confiance à ces marionnettes des puissances syndicalistes occidentales?"
 
- GXC_Philantropy: "Philanthropie"
+ GXC_Philantropy:9 "Philanthropie"
  GXC_Philantropy_desc: "Chen Lianbo est un philanthrope, ce qui fait que le peuple l'aime. Le nouveau gouverneur n'a certainement pas l'intention de rogner sur cette générosité ; il continuera à financer personnellement des écoles et des hôpitaux, ainsi que d'autres grands projets pour le bien de la population. En plus, c'est une très bonne RP."
 
  GXC_Merchants_Fight_Bandits: "Ecraser les bandits du Guangxi"
@@ -1310,6 +1310,11 @@ whampoa_dock_company: "Whampoa Dock Company"
  lngkmt.22.d: "Guangdong... le berceau de la révolution. Depuis l'effondrement de la dynastie Ming, la dissidence envers les dirigeants mandchous du nord n'a jamais été aussi grande dans la province la plus méridionale de la Chine. Le Guangdong est en effet le berceau de la révolution nationale. Les martyrs de la révolution sont nés au Guangdong, notamment les 72 martyrs qui ont donné leur vie lors du deuxième soulèvement du Guangzhou pour se débarrasser des Qing. Se sachant condamnés, ils ont écrit des lettres à leurs proches avant de mener leurs activités fatidiques. En effet, l'esprit du martyre serait perpétué au sein du Corps "Prêts à mourir", des patriotes prêts à donner leur vie pour une Chine plus libre lors de la révolution de 1911, et de l'Expédition du Nord. Le retour des Qing a cependant remis en cause les sacrifices de ces martyrs. Doit-on considérer qu'ils ont été vains?\n\nCe ne sera pas le cas. Le retour d'un gouvernement républicain à Guangzhou a permis à l'espoir de renaitre et à l'image du phénix mythique, le mouvement vers une Chine libre renaît ! Nous nous sommes regroupés et sommes plus revigorés que jamais pour venger nos frères tombés au combat et nous débarrasser de la pollution qu'est la dynastie Qing. Nous vengerons nos frères et entreprendrons une nouvelle Expédition vers le Nord. Les martyrs seront glorifiés et commémorés par des statues et des vers en prose de toute la Chine. Une fois notre position assurée, nous planifierons, nous nous entraînerons et nous serons prêts à renverser les despotes Qing une fois pour toutes."
  lngkmt.22.a: "Fan Qīng fù Míng!"
 
+ lngkmt.23.t: "Destin de la Troisième ANR"
+ lngkmt.23.d: "Après l'échec de l'Expédition du Nord, les membres restants de la 3e ANR sont retournés au Yunnan afin de se construire une nouvelle carrière au sein de l'administration de Tang Jiyao. Avec la province désormais sous notre contrôle, nous avons l'opportunité de réintégrer les membres perdus du KMT dans l'ANR. Les Généraux Zhu Peide, He Yingqin et Kim Hong-il sont des membres loyaux du KMT et auront l'occasion de mettre leurs talents à profit au sein de l'ANR. Les Généraux Fan Shisheng, Jin Handing et Luo Binghui sont également candidats à l'intégration dans l'ANR, mais leur loyauté envers le KMT est incertaine."
+ lngkmt.23.a: "On ne peut faire confiance qu'aux généraux fiables."
+ lngkmt.23.b: "Ils se vengeront de leurs échecs avec nous."
+
 ### Cosmetic Tags ###
  GXC: "Liangguang"
  GXC_ADJ: "Liangguang"
@@ -1491,6 +1496,7 @@ GXC_authoritarian_democrat_DEF: "le Gouvernement militaire de Liangguang"
  GXC_tan_gen:0 "Tan Gen"
  GXC_huang_zhenqiu:0 "Huang Zhenqiu"
  GXC_lin_weicheng:0 "Lin Weicheng"
+ GXC_chen_lianzhong: "Chen Lianzhong"
 
  GXC_ma_ji: "Ma Ji"
  GXC_ma_ji_leader_desc:0 "Ma Ji est à la tête de la clique du Guangxi depuis la mort de Lu Rongting. En tant que fils adoptif cadet de Lu, ses opinions et attitudes ont été fortement influencées par son père adoptif. Il appréciait le maintien de l'image de la Clique en tant qu'entité militaire pluraliste, obsédée par le maintien de l'indépendance du Guangxi.\nLorsque Lu Rongting est devenu gouverneur du Guangxi pendant la révolution Xinhai, Ma était son adjoint et les deux seraient impliqués dans le Mouvement de Protection Nationale qui a renversé le régime de Yuan Shikai.\nAprès une brève guerre avec le Yunnan, la clique du Guangxi de Lu a été expulsée de la province par la nouvelle clique du Guangxi alignée sur le KMT. Alors que Lu se retirait à Hong Kong et s'alliait à Chen Jiongming, Ma Ji, qui était au Hunan à l'époque, se dirigea vers le nord et s'associa à la Clique Zhili de Wu Peifu. Au moment de l'échec de l'Expédition du Nord du KMT, il dirigeait la quinzième armée contre le KMT. Il a remporté une victoire contre la septième armée des nationalistes en retraite, qui était également composée de soldats du Guangxi. Il les convaincra plus tard de se retirer, déclarant que "les gens du Guangxi ne combattent pas les gens du Guangxi".\nDepuis l'Expédition du Nord, Ma Ji a rejoint Lu Rongting après son réintégration au sein du gouvernement provincial du Guangxi. De là, il a dirigé le plan de modernisation de l'armée provinciale, lui donnant une influence et une expérience considérables dans la gestion de l'affaire de la Clique. Il reste dévoué à la province et à ses habitants, promouvant fortement le régionalisme et l'héritage pluraliste de Lu Rongting."
