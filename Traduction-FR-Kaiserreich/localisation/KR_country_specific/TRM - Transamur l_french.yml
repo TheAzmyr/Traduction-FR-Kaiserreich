@@ -3,7 +3,7 @@
  TRM_focus: "Arbre des priorités du Transamour"
 
 ### Leader Traits ###
- TRM_shaky_rule: "Shaky Rule"
+ TRM_shaky_rule: "Gouvernance Précaire"
  TRM_admiral_dictator: "Amiral-Dictateur"
 
 ### Events ###
@@ -66,10 +66,9 @@ tram.80.t: "Coup d'état Anti-Kolchak"
 tram.80.a: "La garde de Kolchak arrivent à vaincre les rebelles."
 tram.80.b: "Kolchak sera renversé."
 
- tram.81.t: "Kolchak est Renversé!"
+ tram.81.t: "Kolchak est Renversé !"
  tram.81.d: "Aleksandr Kolchak, dirigeant du Transamour depuis plus de 12 ans, a été renversé par des membres de l'état-major dirigé par Sergey Wojciechowski et exécuté par un peloton d'exécution. Sa mort ouvre le champ à diverses possibilités de changement politique en Transamour, y compris la déclaration d'une république, si Sergey Wojciechowski et son état-major le permettent."
  tram.81.a: "Sergey Wojciechowski est le nouveau dirigeant du Transamour!"
-tram.81.b: "Une Republic est déclarée."
 
 tram.84.t: "Putsch Anti-Kolchak au Transamour!"
 tram.84.d: "L'amiral Kolchak, le chef de longue date de l'État du Transamour, a été renversé et assassiné par des membres de son propre état-major. L'opposition démocratique s'en est servie pour prendre le contrôle de l'État, transformant le Transamur, passant d'une junte militaire à une démocratie. Comment allons-nous réagir ?"
@@ -94,6 +93,7 @@ tram.92.a: "Nous devons assurer notre survie. Envoyez la proposition."
 tram.92.b: "avez-vous perdu l'Esprit?"
 
 tram.93.t: "Le Transamour Propose une Réunification"
+ tram.81.b: "Une Republique est déclarée."
  tram.93.d: "Il semble que les traîtres du Transamour aient enfin réalisé la folie de leurs actions. Leur misérable état de croupion est en guerre contre le Japon et ils n'ont assurément aucune chance de victoire face à la puissance militaire japonaise. Des représentants du Transamur sont venus nous supplier de rejoindre pacifiquement notre nation, sans doute dans l'espoir d'éviter la conquête du Japon. Vladivostok est un port important, sans doute, mais sommes-nous prêts à affronter Tokyo?"
  tram.93.a: "Chers compatriotes, Bienvenue chez vous!"
 tram.93.b: "Le danger est trop Grand..."
@@ -111,10 +111,10 @@ tram.96.t: "Désastre"
  tram.96.d: "Le soi-disant "gouvernement russe" a refusé de nous rendre nos terres. De plus, ils nous ont déclaré la guerre et sont impatients de reprendre Vladivostok."
 tram.96.a: "Damnation!"
 
- tram.97.t: "[FROM.GetNameDefCap] Breaks Away!"
- tram.97.d: "[FROM.GetNameDefCap] has decided to leave our sphere of influence and cease all contact with us! Our elaborate military-industrial stranglehold over them and their fetid regime lies in ruins, and it appears that our carefully laid plains for increasing our influence in the Russian Far East are in tatters."
-tram.97.a: "Détruisons-les!"
-tram.97.b: "Pour l'instant, nous sommes impuissants."
+ tram.97.t: "[FROM.GetNameDefCap] Se Libère !"
+ tram.97.d: "[FROM.GetNameDefCap] a décidé de quitter notre sphère d'influence et de cesser tout contact avec nous ! Notre mainmise militaro-industrielle élaborée sur eux et leur régime fétide est en ruine, et il semble que nos plaines soigneusement préparées pour accroître notre influence dans l'Extrême-Orient russe soient en lambeaux."
+ tram.97.a: "Détruisons-les!"
+ tram.97.b: "Pour l'instant, nous sommes impuissants."
 
  tram.98.t: "Tentative de coup d'État en [FROM.GetNameDef]"
  tram.98.d: "Des nouvelles sur le coup d'État anti-Kolchak dans [FROM.GetNameDef] nous sont parvenues récemment. Il semble que les rebelles aient cherché à tuer Alexandre Kolchak, notre chef fantoche de facto du régime de Vladivostok, mais leurs meilleurs efforts semblent avoir été vains, le putsch ayant été écrasé par les gardes loyalistes. Pourtant, Kolchak s'est fait un certain nombre d'ennemis dans [FROM.GetNameDef] et sa vulnérabilité devient de plus en plus évidente. Peut-être devrions-nous demander à Kolchak de démissionner et de nommer un nouveau chef plus souple pour [FROM.GetNameDef]."
@@ -246,14 +246,14 @@ TRM_national_populist_party: "Restavratory"
 TRM_national_populist_party_long: "Restavratory"
 
 ### Companies ###
-hino_automobile: "Hino Automobile"
-eastern_siberian_railway: "Eastern Siberian Railway"
-vladivostok_university: "Vladivostok University"
-vladivostok_arsenals: "Vladivostok Arsenals"
-dalzavod_heavy_industries_tanks: "Dalzavod Tank Industries"
-siberian_aircraft_industries: "Siberian Aircraft Industries"
-dalzavod_naval_industries: "Dalzavod Naval Industries"
-nakajima_factory_vladivostok: "Nakajima Factory Vladivostok"
+ hino_automobile: "Hino Automobile"
+ eastern_siberian_railway: "Chemin de Fer de Sibérie Orientale"
+ vladivostok_university: "Université de Vladivostok"
+ vladivostok_arsenals: "Arsenaux de Vladivostok"
+ dalzavod_heavy_industries_tanks: "Industries de Chars Dalzavod"
+ siberian_aircraft_industries: "Industries Aéronautiques Sibériennes"
+ dalzavod_naval_industries: "Industries Navales Dalzavod"
+ nakajima_factory_vladivostok: "Usine Nakajima Vladivostok"
 
 ### Ideas ###
 TRM_dream: "Ambitions du Transamour Plus Grandes"
@@ -290,238 +290,238 @@ TRM_modest_society_desc: "Notre nation semble enfin s'être stabilisée, et une 
  TRM_Continue_The_Militarisation: "Continuer la Militarisation"
  TRM_Continue_The_Militarisation_desc: "Pendant trop longtemps, nous avons compté sur la protection des Japonais. Nous avons besoin de notre propre armée - mais cela demandera du temps et des efforts."
 
- TRM_Expand_Military_Staff: "Expand Military Staff"
- TRM_Expand_Military_Staff_desc: "We have a lack of proper officers to command our troops. We must train a new young generation of officers."
+ TRM_Expand_Military_Staff: "Élargir le Personnel Militaire"
+ TRM_Expand_Military_Staff_desc: "Nous manquons d'officiers compétents pour commander nos troupes. Nous devons former une nouvelle génération d'officiers."
 
- TRM_Northern_Expansion: "Northern Expansion"
- TRM_Northern_Expansion_desc: "Our nation is exhausted of fighting men, and our current drafting rate appears to be insufficient to populate our armed forces. If we enact conscription by requirement, we will have more troops to fight against our enemies."
+ TRM_Northern_Expansion: "Expansion vers le Nord"
+ TRM_Northern_Expansion_desc: "Notre nation est à court d'hommes de combat, et le taux de conscription actuel semble insuffisant pour peupler nos forces armées. Si nous promulguons la conscription obligatoire, nous aurons plus de troupes pour lutter contre nos ennemis."
 
- TRM_Drill_The_Troops: "Drill the Troops"
- TRM_Drill_The_Troops_desc: "The strength of an effective army lies not in numbers, but in its training. A well-trained force will lead us to victory!"
+ TRM_Drill_The_Troops: "Entraîner les Troupes"
+ TRM_Drill_The_Troops_desc: "La force d'une armée efficace ne réside pas dans le nombre, mais dans son entraînement. Une force bien entraînée nous mènera à la victoire !"
 
- TRM_Import_Military_Hardware: "Modernise Equipment"
- TRM_Import_Military_Hardware_desc: "We have not upgraded our equipment since the 1920s and many of our weapons are obsolete to say the least. We cannot achieve any of our objectives if we have ineffective weapons for our soldiers."
+ TRM_Import_Military_Hardware: "Moderniser l'Équipement"
+ TRM_Import_Military_Hardware_desc: "Nous n'avons pas modernisé notre équipement depuis les années 1920 et beaucoup de nos armes sont pour le moins obsolètes. Nous ne pouvons atteindre aucun de nos objectifs si nos soldats disposent d'armes inefficaces."
 
- TRM_Equipment_Breakthrough: "Equipment Breakthrough"
- TRM_Equipment_Breakthrough_desc: "Recently, we successfully developed a brand new firearm for our soldiers. Although they are currently just prototypes, we can invest some money to produce them in proper numbers."
+ TRM_Equipment_Breakthrough: "Innovation en Armement"
+ TRM_Equipment_Breakthrough_desc: "Récemment, nous avons réussi à développer une toute nouvelle arme à feu pour nos soldats. Bien qu'il ne s'agisse actuellement que de prototypes, nous pouvons investir un peu d'argent pour les produire en nombre suffisant."
 
- TRM_Improve_Supply_Network: "Improve Supply Network"
- TRM_Improve_Supply_Network_desc: "As the Trans-Siberian railway expands more and more, its usefulness becomes increasingly apparent. We even have the potential to create a nationwide railway supply system to deliver goods all across the country."
+ TRM_Improve_Supply_Network: "Améliorer le Réseau d'Approvisionnement"
+ TRM_Improve_Supply_Network_desc: "Au fur et à mesure que le Transsibérien se développe, son utilité devient de plus en plus évidente. Nous avons même la possibilité de créer un système d'approvisionnement ferroviaire à l'échelle nationale pour livrer des marchandises dans tout le pays."
 
- TRM_Create_A_Motorised_Corps: "Create a Motorised Corps"
- TRM_Create_A_Motorised_Corps_desc: "As our army becomes larger by the day, we need more transport for our troops. New trucks ought to prove useful."
+ TRM_Create_A_Motorised_Corps: "Créer un Corps Motorisé"
+ TRM_Create_A_Motorised_Corps_desc: "Comme notre armée s'agrandit de jour en jour, nous avons besoin de plus de moyens de transport pour nos troupes. Les nouveaux camions devraient s'avérer utiles."
 
- TRM_Expand_The_Dalzavod_Facilities: "Expand the Dalzavod Facilities"
- TRM_Expand_The_Dalzavod_Facilities_desc: "We can use our Dalzavod factory to produce a limited series of our own tanks. Tanks are invaluable in modern day warfare due their durability."
+ TRM_Expand_The_Dalzavod_Facilities: "Agrandir les Installations Dalzavod"
+ TRM_Expand_The_Dalzavod_Facilities_desc: "Nous pouvons utiliser notre usine Dalzavod pour produire une série limitée de nos propres chars. Les chars sont inestimables dans les guerres modernes en raison de leur durabilité."
 
- TRM_Subsidise_The_Aviation_Sector: "Subsidise the Aviation Sector"
- TRM_Subsidise_The_Aviation_Sector_desc: "Our air force has been sub-par for many years. If we are to bring it back up to scratch, in order to compete with regional powers, we have to dedicate financial muscle to aviation research at any cost."
+ TRM_Subsidise_The_Aviation_Sector: "Subventionner le Secteur de l'Aviation"
+ TRM_Subsidise_The_Aviation_Sector_desc: "Notre armée de l'air est en dessous de la moyenne depuis de nombreuses années. Si nous voulons la remettre à niveau, afin de rivaliser avec les puissances régionales, nous devons à tout prix consacrer des moyens financiers à la recherche aéronautique."
 
- TRM_Expand_The_Vladivostok_Airport: "Airport Expansion"
- TRM_Expand_The_Vladivostok_Airport_desc: "Our nation has been left behind by the aerial revolution. We do not have a single modern airfield to our name. Since the Weltkrieg, aircraft have become a very deadly weapon of war, and as such we must possess them. Without air bases, even the biggest air force would be useless."
+ TRM_Expand_The_Vladivostok_Airport: "Mise à Niveau Aéronautique "
+ TRM_Expand_The_Vladivostok_Airport_desc: "Notre nation a été laissée en arrière par la révolution aérienne. Nous n'avons pas un seul aérodrome moderne à notre actif. Depuis la Weltkrieg, les avions sont devenus une arme de guerre très meurtrière, et en tant que telle, nous devons les posséder. Sans bases aériennes, même la plus grande force aérienne serait inutile.Notre nation a été laissée en arrière par la révolution aérienne. Nous n'avons pas un seul aérodrome moderne à notre actif. Depuis la Weltkrieg, les avions sont devenus une arme de guerre très meurtrière, et en tant que telle, nous devons les posséder. Sans bases aériennes, même la plus grande force aérienne serait inutile."
 
- TRM_Irkutsk_Air_Base: "Irkutsk Air Base"
- TRM_Irkutsk_Air_Base_desc: "Siberia certainly has the room for new landing strips and airfields. We would be fools not to take advantage of this fact."
+ TRM_Irkutsk_Air_Base: "Base Aérienne d'Irkutsk"
+ TRM_Irkutsk_Air_Base_desc: "La Sibérie a certainement la place pour de nouvelles pistes d'atterrissage et de nouveaux aérodromes. Nous serions fous de ne pas profiter de ce fait."
 
- TRM_Develop_Siberian_Air_Fields: "Develop Siberian Airfields"
- TRM_Develop_Siberian_Air_Fields_desc: "Our air force is desperately in need of new launching grounds. For this reason we should invest in Novosibirsk."
+ TRM_Develop_Siberian_Air_Fields: "Développer les Aérodromes Sibériens"
+ TRM_Develop_Siberian_Air_Fields_desc: "Notre force aérienne a désespérément besoin de nouveaux terrains de lancement. C'est pourquoi nous devrions investir à Novossibirsk."
 
- TRM_Develop_Fighters: "Develop Fighters"
- TRM_Develop_Fighters_desc: "Fighters are main type of aircraft we should use. We can't dominate the skies without them."
+ TRM_Develop_Fighters: "Élaborer des Chasseurs"
+ TRM_Develop_Fighters_desc: "Les chasseurs sont le principal type d'avion que nous devrions utiliser. Nous ne pouvons pas dominer les cieux sans eux."
 
- TRM_CAS_Units: "CAS Units"
- TRM_CAS_Units_desc: "As we now have air superiority, we can now storm the ground with our CAS fighters. They are also valuable to us."
+ TRM_CAS_Units: "Unité d'Appui Aérien Rapproché (CAS)"
+ TRM_CAS_Units_desc: "Comme nous avons maintenant la supériorité aérienne, nous pouvons maintenant prendre d'assaut le sol avec nos chasseurs CAS. Ils sont également précieux pour nous."
 
- TRM_Modernise_The_Air_Command: "Modernise the Air Command"
- TRM_Modernise_The_Air_Command_desc: "Even with modern aircraft we have we still need a proper military staff to command them. We should intensively train some new officers."
+ TRM_Modernise_The_Air_Command: "Moderniser le Commandement Aérien"
+ TRM_Modernise_The_Air_Command_desc: "Même avec les avions modernes que nous avons, nous avons toujours besoin d'un personnel militaire approprié pour les commander. Nous devrions former intensivement de nouveaux officiers."
 
- TRM_Bombers_Of_The_East: "Bombers of the East"
- TRM_Bombers_Of_The_East_desc: "The skies are ours, our CAS is storming the ground, and we now can produce aircraft able to obliterate our enemies with high explosives."
+ TRM_Bombers_Of_The_East: "Bombardiers de l'Est"
+ TRM_Bombers_Of_The_East_desc: "Les cieux sont à nous, nos CAS prennent d'assaut le terrain, et nous pouvons maintenant produire des avions capables d'oblitérer nos ennemis avec des explosifs puissants."
 
- TRM_Russias_Eastern_Harbour: "Russia's Eastern Harbour"
- TRM_Russias_Eastern_Harbour_desc: "Vladivostok was both a major port and city in the Russian Far East under the old Tsarist regime, but with the aftermath of the Russo-Japanese war, Vladivostok has lost some of its importance. After the Weltkrieg and Kolchak's unsuccessful coup in 1925 the city underwent a resurgence again as major trade port for the Japanese."
+ TRM_Russias_Eastern_Harbour: "Havre Oriental de la Russie"
+ TRM_Russias_Eastern_Harbour_desc: "Vladivostok était à la fois un port et une ville importante de l'Extrême-Orient russe sous l'ancien régime tsariste, mais avec les conséquences de la guerre russo-japonaise, Vladivostok a perdu de son importance. Après la Weltkrieg et le coup d'État infructueux de Kolchak en 1925, la ville a connu une résurgence en tant que port commercial majeur pour les Japonais."
 
- TRM_Legacy_Of_The_Weltkrieg: "Legacy of the Weltkrieg"
- TRM_Legacy_Of_The_Weltkrieg_desc: "A lot of time has passed since the end of the Weltkrieg. Naval thought has changed and new technologies such as carriers and submarines have experienced much development. Still, these frivolous new toys are nothing compared to the old warships. A powerful fleet would crush anything in its path."
+ TRM_Legacy_Of_The_Weltkrieg: "Héritage de la Weltkrieg "
+ TRM_Legacy_Of_The_Weltkrieg_desc: "Beaucoup de temps s'est écoulé depuis la fin de la Weltkrieg. La pensée navale a changé et les nouvelles technologies telles que les porte-avions et les sous-marins ont connu un grand développement. Pourtant, ces nouveaux jouets frivoles ne sont rien comparés aux anciens navires de guerre. Une flotte puissante écraserait tout sur son passage."
 
- TRM_The_Grand_Fleet: "The Grand Fleet"
- TRM_The_Grand_Fleet_desc: "Since the Russian defeat in the Russo-Japanese war the Pacific fleet became a living example of misery. As the legitimate government of Russia it is our duty to restore the former glory of our Pacific fleet."
+ TRM_The_Grand_Fleet: "La Grande Flotte"
+ TRM_The_Grand_Fleet_desc: "Depuis la défaite russe dans la guerre russo-japonaise, la flotte du Pacifique est devenue un exemple vivant de misère. En tant que gouvernement légitime de la Russie, il est de notre devoir de restaurer l'ancienne gloire de notre flotte du Pacifique."
 
- TRM_Expand_The_Vladivostok_Port_Authority: "Expand the Vladivostok Port Authority"
- TRM_Expand_The_Vladivostok_Port_Authority_desc: "Increasing numbers of ships make landfall in our port each week, and the Vladivostok harbour has become overloaded due to these endless waves of cargo ships. We shall expand the port in order to ease these issues."
+ TRM_Expand_The_Vladivostok_Port_Authority: "Renforcer l'Autorité Portuaire de Vladivostok"
+ TRM_Expand_The_Vladivostok_Port_Authority_desc: "Un nombre croissant de navires accostent dans notre port chaque semaine, et le port de Vladivostok est devenu surchargé en raison de ces vagues incessantes de cargos. Nous allons agrandir le port afin d'atténuer ces problèmes."
 
- TRM_Pearl_Of_The_East: "Pearl in the East"
- TRM_Pearl_Of_The_East_desc: "Vladivostok is our great pearl. We must do everything to make our city the powerhouse of East Asia. Our efforts will results in bigger naval facilities and stronger naval fortifications."
+ TRM_Pearl_Of_The_East: "Perle de l'Orient"
+ TRM_Pearl_Of_The_East_desc: "Vladivostok est notre grande perle. Nous devons tout faire pour que notre ville devienne la locomotive de l'Asie de l'Est. Nos efforts se traduiront par des installations navales plus grandes et des fortifications navales plus solides."
 
- TRM_A_New_Path: "A New Path"
- TRM_A_New_Path_desc: "The rise of submarines and carriers during the Weltkrieg was unexpected. They have since proven themselves to be very effective. Though we will likely still rely on our extant main fleet, perhaps we could augment it with these new types of ships?"
+ TRM_A_New_Path: "Une Nouvelle Voie"
+ TRM_A_New_Path_desc: "L'essor des sous-marins et des porte-avions pendant la Weltkrieg était inattendu. Ils ont depuis prouvé qu'ils étaient très efficaces. Même si nous continuerons probablement à compter sur notre flotte principale existante, peut-être pourrions-nous l'augmenter avec ces nouveaux types de navires ?"
 
- TRM_Expand_Industry_In_Vladivostok: "Expand Industry in Vladivostok"
- TRM_Expand_Industry_In_Vladivostok_desc: "We have a distinctly backwater industry, a situation which must be rectified soon. We should start to develop our country step by step. Even if our progress is slow, incremental improvements will result in a prosperous country some day."
+ TRM_Expand_Industry_In_Vladivostok: "Développer l'Industrie à Vladivostok"
+ TRM_Expand_Industry_In_Vladivostok_desc: "Notre industrie est nettement en retrait, une situation qui doit être corrigée rapidement. Nous devrions commencer à développer notre pays étape par étape. Même si nos progrès sont lents, les améliorations progressives aboutiront un jour à un pays prospère."
 
- TRM_Expand_Industry_In_Khabarovsk: "Expand Industry in Khabarovsk"
- TRM_Expand_Industry_In_Khabarovsk_desc: "Khabarovsk is our second biggest city. Although the word 'big' is difficult to use about our country, we can expand industry in this city to make it appropriate for our future plans."
+ TRM_Expand_Industry_In_Khabarovsk: "Développer l'Industrie à Khabarovsk"
+ TRM_Expand_Industry_In_Khabarovsk_desc: "Khabarovsk est notre deuxième plus grande ville. Bien que le mot "grande" soit difficile à utiliser pour notre pays, nous pouvons développer l'industrie dans cette ville afin qu'elle soit adaptée à nos projets futurs."
 
- TRM_Revive_The_Transsiberian_Railway: "Revive Trans-Siberian Railway"
- TRM_Revive_The_Transsiberian_Railway_desc: "We now possess a larger part of the Trans-Siberian Railway. The railway itself in very poor condition, but if we invest in efforts to rebuild and improve it, our supply lines will be greatly improved."
+ TRM_Revive_The_Transsiberian_Railway: "Relancer le Transsibérien"
+ TRM_Revive_The_Transsiberian_Railway_desc: "Nous possédons maintenant une plus grande partie du chemin de fer transsibérien. Le chemin de fer lui-même est en très mauvais état, mais si nous investissons dans des efforts pour le reconstruire et l'améliorer, nos lignes d'approvisionnement seront grandement améliorées."
 
- TRM_Expand_Industry_In_The_Far_East: "Expand Far Eastern Industry"
- TRM_Expand_Industry_In_The_Far_East_desc: "The Russian Far East is just a vast wasteland of snow and tundra. But even in this harsh climate we can open some new facilities to develop our industry."
+ TRM_Expand_Industry_In_The_Far_East: "Développer l'Industrie d'Extrême-Orient"
+ TRM_Expand_Industry_In_The_Far_East_desc: "L'Extrême-Orient russe n'est qu'une vaste terre désolée de neige et de toundra. Mais même dans ce climat rigoureux, nous pouvons ouvrir de nouvelles installations pour développer notre industrie."
 
- TRM_Improve_The_Nikolayevsk_Port: "Improve the Nikolayevsk Port"
- TRM_Improve_The_Nikolayevsk_Port_desc: "The port of Nikolayevsk is in poor condition due to the lack of use by its former owners. Redevelopment will enable a new naval base to be established."
+ TRM_Improve_The_Nikolayevsk_Port: "Améliorer le Port de Nikolayevsk"
+ TRM_Improve_The_Nikolayevsk_Port_desc: "Le port de Nikolayevsk est en mauvais état en raison du manque d'utilisation par ses anciens propriétaires. Le réaménagement permettra l'établissement d'une nouvelle base navale."
 
- TRM_Industrialise_Lake_Baikal: "Industrialise Lake Baikal"
- TRM_Industrialise_Lake_Baikal_desc: "We now have the very developed industrial region of Irkutsk in our hands. It already has strong industrial potential, but we can improve it even more if we open some new facilities."
+ TRM_Industrialise_Lake_Baikal: "Industrialiser le Lac Baïkal"
+ TRM_Industrialise_Lake_Baikal_desc: "Nous avons maintenant entre nos mains la région industrielle très développée d'Irkoutsk. Elle possède déjà un fort potentiel industriel, mais nous pouvons l'améliorer encore davantage si nous ouvrons de nouvelles installations."
 
- TRM_Develop_Chita: "Develop Chita"
- TRM_Develop_Chita_desc: "The lands east of Lake Baikal are rich in resources, but extremely underdeveloped. It will take us a long time to build up this region, but we can begin now."
+ TRM_Develop_Chita: "Développer Chita"
+ TRM_Develop_Chita_desc: "Les terres à l'est du lac Baïkal sont riches en ressources, mais extrêmement sous-développées. Il nous faudra beaucoup de temps pour construire cette région, mais nous pouvons commencer dès maintenant."
 
- TRM_Siberian_Industrialisation: "Siberian Industrialisation"
- TRM_Siberian_Industrialisation_desc: "Western Siberia is our primary strategic region because it allows us to directly attack the traitors from Petrograd. A lot of new facilities must be build to make us stronger before the final battle"
+ TRM_Siberian_Industrialisation: "Industrialisation de la Sibérie"
+ TRM_Siberian_Industrialisation_desc: "La Sibérie occidentale est notre principale région stratégique car elle nous permet d'attaquer directement les traîtres de Petrograd. De nombreuses installations doivent être construites pour nous rendre plus forts avant la bataille finale."
 
- TRM_Expand_The_Baltic: "Expand The Baltic"
- TRM_Expand_The_Baltic_desc: "The Baltic states are back under our control. We should learn from the past and not continue our Russification, but instead develop their industry and grant them some illusion of autonomy so that they are satisfied with our rule."
+ TRM_Expand_The_Baltic: "Développer la Baltique"
+ TRM_Expand_The_Baltic_desc: "Les États baltes sont de nouveau sous notre contrôle. Nous devrions tirer les leçons du passé et ne pas poursuivre notre russification, mais plutôt développer leur industrie et leur accorder une certaine illusion d'autonomie afin qu'ils soient satisfaits de notre domination."
 
- TRM_Build_Up_White_Russia: "Build Up White Russia"
- TRM_Build_Up_White_Russia_desc: "The region of White Russia is one that hasn't seen too much development in recent years and so we must work on improving the area."
+ TRM_Build_Up_White_Russia: "Construire la Russie blanche"
+ TRM_Build_Up_White_Russia_desc: "La région de la Russie Blanche est une région qui n'a pas connu un grand développement ces dernières années et nous devons donc travailler à son amélioration."
 
- TRM_Appease_The_Polish: "Appease the Polish"
+ TRM_Appease_The_Polish: "Apaiser les Polonais"
  TRM_Appease_The_Polish_desc: "Les Polonais sont un peuple rebelle et doivent donc être apprivoisés plutôt qu'écrasés. Nous pouvons étendre notre projet industriel à la région pour leur apporter l'aide qu'ils souhaitent."
 
- TRM_Industrialise_Central_Asia: "Industrialise Central Asia"
- TRM_Industrialise_Central_Asia_desc: "Central Asia is an excellent place to build up some industry, as it currently is lacking in comparison to other areas of the Russia. Let us build up the region!"
+ TRM_Industrialise_Central_Asia: "Industrialiser l'Asie Centrale"
+ TRM_Industrialise_Central_Asia_desc: "L'Asie centrale est un excellent endroit pour développer l'industrie, car elle en manque actuellement par rapport à d'autres régions de la Russie. Construisons la région !"
 
- TRM_Develop_The_Caucasus: "Develop the Caucasus"
- TRM_Develop_The_Caucasus_desc: "The lands of the Caucasus are rich with oil, which is why Germany wanted to have a tight grip on the area. With the region under our control, we can improve the industry for the people who have long suffered."
+ TRM_Develop_The_Caucasus: "Développer le Caucase"
+ TRM_Develop_The_Caucasus_desc: "Les terres du Caucase sont riches en pétrole, c'est pourquoi l'Allemagne veut avoir une emprise sur la région. Avec la région sous notre contrôle, nous pouvons améliorer l'industrie pour les gens qui ont longtemps souffert."
 
  TRM_RDS_1: "RDS-1"
- TRM_RDS_1_desc: "With the Capital retaken, the scientists there are now contributing to our research, giving us an edge over our rivals. Also, with the industrialisation campaign over, more scientists in the newly conquered regions are joining our ranks. This combination has helped us invent whole new possibilities of weapons to use in wars."
+ TRM_RDS_1_desc: "Avec la reprise de la capitale, les scientifiques qui s'y trouvent contribuent désormais à nos recherches, ce qui nous donne un avantage sur nos rivaux. De même, la campagne d'industrialisation étant terminée, de plus en plus de scientifiques des régions nouvellement conquises rejoignent nos rangs. Cette combinaison nous a permis d'inventer de toutes nouvelles possibilités d'armes à utiliser dans les guerres."
 
- TRM_Increase_Trade_With_Japan: "Increase Trade With Japan"
- TRM_Increase_Trade_With_Japan_desc: "We may hate the Japanese but even the blind can appreciate that we depend on their economy. It would be more than wise to improve our trade relations with the Empire."
+ TRM_Increase_Trade_With_Japan: "Intensifier les Échanges avec le Japon"
+ TRM_Increase_Trade_With_Japan_desc: "Nous pouvons détester les Japonais mais même les aveugles peuvent comprendre que nous dépendons de leur économie. Il serait plus que sage d'améliorer nos relations commerciales avec l'Empire."
 
- TRM_Aid_From_Japan: "Aid from Japan"
- TRM_Aid_From_Japan_desc: "We can ask Japan to invest some money into our industry. It will allow us to develop our country faster. However, the deepening ties between us will also grow increasingly apparent, which means our people will be displeased."
+ TRM_Aid_From_Japan: "Aide du Japon"
+ TRM_Aid_From_Japan_desc: "Nous pouvons demander au Japon d'investir de l'argent dans notre industrie. Cela nous permettra de développer notre pays plus rapidement. Cependant, l'approfondissement des liens entre nous sera également de plus en plus apparent, ce qui signifie que notre peuple sera mécontent."
 
- TRM_Zaibatsu_Investments: "Zaibatsu Investments"
- TRM_Zaibatsu_Investments_desc: "The Japanese industrial giants are increasingly coming to see us as a useful market for their goods. However, by requesting further financial investment from them the people of Transamur will no doubt disapprove of our cosying up to Tokyo."
+ TRM_Zaibatsu_Investments: "Investissements du Zaibatsu"
+ TRM_Zaibatsu_Investments_desc: "Les géants industriels japonais voient de plus en plus en nous un marché utile pour leurs marchandises. Cependant, en demandant de nouveaux investissements financiers de leur part, le peuple de Transamour désapprouvera sans doute notre rapprochement avec Tokyo."
 
- TRM_Invite_Japanese_Instructors: "Invite Japanese Instructors"
- TRM_Invite_Japanese_Instructors_desc: "While Japanese aid and investment has been highly lucrative, our economy is laughably inefficient compared to that of the land of the rising sun. We should ask our friends to the east for economic advisors and request the personal assistance of Japanese industrialists. Such a move could lead to massive unrest among our people, however; these instructors may be perceived as colonists."
+ TRM_Invite_Japanese_Instructors: "Inviter des Instructeurs Japonais"
+ TRM_Invite_Japanese_Instructors_desc: "Alors que l'aide et les investissements japonais ont été très lucratifs, notre économie est ridiculement inefficace comparée à celle du pays du soleil levant. Nous devrions demander à nos amis de l'Est des conseillers économiques et solliciter l'aide personnelle d'industriels japonais. Cependant, une telle démarche pourrait entraîner des troubles massifs au sein de notre peuple ; ces instructeurs pourraient être perçus comme des colons."
 
- TRM_Russo_Japanese_Naval_Treaty: "Russo-Japanese Naval Treaty"
- TRM_Russo_Japanese_Naval_Treaty_desc: "As we become closer to Japan, they are willing to sign a treaty with us which would allow us to coordinate with Japanese scientists to develop naval doctrines. However, it will probably anger our people who hate Japanese imperialists."
+ TRM_Russo_Japanese_Naval_Treaty: "Traité Naval Russo-Japonais"
+ TRM_Russo_Japanese_Naval_Treaty_desc: "Comme nous nous rapprochons du Japon, ils sont prêts à signer avec nous un traité qui nous permettrait de nous coordonner avec les scientifiques japonais pour développer des doctrines navales. Cependant, cela provoquera probablement la colère de notre peuple qui déteste les impérialistes japonais."
 
- TRM_Japanese_Military_Mission: "Japanese Military Mission"
- TRM_Japanese_Military_Mission_desc: "Our navy is reaping great rewards from our cordiality with Japan, which has become increasingly pronounced due to our recent naval joint-development effort. We should establish a similar relationship with the Japanese Army. This will likely lead to further anger among our populace, however."
+ TRM_Japanese_Military_Mission: "Mission Militaire Japonaise"
+ TRM_Japanese_Military_Mission_desc: "Notre marine récolte de grands bénéfices de notre cordialité avec le Japon, qui est devenue de plus en plus prononcée en raison de notre récent effort de développement conjoint naval. Nous devrions établir une relation similaire avec l'armée japonaise. Cependant, cela entraînera probablement une plus grande colère au sein de notre population."
 
- TRM_Draw_Closer_To_Fengtian: "Draw Closer to Fengtian"
- TRM_Draw_Closer_To_Fengtian_desc: "The Fengtian regime is also under a great deal of Japanese influence, and thus our ally. Despite this and our close geographic proximity, our nation has diplomatic and economic ties comparable to that of any other with Fengtian. We should expand our diplomatic mission in the capital of Fengtian to foster closer ties."
+ TRM_Draw_Closer_To_Fengtian: "Se Rapprocher du Fengtian"
+ TRM_Draw_Closer_To_Fengtian_desc: "Le régime de Fengtian est également sous une grande influence japonaise, et donc notre allié. Malgré cela et notre proximité géographique, notre nation entretient avec Fengtian des liens diplomatiques et économiques comparables à ceux de tout autre pays. Nous devrions étendre notre mission diplomatique dans la capitale de Fengtian pour favoriser des liens plus étroits."
 
- TRM_Invite_Fengtian_Workers: "Invite Fengtian Workers"
- TRM_Invite_Fengtian_Workers_desc: "To the west lies the vast lands of Manchuria ruled by Zhang Zuolin who is our occasional partner and ally. A lot of poor Chinese people are willing to work for us, even for a mere bowl of rice per day. Cheap labour could help us greatly, but Japanese officials would no doubt use them to increase their influence in our politics."
+ TRM_Invite_Fengtian_Workers: "Inviter les Travailleurs du Fengtian"
+ TRM_Invite_Fengtian_Workers_desc: "À l'ouest se trouvent les vastes terres de la Mandchourie gouvernées par Zhang Zuolin qui est notre partenaire et allié occasionnel. Beaucoup de Chinois pauvres sont prêts à travailler pour nous, même pour un simple bol de riz par jour. Une main-d'œuvre bon marché pourrait nous aider grandement, mais les officiels japonais les utiliseraient sans doute pour accroître leur influence sur notre politique."
 
- TRM_Aftermath_Of_The_Coup: "Aftermath of the Coup"
- TRM_Aftermath_Of_The_Coup_desc: "Tensions in the Transamur regime are finally reaching fever pitch, and there is little doubt now that Kolchak's position is becoming increasingly untenable."
+ TRM_Aftermath_Of_The_Coup: "Conséquences du Coup d'État"
+ TRM_Aftermath_Of_The_Coup_desc: "Les tensions au sein du régime du Transamour atteignent enfin leur paroxysme, et il ne fait plus guère de doute que la position de Kolchak devient de plus en plus intenable."
 
- TRM_All_Power_To_The_Admiral: "All Power to the Admiral"
- TRM_All_Power_To_The_Admiral_desc: "Kolchak has managed to survive the coup and has defeated the rebellious generals. However, the spirit of uncertainty still lingers over Vladivostok. Only a strong leader is capable of pacifying the people and restoring order to Transamur."
+ TRM_All_Power_To_The_Admiral: "Tout le Pouvoir à l'Amiral"
+ TRM_All_Power_To_The_Admiral_desc: "Kolchak a réussi à survivre au coup d'État et a vaincu les généraux rebelles. Cependant, l'esprit d'incertitude plane toujours sur Vladivostok. Seul un leader fort est capable de pacifier le peuple et de restaurer l'ordre à Transamour."
 
- TRM_Purge_The_Army: "Purge the Army"
- TRM_Purge_The_Army_desc: "To avoid any further coups and rebellions the whole apparatus of military high command must be inspected. No doubt, there is still remain some opponents of Kolchak's government, who must be removed from their offices. However, these harsh measures will disrupt the capabilities of our army for some time."
+ TRM_Purge_The_Army: "Purger l'Armée"
+ TRM_Purge_The_Army_desc: "Pour éviter tout nouveau coup d'État et toute nouvelle rébellion, l'ensemble de l'appareil du haut commandement militaire doit être inspecté. Sans aucun doute, il reste encore quelques opposants au gouvernement de Kolchak, qui doivent être démis de leurs fonctions. Cependant, ces mesures sévères vont perturber les capacités de notre armée pendant un certain temps."
 
- TRM_The_Supreme_Ruler: "The Supreme Ruler"
- TRM_The_Supreme_Ruler_desc: "Kolchak claims himself to be the "Supreme Ruler of Russia". For our leader to bolster his image, he needs a strong propaganda machine to help foster an effective cult of personality. Everyone should know about his glorious persona and great deeds. Kolchak must be seen as Father of the Nation in the eyes of his people."
+ TRM_The_Supreme_Ruler: "Le Souverain Suprême"
+ TRM_The_Supreme_Ruler_desc: "Kolchak se revendique comme le "Souverain Suprême de la Russie". Pour que notre chef renforce son image, il a besoin d'une solide machine de propagande qui l'aide à entretenir un véritable culte de la personnalité. Tout le monde doit connaître sa glorieuse personnalité et ses grandes actions. Kolchak doit être considéré comme le Père de la Nation aux yeux de son peuple."
 
- TRM_New_Leadership: "New Leadership"
- TRM_New_Leadership_desc: "Kolchak is dead and a new dictatorship has risen. It will take some time to reorganise the government and legitimise the new dictator."
+ TRM_New_Leadership: "Nouveau Leadership "
+ TRM_New_Leadership_desc: "Kolchak est mort et une nouvelle dictature a vu le jour. Il faudra un certain temps pour réorganiser le gouvernement et légitimer le nouveau dictateur."
 
- TRM_Military_Reforms: "Military Reforms"
- TRM_Military_Reforms_desc: "Every dictatorship relies on its army, and as such it is crucial that immediate reforms must be implemented to improve military efficiency. Only the most loyal and effective armed forces will be able to preserve us."
+ TRM_Military_Reforms: "Réformes Militaires"
+ TRM_Military_Reforms_desc: "Toute dictature s'appuie sur son armée, et il est donc crucial de mettre en œuvre des réformes immédiates pour améliorer l'efficacité militaire. Seules les forces armées les plus loyales et les plus efficaces seront en mesure de nous préserver."
 
- TRM_Modern_Equipment: "Buy Modern Equipment"
- TRM_Modern_Equipment_desc: "Our equipment is obsolete and so we must turn to the global market. Perhaps we will even be able to acquire blueprints so we can produce new equipment of our own."
+ TRM_Modern_Equipment: "Acheter de l'Équipement Moderne"
+ TRM_Modern_Equipment_desc: "Notre équipement est obsolète et nous devons donc nous tourner vers le marché mondial. Peut-être pourrons-nous même acquérir des plans afin de produire nous-mêmes de nouveaux équipements."
 
- TRM_Political_Stabilisation: "Political Stabilisation"
- TRM_Political_Stabilisation_desc: "The situation has finally stabilised. Nobody can argue against our legitimacy, our borders are protected by a strong and modern army. People have learnt how to be modest and not to waste their money and efforts on nonsensical things. Order has finally returned to Transamur."
+ TRM_Political_Stabilisation: "Stabilisation Politique"
+ TRM_Political_Stabilisation_desc: "La situation s'est enfin stabilisée. Personne ne peut contester notre légitimité, nos frontières sont protégées par une armée forte et moderne. Les gens ont appris à être modestes et à ne pas gaspiller leur argent et leurs efforts pour des choses insensées. L'ordre est enfin revenu en Transamour."
 
- TRM_Victory_For_Democracy: "Victory for Democracy"
- TRM_Victory_For_Democracy_desc: "We have finally achieved our freedom. No more dictators, no more mad militarists. It's time for true democracy to rise and wipe out the presence of autocrats."
+ TRM_Victory_For_Democracy: "Victoire pour la Démocratie"
+ TRM_Victory_For_Democracy_desc: "Nous avons enfin obtenu notre liberté. Plus de dictateurs, plus de militaristes fous. Il est temps que la vraie démocratie se lève et efface la présence des autocrates."
 
- TRM_Scientific_Investments: "Scientific Investment"
- TRM_Scientific_Investments_desc: "The impact of science on today's world is undeniable and we should make good on this and invest some money into our nation's great minds. With the creation of proper work conditions for them, their efforts will be even more effective."
+ TRM_Scientific_Investments: "Investissement Scientifique"
+ TRM_Scientific_Investments_desc: "L'impact de la science sur le monde d'aujourd'hui est indéniable et nous devrions en tenir compte et investir de l'argent dans les grands esprits de notre nation. Avec la création de conditions de travail adéquates pour eux, leurs efforts seront encore plus efficaces."
 
- TRM_Subsidise_Industrial_Expansion: "Subsidise Industrial Expansion"
- TRM_Subsidise_Industrial_Expansion_desc: "Further investment will allow us to expand our facilities and make our industry more productive. Many new workplaces can be created, which means more stable employment and security for the people."
+ TRM_Subsidise_Industrial_Expansion: "Subventionner l'Expansion Industrielle"
+ TRM_Subsidise_Industrial_Expansion_desc: "De nouveaux investissements nous permettront d'agrandir nos installations et de rendre notre industrie plus productive. De nombreux nouveaux postes de travail pourront être créés, ce qui signifie des emplois plus stables et une plus grande sécurité pour la population."
 
- TRM_Encourage_Free_Trade: "Encourage Free Trade"
- TRM_Encourage_Free_Trade_desc: "Now that Kolchak is gone, we need to open the economy and bring free trade here. In this way, foreign investors will bring in prosperity and our investors will show to other countries the power of [Root.GetNameDef]. With this, we will appear as the legitimate government of Russia both to the eyes of our people and to the international community."
+ TRM_Encourage_Free_Trade: "Encourager le Libre-Échange"
+ TRM_Encourage_Free_Trade_desc: "Maintenant que Kolchak est parti, nous devons ouvrir l'économie et introduire le libre-échange ici. De cette façon, les investisseurs étrangers apporteront la prospérité et nos investisseurs montreront aux autres pays la puissance de [Root.GetNameDef]. Ainsi, nous apparaîtrons comme le gouvernement légitime de la Russie aux yeux de notre peuple et de la communauté internationale."
 
- TRM_Vladivostok_Under_Japan: "Vladivostok under Japan"
- TRM_Vladivostok_Under_Japan_desc: "The Japanese have never been welcomed in Transamur. The news that Transamur is to be directly administered by General Shigemoto has shocked many in Vladivostok and has caused great consternation amongst many fierce nationalists. It will take a long time and great effort to legitimise this new 'lapdog' regime in the eyes of the people."
+ TRM_Vladivostok_Under_Japan: "Vladivostok sous le Japon"
+ TRM_Vladivostok_Under_Japan_desc: "Les Japonais n'ont jamais été bien accueillis au Transamour. La nouvelle selon laquelle le Transamural sera directement administré par le général Shigemoto en a choqué plus d'un à Vladivostok et a provoqué une grande consternation chez de nombreux nationalistes farouches. Il faudra beaucoup de temps et d'efforts pour légitimer ce nouveau régime "chien de poche" aux yeux de la population."
 
- TRM_Attract_Japanese_Immigrants: "Attract Japanese Immigrants"
- TRM_Attract_Japanese_Immigrants_desc: "Now that our puppet regime stands on more solid ground, the time has come to take the first steps toward Japanisation of the whole region. A first wave of Japanese colonists has already arrived - made up of teachers, doctors and engineers; their qualifications will help us significantly."
+ TRM_Attract_Japanese_Immigrants: "Attirer les Immigrants Japonais"
+ TRM_Attract_Japanese_Immigrants_desc: "Maintenant que notre régime fantoche repose sur des bases plus solides, le moment est venu de faire les premiers pas vers la japonisation de toute la région. Une première vague de colons japonais est déjà arrivée - composée d'enseignants, de médecins et d'ingénieurs ; leurs qualifications nous aideront considérablement."
 
- TRM_Invite_Japanese_Workers: "Invite Japanese Workers"
- TRM_Invite_Japanese_Workers_desc: "With the colonisation programme already under way, soon thousands of hungry poor Japanese will flee to our country in search of work. A cheap workforce and investment from the mainland means new facilities and new capabilities."
+ TRM_Invite_Japanese_Workers: "Inviter des Travailleurs Japonais"
+ TRM_Invite_Japanese_Workers_desc: "Avec le programme de colonisation déjà en cours, bientôt des milliers de Japonais pauvres et affamés fuiront vers notre pays à la recherche de travail. Une main-d'œuvre bon marché et des investissements en provenance du continent signifient de nouvelles installations et de nouvelles capacités."
 
- TRM_Pro_Tokyo_Propaganda: "Pro-Tokyo Propaganda"
- TRM_Pro_Tokyo_Propaganda_desc: "Russian resistance to our cultural assimilation is even stronger than we anticipated. As such we should take measures prevent them speaking, listening and even thinking Russian. We should start a massive propaganda campaign to undermine what it is to be Russian, boost the people's love of Japan and finally assimilate them."
+ TRM_Pro_Tokyo_Propaganda: "Propagande Pro-Tokyo"
+ TRM_Pro_Tokyo_Propaganda_desc: "La résistance des Russes à notre assimilation culturelle est encore plus forte que nous l'avions prévu. Nous devons donc prendre des mesures pour les empêcher de parler, d'écouter et même de penser russe. Nous devrions lancer une campagne de propagande massive afin de saper ce que c'est que d'être russe, de renforcer l'amour de la population pour le Japon et enfin de les assimiler."
 
- TRM_Major_Education_Reform: "Major Education Reform"
- TRM_Major_Education_Reform_desc: "No matter if it is a dictatorship or a democracy, the aspects regarding education are clear in both cases. No men or women ever won a war, but science did. We must invest as much as possible to give our scientists everything they want."
+ TRM_Major_Education_Reform: "Réforme Majeure de l'Éducation"
+ TRM_Major_Education_Reform_desc: "Qu'il s'agisse d'une dictature ou d'une démocratie, les aspects relatifs à l'éducation sont clairs dans les deux cas. Aucun homme ou femme n'a jamais gagné une guerre, mais la science l'a fait. Nous devons investir autant que possible pour donner à nos scientifiques tout ce qu'ils veulent."
 
- TRM_Occupy_The_Russian_Far_East: "Occupy the Russian Far East"
- TRM_Occupy_The_Russian_Far_East_desc: "Russia is now in state of war. While they are busy in the West we can pressure them in the East. We must immediately purge them from our rightful lands."
+ TRM_Occupy_The_Russian_Far_East: "Occuper l'Extrême-Orient Russe"
+ TRM_Occupy_The_Russian_Far_East_desc: "La Russie est maintenant en état de guerre. Pendant qu'ils sont occupés à l'Ouest, nous pouvons faire pression sur eux à l'Est. Nous devons immédiatement les purger de nos terres légitimes."
 
- TRM_The_Long_Road_To_Moscow: "The Long Road to Moscow"
- TRM_The_Long_Road_To_Moscow_desc: "The time has come! Day by day we dream about the time when we will strike our enemies in Moscow. We are no longer merely [Root.GetNameDef]. No, our claim to the mantle of Russian Republic will no longer be more pretence, but solid fact! We will liberate Mother Russia from the traitors that destroyed her."
+ TRM_The_Long_Road_To_Moscow: "La Longue Route vers Moscou"
+ TRM_The_Long_Road_To_Moscow_desc: "L'heure est venue ! Jour après jour, nous rêvons du moment où nous frapperons nos ennemis à Moscou. Nous ne sommes plus seulement [Root.GetNameDef]. Non, notre revendication du manteau de la République russe ne sera plus une prétention, mais un fait solide ! Nous libérerons la Mère Russie des traîtres qui l'ont détruite."
 
- TRM_Russia_One_And_Indivisible: "Russia, One and Indivisible"
- TRM_Russia_One_And_Indivisible_desc: "The time of war has come to an end. Now is the time for a new, stronger Russia to arise. No more traitors, no more Bolsheviks, no more Japanese imperialists. We are Russia now!"
+ TRM_Russia_One_And_Indivisible: "La Russie, UNE et INDIVISIBLE"
+ TRM_Russia_One_And_Indivisible_desc: "Le temps de la guerre est arrivé à sa fin. L'heure est venue pour une nouvelle Russie, plus forte, de se lever. Plus de traîtres, plus de bolcheviks, plus d'impérialistes japonais. Nous sommes la Russie maintenant !"
 
- TRM_Secure_Kazakhstan: "Secure Kazakhstan"
- TRM_Secure_Kazakhstan_desc: "Kazakhstan is vast and wealthy. Once brought into the fold we can look even further south, to Turkestan."
+ TRM_Secure_Kazakhstan: "Sécuriser le Kazakhstan"
+ TRM_Secure_Kazakhstan_desc: "Le Kazakhstan est vaste et riche. Une fois dans le giron, nous pouvons regarder encore plus au sud, au Turkestan."
 
- TRM_Secure_Turkestan: "Secure Turkestan"
- TRM_Secure_Turkestan_desc: "Turkestan is not particularly wealthy or even populous. But soon enough, it will be ours, and it will serve excellently as a bridgehead to the wealthy Persian and Indian provinces, should we need it."
+ TRM_Secure_Turkestan: "Sécuriser le Turkestan"
+ TRM_Secure_Turkestan_desc: "Le Turkestan n'est pas particulièrement riche ou même peuplé. Mais bien assez tôt, il sera à nous, et il servira parfaitement de tête de pont vers les riches provinces perses et indiennes, si nous en avons besoin."
 
- TRM_Secure_Armenia: "Secure Armenia"
- TRM_Secure_Armenia_desc: "The Armenian people share our faith. Thus they should only be happy to return to our rule, no?"
+ TRM_Secure_Armenia: "Sécuriser l'Arménie"
+ TRM_Secure_Armenia_desc: "Le peuple arménien partage notre foi. Ils ne peuvent donc qu'être heureux de revenir sous notre domination, non ?"
 
- TRM_Secure_Georgia: "Secure Georgia"
- TRM_Secure_Georgia_desc: "While Georgia is not large, wealthy, or powerful at all, we must deal with them at once... It is a matter of principle. This is land stolen from us during the Weltkrieg. Soon it will be back in the fold, with the rest of them."
+ TRM_Secure_Georgia: "Sécuriser la Géorgie"
+ TRM_Secure_Georgia_desc: "Bien que la Géorgie ne soit pas du tout grande, riche ou puissante, nous devons nous en occuper immédiatement... C'est une question de principe. Ce sont des terres qui nous ont été volées pendant la Weltkrieg. Bientôt, il sera de retour au bercail, avec le reste d'entre eux."
 
- TRM_Secure_Azerbaijan: "Secure Azerbaijan"
- TRM_Secure_Azerbaijan_desc: "For a long time, we have been reliant on expensive oil imports to keep our war-machine running. All in between us and a self-sufficient economy is the small, weak, state of Azerbaijan."
+ TRM_Secure_Azerbaijan: "Sécuriser l'Azerbaïdjan"
+ TRM_Secure_Azerbaijan_desc: "Pendant longtemps, nous avons été dépendants d'importations de pétrole coûteuses pour faire tourner notre machine de guerre. Tout ce qui se trouve entre nous et une économie autosuffisante est le petit et faible État d'Azerbaïdjan."
 
- TRM_On_Our_Own: "On our Own"
- TRM_On_Our_Own_desc: "Russia should not be a lapdog to any other nation. It's time we form our own alliance and no longer dance to the pipe of others!"
+ TRM_On_Our_Own: "Par nous-mêmes"
+ TRM_On_Our_Own_desc: "La Russie ne doit pas être le chien de garde d'une autre nation. Il est temps de former notre propre alliance et de ne plus être dans la sphère d'autres !"
 
- TRM_Join_the_Entente: "Join the Entente"
- TRM_Join_the_Entente_desc: "During the Weltkrieg we stood beside Great Britain and France against the Germanic Huns and their allies. Now that we are back in power they will surely be willing to help us, after all, Kolchak was a good friend of George V."
+ TRM_Join_the_Entente: "Rejoindre l'Entente"
+ TRM_Join_the_Entente_desc: "Pendant la Weltkrieg, nous étions aux côtés de la Grande-Bretagne et de la France contre les Huns Germaniques et leurs alliés. Maintenant que nous sommes de retour au pouvoir, ils seront sûrement disposés à nous aider, après tout, Kolchak était un bon ami de George V."
 
- TRM_Invade_White_Ruthenia: "Invade [WHR.GetNameDef]"
- TRM_Invade_White_Ruthenia_desc: "The breakaway state commonly called White Russia was claimed during the partitions of old, only to be taken by the Kaiser. We will not lose our lands this time!"
+ TRM_Invade_White_Ruthenia: "Envahir [WHR.GetNameDef]"
+ TRM_Invade_White_Ruthenia_desc: "L'État dissident communément appelé Russie Blanche a été revendiqué lors des anciennes partitions, avant d'être pris par le Kaiser. Nous ne perdrons pas nos terres cette fois-ci !"
 
- TRM_Crush_Ukraine: "Crush Ukraine"
- TRM_Crush_Ukraine_desc: "Powerful German armies had been protecting Ukraine from annexation since the October Revolution. However, now that we are back in power, our chance to reunite Ukraine with Russia is now."
+ TRM_Crush_Ukraine: "Écraser l'Ukraine"
+ TRM_Crush_Ukraine_desc: "Les puissantes armées allemandes protégeaient l'Ukraine de l'annexion depuis la révolution d'octobre. Cependant, maintenant que nous sommes de retour au pouvoir, nous avons la possibilité de réunir l'Ukraine à la Russie."
 
- TRM_Crush_The_German_Hegemony: "Crush the German Hegemony"
- TRM_Crush_The_German_Hegemony_desc: "The losses at the peace treaty of Brest-Litovsk are too great to count. It's time we return Russia to the glory we held prior to the Weltkrieg!"
+ TRM_Crush_The_German_Hegemony: "Écraser l'Hégémonie Allemande"
+ TRM_Crush_The_German_Hegemony_desc: "Les pertes au traité de paix de Brest-Litovsk sont trop importantes pour être comptées. Il est temps de rendre à la Russie la gloire qu'elle avait avant la Weltkrieg !"
 
- TRM_Secure_Karelia: "Secure Karelia"
- TRM_Secure_Karelia_desc: "Finland and their false King has mocked Russia for long enough. It's time we send Russian troops to Helsinki once again."
+ TRM_Secure_Karelia: "Sécuriser la Carélie"
+ TRM_Secure_Karelia_desc: "La Finlande et son faux roi se moquent de la Russie depuis assez longtemps. Il est temps d'envoyer des troupes russes à Helsinki une fois de plus."
 
 ### Tooltips ###
-TRM_demand_warning: "§RS'ils refusent, nous serons obligés de déclarer la guerre!§!"
-TRM_agitation_tooltip: "Les résultats de nos efforts pourraient être variables, et il n'y a aucune garantie de succès.\n"
- TRM_if_kolchak_chosen: "If §H$TRM_All_Power_To_The_Admiral$§! is chosen:"
- TRM_if_military_chosen: "If §H$TRM_New_Leadership$§! is chosen:"
- TRM_motorised_tooltip: "Two £nato_unit_motorized_icon_small  §HMotorised§! divisions will be deployed."
- TRM_generals_join_us: "Mikhail Tornovsky and Nikolay Kazagrandi will be available as generals for our army!"
+ TRM_demand_warning: "§RS'ils refusent, nous serons obligés de déclarer la guerre!§!"
+ TRM_agitation_tooltip: "Les résultats de nos efforts pourraient être variables, et il n'y a aucune garantie de succès.\n"
+ TRM_if_kolchak_chosen: "Si §H$TRM_All_Power_To_The_Admiral$§! est choisi :"
+ TRM_if_military_chosen: "Si §H$TRM_New_Leadership$§! est choisi :"
+ TRM_motorised_tooltip: "Deux divisions £nato_unit_motorized_icon_small  §HMotorisés§! seront déployés."
+ TRM_generals_join_us: "Mikhail Tornovsky et Nikolay Kazagrandi seront disponibles comme généraux pour notre armée !"
 
 ### Flags ###
 TRM_capital_nov: "Novossibirsk est la capitale actuelle"
@@ -669,23 +669,23 @@ TRM_RUS_national_populist_DEF: "l'État Russe"
  RUS_aleksandr_krasnoshchyokov:0 "Aleksandr Krasnoshchyokov"
 
  RUS_boris_shumyatsky:0 "Boris Shumyatsky"
- RUS_boris_shumyatsky_leader_desc:0 "Boris Shumyatsky's parents were forced into exile in Siberia because they refused to leave their home. This incident has stuck with Shumyatsky, continually reminding him of the corruption within the Tsarist government based in Petrograd. A former Bolshevik, Shumyatsky was forced to leave Russia upon the conclusion of the Russian Civil War and has become an influential politician within Transamur. Despite his political views shifting towards the right, Shumyatsky continues to pursue the goal of turning Transamur into a welfare state. His past experience as a Bolshevik agitator has helped him gain a majority of the votes during the Presidential elections."
+ RUS_boris_shumyatsky_leader_desc:0 "Les parents de Boris Shumyatsky ont été contraints de s'exiler en Sibérie parce qu'ils refusaient de quitter leur maison. Cet incident a marqué Boris Shumyatsky, lui rappelant sans cesse la corruption au sein du gouvernement tsariste basé à Petrograd. Ancien bolchevik, Shumyatsky a été contraint de quitter la Russie à la fin de la guerre civile russe et est devenu un politicien influent au Transamour. Bien que ses opinions politiques aient évolué vers la droite, Shumyatsky continue de poursuivre l'objectif de transformer le Transamour en un État-providence. Son expérience passée en tant qu'agitateur bolchevique l'a aidé à obtenir la majorité des voix lors des élections présidentielles."
 
  RUS_victor_pepelyaev:0 "Viktor Pepelyayev"
 
  RUS_spiridon_merkulov:0 "Spiridon Merkulov"
- RUS_spiridon_merkulov_leader_desc:0 "A former leader of the pro-Japanese Provisional Primorsk Government, Merkulov's cabinet had been incorporated into Semyonov's Transbaikal state. Now, as Kolchak no longer stands in his way and democracy has finally returned to Vladivostok, Merkulov, a son of a humble peasant, is eager to lead Transamur to prosperity. His vast and personal connections with the people have helped him gain a majority of the votes during the Presidential elections."
+ RUS_spiridon_merkulov_leader_desc:0 "Ancien chef du gouvernement provisoire pro-japonais de Primorsk, le cabinet de Merkulov avait été incorporé à l'État du Transbaïkal de Semyonov. Maintenant que Kolchak ne se trouve plus sur son chemin et que la démocratie est enfin revenue à Vladivostok, Merkulov, fils d'un humble paysan, est impatient de mener le Transamour à la prospérité. Ses vastes relations personnelles avec le peuple l'ont aidé à obtenir la majorité des voix lors des élections présidentielles."
 
  RUS_oi_shigemoto:0 "Oi Shigemoto"
 
  RUS_grigory_semyonov:0 "Grigory Semyonov"
- RUS_grigory_semyonov_leader_desc:0 "An Ataman of the Baikal Cossacks, Semyonov and his boys had managed to establish a Transabaikal state, currently known as Transamur, in order to fight Bolsheviks who had been agitating in the Russian Far East. His newborn country was soon subjugated by Japan. When Kolchak's coup in 1925 had failed and the had rogue admiral had left Russia for Transamur, Semyonov was forced to resign and continue his career as military commander. However, the 'father-of-state' has managed to return, politically influential. Semyonov's only goal is to see Transamur prosper and, in order to do so, he is unwilling to wage uncertain wars."
+ RUS_grigory_semyonov_leader_desc:0 "Ataman des Cosaques du Baïkal, Semyonov et ses garçons avaient réussi à établir un État transabaïkal, actuellement connu sous le nom de Transamour, afin de combattre les bolcheviks qui s'agitaient dans l'Extrême-Orient russe. Son pays nouveau-né fut bientôt subjugué par le Japon. Lorsque le coup d'État de Kolchak en 1925 a échoué et que l'amiral dévoyé a quitté la Russie pour le Transamour, Semyonov a été contraint de démissionner et de poursuivre sa carrière de commandant militaire. Cependant, le "père de l'État" a réussi à revenir, politiquement influent. Le seul objectif de Semyonov est de voir le Transamour prospérer et, pour ce faire, il n'est pas disposé à mener des guerres incertaines.ge uncertain wars."
 
  RUS_aleksandr_kolchak:0 "Aleksandr Kolchak"
  RUS_aleksandr_kolchak_leader_desc: "Autrefois explorateur polaire et commandant de la marine impériale russe, Kolchak a participé à la guerre Russo-Japonaise et à la Weltkrieg. Il a tenté de se proclamer "chef suprême de la Russie", mais n'a pas réussi à obtenir un soutien suffisant. Ses relations avec le gouvernement de la toute nouvelle République russe étaient très tendues en raison de l'acceptation par ce dernier du traité de Brest-Litovsk, ce qui a abouti à l'échec de sa tentative de coup d'État contre Ses "chiens d'Allemands" en 1925. L'amiral dévoyé réussit à fuir la Russie et trouve refuge dans l'État pro-Japonais du Transamur. Devenu une marionnette efficace de Tokyo, Kolchak tente de rassembler suffisamment de pouvoir et de soutien pour renverser le gouvernement de Petrograd et se proclamer chef de la Russie."
 
  RUS_sergey_wojciechowski:0 "Sergey Wojciechowski"
- RUS_sergey_wojciechowski_leader_desc:0 "A leader of Czechoslovakian Legion and hero of the Russian Civil War, Wojciechowski has refused to accept the Brest-Litovsk treaty as legitimate. Outraged, he ceased all the contact with the government of the Russian Republic, and left for Transamur where he found many supporters. Formerly the right-hand man of admiral Kolchak, Sergey betrayed and killed his 'friend'. Less aggressive and ambitious than the rogue admiral, and a hardened veteran, Wojciechowski is now ready to advance West."
+ RUS_sergey_wojciechowski_leader_desc:0 "Chef de la légion tchécoslovaque et héros de la guerre civile russe, Wojciechowski a refusé d'accepter le traité de Brest-Litovsk comme légitime. Outré, il a cessé tout contact avec le gouvernement de la République russe, et est parti pour le Transamour où il a trouvé de nombreux partisans. Ancien bras droit de l'amiral Kolchak, Sergey a trahi et tué son "ami". Moins agressif et ambitieux que l'amiral voyou, et vétéran endurci, Wojciechowski est désormais prêt à avancer vers l'Ouest."
 
  RUS_anatoly_pepelyaev:0 "Anatoly Pepelyaev"
  RUS_sergey_baranovsky:0 "Sergey Baranovsky"
