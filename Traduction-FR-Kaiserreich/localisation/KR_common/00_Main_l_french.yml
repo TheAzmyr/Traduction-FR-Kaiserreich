@@ -10,7 +10,7 @@
 
 ### Splash Screen Credits ###
 KR_SPLASH_TITLE: "Bienvenue dans Kaiserreich"
-KR_SPLASH_CREDITS: "§YCréé par l'équipe KR4 :§!Adrianator2, Alpinia, Arvidus, Asratius, Augenis, Blackfalcon501, Carmain, Chazem, Chiang Kai-shrek, Chiron29, Conchobhar, DSFDarker, DuoDex, El Daddy, Fedex, Flamefang, Gaboemi, Gideones, Hamfast, Ido, Igor050301, JazzyHugh, Jeankedezeehond, Jonny BL, Juliet Wehrwolf, KFateweaver, Kennedy, kergely, Klyntar King, Krčo, Luwofe, Matoro, McOmghall, ~mw~, miwaco., NukeGaming, OperationsManagementDecisions, Owenomaly, PPsyrius, Pelmen, RagnoStrangeros, Retrocognition, Rnk, Shiroe, Sonny O'Cad, suzuha, The Alpha Dog, The Irredentista, The Italian Jojo, Vidyaország, Zimbabwe Salt Co.\n§YTraduit par : §!Hellh, Mouchi, RyumaTomoka, Sayu et UltraNico. §YAnciennement traduit par : §!Aegon Targaryen, Brakmar, Darkusios, Demetran, Diro, Fanois, Feuxin, Grikke, IGgame, IlluminatiX, Kfateweaver, Kira, Klik le Araï, Lazu, Le Marocain, LRP2580, MVMaroIV, Nobelo81, Orakle14, Paralux, Remkiller123, Romain1912, Rosak, Solal, Superwaffle, TheAzmyr, Vitulus, Youkoulélé et Zeplein"
+KR_SPLASH_CREDITS: "§YCréé par l'équipe KR4 :§!Adrianator2, Alpinia, Arvidus, Asratius, Augenis, Blackfalcon501, Carmain, Chazem, Chiang Kai-shrek, Chiron29, Conchobhar, DSFDarker, DuoDex, El Daddy, Fedex, Flamefang, Gaboemi, Gideones, Hamfast, hildagrim, Ido, Igor050301, JazzyHugh, Jeankedezeehond, Jonny BL, Juliet Wehrwolf, katieluka, KFateweaver, Kennedy, kergely, Klyntar King, Krčo, Luwofe, Matoro, McOmghall, ~mw~, miwaco., NukeGaming, OperationsManagementDecisions, Owenomaly, PPsyrius, Pelmen, RagnoStrangeros, Retrocognition, Rnk, Shiroe, Sonny O'Cad, suzuha, The Alpha Dog, The Irredentista, The Italian Jojo, Vidyaország, Zimbabwe Salt Co.\n§YTraduit par : §!Hellh, IGgame, Mouchi, RyumaTomoka et UltraNico. §YAnciennement traduit par : §!Aegon Targaryen, Brakmar, Darkusios, Demetran, Diro, Fanois, Feuxin, Grikke, IlluminatiX, Kfateweaver, Kira, Klik le Araï, Lazu, Le Marocain, LRP2580, MVMaroIV, Nobelo81, Orakle14, Paralux, Remkiller123, Romain1912, Rosak, Sayu, Solal, Superwaffle, TheAzmyr, Vitulus, Youkoulélé et Zeplein"
 
 ### Career Profile ###
  KAISERREICH_CAREER_PROFILE: "Kaiserreich"
@@ -27,6 +27,7 @@ REQUEST_EXP_FORCE_BLOCKED_TT: "§RCe pays ne vous permet pas de demander ses for
 
  RULE_GUARANTEES_AFTER_WK2_TT: "§RAvant le début de la Seconde Weltkrieg, les garanties ne peuvent être données qu'à travers les priorités, les événements et les décisions nationales.§!"
  RULE_WARGOALS_AFTER_WK2_TT: "§RAvant le début de la Seconde Weltkrieg, les objectifs de guerre ne peuvent être obtenus qu'à partir des priorités, événements et décisions nationales.§!"
+ RULE_NO_WARGOALS_ON_ALLIED_PUPPETS_TT: "§R$DIPLOMACY_DEM_NO_THREAT_ON_DEPENDENDY$§!"
 
 ### Plurality Triggers ###
  totalist_plurality: "§o[?token:totalist.GetTokenLocalizedKey]§! a la plus haute popularité"
@@ -36,7 +37,7 @@ REQUEST_EXP_FORCE_BLOCKED_TT: "§RCe pays ne vous permet pas de demander ses for
  social_liberal_plurality: "§l[?token:social_liberal.GetTokenLocalizedKey]§! a la plus haute popularité"
  market_liberal_plurality: "§m[?token:market_liberal.GetTokenLocalizedKey]§! a la plus haute popularité"
  social_conservative_plurality: "§c[?token:social_conservative.GetTokenLocalizedKey]§! a la plus haute popularité"
- authoritarian_democrat_plurality: "§L[?token:authoritarian_democrat.GetTokenLocalizedKey]§! a la plus haute popularité"
+ authoritarian_democrat_plurality:9 "§g[?token:authoritarian_democrat.GetTokenLocalizedKey]§! a la plus haute popularité"
  paternal_autocrat_plurality: "§P[?token:paternal_autocrat.GetTokenLocalizedKey]§! a la plus haute popularité"
  national_populist_plurality: "§N[?token:national_populist.GetTokenLocalizedKey]§! a la plus haute popularité"
 
@@ -64,11 +65,10 @@ REQUEST_EXP_FORCE_BLOCKED_TT: "§RCe pays ne vous permet pas de demander ses for
  is_american_tag: "Est un pays Américain"
  is_arab_tag: "Est un pays Arabophone"
  is_arabian_tag: "Est un pays Arabe"
- is_libya_tag: "Est un pays Libyen"
+ is_libya_tag:9 "Est un pays Libyen"
  is_portuguese_tag: "Est un pays lusophone"
  is_brazilian_tag: "Est un pays Brésilien"
- is_han_chinese_tag: "Est un pays majoritairement chinois"
- is_chinese_tag: "Est en Chine"
+ is_chinese_tag: "Est un pays chinois"
  is_dutch_tag: "Est un pays Néerlandophone"
  is_english_tag: "Est un pays Anglophone"
  is_commonwealth_tag: "Est un pays du Commonwealth"
@@ -118,7 +118,6 @@ REQUEST_EXP_FORCE_BLOCKED_TT: "§RCe pays ne vous permet pas de demander ses for
 ### Options GUI ###
  kr_options_title: "§YOptions de Kaiserreich§!"
  kr_options_tooltip: "Bascule les options de jeu spécifiques à Kaiserreich"
- kr_options_explanation: "§RAVIS IMPORTANT§! :\n\nDepuis le patch 0.22.2, un certain nombre de paramètres KR tels que les endonymes et les événements d'actualité ont été déplacés vers leur propre menu, que vous trouverez dans la barre supérieure, près du bouton de tension du monde."
 
  rename_text: "Renominations des États/Points de Victoires"
  rename_tooltip: "§GCliquez§! ici pour activer le renommage dynamique des états et des points de victoire en fonction de leur contrôleur actuel."
@@ -201,8 +200,23 @@ FROM_becomes_autonomous_puppet: "§H[From.GetNameDefCap]§! devient un §HFantoc
 FROM_becomes_nominal_puppet: "§H[From.GetNameDefCap]§! devient un §HFantoche Nominal§!."
 
 ### Compliance ###
-compliance_integration: "Intégration"
+ compliance_integration_50:0 "Intégration"
+ compliance_integration_80:0 "Intégration"
  territorial_integration:0 "Intégration"
+ territorial_integration_tt: "Donne un noyau sur l'état en atteignant §H50% ou 80% de conformité§! (valeur basée sur l'état)."
+
+### Map Modes ###
+ MAPMODE_CORES_CLAIMS_MAP_MODE: "§Y$MAPMODE_CORES_CLAIMS_MAP_MODE_NAME$§! mode de carte"
+ MAPMODE_CORES_CLAIMS_MAP_MODE_NAME: "Territoires nationaux/revendications"
+ MAPMODE_CORES_CLAIMS_MAP_MODE_DESCRIPTION: "Montrer les territoires nationaux actuels et les revendications"
+
+ cores_claims_map_mode_tooltip: "§Y[FROM.GetName]§! ([FROM.Owner.GetFlag] [FROM.Owner.GetName])"
+ cores_claims_map_mode_tooltip_delayed: "[FROM.GetCoreClaimMapModeTooltip]"
+
+ cores_claims_map_mode_tooltip_core: "§Y[FROM.GetName]§! est un §Yterritoire national§! de §Y[ROOT.GetNameWithFlag]§! ."
+ cores_claims_map_mode_tooltip_potential_core: "§Y[FROM.GetName]§! est un §Yétat national potentiel§! de §Y[ROOT.GetNameWithFlag]§!.\n§GLes états nationaux potentiels deviendront des états nationaux lorsqu'ils atteindront un seuil de conformité dans le cadre de la loi sur l'occupation§! §Y$territorial_integration$§!"
+ cores_claims_map_mode_tooltip_claim: "§Y[FROM.GetName]§! est §Yrevendiqué§! par §Y[ROOT.GetNameWithFlag]§!"
+ cores_claims_map_mode_tooltip_owned: "§Y[FROM.GetName]§! est §Yoccupé§! par §Y[ROOT.GetNameWithFlag]§!"
 
 ### World Tension ##
  AL_avricourt_shelled: "Village d'Avricourt bombardé par §Y[GER.GetNonIdeologyNameDef]§!"
@@ -264,8 +278,9 @@ compliance_integration: "Intégration"
  disband_twenty_percent_units_delete_equipment: "Dessous §Y20%§! de toutes les divisions permanente."
  disband_fifty_percent_units: "Dissoud §Y50%§! de toutes les divisions permanentes, en conservant leur équipement."
 
-#empty - should be hidden (the spaces are WAD, an empty string will cause CTDs)
- second_in_command_trait: "   "
+### Custom Triggers ###
+ is_in_faction_but_not_leader: "est dans une faction mais n'est pas son leader"
+ is_in_faction_but_not_leader_NOT: "est leader de faction ou n'est pas dans une faction"
 
 ### Events ###
 kr.political.100.t: "L'Ordre Restauré en [Root.GetNameDef]"
@@ -406,6 +421,10 @@ not_during_ceasefire: "Pas tant que le cessez-le-feu est maintenu"
 command_economy: "Economie de commande"
  asked_to_join: "La participation a été demandée par une autre nation"
  generic_research_advances: "Recherches Avancées"
+
+ increase_state_category_by_one_level_tt: "Cela nous fournit §G1§! emplacement de construction supplémentaire.\n"
+ increase_state_category_by_two_levels_tt: "Cela nous fournit §G2§! emplacements de construction supplémentaires.\n"
+ decrease_state_category_by_one_level_tt: "Cela §Rsupprime§! un emplacement de construction de l'état.\n"
 
 ### General ###
 fighter_techs: "Technologie des chasseurs"

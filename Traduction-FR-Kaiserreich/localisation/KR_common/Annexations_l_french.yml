@@ -32,10 +32,31 @@ annexation_decisions: "Décisions d'annexion"
 
  annex.occupation: "L'occupation militaire est la seule réponse."
  annex.integration: "Assimiler au territoire [Root.GetAdjective]."
+
  annex.africa.give_to_maf: "[MAF.GetGrantTerritoryEventOption]"
  annex.africa.give_to_tzn: "[TZN.GetGrantTerritoryEventOption]"
 
  annex.asia.give_to_gea: "[GEA.GetGrantTerritoryEventOption]"
+ annex.asia.give_to_dei: "[DEI.GetGrantTerritoryEventOption]"
+
+ annex.china.release_china: "[ROOT.china_annexation_release_event_option]"
+ annex.china.release_china_take_coastline: "[ROOT.china_annexation_release_event_option_take_coast]"
+ annex.china.give_to_china: "Donnez le à [china_ally_target.GetNonIdeologyNameDef]!"
+ annex.china.give_to_china_take_coastline: "Conservez la ligne côtière et donnez le reste à [china_ally_target.GetNonIdeologyNameDef] !"
+ annex.china.fading_sun_return_to_china: "Remettez le à [japan_forced_return.GetNonIdeologyNameDef] aux termes de notre traité de paix."
+
+ release_china_sun_fo: "Renforcer les modérés de Sun Fo !"
+ release_china_lkmt:0 "Renforcer le Kuomintang de gauche !"
+ release_china_rngroc:0 "Libérer le Gouvernement Réorganisé de la Chine !"
+ release_china_fengtian:0 "Restaurer le gouvernement de Fengtian !"
+ release_china_lep:0 "Restaurer la Ligue des Huit Provinces !"
+ release_china_qing_empire:0 "Restaurer l'Empire Qing."
+ release_china_zhili:0 "Libérer la République de Beiyang !"
+ release_china_rkmt:0 "Libérer le Kuomintang de droite !"
+ release_china_federalist:0 "Libérer une Chine fédéraliste !"
+
+ release_china_take_coastline_fengtian:0 "Prendre le littoral et restaurer le gouvernement de Fengtian !"
+ release_china_take_coastline_rngroc: "Prenez le littoral et libérez le Gouvernement Réorganisé de la Chine !"
 
  annex.2.t:0 "[granted_land.GetName] Repris !"
  annex.2.d:0 "Le gouvernement [From.GetAdjective] a choisi de nous rendre [granted_land.GetName], sans conditions."
@@ -121,6 +142,11 @@ annex.284.a: "Espérons que nous ne nous retrouvons pas dans des camps opposés"
  annex.288.t:0 "[From.GetNameDefCap] Abandonne le [Root.GetFactionName]"
  annex.288.d: "Il semble qu'une offre faite par [From.From.GetNonIdeologyNameDef] pour le transfert de leurs revendications dans les Balkans était trop importante pour que [From.GetNonIdeologyNameDef] la refuse. Ils ont abandonné notre alliance et ont rejoint la [From.From.GetFactionName]. Il s'agit peut-être d'une terre que nous n'aurions jamais pu leur livrer, mais même ainsi - c'est une pilule amère à avaler."
  annex.288.a: "Espérons que nous ne finirons pas dans des camps opposés..."
+
+#Event for Chinese tag to notify return of concessions from Japan
+ annex.300.t: "Le Japon restitue des concessions en Chine"
+ annex.300.d: "Lors des négociations de paix qui ont suivi notre victoire sur les Japonais, ces derniers ont accepté de restituer toutes les concessions chinoises saisies après le traité de paix. Ils nous ont donc rendu ce qui nous revenait de droit. Une nouvelle victoire pour la Chine et une nouvelle humiliation pour nos rivaux de l'Est. Le Siècle de l'Humiliation est sur le point de s'achever."
+ annex.300.a: "L'influence du Japon en Chine devrait être pratiquement terminée."
 
 ## let's sort these out ##
 
@@ -553,8 +579,9 @@ annexation_SWE_CONQ_desc: "Aujourd'hui, le chef de l'armée suédoise a annoncé
 
 annexation_FIN_CONQ: "Le destin de la Finlande"
 annexation_FIN_CONQ_desc: "Les soldats finlandais ont été défaits et notre armée est en marche à travers Helsinki. Nous devons maintenant nous pencher sur la question de savoir comment administrer au mieux les Finlandais".
- annex.1058.a: "Nous devons les libérer."
- annex.1058.b: "Annexer les terres finlandaises."
+ annex.1058.a: "Libérer une République Finlandaise"
+ annex.1058.b: "Restaurer le Royaume de Finlande"
+ annex.1058.c:0 "Annexer les terres finlandaises."
 
  annexation_KARELIA_CONQ: "Le Destin de Karelia"
  annexation_KARELIA_CONQ_desc: "The Karelian peninsula a été placé sous notre contrôle alors que nos troupes occupent la région. Nous devons maintenant décider de ce qu'il faut en faire."
@@ -850,6 +877,7 @@ annexation_MLT_CONQ_desc: "Malte a été placée sous notre direction et nos tro
  annexation_GOMEL_CONQ_desc: "La région autour de [241.GetName] est passée sous notre contrôle, nous devons décider ce que nous allons en faire."
  annex.1108.a: "Donnez-le à [UKR.GetNonIdeologyNameDef]"
  annex.1108.b: "Donnez-le à [WHR.GetNonIdeologyNameDef]"
+ annex.1108.c: "La donner à [russia.GetNonIdeologyNameDef]"
 
  annexation_GORIZIA_CONQ: "Le Destin de [683.GetName]"
  annexation_GORIZIA_CONQ_desc: "Nous avons pris le contrôle des anciens territoires autrichiens de Gorizia et Gradisca. Nous devons décider ce que nous allons en faire."
@@ -878,6 +906,11 @@ annexation_MLT_CONQ_desc: "Malte a été placée sous notre direction et nos tro
  annexation_CHELM_CONQ_desc: "La région de [1088.GetName] est maintenant sous notre contrôle, nous devons décider quoi en faire."
  annex.1113.a:0 "Donnez-le à [POL.GetNonIdeologyNameDef]"
  annex.1113.b:0 "Donnez-le à [UKR.GetNonIdeologyNameDef]"
+
+ annexation_LABOURD_CONQ: "Le Destin de [779.GetName]"
+ annexation_LABOURD_CONQ_desc: "La région de [779.GetName] est maintenant sous notre contrôle, nous devons décider quoi en faire."
+ annex.1114.a:0 "La Donner à l'[spain.GetNonIdeologyNameDef]"
+ annex.1114.b:0 "Donnez-le à [france.GetNonIdeologyNameDef]"
 
  annexation_USA_CONQ: "Le destin de l'Amérique"
  annexation_USA_CONQ_desc: "Now that the war is over, we must decide what to do with our occupied land in America"
@@ -1206,46 +1239,28 @@ annexation_MLT_CONQ_desc: "Malte a été placée sous notre direction et nos tro
 
  annexation_CHI_CONQ: "Le destin de la Chine"
  annexation_CHI_CONQ_desc: "Après une longue et dure campagne dans les vastes étendues de la Chine, nous avons finalement remporté une victoire historique. Maintenant que nous avons gagné la guerre, nous devons décider de la meilleure façon d'assurer la paix. Comment devons-nous gérer les terres chinoises que nous avons conquises ?"
- annex.3010.a: "[Root.china_annexation_release_event_option]"
- annex.3010.b: "[Root.china_annexation_release_event_option_take_coast]"
- annex.3010.c: "Rendez le à [china_ally_target.GetNonIdeologyNameDef] !"
-
- annex.3010.b.chi_song:0 "Renforcer les modérés de Song Qingling !"
- annex.3010.a.chi_song:0 "Renforcer les modérés de Song Qingling !"
- annex.3010.a.chi:0 "Renforcer le Kuomintang de gauche !"
- annex.3010.a.fng_jap:0 "Libérer le Gouvernement Réorganisé de la Chine !"
- annex.3010.a.fng:0 "Restaurer le gouvernement de Fengtian !"
- annex.3010.a.lep:0 "Restaurer la Ligue des Huit Provinces !"
- annex.3010.a.qie_empire:0 "Restaurer l'Empire Qing."
- annex.3010.a.qie:0 "Libérer la République de Beiyang !"
- annex.3010.g.gxc_rkmt:0 "Libérer le Kuomintang de droite !"
- annex.3010.a.gxc:0 "Libérer une Chine fédéraliste !"
- annex.3010.b.fng_jap_coast:0 "Annexer le littoral et libérer le Gouvernement Réorganisé de la Chine !"
- annex.3010.b.fng_coast:0 "Prendre le littoral et restaurer le gouvernement de Fengtian !"
+ annex.3010.a: "Incorporer la Chine dans le mandat."
 
  annexation_TIB_CONQ: "Le destin du Tibet"
  annexation_TIB_CONQ_desc: "Après le succès de notre campagne dans le plateau tibétain, nous avons maintenant la tâche d'établir une nouvelle autorité administrative locale afin de rétablir la paix"
  annex.3011.a: "Restaurer le Tibet indépendant."
  annex.3011.b: "Restaurer le Grand Tibet."
  annex.3011.c: "Libérer le Tibet et donner le reste à nos alliés [china_ally_target.GetAdjective]s !"
- annex.3011.d: "Donnez-le à [china_ally_target.GetNonIdeologyNameDef]."
- annex.3011.e: "Annexez les territoires Tibétains."
+ annex.3011.d:0 "Annexez les territoires Tibétains."
 
  annexation_SIK_CONQ: "Le destin du Xinjiang"
  annexation_SIK_CONQ_desc: "Après le succès de notre campagne dans le Xinjiang, nous avons maintenant la tâche d'établir une nouvelle autorité administrative locale afin de rétablir la paix, mais plusieurs options s'offrent à nous."
  annex.3012.a: "Créer un Xinjiang indépendant"
  annex.3012.b: "Donnez la à [TRK.GetNonIdeologyNameDef]."
  annex.3012.c: "Donnez-le à [united_central_asia.GetNonIdeologyNameDef]."
- annex.3012.d: "Donnez-le à [china_ally_target.GetNonIdeologyNameDef]."
- annex.3012.e: "Annexez le Xinjiang au territoire Chinois."
+ annex.3012.d:0 "Annexez le Xinjiang au territoire Chinois."
 
  annexation_MON_CONQ: "Le destin de la Mongolie"
  annexation_MON_CONQ_desc: "Après notre campagne réussie dans les steppes de Mongolie, nous avons maintenant la tâche d'établir une nouvelle autorité administrative locale afin de rétablir la paix"
  annex.3013.a: "Libérer une Mongolie loyale."
  annex.3013.b: "Libérer la Grande Mongolie."
  annex.3013.c: "Libérer la Mongolie et donner le reste à nos alliés [china_ally_target.GetAdjective]s !"
- annex.3013.d: "Donnez-le à [china_ally_target.GetNonIdeologyNameDef]."
- annex.3013.e: "Annexez les territoires mongols."
+ annex.3013.d:0 "Annexez les territoires mongols."
 
  annexation_TUVA_CONQ: "Le Destin de [329.GetName]"
  annexation_TUVA_CONQ_desc: "L'état de [329.GetName] a été placé sous notre contrôle alors que nos troupes occupent la région. Nous devons maintenant décider de ce qu'il faut en faire."
@@ -1255,6 +1270,7 @@ annexation_MLT_CONQ_desc: "Malte a été placée sous notre direction et nos tro
  annexation_MAN_CONQ: "L'annexion de la Mandchourie"
  annexation_MAN_CONQ_desc: "Après notre campagne réussie en Mandchourie, nous avons maintenant la tâche d'établir une nouvelle autorité administrative locale afin de rétablir la paix, mais il existe plusieurs options pour notre choix..."
  annex.3015.a: "Créer une Mandchourie indépendante !"
+ annex.3015.b: "Conservez la ligne côtière et créez une Mandchourie indépendante!"
 
  annexation_LEC_CONQ: "Le destin des Villes des Légations"
  annexation_LEC_CONQ_desc: "Les ports chinois qui étaient auparavant sous l'autorité du Mandat international pour les concessions chinoises sont maintenant sous la nôtre. Nous décidons à présent de rétablir l'indépendance du Conseil des Légation,s dont nous sommes membres, pour remettre les villes à la Chine, ou de les garder pour nous."
@@ -1292,6 +1308,7 @@ annexation_MLT_CONQ_desc: "Malte a été placée sous notre direction et nos tro
  annex.3022.a: "Libérer un gouvernement fantoche indochinois"
  annex.3022.b: "Nous déciderons de ce que nous ferons des régions individuellement."
  annex.3022.d: "Intégrer le Laos et le Cambodge dans notre giron - nous déciderons plus tard de ce qu'il faut faire avec le Vietnam."
+ annex.3022.kmt: "Renforcez le VNQQD!"
 
  annexation_VIN_CONQ: "Le destin du Vietnam"
  annexation_VIN_CONQ_desc: "Nos armées ont pris le contrôle d'Annam, et les Vietnamiens locaux réclament l'autonomie. Nous devrions décider de ce qu'il faut faire de la région."
@@ -1323,21 +1340,19 @@ annexation_MLT_CONQ_desc: "Malte a été placée sous notre direction et nos tro
  annex.3028.a: "Libérez la Papouasie-Nouvelle-Guinée"
  annex.3028.b: "Donnez-le à [INS.GetNonIdeologyNameDef]"
  annex.3028.c: "Donnez-le à [AST.GetNonIdeologyNameDef]"
- annex.3028.d: "Donnez-le à [DEI.GetNonIdeologyNameDef]"
 
  annexation_MAL_CONQ: "Le destin de la Malaisie"
  annexation_MAL_CONQ_desc: "Nos armées ont réussi à prendre le contrôle de la Malaisie, et elle est maintenant occupée par nous. Nous avons quelques options à ce stade. Que devons-nous faire ?"
  annex.3029.a: "Libérer la Malaisie"
  annex.3029.b: "Donnez-le à [INS.GetNonIdeologyNameDef]"
  annex.3029.c: "Donnez-le à [SIA.GetNonIdeologyNameDef]"
- annex.3029.e: "Donnez-le à [DEI.GetNonIdeologyNameDef]"
+ annex.3029.f: "Restaurer l'Asie Orientale Allemande"
 
  annexation_SAR_CONQ: "Le destin de Sarawak"
  annexation_SAR_CONQ_desc: "Le nord de Bornéo a été placé sous notre contrôle alors que nos troupes occupent la région. Nous devons maintenant décider de ce qu'il faut en faire."
  annex.3030.a: "Libérer le Sarawak comme une marionnette"
  annex.3030.b: "Donnez-le à [MAL.GetNonIdeologyNameDef]"
  annex.3030.c: "Donnez-le à [INS.GetNonIdeologyNameDef]"
- annex.3030.e: "Donnez-le à [DEI.GetNonIdeologyNameDef]"
 
  annexation_IND_CONQ: "Le destin de l'Inde"
  annexation_IND_CONQ_desc: "La grande nation de l'Inde a été placée sous notre contrôle alors que nos troupes occupent la région. Nous devons maintenant décider de ce qu'il faut en faire."
@@ -1563,6 +1578,10 @@ annexation_MLT_CONQ_desc: "Malte a été placée sous notre direction et nos tro
  annex.3068.c: "Donnez-le à [SIA.GetNonIdeologyNameDef]"
  annex.3068.d: "Donnez-le à [INS.GetNonIdeologyNameDef]"
 
+ annexation_EAST_TIMOR_CONQ: "Le Destin de [721.GetName]"
+ annexation_EAST_TIMOR_CONQ_desc: "L'ancienne colonnie portugaise de [721.GetName] a été placé sous notre contrôle et nos troupes occupent la région. Nous devons maintenant décider quoi en faire."
+ annex.3069.a:0 "Donnez-le à [INS.GetNonIdeologyNameDef]"
+
  annexation_SYR_CONQ: "Le destin du Levant"
  annexation_SYR_CONQ_desc: "Nous avons conquis les riches terres du Levant, y compris la grande et ancienne ville de Damas. Que devons-nous faire de ces anciennes provinces ottomanes ?"
  annex.4000.a: "Libérer la Syrie !"
@@ -1698,9 +1717,9 @@ annexation_MLT_CONQ_desc: "Malte a été placée sous notre direction et nos tro
  annex.4021.b: "Annexer les territoires de l'ouest et libérer une partie de la Perse."
  annex.4021.c: "Annexez le Khuzestan et libérez le reste de la Perse."
 
- annexation_OMA_CONQ: "Le destin d'Oman"
+ annexation_OMA_CONQ:9 "Le destin de Mascate"
  annexation_OMA_CONQ_desc: "Après un long combat avec les Omanais, nous avons lancé une offensive totale et forcé l'armée omanaise à se rendre. Mascate est maintenant entre nos mains, tout comme le sort de l'émirat."
- annex.4022.a: "Libérer Oman !"
+ annex.4022.a:9 "Libérer Mascate !"
 
  annexation_YEM_CONQ: "Le destin du Yémen"
  annexation_YEM_CONQ_desc: "Après un long combat avec les Yéménites, nous avons lancé une offensive totale et forcé l'armée yéménite à se rendre. San'ā est maintenant entre nos mains !"
@@ -1798,7 +1817,7 @@ annexation_MLT_CONQ_desc: "Malte a été placée sous notre direction et nos tro
  annex.5016.a: "Former l'État de Mauritanie."
 
  annexation_MLI_CONQ: "Le Destin du Mali"
- annexation_MLI_CONQ_desc: "La vallée du fleuve Niger, autrefois appelée Soudan français ou Mali, est aujourd'hui directement intégrée à nos territoires. Cette colonie a cependant besoin d'une meilleure administration que nous aurons du mal à lui fournir, néanmoins la population locale et les restes de l'administration française peuvent l'administrer pour nous dans une certaine mesure, devrions-nous les laisser former un état fantoche loyal ?"
+ annexation_MLI_CONQ_desc:9 "La vallée du fleuve Niger, autrefois appelée Soudan français ou Mali, est aujourd'hui directement intégrée à nos territoires. Cette colonie a cependant besoin d'une meilleure administration que nous aurons du mal à lui fournir, néanmoins la population locale et les restes de l'administration française peuvent l'administrer pour nous dans une certaine mesure, devrions-nous les laisser former un état fantoche loyal ?"
  annex.5017.a: "Former l'état du Mali."
 
  annexation_VOL_CONQ: "Le destin de la Haute-Volta"
@@ -1835,8 +1854,6 @@ annexation_MLT_CONQ_desc: "Malte a été placée sous notre direction et nos tro
  annexation_ETH_CONQ_desc: "Après notre campagne réussie en Éthiopie, nous avons maintenant la tâche d'établir une nouvelle autorité administrative locale afin de rétablir la paix, mais il existe plusieurs options pour notre choix..."
  annex.5026.a: "Créer seulement l'Éthiopie."
  annex.5026.b: "Créer l'Éthiopie et l'Érythrée."
- annex.5026.c: "Créer une Érythrée élargie et une Éthiopie affaiblie."
- deal_with_ERT_later: "Nous déciderons plus tard de ce qu'il faut faire avec §Yl'Érythrée§!."
 
  annexation_ERI_CONQ: "Le destin de l’Érythrée"
  annexation_ERI_CONQ_desc: "Après le succès de notre campagne en Érythrée, nous avons maintenant la tâche d'établir une nouvelle autorité administrative locale afin de rétablir la paix, mais il existe plusieurs options pour notre choix..."
