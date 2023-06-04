@@ -151,22 +151,24 @@ jungle_warfare: "Entraînement au combat en jungle"
  CAN_JOIN_FACTIONS: "Ne peut pas se joindre à des factions"
 
 ### state_l_english
- twelve: "Région de Mégalopole"
- eleven: "Métropole Tentaculaire"
- ten: "Métropole"
- nine: "Région urbaine très dense"
- eight: "Région urbaine dense"
- seven: "Région urbaine tentaculaire"
- six: "Région urbaine"
- five: "Région urbaine clairsemée"
- four: "Région rurale développée"
- three: "Région rurale en développement"
- two: "Région rurale"
- one: "Région pastorale"
- zero: "Enclave"
- wasteland: "Région sauvage"
- one_island: "Petite île"
- zero_island: "Île minuscule"
+ twelve: "Coeur Industriel du Pays"
+ eleven: "Centre Industriel Majeur"
+ ten: "Centre Industriel Mineur"
+ nine: "Centre Industriel Local"
+ eight: "Région Industrielle Emergente"
+ seven: "Région Hautement Urbanisée"
+ six: "Région Urbanisée"
+ five: "Région en Cours d'Urbanisation"
+ four: "Région Rurale Développée"
+ three: "Région Rurale en Développement"
+ two: "Région Rurale sous-développée"
+ one: "Région Périphérique"
+ wasteland: "Région Sauvage"
+ major_port: "Grand Port"
+ port: "Port"
+ minor_port: "Port Mineur"
+ one_island: "Territoires Ultramarins"
+ zero_island: "Île(s) Distante(s)"
 
 #########################################################
 ### Part Two - Only Minor Changes Compared to Vanilla ###
@@ -283,6 +285,9 @@ jungle_warfare: "Entraînement au combat en jungle"
  HIGH_ORG_REGAIN: "Organisation Haute : $VAL|=+%2$"
  ORG_DAMAGE_MULTIPLIER: "Dommages causés à l'organisation"
  ARMY_BADGE_ORG_STR_INDICATOR_TOOLTIP: "§HOrganisation§!\nMoyenne : §H$ORG_MEAN$%§!\nMédiane : §H$ORG_MEDIAN$%§!\n\n§HForce du Combat§!\nMoyenne : §H$STR_MEAN$%§!\nMédiane : §H$STR_MEDIAN$%§!"
+ CHARACTER_ADVISOR_ON_REMOVE_TOOLTIP: "\nQuand renvoyé:"
+ CHARACTER_ADVISOR_CANT_BE_FIRED_ONCE_HIRED: "§HCe conseiller ne peut être renvoyé une fois recruté§!"
+ CHARACTER_ADVISOR_CANT_BE_FIRED: "§RCe conseiller ne peut être renvoyé§!"
 
 ### constructions_l_english
  CONSTRUCTION_MINIMIZE: "Réduire"
@@ -352,12 +357,16 @@ jungle_warfare: "Entraînement au combat en jungle"
  EFFECT_CHANGE_LAW_mobilization_laws: "Fait passer la législation sur la conscription à $NAME|Y$ ($DESC$)."
  EFFECT_UNLOCK_DECISION: "Donne accès à la décision £decision_icon_small£$NAME|H$$EFFECT$"
  EFFECT_UNLOCK_DECISION_CATEGORY: "Donne accès aux décisions £decision_icon_small£$NAME|H$"
- EFFECT_SET_STATE_CATEGORY: "La catégorie de l'état devient $CATEGORY|Y$."
+ EFFECT_SET_STATE_CATEGORY: "L'Etat devient $CATEGORY|Y$."
  EFFECT_ACTIVATE_TARGETED_DECISION: "Permet la décision £decision_icon_small£$NAME|H$."
  EFFECT_REMOVE_TARGETED_DECISION: "Retire la décision £decision_icon_small£$NAME|H$."
 
  EFFECT_ADD_CLAIM_BY: "@$TAG$$COUNTRY|H$ revendique l'État."
  EFFECT_REMOVE_CLAIM_BY: "@$TAG$$COUNTRY|H$ perd sa revendication sur l'État."
+
+ CHANGE_DIV_TEMPLATE_EFFECT: "La Division change de modèle vers $TEMPLATE|H$"
+
+ EFFECT_RETIRE_CHARACTER: "Retire $NAME|H$"
 
 # missing line breaks
  EFFECT_ADD_VP: "Ajoute $VALUE|H$£victory_points£ à $PROVINCE|H$."
@@ -366,6 +375,9 @@ jungle_warfare: "Entraînement au combat en jungle"
  EFFECT_ADD_DYMAMIC_MODIFIER: "Ajoute $NAME|H$ qui accorde :\n$DESC$\n"
  EFFECT_ADD_DYMAMIC_MODIFIER_WITH_DAYS: "Ajoute $NAME|H$ ($NUM|H$ jours) qui accorde :\n$DESC$\n"
  EFFECT_REMOVE_DYMAMIC_MODIFIER: "Retire $NAME|H$ qui accordait :\n$DESC$\n"
+ EFFECT_SET_COLLABORATION: "Mettre en place la collaboration dans $TARGET|H$ $VALUE|+%0$\n"
+ EFFECT_ADD_COLLABORATION: "Augmenter le niveau de collaboration dans $TARGET|H$ $VALUE|+%0$\n"
+ EFFECT_REMOVE_COLLABORATION: "Réduire le niveau de collaboration dans $TARGET|H$ $VALUE|-%0$\n"
 
 ### frontend_l_english
  FE_COOP_LABEL: "Coopération"
@@ -478,6 +490,11 @@ jungle_warfare: "Entraînement au combat en jungle"
 
 #missing in vanilla
  large_plane_airframe_design_cost_factor: "Coût de Conception des Cellules de Grande Taille"
+
+ modifier_state_repair_speed_infrastructure_factor: "$modifier_repair_speed_infrastructure_factor$"
+ modifier_state_repair_speed_industrial_complex_factor: "$modifier_repair_speed_industrial_complex_factor$"
+ modifier_state_repair_speed_arms_factory_factor: "$modifier_repair_speed_arms_factory_factor$"
+ modifier_state_repair_speed_rail_way_factor: "$modifier_repair_speed_rail_way_factor$"
 
 #entry names are missing the _speed portion in vanilla
  modifier_state_production_speed_infrastructure_factor: "$modifier_state_production_infrastructure_factor$"
@@ -717,6 +734,7 @@ jungle_warfare: "Entraînement au combat en jungle"
  STAT_NAVY_AMPHIBIOUS_DEFENSE: "Défense amphibie"
  STAT_NAVY_AMPHIBIOUS_DEFENSE_DESC: "Défense supplémentaire octroyée aux unités lors des invasions amphibies."
  STAT_COMMON_BUILD_COST_IC_MOD_DIFF: " $VALUE|=-2%$"
+ STAT_CARRIER_SIZE_MOD_DIFF: " $VALUE|=+0$§G0§!"
 
 ### tactics_l_english
  tactic_cc_defend: "Défense au corps-à-corps"
@@ -774,6 +792,13 @@ jungle_warfare: "Entraînement au combat en jungle"
  tank_light_two_man_tank_turret_desc: "Une tourelle qui permet à deux membres d'équipage de se partager le travail de manœuvre de l'armement et d'observation de la situation. Cela ne permet cependant toujours pas une division efficace du travail au sein de l'équipage."
  tank_medium_two_man_tank_turret_desc: "Une tourelle qui permet à deux membres d'équipage de se partager le travail de manœuvre de l'armement et d'observation de la situation. Cela ne permet cependant toujours pas une division efficace du travail au sein de l'équipage."
  tank_heavy_two_man_tank_turret_desc: "Une tourelle qui permet à deux membres d'équipage de se partager le travail de manœuvre de l'armement et d'observation de la situation. Cela ne permet cependant toujours pas une division efficace du travail au sein de l'équipage."
+
+ auto_loader_desc: "Un mécanisme automatique qui charge les obus et permet au char de conserver une cadence de tir élevée pendant une période prolongée."
+
+ ### Missing chassis loc
+ gwtank_chassis_short: "Châssis de la Weltkrieg"
+ super_heavy_tank_chassis_short: "Châssis super-lourd"
+ main_battle_tank_chassis_short: "Châssis moderne"
 
 ### theater_l_english
  ORDER_AREA_DEFENSE: "Défense de la zone"
