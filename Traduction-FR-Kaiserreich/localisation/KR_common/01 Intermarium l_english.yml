@@ -1,0 +1,211 @@
+﻿l_english:
+
+### EE Cooperation Mechanics ###
+
+ mie.0.t: "The Russian Threat"
+ mie.0.d: "Russia's decade long slump has ended, and now the Russians are rebuilding - already, they raise claims over their former Imperial territories, and Eastern European states are surely going to be one of their targets.\n\nTo make sure that the Russian threat is contained and Eastern European states can defend their sovereignty, leaders and generals of the Oststaaten have gathered in [MIE_leader.Capital.GetCapitalVictoryPointName] to discuss a programme of mutual cooperation. A joint military defence fund has been established and [MIE_leader.GetNameDef] has been entrusted with managing it to fund the region's joint defence ventures."
+ mie.0.a: "Great!"
+
+ MIE_decisions: "Eastern European Defence Cooperation"
+ MIE_decisions_desc: "[219.owner.GetNameDefCap] is resurgent, and the security of the Eastern European region is threatened. When the Second Weltkrieg begins, we will have to brace ourselves against the Russian storm - and unless we work together, we will be picked off one by one.\n\nAfter [219.owner.GetNameDef] activates its foreign policy tree, all Eastern members of the Reichspakt unlock the ability to §Ypool resources§! and distribute them between their member states to eliminate any weak links. The country responsible for distributing the joint resource pool can invest in its fellow member states to §Ybuild fortifications§!, §Yraise divisions§!, and provide beneficial §YNational Spirits§!.\n\nCurrent pooled resources:\n    £rifle_texticon  Infantry Equipment: §Y[?global.MIE_infantry_equipment]§!\n    £support_texticon  Support Equipment: §Y[?global.MIE_support_equipment]§!\n    £unit_artillery_icon_small  Artillery Equipment: §Y[?global.MIE_artillery_equipment]§!\n\n[MIE_leader.GetNameWithFlag] is currently responsible for distributing the resource pool."
+
+ MIE_decisions_GER: "Ostpolitik"
+ MIE_decisions_GER_desc: "Our empire in the east spans from the Baltic to the Black Sea. The Oststaat are pragmatic mix of de facto client states held in line half by our strength, half by their fear of Russia. We constantly monitor their political developments and react when necessary.\n\n[POL_in_RP]"
+
+ POL_in_RP_yes: "Poland may be one of our most loyal subjects for now, but there is no guarantee that this will remain the case. We must carefully consider our investments in Poland to guarantee their loyalty and economic cooperation.\n\n[POL_GER_polish_loyalty]\n"
+
+ POL_early: "Predicted election outcome for August IV's supporters: [POL_circle_chance]"
+ POL_status_stable: "§GPoland is loyal and stable.§!"
+ POL_status_restless: "§YPoland is stable, though the situation may change.§!"
+ POL_status_uprising_ready: "§YPoland is unstable, and military setbacks might trigger an uprising.§!"
+ POL_status_uprising_imminent: "An uprising in Poland is imminent!"
+ POL_status_rebellious: "§RPoland is rebellious!§!"
+
+ MIE_intermarium_formed: "Eastern European Defence Cooperation programme has started."
+
+ GER_sponsor_MIE: "Sponsor the EEDC"
+ GER_sponsor_MIE_desc: "The Eastern European Defence Cooperation was founded to coordinate the military build-up of the Oststaat armies. Our military-industrial complex has been involved in it, though more direct support from the government could strengthen them even more."
+ GER_fight_forest_brothers: "Create the Baltische Feldgendarmerie"
+ GER_fight_forest_brothers_desc: "Dispatching temporary military police force to the United Baltic Duchy might be necessary to help them in their fight against the Baltic separatists."
+ GER_fight_LAF: "Reinforce the Lithuanian Police"
+ GER_fight_LAF_desc: "The Lithuanian government has its hands full with the allegedly Russian-sponsored Lithuanian Activist Front, a terrorist organisation responsible for numerous heinous acts. We could dispatch them some specialist forces from Prussia to counter the insurgency."
+ GER_WHR_coup: "Remove the BSDP Government"
+ GER_WHR_coup_desc: "We have been tolerant towards White Ruthenia's experiments with leftwing democracy, but apparently this was a mistake. Our intelligence sources have informed us of their secret pact with Moscow and plans to betray us. This cannot be allowed to happen."
+ GER_UKR_support: "Support the Hetmanate"
+ GER_UKR_support_desc: "Ukraine is the most important out of our eastern allies, but the Skoropadskyi administration's grip on the nation has been steadily weakening as a consequence of incompetent handling of the economic crisis. By favouring the Ukrainian economy over the others, we could stabilise the situation there somewhat."
+
+ POL_GER_buy: "Investments in Poland"
+ POL_GER_buy_desc: "Increasing our economic control over Poland will solidify our grip over them, and ensure that their future foreign policy will serve our business interests well."
+ POL_GER_sell: "Sell Polish Holdings"
+ POL_GER_sell_desc: "Some of our business ventures in Poland have not been as useful as we hoped them to be. Luckily, there's plenty of Austrian, Czech and Polish businessmen to take them from us in exachange for cash."
+ POL_GER_lobby: "Polish Pro-Monarchist Campaign"
+ POL_GER_lobby_desc: "[POL.GetLeader] has never been the most popular king, but it's nothing a little bit of German PR specialists cannot fix."
+
+ POL_GER_promises: "Promise Autonomy for Poland"
+ POL_promise_tt: "§CPoland's loyalty will increase drastically.§!"
+ POL_GER_agricultural_exports: "Divert Agricultural Goods"
+ POL_promises1: "Has promised Poland independence"
+
+ POL_GER_recruit_poland: "Increase Recruitment in Poland"
+ POL_GER_recruit_poland_reduce: "Decrease Recruitment in Poland"
+ POL_GER_recruitment: "Polish Worker Recruitment"
+
+ POL_invest_tt: "By funding August IV's supporters, we will secure Polish loyalty."
+ POL_exploit_tt: "Exploitive policies towards Poland will strengthen the Anti-German and revolutionary sentiment in Poland."
+
+ MIE_refuse_equipment_shipments: "Refuse Equipment Shipments"
+ MIE_refuse_equipment_shipments_desc: "For our own reasons, we must tell our allies that we are not in need of any equipment shipments at the moment, and as such they should be used elsewhere."
+ MIE_allow_equipment_shipments: "Allow Equipment Shipments"
+ MIE_allow_equipment_shipments_desc: "While we have previously told our allies not to send any equipment, we are free to rescind this decision at any time."
+
+ MIE_spend_guns: "Send 1000 £rifle_texticon  Infantry Equipment"
+ MIE_spend_support: "Send 250 £support_texticon  Support Equipment"
+ MIE_spend_artillery: "Send 250 £unit_artillery_icon_small  Artillery Equipment"
+
+ MIE_spend_guns_self: "Take 1000 £rifle_texticon  Infantry Equipment"
+ MIE_spend_support_self: "Take 250 £support_texticon  Support Equipment"
+ MIE_spend_artillery_self: "Take 250 £unit_artillery_icon_small  Artillery Equipment"
+
+ MIE_invest_guns: "Invest 500 £rifle_texticon  Infantry Equipment"
+ MIE_invest_support: "Invest 150 £support_texticon  Support Equipment"
+ MIE_invest_artillery: "Invest 250 £unit_artillery_icon_small  Artillery Equipment"
+
+ MIE_500_guns: "£rifle_texticon  §H500§!"
+ MIE_500_guns_blocked: "£rifle_texticon  §R500§!"
+ MIE_500_guns_tooltip: "It costs $MIE_500_guns_blocked$ to take the decision"
+
+ MIE_1000_guns: "£rifle_texticon §H1000§!"
+ MIE_1000_guns_blocked: "£rifle_texticon §R1000§!"
+ MIE_1000_guns_tooltip: "It costs $MIE_1000_guns_blocked$ to take the decision"
+
+ MIE_5000_guns: "£rifle_texticon §H5000§!"
+ MIE_5000_guns_blocked: "£rifle_texticon §R5000§!"
+ MIE_5000_guns_tooltip: "It costs $MIE_5000_guns_blocked$ to take the decision"
+
+ MIE_150_supporteq: "£support_texticon  §H150§!"
+ MIE_150_supporteq_blocked: "£support_texticon  §R150§!"
+ MIE_150_supporteq_tooltip: "It costs $MIE_150_supporteq_blocked$ to take the decision"
+
+ MIE_250_supporteq: "£support_texticon  §H250§!"
+ MIE_250_supporteq_blocked: "£support_texticon  §R250§!"
+ MIE_250_supporteq_tooltip: "It costs $MIE_250_supporteq_blocked$ to take the decision"
+
+ MIE_250_artilleryeq: "£unit_artillery_icon_small  §H250§!"
+ MIE_250_artilleryeq_blocked: "£unit_artillery_icon_small  §R250§!"
+ MIE_250_artilleryeq_tooltip: "It costs $MIE_250_artilleryeq_blocked$ to take the decision"
+
+ MIE_2000_guns_500_sup: "£rifle_texticon  §H2000§! £support_texticon §H500§!"
+ MIE_2000_guns_500_sup_blocked: "£rifle_texticon  §R2000§!  £support_texticon §R500§!"
+ MIE_2000_guns_500_sup_tooltip: "It costs $MIE_2000_guns_500_sup_blocked$ to take the decision"
+ MIE_2000_guns_tt: "£rifle_texticon  §H2000§! and £support_texticon §H500§! are added to the pool."
+
+ MIE_1000_sup: "£support_texticon  §H1000§!"
+ MIE_1000_sup_blocked: "£support_texticon  §R1000§!"
+ MIE_1000_sup_tooltip: "It costs $MIE_1000_sup_blocked$ to take the decision"
+
+ MIE_1500_sup: "£support_texticon  §H1500§!"
+ MIE_1500_sup_blocked: "£support_texticon  §R1500§!"
+ MIE_1500_sup_tooltip: "It costs $MIE_1500_sup_blocked$ to take the decision"
+
+ air_xp_50: "£air_experience §H50§!"
+ air_xp_50_blocked: "£air_experience §R50§!"
+ air_xp_50_tooltip: "It costs $air_xp_50_blocked$ to take the decision"
+
+ MIE_build_forts_in_whr: "Expansion of Ostwall"
+ MIE_build_forts_in_whr_tt: "§gConstruct level 1 £GFX_land_fort_texticon §Y$bunker_plural$§! in each border province in Belarus.§!"
+
+ mie.1.t: "Eastern European Cooperation"
+ mie.1.d: "[MIE_leader.GetNameDefCap] has chosen to invest a part of our joint defence cooperation fund by constructing fortifications on our Russian border. These fortifications have now been completed and are ready to serve our forces."
+ mie.1.a: "Great!"
+
+ MIE_joint_offensive_exercises: "Joint Offensive Exercises"
+
+ mie.2.t: "Eastern European Cooperation"
+ mie.2.d: "[MIE_leader.GetNameDefCap] has chosen to invest a part of our joint defence cooperation fund by organising a joint military exercise between the Eastern European states. Here, generals oriented towards offence and armour simulated a counter-attack against enemy forces, and exchanged tips and advice to one another."
+ mie.2.a: "Great!"
+ MIE_all_gain_1_attack: "All member state Generals with the §HPanzer Leader§! trait will gain §G1§! Attack."
+
+ MIE_joint_grand_strategy_planning: "Grand Strategy"
+
+ mie.3.t: "Eastern European Cooperation"
+ mie.3.d: "[MIE_leader.GetNameDefCap] has chosen to invest a part of our joint defence cooperation fund by organising wargames among the army staffs of the Eastern European states. Here, our generals discussed a full invasion of the region, divided roles between the nation-states and made grand strategy planning for stopping the assault."
+ mie.3.a: "Great!"
+ MIE_all_gain_1_planning: "All member state Generals with the §HInfantry Leader§! trait will gain §G1§! Planning."
+
+ MIE_defense_contributions: "Implement Mandatory Defence Contributions"
+ MIE_contributions: "Eastern European Defence Contributions"
+ MIE_contributions_desc: "This country is paying some of their budget to a joint Eastern European defence budget for purchasing firearms and other military equipment."
+ MIE_defense_contributions_tt: "Each member state paying contributions will add £rifle_texticon  §H20§! £support_texticon  §H10§! £unit_artillery_icon_small  §H10§! to the weapons fund monthly."
+
+ mie.4.t: "Eastern European Cooperation"
+ mie.4.d: "[MIE_leader.GetNameDefCap] has offered to deepen the cooperation between Eastern European states by implementing a system of defence contributions. If we join the system, we will pay a portion of our budget to a joint Eastern European defence budget, with which [MIE_leader.GetName] will be able to purchase equipment for our weapons fund."
+ mie.4.a: "We will sign up."
+ mie.4.b: "We refuse."
+ MIE_monthly_purchases: "Weapons Purchases"
+ MIE_defense_contributions_amount: "£rifle_texticon  §H[?global.MIE_infantry_equipment_monthly]§! £support_texticon  §H[?global.MIE_support_equipment_monthly]§! £unit_artillery_icon_small  §H[?global.MIE_artillery_equipment_monthly]§! will be added to the weapons fund."
+
+ mie.5.t: "Eastern European Cooperation"
+ mie.5.d: "[MIE_leader.GetNameDefCap] has chosen to invest a part of our joint defence cooperation fund by sending us a batch of rifles and ammunition directly. This equipment has been directed to our stockpiles."
+ mie.5.a: "Great!"
+
+ mie.6.t: "Eastern European Cooperation"
+ mie.6.d: "[MIE_leader.GetNameDefCap] has chosen to invest a part of our joint defence cooperation fund by sending us a batch of army support equipment directly. This equipment has been directed to our stockpiles."
+ mie.6.a: "Great!"
+
+ mie.7.t: "Eastern European Cooperation"
+ mie.7.d: "[MIE_leader.GetNameDefCap] has chosen to invest a part of our joint defence cooperation fund by sending us a batch of artillery pieces directly. This equipment has been directed to our stockpiles."
+ mie.7.a: "Great!"
+
+ MIE_air_command_1: "Joint Air Defence Infrastructure"
+ MIE_all_build_air_infra: "Each member state will build one additional level of §HAir Base§! and two additional levels of §HAnti-Air§! in their capital, and receive §H50§!  £unit_fighter_icon_small\n\nThis will unlock new decisions."
+
+ mie.8.t: "Eastern European Cooperation"
+ mie.8.d: "[MIE_leader.GetNameDefCap] has chosen to invest a part of our joint defence cooperation fund by establishing infrastructure for a joint air defence command between the Eastern European states. This includes the construction of new airbases and provision of fighter planes for all participants in the system."
+ mie.8.a: "Great!"
+
+ MIE_air_command_2: "Integrated Air Wings"
+ MIE_joint_air_command: "Joint Eastern European Air Command"
+
+ mie.9.t: "Eastern European Cooperation"
+ mie.9.d: "[MIE_leader.GetNameDefCap] has chosen to invest a part of our joint defence cooperation fund by establishing an official Joint Eastern European Air Defence Command. This will integrate the air wings of all participating nations into one overarching structure, allowing greater air cooperation and control of the skies."
+ mie.9.a: "Great!"
+
+ MIE_air_command_3: "Multilingual Joint Air Command"
+
+ mie.10.t: "Eastern European Cooperation"
+ mie.10.d: "[MIE_leader.GetNameDefCap] has chosen to invest a part of our joint defence cooperation fund by establishing important reforms for the Joint Eastern European Air Defence Command. With successful integration of multilingual air dispatchers and even closer cooperation of our air forces, the effectiveness of our air force is bound to increase."
+ mie.10.a: "Great!"
+
+ MIE_international_tank_division: "International Tank Division"
+ MIE_transferable_armored_division_tt: "This armoured division will be transferred between Eastern European states whenever the country in charge of resource distribution changes."
+
+ mie.11.t: "Eastern European Cooperation"
+ mie.11.d: "[MIE_leader.GetNameDefCap] has chosen to invest a part of our joint defence cooperation fund by forming an international armoured division made up of volunteers from every Eastern European state. While [MIE_leader.GetNameDef] will integrate it into its army structure, it will be transferred from state to state in the case when they fall."
+ mie.11.a: "Great!"
+
+ mie.12.t: "Russian Threat Neutralised"
+ mie.12.d: "Russia has fallen to the might of the Reichspakt, and there is no further need to continue the Cooperation project - it has fulfilled its primary purpose. Now we can rest easy, knowing that Russia will not threaten our independence again."
+ mie.12.a: "A grand day."
+
+ mie.13.t: "Germany Donates Equipment"
+ mie.13.d: "German War Ministry has made a generous donation of old military equipment to the EEDC program. These old but trusty Mausers will be put in good use in the hands of the Baltic and Slavic Patriots defending their homes against the Russian menace."
+ mie.13.a: "Deutschland über alles."
+
+ mie.14.t: "Arrival of the Baltische Feldgendarmerie"
+ mie.14.d: "A unit of special-trained anti-insurgency military police have arrived from the Kaiserreich to bolster our security forces. With a long experience of dealing with the guerilla forces such as the Forest Brothers, these men will surely prove useful in containing the rebellion in the Baltic lands."
+ mie.14.a: "Direct them to Latvia."
+ mie.14.b: "Direct them to Estonia."
+ mie.14.c: "Put them in menial duties."
+
+ mie.15.t: "Germany Offers Law Enforcement Support"
+ mie.15.d: "Berlin proposed us a joint operation against the terrorists of the Activist Front. They are prepared to dispatch number of military police units from East Prussia to the Lithuanian side of the border, and to coordinate joint raids against the LAF. With our combined forces, we are sure to press the LAF hard."
+ mie.15.a: "Good."
+
+ mie.17.t: "Pro-German Coup in Belarus!"
+ mie.17.d: "It seems that the German intelligence services realized our conspiracy with the Belarusian government and took decisive action. Under German orders, reactionary elements of the Belarusian army took control of Minsk and arrested Chairman Taraškievič with treason charges. As we speak, socialists are being arrested in Belarus as the bourgeois military is extinguishing the liberty of the Belarusian people. They are now unable to join our struggle when the war begins - but will do their best to harm the attempts of the military government to oppose us. Now it is our brotherly duty to free the Belarusians from the Prussian oppression!"
+ mie.17.a: "To Minsk!"
+ GER_coup_WHR: "Pro-German Coup in White Ruthenia"
+
+ mie.18.t: "German Relief Agreement"
+ mie.18.d: "Our friends in Berlin have not left us alone! Despite their own economic turmoil, the German government was willing to grant our grain exports some exemptions despite their otherwise increased protectionist policies to protect their own agricultural sectors. In addition, they were willing to restructure some of our national debt that we owe German banks, greatly easing the financial burden we are facing. These exemptions should alleviate the issues in the countryside somewhat."
+ mie.18.a: "Such graceful allies we have."
