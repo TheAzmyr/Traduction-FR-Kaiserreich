@@ -28,6 +28,10 @@
  may_lead_to_war_with_FROM:0 "§RPeut mener à une guerre avec [From.GetNameDef]§!"
  may_lead_to_war_with_FROM_overlord:0 "§RPeut mener à une guerre avec [From.Overlord.GetNameDef]§!"
 
+ state_integration_at_fifty_compliance: "Peut devenir un état national lorsqu'il atteint une §Hconformité moyenne de 50%§!."
+ state_integration_at_eighty_compliance: "Peut devenir un état national lorsqu'il atteint une §Hconformité moyenne de 80%§!."
+ state_integration_law_unlocked: "Permet l'application de la loi d'occupation §H$territorial_integration$§!"
+
  # used to generate tooltips in dockyard or naval base foci when the country doesn't own any coastal states
  random_owned_controlled_coastal_state: "Un État côtier détenu et contrôlé de manière aléatoire"
 
@@ -39,6 +43,8 @@
 
 ### Flag Loc segments ###
  has_completed_decision: "A pris la décision £decision_icon_small §H"
+ gets_event_start: "Obtient l'événement "§H"
+ gets_event_end: "§!"."
 
  # example of the above
  # flag_loc_entry: "$has_completed_decision$$your_decision_here$§!"
@@ -109,6 +115,9 @@
  daily_popularity_drift: "Soutien Quotidien du Parti au Pouvoir"
  daily_non_ruling_popularity_drift: "Soutien Quotidien des Partis Non Dirigeants"
 
+ cic_from_target_factor_tooltip: "Industrie civile du pays cible"
+ mic_from_target_factor_tooltip: "Industrie militaire du pays cible"
+
 ### Modifiers (for use as tooltips in variable effects) ###
  consumer_goods_tooltip: "$MODIFIER_CONSUMER_GOODS_FACTOR$: $RIGHT|H=%1$"
  factory_output_tooltip:0 "$MODIFIER_INDUSTRIAL_CAPACITY_FACTOR$ : $RIGHT|+=%$"
@@ -121,7 +130,7 @@
 
  max_efficiency_tooltip: "$MODIFIER_PRODUCTION_FACTORY_MAX_EFFICIENCY_FACTOR$: $RIGHT|=%+$"
  start_efficiency_tooltip: "$MODIFIER_PRODUCTION_FACTORY_START_EFFICIENCY_FACTOR$: $RIGHT|=%+$"
- efficiency_gain_tooltip: "$MODIFIER_PRODUCTION_FACTORY_START_EFFICIENCY_FACTOR$: $RIGHT|=%+$"
+ efficiency_gain_tooltip: "$MODIFIER_PRODUCTION_FACTORY_EFFICIENCY_GAIN_FACTOR$: $RIGHT|=%+$"
  line_change_efficiency_tooltip: "$MODIFIER_LINE_CHANGE_PRODUCTION_EFFICIENCY_FACTOR$: $RIGHT|=%+$"
 
  industrial_factory_donations_tooltip: "$MODIFIER_INDUSTRIAL_FACTORY_DONATIONS$: $RIGHT|+=0$"
@@ -133,8 +142,21 @@
  pp_factor_tooltip: "$MODIFIER_POLITICAL_POWER_FACTOR$: $RIGHT|+=%0$"
  stability_tooltip: "$MODIFIER_STABILITY_FACTOR$: $RIGHT|=%+$"
  stability_weekly_tooltip: "$MODIFIER_STABILITY_WEEKLY$: $RIGHT|=%+$"
+ party_popularity_stability_factor_tooltip: "$MODIFIER_STABILITY_POPULARITY_FACTOR$: $RIGHT|=%+$"
  war_support_tooltip: "$MODIFIER_WAR_SUPPORT_FACTOR$: $RIGHT|=%+$"
  war_support_weekly_tooltip: "$MODIFIER_WAR_SUPPORT_WEEKLY$: $RIGHT|=%+$"
+
+ political_advisor_cost_factor_tooltip: "$political_advisor_cost_factor$: $RIGHT|-=%0$"
+ army_chief_cost_factor_tooltip: "$army_chief_cost_factor$: $RIGHT|-=%0$"
+ navy_chief_cost_factor_tooltip: "$navy_chief_cost_factor$: $RIGHT|-=%0$"
+ air_chief_cost_factor_tooltip: "$air_chief_cost_factor$: $RIGHT|-=%0$"
+ high_command_cost_factor_tooltip: "$high_command_cost_factor$: $RIGHT|-=%0$"
+ theorist_cost_factor_tooltip: "$theorist_cost_factor$: $RIGHT|-=%0$"
+ tank_manufacturer_cost_factor_tooltip: "$tank_manufacturer_cost_factor$: $RIGHT|-=%0$"
+ naval_manufacturer_cost_factor_tooltip: "$naval_manufacturer_cost_factor$: $RIGHT|-=%0$"
+ aircraft_manufacturer_cost_factor_tooltip: "$aircraft_manufacturer_cost_factor$: $RIGHT|-=%0$"
+ materiel_manufacturer_cost_factor_tooltip: "$materiel_manufacturer_cost_factor$: $RIGHT|-=%0$"
+ industrial_concern_cost_factor_tooltip: "$industrial_concern_cost_factor$: $RIGHT|-=%0$"
 
  monthly_population_tooltip: "$MODIFIER_GLOBAL_MONTHLY_POPULATION$: $RIGHT|=%+1$"
 
@@ -285,6 +307,10 @@
  CP_100: "£command_power §H100§!"
  CP_100_blocked: "£command_power §R100§!"
  CP_100_tooltip: "Cela coûte $CP_100_blocked$ de prendre la décision"
+
+ CP_80_PP_20: "£command_power §H80§! £pol_power §H20§!"
+ CP_80_PP_20_blocked: "£command_power §R80§! £pol_power §R20§!"
+ CP_80_PP_20_tooltip: "Cela coûte $CP_80_PP_20_blocked$ pour prendre cette décision"
 
  army_xp_5: "£army_experience §H5§!"
  army_xp_5_blocked: "£army_experience §R5§!"
