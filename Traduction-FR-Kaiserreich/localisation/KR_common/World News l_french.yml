@@ -146,17 +146,9 @@
  worldnews.28.d: "George V, le dernier roi de Grande-Bretagne et d'Irlande à avoir régné sur les Home Isles elles-mêmes, est décédé alors qu'il était en exil au Canada. Le premier roi de Windsor, son règne restera dans les mémoires avec tristesse et chagrin, car la Grande-Bretagne a perdu le Grande Guerre et sa patrie pendant cette période. La couronne a été héritée par Edouard, prince de Galles, qui se stylise maintenant sous le nom d'Edouard VIII..\n\nLe roi Édouard est un homme vindicatif et ambitieux, et il n'est pas en bons termes avec le premier ministre Mackenzie King. Il vit dans le but de venger son père et de reconquérir les îles britanniques, et est donc très populaire parmi les exilés britanniques au Canada, entre autres."
  worldnews.28.a: "Intéressant."
 
- worldnews.30.t: "Le Japon annonce ses ambitions"
- worldnews.30.d: "Bien que la situation du Japon ait été critique depuis l'Accord de Tsingtao, avec de nombreuses crises économiques, des troubles et une réponse inefficace aux interventions allemandes en Chine qui ont conduit à l'effondrement du régime autocratique de Tanaka, l'Empire du Soleil Levant a réussi à rebondir, bien qu'il ne soit plus qu'une puissance régionale dont l'influence se limite à l'Asie orientale.\n\nCependant, les Japonais semblent déterminés à mettre fin à cette faiblesse et ont désormais annoncé leur ambition de reprendre leur place parmi les grandes puissances, par la force si nécessaire. L'Allemagne, qui possède sa propre sphère en Asie, ne risque pas d'accueillir cette nouvelle avec enthousiasme."
- worldnews.30.a: "Très inquiétant."
-
  worldnews.31.t: "Travailleurs élus en France"
  worldnews.31.d: "La Commune de France est la première nation syndicaliste du monde, réunie en fédération de communes urbaines et dirigée par le Comité de Salut Public, le premier exécutif. Mais depuis sa création, la politique de la Deuxième Commune n'a pas été uniforme - de nombreuses factions se sont formées, chacune ayant sa propre idée de la voie que la France devrait emprunter. Alors que le temps de la vengeance contre l'Allemagne et la Révolution mondiale approche à grands pas, l'élection de la CGT de 1936 s'annonce très importante....\n\nLe remplaçant du disgracié Marceau Pivert est issu de sa propre faction, les Travailleurs, qui occupent désormais la première place du CSP. Ils défendent une extension de la démocratie et s'inspirent des Britanniques pour décentraliser la Commune."
  worldnews.31.a: "Intéressant."
-
- worldnews.32.t: "Le syndicalisme prévaut en Ukraine"
- worldnews.32.d: "Après la Weltkrieg, l'Ukraine est devenue un champ de bataille entre l'Hetmanat pro-allemand, les bolcheviks, le territoire libre de Makhno et de nombreux autres groupes armés. Le Hetmanate a prévalu, mais il s'est avéré impopulaire parmi les Ukrainiens, et après une crise agricole et le tristement célèbre Lundi Noir, cette haine a atteint un point de rupture.\n\nLe célèbre leader syndicaliste ukrainien, Oleksander Shumsky, a conduit ses milices rouges à dissoudre le Royaume et à déclarer la République socialiste ukrainienne. Le temps dira si cette nouvelle entité subira une réaction allemande, mais cette victoire a renforcé les positions d'extrême gauche sur le Reichspakt."
- worldnews.32.a: "Même le Reichspakt n'est pas sûr."
 
  worldnews.33.t: "Jacobins élus en France"
  worldnews.33.d: "La Commune de France est la première nation syndicaliste du monde, fédérée en fédération de communes urbaines et dirigée par le Comité de Salut Public, le directeur général. Mais depuis sa création, la politique de la Deuxième Commune n'a pas été uniforme - de nombreuses factions se sont formées, chacune ayant sa propre idée de la voie que la France devrait emprunter. Alors que le temps de la vengeance contre l'Allemagne et la Révolution mondiale approche à grands pas, l'élection de la CGT de 1936 s'annonce très importante....\n\nLe remplacement de Marceau Pivert, disgracié, venait des Jacobins, une faction extrémiste favorable à une centralisation accrue et à la transformation de la France en un Etat avant-gardiste que tous les syndicalistes devaient suivre. Ils détiennent maintenant la majorité dans le CSP."
@@ -990,7 +982,7 @@
  worldnews.263.d.other: "L'armée [FROM.GetAdjective]e a avancé vers la capitale symbolique des États-Unis, Washington D.C., et l'a capturée. Elle a pris d'assaut le Capitole et rencontré une forte résistance, mais elle a fini par percer et le drapeau de [FROM.GetNameDef] flotte désormais sur le Capitole des États-Unis.\n\nCela a conduit à une répression majeure contre les représentants du gouvernement sur place, avec des arrestations massives et même des rumeurs d'exécutions sommaires dans le Capitole lui-même, bien que des sources non confirmées affirment que la plupart des personnalités importantes du gouvernement fédéral ont été évacuées pendant la bataille, sans que l'on sache où elles se trouvent actuellement."
 
  #Loser Responses
- worldnews.263.a: "[FROM.USA_fall_of_washington_event_option_old_controller]"
+ worldnews.263.a: "[THIS.USA_fall_of_washington_event_option_old_controller]"
  worldnews.263.a.csa: "Nous ne pouvons pas laisser Reed et ses bandes syndicalistes gagner !"
  worldnews.263.a.tex: "Nous ne pouvons laisser Long et ses sbires Minutemen contrôler la nation."
  worldnews.263.a.psa_nee: "Les troupes du Pacifique ont pris Washington ? Comment est-ce possible ?!"
@@ -998,7 +990,7 @@
  worldnews.263.a.other: "La guerre est loin d'être terminée !"
 
  #Winner Responses
- worldnews.263.b: "[ROOT.USA_fall_of_washington_event_option_new_controller]"
+ worldnews.263.b: "[THIS.USA_fall_of_washington_event_option_new_controller]"
  worldnews.263.b.csa: "Le gouvernement central a été jeté de son trône d'or."
  worldnews.263.b.tex: "Les Pères fondateurs seront fiers de nous."
  worldnews.263.b.psa_nee: "Nous allons restaurer la démocratie à Washington !"
@@ -1006,11 +998,11 @@
  worldnews.263.b.other: "Washington est à nous !"
 
  #Neutral Responses
- worldnews.263.c: "[ROOT.USA_fall_of_washington_event_option_neutral]"
+ worldnews.263.c: "[THIS.USA_fall_of_washington_event_option_neutral]"
  worldnews.263.c.can_csa: "La situation dans le sud devient extrêmement urgente."
  worldnews.263.c.can_tex: "La situation dans le sud semble échapper à tout contrôle."
  worldnews.263.c.can_psa_nee: "Espérons que les dirigeants [FROM.GetAdjective]s vont enfin rétablir l'ordre."
- worldnews.263.c.american_csa: "Les traîtres syndicalistes sont arrivés à Washington D.C. ?"
+ worldnews.263.c.american_csa: "Les syndicalistes sont allés jusqu'à Washington D.C. ?"
  worldnews.263.c.american_tex: "Les réactionnaires sont arrivés à Washington D.C. ?"
  worldnews.263.c.american_psa_nee: "Les [FROM.GetAdjective]s ont de la moelle, c'est sûr."
  worldnews.263.c.american_can: "Les Canadiens osent ? C'est insupportable."
@@ -1018,15 +1010,16 @@
  worldnews.263.c.non_american: "Celui qui contrôle Washington, contrôle l'Amérique - pour l'instant..."
 
  worldnews.264.t: "La chute de Singapour"
- worldnews.264.d.sia: "Singapour, le'Gibraltar de l'Est', a été saisi par les forces royales[SIA.GetAdjective] bien qu'il ait été considéré comme une forteresse imprenable par ses anciens propriétaires britanniques et ses nouveaux maîtres allemands. L'administration militaire [SIA.GetAdjective] de Singapour a choisi comme siège le Raffles Hotel Building et la ville a été renommée Singhanakhon, qui signifie en gros'Ville Lion'. Avec ça, le détroit de Malacca est plus ou moins sous contrôle total[SIA.GetAdjective]."
- worldnews.264.d.jap: "Singapour, le "Gibraltar de l'Orient", a été saisi par les forces impériales japonaises bien qu'il ait été considéré comme une forteresse imprenable par ses anciens propriétaires britanniques et ses nouveaux seigneurs allemands.\n\nL'administration militaire japonaise de Singapour a choisi le bâtiment Fullerton comme son siège et la ville a été renommée Syonanto, qui signifie en gros "île sud acquise dans le siècle des Showa". On peut voir les Kempeitai patrouiller les rues en masse pour faire passer le message que les Japonais sont là pour rester."
+ worldnews.264.d.japan:0 "Singapour, le "Gibraltar de l'Orient", a été saisi par les forces impériales japonaises bien qu'il ait été considéré comme une forteresse imprenable par ses anciens propriétaires britanniques et ses nouveaux seigneurs allemands.\n\nL'administration militaire japonaise de Singapour a choisi le bâtiment Fullerton comme son siège et la ville a été renommée Syonanto, qui signifie en gros "île sud acquise dans le siècle des Showa". On peut voir les Kempeitai patrouiller les rues en masse pour faire passer le message que les Japonais sont là pour rester."
+ worldnews.264.d.siam:0 "Singapour, le'Gibraltar de l'Est', a été saisi par les forces royales[SIA.GetAdjective] bien qu'il ait été considéré comme une forteresse imprenable par ses anciens propriétaires britanniques et ses nouveaux maîtres allemands. L'administration militaire [SIA.GetAdjective] de Singapour a choisi comme siège le Raffles Hotel Building et la ville a été renommée Singhanakhon, qui signifie en gros'Ville Lion'. Avec ça, le détroit de Malacca est plus ou moins sous contrôle total[SIA.GetAdjective]."
  worldnews.264.d.other: "Singapour, le "Gibraltar de l'Est", a été saisi par les forces [FROM.GetAdjective]es alors qu'il était considéré comme une forteresse imprenable par ses anciens propriétaires britanniques et ses nouveaux suzerains allemands.\n\nL'administration militaire [FROM.GetAdjective]e de Singapour a choisi le Fullerton Building comme quartier général. On peut voir la police militaire patrouiller en masse dans les rues pour faire passer le message que les [FROM.GetAdjective]s sont là pour rester."
- worldnews.264.a: "La domination allemande dans les Indes orientales est fortement ébranlée par [FROM.GetNameDef]."
- worldnews.264.b.sia: "Singhanakhon et ses régions environnantes font partie intégrante du Siam !"
- worldnews.264.b.jap: "Pour l'Empereur !"
- worldnews.264.b.other: "La Cité du Lion est entre nos mains !"
- worldnews.264.c: "Ils regretteront ce petit vol colonial quand la Kaiserliche Marine arrivera !"
- worldnews.264.e: "Singapour est une colonie britannique légitime. Suivons cette évolution de près."
+ worldnews.264.a.japan:0 "Pour l'Empereur !"
+ worldnews.264.a.siam:0 "Singhanakhon et ses régions environnantes font partie intégrante du Siam !"
+ worldnews.264.a.other:0 "La Cité du Lion est entre nos mains !"
+ worldnews.264.b.germany:0 "Ils regretteront ce petit vol colonial quand la Kaiserliche Marine arrivera !"
+ worldnews.264.b.other: "Singapour est tombé ? Comment est-ce possible ?"
+ worldnews.264.c:0 "Singapour est une colonie britannique légitime. Suivons cette évolution de près."
+ worldnews.264.d:0 "La domination allemande dans les Indes orientales est fortement ébranlée par [FROM.GetNameDef]."
 
  worldnews.265.t: "La chute de New York City"
  worldnews.265.d.csa: "Les milices [FROM.GetAdjective]es ont mené des escarmouches éparses avec la Garde rouge le long du fleuve Hudson. Ce matin, les palissades, naturelles et artificielles, sont tombées des mains du Syndicat. Peu de temps après, l'île de Manhattan a été forcée de capituler plutôt que de risquer les pertes massives en vies humaines qu'entraînerait une guerre urbaine. Les Syndicats ont ordonné au reste de la Garde rouge de transporter l'or du Federal Reserve Building en lieu sûr, laissant derrière eux de nombreux travailleurs financiers emprisonnés sur Welfare Island.\n\nL'ensemble de la ville de New York est désormais sous le contrôle [FROM.GetNameDef], et une opération de secours massive est en cours pour évaluer l'ampleur des dégâts causés par les Syndicats dans la ville."
@@ -1110,6 +1103,7 @@
  worldnews.274.a: "Non ! Comment est-ce possible ?!"
  worldnews.274.b: "Nos commandants se sont bien débrouillés."
  worldnews.274.c: "La situation [FROM.FROM.GetAdjective]ne semble catastrophique."
+ worldnews.274.par: "La revanche est inévitable ! Poussez-vous !"
 
  worldnews.275.t: "La chute de la Havane"
  worldnews.275.d: "Les soldats et les militants [FROM.FROM.GetAdjective]s ont été chassés de La Havane vers la campagne ou vers les anciens forts espagnols de la ville où, après des heures de bombardements impitoyables, ils se sont finalement rendus aux forces [FROM.GetAdjective]es. Avec le lever du drapeau [FROM.GetAdjective] sur le château d'El Morro, couramment représenté sur de nombreuses cartes postales, les envahisseurs ont pris le contrôle de l'entrée du port de La Havane.\n\nLes forces [FROM.FROM.GetAdjective]es, bien qu'elles ne soient pas aussi nombreuses ni aussi bien équipées que leur ennemi, ont réussi à imposer un combat brutal en luttant bloc par bloc contre les efforts des forces de [FROM.GetNameDef] pour prendre la ville aussi longtemps qu'elles le pouvaient. En fin de compte, leur vaillante résistance n'a été que passagère, car La Havane est désormais aux mains d'une puissance étrangère."
@@ -1870,7 +1864,7 @@
 
  worldnews.481.t: "La fuite de von Göring"
  worldnews.481.d: "DARESSALAM. À l'aube, un avion isolé a effectué un décollage non programmé. Bien que la capitale administrative de l'Afrique allemande soit devenue un point névralgique de l'aviation, l'absence d'autorisation appropriée pour ce vol et le moment choisi pour l'événement n'ont pas manqué de susciter une certaine inquiétude.\n\nLa véritable signification de l'incident, cependant, n'est apparue que lorsque la journée de travail a commencé au siège de l'administration allemande. Ni le gouverneur ni les réserves monétaires du gouvernement n'ont été trouvés. La théorie dominante est que le gouverneur lui-même a détourné les fonds avant de déserter son poste. Il reste à voir ce que cela signifie pour la gouvernance coloniale allemande dans la région."
- worldnews.481.a: "Bon vent, von Göring !"
+ worldnews.481.a: "Qui aurait cru que les cochons pouvaient voler ?"
  worldnews.481.b: "Il a fait QUOI ?"
 
  worldnews.482.t: "Jeux Olympiques de Dublin 1936"

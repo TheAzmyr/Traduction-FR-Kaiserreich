@@ -47,10 +47,11 @@ ARM_market_liberal_party_long: "Ramgavar Azatakan Kusaktsutyun (Parti libéral d
 ARM_paternal_autocrat_party: "ANLM"
  ARM_paternal_autocrat_party_long: "Mouvement de libération nationale arménien"
 
-ARM_national_populist_party: "Tseghakronutyun"
- ARM_national_populist_party_long: "Tseghakronutyun (Tseghakronisme)"
+ ARM_national_populist_party:0 "ANLM"
+ ARM_national_populist_party_long:0 "Mouvement de libération nationale arménien"
 
- ARM_national_party: "Parti National Arménien"
+ ARM_national_populist_party_tseghakronism:0 "Tseghakronutyun"
+ ARM_national_populist_party_tseghakronism_long: "Tseghakronutyun (Mouvement Tseghakroniste)"
 
 ### Tooltips ###
  ARM_spawn_vets_tooltip: "§7Une division §YHrats'anneri Bazhanumy§! sera déployée pour défendre notre patrie§!"
@@ -461,22 +462,22 @@ ARM_national_populist_party: "Tseghakronutyun"
 
  ARM_independence_fervour_1: "Ferveur de l'Indépendance"
  ARM_independence_fervour_1_desc:0 "Le peuple arménien a goûté à la liberté, ce dont il était affamé depuis des années. Nous ne pouvons pas abandonner les nouvelles libertés de notre peuple si facilement ! Nous réaliserons le rêve d'un État arménien libéré de la domination turque, ou nous mourrons en essayant !"
- 
+
  ARM_specialised_army: "Une Armée de Qualité"
  ARM_specialised_army_desc: "Notre pays n'a pas la population nécessaire pour supporter des hordes interminables de soldats qui se jettent sans réfléchir sur les positions de l'ennemi. Au lieu de cela, nous devons nous assurer que nos hommes sont intelligents et capables, et grâce à nos programmes de formation récemment améliorés, chacun de nos soldats peut fièrement proclamer qu'il est prêt à défendre son foyer et sa famille, quel que soit l'endroit où l'envahisseur pourrait frapper."
- 
+
  ARM_specialised_army_2: "Loups-garous d'Arménie"
  ARM_specialised_army_2_desc: "Nos efforts pour former nos soldats au combat nocturne ont porté leurs fruits. Comme les bêtes des anciens mythes, ils commencent à se sentir à l'aise dans l'obscurité de la nuit et sont capables de se déplacer rapidement et silencieusement, ce qui leur permet de surprendre leurs ennemis et d'obtenir ainsi un avantage crucial sur les champs de bataille."
- 
+
  ARM_isolationism: "Isolationnisme Arménien"
  ARM_isolationism_desc: "Le sang a assez coulé ! Les fils de l'Arménie ne mourront pas en terre étrangère pour une cause qui leur est totalement étrangère ! Si nous devons sacrifier nos hommes, ce sera au nom de l'Arménie, et au nom de l'Arménie seule !"
- 
+
  ARM_isolationism_2: "La Forteresse Invincible"
  ARM_isolationism_2_desc: "Nous savons que tôt ou tard, des soldats étrangers chercheront à conquérir nos terres. Nos voisins peuvent sembler forts, voire invincibles pour certains, mais nous leur montrerons qu'ils peuvent saigner ! Nous défendrons chaque parcelle de notre nation jusqu'au dernier homme, et nous ferons regretter à ces tyrans leur décision de troubler notre paix !"
 
 ### Decisions ###
  ARM_foreign_policy: "Politique Étrangère de l'Arménie"
- ARM_join_reichspakt:0 "Rejoindre le Reichspakt"
+ ARM_join_faction:0 "Rejoindre le [FROM.GetFactionName]"
  ARM_request_industrial_support: "Demande [FROM.GetAdjective] de Soutien Industriel"
 
  ARM_war_of_independence: "La Guerre d'Indépendance"
@@ -504,23 +505,6 @@ ARM_national_populist_party: "Tseghakronutyun"
  arm.6.t: "[ARM.GetNameDefCap] Se Mobilise Contre Nous !"
  arm.6.d: "Un gouvernement revanchard dirigé par [ARM.GetLeader] a pris le contrôle du nouvel état arménien indépendant, et cherche maintenant à récupérer les territoires qu'il considère comme de l'argile arménienne. Même si les revendications arméniennes sur notre territoire sont au mieux risibles, les liens historiques entre certaines de nos provinces et le peuple arménien semblent être une justification suffisante pour une invasion. Déjà, leurs troupes se mobilisent sur notre frontière commune, et ce n'est qu'une question de temps avant qu'ils ne tentent de pénétrer sur nos terres. Nous devons préparer nos défenses et renvoyer cette racaille ultranationaliste là où elle doit être !"
  arm.6.a:0 "Ils seront écrasés !"
-
- arm.7.t: "Réconciliation Arméno-Turque"
- arm.7.d: "L'Empire ottoman, un pays qui a subjugué et maltraité notre peuple pendant des siècles, n'est plus ce qu'il était. La défaite dans la guerre du désert a changé la nation, non seulement en réduisant son territoire, mais aussi en provoquant des troubles politiques, qui ont forcé les Turcs à suivre une autre voie politique. Bien qu'une grande partie de notre population déteste les Turcs de toutes les fibres de son être, cette haine irréfléchie n'est plus justifiée. Les personnes qui vivent à côté de nous ne sont plus celles qui nous ont terrorisés pendant la majeure partie de notre histoire récente. Nous devrions essayer de nous réconcilier officiellement avec les Turcs, dans l'intérêt de nos deux nations. Espérons qu'ils seront aussi sages et compréhensifs que nous et qu'ils accepteront notre modeste proposition."
- arm.7.a: "Qu'est-ce qui pourrait mal tourner ?"
-
- arm.8.t: "Rapprochement avec [ARM.GetNameDef] ?"
- arm.8.d: "En début de semaine, une proposition de nos voisins arméniens est parvenue à [TUR.Capital.GetCapitalVictoryPointName]. Dans cette proposition, les dirigeants arméniens s'engagent à signer un traité d'amitié entre nos deux nations, montrant ainsi leur volonté d'évoluer au-delà des hostilités séculaires qui divisent nos peuples depuis des siècles. Néanmoins, certaines parties de notre gouvernement considèrent cette proposition comme scandaleuse, arguant que l'Arménie devrait être considérée comme une province turque et, à ce titre, être réintégrée dans notre pays. En outre, de nombreux politiciens se souviennent encore très bien de la guerre sanglante que nos deux nations ont menée l'une contre l'autre, et pensent qu'une réconciliation officielle entre [TUR.GetNameDef] et l'Arménie serait un manque de respect envers les victimes de cette guerre. Pourtant, certains affirment qu'un traité d'amitié pourrait contribuer à garantir la paix dans la région et apporterait des avantages aux deux parties. Bien que cela puisse être vrai, si nous acceptions cette proposition, nous devrions également défendre l'Arménie contre toute tentative d'invasion du pays à l'avenir - un risque qui doit être calculé avec soin."
- arm.8.a: "Un traité d'amitié ne ferait certainement de mal à personne."
- arm.8.b: "Ces rebelles ne méritent aucun pardon !"
-
- arm.9.t: "[TUR.GetNameDefCap] Accepte !"
- arm.9.d: "Grande nouvelle ! Les Turcs ont accepté notre traité de réconciliation, arguant que les hostilités entre nos deux pays ont jusqu'à présent été désavantageuses pour nos deux nations. Au nom de la paix, ils ont officiellement reconnu l'Arménie comme un État indépendant et le peuple arménien comme libre de la domination turque. En outre, les Turcs ont promis de nous défendre contre toute menace qui pourrait survenir à l'avenir. Une nouvelle ère d'amitié turco-arménienne a commencé !"
- arm.9.a: "Enfin, nous pouvons vivre en paix !"
-
- arm.10.t: "[TUR.GetNameDefCap] Refuse !"
- arm.10.d: "Malheureusement, il semble que les Turcs ne soient pas encore prêts à accepter des changements aussi radicaux qu'un traité d'amitié avec notre nation. Invoquant le fait que l'Arménie a "toujours été une province turque, et le sera bientôt à nouveau", le gouvernement de [TUR.GetNameDef] a refusé de signer notre proposition. Ainsi, les Turcs ont prouvé qu'ils étaient incapables d'évoluer au-delà de leur mentalité ultranationaliste, ce qui pourrait très bien conduire à une nouvelle guerre entre nos deux nations dans un avenir proche."
- arm.10.a:0 " Une perte..."
 
  arm.12.t: "La Première Assemblée Populaire"
  arm.12.d: "La coalition révolutionnaire, composée des Hunchaks et des communistes, a remporté les premières élections arméniennes et a ainsi ouvert la voie à une véritable révolution et à une vie meilleure pour le peuple arménien. Cependant, maintenant que le pouvoir est entre leurs mains, les Hunchaks et les communistes ont pris conscience de leurs divergences d'opinion sur de nombreux sujets, tels que la politique économique et la politique étrangère. Pourtant, les deux partis sont restés fidèles à l'esprit révolutionnaire et n'ont pas laissé ces différences creuser un fossé entre eux. Après quelques brefs débats, ils ont réussi à trouver une solution qui pourrait les satisfaire tous les deux : une Assemblée populaire arménienne.\n\nCette assemblée se tiendra à Erevan, où elle décidera laquelle des deux factions prendra le rôle principal dans la coalition révolutionnaire et déterminera la politique future de notre nation. Des représentants de toute l'Arménie ont été invités et affluent actuellement dans notre capitale. Si certains d'entre eux sont des défenseurs acharnés de la cause Hunchak ou communiste, beaucoup sont encore indécis. Cela rend l'issue de l'assemblée plutôt incertaine et a encouragé les discussions et les spéculations politiques dans les journaux et les cafés. Il semble presque que toute la population arménienne attende actuellement les premières décisions de l'assemblée avec impatience. Bientôt, les révolutionnaires prononceront leurs premiers discours, les premiers grands débats auront lieu et l'avenir de notre nation sera décidé."
@@ -861,7 +845,11 @@ ARM_national_populist_party: "Tseghakronutyun"
  arm.92.d: "Invoquant le fait que leur équipement militaire est actuellement nécessaire ailleurs, les Russes ont rejeté notre demande de soutien dans notre guerre contre les Turcs ottomans. Il semble que les politiciens de [RUS.Capital.GetCapitalVictoryPointName] ne se soucient ni des courageux Arméniens qui donnent leur vie sur les lignes de front de ce conflit, ni des épreuves que notre peuple devra endurer si les tyrans turcs parviennent une fois de plus à soumettre notre nation."
  arm.92.a:0 "C'est un outrage !"
 
-# WIP TEMP EVENT LOC 100-113
+ arm.93.t: "Un verre de trop"
+ arm.93.d: "Les rapports continuent à affluer et l'histoire n'a pas encore été entièrement dévoilée, mais voici les informations dont nous disposons pour l'instant :\n\nHier, un groupe de nouvelles recrues a décidé de passer la soirée dans l'un des pubs locaux de notre capitale. Là, ils se sont naturellement amusés, et au fil des heures, d'innombrables verres ont été vidés, remplis, et vidés à nouveau. Ils n'étaient cependant pas les seuls invités présents, et certainement pas les seuls à s'enivrer. L'alcool étant connu pour délier les langues, ce n'était qu'une question de temps avant que quelqu'un ne dise quelque chose qu'il regretterait le lendemain, et bien sûr, peu avant le dernier appel, le propriétaire d'un petit magasin a soudainement décidé de grimper sur une table et de déclarer publiquement sa haine profonde envers le gouvernement révolutionnaire, le dénonçant comme une bande de tyrans et faisant des remarques... désagréables sur [ARM.GetLeader], sans apparemment remarquer les soldats présents.\n\nAprès avoir entendu ce blasphème, ils ont confronté l'homme, lui demandant de s'excuser immédiatement pour ses paroles. Il a préféré insulter nos soldats, les traitant de "serviteurs du diable" et autres obscénités, et la discussion s'est envenimée, jusqu'à ce que quelqu'un en ait assez. Bien que la responsabilité de chacun ne soit pas encore clairement établie, la situation a dégénéré en une véritable bagarre dans un bar. Lorsque la police est arrivée et a pu maîtriser le chaos, il était déjà trop tard. Deux hommes, le propriétaire du magasin et l'un de ses amis, ont été tués et de nombreux autres ont été blessés. Selon plusieurs témoins, nos hommes sont responsables de leur mort et, à ce titre, ils sont pour l'instant détenus par la police.\n\nLa question est maintenant de savoir comment nous devons procéder. Leur commandant a d'ores et déjà demandé à ce qu'ils soient relâchés, arguant qu'il n'existe aucune preuve concrète de leur culpabilité et que, même s'ils étaient coupables, ils n'ont fait que défendre la cause révolutionnaire - mais devons-nous vraiment laisser passer cela si facilement ?"
+ arm.93.a: "Que ces ivrognes soient maudits - ils seront jugés !"
+ arm.93.b: "Pourquoi une fidélité aussi inébranlable à notre cause devrait-elle être punie ?"
+
  arm.100.t: "[ARM.GetNameDefCap] Sollicite une médiation Allemande"
  arm.100.d: "La nation de [ARM.GetNameDef] a demandé à notre gouvernement de servir de médiateur lors d'une conférence qu'elle prépare. Désireux d'enterrer la hache de guerre avec le peuple turc de [TUR.GetNameDef], les Arméniens ont convoqué une conférence.\n\nNotre présence à la conférence nous apporterait probablement un prestige international en tant qu'arbitre de la paix, ainsi que des alliés supplémentaires dans la région. Devrions-nous accepter de servir de médiateur à leur conférence ?"
  arm.100.a: "Servir de médiateur dans les discussions."
