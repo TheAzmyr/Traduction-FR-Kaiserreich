@@ -41,6 +41,9 @@
  SOV_Join_The_Internationale: "Rejoindre l'Internationale"
  SOV_Join_The_Internationale_desc: "Plutôt que de nous laisser tous essayer de tenir tête aux impérialistes allemands par nous-mêmes, nous devrions serrer la main de nos camarades en Grande-Bretagne, en France, en Italie et au-delà."
  SOV_Protect_The_Baltics: "Protéger [FROM.GetNameDef]"
+ SOV_Protect_Ukraine: "Traité d'Amitié avec [FROM.GetNameDef]"
+
+ RUS_invited_country: "Nous avons déjà invité ce pays à rejoindre notre faction"
 
  SOV_join_INT_wars: "Défendre [FROM.GetNonIdeologyName]"
  SOV_request_INT_join_wars: "Appelez [FROM.GetNonIdeologyName] pour nous défendre"
@@ -63,19 +66,19 @@
  SOV_radical_socialist_party: "NSP"
  SOV_radical_socialist_party_long: "Narodnaya Sotsialisticheskaya Partiya (Parti Socialiste du Peuple)\n§gAlors que Kornilov arrive à Moscou et commence ses actes de brutalité, Boukharine et Rykov mettent leur plan à exécution, rallient la population déjà enragée et chassent les militaires de la ville. Ils déclarent qu'une nouvelle révolution est lancée, et que cette fois, elle n'échouera pas. En tant que chef de la Seconde Révolution, le NSP est le parti le plus important au sein de la nouvelle RSR, soutenu par des bolcheviks en exil qui sont revenus se battre pour leur patrie une fois de plus. Cherchant à transformer la Russie en un État populaire, le NSP appelle à l'humanisme prolétarien.\n\nL'humanisme prolétarien est un concept créé par Karl Marx qui soutient que le travailleur libre est la valeur centrale de la société, plutôt que la propriété privée. Pour que le travailleur soit libre, Marx pense que l'exploitation populaire doit prendre fin. Pour cela, le peuple doit être dirigé par une dictature du prolétariat dans une lutte de classe contre l'aristocratie. Une fois l'aristocratie détrônée du pouvoir et l'exploitation populaire terminée, il est possible d'abolir la dictature du prolétariat. Il en résultera une société où règne l'harmonie entre les classes, où tout le monde a le même statut social et vit en paix, un État populaire.§!"
  SOV_social_democrat_party: "RSDRP"
- SOV_social_democrat_party_long: "Rossiyskaya Sotsial-Dyemokratichyeskaya Rabochaya Partiya (Parti du Travail Social-Démocrate Russe)\n§gLes mencheviks, fidèles à leur nom, se trouvent dans une situation encore plus précaire que celle de 1917 : Un parti minoritaire jouant les seconds rôles face à des bolcheviks rajeunis. Bien que le RSR leur ait permis de rester actifs politiquement, les considérant toujours comme des combattants du peuple et leur étant reconnaissant de leur défiance envers la pensée réactionnaire de la République blanche pourrie, il est clair qu'ils n'ont aucun espoir de reprendre le pouvoir en Russie.§!"
- SOV_social_liberal_party:0 "SR"
- SOV_social_liberal_party_long: "Partiya Sotsialistov-Ryevolyootsionyerov (Parti des Révolutionnaires Socialistes)"
- SOV_market_liberal_party: "Kadety (Kadets)"
- SOV_market_liberal_party_long: "Konstitootsionno-Dyemokratichyeskaya Partiya (Parti Constitutionnel Démocratique)"
+ SOV_social_democrat_party_long: "Rossiyskaya Sotsial-Demokraticheskaya Rabochaya Partiya (Parti du Travail Social-Démocrate Russe)\n§gLes mencheviks, fidèles à leur nom, se trouvent dans une situation encore plus précaire que celle de 1917 : Un parti minoritaire jouant les seconds rôles face à des bolcheviks rajeunis. Bien que le RSR leur ait permis de rester actifs politiquement, les considérant toujours comme des combattants du peuple et leur étant reconnaissant de leur défiance envers la pensée réactionnaire de la République blanche pourrie, il est clair qu'ils n'ont aucun espoir de reprendre le pouvoir en Russie.§!"
+ SOV_social_liberal_party:0 "PSR"
+ SOV_social_liberal_party_long: "Partiya Sotsialistov-Revolyutsionerov (Parti des Révolutionnaires Socialistes)"
+ SOV_market_liberal_party: "Kadety"
+ SOV_market_liberal_party_long: "Konstitutsionno-Demokraticheskaya Partiya (Parti Constitutionnel Démocratique)"
  SOV_social_conservative_party: "RS"
  SOV_social_conservative_party_long: "Russkiy Soyuz (Union Russe) "
- SOV_authoritarian_democrat_party: "Oktyabristi (Octobristes) "
- SOV_authoritarian_democrat_party_long: "Soyooz 17 Oktyabrya (Union du 17 octobre) "
+ SOV_authoritarian_democrat_party: "Oktyabristy"
+ SOV_authoritarian_democrat_party_long: "Soyuz 17 Oktyabrya (Union du 17 octobre) "
  SOV_paternal_autocrat_party: "ROVS"
- SOV_paternal_autocrat_party_long: "Roosskiy Obshshye-Voinskiy Soyooz (Union Russe Pan-Militaire) "
+ SOV_paternal_autocrat_party_long: "Russkiy Obshche-Voinskiy Soyuz (Union Russe Pan-Militaire) "
  SOV_national_populist_party: "NRPR"
- SOV_national_populist_party_long: "Natsional'no-Ryespooblikanskaya Partiya Rossii (Parti National Républicain de Russie) "
+ SOV_national_populist_party_long: "Narodno-Respublikanskaya Partiya Rossii (Parti National Républicain de Russie)"
 
 ### Focuses ###
  Russia_Socialist: "Arbre de priorités russes"
@@ -317,13 +320,35 @@
  russoc.114.t: "Le Front Est de l'Internationale"
  russoc.114.d: "Bien que nous ayons réussi à protéger la révolution chez nous, alors que le monde entre en crise après crise, nous restons loin de nos alliés à l'Ouest. Cependant, cela ne signifie pas que nous sommes seuls à l'Est. Aujourd'hui, [SOV.GetNameDef] a embrassé la cause révolutionnaire et est la plus grande nation socialiste du monde. Il serait peut-être judicieux de se rapprocher de [SOV.Capital.GetCapitalVictoryPointName], de peur que [INT.GetNameDef] ne soit trop loin pour nous soutenir."
  russoc.114.a: "Très bien."
+ russoc.114.claims: "Nous les rejoindrons pour satisfaire nos revendications"
  russoc.114.b: "Nous devrions rester avec [INT.GetNameDef]."
 
  russoc.115.t: "La Russie rejoint l'Internationale"
  russoc.115.d.guaranteed: "Les socialistes russes, après une période d'isolement diplomatique, se sont unis à la Troisième Internationale, rejoignant l'alliance de plus en plus large pour la cause de la révolution mondiale. Comme nous nous sommes précédemment alignés sur le régime de Moscou, une invitation nous a également été adressée. Allons-nous suivre leur exemple et devenir membre à part entière de l'Internationale ?"
  russoc.115.d.invited: "Les révolutionnaires russes, ayant pris le contrôle de leur pays il n'y a pas si longtemps, nous ont tendu la main. Les diplomates de [SOV.GetLeader] sont arrivés dans notre capitale, proposant un front socialiste commun contre les réactionnaires - sous la forme d'une adhésion à la Troisième Internationale. Bien que cela nous liera étroitement au régime de Moscou, ce qui ne plaît pas à tout le monde au sein de notre population, la cause de la révolution mondiale devrait sûrement l'emporter sur ce particularisme nationaliste ?"
  russoc.115.a: "Oui, joignons nos forces"
+ russoc.115.claims: "Nous les rejoindrons pour satisfaire nos revendications"
  russoc.115.b: "Nous ne devrions pas provoquer l'Allemagne..."
+
+ russoc.1150.t: "[From.GetName] exige un territoire"
+ russoc.1150.d: "Plutôt que de nous rejoindre purement et simplement, [From.GetNameDef] a conditionnellement accepté notre proposition en échange du retour des territoires revendiqués."
+ russoc.1150.a: "Nous acceptons. Bienvenue, camarades."
+ russoc.1150.b: "Nous condamnons un tel revanchisme."
+
+ russoc.1151.t: "[From.GetName] accepte"
+ russoc.1151.d: "[From.GetName] a accepté de restituer nos territoires revendiqués et en échange, nous devons nous aligner pleinement sur eux sur la scène internationale."
+ russoc.1151.a: "C'est ça la solidarité!"
+ russoc.1151.b: "Nous attendons l'approbation de leur chef de faction."
+
+ russoc.1152.t: "[From.GetName] refuse"
+ russoc.1152.d: "[From.GetName] a refusé de restituer nos territoires revendiqués. Nous pouvons encore décider de rejoindre ou non leur alliance internationale."
+ russoc.1152.a: "Très bien, nous les rejoindrons malgré tout."
+ russoc.1152.b: "Nous resterons comme nous sommes."
+
+ russoc.1154.t: "[From.GetName] fait marche arrière"
+ russoc.1154.d: "Revenant sur ses demandes en ce qu'elles auraient fait l'objet d'un malentendu, [From.GetNameDef] est revenu sur ses déclarations précédentes et souhaite néanmoins se joindre à nous, même sans obtenir ses territoires revendiqués."
+ russoc.1154.a: "Pardonné et oublié."
+ russoc.1154.b: "Ils ont eu leur chance."
 
  russoc.116.t: "[FROM.GetNameDefCap] souhaite rejoindre l'Internationale"
  russoc.116.d.guaranteed: "Nous avons reçu un télégramme de [FROM.GetName]. Un autre État socialiste aligné sur la Russie souhaite lier son avenir à la cause révolutionnaire mondiale, tout comme son patron à l'est. Allons-nous leur offrir une place au sein de notre alliance ?"
@@ -338,6 +363,10 @@
  russoc.118.t: "[FROM.GetNameDefCap] refuse notre candidature"
  russoc.118.d: "[FROM.GetNameDefCap] a répondu à notre message, nous informant que [FROM.GetName] ne deviendra pas membre de la Troisième Internationale."
  russoc.118.a: "Pardon!?"
+
+ russoc.1180.t: "[FROM.GetNameDefCap] accepte notre candidature"
+ russoc.1180.d: "[FROM.GetNameDefCap] a répondu à notre message et nous a informés que [FROM.GetName] sera autorisé à devenir membre de la Troisième Internationale."
+ russoc.1180.a:0 "Bien"
 
  russoc.119.t: "Protection Allemande?"
  russoc.119.d: "Le régime légitime de Moscou est tombé et les successeurs des bolcheviks ont pris le contrôle de la Russie, déclarant leur intention de propager la révolution mondiale en Europe de l'Est et dans le Caucase. Heureusement, avant que les socialistes ne puissent tourner leurs armées vers nous, le corps diplomatique de l'Empire Allemand nous a tendu la main avec un message - offrant une protection contre la menace orientale. Allons-nous rejoindre les Allemands et lier notre destin à leurs efforts, ou est-ce inutile ?"
@@ -403,7 +432,7 @@
 
  RUS_mikhail_tukhachevsky: "Mikhail Tukhachevsky"
  RUS_mikhail_tukhachevsky_FRA_commander_desc: "§YGeneral Description\nBorn:§! §gFebruary 16th, 1893, in Alexandrovskoye, Smolensk Governorate, Russian Empire§!"
- RUS_mikhail_tukhachevsky_commander_desc: "§YGeneral Description\nBorn:§! §gFebruary 16th, 1893, in Alexandrovskoye, Smolensk Governorate, Russian Empire§!\n§YMilitary Career:§! §gBorn to impoverished Russian nobility of rumoured Flemish crusader origin, Mikhail Tukhachevsky enrolled to the cadet corps of the Russian Imperial Army in 1912. Even at a young age, he did not lack ambition - once the Weltkrieg began, he proudly declared that he will either be a general at thirty or dead by then. After showing skill and bravery in the Eastern Front, Tukhachevsky fulfilled this goal - but not in the way he anticipated. He joined the Red Army as a volunteer and rapidly rose in rank, becoming a close associate to Leon Trotsky and achieving the rank of General not long after Lenin's assassination. The Fifth Army he commanded was one of the Red Army's finest units and pioneered the concept of motorised concentration warfare, but was ultimately defeated by Vladimir Kappel.\n\nAlongside several high ranking Bolsheviks and Red Army leaders, Tukhahevskiy escaped to France, a nation he was already familiar with, and offered his service to the newly established Commune. In the following years, he dedicated his time to essay after essay on the reforms which he believed the French army needs - his close associates said that he owns over a hundred volumes on military tactics and has read every single one. Tukhachevsky expressed dismay at the decentralised structure of the Syndicalist Commune, believing it unfit for modern warfare, and proposed the creation of a unified, centralised, apolitical army instead. Because of this, he came into constant conflict with the Faure government, but the CGT could not simply remove him from the academy - even they understood that Tukhachevsky was the best general which the Internationale has available.\n\nTo resolve this, he and the other Bolsheviks were sent to Patagonia to lead a military mission to help the Argentinian Revolution."
+ RUS_mikhail_tukhachevsky_commander_desc: "§YDescription Générale\nNé le:§! §g16 février 1893, à Alexandrovskoye, gouvernorat de Smolensk, Empire russe§!\n§YCarrière Militaire:§! §gNé au sein de la noblesse russe appauvrie, et selon la rumeur partiellement d'origine flamande, Mikhaïl Toukhatchevski s'est enrôlé dans le corps des cadets de l'armée impériale russe en 1912. Dès son jeune âge, il ne manquait pas d'ambition - et une fois que la Weltkrieg a commencé, il a fièrement déclaré qu'il serait général à trente ans ou mort d'ici là. Après avoir fait preuve d'habileté et de bravoure sur le front de l'Est, Toukhatchevski a atteint cet objectif - mais pas de la manière qu'il avait prévue. Il rejoignit l'Armée rouge en tant que volontaire et monta rapidement en grade, devenant un proche associé de Léon Trotsky, en atteignant le grade de général peu de temps après l'assassinat de Lénine. La Cinquième Armée qu'il commandait était l'une des meilleures unités de l'Armée Rouge et a lancé le concept de guerre de concentration motorisée, tout en étant finalement été vaincue par Vladimir Kappel.\n\nAux côtés de plusieurs bolcheviks de haut rang et de dirigeants de l'Armée rouge, Toukhatchevski s'est enfui en France, une nation qu'il connaissait déjà, et a offert ses services à la Commune nouvellement établie. Au cours des années suivantes, il a consacré son temps, essai après essai, à mettre en oeuvre les réformes dont il pensait que l'Armée Française avait besoin - ses proches collaborateurs ont déclaré qu'il possédait plus d'une centaine de volumes sur la tactique militaire et qu'il avait lu chacun d'eux. Toukhatchevski a cependant exprimé sa consternation face à la structure décentralisée de la Commune Syndicaliste, la jugeant impropre à la guerre moderne, et a proposé à la place la création d'une armée unifiée, centralisée et apolitique. Pour cette raison, il est entré en conflit constant avec le gouvernement français, mais la CGT ne pouvait pas simplement le limoger - réalisant même que Toukhatchevski était le meilleur général dont l'Internationale disposait.\n\nPour résoudre ce problème, lui et les autres bolcheviks ont été envoyés en Patagonie pour diriger une mission militaire pour soutenir la Révolution Argentine."
 
  RUS_mikhail_frunze: "Mikhail Frunze"
  RUS_vasily_blyukher:0 "Vasily Blyukher"
