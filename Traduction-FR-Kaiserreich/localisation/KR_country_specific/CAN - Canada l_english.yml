@@ -847,12 +847,12 @@
  CAN_naval_world_tension_tt: "Completing this focus will give an event that will raise £GFX_pol_violence  §RWorld Tension§! by up to §t4§! percent!"
 
 ### Events ###
- canada.1.t: "The Current Situation"
- canada.1.d: "It has been eleven years since the collapse of the United Kingdom in 1925 and, in that time, the king, the remnants of the British government, and over half a million of the Empire's best and brightest (and wealthiest) have fled to Canada... with the clear expectation that an invasion would soon be launched to take back the Home Isles from the syndicalist upstarts. It quickly became evident, however, that the syndicalist position was stronger than anticipated. Early forays were rebuked, and the last decade has seen the Union of Britain become solidified and entrenched. The Exiles, as they're called in Canada, have meanwhile been left adrift, determined to take back their homeland but facing the political reality that this may never happen."
+ IMP_country_intro_header: "The Current Situation"
+ IMP_country_intro_content: "It has been eleven years since the collapse of the United Kingdom in 1925 and, in that time, the king, the remnants of the British government, and over half a million of the Empire's best and brightest (and wealthiest) have fled to Canada... with the clear expectation that an invasion would soon be launched to take back the Home Isles from the syndicalist upstarts. It quickly became evident, however, that the syndicalist position was stronger than anticipated. Early forays were rebuked, and the last decade has seen the Union of Britain become solidified and entrenched. The Exiles, as they're called in Canada, have meanwhile been left adrift, determined to take back their homeland but facing the political reality that this may never happen."
  canada.1.a: "One day soon, though!"
- canada.2.d: "While initially welcomed with open arms by Canadians, the notion this might be a long-term arrangement has been an increasingly unpleasant one. Fingers were pointed and blame laid on those who were deemed responsible for the collapse and the subsequent inability to rectify matters, and resentment against Exiles who were seen as 'a higher class' in the Dominion as well as above the law has been growing. In 1931, a year after their election, the minority government of R.B. Bennett and his Conservatives collapsed, to be replaced by Mackenzie King and the Liberals with a promised focus on Canadian sovereignty and keeping the British government-in-exile at arm's length rather than acting as if nothing had changed in the relationship."
+ IMP_country_intro_content_1: "While initially welcomed with open arms by Canadians, the notion this might be a long-term arrangement has been an increasingly unpleasant one. Fingers were pointed and blame laid on those who were deemed responsible for the collapse and the subsequent inability to rectify matters, and resentment against Exiles who were seen as 'a higher class' in the Dominion as well as above the law has been growing. In 1931, a year after their election, the minority government of R.B. Bennett and his Conservatives collapsed, to be replaced by Mackenzie King and the Liberals with a promised focus on Canadian sovereignty and keeping the British government-in-exile at arm's length rather than acting as if nothing had changed in the relationship."
  canada.2.a: "Only to be expected"
- canada.3.d: "This year, Mackenzie King and the Liberals are nearing the end of their term and, on top of the tribulations of the Great Depression, there is growing criticism that little progress has been made in resolving the political situation. George V lies on his deathbed, charging the Exiles and the Conservatives with bringing the Empire 'back on track'. His government clashes often with the Liberals, and the Canadian public appears split between those who would see matters come to a head and those who would prefer to abandon their ties to the crown and the French exiles in Africa both. The upcoming election appears as if it will be the most divisive in Canadian history."
+ IMP_country_intro_content_2: "This year, Mackenzie King and the Liberals are nearing the end of their term and, on top of the tribulations of the Great Depression, there is growing criticism that little progress has been made in resolving the political situation. George V lies on his deathbed, charging the Exiles and the Conservatives with bringing the Empire 'back on track'. His government clashes often with the Liberals, and the Canadian public appears split between those who would see matters come to a head and those who would prefer to abandon their ties to the crown and the French exiles in Africa both. The upcoming election appears as if it will be the most divisive in Canadian history."
  canada.3.a: "Goodness!"
 
  canada.4.t: "Death of King George V"
@@ -1402,15 +1402,21 @@
  canada.218.t: "[From.GetNameDefCap] Refuses"
  canada.218.d: "After a visit by the Prime Minister, several long meetings with the [From.GetAdjective] President have resulted in no decisions being reached. According to the President, they are fine with relations between [From.GetNameDef] and [Root.GetNameDef] remaining as they are... meaning they would prefer to keep us at an arms length. Still, the visit was cordial, and several beneficial trade terms were reached."
  canada.218.a: "Ah well"
+
  canada.219.t.usa: "Canada Supports Federal Government"
  canada.219.t.psa: "Canada Supports Pacific Government"
  canada.219.t.aus: "Canada Supports Union Government"
+ canada.219.t.nee: "Canada Supports New England's Government"
  canada.219.d: "Today the Canadian government declared their support for [From.GetNameDef] as the true and only legitimate claimant to the mantle of American leadership in the wake of their civil war. While stopping short of promising direct military intervention, they have offered to bolster [From.GetAdjective] forces with equipment and volunteers as well as an array of military advisors - advisors they have requested from the [Root.GetAdjective] military. The Canadians stated solely that America was required to maintain world order, and prevent the dissolution of one of the world's great powers into chaos."
  canada.219.a: "We stand ready"
 
- canada.220.t: "Canada Declares Support"
+ canada.220.t.usa: "Canada Supports Federal Government"
+ canada.220.t.psa: "Canada Supports Pacific Government"
+ canada.220.t.aus: "Canada Supports Union Government"
+ canada.220.t.nee: "Canada Supports New England's Government"
  canada.220.d: "Today the Canadian government, and through them the exiled British leaders and the entirety of the Entente, declared their support for [Root.GetNameDef] as the true and only legitimate claimant to the mantle of American leadership. While stopping short of promising direct military intervention, they have offered to bolster our forces with equipment and volunteers as well as numerous military advisors to speed military planning. They have, so far, asked for nothing in return, stating solely that victory would be a boon for world order."
  canada.220.a: "We'll take all the help we can get!"
+
  canada.221.t.usa: "Canada Supports Federal Government"
  canada.221.t.psa: "Canada Supports Pacific Government"
  canada.221.t.aus: "Canada Supports Union Government"
@@ -1584,6 +1590,10 @@
  canada.327.t: "A New Generation of Officers"
  canada.327.d: "Many young Canadian officers proved their value during the reconquest of the United Kingdom, showing their valour and their commanding abilities. Now that many British officers have returned home, the Armed Forces Council is promoting many of these Canadians to higher command posts. Some of them have also been given important roles in military academies, so that their experience will help shape a future generation of tacticians, strategists, and leaders."
  canada.327.a: "Excellent"
+ 
+ canada_flavour.1.t: "Miss Serene Efficiency"
+ canada_flavour.1.d: "Canada’s political establishment is, quite clearly, dominated by men. It’s rather rare to see a woman in a bureaucratic position, but Phyllis Gregory, nicknamed “Miss Serene Efficiency”, has broken through those ranks, and made quite a name for herself.\n\nBorn in 1903 in Nova Scotia to a modest family, she quickly showed herself to be an intelligent girl. She quickly learned piano as a child, and was an excellent student. In 1925 she graduated from the University of British Columbia, earning a Bachelor’s degree in economics and political science with first class honours. Along with earning her Bachelor’s she also earned the “Susan B. Anthony Memorial Scholarship” allowing her to study at Bryn Mawr College in Pennsylvania, where she earned her Masters of the Arts. After that she moved to Germany and studied at the University of Marburg, where she wrote her Thesis.\n\nEventually she came back home, to Canada, and she managed to get the position in Ottawa as an Economist. Here her education, intelligence, and sheer skill caused her to raise the ranks, even befriending the Conservative R.B. Bennet.\n\nWith the onset of the Homecoming and the war, she only continued to shine. First she was put on the” War Time Prices and Trade Board” as an economic advisor. After that she became the “Fats and Oils Administrator”, putting her in charge of countless items. Soap, paint, starch, printing ink, as a few examples. She was also tasked with finding new sources of oil to help with the War Effort.\n\nToday she has been made the Chief Economist of the Tariff board, the highest office a woman can hold in Canada. An intelligent and elegant woman, who’s fought and earned every position and accolade she’s been given, an example to all Canadians of what hard work and determination can bring"
+ canada_flavour.1.a: "A truly remarkable woman"
 
  entente.1.t: "IEDC Created"
  entente.1.d: "The Imperial Economic Development Council has been formed in order to foster greater economic cooperation within the Entente. At the [Root.GetAdjective] government's direction, members of the Entente may be invited into the IEDC, where they will be prompted - once a year - to make an investment of political power into its pool, and investment that gains them access to the IEDC's advisors. That pooled political power is spent by the head of the IEDC to invest back into its members."
@@ -2161,6 +2171,7 @@
  entente.309.b: "A sweet admission on their part"
  entente.309.c: "We have little choice"
  entente.309.e: "How unexpected"
+ entente.309.f: "For the sake of Frenchmen elsewhere, we must..."
 
  entente.310.t: "The [ENT.GetConferenceLocation] Conference: Mitteleuropa"
  entente.310.d: "The German delegates at the [ENT.GetConferenceLocation] Conference have come up with a demand in exchange for their cooperation: once we have returned to Paris, we will join Mitteleuropa - the German economic union. No doubt they wish to ensure they economically dominate us as we rebuild the country... though rebuilding would also go much more quickly with their assistance, it's true. Do we swallow this pill? It's not impossible that we could simply refuse once Paris is ours, though there will undoubtedly be consequences for doing so."
@@ -2173,11 +2184,12 @@
  entente.311.b: "No, we must press forward"
 
  entente.312.t: "[NFA.GetNameDefCap] Agrees to Join Mitteleuropa"
- entente.312.d: "The German delegation has demanded that [NFA.GetNameDef] agree to join Mitteleuropa, the German economic union, after Paris has been regained. Most present at the conference believe the Germans intend to have some form of economic control over the French as they rebuild their country, but possibly their offer is benign. Whatever the motivation, the French have agreed: when the time comes, they will join Mitteleuropa as requested."
+ entente.312.d: "The German delegation has demanded that [NFA.GetNameDef] agree to join Mitteleuropa, the German economic union, after Paris has been regained. Most present at the conference believe the Germans intend to have some form of economic control over the French as they rebuild their country, but possibly their offer is benign. Whatever the motivation, the French delegation have agreed: when the time comes, they will join Mitteleuropa as requested."
  entente.312.a: "Ah, good"
  entente.312.b: "We'll believe it when we see it"
  entente.312.c: "How humiliating"
  entente.312.e: "Interesting"
+ entente.312.f: "The unfortunate price for our homecoming..."
 
  entente.313.t: "The [ENT.GetConferenceLocation] Conference: Our Former Colonies"
  entente.313.d: "The German delegates at the conference have a demand: essentially, that the British and French colonies in Africa and Southeast Asia which Germany gained after the First Weltkrieg be recognised as theirs. It's a symbolic move, perhaps, but the Germans would like to forestall any attempts on our part to re-establish our old empires in those regions once our power is regained. That we would even be prepared to go to war for our far-flung colonies is hard to imagine, but - even so - the idea of abandoning them completely does sting."
