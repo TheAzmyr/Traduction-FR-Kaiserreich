@@ -20,9 +20,9 @@
  TUR_republic_authoritarian_democrat_party: "THF"
  TUR_republic_authoritarian_democrat_party_long: "Türkiye Halk Fırkası (Parti Populaire Turc)"
  TUR_republic_paternal_autocrat_party: "THF (Militariste)"
- TUR_republic_paternal_autocrat_party_long: "Türkiye Halk Fırkası Ordu Kolu (Branche Militaire du Parti du Peuple Turc)"
+ TUR_republic_paternal_autocrat_party_long: "Türkiye Halk Fırkası - Ordu Kolu (Parti du Peuple Turc - Militaristes)"
  TUR_republic_national_populist_party: "THF (Kadrocu)"
- TUR_republic_national_populist_party_long: "Türkiye Halk Fırkası Kadroist Kol (Branche Kadroïste du Parti du Peuple Turc)"
+ TUR_republic_national_populist_party_long: "Türkiye Halk Fırkası - Kadroist Kol (Parti du Peuple Turc - Kadroïstes)"
 
  ####################################
  ####### POST DEFEAT OTTOMANS #######
@@ -75,7 +75,7 @@
  TUR_reorganize_ottoman_military: "Réorganiser l'Armée Ottomane"
  TUR_reorganize_ottoman_military_desc: "L'armée ottomane est totalement détruite moralement. Même si la Weltkrieg a été une victoire, notre armée est au bord de l'effondrement depuis le début du siècle. De nombreux généraux considèrent nos forces armées comme la plus grande faiblesse de la nation, comme le prouve leur incapacité à résister aux rebelles arabes. Nous devons les réorganiser de fond en comble."
  TUR_liberal_majority: "Majorité Libérale"
- TUR_liberal_majority_desc: "L'aile libérale et progressiste de la coalition de l'OSP, dirigée par le Prince Sabahattin et son allié démocratique Kazim Karabekir, n'est pas, contrairement aux conservateurs, opposée aux réformes d'Atatürk. Selon eux, l'empire a besoin d'une réorientation progressive, mais doit rester évolutif et démocratique par nature. Ils préconisent l'institution de réformes telles que le suffrage des femmes et les écoles publiques."
+ TUR_liberal_majority_desc: "L'aile libérale et progressiste de la coalition de l'OSP, dirigée par le Prince Sabahattin et son allié démocratique Kazim Karabekir, n'est pas, contrairement aux conservateurs, opposée aux réformes de Kemal. Selon eux, l'empire a besoin d'une réorientation progressive, mais doit rester évolutif et démocratique par nature. Ils préconisent l'institution de réformes telles que le suffrage des femmes et les écoles publiques."
  TUR_promote_political_sociology: "Promouvoir la Sociologie Politique"
  TUR_promote_political_sociology_desc: "Le Prince Sabahattin est un adepte des idées d'Emile Durkheim. Durkheim est le fondateur de la sociologie, l'étude des hommes, de leurs relations et de la société. Le prince souhaite importer cette "science" dans l'Empire afin de participer à l'éducation des masses et d'améliorer la compréhension de la société ottomane."
  TUR_pursue_the_adoption_of_swiss_civil_code: "Poursuivre l'Adoption du Code Civil Suisse"
@@ -357,7 +357,7 @@
 
  ###National Spirits###
  OTT_economic_collapse: "Effondrement Économique"
- OTT_economic_collapse_desc: "L'économie du pays s'est effondrée depuis notre défaite dans la guerre du désert et la perte de la plupart de nos territoires non turcs. La plupart de nos infrastructures sont soit détruites à l'est, soit désorganisées pour l'ouest du pays. En outre, une grande partie de notre économie civile a été amputée."
+ OTT_economic_collapse_desc: "L'économie du pays s'est effondrée depuis notre défaite dans la guerre et la perte de la plupart de nos territoires non turcs. La plupart de nos infrastructures sont soit détruites à l'est, soit désorganisées pour l'ouest du pays. En outre, une grande partie de notre économie civile a été amputée."
 
  TUR_rustu_recovery_plan: "Plan de Fatin Rushdie"
  TUR_rustu_recovery_plan_desc: "Fatin Rüştü est un éminent défenseur de l'ouverture de l'Empire au monde et en particulier aux investissements extérieurs. Entouré d'un groupe d'économistes, il planifie le redressement de l'Empire par le commerce et la politique étrangère."
@@ -616,7 +616,7 @@
  TUR_conservative_majority_tooltip: "L'aile conservatrice de l'OSP a réussi à obtenir une majorité."
  TUR_liberal_majority_tooltip: "L'aile libérale de l'OSP a réussi à obtenir une majorité."
  TUR_reconquer_our_lands: "§YCette priorité nous permettra de revendiquer des terres qui ont une grande population turque ou qui étaient intrinsèquement attachées à l'Empire.§!"
- TUR_republic_needed: "Pour cela, il faut que la §YRépublique de Turquie§! ait été proclamée."
+ TUR_has_proclaimed_republic: "La §YRépublique de Turquie§! a été proclamée"
  TUR_traditionalist_resistance_tooltip: "Résistance Traditionaliste change de $RIGHT|%%0$."
  TUR_Kemal_calcul: "§CNous recevrons une prime selon que la volonté de Kemal a étée honorée ou non.§!"
  TUR_two_event_options: "Cet événement donnera l'une des options suivantes :"
@@ -625,6 +625,7 @@
  influence_adana_70_tooltip: "Notre influence à Iskenderun est §Yplus grande que 70§!."
  TUR_dire_effects: "L'achèvement de cette priorité nous permettra d'engager des réformes économiques fortes. Cependant, leurs conséquences sont incertaines..."
  TUR_needs_kadro: "Cette priorité sera automatiquement complétée si le mouvement kadroïste accède au pouvoir."
+ TUR_if_controlled: "Si contrôlé par §Y[ROOT.GetFlag] [ROOT.GetNameDef]§!:"
 
  ###Leader Traits####
  TUR_ikinci_adam:0 "İkinci Adam"
@@ -640,8 +641,8 @@
  TUR_OHF_members_desc: "Cet officier est membre de l'OHF, le parti kémaliste, et le soutiendra même en temps de crise."
 
  ###Modifiers###
- OHF_controled_state: "Contrôle Centralisé"
- HIF_decentralised_state: "Contrôle Décentralisé"
+ TUR_centralist_control_modifier:0 "Contrôle Centralisé"
+ TUR_decentralist_control_modifier:0 "Contrôle Décentralisé"
  TUR_tarikats: "Tarikat"
  TUR_kemalist_loyalties: "Contrôle Kémaliste"
  TUR_kurdish_autonomy: "Autonomie Kurde"
@@ -652,14 +653,13 @@
  TUR_kemalists_desc: "Les réformes kémalistes visent à suivre les visions que Mustafa Kemal avait d'une nation turque moderne, et sont basées sur le testament que le Gazi a donné à Ismet Pacha, son ami fidèle. Dans son testament, Kemal a consigné tous les souhaits qu'il avait pour le nouvel État turc. Ses réformes reposent sur six principes fondamentaux : républicanisme, nationalisme, populisme, laïcité, révolution et étatisme. Cependant, la volonté de Kemal est complexe, extrémiste et profondément anti-religieuse. Il aurait souhaité la séparation totale de l'église et de l'état et avait des idées encore plus sombres concernant le Padishah. Ismet Pacha devra faire face à la résistance des traditionalistes s'il veut appliquer ces réformes.\n\n Résistance actuelle des traditionalistes : [?TUR_traditionalist_resistance|%%R]\n\nCependant, si nous pouvions convaincre la population de nos bonnes intentions ou si nous faisions quelques concessions aux traditionalistes, nous devrions être en mesure de réduire leur résistance."
  TUR_loyal_administrators: "Administrateurs Actuellement Loyaux"
  TUR_install_loyalists: "Installer les Administrateurs Loyaux dans §Y[From.GetName]§!"
- TUR_install_loyalists_industry_tt: "A plus de 3 infrastructures !"
- TUR_deal_with_traditionalists: "Traiter avec les Rebelles Traditionalistes"
- TUR_multi_partism: "Rétablir la Pluralité Politique"
- TUR_directorate_religious: "Créer la Direction des Affaires Religieuses"
- TUR_women_political_party: "Soutenir les Mouvements Politiques des Femmes"
- TUR_medicine: "Promouvoir la Médecine Moderne"
- TUR_religious_politic: "Interdire les Organisations Politiques Religieuses"
- TUR_obscurantism: "Répression de l'Obscurantisme"
+ TUR_deal_with_traditionalist_rebels:0 "Traiter avec les Rebelles Traditionalistes"
+ TUR_reinstate_political_plurality:0 "Rétablir la Pluralité Politique"
+ TUR_create_the_directorate_of_the_religious_affairs:0 "Créer la Direction des Affaires Religieuses"
+ TUR_support_women_political_movement:0 "Soutenir les Mouvements Politiques des Femmes"
+ TUR_promote_modern_medicine:0 "Promouvoir la Médecine Moderne"
+ TUR_ban_religious_political_organizations:0 "Interdire les Organisations Politiques Religieuses"
+ TUR_struggle_against_obscurantism:0 "Répression de l'Obscurantisme"
 
  TUR_OHF_resistance: "Résistance OHF"
  TUR_deal_with_OHF: "Éliminer la Résistance de l'OHF dans §Y[FROM.GetName]§!"
@@ -730,7 +730,7 @@
  TUR_kurdish_revolt_timeout: "Vaincre la Révolte Kurde !"
 
  TUR_increase_kurdish_unrest: "Augmente §Yl'Agitation Kurde§! de $RIGHT|R0%%$."
- TUR_decrease_kurdish_unrest: "Diminue §Yl'Agitation Kurde§! de $RIGHT|R0%%$."
+ TUR_decrease_kurdish_unrest: "Diminue §Yl'Agitation Kurde§! de $RIGHT|G0%%$."
 
  TUR_kurdish_revolt_at_fifty_percent: "§GL'Agitation Kurde sera supprimée si elle est maintenue en dessous de 50%.§!.\n§RAbaisse le seuil d'une révolte kurde à 50%.§!."
 
