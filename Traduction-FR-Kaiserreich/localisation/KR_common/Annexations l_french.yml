@@ -882,8 +882,11 @@ annexation_SRD_CONQ_desc: "Nos armées ont pris le contrôle de la Sardaigne et 
 annexation_MLT_CONQ: "Le destin de Malte"
 annexation_MLT_CONQ_desc: "Malte a été placée sous notre direction et nos troupes occupent l'île. Nous devons maintenant décider de ce qu'il faut en faire."
  annex.1103.a: "Libérer Malte comme une marionnette"
- annex.1103.b: "Rendez-la aux Britanniques."
- annex.1103.c: "Transférez-la à notre allié italien"
+ annex.1103.b: "Donnez-la aux Britanniques."
+ annex.1103.c: "[ITA.GetGrantTerritoryEventOption]"
+ annex.1103.d: "[SRI.GetGrantTerritoryEventOption]"
+ annex.1103.e: "[SIC.GetGrantTerritoryEventOption]"
+ annex.1103.f: "[SRD.GetGrantTerritoryEventOption]"
 
  annexation_ARDENNES_CONQ: "Le Destin des Ardennes"
  annexation_ARDENNES_CONQ_desc: "La région boisée et peu peuplée des Ardennes est maintenant sous notre contrôle, nous devons décider ce que nous allons en faire."
@@ -1757,8 +1760,9 @@ annexation_MLT_CONQ_desc: "Malte a été placée sous notre direction et nos tro
 
  annexation_KARABAKH_CONQ: "Le Destin de Karabakh"
  annexation_KARABAKH_CONQ_desc: "Les hautes terres du Karabakh ont été placées sous notre contrôle alors que nos troupes occupent la région. Nous devons maintenant décider de ce qu'il faut en faire."
- annex.4011.a: "Donnez la à l'[ARM.GetNameDef]"
- annex.4011.b: "Donnez la à l"[AZR.GetNameDef]"
+ annex.4011.a: "[ARM.GetGrantTerritoryEventOption]"
+ annex.4011.b: "[AZR.GetGrantTerritoryEventOption]"
+ annex.4011.c:0 "[russia.GetGrantTerritoryEventOption]"
 
  annexation_ARM_CONQ: "Le destin de l'Arménie"
  annexation_ARM_CONQ_desc: "Après des combats acharnés dans le Caucase, nous avons conquis etannexé l'Arménie. L'armée arménienne s'est rendue et le territoire est sous notre contrôle, mais le peuple est encore résistant mais bientôt il se soumettra."
