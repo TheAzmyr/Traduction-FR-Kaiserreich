@@ -298,11 +298,11 @@ african_divisions_3: "§GDeux divisions motorisées expertes de la Mittelafrika 
 
  MAF_Mau_Mau_Revolt: "§H[Root.GetNameDef]§! déclare la guerre à §H$KEN_KIK$§!."
 
- MAF_Bush_War_start_tt: "§RLa Guerre de Bush va commencer.§!\n§H[Root.GetNameDef]§! déclare la guerre à §H$POR$§!."
+ MAF_Bush_War_start_tt: "§RLa Guerre de Bush va commencer.§!\n§H[MAF.GetNameDef]§! déclare la guerre à §H$POR$§!."
 
  MAF_Bush_War_MAF_victory_requirement_tt: "§PMittelafrika§! §Lgagnera si elle contrôle au moins trois des états suivants détenus par le§! §CPortugal§! §L:§! §g[540.GetName], [544.GetName], [917.GetName]§! §Let§! §g[950.GetName].§!"
 
- MAF_Bush_War_POR_victory_requirement_tt: "§LLe§! §CPortugal§! §Lgagnera s'il contrôle au moins trois des états suivants détenus par§! §CMittelafrika§! §L:§! §g[813.GetName], [871.GetName], [879.GetName]§! §Let§! §g[958.GetName].§!"
+ MAF_Bush_War_POR_victory_requirement_tt: "Le §CPortugal§! §L va l'emporter s'il contrôle au moins trois des états suivants possédés par §! §PMittelafrika§!§L:§! §g[813.GetName] , [871.GetName] , [879.GetName] §! §Let §! §g[958.GetName] §!, §Lou si nous atteignons §! §G40%§! §L ou plus en faveur de la capitulation.§!"
 
  MAF_Bush_War_POR_advantage_tt: "Le §CPortugal§! a actuellement l'avantage."
  MAF_Bush_War_MAF_advantage_tt: "§PMittelafrika§! a actuellement l'avantage."
@@ -1216,7 +1216,7 @@ mittel.187.a: "Merveilleux !"
 
 ## Kenyan Events ##
  mittel.400.t: "L'Associal Centrale Kikuyu"
- mittel.400.d: "Lorsque nous nous sommes installés sur le territoire britannique en 1925, l'emprise britannique sur le territoire était dangereusement faible après 7 ans de guerre. La même année, les grèves britanniques ont coïncidé avec une série de protestations des indigènes en Afrique orientale Britannique ; l'expropriation continue des terres les plus productives par les colons britanniques autour des hauts plateaux du centre a poussé les Kikuyu à s'organiser pour négocier collectivement avec l'administration kenyane. Avec la position intransigeante du Conseil Législatif Kenyan, leurs appels sont tombés dans l'oreille d'un sourd, ce qui a conduit l'organisation à rechercher d'autres voies pour atteindre ses objectifs. Leur radicalisation semble avoir augmenté rapidement, avec des affrontements quotidiens entre eux et les forces de sécurité anglo-saxonnes. L'administration kenyane nous a demandé de nous préparer à les aider si la situation s'aggravait encore."
+ mittel.400.d: "Lorsque nous nous sommes installés au Kenya britannique en 1925, l'emprise britannique sur le territoire était dangereusement affaiblie après cinq années de guerre. La même année, les grèves britanniques ont coïncidé avec une série de protestations des autochtones de l'Afrique orientale britannique ; l'expropriation continue des terres les plus productives par les colons britanniques autour des Central Highlands a poussé les Kikuyus à s'organiser pour négocier collectivement avec l'administration kenyane. Le Conseil législatif kenyan restant intransigeant, leurs demandes sont restées lettre morte, ce qui a conduit l'organisation à chercher d'autres moyens d'atteindre ses objectifs. Leur radicalisation semble s'être accrue rapidement, avec des affrontements quotidiens entre eux et les forces de sécurité anglo-saxonnes. L'administration kenyane nous a demandé de nous préparer à leur venir en aide si la situation venait à s'aggraver."
  mittel.400.a: "Ne peuvent-ils pas s'en occuper eux-mêmes ?"
 
  mittel.401.t:0 "La politique de colonisation des hauts plateaux kenyans"
@@ -1230,8 +1230,8 @@ mittel.187.a: "Merveilleux !"
  mittel.402.b:0 "Rappeler les colons allemands."
  mittel.402.c:0 "Utiliser la main-d'œuvre kikuyu pour les projets de remise en état des terres."
 
- mittel.403.t:0 "La mort du grand chef Waruhui"
- mittel.403.d:0 "Dans une tournure choquante des événements, des tireurs inconnus ont abattu le chef suprême Waruhiu wa Kung'u cet après-midi au grand jour. Waruhiu était notre principal collaborateur parmi les Kikuyu. Nos responsables de la sécurité ont noté la montée de la violence religieuse fondée sur le serment chez les Kikuyu. Apparemment, ils mènent secrètement des \"rituels magiques\" et jurent de tuer les colons blancs. En tuant le chef Waruhiu, qui avait un garde du corps et qui était tenu en haute estime par notre administration, ils ont démontré qu'il n'y a presque personne dans les hautes terres du Kenya qu'ils ne peuvent pas tuer, pour l'heure."
+ mittel.403.t: "La mort de Josslyn Hay"
+ mittel.403.d: "Cet après-midi, Josslyn Hay, 22e comte d'Erroll, a été abattu en plein jour. Hay était une voix pro-allemande parmi l'élite blanche kenyane, ce qui suggère qu'il s'agissait d'une attaque ciblée contre notre administration.\n\nLes autorités kenyanes ont constaté une augmentation de la violence religieuse, fondée sur le serment, parmi les Kikuyus. Les Kikuyus se livreraient à des "rituels magiques" sous le couvert de l'obscurité et feraient le serment de tuer les colons blancs.\n\nNos propres sources soulignent que Hay s'est fait plus d'un ennemi dans sa vie personnelle en raison de son comportement filandreux et de son approche peu orthodoxe de la politique."
  mittel.403.a:0 "Déclarer l'état d'urgence au Kenya."
 
  mittel.404.t:0 "Achèvement de la récupération des terres"
@@ -1245,10 +1245,6 @@ mittel.187.a: "Merveilleux !"
  mittel.406.t:0 "Les Mau Mau sont vaincus"
  mittel.406.d:0 "Après une guerre de guérilla acharnée contre la révolte des Mau Mau au Kenya, nous avons finalement réussi à abattre la plupart des guerriers rebelles et à arrêter, abattre ou exécuter la plupart des leaders de la rébellion. Le Kenya devrait être en paix pour un moment ..."
  mittel.406.a:0 "Drei Hurra für Mittelafrika !"
-
- mittel.407.t:0 "Une autre révolte Mau Mau !"
- mittel.407.d:0 "Le peuple Kikuyu, que nous avons déjà vaincu une fois, s'est encore révolté ! Nous pensions avoir réglé les problèmes au Kenya.... Nous devons envoyer de nouveau nos forces armées, sinon, cette fois-ci, elles pourraient même réussir à accomplir plus que de simples massacres..."
- mittel.407.a:0 "Envoyez l'armée !"
 
 ## Collapse Events ##
  mittel.20001.t: "Le Nigeria fait sécession de la Mittelafrika"

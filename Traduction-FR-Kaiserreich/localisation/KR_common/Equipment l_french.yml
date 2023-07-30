@@ -2010,9 +2010,9 @@
  CHI_EQUIPMENT_VERSION_16: "P"
 
 ### Land ###
- CHI_infantry_equipment_0: "Jiangfu Type 88"
- CHI_infantry_equipment_0_short: "Jiangfu Type 88"
- CHI_infantry_equipment_0_desc: "À l'origine un produit des efforts d'auto-renforcement de la fin de l'ère Guangxu, le Type 88 a été conçu comme une copie proche du Gewehr 88 allemand avec des modifications d'exportation. Bien que collectivement inférieure aux fusils plus récents malgré les améliorations, et souvent mal entretenue, l'arme est connue pour être robuste et fiable bien qu'elle soit elle peu maniable.\n\nCette variété est produite dans les petits ateliers de la zone insurrectionnelle du Jiangfu, bien que les pénuries d'équipement et les préférences personnelles la voient souvent utilisée aux côtés d'une grande variété d'autres armes telles que le Daodao."
+ CHI_infantry_equipment_0: "MinGan Type 88"
+ CHI_infantry_equipment_0_short: "MinGan Type 88"
+ CHI_infantry_equipment_0_desc: "À l'origine un produit des efforts d'auto-renforcement de la fin de l'ère Guangxu, le Type 88 a été conçu comme une copie proche du Gewehr 88 allemand avec des modifications d'exportation. Bien que collectivement inférieure aux fusils plus récents malgré les améliorations, et souvent mal entretenue, l'arme est connue pour être robuste et fiable bien qu'elle soit elle peu maniable.\n\nCette variété est produite dans les petits ateliers de la zone insurrectionnelle du Mingan, bien que les pénuries d'équipement et les préférences personnelles la voient souvent utilisée aux côtés d'une grande variété d'autres armes telles que le Daodao."
  CHI_infantry_equipment_1:0 "Huadong Type 27"
  CHI_infantry_equipment_1_short: "Huadong Type 27"
  CHI_infantry_equipment_1_desc: "Appelé à l'origine « Xuantong Type 27 », ce fusil a été mis au service des Qing en 1935 après la restauration grâce à l'aide allemande. L'arme est fonctionnellement une copie proche du Mauser M1924 allemand, et une amélioration considérable par rapport au Type 88 beaucoup plus ancien en termes de poids et de recul.\n\nProduit pour la première fois dans l'arsenal de Hanyang avec des outils allemands, les méthodes de fabrication se sont déjà répandues dans les zones détenues par le KMT, bien qu'il ne puisse pas remplacer complètement ses prédécesseurs avant un certain temps."
@@ -2060,7 +2060,7 @@
 
  CHI_motorized_equipment_1: "Type Xinzhong 'New China'"
  CHI_motorized_equipment_1_short: "Xinzhong"
- CHI_motorized_equipment_1_desc: "Grâce aux efforts d'un groupe d'ingénieurs chinois dirigé par Zhi Bingyuan, combinés aux nombreux avantages des camions de fabrication allemande, le Kuomintang a construit le Type Xinzhong avec des pièces produites dans le pays, au sein de la base de Jiangfu, à Longyan. Sa boîte de vitesses, sa transmission et son mécanisme de direction sont tous fabriqués en Chine et peuvent s'adapter au terrain montagneux de la Chine. Son concepteur Zhi Bingyuan l'a nommé « Xinzhong », ce qui signifie « Nouvelle Chine »."
+ CHI_motorized_equipment_1_desc: "Grâce aux efforts d'un groupe d'ingénieurs chinois dirigé par Zhi Bingyuan, combinés aux nombreux avantages des camions de fabrication allemande, le Kuomintang a construit le Type Xinzhong avec des pièces produites dans le pays, au sein de la base de Mingan, à Longyan. Sa boîte de vitesses, sa transmission et son mécanisme de direction sont tous fabriqués en Chine et peuvent s'adapter au terrain montagneux de la Chine. Son concepteur Zhi Bingyuan l'a nommé « Xinzhong », ce qui signifie « Nouvelle Chine »."
 
  CHI_mechanized_equipment_1: "Renault UE Chenillette"
  CHI_mechanized_equipment_1_short: "Renault UE"
@@ -4461,9 +4461,10 @@
  GER_train_equipment_3_short: "Prussian G 13 P"
  GER_train_equipment_3_desc: "Alors que les chemins de fer commençaient à être attaqués par des avions ennemis, les nouvelles locomotives devant servir sur les fronts devaient pouvoir encaisser des coups de canons jusqu'à 20 mm. Pour protéger la locomotive contre les attaques aériennes, certaines locomotives Prussiennes G13 sont équipées de plaques de blindage de trois pouces d'épaisseur situées le long de la locomotive, pour en protéger les pièces vitales."
 
- GER_railway_gun_equipment_1: "Eisenbahngeschütz 80-cm Kanone"
- GER_railway_gun_equipment_1_short: "80-cm K. (E)"
- GER_railway_gun_equipment_1_desc: "Spécialement conçu pour détruire les fortifications lourdes, le canon ferroviaire de 800 mm de Krupp est capable de percer sept mètres de béton armé. Le canon est supporté par deux plateformes ferroviaires et nécessite des rails semi-circulaires spéciaux pour fonctionner."
+ # Bayern-class Battleship guns
+ GER_railway_gun_equipment_1: "Eisenbahn und Bettungsgerüst SK L/45 de 38 cm "
+ GER_railway_gun_equipment_1_short: "E.u.B 38 cm"
+ GER_railway_gun_equipment_1_desc: "À l'origine un canon naval, les canons de rechange commandés pour les cuirassés de classe Bayern ont été réutilisés pour le service terrestre en tant que canons ferroviaires et batteries côtières pendant la Grande Guerre. Suite à la Paix avec Honneur, certains canons de la classe Bayern ont été remplacés et entreposés. En les réalésant, ils peuvent à nouveau être remis en service dans l'artillerie terrestre."
 
 #Artillery
 
@@ -5886,13 +5887,18 @@
  JAP_armored_car_at_equipment_short: "Voiture Blindée Type 4"
 
 # Trains
- JAP_train_equipment_1: "Classe JGR D50"
- JAP_train_equipment_1_short: "JGR D50"
- JAP_train_equipment_2: "Classe JGR D52"
- JAP_train_equipment_2_short: "JGR D52"
- JAP_train_equipment_3: "Type 94"
-
- JAP_railway_gun_equipment_1: "Type 90"
+ JAP_train_equipment_1: "Chemins de fer du Gouvernement Japonais Classe D51"
+ JAP_train_equipment_1_short: "JGR Class D51"
+ JAP_train_equipment_1_desc: "Alors que la classe D50 était très appréciée, la situation financière du début des années 1930 n'a conduit à aucune nouvelle conception de locomotive de fret jusqu'en 1936. La dernière conception de locomotive de fret, la classe D51, disposait de nombreuses améliorations, allant de l'utilisation de la soudure à la mise en œuvre d'une chaudière à pression plus élevée, cylindres révisés, charge par essieu réduite et raccourcissement global de la locomotive. Ce modèle s'est avéré un grand pas en avant par rapport à son prédécesseur."
+ JAP_train_equipment_2: "Chemins de fer du Gouvernement Japonais Classe D52"
+ JAP_train_equipment_2_short: "JGR Class D52"
+ JAP_train_equipment_2_desc: "Basé sur le modèle D51, le D52 y incorpore de nombreuses modifications pour améliorer les performances de la locomotive et en réduire le coût de production. Le nouveau modèle a une plus grande surface de chaudière et de grille, ce qui entraîne un effort de traction plus élevé, tandis que les considérations d'austérité permettent de remplacer le marchepied par du bois et d'imposer des normes de production plus souples pour la plupart des composants."
+ JAP_train_equipment_3: "Train Blindé Type 94 de l'Armée Impériale Japonaise"
+ JAP_train_equipment_3_short: "IJA Type 94"
+ JAP_train_equipment_3_desc: "Basé sur les leçons tirées du train blindé improvisé, le Type 94 peut atteindre jusqu'à 60 km/h et a une autonomie de 150 km. Principalement conçu pour transporter des wagons d'artillerie et des trains blindés spécialisés, le train n'était pas très apprécié des équipages de locomotives ou des militaires."
+ JAP_railway_gun_equipment_1: "Canon ferroviaire Type 90 de 365mm de l'Armée Impériale Japonaise"
+ JAP_railway_gun_equipment_1_short: "IJA Type 90"
+ JAP_railway_gun_equipment_1_desc: "Un canon usé acheté à l'IJN, le fiable canon naval Vickers 14 pouces / 45 a été remis à neuf et utilisé brièvement comme artillerie côtière avant d'être placé sur un chariot d'artillerie spécial. Le canon ferroviaire a été conçu avec des traverses à 360 degrés et avait un moteur auxiliaire, donnant une autonomie limitée au canon."
 
 #Artillery
 

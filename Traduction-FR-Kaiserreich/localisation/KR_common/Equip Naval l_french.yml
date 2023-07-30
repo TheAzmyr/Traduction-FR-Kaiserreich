@@ -39,14 +39,72 @@
 
 ### German Empire (GER) ###
 # Module
+# German Empire used L/XX (barrel length) rather then Nazi German C/XX (introduction year)
+ GER_ship_light_battery_1: "10.5 cm SK L/45"
+# 12.7 cm SK C/34
+ GER_ship_light_battery_2: "12.7 cm SK L/43"
+ GER_ship_light_battery_3: "12.7 cm SK L/43 jumellés"
+# cruiser gun but mounted on a destroyer, along the lines of the Spahkreuzers
+ GER_ship_light_battery_4: "15 cm SK L/55 jumellés"
+
+ GER_dp_light_battery_1: "10.5 cm SK L/65 jumellés"
+# 12.8 cm FlaK 40
+ GER_dp_light_battery_2: "12.8 cm SK L/61 jumellés"
+# fictional upgrade of the 12.8 cm FlaK 40 with a longer barrel
+ GER_dp_light_battery_3: "12.8 cm SK L/65 jumellés"
+# fictional cruiser gun but mounted on a destroyer, along the line of the Spahkreuzers
+ GER_dp_light_battery_4: "15 cm SK L/45 jumellés"
+
+ GER_ship_secondaries_1: "15 cm SK L/45"
+ GER_ship_secondaries_2: "15 cm SK L/55"
+# fictional
+ GER_ship_secondaries_3: "17 cm SK L/45"
+# yes we're putting CA guns on BB
+ GER_ship_secondaries_4: "20 cm SK L/60"
+
+ GER_ship_light_medium_battery_1: "15 cm SK L/45"
+ GER_ship_light_medium_battery_2: "15 cm SK L/55"
+ GER_ship_light_medium_battery_3: "17 cm SK L/45"
+ GER_ship_light_medium_battery_4: "20 cm SK L/60"
+
+# fictional, similar to the USN 6"/47
+ GER_dp_ship_medium_1: "15 cm L/45 jumellés"
+
+# fictional downgrade of 20.3 cm SK C/34
+ GER_ship_medium_battery_1: "20.3 cm SK L/50 jumellés"
+# 20.3 cm SK C/34
+ GER_ship_medium_battery_2: "20.3 cm SK L/50 jumellés"
+ GER_ship_medium_battery_3: "20.3 cm SK L/60 triple"
+# fictional upgrade of 21 cm SK L/45, a WW1-era Armoured Cruiser gun
+ GER_ship_medium_battery_4: "21 cm SK L/55 triple"
+
+ GER_ship_heavy_battery_1: "38 cm SK L/45"
+# fictional
+ GER_ship_heavy_battery_2: "42 cm SK L/45"
+# fictional
+ GER_ship_heavy_battery_3: "46 cm SK L/45"
+# fictional
+ GER_ship_heavy_battery_4: "46 cm SK L/50"
+
+# fictional
+ GER_ship_super_heavy_battery_1: "46 cm SK L/45"
+
+ GER_ship_torpedo_1: "Torpilles Triples 533 mm"
+ GER_ship_torpedo_2: "Torpilles Quadruples 533 mm"
+ GER_ship_torpedo_3: "Torpilles Quintuples 533 mm"
+ GER_ship_torpedo_4: "Torpilles Quadruples 610 mm"
+
  GER_ship_fire_control_system_1: "Type 1935 (C. 35)"
+
  GER_ship_anti_air_1: "Quadruple 2cm Flakvierling"
  GER_ship_anti_air_2: "Twin 3,7cm AA (SK C/30)"
  GER_ship_anti_air_3: "Twin 8,8cm AA (SK C/32)"
  GER_ship_anti_air_4: "Twin 3,7cm Flak M43"
  GER_ship_anti_air_5: "Twin 10,5cm AA (SK C/33 na)"
+
  GER_ship_sub_snorkel_1: "Float Valve Schnorchel"
  GER_ship_sub_snorkel_2: "Improved Schnorchel"
+
  GER_ship_sonar_1: "Atlas-Werke GHG"
  GER_ship_sonar_2: "S-Gerät"
  GER_ship_radar_1: "FuMO 22 Radar"
@@ -56,30 +114,43 @@
 
 ### Japan (JAP) ###
 # Module
- JAP_ship_light_battery_1: "120mm/45 Type 3"
- JAP_ship_light_battery_2: "127mm/50 Type 3"
- JAP_ship_light_battery_3: "Twin 127mm/50 Type 3"
- JAP_ship_light_battery_4: "Twin 127mm/50 Type 3 Kai"
- JAP_dp_light_battery: "Twin 100mm/65 Type 98"
- JAP_ship_light_medium_battery_1: "14cm/50 3rd Year Type"
- JAP_ship_light_medium_battery_2: "Twin 152mm Type 41"
- JAP_ship_light_medium_battery_3: "Triple 155mm/60 3rd Year Type"
- JAP_ship_light_medium_battery_4: "Triple 155mm/60 3rd Year Type Kai"
+ JAP_ship_light_battery_1: "12 cm/45 Type 3"
+ JAP_ship_light_battery_2: "12.7 cm/50 Type 3"
+ JAP_ship_light_battery_3: "12.7 cm/50 Type 3 jumellés"
+ JAP_ship_light_battery_4: "12.7 cm/50 Type 3 Kai jumellés"
+
+ JAP_dp_light_battery_1: "12cm/40 Type 10ème année"
+ JAP_dp_light_battery_2: "12.7 cm/40 Type 89"
+ JAP_dp_light_battery_3: "10 cm/65 Type 98"
+ JAP_dp_light_battery_4: "12.7 cm/40 Type 3, Tourelle Modèle D"
+
+ JAP_ship_light_medium_battery_1: "14 cm/50 Type 3ème année"
+ JAP_ship_light_medium_battery_2: "15 cm/50 Type 41ème année"
+ JAP_ship_light_medium_battery_3: "15.5 cm/60 Type 3ème année"
+ JAP_ship_light_medium_battery_4: "15.5 cm/60 Type Kai 3ème année"
+
  JAP_ship_medium_battery_1: "20 cm/50 3rd Year Type Mk 1"
  JAP_ship_medium_battery_2: "20 cm/50 3rd Year Type Mk 2"
- # Fake design, a overall improved version of the 20cm/50 3rd Year Type:
+ # Fake design, an overall improved version of the 20cm/50 3rd Year Type:
  JAP_ship_medium_battery_3: "20 cm/50 Type 98"
  # Design B-65's gun, but you can now put it on a cruiser:
  JAP_ship_medium_battery_4: "31 cm/50 Type 0"
+
  # British gun, used on Japan's early Battlecruisers/Battleships:
  JAP_ship_heavy_battery_1: "Vickers 14 inch/45"
- JAP_ship_heavy_battery_2: "41cm/45 3rd Year Type"
- JAP_ship_heavy_battery_3: "46cm/45 3rd Year Type"
+ JAP_ship_heavy_battery_2: "41 cm/45 Type 3ème année"
+ JAP_ship_heavy_battery_3: "46 cm/45 Type 3ème année"
  # Really just the 46cm/45 Type 94, but the type designation changed :
- JAP_ship_heavy_battery_4: "46cm/45 Type 2"
- JAP_ship_secondaries_1: "15cm/50 41st Year Type"
- JAP_ship_secondaries_2: "14cm/45 3rd Year Type"
- JAP_dp_ship_secondaries: "Twin 100mm/65 Type 98"
+ JAP_ship_heavy_battery_4: "46 cm/45 Type 2"
+
+ JAP_ship_secondaries_1: "15 cm/50 Type 41ème année"
+ JAP_ship_secondaries_2: "14 cm/45 Type 3ème année"
+
+ JAP_dp_ship_secondaries_1: "12cm/40 Type 10ème année"
+ JAP_dp_ship_secondaries_2: "12.7 cm/40 Type 89"
+ JAP_dp_ship_secondaries_3: "10 cm/65 Type 98"
+ JAP_dp_ship_secondaries_4: "12.7 cm/40 Type 3, Tourelle Modèle D"
+
  # Yamato gun but it's invented a decade earlier:
  JAP_ship_super_heavy_battery_1: "46cm/45 Type 94"
 
