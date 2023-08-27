@@ -587,21 +587,14 @@
 # Ottoman General Assembly #
 ############################
  OTT_congress: "Chambre des Députés"
- OTT_assembly_desc: "Situé dans la capitale impériale de Kostantiniyye, le §YMeclis-i Mebusân§! ou Chambre des Députés sert de chambre basse de l'§YAssemblée Générale§! Ottomane bicamérale. Avec des députés envoyés de tous les Vilayets de l'Empire, il y a une représentation depuis le golfe d'Aden jusqu'à Edirne, et de Chypre à Bagdad. Pour mettre de l'ordre dans cette myriade d'ethnies, d'appartenances religieuses et de langues, ces députés se sont organisés en 2 principaux blocs de pouvoir : Le Bloc Centralisateur §COHF§! et l'Entente §CLibérale§! Décentralisatrice. Ce dernier organe se compose d'une multitude de petits partis régionaux aux opinions le plus souvent opposées, collés les uns aux autres uniquement pour s'opposer aux Centralistes."
+ OTT_congress_desc: "[OTT_congress_desc]"
+ OTT_congress_desc_liberal:0 "Situé dans la capitale impériale de Kostantiniyye, le §YMeclis-i Mebusân§! ou Chambre des Députés sert de chambre basse de l'§YAssemblée Générale§! Ottomane bicamérale. Avec des députés envoyés de tous les Vilayets de l'Empire, il y a une représentation depuis le golfe d'Aden jusqu'à Edirne, et de Chypre à Bagdad. Pour mettre de l'ordre dans cette myriade d'ethnies, d'appartenances religieuses et de langues, ces députés se sont organisés en 2 principaux blocs de pouvoir : Le Bloc Centralisateur §COHF§! et l'Entente §CLibérale§! Décentralisatrice. Ce dernier organe se compose d'une multitude de petits partis régionaux aux opinions le plus souvent opposées, collés les uns aux autres uniquement pour s'opposer aux Centralistes."
+
  OTT_congress_house_support_header: "§HSoutien de la Chambre§!"
  OTT_congress_house_support_amount: "§G[?OTT.representatives_support]§! /§Y[?OTT.representatives_total]§!"
 
- OTT_proposal_content: "GFX_goal_bankruptcy"
-
- OTT_ohf_support_header: "§gOHF§! : §R[?OTT.ohf_deputies]§!"
- OTT_hif_support_header: "§HHIF§! : §G[?OTT.hif_deputies]§!"
- OTT_odf_support_header: "[OTT_DF_PARTY_HEADER_TT]"
- OTT_DF_PARTY_HEADER_TT_YES: "§YDF§! : §G[?OTT.odf_deputies]§!"
- OTT_DF_PARTY_HEADER_TT_NO: "§YDF§! : §R[?OTT.odf_deputies]§!"
- OTT_con_support_header: "§CConservateur§! : §G[?OTT.con_sup_deputies]§!/[?OTT.con_deputies]"
- OTT_a_nat_support_header: "§CA. Nationaliste§! : §G[?OTT.nat_ara_sup_deputies]§!/[?OTT.nat_ara_deputies]"
- OTT_t_nat_support_header: "§CT. Nationaliste§! : §G[?OTT.nat_tur_sup_deputies]§!/[?OTT.nat_tur_deputies]"
- OTT_ind_support_header: "§CIndépendant§! : §G[?OTT.ind_sup_deputies]§!/[?OTT.ind_deputies]"
+ OTT_congress_major_parties_liberal: "§gOHF§!: §R[?OTT.ohf_deputies]§!\n§lHIF§!: §G[?OTT.hif_deputies]§!\n§YDF§!: §[OTT_DF_PARTY_HEADER_TT][?OTT.odf_deputies]§!"
+ OTT_congress_minor_parties_liberal: "§CConservateur§!: §G[?OTT.con_sup_deputies]§!/[?OTT.con_deputies]\n§CA. Nationaliste§!: §G[?OTT.nat_ara_sup_deputies]§!/[?OTT.nat_ara_deputies]\n§CT. Nationaliste§!: §G[?OTT.nat_tur_sup_deputies]§!/[?OTT.nat_tur_deputies]\n§CIndépendant§!: §G[?OTT.ind_sup_deputies]§!/[?OTT.ind_deputies]"
 
  ott_small_support_congress_deficit_tt: "§gDepuis que nous avons moins de §Y124 £deputies_texticon  députés§! de notre côté au sein du §CMeclis-i Mebusân§! (§Wactuellement : §Y[?OTT.representatives_support]§! £deputies_texticon  §!), nous recevrons les effets suivants :§!\n"
  ott_plurality_congress_deficit_tt: "§gDepuis que nous avons moins de §Y249 £deputies_texticon  députés§! de notre côté au sein du §CMeclis-i Mebusân§! (§Wactuellement : §Y[?OTT.representatives_support]§! £deputies_texticon  §!), nous recevrons les effets suivants :§!\n"
@@ -2735,7 +2728,7 @@
  ottfor.35.t.no_ottomans: "Silence de la Sublime Porte"
  ottfor.35.d.no_ottomans: "Des rapports inquiétants en provenance du siège du Calife Sunnite, résonnant comme un appel à l'aide dans le conflit entre les armées d'Ibn Saoud et l'imamat d'Oman, ont été ignorés. Il s'agit d'une tâche sur le prestige du Padishah et une autre preuve de la valeur décadente de l'institution califale. Cependant, tout n'est pas encore perdu car nos anciens alliés britanniques du Raj restent une voie possible vers le salut. Bien que l'imam proteste farouchement contre leur implication, arguant que leurs adversaires se sont tout juste montrés capables de briser leurs chaînes, les notables de Mascate tout comme le Sultan lui-même ont toujours privilégié cette approche."
  ottfor.35.a: "Accepter l'offre ottomane"
- ottfor.35.b: "Contacter Delhi pour de l'assistance"
+ ottfor.35.b: "Contactez [RAJ.Capital.GetCapitalVictoryPointName] pour obtenir de l'aide."
  ottfor.35.c: "Nous affronterons cette crise seuls !"
 
  ottfor.36.t: "Muscat accepte notre offre"
@@ -2752,18 +2745,18 @@
  ottfor.38.b: "Nous avons d'autres priorités"
 
  ottfor.39.t: "Le Raj Britannique vient à notre aide"
- ottfor.39.d: "Soucieux d'empêcher Ibn Saud d'accéder pleinement à l'océan Indien, le gouvernement de Delhi a envoyé des cipayes et d'autres renforts pour nous aider dans notre lutte."
+ ottfor.39.d: "Soucieux d'empêcher Ibn Saud d'accéder à l'océan Indien, le gouvernement de [RAJ.Capital.GetCapitalVictoryPointName] a envoyé des sepoys et d'autres renforts pour nous aider dans notre lutte."
  ottfor.39.a: "Nous en sommes reconnaissant"
 
  ottfor.40.t: "Le Raj britannique s'abstient d'intervenir"
- ottfor.40.d.ottomans: "Le gouvernement de Delhi a décidé qu'il n'était pas dans son intérêt de nous aider et a donc refusé d'envoyer des renforts. L'offre de la Porte tient toujours et beaucoup pensent maintenant que nous n'avons pas d'autre choix que d'accepter leur aide, bien que les nationalistes Omanais nous aient exhortés à affronter les Saoudiens par nous-mêmes."
- ottfor.40.d.no_ottomans: "Le gouvernement de Delhi a décidé qu'il n'était pas dans son intérêt de nous aider et a donc refusé d'envoyer des renforts. Sans aide non plus de la Porte, il semble que nous devrons nous attaquer seuls aux Saoudiens..."
+ ottfor.40.d.ottomans: "Le gouvernement de [RAJ.Capital.GetCapitalVictoryPointName] a décidé qu'il n'était pas dans son intérêt de nous aider et a donc refusé d'envoyer des renforts. L'offre de la Porte tient toujours et beaucoup pensent que nous n'avons pas d'autre choix que d'accepter leur aide, bien que les nationalistes omanais aient insisté pour que nous nous attaquions aux Saoudiens par nous-mêmes."
+ ottfor.40.d.no_ottomans: "Le gouvernement de [RAJ.Capital.GetCapitalVictoryPointName] a décidé qu'il n'était pas dans son intérêt de nous aider et a donc refusé d'envoyer des renforts. Comme la Porte ne nous aide pas non plus, il semble que nous devions affronter les Saoudiens seuls..."
  ottfor.40.a: "Alors il nous faut nous tourner vers la Porte..."
  ottfor.40.b: "Alors, nous devrons défendre nos maisons par nous-mêmes !"
 
  ottfor.41.t: "La Chute de Nizwa"
  ottfor.41.d.OTT: "Bien que les troupes de l'amiral Rauf Pasha aient été envoyées pour défendre l'ensemble de Mascate et d'Oman contre les forces envahissantes d'Ibn Saoud, la forte résistance de l'intérieur omanais contre les troupes ottomanes sur leur sol les a conduits à exercer peu de protection en dehors des centres urbains du littoral de Mascate.\n\nCes tribus, fidèles à leur imam de Nizwa, ont obstinément continué à combattre les Ikhwan seules, mais ont été contraintes plus tôt dans la journée de se rendre à Ibn Saoud, lorsque leur capitale est tombée après un siège de deux semaines. Des rapports horribles de soldats Ikhwan éviscèrant des combattants de la résistance ibadites, et la traînée de destruction laissée dans leur sillage (notamment à Nizwa qui a été réduite en cendres) a effrayé le détachement ottoman et le Sultan de Mascate.\n\nRauf Pacha, estimant que le seul moyen de protéger Mascate est un plus grand engagement ottoman sur ce théâtre, a demandé des renforts supplémentaires à Bassorah et a élaboré des plans pour mettre le Sultan à l'écart et établir l'armée ottomane comme la véritable autorité sur le terrain. Ayant perdu une partie importante de leur puissance de combat, les Mascatis ne peuvent pas faire grand-chose pour y résister, mais beaucoup à Kostantiniyye ont exprimé leur prudence face à une nouvelle extension des hostilités et appellent plutôt à une retraite vers Bassorah (en faisant ainsi de Mascate une proie facile pour les Saoudiens)."
- ottfor.41.d.RAJ: "Bien que nos troupes aient été envoyées pour défendre l'intégralité de Mascate et d'Oman contre les forces d'invasion d'Ibn Saoud, la forte résistance de l'intérieur omanaise contre les troupes indiennes sur leur sol les a conduits à n'exercer que peu de protection en dehors des centres urbains de la côte de Mascate.\n\nCes tribus, fidèles à leur imam à Nizwa, ont obstinément continué à combattre les Ikhwan seules, mais ont été contraintes plus tôt dans la journée de se rendre à Ibn Saoud, lorsque leur capitale est tombée après un siège de deux semaines. Des rapports horribles de soldats Ikhwan éviscérant des combattants de la résistance ibadites, et la traînée de destruction laissée dans leur sillage (notamment à Nizwa qui a été réduit en cendres) a effrayé le détachement indien et le Sultan de Mascate.\n\nNotre commandant sur le terrain, estimant que le seul moyen de protéger Mascate est un plus grand engagement indien sur le théâtre, a demandé des renforts supplémentaires à Karachi et a élaboré des plans pour mettre le Sultan sur la touche et faire de l'armée indienne la véritable autorité sur le terrain. Ayant perdu une partie importante de leur puissance de combat, les Mascatis ne peuvent pas faire grand-chose pour résister à cela, mais beaucoup à Delhi ont exprimé leur prudence face à une extension supplémentaire et appellent plutôt à une retraite vers Karachi (faisant ainsi de Mascate une proie facile pour les Saoudiens)."
+ ottfor.41.d.RAJ: "Bien que nos troupes aient été envoyées pour défendre l'ensemble de Mascate et d'Oman contre les forces d'Ibn Saoud, la forte résistance de l'intérieur d'Oman contre les troupes indiennes sur leur sol les a amenés à n'exercer qu'une faible protection en dehors des centres urbains de la côte de Mascate.\n\nCes tribus, fidèles à leur imam à Nizwa, ont obstinément continué à combattre les Ikhwan par leurs propres moyens, mais ont été obligées de se rendre à Ibn Saoud lorsque leur capitale est tombée après un siège de deux semaines. Des rapports macabres faisant état de soldats Ikhwan éventrant des résistants Ibadi à découvert, et la traînée de destruction laissée dans leur sillage (notamment à Nizwa, qui a été réduite en cendres) ont effrayé le détachement indien et le sultan de Mascate.\n\nNotre commandant sur place, convaincu que le seul moyen de protéger Mascate est un engagement plus important de l'Inde sur le théâtre, a demandé des renforts supplémentaires à Karachi et a élaboré des plans pour mettre le sultan sur la touche et faire de l'armée indienne la véritable autorité sur le terrain. Ayant perdu une part importante de leur puissance de combat, les Muscatis ne peuvent pas faire grand-chose pour résister, mais de nombreux membres de [RAJ.Capital.GetCapitalVictoryPointName] ont exprimé leur prudence face à une extension excessive et appellent plutôt à une retraite vers Karachi (laissant ainsi Mascate une proie facile pour les Saoudiens)."
  ottfor.41.a: "Soutenir Rauf Pasha"
  ottfor.41.b: "Soutenir le Sultan"
  ottfor.41.c: "Rappeler les troupes [ROOT.GetAdjective]es depuis Mascate"

@@ -86,8 +86,8 @@ l_french:
  POL_kingdom_ADJ:0 "Polonais"
  POL_kingdom_DEF:0 "la Pologne"
 
- POL_gengov_paternal_autocrat:0 "Generalgouvernement Warschau"
- POL_gengov_paternal_autocrat_DEF: "le Generalgouvernement Warschau"
+ POL_gengov:0 "Generalgouvernement Warschau"
+ POL_gengov_DEF:0 "le Generalgouvernement Warschau"
 
  POL_AUS_kingdom: "Royaume de Pologne"
  POL_AUS_kingdom_ADJ:0 "Polonais"
@@ -752,8 +752,9 @@ l_french:
  POL_polish_control_desc: ""
 
  POL_issues_at_hand: "Les Laissés Pour Compte"
+ POL_issues_at_hand_modifier_tt: "[POL_Issues_MonthlyPopulation]\n[POL_Issues_ConsumerGoods]\n[POL_Issues_MaxEfficiency]\n[POL_Issues_ResearchSpeed]"
  POL_issues_at_hand_modifier: "£pol_idea Les Laissés Pour Compte"
- POL_issues_at_hand_desc: "La société polonaise est confrontée à de nombreux problèmes - pauvreté, inégalité des richesses, analphabétisme - mais son plus grand problème est la terre sur laquelle elle se trouve. La propriété foncière en Pologne est très inégale - un certain nombre de très grands domaines ont survécu à la domination russe et contrôlent le marché agricole, tandis que des dizaines - voire des centaines - de milliers de petites exploitations familiales restent appauvries. Une réforme agraire limitée a été tentée, mais elle n'a pas donné de résultats, en grande partie à cause de l'indécision du gouvernement et du manque de fonds. Le boom démographique de la dernière décennie n'a fait qu'exacerber les problèmes, les rapprochant de plus en plus d'un point de rupture.\n--------------\n[POL_Issues_MonthlyPopulation]\n[POL_Issues_ConsumerGoods]\n[POL_Issues_MaxEfficiency].\n[POL_Issues_ResearchSpeed]."
+ POL_issues_at_hand_desc: "La société polonaise est confrontée à de nombreux problèmes - pauvreté, inégalité des richesses, analphabétisme - mais son plus grand problème est la terre même sur laquelle elle est assise. La propriété foncière en Pologne est extrêmement inégale : un certain nombre de très grands domaines ont survécu à la domination russe et contrôlent le marché agricole, tandis que des dizaines - voire des centaines - de milliers de petites exploitations familiales restent appauvries. Une réforme agraire limitée a été tentée, mais elle n'a pas donné de résultats, en grande partie à cause de l'indécision du gouvernement et du manque de fonds. Le boom démographique de la dernière décennie n'a fait qu'exacerber les problèmes, les rapprochant de plus en plus d'un point de rupture."
 
  POL_issues_at_hand_monthly_population_text: "$MODIFIER_GLOBAL_MONTHLY_POPULATION$: [?POL_issues_at_hand_monthly_population|+=%1]"
  POL_issues_at_hand_monthly_population_text_last: "$MODIFIER_GLOBAL_MONTHLY_POPULATION$: [?POL_issues_at_hand_monthly_population|+=%1]"
@@ -2577,26 +2578,6 @@ l_french:
  poland.466.t: "Améliorer l'Alphabétisation en Milieu Rural"
  poland.466.d: "Historiquement, la Pologne anciennement contrôlée par les Russes, ou "Congrès", avait un taux d'alphabétisation abyssal. Pendant longtemps, il n'y avait pas d'enseignement obligatoire, et lorsqu'il y en avait un, il était entaché par les objectifs de la russification. Cette situation contrastait fortement avec la "Pologne allemande" et la "Pologne autrichienne", qui avaient toutes deux un taux d'alphabétisation relativement bon et des systèmes éducatifs organisés depuis le 19e siècle.\n\nGrâce aux fortes politiques pro-éducation de nos anciens gouvernements, à l'immigration de Polonais instruits en provenance de Biélorussie et d'Allemagne, et au travail inlassable de l'élite culturelle polonaise, notre Pologne indépendante se rapproche enfin de Poznań ou de Cracovie en matière d'alphabétisation."
  poland.466.a:0 "Excellent."
-
- poland.490.t: "Révision de la frontière Roumano- [713.owner.GetAdjective]e"
- poland.490.d: "Après la partition de la Galice et de la Lodomérie, [713.owner.GetName] a obtenu le contrôle du territoire de l'ancien Duché de Bucovine. Ce territoire a été traditionnellement gouverné par l'élite moldave, bien que la démographie ait beaucoup changé au cours du siècle dernier. Les parties méridionales sont encore fortement roumaines, et si un plébiscite est organisé, elles nous rejoindraient probablement. Nous pourrions demander au gouvernement [713.owner.GetAdjective] d'autoriser un référendum régional en échange de certains accords commerciaux qui leur seraient bénéfiques."
- poland.490.a:0 "Faites-le."
- poland.490.b:0 "Ignorez la."
-
- poland.491.t: "Révision de la frontière Roumano- [713.owner.GetAdjective]e"
- poland.491.d: "Après l'annexion de la Galice et de la Lodomérie, nous avons pris le contrôle de l'ancien Duché de Bucovine. Ce territoire a été traditionnellement gouverné par l'élite moldave, bien que la démographie ait beaucoup changé au cours du siècle dernier. Les parties méridionales sont encore fortement roumaines et, si un plébiscite est organisé, elles rejoindraient probablement la Roumanie. Bucarest nous a demandé d'autoriser un référendum régional en échange de certains accords commerciaux qui nous seraient bénéfiques."
- poland.491.a: "Ça paraît juste."
- poland.491.b:0 "Nous devons garder toute la Bucovine !"
-
- poland.492.t: "Union avec la Bucovine"
- poland.492.d: "Le [89.owner.GetAdjective] a permis aux habitants de Bucovine de voter pour décider à quelle nation ils souhaitent appartenir, et beaucoup nous ont choisis. En accord, nous avons rédigé un traité qui honorera les souhaits des habitants - et donnera à [89.owner.GetName] un accord commercial plutôt bénéfique, bien que cette partie soit quelque peu passée sous silence."
- poland.492.a:0 "Welcome, brothers!"
-
- poland.493.t: "[713.owner.GetAdjective] refuse la révision des frontières"
- poland.493.d: "Le gouvernement [713.owner.GetAdjective] a refusé de nous vendre la Bucovine. Nous devrons essayer autre chose."
- poland.493.a:0 "Un jour, nous la prendrons par la force !"
- sell_bucovina: "Le Traité de Suecava"
- buy_bucovina: "Le Traité de Suecava"
 
 ###### Uprising events #######
 
