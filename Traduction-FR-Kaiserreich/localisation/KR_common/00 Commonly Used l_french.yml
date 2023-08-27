@@ -25,12 +25,17 @@
 
  if_controlled_by_PREV: "si est contrôlé par §Y[PREV.GetNonIdeologyName]§! :"
 
- may_lead_to_war_with_FROM:0 "§RPeut mener à une guerre avec [From.GetNameDef]§!"
- may_lead_to_war_with_FROM_overlord:0 "§RPeut mener à une guerre avec [From.Overlord.GetNameDef]§!"
+ may_lead_to_war_with_THIS: "§RPeut mener à une guerre avec [This.GetNameDef]!§!"
+ may_lead_to_war_with_FROM: "§RPeut mener à une guerre avec [From.GetNameDef]§!"
+ may_lead_to_war_with_FROM_overlord: "§RPeut mener à une guerre avec [From.Overlord.GetNameDef]§!"
+ may_lead_to_war_with_FROM_FROM: "§RPeut mener à une guerre avec [From.From.GetNameDef]!§!"
+ may_lead_to_war_with_FROM_FROM_overlord: "§RPeut mener à une guerre avec [From.From.Overlord.GetNameDef]!§!"
 
  state_integration_at_fifty_compliance: "Peut devenir un état national lorsqu'il atteint une §Hconformité moyenne de 50%§!."
  state_integration_at_eighty_compliance: "Peut devenir un état national lorsqu'il atteint une §Hconformité moyenne de 80%§!."
  state_integration_law_unlocked: "Permet l'application de la loi d'occupation §H$territorial_integration$§!"
+
+ kill_character_tt: "meurt."
 
  # used to generate tooltips in dockyard or naval base foci when the country doesn't own any coastal states
  random_owned_controlled_coastal_state: "Un État côtier détenu et contrôlé de manière aléatoire"
@@ -42,6 +47,8 @@
  received_equipment_5000: "Vous avez reçu §G5000§! de matériel d'infanterie de ce pays\n"
 
 ### Flag Loc segments ###
+ has_completed_focus: "A terminé la priorité §H"
+
  has_completed_decision: "A pris la décision £decision_icon_small §H"
  gets_event_start: "Obtient l'événement "§H"
  gets_event_end: "§!"."
@@ -223,6 +230,37 @@
 
  loc_kingdom:0 "Royaume"
  loc_republic:0 "République"
+
+ loc_king: "Roi"
+ loc_queen: "Reine"
+ loc_duke: "Duc"
+ loc_duchess: "Duchesse"
+ loc_emperor: "Empereur"
+ loc_empress: "Impératrice"
+ loc_kaiser: "Kaiser"
+ loc_kaiserin: "Kaiserin"
+ loc_tsar: "Tsar"
+ loc_tsarina: "Tsarine"
+ loc_hetman:0 "Hetman"
+ loc_hetmanka: "Hetmanka"
+ loc_emir: "Émir"
+ loc_emira: "Émira"
+ loc_sultan: "Sultan"
+ loc_sultana: "Sultane"
+ loc_shah: "Shah"
+ loc_shahbanu: " Chahbanou"
+ loc_khan: "Khan"
+ loc_khatun: "Khatun"
+ loc_nizam: "Nizam"
+ loc_mwami: "Mwami"
+ loc_boqor: "Boqor"
+ loc_boqorad: "Boqorad"
+
+ loc_pope: "Pape"
+ loc_catholicos: "Catholicos"
+ loc_imam: "Imam"
+
+ loc_regent: "Régent"
 
  loc_royal: "royal"
  loc_royal_cap: "Royal"
