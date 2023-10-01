@@ -67,14 +67,37 @@
 ### Name Lists ###
  NAME_THEME_LITERARY_FIGURES: "Personnages de la littérature"
 
+ ## Balance of Power ###
+ ROM_power_balance: "Grand Jeu"
+ ROM_balance_of_power_category:0 "Le Grand Jeu"
+ ROM_balance_of_power_category_desc: "[ROM_great_game_bop_desc]"
+
+ ROM_great_game_carol_category_desc: "Le mouvement légionnaire a beau détenir toutes les fonctions gouvernementales importantes, Carol II reste le roi - et nombreux sont ceux qui préfèrent un monarque fort au culte populiste de Codreanu. Nous ne pouvons pas encore risquer un conflit ouvert avec les légionnaires, mais une fois que nos ennemis étrangers auront été conquis, §Rtous les paris seront ouverts.§!"
+ ROM_great_game_czc_category_desc: "Les légionnaires ont acquis une position forte au sein du gouvernement, mais le roi plane au-dessus de leurs têtes, conspirant et attendant un signe de faiblesse. Nous ne devons pas le laisser menacer notre État. Cependant, nous ne pouvons pas encore risquer un conflit ouvert avec le roi, mais une fois que nos ennemis étrangers auront été conquis, §Rtous les paris seront ouverts.§!\n\n"
+
+ ROM_power_balance_carol_winning: "Roi Carol II"
+ ROM_power_balance_carol_losing: "Conducâtor Codreanu"
+
+ ROM_power_balance_legion_losing: "$ROM_power_balance_carol_winning$"
+ ROM_power_balance_legion_winning: "$ROM_power_balance_carol_losing$"
+
+ ROM_bop_stage_0_legion: "Légion - Opposition Bruyante"
+ ROM_bop_stage_1_legion: "Légion - Forte Pression"
+ ROM_bop_stage_2_legion: "Légion - Emprise Affaiblie"
+ ROM_bop_stage_4_legion: "Légion - Emprise Solide"
+ ROM_bop_stage_5_legion: "Légion - Contrôle de la Législation"
+ ROM_bop_stage_6_legion: "Légion - Contrôle Total"
+ ROM_bop_stage_3: "Équilibre des Pouvoirs"
+ ROM_bop_stage_0_carol: "Roi - Autocrate Total"
+ ROM_bop_stage_1_carol: "Roi - Autocrate Fort"
+ ROM_bop_stage_2_carol: "Roi - Autocratique"
+ ROM_bop_stage_4_carol: "Roi - Emprise Faible"
+ ROM_bop_stage_5_carol: "King - Puissance Diminuée"
+ ROM_bop_stage_6_carol: "King - Contrôle Faible"
+
 ### Ideas ###
- ROM_great_game_trait: ""
- ROM_great_game: "Le Grand Jeu - En équilibre"
+ ROM_great_game:0 "Le Grand Jeu"
  ROM_great_game_desc: "Le Roi et le Capitaine jouent un Grand Jeu, et tout est littéralement en jeu - l'avenir de toute la Roumanie. Pour l'instant, les deux sont à égalité de puissance, ce qui fait de chaque décision importante une question de compromis."
- ROM_great_game_czc: "Le Grand Jeu - Domination des Légionnaires"
- ROM_great_game_czc_desc: "Notre Roi et le Capitaine jouent un Grand Jeu, et tout est littéralement en jeu - l'avenir de toute la Roumanie. Le gouvernement Légionnaire a le dessus dans ce jeu meurtrier, mais le roi méprisé a toujours la capacité de défier l'administration de Codreanu, à chaque tour."
- ROM_great_game_carol: "Le Grand Jeu - Domination du Roi"
- ROM_great_game_carol_desc: "Notre Roi et le Capitaine jouent un Grand Jeu, et tout est littéralement en jeu - l'avenir de toute la Roumanie. Le Roi est fermement considéré comme l'homme le plus influent de la nation. Une Garde de Fer amère et revancharde a intensifié sa campagne de violence de rue contre ses opposants."
  ROM_incomplete_land_reform: "Réforme Agraire Incomplète"
  ROM_incomplete_land_reform_desc: "La Réforme Agraire Légionnaire de 1934 n'a jamais été menée tout à fait à son terme, mais a plutôt été suspendue sous la pression de la monarchie. Le Capitaine, cependant, n'en a pas abandonné l'idée."
  ROM_unionist_zeal: "Zèle Unioniste"
@@ -175,11 +198,11 @@
  ROM_open_doors_policy: "Politique de la Porte Ouverte"
  ROM_rural_banks_expansion: "Banques coopératives rurales"
  ROM_dirigism: "Dirigisme Limité"
- ROM_peasant_state_idea: "Etat Paysan"
+ ROM_peasant_state_idea: "L'État Paysan"
  ROM_peasant_constitution_soclib: "Constitution Paysanne de Maniu"
  ROM_peasant_constitution_socdem: "Constitution Paysanne de Madgearu"
  ROM_peasant_constitution_soccon: "Constitution Paysanne de Vaida-Voevod"
- ROM_peasant_state_constitution_dummy: "Constitution Paysanne"
+ ROM_peasant_state_constitution_dummy: "La Constitution Paysanne"
 
  ROM_defanging_legionaries: "Désacraliser les Légionnaires"
  ROM_defanging_legionaries2: "Nouvelle Image des Légionnaires"
@@ -196,6 +219,8 @@
  ROM_warrior_cult: "Culte du Guerrier"
 
  ROM_strikes: "Grêves"
+
+ ROM_bratianu_connections: "Liens avec la Famille Brătianu"
 
  ROM_treaty_of_suceava: "Traité de Suceava"
 
@@ -217,6 +242,8 @@
  ROM_captain_influence_1: "§RViolemment sous-pression§!"
  ROM_captain_influence_0: "§ROpposition Remuante§!"
 
+ ROM_embargo_tt: "Les relations commerciales avec les nations du Reichspakt s'§Reffondreront§!."
+
  ROM_great_game_balance_equal: "§YPour l'instant, le rapport de force est à l'équilibre; et les deux camps se tiennent mutuellement en respect.§!"
  ROM_great_game_balance_unequal: "§RL'équilibre des pouvoirs a été perturbé, faisant chuter continuellement la stabilité de notre nation. Bien que cela puisse être nécessaire pendant un certain temps, nous devrions tenter de résoudre ce problème dès que nous le pourrons.§!"
 
@@ -224,13 +251,6 @@
  ROM_great_game_active_NOT: "Ne possède pas l'esprit national §HLe Grand Jeu§!"
  ROM_selectcarol: "A pris le parti du Roi dans le Grand Jeu."
  ROM_selectczc: "A pris le parti du Capitaine dans le Grand Jeu."
-
- ROM_great_game_start_category: "Le Grand Jeu"
- ROM_great_game_start_category_desc: "Deux hommes sont à la tête de la Roumanie, et la seule chose qui les unit est leur souhait de voir leur pays réunifié avec la Transylvanie. D'ici là, le roi Carol II et le Conducâtor Codreanu maintiendront leur trêve.\n\n[ROM_great_game_balance]\n\nInfluence du roi Carol II : [ROM_king_influence]\nInfluence du gouvernement de Codreanu : [ROM_captain_influence]"
- ROM_great_game_carol_category: "Le Grand Jeu"
- ROM_great_game_carol_category_desc: "Le mouvement Légionnaire contrôle peut être toutes les fonctions gouvernementales importantes, mais Carol II est toujours le roi - et nombreux sont ceux qui préféreraient un monarque fort au culte populiste de Codreanu. Nous ne pouvons pas encore risquer un conflit ouvert avec les Légionnaires, mais une fois nos ennemis étrangers vaincus,§Rtous les paris sont ouverts§!\n\n[ROM_great_game_balance]\n\nInfluence du roi Carol II : [ROM_king_influence]\nInfluence du gouvernement de Codreanu : [ROM_captain_influence]"
- ROM_great_game_czc_category: "Le Grand Jeu"
- ROM_great_game_czc_category_desc: "Les Légionnaires ont sécurisé une position forte au sein du gouvernement, mais le Roi plane toujours au-dessus de leurs têtes, conspirant et guettant un signe de faiblesse. Nous ne devons pas le laisser menacer notre État. Nous ne pouvons pas encore risquer un conflit ouvert avec le roi, mais une fois nos ennemis étrangers seronr vaincus, §Rtous les paris seront ouverts.§!\n\n[ROM_great_game_balance]\n\nInfluence du roi Carol II : [ROM_king_influence]\nInfluence du gouvernement de Codreanu : [ROM_captain_influence]"
 
  ROM_1cap: "Nécessite au moins §RViolemment sous-pression§! pour les Légionnaires."
  ROM_1king: "Nécessite au moins §RPouvoir faiblissant§! pour le Roi."
@@ -244,10 +264,10 @@
 
  ROM_eco_explainer_king: "§CLe dernier Esprit National de cette section de l'arbre vous donnera un Esprit National unique en fonction de vos choix. En commençant par le programme du Roi Carol, votre objectif final se rapprochera de sa vision d'une Roumanie urbaine et avancée.§!\n"
  ROM_eco_explainer_cap: "§CLe dernier Esprit National de cette section de l'arbre vou'une Roumanie puissante et agricole.§!\n"
- ROM_eco_cap: "Se rapprocher de la §Hpolitique économique de Codreanu§!.\nActiver ceci va §Rdépenser§! l'§GInfluence politique de Codereanu§!.\n"
- ROM_eco_captain_strong: "Se rapprocher grandement de la §Hpolitique économique de Codreanu§!.\nActiver ceci va §Rdépenser§! l'§GInfluence politique de Codereanu§!.\n"
- ROM_eco_king: "Se rapprocher de la §Hpolitique économique du Roi Carol§!.\nActiver ceci va §Rdépenser§! l'§gInfluence politique du Roi§!.\n"
- ROM_eco_king_strong: "Se rapprocher grandement de la §Hpolitique économique du Roi Carol§!.\nActiver ceci va §Rdépenser§! l'§gInfluence politique du Roi§!.\n"
+ ROM_eco_cap: "Se rapprocher de la §Hpolitique économique de Codreanu§!.\n"
+ ROM_eco_captain_strong: "Se rapprocher fortement de la §Hpolitique économique de Codreanu§!."
+ ROM_eco_king: "Se rapprocher de la §Hpolitique économique du Roi Carol§!.\n"
+ ROM_eco_king_strong: "Se rapprocher fortement de la §Hpolitique économique du Roi Carol§!."
  ROM_eco_finish_explainer: "§CVous obtiendrez un Esprit National en fonction de vos choix économiques antérieurs. La réforme de Codreanu vous accordera une base de main-d'œuvre et une stabilité solides, tandis que la vision de Carol est axée sur l'industrie et le progrès technologique.§! \n"
 
  ROM_malaxa_tooltip: "Débloque §gMALAXA§! en tant qu'entreprise d'ingéniérie."
@@ -276,14 +296,7 @@
  ROM_leave_faction_desc: "Maintenant que nous avons recouvré nos terres ancestrales et vaincu nos ennemis communs, certains remettent en question notre alliance militaire continue. Devrions-nous poursuivre cette alliance formelle, de peur d'être entraînés dans un nouveau conflit dont nos alliés actuels pourraient se trouver partie prenante, ou nos intérêts devraient-ils rester proches de ceux qui sont les plus proches de nous ?"
 
  ROM_volunteers_arrive: "Une division de volontaires roumains va arriver."
- ROM_volunteers: "La division de volontaires roumains a été intégrée dans l'armée."
 
- ROM_pol_king: "Améliore l'influence du §gRoi Carol§!.\n"
- ROM_pol_king10: "Améliore grandement l'influence du §gRoi Carol§!.\n"
- ROM_pol_king_d: "Activer ceci va §Rdépenser§! §gl'influence politique du Roi§!.\n"
- ROM_pol_cap: "Améliore l'influence de §GCodreanu§!.\n"
- ROM_pol_cap10: "Améliore grandement l'infuence de §GCodreanu§!.\n"
- ROM_pol_cap_d: "Activer ceci va §Rdépenser§! l'§Ginfluence politique de Codreanu§!.\n"
  ROM_select_czc: "Vous jouerez du point de vue du mouvement légionnaire. Votre $MODIFIER_POLITICAL_POWER_FACTOR$ sera lié à la popularité du parti §NNational Populiste§!.\n"
  ROM_select_carol: "Vous jouerez du point de vue du Roi Carol II. Votre $MODIFIER_POLITICAL_POWER_FACTOR$ sera lié à la popularité du parti §PAutocratie Paternelle§!.\n"
 
@@ -405,7 +418,7 @@
  ROM_reconquest_category_desc: "Depuis que Michel le Grand a établi son royaume, notre tâche sacrée est claire : une union roumaine sur les deux versants des Carpates. Une union avec les plaines de Bucovine, où Stephen le Grand a dormi pendant des siècles. Dans notre énergie morale et notre vaillance résident les moyens de lui redonner ce qui lui revient de droit, à savoir une grande et libre Roumanie s'étendant de la Tisa à la Mer Noire, et de prospérer en paix selon nos coutumes, nos espoirs et nos rêves.\n[ROM_revolt_strength_desc]"
 
  ROM_legion_category: "Factions de la Légion"
- ROM_legion_category_desc: "La Légion n'est pas vraiment un mouvement unitaire. Même si chacun ne cherche que la grandeur pour tous les Roumains, beaucoup sont en désaccord sur les méthodes à adopter et sur la question du leadership. Corneliu Codreanu a consolidé sa position en tant que personnalité de premier plan au sein du mouvement ...\n\n... mais sa position ne sera pas éternelle, et son emprise sur le mouvement demande à être constamment réaffirmée. L'emprise de Codreanu sur le mouvement est actuellement [ROM_IG_CZC_influence].\n§GEmprise de Codereanu:§! [?ROM_IG_CZC]\n§YVieille Garde de la Légion:§! [?ROM_IG_OG]\n§C Corps des Ouvriers Légionnaires:§! [?ROM_IG_CML]\n§RL'aile Radicale:§! [?ROM_IG_CNTZ]"
+ ROM_legion_category_desc: "La Légion n'est pas vraiment un mouvement unitaire. Même si chacun ne cherche que la grandeur pour tous les Roumains, beaucoup sont en désaccord sur les méthodes à adopter et sur la question du leadership. Corneliu Codreanu a consolidé sa position en tant que personnalité de premier plan au sein du mouvement ...\n\n... mais sa position ne sera pas éternelle, et son emprise sur le mouvement demande à être constamment réaffirmée. L'emprise de Codreanu sur le mouvement est actuellement [ROM_IG_CZC_influence].\n§GEmprise de Codereanu:§! [?ROM_IG_CZC]\n§YVieille Garde de la Légion:§! [?ROM_IG_OG]\n§C Corps des Ouvriers Légionnaires:§! [?ROM_IG_CML]\n§RL'aile Radicale:§! [?ROM_IG_CNTZ]\n"
  ROM_IG_CZC_influence_2: "§GForte§!"
  ROM_IG_CZC_influence_1: "§RContestée§!"
 
@@ -698,7 +711,7 @@
 
  ROM_expand_river_flotilla: "Le Delta du Danube"
  ROM_expand_river_flotilla_desc: "Le grand Danube forme notre frontière sud et il est essentiel à la fois pour notre défense et pour notre économie. Maintenant qu'il est enfin entre nos mains, nous pouvons l'utiliser à nouveau comme artère du commerce, du transport et de l'industrie de la construction navale."
- ROM_black_sea_fleet: "Flotte de la Mer Noire"
+ ROM_black_sea_fleet: "Améliorer la Flotte de la Mer Noire"
  ROM_black_sea_fleet_desc: "La marine roumaine reste assez petite - certainement pas suffisante pour protéger notre côte de la mer Noire. Il est temps que nous la développions en une véritable force, et un nouveau programme naval sera adopté à cette fin."
  ROM_modern_randunica: "Le Rândunica Moderne"
  ROM_modern_randunica_desc: "Le Rândunica a été le premier torpilleur moderne de la marine roumaine, lancé en 1875. Son symbole est important parmi nos officiers et nos passionnés de marine et nos nouveaux destroyers emporteront son héritage avec eux sur la mer Noire."
@@ -739,9 +752,9 @@
  ROM_legionary_victory: "Roumanie Légionnaire"
  ROM_legionary_victory_desc: "Contre toute attente, nous avons triomphé dans notre lutte pour le pouvoir, contre notre rusé Souverain. La dernière barrière sur notre chemin ayant été écartée, nous pouvons pleinement concentrer nos énergies pour transformer la Roumanie en un véritable titan des Balkans, tout comme elle l'était à l'époque de Burebista et de Dromichaetes."
 
- ROM_captain_triumphant: "Capitaine Triomphant"
+ ROM_captain_triumphant: "Le Capitaine Triomphant"
  ROM_captain_triumphant_desc: "La crise de Stelescu ayant été désamorcée avec succès, et les plans du Roi contrecarrés, le Capitaine est maintenant l'homme le plus puissant de Roumanie. Tout comme il a réussi à faire passer la Légion d'un petit groupe de six à la force la plus puissante de Roumanie, il dirigera son pays vers un avenir meilleur."
- ROM_king_under_surveillance: "Le Roi sous surveillance"
+ ROM_king_under_surveillance: "Un Roi sous surveillance"
  ROM_king_under_surveillance_desc: "Si l'institution monarchique est respectable, il est clair qu'il faut l'empêcher de trop intervenir dans nos affaires. En veillant à ce que les administrations vitales de la cour soient toujours occupées par nos hommes, nous pouvons réduire suffisamment la marge de manœuvre du roi pour qu'il n'ait d'autre choix que de coopérer. Si le Roi est le symbole de la nation, il ne doit pas s'opposer à sa volonté, telle que nous l'incarnons."
  ROM_legionary_industrialization: "Industrialisation Légionnaire"
  ROM_legionary_industrialization_desc: "La nation roumaine peut être éternellement redevable à sa paysannerie, mais une nation forte a également besoin d'une industrie forte. En libérant les énergies de notre peuple, guidé par notre main directrice, nous atteindrons avec succès notre objectif d'une nation industrialisée forte, capable de faire face à l'avenir tout en respectant notre passé."
@@ -790,7 +803,7 @@
  ROM_green_prince_stands_up_desc: "[cantacuzino1desc]"
  ROM_green_prince_stands_up1_desc: "Le chaos qui a suivi l'assassinat de notre Capitaine bien-aimé, et le conflit entre le Roi et les Légionnaires est devenu trop lourd à supporter. Une main ferme est devenue nécessaire. Heureusement, le bon homme s'est levé au bon moment, reprenant avec succès le contrôle de la Légion et du pays. Maintenant, la Roumanie sera gouvernée par la main ferme qu'elle exige ; la poigne de fer du prince Alexandru Cantacuzino."
  ROM_green_prince_stands_up2_desc: "Notre Capitaine bien-aimé nous a confié la responsabilité de guider la Roumanie vers le nouvel avenir, et une main ferme est nécessaire. Heureusement, le bon homme s'est levé au bon moment, reprenant avec succès le contrôle de la Légion et du pays. Maintenant, la Roumanie sera gouvernée par la main ferme qu'elle exige ; la poigne de fer du prince Alexandru Cantacuzino."
- ROM_legionary_revolution: "Révolution Légionnaire"
+ ROM_legionary_revolution: "La Révolution Légionnaire"
  ROM_legionary_revolution_desc: "[cantacuzino2desc]"
  ROM_legionary_revolution1_desc: "Aussi vénérable que soit notre Capitaine, sa tentative d'adhésion à l'ancien système des partis a mené à son assassinat par ses adversaires. C'est en rappelant notre passé de cellule révolutionnaire que nous avons repris le contrôle, et nous sommes maintenant en mesure de déclencher véritablement notre propre révolution. La Vieille Garde et le Corps des Ouvriers s'étant ralliés derrière le Conducâtor et le Régent, aucune lutte intestine ne doit nous distraire de notre mission sacrée."
  ROM_legionary_revolution2_desc: "Aussi vénérable que soit notre Capitaine, sa tentative d'adhésion à l'ancien système des partis a mené à un échec et à son retrait de la vie politique. C'est en rappelant notre passé de cellule révolutionnaire que nous avons repris le contrôle, et nous sommes maintenant en mesure de déclencher véritablement notre propre révolution. La Vieille Garde et le Corps des Ouvriers s'étant ralliés derrière le Conducâtor et le Régent, aucune lutte intestine ne doit nous distraire de notre mission sacrée."
@@ -802,7 +815,7 @@
  ROM_oust_the_foreign_monarch_desc: "Bien que la monarchie nous ait aidés à construire notre nation, des éléments étrangers persistants au sein de la maison royale sont encore là. Même le Roi qui est né ici a travaillé contre nous, et nous n'avons plus d'autre choix que de remplacer la dynastie étrangère. Le Conducâtor Cantacuzino a juré de remplir son devoir de Régent, jusqu'à ce qu'un nouveau monarque soit choisi."
  ROM_romanian_of_tomorrow: "Le Roumain de Demain"
  ROM_romanian_of_tomorrow_desc: "Au fil du temps, les gens deviennent complaisants. Heureusement, notre estimé Conducâtor Cantacuzino sait exactement ce qu'il faut faire et quels traits favoriser pour maintenir le véritable esprit combatif du peuple roumain. Autant que nous respecterons notre passé, nous avons pour mission de perpétuellement le redécouvrir et de nous remettre en question, pour mettre fin à l'apathie et à la tromperie qui nous ont tourmentés pendant si longtemps. Au nom du Roi, de la Croix et du Peuple, nous vaincrons."
- ROM_vanguard_of_reaction: "Avant-garde de la Réaction"
+ ROM_vanguard_of_reaction: "L'Avant-garde de la Réaction"
  ROM_vanguard_of_reaction_desc: "Il ne suffit pas de remodeler simplement notre pays par obligation envers nous-mêmes ; nous devons nous engager à forger la Roumanie de demain pour assurer notre place en tant que nation phare de l'histoire, phare du nationalisme, de l'esprit révolutionnaire héroïque et du christianisme. Des admirateurs et des imitateurs viendront avec le temps, tout comme la France est devenue un phare suite aux conquêtes de Napoléon."
  ROM_end_unjust_privileges: "Mettre fin aux privilèges injustes"
  ROM_end_unjust_privileges_desc: "Les Légionnaires sont un exemple pour le peuple roumain dans leur fraternité, contrairement à la bourgeoisie d'autrefois qui, fétichisant la vieille France, se détache des réalités du terrain. Ceci combiné avec le matérialisme ruine notre fibre morale, et cela n'est pas tolérable. Que celui qui est vraiment utile à ses proches devienne le respecté, pas le riche, et que la fureur des Roumains se déchaine."
@@ -810,15 +823,15 @@
  ROM_break_the_banks_desc: "La prédominance du capital spéculatif étouffe notre esprit, et contribue à entretenir des désirs d'une vie douce, sans difficultés et sans aider à contribuer à quoi que ce soit. C'est fini! Le moment est venu de briser enfin cet étau et de redonner au travail honnête l'effet annoblissant qu'il a toujours été censé avoir, et de réaffirmer les vrais droits et devoirs sociaux de la richesse."
  ROM_we_shall_raise_ourselves: "Nous nous élèverons nous mêmes"
  ROM_we_shall_raise_ourselves_desc: "Maintenant que nous sommes libérés de la domination étrangère, qu'elle soit ottomane, autrichienne ou russe, il nous incombe, à nous seuls, de diriger notre propre destin. Par nos propres efforts, non seulement nous retrouverons cet esprit qui nous a aidés à survivre pendant tout ce temps, mais nous nous élèverons également parmi les peuples dominants d'Europe ! Nous ne serons plus les serviteurs d'aucun intrus ; nous serons leurs seigneurs!"
- ROM_cult_of_the_warrior: "Culte du Guerrier"
+ ROM_cult_of_the_warrior: "Le Culte du Guerrier"
  ROM_cult_of_the_warrior_desc: "L'intellectualisme, bien que nécessaire à certains égards, n'est pas pour nous le mode de vie le plus idéal, car il engendre la lâcheté et étouffe la bravoure. Non, pour bien défendre notre foyer et accomplir notre destin sacré, nous devons redécouvrir les vertus de nos anciens défenseurs ; la simplicité, l'amélioration physique et l'abandon du rationalisme excessif au profit du mysticisme héroïque."
- ROM_national_legionary_state: "Etat National-Légionnaire"
+ ROM_national_legionary_state: "L'État National-Légionnaire"
  ROM_national_legionary_state_desc: "Il reste encore beaucoup à faire, mais maintenant que les fondations sont posées et le cadre de base établi, nous pouvons proclamer l'État National-Légionnaire dans de bonnes conditions, consolider nos acquis pour l'instant, et préparer les prochaines étapes de la transformation de la psyché et de la nation. Vive la Légion, le Capitaine et le Conducâtor! En avant, chers frères ! En avant vers la victoire !"
 
 ### Carol II ###
  ROM_carlist_restoration: "La Restauration Carliste"
  ROM_carlist_restoration_desc: "Sa Majesté, Carol II, est sortie victorieuse de son duel avec le soi-disant "Capitaine". Maintenant que Codreanu est à l'écart, le Roi peut poursuivre son plan pour restaurer sa place légitime au sein de la nation roumaine. Longue vie au Roi!"
- ROM_the_remaining_legionaries: "Les Légionnaires restants"
+ ROM_the_remaining_legionaries: "Trouver les Légionnaires restants"
  ROM_the_remaining_legionaries_desc: "Alors que la Légion s'est effectivement effondrée, beaucoup trop de légionnaires de haut niveau sont toujours en liberté et, par conséquent, restent une menace pour le gouvernement. Nous devons éliminer les plus dangereux d'entres eux, et purger les autres de leurs crimes contre la nation."
  ROM_reward_the_loyal: "Récompenser les fidèles"
  ROM_reward_the_loyal_desc: "En ces temps difficiles où la trahison est généralisée, il est important de garder à l'esprit ceux qui sont restés fidèles à Sa Majesté pendant les heures les plus sombres. Les récompenses seront nombreuses pour ceux qui sont restés fidèles, tout comme la punition sera infligée à ceux qui nous ont trahis."
@@ -835,9 +848,9 @@
  ROM_cult_of_personality_desc: "Il ne suffit pas de cultiver une image positive du Roi. Il doit être élevé plus haut, et régner en tant que Conducâtor incontesté de la nation. Le véritable pouvoir de Sa Majesté doit se refléter partout pour assurer la légitimité et la force du gouvernement aux yeux du public, et empêcher que les blessures de la nation ne se réouvrent."
  ROM_crown_patronage: "Patronage de la Couronne"
  ROM_crown_patronage_desc: "Sa Majesté est un amoureux inconditionnel des arts, et des sommes importantes sont dépensées pour subventionner des projets culturels, surtout s'ils servent à améliorer l'image du roi. Bien qu'il s'intéresse peu à l'économie, ses conseillers sont des hommes capables, et ils suggèrent de poursuivre les grands projets de développement gérés par l'État dans tout le pays, ce qui ne fait que cultiver son image philanthropique."
- ROM_corporatism: "Alliance corporative"
+ ROM_corporatism: "Alliances corporatives"
  ROM_corporatism_desc: "Alors que le corporatisme est un aspect important du gouvernement de Sa Majesté, les intérêts des entreprises sont également indéniablement cruciaux dans le développement du pays. L'alignement sur les intérêts des plus grandes entreprises roumaines garantira que nous bénéficions du puissant soutien des riches industriels et investisseurs dans les nombreux projets de développement de l'État, partout dans le monde."
- ROM_empowered_camarilla: "Camarilla renforcée"
+ ROM_empowered_camarilla: "La Camarilla au Pouvoir"
  ROM_empowered_camarilla_desc: "Le roi de Roumanie a toujours entretenu un réseau informel de conseillers et de conseillers. Cette Camarilla, cependant, n'est jamais devenue une véritable institution dotée de pouvoirs réels. Le roi étant maintenant fermement aux commandes, cela doit changer, et le conseil privé du roi le rendra enfin officiel, cimentant davantage le pouvoir de Sa Majesté."
  ROM_an_idealized_sovereign: "Un Souverain Idéalisé"
  ROM_an_idealized_sovereign_desc: "Dans le cadre du culte de la personnalité de Sa Majesté, une image idéalisée du roi est l'un des aspects les plus importants. Le Roi doit être représenté d'une manière qui montre vraiment son pouvoir et sa mission assignée par Dieu pour diriger le peuple roumain. La nation devrait vénérer son Roi-Sauveur alors qu'Il lui apporte un âge d'or."
@@ -884,15 +897,15 @@
  ROM_PNT_peasant_state_desc: "Les paysans constituent la grande majorité de la population et il est naturel que le gouvernement se concentre d'abord, et avant tout sur l'amélioration de leurs moyens de subsistance. Ainsi, en tant que représentants de la classe paysanne, le PNT transformera la Roumanie en un "Etat paysan" qui travaillera véritablement pour ses intérêts."
  ROM_PNT_cooperatives: "Coopératives de soutien"
  ROM_PNT_cooperatives_desc: "Pour les paysans, les coopératives sont le moyen naturel d'organiser la population et l'économie rurales, car ils ne quittent en général que rarement leurs communautés. C'est à travers les coopératives que les paysans prospéreront véritablement au sein d'une économie améliorée."
- ROM_PNT_office_of_regional_development: "Bureau du Développement Régional"
+ ROM_PNT_office_of_regional_development: "Créer l'Office du Développement Régional"
  ROM_PNT_office_of_regional_development_desc: "En créant le Bureau du Développement Régional, le gouvernement sera mieux à même de juger et d'apporter une solution aux problèmes économiques des différentes régions de Roumanie. Grâce à eux, les investissements seront dirigés là où ils sont nécessaires, et amélioreront les économies locales."
- ROM_PNT_community_of_producers: "Communauté de Producteurs"
+ ROM_PNT_community_of_producers: "La Communauté de Producteurs"
  ROM_PNT_community_of_producers_desc: "La "Communauté de Producteurs" est la doctrine économique et politique de Virgil Madgearu pour répondre à la fracture toujours croissante entre les classes sociales. Pour lui, pour créer une société harmonieuse, le Travail doit dominer le Capital et non l'inverse  ; les travailleurs ruraux, urbains et intellectuels devraient tous être des collaborateurs en leur qualité de producteurs, pour atteindre l'autosuffisance économique."
  ROM_PNT_protect_little_man: "Protéger l'Homme du Peuple"
  ROM_PNT_protect_little_man_desc: "Iuliu Maniu est un homme du peuple. Le Petit Homme du Peuple, le paysan et l'ouvrier industriel, doit être protégé des élites économiques et politiques du pays qui cherchent à l'asservir. L'oligarchie de l'ancienne Roumanie a déjà conduit la nation à la ruine une fois, et ne peut pas être autorisée à le faire à nouveau."
  ROM_PNT_rural_gendarme: "Le Gendarme Rural"
  ROM_PNT_rural_gendarme_desc: "Les Légionnaires autant que les syndicalistes ont prouvé que la loi et l'ordre devaient être préservés afin de protéger le peuple, vulnérable à leurs tactiques d'intimidation et à leur démagogie. Le gendarme rural deviendra le symbole de la stabilité de la Grande Roumanie."
- ROM_PNT_constitution: "Constitution Paysanne"
+ ROM_PNT_constitution: "Projet de Constitution Paysanne"
  ROM_PNT_constitution_desc: "Le PNT ayant obtenu le soutien du peuple roumain, une nouvelle constitution doit être promulguée. Les institutions démocratiques doivent être protégées une fois de plus tandis que les paysans roumains, la grande majorité de la population, se verront garantir leur position centrale dans la société roumaine. La Roumanie deviendra en effet un Etat paysan qui recherchera véritablement le meilleur pour son peuple."
 
 ##Events
@@ -948,8 +961,8 @@
 ##Entente Trade Deals
  romania.6.t: "Le Futur de la Roumanie"
  romania.6.d: "Alors que l'année 1936 commence, la lutte entre les deux dirigeants concurrents de la nation, le roi Carol II et le Premier Ministre Codreanu, entre dans une nouvelle phase. Dans l'impasse depuis un certain temps, les deux manquent d'espace pour manœuvrer et de plus en plus fréquemment, commencent à se heurter de front. Il devient du coup de plus en plus difficile de maintenir une façade de coopération. Dans l'état actuel des choses, le Roi et le Capitaine se rendent compte tous les deux que le moment d'éliminer l'autre pour de bon approche. Les gens seront de plus en plus obligés de choisir un camp ou de faire face seuls aux conséquences de leur neutralité."
- romania.6.a: "Je me tiendrai aux côtés de Codreanu et de ses Légionnaires"
- romania.6.b: "Carol II est le souverain légitime de toute la Roumanie"
+ romania.6.a: "Je me tiendrai aux côtés de Codreanu et de ses Légionnaires."
+ romania.6.b: "Carol II est le souverain légitime de toute la Roumanie!"
 
 #Continue the land reform flavor
  romania.68.t: "Une Réforme Agraire attendue depuis longtemps"
@@ -2100,8 +2113,8 @@
 ### Leader Traits ###
  ROM_autocrat: "Autocrate déterminé"
  ROM_corporate_alliance: "Contacts d'entreprise"
- ROM_carlist_cult: "Le Culte Carliste"
- ROM_carlist_cult2: "Le Culte Carliste"
+ ROM_carlist_cult: "Centre du Culte Carliste"
+ ROM_carlist_cult2: "Centre du Culte Carliste"
  ROM_puppet_king: "Le Roi sous surveillance"
  ROM_protector_of_democracy: "Protecteur de la Démocratie"
  ROM_protector_of_democracy2: "Protecteur de la Démocratie"
