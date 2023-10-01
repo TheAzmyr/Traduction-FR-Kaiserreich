@@ -1,15 +1,15 @@
 ﻿l_french:
-###########################################################
-### Kaiserreich Game Rules                              ###
-###########################################################
-### By El Daddy, Igor, ShinMnewsNetwork and many others ###
-###########################################################
+#################################################################
+### Kaiserreich Game Rules                                    ###
+#################################################################
+### By El Daddy, Igor050301, ShinMnewsNetwork and many others ###
+#################################################################
 
  ## Nation Buffs ###
  custom_diff_strong_rpt: "£KR_game_rule_flag_GER  £KR_game_rule_flag_GEA  £KR_game_rule_flag_MAF  £KR_game_rule_flag_BAT  Renforcer le Reichspakt"
  custom_diff_strong_int: "£KR_game_rule_flag_FRA  £KR_game_rule_flag_ENG  £KR_game_rule_flag_SRI  £KR_game_rule_flag_SOV  Renforcer l'Internationale"
  custom_diff_strong_ent: "£KR_game_rule_flag_CAN  £KR_game_rule_flag_NFA  £KR_game_rule_flag_SRD  £KR_game_rule_flag_RAJ  Renforcer l'Entente"
- custom_diff_strong_gbr: "£KR_game_rule_flag_CAN £KR_game_rule_flag_GBR  Renforcer le Royaume-Uni"
+ custom_diff_strong_gbr: "£KR_game_rule_flag_CAN  £KR_game_rule_flag_GBR  Renforcer le Royaume-Uni"
  custom_diff_strong_nfa: "£KR_game_rule_flag_NFA   Renforcer la République Française"
  custom_diff_strong_srd: "£KR_game_rule_flag_SRD   Renforcer la Sardaigne"
  custom_diff_strong_aus: "£KR_game_rule_flag_AUS   Renforcer l'Empire Autrichien"
@@ -165,7 +165,7 @@
  RULE_OPTION_CAN_ACW_INTERVENE_DIRECT: "£KR_game_rule_flag_CAN  £KR_game_rule_flag_USA  £KR_game_rule_flag_PSA  £KR_game_rule_flag_NEE  £KR_game_rule_flag_TEX  Intervention Directe"
  RULE_OPTION_CAN_ACW_INTERVENE_DIRECT_DESC: "Le Canada ne tentera jamais d'intervenir dans la Seconde Guerre Civile Américaine pour soutenir le participant qu'il a choisi, que si les conditions lui sont favorables.\n\n§RRequiert :§!\n§RPas§! §CSoutenir Personne§! dans §Y$CAN_ACW_SUPPORT$§!"
  RULE_OPTION_CAN_ACW_INTERVENE_DECLARE_CSA: "£KR_game_rule_flag_CAN  £KR_game_rule_flag_CSA  Déclarer la guerre au CSA"
- RULE_OPTION_CAN_ACW_INTERVENE_DECLARE_CSA_DESC: "Le Canada ne déclarera la guerre aux Syndicats Combinés d'Amérique que s'ils existent et que les conditions leur sont favorables pour ce faire.\n\n§RRequiert:§!\n§RNon§! §CReed a été assassiné§! ou §CCompromis atteint avec Reed§! dans §Y$USA_CIVIL_WAR$§!"
+ RULE_OPTION_CAN_ACW_INTERVENE_DECLARE_CSA_DESC: "Le Canada ne déclarera jamais la guerre au Syndicats Combinés d'Amérique que si celui-ci existe et que les conditions lui sont favorables.\n\n§RRequiert :§!\n§RPas§! §CReed Assassiné§! ou §CCompromis avec Reed§! dans §Y$USA_CIVIL_WAR$§!\n§RPas§! §CFormer la Nouvelle-Angleterre§! dans §Y$CAN_ACW_NEW_ENGLAND$§!"
  RULE_OPTION_CAN_ACW_INTERVENE_NO:0 "£KR_game_rule_flag_CAN Ne pas intervenir"
  RULE_OPTION_CAN_ACW_INTERVENE_NO_DESC: "Le Canada ne déclarera jamais la guerre à une faction prenant part à la Seconde Guerre Civile Américaine"
 
@@ -1554,7 +1554,7 @@
  RULE_OPTION_DEN_PATH_CHRISTIAN_SOCDEM:0 "£KR_game_rule_flag_DEN  Démocratie - Socialdemokraterne"
  RULE_OPTION_DEN_PATH_CHRISTIAN_SOCDEM_DESC: "Les §SSocialdemokraterne§! ou sociaux-démocrates négocient avec succès leur redressement économique avec l'opposition. Après le début de la Seconde Weltkrieg, le Roi révoque le gouvernement et s'engage dans la guerre contre les syndicalistes, mais Thorvald Stauning le convainc de revenir sur sa décision et de rétablir le gouvernement précédent."
  RULE_OPTION_DEN_PATH_MARLIB:0 "£KR_game_rule_flag_DEN  Démocratie - Venstre"
- RULE_OPTION_DEN_PATH_MARLIB_DESC: "Après l'échec des négociations sur la relance économique, le gouvernement en place tombe et un nouveau gouvernement est formé par le §mVenstre§! ou la droite. Le pays s'engagera sans réserve dans la Weltkrieg aux côtés du Reichspakt."
+ RULE_OPTION_DEN_PATH_MARLIB_DESC: "Après l'échec des négociations sur la relance économique, le gouvernement en place tombe et un nouveau gouvernement est formé par le §mVenstre§! ou la gauche. Le pays s'engagera sans réserve dans la Weltkrieg aux côtés du Reichspakt."
  RULE_OPTION_DEN_PATH_AUTDEM:0 "£KR_game_rule_flag_DEN Cabinet du Roi"
  RULE_OPTION_DEN_PATH_AUTDEM_DESC: "Après la destitution par le roi du gouvernement Socialdemokraterne, le Danemark conservera l'autorité du gouvernement autoritaire installé par le roi et dirigé par le §gKonservative Folkeparti§! ou Parti Populaire Conservateur."
  RULE_OPTION_DEN_PATH_FREDERICK_SOCDEM:0 "£KR_game_rule_flag_DEN  Roi Frederick"
@@ -2146,7 +2146,7 @@
  RULE_OPTION_MAF_IMPLOSION_DISABLED:0 "£KR_game_rule_flag_MAF Effondrement désactivé"
  RULE_OPTION_MAF_IMPLOSION_DISABLED_DESC:0 "Contre toute attente, le gouvernement Mittelafrikan parvient à vivre."
  RULE_OPTION_MAF_IMPLOSION_GUARANTEED:0 "£KR_game_rule_flag_MAF Effondrement garanti"
- RULE_OPTION_MAF_IMPLOSION_GUARANTEED_DESC: "Sous la pression, la Mittelafrika s'effondrera et se fracturera en des dizaines de nouvelles nations.\n\n§RRequiert :§!\n§CNKR - Hermann von Göring§! dans §Y$MAF_PATH$§"
+ RULE_OPTION_MAF_IMPLOSION_GUARANTEED_DESC: "Sous la pression, la Mittelafrika s'effondrera et se fracturera en des dizaines de nouvelles nations.\n\n§RRequiert :§!\n§CNKR - Hermann von Göring§! dans §Y$MAF_PATH$§!"
 
  MAF_BUSH_WAR: "£KR_game_rule_flag_MAF £KR_game_rule_flag_POR_monarchy La Guerre du Bush"
  RULE_OPTION_MAF_BUSH_WAR_RANDOM: "Par défaut"
@@ -2683,15 +2683,12 @@
  RULE_OPTION_JAP_PATH_MARLIB_DESC: "$RULE_OPTION_JAP_PATH_DEM$ §mMinseitō§! gagnant les élections suivantes."
  RULE_OPTION_JAP_PATH_SOCDEM: "£KR_game_rule_flag_JAP  Réforme électorale - Shakai Taishūtō"
  RULE_OPTION_JAP_PATH_SOCDEM_DESC: "$RULE_OPTION_JAP_PATH_DEM$ Minseitō remportant la première élection, suivi par le §SShakai Taishūtō§! lors des élections suivantes."
- RULE_OPTION_JAP_PATH_AUTDEM:0 "£KR_game_rule_flag_JAP Réforme Electorale - Autoritaire"
- RULE_OPTION_JAP_PATH_AUTDEM_DESC: "La loi sur la sécurité nationale est adoptée de force. Le gouvernement entreprend alors une réforme électorale et réunit de force les principaux partis politiques du pays sous le "gouvernement d'unité nationale" pour protéger le Japon de la menace syndicale."
+ RULE_OPTION_JAP_PATH_AUTDEM: "£KR_game_rule_flag_JAP  Réforme Électorale - Kokumin Dōmei"
+ RULE_OPTION_JAP_PATH_AUTDEM_DESC: "La loi sur la sécurité nationale est adoptée. Le gouvernement lance ensuite une réforme électorale sévère et réunit de force les principaux partis politiques du pays sous le "§gGouvernement d'Unité Nationale§!" afin de protéger le Japon de la menace syndicaliste. Après sa scission, le parti nationaliste §gKokumin Dōmei§! remportera les prochaines élections."
  RULE_OPTION_JAP_PATH_PATAUT:0 "£KR_game_rule_flag_JAP Prise de contrôle centraliste"
- RULE_OPTION_JAP_PATH_PATAUT_DESC:0 "La Loi sur la Sécurité Nationale est imposée. Cependant, les officiers subalternes de la restauration, voyant que le gouvernement manque de soutien, organisent un coup d'État. Le corps §Pcentral de l'armée§! écrase ce coup d'État et se voit confier un plus grand rôle au sein du gouvernement, pour aider à en extirper à la fois les traîtres et les syndicalistes."
- RULE_OPTION_JAP_PATH_NATPOP_DESC:0 "La Loi sur la Sécurité Nationale est rejetée par l'opinion publique et l'opposition. Des officiers subalternes §Nrestaurationnistes§!, profitant de l'incapacité du gouvernement à faire face aux radicaux, lancent un coup d'État qui réussit."
- RULE_OPTION_JAP_PATH_HIROHITO_NATPOP: "£KR_game_rule_flag_JAP  Coup d'État Restaurateur - Hirohito"
- RULE_OPTION_JAP_PATH_HIROHITO_NATPOP_DESC: "$RULE_OPTION_JAP_PATH_NATPOP_DESC$\nHirohito survit à la tentative d'assassinat et est prêt à consolider le pouvoir."
- RULE_OPTION_JAP_PATH_YOSUHITO_NATPOP: "£KR_game_rule_flag_JAP  Coup d'État restaurateur - Yosuhito"
- RULE_OPTION_JAP_PATH_YOSUHITO_NATPOP_DESC: "$RULE_OPTION_JAP_PATH_NATPOP_DESC$\nHirohito est assassiné avec succès. Son jeune frère Yasuhito, Prince Chichibu, prend la tête de la restauration japonaise."
+ RULE_OPTION_JAP_PATH_PATAUT_DESC: "La loi sur la sécurité nationale est adoptée. Cependant, les officiers subalternes de la Restauration, voyant que le gouvernement manque de soutien, organisent un coup d'État. La §PFaction Centralisatrice de l'Armée§! écrase ce coup d'État et se voit confier un rôle plus important au sein du gouvernement afin d'aider à éradiquer les traîtres et les syndicalistes."
+ RULE_OPTION_JAP_PATH_NATPOP: "£KR_game_rule_flag_JAP  Coup d'État Restaurateur"
+ RULE_OPTION_JAP_PATH_NATPOP_DESC: "La Loi sur la Sécurité Nationale est rejetée par l'opinion publique et l'opposition. Des officiers subalternes §Nrestaurationnistes§!, profitant de l'incapacité du gouvernement à faire face aux radicaux, lancent un coup d'État qui réussit."
 
  FNG_PATH: "£KR_game_rule_flag_FNG  Le Candidat Mandchou"
  RULE_OPTION_FNG_PATH_RANDOM:0 "Défaut"
@@ -2725,15 +2722,15 @@
  RULE_OPTION_ANQ_DEAL_RANDOM:0 "Défaut"
  RULE_OPTION_ANQ_DEAL_RANDOM_DESC:0 "Alors que la Ligue des Cinq Provinces implose, deux des combattants de la guerre sont des alliés du gouvernement de Fengtian. Il pourrait être dans l'intérêt de Fengtian de négocier un accord entre eux, afin d'éviter un bain de sang entre deux ennemis de Beijing."
  RULE_OPTION_ANQ_DEAL_WAR:0 "£KR_game_rule_flag_ANQ  £KR_game_rule_flag_SQI Guerre"
- RULE_OPTION_ANQ_DEAL_WAR_DESC: "Le Gouvernement de Nanjing tombe, mais Fengtian décide qu'aucun accord entre Anqing et Shandong ne peut être conclu, même face au Kuomintang. Anqing et Shandong se déclarent la guerre.\n\n§RRequiert :§!\n§CLa Clique de Nanjing est vaincue dans la guerre d'Effondrement de la Ligue§!\n§CZhang Zongchang survit§! dans §Y$SQI_PATH$§!"
+ RULE_OPTION_ANQ_DEAL_WAR_DESC: "Le gouvernement de Nanjing tombe, mais Fengtian décide qu'aucun accord ne peut être conclu entre Anqing et Shandong, même face au Kuomintang. Anqing et Shandong se déclarent la guerre.\n\n§RRequiert :§!\n§CLa Clique de Nanjing est vaincue lors de la Guerre d'Effondrement de la Ligue.§!\n§CZhang Zongchang Survive§! dans §Y$SQI_PATH$§!\n\n§RPas§! §CMonarchie Zhili - Pro-Anqing§! dans §Y$QIE_PATH$§!"
  RULE_OPTION_ANQ_DEAL_WAR_ANQ:0 "£KR_game_rule_flag_FNG  £KR_game_rule_flag_ANQ  Guerre - Fengtian appuie Anqing"
- RULE_OPTION_ANQ_DEAL_WAR_ANQ_DESC: "Le Gouvernement de Nanjing tombe, Anqing et Shandong coopèrent alors contre le Kuomintang. Cependant, la paix est rompue après la défaite des socialistes, Fengtian soutenant Anqing.\n\n§RRequiert :§!\n§CLa Clique de Nanjing est vaincue dans la guerre de l'Effondrement de la Ligue.§!\n§CLe Kuomintang de Gauche est vaincu dans la guerre de l'Effondrement de la Ligue.§!\n§CZhang Zongchang Survit§! dans §Y$SQI_PATH$§!"
+ RULE_OPTION_ANQ_DEAL_WAR_ANQ_DESC: "Le gouvernement de Nanjing tombe, et Anqing et Shandong coopèrent alors contre le Kuomintang. Cependant, la paix est rompue après la défaite des socialistes, Fengtian soutenant Anqing.\n\n§RRequiert :§!\n§CLa Clique de Nanjing est vaincue lors de la Guerre d'Effondrement de la Ligue.§!\n§CLe Kuomintang de Gauche est vaincu lors de la Guerre d'Effondrement de la Ligue.§!\n§CZhang Zongchang Survive§! dans §Y$SQI_PATH$§!\n\n§RPas§! §CMonarchie Zhili - Pro-Anqing§! dans §Y$QIE_PATH$§!"
  RULE_OPTION_ANQ_DEAL_WAR_SQI:0 "£KR_game_rule_flag_FNG £KR_game_rule_flag_SQI  Guerre - Fengtian appuie Shandong"
- RULE_OPTION_ANQ_DEAL_WAR_SQI_DESC: "Le Gouvernement de Nanjing tombe, Anqing et Shandong coopèrent alors contre le Kuomintang. Toutefois, la paix est rompue après la défaite des socialistes, Fengtian soutenant le Shandong.\n\n§RRequiert :§!\n§CLa Clique de Nanjing est vaincue dans la guerre de l'Effondrement de la Ligue.§!\n§CLe Kuomintang de Gauche est vaincu dans la guerre de l'Effondrement de la Ligue.§!\n§CZhang Zongchang Survit§! dans §Y$SQI_PATH$§!"
+ RULE_OPTION_ANQ_DEAL_WAR_SQI_DESC: "Le gouvernement de Nanjing tombe, Anqing et Shandong coopèrent alors contre le Kuomintang. Cependant, la paix est rompue après la défaite des socialistes, Fengtian soutenant le Shandong.\n\n§RRequiert :§!\n§CLa Clique de Nanjing est vaincue lors de la Guerre d'Effondrement de la Ligue.§!\n§CLe Kuomintang de Gauche est vaincu lors de la Guerre d'Effondrement de la Ligue.§!\n§CZhang Zongchang Survive§! dans §Y$SQI_PATH$§!\n\n§RPas§! §CMonarchie Zhili - Pro-Anqing§! dans §Y$QIE_PATH$§!"
  RULE_OPTION_ANQ_DEAL_WAR_NOONE:0 "£KR_game_rule_flag_FNG  Guerre - Fengtian se tient à l'écart"
- RULE_OPTION_ANQ_DEAL_WAR_NOONE_DESC: "Le Gouvernement de Nanjing tombe, Anqing et Shandong coopérant alors contre le Kuomintang. Cependant, la paix est rompue après la défaite des socialistes, Fengtian ne prenant pas parti dans le conflit.\n\n§RRequiert :§!\n§CLa Clique de Nanjing est vaincue dans la guerre de l'Effondrement de la Ligue.§!\n§CLe Kuomintang de Gauche est vaincu dans la guerre de l'Effondrement de la Ligue.§!\n§CZhang Zongchang Survit§! dans §Y$SQI_PATH$§!"
+ RULE_OPTION_ANQ_DEAL_WAR_NOONE_DESC: "Le gouvernement de Nanjing tombe, Anqing et Shandong coopèrent alors contre le Kuomintang. Cependant, la paix est rompue après la défaite des socialistes, Fengtian ne prenant pas parti dans le conflit.\n\n§RRequiert :§!\n§CLa Clique de Nanjing est vaincue lors de la Guerre d'Effondrement de la Ligue.§!\n§CLe Kuomintang de Gauche est vaincu lors de la Guerre d'Effondrement de la Ligue.§!\n§CZhang Zongchang Survive§! dans §Y$SQI_PATH$§!\n\n§RPas§! §CMonarchie Zhili - Pro-Anqing§! dans §Y$QIE_PATH$§!"
  RULE_OPTION_ANQ_DEAL_PEACE:0 "£KR_game_rule_flag_FNG  £KR_game_rule_flag_ANQ  £KR_game_rule_flag_SQI  Compromis Obtenu"
- RULE_OPTION_ANQ_DEAL_PEACE_DESC: "Le Gouvernement de Nanjing tombe, et Anqing et Shandong coopèrent contre le Kuomintang. Le gouvernement de Fengtian les aide à trouver un compromis, et la paix est maintenue parmi les alliés de Fengtian.\n\n§RRequiert :§!\n§CLa Clique de Nanjing est vaincue dans la guerre de l'Effondrement de la Ligue.§!\n§CLe Kuomintang de Gauche est vaincu dans la guerre de l'Effondrement de la Ligue.§!\n§CZhang Zongchang Survit§! dans §Y$SQI_PATH$§!"
+ RULE_OPTION_ANQ_DEAL_PEACE_DESC: "Le gouvernement de Nanjing tombe, Anqing et Shandong coopérant contre le Kuomintang. Le gouvernement de Fengtian les aide à trouver un compromis et la paix est maintenue entre les alliés de Fengtian.\n\n§RRequiert :§!\n§CLa Clique de Nanjing est vaincue lors de la Guerre d'Effondrement de la Ligue.§!\n§CLe Kuomintang de Gauche est vaincu lors de la Guerre d'Effondrement de la Ligue.§!\n§CZhang Zongchang Survive§! dans §Y$SQI_PATH$§!\n\n§RPas§! §CMonarchie Zhili - Pro-Anqing§! dans §Y$QIE_PATH$§!"
 
  CHI_PATH: "£KR_game_rule_flag_CHI  Soleil Blanc sur la Chine Rouge"
  RULE_OPTION_CHI_PATH_RANDOM: "Défaut"
@@ -2919,7 +2916,7 @@
  RULE_OPTION_XSM_PATH_PATAUT: "£KR_game_rule_flag_XSM  Ma Hongkui"
  RULE_OPTION_XSM_PATH_PATAUT_DESC: "Le gouverneur du Gansu, §PMa Hongkui§!, dirigera le Conseil de Xining après la défaite du Tibet et de la Mongolie. Seigneur de guerre allié aux Zhili, il sera disposé à travailler sous un gouvernement dirigé par la clique des Zhili."
  RULE_OPTION_XSM_PATH_AUTDEM: "£KR_game_rule_flag_XSM  Ma Hongbin"
- RULE_OPTION_XSM_PATH_AUTDEM_DESC: "Le gouverneur du Ningxia, §gMa Hongbin§!, dirigera le Conseil de Xining après la défaite du Tibet et de la Mongolie. Seigneur de guerre non aligné, il tentera de maintenir son indépendance, mais pourrait être invité à la conférence d'unification de Fengtian ou soumis par un gouvernement suffisamment puissant."
+ RULE_OPTION_XSM_PATH_AUTDEM_DESC: "Le gouverneur du Ningxia, §gMa Hongbin§!, dirigera le Conseil de Xining après la défaite du Tibet et de la Mongolie. Dirigeant d'obédience républicaine, il sera disposé à travailler sous un gouvernement national fédéraliste, du Kuomintang de droite ou du Kuomintang de gauche."
 
  SIK_PATH: "£KR_game_rule_flag_SIK  L'hégémonie chinoise s'installe au Xinjiang"
  RULE_OPTION_SIK_PATH_RANDOM:0 "Défaut"
@@ -3178,7 +3175,7 @@
  RULE_OPTION_BRM_PATH_SOCDEM:0 "£KR_game_rule_flag_BRM Elections - Parti de l'Homme Pauvre"
  RULE_OPTION_BRM_PATH_SOCDEM_DESC: "$RULE_OPTION_BRM_PATH_ELECTIONS_DESC$ Le §SParti de l'Homme Pauvre§! remporte ces élections."
  RULE_OPTION_BRM_PATH_RADSOC:0 "£KR_game_rule_flag_BRM_radical_socialist La République Socialiste est proclamée"
- RULE_OPTION_BRM_PATH_RADSOC_DESC:0 "L'armée se joint aux manifestants après avoir reçu l'ordre de tirer sur eux, renversant définitivement l'ancien régime, et conduisant à la proclamation d'une §Rrépublique Socialiste§!."
+ RULE_OPTION_BRM_PATH_RADSOC_DESC: "L'armée se joint aux manifestants après avoir reçu l'ordre de tirer sur eux, renversant définitivement l'ancien régime, et conduisant à la proclamation d'une §Rrépublique Socialiste§!."
 
  BRM_FORPOL: "£KR_game_rule_flag_BRM  Politique Étrangère Birmane"
  RULE_OPTION_BRM_FORPOL_RANDOM:0 "Défaut"
