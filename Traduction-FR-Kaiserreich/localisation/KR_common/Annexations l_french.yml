@@ -28,10 +28,10 @@ annexation_decisions: "Décisions d'annexion"
  annexation_decisions_desc: "Après avoir pris le contrôle de nouvelles étendues de terre, nous devons maintenant décider de ce qu'il faut en faire. L'occupation peut être coûteuse et déstabilisante, mais elle nous donne un accès direct aux richesses de ces nouvelles terres. D'autre part, la création de nations fantoches permet d'éviter de telles occupations mais n'est pas toujours aussi fiable. Dans tous les cas, le destin des nations est entre nos mains."
 
  annex.give_to_ally: "Donnez-le à nos alliés [?target.GetAdjective]s."
- annex.give_to_neutral: "Accordez-le à [?target.GetNameDef] - nous n'en avons pas besoin"
+ annex.give_to_neutral: "Accordez-le à [?target.GetNameDef] - nous n'en avons pas besoin."
 
- annex.occupation: "L'occupation militaire est la seule réponse."
- annex.integration: "Assimiler au territoire [Root.GetAdjective]."
+ annex.occupation: "Maintenir l'occupation, pour l'instant."
+ annex.integration: "Assimiler dans notre territoire."
 
  annex.europe.give_to_gex: "[GEX.GetGrantTerritoryEventOption]"
 
@@ -401,11 +401,9 @@ annexation_TRS_CONQ: "Le destin de la Transylvanie"
 
  annexation_WESTBANAT_CONQ: "Le Destin du Banat occidental"
  annexation_WESTBANAT_CONQ_desc: "La petite région du Banat occidental est maintenant sous notre contrôle, nous devons décider quoi en faire."
- annex.1028.a:0 "Donnez-le à [SER.GetNameDef]"
- annex.1028.b: "Donnez le à la [CRO.GetNameDef]"
- annex.1028.c: "Donnez le à [82.owner.GetNameDef]"
- annex.1028.d: "Donnez le à la [HUN.GetNameDef]"
- annex.1028.e: "Donnez le à l'[AUS.GetNameDef]"
+ annex.1028.a: "Donnez-le à [serbia.GetNameDef]"
+ annex.1028.b: "Donnez le à [croatia.GetNameDef]"
+ annex.1028.c: "Donnez le à [romania.GetNameDef]"
 
  annexation_VOJVODINA_CONQ: "Le Destin de la Voïvodine"
  annexation_VOJVODINA_CONQ_desc: "La petite région de Voïvodine est maintenant sous notre contrôle, nous devons décider quoi en faire."
@@ -632,15 +630,12 @@ annexation_UKR_CONQ_desc: "Après un long combat avec le grenier de l'Europe, no
 
  annexation_BREST_CONQ: "Le destin de Brest"
  annexation_BREST_CONQ_desc: "La ville contestée de Brest-Litovsk a été placée sous notre contrôle alors que nos troupes occupent la région. Nous devons maintenant décider de ce qu'il faut en faire."
- annex.1061.a: "Donnez la à la [POL.GetNameDef]"
- annex.1061.b: "Donnez le à l'[UKR.GetNameDef]"
- annex.1061.c: "Donnez la à la [WHR.GetNameDef]"
- annex.1061.d: "Donnez la à la [LIT.GetNameDef]"
- annex.1061.e: "Divisez le entre la [POL.GetNameDef] et l'[UKR.GetNameDef]"
- annex.1061.f: "Divisez le entre la [POL.GetNameDef] et la [WHR.GetNameDef]"
- annex.1061.g: "Divisez le entre la [POL.GetNameDef] et la [LIT.GetNameDef]"
- annex.1061.h: "Divisez le entre la [POL.GetNameDef] et [204.owner.GetNameDef]"
- annex.1061.i: "Divisez le avec la [POL.GetNameDef]"
+ annex.1061.a: "Donnez la à [poland.GetNameDef]"
+ annex.1061.b: "Donnez le à [ukraine.GetNameDef]"
+ annex.1061.c: "Donnez la à [belarus.GetNameDef]"
+ annex.1061.d: "Le diviser entre [poland.GetNameDef] et [ukraine.GetNameDef]"
+ annex.1061.e:0 "Divisez la entre la [poland.GetNameDef] et la [belarus.GetNameDef]"
+ annex.1061.f: "Le diviser avec [poland.GetNameDef]"
 
  annexation_POLESIA_CONQ: "Le Destin de la Polésie"
  annexation_POLESIA_CONQ_desc: "La région tranquille de Polésie est passée sous notre contrôle puisque nos troupes l'occupent. Nous devons maintenant décider ce que nous allons en faire."
@@ -2044,6 +2039,7 @@ annexation_MLT_CONQ_desc: "Malte a été placée sous notre direction et nos tro
  annexation_MAD_CONQ: "Le Destin de Madagascar"
  annexation_MAD_CONQ_desc: "Nos puissantes armées ont pris le contrôle de l'ancienne colonie allemande de Madagascar. L'immense île est actuellement sous administration militaire mais nous pourrions vouloir y installer une véritable administration, doit-elle être locale ou devons-nous annexer l'île directement à notre empire ?"
  annex.5037.a: "Former l'état de Madagascar."
+ annex.5037.b: "Rétablir la monarchie Merina."
 
  annexation_SAF_CONQ: "Le destin de l'Afrique du Sud"
  annexation_SAF_CONQ_desc: "Enfin, le dominion africain d'Afrique du Sud a capitulé face à nos glorieuses armées qui marchent maintenant dans les rues du Cap. Après le début de notre occupation militaire et maintenant que la guerre est terminée, des voix se sont élevées pour affirmer que nous devrions créer une nation sud-africaine fantôche pour garder la zone sous contrôle, mais au cours de ces discussions, une autre question a été soulevée : si nous créer cet État fantoche, doit-il conserver les protectorats du Bechuanaland et de la Rhodésie que le pays contrôle depuis plus d'une décennie, ou doit-on réduire leur zone d'influence au cœur du pays ? C'est maintenant à vous de décider."
@@ -2051,7 +2047,8 @@ annexation_MLT_CONQ_desc: "Malte a été placée sous notre direction et nos tro
  annex.5038.b: "Libérez l'Afrique du Sud, mais séparez la Rhodésie."
  annex.5038.c: "Soustraire les protectorats à l'influence de l'Afrique du Sud."
  annex.5038.d: "Libérez l'Afrique du Sud."
- annex.5038.e: "Rendez la aux Britanniques."
+ annex.5038.e:0 "[SAF.GetGrantTerritoryEventOption]"
+ annex.5038.f:0 "Rendez la aux Britanniques."
 
  annexation_NMB_CONQ: "Le destin de la Namibie"
  annexation_NMB_CONQ_desc: "Nous avons annexé l'ancienne colonie allemande de Südwestafrika, plus connue sous le nom de Namibie, mais il nous reste maintenant à gérer des milliers d'Africains sur un territoire que nous ne connaissons pas. Devons-nous instituer un degré d'autodétermination ou devons-nous diriger cet endroit comme une nouvelle colonie ?"

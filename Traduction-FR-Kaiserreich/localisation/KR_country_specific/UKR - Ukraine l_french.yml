@@ -56,7 +56,7 @@
  UKR_social_conservative_party7: "UDKhP"
  UKR_social_conservative_party_long7: "Ukrainska Demokratychna Khliborobska Partiia (Parti agrarien démocratique ukrainien)"
  UKR_social_conservative_party8: "UNP"
- UKR_social_conservative_party_long8: "Ukrainska Narodno Partiia (Parti Populaire Ukrainien)\n§g Dirigé par l'ancien hetmaniste et conservateur nationaliste Mykola Mikhnovskyi, l'UNP a été formé au milieu des premières élections républicaines. Les principaux principes du parti sont l'anti-socialisme et un programme agrarien modéré, et ils épousent des vues hautement nationalistes et militaristes, mais restent attachés à la démocratie républicaine, ce qui les distingue des personnalités plus radicales de la Ligue des Nationalistes Ukrainiens. §!"
+ UKR_social_conservative_party_long8: "Ukrainska Narodna Partiia (Parti Populaire Ukrainien)\n§g Dirigé par l'ancien hetmaniste et conservateur nationaliste Mykola Mikhnovskyi, l'UNP a été formé au milieu des premières élections républicaines. Les principaux principes du parti sont l'anti-socialisme et un programme agrarien modéré, et ils épousent des vues hautement nationalistes et militaristes, mais restent attachés à la démocratie républicaine, ce qui les distingue des personnalités plus radicales de la Ligue des Nationalistes Ukrainiens. §!"
 
  UKR_authoritarian_democrat_party8: "SHD"
  UKR_authoritarian_democrat_party_long8: "Soiuz Hetmantsiv Derzhavnykiv (Union des Hetmanites-Bâtisseurs d'État)\n§gCréée au milieu des années 1920 à l'initiative de deux hauts fonctionnaires du Bureau exécutif, l'Union des Hetmanites-Bâtisseurs d'État cherche à protéger l'autorité de l'Hetman et de l'État par la centralisation, l'expansion des délégations cosaques et le dogme anti-socialiste. Depuis son arrivée au pouvoir, l'Union s'est imposée comme la première force politique de la société ukrainienne, créant un régime suffisamment répressif pour se débarrasser de toute concurrence significative et étouffer la conscience politique de la population. La soi-disant "démocratie" en Ukraine n'est rien d'autre qu'un simulacre, mais tant que les règles sont en faveur du SHD, il ne sera jamais renversé...§!"
@@ -284,12 +284,8 @@
 
  UKR_kiev_fall_warning_tt: "§RSi la force de VDR est supérieure à 30, [202.GetName] tombera !§!"
  UKR_hetman_10_tt: "§YL'intensité des forces du VDR doit être inférieure à 10.§!"
- UKR_vdr_str_10: "§RLa puissance du VDR va augmenter de 10§!"
- UKR_vdr_str_15: "§RLa puissance du VDR va augmenter de 15§!"
- UKR_vdr_str_5: "§RLa puissance du VDR va augmenter de 5§!"
- UKR_vdr_str_-5: "§PLa puissance du VDR va baisser de 5§!"
- UKR_vdr_str_-10: "§PLa puissance du VDR va baisser de 10§!"
- UKR_vdr_str_-20: "§PLa puissance du VDR va baisser de 20§!"
+ UKR_vdr_strength_increase: "La §Rforce du VDR augmentera de $RIGHT$§!"
+ UKR_vdr_strength_decrease: "La §Pforce du VDR diminuera de $RIGHT$§!"
 
  UKR_AntiHetmanRevolt_vdr: "La révolte anti-Hetman"
  UKR_AntiHetmanRevolt_vdr_desc: "La dépression a poussé l'Ukraine au-delà du point de rupture. Ce qui a commencé comme une grève générale, orchestrée par le Mouvement Démocratique Panukrainien, s'est transformée en une insurrection à grande échelle. Des guérillas paysannes et des milices socialistes se sont élevées dans tout le pays, profitant du chaos dans l'administration gouvernementale et des mutineries dans l'armée. Nous devons agir rapidement et sécuriser [202.GetName] aussi vite que possible, sinon notre révolution s'éteindra.\n\n£command_power §YPuissance de commandement: [?command_power|0]§!\n\nPuissance des forces pro-hetman: [?UKR_hetman_strength|R0]\n\n§CNous devons capturer [202.GetName] pour vaincre le Hetman avant que l'Armée Allemande n'intervienne.§!"
@@ -312,13 +308,8 @@
  UKR_internationale_support: "Aide Internationale"
 
  UKR_vdr_25_tt: "§YLa force des Pro-Hetman doit être inférieur ou égal à 25.§!"
- UKR_hetman_str_-15: "§SLa force des Pro-Hetman diminuera de 15§!"
- UKR_hetman_str_10: "§RLa force des Pro-Hetman augmentera de 10§!"
- UKR_hetman_str_15: "§RLa force des Pro-Hetman augmentera de 15§!"
- UKR_hetman_str_20: "§RLa force des Pro-Hetman augmentera de 20§!"
- UKR_hetman_str_-10: "§SLa force des Pro-Hetman diminuera de 10§!"
- UKR_hetman_str_-5: "§SLa force des Pro-Hetman diminuera de 15§!"
- UKR_hetman_str_5: "§RLa force des Pro-Hetman augmentera de 5§!"
+ UKR_hetman_strength_increase: "La §Rforce pro-hetman diminuera de $RIGHT$§!"
+ UKR_hetman_strength_decrease: "La §Sforce pro-hetman diminuera de $RIGHT$§!"
 
  UKR_vdr_side: "Nous avons pris le parti du VDR"
  UKR_peasant_warrior_tt: "§CNos troupes combattront plus efficacement dans les régions rurales telles que [201.GetName], [203.GetName], [198.GetName], [193.GetName] et [997.GetName].§!"
@@ -550,7 +541,7 @@
  UKR_BSD_invite: "Inviter [FROM.GetName] dans l'Union de la Mer Noire"
  UKR_BSD_invite_warning: "§RCela pourrait déclencher une guerre entre nous et notre ancienne faction.§!"
  BSD_start_tt: "Débloque les décisions pour s'allier ou envahir les pays bordant la Mer Noire.\n\nAjoute l'idée §Y$UKR_black_sea_member_idea$§!, qui peut être améliorée par les priorités §5$UKR_bsd_political_union$§! et §5$UKR_bsd_customs_union$§!."
- UKR_bsd_customs_union_tt: "Modifie §YEtat de l'Union de la Mer Noire§! par §Y$MODIFIER_CONSUMER_GOODS_FACTOR$§!: §Y-1%§! et §Y$MODIFIER_INDUSTRIAL_CAPACITY_FACTOR$§!: §G+2%§!.\nPour chaque nation de plus qui rejoint la BSU, ce modificateur va augmenter jusqu'à un maximum de §Y$MODIFIER_CONSUMER_GOODS_FACTOR$§!: §Y-5%§!, $MODIFIER_INDUSTRIAL_CAPACITY_FACTOR$: §G+10%§!."
+ UKR_bsd_customs_union_tt: "Modifie §YEtat de l'Union de la Mer Noire§! par §Y$MODIFIER_CONSUMER_GOODS_FACTOR$§!: §Y-5%§! et §Y$MODIFIER_INDUSTRIAL_CAPACITY_FACTOR$§!: §G+2%§!.\nPour chaque nation de plus qui rejoint la BSU, ce modificateur va augmenter jusqu'à un maximum de §Y$MODIFIER_CONSUMER_GOODS_FACTOR$§!: §Y-25%§!, $MODIFIER_INDUSTRIAL_CAPACITY_FACTOR$: §G+10%§!."
  UKR_bsd_political_union_tt: "Modifie §YEtat de l'Union de la Mer Noire§! par §Y$MODIFIER_STABILITY_FACTOR$§!: §G+2%§! et §Y$MODIFIER_POLITICAL_POWER_GAIN$§!: §G+0.02§!.\nPour chaque nation de plus qui rejoint la BSU, ce modificateur va augmenter jusqu'à un maximum de §Y$MODIFIER_STABILITY_FACTOR$§!: §G+10%§!, $MODIFIER_POLITICAL_POWER_GAIN$: §G+0.2§!."
 
  ### Republic Decisions ###
@@ -600,7 +591,7 @@
 
  UKR_rrb_moderates_dominant_tt: "§SModérés§! du §RR-RB§! dirigés par §CVolodymyr Vynnychenko§!. Nous allons obtenir §G+10%§! de pouvoir politique."
  UKR_rrb_radicals_dominant_tt: "§oRadicaux§! du §RR-RB§! dirigés par §CAnatolii Pisotskyi§!. Nous allons obtenir §G+20%§! de pouvoir politique"
- UKR_upsr_moderates_dominant_tt: "§SModérés§! de l'§RUPS-R§! dirigés par §CMykola Kovalevskyki§!. Nous allons obtenir §R-5%§! de pouvoir politique"
+ UKR_upsr_moderates_dominant_tt: "§SModérés§! de l'§RUPS-R§! dirigés par §CMykola Kovalevskyi§!. Nous allons obtenir §R-5%§! de pouvoir politique"
  UKR_upsr_radicals_dominant_tt: "§oRadicaux§! de l'§RUPS-R§! dirigés par §CNykyfir Hryhoriiv§!. Nous allons obtenir §G+15%§! de pouvoir politique"
 
  UKR_rrb_moderates_strengthen: "La puissance des §SModérés§! du §RR-RB§! va changer de [?UKR_strength_change|=Y0]"
@@ -689,13 +680,13 @@
  UKR_trade_with_iran: "[PER.GetFlag] Se Rapprocher de Téhéran"
  UKR_trade_with_egypt: "[EGY.GetFlag] Approcher [EGY.GetNameDef]"
  UKR_trade_with_nfa: "[NFA.GetFlag] Faire affaires avec [NFA.GetNameDef]"
- UKR_trade_with_countries_tt: "Modifie §YAu-delà de Mitteleuropa§! par\n$MODIFIER_POLITICAL_POWER_GAIN$: §G+3%§!\n$MODIFIER_PRODUCTION_SPEED_BUILDINGS_FACTOR$: §G+3%§!\n$MODIFIER_CONSUMER_GOODS_FACTOR$: §Y-1%§!\n$MODIFIER_TRADE_OPINION_FACTOR$: §G+3%§!"
+ UKR_trade_with_countries_tt: "Modifie §YAu-delà de Mitteleuropa§! par\n$MODIFIER_POLITICAL_POWER_GAIN$: §G+3%§!\n$MODIFIER_PRODUCTION_SPEED_BUILDINGS_FACTOR$: §G+3%§!\n$MODIFIER_CONSUMER_GOODS_FACTOR$: §Y-5%§!\n$MODIFIER_TRADE_OPINION_FACTOR$: §G+3%§!"
  UKR_build_up_odessa_port: "Développer le port d'[192.GetName]"
  UKR_build_up_odessa_port_tt: "Modifie §YAu-delà de Mitteleuropa§! par\nProduction des Chantiers Navals : §G+10%§!\n$MODIFIER_TRADE_OPINION_FACTOR$ : §G+10%§!\n\n"
 
 ### SocLib Hetmanate Tooltips and Descriptions ###
  UKR_parliamentary_hetmanate: "La Voie de la Parlementarisation"
- UKR_parliamentary_hetmanate_desc: "Danylo Skoropadskyi a cherché à poursuivre les négociations avec le VDR et à mettre en œuvre les réformes nécessaires. Malheureusement, cela a suscité une vive colère de la part de la droite antiparlementaire, qui voit soudainement son pouvoir s'éclipser. Pour que le processus de parlementarisation s'amorce et s'achève dans de bonnes conditions, il faut que l'on s'occupe d'eux pendant que se mettent lentement en place les réformes de la VDR.\n\nAfin de se concentrer sur la réduction de la force de l'opposition, la puissance du §SVDR§! doit être suffisamment élevée. Pour porter les réformes du VDR elles-mêmes, la puissance de l'§Popposition conservatrice§! doit être suffisamment faible.\n\nForce actuelle du §SVDR§!: [UKR_vdr_strength_variable_loc]\n\nForce actuelle de l'§Popposition conservatrice§! : [UKR_opposition_strength_variable_loc]"
+ UKR_parliamentary_hetmanate_desc: "Danylo Skoropadskyi a cherché à poursuivre les négociations avec le VDR et à mettre en œuvre les réformes nécessaires. Malheureusement, cela a suscité une vive colère de la part de la droite antiparlementaire, qui voit soudainement son pouvoir s'éclipser. Pour que le processus de parlementarisation s'amorce et s'achève dans de bonnes conditions, il faut que l'on s'occupe d'eux pendant que se mettent lentement en place les réformes de la VDR.\n\nAfin de se concentrer sur la réduction de la force de l'opposition, la puissance du §SVDR§! doit être suffisamment élevée. Pour porter les réformes du VDR elles-mêmes, la puissance de l'§Popposition conservatrice§! doit être suffisamment faible.\n\nForce actuelle du §SVDR§!: [UKR_government_strength_variable_loc]\n\nForce actuelle de l'§Popposition conservatrice§! : [UKR_opposition_strength_variable_loc]"
 
  UKR_complete_the_reforms: "Achever les Réformes"
  UKR_conservative_opposition_growing: "Opposition Conservatrice Croissante"
@@ -704,10 +695,10 @@
  UKR_curb_opposition_efforts: "Freiner les Efforts de l'Opposition"
  UKR_gain_support_of_udkhp: "Obtenir le Soutien de l'UDKhP"
 
- UKR_vdr_strength_nonexistent: "§oInexistant§!"
- UKR_vdr_strength_low: "§gBas§!"
- UKR_vdr_strength_moderate: "§OModéré§!"
- UKR_vdr_strength_high:0 "§GHaut§!"
+ UKR_government_strength_nonexistent:0 "§oInexistant§!"
+ UKR_government_strength_low:0 "§gBas§!"
+ UKR_government_strength_moderate:0 "§OModéré§!"
+ UKR_government_strength_high:0 "§GHaut§!"
 
  UKR_opposition_strength_low:0 "§GBas§!"
  UKR_opposition_strength_moderate: "§OModéré§!"
@@ -734,9 +725,9 @@
  UKR_strengthen_the_opposition_big: "Cela va significativement renforcer l'§Popposition§!."
  UKR_conservative_opposition_not_growing: "L'§Popposition§! ne va §Gpas§! être renforcée ce tour ci."
 
- UKR_vdr_strength_slight_requirement: "La puissance du §SVDR§! est §gbasse§! ou haute"
- UKR_vdr_strength_moderate_requirement: "La puissance du §SVDR§! est §Omodérée§! ou haute"
- UKR_vdr_strength_high_requirement: "La puissance du §SVDR§! est §Ghaute§!"
+ UKR_government_strength_slight_requirement:0 "La puissance du §SVDR§! est §gbasse§! ou haute"
+ UKR_government_strength_moderate_requirement:0 "La puissance du §SVDR§! est §Omodérée§! ou haute"
+ UKR_government_strength_high_requirement:0 "La puissance du §SVDR§! est §Ghaute§!"
 
  UKR_opposition_strength_slight_requirement: "La puissance de l'§Popposition§! est §gbasse§!"
  UKR_opposition_strength_moderate_requirement: "La puissance de l'§Popposition§! est §Omodérée§! ou plus basse"
@@ -2256,7 +2247,7 @@
  ukraine_landreform.20.t: "Boom des Distilleries"
  ukraine_landreform.20.d: "Nous avons accordé des subventions pour tout projet d'usine dans les régions rurales afin d'aider ces dernières à se développer et à se moderniser. Il semble que les entreprises les plus populaires dans ces régions soient rapidement devenues des distilleries, en particulier celles qui produisent de la horilka bon marché à partir des excédents de céréales. De nombreuses personnes concernées - prêtres, mères, enseignants - ont critiqué ces "machines du diable" qui répandent un style de vie indécent dans les campagnes avec de l'alcool bon marché. Cependant, elles sont très productives et les restreindre reviendrait à perdre une bonne partie de la croissance potentielle et de l'impôt sur les sociétés."
  ukraine_landreform.20.a: "L'alcool est la boisson du diable."
- ukraine_landreform.20.b:0 "Santé !"
+ ukraine_landreform.20.b: "Boire est une joie pour tous les Ukrainiens !"
 
  ukraine_landreform.21.t: "Assèchement des Marais"
  ukraine_landreform.21.d: "Il existe de nombreux marais et zones humides, en particulier dans le nord-ouest de l'Ukraine, où les grands marais de Pinsk s'étendent sur des centaines de kilomètres. L'assèchement d'une partie de ces marais permettrait de créer davantage de terres agricoles, mais il est également très coûteux, car de nombreux canaux doivent être creusés pour évacuer l'eau. Normalement, ces projets sont organisés par des "coopératives de marais" fondées à cet effet, où chaque membre paie une partie des frais d'assèchement et obtient de nouvelles terres agricoles au prorata de sa contribution. Avec des subventions de l'État, nous pourrions grandement contribuer à la remise en état de ces terres agricoles."
@@ -2871,19 +2862,19 @@
 
  ukraine_borotbist.62.t: "Des fonds pour VAPLITE"
  ukraine_borotbist.62.d: "Dans le cadre de sa "Révolution Culturelle", Mykola Khyvyliovyi a demandé un financement pour VAPLITE, l'Académie Libre de Littérature Prolétarienne. Composé de personnalités telles que Maik Yokhansen, Arkadii Lioubchenko, Mykhailo Yalovyi et d'autres, VAPLITE est centrée sur la création d'une nouvelle culture ukrainienne, poursuivant une vision différente de celle de l'Hetmanat et de la République. Selon Khyvyliovyi, cette nouvelle culture ukrainienne peut être revigorée grâce à l'influence de la tradition artistique établie d'Europe occidentale. Il souligne que malgré l'indépendance politique de jure de l'Ukraine, elle n'a jamais véritablement obtenu son indépendance culturelle par rapport à Moscou, illustrant la raison pour laquelle la devise de VAPLITE est « Loin de Moscou ! ».\n\nMais certains Borotbystes, qui ont tendance à considérer les idées de Khyvyliovyi avec scepticisme, ont mis en garde contre le financement de VAPLITE. Le plus éminent de ces Borotbystes, Andrii Khvylia, a déclaré que l'art devrait être utilisé au mieux comme un outil pour soutenir la révolution socialiste, et non comme un « exercice de petit nationalisme »."
- ukraine_borotbist.62.a: "Dites à Khvyliowyi qu'il aura ses fonds."
+ ukraine_borotbist.62.a: "Dites à Khvyliovyi qu'il aura ses fonds."
  ukraine_borotbist.62.b: "Khvylia a raison, nous ne pouvons permettre que l’art soit utilisé comme un outil pour soutenir la révolution."
 
  ukraine_borotbist.63.t: "Renaissance Asiatique"
- ukraine_borotbist.63.d: "Mykola Khvylovyi a publié un nouvel article dans VAPLITE intitulé « Renaissance Asiatique ». Dans l'article, Khvylovy fait l'éloge des révolutions socialistes en Chine et en Indochine et propose qu'elles soient un exemple de l'inévitable : un réveil de l'Asie et du reste du monde colonial, dont une grande partie se languit actuellement sous la botte de l'impérialisme européen et japonais. Il affirme que les nations asiatiques « allumeront la lampe de la nouvelle renaissance qui brillera comme un pentagramme azur au-dessus de la sombre nuit européenne »."
+ ukraine_borotbist.63.d: "Mykola Khvyliovyi a publié un nouvel article dans VAPLITE intitulé « Renaissance Asiatique ». Dans l'article, Khvylovy fait l'éloge des révolutions socialistes en Chine et en Indochine et propose qu'elles soient un exemple de l'inévitable : un réveil de l'Asie et du reste du monde colonial, dont une grande partie se languit actuellement sous la botte de l'impérialisme européen et japonais. Il affirme que les nations asiatiques « allumeront la lampe de la nouvelle renaissance qui brillera comme un pentagramme azur au-dessus de la sombre nuit européenne »."
  ukraine_borotbist.63.a: "Tout comme eux, nous luttons nous aussi contre l’impérialisme."
 
  ukraine_borotbist.64.t: "Nova Generatsiia"
- ukraine_borotbist.64.d: "Il semble que VAPLITE ne soit pas la seule association artistique à avoir pris de l'importance grâce à la révolution. Mykhail Semenko a créé une nouvelle association, Nova Generatsiia (Nouvelle Génération), promouvant une rupture radicale avec les traditions littéraires du passé. New Generation soutient ce qu'elle appelle le « futurisme révolutionnaire » et la « poésie fonctionnelle ». L'organisation de Semenko a reçu un certain soutien du gouvernement en raison de sa nature idéologique et propagandiste. VAPLITE et Nouvelle Génération ont commencé à rivaliser pour la reconnaissance, constituant une sorte de rivalité idéologique, car les membres de VAPLITE croient toujours aux traditions littéraires. Khyvliovyi a commenté en réponse à l'ascension du groupe que « le véritable art est plus que des tracts de propagande idéologiquement chargés »."
+ ukraine_borotbist.64.d: "Il semble que VAPLITE ne soit pas la seule association artistique à avoir pris de l'importance grâce à la révolution. Mykhail Semenko a créé une nouvelle association, Nova Generatsiia (Nouvelle Génération), promouvant une rupture radicale avec les traditions littéraires du passé. New Generation soutient ce qu'elle appelle le « futurisme révolutionnaire » et la « poésie fonctionnelle ». L'organisation de Semenko a reçu un certain soutien du gouvernement en raison de sa nature idéologique et propagandiste. VAPLITE et Nouvelle Génération ont commencé à rivaliser pour la reconnaissance, constituant une sorte de rivalité idéologique, car les membres de VAPLITE croient toujours aux traditions littéraires. Khvyliovyi a commenté en réponse à l'ascension du groupe que « le véritable art est plus que des tracts de propagande idéologiquement chargés »."
  ukraine_borotbist.64.a: "Qu’il soit national ou futuriste, l’art reste de l’art."
 
  ukraine_borotbist.65.t: "Campagne Anti-Néoclassicisme"
- ukraine_borotbist.65.d: "Un groupe important de poètes et d'écrivains modernistes connus sous le nom de «[202.GetName]an néoclassicistes» a récemment fait l'objet de critiques virulentes dans la presse, en particulier dans les journaux alignés sur l'UKP. Scandant des slogans d'"art pur", les néoclassiques sont accusés de "perpétuation de traditions bourgeoises décadentes" et de "vide idéologique". Le groupe a néanmoins trouvé un allié peut-être inattendu en la personne de Mykola Khvylovyi. Le révolutionnaire vétéran a répondu par une rafale de pamphlets, attaquant la « graphomanie rouge » et défendant « les normes rigoureuses et exigeantes de l'art littéraire défendues par les néoclassiques ». Ce qui a commencé comme une analyse de l'art s'est transformé en une véritable campagne de diffamation à travers de nombreux journaux, alors que l'élite culturelle ukrainienne est obligée de choisir son camp dans cette « guerre néo-classique »."
+ ukraine_borotbist.65.d: "Un groupe important de poètes et d'écrivains modernistes connus sous le nom de «[202.GetName]an néoclassicistes» a récemment fait l'objet de critiques virulentes dans la presse, en particulier dans les journaux alignés sur l'UKP. Scandant des slogans d'"art pur", les néoclassiques sont accusés de "perpétuation de traditions bourgeoises décadentes" et de "vide idéologique". Le groupe a néanmoins trouvé un allié peut-être inattendu en la personne de Mykola Khvyliovyi. Le révolutionnaire vétéran a répondu par une rafale de pamphlets, attaquant la « graphomanie rouge » et défendant « les normes rigoureuses et exigeantes de l'art littéraire défendues par les néoclassiques ». Ce qui a commencé comme une analyse de l'art s'est transformé en une véritable campagne de diffamation à travers de nombreux journaux, alors que l'élite culturelle ukrainienne est obligée de choisir son camp dans cette « guerre néo-classique »."
  ukraine_borotbist.65.a: "Le fanatisme ne remplace pas l'expertise."
  ukraine_borotbist.65.b: "Réprimandez Khvyliovyi, il est allé trop loin."
 
@@ -3138,7 +3129,7 @@
  ukraine_republican.30.d: "La réforme agraire est peut-être une question de subsistance pour la population, mais cela ne signifie pas que nos projets d’industrialisation ne seront pas un facteur dans cette élection – bien au contraire, en fait. L’intelligentsia et l’élite envisagent un avenir ukrainien industriel, une économie ukrainienne modernisée qui sera capable de résister à la tempête à l’avenir car elle pourra exporter bien plus que de simples céréales. De grands projets d'ingénierie comme le projet hydroélectrique de Dniprohes apporteraient de l'électricité aux foyers de nombreux Ukrainiens, et il ne fait aucun doute que ces projets sont populaires. Peut-être devrions-nous profiter de ces projets et promettre de les concrétiser dans le cadre de notre campagne électorale ?"
  ukraine_republican.30.a: "Vers un avenir industriel !"
  ukraine_republican.30.b: "Nous ne devrions pas promettre quelque chose que nous ne pouvons pas tenir."
- ukraine_republican.30.b_tt: "§Y300 jours§! après les élections, il faudra atteindre un §Cscore d'industrialisation§! au-dessus de §Y40§!. Si nous ne tenons pas notre promesse, nous en §Rpayerons le prix§!."
+ ukraine_republican.30.b_tt: "§Y300 jours§! après les élections, il faudra atteindre un §Cscore d'industrialisation§! au-dessus de §Y30§!. Si nous ne tenons pas notre promesse, nous en §Rpayerons le prix§!."
 
  ukraine_republican.31.t: "La Question de la Réforme Agraire"
  ukraine_republican.31.d: "Des terres pour tous! C'était la promesse qui avait rallié les paysans à soutenir le VDR contre le Hetman. Alors que tous les partis prennent définitivement la question au sérieux, aux yeux des socialistes, les autres partis semblent encore trop indulgents envers les grands propriétaires fonciers, parlant de compensations et de légalisme. La plupart des agriculteurs soutiennent l’UPS-R pour l’instant, mais en s’appropriant la question foncière, Mazepa et son parti pourraient constamment faire pression pour obtenir davantage de concessions aux paysans, et éventuellement rallier certaines parties des campagnes à l’USDRP."
@@ -3251,7 +3242,7 @@
  ukraine_republican.66.b: "Laissez-les avoir leurs élections libres !"
 
  ukraine_republican.67.t: "La Question de la Défense"
- ukraine_republican.67.d: "Au beau milieu des élections, l'ambassadeur allemand Johannes von Welczeck a demandé au Président provisoire Petlioura un mémorandum sur la position de l'Ukraine en matière de défense nationale. Dans sa déclaration, von der Schulenburg a assuré que l'Allemagne respecterait la démocratie ukrainienne, mais a demandé l'assurance que la coopération en matière de défense entre les deux pays se poursuivrait comme convenu précédemment, et a laissé entendre que certaines parties pourraient ne pas prendre la défense nationale aussi au sérieux que d'autres. Dans une plaisanterie évidente contre Vynnychenko, il a souligné qu'en période de troubles, les nations ont besoin de modérés fiables comme Petlioura plutôt que d'idéalistes « détachés de la réalité ».\n\nCes types d’interventions allemandes voilées ne sont pas rares dans la politique d'Europe de l’Est. Le message était clair : le Bloc Révolutionnaire ne jouit pas de la confiance de l’Allemagne. Si cela ne dérange pas la plupart de leurs électeurs, bien au contraire, cela donne aux autres partis des munitions pour cibler les électeurs indécis. Après tout, quoi qu’on pense de l’Allemagne, c’est leur amitié continue qui maintient la Russie à distance et qui permet à l’économie nationale ukrainienne de fonctionner.\n"
+ ukraine_republican.67.d: "Au milieu des élections, l'ambassadeur allemand Johannes von Welczeck a demandé au président provisoire Petlioura un mémorandum sur la position de l'Ukraine en matière de défense nationale. Dans sa déclaration, von Welczeck a assuré que l'Allemagne respecterait la démocratie ukrainienne, mais a demandé l'assurance que la coopération en matière de défense entre les deux pays se poursuivrait comme convenu précédemment, et a laissé entendre que certaines parties pourraient ne pas prendre la défense nationale aussi au sérieux que d'autres. Dans une allusion évidente à Vynnychenko, il a souligné qu'en période de troubles, les nations avaient besoin de modérés fiables comme Petlioura plutôt que d'idéalistes « détachés de la réalité ».\n\nCes types d’interventions allemandes voilées ne sont pas rares dans la politique de l’Europe de l’Est. Le message était clair : le Bloc Révolutionnaire ne jouit pas de la confiance de l’Allemagne. Si cela ne dérange pas la plupart de leurs électeurs, bien au contraire, cela donne aux autres partis des munitions pour cibler les électeurs indécis. Après tout, quoi qu’on pense de l’Allemagne, c’est leur amitié continue qui maintient la Russie à distance et qui permet à l’économie nationale ukrainienne de fonctionner."
  ukraine_republican.67.a: "L'URDP promet une politique étrangère rationnelle et responsable !"
  ukraine_republican.67.b: "L'USDRP reproche à Vynnychenko d'ignorer les réalités de la sécurité."
  ukraine_republican.67.c: "L'UPS-R présente ses rivaux comme étant trop favorables à Berlin."
@@ -3725,6 +3716,7 @@
  ukraine_forpol.18.d: "Insatisfaite de nos demandes, la délégation ukrainienne est arrivée pour marchander. Ils souhaitent modifier certains points particulièrement problématiques de notre accord, comme par exemple la possibilité de nationaliser les actifs allemands, mais en payant une compensation complète pour ceux-ci. Ils souhaitent en outre éviter une trop forte présence allemande dans le pays et, en échange de libertés supplémentaires, nous proposer des accords d'exportation plus rentables. C'est évidemment plus important pour eux au niveau national, car ils ne souhaitent pas être perçus comme des "vendus aux Allemands" – le même crime dont ils ont accusé le gouvernement du Hetman."
  ukraine_forpol.18.a: "Cela semble raisonnable."
  ukraine_forpol.18.b: "Ils ne sont pas en position de négocier."
+ ukraine_forpol.18.b.tt: "L'Ukraine pourrait chercher une meilleure offre auprès de £KR_game_rule_flag_AUS  l'§YEmpire Autrichien§! en réponse à notre position dure, mais s'ils acceptent, les bénéfices §Gseront énormes§! ."
 
  ukraine_forpol.19.t: "Les Allemands acceptent notre marché"
  ukraine_forpol.19.d: "Notre délégation a réussi à convaincre l'Allemagne d'abaisser ses exigences déraisonnables. C’est une réussite que nous pouvons présenter à nos partisans nationaux comme une victoire sur l’hégémonie allemande, ou du moins comme un progrès vers notre éventuelle libération – quelque chose que l’Hetmanat n’a jamais réussi à réaliser. Dans le cadre de la renégociation, les Allemands ont abandonné leur exigence de contrôler le chemin de fer et de le protéger avec leurs propres soldats. Ils se sont également satisfaits de la création d'un comité mixte chargé de gérer et d'organiser le système d'infrastructure."
@@ -3792,6 +3784,26 @@
  ukraine_forpol.34.t: "L'Allemagne nous approche avec une proposition d'alliance"
  ukraine_forpol.34.d: "Maintenant que nous nous retrouvons non-alignés, l’Allemagne a rapidement jeté à nouveau son dévolu sur nous. Bien que sur un ton plus poli que la dernière fois, ils nous ont une fois de plus proposé une alliance militaire. Compte tenu de l’instabilité actuelle dans la région danubienne, cela nous protégerait au moins d’éventuelles actions hostiles du régime ultranationaliste autrichien. Bien qu'une alliance rappelle à certains l'assujettissement de l'Ukraine à l'Allemagne sous le règne du Hetman, nous n'avons pas d'autres options si nous voulons nous protéger contre toute agression russe dans le futur. Nous devons accepter la proposition."
  ukraine_forpol.34.a: "Allions-nous à eux - de notre plein gré."
+
+ ukraine_forpol.35.t: "Manifestations en Ukraine"
+ ukraine_forpol.35.d: "Tout comme nos propres problèmes intérieurs continuent de s’aggraver, ceux de notre plus important allié à l’Est augmentent également. Le Hetman Pavlo Skoropadskyi, que nous avons soutenu au début de 1918 en tant qu'allié clé en Ukraine, fait face à des critiques de plus en plus acerbes de la part de l'opposition républicaine en exil, qui réclame des réformes politiques et économiques. Il est inquiétant de constater que la situation semble échapper au contrôle du Hetman.\n\nIl est vrai que nous avons peu de ressources à consacrer à notre allié ukrainien, mais certains disent qu’il s’agit d’une question de sécurité nationale. Si nous ne parvenons pas à fournir une certaine forme d'assistance, le règne du Hetman pourrait ne plus durer très longtemps."
+ ukraine_forpol.35.a: "S'assurer qu’il obtienne tout ce dont il a besoin."
+ ukraine_forpol.35.b: "Je suis sûr qu'il peut très bien gérer la situation."
+ ukraine_forpol.35.tt: "Soutenir l’Hetmanat peut être une entreprise coûteuse pour le moment, mais en garantissant que Skoropadskyi reste au pouvoir, nous pourrions §Gen récolter les bénéfices§! à long terme."
+
+ ukraine_forpol.36.t: "Le Soulèvement en Ukraine écrasé"
+ ukraine_forpol.36.d: "Une bonne nouvelle nous est parvenue de [202.GetName]. L'ambassadeur d'Ukraine en Allemagne a informé notre ambassadeur Johannes von Welczeck que la situation critique en Ukraine s'était arrangée. Malgré les revers initiaux, une contre-offensive a poussé les rebelles socialistes ukrainiens hors du pays et les a forcés à fuir, garantissant ainsi la pérennité du régime de Skoropadskyi.\n\nMême si le Hetman ne s’est jamais présenté comme pro-allemand, préférant plutôt être qualifié de pro-ukrainien, il ne fait aucun doute que sa victoire sera bénéfique pour la coopération germano-ukrainienne. Espérons que nous pourrons récolter les fruits de cette coopération, tout en restant assurés que nos plans défensifs d’Ostwall pourront se poursuivre comme avant."
+ ukraine_forpol.36.a:0 "Une bonne nouvelle."
+
+ ukraine_forpol.37.t: "Les exportations ukrainiennes explosent"
+ ukraine_forpol.37.d: "La guerre en Amérique a considérablement réduit la quantité de blé exportée sur les marchés mondiaux, et notre fidèle alliée, l’Ukraine, fait partie de ceux qui profitent grandement de la tragédie qui se déroule aux États-Unis. De plus, le monde qui nous entoure se remet de l’horrible récession économique. Malgré la menace imminente de guerre et les blessures encore vives de la révolte, les exportations ukrainiennes se sont très bien redressées.\n\nLa volonté de l’administration Skoropadskyi d’exporter des céréales vers l’Allemagne a certainement ses avantages. Mais la domination ukrainienne sur le marché des céréales a également des opposants parmi les individus les plus protectionnistes."
+ ukraine_forpol.37.a: "Plus jamais un autre hiver à manger des navets !"
+ ukraine_forpol.37.b: "Cela ne peut pas se faire au détriment des agriculteurs allemands."
+
+ ukraine_forpol.38.t: "BASF déclare des bénéfices records"
+ ukraine_forpol.38.d: "La Badische Anilin- und Sodafabrik, ou BASF, a récemment déclaré des bénéfices records. En tant que plus grande compagnie pétrolière opérant en Allemagne et en Europe de l'Est dans son ensemble, cela n'est pas une surprise, car parallèlement au programme d'industrialisation en cours de l'Ukraine, elle a aidé l'industrie pétrolière ukrainienne à décoller. Nous avons pu récolter nous-mêmes certains bénéfices, notamment grâce aux accords lucratifs conclus par l'administration Skoropadskyi avec des hommes d'affaires allemands."
+ ukraine_forpol.38.a: "Une initiative fantastique."
+ ukraine_forpol.38.b: "Nous devrions en profiter davantage..."
 
  ### Focuses ###
 

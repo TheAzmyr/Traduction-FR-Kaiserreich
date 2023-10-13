@@ -132,11 +132,11 @@ SQI_controlled_drug_trade: "Contrôle du commerce de la drogue"
  SQI_Legation_military_assistance: "Formation des officiers des légations"
 SQI_Legation_military_assistance_desc: "Les conseillers mercenaires américains, britanniques et français engagés par les villes des Légations se sont mis à la tâche avec brio. Les officiers connaissent maintenant une variété de nouvelles insultes dans de nouvelles langues et ont contracté plusieurs nouvelles maladies vénériennes non découvertes. Dans l'ensemble, un gain positif".
 
-SQI_red_spears: "Assistance aux lances rouges"
-SQI_red_spears_desc: "Les Red Spears du centre du Shandong ont pleinement approuvé le Yiguandao, et sont déterminés à se battre à nos côtés. Leurs dirigeants croient en la nature spirituelle de la lutte pour la Chine contre les démons étrangers".
-
- SQI_big_swords: "Assistance de Big Swords"
+ SQI_big_swords: "Grandes Epées"
 SQI_big_swords_desc: "Les Big Swords du nord de la Chine ont enfin pleinement approuvé le Yiguandao, et sont déterminés à se battre à nos côtés. Leurs dirigeants croient en la nature spirituelle de la lutte pour la Chine contre les démons étrangers".
+
+ SQI_big_swords_and_red_spears: "Grandes Epées et Lances Rouges"
+ SQI_big_swords_and_red_spears_desc: "Les Grandes Épées du nord de la Chine et les Lances Rouges du centre du Shandong ont pleinement soutenu le Yiguandao et sont déterminées à combattre à nos côtés. Leurs dirigeants croient en la nature spirituelle de la lutte de la Chine contre les démons étrangers."
 
 SQI_Guiyidao_support: "Soutien du Guiyidao"
  SQI_Guiyidao_support_desc: "L'imitation de l'Organisation chinoise de moralité et de charité de Tianran a finalement pris le pas sur son inspiration, le Guiyidao. Dans l'intérêt du peuple chinois, Zhang Tianran a pris le contrôle des installations de la Société Rouge de la Swastika à Shandong, et a promis de protéger les temples de Guiyidao contre le banditisme omniprésent."
@@ -156,6 +156,8 @@ SQI_jiangsu_exploitation_desc: "De notre accord avec Anqing, négocié par Fengt
  SQI_expand_our_control: "Accroître notre contrôle"
  SQI_expand_our_control_desc: "Avec la fin de la guerre dévastatrice de la Ligue, le Shandong se présente comme le véritable champion des provinces de l'Est. Il peut s'avérer fructueux d'intégrer rapidement les anciennes provinces de la Ligue avant de pouvoir procéder à l'unification du reste de la Chine!"
 
+ SQI_mineral_rights_leases_idea: "Baux de Droits Miniers"
+
 ### Dynamic/state modifiers
 
 SQI_jiangsu_shandong_deal_dynamic_modifier: "Exploitation du Jiangsu"
@@ -166,14 +168,6 @@ seventy_two_cannon_artillery_foundry: " Fonderie d'artillerie de canons-72 "
 jinan_arsenal: "Arsenal de Jinan"
 
 ### Flags
- SQI_Yingguang_beat_Zongchang: "Yingguang a réussi à prendre le pouvoir"
-SQI_Tianran_beat_Zongchang: "Le Yiguandao a pris le pouvoir"
-SQI_Zongchang_beat_Tianran: "Zongchang est resté au pouvoir"
- SQI_puppet: "Shandong est une Marionnette"
- sqi_influence_wars: "La guerre interne au sein de la clique de Zongchang pour un bailleur de fonds commence."
- SQI_zongchang_dead: "§RZhang Zongchang meurt§!\n\n"
- SQI_tianran_dead: "§RZhang Tianran meurt§!\n\n"
- SQI_yingguang_dead: "§RQu Yingguang meurt§!\n\n"
 SQI_feng_supports_zhang_vs_anq: "Le Fengtien soutient Zhang Zongchang contre Anqing"
 SQI_LSP: "§HShandong§! a réuni les Six Provinces"
  SQI_has_won_league_war: "§HShandong§! a gagné la Guerre de la Ligue"
@@ -210,6 +204,9 @@ SQI_end_Zongchang_riot: "Mettre fin à l'émeute de Zongchang"
  SQI_end_Loyal_citizens: "Légitimer le régime"
 
 SQI_decisions_unlocked: "Décisions déverrouillées"
+
+ SQI_develop_jiangxi_tungsten_decision: "Développer le tungstène du Jiangxi"
+ SQI_develop_fujian_aluminium_decision: "Développer l'aluminium du Fujian"
 
 SQI_create_LSP: "Créer la ligue des six provinces"
  SQI_create_LSP_desc: "Les six provinces peuvent désormais être réorganisées sous la direction d'un seul maréchal, Zhang Zongchang. Après le chaos qui a suivi la mort de Sun, Zhang Zongchang a réorganisé la Ligue et a réuni les six provinces sous son autorité. Son approbation du vice et du militantisme opportuniste est maintenant la politique de facto des six provinces"
@@ -323,181 +320,175 @@ sqi_pat_aut_liu_heding_puppet: "Clique d'Anqing"
  Shandong_Focus: "Arbre de priorités de Shandong"
 
 ### Political focuses ###
-SQI_Two_Zhangs_Enter: "Deux Zhangs entrent"
- SQI_Two_Zhangs_Enter_desc: "Des années de tension entre les Yiguandao et Zhang Zongchang ont atteint un point de rupture. Les promesses de Zongchang de rester clean se sont fanées, et l'infiltration de Qu Yingguang dans le trafic de drogue a permis de déterrer des preuves précieuses pour le condamner aux yeux du monde. Avec l'arrivée de Lu Zhongjie à Jinan, Zongchang s'est mis sur la voie de la destruction pour tous les trois à Shandong."
+ SQI_two_zhangs_enter:0 "Deux Zhangs entrent"
+ SQI_two_zhangs_enter_desc:0 "Des années de tension entre les Yiguandao et Zhang Zongchang ont atteint un point de rupture. Les promesses de Zongchang de rester clean se sont fanées, et l'infiltration de Qu Yingguang dans le trafic de drogue a permis de déterrer des preuves précieuses pour le condamner aux yeux du monde. Avec l'arrivée de Lu Zhongjie à Jinan, Zongchang s'est mis sur la voie de la destruction pour tous les trois à Shandong."
 
- SQI_Zhang_Tianran_focus: "Annoncer l'ordre révélationnaire"
- SQI_Zhang_Tianran_focus_desc: "Comme l'ont fait tous les grands professeurs d'histoire chinoise, Zhang Tianran révélera l'ordre revalorisé au public chinois par des sermons publics. Pendant que les seigneurs de la guerre de Chine crieront et briseront leurs hommes, Zhang Tianran dictera calmement l'avenir de la Chine tel qu'il lui sera raconté par l'écriture des esprits. A travers Tianran, Wujimu, Sun Yat-Sen et le Bouddha parlent"
+ SQI_annoynce_revelationary_order:0 "Annoncer l'ordre révélationnaire"
+ SQI_annoynce_revelationary_order_desc:0 "Comme l'ont fait tous les grands professeurs d'histoire chinoise, Zhang Tianran révélera l'ordre revalorisé au public chinois par des sermons publics. Pendant que les seigneurs de la guerre de Chine crieront et briseront leurs hommes, Zhang Tianran dictera calmement l'avenir de la Chine tel qu'il lui sera raconté par l'écriture des esprits. A travers Tianran, Wujimu, Sun Yat-Sen et le Bouddha parlent"
 
-SQI_Mobbing_Drug_Dealing_Bureaucrats: "Détruire les trafiquants de drogue"
- SQI_Mobbing_Drug_Dealing_Bureaucrats_desc: "Les générations de douleur dont la Chine sort sont menacées par les graines vicieuses de l'Opium. L'opium n'est pas un médicament mais un poison pour le peuple chinois, et c'est ce à quoi les nobles Boxeurs et Sun Yat-Sen ont voulu mettre fin. Zhang Tianran a établi une liste de trafiquants de drogue connus, et compte sur les citoyens pour les déraciner"
+ SQI_destroy_the_drug_trade: "Détruire le Trafic de Drogue"
+ SQI_destroy_the_drug_trade_desc:0 "Les générations de douleur dont la Chine sort sont menacées par les graines vicieuses de l'Opium. L'opium n'est pas un médicament mais un poison pour le peuple chinois, et c'est ce à quoi les nobles Boxeurs et Sun Yat-Sen ont voulu mettre fin. Zhang Tianran a établi une liste de trafiquants de drogue connus, et compte sur les citoyens pour les déraciner"
 
-SQI_Moving_The_Provincial_capital: "Retour à l'essentiel"
-SQI_Moving_The_Provincial_capital_desc: "Toute la bureaucratie de Jinan est pourrie avec une foi aveugle dans les seigneurs de la guerre. Le conseil d'indépendance du Shandong, le bureau du gouverneur de Zongchang et le bureau d'importation corrompu doivent tous être condamnés. A partir de leur échec, les Yiguandao vont mettre en place des directeurs et des enseignants pour superviser la gouvernance civile. "
+ SQI_back_to_the_basics:0 "Retour à l'essentiel"
+ SQI_back_to_the_basics_desc:0 "Toute la bureaucratie de Jinan est pourrie avec une foi aveugle dans les seigneurs de la guerre. Le conseil d'indépendance du Shandong, le bureau du gouverneur de Zongchang et le bureau d'importation corrompu doivent tous être condamnés. A partir de leur échec, les Yiguandao vont mettre en place des directeurs et des enseignants pour superviser la gouvernance civile. "
 
-SQI_Recruiting_Red_Spears_And_Big_Swords: "Absorber le Guiyidao"
-SQI_Recruiting_Red_Spears_And_Big_Swords_desc: "La capacité innovante du Guiyidao à mettre en relation des hommes pieux de l'extérieur de la Chine avec notre cause de salut est louable. C'est avec un grand regret qu'ils ont abandonné le Shandong pour Beijing et Tianjin. Peu importe. Leurs bureaux sont des lieux privilégiés pour que les dirigeants puissent distribuer des œuvres de charité".
+ SQI_absorb_the_guiyidao: "Absorber le Guiyidao"
+ SQI_absorb_the_guiyidao_desc:0 "La capacité innovante du Guiyidao à mettre en relation des hommes pieux de l'extérieur de la Chine avec notre cause de salut est louable. C'est avec un grand regret qu'ils ont abandonné le Shandong pour Beijing et Tianjin. Peu importe. Leurs bureaux sont des lieux privilégiés pour que les dirigeants puissent distribuer des œuvres de charité"
 
- SQI_Qu_Yingguang_focus:0 "Bienveillance et moralité"
- SQI_Qu_Yingguang_focus_desc:0 "L'Association de bienveillance et de moralité de Zhang Tianran a été créée comme plan de secours en 1930 si jamais le Yiguandao était à nouveau interdit par les Qing. Maintenant que le rôle de leader de Tianran est connu du public, l'organisation peut être entièrement fusionnée avec le Yiguandao. Les brochures de Tianran sur la moralité peuvent être lues publiquement comme des commentaires sur les classiques. "
+ SQI_benevolence_and_morality:0 "Bienveillance et moralité"
+ SQI_benevolence_and_morality_desc:0 "L'Association de bienveillance et de moralité de Zhang Tianran a été créée comme plan de secours en 1930 si jamais le Yiguandao était à nouveau interdit par les Qing. Maintenant que le rôle de leader de Tianran est connu du public, l'organisation peut être entièrement fusionnée avec le Yiguandao. Les brochures de Tianran sur la moralité peuvent être lues publiquement comme des commentaires sur les classiques. "
 
- SQI_Preparing_Integration_With_The_Qing: "Retour à la source"
-SQI_Preparing_Integration_With_The_Qing_desc: "Maintenant que les deux Zhangs ont été éliminés, le Shandong peut revenir à la source de la légitimité en Chine, Beijing. Notre intérêt mutuel de voir la Chine libérée de l'influence étrangère sera réalisé, et les institutions culturelles du Shandong seront préservées. "
+ SQI_return_to_the_source:0 "Retour à la source"
+ SQI_return_to_the_source_desc:0 "Maintenant que les deux Zhangs ont été éliminés, le Shandong peut revenir à la source de la légitimité en Chine, Beijing. Notre intérêt mutuel de voir la Chine libérée de l'influence étrangère sera réalisé, et les institutions culturelles du Shandong seront préservées. "
 
- SQI_Zhang_Zongchang_focus: "L'histoire d'un bâtard"
- SQI_Zhang_Zongchang_focus_desc: "Les foules qui se sont moquées de Zongchang lorsqu'il est arrivé à Jinan dans un cercueil sont maintenant elles-mêmes dans des boîtes en bois. Le gouverneur Zhang Zongchang a annoncé à ses soldats qu'ils sont tous des salauds comme lui. Ce sont aussi les plus grands et les plus virils bâtards de Chine. Le destin de Shandong est de surpasser les grands chiens et de garder Zongchang en vie à tout prix"
+ SQI_story_of_a_bastard: "Histoire d'un Bâtard"
+ SQI_story_of_a_bastard_desc:0 "Les foules qui se sont moquées de Zongchang lorsqu'il est arrivé à Jinan dans un cercueil sont maintenant elles-mêmes dans des boîtes en bois. Le gouverneur Zhang Zongchang a annoncé à ses soldats qu'ils sont tous des salauds comme lui. Ce sont aussi les plus grands et les plus virils bâtards de Chine. Le destin de Shandong est de surpasser les grands chiens et de garder Zongchang en vie à tout prix"
 
-SQI_Appointing_Lu_Zhongyi_Leader_Of_The_Yiguandao: "Nommez Lu Zhongjie au poste de maître"
- SQI_Appointing_Lu_Zhongyi_Leader_Of_The_Yiguandao_desc: "La leçon la plus importante que Zhang Zongchang a tirée de Taishan est que les habitants du Shandong ont afflué vers la religion alors que leur désillusion à son égard s'accroît. Afin de les couper au col, Zongchang a invité la reconnaissante Lu Zhongjie à reprendre son poste de professeur honoré du Yiguandao, et à rester en dehors de la politique"
+ SQI_honoured_teacher_lu_zhongjie: "Honorable Professeur Lu Zhongjie"
+ SQI_honoured_teacher_lu_zhongjie_desc:0 "La leçon la plus importante que Zhang Zongchang a tirée de Taishan est que les habitants du Shandong ont afflué vers la religion alors que leur désillusion à son égard s'accroît. Afin de les couper au col, Zongchang a invité la reconnaissante Lu Zhongjie à reprendre son poste de professeur honoré du Yiguandao, et à rester en dehors de la politique"
 
-SQI_Clearing_Out_Mount_Tai_Of_The_Yiguandao: "Tour Taishan"
-SQI_Clearing_Out_Mount_Tai_Of_The_Yiguandao_desc: "Après le temple des Boxeurs à Dezhou, Sun Dianying a pris goût au décor doré des temples. Les Yiguandao persistent toujours sur Taishan, et Song Dianying a conçu un plan plus prudent consistant à les affamer puis à rançonner tous leurs objets de valeur pour les laisser vivre"
+ SQI_besiege_mount_taishan: "Assiéger le mont Taishan"
+ SQI_besiege_mount_taishan_desc:0 "Après le temple des Boxeurs à Dezhou, Sun Dianying a pris goût au décor doré des temples. Les Yiguandao persistent toujours sur Taishan, et Song Dianying a conçu un plan plus prudent consistant à les affamer puis à rançonner tous leurs objets de valeur pour les laisser vivre"
 
-SQI_Assassinating_Bureaucrats_Threatening_The_Opium_Trade: "Sauvez le commerce de la drogue"
- SQI_Assassinating_Bureaucrats_Threatening_The_Opium_Trade_desc: "La menace imminente de la découverte que Yingguang et Tianran tenaient au-dessus de notre tête est terminée. Une fois que nous aurons éliminé les dernières nourrices qui tentent de perturber le commerce de la drogue, nous pourrons jouir de cette liberté que les monarchistes et les philosophes dénigrent"
+ SQI_bolster_the_drug_trade: "Renforcer le Trafic de Drogue"
+ SQI_bolster_the_drug_trade_desc:0 "La menace imminente de la découverte que Yingguang et Tianran tenaient au-dessus de notre tête est terminée. Une fois que nous aurons éliminé les dernières nourrices qui tentent de perturber le commerce de la drogue, nous pourrons jouir de cette liberté que les monarchistes et les philosophes dénigrent"
 
-SQI_Advertising_Shandong_As_A_Model_Province_In_Beijing: "Shandong comme province modèle"
- SQI_Advertising_Shandong_As_A_Model_Province_In_Beijing_desc: "L'idée d'une gouvernance modèle n'est pas ce qui a maintenu l'indépendance du Shandong, mais elle pourrait bientôt être le seul argument en faveur de l'autonomie. Les fonctionnaires du Shandong sont employés pour diffuser des évaluations positives de la province, ainsi que pour veiller à ce que les visiteurs étrangers ne s'aventurent pas trop loin des villes."
+ SQI_shandong_model_province: "Shandong, Province Modèle"
+ SQI_shandong_model_province_desc:0 "L'idée d'une gouvernance modèle n'est pas ce qui a maintenu l'indépendance du Shandong, mais elle pourrait bientôt être le seul argument en faveur de l'autonomie. Les fonctionnaires du Shandong sont employés pour diffuser des évaluations positives de la province, ainsi que pour veiller à ce que les visiteurs étrangers ne s'aventurent pas trop loin des villes."
 
 ### Army ###
-SQI_Bolstering_The_Army: "Réaffirmer l'armée du Nord-Est"
-SQI_Bolstering_The_Army_desc: "L'Armée du Nord-Est a été décampée à Shandong, et la plupart des observateurs ont déclaré qu'elle n'existait plus. Malgré tous nos efforts, les observateurs étrangers ont largement raison. De nombreux vétérans de la force de Fengtian se cachent et doivent être appelés de la réserve pour combattre. Les vieilles bannières du Shandong devraient être sorties pour appeler tous les hommes capables à notre armée".
+ SQI_reaffirm_the_northeast_army:0 "Réaffirmer l'armée du Nord-Est"
+ SQI_reaffirm_the_northeast_army_desc:0 "L'Armée du Nord-Est a été décampée à Shandong, et la plupart des observateurs ont déclaré qu'elle n'existait plus. Malgré tous nos efforts, les observateurs étrangers ont largement raison. De nombreux vétérans de la force de Fengtian se cachent et doivent être appelés de la réserve pour combattre. Les vieilles bannières du Shandong devraient être sorties pour appeler tous les hommes capables à notre armée"
 
-SQI_A_Modern_Army: "Une armée de professionnels"
- SQI_A_Modern_Army_desc: "L'expérience passée avec les recrues qui désertaient et la désobéissance indique que nous devrions nous concentrer sur la formation de soldats professionnels. Le fait de devoir puiser dans une sélection de soldats plus mûrs, de leur fournir une formation adéquate et de leur donner des ordres spécifiques de retraite permettra à nos soldats de durer plus longtemps dans une guerre prolongée"
+ SQI_an_army_of_professionals:0 "Une armée de professionnels"
+ SQI_an_army_of_professionals_desc:0 "L'expérience passée avec les recrues qui désertaient et la désobéissance indique que nous devrions nous concentrer sur la formation de soldats professionnels. Le fait de devoir puiser dans une sélection de soldats plus mûrs, de leur fournir une formation adéquate et de leur donner des ordres spécifiques de retraite permettra à nos soldats de durer plus longtemps dans une guerre prolongée"
 
-SQI_Research_Replacements_For_Old_Weapons: "Remplacer les armes obsolètes"
-SQI_Research_Replacements_For_Old_Weapons_desc: "Les origines mercenaires de l'armée se manifestent dans leur équipement de qualité inférieure. Si nous voulons nous réformer vers le professionnalisme, il faut donner à nos ingénieurs le temps d'expérimenter de nouvelles conceptions d'armes et de nouveaux achats".
+ SQI_replace_outdated_weapons:0 "Remplacer les armes obsolètes"
+ SQI_replace_outdated_weapons_desc:0 "Les origines mercenaires de l'armée se manifestent dans leur équipement de qualité inférieure. Si nous voulons nous réformer vers le professionnalisme, il faut donner à nos ingénieurs le temps d'expérimenter de nouvelles conceptions d'armes et de nouveaux achats"
 
-SQI_Train_Cavalry_With_Japanese_Fighting_Methods: "S'entraîner avec la cavalerie du Nord"
-SQI_Train_Cavalry_With_Japanese_Fighting_Methods_desc: "La cavalerie mercenaire qui est venue à Shandong avec Zhang Zongchang attend maintenant son signal pour partir ou pour se battre. Certains d'entre eux ont l'expérience de la recherche de nourriture dans le Nord et de la distanciation des grandes patrouilles. Ces leçons seraient très utiles si elles étaient appliquées à nos plans de bataille".
+ SQI_train_with_northern_cavalry:0 "S'entraîner avec la cavalerie du Nord"
+ SQI_train_with_northern_cavalry_desc:0 "La cavalerie mercenaire qui est venue à Shandong avec Zhang Zongchang attend maintenant son signal pour partir ou pour se battre. Certains d'entre eux ont l'expérience de la recherche de nourriture dans le Nord et de la distanciation des grandes patrouilles. Ces leçons seraient très utiles si elles étaient appliquées à nos plans de bataille"
 
-SQI_Improving_The_Railroad-Army_Coordination: "Améliorer la chaîne d'approvisionnement ferroviaire"
- SQI_Improving_The_Railroad-Army_Coordination_desc: "Le chemin de fer à travers le Shandong était essentiel pour Zongchang pendant son service à Fengtian. Ses leçons peuvent maintenant être appliquées à de futures campagnes, avec des améliorations supplémentaires. Le fait que certains wagons transportent de la nourriture, et d'autres des pièces de rechange réduira les pannes"
+ SQI_improve_rail_supply_lines: "Améliorer les chaînes d'approvisionnement ferroviaires"
+ SQI_improve_rail_supply_lines_desc:0 "Le chemin de fer à travers le Shandong était essentiel pour Zongchang pendant son service à Fengtian. Ses leçons peuvent maintenant être appliquées à de futures campagnes, avec des améliorations supplémentaires. Le fait que certains wagons transportent de la nourriture, et d'autres des pièces de rechange réduira les pannes"
 
-SQI_A_Fanatical_But_ill-equipped_Army: "Une armée de fanatiques"
- SQI_A_Fanatical_But_ill-equipped_Army_desc: "L'expérience passée avec des recrues faisant preuve de plus de bravoure que leurs supérieurs et des manœuvres défiant la mort indique que nous devrions nous concentrer sur la formation de soldats fanatiques. Le fait de devoir puiser dans une sélection de soldats plus jeunes, de leur fournir un entraînement adéquat et de leur donner l'ordre précis de ne jamais battre en retraite assurera la victoire rapide de notre soldat"
+ SQI_an_army_of_fanatics:0 "Une armée de fanatiques"
+ SQI_an_army_of_fanatics_desc:0 "L'expérience passée avec des recrues faisant preuve de plus de bravoure que leurs supérieurs et des manœuvres défiant la mort indique que nous devrions nous concentrer sur la formation de soldats fanatiques. Le fait de devoir puiser dans une sélection de soldats plus jeunes, de leur fournir un entraînement adéquat et de leur donner l'ordre précis de ne jamais battre en retraite assurera la victoire rapide de notre soldat"
 
- SQI_Purchase_Imperial_Weapons_From_The_Qing: "Demander des armes aux partisans"
- SQI_Purchase_Imperial_Weapons_From_The_Qing_desc: "Le peuple du Shandong construit des armes de défense personnelle depuis des années dans la crainte de Zongchang. Maintenant qu'il est parti, notre administration peut demander à ces patriotes potentiels de faire don de leurs armes au salut national"
+ SQI_request_weapons_from_followers:0 "Demander des armes aux partisans"
+ SQI_request_weapons_from_followers_desc:0 "Le peuple du Shandong construit des armes de défense personnelle depuis des années dans la crainte de Zongchang. Maintenant qu'il est parti, notre administration peut demander à ces patriotes potentiels de faire don de leurs armes au salut national"
 
-SQI_Recruit_Chahar_Cavalry: "Apprendre de la cavalerie Chahar"
- SQI_Recruit_Chahar_Cavalry_desc: "Les cavaliers de Chahar ont joué leur rôle en aidant les pauvres du nord du Shandong à résister aux collecteurs d'impôts de Zongchang. Il est maintenant temps de leur rendre la pareille. Les cavaliers Chahar vivant dans le Shandong ont été graciés de tout acte de banditisme qu'ils auraient pu commettre, et sont employés pour rejoindre l'armée et aider au salut national. "
+ SQI_learn_from_the_chahar_horsemen: "Apprendre des Cavaliers Chahar"
+ SQI_learn_from_the_chahar_horsemen_desc:0 "Les cavaliers de Chahar ont joué leur rôle en aidant les pauvres du nord du Shandong à résister aux collecteurs d'impôts de Zongchang. Il est maintenant temps de leur rendre la pareille. Les cavaliers Chahar vivant dans le Shandong ont été graciés de tout acte de banditisme qu'ils auraient pu commettre, et sont employés pour rejoindre l'armée et aider au salut national. "
 
-SQI_Train_Soldiers_On_Last_Ditch_Resistance: "Combattre pour le maître"
- SQI_Train_Soldiers_On_Last_Ditch_Resistance_desc: "Les soldats ne répondent plus en masse aux ordres des seigneurs de la guerre. Il faut un chef compétent et éprouvé, un maître, pour faire preuve de courage en ces temps de prudence. Un centre de commandement dirigé par une administration civile et militaire peut garantir que les objectifs peuvent être atteints en utilisant toutes les facultés du Shandong"
+ SQI_fight_for_the_master:0 "Combattre pour le maître"
+ SQI_fight_for_the_master_desc:0 "Les soldats ne répondent plus en masse aux ordres des seigneurs de la guerre. Il faut un chef compétent et éprouvé, un maître, pour faire preuve de courage en ces temps de prudence. Un centre de commandement dirigé par une administration civile et militaire peut garantir que les objectifs peuvent être atteints en utilisant toutes les facultés du Shandong"
 
-SQI_Sending_Military_Staff_For_Training: "Renvoyer les officiers à l'école"
- SQI_Sending_Military_Staff_For_Training_desc: "La jeune génération de soldats n'a pas la possibilité de fréquenter les académies militaires à l'étranger, en raison de notre manque de légitimité. Nous devons tenir compte de nos options en matière de formation militaire à l'étranger et faire pression dans ce sens"
+ SQI_modernise_officer_portfolios: "Moderniser les Portefeuilles des Agents"
+ SQI_modernise_officer_portfolios_desc:0 "La jeune génération de soldats n'a pas la possibilité de fréquenter les académies militaires à l'étranger, en raison de notre manque de légitimité. Nous devons tenir compte de nos options en matière de formation militaire à l'étranger et faire pression dans ce sens"
 
-SQI_Recruitung_Military_Experts_Outside_Shandong: "Développer une arme secrète"
- SQI_Recruitung_Military_Experts_Outside_Shandong_desc: "Penser en dehors du moule est ce qui a permis au Shandong de préserver son autonomie au cours des décennies passées. Dans le prolongement, nous avons une série de projets militaires exploratoires sur lesquels nous pouvons nous concentrer"
+ SQI_novel_military_projects: "Nouveaux projets militaires"
+ SQI_novel_military_projects_desc:0 "Penser en dehors du moule est ce qui a permis au Shandong de préserver son autonomie au cours des décennies passées. Dans le prolongement, nous avons une série de projets militaires exploratoires sur lesquels nous pouvons nous concentrer"
 
-SQI_Improving_Our_Technological_Sharing: "Renvoyer les scientifiques à l'école"
-SQI_Improving_Our_Technological_Sharing_desc: "La jeune génération d'étudiants n'a pas la possibilité de fréquenter les académies militaires à l'étranger, en raison de notre manque de légitimité. Notre administration peut dépenser un certain capital pour rassembler des enseignants de Qingdao et de Tianjin, et assembler un plan de recherche militaire"
+ SQI_modern_military_research: "Recherche militaire moderne"
+ SQI_modern_military_research_desc:0 "La jeune génération d'étudiants n'a pas la possibilité de fréquenter les académies militaires à l'étranger, en raison de notre manque de légitimité. Notre administration peut dépenser un certain capital pour rassembler des enseignants de Qingdao et de Tianjin, et assembler un plan de recherche militaire"
 
 ### Industry ###
-SQI_Turning_Our_Attention_To_Industry: "Revivez l'industrie du Shandong"
-SQI_Turning_Our_Attention_To_Industry_desc: "Alors que le Shandong n'était pas sous l'administration inepte de la Ligue des huit, les années précédentes ont vu de nombreuses petites usines fermer leurs portes. L'administration s'est consacrée à l'évaluation des lots d'usines vides en vue d'éventuels prêts pour l'ouverture de nouvelles entreprises dans le Shandong".
+ SQI_revive_shandongs_industry:0 "Revivez l'industrie du Shandong"
+ SQI_revive_shandongs_industry_desc:0 "Alors que le Shandong n'était pas sous l'administration inepte de la Ligue des huit, les années précédentes ont vu de nombreuses petites usines fermer leurs portes. L'administration s'est consacrée à l'évaluation des lots d'usines vides en vue d'éventuels prêts pour l'ouverture de nouvelles entreprises dans le Shandong"
 
-SQI_Reopening_The_Barred_Factories: "Réouvrir les usines interdites"
- SQI_Reopening_The_Barred_Factories_desc: "La tentative de Zhang Zongchang de jouer le rôle du cartel minier de Shandong contre la compagnie minière de Luda a entraîné la fermeture de plusieurs usines de Shandong lorsque le cartel et les centres de distribution n'ont pas pu se réconcilier. Il est temps de faire avancer la réconciliation et de rouvrir les centres de distribution"
+ SQI_reopen_mothballed_factories: "Rouvrir les usines mises en veille"
+ SQI_reopen_mothballed_factories_desc:0 "La tentative de Zhang Zongchang de jouer le rôle du cartel minier de Shandong contre la compagnie minière de Luda a entraîné la fermeture de plusieurs usines de Shandong lorsque le cartel et les centres de distribution n'ont pas pu se réconcilier. Il est temps de faire avancer la réconciliation et de rouvrir les centres de distribution"
 
-SQI_Improving_The_Qingdao_Weihaiwei_Railway: "Revivez le chemin de fer Jinan-Qingdao"
- SQI_Improving_The_Qingdao_Weihaiwei_Railway_desc: "La voie ferrée Jinan-Qingdao a été usée par la surutilisation et les mauvaises méthodes de construction lors de la pose des rails dans les années 1910. Une sorte d'arrangement mutuellement bénéfique peut être conclu avec les autorités allemandes, où elles fournissent l'acier pour la réparation de la voie ferrée, et nous fournissons la main-d'œuvre de la corvée"
+ SQI_repair_the_jinan_qingdao_railway: "Réparer le chemin de fer Jinan-Qingdao"
+ SQI_repair_the_jinan_qingdao_railway_desc:0 "La voie ferrée Jinan-Qingdao a été usée par la surutilisation et les mauvaises méthodes de construction lors de la pose des rails dans les années 1910. Une sorte d'arrangement mutuellement bénéfique peut être conclu avec les autorités allemandes, où elles fournissent l'acier pour la réparation de la voie ferrée, et nous fournissons la main-d'œuvre de la corvée"
 
- SQI_Leasing_Shandong_Resources_To_Either_Qingdao_or_Weihaiwei: "Location de droits miniers"
-SQI_Leasing_Shandong_Resources_To_Either_Qingdao_or_Weihaiwei_desc: "Dans les années qui ont suivi l'arrêt de la production de charbon, de plus en plus de spéculateurs ont révélé des gisements de minerais dans le Shandong. Notre administration est désormais suffisamment compétente pour gérer la location de droits miniers à des sociétés chinoises. Nous pouvons prédire de meilleurs profits et pas d'entourloupettes cette fois-ci".
+ SQI_mineral_rights_leases: "Baux de Droits Miniers"
+ SQI_mineral_rights_leases_desc:0 "Dans les années qui ont suivi l'arrêt de la production de charbon, de plus en plus de spéculateurs ont révélé des gisements de minerais dans le Shandong. Notre administration est désormais suffisamment compétente pour gérer la location de droits miniers à des sociétés chinoises. Nous pouvons prédire de meilleurs profits et pas d'entourloupettes cette fois-ci"
 
- SQI_Getting_Japanese_Military_Advisors_To_Construct_New_Factories: "Donner du pouvoir au cartel minier de Shandong"
- SQI_Getting_Japanese_Military_Advisors_To_Construct_New_Factories_desc: "Le cartel minier du Shandong a été créé en 1928 avec l'aval secret de Zhang Zongchang. Leur but est d'organiser la main-d'œuvre chinoise pour s'assurer que les entreprises étrangères ne bénéficient pas d'un avantage de coût par rapport à la concurrence nationale. Ce but, s'il est atteint en secret avec l'aide de notre administration, peut enrichir tout le monde, sauf les étrangers"
+ SQI_empower_the_shandong_mining_cartel:0 "Donner du pouvoir au cartel minier de Shandong"
+ SQI_empower_the_shandong_mining_cartel_desc:0 "Le cartel minier du Shandong a été créé en 1928 avec l'aval secret de Zhang Zongchang. Leur but est d'organiser la main-d'œuvre chinoise pour s'assurer que les entreprises étrangères ne bénéficient pas d'un avantage de coût par rapport à la concurrence nationale. Ce but, s'il est atteint en secret avec l'aide de notre administration, peut enrichir tout le monde, sauf les étrangers"
 
-SQI_Restablish_Jinana_University: "Réouvrir l'université du Shandong"
-SQI_Restablish_Jinana_University_desc: "L'université de Shandong est fermée depuis la fin de la Weltkrieg, étant restée dans le Qingdao allemand. Dans ce vide, il n'y a que l'université agricole du Shandong à Tai'an, qui est mal adaptée à la science militaire. L'administration a conclu un accord avec Qingdao pour permettre aux étudiants du Shandong de fréquenter l'Université du Shandong tant que nous la rouvrirons".
+ SQI_shandong_university: "Université du Shandong"
+ SQI_shandong_university_desc:0 "L'université de Shandong est fermée depuis la fin de la Weltkrieg, étant restée dans le Qingdao allemand. Dans ce vide, il n'y a que l'université agricole du Shandong à Tai'an, qui est mal adaptée à la science militaire. L'administration a conclu un accord avec Qingdao pour permettre aux étudiants du Shandong de fréquenter l'Université du Shandong tant que nous la rouvrirons"
 
-SQI_Improving_Domestic_Roads_That_Connect_To_The_Qing: "Améliorer les routes pour le bipeur"
-SQI_Improving_Domestic_Roads_That_Connect_To_The_Qing_desc: "Les routes vers Beijing se sont révélées plus utiles alors que la baie de Bohai est disputée entre Qing et Fengtian. Surtout que la zone de libre-échange de Tianjin attire le commerce. La route vers Beijing à l'intérieur du Shandong est maintenant en réparation sous la supervision de notre administration"
+ SQI_improve_roads_to_beijing:0 "Améliorer les routes pour le bipeur"
+ SQI_improve_roads_to_beijing_desc:0 "Les routes vers Beijing se sont révélées plus utiles alors que la baie de Bohai est disputée entre Qing et Fengtian. Surtout que la zone de libre-échange de Tianjin attire le commerce. La route vers Beijing à l'intérieur du Shandong est maintenant en réparation sous la supervision de notre administration"
 
-SQI_Attracting_Qing_Nobility: "Les nobles de la cour Qing"
- SQI_Attracting_Qing_Nobility_desc: "Le gouvernement de Beijing expulse des résidents qui, autrement, seraient bien traités pour des questions politiques mineures, et leur perte est notre aubaine. L'administration a autorisé l'aménagement de plusieurs domaines autour de Shandong et a proposé aux nobles de Qing de s'y installer. Cela améliorera nos revendications d'autonomie ou, au pire, fera de bons otages"
+ SQI_court_northern_elites: "Cour des Élites du Nord"
+ SQI_court_northern_elites_desc: "Le gouvernement de Beijing expulse des résidents qui, par ailleurs, se sentent bien pour des raisons politiques insignifiantes, et leur perte est notre aubaine. L'administration nous a autorisé à embellir plusieurs domaines autour du Shandong et à proposer aux élites du Nord d'y résider. Cela améliorera nos revendications d’autonomie ou, dans le pire des cas, constituera de bons otages."
 
-SQI_Leveraging_Tianjin_Allies_For_Free_Factories: "Acheter des usines à Tianjin"
-SQI_Leveraging_Tianjin_Allies_For_Free_Factories_desc: "Les récentes turbulences économiques dans le monde entier ont rendu l'immobilier assez abordable à Tianjin. Il est dans l'intérêt de l'administration d'acheter une partie des usines de Tianjin frappées par l'argent pour notre industrie militaire. Cet emplacement nous permettra également de mieux évaluer la situation de la Chine grâce à un port neutre".
-
-SQI_Investigate_Leakage_Of_Output_Into_Bandits_Middlemen_Selling: "Enquêter sur les importations disparues"
-SQI_Investigate_Leakage_Of_Output_Into_Bandits_Middlemen_Selling_desc: "Récemment, on a appris que tous les envois ferroviaires en provenance de Qingdao arrivent à Jinan avec plusieurs boîtes manquantes. Ce n'est étonnamment pas la faute de commandes erronées ou d'écrémage. La réponse se trouve dans le trajet que la cargaison effectue pour arriver à Jinan. Nous devons enquêter."
+ SQI_purchase_factories_in_tianjin:0 "Acheter des usines à Tianjin"
+ SQI_purchase_factories_in_tianjin_desc:0 "Les récentes turbulences économiques dans le monde entier ont rendu l'immobilier assez abordable à Tianjin. Il est dans l'intérêt de l'administration d'acheter une partie des usines de Tianjin frappées par l'argent pour notre industrie militaire. Cet emplacement nous permettra également de mieux évaluer la situation de la Chine grâce à un port neutre"
 
 ### Reclaiming Industry ###
-SQI_Reclaim_The_Industry_Of_The_Annexed_Warlords: "Récupérer l'industrie spoliée"
-SQI_Reclaim_The_Industry_Of_The_Annexed_Warlords_desc: "Après des années de mépris non systématique de la part des gouverneurs zhili, [SQI.GetLeader] est arrivé avec la promesse de revigorer les provinces du sud. Cette promesse initiale s'est accompagnée d'une prime pour les gouverneurs s'ils devaient faire défection à ce nouveau système."
+ SQI_reclaim_despoiled_industry:0 "Récupérer l'industrie spoliée"
+ SQI_reclaim_despoiled_industry_desc:0 "Après des années de mépris non systématique de la part des gouverneurs zhili, [SQI.GetLeader] est arrivé avec la promesse de revigorer les provinces du sud. Cette promesse initiale s'est accompagnée d'une prime pour les gouverneurs s'ils devaient faire défection à ce nouveau système."
 
-SQI_Victory_In_The_South: "Victoire dans le Sud"
- SQI_Victory_In_The_South_desc: "Les vastes étendues en ruines de la vallée du Yangtsé étant désormais ouvertes à [SQI.GetLeader], il est temps d'entendre les besoins des millions de réfugiés dont les maisons sont désormais à portée de main. Ces citoyens reconnaissants seront facilement mis à contribution pour aider à l'industrialisation de la région en vue de notre objectif de défense nationale"
+ SQI_victory_in_the_south:0 "Victoire dans le Sud"
+ SQI_victory_in_the_south_desc:0 "Les vastes étendues en ruines de la vallée du Yangtsé étant désormais ouvertes à [SQI.GetLeader], il est temps d'entendre les besoins des millions de réfugiés dont les maisons sont désormais à portée de main. Ces citoyens reconnaissants seront facilement mis à contribution pour aider à l'industrialisation de la région en vue de notre objectif de défense nationale"
 
-SQI_Develop_The_Coastline: "Développer le littoral"
-SQI_Develop_The_Coastline_desc: "Le littoral de la région du nord du Yangtsé est devenu un champ de mines d'intérêts concurrents, même après la levée de l'AOG. Il faudra les plus grands efforts de notre administration pour rétablir efficacement le trafic maritime, mais la récompense sera grande".
+ SQI_develop_the_coastline:0 "Développer le littoral"
+ SQI_develop_the_coastline_desc:0 "Le littoral de la région du nord du Yangtsé est devenu un champ de mines d'intérêts concurrents, même après la levée de l'AOG. Il faudra les plus grands efforts de notre administration pour rétablir efficacement le trafic maritime, mais la récompense sera grande"
 
-SQI_Develop_Anqing: "Développer Anqing"
-SQI_Develop_Anqing_desc: "Anqing, la capitale de la plus ancienne des cliques du haut Yangtsé, a été trop longtemps malmenée par ses intendants. Il est temps que les habitants d'Anqing et d'Anhui puissent bénéficier des opportunités économiques que leurs dirigeants narcissiques leur ont refusées".
+ SQI_develop_anqing:0 "Développer Anqing"
+ SQI_develop_anqing_desc:0 "Anqing, la capitale de la plus ancienne des cliques du haut Yangtsé, a été trop longtemps malmenée par ses intendants. Il est temps que les habitants d'Anqing et d'Anhui puissent bénéficier des opportunités économiques que leurs dirigeants narcissiques leur ont refusées"
 
-SQI_Improve_Nanjing: "Améliorer Jinling"
-SQI_Improve_Nanjing_desc: "La vieille ville fortifiée de Nanjing a résisté à des siècles d'occupation, mais elle est aujourd'hui enfin en sécurité. Notre administration acceptera volontiers des dons en échange d'une main-d'œuvre pour reconstruire la ville. "
+ SQI_renovate_nanjing: "Rénover Nanjing"
+ SQI_renovate_nanjing_desc:0 "La vieille ville fortifiée de Nanjing a résisté à des siècles d'occupation, mais elle est aujourd'hui enfin en sécurité. Notre administration acceptera volontiers des dons en échange d'une main-d'œuvre pour reconstruire la ville. "
 
-SQI_Connnect_Beijing_To_Nanjing_by_Railway: "Compléter le chemin de fer Jinan-Nanjing".
- SQI_Connnect_Beijing_To_Nanjing_by_Railway_desc: "Lorsque les millions de personnes ont poussé et se sont bousculées sur les routes de terre du Jiangsu au Shandong, elles ont déploré l'absence de voie ferrée. Avec les dangers de voyager par la côte toujours présents, et suffisamment de capitaux des provinces nouvellement libérées, nous devrions être en mesure d'accélérer la mise en place d'une ligne de chemin de fer à petit écartement entre ces villes"
+ SQI_complete_the_jinan_nanjing_railway: "Achever le chemin de fer Jinan-Nanjing"
+ SQI_complete_the_jinan_nanjing_railway_desc:0 "Lorsque les millions de personnes ont poussé et se sont bousculées sur les routes de terre du Jiangsu au Shandong, elles ont déploré l'absence de voie ferrée. Avec les dangers de voyager par la côte toujours présents, et suffisamment de capitaux des provinces nouvellement libérées, nous devrions être en mesure d'accélérer la mise en place d'une ligne de chemin de fer à petit écartement entre ces villes"
 
-SQI_Improve_Jiangxi: "Mines de tungstène de Dayu"
-SQI_Improve_Jiangxi_desc: "On sait depuis longtemps qu'il y a de grandes quantités de tungstène à Dayu, qui est situé près de Ganzhou à Gannan, dans le Jiangxi. Cependant, il y a peu d'infrastructures pour extraire réellement ces ressources. Nous devrions travailler à l'amélioration de la région afin que le tungstène puisse être extrait et exporté."
+ SQI_dayu_tungsten_mines:0 "Mines de tungstène de Dayu"
+ SQI_dayu_tungsten_mines_desc:0 "On sait depuis longtemps qu'il y a de grandes quantités de tungstène à Dayu, qui est situé près de Ganzhou à Gannan, dans le Jiangxi. Cependant, il y a peu d'infrastructures pour extraire réellement ces ressources. Nous devrions travailler à l'amélioration de la région afin que le tungstène puisse être extrait et exporté."
 
-SQI_Improve_Fujian: "Connecter les communautés du Fujian"
- SQI_Improve_Fujian_desc: "Le Fujian abrite de nombreux réfugiés et une communauté traditionnelle qui n'apprécie pas les occupants. Nous espérons que notre administration sera en mesure de gagner leur loyauté grâce à des projets de travail dans leur province."
+ SQI_connect_fujians_communities: "Connecter les communautés du Fujian"
+ SQI_connect_fujians_communities_desc:0 "Le Fujian abrite de nombreux réfugiés et une communauté traditionnelle qui n'apprécie pas les occupants. Nous espérons que notre administration sera en mesure de gagner leur loyauté grâce à des projets de travail dans leur province."
 
-SQI_Improve_Zhejiang: "Reconstruire le Zhejiang du Nord"
-SQI_Improve_Zhejiang_desc: "Le Zhejiang du Nord a été partiellement détruit pendant la rébellion de Taiping, un événement dont aucun dirigeant en Chine ne souhaite porter la responsabilité. Jusqu'à l'arrivée de notre administration, c'est-à-dire. La population du Zhejiang du Nord, avec quelques condoléances et des travaux d'infrastructure, pourrait très bien se joindre à notre cause et se réjouir de nos futures victoires"
+ SQI_rebuild_northern_zhejiang: "Reconstruire le nord du Zhejiang"
+ SQI_rebuild_northern_zhejiang_desc:0 "Le Zhejiang du Nord a été partiellement détruit pendant la rébellion de Taiping, un événement dont aucun dirigeant en Chine ne souhaite porter la responsabilité. Jusqu'à l'arrivée de notre administration, c'est-à-dire. La population du Zhejiang du Nord, avec quelques condoléances et des travaux d'infrastructure, pourrait très bien se joindre à notre cause et se réjouir de nos futures victoires"
 
 ### Navy ###
-SQI_Declare_Official_Offshoot_Of_The_Beiyang_Navy: "Reconstruire la flotte de Shandong Beiyang"
-SQI_Declare_Official_Offshoot_Of_The_Beiyang_Navy_desc: "Le Shandong abritait autrefois la flotte Beiyang, la fierté de l'ancien Empire Qing. Bien que les Allemands nous aient réduits à des ports de moindre capacité, nous y retournerons. La flotte qui possédait la mer de Bohai vivra à nouveau, et le Shandong sera à l'avant".
+ SQI_rebuild_the_beiyang_fleet: "Reconstruire la flotte Beiyang"
+ SQI_rebuild_the_beiyang_fleet_desc:0 "Le Shandong abritait autrefois la flotte Beiyang, la fierté de l'ancien Empire Qing. Bien que les Allemands nous aient réduits à des ports de moindre capacité, nous y retournerons. La flotte qui possédait la mer de Bohai vivra à nouveau, et le Shandong sera à l'avant"
 
-SQI_Purchasing_Ships_For_The_Navy: "Acheter des cuirassés japonais"
- SQI_Purchasing_Ships_For_The_Navy_desc: "Notre administration a trouvé un groupe de personnes affiliées au sein de l'IJN qui est prêt à laisser les plans des navires utilisés pour construire leurs cuirassés. Bien que l'espionnage ne soit pas le point fort de cette administration, nous pouvons probablement organiser le paiement des plans"
+ SQI_steal_japanese_designs: "Voler des plans japonais"
+ SQI_steal_japanese_designs_desc: "Notre administration a identifié un groupe de personnes affiliées au sein de l'IJN qui sont prêtes à divulguer les modèles utilisés pour construire certains de leurs plus petits navires... moyennant un certain prix."
 
-SQI_Acquire_A_Naval_Base: "Acquérir une base navale"
-SQI_Acquire_A_Naval_Base_desc: "La base navale de Yantai n'est pas suffisante pour approvisionner nos soldats s'ils perdent la connexion terrestre avec le Shandong. Une base navale plus importante peut être nécessaire, et il est dans la capacité de cette administration d'acquérir une telle base navale".
+ SQI_modernise_naval_bases: "Moderniser les bases navales"
+ SQI_modernise_naval_bases_desc:0 "La base navale de Yantai n'est pas suffisante pour approvisionner nos soldats s'ils perdent la connexion terrestre avec le Shandong. Une base navale plus importante peut être nécessaire, et il est dans la capacité de cette administration d'acquérir une telle base navale"
 
-SQI_Purchasing_Convoys_For_The_Navy: "Convois d'achat pour les Beiyang"
-SQI_Purchasing_Convoys_For_The_Navy_desc: "Si nous voulons tirer le commerce de la mer de Bohai, qui est un lieu de conflit, et survivre aux sous-marins, nous devons investir dans plus de convois. Il est plus prudent de les acquérir d'occasion auprès de vieux navires marchands".
+ SQI_purchase_convoys: "Acheter des convois"
+ SQI_purchase_convoys_desc:0 "Si nous voulons tirer le commerce de la mer de Bohai, qui est un lieu de conflit, et survivre aux sous-marins, nous devons investir dans plus de convois. Il est plus prudent de les acquérir d'occasion auprès de vieux navires marchands"
 
-SQI_Purchasing_Submarines_For_The_Navy: "Acheter des sous-marins pour le Beiyang"
- SQI_Purchasing_Submarines_For_The_Navy_desc: "Si nous voulons arracher le contrôle de la mer de Bohai à nos rivaux, nous devons déjouer leur puissance de feu supérieure en mer. La solution est un programme secret de sous-marins. Les bénéfices potentiels si nous sommes capables de déloger cette mer dépassent le coût du développement"
+ SQI_obtain_submarine_designs: "Obtenir des plans de sous-marins"
+ SQI_obtain_submarine_designs_desc:0 "Si nous voulons arracher le contrôle de la mer de Bohai à nos rivaux, nous devons déjouer leur puissance de feu supérieure en mer. La solution est un programme secret de sous-marins. Les bénéfices potentiels si nous sommes capables de déloger cette mer dépassent le coût du développement"
 
-SQI_Incorporating_Qingdao_And_Weihaiwei_Ports: "Intégration des ports de Qingdao et de Weihaiwei"
- SQI_Incorporating_Qingdao_And_Weihaiwei_Ports_desc: "Il est temps pour nous d'assumer la véritable maison de la flotte Beiyang, Qingdao. Notre grand retour permettra de revitaliser l'industrie navale chinoise dans le Shandong"
+ SQI_incorporate_qingdao_and_weihaiwei: "Incorporer Qingdao et Weihaiwei"
+ SQI_incorporate_qingdao_and_weihaiwei_desc:0 "Il est temps pour nous d'assumer la véritable maison de la flotte Beiyang, Qingdao. Notre grand retour permettra de revitaliser l'industrie navale chinoise dans le Shandong"
 
 ### Air Force ###
-SQI_Expanding_The_Airforce: "Trouver l'armée de l'air du Shandong"
- SQI_Expanding_The_Airforce_desc: "Avec les mers en difficulté, il est temps de penser latéralement. Nous ne pouvons pas utiliser la puissance aérienne tant que Jinan n'aura pas un aéroport adéquat pour décoller"
+ SQI_create_an_air_force:0 "Créer une Force Aérienne"
+ SQI_create_an_air_force_desc:0 "Avec les mers en difficulté, il est temps de penser latéralement. Nous ne pouvons pas utiliser la puissance aérienne tant que Jinan n'aura pas un aéroport adéquat pour décoller"
 
-SQI_Construct_Modern_Fighters: "Avions de chasse expérimentaux"
-SQI_Construct_Modern_Fighters_desc: "Avec des coûts aussi élevés pour développer des avions de chasse, nos techniciens ont consacré leurs efforts à réduire les coûts et à sacrifier la sécurité au nom de la mise en service du plus grand nombre d'avions possible. Nous pourrons projeter notre puissance beaucoup plus loin une fois que nous aurons acquis une certaine expérience de vol".
+ SQI_experimental_fighters: "Chasseurs Expérimentaux"
+ SQI_experimental_fighters_desc:0 "Avec des coûts aussi élevés pour développer des avions de chasse, nos techniciens ont consacré leurs efforts à réduire les coûts et à sacrifier la sécurité au nom de la mise en service du plus grand nombre d'avions possible. Nous pourrons projeter notre puissance beaucoup plus loin une fois que nous aurons acquis une certaine expérience de vol"
 
-SQI_Begin_Training_Our_Fighter_Pilots: "Former les pilotes de chasse"
-SQI_Begin_Training_Our_Fighter_Pilots_desc: "Les jeunes hommes courageux du Shandong sont prêts à prendre leur envol. Le peuple reconnaissant du Shandong appréciera de se sentir en sécurité avec nos garçons dans le ciel".
+ SQI_train_fighter_pilots:0 "Former les pilotes de chasse"
+ SQI_train_fighter_pilots_desc:0 "Les jeunes hommes courageux du Shandong sont prêts à prendre leur envol. Le peuple reconnaissant du Shandong appréciera de se sentir en sécurité avec nos garçons dans le ciel"
 
-SQI_Constructing_Air_Bases: "Un aéroport pour Jinan"
-SQI_Constructing_Air_Bases_desc: "La piste d'atterrissage de Jinan est insuffisante pour traiter le volume de vols que nos militaires ont prévu dans les années à venir. Nous avons prévu un aéroport plus grand pour aller plus loin dans nos mesures audacieuses et déjouer les autres seigneurs de la guerre".
+ SQI_expand_the_jinan_airstrip: "Agrandir la piste d'atterrissage de Jinan"
+ SQI_expand_the_jinan_airstrip_desc:0 "La piste d'atterrissage de Jinan est insuffisante pour traiter le volume de vols que nos militaires ont prévu dans les années à venir. Nous avons prévu un aéroport plus grand pour aller plus loin dans nos mesures audacieuses et déjouer les autres seigneurs de la guerre"
 
-SQI_Introducing_Naval_Aircraft: "Avions au-dessus de Bohai"
-SQI_Introducing_Naval_Aircraft_desc: "Pouvoir projeter une puissance sur la mer de Bohai nous permettra d'aider la marine à sécuriser la mer de nos rivaux. Des avions navals spécialement conçus seront également capables de traiter des cibles en mer bien mieux que des cibles terrestres".
+ SQI_planes_over_the_bohai_sea:0 "Avions au-dessus de Bohai"
+ SQI_planes_over_the_bohai_sea_desc:0 "Pouvoir projeter une puissance sur la mer de Bohai nous permettra d'aider la marine à sécuriser la mer de nos rivaux. Des avions navals spécialement conçus seront également capables de traiter des cibles en mer bien mieux que des cibles terrestres"
 
-SQI_CAS: "Protéger nos combattants"
-SQI_CAS_desc: "Escorter nos combattants et notre infanterie est une tendance croissante dans les actualités des guerres à l'étranger. Il pourrait valoir la peine d'investir dans un avion d'appui aérien rapproché pour compléter notre armée".
+ SQI_airspace_protection: "Protection de l'espace aérien"
+ SQI_airspace_protection_desc: "Escorter nos chasseurs et notre infanterie est une tendance croissante dans les actualités des guerres à l’étranger. Cela vaut peut-être la peine d’investir dans des défenses anti-aériennes pour compléter notre armée."
 
-SQI_Purchasing_Bombers: "Bombardiers"
- SQI_Purchasing_Bombers_desc: "Le rêve de pouvoir intimider les seigneurs de la guerre avec des avions de combat est en train de se réaliser. Les bombardiers, avec une tutelle industrielle suffisante, peuvent facilement anéantir la capacité de l'ennemi à financer ses guerres"
-
-SQI_Stealing_Sailors_From_The_Legation_Cities: "Impressionner les marins des Légations"
-SQI_Stealing_Sailors_From_The_Legation_Cities_desc: "Nous sommes confrontés à une pénurie d'hommes valides pour notre flotte. En ces temps désespérés, la victoire ou la défaite en mer peut se résumer à notre volonté d'impressionner les marins dans les ports neutres. Nous sommes prêts à persuader les ports de Chine de soutenir notre marine par le biais du volontariat"
+ SQI_bomber_aircraft:0 "Bombardiers"
+ SQI_bomber_aircraft_desc:0 "Le rêve de pouvoir intimider les seigneurs de la guerre avec des avions de combat est en train de se réaliser. Les bombardiers, avec une tutelle industrielle suffisante, peuvent facilement anéantir la capacité de l'ennemi à financer ses guerres"
 
 ### Intro Screen ###
  SQI_country_intro_header:0 "1936 ; Tournant dans le Shandong"
@@ -567,11 +558,11 @@ shandong.10.a: "S'inscrire aux académies militaires japonaises"
 shandong.10.b: "Postuler aux académies militaires allemandes"
 shandong.10.c: "Postuler aux académies militaires occidentales"
 
-shandong.11.t: "Projets militaires secrets dans le Shandong"
+ shandong.11.t: "Projets militaires dans le Shandong"
  shandong.11.d: "Il devient déjà évident que l'armée du Shandong est en retard sur son temps. Bien que nous ayons consacré nos efforts à essayer d'élever le niveau de nos équipements militaires, nous n'avons pas osé nous aventurer en dehors de ce que nous pouvons acheter. Le commandement de l'armée a convaincu [SQI.GetLeader] d'investir des ressources dans des projets récemment réalisés par un habitant tchèque du Shandong, Hanchtedelay. Hanchtedelay a l'ambition de transformer plusieurs Studebaker qu'il possède en chars d'assaut. Un deuxième projet consiste à acheter des vélos Flying Pigeon à Tianjin et à former une division pour les utiliser. Un troisième plan proposé par un professeur de l'université de Jinan est d'acheter du matériel d'escalade et de concentrer les efforts culinaires pour permettre aux soldats de survivre dans les nombreuses chaînes de montagnes chinoises"
-shandong.11.a: "Construire secrètement un char d'assaut"
-shandong.11.b: "Développer secrètement des unités de vélo"
- shandong.11.c: "Former les soldats de Grotto-heaven"
+ shandong.11.a: "Construire un char d'assaut"
+ shandong.11.b: "Développer des unités cyclistes"
+ shandong.11.c: "Former des troupes de montagnes"
 
 shandong.12.t: "Enquêter sur les cargaisons manquantes"
  shandong.12.d: "Depuis quelques mois, le commerce vital est perturbé le long de la ligne ferroviaire Qingdao-Jinan. Une enquête de police en cours a seulement déterminé qu'il ne s'agit pas des employés de la ligne, aucune autre possibilité n'a encore été écartée. [SQI.GetLeader] a été appelé à surprendre l'enquête avant qu'elle ne devienne un scandale majeur à Jinan. La police, toujours prudente vis-à-vis des gardes-frontières chinois en dehors de Qingdao, a suggéré que nous enquêtions d'abord sur les stations de relais ferroviaires. [SQI.GetLeader], d'autre part, soupçonne que les objets sont volés le long des étendues désertes de la campagne entre Qingdao et Jinan. Sur quoi devrions-nous enquêter en premier ?"

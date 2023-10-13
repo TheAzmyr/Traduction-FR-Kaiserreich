@@ -32,8 +32,9 @@
  KR_welcome_splash_tab_3_content_0: "Kaiserreich impose des restrictions sur les actions diplomatiques telles que les §RGuerres Précoces§!, les §RFactions§! et les §RNiveaux d'Autonomie§!.\nKaiserreich inclut également des §CLimites de Division§! et un mécanisme de §CDémobilisation§! pour améliorer la jouabilité en fin de partie.\nPendant les §YConférences de Paix§!, assurez-vous d'annexer tous les États possibles. Plus tard, vous pourrez libérer les pays des territoires annexés grâce aux §Cdécisions§!.\nLe menu de configuration des §YRègles de Jeu Personnalisées§! vous permet d'ajuster de nombreuses options, notamment les §CChemins de Pays§!, la §CPrimauté du Joueur pendant les Conférences de Paix§! et l'outil de §CTransfert d'États et de Pays§!.\nLe £kr_options_icon §YMenu d'Options§! peut être ouvert en cliquant sur son icône en haut à droite. Il vous permet d'ajuster la §Cfréquence des événements§! et d'activer le §Crenommage dynamique§! des états et des points de victoire."
 
  ## TAB 4 ##
- KR_CURRENT_VERSION: "0.26.2"
- KR_welcome_splash_tab_4_header: "§YBienvenu sur Kaiserreich BETA $KR_CURRENT_VERSION$ "Ciel Bleu, Soleil Blanc"\n\n\n\nFabriqué avec amour par l'équipe Kaiserreich :§!"
+ KR_CURRENT_VERSION: "0.27"
+ KR_CURRENT_VERSION_NAME: "Appel à tous les travailleurs"
+ KR_welcome_splash_tab_4_header: "§YBienvenue dans la BETA de Kaiserreich $KR_CURRENT_VERSION$ "$KR_CURRENT_VERSION_NAME$"\n\n\nAmoureusement fabriqué par l'équipe Kaiserreich: §!"
  KR_welcome_splash_tab_4_content: "§YL'équipe KR4 :§!Alpinia, Arvidus, Asratius, Augenis, Blackfalcon501, Blackleaf, Carmain, Cazadorian, Chazem, Chiang Kai-shrek, Chiron29, Conchobhar, DuoDex, El Daddy, falling_robin, Fedex, Flamefang, Gaboemi, Hamfast, hildagrim, Ido, Igor050301, JazzyHugh, Jeankedezeehond, Jonny BL, Kano, katieluka, KFateweaver, Kennedy, kergely, Klyntar King, Krčo, Luwofe, Matoro, McOmghall, MrMano, ~mw~, miwaco., NukeGaming, Pelmen, Purple Jinjo, RagnoStrangeros, Retrocognition, Rnk, Shiroe, Shōta, Sonny O'Cad, SuperGreenBeans, suzuha, The Alpha Dog, The Irredentista, The Italian Jojo, Vidyaország, Zimbabwe Salt Co.\n§YTraduit par : §!Diro, Hellh, Mouchi et UltraNico. §YAnciennement traduit par : §!Aegon Targaryen, Brakmar, Darkusios, Demetran, Fanois, Feuxin, Grikke, IGgame, IluminatiX, Kfateweaver, Kira, Klik le Araï, Lazu, Le Marocain, LRP2580, MVMaroIV, Nobelo81, Orakle14, Paralux, Remkiller123, Romain1912, Rosak, RyumaTomoka, Sayu, Solal, Superwaffle, TheAzmyr, Vitulus, Youkoulélé et Zeplein"
  KR_welcome_splash_tab_4_content_0: "Notre équipe a travaillé dur aux quatre coins du monde pour vous offrir cette nouvelle version et nous ne pourrions être plus honorés que vous choisissiez d'y jouer.\nNous espérons que vous prendrez autant de plaisir à jouer à Kaiserreich que nous en avons pris à le créer !"
 
@@ -144,7 +145,7 @@ REQUEST_EXP_FORCE_BLOCKED_TT: "§RCe pays ne vous permet pas de demander ses for
  kr_options_title: "§YOptions de Kaiserreich§!"
  kr_options_tooltip: "Bascule les options de jeu spécifiques à Kaiserreich"
 
- kr_help_title: "§YÉcran d'intro§!"
+ kr_help_title: "§YÉcran d'information sur le pays§!"
  kr_help_tooltip: "Cliquez sur pour ouvrir l'§Yécran intro§!\n\nContient :\n£white_dot des informations sur votre pays,\n£white_dot une liste de §Cguides de chemins§! spécifiques,\n£white_dot des informations sur les caractéristiques propres au mod, et\n£white_dot les crédits du mod."
 
  rename_text: "Renominations des États/Points de Victoires"
@@ -335,6 +336,9 @@ FROM_becomes_nominal_puppet: "§H[From.GetNameDefCap]§! devient un §HFantoche 
  is_in_faction_but_not_leader: "est dans une faction mais n'est pas son leader"
  is_in_faction_but_not_leader_NOT: "est leader de faction ou n'est pas dans une faction"
 
+ has_guarantor: "est garanti"
+ has_guarantor_NOT:0 "N'est pas garanti"
+
 ### Events ###
  generic_events.100.t:0 "L'Ordre Restauré en [Root.GetNameDef]"
  generic_events.100.d:0 "Tandis que [Root.GetNameDef] travaille encore sous la pression [overlord_name.GetAdjective], l'Armée [Root.GetAdjective] a obtenu assez de contrôle sur nos propres frontières afin que l'on puisse bénéficier d'une plus grande autonomie. Ce n'est pas l'indépendance - loin de là - mais cela signifie que nous ne devons plus compter sur les troupes [overlord_name.GetAdjective] pour sécuriser nos frontières"
@@ -501,16 +505,14 @@ cat_torpedo: "Technologie des torpilles"
  capital_ship_tree: "Opérations de Navires Capitaux"
  cat_armored_car: "Voitures Blindées"
  cat_special_units: "Unités Spéciales"
- plane_modules_tech: "Modules d'Avions"
  cat_air_guns: "Armes d'Avion"
  cat_air_engine: "Moteurs d'Avion"
  cat_air_bombs: "Bombes d'Avion"
 
- fighter_techs_research: "Vitesse de recherche technologique des Chasseurs"
- marine_tech_research: " Vitesse de recherche technologique des Marines"
+ fighter_techs_research: "Vitesse de recherche des Chasseurs"
+ marine_tech_research: " Vitesse de recherche des Marines"
  cat_light_armor_research: "Vitesse de recherche des Blindés Légers"
- excavation_tech_research: "Vitesse de recherche technologique d'Excavation"
- construction_tech_research: "Vitesse de Recherche de Construction"
+ construction_tech_research: "Vitesse de recherche des technologies de construction"
 
 ### Hidden Techs ###
  camel_corps_tech: "Corps de chameaux"
@@ -566,7 +568,7 @@ tech_integrated_specialists: "Forces Speciales Intégrées"
  tech_dragoon_tactics_effect: "Active §H$tech_dragoon_tactics$\n$cavalry$§!\n      $STAT_COMMON_MAX_ORG$: §G+5§!\n      $STAT_ARMY_DEFAULT_MORALE$: §G+0.10§!\n      $STAT_ADJUSTER_MOVEMENT$§G+10%§!\n      $STAT_ADJUSTER_ATTACK$ de Nuit §G+10§!"
 
  tech_semi_motorised_cav: "Cavalerie semi-motorisée"
- tech_semi_motorised_cav_effect: "Active §H$tech_semi_motorised_cav$\n$cavalry$§!\n      $STAT_COMMON_MAX_ORG$: §G+5§!\n      $STAT_ARMY_DEFAULT_MORALE$: §G+0.10§!\n      $STAT_ADJUSTER_MOVEMENT$§G+15%§!"
+ tech_semi_motorised_cav_effect: "Active §H$tech_semi_motorised_cav$\n$cavalry$§!\n      $STAT_COMMON_MAX_ORG$§G+5§!\n      $STAT_ARMY_DEFAULT_MORALE$§G+0.10§!\n      $STAT_ADJUSTER_MOVEMENT$§G+15%§!"
 
  tech_improved_encryption: "Cryptage Amélioré"
  tech_improved_encryption_effect: "Active §H$tech_improved_encryption$§!\n$MODIFIER_CRYPTO_STRENGTH$: [?2|+ = 0]"
@@ -595,16 +597,23 @@ tech_integrated_specialists: "Forces Speciales Intégrées"
  tech_improved_logistics_effect: "Active §H$tech_improved_logistics$\n$logistics_company$§!\n      Utilisation du Ravitaillement : [?-.10|=-%0]\n      Consommation de Carburant : [?-.05|=-%0]"
 
  ### Units ###
- rangers: "Compagnie de Rangers"
- rangers_desc: "Détachements d'infanterie légère d'élite entraînés et équipés pour opérer au sein de divisions ordinaires."
+ assault_battalion: "$blackshirt_assault_battalion$"
+ assault_battalion_desc: "$blackshirt_assault_battalion_desc$"
 
- tech_rangers: "$rangers$"
- tech_rangers_effect: "Active §Y$rangers$§!\n   $rangers_desc$\n\n   $DESIGNER_MANPOWER$[?1000|R0]\n   $STAT_ARMY_DEFAULT_MORALE$[?0.2|G1]\n   $STAT_ARMY_SOFT_ATTACK$[?0.1|G1]\n   $STAT_ARMY_SUPRESSION$[?1.5|G1]\n   $STAT_COMMON_MAX_STRENGTH$[?40|G1]\n   $DESIGNER_TRAINING_TIME$[?120|R0]\n   $STAT_ARMY_BREAKTHROUGH$[?0.3|G1]\n   $STAT_ARMY_SUPPLY_CONSUMPTION$[?0.06|R2]\n   $STAT_COMMON_MAX_ORG$[?10|G0]\n   $STAT_COMMON_WEIGHT$[?0.4|R1]"
+ tech_assault_battalion: "$assault_battalion$"
+ tech_assault_battalion_effect: "Active §Y$assault_battalion$§!\n    $assault_battalion_desc$\n\n    $DESIGNER_MANPOWER$ [?1000|R0]\n    $STAT_ARMY_DEFAULT_MORALE$ [?0.2|G1]\n    $STAT_ARMY_SOFT_ATTACK$ [?0.1|G1]\n    $STAT_ARMY_SUPRESSION$ [?1.5|G1]\n    $STAT_COMMON_MAX_STRENGTH$ [?40|G1]\n    $DESIGNER_TRAINING_TIME$ [?120|R0]\n    $STAT_ARMY_BREAKTHROUGH$ [?0.3|G1]\n    $STAT_ARMY_SUPPLY_CONSUMPTION$ [?0.06|R2]\n    $STAT_COMMON_MAX_ORG$ [?10|G0]\n    $STAT_COMMON_WEIGHT$ [?0.4|R1]"
 
- modifier_army_sub_unit_rangers_attack_factor: "Attaque des $rangers$"
- modifier_army_sub_unit_rangers_defence_factor: "Défense des $rangers$"
- modifier_army_sub_unit_rangers_speed_factor: "Vitesse des $rangers$"
- modifier_army_sub_unit_rangers_max_org_factor: "Organisation des $rangers$"
+ modifier_army_sub_unit_assault_battalion_attack_factor: "Attaque de l'$assault_battalion$"
+ modifier_army_sub_unit_assault_battalion_defence_factor: "Défense de l'$assault_battalion$"
+ modifier_army_sub_unit_assault_battalion_speed_factor: "Vitesse de l'$assault_battalion$"
+ modifier_army_sub_unit_assault_battalion_max_org_factor: "Organisation de l'$assault_battalion$"
+
+ ### Modules ###
+ tank_makeshift_armor: "Blindage improvisé"
+ tank_makeshift_armor_desc: "Fabriqué à partir de feuilles de fer plutôt que d'acier pour économiser de l'argent. C'est mieux que pas de blindage du tout... Probablement."
+
+ tank_improvised_turret: "Tourelle improvisée"
+ tank_improvised_turret_desc: "Elle abrite le canon et peut tourner. Quand elle veut bien."
 
  ### Debug Tag ###
  XXA: "Territoires Intégrables"

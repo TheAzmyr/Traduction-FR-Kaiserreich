@@ -15,21 +15,21 @@
  SIA_four_musketeers_desc: "§LCet officier est considéré comme l'un des membres de la colonne vertébrale de l'état-major général siamois moderne. Ces commandants des "Quatre Mousquetaires (+Plus Un)" exercent une influence considérable sur la nouvelle génération d'officiers et ont étudié les récents conflits de manière très détaillée.§!"
 
 ### Companies ###
- chaiseri: "Société Chaiseri Metal & Rubber"
- thairung: "Thairung"
- bangkok_dock: "Bangkok Dock Company"
- siam_cement: "[SIA.GetSIAcementcorp]"
- siam_aeronautics: "Siam Aeronautics"
- SIA_TAI:0 "Industries Aéronautiques de [SIA.GetProperAdjective]"
- tanin: "Tanin Industrial Company"
- SIA_SmallArms: "Usine d'Armes Légères"
- SIA_MEF: "Usine d'Explosifs Militaires"
- chulalongkorn: "Université de Chulalongkorn"
+ SIA_chaiseri:0 "Société Chaiseri Metal & Rubber"
+ SIA_thairung:0 "Thairung"
+ SIA_bangkok_dock:0 "Bangkok Dock Company"
+ SIA_siam_cement:0 "[SIA.GetSIAcementcorp]"
+ SIA_siam_aeronautics:0 "Siam Aeronautics"
+ SIA_aviation_industries:0 "Industries Aéronautiques [SIA.GetProperAdjective]es"
+ SIA_tanin:0 "Tanin Industrial Company"
+ SIA_small_arms_factory:0 "Usine d'Armes Légères"
+ SIA_military_explosives_factory:0 "Usine d'Explosifs Militaires"
+ SIA_chulalongkorn:0 "Université de Chulalongkorn"
  SIA_ford: "Ford [SIA.GetSIAshortname]"
- SIA_SSR: "[SIA.GetSIAprefixEN] Chemin de Fer d'État de [SIA.GetSIAshortname]"
- RSAFW: "[SIA.GetSIAprefixEN] Atelier de l'Armée de l'Air de [SIA.GetProperAdjective]"
- SIA_BGrimm: "B.Grimm"
- SIA_Energy_Dept: "Département du Carburant de [SIA.GetProperAdjective]"
+ SIA_state_railways:0 "[SIA.GetSIAprefixEN] Chemin de Fer d'État de [SIA.GetSIAshortname]"
+ SIA_air_force_workshop:0 "[SIA.GetSIAprefixEN] Atelier de l'Armée de l'Air de [SIA.GetProperAdjective]"
+ SIA_bgrimm:0 "B.Grimm"
+ SIA_fuel_department:0 "Département du Carburant de [SIA.GetProperAdjective]"
 
 ### Ideas ###
  SIA_black_monday: "Lundi Noir"
@@ -694,11 +694,6 @@
  siam.72.d.no_reparations: "Notre accord avec le [SIA.GetSIAshortname] est maintenant entré en vigueur."
  siam.72.a: "Excellent. "
 
- siam.73.t: "La Question de Politique Étrangère"
- siam.73.d: "Après la révolution, le Siam se trouve de plus en plus isolé dans les affaires internationales, une situation précaire compte tenu de nos relations imprévisibles, voire carrément antagonistes, avec nos voisins, ainsi que du danger toujours présent de l'empiètement impérialiste sur notre nation. Compte tenu de ces circonstances, certaines voix au sein de notre gouvernement ont proposé que nous rejoignions nos camarades de la Commune de Bharatiya, qui ont réussi à unir leur nation et dont la présence sur la scène internationale ne cesse de croître. Cependant, certains ont dénigré cette idée, arguant que cela mettrait en péril notre indépendance."
- siam.73.a: "Une alliance est nécessaire, faisons-en la demande."
- siam.73.b: "Notre indépendance est sacrée, nous ne la mettrons pas en danger."
-
  siam.74.t: "[From.GetNameDefCap] demande à rejoindre le [ROOT.GetFactionName]"
  siam.74.d: "Alors que les feux révolutionnaires balaient l'Asie, le besoin de solidarité et de coopération entre les peuples nouvellement émancipés devient de plus en plus évident. Conscients des dangers de rester neutres sur une scène mondiale en pleine mutation, nos camarades de [From.GetNameDef] ont demandé à rejoindre le [ROOT.GetFactionName]. En acceptant cette demande, nous étendrions notre influence en Asie du Sud-Est, une région vitale pour nos intérêts stratégiques. Cependant, des voix dissidentes ont mis en garde contre l'enchevêtrement dans des entreprises étrangères inutiles."
  siam.74.a: "Nous souhaitons la bienvenue à nos camarades [From.GetAdjectiveCap]."
@@ -1076,6 +1071,10 @@ siam.0.b: ""
  SIA_capital_relocation_desc: "Bangkok occupe une position stratégique à l'embouchure du fleuve Chao Phraya, propice au commerce et aux communications maritimes. Malheureusement, dans le domaine de la guerre moderne, cette situation l'expose à une invasion navale. Le déplacement temporaire de notre capitale vers le nord, à Chiang Mai, permettra à notre bureaucratie et à notre chaîne de commandement de rester en sécurité pendant un certain temps encore."
  SIA_move_capital_back: "Déplacer la Capitale à Bangkok"
  SIA_move_capital_back_desc: "La situation s'étant calmée, replaçons notre capitale là où elle doit être."
+
+ SIA_join_internationale:0 "Rejoindre l'Internationale"
+ SIA_join_internationale_desc: "Suite à la révolution, le Siam se retrouve de plus en plus isolé en ce qui concerne les affaires internationales, une situation précaire compte tenu de nos relations imprévisibles, voire carrément antagonistes, avec nos voisins, ainsi que du danger toujours présent d’empiétement impérialiste sur notre nation. Compte tenu des circonstances, certaines voix au sein de notre gouvernement ont proposé que nous rejoignions nos camarades de l’Internationale, car ils ont réussi à unir leur nation et sont de plus en plus présents sur la scène mondiale. Cependant, certains ont critiqué cette idée, estimant que cela mettrait en péril notre indépendance."
+
  SIA_surrender: "Négocier la paix avec l'ennemi"
  SIA_surrender_desc: "La guerre est passée du mauvais au pire. C'est peut-être la seule option pour nous sauver de l'anéantissement total..."
 

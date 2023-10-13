@@ -12,24 +12,24 @@
  generic_events.11.a:0 "Excellent!"
 
  generic_events.12.t: "[FROM.GetNonIdeologyNameDefCap] propose une alliance avec [FROM.GetNonIdeologyNameDef]"
- generic_events.12.d: "FROM has been approached by FROM.FROM to negotiate an alliance, FROM has forwarded the request to the faction leader."
+ generic_events.12.d: "Un avis urgent vient de nous parvenir du ministère des Affaires étrangères : [FROM.GetNonIdeologyNameDef] nous demande d'envisager une adhésion de [FROM.FROM.GetNonIdeologyNameDef] à notre alliance militaire. Apparemment, [FROM.FROM.GetNonIdeologyNameDef] a initialement proposé l'idée à [FROM.GetNonIdeologyNameDef], qui à son tour a estimé que l'idée avait suffisamment de mérite pour nous la transmettre.\n\nLes avantages sont assez évidents. En matière de stratégie, disposer de plus de forces disponibles est théoriquement toujours une bonne chose, et [FROM.FROM.GetNonIdeologyNameDef] a intégré le fait que le corollaire de son adhésion sera de participer à tous les conflits dans lesquels nous pourrions être impliqués, quelle que soit leur origine. Cependant, l'idée n'est pas sans risque : on s'attendrait de la même manière à ce que nous participions aux guerres menées ou déclenchées par [FROM.FROM.GetNonIdeologyNameDef]. Dans cette perspective, conclure une alliance avec eux pourrait être contraire à nos objectifs stratégiques existants. De telles questions doivent toujours être prises en compte lorsqu’une nouvelle alliance est envisagée.\n\nMaintenant que les pour et les contre sont clairement posés, quelle est notre décision ?"
  generic_events.12.a: "Qu'ils se joignent à nous."
  generic_events.12.b: "Nous n'en voulons pas."
 
  generic_events.13.t:0 "[FROM.GetNonIdeologyNameDefCap] a accepté!"
- generic_events.13.d: "Faction leader has accepted the alliance. ROOT is the prospective member, FROM the faction leader, FROM.FROM the negotiator country."
+ generic_events.13.d: "Bonnes nouvelles ! Après avoir considéré la proposition de [FROM.FROM.GetNonIdeologyNameDef], [FROM.GetNonIdeologyNameDef] a accepté notre demande de rejoindre leur alliance. Avec des amis comme ceux-ci, nous nous sentirons certainement plus en sécurité."
  generic_events.13.a:0 "Excellent."
 
  generic_events.14.t: "[FROM.GetNonIdeologyNameDefCap] a accepté !"
- generic_events.14.d: "Faction leader has accepted the alliance. ROOT is the negotiator country, FROM the prospective member, FROM.FROM the faction leader."
+ generic_events.14.d: "Bonnes nouvelles ! Après avoir considéré notre proposition, [FROM.FROM.GetNonIdeologyNameDef] a accepté d'autoriser [FROM.GetNonIdeologyNameDef] à rejoindre l'alliance. Nous bénéficierons sûrement tous les deux de cet arrangement."
  generic_events.14.a:0 "Excellent."
 
  generic_events.15.t: "[FROM.GetNonIdeologyNameDefCap] a refusé !"
- generic_events.15.d: "Faction leader has refused the alliance. ROOT is the prospective member, FROM the faction leader, FROM.FROM the negotiator country."
+ generic_events.15.d: "Mauvaises nouvelles : malgré le parrainage de [FROM.FROM.GetNonIdeologyNameDef], [FROM.GetNonIdeologyNameDef] a rejeté notre offre de rejoindre leur alliance. Il semble que leurs buts ne soient pas aussi alignés sur les nôtres que nous le pensions."
  generic_events.15.a:0 "Leur perte."
 
  generic_events.16.t:0 "[FROM.GetNonIdeologyNameDefCap] a refusé!"
- generic_events.16.d: "Faction leader has refused the alliance. ROOT is the negotiator country, FROM the prospective member, FROM.FROM the faction leader."
+ generic_events.16.d: "Terribles nouvelles : malgré notre argumentation en ce sens, [FROM.FROM.GetNonIdeologyNameDef] a refusé d'autoriser [FROM.GetNonIdeologyNameDef] à rejoindre l'alliance. Notre Ministère des Affaires Étrangères a été totalement pris au dépourvu par cette nouvelle - il pensait en effet que notre réflexion stratégique était beaucoup plus proche qu'elle ne semble finalement l'être."
  generic_events.16.a:0 "Quoi...?"
 
  generic_events.17.t:0 "[FROM.GetNonIdeologyNameDefCap] a refusé!"
@@ -164,21 +164,16 @@ has_scripted_peace_desc: "Le pays est en guerre et est déterminé à remporter 
 
  unit_limit_count: "[unit_limit_count_loc]/[?max_divisions|H0]"
 
- unit_limit_count_red: "[?num_actual_divisions|R0]"
- unit_limit_count_yellow: "[?num_actual_divisions|H0]"
- unit_limit_count_green: "[?num_actual_divisions|G0]"
-
  unit_limit_factory_bonus:0 "Limite de divisions"
  unit_limit_bonus: "Limite de divisions"
  unit_limit_subject_bonus: "Ajout d'une Limite de Division pour le maître"
 
- unit_limit_label: "§HDivisions maximales Supportées§!\nDivisions: [?max_divisions|H0]\n\nValeur de base: [?base_units|G1]\n    - De la population nationale: [?core_base|G1] [unit_limit_noncore_population] [unit_limit_subject_population_bonus]\n    - De la population d'états sous notre contrôle: [?num_owned_states|G0] [unit_limit_subject_state_bonus]\n\nMultiplicateur du Nombre d'Usines: [?industry_factor_uncapped|H%] [unit_limit_modifier_was_capped] [unit_limit_modified_by] [unit_limit_faction_leader] [unit_limit_economy_law]\n\nDéfaut: [?global.base_unit_limit_bonus|G=0] [unit_limit_bonus_used]"
- unit_limit_desc: "Chaque pays n'a la capacité de soutenir qu'un certain nombre de divisions militaires individuelles avant que son économie et son infrastructure n'aient du mal à les maintenir.\n\nLe nombre maximum d'unités soutenues est basé sur la §Hpopulation§! du pays et le §Hnombre d'états qu'il possède§!, et est ensuite multiplié par un rapport entre cette valeur et le §Hnombre d'usines§! dans les états.\n\nDans les §Hguerres civiles§!, les valeurs de base sont calculées à partir de la somme de tous les états possédés par tous les participants [above_unit_limit_desc]."
+ unit_limit_label: "§HNombre maximum de divisions disponibles§!\nDivisions : [?uncapped_max_divisions|H0] [unit_limit_reached_cap]\n\nValeur de Base : [?base_units|G1]\n    - Population issue des territoires nationaux : [?core_base|G1] [unit_limit_noncore_population] [unit_limit_subject_population_bonus]\n    - Population issue des états occupés : [?num_owned_states|G0] [unit_limit_subject_state_bonus]\n\nMultiplicateur lié au nombre d'usines : [?industry_factor_uncapped|H%] [unit_limit_modifier_was_capped] [unit_limit_modified_by] [unit_limit_faction_leader] [unit_limit_economy_law]\n\nPar défaut : [?global.base_unit_limit_bonus|G=0] [unit_limit_bonus_used]"
+ unit_limit_desc: "Chaque pays n’a qu'une capacité limitée de lever et de maintenir des divisions militaires. Cette capacité est notamment liée à la capacité de son économie et de ses infrastructures à les équiper et maintenir leur force de combat.\n\nLe nombre maximum d'unités prises en charge est basé sur la §Hpopulation§! du pays et le §H nombre d'états occupés§!, qui est ensuite multiplié par un ratio de cette valeur lié au §Hnombre d'usines§! existantes dans les différents territoires.\n\nLors des §Hguerres civiles§!, les valeurs de base sont calculées à partir de la somme de tous les États détenus par tous les participants.[unit_limit_above_limit]"
 
- unit_limit_desc_fake_intel: "(§HLes fausses divisions du renseignement§! ne comptent pas dans la limite de divisions)"
+ unit_limit_above_limit_desc:0 "\n\n--------------\n\n§RNous avons actuellement dépassé nos capacités, et la seule façon de soulager la pression sur notre pays sera de supprimer certaines de nos divisions.§!\n\n$MODIFIER_ARMY_ORG_FACTOR$: [?mobilisation_penalty_var|+=%1]\n$MODIFIER_CONSUMER_GOODS_FACTOR$: [?mobilisation_penalty_var_positive|=%H1]\n$MODIFIER_INDUSTRIAL_CAPACITY_FACTOR$: [?mobilisation_penalty_var|+=%]\n$MODIFIER_TRAINING_TIME_ARMY_FACTOR$: [?mobilisation_penalty_var_positive|-=%]\n$MODIFIER_LAND_REINFORCE_RATE$: [?mobilisation_penalty_var|+=%1]"
 
- unit_limit_desc_above_limit: "\n\n--------------\n\n§RNous avons actuellement dépassé nos capacités, et la seule façon de soulager la pression sur notre pays sera de supprimer certaines de nos divisions.§!\n\n$MODIFIER_ARMY_ORG_FACTOR$: [?mobilisation_penalty_var|+=%1]\n$MODIFIER_CONSUMER_GOODS_FACTOR$: [?mobilisation_penalty_var_positive|=%H1]\n$MODIFIER_INDUSTRIAL_CAPACITY_FACTOR$: [?mobilisation_penalty_var|+=%]\n$MODIFIER_TRAINING_TIME_ARMY_FACTOR$: [?mobilisation_penalty_var_positive|-=%]\n$MODIFIER_LAND_REINFORCE_RATE$: [?mobilisation_penalty_var|+=%1]"
-
+ unit_limit_reached_cap_desc: "\n (Plafonné à un maximum de [?300|H0])"
  unit_limit_noncore_population_desc: "\n   - De la Population Non Nationale : [?non_core_base|G1]"
  unit_limit_subject_population_bonus_desc: "\n   - De la Population §HSujette§! : [?subject_base_units|G1]"
  unit_limit_subject_state_bonus_desc: "\n   - Des États §HSujets§! : [?subject_states|G0]"
