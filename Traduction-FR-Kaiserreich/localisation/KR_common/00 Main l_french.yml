@@ -32,7 +32,7 @@
  KR_welcome_splash_tab_3_content_0: "Kaiserreich impose des restrictions sur les actions diplomatiques telles que les §RGuerres Précoces§!, les §RFactions§! et les §RNiveaux d'Autonomie§!.\nKaiserreich inclut également des §CLimites de Division§! et un mécanisme de §CDémobilisation§! pour améliorer la jouabilité en fin de partie.\nPendant les §YConférences de Paix§!, assurez-vous d'annexer tous les États possibles. Plus tard, vous pourrez libérer les pays des territoires annexés grâce aux §Cdécisions§!.\nLe menu de configuration des §YRègles de Jeu Personnalisées§! vous permet d'ajuster de nombreuses options, notamment les §CChemins de Pays§!, la §CPrimauté du Joueur pendant les Conférences de Paix§! et l'outil de §CTransfert d'États et de Pays§!.\nLe £kr_options_icon §YMenu d'Options§! peut être ouvert en cliquant sur son icône en haut à droite. Il vous permet d'ajuster la §Cfréquence des événements§! et d'activer le §Crenommage dynamique§! des états et des points de victoire."
 
  ## TAB 4 ##
- KR_CURRENT_VERSION: "0.27.1"
+ KR_CURRENT_VERSION: "0.27.2"
  KR_CURRENT_VERSION_NAME: "Appel à tous les travailleurs"
  KR_welcome_splash_tab_4_header: "§YBienvenue dans la BETA de Kaiserreich $KR_CURRENT_VERSION$ "$KR_CURRENT_VERSION_NAME$"\n\n\n\nAmoureusement fabriqué par l'équipe Kaiserreich: §!"
  KR_welcome_splash_tab_4_content: "§YL'équipe KR4 :§!Alpinia, Arvidus, Asratius, Augenis, Blackfalcon501, Blackleaf, Carmain, Cazadorian, Chazem, Chiang Kai-shrek, Chiron29, Conchobhar, DuoDex, El Daddy, falling_robin, Fedex, Flamefang, Gaboemi, Hamfast, hildagrim, Ido, Igor050301, JazzyHugh, Jeankedezeehond, Jonny BL, Kano, katieluka, KFateweaver, Kennedy, kergely, Klyntar King, Krčo, Luwofe, Matoro, McOmghall, MrMano, ~mw~, miwaco., NukeGaming, Pelmen, Purple Jinjo, RagnoStrangeros, Retrocognition, Rnk, Shiroe, Shōta, Sonny O'Cad, SuperGreenBeans, suzuha, The Alpha Dog, The Irredentista, The Italian Jojo, Vidyaország, Zimbabwe Salt Co.\n§YTraduit par : §!Diro, Hellh, Mouchi et UltraNico. §YAnciennement traduit par : §!Aegon Targaryen, Brakmar, Darkusios, Demetran, Fanois, Feuxin, Grikke, IGgame, IluminatiX, Kfateweaver, Kira, Klik le Araï, Lazu, Le Marocain, LRP2580, MVMaroIV, Nobelo81, Orakle14, Paralux, Remkiller123, Romain1912, Rosak, RyumaTomoka, Sayu, Solal, Superwaffle, TheAzmyr, Vitulus, Youkoulélé et Zeplein"
@@ -329,8 +329,8 @@ FROM_becomes_nominal_puppet: "§H[From.GetNameDefCap]§! devient un §HFantoche 
  is_regent: "Agit en tant que régent"
  is_regent_NOT: "N'agit pas en tant que régents"
 
- is_monarchy: "§Y[ROOT.GetNameWithFlag]§! est une §Ymonarchie§!"
- is_monarchy_NOT: "§Y[ROOT.GetNameWithFlag]§! n'est §Rpas§! une §Ymonarchie§!"
+ is_monarchy: "§Y[THIS.GetNameWithFlag]§! est une §Ymonarchie§!"
+ is_monarchy_NOT: "§Y[THIS.GetNameWithFlag]§! n'est §Rpas§! une §Ymonarchie§!"
 
 ### Mobilisation Effects ###
  disband_ten_percent_units: "Dissous §Y10%§! de toutes les divisions permanentes, en conservant leur équipement."
@@ -347,6 +347,8 @@ FROM_becomes_nominal_puppet: "§H[From.GetNameDefCap]§! devient un §HFantoche 
 
  has_guarantor: "est garanti"
  has_guarantor_NOT:0 "N'est pas garanti"
+
+ all_enemy_country_workaround_trigger: "$TRIGGER_ALL_enemy_COUNTRY_STARTS$ :\n   est en guerre avec §Y[?target.GetFlag] [?target.GetName]§!"
 
 ### Events ###
  generic_events.100.t:0 "L'Ordre Restauré en [Root.GetNameDef]"

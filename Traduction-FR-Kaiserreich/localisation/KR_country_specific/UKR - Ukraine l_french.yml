@@ -308,7 +308,7 @@
  UKR_internationale_support: "Aide Internationale"
 
  UKR_vdr_25_tt: "§YLa force des Pro-Hetman doit être inférieur ou égal à 25.§!"
- UKR_hetman_strength_increase: "La §Rforce pro-hetman diminuera de $RIGHT$§!"
+ UKR_hetman_strength_increase: "La §Rforce pro-hetman augmentera de $RIGHT$§!"
  UKR_hetman_strength_decrease: "La §Sforce pro-hetman diminuera de $RIGHT$§!"
 
  UKR_vdr_side: "Nous avons pris le parti du VDR"
@@ -625,21 +625,21 @@
  UKR_legacy_gain_1_tt: "Nous obtiendrons le pouvoir politique en fonction de la proximité entre la puissance des §oRadicaux§!§RR-RB§! et des §SModérés§! §RR-RB§!. Gain actuel :"
  UKR_legacy_gain_2_tt: "Nous allons gagner du pouvoir politique en fonction de la proximité de puissance entre les §oRadicaux§! de l'§RUPS-R§! et les §SModérés§! de l'§RUPS-R§!. Gain actuel:"
 
- UKR_mykola_kovalevskyi_trait: "Modifie votre §YCommandant en second§!:\nLe trait de §CMykola Kovalevskyi§! va maintenant inclure des effets dynamiques dépendant de la popularité §Ssociale-démocrates§! actuelle. Effet actuel:\n-Stabilité: [?UKR.party_popularity@social_democrat|=%+]"
- UKR_pavlo_khrystiuk_trait: "Modifie votre §YCommandant en second§!:\nLe trait de §CPavlo Khrystiuk§! va maintenant inclure des effets dynamiques dépendant de la popularité §rSyndicaliste§! actuelle. Effet actuel:\n-Production des usines: [?UKR.party_popularity@syndicalist|=%+]"
- UKR_volodymyr_chekhivskyi_trait: "Modifie votre §YCommandant en second§!:\nLe trait de §CVolodymyr Chekhivskyi§! va maintenant inclure des effets dynamiques dépendant de la popularité §RRadicale-Socialiste§! actuelle. Effet actuel:\n-Vitesse de recherche: [?UKR_radsoc_variable|=%+]"
- UKR_anatolii_pisotskyi_trait: "Modifie votre §YCommandant en second§!:\nLe trait de §CAnatolii Pisotskyi§! va maintenant inclure des effets dynamiques dépendant de la popularité §oTotaliste§! actuelle. Effet actuel:\n-Vitesse de construction: [?UKR.party_popularity@totalist|=%+]"
+ UKR_mykola_kovalevskyi_trait: "Modifie votre §YCommandant en second§!:\nLe trait de §CMykola Kovalevskyi§! va maintenant inclure des effets dynamiques dépendant de la popularité §Ssociale-démocrates§! actuelle. Effet actuel:\n-Stabilité: [?party_popularity@social_democrat|=%+]"
+ UKR_pavlo_khrystiuk_trait: "Modifie votre §YCommandant en second§!:\nLe trait de §CPavlo Khrystiuk§! va maintenant inclure des effets dynamiques dépendant de la popularité §rSyndicaliste§! actuelle. Effet actuel:\n-Production des usines: [?party_popularity@syndicalist|=%+]"
+ UKR_volodymyr_chekhivskyi_trait: "Modifie votre §YCommandant en second§!:\nLe trait de §C Volodymyr Tchekhivsky §! inclura désormais des effets dynamiques qui correspondront à la moitié de votre popularité §R Radicale-Socialiste§! actuelle. Effet actuel :\n - Vitesse de recherche :[?temp|=%+]"
+ UKR_anatolii_pisotskyi_trait: "Modifie votre §YCommandant en second§!:\nLe trait de §CAnatolii Pisotskyi§! va maintenant inclure des effets dynamiques dépendant de la popularité §oTotaliste§! actuelle. Effet actuel:\n-Vitesse de construction: [?party_popularity@totalist|=%+]"
 
- KR_cooperative_advocate_2_tt: "Production des usines: popularité §rsyndicaliste§!"
- KR_agricultural_economist_2_tt: "Stabilité: popularité §Ssociale-démocrate§!"
- KR_red_divine_2_tt: "Vitesse de recherche: 1/2 de la popularité §Rradicale-socialiste§!"
- KR_marxist_doctrinaire_2_tt: "Soutien à la guerre: popularité §ototaliste§!"
+ KR_cooperative_advocate_2_tt: "Production des usines: [?party_popularity@syndicalist|+=%]"
+ KR_agricultural_economist_2_tt: "Stabilité: [?party_popularity@social_democrat|+=%]"
+ KR_red_divine_2_tt: "Vitesse de recherche: [?UKR_red_divine_research_speed|+=%]"
+ KR_marxist_doctrinaire_2_tt: "Soutien à la guerre: [?party_popularity@totalist|+=%]"
+ KR_veteran_of_revolutionary_struggle_2_tt: "Production des usines: [?party_popularity@syndicalist|+=%]"
 
- KR_cooperative_advocate_2:0 "Défenseur des Coopératives"
- KR_agricultural_economist_2:0 "Économiste Agricole"
- KR_red_divine_2:0 "Rouge Divin"
- KR_marxist_doctrinaire_2:0 "Marxiste Doctrinaire"
- KR_veteran_of_revolutionary_struggle_2: "Vétéran de la Lutte Révolutionnaire"
+ KR_cooperative_advocate_2: "$KR_cooperative_advocate$"
+ KR_agricultural_economist_2: "$KR_agricultural_economist$"
+ KR_red_divine_2: "$KR_red_divine$"
+ KR_marxist_doctrinaire_2: "$KR_marxist_doctrinaire$"
 
  UKR_inspectorate_radsoc_1: "Si les radicaux de l'§RUPS-R§! ou du §RR-RB§! sont dominants, nous obtiendrons §G+50§! de pouvoir politique. "
  UKR_inspectorate_radsoc_2: "Parce que la faction §oradicale§! est dominante, nous obtiendrons du pouvoir politique supplémentaire."
@@ -982,7 +982,6 @@
  UKR_anti_imperialist_propaganda: "Diffuser de la propagande anti-impérialiste"
  UKR_anti_imperialist_propaganda_desc: "Les Empires ont toujours cherché à contrôler l’Ukraine pour leur propre compte, qu’ils soient russes, allemands ou autrichiens – et pendant des décennies, voire des siècles, ils y sont parvenus. Mais plus maintenant ! L’Ukraine appartiendra au peuple ukrainien et nous lutterons jusqu’au bout pour la libérer !"
 
- UKR_khkbm_unlock_tt: "Débloque une version améliorée du §HKhKBM§!."
  UKR_ger_pilot_training_initiative_tt: "Modifier §H$UKR_shadow_of_mighty_wings$§! par Agilité: [?0.1|=+%0]"
  UKR_volunteers_tt: "£nato_unit_infantry_icon_small  Lève deux §YDétachements de Volontaires§! composés de 5 bataillons de §Ytroupes irrégulières§!."
  UKR_demobilize_volunteers_tt: "Toutes les unités de volontaires seront dissoutes et les effectifs remboursés."
@@ -1091,10 +1090,10 @@
 
  kharkiv_locomotive_factory: "KhPZ"
  kharkiv_locomotive_factory_desc: "§gL'usine KhPZ de Kharkov figurait parmi les plus grands producteurs de locomotives de Russie, mais elle a depuis étendu sa production aux véhicules blindés.§!"
- UKR_kr_kharkiv_design_bureau: "KhKBM"
- UKR_kr_kharkiv_design_bureau_desc: "§gLe Bureau d'Etudes de Kharkiv est issu de la recherche sur les blindés de KhPZ en tant que bureau d'études indépendant, axé uniquement sur la conception des véhicules blindés les plus modernes.§!"
- UKR_kr_kharkiv_design_bureau_2: "$UKR_kr_kharkiv_design_bureau$ agrandi"
- UKR_kr_kharkiv_design_bureau_2_desc: "$UKR_kr_kharkiv_design_bureau_desc$"
+
+ kharkiv_design_bureau:0 "KhKBM"
+ kharkiv_design_bureau_desc:0 "§gLe Bureau d'Etudes de Kharkiv est issu de la recherche sur les blindés de KhPZ en tant que bureau d'études indépendant, axé uniquement sur la conception des véhicules blindés les plus modernes.§!"
+ UKR_mio_trait_increased_budgets: "Budgets augmentés"
 
  tereshchenko_aviation_plant: "Usine d'Aviation de Tereshchenko"
  tereshchenko_aviation_plant_desc: "§gCe qui a commencé comme un petit atelier d'aviation, créé par un héritier de la riche famille Tereshchenko et un aspirant ingénieur aéronautique Fedir Tereshchenko en 1909, est maintenant devenu l'usine aéronautique la plus grande et la mieux financée d'Ukraine, grâce aux relations avec Protofis et aux importantes subventions de l'État. Elle emploie des experts allemands et ukrainiens et est considérée comme un élément clé du programme de modernisation militaire.§!"
@@ -1849,12 +1848,6 @@
  ukraine_revolt.13.d: "La soi-disant « rébellion » a connu aujourd'hui son jour le plus terrifiant, alors que 127 personnes ont péri dans un bombardement ordonné par le gouvernement du Hetman. En deux vagues, des Dornier Do 123 de construction allemande ont largué plusieurs tonnes de munitions sur la partie sud de la ville, qui aurait abrité le quartier général régional de l'Armée Populaire. En outre, la ville est située le long de l'importante voie ferrée est-ouest utilisée par les rebelles, qui servait à faire de la gare de Sarny une cible militaire. À mesure que la nouvelle se répandait, le fossé entre les Ukrainiens se creusait de plus en plus, et même au sein du SHD, le bombardement a été critiqué pour son manque de planification et de précision."
  ukraine_revolt.13.a: "Cela les amènera à repenser leur révolution inutile."
  ukraine_revolt.13.b: "Un jour triste pour l'Ukraine..."
-
- ukraine_revolt.14.t: "Délégation des Républicains ukrainiens"
- ukraine_revolt.14.d: "Notre ministère des Affaires Etrangères a été contacté aujourd'hui par une délégation diplomatique ukrainienne, mais celle-ci ne provenait pas du gouvernement ukrainien légalement reconnu, mais plutôt du gouvernement républicain rival, qui mène actuellement une révolte paysanne contre le gouvernement Skoropadskyi. Cette organisation républicaine s'appelle VDR - Mouvement Démocratique Panukrainien - et sa délégation souhaite être en contact avec le ministère allemand des Affaires Etrangères au sujet de la situation en Ukraine.\n\nLe chef de la délégation, Oleksandr Choulhyn, est un homme politique et diplomate libéral de longue date – une figure plutôt respectable pour un groupe quasi socialiste tel que le VDR. Il s'est donné beaucoup de mal pour nous assurer que les troubles en Ukraine ne visent pas à créer un régime socialiste, ni qu'ils souhaitent rompre les liens avec Berlin. Selon les mots de Shulhyn, ils se battent simplement pour la liberté et la démocratie et ne souhaitent qu'une coopération pacifique avec le reste de l'Europe."
- ukraine_revolt.14.a: "Nous nous contenterons d'observer la situation."
- ukraine_revolt.14.b: "Mensonges. Envoyez du soutien à Skoropadskyi."
- ukraine_revolt.14.c: "Nous devrions peut-être poursuivre les discussions avec Shulhyn."
 
  ukraine_revolt.15.t: "Le Mouvement Démocratique Panukrainien"
  ukraine_revolt.15.d: "Comme le Royaume de Pologne, le Hetmanat d’Ukraine nous rappelle nos propres buts géopolitiques que l’Allemagne nous a volés. La Légion des Fusiliers Ukrainiens du Sich a combattu vaillamment au sein de nos armées dans la Weltkrieg, mais leur République Démocratique a été rapidement chassée par l'armée allemande et son laquais, Pavlo Skoropadskyi. Depuis lors, les restes des républicains ukrainiens, dirigés par l’ancien secrétaire général des Affaires Militaires Symon Petlioura, sont basés à Lviv. Malgré les demandes d'extradition, nous avons donné refuge aux républicains : après tout, ils sont citoyens de la double monarchie et sont autorisés à organiser toutes les associations qu'ils souhaitent. L’Association d’Amitié Austro-Ukrainienne, présidée par l’archiduc Vasyl von Habsburg, est un ardent défenseur d’une Ukraine plus démocratique.\n\nAu lendemain de la crise économique et de l’aggravation de l’oppression hetmanite, les forces démocratiques ukrainiennes se sont regroupées et ont formé le Mouvement Démocratique Panukrainien, ou VDR. Ils sont actuellement engagés dans des manifestations de masse et même dans une résistance armée contre les forces du Hetman, et officiellement nous ne pouvons pas les soutenir... mais nous n'avons pas non plus besoin de les gêner. La Couronne de Lodomérie est devenue leur base de pouvoir et, par là, ils font passer clandestinement du matériel, des hommes et dirigent des fonds vers la campagne contrôlée par le VDR, du côté ukrainien de la frontière. Comme l'administration locale de Lodomérie est plus ou moins favorable à leurs objectifs, rien ne sera fait pour les arrêter."
