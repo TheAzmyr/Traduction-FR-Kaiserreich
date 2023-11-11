@@ -638,7 +638,7 @@ JAP_land_reform_desc: "La réforme agraire est une question qui se pose dans la 
 ### Economy Decisions ###
  JAP_economy_cat: "L'Économie Japonaise"
  JAP_support_yokohama_auto_industries: "Soutenir Yokohama Auto Industries"
- JAP_support_ota_jidosha: "Soutenir Ota Jidosha"
+ JAP_support_ota_jidosha: "Soutenir Ōta Jidōsha"
  JAP_support_kurasiki_kensyoku: "Soutenir Kurasiki Kensyoku"
  JAP_support_mitsubishi: "Soutenir Mitsubishi"
  JAP_subisidies_for_nakajima: "Subventions pour Nakajima"
@@ -1023,6 +1023,7 @@ JAP_rapid_industrialisation_desc: "Bien que notre économie soit en croissance e
 
  JAP_revise_the_third_circle_plan: "Réviser le Plan du Troisième Cercle"
  JAP_revise_the_fourth_circle_plan: "Lancer le Plan du Quatrième Cercle"
+ JAP_third_naval_armaments_idea_no_mtg: "Troisième programme d'armements navals supplémentaires"
  JAP_naval_innovation: "Division Innovation Navale"
  JAP_the_long_lance_idea: "La Longue Lance"
  JAP_naval_aviation_breakthroughs: "Percées de l'Aéronautique Navale"
@@ -1271,6 +1272,9 @@ KR_co_prosperity_sphere_tooltip_desc: "§L[GetCoProsperitySphereDesc]§"
 
 JAP_may_now_invite_sphere: "Les nations non-alignées et soumises de l'Asie de l'Est peuvent maintenant être invitées dans la sphère d'influence économique du Japon\n"
 JAP_may_now_invest_sphere: "Peut maintenant prendre des décisions pour promouvoir l'investissement dans les membres de la sphère, ce qui - avec le temps - peut conduire à un contrôle japonais sur le pays [n]".
+ JAP_invest_in_sphere_member_decision_tt: "Investit dans notre allié, en lui accordant §Y1 Usine Civile§! et des §Gavantages commerciaux mutuels§! .\nUne fois que §YPénétration Économique§! est assez haut, nous pourrons en faire un état vassal."
+ JAP_invest_in_sphere_member_docks_decision_tt: "Construisez des chantiers navals sur le territoire de notre allié, dont nous pourrons nous emparer temporairement plus tard."
+ JAP_invest_in_sphere_naval_advisors_decision_tt: "Aidera notre allié à entraîner sa marine en partageant nos recherches ou notre expertise, selon ce qu'il choisit."
 JAP_withdraws_from_sphere: "§Y[Root.GetNameDefCap]§! se retirera de la sphère économique japonaise".
 JAP_THIS_withdraws_from_sphere: "§Y[This.GetNameDefCap]§! se retirera de la sphère économique japonaise".
 JAP_not_member_of_sphere: "n'est pas un membre de la sphère de coprospérité économique du Japon"
@@ -1304,7 +1308,7 @@ japdom.2.a: "Très bien."
  japdom.3.b: "Les Seiyūkai ont perdu leur majorité absolue !"
 
 japdom.4.t: "L'assassinat de Katayama Sen"
- japdom.4.d: "Né en 1859, Katayama Sen était l'un des plus hauts dirigeants syndicalistes du Japon, connu comme le « père du syndicalisme japonais ». Exilé aux États-Unis après avoir participé aux premiers mouvements sociaux-démocrates, Katayama a été témoin et influencé par les activités syndicalistes de Jack Reed et le développement des IWW devenus plus tard le CSA. Katayama retourna au Japon après la restauration constitutionnelle de 1926 et fonda le premier parti syndicaliste légal au Japon, le Rōdō-Nōmintō (Parti Travailliste-Agrarien), et après que celui-ci fut déclaré illégal en 1932, il contribua à la fondation de l'actuel Shakai Taishūtō.\n\nHier, alors qu'il était en visite à Kyoto pour féliciter Yamamoto Senji, membre de Shakai Taishūtō, pour son élection, un gang de trois hommes apparentés aux milieux de droite a pris d'assaut son bureau et a battu les deux hommes à coups de matraque. Yamamoto a survécu, mais Katayama, âgé de 76 ans, n'a jamais repris conscience et est décédé plus tôt dans la journée."
+japdom.4.d: "Né en 1859, Katayama Sen était l'un des plus hauts dirigeants syndicalistes du Japon, connu comme le « père du syndicalisme japonais ». Exilé aux États-Unis après avoir participé aux premiers mouvements sociaux-démocrates, Katayama a été témoin et influencé par les activités syndicalistes de Jack Reed et le développement des IWW devenus plus tard le CSA. Katayama retourna au Japon après la restauration constitutionnelle de 1926 et fonda le premier parti syndicaliste légal au Japon, le Rōdō-Nōmintō (Parti Travailliste-Agrarien), et après que celui-ci fut déclaré illégal en 1932, il contribua à la fondation de l'actuel Shakai Taishūtō.\n\nHier, alors qu'il était en visite à Kyōto pour féliciter Yamamoto Senji, membre de Shakai Taishūtō, pour son élection, un gang de trois hommes apparentés aux milieux de droite a pris d'assaut son bureau et a battu les deux hommes à coups de matraque. Yamamoto a survécu, mais Katayama, âgé de 76 ans, n'a jamais repris conscience et est décédé plus tôt dans la journée."
 japdom.4.a: "Ce sera mauvais..."
 
 japdom.5.t: "Friction au sein de la gauche japonaise"
@@ -1935,6 +1939,24 @@ japfor.261.t: "Abandon des revendications d'Anqing"
 japfor.261.d: "Anqing s'est détaché du projet de réhabilitation, et bien que Fengtian ait décidé de ne pas les retirer de la reconstruction, Anqing s'est quand même détaché de son propre chef".
 japfor.261.a: "Eh bien, c'était inutile."
 
+ japfor.262.t: "Les forces d'Anqing sécurisent Hangzhou"
+ japfor.262.d: "Alors que l’effondrement de la Ligue des Huit Provinces s’est transformé en une guerre civile chaotique, le contrôle d’importantes villes côtières a continuellement changé. Cependant, il semble que Chen Tiaoyuan ait réussi à conserver le contrôle de la ville de Hangzhou et, en cas de besoin, a mis en place une route commerciale entre son port et Nagasaki. Même si nous avons apporté un certain soutien au cours des dernières semaines, le contrôle durable d'Anqing sur la ville pourrait nous permettre d'apporter une contribution plus importante, et en tant que collaborateur potentiel, aider Chen Tiaoyuan pourrait s'avérer un investissement rentable à long terme."
+ japfor.262.a: "Accordez-leur de l'aide."
+ japfor.262.b: "Cela ressemble à un gaspillage d'armes."
+
+ japfor.263.t: "Le Japon propose du matériel"
+ japfor.263.d: "Grâce à notre emprise continue sur la ville portuaire de Hangzhou, nous avons assuré l’expédition vers et depuis le Japon. Bien que jusqu’à présent leur soutien matériel ait été plutôt discret, nous avons été approchés avec une offre pour une expédition d’armes à feu beaucoup plus importante. Bien qu’il s’agisse d’une offre alléchante, certains ont exprimé leur inquiétude quant au fait que cela pourrait conduire à une dépendance croissante à l’égard du Japon en matière d’armement. Pourtant, compte tenu de notre production nationale médiocre, cela pourrait très bien être ce dont nous avons besoin pour rétablir l’ordre."
+ japfor.263.a:0 "Nous avons besoin de toute l'aide que nous pouvons nous procurer"
+ japfor.263.b: "Déclinez l'offre, on peut s'en passer."
+
+ japfor.264.t: "Anqing accepte un soutien matériel"
+ japfor.264.d: "Chen Tiaoyuan a accepté notre offre pour recevoir plus d'équipement, avec effet immédiat."
+ japfor.264.a: "De rien."
+
+ japfor.265.t: "Anqing refuse son soutien matériel"
+ japfor.265.d: "Bien que nous ayons nos intérêts mutuels à l’esprit, il semble que Chen Tiaoyuan ait refusé notre offre pour recevoir plus d’équipement."
+ japfor.265.a:0 "Leur perte."
+
 ### New Foreign Policy Events ###
  japfor.316.t: "Les Japonais en mouvement dans le Pacifique"
  japfor.316.d: "L'ambassadeur japonais est entré calmement dans le bureau de [Root.GetLeader] avec un télégramme. Une flotte japonaise a été envoyée à Hawaï et, dans quelques heures, elle débarquera pour établir un "cordon de sécurité".  Il a déclaré qu'il était dans l'intérêt des peuples du Pacifique que l'instabilité qui engloutit l'Amérique ne se propage pas en dehors de ses frontières, et que les Japonais prendraient l'initiative d'apporter la stabilité et la paix. Il espère que l'Amérique coopérera dans l'intérêt de la paix de l'autre côté de l'océan et nous invite à envoyer des représentants pour assurer une transition pacifique du pouvoir. Cette prise de pouvoir flagrante n'est pas passée inaperçue, mais compte tenu de l'agitation qui règne actuellement en Amérique, nos principaux officiers s'interrogent sur la capacité de la garnison d'Honolulu à résister à la force d'invasion. Les faucons du gouvernement insistent sur le fait que la situation interne ne durera pas longtemps et que nos hommes pourront tenir jusqu'à l'arrivée des renforts. Et que les Japonais reculeraient probablement devant la confiance des Américains. D'autres appellent au calme et espèrent persuader [Root.GetLeader] de ne pas se venger avant que l'Amérique ne soit stabilisée. C'est maintenant au président de décider s'il doit donner l'ordre à nos garnisons du Pacifique de se retirer ou non. Il est clair que sa décision pourrait très bien affecter l'avenir des eaux."
@@ -2104,8 +2126,8 @@ japfor.466.a: "Quelle excellente nouvelle !"
  japfor.467.a:0 "Bien compris."
 
 ### Korea Events ###
- japfor.500.t: "Kitei Son et Nan Shoryu"
- japfor.500.d: "Les Jeux Olympiques de 1936 sont passés, et nous avons de quoi être fiers. Nos athlètes ont remporté neuf médailles, établissant un nouveau record national, mais certains de nos vainqueurs ont été... problématiques. Les athlètes Kitei Son et Nan Shoryu - ou, comme ils préfèrent être appelés, Sohn Kee-Chung et Nam Sung-Yong - ont fait de bonnes performances dans la course de marathon, le premier remportant même la première place, mais dans l'ensemble, ils n'ont pas fait preuve d'un enthousiasme digne de sujets de l'Empereur. Entre le fait de baisser la tête pendant l'hymne national, de cacher le drapeau sur leur poitrine et d'insister pour être appelés Coréens plutôt que Japonais, beaucoup dans notre pays ont eu honte de leur comportement, contrairement à l'attitude populaire au sein de Chōsen, largement favorable à leurs actions. En conséquence, les athlètes ont été interdits par le gouvernement central de participer à de futurs événements et ont été placés sous surveillance. Il serait dommage que leur victoire soit utilisée pour promouvoir l'instabilité au sein de l'empire.\n\nLe ministère des Affaires étrangères a également tenté de s'assurer que la sympathie à l'étranger reste minimale en déposant une plainte auprès du gouvernement irlandais et du Comité International OIympique concernant un manque de soin perçu pour s'assurer que nos athlètes représentent correctement l'empire. Ils n'ont pas encore répondu."
+ japfor.500.t: "Kitei Son et Nan Shōryū"
+ japfor.500.d: "Les Jeux Olympiques de 1936 sont passés, et nous avons de quoi être fiers. Nos athlètes ont remporté neuf médailles, établissant un nouveau record national, mais certains de nos vainqueurs ont été... problématiques. Les athlètes Kitei Son et Nan Shōryū - ou, comme ils préfèrent être appelés, Sohn Kee-Chung et Nam Sung-Yong - ont fait de bonnes performances dans la course de marathon, le premier remportant même la première place, mais dans l'ensemble, ils n'ont pas fait preuve d'un enthousiasme digne de sujets de l'Empereur. Entre le fait de baisser la tête pendant l'hymne national, de cacher le drapeau sur leur poitrine et d'insister pour être appelés Coréens plutôt que Japonais, beaucoup dans notre pays ont eu honte de leur comportement, contrairement à l'attitude populaire au sein de Chōsen, largement favorable à leurs actions. En conséquence, les athlètes ont été interdits par le gouvernement central de participer à de futurs événements et ont été placés sous surveillance. Il serait dommage que leur victoire soit utilisée pour promouvoir l'instabilité au sein de l'empire.\n\nLe ministère des Affaires étrangères a également tenté de s'assurer que la sympathie à l'étranger reste minimale en déposant une plainte auprès du gouvernement irlandais et du Comité International OIympique concernant un manque de soin perçu pour s'assurer que nos athlètes représentent correctement l'empire. Ils n'ont pas encore répondu."
  japfor.500.a: "Quel malheur !"
 
 ### Puppet Military Exercise Event ###
@@ -2241,7 +2263,7 @@ japfor.466.a: "Quelle excellente nouvelle !"
  JAP_kondo_nobutake: "Kondō Nobutake"
  JAP_takagi_takeo: "Takagi Takeo"
  JAP_toyoda_soemu: "Toyoda Soemu"
- JAP_ozawa_jisaburo: "Ozawa Jisaburo"
+ JAP_ozawa_jisaburo: "Ozawa Jisaburō"
  JAP_yoshida_zengo: "Yoshida Zengo"
  JAP_daigo_tadashige: "Daigo Tadashige"
  JAP_hyakutake_gengo: "Hyakutake Gengo"
