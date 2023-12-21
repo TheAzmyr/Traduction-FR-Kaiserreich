@@ -20,6 +20,7 @@
  UNIT_GENERIC_NAME_FRA: "$NR$ème $NAME$"
  UNIT_GENERIC_NAME_NFA: "$NR$ème $NAME$"
  UNIT_GENERIC_NAME_FRP:0 "$NR$ ème $NAME$"
+ UNIT_GENERIC_NAME_LIL:0 "$NR$ème $NAME$"
  UNIT_GENERIC_NAME_BEL: "$NR$ème $NAME$"
 
 #ITALIAN
@@ -85,7 +86,6 @@
  UNIT_GENERIC_NAME_RUS: "$NR$ya $NAME$"
  UNIT_GENERIC_NAME_TRM: "$NR$ya $NAME$"
  UNIT_GENERIC_NAME_UKR: "$NR$ya $NAME$"
- UNIT_GENERIC_NAME_SOV: "$NR$ya $NAME$"
 
 ##################################
 ### Country Specific Equipment ###
@@ -3762,6 +3762,83 @@
  FRP_anti_air_equipment_1_short: "Brandt 25 mm"
  FRP_anti_air_equipment_2: "Schneider 37 mm"
  FRP_anti_air_equipment_3: "Canon de 75 CA modèle 1940"
+
+###
+###  Lilleland ###
+###
+
+### Land ###
+
+ LIL_EQUIPMENT_VERSION_1:0 "série A"
+ LIL_EQUIPMENT_VERSION_2:0 "série B"
+ LIL_EQUIPMENT_VERSION_3:0 "série C"
+ LIL_EQUIPMENT_VERSION_4:0 "série D"
+ LIL_EQUIPMENT_VERSION_5:0 "série E"
+ LIL_EQUIPMENT_VERSION_6:0 "série F"
+ LIL_EQUIPMENT_VERSION_7:0 "série G"
+ LIL_EQUIPMENT_VERSION_8:0 "série H"
+ LIL_EQUIPMENT_VERSION_9:0 "série I"
+ LIL_EQUIPMENT_VERSION_10:0 "série J"
+ LIL_EQUIPMENT_VERSION_11:0 "série K"
+ LIL_EQUIPMENT_VERSION_12:0 "série L"
+ LIL_EQUIPMENT_VERSION_13:0 "série M"
+
+#Infantry Equip
+
+ LIL_infantry_equipment_0:0 "Fusil Lebel Modèle 1886 M93"
+ LIL_infantry_equipment_0_short:0 "Lebel Mle M93"
+ LIL_infantry_equipment_1:0 "MAS Modèle 1936"
+ LIL_infantry_equipment_1_short:0 "MAS-36"
+ LIL_infantry_equipment_2:0 "MAS Modèle 1938"
+ LIL_infantry_equipment_2_short:0 "MAS-38"
+ LIL_infantry_equipment_3:0 "MAS Modèle 1940/42"
+ LIL_infantry_equipment_3_short:0 "MAS-40/42"
+ LIL_support_weapons:0 "FM Chauchat & Mortier Stokes"
+ LIL_support_weapons2:0 "Hotchkiss M1926 & Brandt Mle 27/31"
+ LIL_support_weapons3:0 "Hotchkiss 26/37 & Brandt Mle 35/38"
+ LIL_support_weapons4:0 "MAS AA-42 & Brandt Mle 1942"
+ LIL_infantry_at:0 "Fusil anti-char Boys"
+ LIL_infantry_at2:0 "LRAC Mle 1943 de 73mm "
+
+#Motorised
+
+ LIL_motorized_equipment_1:0 "Panhard U23"
+ LIL_mechanized_equipment_1:0 "Somua MCG"
+ LIL_mechanized_equipment_1_short:0 "Somua MCG"
+ LIL_mechanized_equipment_2:0 "Lorraine VBCP 39L"
+ LIL_mechanized_equipment_2_short:0 "VBCP 39L"
+ LIL_mechanized_equipment_3:0 "AMX-VCI"
+ LIL_mechanized_equipment_3_short:0 "AMX-VCI"
+
+ LIL_amphibious_mechanized_equipment_1:0 "FCM M1"
+ LIL_amphibious_mechanized_equipment_1_short:0 "FCM M1"
+
+#Armoured Car
+ LIL_gw_armored_car_equipment:0 "Panhard 165/175"
+ LIL_gw_armored_car_equipment_short:0 "Panhard 165/175"
+ LIL_armored_car_equipment_1:0 "AM 39 Gendron-Somua"
+ LIL_armored_car_equipment_1_short:0 "AM 39"
+ LIL_armored_car_equipment_2:0 "Panhard 178B"
+ LIL_armored_car_equipment_2_short:0 "Panhard 178B"
+ LIL_armored_car_at_equipment:0 "Panhard EBR"
+ LIL_armored_car_at_equipment_short:0 "Panhard EBR"
+
+#Artillery
+
+ LIL_artillery_equipment_1:0 "Canon de 75 modèle 1897"
+ LIL_artillery_equipment_1_short:0 "Canon de 75 mle 1897"
+ LIL_artillery_equipment_2:0 "Canon de 105 L mle 1936"
+ LIL_artillery_equipment_3:0 "Canon de 155mm GPF"
+
+ LIL_anti_tank_equipment_1:0 "Canon de 25 mm"
+ LIL_anti_tank_equipment_1_short:0 "Canon de 25 mm"
+ LIL_anti_tank_equipment_2:0 " SA 37 de 47mm "
+ LIL_anti_tank_equipment_3:0 "Canon de 76 mm modèle 1943"
+
+ LIL_anti_air_equipment_1:0 "Brandt 25mm"
+ LIL_anti_air_equipment_1_short:0 "Brandt 25 mm"
+ LIL_anti_air_equipment_2:0 "Schneider 37 mm"
+ LIL_anti_air_equipment_3:0 "Canon de 75 CA modèle 1940"
 
 ###
 ### Gabon ###
@@ -9474,122 +9551,6 @@
  SOM_infantry_equipment_3: "Rayfal Soomaali Nooc 65"
  SOM_infantry_equipment_3_short: "RSN2.65"
  SOM_infantry_equipment_3_desc: "Le modèle 65 a vu une utilisation prolongée dans l'après-guerre en Somalie, trop peu de modèles ayant en effet été déployés pour devenir vraiment pertinents au cours des guerres que la nation a du mener pendant ladite période. Son fonctionnement semi-automatique s'est revélé évidemment très inspiré de l'armement allemand, mais dans ses détails les plus fins, il est plus proche des modèles turcs de la même époque, car la mer Rouge a été inondée de matériel de guerre ottoman, après la guerre du Levant."
-
-###
-### Russian Socialist Republic ###
-###
-
-### Land ###
-
- SOV_EQUIPMENT_VERSION_1: "A"
- SOV_EQUIPMENT_VERSION_2: "A-1"
- SOV_EQUIPMENT_VERSION_3: "A-2"
- SOV_EQUIPMENT_VERSION_4: "AM"
- SOV_EQUIPMENT_VERSION_5: "B"
- SOV_EQUIPMENT_VERSION_6: "B-1"
- SOV_EQUIPMENT_VERSION_7: "B-2"
- SOV_EQUIPMENT_VERSION_8: "BM"
- SOV_EQUIPMENT_VERSION_9: "C"
- SOV_EQUIPMENT_VERSION_10: "C-1"
- SOV_EQUIPMENT_VERSION_11: "C-2"
- SOV_EQUIPMENT_VERSION_12: "CM"
- SOV_EQUIPMENT_VERSION_13: "D"
- SOV_EQUIPMENT_VERSION_14: "D-1"
- SOV_EQUIPMENT_VERSION_15: "D-2"
- SOV_EQUIPMENT_VERSION_16: "DM"
-
-#Infantry Equip
-
- SOV_infantry_equipment_0: "Vintovka Mosina 1891 obr.1891"
- SOV_infantry_equipment_0_short: "Mosina 1891"
- SOV_infantry_equipment_1: "Vintovka Mosina 1891 obr.1891/1930"
- SOV_infantry_equipment_1_short: "Mosina 1891/1930"
- SOV_infantry_equipment_2: "Tokarev obr.1940"
- SOV_infantry_equipment_2_short: "SVT-40"
- SOV_infantry_equipment_3: "Sudarev obr.1942"
- SOV_infantry_equipment_3_short: "AS-42"
- SOV_infantry_at: "PTRS-41"
- SOV_infantry_at2: "RPG-42"
- SOV_support_weapons: "Maxim-Tokarev obr.1924 & Dyakonov 40,5mm GV"
- SOV_support_weapons2: "Degtyarev DP-29M & 82mm BM obr.1938"
- SOV_support_weapons3: "Degtyarev DS-39 & Taubin AG-2 de 40,5mm"
- SOV_support_weapons4: "Goryunov SG-43 & 120mm PM obr.1943"
- SOV_night_vision: "Ts-3"
- SOV_night_vision2: "NSP-2"
-
-#Motorised
-
- SOV_motorized_equipment_1: "AMO-6"
- SOV_motorized_equipment_1_short: "AMO-6"
-
- SOV_motorized_rocket_equipment_1: "BM-13 Orkestr"
- SOV_motorized_rocket_equipment_1_short: "BM-13 Orkestr"
-
- SOV_mechanized_equipment_1: "BTR-40"
- SOV_mechanized_equipment_1_short: "BTR-40"
- SOV_mechanized_equipment_2: "BTR-42"
- SOV_mechanized_equipment_2_short: "BTR-42"
- SOV_mechanized_equipment_3: "BTR-42MT"
- SOV_mechanized_equipment_3_short: "BTR-42MT"
-
- SOV_amphibious_mechanized_equipment_1: "K-40"
- SOV_amphibious_mechanized_equipment_1_short: "K-40"
- SOV_amphibious_mechanized_equipment_2: "MT-LB"
- SOV_amphibious_mechanized_equipment_2_short: "MT-LB"
-
-#Armoured Car
- SOV_gw_armored_car_equipment: "Izhorskiye BA-27"
- SOV_gw_armored_car_equipment_short: "BA-27"
- SOV_armored_car_equipment_1: "Izhorskiye BA-10"
- SOV_armored_car_equipment_1_short: "BA-10"
- SOV_armored_car_equipment_2: "NAZ BA-64"
- SOV_armored_car_equipment_2_short: "BA-64"
- SOV_armored_car_at_equipment: "KSP-76"
- SOV_armored_car_at_equipment_short: "KSP-76"
-
-#Trains
- # Soviet Class FD:
- SOV_train_equipment_1: "Parovoz tip Leninsky"
- SOV_train_equipment_1_short: "Type L"
- SOV_train_equipment_1_desc: "Conçue en 1931, la classe P1 a remplacé de nombreuses locomotives de classe Ye de fabrication américaine desservant le réseau russe. En 1936, la classe de locomotive a été équipée d'un surchauffeur pour améliorer la puissance de sortie, créant la variante P1-21. Les solides performances de la classe ont rapidement conduit à des commandes massives et sont devenues la locomotive la plus populaire du réseau russe, avec des ateliers construits uniquement pour la production de ce type. La classe serait rebaptisée Classe L après la guerre civile russe,d' après Vladimir Lénine, un martyr socialiste."
- # Soviet Class L:
- SOV_train_equipment_2: "Parovoz Pobeda klass"
- SOV_train_equipment_2_short: "Class P"
- SOV_train_equipment_2_desc: "Développées à l'usine de Kolomna et nommées d'après le chemin de fer de février reliant Moscou et Petrograd, les locomotives de classe F sont économiques et adaptées pour desservir le vaste réseau ferroviaire russe. Sans jeu de roues traînantes et composants compliqués, la production en série de ce type était plus rapide et moins chère que celle du type P1. La classe serait rebaptisée classe P, d'après Pobeda, ou « Victoire »."
- SOV_train_equipment_3: "$RUS_train_equipment_3$"
- SOV_train_equipment_3_short: "$RUS_train_equipment_3$"
- SOV_train_equipment_3_desc: "$RUS_train_equipment_3$"
-
- SOV_railway_gun_equipment_1: "$RUS_railway_gun_equipment_1$"
- SOV_railway_gun_equipment_1_short: "$RUS_railway_gun_equipment_1_short$"
- SOV_railway_gun_equipment_1_desc: "$RUS_railway_gun_equipment_1_desc$"
-#Artillery
-
- SOV_artillery_equipment_1: "obr.1902/1930 de 76mm "
- SOV_artillery_equipment_1_short: "obr.1902/1930 de 76mm "
- SOV_artillery_equipment_2: "obr.1940 de 107mm"
- SOV_artillery_equipment_2_short: "obr.1940 de 107mm"
- SOV_artillery_equipment_3: "MT-1 obr.1944 de 152mm"
- SOV_artillery_equipment_3_short: "MT-1 de 152mm"
-
- SOV_anti_tank_equipment_1: "19-K obr.1931 de 45mm"
- SOV_anti_tank_equipment_1_short: "19-K de 45mm"
- SOV_anti_tank_equipment_2: "AMO-2 obr.1940 de 57mm"
- SOV_anti_tank_equipment_2_short: "AMO-2 de 57mm"
- SOV_anti_tank_equipment_3: "OB-3 obr.1943 de 100mm"
- SOV_anti_tank_equipment_3_short: "OB-3 de 100mm"
-
- SOV_anti_air_equipment_1: "61-K obr.1932 de 37mm"
- SOV_anti_air_equipment_1_short: "61-K de 37mm"
- SOV_anti_air_equipment_2: "52-K obr.1938 de 85mm"
- SOV_anti_air_equipment_2_short: "52-K de 85mm"
- SOV_anti_air_equipment_3: "VT-19 obr.1943 de 100mm"
- SOV_anti_air_equipment_3_short: "VT-19 de 100mm"
-
- SOV_rocket_artillery_equipment_1: "M-8-24 de 132mm"
- SOV_rocket_artillery_equipment_1_short: "M-8-24 de 132mm"
- SOV_rocket_artillery_equipment_2: "M-20-12 de 302mm"
- SOV_rocket_artillery_equipment_2_short: "M-20-12 de 302mm"
 
 ###
 ### Sao Paulo ###
