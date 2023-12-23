@@ -109,6 +109,9 @@ COL_emergency: "État d'urgence"
 COL_conservative: "Gouvernement conservateur"
 COL_coffe_trade: "Commerce du café"
 
+### Decisions ###
+ COL_join_international:0 "Rejoignez le [From.GetFactionName]"
+
 ### Focuses ###
 COL_the_mission: "Rappel de la mission au Reichspakt"
 COL_the_mission_desc: "Notre mission au Reichspakt, dirigée par le général Pinilla, est à l'étranger depuis un certain temps déjà, il est grand temps que nous les rappelions enfin et que nous voyions ce que la première grande puissance du monde a à apprendre à nos forces armées."
@@ -318,7 +321,7 @@ col.1.a: "Quoi que l'avenir nous réserve, nous restons unis."
 
  COL_guide: "§MLa Démocratie Prévaut§! (§SSocial Démocrate§! / §cSocial Conservateur§! / §lSocial Libéral§!)\n£white_dot Lors des élections, choisissez soit les §SLibéraux§!, soit les §cConservateurs§!.\n£white_dot À partir de la deuxième élection, les libéraux deviennent des §lSocial Libéraux§!\n\n§MÉtat d'Urgence§! (§PAutocrate Paternaliste§!)\n£white_dot Lors des élections de 1938, choisir "L'armée doit mettre fin à cette démocratie chaotique ! L'ordre doit être rétabli."\n\n§MSocialisme des Andes§! (§RRadical Socialiste§! / §rSyndicaliste§!)\n£white_dot Lors des élections de 1938, vous pouvez élire l'UNIR pour devenir §RRadical Socialiste§!\n£white_dot Par ailleurs, si vous êtes restés démocratiques, vous pourrez élire le §rPartido Síndicalista Colombano§! lors de l'élection présidentielle de 1946.\n"
 
-### Events ###
+### Election Events ###
 col.2.t: "L'élection présidentielle de 1938 : La Colombie à la croisée des chemins"
 col.2.d: "L'élection présidentielle de cette année a commencé et si l'on prévoit que le Parti libéral continuera à contrôler la présidence, le Parti conservateur peut tout aussi bien remporter le poste. Des factions plus extrêmes des deux côtés se sont scindées et dirigent également principalement l'UNIR socialiste dirigée par le charismatique Jorge Eliécer Gaitán, et des violences sporadiques entre eux et la droite ont émergé. En marge, Gustavo Rojas Pinilla, tout juste rentré de son voyage à Mitteleuropa pour obtenir des contrats de défense, estime avec inquiétude que le tissu même de la République pourrait être en danger..."
 col.2.a: "Les libéraux gagnent !"
@@ -337,6 +340,17 @@ col.4.d: "Cette élection nous apportera-t-elle plus d'unité ou nous divisera-t
 col.4.a: "Les libéraux, la seule vraie façon de gouverner."
 col.4.b: "Les conservateurs montreront la voie."
 col.4.c: "Pour les paysans, pour les travailleurs et pour la Colombie - Choisissez les syndicalistes."
+
+### Foreign Events ###
+
+ col.5.t:0 "[From.GetNameDefCap] souhaite rejoindre le [Root.GetFactionName]"
+ col.5.d: "[From.GetNameDefCap], ont envoyé un ambassadeur pour rencontrer notre gouvernement afin d'apporter [From.GetNameDefCap] dans le [Root.GetFactionName]. Devons-nous accepter l'offre des Colombiens ?"
+ col.5.a:0 "Bien sûr qu'ils peuvent nous rejoindre !"
+ col.5.b: "Nous n'avons pas besoin de la Colombie."
+
+ col.6.t:0 "[From.GetNameDefCap] refuse"
+ col.6.d:0 "Le gouvernement [From.GetAdjective] a refusé notre demande de rejoindre le [From.GetFactionName]. Peut-être ne sommes-nous pas assez bons à leur mesure, ou indignes en tant qu'alliés. Quoi qu'il en soit, la réponse était clairement non."
+ col.6.a:0 "Drat."
 
 ### Characters ###
  COL_gilberto_vieira: "Gilberto Vieira"
