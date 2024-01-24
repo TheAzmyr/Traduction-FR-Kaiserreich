@@ -211,8 +211,8 @@ annexation_ALSACE_CONQ_desc: "Nos armées ont pris le contrôle de l'Alsace-Lorr
 
 annexation_LUX_CONQ: "Le destin du Luxembourg"
  annexation_LUX_CONQ_desc: "The Grand Duchy of Luxembourg was once an independent state. During the Weltkrieg, the German army occupied the Grand Duchy which was later incorporated into the German Empire. Now, with our dominance in Europe secured, it is in our power to decide what shall happen with the polity."
- annex.1002.a: "[france.GetGrantTerritoryEventOption]"
- annex.1002.b: "[belgium.GetGrantTerritoryEventOption]"
+ annex.1002.a:0 "[belgium.GetGrantTerritoryEventOption]"
+ annex.1002.b:0 "[france.GetGrantTerritoryEventOption]"
  annex.1002.c: "[germany.GetGrantTerritoryEventOption]"
 
  annexation_RHI_CONQ: "Le Destin de la Rhénanie"
@@ -491,20 +491,10 @@ annexation_FRA_CONQ: "Le destin de la France"
  annex.1042.a: "Libérer la Bretagne"
  annex.1042.b: "Donnez le à [30.owner.GetNameDef]"
 
- annexation_PASDECALAIS_CONQ: "Le Destin du Nord de la France"
- annexation_PASDECALAIS_CONQ_desc: "Les régions du nord de la France ont été placées sous notre contrôle alors que nos troupes occupent la région. Nous devons maintenant décider ce que nous allons en faire."
- annex.1043.a: "Donnez le à [france.GetNameDef]"
- annex.1043.b: "Donnez le à [belgium.GetNameDef]"
- annex.1043.c: "Donnez le à [wallonia.GetNameDef]"
- annex.1043.d: "Donnez le à [flanders.GetNameDef]"
- annex.1043.e: "Divisez la entre [flanders.GetNameDef] et [wallonia.GetNameDef]"
- annex.1043.f: "Divisez le entre [france.GetNameDef] et [belgium.GetNameDef]"
- annex.1043.g: "Divisez le entre [france.GetNameDef] et [wallonia.GetNameDef]"
- annex.1043.h: "Divisez le entre [france.GetNameDef] et [flanders.GetNameDef]"
- annex.1043.i: "Partagez-le entre [france.GetNameDef], [wallonia.GetNameDef] et [flanders.GetNameDef]"
- annex.1043.j: "Partagez-le avec [flanders.GetNameDef]"
- annex.1043.k: "Partagez-le avec [france.GetNameDef]"
- annex.1043.l: "Partagez-le avec [wallonia.GetNameDef]"
+ annexation_PASDECALAIS_CONQ: "Le Destin de[17.GetName]"
+ annexation_PASDECALAIS_CONQ_desc: "La région de [17.GetName] a été placée sous notre contrôle. Nous devons décider quoi en faire maintenant que nos troupes occupent cette région."
+ annex.1043.a:0 "[france.GetGrantTerritoryEventOption]"
+ annex.1043.b:0 "[belgium.GetGrantTerritoryEventOption]"
 
  annexation_ENG_CONQ: "[annexation_ENG_CONQ_title]"
  annexation_ENG_CONQ_desc: "[annexation_ENG_CONQ_description]"
@@ -910,10 +900,8 @@ annexation_MLT_CONQ_desc: "Malte a été placée sous notre direction et nos tro
 
  annexation_DANUBIAN_PLAIN_CONQ: "Le Destin de la Plaine Danubienne"
  annexation_DANUBIAN_PLAIN_CONQ_desc: "La plaine danubienne, qui faisait autrefois partie du Royaume de Hongrie, abrite à la fois des Slovaques, des Allemands et des Hongrois. Maintenant, nous devons décider ce que nous allons en faire."
- annex.1106.a: "Donnez le à la [HUN.GetNameDef]"
- annex.1106.b: "Donnez la à la [SLO.GetNameDef]"
- annex.1106.c: "Donnez la à la [CZE.GetNameDef]"
- annex.1106.d: "Donnez le à l'[AUS.GetNameDef]"
+ annex.1106.a:0 "[slovakia.GetGrantTerritoryEventOption]"
+ annex.1106.b:0 "[hungary.GetGrantTerritoryEventOption]"
 
  annexation_VOLKOVYSK_CONQ: "Le Destin de [94.GetName]"
  annexation_VOLKOVYSK_CONQ_desc: "La région autour de [94.GetName] est maintenant sous notre contrôle, nous devons décider ce que nous allons en faire."
@@ -942,6 +930,7 @@ annexation_MLT_CONQ_desc: "Malte a été placée sous notre direction et nos tro
  annexation_PRESSBURG_CONQ_desc: "La ville de [1090.GetName], qui faisait autrefois partie du Royaume de Hongrie, abrite à la fois des Slovaques, des Allemands et des Hongrois. Maintenant, nous devons décider ce que nous allons en faire."
  annex.1111.a: "[slovakia.GetGrantTerritoryEventOption]"
  annex.1111.b: "[austria.GetGrantTerritoryEventOption]"
+ annex.1111.c:0 "[hungary.GetGrantTerritoryEventOption]"
 
  annexation_ROUSSILLON_CONQ: "Le Destin de [817.GetName]"
  annexation_ROUSSILLON_CONQ_desc: "La région de [817.GetName] est maintenant sous notre contrôle, nous devons décider ce que nous allons en faire."
@@ -1036,6 +1025,21 @@ annexation_MLT_CONQ_desc: "Malte a été placée sous notre direction et nos tro
  annex.1127.d: "Répartissez-le entre [greece.GetNameDef] et [bulgaria.GetNameDef]."
  annex.1127.e: "Répartissez-le entre [greece.GetNameDef] et [turkey.GetNameDef]."
  annex.1127.f: "Répartissez-le entre [greece.GetNameDef], [bulgaria.GetNameDef] et [turkey.GetNameDef]."
+
+ annexation_MURA_CONQ: "Le Destin de [942.GetName]"
+ annexation_MURA_CONQ_desc: "Nous avons pris le contrôle de la petite région frontalière de [942.GetName] et devons maintenant décider quoi en faire."
+ annex.1128.a:0 "[slovenia.GetGrantTerritoryEventOption]"
+ annex.1128.b:0 "[hungary.GetGrantTerritoryEventOption]"
+
+ annexation_LILLE_CONQ: "Le Destin de [980.GetName]"
+ annexation_LILLE_CONQ_desc: "Nous avons pris le contrôle de la zone métropolitaine de [980.GetName] et devons maintenant décider quoi en faire."
+ annex.1129.a:0 "[france.GetGrantTerritoryEventOption]"
+ annex.1129.b:0 "[belgium.GetGrantTerritoryEventOption]"
+
+ annexation_DUNKIRK_CONQ: "Le Destin de [29.GetName]"
+ annexation_DUNKIRK_CONQ_desc: "Nous avons pris le contrôle de la petite ville portuaire de [29.GetName] et devons maintenant décider quoi en faire."
+ annex.1130.a:0 "[france.GetGrantTerritoryEventOption]"
+ annex.1130.b:0 "[belgium.GetGrantTerritoryEventOption]"
 
  annexation_USA_CONQ: "Le destin de l'Amérique"
  annexation_USA_CONQ_desc: "Now that the war is over, we must decide what to do with our occupied land in America"

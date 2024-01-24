@@ -32,7 +32,7 @@
  KR_welcome_splash_tab_3_content_0: "Kaiserreich impose des restrictions sur les actions diplomatiques telles que les §RGuerres Précoces§!, les §RFactions§! et les §RNiveaux d'Autonomie§!.\nKaiserreich inclut également des §CLimites de Division§! et un mécanisme de §CDémobilisation§! pour améliorer la jouabilité en fin de partie.\nPendant les §YConférences de Paix§!, assurez-vous d'annexer tous les États possibles. Plus tard, vous pourrez libérer les pays des territoires annexés grâce aux §Cdécisions§!.\nLe menu de configuration des §YRègles de Jeu Personnalisées§! vous permet d'ajuster de nombreuses options, notamment les §CChemins de Pays§!, la §CPrimauté du Joueur pendant les Conférences de Paix§! et l'outil de §CTransfert d'États et de Pays§!.\nLe £kr_options_icon §YMenu d'Options§! peut être ouvert en cliquant sur son icône en haut à droite. Il vous permet d'ajuster la §Cfréquence des événements§! et d'activer le §Crenommage dynamique§! des états et des points de victoire."
 
  ## TAB 4 ##
- KR_CURRENT_VERSION: "1.0.2"
+ KR_CURRENT_VERSION: "1.0.3"
  KR_CURRENT_VERSION_NAME: "L'Empire Contre-attaque"
  KR_CURRENT_VERSION_COMBINED: "Kaiserreich $KR_CURRENT_VERSION$ "$KR_CURRENT_VERSION_NAME$""
  KR_welcome_splash_tab_4_header: "§YBienvenu à $KR_CURRENT_VERSION_COMBINED$\n\n\n\nFabriqué avec amour par l'équipe de Kaiserreich :§!"
@@ -64,8 +64,7 @@ REQUEST_EXP_FORCE_BLOCKED_TT: "§RCe pays ne vous permet pas de demander ses for
  RECALL_VOLUNTEERS_ACTION_SEND_DESC: "Rappeler tous les volontaires envoyés à §Y[FROM.GetNameDef]§!?"
 
 ### Regular Tooltips ###
- returned_all_expeditionary_forces_of_puppets: "A renvoyé toutes les forces expéditionnaires envoyées par les marionnettes."
- puppet_but_keep_government_tt: "([to_be_overlord.GetFlag]§H[to_be_overlord.GetName]§!) §H[marked_country.GetName]§! devient une marionnette de §H[to_be_overlord.GetName]§!, mais conserve ses paramètres actuels de gouvernement et de popularité."
+ puppet_but_keep_government_tt: "([to_be_overlord.GetFlag] §H[to_be_overlord.GetName]§!)§H[marked_country.GetName]§! devient vassal de §H[to_be_overlord.GetName]§!, mais conserve la popularité actuelle du gouvernement et du parti."
 
  RULE_GUARANTEES_AFTER_WK2_TT: "§RAvant le début de la Seconde Weltkrieg, les garanties ne peuvent être données qu'à travers les priorités, les événements et les décisions nationales.§!"
  RULE_WARGOALS_AFTER_WK2_TT: "§RAvant le début de la Seconde Weltkrieg, les objectifs de guerre ne peuvent être obtenus qu'à partir des priorités, événements et décisions nationales.§!"
@@ -132,6 +131,7 @@ REQUEST_EXP_FORCE_BLOCKED_TT: "§RCe pays ne vous permet pas de demander ses for
  is_quechua_speaking_tag: "Est un pays de langue quechua"
  is_indian_tag: "Est un pays Indien"
  is_farsi_speaking_tag: "Est un pays parlant le farsi"
+ is_malay_speaking_tag: "Est un pays de langue malaise"
  is_danubian_tag: "Est un pays Danubien"
  is_balkan_tag: "Est un pays des Balkans"
  is_belgian_tag: "Est un pays Belge"
@@ -249,6 +249,7 @@ FOCUS_FILTER_NAVY_BONUS: "Marine"
 FOCUS_FILTER_AIRFORCE_BONUS: "Armée de l'air"
 FOCUS_FILTER_RESISTANCE: "Résistance"
 FOCUS_FILTER_LEC_CURRENCY: "Réserves monétaires"
+ FOCUS_FILTER_GER_PREPAREDNESS: "Préparation à la Guerre"
 
 ### Autonomy Events ###
 FROM_becomes_puppet: "§H[From.GetNameDefCap]§! n'est plus un §HFantoche Occupé§!."
