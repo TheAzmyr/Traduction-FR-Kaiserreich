@@ -32,21 +32,21 @@
  KR_welcome_splash_tab_3_content_0: "Kaiserreich impose des restrictions sur les actions diplomatiques telles que les §RGuerres Précoces§!, les §RFactions§! et les §RNiveaux d'Autonomie§!.\nKaiserreich inclut également des §CLimites de Division§! et un mécanisme de §CDémobilisation§! pour améliorer la jouabilité en fin de partie.\nPendant les §YConférences de Paix§!, assurez-vous d'annexer tous les États possibles. Plus tard, vous pourrez libérer les pays des territoires annexés grâce aux §Cdécisions§!.\nLe menu de configuration des §YRègles de Jeu Personnalisées§! vous permet d'ajuster de nombreuses options, notamment les §CChemins de Pays§!, la §CPrimauté du Joueur pendant les Conférences de Paix§! et l'outil de §CTransfert d'États et de Pays§!.\nLe £kr_options_icon §YMenu d'Options§! peut être ouvert en cliquant sur son icône en haut à droite. Il vous permet d'ajuster la §Cfréquence des événements§! et d'activer le §Crenommage dynamique§! des états et des points de victoire."
 
  ## TAB 4 ##
- KR_CURRENT_VERSION: "1.0.3"
+ KR_CURRENT_VERSION:9 "1.0.4"
  KR_CURRENT_VERSION_NAME: "L'Empire Contre-attaque"
  KR_CURRENT_VERSION_COMBINED: "Kaiserreich $KR_CURRENT_VERSION$ "$KR_CURRENT_VERSION_NAME$""
  KR_welcome_splash_tab_4_header: "§YBienvenu à $KR_CURRENT_VERSION_COMBINED$\n\n\n\nFabriqué avec amour par l'équipe de Kaiserreich :§!"
  KR_welcome_splash_tab_4_content: "$KR_welcome_splash_tab_4_content_1$\n$KR_welcome_splash_tab_4_content_2$\n$KR_welcome_splash_tab_4_content_3$\n$KR_welcome_splash_tab_4_content_4$\n$KR_welcome_splash_tab_4_content_5$\n$KR_welcome_splash_tab_4_content_6$\n$KR_welcome_splash_tab_4_content_7$\n$KR_welcome_splash_tab_4_content_8$"
 
  KR_welcome_splash_tab_4_content_0: "Notre équipe a travaillé dur aux quatre coins du monde pour vous offrir cette nouvelle version et nous ne pourrions être plus honorés que vous choisissiez d'y jouer.\nNous espérons que vous prendrez autant de plaisir à jouer à Kaiserreich que nous en avons pris à le créer !"
- KR_welcome_splash_tab_4_content_1: "Alpinia,  Arvidus, Augenis, Blackfalcon501,  Blackleaf, Carmain, Cazadorian, Chazem, Chiang Kai-shrek"
- KR_welcome_splash_tab_4_content_2: "Chiron29, Cody, Conchobhar, DuoDex, El Daddy, falling_robin, Fedex, Flamefang, Gaboemi, Hamfast, hildagrim"
+ KR_welcome_splash_tab_4_content_1: "Alpinia, Arvidus, Augenis, Blackfalcon501,  Blackleaf, Carmain, Cazadorian, Chazem, Chiang Kai-shrek"
+ KR_welcome_splash_tab_4_content_2: "Chiron29, Cody, DuoDex, El Daddy, falling_robin, Fedex, Flamefang, Gaboemi, Hamfast, hildagrim"
  KR_welcome_splash_tab_4_content_3: "Ido, Igor050301, JazzyHugh, Jeankedezeehond, Jonny BL, Kano, Kara-Diamant, katieluka, Kennedy, kergely"
  KR_welcome_splash_tab_4_content_4: "KFateweaver, Klyntar King, Krčo, lehmannmo, Luwofe, Matoro, McOmghall, MrMano, ~mw~ // miwaco."
  KR_welcome_splash_tab_4_content_5: "Pelmen, PPsyrius, Purple Jinjo, RagnoStrangeros, Rnk, Shiroe, Shōta, Sonny O'Cad, SuperGreenBeans"
  KR_welcome_splash_tab_4_content_6: "suzuha, The Alpha Dog, The Irredentista, The Italian Jojo, Vidyaország, Zimbabwe Salt Co."
- KR_welcome_splash_tab_4_content_7: "§YTraduit par : §!Hellh, Mouchi, RyumaTomoka et UltraNico. §YAnciennement traduit par : §!Aegon Targaryen"
- KR_welcome_splash_tab_4_content_8: "Brakmar, Darkusios, Demetran, Diro, Fanois, Feuxin, Grikke, IGgame, IluminatiX, Kfateweaver, Kira, Klik le Araï, Lazu, Le Marocain, LRP2580, MVMaroIV, Nobelo81, Orakle14, Paralux, Remkiller123, Romain1912, Rosak, Sayu, Solal, Superwaffle, TheAzmyr, Vitulus, Youkoulélé et Zeplein"
+ KR_welcome_splash_tab_4_content_7: "§YTraduit par : §!Hellh, Mouchi et UltraNico. §YAnciennement traduit par : §!Aegon Targaryen"
+ KR_welcome_splash_tab_4_content_8: "Brakmar, Darkusios, Demetran, Diro, Fanois, Feuxin, Grikke, IGgame, IluminatiX, Kfateweaver, Kira, Klik le Araï, Lazu, Le Marocain, LRP2580, MVMaroIV, Nobelo81, Orakle14, Paralux, Remkiller123, Romain1912, Rosak, RyumaTomoka, Sayu, Solal, Superwaffle, TheAzmyr, Vitulus, Youkoulélé et Zeplein"
 
 ### Career Profile ###
  KAISERREICH_CAREER_PROFILE: "Kaiserreich"
@@ -214,6 +214,7 @@ INTELLIGENCE_AGENCY_BLOCK_TOOLTIP: "[!intelligence_agency_blocker_button_click_e
  oststaat:0 "Oststaat"
  oststaat_autonomous:0 "Oststaat Autonome"
  kr_mitteleuropa_integrated_member: "Membre de Mitteleuropa Intégré"
+ autonomous_territory: "Territoire autonome"
 
 ### Autonomy Tooltips ###
  can_lower_autonomy_level: "Peut abaisser le niveau d'autonomie\n"
@@ -379,10 +380,10 @@ FROM_becomes_nominal_puppet: "§H[From.GetNameDefCap]§! devient un §HFantoche 
 
  generic_events.101.t:0 "Ordre restauré en [From.GetNameDef]"
  generic_events.101.d:0 "Alors que [From.GetNameDef] travaille toujours sous le contrôle des [Root.GetAdjective], l'armée [From.GetAdjective]e a affirmé suffisamment de contrôle sur ses propres frontières pour qu'un semblant d'autonomie soit maintenant possible. Ce n'est pas de l'indépendance - loin de là - mais cela signifie qu'ils ne doivent plus compter sur les troupes [Root.GetAdjective] pour sécuriser leurs frontières, et ne sont donc plus aussi étroitement sous notre contrôle."
- generic_events.101.a:0 "Qu'il en soit ainsi"
+ generic_events.101.a:9 "Qu'il en soit ainsi"
 
  generic_events.102.t:0 "Une plus grande autonomie [Root.GetAdjective] ?"
- generic_events.102.d.tfv:0 "[Root.GetNameDefCap] reste sous le contrôle du gouvernement [overlord_name.GetAdjective], mais ce contrôle commence certainement à s'atténuer à mesure que notre force se réaffirme. Le pouvoir [Root.GetAdjective] n'est pas facile à contenir, et nos dirigeants réclament déjà plus de contrôle sur nos propres affaires. Il est certain que notre [overlord_name.GetAdjective] ne sera pas capable de nous résister longtemps."
+ generic_events.102.d.tfv: "[Root.GetNameDefCap] reste sous le contrôle du gouvernement [overlord_name.GetAdjective], mais ce contrôle commence à s'atténuer à mesure que notre force se réaffirme. Le pouvoir [Root.GetAdjective] n'est pas facile à contenir, et nos dirigeants réclament à présent plus de contrôle sur nos propres affaires. Il est certain que notre suzerain [overlord_name.GetAdjective] ne sera pas capable de nous résister longtemps."
  generic_events.102.d:0 "[Root.GetNameDefCap] reste sous le contrôle du gouvernement [overlord_name.GetAdjective], mais ce contrôle commence à s'atténuer à mesure que notre force se réaffirme. Le pouvoir [Root.GetAdjective] n'est pas facile à contenir, et déjà nos dirigeants réclament à cor et à cri plus de contrôle sur nos propres affaires, et l'effet se fait sentir dans tout le pays."
  generic_events.102.a:0 "Longue vie à [Root.GetNameDef] !"
 
