@@ -69,6 +69,7 @@
  RULE_GUARANTEES_AFTER_WK2_TT: "§RBefore the Second Weltkrieg starts, guarantees can only be made through national focuses, events and decisions.§!"
  RULE_WARGOALS_AFTER_WK2_TT: "§RBefore the Second Weltkrieg starts, wargoals can only be gained from national focuses, events and decisions.§!"
  RULE_NO_WARGOALS_ON_ALLIED_PUPPETS_TT: "§R$DIPLOMACY_DEM_NO_THREAT_ON_DEPENDENDY$§!"
+ RULE_DISABLED_IN_KR_TT: "§RDisabled in Kaiserreich§!"
 
 ### Plurality Triggers ###
  totalist_plurality: "§o[?token:totalist.GetTokenLocalizedKey]§! have the highest popularity"
@@ -655,7 +656,7 @@
  tech_extensive_reconaissance_effect_tooltip: "§Y$category_recon$§!:\n   $STAT_ARMY_RECON$[?1|=+%1]\n   §Y$snow$§!: $STAT_ADJUSTER_MOVEMENT$[?0.1|=+%0]\n   §Y$forest$§!: $STAT_ADJUSTER_MOVEMENT$[?0.05|=+%0]\n   §Y$hills$§!: $STAT_ADJUSTER_MOVEMENT$[?0.05|=+%0]\n   §Y$mountain$§!: $STAT_ADJUSTER_MOVEMENT$[?0.05|=+%0]\n   §Y$marsh$§!: $STAT_ADJUSTER_MOVEMENT$[?0.05|=+%0]\n   §Y$plains$§!: $STAT_ADJUSTER_MOVEMENT$[?0.05|=+%0]\n   §Y$river$§!: $STAT_ADJUSTER_MOVEMENT$[?0.05|=+%0]"
  tech_extensive_reconaissance_modifier_tooltip: "§Y$category_recon$§!: $STAT_ARMY_RECON$[?1|=+%1], §Y$snow$§!: $STAT_ADJUSTER_MOVEMENT$[?0.1|=+%0], §Y$forest$§!, §Y$hills$§!, §Y$mountain$§!, §Y$marsh$§!, §Y$plains$§! and §Y$river$§!: $STAT_ADJUSTER_MOVEMENT$[?0.05|=+%0]"
 
- tech_strengthened_support_companies: "Strengthened Support Comapanies"
+ tech_strengthened_support_companies: "Strengthened Support Companies"
  tech_strengthened_support_companies_effect: "Enables §H$tech_strengthened_support_companies$§!\n$tech_strengthened_support_companies_effect_tooltip$"
  tech_strengthened_support_companies_effect_tooltip: "§Y$category_support_battalions$§!:\n   $STAT_COMMON_MAX_ORG$[?10|=+1]\n   $STAT_COMMON_MAX_STRENGTH$[?5|=G1]"
  tech_strengthened_support_companies_modifier_tooltip: "§Y$category_support_battalions$§!: $STAT_COMMON_MAX_ORG$[?10|=+1], $STAT_COMMON_MAX_STRENGTH$[?5|=+1]"
@@ -664,6 +665,14 @@
  tech_anti_armour_tactics_effect: "Enables §H$tech_anti_armour_tactics$§!\n$tech_anti_armour_tactics_effect_tooltip$"
  tech_anti_armour_tactics_effect_tooltip: "§Y$category_all_infantry$§!:\n   $STAT_ARMY_HARD_ATTACK$[?0.25|=+%0]\n   $STAT_COMMON_PIERCING$[?1|=+%0]"
  tech_anti_armour_tactics_modifier_tooltip: "§Y$category_all_infantry$§!: $STAT_ARMY_HARD_ATTACK$[?0.25|=+%0], $STAT_COMMON_PIERCING$[?1|=+%0]"
+
+ jungle_pioneers_support_tech: "Jungle Pioneers"
+ jungle_pioneers_support_tech_effect: "Enables §Y$jungle_pioneers_support$§! support company."
+
+ tech_river_boats: "River Boats"
+ tech_river_boats_effect: "Enables §H$tech_river_boats$§!\n$tech_river_boats_effect_tooltip$"
+ tech_river_boats_effect_tooltip: "§Y$category_all_infantry$§!:\n   $STAT_ADJUSTER_MOVEMENT$[?0.1|=+%0]\n   $STAT_ADJUSTER_ATTACK$[?0.1|=+%0]\n   $STAT_ADJUSTER_DEFENCE$[?0.05|=+%0]"
+ tech_river_boats_modifier_tooltip: "§Y$category_all_infantry$§!: $STAT_ADJUSTER_MOVEMENT$[?0.1|=+%0], $STAT_ADJUSTER_ATTACK$[?0.1|=+%0], $STAT_ADJUSTER_DEFENCE$[?0.05|=+%0]"
 
  ### Units ###
  assault_battalion: "$blackshirt_assault_battalion$"
