@@ -69,6 +69,7 @@ REQUEST_EXP_FORCE_BLOCKED_TT: "§RCe pays ne vous permet pas de demander ses for
  RULE_GUARANTEES_AFTER_WK2_TT: "§RAvant le début de la Seconde Weltkrieg, les garanties ne peuvent être données qu'à travers les priorités, les événements et les décisions nationales.§!"
  RULE_WARGOALS_AFTER_WK2_TT: "§RAvant le début de la Seconde Weltkrieg, les objectifs de guerre ne peuvent être obtenus qu'à partir des priorités, événements et décisions nationales.§!"
  RULE_NO_WARGOALS_ON_ALLIED_PUPPETS_TT: "§R$DIPLOMACY_DEM_NO_THREAT_ON_DEPENDENDY$§!"
+ RULE_DISABLED_IN_KR_TT: "§RDésactivé dans Kaiserreich§!"
 
 ### Plurality Triggers ###
  totalist_plurality: "§o[?token:totalist.GetTokenLocalizedKey]§! a la plus haute popularité"
@@ -664,6 +665,14 @@ tech_integrated_specialists: "Forces Speciales Intégrées"
  tech_anti_armour_tactics_effect: "Active §H$tech_anti_armour_tactics$§!\n$tech_anti_armour_tactics_effect_tooltip$"
  tech_anti_armour_tactics_effect_tooltip: "§Y$category_all_infantry$§!:\n   $STAT_ARMY_HARD_ATTACK$[?0.25|=+%0]\n   $STAT_COMMON_PIERCING$[?1|=+%0]"
  tech_anti_armour_tactics_modifier_tooltip: "§Y$category_all_infantry$§!: $STAT_ARMY_HARD_ATTACK$[?0.25|=+%0], $STAT_COMMON_PIERCING$[?1|=+%0]"
+
+ jungle_pioneers_support_tech: "Pionniers de la Jungle"
+ jungle_pioneers_support_tech_effect: "Active la compagnie de soutien §Y$jungle_pioneers_support$§!."
+
+ tech_river_boats: "Navires fluviaux"
+ tech_river_boats_effect: "Active §H$tech_river_boats$§!\n$tech_river_boats_effect_tooltip$"
+ tech_river_boats_effect_tooltip: "§Y$category_all_infantry$§!:\n   $STAT_ADJUSTER_MOVEMENT$[?0.1|=+%0]\n   $STAT_ADJUSTER_ATTACK$[?0.1|=+%0]\n   $STAT_ADJUSTER_DEFENCE$[?0.05|=+%0]"
+ tech_river_boats_modifier_tooltip: "§Y$category_all_infantry$§!: $STAT_ADJUSTER_MOVEMENT$[?0.1|=+%0], $STAT_ADJUSTER_ATTACK$[?0.1|=+%0], $STAT_ADJUSTER_DEFENCE$[?0.05|=+%0]"
 
  ### Units ###
  assault_battalion: "$blackshirt_assault_battalion$"
