@@ -47,12 +47,30 @@
  china_declare_government_SQI_national_populist: "Déclarer le Nouvel Empire Qing"
  china_declare_government_SQI_national_populist_desc: "La bataille féroce pour la Cité interdite s'est déroulée sous les ordres de Zhang Tianran. Les portes du palais devinrent une prison pour la lâche famille Aisin-Gioro. Plusieurs membres de la famille tentent de sortir, mais ils sont repoussés, et les murs sont gardés par des lances rouges à tous les coins. Finalement, l'empereur se rendit aux Shangqing. Au lieu de mourir, Puyi a été contraint de capituler devant Zhang Tianran dans sa veste jaune impériale, et de réaffirmer au peuple son statut d'empereur. Puyi restera l'empereur, et les empereurs mineurs, les directeurs et les prêtres du Shangqing Tianguo seront les magistrats officiels de l'empire Qing.\n\nZhang Tianran a absous l'empereur captif de toute culpabilité dans cette guerre et a déclaré que cette victoire est l'aboutissement d'une généalogie spirituelle qui a commencé avec les Boxers et Sun Yat-sen."
 
+ china_declare_government_SQI_manchu_restoration:0 "Restaurer l'Empire Qing."
+ china_declare_government_SQI_manchu_restoration_desc: "Après l'échec du coup d'État mandchou, beaucoup ont douté de la capacité de Qu Yingguang à repousser l'invasion des Zhili, mais aujourd'hui, tous les doutes ont été dissipés. Non seulement le Shandong a résisté à l'attaque, mais Qu a guidé le Shandong et l'empereur pour les ramener au bord du gouffre, et nous sommes maintenant plus forts que jamais. Puyi sera rétabli dans ses fonctions d'empereur, avec son frère Pujie à ses côtés, et Qu Yingguang sera leur plus proche conseiller. Que tous ceux qui se dressent sur notre chemin sachent que les Mandchous sont de retour et que, cette fois, ils sont là pour rester."
+
  china_declare_government_other: "Former un Gouvernement National"
  china_declare_government_other_desc: "Après avoir assuré notre place en tant que force la plus puissante de Chine, il est temps que nous déclarions nos ambitions d'unifier la nation et de mettre fin une fois pour toutes à cette misérable ère de conflits. Nous risquons d'attirer l'attention et d'être à l'origine de conflits provoqués par ceux qui cherchent à dominer le pays, mais c'est le sacrifice que nous devons faire pour libérer notre nation des seigneurs de la guerre une fois pour toutes !"
 
  china_declare_unification: "Déclarer la Réunification de la Chine"
  china_declare_unification_desc: "Nos ennemis ont été vaincus et tous ceux qui ont osé revendiquer injustement le manteau du leadership national ont été remis à leur place. Il ne nous reste plus qu'à revendiquer officiellement notre droit à la direction nationale. Nous sommes les vainqueurs de l'ère des seigneurs de la guerre, pour le meilleur et pour le pire, et il nous appartient de conduire la Chine vers un avenir bienveillant."
  china_united: "La Chine a été entièrement réunie sous une seule et même bannière."
+
+ CHN_conquer_beijing_fallback_decision: "[CHN_conquer_beijing_fallback_decision_scripted_loc]"
+ CHN_conquer_beijing_fallback_decision_desc: "[CHN_conquer_beijing_fallback_decision_desc_scripted_loc]"
+
+ KMT_conquer_beijing_fallback_decision_key:0 "Achever la mission révolutionnaire"
+ KMT_conquer_beijing_fallback_decision_desc_key:0 "Tant que les réactionnaires continueront à régner sur la capitale du Nord, la grande mission que notre défunt fondateur, le Dr Sun Yat-sen, nous a confiée ne pourra pas réussir. Nous devons vaincre toute attente et préparer une deuxième marche vers le nord. Il ne s’agit pas seulement de sauver la cause révolutionnaire, mais nous luttons pour la survie de la race chinoise ! Vive la Révolution nationale, Vive la République de Chine !"
+
+ CHN_conquer_beijing_fallback_decision_key: "Libérer Beijing"
+ CHN_conquer_beijing_fallback_decision_desc_key: "Ancienne capitale de la Chine, Beijing occupe une place unique dans la conscience nationale chinoise. La détenir est synonyme de reconnaissance internationale et de légitimité nationale, ce qui rend sa capture de la plus haute importance. Puisque nos premiers efforts pour prendre la ville n'ont pas abouti, nous devons redoubler d'efforts. En avant, vers une nouvelle Chine !"
+
+ CHN_demand_control_of_beijing:0 "Exiger le contrôle de Beijing"
+ CHN_demand_control_of_beijing_desc:0 "La fin de l’Expédition du Nord a ramené Beijing dans le giron du Kuomintang, mais dans la pratique, la région reste sous le régime des Seigneurs de Guerre. Même si ce type d'autonomie locale s'est avéré être un mal nécessaire à mesure que nous progressons vers l'unification, permettre que ce sort s'abatte sur l'ancien siège du pouvoir chinois est catégoriquement inacceptable. Tant que Beijing échappera au contrôle direct du Gouvernement Central, il y aura toujours ceux qui complotent pour saper et usurper notre autorité. Nous devons prendre des mesures pour imposer la domination nationale au Nord, rapprochant ainsi la révolution de son achèvement."
+
+ CHN_march_to_manchuria:0 "La marche vers la Mandchourie"
+ CHN_march_to_manchuria_desc: "Depuis trop longtemps, la Mandchourie est ruinée par les traîtres à la nation chinoise et les impérialistes japonais qui cherchent à exploiter notre pays pour ses ressources naturelles. Bien qu'il s'agisse de la frontière orientale de notre territoire en dehors de la Chine proprement dite, la question de la Mandchourie est indéniable puisque [ROOT.GetNameDef] identifie les provinces du Dongbei comme des provinces faisant partie intégrante de l'État chinois. Alors que nous nous tenons derrière la sécurité de la passe de Shanhai, prenons sur nous de libérer nos compatriotes une fois pour toutes et d'unifier le pays une fois pour toutes."
 
  china_move_capital: "Déclarer une Capitale Permanente"
  china_move_capital_desc: "Il y a eu de nombreuses capitales d'un État chinois unifié et, avec des régions clés de la Chine sous notre domination, nous pouvons proclamer une capitale permanente pour la république. Quatre choix principaux s'offrent à nous si nous contrôlons cette ville : Nanjing, Beijing, Wuhan ou Guangzhou. Chacune d'entre elles présente des avantages uniques. Nous devons y réfléchir attentivement, car cette décision sera irréversible."
@@ -617,6 +635,16 @@ unite_china_justification_idea: "Chine unie !"
  china_events.50.e: "Guangzhou."
  china_events.50.f: "Restez dans [ROOT.Capital.GetCapitalVictoryPointName]."
 
+### Demanding Cities ###
+ china_events.60.t:0 "Le Gouvernement Central exige Beijing"
+ china_events.60.d: "La victoire de notre coalition révolutionnaire a permis de renverser nos rivaux dans la région. Après avoir fièrement servi la cause nationale, nos administrateurs ont entamé le processus vital de rétablissement de l'ordre à Beijing. La ville, littéralement traduite par "capitale du Nord", a joué un rôle central dans l'histoire de la Chine. Elle a longtemps servi de capitale à la nation et sa prise a conféré une grande légitimité à [FROM.GetNameDef] et à [ROOT.GetLeader].\n\nNos alliés semblent avoir reconnu ce fait et se méfient de nos intentions. La presse de [FROM.capital.GetCapitalVictoryPointName] a sensiblement cessé d'imprimer des mentions de [ROOT.GetLeader] ou de [ROOT.GetRulingParty], signe précurseur de leur mécontentement. Ils ont également envoyé plusieurs représentants dans une tentative peu subtile d'arracher le contrôle de l'administration régionale à nos propres dirigeants.\n\nNous avons finalement reçu un appel privé de [FROM.GetLeader] en personne, exigeant que nous cédions la juridiction de Beijing au gouvernement central de la République pour qu'il l'administre directement. Cet empiètement sur l'autonomie locale constitue une grave menace pour notre autorité, mais il semble qu'ils n'aient pas l'intention de renoncer à cette confrontation. Accepter serait une noble action, mais nous condamnerait peut-être à une subordination permanente. Pourtant, une certaine ambition brille dans les yeux de [FROM.GetLeader]. Ce n'est pas la première fois qu'une alliance révolutionnaire s'effondre devant l'éminence de la ville."
+ china_events.60.a:0 "Qu'il en soit ainsi, nous cédons."
+ china_events.60.b:0 "Notre autonomie ne sera pas violée !"
+
+ china_events.61.t:0 "[FROM.GetNameDefCap] rend Beijing"
+ china_events.61.d:0 "Cédant à la pression du gouvernement central, [FROM.GetLeader] et [FROM.GetName] ont convenu de confier la juridiction de Beijing et de ses environs au gouvernement central. Une importante délégation de responsables est arrivée plus tôt dans la journée à la gare de Zhengyangmen pour prendre ses fonctions dans la ville, bien qu'il s'agisse essentiellement d'une formalité. Avant eux se trouvaient divers officiers centraux de l’armée et d’autres représentants qui ont travaillé pour assurer une passation de pouvoir sans heurts et pacifiquement. Avec l'ancienne capitale enfin sous notre contrôle et un rival potentiel humilié, nous pouvons enfin commencer les préparatifs pour nos prochaines étapes dans l'unification nationale."
+ china_events.61.a:0 "Comme cela devrait être."
+
 ### Tibet/East Turkestan/Mongolia Interactions Events ###
  china_events.100.t: "[FROM.GetNameDefCap] exige notre intégration"
  china_events.100.d.independent: "L'effondrement de la dynastie Qing lors de la révolution Xinhai de 1911 a ouvert la voie à l'indépendance de notre nation souveraine. Alors que nous étions autrefois des sujets involontaires de la cour et de la sphère chinoises, l'effondrement de l'autorité chinoise dans la région nous a donné l'espoir d'une renaissance de nos identités nationales et culturelles.\n\nMalheureusement, nos plus grandes craintes sont revenues face à [FROM.GetNameDef], qui a exigé que nous nous rendions immédiatement et que nous acceptions l'annexion de nos terres par la Chine. Il semble que nous soyons seuls, qu'aucune puissance ne veuille nous offrir sa protection et que nous soyons seuls si une guerre devait éclater entre nous et [FROM.GetNameDef]. Alors que les faucons de guerre de notre gouvernement ont exigé que nous ripostions et que nous résistions aux impérialistes chinois, de nombreux politiciens et anciens ont également affirmé que notre sort serait mieux servi si nous nous rendions de plein gré au gouvernement chinois."
@@ -1165,6 +1193,25 @@ unite_china_justification_idea: "Chine unie !"
  china_events.406.t:0 "Our Application Denied."
  china_events.406.d: "Bien qu'il ait fait des compromis et des concessions aux Allemands pendant des années, le gouvernement de Berlin a aujourd'hui rejeté la demande [ROOT.GetAdjective]e d'adhérer au Reichspakt. Il invoque des préoccupations concernant la sécurité des investissements allemands et la préférence pour une relation de sécurité ambiguë.\n\nEn réponse, notre gouvernement a condamné l'Allemagne pour son attitude impérialiste à l'égard de la Chine, déclarant qu'il s'agissait d'un coup dur pour le peuple et le gouvernement chinois. Toutefois, dans une déclaration séparée, il a affirmé le maintien de liens étroits avec l'Allemagne en dépit des événements récents."
  china_events.406.a: "Après toutes ces années, ils nous traitent toujours comme des pièces d'échecs !"
+
+ #Save 7-9 for Entente
+ #Save 10-12 for MA
+ #Save 12-15 for CPS
+ #Save 15-18 for ESU
+ #Save 18-21 for a hypothetical American faction
+
+ china_events.422.t: "[FROM.GetName] cherche à rejoindre le [ROOT.GetFactionName]"
+ china_events.422.d: "Avec l'unification de la Chine et notre mission déclarée de libérer l'Asie et le Pacifique de l'impérialisme, nous sommes rapidement devenus une source d'inspiration pour tous ceux qui espèrent se débarrasser du joug du colonialisme étranger. Nombreux sont ceux qui, aujourd'hui, sont fiers de modeler leurs guérillas sur MinGan et d'entraîner leurs soldats à l'esprit Whampoa, et qui, bien entendu, nous demandent volontiers aide et soutien. Il n'est donc pas surprenant que ceux qui ont renversé leurs anciens maîtres aient cherché à s'allier à nous, dans l'espoir de se protéger contre d'autres attaques et peut-être de contribuer à la libération de l'Asie. Toutefois, il convient de faire preuve de diligence raisonnable - si la révolution mondiale semble agréable sur le papier, les réalités géopolitiques et les revendications nationalistes qui se chevauchent ne doivent pas être négligées dans cette nouvelle ère pour le continent."
+ china_events.422.a: "Bien entendu, nous accueillerons nos frères [FROM.GetAdjective] !"
+ china_events.422.b: "Malheureusement, nous devons refuser leur candidature."
+
+ china_events.423.t: "[ROOT.GetName] rejoint le [FROM.GetFactionName] !"
+ china_events.423.d: "Avec l'unification de la Chine et notre mission déclarée de libérer l'Asie et le Pacifique de l'impérialisme, ils sont rapidement devenus un exemple pour tous ceux qui espèrent se débarrasser du joug du colonialisme étranger. Cela dit, le succès de nos propres efforts pour libérer notre peuple de manière indépendante est une merveille en soi et nous distingue de nombreux groupes en Asie qui luttent pour éveiller la conscience nationale et de classe de leurs peuples. Les combattants de la liberté en Asie ont besoin d'espoir et d'inspiration, et quoi de mieux que non pas un, mais deux phares de l'anticolonialisme ? Nous avons donc été admis au sein de l'association [FROM.GetFactionName] pour poursuivre la défense mutuelle, la prospérité et la liberté !"
+ china_events.423.a: "Armez-vous pour la liberté des peuples asiatiques !"
+
+ china_events.424.t:0 "Our Application Denied."
+ china_events.424.d: "Les Chinois sont une civilisation ancienne et ont toujours été hautains. Empereur après empereur, dynastie après dynastie, ils tolèrent peu d'amis mais attendent beaucoup de vassaux. On aurait pu espérer que l'appel humanitaire et transnational du socialisme encourage les Chinois à changer leurs habitudes et à prêter main forte pour défendre leurs camarades, mais il semble que ce soit en vain. Les Chinois ont refusé de signer une alliance avec nous, que ce soit par crainte de l'enchevêtrement, par revendication nationaliste ou peut-être par simple realpolitik."
+ china_events.424.a: "Il semble que malgré leur révolution, les Chinois n'aient pas encore véritablement changé."
 
 ### Cosmetic Tags ###
  national_protection_alliance: "APN"

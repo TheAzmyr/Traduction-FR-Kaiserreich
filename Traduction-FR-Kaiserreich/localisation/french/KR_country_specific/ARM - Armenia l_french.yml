@@ -63,6 +63,7 @@ ARM_paternal_autocrat_party: "ANLM"
  ARM_once_coast_controlled: "§G2 chantiers navals§! seront construits dans un État côtier aléatoire que nous possédons et contrôlons."
  ARM_trade_proposal_ongoing: "Négociation d'un accord commercial en cours"
  ARM_three_trade_agreements: "Nous avons négocié au moins trois accords commerciaux."
+ ARM_ottomans_have_lost_desert_war:0 "§Y[OTT.GetFlag] [OTT.GetNameDefCap]§! a été vaincu lors de la Guerre du Désert."
 
 ### Factions ###
  Tabriz_accord: "Les Accords de Tabriz"
@@ -510,7 +511,7 @@ ARM_paternal_autocrat_party: "ANLM"
  ARM_isolationism_2_desc: "Nous savons que tôt ou tard, des soldats étrangers chercheront à conquérir nos terres. Nos voisins peuvent sembler forts, voire invincibles pour certains, mais nous leur montrerons qu'ils peuvent saigner ! Nous défendrons chaque parcelle de notre nation jusqu'au dernier homme, et nous ferons regretter à ces tyrans leur décision de troubler notre paix !"
 
  ARM_merchant_marine: "La Flotte Marchande Arménienne"
- ARM_merchant_marine_desc: "Bien que cela soit en partie nécessaire en raison de notre manque de chantiers navals, il a été décidé que la jeune marine arménienne se concentrerait sur le commerce plutôt que sur la guerre. Bien que cela rende notre ligne côtière quelque peu vulnérable, cela nous permet également de chercher des moyens d'accroître notre compétitivité."
+ ARM_merchant_marine_desc:9 "Bien que cela soit en partie nécessaire en raison de notre manque de chantiers navals, il a été décidé que la jeune marine arménienne se concentrerait sur le commerce plutôt que sur la guerre. Bien que cela rende notre ligne côtière quelque peu vulnérable, cela nous permet également de chercher des moyens d'accroître notre compétitivité."
 
  ARM_trading_profits: "Profits Mercantiles"
  ARM_trading_profits_desc: "Un marché ouvert, l'accès aux économies du monde entier et la volonté de tirer profit de tout et de n'importe quoi, voilà la recette du succès, comme le prouve notre récente croissance économique."
@@ -526,8 +527,9 @@ ARM_paternal_autocrat_party: "ANLM"
 
 ### Decisions ###
  ARM_foreign_policy: "Politique Étrangère de l'Arménie"
- ARM_join_faction:0 "Rejoindre le [FROM.GetFactionName]"
+ ARM_join_faction:9 "Rejoindre le [FROM.GetFactionName]"
  ARM_request_industrial_support: "Demande [FROM.GetAdjective] de Soutien Industriel"
+ ARM_join_ESU: "Adhérer à l'Union Syndicaliste de l'Est"
 
  ARM_war_of_independence: "La Guerre d'Indépendance"
  ARM_war_of_independence_desc: "Cette guerre est notre dernière chance de transformer en réalité le rêve d'un État arménien indépendant, libéré de la terreur ottomane. Nous nous battrons au nom de la liberté, nous saignerons au nom de notre peuple, et nous mourrons au nom de nos ancêtres. Mais nous ne nous rendrons pas, quelles que soient les épreuves que nous devrons endurer - car si nous échouons maintenant, l'Arménie sera perdue à jamais."
@@ -714,8 +716,8 @@ ARM_paternal_autocrat_party: "ANLM"
  arm.45.d: "Les 7 Cultes de Tseghakron sont un concept introduit par Nzhdeh, visant à enseigner à notre peuple ce que signifie être un bon Arménien. Mettant l'accent sur la valeur de la nation arménienne, ces cultes seront dorénavant enseignés dans les écoles et diffusés dans les journaux et à la radio. De cette façon, Nzhdeh espère pouvoir guider les jeunes et moins jeunes générations dans la bonne direction et en faire des sujets loyaux à sa cause.\n\nCes sept cultes sont les suivants 1. le Culte de la Mère Patrie, qui met l'accent sur l'importance de la terre sur laquelle la culture arménienne a vu le jour, et qui encourage la dévotion et le culte de cette terre. Le Culte du Sang, qui met en avant les traits spirituels et corporels qui définissent le peuple arménien et le distinguent des autres cultures. Le Culte de la Langue, qui interdit à notre peuple d'apprendre ou de parler une autre langue que sa langue maternelle, car cela accélérerait la mort de la belle langue arménienne. 4. le Culte du Déchu, qui dit que l'on ne doit pas oublier ceux qui ont donné leur vie au nom de l'Arménie et de son peuple. En raison de notre récente guerre d'indépendance, qui a vu d'innombrables hommes arméniens mourir sur les champs d'honneur, ce culte est particulièrement important pour Nzhdeh. 5) Le Culte de nos Ancêtres. Ce culte déclare qu'il existe un lien spirituel entre les différentes générations de notre peuple, et que ce lien garantit que la flamme éternelle de la nation et donc nos traditions sacrées seront transmises d'une génération à l'autre. 6) Le Culte du Pouvoir, qui affirme que seuls ceux qui sont forts et courageux survivront à ce monde cruel. 7) Le Culte de notre Leader, Nzhdeh. Le peuple arménien ne doit pas le remettre en question, ni ses décisions, mais lui faire confiance pour accomplir son destin."
  arm.45.a: "Ces enseignements sont la voie à suivre !"
 
- arm.46.t: "[ARM.GetNameDefCap] Souhaite Rejoindre la Troisième Internationale"
- arm.46.d: "Il semble que le peuple arménien ait réussi à se libérer, non seulement des chaînes que les impérialistes ottomans lui avaient imposées, mais aussi de celles apportées par le système capitaliste qui dominait autrefois la société arménienne. Comme le gouvernement arménien révolutionnaire nouvellement établi se trouvait dans une position relativement isolée parmi les nations orientales, par ailleurs majoritairement réactionnaires, il a demandé à entrer dans la Troisième Internationale, exprimant ainsi son souhait d'aider la révolution ouvrière à l'échelle mondiale. Nous devons maintenant décider si nous voulons permettre cela, ou s'ils sont trop dangereux pour justifier leur adhésion à notre faction."
+ arm.46.t:9 "[ARM.GetNameDefCap] Souhaite Rejoindre la Troisième Internationale"
+ arm.46.d:9 "Il semble que le peuple arménien ait réussi à se libérer, non seulement des chaînes que les impérialistes ottomans lui avaient imposées, mais aussi de celles apportées par le système capitaliste qui dominait autrefois la société arménienne. Comme le gouvernement arménien révolutionnaire nouvellement établi se trouvait dans une position relativement isolée parmi les nations orientales, par ailleurs majoritairement réactionnaires, il a demandé à entrer dans la Troisième Internationale, exprimant ainsi son souhait d'aider la révolution ouvrière à l'échelle mondiale. Nous devons maintenant décider si nous voulons permettre cela, ou s'ils sont trop dangereux pour justifier leur adhésion à notre faction."
  arm.46.a: "Tous les États socialistes sont les bienvenus dans notre alliance !"
  arm.46.b: "Ils ne seraient qu'un poids mort. "
 
@@ -1002,6 +1004,10 @@ ARM_paternal_autocrat_party: "ANLM"
  arm.118.d: "Invoquant le fait qu'il n'aurait rien à gagner de notre proposition d'accord, le gouvernement [FROM.GetAdjective] a décliné notre offre de coopération accrue dans le domaine du commerce. Cependant, bien que ce soit certainement un revers, il nous reste d'autres marchés à explorer, qui pourraient être plus accueillants à nos approches."
  arm.118.a: "De toute façon, nous ne voulions pas de leurs produits de qualité inférieure !"
 
+ arm.119.t: "Constantinople est à Nous !"
+ arm.119.d: "Par un extraordinaire retournement de situation, qui ne manquera pas de déconcerter les commentateurs militaires du monde entier, une armée victorieuse sous le drapeau de l'Arménie a pris l'ancienne capitale impériale de Constantinople. Si les forces ottomanes ont été stupéfaites par notre arrivée, elles ont été impuissantes à défendre la ville contre notre attaque. Notre patrie, l'Arménie, opprimée par nos ennemis, renaît de ses cendres tel un phénix et prend le joyau de Constantinople dans ses griffes. Alors qu'autrefois nos forces se cachaient dans les collines et les montagnes, ne frappant que la nuit, elles marchent désormais sur la grande avenue de Péra. Notre réseau hétéroclite de guérilleros s'est uni et a remporté des victoires dans toute l'Anatolie, mais peu d'entre eux s'attendaient à une telle victoire ! \n\nAprès la prise de la ville, la stupeur semble s'être emparée de nos forces, qui paraissent elles-mêmes étonnées de se trouver dans la capitale. Conscientes de l'insécurité de leur position, elles ont cherché à éviter d'éveiller la colère des habitants et ont réduit au minimum les manifestations de leur victoire. Bien qu'un sentiment de crainte se soit installé quant à la possibilité d'une contre-attaque des forces impériales, et que l'on se demande si cet effort ne les a pas rendus vulnérables, pour l'instant au moins, le drapeau tricolore arménien brille contre ses ennemis du haut du palais de Topkapi, et notre nation plane comme un aigle, une situation impensable il y a quelques mois à peine. \n\nAlors que notre peuple est encore sous le choc de la répression brutale et des fausses promesses de libéralisation, il peut se consoler en sachant que nos forces ont montré au monde ce dont les Arméniens sont capables."
+ arm.119.a: "Heureux celui qui meurt pour la liberté de sa nation"
+
  ### Characters ###
  ARM_anastas_mikoyan: "Anastas Mikoyan"
  ARM_ruben_ter_minassian: "Ruben Ter Minassian"
@@ -1024,7 +1030,7 @@ ARM_paternal_autocrat_party: "ANLM"
  ARM_aghasi_khanjian: "Aghasi Khanjian"
  ARM_arshag_chobanian: "Arshag Chobanian"
 
- ARM_christophor_araratov: "Christophor Araratov"
+ ARM_christophor_araratyan: "Christophor Araratyan"
  ARM_drastamat_kanayan: "Drastamat Kanayan"
  ARM_hamazasp_babadzhanian: "Hamazasp Babadzhanian"
  ARM_hamazasp_srvandztyan: "Hamazasp Srvandztyan"
