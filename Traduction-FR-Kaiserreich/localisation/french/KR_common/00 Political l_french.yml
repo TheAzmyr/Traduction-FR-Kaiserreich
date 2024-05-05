@@ -55,7 +55,7 @@
  generic_events.30.d:0 "Nous avons reçu de nombreuses informations selon lesquelles les troupes [FROM.GetAdjective] se rassemblent actuellement et qu'une grande partie de la reconnaissance a lieu de l'autre côté de la frontière [Root.GetAdjective]. Les responsables militaires disent qu'il est clair que [From.GetNameDef] planifie une invasion de [Root.GetNameDef], qui pourrait commencer à tout moment dans les prochaines semaines."
  generic_events.30.a:0 "Nous devons nous préparer !"
  generic_events.31.d:0 "Nous avons reçu un message alarmant de [From.GetNameDef] nous informant que les troupes [From.From.GetAdjective]es se regroupent actuellement et qu'une grande partie de la reconnaissance se fait de l'autre côté de la frontière [From.GetAdjective]e. Les responsables militaires disent qu'il est clair que [From.From.GetNameDef] planifie une invasion de [From.GetNameDef], qui pourrait commencer à tout moment dans les prochaines semaines."
- generic_events.32.d:0 "Nous avons reçu un message de nos alliés de [From.GetNameDef] nous informant que leurs troupes se regroupent actuellement et qu'une grande partie de la reconnaissance a lieu de l'autre côté de la frontière [attack_target.GetAdjective]e. [From.GetNameDef] planifie une invasion de [attack_target.GetNameDef], qui pourrait commencer à tout moment dans les prochaines semaines."
+ generic_events.32.d: "Nous avons reçu un message de nos alliés de [From.GetNameDef] nous informant que leurs troupes se regroupent actuellement et que de nombreuses opérations de reconnaissance sont en cours de l'autre côté de la frontière [attack_target.GetAdjective]e. [From.GetNameDefCap] planifie une invasion de [attack_target.GetNameDef], qui pourrait commencer à tout moment, dans les prochaines semaines."
 
 ### End Military Occupations ###
  KR_end_military_occupations: "Mettre fin aux Occupations Militaires"
@@ -180,7 +180,7 @@ has_scripted_peace_desc: "Le pays est en guerre et est déterminé à remporter 
  unit_limit_subject_bonus: "Ajout d'une limite de Division pour le suzerain"
 
  unit_limit_breakdown: "[unit_limit_breakdown]"
- unit_limit_breakdown_default: "§HNombre Maximal de Divisions§!\nMaximum Actuel : [?uncapped_max_divisions|H0][unit_limit_reached_cap]\n[unit_limit_base_value][unit_limit_core_population][unit_limit_noncore_population][unit_limit_subject_population_bonus][unit_limit_states][unit_limit_subject_state_bonus]\n[unit_limit_factory_count_multiplier][unit_limit_modifier_was_capped][unit_limit_additional_modifiers][unit_limit_faction_leader][unit_limit_default][unit_limit_economy_law][unit_limit_bonus_used]"
+ unit_limit_breakdown_default: "§HNombre maximal de divisions§!\nMaximum Actuel: [?uncapped_max_divisions|H0] [unit_limit_reached_cap]\n[unit_limit_base_value] [unit_limit_core_population] [unit_limit_noncore_population] [unit_limit_subject_population_bonus] [unit_limit_states] [unit_limit_subject_state_bonus]\n[unit_limit_factory_count_multiplier] [unit_limit_modifier_was_capped] [unit_limit_additional_modifiers] [unit_limit_faction_leader] [unit_limit_default] [unit_limit_economy_law] [unit_limit_bonus_used] [unit_limit_above_limit]"
 
  unit_limit_list_item: "\n   - "
 
@@ -203,11 +203,12 @@ has_scripted_peace_desc: "Le pays est en guerre et est déterminé à remporter 
  unit_limit_war_economy: "$unit_limit_list_item$du §H$war_economy$§!: [?modifier@unit_limit_law_bonus|+=0]"
  unit_limit_tot_economic_mobilisation: "$unit_limit_list_item$du §H$tot_economic_mobilisation$§!: [?modifier@unit_limit_law_bonus|+=0]"
 
- unit_limit_breakdown_desc: "[unit_limit_breakdown_desc]"
- unit_limit_breakdown_desc_enabled:0 "Chaque pays n’a qu'une capacité limitée de lever et de maintenir des divisions militaires. Cette capacité est notamment liée à la capacité de son économie et de ses infrastructures à les équiper et maintenir leur force de combat.\n\nLe nombre maximum d'unités prises en charge est basé sur la §Hpopulation§! du pays et le §H nombre d'états occupés§!, qui est ensuite multiplié par un ratio de cette valeur lié au §Hnombre d'usines§! existantes dans les différents territoires.\n\nLors des §Hguerres civiles§!, les valeurs de base sont calculées à partir de la somme de tous les États détenus par tous les participants.[unit_limit_above_limit]"
- unit_limit_breakdown_desc_disabled: "Le §HNombre Maximum de Divisions§! a été désactivé par les règles du jeu."
- unit_limit_above_limit_desc: "\n\n---------------\n\n$unit_limit_above_limit_text$"
+ unit_limit_above_limit_desc: "\n---------------\n$unit_limit_above_limit_text$"
  unit_limit_above_limit_text: "§RNous avons actuellement dépassé notre capacité et le seul moyen d'alléger la pression sur notre pays sera de supprimer certaines de nos divisions.§!\n\n$MODIFIER_ARMY_ORG_FACTOR$: [?mobilisation_penalty_var|+=%1]\n$MODIFIER_CONSUMER_GOODS_FACTOR$: [?mobilisation_penalty_var_positive|=%H1]\n$MODIFIER_INDUSTRIAL_CAPACITY_FACTOR$: [?mobilisation_penalty_var|+=%]\n$MODIFIER_TRAINING_TIME_ARMY_FACTOR$: [?mobilisation_penalty_var_positive|-=%]\n$MODIFIER_LAND_REINFORCE_RATE$: [?mobilisation_penalty_var|+=%1]"
+
+ unit_limit_breakdown_desc: "[unit_limit_breakdown_desc]"
+ unit_limit_breakdown_desc_enabled: "Chaque pays n’a qu'une capacité limitée pour lever et équiper des divisions militaires avant que son économie et ses infrastructures ne soient soumises à une trop forte tension.\n\nLe nombre maximum de divisions soutenables est basé sur la §Hpopulation du pays§! et le §Hnombre d'États contrôlés§!, et est ensuite multiplié par un ratio de cette valeur par rapport au §Hnombre d'usines§! dans les états.\n\nPendant les §Hguerres civiles§!, les valeurs de base sont calculées à partir de la somme des états contrôlés par chaque partie au conflit."
+ unit_limit_breakdown_desc_disabled: "Le §HNombre Maximum de Divisions§! a été désactivé par les règles du jeu."
 
 ### Tooltips ###
  KR_party_pop_less_than_100: "Moins de §Y100%§! de soutien pour [Root.GetRulingParty]."
