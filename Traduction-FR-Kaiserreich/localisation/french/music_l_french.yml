@@ -2,31 +2,51 @@
  #This file is needed in order to allow the vanilla main theme to work alongside the kr one. The game doesn't seem to like loading the theme, having it overwritten then loading the same song under a new name. It leads to broken loc for said song.
  maintheme:9 "Die Wacht am Rhein\n§PLa Surveillance du Rhin§!"
 
- # HOI4 Soundtrack
- main_vanilla: "Thème principal : la Grande Alliance"
- # axis_war_1: "Axis Theme" - overridden
- allies_peace_1: "Le matin du Jour-J"
- general_war_1: "Amenez les chars"
- axis_peace_1: "Cracovie"
- general_war_2: "L'attaque"
- # comintern_war_1: "The Might of the Soviet Union" - overridden
- # comintern_war_2: "Comintern Theme" - overridden
- axis_war_4: "Jours de tonnerre"
+## HOI4 Soundtrack
+ # main_vanilla: "Main Theme - Allies"
+ main_vanilla:9 "Thème principal : la Grande Alliance"
  general_peace_1: "Le cœur des hommes"
- allies_war_2: "La Royal Airforce"
- axis_war_2: "Eau lourde"
- comintern_war_3: "La Grande Guerre patriotique"
- general_peace_3: "Chant pour les enfants de la Seconde Guerre mondiale"
- # comintern_peace_2: "The Red Army" - overridden
- allies_war_1: "Nous sommes des soldats"
- comintern_peace_1: "La Mère Russie"
- axis_peace_2: "Marche de la Luftwaffe (reprise)"
- axis_war_3: "Opération Barbarossa"
- allies_peace_2: "La fin des épreuves"
- comintern_peace_3: "Victoire russe"
  general_peace_2: "La fin de la guerre"
+ general_peace_3: "Chant pour les enfants de la Seconde Guerre mondiale"
 
- # HOI2 Soundtrack
+ allies_peace_1: "Le matin du Jour-J"
+ allies_peace_2: "La fin des épreuves"
+
+ axis_peace_1: "Cracovie"
+ # axis_peace_2: "Luftwaffe March - Reprise"
+ axis_peace_2: "Marche de la Luftstreitkräfte - Reprise"
+
+ comintern_peace_1: "La Mère Russie"
+ # comintern_peace_2: "The Red Army"
+ comintern_peace_2:0 "Natsgvardiya"
+ comintern_peace_3: "Victoire russe"
+
+ general_war_1: "Amenez les chars"
+ general_war_2: "L'attaque"
+
+ allies_war_1: "Nous sommes des soldats"
+ allies_war_2: "La Royal Airforce"
+
+ #axis_war_1: "Axis Theme"
+ axis_war_1: "Thème du Reichspakt"
+ axis_war_2: "Eau lourde"
+ axis_war_3: "Opération Barbarossa"
+ axis_war_4: "Jours de tonnerre"
+
+ #comintern_war_1: "The Might of the Soviet Union"
+ comintern_war_1: "La Grandeur de l'Etat Russe"
+ #comintern_war_2: "Comintern Theme"
+ comintern_war_2: "Thème de l'Accord de Moscou"
+ comintern_war_3: "La Grande Guerre patriotique"
+
+## HOI4 La Résistance Soundtrack
+ # resistance_spanish: "Imperterrita"
+ resistance_spanish: "Imperturbable"
+ resistance_french: "Liberté, Égalité, Fraternité"
+ resistance_fascist: "Une Tempête se Prépare"
+ resistance_spying: "Cape et poignard"
+
+## HOI2 Soundtrack
  achtungpanzer: "Achtung Panzer !"
  astateofgrace: "État de grâce"
  happymarch: "Marche joyeuse"
@@ -44,7 +64,7 @@
  war: "Guerre"
  variationsontherussianthem: "Variations sur le thème russe"
 
- # HOI3 Soundtrack
+## HOI3 Soundtrack
  alliesfaction: "Faction des Alliés"
  alotofseactions: "Engagement en mer"
  axis1march: "Marche de l'Axe"

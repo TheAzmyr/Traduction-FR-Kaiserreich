@@ -27,15 +27,15 @@
  faction_joining_CSA_INT: "Maintenant que la Confédération Syndicaliste a gagné en Amérique, elle a pivoté vers l'Europe, rejoignant officiellement l'alliance syndicaliste. Les réactionnaires tremblent alors que la puissance industrielle de l'Amérique est mise au service de la révolution."
 
 #Central America
- faction_joining_COS_GER: "Entretenu par les barons du café du ZKG, un traité d'assistance militaire a été signé avec le [?faction_leader.GetFactionName] ainsi que l'accès aux installations navales de Puerto Limón."
+ faction_joining_COS_GER: "Issu des efforts des barons du café ZKG, un traité d'assistance militaire a été signé avec [THIS.faction_leader.GetFactionName] ainsi que l'accès aux installations navales de Puerto Limón."
  faction_joining_COS_ENT:0 "Abandonné par son allié de confiance à Washington, San José a été contraint de chercher plus au nord pour assurer sa protection contre ses voisins les plus prédateurs. Ottawa, toujours désireux d'avoir des amis près du canal, a embrassé le Costa Rica."
 
 #South America
- faction_joining_ARG_GER: "Suite au succès de l'accord commercial et de la coopération militaire entre les deux nations, [THIS.GetLeader] a annoncé sa participation au [?faction_leader.GetFactionName]"
- faction_joining_ARG_ENT: "Grâce à une diplomatie astucieuse, [THIS.GetLeader] et [?faction_leader.GetName] ont résolu la crise des îles Malouines, mettant leurs différences de côté contre la menace commune."
+ faction_joining_ARG_GER: "Suite au succès de l'accord commercial et de la coopération militaire entre les deux nations, [THIS.GetLeader] a annoncé sa participation à [THIS.faction_leader.GetFactionName]"
+ faction_joining_ARG_ENT: "Grâce à une diplomatie astucieuse, [THIS.GetLeader] et [THIS.faction_leader.GetName] ont résolu la crise des îles Malouines, mettant leurs différents de côté, face à la menace commune."
 
 #Western Europe
- faction_joining_BEL_GER: "Comme convenu dans le Traité d'Arlon, la nouvelle nation belge a officiellement rejoint l'[?faction_leader.GetFactionName] pour protéger sa souveraineté des faucons syndicalistes."
+ faction_joining_BEL_GER: "Comme convenu dans le Traité d'Arlon, la nouvelle nation belge a officiellement rejoint [THIS.faction_leader.GetFactionName] pour protéger sa souveraineté des faucons syndicalistes."
  faction_joining_BEL_ENT:0 "Alliés sur l'Yser pendant la Weltkrieg et liés par le sang à la couronne britannique, les belges ont fait le choix de se joindre à leurs anciens alliés pour assurer leur survie."
  faction_joining_BEL_INT:0 "L'Ancien Ordre s'effondre, l' [GER.GetName] se désintègre, réveillez-vous victimes de l’oppression et faites tomber le Géant en représailles de 1914 !"
 
@@ -128,3 +128,10 @@
  incoming_war_alert_message_guarantor: "§Y[THIS.GetNameDefCap]§! s'apprête à déclarer la guerre à §Y[?ROOT.alert_war_target_@THIS.GetNameDef]§!, dont nous garantissons l'indépendance!"
  incoming_war_alert_message_civil_war: "§Y[THIS.GetNameDefCap]§! se prépare à déclarer la guerre à §Y[?ROOT.alert_war_target_@THIS.GetNameDef]§! !"
  incoming_war_alert_message_ally: "§Y[THIS.GetNameDefCap]§! se prépare à déclarer la guerre à notre allié §Y[?ROOT.alert_war_target_@THIS.GetNameDef]§! !"
+
+###################
+### Unit Limits ###
+###################
+
+ unit_limit_alert_title: "Limite d'Unités Dépassée"
+ unit_limit_alert_message: "§YNous sommes maintenant au-dessus de la limite d'unités, ce qui entraîne des pénalités pour l'efficacité militaire !§!"

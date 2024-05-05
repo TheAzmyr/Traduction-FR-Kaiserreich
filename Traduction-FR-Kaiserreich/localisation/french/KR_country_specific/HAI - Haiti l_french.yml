@@ -375,7 +375,7 @@
  HAI_rubber_cultivation_mission: "Culture de l'Hévéa"
  HAI_clear_land: "Défricher la Terre pour la Cultiver"
  HAI_expand_investment: "Accroître les Investissements dans la Culture de l'Hévéa"
- HAI_appeal_faction_leader: "Demander à [faction_leader.GetNameDef] un investissement supplémentaire"
+ HAI_appeal_faction_leader: "Demander à [THIS.faction_leader.GetNameDef] un investissement supplémentaire"
  HAI_expand_rubber: "Étendre Culture de l'Hévéa"
 
  HAI_join_faction_decision: "Rejoindre le [From.GetFactionName]"
@@ -451,7 +451,7 @@
  HAI_good_option: "§YHaïti et ses entreprises détiendront 100% du caoutchouc cultivé.§!"
  HAI_bad_option: "§YNos entreprises détiendront une part importante des bénéfices de la culture du caoutchouc.§!"
  HAI_acquire_rubber_tt: "§CNous allons tenter d'acquérir des hévéas à l'étranger.§!"
- HAI_if_they_agree: "§YSi [?FROM.faction_leader.GetNameDef] accepte, nous recevrons les effets suivants :§!"
+ HAI_if_they_agree: "§YSi [FROM.faction_leader.GetNameDef] accepte, nous recevrons les effets suivants :§!"
 
  HAI_unlock_or_disband: "Cet événement nous permettra de décider s'il faut §Rdissoudre§! ou §Gréformer§! la §CGarde d'Haïti§!"
  HAI_on_remove_unlock: "Lorsque les réformes du haut commandement seront achevées, le modèle de §CGarde d'Haïti§! se §Gdébloquera§!."
@@ -591,8 +591,8 @@
  hai.23.d: "Pour une raison quelconque, [From.GetNameDefCap] a décidé qu'il ne pouvait pas nous accepter dans sa faction. Apparemment, notre fière nation n'est guère plus qu'un handicap pour les soi-disant géants de la scène mondiale."
  hai.23.a: "Maudits soient-ils !"
 
- hai.24.t: "Interrogation avec [?FROM.faction_leader.GetNameDef] sur la culture du caoutchouc"
- hai.24.d: "Alors que la 2ème Weltkrieg  s'éternise, il est devenu évident que le caoutchouc sera une ressource vitale. L'accès à l'Afrique et à l'Asie étant loin d'être garanti, nous avons proposé à [?FROM.faction_leader.GetNameDef] de commencer à développer le caoutchouc en Haïti."
+ hai.24.t: "Se renseigner auprès de [FROM.faction_leader.GetNameDef] sur la culture du caoutchouc"
+ hai.24.d: "Alors que la Seconde Weltkrieg s'éternise, il est devenu évident que le caoutchouc sera une ressource vitale. L'accès à l'Afrique et à l'Asie étant loin d'être garanti, nous avons proposé à [FROM.faction_leader.GetNameDef] de commencer à développer le caoutchouc, en Haïti."
  hai.24.a: "Espérons qu'ils seront de la partie !"
 
  hai.25.t: "Haïti Propose un Programme de Développement de l'Hévéa"
@@ -600,12 +600,12 @@
  hai.25.a: "C'est un excellent moyen de remettre Haïti sur pied !"
  hai.25.b: "Une idée géniale qui nous profite à tous les deux !"
 
- hai.26.t: "[?FROM.faction_leader.GetNameDefCap] Accepte !"
- hai.26.d: "[?FROM.faction_leader.GetNameDefCap] a accepté notre proposition et est impatient de lancer la production. En fait, ils sont tellement impatients de commencer la production qu'ils ont accepté de nous laisser prendre tous les bénéfices et de mettre la propriété entièrement entre les mains du gouvernement haïtien et des sociétés haïtiennes."
+ hai.26.t: "[FROM.faction_leader.GetNameDefCap] accepte !"
+ hai.26.d: "[FROM.faction_leader.GetNameDefCap] a accepté notre proposition et est impatient de lancer la production. En fait, ils sont tellement impatients de commencer la production qu'ils ont accepté de nous laisser prendre tous les bénéfices et de mettre la propriété entièrement entre les mains du gouvernement haïtien et des sociétés haïtiennes."
  hai.26.a: "Merveilleuse Nouvelle !"
 
- hai.27.t: "[?FROM.faction_leader.GetNameDefCap] Accepte !"
- hai.27.d: "[?FROM.faction_leader.GetNameDefCap] a accepté notre proposition et est impatient de lancer la production. Cependant, ils ont stipulé que certaines entreprises [?HAI.faction_leader.GetAdjective]s prennent une partie de la propriété des plantations pour s'assurer qu'elles sont correctement gérées. Bien que nous soyons convaincus de pouvoir les gérer nous-mêmes et que la perte de profit ne soit pas importante, cela permet à une société étrangère d'assumer une partie de la responsabilité."
+ hai.27.t: "[FROM.faction_leader.GetNameDefCap] accepte !"
+ hai.27.d: "[FROM.faction_leader.GetNameDefCap] a accepté notre proposition et est impatient de lancer la production. Cependant, ils ont stipulé que certaines entreprises [HAI.faction_leader.GetAdjective]s prendraient une partie de la propriété des plantations pour s'assurer qu'elles seront correctement gérées. Bien que nous soyons convaincus de pouvoir les gérer nous-mêmes et que la perte de profit ne soit pas importante, cela permettra à une société étrangère d'assumer une partie de la responsabilité."
  hai.27.a: "Comme prévu."
 
  hai.28.t: "Haïti Demande de Nouveaux Investissements dans la Culture de l'Hévéa"
@@ -613,12 +613,12 @@
  hai.28.a: "Ils l'auront."
  hai.28.b: "Nous ne pouvons pas nous passer des ressources nécessaires."
 
- hai.29.t: "[?FROM.faction_leader.GetNameDefCap] Accepte notre Demande d'Investissement Supplémentaire"
- hai.29.d: "Après mûre réflexion, [?FROM.faction_leader.GetNameDef] a accédé à notre demande d'un nouveau cycle d'investissement dans nos plantations de caoutchouc. Avec cette nouvelle injection de capital, nous devrions être en mesure d'augmenter la vitesse et l'échelle de développement."
+ hai.29.t: "[FROM.faction_leader.GetNameDefCap] accepte notre demande d'investissement supplémentaire"
+ hai.29.d: "Après mûre réflexion, [FROM.faction_leader.GetNameDef] a accédé à notre demande d'un nouveau cycle d'investissement dans nos plantations de caoutchouc. Avec cette nouvelle injection de capital, nous devrions être en mesure d'augmenter la vitesse et l'échelle de développement."
  hai.29.a: "Excellent !"
 
- hai.30.t: "[?FROM.faction_leader.GetNameDefCap] Rejette notre Demande d'Investissement Supplémentaire."
- hai.30.d: "Malheureusement, [?FROM.faction_leader.GetNameDef] n'est pas d'accord avec notre conclusion selon laquelle nos jeunes plantations de caoutchouc ont besoin de nouveaux investissements. Selon eux, les capitaux sont très demandés et rares en ce moment, et les investissements déjà consentis devraient être plus que suffisants pour développer une hévéaculture parfaitement raisonnable. Nous devrons simplement nous débrouiller avec ce que nous avons."
+ hai.30.t: "[FROM.faction_leader.GetNameDefCap] rejette notre demande d'investissement supplémentaire."
+ hai.30.d: "Malheureusement, [FROM.faction_leader.GetNameDef] n'est pas d'accord avec notre conclusion selon laquelle nos jeunes plantations de caoutchouc ont besoin de nouveaux investissements. Selon eux, les capitaux sont très demandés et rares en ce moment, et les investissements déjà consentis devraient être plus que suffisants pour développer une hévéaculture parfaitement raisonnable. Nous devrons simplement nous débrouiller avec ce que nous avons."
  hai.30.a: "Bon sang..."
 
  hai.52.t: "Chaos au Sein du Gouvernement"

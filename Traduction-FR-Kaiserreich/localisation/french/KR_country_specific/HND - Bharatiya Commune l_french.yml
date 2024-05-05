@@ -102,6 +102,9 @@ HND_approves_government: "Approuve le nouveau gouvernement"
 ### Traits ###
  HND_the_mahatma:0 "Mahatma"
 
+### Flags ###
+ HND_went_isolationist: "La Commune de Bhârat choisi une politique d'isolement après l'unification de l'Inde"
+
 ### Tooltips ###
  HND_INC_meeting_done: "La réunion de l'INC est ajournée"
  HND_ENG_intl_aid: "§Y[ENG.GetName]§! s'est engagé à apporter son aide à la Troisième Internationale"
@@ -288,8 +291,6 @@ HND_adv_command_3: "Être Maître sur les Mers"
 HND_adv_command_3_desc: "Nous nous concentrons avant tout sur notre marine - certes, cela peut se faire au détriment de notre armée et de nos capacités aériennes, mais la Commune doit reconnaître où se trouve sa force et maximiser son efficacité"
  HND_third_internationale:0 "La Troisième Internationale"
  HND_third_internationale_desc:9 "Le Premier Congrès de la Troisième Internationale est sur le point d'être convoqué, et notre participation pourrait être notre seule chance d'obtenir de l'aide des nations syndicalistes à l'étranger"
- #HND_invite_hochiminh: "Invite Ho Chi Minh"
- #HND_invite_hochiminh_desc: "In Paris, a group of Indochinese revolutionaries under the leadership of Nguyen Sinh Con, also known as Ho Chi Minh, have announced their decision to form a united leftist government in exile whose declared goal is to topple German colonial rule. It has been suggested that our government invite Ho Chi Minh and his comrades to Calcutta and place all available resources at their disposal."
 HND_anglo_indian_trade: "L'Accord Commercial Anglo-Indien"
 HND_anglo_indian_trade_desc: "Une proposition a été présentée visant à systématiser et à rationaliser la coopération socialiste anglo-indienne - en accordant au gouvernement indien une aide vitale en matière industrielle et militaire tout en assurant au peuple et au gouvernement de Grande-Bretagne un flux régulier de biens exotiques tels que les bananes, le caoutchouc et - encore plus important - un accès sans restriction aux plantations de thé de l'Assam"
 HND_aid_from_britain: "Solliciter l'aide de la Grande-Bretagne"
@@ -298,18 +299,6 @@ HND_aid_from_france: "Solliciter l'aide de la France"
  HND_aid_from_france_desc: "La Commune de France nous a promis une assistance militaire lors de la récente réunion du Congrès - nous devons maintenant voir ce qu'ils peuvent nous apporter"
 HND_war_prepare: "La Confrontation Finale"
  HND_war_prepare_desc: "Il est inévitable que nous devions affronter à la fois le Raj et la Fédération Princière à un moment donné, et cela dans un proche avenir. Nous devons nous assurer que nous serons aussi forts que possible, avant d'aller plus loin."
-HND_north_border: "Préparer la Frontière Nord"
-HND_north_border_desc: "Nous nous tournons maintenant vers le Dominion, et nous devons préparer notre frontière nord pour la guerre d'usure à venir"
- HND_attack_delhi: "Prendre Lahore"
- HND_attack_delhi_desc: "Les États du nord font partie intégrante de l'Inde. Nous devons frapper de manière préventive, avec l'élément de surprise !"
-HND_delhi_rebellion: "Socialistes du Nord Unissez-Vous !"
-HND_delhi_rebellion_desc: "Attaquer simplement le nord ne suffit probablement pas - c'est peut-être risqué, mais nous pourrions aussi entrer en contact avec des éléments socialistes au sein du Dominion et les amener à se soulever alors même que nous attaquons. Cela soulèverait la possibilité que les forces du Dominion soient harcelées derrière leurs propres lignes. Il y a cependant une chance que nos plans soient éventés et que nos ennemis soient prévenus à l'avance de notre attaque"
-HND_west_border: "Préparer la Frontière Ouest"
-HND_west_border_desc: "Nous regardons maintenant vers l'ouest en direction de la Fédération Princière, et nous devons préparer notre frontière a l'est pour la guerre d'usure qui va sûrement venir"
-HND_attack_prf: "Prendre Hyderabad"
- HND_attack_prf_desc: "Les états du Deccan font partie intégrante de l'Inde. Nous devons frapper de manière préventive, avec l'élément de surprise !"
-HND_prf_rebellion: "Socialistes de l'Ouest Unissez-Vous !"
-HND_prf_rebellion_desc: "Attaquer simplement l'Occident ne suffit peut-être pas - c'est peut-être risqué, mais nous pourrions aussi contacter des éléments socialistes au sein de la Fédération princière et les amener à se soulever alors même que nous attaquons. Cela soulèverait la possibilité que les forces princières soient harcelées derrière leurs propres lignes. Il y a cependant une chance que nos plans soient trahis et que nos ennemis soient prévenus à l'avance de notre attaque"
 HND_unite_india: "L'Inde Unifiée"
 HND_unite_india_desc: "Jai Hind ! Le sous-continent est à nouveau à nous ! Qu'est-ce qu'on fait maintenant ?"
 HND_special_INC_meeting: "Convoquer une Réunion du CNI"
@@ -697,6 +686,7 @@ beng.110.t: "La place du Raj Rouge dans le monde"
 beng.110.a: "Nous serons l'épée de l'Internationale en Asie !"
 beng.110.b: "A nous seuls, l'Asie sera peinte en ROUGE !"
 beng.110.c: "Reconstruisons l'Inde dans un splendide isolement"
+ beng.110.e: "Joignons-nous à nos camarades en Chine !"
 
 beng.111.t: "L'Inde veut rejoindre l'Internationale"
 beng.111.d: "Les restes fragmentés du Raj britannique ont finalement été réunis sous l'égide du gouvernement de gauche de Calcutta. Comme si ce n'était pas une bonne nouvelle pour le prolétariat mondial, le nouveau gouvernement indien a demandé à être aligné comme membre de l'Internationale !"
@@ -835,6 +825,11 @@ beng.135.c: "Nehru utilise le soutien syndical de Dange pour remporter la prési
  beng.138.d:0 "Le gouvernement de [From.GetAdjective] a fait savoir que l'Internationale n'a pas besoin de notre alliance"
  beng.138.a: "Insultes !"
 
+ beng.139.t: "[FROM.GetNameDef] cherche une alliance avec [ROOT.GetNameDef]"
+ beng.139.d: "Alors que les feux révolutionnaires balaient l'Asie, le besoin de solidarité et de coopération entre les peuples nouvellement émancipés devient de plus en plus évident. Conscients des dangers de rester neutres sur une scène mondiale en pleine mutation, nos camarades de [From.GetNameDef] ont demandé à rejoindre la [ROOT.GetFactionName]. Accepter cette demande nous permettrait d'étendre notre influence en Asie, mais des voix dissidentes nous ont mis en garde contre l'engagement dans des entreprises étrangères inutiles."
+ beng.139.a:0 "Nous souhaitons la bienvenue à nos camarades [From.GetAdjectiveCap]."
+ beng.139.b:0 "Ce n'est pas nécessaire, rejetons leur pétition."
+
  beng.200.t: "Choix de la Capitale de l'[ROOT.GetNameDef]"
  beng.200.d.RAJ: "Maintenant que l'Inde est enfin unifiée, il est temps de reconstruire et de décider où nous voulons que la capitale du pays soit. Alors que Lahore nous a bien servi, il peut être judicieux de retourner à Delhi où l'infrastructure et les opportunités pour en faire un centre économique avaient commencé à être établies depuis 1911. Alternativement, nous pouvons retourner à Calcutta, l'ancienne capitale de l'Inde Britannique, où la période de croissance industrielle sous la commune de Bharatiya et sa proximité avec la côte pourraient être un atout utile pour le commerce de l'Inde avec le reste du monde. Hyderabad, quant à elle, au cœur du sud de l'Inde, fondée en 1591, est devenue un centre culturel au cours des deux dernières décennies. Ou nous pouvons choisir de rester à Lahore, qui est restée notre capitale provisoire, tandis que nous intégrons lentement le reste du pays et le débarrassons des éléments réactionnaires et radicaux."
  beng.200.d.HND: "Maintenant que l'Inde est enfin unifiée, il est temps de reconstruire et de décider où nous voulons que la capitale du pays soit. Nous pourrions opter pour Delhi où les progrès pour en faire le centre de l'administration du Raj depuis 1911 ont été interrompus par la Révolution britannique, même si cela rappelle notre passé colonial. Hyderabad, quant à elle, au cœur du sud de l'Inde, fondée en 1591, est devenue un centre culturel au cours des deux dernières décennies. Bien que déménager dans l'un de ces endroits puisse aider à obtenir le soutien de la population, ils n'ont pas encore compris les avantages du socialisme sous la direction de notre chef, [ROOT.GetLeader]. Séjourner à Calcutta, berceau de la révolution, serait aussi symbolique pour les générations à venir. Le Front de l'Est de la Troisième Internationale commencera ici !"
@@ -843,6 +838,10 @@ beng.135.c: "Nehru utilise le soutien syndical de Dange pour remporter la prési
  beng.200.b: "Revenons à l'ancienne capitale bengali"
  beng.200.c: "Il est temps pour Hyderabad de briller"
  beng.200.d: "Restons là où nous sommes actuellement"
+
+### Decisions ###
+
+ Join_HNDs_faction_decision:0 "Adhérer à l'Union Syndicaliste de l'Est"
 
 ### Characters ###
  HND_lala_lajpat_rai: "Lala Lajpat Rai"

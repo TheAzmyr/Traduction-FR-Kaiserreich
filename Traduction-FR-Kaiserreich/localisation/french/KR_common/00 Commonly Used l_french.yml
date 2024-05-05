@@ -20,8 +20,14 @@
  tooltip_apply_one_of_effects_depending_on_ideas: "§gAppliquez l'un des effets suivants en fonction de notre esprit national actuel :§!"
  tooltip_apply_one_of_effects_depending_on_ruling_party: "§gAppliquez l'un des effets suivants en fonction de notre parti dirigeant actuel :§!"
 
- tooltip_event_allows_choice: "L'événement permet de choisir l'un des éléments suivants :"
- tooltip_event_choice_or: "OU"
+ tooltip_event_allows_choice: "§LL'événement permet de choisir l'un des éléments suivants:§!"
+ tooltip_event_choice_or: "§L\n-------------- OU --------------\n§!"
+ tooltip_event_choice_option_1: "§L\n-------------- OPTION 1 --------------\n§!"
+ tooltip_event_choice_option_2: "§L\n-------------- OPTION 2 --------------\n§!"
+ tooltip_event_choice_option_3: "§L\n-------------- OPTION 3 --------------\n§!"
+ tooltip_event_choice_option_4: "§L\n-------------- OPTION 4 --------------\n§!"
+
+ which_has_the_following_effect: "Ce qui a l'effet suivant :"
 
  improves_designer_tt: "§GAméliore§! §YEntreprise d'ingénierie§! :"
  improves_industrial_concern_tt: "§GAméliore§! §YEntreprise industrielle§! :"
@@ -33,9 +39,9 @@
 
  may_lead_to_war_with_THIS: "§RPeut mener à une guerre avec [This.GetNameDef]!§!"
  may_lead_to_war_with_FROM: "§RPeut mener à une guerre avec [From.GetNameDef]§!"
- may_lead_to_war_with_FROM_overlord: "§RPeut mener à une guerre avec [From.Overlord.GetNameDef]§!"
+ may_lead_to_war_with_FROM_overlord: "§RPeut mener à une guerre avec [From.overlord.GetNameDef]§!"
  may_lead_to_war_with_FROM_FROM: "§RPeut mener à une guerre avec [From.From.GetNameDef]!§!"
- may_lead_to_war_with_FROM_FROM_overlord: "§RPeut mener à une guerre avec [From.From.Overlord.GetNameDef]!§!"
+ may_lead_to_war_with_FROM_FROM_overlord: "§RPeut conduire à la guerre avec [From.From.overlord.GetNameDef]!§!"
 
  state_integration_at_fifty_compliance: "Peut devenir un état national lorsqu'il atteint une §Hconformité moyenne de 50%§!."
  state_integration_at_eighty_compliance: "Peut devenir un état national lorsqu'il atteint une §Hconformité moyenne de 80%§!."
@@ -71,6 +77,7 @@
 ### Decision Names ###
  integrate_state: "Intégrer [From.GetName]"
  join_faction:0 "Rejoignez le [From.GetFactionName]"
+ attack_country:0 " Attaquer [From.GetNameDef] "
 
 ### Custom Modifier Tooltips ###
  cannot_enact_conscription_tt: "§RImpossible d'augmenter les lois sur la conscription.§!"
@@ -478,6 +485,7 @@
 ### Scripted Loc ###
  empty: ""
 
+ loc_empire: "Empire"
  loc_kingdom:0 "Royaume"
  loc_republic:0 "République"
  loc_state: "État"
@@ -513,6 +521,10 @@
 
  loc_regent: "Régent"
 
+ loc_president:0 "Président"
+ loc_prime_minister: "Premier Ministre"
+ loc_chairman:0 "Président"
+
  loc_royal: "royal"
  loc_royal_cap: "Royal"
  loc_royal_with_space: "$loc_royal$ "
@@ -531,9 +543,17 @@
  loc_has: "a"
  loc_have: "a"
 
+ loc_the: "les"
+ loc_the_with_space: "$loc_the$ "
+
  loc_its: "son"
  loc_their: "leur"
  loc_theirs: "leur"
+
+ loc_and: "et"
+ loc_and_space_before: " $loc_and$"
+ loc_and_space_after: "$loc_and$ "
+ loc_and_space_both: " $loc_and$ "
 
 ### Custom Cost Tooltips (for use in decisions) ###
  CP_5: "£command_power §H5§!"
@@ -619,6 +639,10 @@
  CP_80_PP_20: "£command_power §H80§! £pol_power §H20§!"
  CP_80_PP_20_blocked: "£command_power §R80§! £pol_power §R20§!"
  CP_80_PP_20_tooltip: "Cela coûte $CP_80_PP_20_blocked$ pour prendre cette décision"
+
+ army_xp_3: "£army_experience §H3§!"
+ army_xp_3_blocked: "£army_experience §R3§!"
+ army_xp_3_tooltip: "La prise de décision coûte $army_xp_3_blocked$."
 
  army_xp_5: "£army_experience §H5§!"
  army_xp_5_blocked: "£army_experience §R5§!"

@@ -82,8 +82,10 @@ FNG_Japanese_Economic_Union: "Union économique japonaise"
 FNG_Japanese_Economic_Union_2: "Union économique japonaise"
 FNG_Japanese_Economic_Union_3: "Union économique japonaise"
 FNG_Industrial_Soy_Shortage: "Pénurie de soie industrielle"
- FNG_support_ANQ_idea:0 "Soutien au Gouvernement d'Anqing"
+ FNG_support_ANQ_idea: "Soutien à la Clique d'Anqing"
  FNG_support_ANQ_idea_tt:0 "(§Y[ANQ.GetNameWithFlag]§!) $volunteer_limit_plus_two_tt$"
+ FNG_support_SQI_idea: "Soutien à la Clique de Shandong"
+ FNG_support_SQI_idea_tt: "(§Y[SQI.GetNameWithFlag]§!) $volunteer_limit_plus_two_tt$"
 
 FNG_Expel_the_Japanese_Bandits: "Expulsez les bandits japonais !"
 FNG_Expel_the_Japanese_Bandits_desc: "Le temps est venu de chasser les intrus japonais de Chine, et de mettre fin à un siècle d'insupportable humiliation nationale !"
@@ -155,6 +157,21 @@ FNG_Disagreements_in_Economic_Policy_desc: "Yang Yuting a eu quelques désaccord
  FNG_fifth_zhili_fengtian_war: "Cinquième Guerre Zhili-Fengtian"
  FNG_manchu_fengtian_war: "Guerre Mandchoue-Fengtienne"
  FNG_war_of_national_reclamation: "Guerre de Reconquête Nationale"
+
+ FNG_beijing_government_insult_manchu: "Seigneurs mandchous"
+ FNG_beijing_government_insult_zhili_qing: "Maîtres impérialistes occidentaux"
+ FNG_beijing_government_insult_zhili: "la politique des seigneurs de la guerre sème la discorde"
+ FNG_beijing_government_insult_lkmt: "maîtres syndicalistes radicaux"
+ FNG_beijing_government_insult_federalist: "la politique fédéraliste divise"
+ FNG_beijing_government_insult_generic: "des objectifs régionalistes sèment la discorde"
+
+ FNG_honghuzi_location_heilongjiang:0 "Heilongjiang"
+ FNG_honghuzi_location_xingan: "Xingan"
+ FNG_honghuzi_location_liaobei:0 "Liaobei"
+
+ FNG_clash_city_nenjiang:0 "Nenjiang"
+ FNG_clash_city_buteha: "Buteha"
+ FNG_clash_city_liaoyuan: "Liaoyuan"
 
 ### Decisions ###
  FNG_Join_The_Zhifeng_War: "Rejoindre la Guerre [QIE.GetAdjective]-[FNG.GetAdjective]."
@@ -443,7 +460,8 @@ FNG_leads_to_reclamation_war: "Commence la voie vers la §Rguerre§! avec §Y[60
  FNG_new_coalition: "La §GLigue de la Récupération§! et la §GClique des Communication §! nous rejoindront en coalition, nous donnant ainsi une partie de leur gain de pouvoir politique."
  FNG_conference_num_required: "§RAu moins trois participants doivent accepter de participer pour que la conférence puisse commencer !§!"
  FNG_conference_num_failure: "§RMalheureusement, nous n'avons pas réussi à obtenir au moins trois participants, laissant la force comme seule option !§!"
- FNG_asks_withdraw_volunteers: "Nos forces aidant les §Y[ANQ.GetName]§! seront rappelées immédiatement.\n"
+ FNG_asks_withdraw_volunteers_from_ANQ:0 "Nos forces aidant les §Y[ANQ.GetName]§! seront rappelées immédiatement.\n"
+ FNG_asks_withdraw_volunteers_from_SQI: "Nos forces qui aident §Y[SQI.GetNameDef]§! seront rappelées immédiatement.\n"
  FNG_join_japanese_econ_sphere: "§Y[FNG.GetNameDef]§! rejoint la §YSphère d'influence économique du Japon§!."
 
  FNG_impressed_prince: "§GLe Prince a été impressionné !§!\n"
@@ -499,7 +517,7 @@ FNG_remove_backward_industry: "Nécessaire pour supprimer l'esprit national §YI
  FNG_CER_Tax_desc: "Les opérations régulières de la Compagnie chinoise des chemins de fer orientaux sont actuellement soumises à une taxe spéciale, encouragée par le ministre de l'intérieur Yuan dans le but de "renforcer l'armée"."
  FNG_preperation_conference: "Nous allons commencer à préparer une série de §H'Conférences sur la reconstruction nationale'§!"
  FNG_unlock_grand_marshal_proclamation: "Cette décision nous permettra de §Hdéclarer la guerre§! aux traîtres du Sud.\n"
- FNG_unlocking_factories: "De nouvelles £civ_factory military usines seront construites dans les États contrôlés suivants:\n"
+ FNG_unlocking_factories: "De nouvelles £mil_factory usines militaires seront construites dans les États contrôlés suivants: \n"
  FNG_unlocking_baoding: "- §HBaoding§!\n"
  FNG_unlocking_hanyang: "- §HHanyang§!\n"
  FNG_unlocking_jinling: "- §HJinling§!\n"
@@ -552,6 +570,18 @@ FNG_ma_zhanshan_reinstated: "§YMa Zhanshan§! sera réintégré en tant que §Y
  FNG_boosted_expedition_jap: "§GLes chances de succès de Fengtian seront grandement augmentées.§!\n"
 
  FNG_autonomy_integration_PP_cost: "§rL'intégration de [FNG_active_negotiations_target.GetNameWithFlag] dans notre régime sera plus coûteuse à l'avenir !§!"
+
+ FNG_annex_SQI_tooltip: "Le §YGouvernement Fengtian§! annexe la §YClique Shandong§!."
+
+ FNG_no_allies: "Nous n'avons plus d'alliés en Chine"
+
+ FNG_ten_surrender_progress: "Nous avons progressé de 10 % et n'avons intégré ni Beijing ni Tianjin."
+
+ FNG_twenty_surrender_progress: "Nous avons progressé de 20 % et n'avons intégré que Tianjin."
+
+ FNG_thirty_surrender_progress: "Nous avons progressé de 30 % et n'avons intégré que Beijing."
+
+ FNG_fourty_surrender_progress: "Nous avons progressé de 40 % et intégré à la fois Beijing et Tianjin."
 
  FNG_has_united_china: "Fengtian a proclamé la §H$FNG_ROC_authoritarian_democrat$§!"
 
@@ -609,13 +639,13 @@ FNG_social_democrat_party_long: "Parti Socialiste de Chine"
 FNG_social_liberal_party: "Parti constitutionnel démocratique"
 FNG_social_liberal_party_long: "Parti constitutionnel démocratique"
 FNG_market_liberal_party: "Association Concordia"
- FNG_market_liberal_party_long: "Xiehehui (Association Concordia)\n§gGroupement de politiciens et de lobbyistes ayant tous les attributs d'un parti, l'Association Concordia représente les intérêts de Mantetsu, et parfois d'autres Zaibatsu japonais, à l'Assemblée. Leurs positions idéologiques réelles varient, certains utilisant les Japonais pour contrer le pouvoir de Zhang à leur propre profit, d'autres souscrivant aux principes panasiatiques.§!"
+ FNG_market_liberal_party_long: "Xiehehui (Association Concordia)\n§gGroupement de politiciens et de lobbyistes ayant tous les attributs d'un parti, l'Association Concordia représente les intérêts de Mantetsu, et parfois d'autres Zaibatsu japonais, à l'Assemblée. Leurs positions idéologiques réelles varient, certains utilisant les Japonais pour contrer le pouvoir de Zhang à leur propre profit, d'autres souscrivant aux principes panasiatiques.§!\n"
  FNG_social_conservative_party: "Clique de communication"
- FNG_social_conservative_party_long: "Jiaotongxi (Clique des Communications)\n§gSeule faction politiquement cohérente à émerger de l'ancien gouvernement de Beiyang, la Clique des communications est une collection de barons des chemins de fer et du télégraphe, principalement intéressés, mais engagés dans une confrontation avec Mantetsu et l'Association Concordia au sujet de l'infrastructure du pays.§!"
+ FNG_social_conservative_party_long: "Jiaotongxi (Clique des Communications)\n§gSeule faction politiquement cohérente à émerger de l'ancien gouvernement de Beiyang, la Clique des communications est une collection de barons des chemins de fer et du télégraphe, principalement intéressés, mais engagés dans une confrontation avec Mantetsu et l'Association Concordia au sujet de l'infrastructure du pays.§!\n"
  FNG_authoritarian_democrat_party: "Ligue pour la reconquête"
- FNG_authoritarian_democrat_party_long: "Guangfuxi (Ligue de rétablissement)\n§gUne association peu structurée de généraux, de gouverneurs, de bureaucrates et de politiciens déchus sans affiliation idéologique forte, dont la plupart se retrouvent à Fengtian parce qu'il n'y a guère d'autres endroits où ils pourraient détenir un semblant de pouvoir. Facilement corrompus et tentés, ils servent souvent à promouvoir les intérêts de ceux qui sont prêts à payer, et par conséquent, la \"ligue\" est très divisée malgré le contrôle d'une grande partie de l'Assemblée, manquant de volonté politique pour agir de manière décisive.§!"
+ FNG_authoritarian_democrat_party_long: "Guangfuxi (Ligue de rétablissement)\n§gUne association peu structurée de généraux, de gouverneurs, de bureaucrates et de politiciens déchus sans affiliation idéologique forte, dont la plupart se retrouvent à Fengtian parce qu'il n'y a guère d'autres endroits où ils pourraient détenir un semblant de pouvoir. Facilement corrompus et tentés, ils servent souvent à promouvoir les intérêts de ceux qui sont prêts à payer, et par conséquent, la "ligue" est très divisée malgré le contrôle d'une grande partie de l'Assemblée, manquant de volonté politique pour agir de manière décisive.§!\n"
 FNG_paternal_autocrat_party: "Clique des Zhang"
- FNG_paternal_autocrat_party_long: "Zhanghui (Clique Zhang)\n§gLa clique Zhang, composée de loyalistes et de généraux, n'a pas d'idéologie spécifique, si ce n'est celle de promouvoir les pouvoirs politiques du Grand Maréchal. Tout en prétendant à la démocratie, les partisans de Zhang ne sont pas attachés aux idéaux républicains et ne les promeuvent que pour leur utilité.§!"
+ FNG_paternal_autocrat_party_long: "Zhanghui (Clique Zhang)\n§gLa clique Zhang, composée de loyalistes et de généraux, n'a pas d'idéologie spécifique, si ce n'est celle de promouvoir les pouvoirs politiques du Grand Maréchal. Tout en prétendant à la démocratie, les partisans de Zhang ne sont pas attachés aux idéaux républicains et ne les promeuvent que pour leur utilité.§!\n"
 FNG_national_populist_party: "Société impériale des Han"
 FNG_national_populist_party_long: "Huanghanhui (Société impériale des Han)"
 
@@ -2047,6 +2077,10 @@ fengtian.237.a: "Très bien."
  fengtian.2371.d: "Le gouvernement de Fengtian a apporté son soutien exclusif à la clique de Shandong de Zhang Zongchang dans le conflit qui vient d'éclater entre ses deux alliés orientaux. En conséquence, il nous a été demandé de cesser notre aide à la clique d'Anqing de Chen Tiaoyuan. Bien que nous puissions refuser, les objectifs anti-concessionnistes de Chen sont contraires à nos intérêts en Chine, et des forces puissantes au sein du gouvernement insistent pour que nous accédions à la demande de Zhang. Nous pouvons rediriger notre soutien vers le Shandong, si nous le souhaitons."
  fengtian.2371.a: "Très bien."
 
+ fengtian.2372.t: "Fengtian Soutient Anqing"
+ fengtian.2372.d: "Le gouvernement de Fengtian a apporté son soutien exclusif à la clique d'Anqing de Chen Tiaoyuan dans le conflit qui vient d'éclater entre ses deux alliés orientaux. En conséquence, il nous a été demandé de cesser notre aide à la clique de Shandong de Zhang Zongchang. Nous pourrions refuser, mais des forces puissantes au sein du gouvernement insistent pour que nous accédions à la demande de Zhang. Nous pouvons réorienter notre aide vers Anqing, si nous le souhaitons."
+ fengtian.2372.a:0 "Très bien."
+
  fengtian.239.t: "Anqing a gagné !"
 fengtian.239.d: "La Clique d'Anqing, que nous avons soutenue pendant leur guerre contre la Ligue et plus tard contre le Kuomintang et d'autres seigneurs de la guerre, est sortie victorieuse et a uni les cinq provinces. C'est une très bonne nouvelle, car cela signifie que nous avons maintenant un allié très puissant qui se trouve au sud de notre ennemi ! Nous devrons immédiatement réfléchir à la manière dont nous allons utiliser cet avantage"
 fengtian.239.a: "Bonnes nouvelles"
@@ -3226,7 +3260,7 @@ fngconf.75.a: "Ils se soumettront ou mourront."
 
 ### Renames ###
  FNG_authoritarian_democrat_rename: "NUL"
- FNG_authoritarian_democrat_rename_long: "Guojia Tongyi Lianmeng (Ligue d'Unité Nationale)    §gFormée d'un mélange d'anciens politiciens de la Recovery League et de modérés plus récents, la NUL s'oppose partiellement aux tendances centralisatrices et militaristes de la Clique Zhang. Le parti n'est pas une puissance, mais la constitution restaurée lui accorde un plus grand degré d'autonomie que ses prédécesseurs.§!"
+ FNG_authoritarian_democrat_rename_long: "Guojia Tongyi Lianmeng (Ligue d'Unité Nationale)    \n§gFormée d'un mélange d'anciens politiciens de la Recovery League et de modérés plus récents, la NUL s'oppose partiellement aux tendances centralisatrices et militaristes de la Clique Zhang. Le parti n'est pas une puissance, mais la constitution restaurée lui accorde un plus grand degré d'autonomie que ses prédécesseurs.§!\n"
 
  FNG_authoritarian_democrat_rename_tooltip: "Le §Y$authoritarian_democrat$§! s'appellera désormais \"§YGuojia Tongyi Lianmeng (Ligue d'Unité Nationale)§!\"."
 

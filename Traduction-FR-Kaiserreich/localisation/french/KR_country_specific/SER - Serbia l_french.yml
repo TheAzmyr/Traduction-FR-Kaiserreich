@@ -334,9 +334,6 @@ aeroput: "Aeroput"
  balkan_research_name: "Initiative de recherche dans les Balkans"
  balkan_research_desc: ""
 
- SER_balkan_research_idea: "Initiative de recherche dans les Balkans"
- SER_balkan_research_idea_tooltip: "Rejoindre l'§HInitiative de Recherche des Balkans§!\n$MODIFIER_RESEARCH_SPEED_FACTOR$: [?0.05|+=%]"
-
  SER_spawned_resistance: "Résistance Tchetnik"
  SER_spawned_resistance_tt: "L'achèvement de cette priorité donnera des modificateurs négatifs à la §YVitesse§!, à la §YDéfense§! et au §YRenseignement Local§! des divisions dans tous les états bulgares revendiqués par la Serbie."
 
@@ -441,8 +438,8 @@ aeroput: "Aeroput"
  SER_remove_nedic_desc: "Les frères Nedić sont l'un des principaux commandants de l'armée serbe, et si Milan est trop influent pour être écarté, son frère, Milutin, est encore vulnérable. Nous pouvons créer du charabia sur le fait que son rôle dans la réforme de l'armée de l'air était inadéquat et le pousser à un poste moins important, et promouvoir de nouveaux officiers loyaux à sa place."
  SER_remove_ilic: "Limoger Bogoljub Ilić"
  SER_remove_ilic_desc: "Bogoljub Ilić est, comme nous le soupçonnons, l'un des dirigeants de la société secrète Konspiracija, mais en raison de son apparente dissonance idéologique, il est entré en conflit avec nombre de ses pairs dans l'armée au cours des années suivantes. Nous pouvons exacerber ces tensions et réunir la masse critique nécessaire pour le démettre de ses fonctions et faire entrer de nouveaux officiers loyalistes."
- SER_remove_vukcevic: "Limoger Dragoljub Mihailović"
- SER_remove_vukcevic_desc: "Dragoljub Mihailović n'est pas un membre de la société secrète Konspiracija, mais un commandant inquiétant malgré tout. Soupçonné d'être monarchiste et en conflit permanent avec le reste du haut commandement, il peut très facilement être destitué et remplacé par des officiers plus loyaux."
+ SER_remove_mihailovic:0 "Limoger Dragoljub Mihailović"
+ SER_remove_mihailovic_desc:0 "Dragoljub Mihailović n'est pas un membre de la société secrète Konspiracija, mais un commandant inquiétant malgré tout. Soupçonné d'être monarchiste et en conflit permanent avec le reste du haut commandement, il peut très facilement être destitué et remplacé par des officiers plus loyaux."
 
 #Decisions to deal with terrorism as a puppet
  SER_fighting_domestic_enemies: "Combattre les Ennemis Intérieurs"
@@ -1956,9 +1953,9 @@ SER_KR_gathering_storm_desc: "Lors de l'autre fameuse révolution de 1925, le pe
  serbia.39.a: "Une fois de plus, des alliés !"
  serbia.39.b: "Espérons que l'autre côté des tranchées soit plus accueillant..."
 
- serbia.40.t: "[faction_leader.GetNameDefCap] démantèle le Pacte de Belgrade"
- serbia.40.d.default: "Aujourd'hui, nous avons reçu un message urgent de [faction_leader.GetNameDef]. À la suite de récentes négociations diplomatiques, les responsables de [faction_leader.GetAdjectiveCap] ont décidé de demanteler le Pacte de Belgrade, arguant que la situation de l'Europe avait considérablement changé et qu'une petite alliance régionale ne serait plus en mesure de protéger les Balkans des menaces extérieures. Ils nous ont implorés de suivre leur exemple en recherchant la protection de plus grandes puissances et se sont excusés pour la gène occasionée."
- serbia.40.d.alliance: "Des nouvelles importantes nous sont parvenues aujourd'hui - [faction_leader.GetNameDef] a officiellement démantelé le Pacte de Belgrade, après avoir annoncé une alliance avec [future_serbian_ally.GetNameDef]. Il semble que si le Pacte de Belgrade était utile pour contenir les menaces régionales dans les Balkans, il serait finalement incapable de se dresser seul contre les grandes puissances d'Europe occidentale, d'où la décision de [faction_leader.GetNameDef] de rejoindre la [future_serbian_ally.GetFactionName]. La question à se poser maintenant est de savoir si nous devrions suivre leur exemple ou plutôt notre propre chemin."
+ serbia.40.t: "[THIS.faction_leader.GetNameDefCap] démantèle le Pacte de Belgrade"
+ serbia.40.d.default: "Aujourd'hui, nous avons reçu un message urgent de [THIS.faction_leader.GetNameDef]. À la suite de récentes négociations diplomatiques, les responsables de [THIS.faction_leader.GetAdjectiveCap] ont décidé de demanteler le Pacte de Belgrade, arguant que la situation de l'Europe avait considérablement changé et qu'une petite alliance régionale ne serait plus en mesure de protéger les Balkans des menaces extérieures. Ils nous ont implorés de suivre leur exemple en recherchant la protection de plus grandes puissances et se sont excusés pour la gène occasionée."
+ serbia.40.d.alliance: "Des nouvelles importantes nous sont parvenues aujourd'hui - [THIS.faction_leader.GetNameDef] a officiellement démantelé le Pacte de Belgrade, après avoir annoncé une alliance avec [future_serbian_ally.GetNameDef]. Il semble que si le Pacte de Belgrade était utile pour contenir les menaces régionales dans les Balkans, il serait finalement incapable de se dresser seul contre les grandes puissances d'Europe occidentale, d'où la décision de [THIS.faction_leader.GetNameDef] de rejoindre la [future_serbian_ally.GetFactionName]. La question à se poser maintenant est de savoir si nous devrions suivre leur exemple ou plutôt notre propre chemin."
  serbia.40.a:0 "Time to seek our own path. Il est temps de chercher notre propre voie."
  serbia.40.b:0 "Contactez [future_serbian_ally.Capital.GetCapitalVictoryPointName] et demandez une alliance."
 
@@ -2784,6 +2781,9 @@ SER_KR_gathering_storm_desc: "Lors de l'autre fameuse révolution de 1925, le pe
  SER_petar_kosic:0 "Petar Kosić"
  SER_dragomir_stojanovic:0 "Dragomir Stojanović"
  SER_navy_army_command:0 "Sous le Commandement de l'Armée"
+ SER_zdenko_ulepic: "Zdenko Ulepić"
  SER_arso_jovanovic: "Arsenije Jovanović"
+
+ SER_dusko_popov: "Duško Popov"
 
  SER_event_only: "Ne peut être ajouté que par événement."

@@ -32,7 +32,7 @@
  KR_welcome_splash_tab_3_content_0: "Kaiserreich impose des restrictions sur les actions diplomatiques telles que les §RGuerres Précoces§!, les §RFactions§! et les §RNiveaux d'Autonomie§!.\nKaiserreich inclut également des §CLimites de Division§! et un mécanisme de §CDémobilisation§! pour améliorer la jouabilité en fin de partie.\nPendant les §YConférences de Paix§!, assurez-vous d'annexer tous les États possibles. Plus tard, vous pourrez libérer les pays des territoires annexés grâce aux §Cdécisions§!.\nLe menu de configuration des §YRègles de Jeu Personnalisées§! vous permet d'ajuster de nombreuses options, notamment les §CChemins de Pays§!, la §CPrimauté du Joueur pendant les Conférences de Paix§! et l'outil de §CTransfert d'États et de Pays§!.\nLe £kr_options_icon §YMenu d'Options§! peut être ouvert en cliquant sur son icône en haut à droite. Il vous permet d'ajuster la §Cfréquence des événements§! et d'activer le §Crenommage dynamique§! des états et des points de victoire."
 
  ## TAB 4 ##
- KR_CURRENT_VERSION: "1.1"
+ KR_CURRENT_VERSION: "1.1.1"
  KR_CURRENT_VERSION_NAME:9 "L'Empire Contre-attaque"
  KR_CURRENT_VERSION_COMBINED: "Kaiserreich $KR_CURRENT_VERSION$ "$KR_CURRENT_VERSION_NAME$""
  KR_welcome_splash_tab_4_header: "§YBienvenu à $KR_CURRENT_VERSION_COMBINED$\n\n\n\nFabriqué avec amour par l'équipe de Kaiserreich :§!"
@@ -85,6 +85,7 @@ REQUEST_EXP_FORCE_BLOCKED_TT: "§RCe pays ne vous permet pas de demander ses for
 
 ### Diplomacy Triggers ###
  cannot_call_allies_or_join_wars: "Impossible d'appeler des alliés ou de participer à des guerres"
+ cannot_call_allies_or_join_wars_except_subjects: "Ne Peut Pas Appeler des Alliés ou Participer à des Guerres (à l'Exception des Sujets)"
  cannot_call_allies_or_join_wars_warning: "§Y[ROOT.GetNameWithFlag]§! §Rne peut pas appeler des alliés ou rejoindre des guerres.§!"
  cannot_call_allies_or_join_wars_warning_FROM: "§Y[FROM.GetNameWithFlag]§! §Rne peut pas appeler des alliés ou rejoindre des guerres.§!"
 
@@ -304,6 +305,7 @@ FROM_becomes_nominal_puppet: "§H[From.GetNameDefCap]§! devient un §HFantoche 
 
  second_weltkrieg_threat:0 "Seconde Weltkrieg"
  second_weltkrieg_has_started: "La deuxième Weltkrieg a commencé"
+ second_weltkrieg_has_ended: "La Seconde Weltkrieg est terminée"
 
 ### Operatives ###
  operation_infiltrate_armed_forces_army_outcome: "Efficacité d'$operation_infiltrate_armed_forces_army$"
@@ -376,7 +378,7 @@ FROM_becomes_nominal_puppet: "§H[From.GetNameDefCap]§! devient un §HFantoche 
 
 ### Events ###
  generic_events.100.t:0 "L'Ordre Restauré en [Root.GetNameDef]"
- generic_events.100.d:0 "Tandis que [Root.GetNameDef] travaille encore sous la pression [overlord_name.GetAdjective], l'Armée [Root.GetAdjective] a obtenu assez de contrôle sur nos propres frontières afin que l'on puisse bénéficier d'une plus grande autonomie. Ce n'est pas l'indépendance - loin de là - mais cela signifie que nous ne devons plus compter sur les troupes [overlord_name.GetAdjective] pour sécuriser nos frontières"
+ generic_events.100.d: "Même si [Root.GetNameDef] reste sous contrôle [Root.overlord.GetAdjective],l’armée [Root.GetAdjective]e s'est assuré suffisamment de contrôle sur nos propres frontières pour qu’une autonomie plus grande soit possible. Il ne s’agit pas d’indépendance, loin de là, mais cela signifie que nous n’avons plus besoin de compter sur les troupes [Root.overlord.GetAdjective]es pour sécuriser nos frontières."
  generic_events.100.a:0 "Excellent"
 
  generic_events.101.t:0 "Ordre restauré en [From.GetNameDef]"
@@ -384,8 +386,7 @@ FROM_becomes_nominal_puppet: "§H[From.GetNameDefCap]§! devient un §HFantoche 
  generic_events.101.a:9 "Qu'il en soit ainsi"
 
  generic_events.102.t:0 "Une plus grande autonomie [Root.GetAdjective] ?"
- generic_events.102.d.tfv: "[Root.GetNameDefCap] reste sous le contrôle du gouvernement [overlord_name.GetAdjective], mais ce contrôle commence à s'atténuer à mesure que notre force se réaffirme. Le pouvoir [Root.GetAdjective] n'est pas facile à contenir, et nos dirigeants réclament à présent plus de contrôle sur nos propres affaires. Il est certain que notre suzerain [overlord_name.GetAdjective] ne sera pas capable de nous résister longtemps."
- generic_events.102.d:0 "[Root.GetNameDefCap] reste sous le contrôle du gouvernement [overlord_name.GetAdjective], mais ce contrôle commence à s'atténuer à mesure que notre force se réaffirme. Le pouvoir [Root.GetAdjective] n'est pas facile à contenir, et déjà nos dirigeants réclament à cor et à cri plus de contrôle sur nos propres affaires, et l'effet se fait sentir dans tout le pays."
+ generic_events.102.d: "[Root.GetNameDefCap] reste sous le contrôle du gouvernement [Root.overlord.GetAdjective], mais ce contrôle commence à s'affaiblir à mesure que notre force se réaffirme. Le pouvoir [Root.GetAdjective] n’est pas quelque chose de facile à contrôler, et déjà nos dirigeants réclament plus de contrôle sur nos propres affaires. Notre suzerain [Root.overlord.GetAdjective] ne pourra pas nous résister longtemps."
  generic_events.102.a:0 "Longue vie à [Root.GetNameDef] !"
 
  generic_events.103.t:0 "Une plus grande autonomie [From.GetAdjective]"
@@ -393,8 +394,7 @@ FROM_becomes_nominal_puppet: "§H[From.GetNameDefCap]§! devient un §HFantoche 
  generic_events.103.a:0 "Nous devrons regarder cela avec attention"
 
  generic_events.106.t:0 "La lutte pour l'indépendance"
- generic_events.106.d.tfv:0 "Le contrôle du gouvernement [overlord_name.GetAdjective] sur le gouvernement [Root.GetAdjective] est en perte de vitesse depuis un certain temps. Nous sommes trop puissants pour qu'ils puissent nous contenir. Les citoyens [Root.GetAdjective] réclament à cor et à cri que [Root.GetNameDef] soit libéré, et notre heure viendra bientôt."
- generic_events.106.d:0 "Le contrôle du gouvernement [overlord_name.GetAdjective] sur le gouvernement [Root.GetAdjective] est en perte de vitesse depuis un certain temps. Nous sommes trop puissants pour qu'ils puissent nous contenir. Les citoyens [Root.GetAdjective] réclament à cor et à cri que [Root.GetNameDef] soit libéré, et il semble que nous devions décider si nous allons exiger notre indépendance vis-à-vis de [overlord_name.GetNameDef]."
+ generic_events.106.d: "Le contrôle [Root.overlord.GetAdjective] sur le gouvernement [Root.GetAdjective] diminue depuis un certain temps déjà. Nous sommes trop puissants pour qu’ils puissent nous contenir. Il monte une profonde revendication au sein du peuple [Root.GetAdjective] pour que [Root.GetNameDef] soit libre, et bientôt notre heure viendra."
  generic_events.106.a:0 "Longue vie à un [Root.GetName] libre !"
  generic_events.106.b:0 "Oui, nous devons exiger notre indépendance"
  generic_events.106.c:0 "Non, mieux vaut ne pas déranger le nid de frelons"

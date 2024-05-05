@@ -487,9 +487,6 @@ SWI_joint_command_idea_desc: "Les leçons apprises en joignant notre commandemen
 SWI_nuclear_research_idea: "Commission d'étude de l'énergie nucléaire"
 SWI_nuclear_research_idea_desc: "La Commission d'étude de l'énergie nucléaire est chargée d'étudier la faisabilité de l'incorporation des armes nucléaires dans nos forces armées."
 
-SWI_tech_sharing_idea: "Partage technologique"
-SWI_tech_sharing_idea_desc: "Nous partageons notre technologie avec nos alliés, et ils partagent la leur avec nous."
-
 SWI_populist_fortress_idea: "Forteresses nationales"
 SWI_populist_fortress_idea_desc: "Notre pays est doté d'un large éventail de défenses naturelles. L'intégration de ces barrières naturelles dans de nouveaux réseaux défensifs rendra notre pays impénétrable à tout envahisseur potentiel."
 
@@ -1103,13 +1100,10 @@ swiss.140.t: "La Suisse refuse la paix"
 swiss.140.d: "Malgré notre généreuse offre face à l'avancée suisse, nous avons appris que les Suisses refusent toute offre de paix. Il semble que les Suisses aient tellement confiance en leur invincibilité qu'ils pensent pouvoir vaincre toute la Commune. Nous prendrons plaisir à détruire ces imbéciles."
 swiss.140.a: "Ce sont des voyous trop sûrs d'eux."
 
-swiss.141.t: "Paix avec la France !"
-swiss.141.d: "Nous avons appris aujourd'hui que la Suisse est parvenue à une paix négociée avec la France. C'est une victoire pour nous et pour les Suisses, la menace syndicaliste a montré sa faiblesse au monde entier !"
+ swiss.141.t: "Paix avec [FROM.GetNonIdeologyName]!"
+ swiss.141.d.switzerland: "Nous avons remporté la guerre contre [FROM.GetNonIdeologyName] ! Les gens applaudissent dans les rues et des défilés sont organisés en l'honneur de nos troupes victorieuses dans tout le pays. L'heure est à la fête !"
+ swiss.141.d.other: "Nous avons appris aujourd'hui que la Suisse était parvenue à une paix négociée avec [FROM.GetNonIdeologyName]. C'est une victoire pour nous et pour les Suisses, et la menace syndicaliste a montré sa faiblesse au monde entier !"
 swiss.141.a: "La paix est rétablie."
-
-swiss.142.t: "Victoire!"
-swiss.142.d: "Nous sommes sortis victorieux de la guerre contre la France ! Les gens applaudissent dans les rues et des défilés sont organisés en l'honneur de nos troupes victorieuses dans tout le pays. Il est temps de célébrer !"
-swiss.142.a: "Une paix bien méritée."
 
 swiss.143.t: "Occupation de la Haute-Savoie"
 swiss.143.d: "En 1815, lors du Congrès de Vienne, la Suisse a obtenu le droit légal de maintenir la neutralité de la Haute-Savoie en échange de l'abandon de toutes les revendications officielles sur la région. Pendant la Weltkrieg, alors que la France tombait aux mains des révolutionnaires syndicalistes, le gouvernement suisse a jugé nécessaire d'envoyer des soldats pour protéger la région de la violence chaotique de l'époque.\n\nPeu de temps après, le véritable gouvernement français a été exilé en Afrique, et la Suisse a maintenu son occupation militaire de la région jusqu'à ce que la France retourne sur le continent pour la réclamer.\n\nCela n'à bien sûr pas plu au gouvernement actuel à Paris, qui a activement tenté de récupérer la province."
@@ -1629,6 +1623,9 @@ SWI_national_populist_DEF: "l'État Suisse"
 
  SWI_hans_bandi: "Hans Bandi"
  SWI_hans_bandi_commander_desc: "§YGeneral Description\nBorn:§! §gJuly 19th, 1882, in Bern, Switzerland§!"
+
+ SWI_friedrich_prisi: "Friedrich Prisi"
+ SWI_friedrich_prisi_commander_desc: "§YGeneral Description\nBorn:§! §gDecember 25th, 1875, in Uebeschi, Bern, Switzerland§!"
 
  SWI_fritz_rihner:0 "Fritz Rihner"
  SWI_etienne_primault:0 "Etienne Primault"

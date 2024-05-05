@@ -33,10 +33,14 @@ annexation_decisions: "Décisions d'annexion"
  annex.occupation: "Maintenir l'occupation, pour l'instant."
  annex.integration: "Assimiler dans notre territoire."
 
+ annex.give_to_entente_british:0 "Rendez la aux Britanniques."
+
  annex.europe.give_to_gex: "[GEX.GetGrantTerritoryEventOption]"
 
+ annex.africa.give_to_britain: "[britain.GetGrantTerritoryEventOption]"
  annex.africa.give_to_france:0 "[france.GetGrantTerritoryEventOption]"
  annex.africa.give_to_belgium:0 "[belgium.GetGrantTerritoryEventOption]"
+ annex.africa.give_to_portugal: "[portugal.GetGrantTerritoryEventOption]"
  annex.africa.give_to_maf: "[MAF.GetGrantTerritoryEventOption]"
  annex.africa.give_to_cmr: "[CMR.GetGrantTerritoryEventOption]"
  annex.africa.give_to_tzn: "[TZN.GetGrantTerritoryEventOption]"
@@ -1074,6 +1078,7 @@ annexation_MLT_CONQ_desc: "Malte a été placée sous notre direction et nos tro
  annex.2003.c: "Restaurer le Dominion du Canada !"
  annex.2003.d: "C'est notre Destinée Manifeste d'annexer le Canada !"
  annex.2003.e: "Notre Destinée Manifeste ne concerne pas les Français, libérer le Québec et annexer le Canada."
+ annex.2003.g: "Libérez le Canada et intégrez Terre-Neuve !"
  annex.2003.f: "Rendez la aux Britanniques."
 
  annexation_MEX_CONQ: "Le destin du Mexique"
@@ -1147,7 +1152,7 @@ annexation_MLT_CONQ_desc: "Malte a été placée sous notre direction et nos tro
 
  annexation_WIF_CONQ: "Le destin de la Fédération des Indes Occidentales"
  annexation_WIF_CONQ_desc: "Après une longue campagne, une bonne partie de la région des Caraïbes est maintenant sous notre contrôle. Nous devons décider de ce qu'il faut faire de ses nombreuses îles dispersées."
- annex.2016.a: "Libérer la Fédération des Antilles sous un gouvernement ami !"
+ annex.2016.a: "Libérer les Indes Occidentales"
  annex.2016.b: "Nous déciderons de ce que nous ferons de chaque région séparément."
 
  annexation_JAM_CONQ: "Le destin de la Jamaïque"
@@ -1157,7 +1162,8 @@ annexation_MLT_CONQ_desc: "Malte a été placée sous notre direction et nos tro
 
  annexation_CARIBBEAN_CONQ: "Le Destin des îles des Caraïbes"
  annexation_CARIBBEAN_CONQ_desc: "Les nombreuses petites îles des Caraïbes formant l'ancienne [WIF.GetNameDef] ont été placées sous notre contrôle alors que nos troupes occupent la région. Nous devons décider quoi en faire."
- annex.2018.a: "Donnez ces îles à la [WIF.GetNameDef]"
+ annex.2018.a: "Libérer les Indes Occidentales"
+ annex.2018.b:0 "[WIF.GetGrantTerritoryEventOption]"
 
  annexation_TRI_CONQ: "Le destin de Trinité-et-Tobago"
  annexation_TRI_CONQ_desc: " Suite à une brève campagne, Port-d'Espagne est sous contrôle et avec elle toute Trinité-et-Tobago. Que faut-il faire des îles ?"
@@ -1937,9 +1943,8 @@ annexation_MLT_CONQ_desc: "Malte a été placée sous notre direction et nos tro
 
  annexation_ZAM_CONQ: "Le Destin de la [ZAM.GetNameDef]"
  annexation_ZAM_CONQ_desc: "Maintenant que nous contrôlons l'ancienne colonie allemande de [ZAM.GetNameDef], il ne nous reste plus qu'à choisir comment administrer la zone, devrions-nous créer une [ZAM.GetNameDef] indépendante et, si oui, devrions-nous inclure le Nyasaland dedans ?"
- annex.5004.a: "Former la [ZAM.GetNameDef] et y inclure le Nyasaland."
- annex.5004.b: "Former l'Etat de [ZAM.GetNameDef]."
- annex.5004.c: "Donnez le au [ZIM.GetNameDef]."
+ annex.5004.a:9 "Former la [ZAM.GetNameDef] et y inclure le Nyasaland."
+ annex.5004.b: "[ZIM.GetGrantTerritoryEventOption]"
 
  annexation_ANG_CONQ: "Le Destin de l'[ANG.GetNameDef]"
  annexation_ANG_CONQ_desc: "Notre annexion de l'ancienne colonie portugaise d'[ANG.GetNameDef] nous a laissé gérer des millions d'Africains loin des mers. L'installation d'un gouvernement local sera certainement plus facile à gérer pour nous, mais devrions-nous faire confiance aux habitants pour cela ?"
@@ -1963,48 +1968,47 @@ annexation_MLT_CONQ_desc: "Malte a été placée sous notre direction et nos tro
 
  annexation_IVO_CONQ: "Le destin de la Côte d'Ivoire"
  annexation_IVO_CONQ_desc: "La Côte d'Ivoire, qui faisait autrefois partie de l'empire colonial français, est désormais sous notre contrôle. Ses habitants réclament désormais une administration compétente pour s'occuper des impôts ou de la conscription. Devrions-nous essayer de les gouverner depuis notre capitale ou un gouvernement local limité serait-il une meilleure solution ?"
- annex.5010.a: "Former l'état de la Côte d'Ivoire."
+ annex.5010.a: "Former l'Etat de [IVO.GetNameDef]"
 
  annexation_LIB_CONQ: "Le destin du Liberia"
  annexation_LIB_CONQ_desc: "L'État du Liberia, fondé par une société américaine dans le but de ramener les Noirs américains en Afrique, a toujours été un État particulier. Sous le contrôle lâche des Américains depuis des années, le pays est maintenant tombé devant notre puissance. L'identité libérienne est forte et essayer de lesannexer directement pourrait s'avérer inefficace, les responsables de notre pays appellent plutôt à la création d'un État libérien loyal, devrions-nous le faire ?"
- annex.5011.a: "Créer un État loyal du Liberia."
- annex.5011.b: "Créer un État loyal du Liberia."
+ annex.5011.a: "Libérer le Libéria."
 
  annexation_SIE_CONQ: "Le destin du Sierra Leone"
  annexation_SIE_CONQ_desc: "L'ancienne colonie britannique du Sierra Leone, autrefois un refuge pour d'anciens esclaves britanniques loyaux, a été capturée par nos armées en progression et a été intégrée à notre empire. Mais malgré tous nos efforts, son administration se révèle être une difficulté pour nos administrateurs non formés, d'aucuns ont plaidé pour donner plus d'autonomie au territoire, devrions-nous lui permettre ?"
- annex.5012.a: "Former l'état de la Sierra Leone."
+ annex.5012.a: "Former l'état de [SIE.GetNameDef]."
 
  annexation_GNA_CONQ: "Le destin de la Guinée"
  annexation_GNA_CONQ_desc: "L'ancienne colonie française de Guinée, divisée entre un nord montagneux traditionnel et un sud colonial, a étéannexée à notre empire en expansion. Il nous reste maintenant la tâche complexe d'organiser ce nouveau territoire, devrions-nous l'incorporer directement dans notre structure de pouvoir ou devrions-nous y créer un état fantoches distinct ?"
- annex.5013.a: "Former l'état de la Guinée."
+ annex.5013.a: "Former l'état de [GNA.GetNameDef]."
 
  annexation_SEN_CONQ: "Le destin de la Sénégambie"
  annexation_SEN_CONQ_desc: "Le port de Dakar, anciennement le plus important port d'Afrique de l'Ouest française, est tombé à nos assauts répétés et avec lui toute la colonie du Sénégal dont les 4 communes françaises sont tombées. Mais ce changement de propriétaire s'est accompagné d'autres problèmes à mesure que les administrateurs français qualifiés ont quitté le territoire, nous laissant un vide organisationnel, devrions-nous créer un sujet loyal ici pour atténuer nos problèmes ?"
- annex.5015.a: "Former l'État de Sénégambie."
+ annex.5015.a: "Former l'État de [SEN.GetNameDef]."
 
  annexation_MRT_CONQ: "Le destin de la Mauritanie"
  annexation_MRT_CONQ_desc: " La région désertique de la Mauritanie est passée sous le contrôle de nos armées. L'ancienne colonie française, non encore pacifiée il y a 15 ans, a aujourd'hui besoin d'un gouvernement pour la gouverner efficacement et éviter que le territoire ne retombe dans l'anarchie. Devrions-nous envisager la création d'un État fantoche mauritanien ?"
- annex.5016.a: "Former l'État de Mauritanie."
+ annex.5016.a: "Former l'État de [MRT.GetNameDef]."
 
  annexation_MLI_CONQ: "Le Destin du Mali"
  annexation_MLI_CONQ_desc: "La vallée du fleuve Niger, autrefois appelée Soudan français ou Mali, est aujourd'hui directement intégrée à nos territoires. Cette colonie a cependant besoin d'une meilleure administration que nous aurons du mal à lui fournir, néanmoins la population locale et les restes de l'administration française peuvent l'administrer pour nous dans une certaine mesure, devrions-nous les laisser former un état fantoche loyal ?"
- annex.5017.a: "Former l'état du Mali."
+ annex.5017.a: "Former l'Etat du [MLI.GetNameDef]."
 
  annexation_VOL_CONQ: "Le destin de la Haute-Volta"
  annexation_VOL_CONQ_desc: "Les anciennes terres des Mossi autour de la région de la Volta sont passées sous notre contrôle et font maintenant partie de notre pays. Souvent divisé et mal considéré par les autorités coloniales, leur peuple nous demande maintenant une chance de former leur propre État. Devrions-nous les laisser s'organiser dans une certaine mesure ?"
- annex.5018.a: "Former l'état de la Haute-Volta."
+ annex.5018.a: "Former l'Etat de [VOL.GetNameDef]."
 
  annexation_NGR_CONQ: "Le destin du Niger"
  annexation_NGR_CONQ_desc: "Nos fières armées viennent d'annexer l'ancienne colonie française du Niger qui a maintenant besoin d'un véritable gouvernement. Devons-nous y établir notre administration ou devons-nous les laisser former un gouvernement local ?"
- annex.5019.a: "Former l'état du Niger."
+ annex.5019.a: "Former l'Etat du [NGR.GetNameDef]."
 
  annexation_CHA_CONQ: "Le destin du Tchad"
  annexation_CHA_CONQ_desc: "Enfin, notre annexion de la région du Tchad est terminée, l'ancienne colonie française a maintenant besoin d'une administration compétente pour la gérer. Compte tenu des difficultés qu'elle a rencontrées, entre révoltes tribales et passives, la France devrait-elle envisager de lui accorder une autonomie pour alléger ce fardeau ?"
- annex.5020.a: "Former l'état du Tchad."
+ annex.5020.a: "Former l'Etat du [CHA.GetNameDef]."
 
  annexation_MOR_CONQ: "Le destin du Maroc"
  annexation_MOR_CONQ_desc: "Nous avons libéré le Maroc des Allemands et nos forces ont maintenant des difficultés à occuper les régions montagneuses et semi-arides du pays. Bien que les centres urbains soient sous notre contrôle, il serait peut-être sage de confier davantage de contrôle aux locaux."
- annex.5021.a: "Nous devons les libérer."
+ annex.5021.a: "Libérer le Maroc."
 
  annexation_RIO_DE_ORO_CONQ: "Le destion de Rio de Oro"
  annexation_RIO_DE_ORO_CONQ_desc: "La région désertique du Rio de Oro est maintenant sous notre contrôle, nous devons décider quoi en faire."
@@ -2015,7 +2019,7 @@ annexation_MLT_CONQ_desc: "Malte a été placée sous notre direction et nos tro
 
  annexation_ALG_CONQ: "Le destin de l'Algérie"
  annexation_ALG_CONQ_desc: " Nous avons finalement libéré l'Algérie des tyrans français à Alger. Devrions-nous donner la liberté aux Algériens ?"
- annex.5024.a: "Libérer une Algérie loyale."
+ annex.5024.a: "Libérer l'Algérie."
 
  annexation_TUN_CONQ: "Le destin de la Tunisie"
  annexation_TUN_CONQ_desc: "Après avoir submergé les défenses tunisiennes, nous avons lancé une offensive complète et Tunis est maintenant entre nos mains, comme le reste de la Tunisie. Le Bey et plusieurs nationalistes réclament l'autonomie, et certains suggèrent qu'elle leur soit accordée. Sinon, nous pourrions continuer à occuper la Tunisie. Que devrions-nous faire ?"
@@ -2023,13 +2027,12 @@ annexation_MLT_CONQ_desc: "Malte a été placée sous notre direction et nos tro
 
  annexation_ETH_CONQ: "Le destin de l’Éthiopie"
  annexation_ETH_CONQ_desc: "Après notre campagne réussie en Éthiopie, nous avons maintenant la tâche d'établir une nouvelle autorité administrative locale afin de rétablir la paix, mais il existe plusieurs options pour notre choix..."
- annex.5026.a: "Créer seulement l'Éthiopie."
- annex.5026.b: "Créer l'Éthiopie et l'Érythrée."
+ annex.5026.a: "Libérer l'Éthiopie."
 
  annexation_ERI_CONQ: "Le destin de l’Érythrée"
  annexation_ERI_CONQ_desc: "Après le succès de notre campagne en Érythrée, nous avons maintenant la tâche d'établir une nouvelle autorité administrative locale afin de rétablir la paix, mais il existe plusieurs options pour notre choix..."
- annex.5027.a: "Libérez l'Érythrée sous un gouvernement ami !"
- annex.5027.b: "Rendez-le à notre ami l'Éthiopie."
+ annex.5027.a: "Libérer l'Érythrée."
+ annex.5027.b:9 "Rendez-le à notre ami l'Éthiopie."
 
  annexation_DJIBOUTI_CONQ: "Le Destin de [268.GetName]"
  annexation_DJIBOUTI_CONQ_desc: "Nous contrôlons maintenant [268.GetName] mais nous avons une marionnette proche qui pourrait être mieux à même de gérer le territoire, devrions-nous lui donner ?"
@@ -2038,15 +2041,15 @@ annexation_MLT_CONQ_desc: "Malte a été placée sous notre direction et nos tro
 
  annexation_SOM_CONQ: "Le destin de la Somalie"
  annexation_SOM_CONQ_desc: "Nous contrôlons maintenant les territoires de l'ancien État derviche de Somalie et cette zone inhospitalière peuplée de Somaliens s'avérera difficile à entretenir par l'occupation, nous devrions peut-être laisser les Somaliens s'organiser dans une certaine mesure ?"
- annex.5029.a:0 "Créer une Somalie loyale."
+ annex.5029.a: "Libérer la Somalie."
 
  annexation_KEN_CONQ: "Le destin du Kenya"
  annexation_KEN_CONQ_desc: "Les steppes du Kenya sont maintenant sous notre contrôle gracieux, que devrions-nous en faire ? Devons les contrôler directement ou les libérer ?"
- annex.5030.a: "Former l'état du Kenya."
+ annex.5030.a: "Former l'Etat du [KEN.GetNameDef]."
 
  annexation_UGA_CONQ: "Le destin de l'Ouganda"
  annexation_UGA_CONQ_desc: "Nous occupons maintenant l'ancienne colonie allemande de l'Ouganda et cette région, peuplée et proche des Grands Lacs est loin de tout ce que nous pourrions contrôler, devrions-nous faciliter les choses en leur donnant un niveau d'autonomie ou devrions-nous L'occupation militaire est la seule réponse. ?"
- annex.5031.a: "Former l'état de l'Ouganda."
+ annex.5031.a: "Former l'Etat d'[UGA.GetNameDef]."
 
  annexation_TZN_CONQ: "Le destin de l'Afrique de l'Est"
  annexation_TZN_CONQ_desc: "Nous occupons maintenant le carrefour de l'ancienne colonie allemande de Mittelafrika, l'Afrique de l'Est, et sa capitale Dar-es-Salaam. Devons-nous en faire une éventuelle capitale de notre nouvel empire colonial ou laisser les locaux administrer cette terre avec un degré d'efficacité que nous ne pourrions jamais atteindre ?"
@@ -2055,47 +2058,47 @@ annexation_MLT_CONQ_desc: "Malte a été placée sous notre direction et nos tro
 
  annexation_RWA_CONQ: "Le destin du Rwanda"
  annexation_RWA_CONQ_desc: "Après la libération du Rwanda de l'emprise coloniale allemande, il nous reste le choix de laisser les Rwandais se gouverner eux-mêmes dans une certaine mesure ou non, devons-nous le faire ?"
- annex.5033.a: "Former l'état du Rwanda."
+ annex.5033.a: "Former l'Etat du [RWA.GetNameDef]."
 
  annexation_BRD_CONQ: "Le destin de l'Urundi"
  annexation_BRD_CONQ_desc: "Nous avons maintenant annexé l'Uurundi, une partie de l'ancienne colonie allemande de l'Afrique de l'Est, devons-nous restaurer l'indépendance de l'Urundi et les laisser gérer leurs propres terres ?"
- annex.5034.a: "Former l'État d'Urundi."
+ annex.5034.a: "Former l'État du [BRD.GetNameDef]."
 
  annexation_MZB_CONQ: "Le destin du Mozambique"
  annexation_MZB_CONQ_desc: "Notre annexion de l'ancienne colonie portugaise du Mozambique nous a laissé gérer ces millions d'Africains loin des mers. Il est certain que l'installation d'un gouvernement local sera plus facile à gérer pour nous, mais devrions-nous faire confiance aux locaux pour cela ?"
  annex.5035.a: "Former l'État du Mozambique !"
  annex.5035.b: "Annexez les territoires du sud et libérez le reste sous le nom de Mozambique."
+ annex.5035.c: "Annexer les zones méridionales et donner le reste à [portugal.GetNameDef]."
 
  annexation_MLW_CONQ: "Le destin du Nyassaland"
  annexation_MLW_CONQ_desc: "Avec notre nouvelle occupation de l'ancienne colonie allemande de Nyassaland le choix de mettre en place un gouvernement fantoche en partie dirigé par des locaux au lieu d'une nouvelle colonie a été évoqué, devrions-nous avancer cette idée ?"
- annex.5036.a: "Former l'état du Nyasaland."
+ annex.5036.a: "Former l'Etat du [MLW.GetNameDef]."
  annex.5036.b: "Donnez-le à [955.owne.GetNameDef]."
 
  annexation_MAD_CONQ: "Le Destin de Madagascar"
  annexation_MAD_CONQ_desc: "Nos puissantes armées ont pris le contrôle de l'ancienne colonie allemande de Madagascar. L'immense île est actuellement sous administration militaire mais nous pourrions vouloir y installer une véritable administration, doit-elle être locale ou devons-nous annexer l'île directement à notre empire ?"
- annex.5037.a: "Former l'état de Madagascar."
+ annex.5037.a: "Former l'Etat de [MAD.GetNameDef]."
  annex.5037.b: "Rétablir la monarchie Merina."
 
  annexation_SAF_CONQ: "Le destin de l'Afrique du Sud"
  annexation_SAF_CONQ_desc: "Enfin, le dominion africain d'Afrique du Sud a capitulé face à nos glorieuses armées qui marchent maintenant dans les rues du Cap. Après le début de notre occupation militaire et maintenant que la guerre est terminée, des voix se sont élevées pour affirmer que nous devrions créer une nation sud-africaine fantôche pour garder la zone sous contrôle, mais au cours de ces discussions, une autre question a été soulevée : si nous créer cet État fantoche, doit-il conserver les protectorats du Bechuanaland et de la Rhodésie que le pays contrôle depuis plus d'une décennie, ou doit-on réduire leur zone d'influence au cœur du pays ? C'est maintenant à vous de décider."
- annex.5038.a: "Libérez l'Afrique du Sud et laissez-les garder les protectorats."
- annex.5038.b: "Libérez l'Afrique du Sud, mais séparez la Rhodésie."
- annex.5038.c: "Soustraire les protectorats à l'influence de l'Afrique du Sud."
- annex.5038.d: "Libérez l'Afrique du Sud."
- annex.5038.e:0 "[SAF.GetGrantTerritoryEventOption]"
- annex.5038.f:0 "Rendez la aux Britanniques."
+ annex.5038.a:9 "Libérez l'Afrique du Sud et laissez-les garder les protectorats."
+ annex.5038.b:9 "Libérez l'Afrique du Sud, mais séparez la Rhodésie."
+ annex.5038.c: "Libérer l'Afrique du Sud avec les Protectorats."
+ annex.5038.d:9 "Libérez l'Afrique du Sud."
+ annex.5038.e: "Libérer l'Afrique du Sud sans les protectorats."
 
  annexation_NMB_CONQ: "Le destin de la Namibie"
  annexation_NMB_CONQ_desc: "Nous avons annexé l'ancienne colonie allemande de Südwestafrika, plus connue sous le nom de Namibie, mais il nous reste maintenant à gérer des milliers d'Africains sur un territoire que nous ne connaissons pas. Devons-nous instituer un degré d'autodétermination ou devons-nous diriger cet endroit comme une nouvelle colonie ?"
- annex.5039.a: "Former l'État de Namibie !"
+ annex.5039.a: "Former l'État de [NMB.GetNameDef]!"
 
  annexation_BOT_CONQ: "Le destin du Botswana"
  annexation_BOT_CONQ_desc: " Le protectorat du Botswana, qui est passé de la direction britannique à celle de l'Afrique du Sud, a connu de nombreux changements et est maintenant prêt pour l'indépendance. Devrions-nous créer un sujet au Botswanai ?"
- annex.5040.a: "Former l'État du Botswana."
+ annex.5040.a: "Former l'État du [BOT.GetNameDef]."
 
  annexation_ZIM_CONQ: "Le destin du Zimbabwe"
  annexation_ZIM_CONQ_desc: "Le protectorat du Zimbabwe/Rhodésie a connu de nombreux mouvements pour l'indépendance au cours de son temps en tant que colonie mais aucun n'a réussi jusqu'à présent, avec notreannexion du pays, il y a maintenant un espoir que la nation zimbabwéenne sera créée, devons-nous le faire ?"
- annex.5041.a: "Former l'état du Zimbabwe."
+ annex.5041.a: "Former l'état du [ZIM.GetNameDef]."
 
  annexation_SUD_CONQ: "Le Destin du Soudan"
  annexation_SUD_CONQ_desc: "Le Soudan a été placé sous le contrôle de nos troupes. Nous devons maintenant décider ce que nous allons en faire."
