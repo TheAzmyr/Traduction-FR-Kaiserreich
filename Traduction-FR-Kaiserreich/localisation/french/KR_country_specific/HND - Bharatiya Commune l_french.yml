@@ -313,10 +313,14 @@ HND_claim_goa: "Revendiquer Goa"
 HND_claim_goa_desc: "L'enclave de Goa n'est rien de plus qu'une bavure du côté de notre fière nation. C'est légitimement notre territoire, et doit être restitué"
  HND_claim_pondicherry: "Revendiquer Pondichéry"
  HND_claim_pondicherry_desc: "L'enclave de Pondichéry n'est rien de plus qu'une injure jetée à la face de notre fière nation. C'est sans doute un de nos terriroires nationaux et il doit nous être restitué."
- HND_burma: "Incorporer la Birmanie"
-HND_burma_desc: "Le royaume oriental de la Birmanie faisait autrefois partie du Raj, et le temps est venu de l'intégrer dans notre pays en expansion"
+ HND_burma: "Libérer la Birmanie"
+ HND_burma_desc: "Comme nous, la Birmanie était autrefois sous le joug des impérialistes qui ont pris sa richesse et son indépendance comme un moustique suce du sang. Bien que nous puissions féliciter nos frères Birmans pour s'être eux aussi libérés du colonialisme, contrairement à nous ils ont été incapables de mettre à bas le joug du capital et en souffrent encore aujourd'hui. La révolution de l'Inde étant enfin complète le temps est venu de terminer la libération de la Birmanie."
  HND_siam: "Les territoires Birman du Siam"
 HND_siam_desc: "Le royaume siamois est l'un des \"États vautours\" les plus opportunistes, un de ceux qui n'ont pas hésité à exploiter le désordre qui a suivi la chute du Raj. La jeune nation birmane ayant été durement éprouvée par les soulèvements socialistes en Assam et au Bengale, le gouvernement du Siam a simplement occupé plusieurs districts et préfectures, dont la ville de Moulmein - mentionnée dans le célèbre poème de Kipling. Ces terres doivent être récupérées !"
+ HND_tibet: "Libérer les Régions Frontalières"
+ HND_tibet_desc: "Lorsque la nation indienne a sombré dans le chaos, au moment où son peuple tentait de se libérer du joug de la domination britannique, les Tibétains ont saisi l'occasion pour occuper la région frontalière de [858.GetName] et ont contraint la population qui y vivait à se soumettre à leur domination. Une telle injustice ne peut pas perdurer et doit être corrigée immédiatement."
+ HND_aksai_chin: "Rétablir l'Unité du Cachemire"
+ HND_aksai_chin_desc: "Le pays étant enfin uni, nous sommes en mesure d'envisager des menaces plus lointaines et de protéger la révolution contre les menaces les plus improbables provenant de l'extérieur de nos frontières. À l'heure actuelle, la partie la plus septentrionale du Cachemire est toujours aux mains des seigneurs de la guerre locaux, qui font subir à la population leur mauvaise administration. Nous devons frapper tant que l'occasion se présente et restaurer l'ensemble du Cachemire en tant que partie intégrante de la nation."
 HND_ceylon: "Revendiquer Ceylan"
  HND_ceylon_desc: "De plein droit, Ceylan, les Maldives et les îles Andaman font partie du territoire légitime de notre nation. Leur occupation doit prendre fin."
 HND_red_raj: "La place du Raj Rouge"
@@ -745,7 +749,7 @@ beng.122.d: "Les manifestations dans l'ancien état princier de [damage_state.Ge
 beng.122.a: "Sans doute financé par la richesse princière..."
 
 beng.125.t: "Session extraordinaire du CNI"
-beng.125.d: "Le mandat constitutionnel de cinq ans du comité exécutif est arrivé à son terme, marquant le début d'une nouvelle série de manœuvres politiques et de coups bas alors que les différentes factions luttent pour le contrôle du Congrès. Calcutta est drapée dans le drapeau rouge de l'Inde Libre et les rues sont animées par les sons de son enthousiasme"
+ beng.125.d: "Le mandat constitutionnel de cinq ans du comité exécutif est arrivé à son terme, marquant le début d'une nouvelle série de manœuvres politiques et de coups bas alors que les différentes factions luttent pour le contrôle du Congrès. Calcutta est drapée dans le drapeau rouge de l'Inde Libre et les rues sont animées par les sons de son enthousiasme."
 beng.125.a: "Au travail, camarades !"
 
 beng.126.t: "La Loi sur la réforme judiciaire"
@@ -821,7 +825,7 @@ beng.135.c: "Nehru utilise le soutien syndical de Dange pour remporter la prési
  beng.137.a: "Il faut essayer !"
  beng.137.b: "Nous sommes déjà débordés. Ils sont seuls."
 
- beng.138.t "[From.GetName] a refusé"
+ beng.138.t:0 "[From.GetName] a refusé"
  beng.138.d: "Le gouvernement [From.GetAdjective] a fait savoir que l'Internationale n'avait pas besoin de notre alliance"
  beng.138.a: "Ordures!"
 
@@ -829,6 +833,34 @@ beng.135.c: "Nehru utilise le soutien syndical de Dange pour remporter la prési
  beng.139.d: "Alors que les feux révolutionnaires balaient l'Asie, le besoin de solidarité et de coopération entre les peuples nouvellement émancipés devient de plus en plus évident. Conscients des dangers de rester neutres sur une scène mondiale en pleine mutation, nos camarades de [From.GetNameDef] ont demandé à rejoindre la [ROOT.GetFactionName]. Accepter cette demande nous permettrait d'étendre notre influence en Asie, mais des voix dissidentes nous ont mis en garde contre l'engagement dans des entreprises étrangères inutiles."
  beng.139.a: "Nous souhaitons la bienvenue à nos camarades [From.GetAdjectiveCap]s."
  beng.139.b: "Ce n'est pas nécessaire, rejetons leur pétition."
+
+ beng.150.t: "[FROM.GetNameDefCap] réclame [858.GetName]"
+ beng.150.d: "Le sous-continent indien étant à nouveau unifié, [FROM.GetNameDef] a commencé à réclamer le rétablissement complet de leurs anciennes frontières et ont exigé que le territoire frontalier de [858.GetName] leur soit transféré. Bien qu'une telle affirmation soit évidemment fausse, il semble peu probable qu'une puissance aussi renaissante abandonne simplement la question en cas de refus et cherchera probablement à faire valoir ses revendications par la guerre. Il faut donc déterminer si la nation est préparée à une telle éventualité."
+ beng.150.a: "Nous n'avons pas d'autre choix que de nous y conformer"
+ beng.150.b: "Nous ne céderons rien à ces tyrans !"
+
+ beng.151.t: "[FROM.GetNameDefCap] accepte de restituer [858.GetName]"
+ beng.151.d: "[FROM.GetName] a répondu. Ils ont décidé de rendre le territoire occupé de [858.GetName] aux autorités [ROOT.GetAdjective]es et mieux encore, ils ont décidé de le faire pacifiquement."
+ beng.151.a: "Il est bon qu'ils aient entendu raison."
+
+ beng.152.t: "[FROM.GetNameDefCap] refuse de rendre [858.GetName]"
+ beng.152.d: "En violation de la souveraineté [ROOT.GetAdjective]e sur la région, [FROM.GetName] a refusé de restituer [858.GetName] et ont clairement fait part de leur intention de maintenir leur occupation. Il semble qu'il soit temps à présent d'avoir recours à la force ou de leur abandonner la région."
+ beng.152.a: "Il semble que la force soit la seule option qui reste."
+ beng.152.b: "Il ne vaut pas la peine de faire la guerre pour un différend aussi mineur."
+
+ beng.153.t: "[FROM.GetNameDefCap] demande [897.GetName]"
+ beng.153.d: "Le sous-continent indien étant à nouveau unifié, [FROM.GetNameDef] a commencé à réclamer le rétablissement complet de leurs anciennes frontières et a exigé que le territoire frontalier de [897.GetName] leur soit transféré. Bien qu'une telle affirmation soit évidemment totalement fausse, il semble peu probable qu'une puissance aussi renaissante abandonne simplement la question en cas de refus et cherchera probablement à faire valoir ses revendications par la guerre. Il faut donc déterminer si la nation est préparée à une telle éventualité."
+ beng.153.a: "Nous n'avons pas d'autre choix que de nous y conformer"
+ beng.153.b: "Nous ne céderons rien à ces tyrans !"
+
+ beng.154.t: "[FROM.GetNameDefCap] accepte de restituer [897.GetName]"
+ beng.154.d: "Une réponse a été reçue de la part de [FROM.GetName], et ils ont intelligemment décidé d'obtempérer. Ils ont donc accepté de restituer le territoire occupé de [897.GetName] aux autorités [ROOT.GetAdjective]es."
+ beng.154.a: "Il est bon qu'ils aient entendu raison."
+
+ beng.155.t: "[FROM.GetNameDefCap] refuse de restituer [897.GetName]"
+ beng.155.d: "En violation de la souveraineté [ROOT.GetAdjective]e sur la région, [FROM.GetName] a refusé de restituer [897.GetName] et a clairement fait part de son intention de maintenir leur occupation. Il semble qu'il soit temps maintenant d'avoir recours à la forge ou de leur abandonner la région."
+ beng.155.a: "Il semble que la force soit la seule option qui reste."
+ beng.155.b: "Il ne vaut pas la peine de faire la guerre pour un différend aussi mineur."
 
  beng.200.t: "Choix de la Capitale de l'[ROOT.GetNameDef]"
  beng.200.d.RAJ: "Maintenant que l'Inde est enfin unifiée, il est temps de reconstruire et de décider où nous voulons que la capitale du pays soit. Alors que Lahore nous a bien servi, il peut être judicieux de retourner à Delhi où l'infrastructure et les opportunités pour en faire un centre économique avaient commencé à être établies depuis 1911. Alternativement, nous pouvons retourner à Calcutta, l'ancienne capitale de l'Inde Britannique, où la période de croissance industrielle sous la commune de Bharatiya et sa proximité avec la côte pourraient être un atout utile pour le commerce de l'Inde avec le reste du monde. Hyderabad, quant à elle, au cœur du sud de l'Inde, fondée en 1591, est devenue un centre culturel au cours des deux dernières décennies. Ou nous pouvons choisir de rester à Lahore, qui est restée notre capitale provisoire, tandis que nous intégrons lentement le reste du pays et le débarrassons des éléments réactionnaires et radicaux."

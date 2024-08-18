@@ -363,6 +363,7 @@ RUS_Establish_The_VES: "Établir le VES"
 
 RUS_Ural_Tractor_Plants: " Usines de tracteurs de l'Oural"
  RUS_Ural_Tractor_Plants_desc: "S'il y a une chose qui ne manque pas à la Russie, c'est la terre. Nous allons créer des usines et des aciéries financées par l'État au cœur de notre nation pour produire des véhicules mécanisés, bien au-delà de la portée de l'Europe."
+ RUS_Ural_Tractor_Plants_Socialist: "$RUS_Ural_Tractor_Plants$"
 
 RUS_Machine_And_Tractor_Stations: "Stations de machines et de tracteurs"
 RUS_Machine_And_Tractor_Stations_desc: "La redistribution des terres promise par Savinkov nous a permis de financer de nombreuses exploitations agricoles en Russie centrale. La prochaine étape est de fournir à nos paysans des machines agricoles. C'est pourquoi nous devrions établir des stations de machines et de tracteurs (MTS), qui seraient des agences rurales qui fourniraient aux fermes des machines agricoles et des personnes pour les faire fonctionner. Une telle coopération permettra de relancer le secteur agricole en Russie."
@@ -432,9 +433,11 @@ RUS_Decentralised_Logistics_desc: "La taille de la Russie est à la fois sa plus
 
 RUS_Expand_The_Transsiberian: " Développer le Transsibérien "
 RUS_Expand_The_Transsiberian_desc: "L'importance du Transsibérien pour notre armée et notre économie ne peut être surestimée. L'infrastructure étant mise à rude épreuve par la croissance, nous devons l'étendre, en construisant de nouveaux chemins de fer et de nouvelles jonctions à l'aide de technologies plus récentes"
+ RUS_Expand_The_Transsiberian_Socialist: "$RUS_Expand_The_Transsiberian$"
 
 RUS_Research_Investments: "Investissements dans la recherche"
 RUS_Research_Investments_desc: "Grâce à nos lourds investissements dans notre industrie et notre économie, nous avons réussi à libérer davantage de ressources pour les consacrer à la recherche. Au final, cela nous rapportera beaucoup"
+ RUS_Research_Investments_Socialist: "$RUS_Research_Investments$"
 
 RUS_Project_Kremlin: "RDS-1"
 RUS_Project_Kremlin_desc: "Le corps des scientifiques nucléaires russes dirigé par Igor Kurchatov nous a remis une pétition, nous informant du potentiel destructeur de la fission de l'atome, et que nous devons exploiter cette puissance avant que nos ennemis ne le fassent."
@@ -444,6 +447,7 @@ RUS_Project_Kostikov_desc: "Soutenu par le jeune mais exceptionnel inventeur And
 
 RUS_Resource_Prospection: "Prospection de ressources"
  RUS_Resource_Prospection_desc: "Les minéraux sont nombreux en Russie et peuvent stimuler rapidement l'économie. C'est pourquoi nous devons lancer une extraction des différents minéraux dans tout le pays"
+ RUS_Resource_Prospection_Socialist: "$RUS_Resource_Prospection$"
 
 RUS_Rearmament_Programme: "Programme de Réarmement"
 RUS_Rearmament_Programme_desc: "Alors que les tensions entre les Français et les Allemands continuent de s'accroître, le monde se trouve de plus en plus proche du déclenchement d'une nouvelle guerre, qui définira l'avenir de l'Europe. Nous devons être prêts à affronter l'Allemagne le moment venu et, à cette fin, nous devons nous lancer dans un programme ambitieux de réarmement de l'armée russe."
@@ -1490,23 +1494,29 @@ rusfor.1231.t: "Transfert de la Carélie"
 rusfor.1231.a: "Une autre victoire pour la diplomatie russe !"
 
  rusfor.1232.t.defeat: "Nous avons été battus !"
- rusfor.1232.t.victory: "La Russie est vaincue !"
  rusfor.1232.d.defeat: "Les forces armées de l'État russe nous ont infligé une série de grandes défaites, et elles empiètent chaque jour un peu plus sur nos terres. Nous devons mettre fin à cette guerre avant qu'elles ne parviennent à envahir toute notre patrie."
+ rusfor.1232.t.victory: "La Russie est vaincue !"
  rusfor.1232.d.victory: "Nous avons réussi à mettre en déroute les forces armées de l'État russe et leur avons infligé une série de grandes défaites. C'est l'occasion de leur offrir la paix en échange de la Carélie."
-rusfor.1232.a: "Poursuivez pour la paix !"
- rusfor.1232.b: "Mettons fin à cette guerre."
+ rusfor.1232.t.white_peace: "Impasse dans le Nord"
+ rusfor.1232.d.white_peace: "TEMP : La guerre d'hiver est dans l'impasse, ROOT envisage d'offrir à la Russie une paix blanche."
+ rusfor.1232.a:9 "Poursuivez pour la paix !"
  rusfor.1232.c: "Nous pouvons encore gagner !"
  rusfor.1232.d: "Pas de paix tant que nous n'aurons pas atteint Moscou !"
+ 
+ RUS_winter_war_objective_karelia:0 "Carélie"
+ RUS_winter_war_objective_finland:0 "la Finlande"
 
-rusfor.1233.t: "La paix avec la Finlande ?"
- rusfor.1233.d.victory: "Avec la reconquête de la Carélie, le gouvernement de la Finlande a déclaré vouloir mettre fin à l'état de guerre entre nos nations, acceptant par la même occasion notre souveraineté sur la Carélie. Comment allons-nous réagir ?"
- rusfor.1233.d.defeat: "Nos armées étant complètement en déroute, le gouvernement finlandais a déclaré vouloir mettre fin à l'état de guerre entre nos nations, exigeant par la même occasion la souveraineté sur la Carélie. Comment allons-nous réagir ?"
+ rusfor.1233.t: "La paix avec [FROM.GetNonIdeologyNameDef] ?"
+ rusfor.1233.d.victory: "Avec la reconquête de la [FROM.RUS_GetWinterWarTarget], le gouvernement de [FROM.GetNonIdeologyNameDef] a déclaré vouloir mettre fin à l'état de guerre entre nos nations, acceptant par la même occasion notre souveraineté sur la [FROM.RUS_GetWinterWarTarget]. Comment allons-nous réagir ?"
+ rusfor.1233.d.defeat: "Nos armées étant complètement en déroute, le gouvernement de [FROM.GetNonIdeologyNameDef] a déclaré vouloir mettre fin à l'état de guerre entre nos nations, exigeant par la même occasion la souveraineté sur la [FROM.RUS_GetWinterWarTarget]. Comment allons-nous réagir ?"
+ rusfor.1233.d.white_peace: "TEMP : impasse contre [FROM.GetNonIdeologyNameDef], la Russie considère l'offre de paix blanche."
 rusfor.1233.a: "Acceptez l'offre de paix !"
 rusfor.1233.b: "Non, ils seront écrasés !"
 
 rusfor.1234.t: "Traité de Pétrograd"
  rusfor.1234.d.defeat: "L'État russe a accepté notre offre de reddition et la guerre est enfin terminée."
- rusfor.1234.d.victory: "L'État russe a accepté notre offre de paix. La Carélie a été cédée, et la guerre est enfin terminée."
+ rusfor.1234.d.victory: "L'État russe a accepté notre offre de paix. La [ROOT.RUS_GetWinterWarTarget] a été cédée, et la guerre est enfin terminée."
+ rusfor.1234.d.white_peace: "TEMP : Notification que la Russie a accepté une paix blanche."
 rusfor.1234.a: "Au moins, nous existons encore !"
  rusfor.1234.b: "Une magnifique victoire !"
 
@@ -1542,6 +1552,14 @@ rusfor.1234.a: "Au moins, nous existons encore !"
  rusfor.1239.d: "Des nouvelles choquantes de Moscou sont arrivées récemment, les Russes ayant refusé d'entamer des négociations de paix ! Ils affirment que les blessures contre la nation russe sont trop importantes pour être surmontées, et que la guerre ne s'arrêtera pas tant que les troupes russes ne marcheront pas sur Bucarest. Nous devons veiller à nos défenses..."
  rusfor.1239.a: "Que Dieu ait pitié."
  rusfor.1239.b: "Si c'est un combat qu'ils veulent..."
+
+ rusfor.1240.t:0 "[FROM.GetNonIdeologyNameDefCap] nous trahit !"
+ rusfor.1240.d: "Notification au suzerain non membre d'une faction de la part de [FROM.GetNonIdeologyNameDef]. Ces derniers ont négocié une paix séparée avec [?global.russia.GetNameDef], rompant toutes relations avec [ROOT.GetNameDef]."
+ rusfor.1240.a: "Réponse."
+
+ rusfor.1241.t:0 "[FROM.GetNonIdeologyNameDefCap] nous trahit !"
+ rusfor.1241.d: "Notification au suzerain à la tête d'une faction de la part de [FROM.GetNonIdeologyNameDef]. Ces derniers ont négocié une paix séparée avec [?global.russia.GetNameDef], rompant toutes relations avec [ROOT.GetFactionName]."
+ rusfor.1241.a: "Réponse."
 
 rusfor.1273.t: "Administration spirituelle des musulmans d'Asie centrale"
 rusfor.1273.d: "Après l'annexion de l'Asie centrale, nous avons eu beaucoup de nouveaux citoyens musulmans, qui étaient auparavant dirigés par les prêtres et les prédicateurs obscurantistes locaux. Il est évident que nous devons faire quelque chose de leur héritage et transformer nos nouveaux citoyens en membres loyaux et pacifiques de la société russe. Nous avons maintenant deux propositions : nous pouvons établir une administration spirituelle spéciale des musulmans d'Asie centrale ou donner des pouvoirs supplémentaires à l'Assemblée spirituelle musulmane d'Orenbourg, qui est contrôlée par les loyaux Tatars et Bachkirs."
@@ -2091,7 +2109,7 @@ RUS_empire_national_populist_DEF: "l'Empire Russe"
  RUS_grigory_sokolnikov: "Grigory Sokolnikov"
 
  RUS_grigory_zinoviev: "Grigory Zinoviev"
- RUS_grigory_zinoviev_leader_desc: "§YLeader Description\nBorn:§! September 23th, 1883, in Yelizavetgrad, Kherson Governorate, Russian Empire\n§YPolitical Career:§! Ovsei-Gershon Aronovich Radomyslsky, also known as Hirsh Apfelbaum, Shatski or Grigoriev, was raised in a family of Jewish dairy farmers. After receiving home education, he went on to study philosophy, literature and history, which lead him to an interest in politics. After joining RSDLP and then the Bolshevik faction, Grigory quickly became a close aide-de-camp to Vladimir Lenin. He joined Lenin in Swizerland during the Weltkrieg and he accompanied him during his journey back to Russia after the February Revolution. In the wake of the July Days in Petrograd, alongside Lev Kamenev, he tried to convince Lenin to work with the Provisional Government, with no success. During the October Revolution, when the Vikzhel threatened a strike, he again tried to oppose Lenin and show more negotiative stance, which again failed. In spite of that he still remained a fervorous Leninist.\n\nWith the failure of Red Forces in the Russian Civil War, as a prominent Bolshevik, Zinoviev had to flee his beloved Petrograd for Paris, where he found refuge and respect from the newly forming Commune of France. He joined the circle of refugees lead by Sverdlov, however he did not want to submit himself to him and in his typical manner, he began plotting in the shadows. New circumstances allowed him to come back to Russia and even put him on top of it. Now finally his dream of implementing Leninism in Russia can come true. But one thing is certain - "Grishka the Third" as he is called, will make sure that the new Republic is loyal to Leninism and to him."
+ RUS_grigory_zinoviev_leader_desc:9 "§YLeader Description\nBorn:§! September 23rd, 1883, in Yelizavetgrad, Kherson Governorate, Russian Empire\n§YPolitical Career:§! Ovsei-Gershon Aronovich Radomyslsky, also known as Hirsh Apfelbaum, Shatski or Grigoriev, was raised in a family of Jewish dairy farmers. After receiving home education, he went on to study philosophy, literature and history, which lead him to an interest in politics. After joining RSDLP and then the Bolshevik faction, Grigory quickly became a close aide-de-camp to Vladimir Lenin. He joined Lenin in Swizerland during the Weltkrieg and he accompanied him during his journey back to Russia after the February Revolution. In the wake of the July Days in Petrograd, alongside Lev Kamenev, he tried to convince Lenin to work with the Provisional Government, with no success. During the October Revolution, when the Vikzhel threatened a strike, he again tried to oppose Lenin and show more negotiative stance, which again failed. In spite of that he still remained a fervorous Leninist.\n\nWith the failure of Red Forces in the Russian Civil War, as a prominent Bolshevik, Zinoviev had to flee his beloved Petrograd for Paris, where he found refuge and respect from the newly forming Commune of France. He joined the circle of refugees lead by Sverdlov, however he did not want to submit himself to him and in his typical manner, he began plotting in the shadows. New circumstances allowed him to come back to Russia and even put him on top of it. Now finally his dream of implementing Leninism in Russia can come true. But one thing is certain - "Grishka the Third" as he is called, will make sure that the new Republic is loyal to Leninism and to him."
 
  RUS_lev_kamenev: "Lev Kamenev"
  RUS_martemyan_ryutin: "Martemyan Ryutin"
@@ -2110,8 +2128,8 @@ RUS_empire_national_populist_DEF: "l'Empire Russe"
  RUS_georgy_zhukov: "Georgy Zhukov"
  RUS_georgy_zhukov_commander_desc: "§YGeneral Description\nBorn:§! §gDecember 1st, 1896, in Strelkovka, Kaluga Governorate, Russian Empire§!\n§YMilitary Career:§! §gBorn to an impoverished peasant family in Central Russia, Georgy Zhukov never considered himself to be a military man in the making, instead apprenticing to be a furrier in his brother's workshop in Moscow. Then the Weltkrieg came, and with it, Zhukov was conscripted to the Imperial Russian Army. Here, he found his calling, displaying skill, bravery, and finishing server as a non-commissioned cavalry officer. After the October Revolution, he briefly went back home, but once again returned to the frontlines, this time as a junior commander in the Red Army.\n\nZhukov's service was rather brief, however, but once the Soviet regime collapsed, he escaped his homeland with numerous other Red Army commanders, and landed in France. Getting accustomed to a completely foreign country was difficult, but Zhukov had fully dedicated himself to the Bolshevik course by then and pushed forward with dedication - he completed officer training courses, maintained contact with Mikhail Tukhachevsky, studied modern strategy from his superior, and voluntarily joined the Internationale mission to Patagonia. Dutifully loyal to the cause of the Revolution, he is often seen as the most trustworthy and reliable of the Bolshevik trio, even if his inexperience holds him back from promotions."
 
- RUS_iosib_dzugashvili: "Iosib Dzhugashvili"
- RUS_iosib_dzugashvili_commander_desc: "§YGeneral Description\nBorn:§! §gDecember 18th, 1878, in Gori, Tiflis Governorate, Russian Empire§!\n§YMilitary Career:§! §gIoseb Dzhugashvili is a man known by many names - Soselo, Stalin, Koba are just a few of the most famous ones. Born to an impoverished Georgian family, Ioseb was physically disabled from young age and had a troubled childhood, marked by fights, abuse and alcoholism. Early in his life, he got drawn to Georgian nationalist poetry and enrolled in the Tiflis Seminary, but abandoned his previous calling when he came into contact with socialist literature. He dedicated himself to Marxism, joined the Bolshevik faction of the RSDLP, and raised money for the revolution with protection rackets, counterfeiting and bank robberies. He was a loyal follower of Lenin and represented the party in the public by running the newspaper 'Pravda', and his articles there helped make a name for himself as well.\n\nDuring the fateful months of 1917, Dzhugashvili helped organise the July Days uprising and the October Revolution, and gained a seat in the Sovnarkom. He, Lenin and Trotsky formed the informal troika which controlled the state - as a result, Dzhugashvili was sent to Tsaritsyn to organise resistance against the Whites, where he showed himself as an adequate, if reckless commander. Once Lenin was assassinated in August 1918, it was Trotsky who took charge and not him - but the Soviet state was not one to last, eventually collapsing. Dzhugashvili, unlike Trotsky, managed to escape, making his way to France with the rest of the Bolshevik remnants, and helped reestablish the Party in exile.\n\nTo support the Patagonian Syndicalist revolution, Dzhugashvili was sent to the Southern Cone alongside a mission of other Bolsheviks, and alongside Makhno, he is one of the highest ranking Internationale officials in Patagonia - albeit unlike Makhno, representing the political interests of the Internationale.§!\n\n§YNotes: Aligned with the Communist faction."
+ RUS_iosif_dzhugashvili: "Iosif Dzhugashvili"
+ RUS_iosif_dzhugashvili_commander_desc:9 "§YGeneral Description\nBorn:§! §gDecember 18th, 1878, in Gori, Tiflis Governorate, Russian Empire§!\n§YMilitary Career:§! §gIosif Dzhugashvili is a man known by many names - Soselo, Stalin, Koba are just a few of the most famous ones. Born to an impoverished Georgian family, Iosif was physically disabled from young age and had a troubled childhood, marked by fights, abuse and alcoholism. Early in his life, he got drawn to Georgian nationalist poetry and enrolled in the Tiflis Seminary, but abandoned his previous calling when he came into contact with socialist literature. He dedicated himself to Marxism, joined the Bolshevik faction of the RSDLP, and raised money for the revolution with protection rackets, counterfeiting and bank robberies. He was a loyal follower of Lenin and represented the party in the public by running the newspaper 'Pravda', and his articles there helped make a name for himself as well.\n\nDuring the fateful months of 1917, Dzhugashvili helped organise the July Days uprising and the October Revolution, and gained a seat in the Sovnarkom. He, Lenin and Trotsky formed the informal troika which controlled the state - as a result, Dzhugashvili was sent to Tsaritsyn to organise resistance against the Whites, where he showed himself as an adequate, if reckless commander. Once Lenin was assassinated in August 1918, it was Trotsky who took charge and not him - but the Soviet state was not one to last, eventually collapsing. Dzhugashvili, unlike Trotsky, managed to escape, making his way to France with the rest of the Bolshevik remnants, and helped reestablish the Party in exile.\n\nTo support the Patagonian Syndicalist revolution, Dzhugashvili was sent to the Southern Cone alongside a mission of other Bolsheviks, and alongside Makhno, he is one of the highest ranking Internationale officials in Patagonia - albeit unlike Makhno, representing the political interests of the Internationale.§!\n\n§YNotes: Aligned with the Communist faction."
 
  RUS_aleksandr_vasilevsky:0 "Aleksandr Vasilevsky"
  RUS_aleksandr_vasilevsky_commander_desc: "§YGeneral Description\nBorn:§! §gSeptember 30th, 1895, in Novaya Golchikha, Kostroma Governorate, Russian Empire§!\n§YMilitary Career:§! §gBorn to an extremely poor family of a priest in the Central Russian countryside, Vasilevsky completed studies in the seminary before the Weltkrieg and considered an agronomist's career, but his plans were changed by the war, which, in his own words, "overwhelmed him with patriotic feelings". He completed a course in military law and joined the front during the Brusilov Offensive, where he served with distinction and achieved the rank of captain, thanks to high casualties among his fellow officers leaving a vacancy to fill. The war left Vasilevsky sick, however, and he returned to his village after being demobilised in 1917, hoping to return to an agronomist's career.\n\nThat did not come to be, as in 1919, he ended up conscripted into the White Army and fought in the Volunteer Army during the last few months of the Russian Civil War. This time, Vasilevsky stayed, accepting a commission in the new Russian army and rapidly rising through the ranks. Considered to be one of the best organisers in the general staff and a grey eminence, he is seen by many as a vanguard of the new generation of Russian officers. In person, Vasilevsky is kind hearted, polite and extremely modest, to the point where he avoids mentioning his medals and assigns many of his achievements to the perceived brilliance of others."

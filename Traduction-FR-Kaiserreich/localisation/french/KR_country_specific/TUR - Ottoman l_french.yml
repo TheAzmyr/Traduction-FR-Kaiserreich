@@ -76,7 +76,7 @@
  TUR_ottoman_empire_paternal_autocrat:0 "Empire Ottoman"
  TUR_ottoman_empire_paternal_autocrat_DEF:0 "l'Empire Ottoman"
  TUR_ottoman_empire_national_populist:0 "Empire Ottoman"
- TUR_ottoman_empire_national_populist_DEF:0 "l'État Ottoman"
+ TUR_ottoman_empire_national_populist_DEF:9 "l'État Ottoman"
 
  TUR_ottoman_federation:0 "Ottomans"
  TUR_ottoman_federation_ADJ:0 "Ottoman"
@@ -96,6 +96,25 @@
  TUR_ottoman_federation_paternal_autocrat_DEF:0 "la Sublime Fédération Ottomane"
  TUR_ottoman_federation_national_populist:0 "Sublime Fédération Ottomane"
  TUR_ottoman_federation_national_populist_DEF:0 "la Sublime Fédération Ottomane"
+
+ TUR_ottoman_turkey:0 "Ottomans"
+ TUR_ottoman_turkey_ADJ:0 "Ottoman"
+ TUR_ottoman_turkey_DEF:0 "les Ottomans"
+
+ TUR_ottoman_turkey_social_democrat: "État Ottoman"
+ TUR_ottoman_turkey_social_democrat_DEF:0 "l'État Ottoman"
+ TUR_ottoman_turkey_social_liberal: "État Ottoman"
+ TUR_ottoman_turkey_social_liberal_DEF:0 "l'État Ottoman"
+ TUR_ottoman_turkey_market_liberal: "État Ottoman"
+ TUR_ottoman_turkey_market_liberal_DEF:0 "l'État Ottoman"
+ TUR_ottoman_turkey_social_conservative: "État Ottoman"
+ TUR_ottoman_turkey_social_conservative_DEF:0 "l'État Ottoman"
+ TUR_ottoman_turkey_authoritarian_democrat: "État Ottoman"
+ TUR_ottoman_turkey_authoritarian_democrat_DEF:0 "l'État Ottoman"
+ TUR_ottoman_turkey_paternal_autocrat: "État Ottoman"
+ TUR_ottoman_turkey_paternal_autocrat_DEF:0 "l'État Ottoman"
+ TUR_ottoman_turkey_national_populist: "État Ottoman"
+ TUR_ottoman_turkey_national_populist_DEF:0 "l'État Ottoman"
 
 #############
 # Companies #
@@ -188,7 +207,8 @@
  OTT_revolt_risk_very_high: "A une £resistance_texticon §YAgitation§! §RTrès Haute§!"
  OTT_revolt_risk_very_high_NOT: "N'a pas un niveau §RTrès Haut§! £resistance_texticon d'§Yagitation§!"
 
- OTT_resistance_garrisons: "Garnisons Ottomanes renforcées"
+ OTT_resistance_garrisons: "Garnisons Ottomanes renforcées : $VALUE|=-%0$"
+ OTT_KUR_Increase_Ottoman_Gendarmerie_tt: "$OTT_KUR_Increase_Ottoman_Gendarmerie$: $VALUE|=-%0$"
 
  OTT_maintenance_of_order_law_tooltip: "$TRIGGER_OR_STARTS$:\n   Le Grand Vizir a pris le pouvoir lors de la Guerre des Balkans.\n   Le Grand Vizir a pris le pouvoir après une tentative d'assassinat ratée.\n   Le Grand Vizir a reçu des pouvoirs exécutifs pour éradiquer la Société Karakol.\n   Les Arabes se sont révoltés"
  OTT_less_than_124_deputies: "A moins de 124 députés en faveur de la coalition"
@@ -1099,7 +1119,7 @@
  OTT_Reorganise_Egypt: "Réorganiser les Vilayets Égyptiens"
  OTT_Reorganise_Egypt_desc: "Le désastre qui a frappé l'Etat ottoman au 19ème siècle, et qui n'a fait que s'aggraver au tournant du 20ème siècle, est maintenant corrigé puisque [TUR.Capital.GetCapitalVictoryPointName] et le Caire sont enfin réunis ! Cependant, pour éviter que cela ne se reproduise, le gouvernement a décrété une vaste réorganisation des deux parties de l'Empire, comprenant des ajustements économiques, administratifs et culturels."
  OTT_Reorganise_Sudan: "Régler l'Affaire Soudanaise"
- OTT_Reorganise_Sudan_desc: "Bien que le Soudan, conquis en 1820 sous le vassal ottoman Mohammad Ali, n'ait jamais fait partie du territoire de l'Empire Ottoman, il s'est néanmoins retrouvé au sein de notre empire car ses anciennes connexions avec l'Égypte (renforcées sous le Khédivate et plus tard le Sultanat) ont conduit à son incorporation après la guerre du Levant. Cependant, beaucoup de travail reste à faire avant que la \"Turkiyya\" ne devienne véritablement une province ottomane."
+ OTT_Reorganise_Sudan_desc: "Bien que le Soudan, conquis en 1820 sous le vassal ottoman Mohammad Ali, n'ait jamais fait partie du territoire de l'Empire Ottoman, il s'est néanmoins retrouvé au sein de notre empire car ses anciennes connexions avec l'Égypte (renforcées sous le Khédivate et plus tard le Royaume) ont conduit à son incorporation après la guerre du Levant. Cependant, beaucoup de travail reste à faire avant que la "Turkiyya" ne devienne véritablement une province ottomane."
  OTT_First_Elections_of_the_Grand_Assembly: "Premières Élections de la Grande Assemblée"
  OTT_First_Elections_of_the_Grand_Assembly_desc: "L'expansion territoriale ayant réuni une grande variété de peuples dans notre empire, le moment est venu de leur conférer les droits de tous les citoyens ottomans, y compris le droit d'envoyer des représentants au Meclis-i Mebusân (Chambre des Députés). Comme la taille de cette instance a connu une croissance exponentielle en raison des vastes terres que nous avons récemment acquises, le corps a vu son nom changer pour \"Büyük Meclisi\" ou \"Grande Assemblée\"."
 
@@ -1404,13 +1424,6 @@ OTT_KR_gathering_storm_desc: "Bien que l'Empire Ottoman ait terminé la Weltkrie
 ##########
 # Events #
 ##########
-
-# Eid-ul Fitr
- ott.0.t: "[THIS.GetName] célèbre l'Aïd-el-Fitr"
- ott.0.d: "Aujourd'hui, c'est le premier jour de l'Aïd-el-Fitr and tous les musulmans célèbrent la fin du Ramadan."
- ott.0.d.EGY: "Durant le règne de Mohamed Ali, il a demandé que l'Égypte entière sache quand le Ramadan se termine. Pour cela, il a mis en place un canon pour tirer aux premières lueurs de l'aube le premier jour de l'Aïd. Aujourd'hui, des canons peuvent être entendus aux quatre coins de l'Égypte, des villes aux campagnes, alors que les gens se préparent à célébrer la fin du Ramadan."
- ott.0.a: "Eid Mubarak!"
-
 # Background Events
  ottgui.5.t: "La Revitalisation de l'Esprit Ottoman"
  ottgui.5.d: "Traîtres, hérétiques, kouffars et autres délinquants ont osé amener la Sublime Porte au bord de l'effondrement, brisant notre résolution et abusant de nos solutions pacifistes. Alors que les armées du Sultan, du Shah et du Cheikh sillonnent le sein fertile du Mashriqi protégé par notre Grand Padishah, le choc initial fait place à la colère. La colère se transforme en un désir de vengeance alors que les armées du Calife précédemment battues se rallient à leurs normes.\n\nLes tambours de bataille résonnent, les imams exhortent les soldats à se battre pour le Sultan et Allah, les batteries d'artillerie rechargées et l'armée turque, auparavant une marée imparable destinée à anéantir l'Europe, creuse des sillons dans les hordes décadentes de nos ennemis."
@@ -2370,7 +2383,7 @@ OTT_KR_gathering_storm_desc: "Bien que l'Empire Ottoman ait terminé la Weltkrie
  ottsep.12.a: "Bientôt leurs tentatives pathétiques seront réduites au silence pour de bon"
 
  ottsep.13.t: "Problème à Fezzan"
- ottsep.13.d: "Lorsque la domination ottomane a été rétablie dans l'intérieur du Fezzan au milieu des années 20, peu de gens l'ont acceptée à bras ouverts et, au cours des années suivantes, le régime de Tripoli a décidé que le maintien d'une force importante dans la région serait trop coûteux. Ainsi, le retrait de toutes les troupes, à l'exception de quelques petites garnisons dans les centres urbains, a conduit à une position presque entièrement autonome pour les tribus locales.\n\nLes tribus restent cependant mécontentes et, sous l'influence d'une résurgence de la secte Senussi, des tribus telles que les Awlad Muhammad ont commencé à manifester plus clairement leur résistance au régime. Les raids sur les garnisons ottomanes, leur refus de payer les taxes et leurs efforts pour contrecarrer les conscrits ont causé des problèmes drastiques pour les quelques forces restantes dans la région.\n\nUne expédition militaire depuis la côte pourrait rétablir l'ordre dans la région, mais avec la grande crise économique qui règne toujours, beaucoup se demandent s'il ne serait pas préférable de retirer toutes les garnisons et d'accorder à la région une autonomie de fait. En Tripolitaine, il y a moins d'animosité pour abandonner la région car la précieuse production de dattes du Fezzan est essentielle dans une nation où les précipitations sont si faibles."
+ ottsep.13.d: "Lorsque la domination ottomane a été rétablie dans l'intérieur du Fezzan au milieu des années 20, peu de gens l'ont acceptée à bras ouverts et, au cours des années suivantes, le régime de Tripoli a décidé que le maintien d'une force importante dans la région serait trop coûteux. Ainsi, le retrait de toutes les troupes, à l'exception de quelques petites garnisons dans les centres urbains, a conduit à une position presque entièrement autonome pour les tribus locales.\n\nLes tribus restent cependant mécontentes et, sous l'influence d'une résurgence de la secte Senussi, des tribus telles que les Awlad Muhammad ont commencé à manifester plus clairement leur résistance au régime. Les raids sur les garnisons ottomanes, leur refus de payer les taxes et leurs efforts pour contrecarrer la conscription ont causé des problèmes drastiques pour les quelques forces restantes dans la région.\n\nUne expédition militaire depuis la côte pourrait rétablir l'ordre dans la région, mais avec la grande crise économique qui règne toujours, beaucoup se demandent s'il ne serait pas préférable de retirer toutes les garnisons et d'accorder à la région une autonomie de fait. En Tripolitaine, il y a moins d'animosité pour abandonner la région car la précieuse production de dattes du Fezzan est essentielle dans une nation où les précipitations sont si faibles."
  ottsep.13.a: "Envoyez les troupes !"
  ottsep.13.b: "Cela en vaut-il vraiment la peine... ?"
 
@@ -2380,7 +2393,7 @@ OTT_KR_gathering_storm_desc: "Bien que l'Empire Ottoman ait terminé la Weltkrie
  ottsep.14.b: "Il n'y a rien que nous puissions faire pour eux..."
 
  ottsep.15.t: "Idris remonte sur le Trône"
- ottsep.15.d: "Prince exilé de l'Ordre Senoussi, Idris Ier est revenu de son exil volontaire au Caire. Son neveu az-Zubayr ibn Ahmed as-Sharif a été contraint de démissionner et tous les observateurs ottomans restants ont été expulsés de Cyrénaïque. Leur nouveau dirigeant a également décidé de rapprocher sa capitale de la frontière égyptienne, signe clair de ses ambitions anti-ottomanes. La ville d'Al-Jaghboub, transférée à la Cyrénaïque à la fin de la guerre, est désormais décrétée capitale officielle de la Cyrénaïque. Ce centre spirituel de l'Ordre qui abrite ses principales installations et éducatives est interdit à tous les non-musulmans, se trouve au plus profond du désert et rendra particulièrement difficile toute intervention ottomane."
+ ottsep.15.d: "Prince exilé de l'Ordre Senoussi, Idris Ier est revenu de son exil volontaire au Caire. Son neveu Ibrahim ibn Ahmed as-Sharif a été contraint de démissionner et tous les observateurs ottomans restants ont été expulsés de Cyrénaïque. Leur nouveau dirigeant a également décidé de rapprocher sa capitale de la frontière égyptienne, signe clair de ses ambitions anti-ottomanes. La ville d'Al-Jaghboub, transférée à la Cyrénaïque à la fin de la guerre, est désormais décrétée capitale officielle de la Cyrénaïque. Ce centre spirituel de l'Ordre qui abrite ses principales installations et éducatives est interdit à tous les non-musulmans, se trouve au plus profond du désert et rendra particulièrement difficile toute intervention ottomane."
  ottsep.15.a: "Abattez l'Ordre !"
  ottsep.15.b: "Nous devrions attendre notre heure"
 
@@ -2465,7 +2478,6 @@ OTT_KR_gathering_storm_desc: "Bien que l'Empire Ottoman ait terminé la Weltkrie
  ottsep.34.d: "Établis en 1913 après près d'un siècle de négociations, les protocoles de Chatt al-Arab ont été le couronnement de la résolution qui a mis fin aux conflits frontaliers irano-ottomans. Avec la disparition de cette dernière garantie de neutralité iranienne à l'Est, il est désormais clair que l'Iran entretiendra ses ambitions et frappera l'Irak.\n\nLes combats entre les deux grandes puissances ont commencé au petit matin alors qu'un bombardement aérien de la forteresse de Fao dans le Chatt al-Arab a été suivi de petites incursions de régiments de cavalerie iraniens à Sulaymaniyah."
  ottsep.34.a: "Alors c'est la guerre !"
 
-# Armenia
  ottsep.35.t: "Rébellion en Arménie !"
  ottsep.35.d: "Un conflit couve à travers le Moyen-Orient, et notre Empire qui a régné sur la région pendant des décennies commence à s'effondrer. Les Arméniens de l'Est voient cette situation comme une opportunité, et les Fédaïs de Njdeh sont prêts à s'emparer d'Erivan, hissant à nouveau le drapeau d'une Arménie indépendante."
  ottsep.35.a: "Nous restons fidèles à [TUR.Capital.GetCapitalVictoryPointName]."
@@ -2479,6 +2491,10 @@ OTT_KR_gathering_storm_desc: "Bien que l'Empire Ottoman ait terminé la Weltkrie
 ###################
 ## FLAVOUR STUFF ##
 ###################
+ ottfla.0.t: "[THIS.GetNameDefCap] célèbre Aïd-el-Fitr"
+ ottfla.0.d:0 "Aujourd'hui, c'est le premier jour de l'Aïd-el-Fitr and tous les musulmans célèbrent la fin du Ramadan."
+ ottfla.0.a:0 "Eid Mubarak !"
+
  ottfla.1.t: "Rénovation du Palais de Topkapı achevée"
  ottfla.1.d: "En 1459, Mehmed le Conquérant ordonna la construction du palais de Topkapı, l'ancienne résidence impériale de la maison d'Osman. Cependant, au fil des siècles, les sultans et leurs familles ont préféré leurs autres résidences sur la rive asiatique du Bosphore, ce qui a conduit la Cour à déménager au palais de Dolmabahçe. Tout en conservant certaines de ses anciennes fonctions, comme le Trésor impérial, le palais a finalement été vidé en 1927 après la mort de Mehmet VI l'année précédente. Le sultan Abdulmecid II, mécène et artiste célèbre lui-même, a ensuite cédé le terrain à l'État ottoman pour en faire un musée et une exposition d'art. Fermés pendant près de 8 ans, les bâtiments ont été entièrement rénovés et restaurés dans le but de montrer à nouveau la splendeur de l'Empire ottoman et, espérons-le, de raviver l'ancien esprit ottoman.\n\nL'exposition a été inaugurée par une splendide fête dans l'Enderûn, au cours de laquelle le vieux sultan lui-même a présenté à la presse mondiale rassemblée une multitude de ses propres œuvres et divers chefs-d'œuvre de l'art ottoman contemporain. "
  ottfla.1.a: "Le Saray-ı Cedîd-i Âmire resplendit de nouveau"
@@ -3316,7 +3332,7 @@ OTT_KR_gathering_storm_desc: "Bien que l'Empire Ottoman ait terminé la Weltkrie
  OTT_Population_Latakia_desc: "Lattaquié est une ville antique sur la côte de la Méditerranée. La région est séparée de la Syrie intérieure par la chaîne de montagnes An-Nusayriyah et largement utilisée pour l'agriculture. Son produit le plus connu est le tabac Lattaquié, commercialisé dans le monde entier. Lattaquié est passée sous domination ottomane au XVIe siècle, mais faire partie de l'empire florissant n'était alors pas une aubaine pour la ville. Elle s'est retrouvée dans une nouvelle compétition entre les ports de Tripoli, Beyrouth et Iskenderun, et des tremblements de terre ont frappé la ville à plusieurs reprises au XVIIIe siècle, la laissant dans un état pitoyable. Le port s'envase lentement et de plus gros navires doivent mouiller à l'extérieur. La majorité de la population est alaouite, ils dominent les collines autour de la ville. Un nombre important à l'intérieur de la ville sont des chrétiens maronites ou des adeptes de la foi musulmane."
 
  OTT_Population_Palestine: "Culture Majoritaire : §YArabe(Syrienne)§!, Juive\nReligion Majoritaire : §YIslam Sunnite§!, Juive, Christianisme Catholique"
- OTT_Population_Palestine_desc: "L'une des régions les plus contestées au monde, Jérusalem abrite des lieux saints de non pas une, mais trois des principales religions du monde, et a ainsi joué un rôle central dans l'histoire de l'humanité. Sous la domination ottomane, la région a prospéré alors que le système du millet y était utilisé au maximum de ses capacités, et fut ensuite codifié dans les réformes du Tanzimat. Cela donna aux musulmans, aux juifs, aux chrétiens et à d'autres groupes un large degré d'autonomie communautaire en matière de culte, d'état civil, d'impôts et de gestion des écoles et institutions caritatives.\n\nL'histoire de Jérusalem et de la Palestine dans son ensemble fut gravement bouleversée au début du 20ème siècle, lorsque le mouvement sioniste grandissait en force et en nombre, le Yishuv s'installant dans toute la région, établissant ses propres coutumes et revitalisant même, l'hébreu langue morte depuis longtemps. Cette population juive conduira plus tard à la déclaration Balfour du gouvernement britannique et à la déclaration Talaat qui la suivit, promettant toutes deux d'accorder au Yishuv les droits de création d'un foyer national juif en Palestine. Lorsque le cours de la guerre tourna et que les Britanniques furent contraints d'évacuer le Machrek, ils ont néanmoins vu une opportunité dans les déclarations et, après une longue lutte diplomatique, ont réussi à établir le M.O.J, un mandat international visant à maintenir la paix en Palestine.\n\nCe mandat fut cependant perçu par la population musulmane du Moyen-Orient comme un affront, et donna rapidement lieu à la mise en place d'un large mouvement de résistance visant à stopper la colonisation juive, l'abolition du M.O.J. et la restauration complète de la domination ottomane et sunnite. Aigris par les échecs ottomans à bloquer l'implication étrangère dans la région, de nombreux Palestiniens se sont tournés vers le Sultanat d'Égypte et sont devenus de farouches partisans du nationalisme arabe. Les tensions entre les différentes confessions ont explosé ces dernières années et avec la guerre à l'horizon, toute la Palestine retient son souffle."
+ OTT_Population_Palestine_desc: "L'une des régions les plus contestées au monde, Jérusalem abrite des lieux saints de non pas une, mais trois des principales religions du monde, et a ainsi joué un rôle central dans l'histoire de l'humanité. Sous la domination ottomane, la région a prospéré alors que le système du millet y était utilisé au maximum de ses capacités, et fut ensuite codifié dans les réformes du Tanzimat. Cela donna aux musulmans, aux juifs, aux chrétiens et à d'autres groupes un large degré d'autonomie communautaire en matière de culte, d'état civil, d'impôts et de gestion des écoles et institutions caritatives.\n\nL'histoire de Jérusalem et de la Palestine dans son ensemble fut gravement bouleversée au début du 20ème siècle, lorsque le mouvement sioniste grandissait en force et en nombre, le Yishuv s'installant dans toute la région, établissant ses propres coutumes et revitalisant même, l'hébreu langue morte depuis longtemps. Cette population juive conduira plus tard à la déclaration Balfour du gouvernement britannique et à la déclaration Talaat qui la suivit, promettant toutes deux d'accorder au Yishuv les droits de création d'un foyer national juif en Palestine. Lorsque le cours de la guerre tourna et que les Britanniques furent contraints d'évacuer le Machrek, ils ont néanmoins vu une opportunité dans les déclarations et, après une longue lutte diplomatique, ont réussi à établir le M.O.J, un mandat international visant à maintenir la paix en Palestine.\n\nCe mandat fut cependant perçu par la population musulmane du Moyen-Orient comme un affront, et donna rapidement lieu à la mise en place d'un large mouvement de résistance visant à stopper la colonisation juive, l'abolition du M.O.J. et la restauration complète de la domination ottomane et sunnite. Aigris par les échecs ottomans à bloquer l'implication étrangère dans la région, de nombreux Palestiniens se sont tournés vers le Royaume d'Égypte et sont devenus de farouches partisans du nationalisme arabe. Les tensions entre les différentes confessions ont explosé ces dernières années et avec la guerre à l'horizon, toute la Palestine retient son souffle."
 
  OTT_Population_Maan: "Culture Majoritaire : §YArabe(Syrienne)§!, Circassienne\nReligion Majoritaire : §YIslam Sunnite§!"
  OTT_Population_Maan_desc: "Les terres du sud de la Syrie autour de la ville d'Amman ont longtemps échappé à l'autorité ottomane et ont été négligées par nos prédécesseurs. Principalement utilisé comme point d'accès au Hedjaz, bien plus important, notre contrôle sur la région est limité à la zone directe autour du chemin de fer du Hedjaz et à certains points chauds de pèlerinage le long du chemin de la Mecque. Cela a entraîné un afflux important de migrants de Syrie, de Circassie et même d'Anatolie qui ont fui la conscription et la taxation du Nord.\n\nLe contrôle sur la rive orientale du Jourdain était au mieux limité avant la Weltkrieg, de nombreux Bédouins attaquant les zones habitées et les tribus migrants entre l'Arabie centrale et Ma'an. Cependant, avec le rétablissement de l'ordre par l'armée, un important afflux de colons de Palestine s'est déplacé vers l'est, s'ajoutant aux villes encore petites d'al-Salt et d'Amman. L'exploitation économique de la région a également connu un développement constant, les opérations minières s'ajoutant à l'économie par ailleurs principalement agricole."

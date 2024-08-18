@@ -716,6 +716,8 @@ send_ETS_tartar_guy: "Envoyez Abdurresid Ibrahim à [ETS.GetName]".
  JAP_harmony_and_reconciliation_desc: "Même si les seigneurs de la guerre nous résistent à chaque instant, le peuple chinois nous verra pour ce que nous sommes. Nous avons maintes fois mis en garde contre l'exploitation du peuple chinois par les seigneurs de la guerre et contre les désastres qui se produiraient si la Chine continuait sur sa lancée. Nous sommes les seuls à pouvoir les libérer de cet effondrement imminent et à assurer un avenir harmonieux entre la Chine et le Japon."
  JAP_unity_through_peace: "Unité et Paix"
  JAP_unity_through_peace_desc: "Le temps est venu pour la nation chinoise tout entière d'être à nouveau unie, et non exploitée par des seigneurs de la guerre assoiffés de pouvoir. Nous lancerons un appel pour que les seigneurs de la guerre se retirent et réalisent réellement l'idéal qu'ils prétendent poursuivre."
+ JAP_finish_off_stragglers: "Achever [FROM.GetNameDef]"
+ JAP_finish_off_stragglers_desc: "Pour une raison ou une autre, [FROM.GetLeader] et ses complices du [FROM.GetRulingParty] ont réussi à éviter tout conflit avec nous, peut-être dans l’espoir de conserver le pouvoir, grâce à leur neutralité. Mais la Chine doit être unie sous une autorité compétente et nous avons peu de place pour les retardataires dans notre nouvel ordre. C’est pourquoi nous éliminerons ce dernier vestige de l'époque des Seigneurs de Guerre."
  JAP_peace_effects: "§YTous les pays chinois avec lesquels nous sommes en guerre§!:"
 
 ### Mantetsu Projects ###
@@ -1216,19 +1218,16 @@ JAP_invite_into_faction: "Inviter [From.GetNameDef] à rejoindre notre Alliance"
 JAP_invite_into_faction_desc: "Le gouvernement [From.GetAdjective] ayant indiqué son intérêt pour une alliance lors de la conférence de Tokyo, il ne reste plus qu'une formalité pour conclure nos discussions".
 JAP_invite_into_economic_sphere: "Inviter [From.GetNameDef] dans notre sphère économique".
 JAP_invite_into_economic_sphere_desc: "[From.GetNameDefCap] est soit une nation non alignée, soit un allié du Japon, et dans les deux cas, c'est un excellent candidat à approcher pour être admis dans notre "sphère de coprospérité de la Grande Asie... pour leur bénéfice et surtout pour le nôtre".
-JAP_invest_in_sphere_member1: "Promouvoir l'investissement dans [From.GetNameDef]"
-JAP_invest_in_sphere_member1_desc: "Nous devrions commencer à investir dans [From.GetNameDef], ce qui non seulement nous donnera un accès plus facile à leur commerce mais nous permettra également de construire une présence japonaise dans le pays et, éventuellement, de la reprendre de l'intérieur."
-JAP_invest_in_sphere_member2: "Promouvoir l'investissement dans [From.GetNameDef]"
-JAP_invest_in_sphere_member2_desc: "Nous devrions commencer à investir dans [From.GetNameDef], ce qui non seulement nous donnera un accès plus facile à leur commerce mais nous permettra également de construire une présence japonaise dans le pays et, éventuellement, de la reprendre de l'intérieur."
-JAP_invest_in_sphere_member3: "Promouvoir l'investissement dans [From.GetNameDef]"
-JAP_invest_in_sphere_member3_desc: "Nous devrions commencer à investir dans [From.GetNameDef], ce qui non seulement nous donnera un accès plus facile à leur commerce mais nous permettra également de construire une présence japonaise dans le pays et, éventuellement, de la reprendre de l'intérieur."
+ JAP_invest_in_sphere_member:0 "Promouvoir l'investissement dans [From.GetNameDef]"
+ JAP_invest_in_sphere_member_desc:0 "Nous devrions commencer à investir dans [From.GetNameDef], ce qui nous permettra non seulement d'accéder plus facilement à leur commerce, mais aussi d'établir une présence japonaise dans le pays et, éventuellement, de le prendre en charge de l'intérieur."
  JAP_invest_in_sphere_member_docks: "Promouvoir l'investissement naval dans [From.GetNameDef]"
  JAP_invest_in_sphere_member_docks_desc: "Nous devrions commencer à investir dans [From.GetNameDef], ce qui nous permettra non seulement d'accéder plus facilement à leur commerce, mais aussi d'établir une présence japonaise dans le pays et, éventuellement, de le prendre en charge de l'intérieur."
  JAP_invest_in_sphere_naval_advisors: "Envoyer des conseillers navals à [From.GetNameDef]"
  JAP_invest_in_sphere_naval_advisors_desc: "Nous devrions envoyer des conseillers à [From.GetNameDef], qui aideront au développement de leur base navale."
+ JAP_naval_advisors_tech_bonus: "Conseillers navals japonais"
  JAP_invest_in_sphere_prosperity_ships: "Partager les plans du navire du Prospérité avec [From.GetNameDef]."
- JAP_invest_in_sphere_prosperity_ships_desc: "Nous devrions envoyer des ingénieurs du navire \"Prospérité\" à [From.GetNameDef], ce qui aidera au développement de leur base de transport naval."
- JAP_invest_in_sphere_take_dockyards: "Prendre le contrôle des arsenaux [From.GetNameDef]."
+ JAP_invest_in_sphere_prosperity_ships_desc: "Nous devrions envoyer des ingénieurs du navire "Prospérité" à [From.GetNameDef], ce qui aidera au développement de leur base de transport naval."
+ JAP_invest_in_sphere_take_dockyards: "Prendre le contrôle des arsenaux [From.GetNameDef]"
  JAP_invest_in_sphere_take_dockyards_desc: "Nos chantiers navals dans les îles d'origine peinent actuellement à répondre aux besoins de l'IJA. Nous devons maintenant utiliser les installations que nous avons construites pour nos jeunes partenaires de la Sphère de Co-Prospérité. Tout cela pour leur propre protection, bien sûr."
 JAP_economic_sphere_takeover: "Prendre le relais [From.GetNameDef]" 
 JAP_economic_sphere_takeover_desc: "Notre pénétration économique de [From.GetNameDef] s'est développée au point que [Root.GetNameDef] les domine entièrement. Le gouvernement [From.GetAdjective] est déjà soumis à nos souhaits... il ne reste plus qu'à se débarrasser de la fiction polie de leur indépendance".
@@ -1276,13 +1275,10 @@ KR_co_prosperity_sphere_tooltip_desc: "§L[GetCoProsperitySphereDesc]§"
  KR_co_prosperity_sphere_name_JAP: "Leader de la sphère de coprospérité de l'Asie de l'Est"
  KR_co_prosperity_sphere_name: "Membre de la sphère de coprospérité de l'Asie de l'Est"
 
-JAP_may_now_invite_sphere: "Les nations non-alignées et soumises de l'Asie de l'Est peuvent maintenant être invitées dans la sphère d'influence économique du Japon\n"
-JAP_may_now_invest_sphere: "Peut maintenant prendre des décisions pour promouvoir l'investissement dans les membres de la sphère, ce qui - avec le temps - peut conduire à un contrôle japonais sur le pays [n]".
- JAP_invest_in_sphere_member_decision_tt: "Investit dans notre allié, en lui accordant §Y1 Usine Civile§! et des §Gavantages commerciaux mutuels§! .\nUne fois que §YPénétration Économique§! est assez haut, nous pourrons en faire un état vassal."
- JAP_invest_in_sphere_member_docks_decision_tt: "Construisez des chantiers navals sur le territoire de notre allié, dont nous pourrons nous emparer temporairement plus tard."
- JAP_invest_in_sphere_naval_advisors_decision_tt: "Aidera notre allié à entraîner sa marine en partageant nos recherches ou notre expertise, selon ce qu'il choisit."
-JAP_withdraws_from_sphere: "§Y[Root.GetNameDefCap]§! se retirera de la sphère économique japonaise".
-JAP_THIS_withdraws_from_sphere: "§Y[This.GetNameDefCap]§! se retirera de la sphère économique japonaise".
+ JAP_may_now_invite_sphere: "Les nations non-alignées et soumises de l'Asie de l'Est peuvent maintenant être invitées dans la sphère d'influence économique du Japon"
+ JAP_may_now_invest_sphere: "Peut maintenant prendre des décisions pour promouvoir l'investissement dans les membres de la sphère, ce qui - avec le temps - peut conduire à un contrôle japonais sur le pays"
+ JAP_withdraws_from_sphere: "§Y[Root.GetNameDefCap]§! se retirera de la sphère économique japonaise"
+ JAP_THIS_withdraws_from_sphere: "§Y[This.GetNameDefCap]§! se retirera de la sphère économique japonaise"
 JAP_not_member_of_sphere: "n'est pas un membre de la sphère de coprospérité économique du Japon"
 JAP_member_of_sphere: "est un membre de la sphère de coprospérité économique du Japon"
 
@@ -1293,7 +1289,7 @@ JAP_tokyo_conference_tt: "Le choix de ce thème lancera la chaîne d'événement
  JAP_nerf_copro_bonuses_tt: "Nos bonus économiques de la sphère de coprospérité seront §rréduits§! de §H10%§!, et ceux de nos membres seront augmentés du même montant."
  JAP_harder_eco_int_tt: "£decision_icon_small  §HPromouvoir l'investissement dans §! et £decision_icon_small §HPrendre§! des décisions va §Haugmenter§! le coût de £GFX_pol_power  75 et £GFX_pol_power 125, respectivement."
 
-JAP_AST_joins_sphere: "§Y[AST.GetNameDef]§! rejoindra la sphère économique japonaise"
+ JAP_AST_joins_sphere: "§Y[AST.GetNameDef]§! rejoindra la sphère économique japonaise"
 AST_has_ties_with_japan: "a des liens avec le Japon"
 
 ### Bookmark ###

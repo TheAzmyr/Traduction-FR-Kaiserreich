@@ -7,27 +7,9 @@
  KTG_ADJ: "Katangese"
  KTG_DEF: "le Katanga"
 
-KTG_totalist: "République Syndicaliste de Katanga"
- KTG_totalist_ADJ: "Yeke"
-KTG_totalist_DEF: "la République Syndicaliste de Katanga"
-KTG_syndicalist: "République Syndicaliste de Katanga"
- KTG_syndicalist_ADJ: "Katangais"
-KTG_syndicalist_DEF: "la République Syndicaliste de Katanga"
-KTG_radical_socialist: "République Syndicaliste de Katanga"
- KTG_radical_socialist_ADJ: "Katangais"
-KTG_radical_socialist_DEF: "la République Syndicaliste de Katanga"
-KTG_social_conservative: "Garanganze"
- KTG_social_conservative_ADJ: "Garanganzien"
-KTG_social_conservative_DEF: "le Garanganze"
-KTG_authoritarian_democrat: "Garanganze"
- KTG_authoritarian_democrat_ADJ: "Garanganzien"
-KTG_authoritarian_democrat_DEF: "le Garanganze"
-KTG_paternal_autocrat: "Garanganze"
- KTG_paternal_autocrat_ADJ: "Garanganzien"
-KTG_paternal_autocrat_DEF: "le Garanganze"
-KTG_national_populist: "État Lunda"
-KTG_national_populist_ADJ: "Lunda"
- KTG_national_populist_DEF: "l'État Lunda"
+ KTG_kingdom:0 "le Garanganze"
+ KTG_kingdom_ADJ:0 "Garanganzien"
+ KTG_kingdom_DEF:0 "le Garanganze"
 
 ### Characters ###
  KTG_Kitanika_Mabumba_Mushalila: "Kitanika Mabumba Mushalila"
@@ -46,14 +28,14 @@ KTG_national_populist_ADJ: "Lunda"
  KTG_market_liberal_party: "UMHK"
  KTG_market_liberal_party_long: "Union Minière de Haut-Katanga"
 
- KTG_paternal_autocrat_party: "Régime du Mwami"
- KTG_paternal_autocrat_party_long: "Loyalistes de Mwami"
-
  KTG_social_conservative_party: "CDC"
  KTG_social_conservative_party_long: "Convention des Démocrates Chrétiens"
 
- KTG_authoritarian_democrat_party: "Gouvernement Ryckmans"
- KTG_authoritarian_democrat_party_long: "Gouvernement Ryckmans"
+ KTG_authoritarian_democrat_party: "Gouvernement de Ryckmans"
+ KTG_authoritarian_democrat_party_long: "Gouvernement de Ryckmans"
+
+ KTG_paternal_autocrat_party: "Loyalistes de Mwami"
+ KTG_paternal_autocrat_party_long: "Loyalistes de Mwami"
 
  KTG_national_populist_party: "CNK"
  KTG_national_populist_party_long: "Congrès National de Katanga"
@@ -62,7 +44,7 @@ KTG_national_populist_ADJ: "Lunda"
  KTG_TRIBUTE: "Tribut au Katanga"
  KTG_COLONIAL_RULE: "Le régime colonial a été rétabli"
  KTG_Mwami_Rules: "Le Mwami a pris le contrôle"
- KTG_NMB: "Conclu un accord commercial avec [NMB.GetNameDef]."
+ KTG_SWA: "A conclu un accord commercial avec [SWA.GetNameDef]"
  KTG_TZN: "A conclu un accord commercial avec [TZN.GetNameDef]."
  KTG_POR: "Conclu un accord commercial avec [POR.GetNameDef]."
  KTG_RUBBER: "Les forêts d'hévéas ont été achetées avec succès"
@@ -72,7 +54,7 @@ KTG_national_populist_ADJ: "Lunda"
 
  KTG_Pink_Map_tt: "§GNous allons essayer de négocier un accord avec le Portugal§!"
  KTG_Sea_Access_tt: "§GPour que les opérations minières puissent reprendre à plein régime, nous devons définir un port d'exportation.§!"
- congolese_loyalty.tt: "§GNous allons essayer de conclure un accord avec les Manikong ou utiliser la force pour obtenir ce que nous désirons.§!"
+ congolese_loyalty.tt: "§GNous allons essayer de conclure un accord avec le Manikongo ou utiliser la force pour obtenir ce que nous désirons.§!"
  uranium_sharing.tt: "\n§GNotre maître bénéficiera des mêmes avantages§!"
  KTG_Naval_Base.tt: "§GNous améliorerons le port de notre partenaire choisi§!"
 
@@ -82,156 +64,223 @@ KTG_national_populist_ADJ: "Lunda"
 ### Focuses ###
  KTG_Reinforce_The_Mwami_Authority: "Renforcer l'Autorité du Mwami"
  KTG_Reinforce_The_Mwami_Authority_desc: "Les Allemands ont assuré le règne du Mwami. Bien que la providence ait veillé à notre indépendance, nous devons toujours être attentifs aux menaces qui pèsent sur le règne de sa lignée."
+
  KTG_Council_of_Garanganze: "Conseil de Garanganze"
- KTG_Council_of_Garanganze_desc: "Une méthode courante de réforme politique pour des régimes comme le nôtre consiste à formaliser le rôle et les limites de l'aristocratie dans un parlement officiel. Le rôle du nouveau conseil sera, bien sûr, limité, et renforcera davantage le Mwami."
+ KTG_Council_of_Garanganze_desc: "Une méthode courante de réforme politique pour des régimes comme le nôtre consiste à formaliser le rôle et les limites de l'aristocratie dans un parlement officiel. Le rôle du nouveau conseil sera, bien sûr, limité et renforcera davantage le Mwami."
 
  KTG_Invite_Foreign_Advisors: "Inviter des Conseillers Étrangers"
  KTG_Invite_Foreign_Advisors_desc: "Alors que beaucoup chercheraient maintenant à expulser les menaces étrangères à notre mode de vie, cela ne peut être le cas. Ce sont eux qui fourniront l'expertise nécessaire pour assurer notre prospérité. En effet, nous devrions rechercher des étrangers qualifiés pour servir de conseillers politiques officiels au Mwami."
+
  KTG_Union_Miniere: "Accord avec l'Union Minière du Haut-Katanga"
- KTG_Union_Miniere_desc: "L'UMHK est la base sur laquelle repose toute notre économie. Non seulement elle fournit des emplois dans ses vastes opérations minières, mais elle joue également un rôle clé dans l'éducation et la santé au Katanga. Bien que le fait de travailler avec une entreprise étroitement liée à l'exploitation coloniale puisse prêter à controverse, son expertise permettra à notre secteur minier de rester lucratif."
+ KTG_Union_Miniere_desc: "UMHK est la base sur laquelle repose toute notre économie. Non seulement elle fournit des emplois dans ses vastes opérations minières, mais elle joue également un rôle clé dans l'éducation et la santé au Katanga. Bien que le fait de travailler avec une entreprise étroitement liée à l'exploitation coloniale puisse prêter à controverse, son expertise permettra à notre secteur minier de rester lucratif."
+
  KTG_Belgian_Mining_Expertise: "Expertise Minière Belge"
  KTG_Belgian_Mining_Expertise_desc: "Les sociétés minières belges connaissent le Katanga aussi bien que notre peuple. Pour l'exploitation des ressources naturelles, nous devrions demander l'avis des anciens fonctionnaires coloniaux."
+
  KTG_Ruashi_Mine_Expansion: "Expansion de la Mine de Ruashi"
  KTG_Ruashi_Mine_Expansion_desc: "La grande mine de fer de Ruashi est tombée en désuétude. Nous devrions la rénover et y introduire des machines modernes."
+
  KTG_Cobalt_Mines: "Mines de Cobalt"
  KTG_Cobalt_Mines_desc: "La demande de cobalt a explosé depuis la fin de la Weltkrieg. Heureusement, nous en possédons en abondance et il suffit de mieux exploiter nos gisements de cobalt."
+
  KTG_Mittel_European_Trade_Center: "Créer un Comptoir Commercial du Reichspakt"
  KTG_Mittel_European_Trade_Center_desc: "Il est indéniable qu'en encourageant les investissements de Mitteleuropa, nous pourrons en retirer de grands avantages pour notre économie. En nous promouvant comme un lieu où les intérêts européens peuvent faire des affaires, nous pourrons nous positionner comme un centre clé du commerce euro-africain."
+
  KTG_German_Construction_Expertise: "Génie Civil Allemand"
  KTG_German_Construction_Expertise_desc: "Si nous voulons créer un réseau d'infrastructures moderne, nous devons travailler avec les leaders dans ce domaine, un domaine dans lequel les entreprises allemandes détiennent une domination incontestable. En travaillant avec des entreprises telles que Hochtief, nous pouvons nous lancer dans des projets qui rivalisent avec ceux de l'Europe."
+
  KTG_Elisabethville_City_Future: "[879.GetCapitalVictoryPointName], Ville du Futur"
- KTG_Elisabethville_City_Future_desc: "Avec l'aide de l'expertise allemande en matière d'ingénierie, nous allons commencer à transformer [879.GetCapitalVictoryPointName] en un chef-d'œuvre de design moderniste qui servira de modèle de conception de ville moderne, non seulement pour l'Afrique, mais aussi pour le monde entier."
+ KTG_Elisabethville_City_Future_desc: "Avec l'aide de l'expertise allemande en matière d'ingénierie, nous allons commencer à transformer [879.GetCapitalVictoryPointName] en un chef-d'œuvre de design moderniste qui servira de modèle de conception de ville moderne, non seulement pour l'Afrique mais aussi pour le monde entier."
+
  KTG_National_University_of_Katanga: "Université Nationale du Katanga"
  KTG_National_University_of_Katanga_desc:0 "Les fondements de la modernité étant posés, nous devons maintenant développer l'institution la plus impressionnante de notre époque : l'université."
+
  KTG_Press_Population_Into_The_Mines: "Presser la Population dans les Mines"
  KTG_Press_Population_Into_The_Mines_desc: "Il faut plus d'hommes pour les mines. Ceux qui sont oisifs ou dont le rôle est subalterne devraient être forcés à les travailler."
 
  KTG_Force_Publique: "Apprendre de la Force Publique"
  KTG_Force_Publique_desc: "La Force Publique a commis de nombreuses atrocités dans son application de la loi belge, mais nous ne pouvons nier sa compétence. Nous devrions inviter ses anciens officiers qui traînent aujourd'hui dans l'obscurité en Belgique à servir de conseillers. Ils sauteront certainement sur l'occasion de remodeler nos forces à l'image du couronnement de leur vie."
+
  KTG_Hire_Askaris: "Embaucher des Askaris"
  KTG_Hire_Askaris_desc: "Avec l'effondrement de la domination Mittelafrikan, beaucoup d'anciens Askaris sont retournés à une vie de village banale. Nous devrions lancer un appel à ces hommes pour qu'ils saisissent à nouveau la gloire par les cornes."
+
  KTG_Build_National_Arsenal: "Construire un Arsenal National"
  KTG_Build_National_Arsenal_desc: "Pour développer des armes modernes, nous devrons progresser à pas de géant. Pour commencer le processus, nous devons établir un arsenal d'État moderne par lequel toute la production militaire sera acheminée."
- KTG_License_FN_Guns: "Licence FN Guns"
+
+ KTG_License_FN_Guns: "Armes FN sous licence"
  KTG_License_FN_Guns_desc: "La Fabrique Nationale, une branche de l'État belge, reste l'un des principaux fabricants d'armes à feu au monde. En utilisant nos relations en Belgique, nous devrions obtenir une licence pour produire leurs nouveaux modèles dans le pays, ainsi que l'outillage pour le faire, à bas prix."
+
  KTG_Study_East_Afrika_Offensive: "Étudier l'Offensive de l'Afrique de l'Est"
- KTG_Study_East_Afrika_Offensive_desc: "La campagne de Paul von Lettow-Vorbeck en Afrique de l'Est n'était rien de moins qu'un miracle. Nous devons analyser sa tactique."
+ KTG_Study_East_Afrika_Offensive_desc: "La campagne de Paul von Lettow-Vorbeck en Ostafrika n'était rien de moins qu'un miracle. Nous devons analyser sa tactique."
+
  KTG_Artillery_Tactics: "Tactiques de l'Artillerie Européenne"
  KTG_Artillery_Tactics_desc: "Les grands canons de la Weltkrieg ont dévasté des millions de personnes et laissé une cicatrice permanente sur les champs de bataille d'Europe. Nous devons disposer de nos propres pièces capables de tels exploits et les intégrer dans notre doctrine."
 
  KTG_By_The_Glory_Of_Mwami: "Par la Gloire du Mwami"
  KTG_By_The_Glory_Of_Mwami_desc: "Beaucoup croient que le Mwami est guidé par la main de Dieu. Nous devrions faire taire ces rumeurs et orienter ses admirateurs vers le service national."
+
  KTG_Heart_Of_The_Jungle: "Le Cœur de la Jungle"
  KTG_Heart_Of_The_Jungle_desc: "Nos hommes sont familiers avec les rigueurs de la guerre dans la jungle. Nous devons cependant standardiser ce qui est connu de beaucoup et l'inclure dans le régime de formation de notre armée croissante."
 
  KTG_Expel_Foreigners: "Expulser les Étrangers"
  KTG_Expel_Foreigners_desc: "L'influence étrangère n'a servi qu'à saper notre culture et notre force morale. Les étrangers restants doivent être renvoyés, quel qu'en soit le prix."
+
  KTG_Establish_Yeke_Army: "Créer l'Armée de Yeke"
  KTG_Establish_Yeke_Army_desc: "Plutôt que d'adopter un modèle étranger, nous devrions chercher à moderniser la forme et le style de combat de l'ancien royaume de Yeke. Que l'armée de Yeke renaisse !"
+
  KTG_Lunda_War_Experience: "Tirer les leçons de la Guerre de Lunda"
  KTG_Lunda_War_Experience_desc: "Si nos tentatives passées de briser le joug colonial se sont soldées par un échec, nous veillerons à ce que ceux qui ont péri ne l'aient pas fait en vain. Si les Européens tentent de revenir au Katanga, ils seront renvoyés la queue entre les jambes !"
+
  KTG_Memory_Of_Msiri: "Mémoire de Msiri"
  KTG_Memory_Of_Msiri_desc: "Le grand Msiri a tenu tête aux Européens pendant de nombreuses années et a porté le royaume de Yeke au zénith de sa puissance. La collecte d'informations était essentielle à son succès, et si nos forces doivent assurer la victoire sur le terrain, elles doivent être formées à la reconnaissance."
+
  KTG_Produce_Own_Weaponry: "Produire notre propre Armement"
  KTG_Produce_Own_Weaponry_desc: "Bien que nous ne disposions pas de l'outillage nécessaire pour produire efficacement des armes modernes, nous pouvons toujours produire nos propres équipements, il nous suffit d'établir une installation de production suffisamment moderne."
+
  KTG_Train_Warrior_Class: "Former le Guerrier"
  KTG_Train_Warrior_Class_desc: "La classe guerrière traditionnelle du Katanga a été largement laissée tranquille par les Allemands, mais elle a dépéri sous les Belges. Nous devons reconstituer ses effectifs en institutionnalisant et en renforçant le statut sociétal de l'ancienne classe guerrière."
+
  KTG_Confiscate_Askari_Weaponry: "Confisquer l'Armement des Askaris"
  KTG_Confiscate_Askari_Weaponry_desc: "Des Jadis-Askaris sont rentrés chez eux en possession de leurs armes légères modernes. Nous devrions trouver ces hommes et prendre leurs armes pour l'usage de notre armée."
+
  KTG_Recreate_The_Yeke_Trade: "Recréer le Commerce de Yeke"
  KTG_Recreate_The_Yeke_Trade_desc: "Le royaume de Yeke a largement profité de la facilitation du commerce des marchandises à travers l'intérieur de l'Afrique. Rouvrons les routes commerciales qui sont tombées en désuétude et essayons d'assurer la sécurité de tous les commerçants à nos frontières."
+
  KTG_Increase_Ivory_Gathering: "Accroître la Récolte d'Ivoire"
  KTG_Increase_Ivory_Gathering_desc: "L'ivoire est très prisé dans le monde entier. Avec une organisation suffisante, nous pouvons augmenter considérablement notre récolte d'ivoire et utiliser les bénéfices pour construire l'infrastructure nécessaire au traitement de l'ivoire au niveau national."
+
  KTG_Farm_The_Rubber_Tree: "Cultiver l'Hévéa"
- KTG_Farm_The_Rubber_Tree_desc: "Alors que la colonie du Congo était autrefois le plus grand producteur de caoutchouc au monde, peu était cultivé au Katanga, alimentant la croissance de l'Europe. Nous devrions maintenant promouvoir la culture de l'hévéa pour le bénéfice de notre propre peuple."
+ KTG_Farm_The_Rubber_Tree_desc: "Alors que la colonie du Congo était autrefois le plus grand producteur de caoutchouc au monde, peu était cultivé au Katanga, alimentant la croissance de l'Europe. Nous devrions maintenant promouvoir la culture de l'hévéa pour le bénéfice de notre peuple."
+
  KTG_Establish_Relations_With_Portugal: "Chemin de Fer [879.GetCapitalVictoryPointName]-Kamoto"
  KTG_Establish_Relations_With_Portugal_desc: "Bien que nous puissions rejeter les notions européennes de progrès, il est indéniable que les chemins de fer sont un moyen presque vital de transporter des marchandises. En établissant une liaison ferroviaire entre la région minière de Kamoto et [879.GetCapitalVictoryPointName], nous serons en mesure de transporter des marchandises beaucoup plus efficacement."
+
  KTG_Dismantle_Union_Miniere: "Démanteler l'Union Minière"
  KTG_Dismantle_Union_Miniere_desc: "L'Union Minière est l'incarnation de la relation parasitaire que les Européens entretiennent avec nos peuples. Nous devons démanteler ce vestige du colonialisme et de l'extraction étrangère pour que la richesse du Katanga puisse à nouveau appartenir à son peuple."
+
  KTG_Gold_Mines: "Creuser pour de l'Or"
  KTG_Gold_Mines_desc: "Les gisements d'or du Katanga restent totalement inexploités. Même s'il faudra un investissement considérable de l'État pour lancer l'extraction de l'or, la récompense en vaut certainement la peine."
+
  KTG_Diamonds_Are_Forever: "Les Diamants sont Éternels"
  KTG_Diamonds_Are_Forever_desc: "Si les mines du Kivu sont plus productives que les nôtres, le Katanga est en effet riche en diamants. Nous devrions nationaliser les plus grandes mines et assurer leur bon fonctionnement."
+
  KTG_Seize_Colonial_Expertise: "Saisir l'Expertise Coloniale"
- KTG_Seize_Colonial_Expertise_desc: "Bien que la plupart des étrangers qualifiés aient été expulsés de la région. L'équipement et les manuels qu'ils ont laissés derrière eux peuvent encore être utilisés pour faire progresser le Katanga lui-même. En outre, le fait de "persuader" certaines personnes qualifiées de rester et de partager leurs connaissances nous permettra de former nos propres experts."
+ KTG_Seize_Colonial_Expertise_desc: "Bien que la plupart des étrangers qualifiés aient été expulsés de la région, l'équipement et les manuels qu'ils ont laissés derrière eux peuvent encore être utilisés pour faire progresser le Katanga. En outre, le fait de "persuader" certaines personnes qualifiées de rester et de partager leurs connaissances nous permettra de former nos propres experts."
 
  KTG_Colonial_Rule: "Le Règne coloniale se maintient"
  KTG_Colonial_Rule_desc: "Le Mwami a été vaincu et la domination coloniale a été établie. Les tensions sont cependant vives entre les Flamands-Wallons et la population katangaise autochtone qui réclame l'abolition du patronage européen."
+
  KTG_Dominer_Pour_Servir: "Dominer pour Servir"
  KTG_Dominer_Pour_Servir_desc: ""Régnez pour que nous puissions servir". Ces simples mots définissent la politique coloniale que l'ancien gouvernement belge a décrétée au Congo. Les Congolais sont nos enfants et nous devons les élever et les éduquer pour qu'ils puissent eux aussi profiter des vertus du progrès occidental. Il s'agit d'un processus lent et, bien qu'il espère récompenser les Congolais à la fin, la domination coloniale n'est pas censée disparaître avant de nombreuses années."
+
  KTG_Restoration_Missions: "Restauration des Missions"
  KTG_Restoration_Missions_desc: "En raison des politiques allemandes agressives contre le pouvoir de l'église catholique, beaucoup de nos postes de mission ont été abandonnés. Maintenant que nous avons repris le contrôle, nos associés catholiques nous pressent de demander de nouveaux missionnaires à la Flandre-Wallonie afin que nous puissions développer davantage notre programme "Dominer pour Servir"."
+
  KTG_Continue_Mission_To_Civilise: "Poursuivre la Mission Civilisatrice"
- KTG_Continue_Mission_To_Civilise_desc: "Il nous incombe de civiliser le continent noir et, bien que le régime allemand les ait aidés à s'éloigner de la lumière de Dieu, le moment est venu de poursuivre notre tâche et d'amener (lentement) l'Afrique vers l'avenir."
+ KTG_Continue_Mission_To_Civilise_desc: "Il nous incombe de civiliser le Continent noir, et bien que le régime allemand a éloigné les Africains de la lumière de Dieu, le moment est venu de poursuivre notre tâche et d'amener (lentement) l'Afrique vers l'avenir."
+
  KTG_Reward_The_Evolues: "Récompenser les Évolués"
  KTG_Reward_The_Evolues_desc: "Il est devenu évident que nous, Européens, ne resterons pas éternellement en Afrique. Nous devons donc préparer la population africaine à son indépendance prochaine. En éduquant et en promouvant les Évolués, nous pouvons nous assurer qu'un transfert de pouvoir peut être exécuté à la fois pacifiquement et sans dépression économique."
+
  KTG_Elections_Elisabethville: "Élections libres de [879.GetCapitalVictoryPointName]"
  KTG_Elections_Elisabethville_desc: "Si Bunkeya reste notre capitale, c'est dans le centre industriel et économique de [879.GetCapitalVictoryPointName] que se trouve le véritable pouvoir. En raison de l'exécution du maire allemand par la rébellion Mwamis, un nouveau maire doit être élu et le gouvernement colonial a proposé d'ouvrir les élections à tous les citoyens de la ville."
+
  KTG_Abolish_Invisible_Colour_Gap: "Abolir le Fossé Invisible des Couleurs"
- KTG_Abolish_Invisible_Colour_Gap_desc: "Alors que, contrairement aux colonies britanniques ou françaises, il n'y a jamais eu de différence de couleur au Congo, un plafond de verre a empêché les Congolais d'atteindre des postes administratifs ou politiques élevés. Pour lutter contre les troubles que cela a engendrés, le nouveau gouvernement progressiste a entrepris des efforts pour briser ces traditions et a commencé à former les Evolués pour remplacer certains postes strictement européens."
+ KTG_Abolish_Invisible_Colour_Gap_desc: "Contrairement aux colonies britanniques ou françaises, il n'y a jamais eu de différence de couleur au Congo, mais un plafond de verre a empêché les Congolais d'atteindre des postes administratifs ou politiques élevés. Pour lutter contre les troubles engendrés par cela, le nouveau gouvernement progressiste a entrepris des efforts pour briser ces traditions et a commencé à former les Evolués pour remplacer certains postes strictement européens."
+
  KTG_Union_Miniere_Haut_Katanga: "Révision Union Minière de Haut-Katanga"
- KTG_Union_Miniere_Haut_Katanga_desc: "Non seulement l'UMHK est le plus grand employeur de notre pays, mais presque toute l'économie dépend de cette entreprise. Pour garantir un flux constant de revenus à l'État, l'UMHK doit être davantage intégrée dans l'État et développée."
+ KTG_Union_Miniere_Haut_Katanga_desc: "Non seulement UMHK est le plus grand employeur de notre pays, mais presque toute l'économie dépend de cette entreprise. Pour garantir un flux constant de revenus à l'État, UMHK doit être davantage intégrée dans l'État et développée."
+
  KTG_Expand_Ruashi_Mine: "Développer les Mines de Ruashi"
- KTG_Expand_Ruashi_Mine_desc: "En raison de l'importance croissante du cuivre en Europe, nos opérations minières se sont développées pour répondre à la demande. La mine de Ruashi, ouverte en 1911, a été l'une de nos principales mines de cuivre et de cobalt au Katanga et a un besoin urgent d'expansion. Afin de garantir la prospérité de notre population, le gouvernement a également décidé de développer l'industrie de raffinage voisine et de créer ainsi des emplois."
+ KTG_Expand_Ruashi_Mine_desc: "En raison de l'importance croissante du cuivre en Europe, nos opérations minières se sont développées pour répondre à la demande. La mine de Ruashi, ouverte en 1911, a été l'une de nos principales mines de cuivre et de cobalt au Katanga et a un besoin urgent d'expansion. Afin de garantir la prospérité de notre population, le gouvernement a également décidé de développer l'industrie de raffinage voisine et de créer des emplois."
+
  KTG_Limit_Native_Careers: "Limiter les Carrières Indigènes"
- KTG_Limit_Native_Careers_desc: "Contrairement à de nombreuses autres puissances coloniales, l'UMHK a permis aux autochtones de faire fonctionner les machines lourdes et a organisé de vastes programmes de formation pour réussir à éduquer la main-d'œuvre. Un travailleur katangais pouvait gravir les échelons pour devenir opérateur de machine ou commis, mais il était ensuite limité par la direction belge pour éviter de perdre le contrôle de l'organisation."
+ KTG_Limit_Native_Careers_desc: "Contrairement à de nombreuses autres puissances coloniales, UMHK a permis aux autochtones de faire fonctionner des machines lourdes et a organisé avec succès de vastes programmes de formation pour éduquer la main-d'œuvre. Un travailleur katangais pouvait gravir les échelons pour devenir opérateur de machine ou commis, mais il était ensuite limité par la direction belge pour éviter de perdre le contrôle de l'organisation."
+
  KTG_Educate_Native_Engineers: "Former des Ingénieurs Autochtones"
  KTG_Educate_Native_Engineers_desc: "Les réformes allemandes des dernières décennies ont considérablement modifié la conscience de la population katangaise. Ils exigent désormais des emplois et des salaires égaux à ceux des travailleurs européens et sont renforcés dans leurs revendications par le nouveau gouvernement. C'est pourquoi l'UMHK ouvre des postes d'ingénieurs à tous nos citoyens et a créé un programme de formation avec des professeurs des universités de Liège et de Gand."
+
  KTG_Increase_Cobal_Production: "Accroitre la Production de Cobalt"
  KTG_Increase_Cobal_Production_desc: "Avec l'augmentation de la production d'armes dans le monde et la grande importance du cobalt pour la technologie moderne, l'UMHK a décidé d'ouvrir trois mines supplémentaires autour de la ville de [879.GetCapitalVictoryPointName] pour répondre à ces demandes et nous propulser encore plus loin pour devenir le premier exportateur de ce matériau de terre rare."
+
  KTG_Apoint_District_Overseers: "Nommer les Superviseurs de Districts "
  KTG_Apoint_District_Overseers_desc: "En raison de l'effondrement du régime allemand, beaucoup de nos structures administratives et de notre personnel ont été dissous ou tués. Comme notre économie repose en grande partie sur les chefs locaux et leur influence, nous avons besoin de personnel qualifié pour communiquer avec ces chefs, les superviser et les faire rentrer dans le rang."
+
  KTG_Resinstate_The_Chefferies: "Rétablir les Chefferies"
  KTG_Resinstate_The_Chefferies_desc: "Le système des Chefferies consistait en un réseau rigide de personnel colonial et de chefs locaux. Une fois toutes les quelques semaines, l'un d'entre eux devait visiter tous les villages de son district, recueillir les ressources collectées et faire la loi au nom du gouvernement central."
+
  KTG_Install_Farming_Quotas: "Installer des Quotas d'Exploitation"
  KTG_Install_Farming_Quotas_desc: "Pour nourrir les populations urbaines croissantes de Bunkeya et de [879.GetCapitalVictoryPointName], nous devons imposer des quotas agricoles stricts aux chefferies. Celles-ci seront ensuite collectées par le personnel du gouvernement colonial en échange d'argent et de produits de base et transférées vers les villes."
+
  KTG_Centre_Extra_Coutumiers: "Centre Extra-Coutumiers"
  KTG_Centre_Extra_Coutumiers_desc: "Si le système des chefferies a bien fonctionné dans le passé, l'augmentation de la population et la loyauté douteuse des chefs ont poussé le gouvernement à créer ses propres centres économiques dans les campagnes. Ceux-ci reprendront la tâche des chefferies et seront le centre de rassemblement juridique, économique et social."
+
  KTG_Monopolise_Agricultural_Companies: "Monopoliser les Entreprises Agricoles"
  KTG_Monopolise_Agricultural_Companies_desc: "Actuellement, notre secteur agricole est constitué de quotas d'exploitation imposés aux villages et collectés chaque fois que le chef de district passe dans le village. Ce système s'est avéré peu fiable et n'offre pas l'efficacité et le rendement de l'agriculture moderne. C'est pourquoi le gouvernement a approuvé la création d'une entreprise publique comme l'UMHK pour contrôler cette industrie."
+
  KTG_Increase_Taxation: "Accroître la Pression Fiscale"
  KTG_Increase_Taxation_desc: "La dépression du Lundi Noir plane toujours sur le Katanga et des demandes émanant à la fois de la nation et de la Flandre-Wallonie elle-même ont demandé une augmentation temporaire du niveau d'imposition pour aider l'économie à se rétablir."
+
  KTG_Modernize_Bunkeya: "Moderniser Bunkeya"
  KTG_Modernize_Bunkeya_desc: "Bien que Bunkeya soit notre capitale, la ville de [879.GetCapitalVictoryPointName] est le véritable cœur du Katanga. Afin d'accroître l'importance de Bunkeya et avec l'approbation du Mwami, le gouvernement colonial a lancé des projets de construction à grande échelle dans la ville pour l'amener au 20ème siècle et permettre un développement plus facile des terres environnantes."
+
  KTG_Technical_University_Elisabethville: "Université Technique de [879.GetCapitalVictoryPointName]"
  KTG_Technical_University_Elisabethville_desc: "En raison de la croissance importante de l'UMHK au cours des dernières années, ils ont offert au gouvernement une grande quantité de fonds pour aider à la création d'une université technique à [879.GetCapitalVictoryPointName]. Des demandes d'enseignants et de fonds supplémentaires ont été envoyées à la Flandre-Wallonie et ont été accueillies avec une grande approbation par la population flamande-wallonne qui a envoyé son expertise et son capital pour développer le Katanga."
+
  KTG_Connect_Bunkeya_Elisabethville: "Electrifier Bunkeya-[879.GetCapitalVictoryPointName]"
  KTG_Connect_Bunkeya_Elisabethville_desc: "Nos deux principales villes sont déconnectées l'une de l'autre, ce qui rend la communication et le transport très difficiles. C'est pourquoi la ligne ferroviaire Bunkeya-Elisabethville doit être élargie afin de permettre l'acheminement d'un plus grand nombre de marchandises et de personnes."
+
  KTG_The_Colonial_Trinity: "La Trinité Coloniale"
- KTG_The_Colonial_Trinity_desc: "Tout le pouvoir dans la colonie repose sur les trois piliers de la société moderne : l'Église, le Capital et l'Ordre. L'Église fournit une éducation spirituelle et de base, le Capital leur offre des opportunités d'emploi, crée des marchandises et subvient à leurs besoins quotidiens, tandis que l'Ordre empêche ceux qui sortent du rang de diffuser leur message."
+ KTG_The_Colonial_Trinity_desc: "Tout le pouvoir dans la colonie repose sur les trois piliers de la société moderne : l'Église, le Capital et l'Ordre. L'Église fournit une éducation spirituelle et de base, le Capital offre des opportunités d'emploi, crée des marchandises et subvient aux besoins quotidiens, tandis que l'Ordre empêche ceux qui sortent du rang de diffuser leur message."
+
  KTG_Patronisation_of_the_Natives: "Patronage des Indigènes"
  KTG_Patronisation_of_the_Natives_desc: "Le citoyen congolais est moins développé que son homologue européen et a besoin d'une assistance attentive pour le guider sur son chemin. Les médias et les journaux doivent être censurés pour en faire des citoyens modèles et les fonctions gouvernementales doivent leur être interdites jusqu'à ce qu'ils aient obtenu leur certificat de civilisation."
+
  KTG_Control_All_Aspects_of_Modern_Life: "Contrôler tous les Aspects de la Vie Moderne"
  KTG_Control_All_Aspects_of_Modern_Life_desc: "L'UMHK contrôle tous les aspects de la vie de ses travailleurs. Ils travaillent dans ses mines, mangent dans ses cantinas, font leurs courses dans ses magasins. Un logement est fourni à tous les travailleurs, ainsi qu'une aide pour la femme et les enfants du mineur. Si ces mesures ont permis aux mineurs de vivre dans un certain bien-être, une crise soudaine au sein de l'entreprise leur fait perdre non seulement leur emploi, mais aussi leur vie entière."
+
  KTG_Embrace_Congolese_Belgian_Culture: "Creuset Congolais-Belge"
  KTG_Embrace_Congolese_Belgian_Culture_desc: "[879.GetCapitalVictoryPointName] s'est développée pour devenir une plaque tournante pour les Flamands-Wallons et les Katangais qui vivent tous les uns à côté des autres. L'ancien quartier européen et la cité indigène ont été démantelés et ont fait place à de grandes avenues et à un plus grand sentiment de cohésion entre les indigènes et les coloniaux."
+
  KTG_Improve_Native_Living_Standards: "Améliorer le Niveau de Vie des Autochtones"
  KTG_Improve_Native_Living_Standards_desc: "Les emplois et les salaires étant égaux pour les indigènes et les coloniaux, le bien-être général de la population a augmenté. Grâce à l'essor des mines de cuivre et aux nouvelles techniques d'exploitation minière développées par les universités de toute la Mittel-Europa, les conditions de travail se sont également améliorées de façon spectaculaire, ouvrant la voie à la journée de travail de huit heures."
+
  KTG_Equals_For_The_Law: "Égaux pour la Loi"
  KTG_Equals_For_The_Law_desc: "Un citoyen congolais ne sera plus puni plus durement pour le même crime que son homologue colonial. Avec l'introduction d'un système juridique entièrement nouveau, empruntant largement au flamand-wallon, les droits de tous les hommes sont garantis."
 
  KTG_Stability_Force_Publique: "Rétablir la stabilité de la Force Publique"
  KTG_Stability_Force_Publique_desc: "En raison du chaos qui a suivi la rébellion de Mwamis, les Flamands-Walloons de [879.GetCapitalVictoryPointName] ont rapidement reformé la Force Publique à partir des cendres des askaris allemands pour résister à son attaque. Bien que nous ayons réussi à repousser leur assaut, la FP n'est plus que l'ombre d'elle-même."
+
  KTG_A_European_Army: "Une Armée Européenne"
- KTG_A_European_Army_desc: "Il est devenu évident que seule une armée expérimentée et bien disciplinée peut permettre de contrôler les indigènes. Avec des experts d'Europe, nous serons en mesure de former un petit mais fort corps"
+ KTG_A_European_Army_desc: "Il est devenu clair que seule une armée expérimentée et bien disciplinée peut permettre de contrôler les indigènes. Avec des experts d'Europe, nous serons en mesure de former un corps petit mais puissant."
+
  KTG_An_African_Army: "Une Armée Africaine"
  KTG_An_African_Army_desc: "La fin du colonialisme approche et nous devons nous doter d'un corps bien formé, renforcé par des officiers locaux, pour nous assurer que la nation ne tombe pas dans le désarroi après notre départ."
+
  KTG_Heavy_Equipement: "Équipement Lourd"
  KTG_Heavy_Equipement_desc: "Pour aider à la défense de nos villes et à l'attaque des forteresses étrangères, nous avons besoin d'artillerie pour soutenir nos troupes qui avancent."
+
  KTG_Arsenal_Elisabethville: "Construire l'Arsenal de [879.GetCapitalVictoryPointName]"
  KTG_Arsenal_Elisabethville_desc:0 "Pour réduire notre dépendance à l'égard des canons flamands et wallons, nous devons constituer un stock important et lancer notre propre production rudimentaire."
+
  KTG_FRC_Katanga: "FRC Katanga"
  KTG_FRC_Katanga_desc: "Avec l'aide de la Fonderie Royal de Canoniers, nous allons créer notre propre fonderie d'artillerie pour compléter notre stock importé."
+
  KTG_Reform_The_Force_Publique: "Réformer la Force Publique"
  KTG_Reform_The_Force_Publique_desc: "Si la PF a connu des succès dans le passé, il est devenu évident que nous avons besoin d'une coopération plus étroite avec les troupes locales au lieu de nous concentrer uniquement sur le haut commandement colonial."
+
  KTG_Found_Military_Academy_Elisabethville: "Fonder l'Académie Militaire de [879.GetCapitalVictoryPointName]"
  KTG_Found_Military_Academy_Elisabethville_desc: "Pour compléter notre programme de formation des officiers, le gouvernement colonial a ouvert l'Académie Militaire de [879.GetCapitalVictoryPointName]."
+
  KTG_Defense_of_Katanga: "Défense du Katanga"
  KTG_Defense_of_Katanga_desc: "Avec les vautours portugais et les seigneurs de la guerre de tous côtés, tous doivent venir à la défense du Katanga !"
+
  KTG_Restoration_Force_Publique: "Restauration de la Force Publique"
  KTG_Restoration_Force_Publique_desc: "En dépit de son histoire controversée, la Force Publique s'est une fois de plus avérée vitale pour maintenir l'ordre face au chaos de l'Afrique. En rétablissant la structure des officiers européens, nous pouvons faire en sorte que la nouvelle Force Publique conserve le respect et la capacité de ses prédécesseurs belges."
+
  KTG_Learn_From_East_Africa_Offensive: "Tirer des leçons de l'Offensive de l'Afrique de l'Est"
  KTG_Learn_From_East_Africa_Offensive_desc: "Si les premières campagnes de la FP se sont avérées fructueuses contre les forces allemandes, l'effondrement des Britanniques et l'échec consécutif du front occidental nous ont contraints à dissoudre le corps. Maintenant que le corps est rétabli, il est temps d'apprendre de nos échecs et de nous adapter."
+
  KTG_Secure_Our_Investements: "Sécuriser nos Investissements"
  KTG_Secure_Our_Investements_desc: "Nous avons peut-être perdu le Congo, mais nous ne laisserons pas les chefs de guerre africains réduire à néant tous nos efforts. S'ils ne peuvent garantir un marché libre, nous les persuaderons sur le terrain."
 
@@ -239,56 +288,77 @@ KTG_national_populist_ADJ: "Lunda"
  KTG_Access_To_The_Sea_desc: "Avec l'effondrement de Mittelafrika, notre économie d'exportation s'est complètement effondrée en raison de la perte de nos principaux ports commerciaux."
 
  KTG_Loanda_Port: "Port de Loanda"
- KTG_Loanda_Port_desc: "Les Portugais contrôlent le port angolais de Luanda et seraient un excellent partenaire commercial s'ils acceptaient notre offre."
+ KTG_Loanda_Port_desc: "Les Portugais contrôlent le port angolais de Luanda, qui seraient un excellent partenaire commercial s'ils acceptaient notre offre."
+
  KTG_Trade_Mission_Portugal: "Envoyer une Mission Commerciale au Portugal"
  KTG_Trade_Mission_Portugal_desc: "Alors que l'influence allemande s'est effondrée, le Portugal garde le contrôle de ses possessions africaines à l'est et à l'ouest. Son soutien et son assistance économique sont essentiels au maintien de notre indépendance."
+
  KTG_Pink_Map_Negotiations: "Négociations sur la Carte Rose"
  KTG_Pink_Map_Negotiations_desc: "Le Portugal a commencé à poursuivre son ancienne revendication coloniale sur notre région. Nous ne pouvons pas espérer leur opposer une résistance absolue, mais grâce à une diplomatie proactive, nous pourrons peut-être parvenir à un arrangement mutuellement acceptable."
+
  KTG_POR_Submission: "Soumission au Portugal"
- KTG_POR_Submission_desc: "Nous avons accepté la protection portugaise en échange d'une large autonomie et d'une assistance économique. Appelons-nous à récolter les bénéfices de cet accord controversé."
+ KTG_POR_Submission_desc: "Nous avons accepté la protection portugaise en échange d'une large autonomie et d'une assistance économique. Laissons-nous à récolter les bénéfices de cet accord controversé."
+
  KTG_Elisabethville_Loanda_Railroad: "Extension du Chemin de Fer [879.GetCapitalVictoryPointName]-[540.GetName]"
  KTG_Elisabethville_Loanda_Railroad_desc: "Le Katanga et l'Angola portugais ne sont séparés que par quelques centaines de kilomètres, et pourtant aucune liaison ferroviaire n'existe. Avec nos hommes et le soutien financier des Portugais, nous aurons enfin une ligne ferroviaire."
 
- KTG_Support_Kongo: "Soutenir le Manikong"
- KTG_Support_Kongo_desc: "Kitanga a toujours fait partie, au moins nominalement, de la colonie du Congo. Cela présente à la fois des avantages et des inconvénients - d'une part, nous conservons des liens avec l'élite de Kinshasa où le nouveau régime Kongolais est basé, d'autre part, cela leur donne une base sur laquelle ils peuvent affirmer leur contrôle sur nous. Nous devons parvenir à un accord avec les Manikong pour mettre fin à cette situation."
+ KTG_Support_Kongo: "Soutenir le Manikongo"
+ KTG_Support_Kongo_desc: "Katanga a toujours fait partie, au moins nominalement, de la colonie du Congo. Cela présente à la fois des avantages et des inconvénients - d'une part, nous conservons des liens avec l'élite de Kinshasa où le nouveau régime Kongolais est basé, d'autre part, cela leur donne une base sur laquelle ils peuvent affirmer leur contrôle sur nous. Nous devons parvenir à un accord avec le Manikongo pour mettre fin à cette situation."
+
  KTG_Send_Division_Manikongo: "Envoyer du Matériel Militaire"
  KTG_Send_Division_Manikongo_desc: "Il est dans notre intérêt de faire en sorte que le régime de Kinshasa survive au conflit actuel. Bien que nous possédions peu d'armes, nous devrions leur envoyer ce que nous pouvons épargner.L"
+
  KTG_Boma_Port: "Port de Boma"
- KTG_Boma_Port_desc: "Une infrastructure est déjà en place pour transporter des marchandises du Katanga à la ville portuaire fluviale de Boma. Nous devrions approcher le Mamikong pour la réouverture de ces anciennes routes sur une base permanente."
+ KTG_Boma_Port_desc: "L'infrastructure est déjà en place pour transporter des marchandises du Katanga à la ville portuaire fluviale de Boma. Nous devrions approcher le Mamikongo à propos de la réouverture de ces anciennes routes sur une base permanente."
+
  KTG_Join_Kongolese_War: "Participer à la Guerre Civile Kongolaise"
  KTG_Join_Kongolese_War_desc: "Alors que Kinshasa et Kivu se battent, les deux s'affaiblissent. Nous pouvons maintenant forcer nos anciens alliés de Kinshasa à nous reconnaître en échange d'un soutien dans leur conflit actuel."
 
  KTG_German_Connections: "Établir des Liens avec l'Allemagne"
  KTG_German_Connections_desc: "La domination allemande a été bénéfique pour le Mwami et la classe dirigeante katangaise. Nous devons continuer à travailler en étroite collaboration avec eux."
+
  KTG_Daressalam_Port: "Port de [965.GetCapitalVictoryPointName]"
  KTG_Daressalam_Port_desc: "Le port de [965.GetCapitalVictoryPointName] est l'un des plus grands du continent. Pour assurer notre commerce avec nos amis allemands, quoi qu'il arrive, nous devons utiliser le port de [965.GetCapitalVictoryPointName]."
+
  KTG_Katanga_Tangyanika_Railroads: "Chemin de Fer Katanga-Ostafrika"
- KTG_Katanga_Tangyanika_Railroads_desc: "Il n'existe aucune liaison ferroviaire directe entre nos terres et la place forte allemande d'Afrique de l'Est. Avec l'aide financière allemande, nous devrions mettre en place un nouveau système entre [879.GetCapitalVictoryPointName] et [965.GetCapitalVictoryPointName]."
+ KTG_Katanga_Tangyanika_Railroads_desc: "Il n'existe aucune liaison ferroviaire directe entre nos terres et la place forte allemande d'Ostafrika. Avec l'aide financière allemande, nous devrions mettre en place un nouveau système entre [879.GetCapitalVictoryPointName] et [965.GetCapitalVictoryPointName]."
 
  KTG_Look_Towards_Our_Investements: "Regarder vers nos Investissements"
  KTG_Look_Towards_Our_Investements_desc: "Plutôt que de chercher à réaffirmer la si bénéfique hégémonie allemande sur l'Afrique, nous devrions chercher à nous renforcer économiquement. Les quelques fonds dont nous disposons devraient être dirigés, en partenariat avec nos alliés, vers l'exploitation des richesses naturelles de la terre."
+
  KTG_Support_Mittelafrikan_Restoration: "Soutenir la Restauration Mittel-Afrikaine"
  KTG_Support_Mittelafrikan_Restoration_desc: "Les Allemands ont été des maîtres bienveillants ; sous eux, le règne sans entrave du Mwami a été assuré. Nous devrions aider à leur restauration, dans des conditions plus favorables pour nous, bien sûr."
+
  KTG_Flemish_Wallonian_Support: "Appel à Bruxelles"
  KTG_Flemish_Wallonian_Support_desc: "Nous gardons toujours des liens avec nos anciens suzerains belges. Nous devrions demander à nos amis de Bruxelles de nous aider en cas de besoin."
+
  KTG_Military_Support_Flanders_Wallonia: "Soutien Militaire de la Flandre-Wallonie"
  KTG_Military_Support_Flanders_Wallonia_desc: "Si les Belges n'ont jamais été une grande puissance militaire, la Force Publique est très disciplinée. Nous devrions demander l'aide de la Belgique dans les affaires militaires en tant que telles."
+
  KTG_Defence_Uranium_Mines: "Défense des Mines de Shinkolobwe"
  KTG_Defence_Uranium_Mines_desc: "Les mines d'uranium de Shinkolobwe sont les plus productives du monde. Elles ont une immense valeur stratégique pour nous et nos amis occidentaux et ne peuvent en aucun cas tomber entre les mains de l'ennemi."
+
  KTG_Copper_Mining_Zambia: "Expertise en Matière d'Exploitation Minière du Cuivre en Zambie"
  KTG_Copper_Mining_Zambia_desc: "Nos propres gisements de cuivre connus restent inexploités. Nous devrions travailler ensemble avec nos amis de la Zambie voisine pour changer cela."
+
  KTG_Recruit_Porters_Africa_Campaign: "Recruter des Porteurs pour les Campagnes Africaines"
  KTG_Recruit_Porters_Africa_Campaign_desc: "Si nous avons accès à des technologies telles que le bateau à vapeur et le chemin de fer, une grande partie du continent n'est encore accessible qu'à pied. Capables de porter environ 55 livres chacun, les porteurs ont toujours été un moyen vital de transporter des marchandises en Afrique. Ils seront essentiels pour approvisionner la campagne de reconquête du continent."
+
  KTG_Economic_Dependency_MAF: "Créer la Dépendance Économique du Katanga"
- KTG_Economic_Dependency_MAF_desc: "Il est indéniable qu'en soutenant les intérêts allemands en Afrique, nous nous sommes retrouvés de plus en plus dépendants d'eux pour soutenir notre économie. Nous en sommes arrivés à un point où nous sommes complètement redevables à l'Allemagne. Même si ce n'est pas l'option la plus souhaitable, nous devons nous adapter en conséquence si nous voulons en tirer le meilleur parti. "
+ KTG_Economic_Dependency_MAF_desc: "Il est indéniable qu'en soutenant les intérêts allemands en Afrique, nous nous sommes retrouvés de plus en plus dépendants d'eux pour soutenir notre économie. Nous en sommes arrivés à un point où nous sommes complètement redevables à l'Allemagne. Même si ce n'est pas l'option la plus souhaitable, nous devons nous adapter en conséquence si nous voulons en tirer le meilleur parti."
+
  KTG_Further_Expansion_UMHK: "Nouvelle Expansion de l'UMHK"
  KTG_Further_Expansion_UMHK_desc: "Bien que nous ayons considérablement étendu nos opérations, le sol du Katanga regorge encore de ressources vitales prêtes à être exploitées. Nous devons fournir à Union Minière les ressources dont elle a besoin pour développer ses activités. Creusez profondément et creusez avec avidité !"
+
  KTG_Increased_Shipping_Capacity: "Augmenter la Capacité Marchande"
  KTG_Increased_Shipping_Capacity_desc: "En temps de crise, les flottes marchandes des nations étrangères pourraient devenir peu fiables pour transporter nos marchandises dans le monde entier. Nous devons avoir la capacité d'opérer indépendamment dans ces ports."
+
  KTG_Congolese_Railroad_Expansion: "Expansion du Chemin de Fer Congolais"
  KTG_Congolese_Railroad_Expansion_desc: "Nous devons relier directement nos nouvelles entreprises au Katanga. Pour ce faire, nous devrions construire des liaisons directes par train léger."
+
  KTG_Diamond_Mines_Kivu: "Mines de Diamants du Kivu"
  KTG_Diamond_Mines_Kivu_desc: "Nous avons obtenu le droit exclusif d'exploiter certaines des mines de diamants les plus lucratives du monde dans la région du Kivu. Nous devrions commencer."
+
  KTG_Rubber_Farming_Bas_Congo: "L'Hévéaculture au Bas-Congo"
  KTG_Rubber_Farming_Bas_Congo_desc: "Nous avons obtenu le droit de cultiver certaines des zones du Kongo autrefois les plus lucratives pour la culture du caoutchouc. Nous devrions utiliser notre peuple pour relancer la culture au Kongo et, mieux encore, ramener une partie de cette expertise pour cultiver nos propres cultures."
 
@@ -368,7 +438,7 @@ KTG_national_populist_ADJ: "Lunda"
  ktg.1.b: "Refusez leur proposition."
 
  ktg.2.t: "Kongo accepte le pacte de non-agression"
- ktg.2.d: "Le gouvernement du Kongo a accepté notre proposition et a signé un pacte de non-agression avec le nôtre. Si nous devons continuer à utiliser notre accès à la mer par la route de Boma, nous ne pouvons en aucun cas interférer dans les guerres congolaises."
+ ktg.2.d: "Le gouvernement du Kongo a accepté notre proposition et a signé un pacte de non-agression avec nous. Si nous devons continuer à utiliser notre accès à la mer par la route de Boma, nous ne pouvons en aucun cas interférer dans les guerres congolaises."
  ktg.2.a: "À une coopération pacifique !"
 
  ktg.3.t: "Kongo refuse le pacte de non-agression"
@@ -388,7 +458,7 @@ KTG_national_populist_ADJ: "Lunda"
  ktg.2001.a: "Ça ne peut se terminer que d'une seule façon."
 
  ktg.21.t: "Seul sur le Continent Sombre "
- ktg.21.d: "Lorsque Ryckmans donne l'ordre de se retrancher dans la ville de [879.GetCapitalVictoryPointName], la population katangaise réalise enfin ce qui se passe. Alors qu'une certaine partie de la population voit dans la rébellion et la chute de la domination allemande leur chance de se libérer de la domination européenne, la majorité de la population de la ville est moins convaincue par les arguments de leurs frères. Bien que leur vie dans la ville n'ait pas été facile, beaucoup se souviennent des jours de leur passé tribal et des difficultés qu'ils ont apportées avec eux. La domination européenne a peut-être été féroce et souvent injuste, mais elle a apporté un certain degré de bien-être que beaucoup ne veulent plus abandonner et se sont donc ralliés à la bannière de l'administration coloniale.\n\nDes tables, des chaises, des armoires et d'autres meubles sont traînés dans les rues pour établir des barricades temporaires tandis que les citoyens des banlieues sont transférés sur la place de la ville. Les armes et le matériel médical, dont beaucoup datent de l'époque belge, sont retirés des kazernes et les lits sont transportés dans l'hôpital [879.GetCapitalVictoryPointName]. Alors que beaucoup d'hommes, de femmes et d'enfants n'ont aucune expérience du combat, des centaines de jeunes mineurs, d'ouvriers d'usine et d'employés coloniaux sont contraints de prendre les armes pour défendre leurs familles et leur ville contre l'armée Mwamis. Sur une population totale d'environ 45 000 citoyens, 35 000 se sont barricadés avec les forces flamandes et wallonnes tandis que le reste a fui la ville et s'est réfugié dans les villages voisins. Seules de petites bandes de séparatistes restent maintenant à l'extérieur du centre fortifié et pillent et saccagent la périphérie de la ville, se vengeant sur les évolués et les propriétés des Blancs en vue de l'arrivée des forces Mwamis."
+ ktg.21.d: "Lorsque Ryckmans donna l'ordre de se retrancher dans la ville de [879.GetCapitalVictoryPointName], la population katangaise réalisa enfin ce qui se passait. Alors qu'une certaine partie de la population voit dans la rébellion et la chute de la domination allemande leur chance de se libérer de la domination européenne, la majorité de la population de la ville est moins convaincue par les arguments de leurs frères. Bien que leur vie dans la ville n'ait pas été facile, beaucoup se souviennent des jours de leur passé tribal et des difficultés qu'ils ont apportées avec eux. La domination européenne a peut-être été féroce et souvent injuste, mais elle a apporté un certain degré de bien-être que beaucoup ne veulent plus abandonner et se sont donc ralliés à la bannière de l'administration coloniale.\n\nDes tables, des chaises, des armoires et d'autres meubles sont traînés dans les rues pour établir des barricades temporaires tandis que les citoyens des banlieues sont transférés sur la place de la ville. Les armes et le matériel médical, dont beaucoup datent de l'époque belge, sont retirés des casernes et les lits sont transportés dans l'hôpital de [879.GetCapitalVictoryPointName]. Bien que beaucoup d'hommes, de femmes et d'enfants n'aient aucune expérience du combat, des centaines de jeunes mineurs, d'ouvriers d'usine et d'employés coloniaux sont contraints de prendre les armes pour défendre leurs familles et leur ville contre l'armée Mwamis. Sur une population totale d'environ 45 000 citoyens, 35 000 se sont barricadés avec les forces flamandes et wallonnes tandis que le reste a fui la ville et s'est réfugié dans les villages voisins. Seules de petites bandes de séparatistes restent maintenant à l'extérieur du centre fortifié et pillent et saccagent la périphérie de la ville, se vengeant sur les évolués et les propriétés des Blancs en vue de l'arrivée des forces Mwamis."
  ktg.21.a: "Une pluie fine s'installe."
 
  ktg.22.t: "Les Forces du Mwami s'approchent de la ville"
@@ -396,7 +466,7 @@ KTG_national_populist_ADJ: "Lunda"
  ktg.22.a: "Finaliser tous les préparatifs."
 
  ktg.23.t: "Le Siège Commence"
- ktg.23.d: "Au soir de la première semaine, le Mwami a enfin atteint la ville. Avec la pluie qui continue de tomber à verse comme si Dieu lui-même avait ouvert les vannes, la vie à l'intérieur des fortifications devient de plus en plus difficile.\n\nSous le couvert de l'obscurité, le Mwami établit un périmètre autour de la ville, tandis que des groupes d'éclaireurs sont envoyés à l'intérieur de la périphérie pour étudier les fortifications construites par les Coloniaux. Bien que le Mwami soit plus nombreux que la population de [879.GetCapitalVictoryPointName], son armée est composée de guerriers entraînés et de vétérans mécontents de l'offensive de l'Afrique de l'Est, tandis que les défenseurs ne comptent qu'un petit millier de soldats armés d'armes Weltkrieg de la Force Publique et quelques officiers européens. Pour effrayer les défenseurs, le Mwami a ordonné que mille feux soient allumés autour de la ville et a lancé un chant de guerre datant de la guerre de Lunda, pour montrer aux coloniaux que l'expédition Stairs sera vengée par le feu et le sang."
+ ktg.23.d: "Au soir de la première semaine, l'armée Mwami avait enfin atteint la ville. Avec la pluie qui continuait de tomber à verse comme si Dieu lui-même avait ouvert les vannes, la vie à l'intérieur des fortifications devenait de plus en plus difficile.\n\nSous le couvert de l'obscurité, le Mwami établit un périmètre autour de la ville, tandis que des groupes d'éclaireurs furent envoyés à l'intérieur de la périphérie pour étudier les fortifications construites par les Coloniaux. Bien que l'armée Mwami soit plus nombreux que la population de [879.GetCapitalVictoryPointName], son armée était composée de guerriers entraînés et de vétérans mécontents de l'offensive de l'Afrique de l'Est, tandis que les défenseurs ne comptaient qu'un petit millier de soldats armés d'armes de la Force Publique, datant de l'ère de la Weltkrieg et de quelques officiers européens. Pour effrayer les défenseurs, le Mwami avait ordonné que mille feux soient allumés autour de la ville et a lancé un chant de guerre datant de la guerre de Lunda, pour montrer aux coloniaux que l'expédition Stairs serait vengée par le feu et le sang."
  ktg.23.a: "Resserrez le périmètre !"
 
  ktg.24.t: "Bataille pour [879.GetCapitalVictoryPointName]"
@@ -417,17 +487,17 @@ KTG_national_populist_ADJ: "Lunda"
 
  ktg.29.t: "Nomination du Nouveau Gouverneur Colonial"
  ktg.29.d: "Après la disparition du gouverneur précédent dans le chaos de l'effondrement du Mittel-Afrikan, un nouveau gouverneur doit être nommé pour diriger la province du Katanga. Bien que le Mwami reste le dirigeant officiel, il ne sera utilisé que comme un chef titulaire, le véritable pouvoir étant détenu par le ministère des Colonies et l'UMHK. En raison de ses qualités de chef et de son dévouement pendant le siège, Pierre Ryckmans a été élu à l'unanimité par l'administration coloniale jusqu'à ce que de nouvelles élections soient organisées. Bien que Ryckmans ait montré, contrairement à nombre de ses prédécesseurs, qu'il se soucie de la population autochtone, les citoyens katangais s'inquiètent de la poursuite de l'ancienne politique coloniale belge."
- ktg.29.b: "Bonne chance Pierre Ryckmans !"
+ ktg.29.b: "Bonne chance, Pierre Ryckmans !"
 
  ktg.28.t: "Émeutes de [879.GetCapitalVictoryPointName]"
- ktg.28.d: "Avec le Mwami qui s'approche de la ville, de nombreux habitants autrefois loyaux voient leur chance d'accéder à une véritable indépendance, libérée de l'oppression blanche. Des émeutes de masse éclatent, les maisons des colons étant pillées et incendiées. Des restaurants et des magasins grecs et italiens sont incendiés et les surveillants de l'UMHK décapités dans les rues."
+ ktg.28.d: "Avec le Mwami qui s'approche de la ville, de nombreux habitants autrefois loyaux voient leur chance d'accéder à une véritable indépendance, libérée de l'oppression blanche. Des émeutes de masse éclatent, les maisons des colons étant pillées et incendiées. Des restaurants et des magasins grecs et italiens sont incendiés et les surveillants de l'UMHK sont décapités dans les rues."
  ktg.28.a: "Le Katanga sera indépendant !"
 
 ### European Policy ###
 
 #Germany
  ktg.30.t: "Envoyé des Garanganze"
- ktg.30.d: "Un envoyé de [879.GetCapitalVictoryPointName], au fin fond de la jungle du Congo, est arrivé dans notre capitale, Windhuk. Ils rapportent qu'une petite division de la Force Publique et les coloniaux restants ont été capables de tenir tête aux armées du Mwami. Un traité a donc été signé entre les citoyens de [879.GetCapitalVictoryPointName] et le Mwami, leur permettant de poursuivre leur domination coloniale avec le Mwami comme chef symbolique. Bien que leur situation soit stable pour le moment, le gouvernement colonial dirigé par Pierre Ryckmans a demandé un soutien supplémentaire pour assurer l'influence du Reichspakt sur la province."
+ ktg.30.d: "Un envoyé de [879.GetCapitalVictoryPointName], au fin fond de la jungle du Congo, est arrivé dans notre capitale, Windhuk. Ils rapportent qu'une petite division de la Force Publique et les coloniaux restants ont été capables de tenir tête aux armées du Mwami. Un traité a donc été signé entre les citoyens de [879.GetCapitalVictoryPointName] et le Mwami, leur permettant de poursuivre leur domination coloniale avec le Mwami comme un chef symbolique. Bien que leur situation soit stable pour le moment, le gouvernement colonial dirigé par Pierre Ryckmans a demandé un soutien supplémentaire pour assurer l'influence du Reichspakt sur la province."
  ktg.30.a: "Soutenez leur gouvernement."
  ktg.30.b: "Refusez toute aide."
 
@@ -444,17 +514,17 @@ KTG_national_populist_ADJ: "Lunda"
  ktg.33.a: "Soutenez leur gouvernement."
  ktg.33.b: "Refusez toute aide."
 
- ktg.34.t: "Traité avec l'Afrique de l'Est"
+ ktg.34.t: "Traité avec l'Ostafrika"
  ktg.34.d: "Nos envoyés sont revenus de Dar-es-Salaam, apportant avec eux le soutien de la colonie allemande. Bien qu'ils aient reconnu à contrecœur notre souveraineté pour le moment, il est clair qu'une fois qu'ils seront devenus plus puissants, une demande formelle de rejoindre leur nation sera faite."
  ktg.34.a: "Consolider notre pouvoir."
 
  ktg.35.t: "Daressalam nous a abandonnés !"
- ktg.35.d: "Nos envoyés sont revenus les mains vides de la colonie allemande d'Afrique de l'Est, apportant la nouvelle qu'ils n'ont pas l'intention de soutenir notre gouvernement. Sans le soutien de Daressalam, il sera très difficile pour le gouvernement colonial de se maintenir au pouvoir avec des ennemis de tous bords."
+ ktg.35.d: "Nos envoyés sont revenus les mains vides de la colonie allemande d'Ostafrika, apportant la nouvelle qu'ils n'ont pas l'intention de soutenir notre gouvernement. Sans le soutien de Daressalam, il sera très difficile pour le gouvernement colonial de se maintenir au pouvoir avec des ennemis de tous bords."
  ktg.35.a: "Nous devrons nous accrocher avec ce que nous avons."
 
 #Flanders-Wallonia
  ktg.40.t: "Envoyé du Katanga"
- ktg.40.d: "Grâce à un vaste réseau de communication soutenu par l'église catholique du Katanga, des nouvelles nous sont parvenues sur la situation de notre ancienne colonie. Grâce à une utilisation intelligente de la Force Publique et à l'utilisation de la population de [879.GetCapitalVictoryPointName], le gouvernement colonial dirigé par Pierre Ryckmans a pu rétablir le pouvoir colonial. Aujourd'hui, une demande officielle a été faite par son gouvernement pour obtenir le soutien de notre pays. Dans le chaos qui a suivi la chute de Mittel-Afrika, la plupart de nos citoyens vivant et travaillant au Congo ont pu s'échapper vers [879.GetCapitalVictoryPointName] où se trouve le pouvoir central de nos opérations minières. Les rapports des missions indiquent qu'environ 10 000 de nos colons ont pu se retirer vers [879.GetCapitalVictoryPointName] où ils ont proclamé Pierre Ryckmans comme leur gouverneur colonial. Bien que notre gouvernement ne soit pas en mesure de lancer une offensive à grande échelle pour libérer nos citoyens, les coloniaux ont demandé que nous leur envoyions des armes, des munitions et des vivres afin qu'ils puissent tenir tête aux chefs de guerre africains."
+ ktg.40.d: "Grâce à un vaste réseau de communication soutenu par l'Église catholique du Katanga, des nouvelles nous sont parvenues à propos de la situation de notre ancienne colonie. Grâce à une utilisation intelligente de la Force Publique et à l'utilisation de la population de [879.GetCapitalVictoryPointName], le gouvernement colonial dirigé par Pierre Ryckmans a pu rétablir le pouvoir colonial. Aujourd'hui, une demande officielle a été faite par son gouvernement pour obtenir le soutien de notre pays. Dans le chaos qui a suivi la chute de Mittelafrika, la plupart de nos citoyens vivant et travaillant au Congo ont pu s'échapper vers [879.GetCapitalVictoryPointName] où se trouve le pouvoir central de nos opérations minières. Les rapports des missions indiquent qu'environ 10 000 de nos colons ont pu se retirer vers [879.GetCapitalVictoryPointName] où ils ont proclamé Pierre Ryckmans comme leur gouverneur colonial. Bien que notre gouvernement ne soit pas en mesure de lancer une offensive à grande échelle pour libérer nos citoyens, les coloniaux ont demandé que nous leur envoyions des armes, des munitions et des vivres afin qu'ils puissent tenir tête aux chefs de guerre africains."
  ktg.40.a: "Envoyez-leur toute l'aide que nous pouvons leur apporter."
  ktg.40.b: "Attendez la réponse de l'Allemagne."
 
@@ -472,7 +542,7 @@ KTG_national_populist_ADJ: "Lunda"
  ktg.43.b: "Refuser de reconnaître leur état."
 
  ktg.44.t: "La Südwestafrika offre son soutien"
- ktg.44.d: "La colonie allemande de Südwestafrika a proposé de nous aider dans notre mission de secours aux coloniaux piégés en ouvrant ses ports et ses voies ferrées à nos expéditions. Bien que nous soyons reconnaissants pour leur aide, il semble qu'ils vont l'utiliser pour nous forcer à conclure un accord."
+ ktg.44.d: "La colonie allemande de Südwestafrika a proposé de nous aider dans notre mission de secours aux coloniaux piégés en ouvrant ses ports et ses voies ferrées à nos expéditions. Bien que nous soyons reconnaissants pour leur aide, il semble qu'ils vont l'utiliser comme levier pour nous forcer à conclure un accord."
  ktg.44.a: "Nous n'avons pas d'autre choix que d'accepter."
 
  ktg.45.t: "Autres demandes de [879.GetCapitalVictoryPointName]"
@@ -505,7 +575,7 @@ KTG_national_populist_ADJ: "Lunda"
  ktg.53.t: "Les Portugais expriment leur intérêt pour nos territoires"
  ktg.53.d: "Le gouvernement portugais a clairement exprimé son intention de conquérir notre territoire et commence à préparer une invasion. Même si nos forces ne peuvent pas retenir l'ensemble de l'armée portugaise, nous pourrions commencer à nous retrancher, en espérant un miracle. Nous pourrions offrir la province au Portugal, épargnant ainsi à nos citoyens et à notre industrie le poids de leur invasion. D'un autre côté, nous pourrions également demander de l'aide, car l'aide de l'Afrique du Sud-Ouest pourrait assurer notre survie, même si notre autonomie était compromise."
  ktg.53.a: "On se creuse la tête."
- ktg.53.b: "Demander de l'aide à la Südwestafrika"
+ ktg.53.b: "Demandez de l'aide à la Südwestafrika."
  ktg.53.c: "Proposer une résolution pacifique au Portugal."
 
  ktg.54.t: "Le Katanga propose un accord"
@@ -587,7 +657,7 @@ KTG_national_populist_ADJ: "Lunda"
  ktg.73.a: "Offrez au Mwami une dernière chance de se rendre."
 
  ktg.74.t: "Assaut Final sur Munema"
- ktg.74.d: "Honorant son héritage, le Mwami a décidé de mourir en combattant les coloniaux comme son ancêtre Msiri l'avait fait lors de l'expédition Stairs. En réponse à sa décision et mal à l'aise avec la perte de vies de la Force Publique, Tombeur a donné l'ordre de bombarder la forteresse de Munema et de poursuivre avec une poussée combinée des para-commandos flamands et wallons et des fantassins de la Force Publique. L'ancienne forteresse n'était pas du tout capable de résister à ce type de guerre moderne et est tombée en moins de deux heures, le Mwami menant une charge désespérée contre les para-commandos lorsqu'il a finalement été fauché par les tirs combinés. Après que la poussière soit retombée et que les blessés aient été transportés pour être soignés, le nombre final de morts s'élevait à 24 troupes coloniales contre près de 1 000 des meilleurs Mwamis."
+ ktg.74.d: "Honorant son héritage, le Mwami a décidé de mourir en combattant les coloniaux comme son ancêtre Msiri l'avait fait lors de l'expédition Stairs. En réponse à sa décision et mal à l'aise avec la perte de vies de la Force Publique, Tombeur a donné l'ordre de bombarder la forteresse de Munema et de poursuivre avec une poussée combinée des para-commandos flamands et wallons et des fantassins de la Force Publique. L'ancienne forteresse n'était pas du tout capable de résister à ce type de guerre moderne et est tombée en moins de deux heures, le Mwami menant une charge désespérée contre les para-commandos lorsqu'il a finalement été fauché par les tirs combinés. Après que la poussière soit retombée et que les blessés aient été transportés pour être soignés, le nombre final de morts s'élevait à 24 troupes coloniales contre près d'un millier des meilleurs Mwamis."
  ktg.74.a: "Ainsi tombe la maison de Msiri."
 
 #Flavour
@@ -633,7 +703,7 @@ KTG_national_populist_ADJ: "Lunda"
  ktgfla.10.a: "Augmenter la Garnison de la Force Publique dans la Cité Indigène."
 
  ktgfla.11.t: "Mutinerie dans les casernes de [879.GetCapitalVictoryPointName]."
- ktgfla.11.d: "Instigué par la réaction agressive d'Amour contre les grévistes de l'UMHK, le premier sergent-major Ngoie Mukalabushi s'est révolté contre l'administration coloniale en collaborant avec Mpoyi pour saper le régime flamand-wallon et apporter l'indépendance totale au Katanga. Des centaines de mineurs suivant Mpoyi se sont joints à la Force Publique mutinée, se frayant un chemin dans le quartier blanc pour renverser le régime."
+ ktgfla.11.d: "Instigué par la réaction agressive d'Amour contre les grévistes de l'UMHK, le Premier Sergent-Major Ngoie Mukalabushi s'est révolté contre l'administration coloniale en collaborant avec Mpoyi pour saper le régime flamand-wallon et apporter l'indépendance totale au Katanga. Des centaines de mineurs suivant Mpoyi se sont joints à la Force Publique mutinée, forçant le passage dans le quartier blanc pour renverser le régime."
  ktgfla.11.a: "Des renforts venus de Bunkeya étouffent la révolte."
  ktgfla.11.b: "La domination coloniale est à nouveau renversée."
 
@@ -642,5 +712,5 @@ KTG_national_populist_ADJ: "Lunda"
  ktgfla.12.a: "Une triste journée pour Katanga"
 
  ktgfla.13.t: "Tentative d'assassinat du Père Raphaël"
- ktgfla.13.d: "A 17h16 aujourd'hui, une voiture piégée a secoué [879.GetCapitalVictoryPointName] lorsque la voiture qui devait transporter le Père Raphaël du siège colonial au Stade Roi Adelbert a explosé, tuant le conducteur et blessant 8 autres personnes. On ignore qui a pu prendre pour cible le père tant adulé, responsable de l'introduction du football dans la colonie, mais les rapports indiquent qu'un membre radical de la tribu Garanganze a peut-être fait exploser la bombe pour exprimer sa méfiance à l'égard du pouvoir toujours croissant de l'Église Catholique. Sa tentative semble avoir provoqué l'effet inverse : de plus en plus de citoyens décident d'abandonner leur passé tribal et de faire partie de la population croissante des évolués des villes."
+ ktgfla.13.d: "A 17h16 aujourd'hui, une voiture piégée a secoué [879.GetCapitalVictoryPointName] lorsque la voiture qui devait transporter le Père Raphaël du siège colonial au Stade Roi Adelbert a explosé, tuant le conducteur et blessant 8 autres personnes. On ignore qui a pu prendre pour cible le père tant adulé, qui était responsable de l'introduction du football dans la colonie, mais les rapports indiquent qu'un membre radical de la tribu Garanganze a peut-être fait exploser la bombe pour exprimer sa méfiance à l'égard du pouvoir toujours croissant de l'Église Catholique. Sa tentative semble avoir provoqué l'effet inverse : de plus en plus de citoyens décident d'abandonner leur passé tribal et de faire partie de la population croissante des évolués des villes."
  ktgfla.13.a: "Dieu Merci il n'a pas été blessé"
