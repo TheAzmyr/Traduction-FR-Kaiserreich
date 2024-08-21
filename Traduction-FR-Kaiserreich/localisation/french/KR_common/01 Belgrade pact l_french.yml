@@ -9,9 +9,9 @@ is_in_belgrade_pact: "Est dans le Pacte de Belgrade"
  BPL_pact_of_organisation:0 "Pacte d'Organisation"
  BPL_pact_of_organisation_desc:0 "La signature du pacte d'organisation a permis d'intégrer les économies des pays des Balkans et d'approfondir les relations. Le Conseil économique du pacte a contribué à coordonner les relations commerciales et économiques, et notre nation en voit les avantages.\n\n§RSi nous nous trouvons en guerre avec l'un des membres de cette union économique, le Conseil sera dissous et nous perdrons tous les avantages.§!"
  BPL_modify_pact_of_organisation: "Modifie §H$BPL_pact_of_organisation$§! par"
- BP_war_exhaustion: "Épuisement de la Guerre Balkanique"
- belgrade_part_arms_embargo: "Embargo International sur les Armes"
- belgrade_part_arms_embargo_desc: "Sur décision de l'Empire autrichien et de ses alliés européens, nous sommes désormais frappés par un embargo international sur les armes. Nos frontières sont fermées à toute importation d'armes et de munitions et nous devrons nous contenter de notre maigre production nationale. Nous devons donc en finir rapidement avec la Bulgarie."
+ BP_war_exhaustion: "Épuisement consécutif à la Guerre Balkanique"
+ belgrade_part_arms_embargo: "Embargo international sur les armes"
+ belgrade_part_arms_embargo_desc: "Sur décision de l'Empire Autrichien et de ses alliés européens, nous sommes désormais frappés par un embargo international sur les armes. Nos frontières sont fermées à toute importation d'armes et de munitions et nous devrons nous contenter de notre maigre production nationale. Nous devons donc en finir rapidement avec la Bulgarie."
 
 ### Decisions ###
 Belgrade_Pact_Balkan_War: "Le pacte de Belgrade"
@@ -52,7 +52,7 @@ Belgrade_Pact_refused_to_end_occupation: "Refuse de mettre fin à l'occupation d
 
 ### Events ###
 pact.1.t: "Le Congrès de Belgrade"
- pact.1.d: "La coopération des nations des Balkans contre un ennemi commun, en dépit de leurs désaccords internes, est un chemin déjà bien fréquenté par l'histoire. La Ligue des Balkans, formée par la Serbie, la Bulgarie et la Grèce pour vaincre l'Empire ottoman dans les Balkans, en était un exemple parfait, même si elle s'est désintégrée dans la deuxième guerre des Balkans quelques mois seulement après la victoire. Aujourd'hui, la Serbie, la Roumanie et la Grèce sont confrontées à un autre hégémon - le Tsardom de Bulgarie - et chacune d'entre elles a des territoires à reconquérir.\n\nPendant près de deux décennies, l'idée d'une telle alliance était impensable. Les trois États des Balkans avaient été démantelés, affaiblis, désarmés, et l'œil des grandes puissances européennes était toujours aux aguets. Dans les années 1930, cependant, la situation avait définitivement changé. La fragilité constante de l'Empire austro-hongrois et son manque de volonté d'intervenir dans les Balkans ont déjà donné aux mineurs balkaniques une chance de se réarmer, et maintenant, elle leur a donné une chance de planifier ensemble. Des sommets bipartites et des discussions diplomatiques avaient lieu entre la Serbie et la Roumanie depuis 1932, et entre la Serbie et la Grèce depuis 1934, et tout cela a culminé avec le Congrès de Belgrade.\n\nUn sommet de quatorze jours dans la capitale de la Serbie, c'est un événement culturel autant que politique. La planification diplomatique entre les ministres des affaires étrangères des trois États se déroule parallèlement au dialogue entre les universités de Belgrade et de Bucarest concernant la recherche et les échanges d'étudiants, par exemple.\n\nQuoi qu'il en soit, à la fin du congrès, les délégations des trois États ont publié une résolution en 14 points, dont le plus alarmant est \"la reconnaissance du fait que seule l'autodétermination des peuples, selon leurs allégeances ethniques, peut être considérée comme une voie juste vers la souveraineté et la revendication territoriale\", et un appel à un \"nouvel ordre dans les Balkans\" pour mettre en œuvre ce principe, vraisemblablement aux dépens de la Bulgarie."
+ pact.1.d: "La coopération des nations des Balkans contre un ennemi commun, en dépit de leurs désaccords internes, est une histoire qui a tendance à se répéter dans cette partie du monde. La Ligue des Balkans, formée par la Serbie, la Bulgarie et la Grèce pour vaincre l'Empire ottoman dans les Balkans, en était un exemple parfait, même si elle s'est désintégrée dans la deuxième guerre des Balkans quelques mois seulement après la victoire. Aujourd'hui, la Serbie, la Roumanie et la Grèce sont confrontées à un autre hégémon - le Tsardom de Bulgarie - et chacune d'entre elles a des territoires à reconquérir.\n\nPendant près de deux décennies, l'idée d'une telle alliance était impensable. Les trois États des Balkans avaient été démantelés, affaiblis, désarmés, et l'œil des grandes puissances européennes était toujours aux aguets. Dans les années 1930, cependant, la situation avait définitivement changé. La fragilité constante de l'Empire austro-hongrois et son manque de volonté d'intervenir dans les Balkans ont déjà donné aux mineurs balkaniques une chance de se réarmer, et maintenant, elle leur a donné une chance de planifier ensemble. Des sommets bipartites et des discussions diplomatiques avaient lieu entre la Serbie et la Roumanie depuis 1932, et entre la Serbie et la Grèce depuis 1934, et tout cela a culminé avec le Congrès de Belgrade.\n\nUn sommet de quatorze jours dans la capitale de la Serbie, c'est un événement culturel autant que politique. La planification diplomatique entre les ministres des affaires étrangères des trois États se déroule parallèlement au dialogue entre les universités de Belgrade et de Bucarest concernant la recherche et les échanges d'étudiants, par exemple.\n\nQuoi qu'il en soit, à la fin du congrès, les délégations des trois États ont publié une résolution en 14 points, dont le plus alarmant est \"la reconnaissance du fait que seule l'autodétermination des peuples, selon leurs allégeances ethniques, peut être considérée comme une voie juste vers la souveraineté et la revendication territoriale\", et un appel à un \"nouvel ordre dans les Balkans\" pour mettre en œuvre ce principe, vraisemblablement aux dépens de la Bulgarie."
  # Of course, such an event could not take place without controversy. The inclusion of the Romanian delegation, while crucial, has been protested by many representatives in the Skupština, who could not bring themselves to bear [SER.GetLeader] shaking hands with the despised Corneliu Codreanu. - TBA later
 pact.1.a: "Ouvrez le Congrès !"
 
@@ -65,7 +65,7 @@ pact.3.t: "[From.GetName] adhère au Pacte de Belgrade"
 pact.3.d: "Le gouvernement [From.GetAdjective] a annoncé qu'il participerait au congrès de Belgrade et adhérerait officiellement au Pacte de Belgrade"
 pact.3.a: "Ensemble pour la paix !"
 
-pact.4.t: "[From.GetName] Refuse"
+pact.4.t: "[From.GetName] refuse"
 pact.4.d: "Le gouvernement [From.GetAdjective] a annoncé qu'il ne fera, pour l'instant, partie d'aucune alliance formelle visant la Bulgarie"
  pact.4.a:9 "Nous n'avons pas besoin d'eux"
 
@@ -75,7 +75,7 @@ pact.5.t: "Fin du pacte"
 
  pact.6.t: "Le Congrès de Belgrade plaide pour un nouvel ordre dans les Balkans"
  pact.6.d: "À l'initiative de la Serbie, des représentants de plusieurs pays se sont réunis à Belgrade pour discuter de la situation politique et militaire dans les Balkans. Au cours de cet événement qui a duré quatorze jours, Serbes, Roumains et Grecs ont comploté pour créer un soi-disant \"nouvel ordre dans les Balkans\", allant même jusqu'à créer une résolution en 14 points qui déclare que \"seule l'autodétermination des peuples, selon leurs allégeances ethniques, peut être considérée comme une voie juste vers la souveraineté et la revendication territoriale\".\n\nLes Balkans sont clairement agités une fois de plus, et les résolutions du Congrès de Belgrade seront sûrement utilisées pour justifier une guerre commune contre la Bulgarie et, finalement, l'Empire autrichien. Que faire face à ces nouvelles ?"
- pact.6.a: "Les Serbes et les Roumains y réfléchiront à deux fois après un embargo !"
+ pact.6.a: "Les Serbes et les Roumains y réfléchiront à deux fois, après un embargo !"
  pact.6.b: "Laissez-les venir, les Balkans ne peuvent pas nous menacer."
 
  pact.7.t: "[From.GetName] annonce son soutien à la Bulgarie"
@@ -88,21 +88,21 @@ pact.5.t: "Fin du pacte"
  pact.8.b:9 "Nous ne sommes pas intéressés par les Balkans"
 
  pact.17.t: "Le coup des Serbes !"
- pact.17.d: "Après une impasse tendue de deux semaines sur la rivière Morava, le gouvernement serbe a finalement repris la parole - il nous demande de quitter la Macédoine et la région de Niš dans les 48 heures, la livrant effectivement au contrôle serbe, afin de protéger la population serbe locale de toute nouvelle terreur et effusion de sang. Des ultimatums de suivi ont été envoyés par ses alliés du Pacte de Belgrade, traitant du conflit ethnique et de leurs inquiétudes sur leurs territoires respectifs.\n\nAvant même que l'encre de ces documents ait séché, nos forces à Niš ont déjà envoyé des rapports sur les forces serbes traversant la Morava, les premières escarmouches et les bombardements aériens ayant lieu. Il ne nous reste donc qu'une seule option."
- pact.17.a: "A la guerre ! Défendez l'honneur de la Bulgarie !"
+ pact.17.d: "Après une impasse tendue de deux semaines sur la rivière Morava, le gouvernement serbe a finalement joué cartes sur table - il exige que nous quittions la Macédoine et la région de Niš dans les 48 heures, la livrant effectivement au contrôle serbe, afin de protéger la population serbe locale de toute nouvelle terreur et effusion de sang. Des ultimatums de suivi ont été envoyés par ses alliés du Pacte de Belgrade, traitant du conflit ethnique et de leurs inquiétudes sur leurs territoires respectifs.\n\nAvant même que l'encre de ces documents ait séché, nos forces à Niš ont déjà envoyé des rapports sur les forces serbes traversant la Morava, les premières escarmouches et les bombardements aériens ayant lieu. Il ne nous reste donc qu'une seule option."
+ pact.17.a: "A la guerre ! Il faut défendre l'honneur de la Bulgarie !"
 
 pact.21.t: "La question de la Thrace"
 pact.21.d: "La Bulgarie étant désormais engagée dans une guerre avec le pacte de Belgrade, la question s'est posée dans les couloirs du gouvernement de savoir si nous devrions nous aussi récupérer les terres qui nous reviennent de droit. Depuis la fin de la Weltkrieg, la Bulgarie a occupé des terres en Thrace occidentale qui sont en grande partie musulmanes et turques - ils comprendraient certainement que leur ancien "allié" demande qu'on leur remette ces terres"
- pact.21.a:9 "Faire la demande"
+ pact.21.a:9 "Transmettre la demande"
  pact.21.b: "Nous n'avons aucun intérêt à nous impliquer pour l'instant"
 
 pact.22.t: "Les Ottomans réclament la Thrace"
- pact.22.d: "Il semble que nos anciens "alliés" dans l'Empire ottoman souhaitent tirer profit de notre conflit actuel avec le pacte de Belgrade. Ils ont exigé le retour de la Thrace occidentale, une région largement musulmane et turque, mais que nous avons légitimement occupée depuis la fin de la Weltkrieg. Si nous refusons, ils pourraient très bien nous attaquer par l'arrière, un front supplémentaire à la guerre que nous pouvons à peine nous permettre"
+ pact.22.d: "Il semble que nos anciens "alliés" dans l'Empire Ottoman souhaitent tirer profit de notre conflit actuel avec le pacte de Belgrade. Ils ont exigé le retour de la Thrace occidentale, une région largement musulmane et turque, mais que nous avons légitimement occupée depuis la fin de la Weltkrieg. Si nous refusons, ils pourraient très bien nous attaquer par l'arrière. Un front supplémentaire dans une guerre que nous pouvons déjà à peine nous permettre."
  pact.22.a: "Donnez-leur ce qu'ils veulent..."
 pact.22.b: "Jamais ! Nous les vaincrons aussi !"
 
 pact.23.t: "La Bulgarie est d'accord"
-pact.23.d: "Voyant la sagesse de ne pas poursuivre une guerre sur deux fronts, la Bulgarie a accepté de nous rendre les terres de la Thrace occidentale"
+pact.23.d: "Voyant la sagesse de ne pas poursuivre une guerre sur deux fronts, la Bulgarie a accepté de nous rendre les terres de Thrace occidentale"
  pact.23.a:9 "Très sage"
 
 pact.24.t: "La Bulgarie refuse"
@@ -118,18 +118,18 @@ pact.26.d: "Comme ils l'avaient promis, le gouvernement de [From.GetNameDef] nou
  pact.26.a:9 "Toute aide est la bienvenue"
 pact.26.tt: "Arrivée des troupes et du matériel [From.GetAdjective]"
 
- pact.27.t: "La Serbie négocie la Paix"
- pact.27.d: "Le ministère serbe des affaires étrangères nous a informés qu'ils négocient actuellement un traité de paix avec la Bulgarie qui mettrait fin à la guerre et répondrait aux généreuses demandes territoriales de tous les membres du pacte. Comme la guerre s'éternise, une telle paix serait bien accueillie par la population. Toutefois, la Bulgarie restera un État indépendant, ce qui préoccupe les fonctionnaires de notre gouvernement. Cela signifie que la Bulgarie pourrait, en théorie, être en mesure de se réarmer et de riposter comme elle l'a fait pendant la Weltkrieg. Devrions-nous accepter cette paix ?"
+ pact.27.t: "La Serbie négocie la paix"
+ pact.27.d: "Le ministère serbe des Affaires Etrangères nous a informé qu'ils négociaient actuellement un traité de paix avec la Bulgarie. Ce traité mettrait fin à la guerre et répondrait aux généreuses demandes territoriales de tous les membres du pacte. Comme la guerre s'éternise, une telle paix serait bien accueillie par la population. Toutefois, la Bulgarie restera un État indépendant, ce qui préoccupe les fonctionnaires de notre gouvernement. Cela signifie que la Bulgarie pourrait, en théorie, être en mesure de se réarmer et de riposter comme elle l'a fait pendant la Weltkrieg. Devrions-nous accepter cette paix ?"
  pact.27.a: "Mettons fin à la guerre maintenant, avant que les coûts ne s'accumulent."
  pact.27.b: "Bulgarie delenda est !"
  BP_temporary_breakaway_tt: "Vous pourrez rejoindre le Pacte après la guerre."
 
- pact.28.t: "La Paix de Sofia"
+ pact.28.t: "La paix de Sofia"
  pact.28.d: "Un traité de paix a été signé entre les membres du Pacte de Belgrade et la Bulgarie à Sofia, mettant fin à la Quatrième Guerre Balkanique."
  pact.28.a: "Victoire !"
 
- pact.29.t: "Épuisement de Guerre"
- pact.29.d: "Notre pays est entré dans la Quatrième Guerre Balkanique avec la promesse que la guerre serait courte et qu'elle aboutirait à des gains territoriaux rapides, mais maintenant, elle est au point mort et la population aspire à la paix. Des rumeurs se sont répandues selon lesquelles les Bulgares auraient proposé un traité de paix très généreux qui satisferait toutes nos revendications territoriales, mais il a été refusé, de sorte qu'encore plus d'hommes seront envoyés à la guerre pour rien de plus. Nos officiers se battent pour motiver leurs soldats à continuer à se battre et le front intérieur devient indiscipliné."
+ pact.29.t: "Épuisement de guerre"
+ pact.29.d: "Notre pays est entré dans la Quatrième Guerre Balkanique avec la promesse que la guerre serait courte et qu'elle aboutirait à des gains territoriaux rapides, mais à présent, elle est au point mort et la population aspire à la paix. Des rumeurs se sont répandues selon lesquelles les Bulgares auraient proposé un traité de paix très généreux qui satisferait toutes nos revendications territoriales, mais il a été refusé, de sorte qu'encore plus d'hommes seront envoyés à la guerre pour rien de plus. Nos officiers se battent pour motiver leurs soldats à continuer à se battre et le front intérieur devient indiscipliné."
  pact.29.a: "Bon sang..."
 
  pact.30.t: "Réinvitation au Pacte de Belgrade"
@@ -176,14 +176,14 @@ pact.41.b: "Non, nous continuons la guerre quoi qu'il arrive !"
 pact.42.t: "Nous perdons la guerre"
 pact.42.d: "Malgré les chances contre eux, et ce que nous pensions être une guerre rapide, les Bulgares nous ont repoussés. En effet, nous ne contrôlons plus les terres en Europe, et si cela continue, nous allons nous retrouver dans une situation très difficile. Peut-être pouvons-nous proposer de renoncer à nos prétentions sur la Thrace et de mettre fin à cette guerre maintenant ?"
  pact.42.a: "Oui, faites une offre de paix."
-pact.42.b: "Non, on continue à se battre !"
+pact.42.b: "Non, continuons à nous battre !"
 
 pact.43.t: "Les Ottomans appellent à la paix"
 pact.43.d: "Les Ottomans, regrettant clairement leur intervention dans la guerre et ayant déjà été repoussés hors d'Europe, ont proposé de faire la paix - ils renonceront à leurs prétentions sur la Thrace occidentale, et partiront d'où ils sont venus"
  pact.43.a:9 "Qu'il en soit ainsi"
 pact.43.b: "C'est tout ? On se bat !"
 
-pact.46.t: "[From.GetNameDefCap] Refuse la paix"
+pact.46.t: "[From.GetNameDefCap] refuse la paix"
 pact.46.d: "Bien que nous ayons offert de grandes concessions à notre ennemi, le gouvernement [From.GetAdjective] a refusé notre offre de paix, déclarant que nous serions complètement écrasés"
 pact.46.a: "Nous devons renverser la vapeur !"
 
@@ -203,14 +203,14 @@ pact.49.t: "La Bulgarie accepte l'offre de paix"
 
 pact.50.t: "Les Bulgares sont victorieux"
 pact.50.d: "La quatrième guerre des Balkans n'a pas été tout à fait le succès que nous avions en tête. La Bulgarie a réussi à monter une offensive et était sur le point de prendre Belgrade. Les négociations entre la Serbie et la Bulgarie ont abouti à un accord de paix. Nous devons démilitariser l'Olténie et le pacte de Belgrade sera dissous"
-pact.50.a: "Sont-ils invincibles ?"
+pact.50.a: "Seraient-ils invincibles?"
 
 pact.51.t: "Les Bulgares sont victorieux"
 pact.51.d: "La quatrième guerre des Balkans n'a pas été tout à fait le succès que nous avions en tête. La Bulgarie a réussi à monter une offensive et était sur le point de prendre Belgrade. Les négociations entre la Serbie et la Bulgarie ont abouti à un accord de paix. Nous devons démilitariser la Thessalie, céder Thessalonique, renoncer à nos revendications sur le territoire bulgare, et le pacte de Belgrade sera dissous"
-pact.51.a: "Sont-ils invincibles ?"
+pact.51.a: "Seraient-ils invincibles?"
 
 pact.52.t: "La guerre est terminée"
-pact.52.d: "La quatrième guerre des Balkans étant terminée, les soldats [Root.GetAdjective] rentrent enfin chez eux après avoir quitté la campagne, et les choses reviennent à la normale"
+pact.52.d: "La quatrième guerre des Balkans étant terminée, les soldats [Root.GetAdjective]s rentrent enfin chez eux après avoir quitté la campagne, et les choses reviennent à la normale"
  pact.52.a:9 "Enfin"
 
 pact.53.t: "La guerre est terminée"
@@ -230,7 +230,7 @@ pact.64.b: "Laissez-les avoir leur indépendance"
 pact.65.t: "[From.GetName] appelle à l'occupation conjointe de la Bulgarie"
 pact.65.d: "Le gouvernement [From.GetAdjective] a appelé à une occupation conjointe des terres restantes de la Bulgarie. À l'avenir, un État bulgare beaucoup plus petit pourrait être créé dans ces territoires. Pour l'instant, nous avons le droit de gouverner notre zone d'occupation comme nous le voyons, même en la pillant de tout ce qui a de la valeur"
 pact.65.a: "Très bien"
-pact.65.b: "Non, nous gardons nos nouvelles terres !"
+pact.65.b: "Non, nous garderons nos nouvelles terres !"
 
 pact.66.t: "[From.GetName] refuse de créer des zones d'occupation"
 pact.66.d: "Le gouvernement [From.GetAdjective] a refusé notre demande de créer des zones d'occupation dans les anciens territoires bulgares. Il a déclaré que toutes les terres qu'il possède lui appartiennent désormais de plein droit. Les relations avec [From.GetName] sont très détériorées, et la seule chose qui nous reste à faire est d'annuler notre alliance militaire"
@@ -292,7 +292,7 @@ pact.81.d: "La guerre avec les Serbes a pris fin, et finalement nos frontières 
  pact.81.a:9 "Enfin"
 
  pact.200.t: "Victoire dans la guerre des Balkans"
- pact.200.d: "Après des années de planification et de préparation, les forces combinées du pacte de Belgrade sont maintenant victorieuses de la menace bulgare ! Les Bulgares ne peuvent plus faire pression sur nous, car nous sommes désormais les maîtres des Balkans. Notre victoire a eu un prix, bien sûr, de nombreux hommes courageux ont donné leur vie pour réaliser notre rêve de longue date, et c'est leur vie que nous célébrerons dans cette victoire éclatante.\n\nMais, même après avoir récupéré nos territoires légitimes de l'emprise des Bulgares, notre mission n'est pas terminée. L'Autriche reste ferme au nord, opprimant sa population sud-slave pour qu'elle se mette au service des Habsbourg. Cela ne peut pas durer. Nous devons réparer les torts de la Weltkrieg et enfin nous venger de Vienne, bien que pour assurer l'unité du pacte de Belgrade, un deuxième congrès de Belgrade se tiendra dans les prochaines semaines."
+ pact.200.d: "Après des années de planification et de préparation, les forces combinées du pacte de Belgrade sont sorties victorieuses de la menace bulgare ! Les Bulgares ne peuvent plus faire pression sur nous, car nous sommes désormais les maîtres des Balkans. Notre victoire a eu un prix, bien sûr, de nombreux hommes courageux ont donné leur vie pour réaliser notre rêve de longue date, et c'est leur vie que nous célébrerons dans cette victoire éclatante.\n\nMais, même après avoir récupéré nos territoires légitimes de l'emprise des Bulgares, notre mission n'est pas terminée. L'Autriche reste ferme au nord, opprimant sa population sud-slave pour qu'elle se mette au service des Habsbourg. Cela ne peut pas durer. Nous devons réparer les torts de la Weltkrieg et enfin nous venger de Vienne, bien que pour assurer l'unité du pacte de Belgrade, un deuxième congrès de Belgrade se tiendra dans les prochaines semaines."
  pact.200.a: "Envoyez les invitations !"
 
  pact.201.t: "Une invitation de la Serbie"
@@ -309,8 +309,8 @@ pact.81.d: "La guerre avec les Serbes a pris fin, et finalement nos frontières 
  pact.203.a: "Très bien, nous y assisterons."
  pact.203.b: "C'est une perte de temps."
 
- pact.204.t: "[FROM.GetNameDefCap] Accepte de participer"
- pact.204.d: "Le ministère des affaires étrangères de [FROM.GetNameDef] nous a répondu, nous informant qu'il acceptait de se joindre à notre cause commune contre l'Autriche."
+ pact.204.t: "[FROM.GetNameDefCap] accepte de participer"
+ pact.204.d: "Le ministère des Affaires Etrangères de [FROM.GetNameDef] nous a répondu, nous informant qu'il acceptait de se joindre à notre cause commune contre l'Autriche."
  pact.204.a: "Excellent."
 
  pact.205.t: "Les délégués arrivent"
@@ -324,20 +324,20 @@ pact.81.d: "La guerre avec les Serbes a pris fin, et finalement nos frontières 
 
  pact.206.t: "Décider d'un objectif"
  pact.206.d: "Notre objectif global pourrait être unifié, mais il existe de multiples façons d'aborder la question de Vienne. Les délégués les plus radicaux du Congrès appellent à une guerre pour saigner à blanc les Autrichiens, en représailles de leurs actions pendant la Weltkrieg. D'autre part, les diplomates modérés privilégient une approche plus diplomatique, espérant ainsi négocier avec Vienne plutôt que de se montrer purement belliqueux à leur égard. Une approche pacifique serait sans doute préférable, mais peu sont optimistes quant aux chances de l'Autriche de se présenter effectivement à la table des négociations. En fin de compte, les principaux délégués serbes ont le choix final de l'approche que nous devrions chercher à adopter et, après quelques heures de réunions en coulisses, ils reviennent au Congrès avec leur ligne de conduite."
- pact.206.a: "En guerre avec l'Autriche !"
- pact.206.b: "Forcez-les avec diplomatie !"
+ pact.206.a: "La guerre contre l'Autriche !"
+ pact.206.b: "Nous la ferons plier par la diplomatie !"
 
  pact.207.t: "Le Congrès choisit d'attaquer l'Autriche"
  pact.207.d: "Les délégués à Belgrade ont décidé que, l'hégémonie bulgare étant tombée, il était temps de renverser l'hégémonie des Habsbourg sur l'Europe centrale. Comme la plupart des membres du pacte ont des revendications étendues sur l'Empire austro-hongrois, leurs délégués sont impatients de mettre enfin un terme à leurs objectifs nationaux respectifs, mais tous les membres ne sont pas aussi impatients de se jeter sur l'Empire pourri. Quoi qu'il en soit, il est temps d'annoncer officiellement notre soutien à ce plan d'action ou de quitter le Congrès."
  pact.207.a: "Nous soutenons cette initiative."
  pact.207.b: "Nous allons adhérer au pacte !"
- pact.207.c: "Quoi ? Non !"
- pact.207.e: "Nous ne nous sommes jamais souciés de la Transylvanie de toute façon."
+ pact.207.c: "Quoi ? Certainement pas !"
+ pact.207.e: "Nous ne nous sommes jamais souciés de la Transylvanie, de toute façon."
 
  pact.208.t: "[FROM.GetNameDefCap] quitte le Congrès"
- pact.208.d.war: "La délégation de [FROM.GetNameDef] a quitté le Congrès, soit pour protester contre le plan d'action convenu, soit parce qu'elle ne voit aucun avantage pour elle-même."
+ pact.208.d.war: "La délégation de [FROM.GetNameDef] a quitté le Congrès, soit pour protester contre le plan d'action convenu, soit parce qu'elle ne voyait aucun avantage pour elle-même."
  pact.208.d.diplomacy: "La délégation de [FROM.GetNameDef] a quitté le Congrès, apparemment peu intéressée par la question autrichienne."
- pact.208.a: "Leur perte."
+ pact.208.a: "Tant pis pour eux."
 
  pact.209.t: "La question des revendications"
  pact.209.d: "Le plan d'action étant décidé, les délégations ont décidé de formaliser leurs revendications sur l'Empire austro-hongrois. Naturellement, nous avons veillé à les informer que le but ultime de notre gouvernement est d'unir les Slaves du Sud de l'Autriche-Hongrie sous notre drapeau, en les libérant de siècles d'oppression."
@@ -350,10 +350,10 @@ pact.81.d: "La guerre avec les Serbes a pris fin, et finalement nos frontières 
  pact.211.t: "La question des revendications"
  pact.211.d: "Le plan d'action étant décidé, les délégations ont décidé de formaliser leurs revendications sur l'Empire austro-hongrois. La Grèce a cependant peu à gagner en termes de territoire directement des Habsbourg, mais nous pensons que cela fait partie de l'amélioration de la coopération régionale et de la solidification des relations."
  pact.211.a: "Nous n'avons aucune revendication."
- pact.211.b: "L'Épire du Nord nous appartient !"
+ pact.211.b: "L'Épire du Nord nous appartiendra !"
 
  pact.213.t: "La question des revendications"
- pact.213.d: "Le plan d'action étant décidé, les délégations ont décidé de formaliser leurs revendications sur l'Empire austro-hongrois. Naturellement, nous avons veillé à les informer que le but ultime de notre gouvernement est de mettre enfin un terme au Risorgimento, de libérer les Italiens d'Autriche du joug des Habsbourg et de venger la tache de 1919 !"
+ pact.213.d: "Le plan d'action étant décidé, les délégations ont décidé de formaliser leurs revendications sur l'Empire Austro-Hongrois. Naturellement, nous avons veillé à les informer que le but ultime de notre gouvernement est de mettre enfin un terme au Risorgimento, de libérer les Italiens d'Autriche du joug des Habsbourg et de venger la tache de 1919 !"
  pact.213.a: "Nous allons récupérer l'Istrie et Trente !"
 
  pact.214.t: "Le Congrès s'est terminé"
@@ -363,12 +363,12 @@ pact.81.d: "La guerre avec les Serbes a pris fin, et finalement nos frontières 
  pact.215.t: "Le Congrès choisit de négocier avec l'Autriche"
  pact.215.d: "Les délégués à Belgrade ont décidé qu'il serait imprudent de se jeter imprudemment sur l'armée austro-hongroise. Afin d'exprimer clairement nos griefs et de gagner la sympathie de la communauté internationale, nous allons ouvrir des négociations avec Vienne pour atteindre l'objectif déclaré du Congrès de rectifier les torts historiques et de mettre fin aux souffrances de nombre de nos co-nationaux résidant actuellement en Autriche-Hongrie. S'ils refusent, nous aurons toutes les excuses pour demander justice par la force des armes."
  pact.215.a: "Nous soutenons cette initiative."
- pact.215.b: "Quoi ? Non !"
+ pact.215.b: "Quoi ? Certainement pas !"
 
  pact.216.t: "Une invitation à Belgrade ?"
  pact.216.d: "Le Congrès de Belgrade nous a adressé une invitation. Bien qu'ils aient clairement énoncé leurs objectifs de démantèlement de notre ancienne monarchie, ils semblent disposés à essayer d'abord de trouver un accord à la table des négociations. Bien sûr, nous connaissons leurs conditions et elles sont totalement inacceptables ; ce serait une perte de temps totale d'y assister et nous devrions plutôt nous préparer à nous mobiliser contre eux."
  pact.216.a: "Une chance pour la paix, peut-être ?"
- pact.216.b: "Nous rejetons leur offre ridicule !"
+ pact.216.b: "Leur offre est ridicule et nous la rejetons !"
 
  pact.217.t: "L'Autriche se rebelle contre nos efforts"
  pact.217.d: "Comme on pouvait s'y attendre, Vienne a refusé de négocier. Comme ils veulent clairement la guerre qui mettra enfin fin à leur empire pourri, il est temps pour nous de marcher vers notre bataille finale pour renverser le joug des Habsbourg."
@@ -385,28 +385,28 @@ pact.81.d: "La guerre avec les Serbes a pris fin, et finalement nos frontières 
  pact.301.d: "Le gouvernement [FROM.GetAdjective] a refusé de signer le pacte d'organisation, peu intéressé par un resserrement des liens économiques dans la région des Balkans."
  pact.301.a: "Dommage pour eux."
 
- pact.302.t: "Formation du Conseil économique"
- pact.302.d: "Avec la ratification du pacte d'organisation, le Conseil économique est prêt à commencer son travail de coordination des relations commerciales et économiques entre ses membres."
+ pact.302.t: "Formation du Conseil Economique"
+ pact.302.d: "Avec la ratification du pacte d'organisation, le Conseil Economique est prêt à commencer son travail de coordination des relations commerciales et économiques entre ses membres."
  pact.302.a: "Un Balkan plus proche et plus prospère."
 
- pact.303.t: "Formation du Conseil économique"
- pact.303.d: "Avec la ratification du pacte d'organisation, le Conseil économique est prêt à commencer son travail de coordination des relations commerciales et économiques entre ses membres."
+ pact.303.t: "Formation du Conseil Economique"
+ pact.303.d: "Avec la ratification du pacte d'organisation, le Conseil Economique est prêt à commencer son travail de coordination des relations commerciales et économiques entre ses membres."
  pact.303.a: "Un Balkan plus proche et plus prospère."
 
- pact.304.t: "Rapport du Conseil économique"
- pact.304.d: "Grâce aux efforts du Conseil économique et de nos alliés, les avantages que nous tirons de la poursuite de l'intégration régionale se sont considérablement améliorés."
+ pact.304.t: "Rapport du Conseil Economique"
+ pact.304.d: "Grâce aux efforts du Conseil Economique et de nos alliés, les avantages que nous tirons de la poursuite de l'intégration régionale se sont considérablement améliorés."
  pact.304.a: "Les loyalistes auront tout notre soutien !"
 
- pact.305.t: "Quitter le Conseil économique"
- pact.305.d.war: "En raison d'actes d'agression contre d'autres membres du Conseil économique des Balkans, nous avons été expulsés du Conseil avec effet immédiat. En tant que tel, nous ne bénéficierons plus de ses avantages."
- pact.305.d.revolution: "Notre nouveau régime socialiste a déclaré tous les traités avec le Conseil économique des Balkans nuls et non avenus, avec effet immédiat. En tant que tel, nous ne bénéficierons plus de ses avantages."
+ pact.305.t: "Quitter le Conseil Economique"
+ pact.305.d.war: "En raison d'actes d'agression contre d'autres membres du Conseil Economique des Balkans, nous avons été expulsés du Conseil avec effet immédiat. En tant que tel, nous ne bénéficierons plus de ses avantages."
+ pact.305.d.revolution: "Notre nouveau régime socialiste a déclaré tous les traités avec le Conseil Economique des Balkans nuls et non avenus, avec effet immédiat. En tant que tel, nous ne bénéficierons plus de ses avantages."
  pact.305.a: "Très bien."
 
- pact.306.t: "[FROM.GetNameDefCap] rejoint le Conseil économique"
+ pact.306.t: "[FROM.GetNameDefCap] rejoint le Conseil Economique"
  pact.306.d: "Le gouvernement [FROM.GetAdjective] a signé le Pacte d'Organisation, ayant manqué la formation du Conseil auparavant, et tous les membres de l'organisation ne bénéficient pas des avantages accrus de la coopération économique mutuelle."
  pact.306.a: "Des Balkans plus proches et plus prospères."
 
- pact.307.t: "Avenir du Pacte de Belgrade"
+ pact.307.t: "L'avenir du Pacte de Belgrade"
  pact.307.d: "Notre objectif premier de vaincre l'Autriche ayant été atteint, nombreux sont ceux qui se posent la question : et maintenant ? Même si les alliances dans les Balkans ont souvent été de courte durée, certaines voix plus idéalistes ont défendu l'idée de transformer le Pacte de Belgrade en une alliance à long terme, non seulement pour défendre les Balkans contre les menaces étrangères, mais aussi pour coopérer économiquement et apporter la prospérité aux nations serbes et roumaines. Des voix plus pessimistes soulignent tous les problèmes perçus : différences idéologiques, Banat occidental, incrédulité quant à la capacité réelle des nations des Balkans à s'opposer d'elles-mêmes à des mastodontes tels que l'Allemagne et la Russie. Quoi qu'il en soit, si notre gouvernement approuvait l'idée d'une coopération à long terme, cela augmenterait considérablement les chances que notre alliance reste soudée."
  pact.307.a: "Nous avons versé du sang ensemble, nous resterons ensemble."
  pact.307.b: "Désolé, c'était juste pour une guerre."
