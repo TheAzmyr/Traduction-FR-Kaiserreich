@@ -3,22 +3,22 @@
 ### Regular Tooltips (for use in custom_effect_tooltip) ###
  tooltip_white_line: "   \n"
 
- elections_in_one_months: "§HDes Élections auront lieu dans un mois§!"
+ elections_in_one_months: "§HDes élections auront lieu dans un mois§!"
  elections_in_three_months: "§HLes élections auront lieu dans trois mois§!\n"
 
- characters_will_be_retired: "§RLes personnages suivants seront retirés :§!"
- characters_will_be_recruited: "§GLes personnages suivants seront recrutés :§!"
+ characters_will_be_retired: "§RLes personnages suivants seront retirés:§!"
+ characters_will_be_recruited: "§GLes personnages suivants seront recrutés:§!"
 
- tooltip_immediate_effect_upon_focus_start: "§YEffet immédiat dès le lancement de la priorité :§!\n"
- tooltip_effect_upon_focus_completion: "\n§GEffet lors de l'achèvement de la priorité :§!\n"
- after_idea_expires: "Après l'expiration de l'Esprit National :"
+ tooltip_immediate_effect_upon_focus_start: "§YEffet immédiat dès le lancement de la priorité:§!\n"
+ tooltip_effect_upon_focus_completion: "\n§GEffet lors de l'achèvement de la priorité:§!\n"
+ after_idea_expires: "Après l'expiration de l'esprit national :"
 
  unlock_focuses: "§GCette priorité sera éventuellement contournée automatiquement et déverrouillera les autres priorités.§!\n"
  tooltip_focus_unlocked_by_event: "§GCette priorité sera automatiquement déverrouillée via l'événement§!"
- enables_new_focus_branches: "Permet de nouvelles branches de priorités"
+ enables_new_focus_branches: "Ouvre l'accès à de nouvelles branches de priorités"
 
- tooltip_apply_one_of_effects_depending_on_ideas: "§gAppliquez l'un des effets suivants en fonction de notre esprit national actuel :§!"
- tooltip_apply_one_of_effects_depending_on_ruling_party: "§gAppliquez l'un des effets suivants en fonction de notre parti dirigeant actuel :§!"
+ tooltip_apply_one_of_effects_depending_on_ideas: "§gApplique l'un des effets suivants en fonction de notre esprit national actuel :§!"
+ tooltip_apply_one_of_effects_depending_on_ruling_party: "§gApplique l'un des effets suivants en fonction de notre parti dirigeant actuel :§!"
 
  tooltip_event_allows_choice: "§LL'événement permet de choisir l'un des éléments suivants:§!"
  tooltip_event_choice_or: "§L\n-------------- OU --------------\n§!"
@@ -32,7 +32,7 @@
  improves_designer_tt: "§GAméliore§! §YEntreprise d'ingénierie§! :"
  improves_industrial_concern_tt: "§GAméliore§! §YEntreprise industrielle§! :"
 
- end_coalition_tt: "La §YCoalition§! prendra totalement fin."
+ end_coalition_tt: "La §Ycoalition§! prendra totalement fin."
 
  #scoped to the country joining
  tooltip_joins_faction: "§Y[THIS.GetName]§! rejoint la faction."
@@ -43,7 +43,7 @@
  may_lead_to_war_with_FROM: "§RPeut mener à une guerre avec [From.GetNameDef]§!"
  may_lead_to_war_with_FROM_overlord: "§RPeut mener à une guerre avec [From.overlord.GetNameDef]§!"
  may_lead_to_war_with_FROM_FROM: "§RPeut mener à une guerre avec [From.From.GetNameDef]!§!"
- may_lead_to_war_with_FROM_FROM_overlord: "§RPeut conduire à la guerre avec [From.From.overlord.GetNameDef]!§!"
+ may_lead_to_war_with_FROM_FROM_overlord: "§RPeut mener à une guerre avec [From.From.overlord.GetNameDef]!§!"
 
  state_integration_at_fifty_compliance: "Peut devenir un état national lorsqu'il atteint une §Hconformité moyenne de 50%§!."
  state_integration_at_eighty_compliance: "Peut devenir un état national lorsqu'il atteint une §Hconformité moyenne de 80%§!."
@@ -52,7 +52,7 @@
  kill_character_tt: "est mort."
 
  # used to generate tooltips in dockyard or naval base foci when the country doesn't own any coastal states
- random_owned_controlled_coastal_state: "Un État côtier détenu et contrôlé de manière aléatoire"
+ random_owned_controlled_coastal_state: "Un état côtier détenu et contrôlé de manière aléatoire"
 
  received_equipment_500: "Vous avez reçu §G500§! de matériel d'infanterie de ce pays\n"
  received_equipment_1000: "Vous avez reçu §G1000§! de matériel d'infanterie de ce pays\n"
@@ -78,13 +78,13 @@
 
 ### Decision Names ###
  integrate_state: "Intégrer [From.GetName]"
- join_faction:0 "Rejoignez le [From.GetFactionName]"
+ join_faction:0 "Rejoindre la faction [From.GetFactionName]"
  attack_country:0 " Attaquer [From.GetNameDef] "
 
 ### Custom Modifier Tooltips ###
- cannot_enact_conscription_tt: "§RImpossible d'augmenter les lois sur la conscription.§!"
+ cannot_enact_conscription_tt: "§RImpossible de renforcer les lois sur la conscription.§!"
  cannot_train_units_tt: "§RImpossible de former des unités, de dissoudre des unités ou de modifier des modèles d'unités.§!\n"
- cannot_mobilise_tt: "§RImpossible d'augmenter les lois sur la conscription ou la mobilisation.§!\n"
+ cannot_mobilise_tt: "§RImpossible de renforcer les lois sur la conscription ou la mobilisation.§!\n"
  cannot_build_armour_tt: "§RNe peut pas produire de blindés.§!"
  cannot_build_aircraft_tt: "§RNe peut pas produire d'avions.§!"
  cannot_build_ships_tt: "§RNe peut pas produire de navires.§!"
@@ -93,11 +93,11 @@
  cannot_build_aircraft_ships_tt: "§RNe peut pas produire d'avions ou de navires.§!"
  cannot_build_anything_tt: "§RNe peut pas produire de blindés, d'avions ou de navires.§!"
 
- volunteer_limit_plus_three_tt: "$MODIFIER_SEND_VOLUNTEER_SIZE$: [?3|+=0]"
- volunteer_limit_plus_two_tt: "$MODIFIER_SEND_VOLUNTEER_SIZE$: [?2|+=0]"
- volunteer_limit_plus_one_tt: "$MODIFIER_SEND_VOLUNTEER_SIZE$: [?1|+=0]"
- volunteer_limit_plus_fifty_percent_tt: "$MODIFIER_SEND_VOLUNTEER_SIZE$: [?0.5|+=%1]"
- volunteer_limit_plus_hundred_percent_tt: "$MODIFIER_SEND_VOLUNTEER_SIZE$: [?0.1|+=%1]"
+ volunteer_limit_plus_three_tt: "$MODIFIER_SEND_VOLUNTEER_SIZE$:[?3|+=0]"
+ volunteer_limit_plus_two_tt: "$MODIFIER_SEND_VOLUNTEER_SIZE$:[?2|+=0]"
+ volunteer_limit_plus_one_tt: "$MODIFIER_SEND_VOLUNTEER_SIZE$:[?1|+=0]"
+ volunteer_limit_plus_fifty_percent_tt: "$MODIFIER_SEND_VOLUNTEER_SIZE$:[?0.5|+=%1]"
+ volunteer_limit_plus_hundred_percent_tt: "$MODIFIER_SEND_VOLUNTEER_SIZE$:[?0.1|+=%1]"
 
 ### Idea Names ###
  black_monday:0 "Lundi Noir"
@@ -149,11 +149,11 @@
  day_saturday: "Samedi"
 
 ### KR-added Modifiers ###
- offmap_military_factories_tooltip: "Usines Militaires Hors Carte"
- offmap_civilian_factories_tooltip: "Usines Civiles Hors Carte"
- offmap_dockyards_tooltip: "Chantiers Navals Hors Carte"
- daily_popularity_drift: "Soutien Quotidien du Parti au Pouvoir"
- daily_non_ruling_popularity_drift: "Soutien Quotidien des Partis Non Dirigeants"
+ offmap_military_factories_tooltip: "Usines militaires hors carte"
+ offmap_civilian_factories_tooltip: "Usines civiles hors carte"
+ offmap_dockyards_tooltip: "Chantiers navals hors carte"
+ daily_popularity_drift: "Soutien quotidien au parti au pouvoir"
+ daily_non_ruling_popularity_drift: "Soutien quotidien des partis non dirigeants"
 
  cic_from_target_factor_tooltip: "Industrie civile du pays cible"
  mic_from_target_factor_tooltip: "Industrie militaire du pays cible"
@@ -760,77 +760,77 @@
 
  war_support3: "£war_support_texticon §H3%§!"
  war_support3_blocked: "£war_support_texticon §R3%§!"
- war_support3_blocked_tooltip: "Cela coûtera $war_support3_blocked$ pour prendre cette décision."
+ war_support3_blocked_tooltip: "Cela coûte $war_support3_blocked$ pour prendre cette décision."
 
  war_support5:0 "£war_support_texticon  §H5%§!"
  war_support5_blocked:0 "£war_support_texticon  §R5%§!"
- war_support5_blocked_tooltip: "Cela coûtera $war_support5_blocked$ pour prendre cette décision."
+ war_support5_blocked_tooltip: "Cela coûte $war_support5_blocked$ pour prendre cette décision."
 
  war_support10:0 "£war_support_texticon  §H10%§!"
  war_support10_blocked:0 "£war_support_texticon  §R10%§!"
- war_support10_blocked_tooltip: "Cela coûtera $war_support10_blocked$ pour prendre cette décision."
+ war_support10_blocked_tooltip: "Cela coûte $war_support10_blocked$ pour prendre cette décision."
 
  war_support15: "£war_support_texticon §H15%§!"
  war_support15_blocked: "£war_support_texticon §R15%§!"
- war_support15_blocked_tooltip: "Cela coûtera $war_support15_blocked$ pour prendre cette décision."
+ war_support15_blocked_tooltip: "Cela coûte $war_support15_blocked$ pour prendre cette décision."
 
  war_support20: "£war_support_texticon §H20%§!"
  war_support20_blocked: "£war_support_texticon §R20%§!"
- war_support20_blocked_tooltip: "Cela coûtera $war_support20_blocked$ pour prendre cette décision."
+ war_support20_blocked_tooltip: "Cela coûte $war_support20_blocked$ pour prendre cette décision."
 
  stability3: "£GFX_stability_texticon §H3%§!"
  stability3_blocked: "£GFX_stability_texticon §R3%§!"
- stability3_blocked_tooltip: "Cela coûtera $stability3_blocked$ pour prendre cette décision."
+ stability3_blocked_tooltip: "Cela coûte $stability3_blocked$ pour prendre cette décision."
 
  stability5: "£GFX_stability_texticon §H5%§!"
  stability5_blocked: "£GFX_stability_texticon §R5%§!"
- stability5_blocked_tooltip: "Cela coûtera $stability5_blocked$ pour prendre cette décision."
+ stability5_blocked_tooltip: "Cela coûte $stability5_blocked$ pour prendre cette décision."
 
  stability10:0 "£GFX_stability_texticon  §H10%§!"
  stability10_blocked:0 "£GFX_stability_texticon  §R10%§!"
- stability10_blocked_tooltip: "Cela coûtera $stability10_blocked$ pour prendre cette décision."
+ stability10_blocked_tooltip: "Cela coûte $stability10_blocked$ pour prendre cette décision."
 
  stability15: "£GFX_stability_texticon §H15%§!"
  stability15_blocked: "£GFX_stability_texticon §R15%§!"
- stability15_blocked_tooltip: "Cela coûtera $stability15_blocked$ pour prendre cette décision."
+ stability15_blocked_tooltip: "Cela coûte $stability15_blocked$ pour prendre cette décision."
 
  stability20: "£GFX_stability_texticon §H20%§!"
  stability20_blocked: "£GFX_stability_texticon §R20%§!"
- stability20_blocked_tooltip: "Cela coûtera $stability20_blocked$ pour prendre cette décision."
+ stability20_blocked_tooltip: "Cela coûte $stability20_blocked$ pour prendre cette décision."
 
  100_guns: "£rifle_texticon  §H100§!"
  100_guns_blocked: "£rifle_texticon  §R100§!"
- 100_guns_tooltip: "Cela coûtera $100_guns_blocked$ pour prendre cette décision."
+ 100_guns_tooltip: "Cela coûte $100_guns_blocked$ pour prendre cette décision."
 
  150_guns: "£rifle_texticon  §H150§!"
  150_guns_blocked: "£rifle_texticon  §R150§!"
- 150_guns_tooltip: "Cela coûtera $150_guns_blocked$ pour prendre cette décision."
+ 150_guns_tooltip: "Cela coûte $150_guns_blocked$ pour prendre cette décision."
 
  200_guns: "£rifle_texticon  §H200§!"
  200_guns_blocked: "£rifle_texticon  §R200§!"
- 200_guns_tooltip: "Cela coûtera $200_guns_blocked$ pour prendre cette décision."
+ 200_guns_tooltip: "Cela coûte $200_guns_blocked$ pour prendre cette décision."
 
  250_guns: "£rifle_texticon  §H250§!"
  250_guns_blocked: "£rifle_texticon  §R250§!"
- 250_guns_tooltip: "Cela coûtera $250_guns_blocked$ pour prendre cette décision."
+ 250_guns_tooltip: "Cela coûte $250_guns_blocked$ pour prendre cette décision."
 
  300_guns: "£rifle_texticon  §H300§!"
  300_guns_blocked: "£rifle_texticon  §R300§!"
- 300_guns_tooltip: "Cela coûtera $300_guns_blocked$ pour prendre cette décision."
+ 300_guns_tooltip: "Cela coûte $300_guns_blocked$ pour prendre cette décision."
 
  500_guns:0 "£rifle_texticon  §H500§!"
  500_guns_blocked:0 "£rifle_texticon  §R500§!"
- 500_guns_tooltip: "Cela coûtera $500_guns_blocked$ pour prendre cette décision."
+ 500_guns_tooltip: "Cela coûte $500_guns_blocked$ pour prendre cette décision."
 
  1000_guns:0 "£rifle_texticon  §H1000§!"
  1000_guns_blocked:0 "£rifle_texticon  §R1000§!"
- 1000_guns_tooltip: "Cela coûtera $1000_guns_blocked$ pour prendre cette décision."
+ 1000_guns_tooltip: "Cela coûte $1000_guns_blocked$ pour prendre cette décision."
 
  2000_guns: "£rifle_texticon  §H2000§!"
  2000_guns_blocked: "£rifle_texticon  §R2000§!"
- 2000_guns_tooltip: "Cela coûtera $2000_guns_blocked$ pour prendre cette décision."
+ 2000_guns_tooltip: "Cela coûte $2000_guns_blocked$ pour prendre cette décision."
 
  5000_guns: "£rifle_texticon  §H5000§!"
  5000_guns_blocked: "£rifle_texticon  §R5000§!"
- 5000_guns_tooltip: "Cela coûtera $5000_guns_blocked$ pour prendre cette décision."
+ 5000_guns_tooltip: "Cela coûte $5000_guns_blocked$ pour prendre cette décision."
 
