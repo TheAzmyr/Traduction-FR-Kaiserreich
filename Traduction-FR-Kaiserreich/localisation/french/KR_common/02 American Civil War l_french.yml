@@ -1,29 +1,14 @@
 ﻿l_french:
 
 ### Opinion Modifiers ###
- WIFRP: "Le Canada nous a cédé Porto Rico"
-ACW_help_from_entente: "Nous a aidé dans la guerre civile"
-ACW_entente_helping: "Les aider dans la guerre civile"
-USA_new_england_units: "Quatre unités de milices seront levées en Nouvelle Angleterre"
- ACW_units_recalled: "Les soldats de la guerre civile seront remobilisés dans le cadre d'une mesure d'urgence"
+ ACW_occupied_new_england:0 "Nouvelle-Angleterre Occupée"
+ ACW_entente_helping: "Les aider dans la guerre civile"
 
+### Ideas ###
 ACW_federal_front_idea: "Poussez contre les Fédéraux"
 ACW_syndicalist_front_idea: "Poussez contre les Syndicalistes"
 ACW_longist_front_idea: "Poussez contre les Unionistes"
 ACW_pacific_front_idea: "Poussez contre les États du Pacifique"
-
-### World Tension ###
- american_civil_war_threat:0 "2nde Guerre de Sécession Américaine"
-
-### Tooltips ###
-ACW_liberia_rally: "Nous allons rallier notre peuple pour défendre le Libéria"
-ACW_panama_garrison_tooltip: "La garnison de Panama retourne en Amérique"
-ACW_chinese_marines_tooltip: "Les Marines déployés en Chine retournent en Amérique"
-PSA_rockies_ceasefire: "Un cessez-le-feu a été convenu dans les Rocheuses"
-ACW_reinforcment_tooltip: "Les renforts doivent arriver"
-ACW_convert_destroyers_tooltip: "Nous allons convertir les navires en destroyers"
-ACW_convert_cruisers_tooltip: "Nous allons convertir les navires en croiseurs"
- ACW_entente_support: "Conseillers de l'Entente"
 
 ACW_support_usa: "Soutenir le gouvernement Fédéral"
  ACW_support_usa_tt: "(§Y[USA.GetNameWithFlag]§!) $volunteer_limit_plus_two_tt$"
@@ -34,29 +19,31 @@ ACW_support_psa: "Soutenir le gouvernement des Etats du Pacifique"
 ACW_support_aus: "Soutenir le gouvernement Unioniste"
  ACW_support_aus_tt: "(§Y[TEX.GetNameWithFlag]§!) $volunteer_limit_plus_two_tt$"
 
+ACW_fired_up: "Feu à volonté"
+ACW_fired_up_desc: "Nos forces sont prêtes à engager l'ennemi !"
+ACW_times_up: "Ça prend trop de temps"
+ACW_times_up_desc: "La guerre civile dure depuis trop longtemps et avec trop peu d'espoir de progrès. Elle a commencé à user nos forces"
+
+### World Tension ###
+ american_civil_war_threat:0 "2nde Guerre de Sécession Américaine"
+
+### Tooltips ###
+ACW_chinese_marines_tooltip: "Les Marines déployés en Chine retournent en Amérique"
+PSA_rockies_ceasefire: "Un cessez-le-feu a été convenu dans les Rocheuses"
+
+USA_new_england_units: "Quatre unités de milices seront levées en Nouvelle Angleterre"
+ ACW_units_recalled: "Les soldats de la guerre civile seront remobilisés dans le cadre d'une mesure d'urgence"
+
 ACW_miss_ceasefire: " Cessez-le-feu du Mississippi "
 ACW_plains_ceasefire: " Cessez-le-feu des grandes plaines "
 ACW_rocky_ceasefire: " Cessez-le-feu des montagnes Rocheuses "
  ACW_is_recruiting: "Recruter la milice ailleurs"
 ACW_recruit_units: "[?total_units_to_spawn|G0] unités de milices seront levées."
-ACW_recruit_5_rebels: "§G5§! unités rebelles sont levées dans l'état."
-ACW_three_units_capital: "Trois unités de réserve d'urgence seront levées dans la capitale"
-ACW_six_units_raised: "§G6§! milices et d'infanterie supplémentaires sont levées"
-USA_capital_moved: "La capitale a été déplacée"
-ACW_fired_up: "Feu à volonté"
-ACW_fired_up_desc: "Nos forces sont prêtes à engager l'ennemi !"
-ACW_times_up: "Ça prend trop de temps"
-ACW_times_up_desc: "La guerre civile dure depuis trop longtemps et avec trop peu d'espoir de progrès. Elle a commencé à user nos forces"
  ACW_once_the_war_begins: "Quand la guerre civile commence :"
- ACW_gain_core_on_state: "Si un état voisin est cœur de §H[Root.GetNameDef]§!:"
 
  CP_25_PP_25: "£pol_power §Y25§! £command_power §Y25§!"
  CP_25_PP_25_blocked: "£pol_power §R25§! £command_power §R25§!"
  CP_25_PP_25_tooltip: "Cela coûte $CP_25_PP_25_blocked$ de prendre la décision"
-
- 2000_infantry_equipment_1: "£rifle_texticon §H2000§!"
- 2000_infantry_equipment_1_blocked: "£rifle_texticon §R2000§!"
- 2000_infantry_equipment_1_tooltip: "Cela coûte $2000_infantry_equipment_1_blocked$ pour prendre la décision."
 
 ### State Modifiers ###
  AFP_state_support_low: "Contrôle de l'AFP : §GBas§!"
@@ -115,11 +102,6 @@ ACW_times_up_desc: "La guerre civile dure depuis trop longtemps et avec trop peu
 
  USA_relocate_capital_civil_war: "Délocaliser la capitale"
 
- USA_emergency_reserve: "Appeler les réserves d'urgence"
- PSA_emergency_reserve: "Appeler les réserves d'urgence"
- CSA_emergency_reserve: "Appeler les réserves d'urgence"
- TEX_emergency_reserve: "Appeler les réserves d'urgence"
-
  ACW_federal_front: "Poussez sur le front fédéral"
  ACW_syndicalist_front: "Poussez sur le front syndicaliste"
  ACW_longist_front: "Poussez sur le front longiste"
@@ -127,8 +109,6 @@ ACW_times_up_desc: "La guerre civile dure depuis trop longtemps et avec trop peu
 
  ACW_recruitment_tooltip: "États dans lesquels il est possible de recruter"
  ACW_recruit_in_state: "Recruter [From.GetACWDivisionCount] unités de milice dans [From.GetName]"
-
- ACW_gets_event_uprising: "Obtient l'événement \"§RSoulèvement de résistance à [?revolt_state_var.GetName]§!\""
 
 ### Set Up Events ###
  amcivwar.1.t.president: "Le Président Reed s'échappe à Chicago"
@@ -403,11 +383,10 @@ amcivwar.156.g: "Poursuivre l'occupation militaire"
 amcivwar.157.t: "Retour des territoires américains"
 amcivwar.157.d.supported: "[From.GetNameDefCap], fidèles à leur promesse de nous soutenir pendant la guerre civile, nous ont rendu une grande partie de leur territoire américain occupé".
  amcivwar.157.d.notsupported: "[From.GetNameDefCap] a occupé une bonne partie du territoire américain pendant la guerre civile. Aujourd'hui, leur gouvernement nous a contactés et nous a restitué une grande partie de ce territoire à son "propriétaire légitime", sans poser de questions."
-amcivwar.157.a: "Nous apprécions"
+ amcivwar.157.a:9 "Nous apprécions"
 
-amcivwar.158.t: "Retour des territoires américains"
+ # uses amcivwar.157.t / .a
 amcivwar.158.d: "Nos alliés canadiens, fidèles à leur parole, nous ont cédé la quasi-totalité de leur territoire américain occupé."
-amcivwar.158.a: "Nous apprécions"
 
 amcivwar.159.t: "Un nouveau gouvernement américain"
 amcivwar.159.d: "Avec les anciens gouvernements en lambeaux, nous devrons établir quelque chose à partir de l'ancien. Quelle forme le nouveau gouvernement doit-il prendre ?"
@@ -510,11 +489,6 @@ amcivwar.227.t: "Saisie de matériel américain"
 amcivwar.227.d: "Les Américains ayant quitté l'île, ils ont laissé une grande quantité de matériel aux Philippines. L'armée philippine préconise de saisir ces ressources sans surveillance, mais le gouvernement craint les conséquences que cela pourrait avoir sur les relations entre les deux pays"
 amcivwar.227.a: "Saisir le matériel"
 amcivwar.227.b: "Nous devons rester amicaux"
-
-amcivwar.228.t: "La mission américaine aux Philippines"
-amcivwar.228.d: "La guerre a obligé le gouvernement américain à rappeler toutes les unités disponibles. Les forces américaines aux Philippines sont toujours fidèles au gouvernement américain et à Douglas MacArthur. Certains craignent que l'abandon des Philippines soit coûteux, mais les forces sont nécessaires en Amérique"
-amcivwar.228.a: "Rappeler les unités"
-amcivwar.228.b: "Nous devons maintenir notre position"
 
 amcivwar.229.t: "Le Commonwealth philippin"
 amcivwar.229.d: "Les Américains n'avaient jamais promis l'indépendance au peuple philippin et les forces à l'intérieur du pays voulaient utiliser la guerre civile américaine comme une occasion de déclarer l'indépendance et de former un gouvernement légitime. Le Commonwealth des Philippines a été créé pour administrer la nation et assurer la transition vers un état d'indépendance totale"

@@ -5,7 +5,7 @@ japan_focus: "L'arbre des priorités nationales du Japon"
 
 ### Opinion Modifiers ###
 JAP_motor_1: "Assimilation des industries automobiles étrangères"
-JAP_threat: "Le Japon nous menace"
+ JAP_threat: "Nous Menace"
 JAP_FNG_exploit: "Exploitation économique"
 
 ### Country Names ###
@@ -344,7 +344,7 @@ JAP_Imperial_Family_powerless_desc: "Le Congrès a décidé d'abolir les titres 
  JAP_shared_modernisation_1_desc: "Malgré les différences de doctrine et de stratégie entre les partisans des théories de la guerre longue et de la guerre courte, les deux camps s'accordent sur plusieurs points fondamentaux, tels que la nécessité pour l'armée d'obtenir des victoires précoces et des gains territoriaux, de forcer l'ennemi à négocier la paix ou de créer une ligne défensive contre un ennemi supérieur, et de mettre fortement l'accent sur l'agression, la retraite étant considérée comme une issue inacceptable. Grâce à ces objectifs communs, l'armée de terre sera en mesure d'assurer une modernisation cohérente."
  # Tooltips
  JAP_tech_marine_bonus: "SNLF"
- JAP_tech_marine_bonus_effect: "Active §H$JAP_tech_marine_bonus$\nMarines§!\n      Attaque Légère : §G+5%§!\n      Attaque Lourde : §G+5%§!\n§HBataillons Amtrac§!\n      Attaque Légère : §G+5%§!\n      Attaque Lourde : §G+5%§!\n§HBataillons de Chars Amphibies§!\n      Attaque Légère : §G+5%§!\n      Attaque Lourde : §G+5%§!"
+ JAP_tech_marine_bonus_effect: "Active §H$JAP_tech_marine_bonus$\n$tech_marine_bonus_effect_tooltip$"
  JAP_if_long_war: "Si nous choisissons de poursuivre une doctrine de §YLongue Guerre§!, nous recevrons les bonus suivants :"
  JAP_if_short_war: "Et si nous choisissons de poursuivre une doctrine de §YCourte Guerre§!, nous recevrons les bonus suivants :"
  JAP_deploy_teishindan: "Crée 2 unités  £GFX_nato_unit_paratrooper_icon_small  §YTeishindan§! :\n   x §Y5§! £GFX_nato_unit_paratrooper_icon_small  Bataillons de Parachutistes\n      - £GFX_nato_unit_artillery_icon_small  Compagnie d'Artillerie"
@@ -546,9 +546,6 @@ japanese_economic_influence_cost_tooltip: "Cela coûte £pol_power Un pouvoir po
 chinese_tag_must_agree: "[From.GetNameDefCap] doit accepter pour que cela prenne effet !"
 JAP_you_get_the_mils_back: "Vous récupérez les usines !"
 ETS_will_discuss_this: "[ETS.GetNameDefCap] deviendra plus amical avec nous"
- army_xp_more_than_10: "£army_experience §H10§!"
- army_xp_more_than_10_blocked: "£army_experience §R10§!"
- army_xp_more_than_10_tooltip: "Cela coûte $army_xp_plus_que_10_blocked$ pour prendre la décision"
 
  # Navy tooltips
  JAP_third_circle_tt: "§YDeux porte-avions§! et §Ydeux cuirassés§! commenceront leur construction, tous à partir d'un avancement de §G40%§!."
@@ -574,43 +571,42 @@ ETS_will_discuss_this: "[ETS.GetNameDefCap] deviendra plus amical avec nous"
  JAP_appoint_naruhiko_sic: "Nommer le conseiller §Y Higashikuni Naruhiko §!"
  JAP_purge_military_socialist_tt: "§RUne purge complète du haut commandement militaire sera décrétée.§!"
  JAP_purge_military_kmt_tt: "§RLe haut commandement de l'armée et de la marine impériale japonaise sera jugé pour ses crimes.§!"
- JAP_create_the_national_police_reserve_tt: "§rCette priorité mobilisera toutes les unités de police disponibles pour l'autodéfense.§!"
+ JAP_create_the_national_police_reserve_tt: "§CCette priorité mobilisera toutes les unités de police disponibles pour l'autodéfense.§!"
 
 ### Scripted Loc ###
- JAP_ally1_name: "§Y[?global.asian_economic_sphere^0.GetFlag][?global.asian_economic_sphere^0.GetName]§!, "
- JAP_ally2_name: "§Y[?global.asian_economic_sphere^1.GetFlag][?global.asian_economic_sphere^1.GetName]§!, "
-JAP_ally3_name: "§Y[?global.asian_economic_sphere^2.GetFlag][?global.asian_economic_sphere^2.GetName]§!, "
-JAP_ally4_name: "§Y[?global.asian_economic_sphere^3.GetFlag][?global.asian_economic_sphere^3.GetName]§!, "
-JAP_ally5_name: "§Y[?global.asian_economic_sphere^4.GetFlag][?global.asian_economic_sphere^4.GetName]§!, "
-JAP_ally6_name: "§Y[?global.asian_economic_sphere^5.GetFlag][?global.asian_economic_sphere^5.GetName]§!, "
-JAP_ally7_name: "§Y[?global.asian_economic_sphere^6.GetFlag][?global.asian_economic_sphere^6.GetName]§!, "
-JAP_ally8_name: "§Y[?global.asian_economic_sphere^7.GetFlag][?global.asian_economic_sphere^7.GetName]§!, "
-JAP_ally9_name: "§Y[?global.asian_economic_sphere^8.GetFlag][?global.asian_economic_sphere^8.GetName]§!, "
-JAP_ally10_name: "§Y[?global.asian_economic_sphere^9.GetFlag][?global.asian_economic_sphere^9.GetName]§!, "
-JAP_ally11_name: "§Y[?global.asian_economic_sphere^10.GetFlag][?global.asian_economic_sphere^10.GetName]§!, "
-JAP_ally12_name: "§Y[?global.asian_economic_sphere^11.GetFlag][?global.asian_economic_sphere^11.GetName]§!, "
-JAP_ally13_name: "§Y[?global.asian_economic_sphere^12.GetFlag][?global.asian_economic_sphere^12.GetName]§!, "
-JAP_ally14_name: "§Y[?global.asian_economic_sphere^13.GetFlag][?global.asian_economic_sphere^13.GetName]§!, "
-JAP_ally15_name: "§Y[?global.asian_economic_sphere^14.GetFlag][?global.asian_economic_sphere^14.GetName]§!, "
-JAP_ally1_last: "§Y[?global.asian_economic_sphere^0.GetFlag][?global.asian_economic_sphere^0.GetName]§!"
-JAP_ally2_last: "§Y[?global.asian_economic_sphere^1.GetFlag][?global.asian_economic_sphere^1.GetName]§!"
-JAP_ally3_last: "§Y[?global.asian_economic_sphere^2.GetFlag][?global.asian_economic_sphere^2.GetName]§!"
-JAP_ally4_last: "§Y[?global.asian_economic_sphere^3.GetFlag][?global.asian_economic_sphere^3.GetName]§!"
-JAP_ally5_last: "§Y[?global.asian_economic_sphere^4.GetFlag][?global.asian_economic_sphere^4.GetName]§!"
-JAP_ally6_last: "§Y[?global.asian_economic_sphere^5.GetFlag][?global.asian_economic_sphere^5.GetName]§!"
-JAP_ally7_last: "§Y[?global.asian_economic_sphere^6.GetFlag][?global.asian_economic_sphere^6.GetName]§!"
-JAP_ally8_last: "§Y[?global.asian_economic_sphere^7.GetFlag][?global.asian_economic_sphere^7.GetName]§!"
-JAP_ally9_last: "§Y[?global.asian_economic_sphere^8.GetFlag][?global.asian_economic_sphere^8.GetName]§! "
-JAP_ally10_last: "§Y[?global.asian_economic_sphere^9.GetFlag][?global.asian_economic_sphere^9.GetName]§! "
-JAP_ally11_last: "§Y[?global.asian_economic_sphere^10.GetFlag][?global.asian_economic_sphere^10.GetName]§! "
-JAP_ally12_last: "§Y[?global.asian_economic_sphere^11.GetFlag][?global.asian_economic_sphere^11.GetName]§! "
-JAP_ally13_last: "§Y[?global.asian_economic_sphere^12.GetFlag][?global.asian_economic_sphere^12.GetName]§! "
-JAP_ally14_last: "§Y[?global.asian_economic_sphere^13.GetFlag][?global.asian_economic_sphere^13.GetName]§! "
-JAP_ally15_last: "§Y[?global.asian_economic_sphere^14.GetFlag][?global.asian_economic_sphere^14.GetName]§! "
+ JAP_ally1_name:9 "$JAP_ally1_last$, "
+ JAP_ally2_name:9 "$JAP_ally2_last$, "
+ JAP_ally3_name:9 "$JAP_ally3_last$, "
+ JAP_ally4_name:9 "$JAP_ally4_last$, "
+ JAP_ally5_name:9 "$JAP_ally5_last$, "
+ JAP_ally6_name:9 "$JAP_ally6_last$, "
+ JAP_ally7_name:9 "$JAP_ally7_last$, "
+ JAP_ally8_name:9 "$JAP_ally8_last$, "
+ JAP_ally9_name:9 "$JAP_ally9_last$, "
+ JAP_ally10_name:9 "$JAP_ally10_last$, "
+ JAP_ally11_name:9 "$JAP_ally11_last$, "
+ JAP_ally12_name:9 "$JAP_ally12_last$, "
+ JAP_ally13_name:9 "$JAP_ally13_last$, "
+ JAP_ally14_name:9 "$JAP_ally14_last$, "
+ JAP_ally15_name:9 "$JAP_ally15_last$, "
+ JAP_ally1_last:9 "§Y[?JAP.economic_sphere:members^0.GetFlag][?JAP.economic_sphere:members^0.GetName]§!"
+ JAP_ally2_last:9 "§Y[?JAP.economic_sphere:members^1.GetFlag][?JAP.economic_sphere:members^1.GetName]§!"
+ JAP_ally3_last:9 "§Y[?JAP.economic_sphere:members^2.GetFlag][?JAP.economic_sphere:members^2.GetName]§!"
+ JAP_ally4_last:9 "§Y[?JAP.economic_sphere:members^3.GetFlag][?JAP.economic_sphere:members^3.GetName]§!"
+ JAP_ally5_last:9 "§Y[?JAP.economic_sphere:members^4.GetFlag][?JAP.economic_sphere:members^4.GetName]§!"
+ JAP_ally6_last:9 "§Y[?JAP.economic_sphere:members^5.GetFlag][?JAP.economic_sphere:members^5.GetName]§!"
+ JAP_ally7_last:9 "§Y[?JAP.economic_sphere:members^6.GetFlag][?JAP.economic_sphere:members^6.GetName]§!"
+ JAP_ally8_last:9 "§Y[?JAP.economic_sphere:members^7.GetFlag][?JAP.economic_sphere:members^7.GetName]§!"
+ JAP_ally9_last: "§Y[?global.asian_economic_sphere^8.GetFlag][?global.asian_economic_sphere^8.GetName]§! "
+ JAP_ally10_last: "§Y[?global.asian_economic_sphere^9.GetFlag][?global.asian_economic_sphere^9.GetName]§! "
+ JAP_ally11_last: "§Y[?global.asian_economic_sphere^10.GetFlag][?global.asian_economic_sphere^10.GetName]§! "
+ JAP_ally12_last: "§Y[?global.asian_economic_sphere^11.GetFlag][?global.asian_economic_sphere^11.GetName]§! "
+ JAP_ally13_last: "§Y[?global.asian_economic_sphere^12.GetFlag][?global.asian_economic_sphere^12.GetName]§! "
+ JAP_ally14_last: "§Y[?global.asian_economic_sphere^13.GetFlag][?global.asian_economic_sphere^13.GetName]§! "
+ JAP_ally15_last: "§Y[?global.asian_economic_sphere^14.GetFlag][?global.asian_economic_sphere^14.GetName]§! "
 JAP_ally_none: ""
 JAP_ally_no_sphere: "Aucun"
  JAP_invest_timer: "A fait l'objet d'un investissement au cours de l'année écoulée"
- JAP_economic_sphere_member: "Est membre de la sphère économique japonaise"
 
 ### Decisions ###
  JAP_part_one_land_reform: "$has_completed_decision$$JAP_land_reform_1$§!"
@@ -688,8 +684,6 @@ JAP_attack_india: "Attaquer [From.GetNameDef]"
 JAP_attack_india_desc: "Si nous devons prendre le commandement du sous-continent indien, [From.GetNameDef] devrait être notre prochaine cible."
 JAP_attack_australia: "Attaquer [From.GetNameDef]"
 JAP_attack_australia_desc: "[From.GetNameDefCap] se situe dans notre sphère d'intérêt du Pacifique, et le temps est venu de faire respecter notre volonté à leur égard."
-JAP_invade_manchuria: "Envahir [From.GetNameDef] !"
-JAP_invade_manchuria_desc: "Alors [From.GetLeader] veut nous trahir, c'est ça ? Eh bien, [Root.GetNameDef] ne va pas s'asseoir et attendre qu'ils agissent. Nous frapperons le premier coup !"
  JAP_demand_hawaii: "Exiger Hawaï de la part de [From.GetNameDef]"
  JAP_demand_hawaii_desc: "La deuxième guerre civile américaine a montré que le gouvernement américain n'était pas en mesure de s'occuper correctement des habitants d'Hawaï. En tant que nouvelle puissance incontestée dans le Pacifique, il n'est que juste que nous exigions que les îles Hawaï nous soient cédées, afin d'assurer une protection mutuellement bénéfique sous notre direction. En cas de refus, la guerre sera déclarée."
  JAP_attack_russia: "Attaquer [From.GetNameDefCap]"
@@ -1168,7 +1162,7 @@ JAP_final_victory_desc: "Enfin, la victoire est à notre portée. Le Japon est l
  JAP_break_up_the_mass_party: "Briser le Taisei Yokusankai"
  JAP_dismantle_the_national_defense_state: "Démanteler l'État de Défense Nationale"
  JAP_repeal_the_peace_preservation_laws: "Abroger les Lois sur la Préservation de la Paix"
- JAP_subject_econ_start_focus: "[DemPupGetFinishingPolFocus]"
+ JAP_subject_pol_start_focus:0 "[DemPupGetFinishingPolFocus]"
  JAP_pressure_the_dissolution_of_the_zaibatsu: "Pression sur la Dissolution des Zaibatsu"
  JAP_constitutional_amendments:0 "Amendements Constitutionnels"
  JAP_industrial_demobilisation: "Démobilisation Industrielle"
@@ -1208,8 +1202,7 @@ JAP_final_victory_desc: "Enfin, la victoire est à notre portée. Le Japon est l
  JAP_organise_the_maritime_self_defense_force: "Organiser la Force Maritime d'Autodéfense"
 
 ### Co-Prosperity Sphere ###
- KR_co_prosperity_sphere_desc_JAP: "La §HSphère de Coprospérité Est-Asiatique§! est une alliance économique et politique qui vise à renverser l'influence de l'impérialisme occidental en Asie. En tant que leader de la Sphère de Coprospérité Est-Asiatique, le Japon fournit des investissements, des technologies et des spécialistes aux membres de la Sphère, au prix de l'exploitation de leurs ressources et de l'enracinement de son influence politique.\n\nLes membres actuels de la Sphère de Coprospérité Est-Asiatique : §H[JAP.GetNameWithFlag]§!, [JAP_ally0][JAP_ally1][JAP_ally2][JAP_ally3][JAP_ally4][JAP_ally5][JAP_ally6][JAP_ally7][JAP_ally8][JAP_ally9][JAP_ally10][JAP_ally11][JAP_ally12][JAP_ally13][JAP_ally14]"
- KR_co_prosperity_sphere_desc: "La §HSphère de Coprospérité Est-Asiatique§! est une alliance économique et politique qui vise à renverser l'influence de l'impérialisme occidental en Asie. Le Japon, qui en est le chef, apporte un soutien économique à ses autres membres, au prix de l'exploitation de ses ressources naturelles et de l'enracinement de son influence politique.\n\nLes membres actuels de la Sphère de Coprospérité Est-Asiatique : §H[JAP.GetNameWithFlag]§!, [JAP_ally0][JAP_ally1][JAP_ally2][JAP_ally3][JAP_ally4][JAP_ally5][JAP_ally6][JAP_ally7][JAP_ally8][JAP_ally9][JAP_ally10][JAP_ally11][JAP_ally12][JAP_ally13][JAP_ally14]"
+ KR_co_prosperity_sphere_desc: "La §H$JAP_asian_economic_sphere$§! est une alliance économique et politique qui vise à renverser l'influence de l'impérialisme occidental en Asie. Le Japon, en tant que leader, apporte un soutien économique aux autres membres, au prix de l'exploitation de ses ressources naturelles et de l'affirmation de son influence politique."
 
  # Decisions
 JAP_co_prosperity_decisions: "La sphère de coprospérité japonaise"
@@ -1247,40 +1240,27 @@ JAP_nationalize_japanese_investments_desc: "La présence croissante des investis
  JAP_rising_sun_idea: "La Gloire Impériale"
  JAP_rising_sun_idea_desc: "Le Japon n'a pas toujours reçu le respect qu'il mérite. Si les choses ont changé au cours des 30 dernières années, beaucoup de choses restent les mêmes. Dans ce contexte, nous sommes convaincus que chaque citoyen accomplira son devoir patriotique ; personne ne nous arrêtera. Nous sommes la nation la plus puissante d'Asie et les fruits de la guerre devraient être à nous et à nous seuls."
 
-JAP_asian_economic_sphere: "Sphère de coprospérité asiatique"
+ JAP_asian_economic_sphere: "Sphère de Coprospérité de l'Asie Orientale"
 JAP_asian_economic_sphere_desc: "Cela représente l'impulsion générale donnée à notre économie par notre place centrale dans la sphère de coprospérité. Plus nous ajoutons de membres, et plus leur industrie est importante, plus nous nous en sortons bien".
-JAP_asian_economic_sphere_member: "Sphère de coprospérité asiatique"
+ JAP_asian_economic_sphere_member: "Sphère de Coprospérité de l'Asie Orientale"
 JAP_asian_economic_sphere_member_desc: "Cela représente l'impulsion générale donnée à notre économie par notre appartenance à la sphère de coprospérité asiatique du Japon. Plus il y a de membres dans cette sphère, et plus leur industrie collective est importante, mieux nous nous portons".
 
 JAP_member_integration_1: "Pénétration économique : Faible"
 JAP_member_integration_1_desc: "Les investissements japonais dans notre pays sont une force formidable qui contribue à stimuler notre croissance économique... mais plus leur influence s'étend, plus nous nous soumettons aux besoins de leur économie toujours croissante".
 JAP_member_integration_2: "Pénétration économique : modérée"
-JAP_member_integration_2_desc: "Les investissements japonais dans notre pays sont une force formidable qui contribue à stimuler notre croissance économique... mais plus leur influence s'étend, plus nous nous soumettons aux besoins de leur économie toujours croissante".
+ JAP_member_integration_2_desc: "Les investissements japonais dans notre pays sont une force formidable qui contribue à stimuler notre croissance économique... mais plus leur influence s'étend, plus nous nous soumettons aux besoins de leur économie toujours croissante"
 JAP_member_integration_3: "Pénétration économique : élevée"
-JAP_member_integration_3_desc: "Les investissements japonais dans notre pays sont une force formidable qui contribue à stimuler notre croissance économique... mais plus leur influence s'étend, plus nous nous soumettons aux besoins de leur économie toujours croissante".
+ JAP_member_integration_3_desc: "Les investissements japonais dans notre pays sont une force formidable qui contribue à stimuler notre croissance économique... mais plus leur influence s'étend, plus nous nous soumettons aux besoins de leur économie toujours croissante"
 
  JAP_india_support: "Conseillers japonais"
 JAP_trade_embargoed: "Embargo japonais"
  JAP_nav_tra_idea: "Navires Prospérité"
 
  # Tooltips
- JAP_member_of_co_prosperity_sphere: "Devient Membre de la §HSphère de Coprospérité de l'Asie du Sud-Est§!\n     $MODIFIER_PRODUCTION_SPEED_BUILDINGS_FACTOR$: [?0.2|+=%]\n     Efficacité du Gain de Ressources : [?global.sphere_resources_boost_member|+=%]\n     $MODIFIER_CONSUMER_GOODS_FACTOR$: [?global.sphere_goods_boost_member|=%1H]"
-
- KR_co_prosperity_sphere_tooltip: "[GetCoProsperitySphereName]\n[GetCoProsperitySphereEffects]"
-KR_co_prosperity_sphere_tooltip_desc: "§L[GetCoProsperitySphereDesc]§"
-
- KR_co_prosperity_sphere_effects_JAP: "$MODIFIER_CONSUMER_GOODS_FACTOR$: [?global.sphere_goods_boost|=%H]\n$MODIFIER_INDUSTRIAL_CAPACITY_FACTOR$: [?global.sphere_industry_boost|+=%]\n$MODIFIER_INDUSTRIAL_CAPACITY_DOCKYARD_FACTOR$: [?global.sphere_industry_boost|+=%]"
- KR_co_prosperity_sphere_effects: "$MODIFIER_PRODUCTION_SPEED_BUILDINGS_FACTOR$: [?0.2|+=%]\nEfficacité du Gain de Ressources : [?global.sphere_resources_boost_member|+=%]\n$MODIFIER_CONSUMER_GOODS_FACTOR$: [?global.sphere_goods_boost_member|=%1H]"
-
- KR_co_prosperity_sphere_name_JAP: "Leader de la sphère de coprospérité de l'Asie de l'Est"
- KR_co_prosperity_sphere_name: "Membre de la sphère de coprospérité de l'Asie de l'Est"
-
  JAP_may_now_invite_sphere: "Les nations non-alignées et soumises de l'Asie de l'Est peuvent maintenant être invitées dans la sphère d'influence économique du Japon"
  JAP_may_now_invest_sphere: "Peut maintenant prendre des décisions pour promouvoir l'investissement dans les membres de la sphère, ce qui - avec le temps - peut conduire à un contrôle japonais sur le pays"
  JAP_withdraws_from_sphere: "§Y[Root.GetNameDefCap]§! se retirera de la sphère économique japonaise"
  JAP_THIS_withdraws_from_sphere: "§Y[This.GetNameDefCap]§! se retirera de la sphère économique japonaise"
-JAP_not_member_of_sphere: "n'est pas un membre de la sphère de coprospérité économique du Japon"
-JAP_member_of_sphere: "est un membre de la sphère de coprospérité économique du Japon"
 
 JAP_tokyo_conference_tt: "Le choix de ce thème lancera la chaîne d'événements de la conférence de Tokyo".
  JAP_80_chance_of_agreeing_tt: "Les participants seront §Gprobablement§! d'accord."
@@ -1616,6 +1596,10 @@ japdom.242.a: "Il fallait s'y attendre."
  japdom.410.t: "Achèvement de l'auditorium public de la ville de Taihoku"
  japdom.410.desc: "Conçu en hommage à l'ascension de l'empereur Shōwa en 1928 et pour remplacer l'ancien bureau du gouverneur de l'empire Qing pour l'île, l'auditorium public de Taihoku a vu sa construction s'achever après 4 ans, pour un coût légèrement inférieur à un million de yens. La ville jouit désormais du prestige d'être la seule grande ville dotée d'un auditorium public en dehors des îles intérieures. L'architecte en chef du projet, Ide Kaoru, conscient des graves différences de chaleur, de précipitations et d'humidité entre l'île et les îles d'origine, a cherché à souligner le caractère local de l'île tout en continuant à utiliser les conceptions architecturales modernes appliquées au reste de l'île dans le cadre d'autres projets."
  japdom.410.a: "Un bâtiment digne de l'Empereur !"
+
+ japdom.411.t:0 "Petit Marin et le Navigateur - nouveau livre dans les rayons du Japon"
+ japdom.411.d:0 "La récente guerre dans notre pays a inspiré de nombreux arrivants à exprimer leurs expériences dans l'art, l'un d'entre eux étant l'auteur d'un roman d'amour avec des chiffres de ventes sans précédent. Le livre, intitulé "Marin-chan to Kaigun-kun", ou "Petit Marin et le Navigateur", raconte l'histoire de deux amis d'enfance, et leur amour tragique : un garçon et une fille grandissant ensemble, partageant une vie apparemment inchangée.  Cependant, alors qu'ils terminent leurs études secondaires, le Japon se prépare à la guerre, et le garçon est appelé à rejoindre la Marine. Les deux doivent se séparer l'un de l'autre, Marin restant à la maison. Ce n'est que maintenant qu'ils sont séparés, qu'ils remarquent leurs sentiments l'un pour l'autre, mais qu'ils luttent pour les exprimer dans les quelques lettres qu'ils peuvent échanger. Alors que la guerre tire à sa fin et que Marin aspire au retour de l'être cher, ses lettres cessent d'arriver. Bien que le livre ne représente pas la plus haute littérature japonaise, il donne un aperçu étonnamment détaillé de la vie quotidienne de la fille d'un fermier dans le Japon rural et d'un marine japonaise. Le livre est destiné à être traduit en allemand, anglais et russe."
+ japdom.411.a:0 "Dites-moi, comment ça finit ?"
 
 japfor.1.t: "Mantetsu déclare des gains records"
  japfor.1.d: "Le Japon est présent en Mandchourie depuis la fin de la guerre russo-japonaise et, au cours des années qui ont suivi, notre emprise sur la région s'est considérablement renforcée. Les négociations de Shanghai en 1928 ont forcé le monde à reconnaître notre droit à une "main libre en Mandchourie", ouvrant des possibilités illimitées à nos citoyens sous l'œil vigilant de l'armée du Kwantung. Notre contrôle n'est cependant pas absolu, et le gouvernement fengtien de Zhang Zuolin n'est pas toujours coopératif. Il a de la chance que notre désir de sauvegarder une paix profitable en Mandchourie reste primordial, tout comme notre espoir que son gouvernement serve un jour de véhicule à nos plus grandes ambitions chinoises. Pour ces raisons, le cœur de nos efforts en Mandchourie est la Compagnie de chemin de fer de Mandchourie du Sud, ou "Mantetsu" en abrégé, qui est devenue responsable du développement et de l'exploitation de vastes pans de l'économie mandchoue, propulsant la région au rang de première source de charbon et d'acier du Japon, ainsi que de producteur de plus de la moitié de l'approvisionnement mondial en soja."
@@ -2223,6 +2207,7 @@ japfor.466.a: "Quelle excellente nouvelle !"
 
  japfeng.7.t: "La Visite du Prince Est Annulée Prématurément"
  japfeng.7.d: "Le gouvernement de Fengtian étant désormais en état de guerre, il a été décidé d'un commun accord d'annuler la visite du Prince dans le pays. Bien que l'annulation soit principalement due à des raisons de sécurité, le Prince sera nécessaire au Japon pour coordonner les plans visant à aider Fengtian dans ses offensives."
+ japfeng.7.d_FNG: "Le gouvernement de Fengtian étant désormais en état de guerre, il a été décidé d'un commun accord d'annuler la visite du prince dans le pays. L'annulation est bien sûr principalement due à des raisons de sécurité, l'entourage du prince ayant été évacué à la hâte vers le Japon, maintenant que nous sommes en guerre avec eux."
  japfeng.7.a: "C'est dommage, mais c'est compréhensible."
 
  japfeng.8.t:0 "Le prince Kan'in retourne au Japon"
@@ -2326,7 +2311,6 @@ japfor.466.a: "Quelle excellente nouvelle !"
  JAP_hatoyama_ichiro: "Hatoyama Ichirō"
  JAP_yoshizawa_kenkichi:0 "Yoshizawa Kenkichi"
  JAP_abe_isoo: "Abe Isoo"
- JAP_katayama_testu:0 "Katayama Tetsu"
  JAP_hiranuma_kiichiro: "Hiranuma Kiichirō"
  JAP_konoe_fumimaro: "Konoe Fumimarō"
  JAP_kuhara_furanosuke: "Kuhara Furanosuke"

@@ -43,6 +43,9 @@ ETH_flag_change_ETE_tt: "§GUn nouveau drapeau célébrera cette occasion capita
  ETH_pro_GER: "§HNous maintiendrons les liens avec les Allemands.§!"
  ETH_not_pro_GER: "§HNous chercherons à nous séparer des Allemands.§!"
 
+### Opinion Modifiers ###
+ ETH_military_mission: "Mission Militaire Étrangère"
+
 ### Companies ###
 ethiopian_electric_power: "Ethiopian Electric Power Corporation"
 university_college_addis_ababa: "University College of Addis Ababa"
@@ -77,9 +80,6 @@ ETH_production_focus_desc: "Nous avons décidé de concentrer notre budget princ
 ETH_construction_focus: "Augmentation du budget de la construction"
 ETH_construction_focus_desc: "Nous avons décidé de concentrer notre budget principalement sur la modernisation des infrastructures et notre capacité de construction."
 
- ETH_Tribal_Integration:0 "Intégration tribale"
- ETH_Tribal_Integration_desc: "Depuis que nous avons commencé à reconnaître les droits des différentes tribus et de leurs chefs, ceux-ci ont adopté une politique beaucoup plus loyale et coopérative à l'égard de l'État."
-
  ETH_advisors_germany: "Conseillers militaires allemands"
  ETH_advisors_germany_desc: "Nos officiers militaires travaillent en étroite collaboration avec les conseillers militaires allemands pour aider à moderniser et à mieux discipliner nos forces armées."
 
@@ -113,8 +113,8 @@ ETH_Lion_of_Judah_idea: "Empire du Lion"
 ETH_Imperial_Inspiration: "Inspiration impériale"
  ETH_Imperial_Inspiration_desc: "Notre empereur est un homme qui, lui-même, est plus grand que la vie. Pour tout étranger, il peut sembler doux dans sa personnalité et petit dans sa stature. Cependant, lorsqu'il parle, tous écoutent. Il a hérité de Zewditu un empire brisé et en faillite, et tout le monde peut voir, et pourtant peu comprennent, la grandeur qu'il représente vraiment"
 
-ETH_Working_Natives: "Tribus qui travaillent"
- ETH_Working_Natives_desc: "Depuis que nous avons commencé à reconnaître les droits des tribus et de leurs chefs, ceux-ci ont à leur tour commencé à coopérer avec nous"
+ ETH_Fringe_Integration: "Intégration Marginale"
+ ETH_Fringe_Integration_desc: "Depuis que nous avons proclamé l'égalité devant la loi, nos relations avec les personnes extérieures à la société et à la culture amhara se sont considérablement améliorées. Bien qu'ils puissent encore éprouver du ressentiment à l'égard de la domination des fonctionnaires et de la culture du Nord, ils sont davantage disposés à accepter au moins l'autorité nominale des fonctionnaires et du gouvernement impériaux."
 
 ETH_Trained_Pilots: "Pilotes formés"
  ETH_Trained_Pilots_desc: "Une école de pilotage, dirigée par des conseillers étrangers, a été ouverte à Addis-Abeba."
@@ -144,8 +144,8 @@ ETH_Southern_Expansion_desc: "La prochaine étape de notre plan d'expansion ferr
 ETH_Expand_Into_Eritrea: "Expansion du chemin de fer en Érythrée"
 ETH_Expand_Into_Eritrea_desc: "La prochaine étape de notre plan d'expansion ferroviaire consiste à relier la seule région côtière de l'empire, l'Érythrée, au reste de la nation, à améliorer la prospérité des personnes qui y vivent et à mieux gérer la circulation des marchandises dans la région."
 
-ETH_Impose_Amharic: "Imposer l'amharique à l'Erythrée"
- ETH_Impose_Amharic_desc: "Bien qu'elle ne soit pas ethniquement homogène, l'Érythrée compte une importante élite du Tigré, qui pourrait, potentiellement, constituer une menace pour nous à l'avenir. Nous devrions prendre des mesures pour que la barrière de la langue ne leur donne aucun avantage et fasse comprendre que l'Érythrée est l'Éthiopie"
+ ETH_Speak_Amharic: "Faites-Les Parler Amharique"
+ ETH_Speak_Amharic_desc: "Si, dans le passé, chaque province et chaque région pouvait fonctionner comme une entité à part entière, ce temps est révolu depuis longtemps et, aujourd'hui, le fait de permettre à des régions éloignées de fonctionner selon leurs propres règles ne fait qu'accroître le danger de détachement et, en fin de compte, de désintégration de l'ensemble du royaume. L'Érythrée étant fermement placée sous le contrôle de l'empereur, nous imposerons l'utilisation de l'amharique dans les affaires officielles et encouragerons son utilisation dans le commerce et la vie publique."
 
  ETH_Tribe_Integration:0 "Intégration tribale"
  ETH_Tribe_Integration_desc:0 "Nous pouvons faire basculer les dirigeants érythréens de notre côté... si nous leur offrons des incitations substantielles."
@@ -153,8 +153,8 @@ ETH_Impose_Amharic: "Imposer l'amharique à l'Erythrée"
  ETH_Officer_Integration:0 "Intégration des Officiers"
  ETH_Officer_Integration_desc:0 "Beaucoup de nos combattants vétérans ont servi sous les Italiens et d'autres sous des milices privées après la Libération. Nous devrions appliquer les mêmes principes qu'à l'époque et prendre des mesures pour intégrer sans heurts les forces érythréennes dans l'armée éthiopienne"
 
-ETH_Construct_Naval_Base: "Base navale d'Asamara"
- ETH_Construct_Naval_Base_desc: "Nous n'épargnerons aucune dépense pour la création d'un port à Asmara, qui sera si grand, qu'il fera exploser les empires navals d'aujourd'hui, car il mettra en évidence la véritable force navale de l'empire !"
+ ETH_Construct_Naval_Base: "Base Navale de Massawa"
+ ETH_Construct_Naval_Base_desc: "Nous n'épargnerons aucune dépense pour la création d'un port à Massawa, qui sera si grand, qu'il fera exploser les empires navals d'aujourd'hui, car il mettra en évidence la véritable force navale de l'empire !"
 
  ETH_Integration_Of_Eritrea:0 "Intégration de l'Erythrée"
  ETH_Integration_Of_Eritrea_desc:0 "Vingt ans plus tard, les troubles en Erythrée ont presque cessé et les habitants de la région commencent à avoir une vision optimiste de l'empire. Il semble que, dans un avenir proche, les troubles potentiels commenceront à diminuer"
@@ -165,14 +165,11 @@ ETH_Develop_Eritrea_desc: "Contrairement aux impérialistes italiens, qui avaien
 ETH_Invest_In_Industry: "Investir dans l'industrie"
 ETH_Invest_In_Industry_desc: "L'industrialisation est la seule façon d'avancer. Nous ne pouvons pas éviter cette politique cruciale car l'empire a besoin de plus d'usines pour augmenter sa production"
 
-ETH_Tribal_Modernisation: "Modernisation tribale"
-ETH_Tribal_Modernisation_desc: "Nous garantirons les droits des groupes tribaux et des autres minorités tant qu'ils rempliront leurs obligations !"
+ ETH_Legal_Equality:0 "Égalité devant la Loi"
+ ETH_Legal_Equality_desc: "Une grande partie de la périphérie de l'Éthiopie est occupée par des personnes qui entretiennent depuis longtemps des rivalités et des mécontentements avec le peuple et la culture amhara qui dominent l'État éthiopien. En veillant à ce que ces personnes soient au moins nominalement égales aux yeux de la loi à toute personne Amhara, nous pouvons gagner beaucoup de bonne volonté et faciliter leur intégration dans le reste du pays."
 
 ETH_Southern_Industrial_Expansion: "Expansion industrielle du Sud"
 ETH_Southern_Industrial_Expansion_desc: "Nous allons étendre notre programme d'industrialisation et créer de nouvelles usines dans la partie sud de notre nation. De cette façon, les bénéfices et les emplois de ce secteur de l'économie seront mieux répartis, ce qui stimulera à la fois la productivité et le profit"
-
-ETH_Military_Industrial_Expansion: "Expansion de l'industrie militaire"
-ETH_Military_Industrial_Expansion_desc: "Au fil des années, il est évident que notre armée aura besoin d'un équipement de meilleure qualité et d'un approvisionnement adéquat. Nous allons commencer à produire en masse des armes et des fournitures afin d'aider nos forces armées à mieux défendre l'empire"
 
  ETH_Military_On_The_DKAEB: "Armée éthiopienne sur la DKAEB"
  ETH_Military_On_The_DKAEB_desc: "Nous devons exiger de nos partenaires allemands qu'ils accordent à nos troupes la priorité sur le chemin de fer DKAEB à travers nos terres. Sans cela, nous serons paralysés par la préférence que le chemin de fer accorde actuellement aux troupes allemandes."
@@ -390,8 +387,8 @@ ETH_Skylions_desc: "L'entraînement d'un groupe d'hommes, qui comptent parmi les
 ETH_Harer_Airbase: "La base aérienne de Harer"
 ETH_Harer_Airbase_desc: "L'aérodrome existant à Harar sera agrandi afin de préparer la guerre à venir contre la Somalie. Le haut commandement aérien prévoit que, si l'aérodrome est agrandi, nos avions pourront atteindre le point le plus éloigné de la Somalie"
 
- ETH_fighter_focus: "Nouvelles flottes aériennes ultramodernes"
- ETH_fighter_focus_desc: "La création d'une flotte de chasseurs ultramodernes permettra d'assurer la domination aérienne de la Corne.\n\nLa création de nouveaux bombardiers sera également bénéfique à notre effort de guerre. Les villes, les ports et les lignes d'approvisionnement de l'ennemi seront à notre portée.\n\nNous en sortirons triomphants !"
+ ETH_Fighter_Focus:0 "Nouvelles flottes aériennes ultramodernes"
+ ETH_Fighter_Focus_desc:0 "La création d'une flotte de chasseurs ultramodernes permettra d'assurer la domination aérienne de la Corne.\n\nLa création de nouveaux bombardiers sera également bénéfique à notre effort de guerre. Les villes, les ports et les lignes d'approvisionnement de l'ennemi seront à notre portée.\n\nNous en sortirons triomphants !"
 
 ETH_Crush_Somalia: "Ecraser la Somalie"
  ETH_Crush_Somalia_desc: "L'Ogaden nous appartient de droit, comme le prévoit le traité qui a mis fin à la Weltkrieg. Cependant, la faiblesse des précédents dirigeants et les troubles en Érythrée nous ont empêchés de faire valoir cette revendication. Puisque notre ennemi, le mollah fou, est mort et que l'Allemagne n'est plus en mesure d'intervenir dans les affaires africaines, nous allons frapper la Somalie et récupérer les terres qui appartiennent légitimement à l'Éthiopie !"
@@ -399,17 +396,17 @@ ETH_Crush_Somalia: "Ecraser la Somalie"
 ETH_Pacify_Ogaden: "Pacifier l'Ogaden"
  ETH_Pacify_Ogaden_desc: "La partie la plus facile de la conquête est souvent de prendre le contrôle de la terre elle-même. Cependant, pacifier les habitants et les intégrer dans la société éthiopienne est une autre affaire. L'intégration de l'Ogaden à l'Ethiopie est de la plus haute importance, afin que nous puissions garder le contrôle de la terre et de son peuple."
 
-ETH_Industrial_Modernisation: "Modernisation industrielle"
-ETH_Industrial_Modernisation_desc: "L'Éthiopie manque cruellement de capacités industrielles et de fabrication. De plus, notre économie est extrêmement petite et très isolée. De ce fait, nous manquons d'une présence internationale. Pour y remédier, nous devons prendre des mesures pour industrialiser notre économie"
+ ETH_Technical_Experts: "Inviter des Experts Techniques"
+ ETH_Technical_Experts_desc: "L'Éthiopie manque cruellement de capacités industrielles et de fabrication. En outre, notre économie est largement féodale et isolée du reste du monde. Pour y remédier, nous inviterons des experts industriels et techniques étrangers à former le personnel éthiopien et à transformer nos industries locales."
 
-ETH_Heavy_Industry: "Construction de l'industrie lourde"
- ETH_Heavy_Industry_desc: "Une bonne utilisation de notre capacité industrielle est primordiale pour alimenter la création de matériaux de construction lourds afin de mener à bien les projets gouvernementaux de manière efficace."
+ ETH_Heavy_Industry: "Débuts de l'Industrie Lourde"
+ ETH_Heavy_Industry_desc: "Alors que le développement naturel d'une économie industrielle reste un rêve lointain, nous donnerons un coup de pouce dans la bonne direction avec des projets parrainés par l'État qui serviront d'exemple pour les efforts futurs."
 
-ETH_Coffee: "Moderniser la récolte du café"
-ETH_Coffee_desc: "En raison de la situation chaotique au Brésil, une forte demande de café s'est récemment ouverte. Nous pouvons en tirer parti en modernisant nos techniques de récolte et en cultivant davantage de plants de café, ce qui nous permettra de produire davantage de grains de café. Ce faisant, nous augmenterons considérablement nos revenus en tant que nation. Après tout, qui n'aime pas le café ?"
+ ETH_Coffee_Harvesting:0 "Moderniser la récolte du café"
+ ETH_Coffee_Harvesting_desc: "Le café est peut-être originaire d'Éthiopie et y a été domestiqué, mais lorsqu'il s'agit de ventes internationales, notre production se situe bien en deçà de celle des nouveaux acteurs du marché, comme le Brésil. Pour remédier à cette situation, il faudra moderniser les techniques de récolte et de transport afin qu'un jour l'Éthiopie soit à nouveau connue comme la patrie du café."
 
-ETH_Finish_Modernisation: "Achever la modernisation"
-ETH_Finish_Modernisation_desc: "Nos efforts d'industrialisation ont enfin porté leurs fruits. L'avenir est maintenant à notre portée ; il nous suffit de le saisir !"
+ ETH_Domestic_Capital: "Subventionner les Capitaux Nationaux"
+ ETH_Domestic_Capital_desc: "Si nous avons actuellement un grand besoin d'investissements étrangers, nous devons également veiller à ce que les Éthiopiens aient toutes les raisons de chercher fortune en Éthiopie et puissent rivaliser avec les géants de l'extérieur."
 
 ### Intro Screen ###
  ETH_country_intro_header:0 "L'Éthiopie, un empire à la croisée des chemins"
@@ -546,8 +543,6 @@ ethiopia.20.e: "Front démocratique du peuple éthiopien."
  ethiopia.25.d: "Les Allemands acceptent nos propositions d'amitié et ont envoyé une mission militaire pour nous aider dans notre lutte contre nos adversaires régionaux. Une fois de plus, nos frères chrétiens nous ont apporté l'aide dont nous avions besoin."
  ethiopia.25.d2: "Les Japonais acceptent nos motions d'amitié et ont dépêché une mission militaire pour nous aider dans notre lutte contre nos adversaires régionaux. Ils ont clairement vu les bénéfices de notre lutte mutuelle contre l'impérialisme occidental."
  ethiopia.25.a: "Encore mieux que les Portugais."
-
- JAP_foreign_missions: "Aide Japonaise"
 
  ethiopia.26.t: "L'Allemagne refuse de nous aider"
  ethiopia.26.t2: "Le Japon refuse de nous aider"

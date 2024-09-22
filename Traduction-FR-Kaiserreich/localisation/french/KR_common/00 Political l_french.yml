@@ -57,10 +57,6 @@
  generic_events.31.d:0 "Nous avons reçu un message alarmant de [From.GetNameDef] nous informant que les troupes [From.From.GetAdjective]es se regroupent actuellement et qu'une grande partie de la reconnaissance se fait de l'autre côté de la frontière [From.GetAdjective]e. Les responsables militaires disent qu'il est clair que [From.From.GetNameDef] planifie une invasion de [From.GetNameDef], qui pourrait commencer à tout moment dans les prochaines semaines."
  generic_events.32.d: "Nous avons reçu un message de nos alliés de [From.GetNameDef] nous informant que leurs troupes se regroupent actuellement et que de nombreuses opérations de reconnaissance sont en cours de l'autre côté de la frontière [attack_target.GetAdjective]e. [From.GetNameDefCap] planifie une invasion de [attack_target.GetNameDef], qui pourrait commencer à tout moment, dans les prochaines semaines."
 
-### End Military Occupations ###
- KR_end_military_occupations: "Mettre fin aux occupations militaires"
- KR_end_military_occupations_desc: "[ROOT.GetNameDefCap] a adopté une politique d'occupation militaire à l'égard d'un certain nombre de régions conquises. La fin de la guerre étant en vue et les coûts d'occupation augmentant de jour en jour, il est peut-être possible de reconsidérer cette position."
-
 ### Returning Cores ###
 return_cores_to_ally: "Rendre le territoire [From.GetAdjective]"
 return_cores_to_ally_desc: "Le gouvernement [Root.GetAdjective] discute de ce qu'il faut faire des terres [From.GetAdjective]es que nous occupons actuellement - des terres sur lesquelles nous n'avons aucune revendication légitime. Devrions-nous rendre le territoire à nos alliés [From.GetAdjective] ?"
@@ -83,18 +79,6 @@ KR_will_return_cores: "Tous les États côtiers ou contigus qui sont des états 
  generic_events.76.a:0 "Grandiose ! "
 
 ### Ideology ###
-KR_different_ideology_close: "Idéologie différente"
-KR_different_ideology: "Idéologie différente"
-KR_similar_ideology_close: "Idéologie similaire"
-KR_similar_ideology: "Idéologie similaire"
-KR_similar_ideology_distant: "Idéologie similaire"
-KR_same_ideology: "Même idéologie"
-KR_ideology_allowed: "Ministre autorisé par l'idéologie du pays"
-KR_factional_rivalry: "Rivalité entre factions"
-head_of_gov_available: "§RLes chefs de gouvernement ne peuvent pas être ajoutés ou retirés manuellement.§! Ils ne peuvent être modifiés que par le biais d'événements, de priorités, de décisions, etc.\n\nCette liste représente tous les chefs de gouvernement possibles pour une nation, donc les gens ici peuvent être en désaccord avec le chef actuel, dans un autre pays ou même morts"
-minister_available: "§RLes ministresne peuvent pas être ajoutés ou supprimés manuellement.§! Ils ne peuvent être changés que par des événements, des focus, des décisions et ainsi de suite.\n\nCette liste représente tous les ministres possibles pour une nation, donc les gens ici peuvent être en désaccord avec le gouvernement actuel, dans un autre pays ou même morts"
-military_staff_available: "Ce membre de l'état-major militaire est vivant et prêt à servir le gouvernement"
-
  government_is_loc: "Le Parti actuellement au pouvoir est"
  government_is_not_loc: "Le Parti actuellement au pouvoir n'est pas"
 
@@ -177,10 +161,11 @@ has_scripted_peace_desc: "Le pays est en guerre et est déterminé à remporter 
 
  unit_limit_law_bonus:0 "Limite de divisions"
  unit_limit_bonus: "Limite de divisions"
+ unit_limit_factor:0 "Limite de divisions"
  unit_limit_subject_bonus: "Ajout d'une limite de division pour le Suzerain"
 
  unit_limit_breakdown: "[unit_limit_breakdown]"
- unit_limit_breakdown_default: "§HNombre maximal de divisions§!\nMaximum Actuel: [?uncapped_max_divisions|H0] [unit_limit_reached_cap]\n[unit_limit_base_value] [unit_limit_core_population] [unit_limit_noncore_population] [unit_limit_subject_population_bonus] [unit_limit_states] [unit_limit_subject_state_bonus]\n[unit_limit_factory_count_multiplier] [unit_limit_additional_modifiers] [unit_limit_faction_leader] [unit_limit_default] [unit_limit_economy_law] [unit_limit_bonus_used] [unit_limit_above_limit]"
+ unit_limit_breakdown_default: "§HNombre maximal de divisions§!\nMaximum Actuel : [?uncapped_max_divisions|H0][unit_limit_reached_cap]\n[unit_limit_base_value][unit_limit_core_population][unit_limit_noncore_population][unit_limit_subject_population_bonus][unit_limit_states][unit_limit_subject_state_bonus]\n[unit_limit_factory_count_multiplier][unit_limit_additional_modifiers][unit_limit_faction_leader][unit_limit_factor_used][unit_limit_default][unit_limit_economy_law][unit_limit_bonus_used][unit_limit_above_limit]"
 
  unit_limit_list_item: "\n   - "
 
@@ -194,6 +179,7 @@ has_scripted_peace_desc: "Le pays est en guerre et est déterminé à remporter 
  unit_limit_factory_count_multiplier_desc: "\nMultiplicateur du Nombre d'Usines: [?industry_factor|H%]"
  unit_limit_additional_modifiers_desc: "\n\nModificateurs Supplémentaires :"
  unit_limit_faction_leader_desc: "$unit_limit_list_item$ Chef de faction: §G+15%§!"
+ unit_limit_factor_used_desc: "$unit_limit_list_item$ Des Esprits Nationaux : [?modifier@unit_limit_bonus|=+0%]"
  unit_limit_default_desc: "$unit_limit_list_item$Base : [?global.base_unit_limit_bonus|=+0]"
  unit_limit_bonus_used_desc: "$unit_limit_list_item$des spiritueux nationaux: [?modifier@unit_limit_bonus|=+0]"
 

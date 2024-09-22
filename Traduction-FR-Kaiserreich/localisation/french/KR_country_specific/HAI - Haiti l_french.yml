@@ -25,7 +25,7 @@
  HAI_nationalist_party:0 "PN"
  HAI_nationalist_party_long: "Parti Nationaliste"
 
-##Ideas
+### Ideas ###
  HAI_precarious_governance: "Une Gouvernance Précaire"
  HAI_precarious_governance_desc: "Le gouvernement haïtien ne tient qu'à un fil - la position de [Root.GetLeader] est dans la balance. Face à des forces opposées, il faut consolider son emprise sur la nation dès que possible, car la situation politique en Haïti devient de plus en plus instable."
  HAI_crippling_illiteracy: "Analphabétisme Écrasant"
@@ -71,13 +71,15 @@
  HAI_subsidizing_foreign_business: "Subventionner le Commerce Extérieur"
  HAI_american_assets_seized: "Saisie des Capitaux Américains "
  HAI_researchers: "Aide à la Recherche"
- kr_ger_hai: "HAPAG"
- kr_can_hai: "IEDC"
- kr_fra_hai: "Phalanstère"
  HAI_new_high_command: "Nouveau Haut Commandement de l'Armée"
  HAI_liberal_haiti: "Un Haïti Libéral"
 
-##Focus Tree
+### Companies ###
+ kr_ger_hai: "HAPAG"
+ kr_can_hai: "IEDC"
+ kr_fra_hai: "Phalanstère"
+
+### Focuses ###
  haiti_focus: "Arbre de Priorités d'Haïti"
  HAI_secure_support: "Obtenir le Soutien du Conseil"
  HAI_secure_support_desc: "Nous devons avant tout chercher à gagner les membres du Conseil d'État et, si possible, de l'Assemblée nationale. Les fonds peuvent être réorientés pour financer des "cadeaux" et des concessions économiques pour les législateurs afin de les rallier à notre cause."
@@ -255,7 +257,7 @@
  HAI_new_economy: "La Nouvelle Économie"
  HAI_new_economy_desc: "Lorsque le Lundi Noir a frappé Haïti, les observateurs pensaient que cela allait nous condamner pour des décennies et que nous ne retrouverions jamais le niveau économique d'avant la dépression. Le gouvernement de Calixte leur a prouvé qu'ils avaient tort, et maintenant Haïti est plus robuste que jamais ; notre économie est enfin en plein essor. Les pires jours de la dépression seront peut-être mentionnés dans nos livres d'histoire, mais notre nation va maintenant connaître une nouvelle économie, une nouvelle ère de prospérité et de richesse pour tous les Haïtiens !"
 
-#Foreign Policy Tree
+# Foreign Policy Tree
  HAI_mission_to_ottawa: "Mission à Ottawa"
  HAI_mission_to_ottawa_desc: "Avec l'effondrement des États-Unis en tant qu'hégémon économique sur le continent nord-américain, nous devons nous tourner vers le nord. L'Alliance de l'Entente dirigée par le Canada peut être un partenaire commercial potentiel, étant donné leur alliance économique de l'IEDC. Nous devrions envoyer une délégation pour ouvrir officiellement les relations entre nos deux pays."
  HAI_trade_wif: "Installations pour la Flotte Royale des Antilles"
@@ -330,7 +332,7 @@
  HAI_early_innovations: "Développer la Recherche Aéronautique"
  HAI_early_innovations_desc: "Nous devrions créer un atelier aérien central pour gérer la maintenance et les modifications plutôt que de compter sur les bases aériennes individuelles pour gérer ces choses."
 
-##Decisions
+### Decisions ###
  HAI_election_season: "Saison Électorale haïtienne"
  HAI_election_season_desc: "C'est la saison des élections en Haïti ! Le président Calixte ayant terminé le mandat de l'ancien président Borno, il doit être réélu par l'Assemblée Nationale et confirmé par le Conseil d'État ce printemps. Les élections à l'Assemblée Nationale sont prévues pour le 21 mars, et l'élection présidentielle est prévue pour le 6 avril. Le Conseil d'État doit ensuite ratifier l'élection avant le 15 mai, date du début du nouveau mandat. Une grande partie du Conseil et de l'Assemblée étant de vieux institutionnalistes et opposés au coup d'Etat de 1933, le président Calixte doit gagner leur soutien, ou prendre des mesures drastiques...\n\n§YAssemblée Nationale:§!\n\nNous avons le soutien de §Y[?HAI_assembly_support]/40§! Députés.\n\n§YConseil d'État:§!\n\nNous avons le soutien de §Y[?HAI_council_support]/21§! Conseillers."
  HAI_strongarm_councillors: "Conseillers en Position de Force"
@@ -349,7 +351,6 @@
  HAI_campaign_in_rural_areas_desc: "Les zones rurales d'Haïti, majoritairement noires, ont toujours été avec le président Calixte. S'assurer de leur soutien avec une campagne populaire devrait être facile !"
  HAI_campaign_in_south: "Campagne dans le Sud"
  HAI_campaign_in_south_desc: "Les grandes villes de Port-au-Prince et des Cayes seront beaucoup plus difficiles à convaincre étant donné leur grande population métisse, mais avec d'importantes populations ouvrières de Noirs également, nous pouvons toujours espérer gagner quelques sièges dans ces zones."
- HAI_industrialization: "Le Début de l'Industrialisation Haïtienne"
 
  HAI_civil_war_category: "Guerre Civile Haitienne"
  HAI_civil_war_category_desc: "Après la crise politique liée à l'élection de 1936, Haïti a sombré dans la guerre civile ! Le président Calixte - ou, selon le point de vue, l'ancien président Calixte - contrôle la capitale, Port-au-Prince, et les Cayes. Sa Garde d'Haïti maintient l'ordre dans la ville, et il lève à la hâte des milices pour en assurer le contrôle. Dans le nord, une coalition d'opposition dirigée par Élie Lescot lève ses forces au Cap-Haïtien. La guerre à venir déterminera le contrôle d'Haïti.\n\nLa progression vers la victoire dans la guerre civile se fait par le biais de l'arbre de priorités, la victoire étant obtenue une fois l'arbre complété. Cependant, la prise d'une priorité nécessite une certaine quantité d'élan £war_support_texticon . L'élan £war_support_texticon  est obtenu par les décisions ci-dessous ainsi que par des événements aléatoires. L'avenir d'Haïti est en jeu, bonne chance !\n\nVous avez actuellement [?HAI_momentum] £war_support_texticon  d'Élan."
@@ -368,7 +369,7 @@
  HAI_lower_corruption_desc: "De nombreux rapports font état de pots-de-vin versés par les Dominicains à nos fonctionnaires et officiers. Si trop d'entre eux sont sous influence dominicaine, cela pourrait entraver notre réponse en cas d'attaque des Dominicains."
 
  HAI_rubber_cultivation: "Le Projet de Culture de l'Hévéa"
- HAI_rubber_cultivation_desc: "Alors que la seconde Weltkrieg  fait rage, nos alliés de [Root.GetFactionName] ont vu leur demande de caoutchouc monter en flèche. Dans cette nouvelle ère de guerre motorisée et mécanisée, les pneus en caoutchouc sont devenus un composant essentiel des avions et des camions. Alors que les arbres récoltés pour le latex poussent généralement en Afrique ou en Asie du Sud-Est, des chercheurs de l'Université d'Haïti ont émis l'hypothèse que nous pourrions recréer un climat similaire avec un travail diligent. Ce programme ne sera pas facile à développer, mais il pourrait s'avérer à la fois très rentable et très utile pour nos alliés dans les [Root.GetFactionName]."
+ HAI_rubber_cultivation_desc: "Alors que la Seconde Weltkrieg fait rage, nos alliés de [Root.GetFactionName] ont vu leur demande de caoutchouc monter en flèche. Dans cette nouvelle ère de guerre motorisée et mécanisée, les pneus en caoutchouc sont devenus un composant essentiel des avions et des camions. Alors que les arbres récoltés pour le latex poussent généralement en Afrique ou en Asie du Sud-Est, des chercheurs de l'Université d'Haïti ont émis l'hypothèse que nous pourrions recréer un climat similaire avec un travail diligent. Ce programme ne sera pas facile à développer, mais il pourrait s'avérer à la fois très rentable et très utile à nos alliés de [Root.GetFactionName]."
  HAI_propose_rubber_program: "Début du Programme de Développement du Caoutchouc"
  HAI_rubber_attempt: "§CNous allons tenter d'acquérir des hévéas avec l'aide de nos alliés.§!"
  HAI_acquire_rubber: "Acquérir des Hévéas"
@@ -378,26 +379,18 @@
  HAI_appeal_faction_leader: "Demander à [THIS.faction_leader.GetNameDef] un investissement supplémentaire"
  HAI_expand_rubber: "Étendre Culture de l'Hévéa"
 
- HAI_join_faction_decision: "Rejoindre le [From.GetFactionName]"
-
+ HAI_foreign_help: "Aide Extérieure et Modernisation"
  university_of_haiti: "Créer l'Université d'Haiti"
  expand_university_of_haiti: "Développer l'Université de Haiti"
  HAI_technical_advisors: "Inviter des Conseillers Technique"
  HAI_visiting_officers: "Inviter des Officiers Étrangers"
  HAI_military_contractors_infantry: "Inviter des Contractants Militaires de l'Infanterie"
  HAI_military_contractors_artillery: "Inviter les Contractants Militaires de l'Artillerie"
- HAI_foreign_help: "Aide Extérieure et Modernisation"
  HAI_observe_military_exercises: "Observer des Exercices Navals"
 
- HAI_attack_DOM: "Attaquer la République Dominicaine"
-
-##Tooltips
+### Tooltips ###
  HAI_has_10_momentum: "A §Y10§! £war_support_texticon d'Élan"
  HAI_momentum_effect: "$RIGHT|0=+$ £war_support_texticon d'Élan\n"
-
- HAI_250_guns: "£rifle_texticon §H250§!"
- HAI_250_guns_blocked: "£rifle_texticon §R250§!"
- HAI_250_guns_tooltip: "Cela coûte $HAI_250_guns_blocked$ pour prendre la décision"
 
  HAI_High: "§RHaut§!"
  HAI_Medium: "§YMoyen§!"
@@ -422,7 +415,6 @@
  HAI_decrease_german_influence: "L'influence §gAllemande§! va §Ydécroitre§!."
 
  HAI_add_1_civ_donation: "Modifie §YContrôle Politique et Économique Étranger§! par\n$MODIFIER_INDUSTRIAL_FACTORY_DONATIONS$: §G+1§!"
- HAI_can_change_mil_spending: "Peut modifier les dépenses militaires"
 
  HAI_is_on_campaign: "Est en Campagne"
 
@@ -434,15 +426,11 @@
  HAI_continued_council: "Suite du Conseil d'État"
 
  HAI_monte_christi_affair: "L'Affaire Monte Cristi est arrivée"
- HAI_prepare_for_war: "La guerre avec la République Dominicaine est imminente"
  HAI_curruption_lowered: "§RLa corruption haïtienne sera abaissée...§!"
  HAI_curruption_raised: "§GLa corruption haïtienne sera augmenté...§!"
  HAI_curruption_raised_focus: "§RLa corruption haïtienne sera augmenté...§!"
 
  HAI_university_of_Haiti: "A Établi l'université d'Haiti"
- HAI_german_fopo: "Haïti s'est aligné sur l'Allemagne"
- HAI_3i_fopo: "Haïti s'est aligné sur la Troisième Internationale"
- HAI_entente_fopo: "Haïti s'est aligné sur l'Entente"
 
  HAI_fighter_bonus: "Une Nouvelle Force Aérienne"
 
@@ -451,14 +439,13 @@
  HAI_good_option: "§YHaïti et ses entreprises détiendront 100% du caoutchouc cultivé.§!"
  HAI_bad_option: "§YNos entreprises détiendront une part importante des bénéfices de la culture du caoutchouc.§!"
  HAI_acquire_rubber_tt: "§CNous allons tenter d'acquérir des hévéas à l'étranger.§!"
- HAI_if_they_agree: "§YSi [FROM.faction_leader.GetNameDef] accepte, nous recevrons les effets suivants :§!"
 
  HAI_unlock_or_disband: "Cet événement nous permettra de décider s'il faut §Rdissoudre§! ou §Gréformer§! la §CGarde d'Haïti§!"
  HAI_on_remove_unlock: "Lorsque les réformes du haut commandement seront achevées, le modèle de §CGarde d'Haïti§! se §Gdébloquera§!."
  HAI_unlock: "Cet événement nous permettra de décider s'il faut §GGreformer§! le modèle de §CGarde d'Haïti§! ou le §Ymaintenir tel quel§!"
 
  HAI_haitian_civil_war: "Nous sommes actuellement en guerre civile"
- HAI_raise_corruption_10: "§RLa corruption§! §Ya été augmentée de§! §R10§! §Y.§!"
+ HAI_raise_corruption_10: "§RLa corruption§! §Ya été augmentée de §R10§!.§!"
 
  HAI_modify_army_idea: "Modifie §H$HAI_citizens_army$§! ou §H$HAI_professional_army$§! par\n$MODIFIER_XP_GAIN_ARMY_FACTOR$ : [?0.1|+=%1]\n$MODIFIER_TRAINING_TIME_FACTOR$ : [?-0.1|-=%1]"
 
@@ -469,8 +456,7 @@
 ### Opinion Modifiers ###
  HAI_border_dispute: "Tensions Frontalières"
  HAI_foreign_council: "Nos Citoyens Dans Leur Conseil."
- HAI_sanctions: "Sanctions Haïtiennes"
- HAI_raid: "Ont Raid nos Locaux"
+ HAI_raid: "Ont Pillé Nos Locaux"
  HAI_french_ties: "Liens Francophiles"
 
 ### Bookmark ###
@@ -574,16 +560,13 @@
  hai.20.e: "Max Hudicourt va rassurer nos alliés socialistes !"
  hai.20.f: "Paul Magloire est l'homme de la situation !"
 
- hai.21.t: "La Fin de la Seconde Guerre Civile Américaine "
+ hai.21.t:9 "La Fin de la Seconde Guerre Civile Américaine "
  hai.21.d: "La poussière est retombée et [361.owner.GetNameDef] renaît de ses cendres. Comment vont-ils transformer leur nation et Haïti ?"
  hai.21.a: "Les Américains reviennent."
  hai.21.b: "Un changement de propriétaire."
 
  hai.22.t: "Haïti veut rejoindre la [Root.GetFactionName]."
- hai.22.d: "Avec l'éclatement de la guerre en Amérique, la petite nation caribéenne d'Haïti s'est soudainement retrouvée libre et indépendante, mais seule au monde. Alors que les tensions à travers le monde s'intensifient, le gouvernement haïtien n'a pas été aveugle aux dangers de sa nouvelle position, et après avoir établi une série de nouveaux liens économiques avec notre sphère économique, il nous a demandé d'adhérer à la [Root.GetFactionName].\n\nNotre bureau des affaires étrangères a longuement discuté de cette proposition - bien qu'Haïti ne soit pas exactement connu comme une puissance sur la scène mondiale, sa position stratégique au centre de la mer des Caraïbes nous aiderait à mener des opérations dans toute la région, qui comprend des réserves minérales importantes et le toujours important canal de Panama. En outre, certains esprits plus optimistes pensent qu'Haïti pourrait être en mesure d'entretenir quelques plantations d'hévéas, à condition de disposer de quelques capitaux pour les développer. Peut-être devrions-nous accepter l'offre de Port-au-Prince ?"
- hai.22.d.GER: "La Guerre Civile Américaine s'est avérée être un coup dur pour la Doctrine Monroe, et les petites nations des Amériques se sont retrouvées sans protection dans le vide du pouvoir. La nation insulaire d'Haïti nous a approchés, en tant que l'une des rares puissances régionales des Amériques avec une portée navale, pour demander à rejoindre notre alliance. Bien qu'ils ne puissent pas fournir beaucoup d'armes ou d'hommes, étant donné les circonstances, il peut être utile d'étendre notre portée dans les Caraïbes pour renforcer notre emprise existante dans la région. Un examen plus approfondi de la situation pourrait valoir le coup alors que le ministère des Affaires étrangères évalue ses options."
- hai.22.d.ENT: "La Guerre Civile Américaine s'est avérée être un coup dur pour la Doctrine Monroe, et les petites nations des Amériques se sont retrouvées sans protection dans le vide du pouvoir. La nation insulaire d'Haïti nous a approchés, en tant que l'une des rares puissances régionales des Amériques avec une portée navale, pour demander à rejoindre notre alliance. Bien qu'ils ne puissent pas fournir beaucoup d'armes ou d'hommes, étant donné les circonstances, il peut être utile d'étendre notre portée dans les Caraïbes pour renforcer notre emprise existante dans la région. Un examen plus approfondi de la situation pourrait valoir le coup alors que le ministère des Affaires étrangères évalue ses options."
- hai.22.d.INT: "La Guerre Civile Américaine s'est avérée être un coup dur pour la Doctrine Monroe, et les petites nations des Amériques se sont retrouvées sans protection dans le vide du pouvoir. La nation insulaire d'Haïti nous a approchés, en tant que l'une des rares puissances régionales des Amériques avec une portée navale, pour demander à rejoindre notre alliance. Bien qu'ils ne puissent pas fournir beaucoup d'armes ou d'hommes, étant donné les circonstances, il peut être utile d'étendre notre portée dans les Caraïbes pour renforcer notre emprise existante dans la région. Un examen plus approfondi de la situation pourrait valoir le coup alors que le ministère des Affaires étrangères évalue ses options."
+ hai.22.d: "Avec l'éclatement de la guerre en Amérique, la petite nation caribéenne d'Haïti s'est soudainement retrouvée libre et indépendante, mais seule au monde. Alors que les tensions à travers le monde s'intensifient, le gouvernement haïtien n'a pas été aveugle aux dangers de sa nouvelle position, et après avoir établi une série de nouveaux liens économiques avec notre sphère économique, il nous a demandé d'adhérer à la [Root.GetFactionName].\n\nNotre bureau des affaires étrangères a longuement discuté de cette proposition - bien qu'Haïti ne soit pas exactement connu comme une puissance sur la scène mondiale, sa position stratégique au centre de la mer des Caraïbes nous aiderait à mener des opérations dans toute la région, qui comprend des réserves minérales importantes et le toujours important Canal de Panama. En outre, certains esprits plus optimistes pensent qu'Haïti pourrait être en mesure d'entretenir quelques plantations de caoutchouc, à condition de disposer de quelques capitaux pour les développer. Peut-être devrions-nous accepter l'offre de Port-au-Prince ?"
  hai.22.a: "Bien sûr !"
  hai.22.b: "Nous n'en avons pas besoin."
 
@@ -592,11 +575,11 @@
  hai.23.a: "Maudits soient-ils !"
 
  hai.24.t: "Se renseigner auprès de [FROM.faction_leader.GetNameDef] sur la culture du caoutchouc"
- hai.24.d: "Alors que la Seconde Weltkrieg s'éternise, il est devenu évident que le caoutchouc sera une ressource vitale. L'accès à l'Afrique et à l'Asie étant loin d'être garanti, nous avons proposé à [FROM.faction_leader.GetNameDef] de commencer à développer le caoutchouc, en Haïti."
+ hai.24.d: "Alors que la Seconde Weltkrieg s'éternise, il est devenu évident que le caoutchouc sera une ressource vitale. L'accès à l'Afrique et à l'Asie étant loin d'être garanti, nous avons proposé à [FROM.faction_leader.GetNameDef] de commencer à développer le caoutchouc en Haïti."
  hai.24.a: "Espérons qu'ils seront de la partie !"
 
  hai.25.t: "Haïti Propose un Programme de Développement de l'Hévéa"
- hai.25.d: "Au fur et à mesure que la deuxième guerre mondiale se prolonge, il est devenu évident que le caoutchouc sera une ressource vitale. L'accès à l'Afrique et à l'Asie étant loin d'être garanti, Haïti nous a proposé de commencer à développer la culture du caoutchouc. Cela pourrait non seulement nous permettre d'avoir un accès plus facile à cette précieuse ressource, mais aussi nous permettre de faire un énorme profit dans le processus."
+ hai.25.d: "Alors que la Seconde Weltkrieg se prolonge, il est devenu évident que le caoutchouc sera une ressource vitale. L'accès à l'Afrique et à l'Asie étant loin d'être garanti, Haïti nous a proposé de commencer à développer la culture du caoutchouc. Cela pourrait non seulement nous permettre d'avoir un accès plus facile à cette précieuse ressource, mais aussi nous permettre de faire un énorme profit dans le processus."
  hai.25.a: "C'est un excellent moyen de remettre Haïti sur pied !"
  hai.25.b: "Une idée géniale qui nous profite à tous les deux !"
 
@@ -607,19 +590,6 @@
  hai.27.t: "[FROM.faction_leader.GetNameDefCap] accepte !"
  hai.27.d: "[FROM.faction_leader.GetNameDefCap] a accepté notre proposition et est impatient de lancer la production. Cependant, ils ont stipulé que certaines entreprises [HAI.faction_leader.GetAdjective]s prendraient une partie de la propriété des plantations pour s'assurer qu'elles seront correctement gérées. Bien que nous soyons convaincus de pouvoir les gérer nous-mêmes et que la perte de profit ne soit pas importante, cela permettra à une société étrangère d'assumer une partie de la responsabilité."
  hai.27.a: "Comme prévu."
-
- hai.28.t: "Haïti Demande de Nouveaux Investissements dans la Culture de l'Hévéa"
- hai.28.d: "Bien que leurs progrès soient constants, le gouvernement haïtien a demandé des investissements supplémentaires. Leurs installations de transformation et leurs efforts de culture auraient besoin d'une aide supplémentaire. Si nous fournissons des ressources supplémentaires, il est probable que le retour sur investissement sera plus rapide."
- hai.28.a: "Ils l'auront."
- hai.28.b: "Nous ne pouvons pas nous passer des ressources nécessaires."
-
- hai.29.t: "[FROM.faction_leader.GetNameDefCap] accepte notre demande d'investissement supplémentaire"
- hai.29.d: "Après mûre réflexion, [FROM.faction_leader.GetNameDef] a accédé à notre demande d'un nouveau cycle d'investissement dans nos plantations de caoutchouc. Avec cette nouvelle injection de capital, nous devrions être en mesure d'augmenter la vitesse et l'échelle de développement."
- hai.29.a: "Excellent !"
-
- hai.30.t: "[FROM.faction_leader.GetNameDefCap] rejette notre demande d'investissement supplémentaire."
- hai.30.d: "Malheureusement, [FROM.faction_leader.GetNameDef] n'est pas d'accord avec notre conclusion selon laquelle nos jeunes plantations de caoutchouc ont besoin de nouveaux investissements. Selon eux, les capitaux sont très demandés et rares en ce moment, et les investissements déjà consentis devraient être plus que suffisants pour développer une hévéaculture parfaitement raisonnable. Nous devrons simplement nous débrouiller avec ce que nous avons."
- hai.30.a: "Bon sang..."
 
  hai.52.t: "Chaos au Sein du Gouvernement"
  hai.52.d: "Suite à l'effondrement du gouvernement face aux demandes dominicaines, l'armée et l'Assemblée nationale s'insurgent contre le fait que [HAI.GetLeader] ne les ait pas tenus pour responsables. Afin d'éviter un effondrement complet, le général Franck Lavaud et une clique d'officiers de l'armée ont pris le contrôle du gouvernement et arrêté [HAI.GetLeader]. Alors que la démocratie est temporairement suspendue, le général Lavaud promet que des élections seront organisées à échéance normale en 1940 pour élire un nouveau gouvernement."
@@ -700,7 +670,7 @@
  hai_civ.16.a: "Nous soutiendrons le gouvernement légitime d'Haïti."
  hai_civ.16.b: "Nous ne prendrons pas parti."
 
- hai_civ.17.t: "L'Allemagne Doit nous Soutenir !"
+ hai_civ.17.t: "L'Allemagne Nous Soutiendra !"
  hai_civ.17.d: "Suite à des entretiens avec le ministre allemand des Affaires étrangères, l'Allemagne a accepté de soutenir notre cause en échange de concessions économiques et étrangères après la guerre."
  hai_civ.17.a: "Les loyalistes auront tout notre soutien !"
 
@@ -884,7 +854,7 @@
  HAI_paul_magloire: "Paul Magloire"
 
  HAI_jean_price_mars: "Jean Price-Mars"
- HAI_jean_price_mars_leader_desc:9 "Médecin, enseignant, homme politique, diplomate, écrivain et ethnographe haïtien, Jean Price-Mars a été secrétaire de la légation haïtienne à Washington D.C. et chargé d'affaires à Paris pendant la Weltkrieg. Prenant son nom de famille de son père mulâtre et de l'écrivain mulâtre Hannibal Price, Price a entendu des histoires du folklore haïtien dès les premiers jours de sa jeunesse - lui donnant le respect des traditions haïtiennes. Price-Mars est un champion de la Négritude, la croyance en une conscience "noire" partagée par la diaspora africaine, et un éminent défenseur du vaudou en tant que religion à part entière.\n\nSon idéologie politique s'inspire fortement de la résistance des paysans haïtiens à l'occupation américaine, et il méprise fortement l'élite haïtienne pour son incapacité apparente à subvenir aux besoins des masses. Inspiré par le roman "Madame Bovary", Price-Mars a inventé le terme "bovarysme collectif" pour critiquer les élites haïtiennes d'ascendance blanche métissée à qui Price-Mars reproche d'occuper des positions économiques injustes dans le pays. Critique de l'analphabétisme qui paralyse Haïti, Price-Mars pense que l'éducation universelle permettra de faire progresser la société. Adhérant pleinement à l'histoire de l'esclavage en Haïti, Price-Mars pense que les esclaves haïtiens sont la véritable source des traditions et de l'histoire d'Haïti. Il admire la culture et la religion des esclaves comme base de la résistance aux colonisateurs européens - le fondement d'une nation haïtienne qu'il cherche à imiter. "
+ HAI_jean_price_mars_leader_desc: "Médecin, enseignant, homme politique, diplomate, écrivain et ethnographe haïtien, Jean Price-Mars a été secrétaire de la légation haïtienne à Washington D.C. et chargé d'affaires à Paris pendant la Weltkrieg. Prenant son nom de famille de son père mulâtre et de l'écrivain mulâtre Hannibal Price, Price a entendu des histoires du folklore haïtien dès les premiers jours de sa jeunesse - lui donnant le respect des traditions haïtiennes. Price-Mars est un champion de la Négritude, la croyance en une conscience "noire" partagée par la diaspora africaine, et un éminent défenseur du vaudou en tant que religion à part entière.\n\nSon idéologie politique s'inspire fortement de la résistance des paysans haïtiens à l'occupation américaine, et il méprise fortement l'élite haïtienne pour son incapacité apparente à subvenir aux besoins des masses. Inspiré par le roman "Madame Bovary", Price-Mars a inventé le terme "bovarysme collectif" pour critiquer les élites haïtiennes d'ascendance blanche métissée à qui Price-Mars reproche d'occuper des positions économiques injustes dans le pays. Critique de l'analphabétisme qui paralyse Haïti, Price-Mars pense que l'éducation universelle permettra de faire progresser la société. Adhérant pleinement à l'histoire de l'esclavage en Haïti, Price-Mars pense que les esclaves haïtiens sont la véritable source des traditions et de l'histoire d'Haïti. Il admire la culture et la religion des esclaves comme base de la résistance aux colonisateurs européens - le fondement d'une nation haïtienne qu'il cherche à imiter. "
 
  HAI_louis_dejoie: "Louis Déjoie"
 

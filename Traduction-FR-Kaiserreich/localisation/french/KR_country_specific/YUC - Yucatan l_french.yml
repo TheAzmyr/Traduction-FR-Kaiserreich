@@ -35,7 +35,6 @@ YUC_indepedence_war_over: "La guerre d'indépendance du Yucatan est terminée"
 ### Tooltips ###
 YUC_call_to_arms_tooltip: "§CLa milice maya arrive à Mérida§!\n"
 YUC_reverse_engeneering_tooltip: "§CNous allons gagner des armes mexicaines§!\n"
-YUC_central_american_overtures_tooltip: "§CNous chercherons à renforcer nos relations avec l'Amérique centrale§!\n"
 
 ### Ideas ###
 YUC_defense_of_yucatan: "Rébellion du Yucatan"
@@ -43,18 +42,24 @@ YUC_national_joint_command_idea: "Commandement national conjoint"
 YUC_reformed_high_command_idea: "Haut commandement réformé"
 YUC_mayan_rangers: "Rangers mayas"
 YUC_maya_code_idea: "Code maya"
+ YUC_defending_our_freedom: "Défendre Notre Liberté"
 YUC_mineral_wealth: "Richesse minérale"
 YUC_state_policing_idea: "Police d'État"
 YUC_fair_market_idea: "Marché équitable"
+ YUC_fiscal_reform_idea:0 "Réforme fiscale"
+ YUC_agricultural_aid_idea:0 "Aide à l'agriculture"
 YUC_press_freedom_idea: "Liberté de la presse"
 YUC_maya_tax_breaks_idea: "Allègements fiscaux pour les Mayas"
 YUC_economic_interventionism_idea: "Interventionnisme économique"
 YUC_social_welfare_idea: "Protection sociale"
+ YUC_a_republic_for_all:0 "Une République pour tous"
 YUC_agricultural_unions_idea: "Syndicats agricoles"
+ YUC_land_tax: "Taxe sur la Terre"
+ YUC_support_small_landowners: "Soutenir les Petits Propriétaires Terriens"
 YUC_cruzoob_idea: "Mémoire de Cruzoob"
+ YUC_national_constitution_idea: "Une Constitution Yucatèque"
 YUC_compromised_security: "La sécurité est compromise"
-
-### Opinions ###
+ YUC_export_profits:0 "Profits de l'Exportation"
 
 ### Military Focuses ###
 YUC_the_military: "Militaire Yucatèque"
@@ -207,7 +212,6 @@ YUC_maya_revival: "Réveil national maya"
 YUC_maya_revival_desc: "There is no doubt in the mind of [YUC.GetLeader] that our country must ascend to its full greatness by restoring Maya culture throughout Yucatan. Soon, we will be a great nation again."
 
 ### Events ###
-
 yucatan.1.t: "La Constitution du Yucatan"
  yucatan.1.d: "À Mérida, la nouvelle Constitution du Yucatan a été signée. Bien qu'elle soit calquée sur la Constitution mexicaine de 1917, elle comprend également une bonne partie du code juridique maya. De plus, elle est aussi un compromis entre les différentes factions au sein du gouvernement du Yucatan"
 yucatan.1.a: "Viva Libre Yucatan !"
@@ -225,18 +229,12 @@ yucatan.3.b: "Les expulser."
 yucatan.3.c: "Essayez de les retourner."
 
 yucatan.20.t: "Élection de [GetYear]"
-yucatan.20.d: "La première élection de la nouvelle République du Yucatan fait beaucoup parler d'elle dans tout le pays. Bien sûr, la question est de savoir qui le peuple va choisir comme président, maintenant que nous avons gagné notre indépendance."
+ yucatan.20.d1:0 "La première élection de la nouvelle République du Yucatan fait beaucoup parler d'elle dans tout le pays. Bien sûr, la question est de savoir qui le peuple va choisir comme président, maintenant que nous avons gagné notre indépendance."
+ yucatan.20.d2: "L'heure des élections présidentielles a sonné dans le Yucatan. Qui les électeurs choisiront-ils pour diriger la République ?"
 yucatan.20.a: "Partido Liberal."
 yucatan.20.b: "Partido Alianza por Yucatán."
 yucatan.20.c: "Parti de la révolution démocratique."
 yucatan.20.e: "Partido Socialista de Yucatán."
-
-yucatan.21.t: "Élection de [GetYear]"
-yucatan.21.d: "Il est temps de tenir une nouvelle élection présidentielle au Yucatan. Qui les électeurs vont-ils choisir pour diriger la République ?"
-yucatan.21.a: "Partido Liberal."
-yucatan.21.b: "Partido Alianza por Yucatán."
-yucatan.21.c: "Parti de la révolution démocratique."
-yucatan.21.e: "Partido Socialista de Yucatán."
 
 yucatan.25.t: "Mexican Spies Discovered!"
 yucatan.25.d: "Today, there was a terrible discovery in Merida. It seems that some of the bureaucrats in the government were secretly Mexican spies, sent to attack our nation's institutions at the core. Though they have been arrested, there may still be more lurking about."
@@ -259,10 +257,6 @@ yucatan.28.b: "We don't want Mexican outcasts!"
  yucatan.29.t: "Centroamérica Agrees!"
  yucatan.29.d: "Our southern neighbours have agreed to our request to accede to their nation. We shall have a glorious future as part of a greater Central America."
 yucatan.29.a: "Hip hip, hoorah!"
-
-yucatan.30.t: "The Accession of Yucatan"
-yucatan.30.d: "At [GetDateText] the Centroamerican Republic welcomed a new member into its fold. [YUC.GetLeader] handed over the authority of the Yucatan peninsula and its people to [ROOT.GetLeader], and proceeded on a parade through Merida, where the people cheered the annexation. This is a great day in our history!"
-yucatan.30.a: "Welcome, brothers!"
 
 ### Characters ###
  YUC_felipe_carrillo_puerto: "Felipe Carrillo Puerto"

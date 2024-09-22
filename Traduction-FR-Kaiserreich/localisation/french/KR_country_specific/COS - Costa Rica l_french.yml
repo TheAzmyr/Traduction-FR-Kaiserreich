@@ -29,6 +29,9 @@
  COS_national_populist_party_long: "Légion del Caribe    (Légion des Caraïbes)"
  COS_national_populist_party: "LC"
 
+ COS_ferrer_social_democrat_long: "Partido Liberación Nacional"
+ COS_ferrer_social_democrat:0 "PLN"
+
 ### Tooltips ###
  USA_DENIED: " Les §YÉtats-Unis§! ont décliné notre demande"
  GER_DENIED: "L§Y'Allemagne§! a décliné notre demande"
@@ -36,6 +39,7 @@
  ZKG_Labour_Accord: "L'§YZKG§! a signé l'§YAccord du Travailleur§!"
  cos_black_monday_tt: "§YLa faillite de ZKG§! n'a pas encore été résolue."
  CORTES: "§YLeón Cortés Castro§! a remporté la présidence"
+ COS_cement_administration_tt: "Fusionne §YRéformes Bancaires§! et §YRéformes de l'Enseignement§! dans §YCimenter l'Administration§!\nChangement Effectif :\nGain de Pouvoir Politique : §G+0.20§!"
  GUARDIA: "§YRafael Ángel Calderón Guardia§! a remporté la présidence"
  COS_Cortes_tt: "§RCortés restera en poste. Cela a des conséquences désastreuses!§!\n"
  ZKG_NO_SUPPORT: "L'§YArbre Économique§! se débloquera dans 5 ans."
@@ -45,11 +49,13 @@
  ZKG_DEAL: "Débloque £decision_icon_small des §HDécisions§! pour arpenter les terres pour de nouvelles §YPlantations§!"
  UFC_DEAL: "Débloque £decision_icon_small des §HDécisions§! pour étendre le §YSiège de l'UFC§!"
  COS_UFC_HEADQUARTERS: "L'§YUFC§! établira son QG régional au Costa Rica."
- GERMAN_DD_COS: "Deux nouveaux §YDestroyers allemands§! seront achetés pour compléter notre garde côtière."
  FERRER: "§YJosé Figueres Ferrer§! a pris la relève"
  COS_DUTY_TT: "Débloque £decision_icon_small des §HDécisions§! pour §YRenverser§! les dictateurs d'Amérique centrale"
  COS_PROGRESS_TT: "Débloque £decision_icon_small des §HDécisions§! pour transformer le Costa Rica en un §YÉtat providence démocratique§!"
  COS_gerdiv_tt: "Une division de Marines Allemands sera formée sous notre bannière."
+ COS_suplied_rebels_tooltip: "Nous gagnerons une division de milice dans §H[FROM.GetName]§! lorsque la guerre est déclarée contre §H[CEN.GetNameDef]§!"
+ COS_ELECTIONS: "Les élections de 1940 n'ont pas encore eu lieu"
+ JIMMY_DOWN: "Jimenez s'est retiré de la course."
 
  ZKG_3_CUPS: "£coffee_texticon §R3%§!"
  ZKG_3_CUPS_blocked: "£coffee_texticon §R3%§!"
@@ -75,30 +81,23 @@
  UFC_8_BANANAS_blocked: "£banana_texticon §R8%§!"
  UFC_8_BANANAS_tooltip: "Cela coûte $UFC_8_BANANAS_blocked$ pour prendre cette décision "
 
- UFC_8_BANANAS_cost: "£banana_texticon §G8%§!"
- UFC_8_BANANAS_cost_blocked: "£banana_texticon §G8%§!"
- UFC_8_BANANAS_cost_tooltip: "Cela coûte $UFC_8_BANANAS_cost_blocked$ pour prendre cette décision"
-
  UFC_8_BANANAS_PP: "£pol_power §Y100§! £banana_texticon §R8%§!"
  UFC_8_BANANAS_PP_blocked: "£pol_power §R100§! £banana_texticon §R8%§!"
  UFC_8_BANANAS_PP_tooltip: "Cela coûte $UFC_8_BANANAS_PP_blocked$ pour prendre cette décision "
 
- COS_American_Support_tt: "L'influence de l'§YUFC§! augmente de £banana_texticon §R8%§!\n"
  COS_UFC_plus_1: "L'influence de l'§YUFC§! augmente de £banana_texticon §R1%§!\n"
  COS_UFC_plus_3: "L'influence de l'§YUFC§! augmente de £banana_texticon §R3%§!\n"
  COS_UFC_plus_8: "L'influence de l'§YUFC§! augmente de £banana_texticon §R8%§!\n"
  COS_UFC_minus_3: "L'influence de l'§YUFC§! diminue de £banana_texticon §G3%§!\n"
- COS_UFC_minus_8: "L'influence de l'§YUFC§! diminue de £banana_texticon §G8%§!\n"
- UFC_Profit_1: "Les bénéfices de §YUFC§! augmentent de §G1§!\n\nModifie §Y$UFC_Profit_1_idea$§! par\n$MODIFIER_CONSUMER_GOODS_FACTOR$ : §Y-1.0%§!"
- UFC_Profit_2: "Les bénéfices de §YUFC§! augmentent de §G2§!\n\nModifie §Y$UFC_Profit_1_idea$§! par\n$MODIFIER_CONSUMER_GOODS_FACTOR$ : §Y-2.0%§!"
-
+ COS_UFC_minus_5: "L'influence de l'§YUFC§! diminue de £banana_texticon §G5%§!\n"
+ COS_UFC_profic_increase: "Les profits de l'§YUFC§! augmentent de $RIGHT|G0$.\n\nModifie §Y$UFC_Profit_1_idea$§! par :\n$MODIFIER_CONSUMER_GOODS_FACTOR$ : §Y-§!$RIGHT|Y0%%1$"
  COS_EXPANDING_OPERATIONS: "L'§YUFC§! étend ses activités"
 
- COS_German_Support_tt: "L'influence du §YZKG§! augmente de £coffee_texticon  §R8%§!\n "
- COS_ZKG_minus_3: "L'influence du §YZKG§! diminue de £coffee_texticon  §G3%§!\n"
- COS_ZKG_minus_100: "L'influence du §YZKG§! sera §Géradiqué§!\n"
  COS_ZKG_plus_3: "L'influence du §YZKG§! augmente de £coffee_texticon  §R3%§!\n "
  COS_ZKG_plus_8: "L'influence du §YZKG§! augmente de £coffee_texticon  §R8%§!\n "
+ COS_ZKG_minus_3: "L'influence du §YZKG§! diminue de £coffee_texticon  §G3%§!\n"
+ COS_ZKG_minus_5: "L'influence de §YZKG§! diminue de £coffee_texticon §G5%§!\n"
+ COS_ZKG_minus_100: "L'influence du §YZKG§! sera §Géradiqué§!\n"
 
  UFC_Profit_1_COST: "§Y1§! Profit de l'UFC"
  UFC_Profit_1_COST_blocked: "§R1§! Profit de l'UFC"
@@ -112,27 +111,14 @@
  UFC_Profit_3_COST_blocked: "§R3§! Profit de l'UFC "
  UFC_Profit_3_COST_tooltip: "Cela coûte $UFC_Profit_3_COST$ pour prendre cette décision "
 
- PRN_OPEN_ELECTIONS: "Accroît le §CPRN§! avec §Y2%§!\n"
- PRN_min_1: "Décroît le §CPRN§! avec §Y1%§!\n"
- PRN_min_3: "Décroît le §CPRN§! avec §Y3%§!\n"
- PRN_1: "Accroît le §CPRN§! avec §Y1%§!\n"
- PRN_3: "Accroît le §CPRN§! avec §Y3%§!\n"
- PRN_7: "Accroît le §CPRN§! avec §Y7%§!\n"
- PRN_10: "Accroît le §CPRN§! avec §Y10%§!\n"
- PRN_15: "Accroît le §CPRN§! avec §Y15%§!\n"
- PVP_CHECKMATE: "Décroît le §RPVP§! avec §Y10%§!\n"
- PVP_3: "Accroît le §RPVP§! avec §Y3%§!\n"
+ COS_PRN_support_increase: "Augmente le §YSoutien§! du §CPRN§! de $RIGHT|Y0$.\n"
+ COS_PRN_support_decrease: "Diminue le §YSoutien§! du §CPRN§! de $RIGHT|Y0$.\n"
+ COS_PVP_support_increase: "Augmente le §YSoutien§! du §RPVP§! de $RIGHT|Y0$.\n"
+ COS_PVP_support_decrease: "Diminue le §YSoutien§! du §RPVP§! de $RIGHT|Y0$.\n"
 
  MP_50: "£manpower_texticon §Y50§! £rifle_texticon §H400§!"
  MP_50_blocked: "£manpower_texticon §R50§! £rifle_texticon §R400§!"
  MP_50_tooltip: "Cela coûte $MP_50_blocked$ pour prendre cette décision "
-
- COS_suplied_rebels_tooltip: "Nous gagnerons une division de milice dans §H[FROM.GetName]§! lorsque la guerre est déclarée contre §H[CEN.GetNameDef]§!"
-
- Beel_pls: "§RB E E L Z E B U B\nE\nE\nL\nZ\nE\nB\nU\nB§!"
-
- COS_ELECTIONS: "Les élections de 1940 n'ont pas encore eu lieu"
- JIMMY_DOWN: "Jimenez s'est retiré de la course."
 
 ### Decisions ###
  COS_ZKG_decisions: "Zentralamerikanische Kaffee-Gesellschaft"
@@ -175,13 +161,12 @@
  COS_Honduras_Palm_Oil: "Développer les Plantations de Palmiers au Honduras"
  COS_Honduras_Palm_Oil_desc: "En participant au coup d'État militaire qui a renversé le président Davila et rétabli le général Bonilla, Samuel Zemurray a pu obtenir des concessions massives du gouvernement de la nation. Offrant de construire l'infrastructure du pays en échange d'énormes étendues de terre, sa société s'est non seulement imposée comme le moteur de l'économie hondurienne, mais elle s'est ensuite étendue à toute la région avant de fusionner avec l'UFC.\n\nCette dernière ne détient pas seulement de grands intérêts dans la production de bananes, mais est également responsable de quantités considérables d'huile de palme et d'abaca."
  COS_Honduras_Abaca: "Développer les Plantations d'Abaca au Honduras"
- COS_Honduras_Abaca_desc: "En participant au coup d'État militaire qui a renversé le président Davila et rétabli le général Bonilla, Samuel Zemurray a pu obtenir des concessions massives du gouvernement de la nation. Offrant de construire l'infrastructure du pays en échange d'énormes étendues de terre, sa société s'est non seulement imposée comme le moteur de l'économie hondurienne, mais elle s'est ensuite étendue à toute la région avant de fusionner avec l'UFC.\n\nCette dernière ne détient pas seulement de grands intérêts dans la production de bananes, mais est également responsable de quantités considérables d'huile de palme et d'abaca."
  COS_Honduras_Banana: "Développer les Plantations de Banane au Honduras"
- COS_Honduras_Banana_desc: "En participant au coup d'État militaire qui a renversé le président Davila et rétabli le général Bonilla, Samuel Zemurray a pu obtenir des concessions massives du gouvernement de la nation. Offrant de construire l'infrastructure du pays en échange d'énormes étendues de terre, sa société s'est non seulement imposée comme le moteur de l'économie hondurienne, mais elle s'est ensuite étendue à toute la région avant de fusionner avec l'UFC.\n\nCette dernière ne détient pas seulement de grands intérêts dans la production de bananes, mais est également responsable de quantités considérables d'huile de palme et d'abaca."
  COS_Guatemala_Abaca: "Développer les Plantations d'Abaca au Guatemala"
- COS_Guatemala_Abaca_desc: "Non seulement l'UFC contrôle un pourcentage considérable de toutes les terres guatémaltèques, mais elle possède également des écoles, des chemins de fer, des sociétés de logement et bien plus encore. Dire que l'économie guatémaltèque dépend de l'UFC serait un euphémisme et nous ne pouvons pas laisser cette influence vaciller pour la sécurité de l'entreprise.\n\nPrincipalement situées sur le flanc oriental du pays, près du Honduras, les terres d'Abaca offrent une alternative précieuse aux opérations de l'entreprise, dominées par la banane."
+ COS_Guatemala_plantation_desc_start: "Non seulement l'UFC contrôle un pourcentage important de toutes les terres guatémaltèques, mais elle possède également des écoles, des chemins de fer, des sociétés de logement et bien d'autres choses encore. Dire que l'économie guatémaltèque dépend de l'UFC serait un euphémisme et nous ne pouvons pas laisser cette influence vaciller pour la sécurité de l'entreprise."
+ COS_Guatemala_Abaca_desc: "$COS_Guatemala_plantation_desc_start$\n\nPrincipalement situées sur le flanc oriental du pays, près du Honduras, les terres d'Abaca offrent une alternative précieuse aux opérations de l'entreprise, dominées par la banane."
  COS_Guatemala_Banana: "Développer les Plantations de Bananes au Guatemala"
- COS_Guatemala_Banana_desc: "Non seulement l'UFC contrôle un pourcentage considérable de toutes les terres guatémaltèques, mais elle possède également des écoles, des chemins de fer, des sociétés de logement et bien plus encore. Dire que l'économie guatémaltèque dépend de l'UFC serait un euphémisme et nous ne pouvons pas laisser cette influence vaciller pour la sécurité de l'entreprise.\n\nPrincipalement situées sur le flanc ouest de la nation, les plantations de bananes du Guatemala constituent l'opération la plus réussie de l'entreprise à ce jour et contribuent non seulement à la croissance continue des actions mais permettent également à l'UFC de s'étendre dans les Caraïbes et même en Amérique du Sud."
+ COS_Guatemala_Banana_desc: "$COS_Guatemala_plantation_desc_start$\n\nPrincipalement situées sur le flanc ouest de la nation, les plantations de bananes du Guatemala constituent l'opération la plus réussie de l'entreprise à ce jour et contribuent non seulement à la croissance continue des actions mais permettent également à l'UFC de s'étendre dans les Caraïbes et même en Amérique du Sud."
  COS_Colombia_Banana: "Développer les Plantations de Banane en Colombie"
  COS_Colombia_Banana_desc: "Centrée sur d'importantes régions bananières telles que Magdalena, l'entreprise a connu une histoire mouvementée dans la nation sud-américaine. Diverses grèves, des escalades violentes entre les travailleurs et les briseurs de grève de l'UFC ont marqué la nation et l'entreprise se bat pour conserver ces actifs avec la Guerre Civile Américaine qui ravage tout sur son passage."
  COS_Nicaragua_Palm_Oil: "Développer les Plantations de Palmiers au Nicaragua"
@@ -233,22 +218,28 @@
  COS_Ferrer_Aggro_decisions: "Legion del Caribe: Opérations"
  COS_Ferrer_Aggro_decisions_desc: "Alors que le dictateur du Costa Rica est destitué et la démocratie rétablie, la Légion des Caraïbes se réjouit de la victoire de son opération. Avec le soutien total du président Ferrer, elle dispose désormais des moyens et du soutien moral nécessaires pour mener à bien son idéal et éradiquer les régimes syndicalistes et dictatoriaux de la région."
 
- COS_form_faction: "Former $cos_carib_faction$"
-
- COS_Democratic_Alliance_of_the_Caribbean_decisions:9 "Alliance Démocratique des Caraïbes"
-
- COS_Invite: "Inviter [FROM.GetName] dans le Pacte"
  COS_Legion_del_Caribe_Attack: "Lancer la Campagne de Libération"
  COS_Legion_del_Caribe_Attack_desc: "Le temps est venu de se débarrasser des chaînes de l'oppression qui ont longtemps étouffé nos frères à travers les Caraïbes. Nous sommes leur dernier espoir et nous les amènerons à la lumière !"
- COS_Invasion: "Libérer [FROM.GetName]"
- COS_Invasion_desc: "Pendant trop longtemps, le peuple de [FROM.GetName] a souffert de dictateurs et de fonctionnaires corrompus. Pour remédier à cette situation, la Légion des Caraïbes a pris l'initiative de libérer ces personnes, de renverser le régime et de restaurer la démocratie dans la nation."
-
  COS_Supply_Rebels: "[FROM.COS_Supply_Rebels_Name]"
  COS_Supply_Rebels_Puerto_Cabezas: "Course à l'Armement à Puerto Cabezas"
  COS_Supply_Rebels_Santa_Ana: "Soutenir la Résistance Salvadorienne"
  COS_Supply_Rebels_Belmopan: "Approvisionner les Combattants de la Liberté au Bélize"
  COS_Supply_Rebels_Puerto_Barrios: "Infiltrer Puerto Barrios"
  COS_Supply_Rebels_Generic: "Ravitailler les Rebelles à [FROM.GetName]"
+
+ COS_Democratic_Alliance_of_the_Caribbean_decisions:9 "Alliance Démocratique des Caraïbes"
+
+ COS_form_faction: "Former $cos_carib_faction$"
+ COS_Invite: "Inviter [FROM.GetName] dans le Pacte"
+ COS_economic_bloc: "Inviter [FROM.GetName] dans le Bloc Économique"
+ COS_protect_panama: "Sauver le Panama de la coercition colombienne"
+ COS_protect_panama_desc: "Le Panama a été forcé par la Colombie à rejoindre leur alliance sous la faible justification de les sauver du socialisme. Donnons-leur un moyen de s'en sortir avant que leur souveraineté ne soit encore plus menacée."
+ COS_merge_with_the_andean_pact: "Fusionner avec le Pacte Andin"
+ COS_merge_with_the_andean_pact_desc: "Le pacte andin a été créé pour assurer la stabilité et la protection de leur région et leurs objectifs sont très similaires aux nôtres, mais un différend sur le Panama a envenimé les relations entre nous et la Colombie. La meilleure façon d'y remédier est de les inviter à rejoindre notre alliance et de régler nos problèmes en interne."
+ COS_integrate_into_CEN: "Réintégrer la République Fédérale"
+ COS_integrate_into_CEN_desc: "Avec quatre membres de la République déjà unis et prêts à se battre pour notre cause, il est temps pour nous de rejoindre la République fédérale, de l'aider à éliminer les problèmes qui ont déchiré la première, de faire respecter la démocratie dans l'Union et de créer une armée puissante capable de nous protéger et de poursuivre l'objectif de notre alliance."
+ COS_Invasion: "Libérer [FROM.GetName]"
+ COS_Invasion_desc: "Pendant trop longtemps, le peuple de [FROM.GetName] a souffert de dictateurs et de fonctionnaires corrompus. Pour remédier à cette situation, la Légion des Caraïbes a pris l'initiative de libérer ces personnes, de renverser le régime et de restaurer la démocratie dans la nation."
 
  COS_Ferrer_Pacifist_decisions: "Politique de [COS.GetLeader]"
  COS_Ferrer_Pacifist_decisions_desc: "Réveillé par les affaires anticonstitutionnelles de ses prédécesseurs et luttant pour les droits de chaque citoyen costaricain, §Y[COS.GetLeader]§! a de grandes ambitions pour la petite nation. Non seulement lui et sa junte prévoient de mettre en œuvre de nouvelles lois radicales, mais ils prévoient également de §Yréécrire la constitution§! et de §Yabolir l'armée§!, pour aboutir à ce qu'ils ont proclamé être la création de la §CSeconde République§!"
@@ -269,8 +260,6 @@
  COS_Abolish_Army_desc: "Nous devons être un exemple pour le reste du monde et leur montrer que les véritables progrès sont réalisés dans un parlement plutôt que sur un champ de bataille. Non seulement nous abolirons complètement nos forces armées, mais nous nous abstiendrons de tout conflit en dehors de notre pays et nous nous concentrerons sur l'amélioration de notre niveau d'éducation et le développement de notre économie en pleine croissance."
 
  COS_Diplomacy_decisions: "Diplomatie"
- COS_Join_Reichspakt: "Rejoindre le Reichspakt"
- COS_Join_Entente: "Rejoindre l'Entente"
 
 ### Ideas ###
  COS_labour_conflicts: "Conflits Professionnels de l'UFC"
@@ -304,7 +293,7 @@
  COS_Plan_Limon_Foreign_Assistance_desc: "L'aide étrangère joue un rôle clé dans le plan Limon, car sans leurs connaissances en matière d'ingénierie et de construction moderne, nous serions à jamais bloqués au XIXe siècle."
 
  COS_Plan_Limon_End: "Plan Limon"
- COS_Plan_Limon_End_desc: "Les Succès de Plan Limon sont clairs comme le jour et l'industrie du Costa Rica se propulse en avant comme jamais auparavant."
+ COS_Plan_Limon_End_desc: "Les succès du Plan Limon sont clairs comme le jour et l'industrie du Costa Rica se propulse en avant comme jamais auparavant."
 
  COS_National_Parks: "Initiative sur les Parcs Nationaux"
  COS_National_Parks_desc: "Notre nation n'a ni le capital ni les ressources nécessaires pour soutenir une société industrialisée. Par conséquent, nous devrions changer de cap et préserver le vert que mère nature nous a donné et attirer ceux qui ont moins pour profiter de notre splendeur."
@@ -315,11 +304,16 @@
  COS_Hydroelectricity: "Initiative Hydroélectrique"
  COS_Hydroelectricity_desc: "Nous n'avons peut-être pas le pétrole ou le charbon de nos voisins, mais des études étrangères ont identifié notre pays comme une terre de choix pour l'hydroélectricité, permettant à de plus en plus d'ateliers de travailler avec de l'électricité propre et bon marché."
 
+ COS_Banking_Reform_Idea:0 "Réforme bancaire"
+
+ COS_Education_Reform:0 "Réforme de l'Éducation"
+
+ COS_Cement_Administration_Idea:0 "Cimenter l'Administration"
+
  COS_AM_REFUGEES: "Réfugiés Américains"
  COS_AM_REFUGEES_desc: "Fuyant le chaos qui s'est installé dans leur pays, des milliers de réfugiés américains sont entrés dans notre nation en apportant avec eux leur capital et leurs connaissances."
 
  COS_Work_Code_idea: "Code du Travail"
- COS_Minimum_Wage_idea: "Code du Travail"
 
  COS_CCSS: "CCSS"
  COS_CCSS_desc: "Les conditions sanitaires déplorables et le manque de soins de santé pour les classes inférieures ont donné naissance à ce système révolutionnaire qui permet à tous les Costaricains, quel que soit leur statut, de bénéficier de pensions et de soins de santé."
@@ -332,11 +326,14 @@
  COS_Public_Education: "Système Éducatif Réformé"
  COS_Public_Education_desc: "L'éducation pour tous est la priorité absolue du gouvernement costaricain et le nouveau programme a permis à tous les Costaricains d'accéder au système d'enseignement public."
 
- COS_beacon_democracy_2: "Phare de la Démocratie"
- COS_beacon_democracy_2_desc: "De solides traditions démocratiques et des réformes progressives au cours des dernières décennies ont permis au Costa Rica d'être considéré à l'étranger comme le phare de la démocratie en Amérique centrale."
+ COS_Expanded_Citizenship: "Citoyenneté Élargie"
 
- COS_beacon_democracy_3: "Phare de la Démocratie"
- COS_beacon_democracy_3_desc: "De solides traditions démocratiques et des réformes progressives au cours des dernières décennies ont permis au Costa Rica d'être considéré à l'étranger comme le phare de la démocratie en Amérique centrale."
+ COS_economic_bloc_idea: "Bloc Économique des Caraïbes"
+ COS_economic_bloc_idea_desc: "Les membres de l'Alliance ne s'intéressent pas seulement aux affaires militaires, mais aussi aux affaires économiques."
+
+ COS_CEN_ties: "Liens avec l'Amérique Centrale"
+
+ COS_CEN_ties_2: "Renforcement des Liens avec l'Amérique Centrale"
 
  COS_Domestic_Designs_2: "Designs Nationaux"
 
@@ -522,7 +519,7 @@ COS_Aircraft_Contracts: "American Weapons Contracts"
  COS_country_intro_header:0 "Costa Rica: A Central American Success Story"
  COS_country_intro_content:0 "Nichée au cœur de la jungle centraméricaine, notre petite mais fière nation a prospéré pendant de nombreuses décennies, bénéficiant d'un taux d'alphabétisation supérieur à celui de certaines nations européennes et d'une économie à la croissance lente mais régulière, basée sur le commerce de la banane et surtout du café.\n\nGrâce à l'adhésion stricte de toutes les parties à la constitution, il n'y a pas eu d'intervention militaire ni de coup d'État politique dans le pays depuis la dictature ratée de Ticino en 1917, qui a été destituée quelques mois plus tard sous la pression du peuple, qui refusait d'endurer un dictateur dans sa république. Depuis lors, le pays est contrôlé par une caste de politiciens variés, bien qu'égalitaires, qui ont profité des fruits de la croissance de l'économie allemande et des liens étroits entre nos deux nations.\n\nSous l'aile du PRN, le président Ricardo Jiminez peut se targuer d'un mandat réussi au cours duquel il a dû faire face à la fois à la dépression économique causée par la récession américaine et aux voix montantes des mouvements socialistes qui, enthousiasmés par le Congrès des travailleurs de l'Atlantique, sont finalement sortis de leur torpeur et ont exigé une meilleure représentation. Bien qu'ils soient parvenus à leurs fins et aient forcé le gouvernement à rédiger un accord sur le travail, la loi est loin d'être adoptée et, sous l'étoile montante de Manual Mora Valverde, les problèmes entre les entreprises et les travailleurs sont loin d'être résolus.\n\nNéanmoins, la nation prospère car les fruits de nos relations avec la Mitteleuropa affluent sous la forme de programmes d'échanges culturels, d'assistance scientifique et d'un lien fort entre des universités telles que la KU Leuven en Flandre-Wallonie et la classe supérieure costaricienne."
 
- COS_guide: "§MVictoire des Conservateurs§! (§cSocial Conservateur§!)\n£white_dot Nommer Cortés à l'investiture républicaine.\n£white_dot Ne pas compléter la priorité "Adapter la constitution".\n£white_dot Après avoir remporté les élections de 1940, Calderón prendra le pouvoir et s'engagera sur la voie de la §Mvictoire socialiste§!.\n£white_dot Accepter l'offre de rétablir la stabilité et organiser des élections d'urgence, qui seront remportées par Ricardo Jimenez du §cPRN§!\n\n§MVictoire Socialiste§! (§SSocial Démocrate§!)\n£white_dot Nommer Calderón à l'investiture républicaine ou la victoire du §cPRN§! aux élections de 1940 lui permettra d'annoncer des réformes radicales et de diriger un gouvernement socialiste.\n£white_dot Après environ 2 ans, Calderón demandera des pouvoirs d'urgence.\n£white_dot Environ moins d'un an plus tard, une offre de rétablissement de la stabilité apparaîtra, rejetant l'offre de poursuite du gouvernement socialiste.\n£white_dot Lors des prochaines élections, Picado prendra le contrôle.\n\n§MFerrer prend le contrôle§! (§SSocial Démocrat§!)\n£white_dot Nommer Cortés à l'investiture républicaine.\n£white_dot Compléter la priorité "Adapter la constitution" et remporter les élections de 1940.\n£white_dot Lorsque Ferrer passe à l'antenne, faites-le embarquer sur le premier bateau pour le Mexique, ce qui l'amènera à s'échapper et à lancer un coup d'État.\n£white_dot Ou alors, que Calderón annonce son second mandat lors des élections et que Ferrer passe à l'antenne pour faire un coup d'état, quels que soient vos choix.\n£white_dot Ou bien, suivez les étapes pour que l'armée dépose Mora, que le conseil garde le contrôle et que Ferrer passe à l'antenne pour leur faire un coup d'État, quels que soient vos choix.\n\n§MVictoire Syndicaliste§! (§rSyndicaliste§!) §CNote : Si l'Amérique centrale ou le Nicaragua sont syndicalistes, ils annexeront le Costa Rica. Sinon, le Costa Rica reviendra à un régime conservateur.§!\n£white_dot Suivez les mêmes étapes que le chemin §MVictoire socialiste§!, mais choisissez d'accepter l'offre de rétablir la stabilité et de faire proclamer la République des travailleurs par Mora.\n£white_dot Si l'Amérique centrale ou le Nicaragua sont syndicalistes, ils vous proposeront d'annexer le pays (ce qui vous obligera à vous rallier à eux). Si vous refusez, l'armée déposera Mora peu de temps après."
+ COS_guide: "§MVictoire des Conservateurs§! (§cSociaux-Conservateurs§!)\n£white_dot Nommez Cortés à l'investiture républicaine.\n£white_dot Ne complétez pas la priorité §YAdapter la constitution§!.\n£white_dot Après avoir remporté les élections de 1940, Calderón prendra le pouvoir et s'engagera sur le chemin de la §Mvictoire socialiste§!.\n£white_dot Acceptez l'offre de rétablir la stabilité et d'organiser des élections d'urgence, qui seront remportées par Ricardo Jimenez du §cPRN§!.\n\n§MVictoire Socialiste§! (§SSociaux-Démocrates§!)\n£white_dot Nommer Calderón à l'investiture républicaine ou la victoire du §cPRN§! aux élections de 1940 lui permettra d'annoncer des réformes radicales et de diriger un gouvernement socialiste.\n£white_dot Après environ 2 ans, Calderón demandera des pouvoirs d'urgence.\n£white_dot Environ moins d'un an plus tard, une offre de rétablissement de la stabilité apparaîtra, rejetez l'offre pour continuer le gouvernement socialiste.\n£white_dot Lors des élections suivantes faites en sorte que Picado prenne le contrôle.\n\n§MFerrer Prend le Contrôle§! (§SSociaux-Démocrates§!)\n£white_dot Nommez Cortés à l'investiture républicaine.\n£white_dot Complétez la priorité §YAdapter la constitution§! et remportez les élections de 1940.\n£white_dot Lorsque Ferrer passe à l'antenne, faites-le embarquer sur le premier bateau pour le Mexique, ce qui l'amènera à s'échapper et à lancer un coup d'État.\n£white_dot Ou, faites en sorte que Calderón annonce son second mandat lors des élections, et Ferrer passera à l'antenne pour faire un coup d'état quels que soient vos choix.\n£white_dot Ou, suivez les étapes pour que l'armée dépose Mora et que le conseil garde le contrôle, et Ferrer passera à l'antenne pour faire un coup d'état quels que soient vos choix.\n\n§MVictoire Syndicaliste§! (§rSyndicalistes§!) §CNote : Si l'Amérique centrale ou le Nicaragua sont syndicalistes, ils annexeront le Costa Rica. Sinon, le Costa Rica reviendra à un régime conservateur.§!\n£white_dot Suivez les mêmes étapes que le chemin §Mvictoire socialiste§!, mais choisissez d'accepter l'offre de rétablir la stabilité et faites proclamer la République des travailleurs par Mora.\n£white_dot Si l'Amérique centrale ou le Nicaragua sont syndicalistes, ils vous proposeront d'annexer le pays (ce qui vous obligera à les jouer). Si vous refusez, l'armée déposera Mora peu de temps après.\n\n§MPolitique Étrangère§!\n§MReichspakt§!\n£white_dot Demandez la protection allemande après le début de la Seconde Guerre de Sécession. Cela nous donnera leur garantie et une décision pour rejoindre leur faction une fois la Seconde Weltkrieg commencée.\n£white_dot Si le Canada envahit le Panama, choisissez de rester neutre.\n§MEntente§!\n£white_dot Demandez la protection canadienne après le début de la Seconde Guerre de Sécession, mettez la règle du jeu §YEntente§! sur §YPolitique Étrangère du Costa Rica§! pour garantir que le Canada accepte. Cela nous donnera leur garantie et une décision pour rejoindre leur faction une fois la Seconde Weltkrieg commencée.\n£white_dot Ou, si le Canada envahit le Panama, envoyez-leur une offre pour rejoindre leur guerre contre le Panama et leur faction.\n§MAlliance Démocratique des Caraïbes§!\n£white_dot Suivez les étapes du chemin §MFerrer Prend le Contrôle§!.\n£white_dot Complétez la décision £decision_icon_small §YFormer $cos_carib_faction$§! pour gagner accès à la décision d'inviter toutes les nations démocratiques d'Amérique centrale, des Caraïbes et de l'Amérique du Sud septentrionale dans notre faction.\n§CNote : L'Amérique Centrale aura également l'option de créer cette faction si ils sont démocratiques, mais ils attendront juin 1940 pour le faire si le Costa Rica est contrôlé par un joueur.§!"
 
 ### Events ###
 cos.2.t: "Nomination of the Republican Candidate"
@@ -550,35 +547,28 @@ cos.6.d: "Upon first review it seems that our initial measures have stopped the 
 cos.6.a: "We shall ask the USA for assistance."
 cos.6.b: "We shall ask the Germans for assistance."
 
-cos.7.t: "[COS.GetName] requests our assistance"
+ cos.7.t: "[FROM.GetNameDef] Requiert Notre Assistance"
 cos.7.d: "Disaster has struck the otherwise quiet little nation of [COS.GetName] when the ZKG (Zentralamerikanische Kaffee-Gesellschaft) crashed hard on the Berlin stock exchange just a few weeks earlier, dragging the nation into a hole out of which it will be unable to recover on its own. To save them from complete collapse, the small nation has requested us a loan to bail out the ZKG."
-cos.7.a: "Offer them Assistance!"
+ cos.7.a: "Offrez-leur de l'aide !"
 cos.7.b: "We have more important matters to attend to."
 
-cos.8.t: "American Support arrives"
-cos.8.d: "Tough negotiating with the American delegation finally paid off when an accord was reached between [COS.GetLeader] and the American government. Whilst we will be obligated to make further concessions to the American UFC, they have accepted to take part of the hit and have granted us a loan with which we can survive the crisis."
+ cos.8.t: "Le Soutien [FROM.GetAdjective] Arrive"
+ cos.8.d_start: "Les négociations difficiles avec la délégation [FROM.GetAdjective] ont enfin porté leurs fruits quand un accord a été trouvé entre [ROOT.GetLeader] et le gouvernement [FROM.GetAdjective]."
+ cos.8.d: "$cos.8.d_start$ Bien que nous soyons obligés de faire d'autres concessions à l'UFC américaine, ils ont accepté de prendre une partie du coup et nous ont accordé un prêt avec lequel nous pouvons survivre à la crise."
 cos.8.a: "God Bless the US of A."
 
-cos.9.t: "America refuses to help"
+ cos.9.t: "[FROM.GetNameDefCap] Refuse d'Aider"
 cos.9.d: "Whilst not really surprising due to their domestic issues, the USA have refused our requests for a loan to bail out the ZKG and have left us stranded with no other alternative than the Germans."
 cos.9.a: "Get me the Germans on line 1!"
  cos.9.b: "Nous sommes vraiment seuls au monde."
 
-cos.10.t: "[COS.GetName] requests our assistance"
-cos.10.d: "Disaster has the otherwise quiet little nation of [COS.GetName] when the ZKG (Zentralamerikanische Kaffee-Gesellschaft) crashed hard on the Berlin stock exchange just a few weeks earlier, dragging the nation into a hole out which it will be unable to recover on its own. To save them from complete collapse, the small nation has requested us a loan to bail out the ZKG."
-cos.10.a: "Offer them Assistance!"
-cos.10.b: "We have more important matters to attend to."
-
-cos.11.t: "German Support arrives"
-cos.11.d: "Tough negotiating with the German delegation finally paid off when an accord was reached between [COS.GetLeader] and the German government. Whilst we will be obligated to make further concessions to the ZKG to pay off our debts, they have accepted to take part of the hit and have granted us a loan with which we can survive the crisis."
+ cos.11.d: "$cos.8.d_start$ Bien que nous soyons obligés de faire d'autres concessions au ZKG pour payer nos dettes, ils ont accepté de prendre une partie du coup et nous ont accordé un prêt avec lequel nous pouvons survivre à la crise."
 cos.11.a: "Deutschland über alles!"
 
-cos.12.t: "Germany refuses to help"
 cos.12.d: "Whilst not really surprising due to their domestic issues, the German Empire has refused our requests for a loan to bail out the ZKG and have left us stranded with no other alternative than the Americans."
 cos.12.a: "Get me the Americans on line 1!"
- cos.12.b: "Nous sommes vraiment seuls au monde."
 
-cos.13.t: "Coffee sector recovers"
+ cos.13.t: "Le Secteur du Café se Redresse"
 cos.13.d: "Five years have passed since the ZKG collapsed under pressure from failing stocks. Whilst the government was in no position to save them back then, leading to a period of poverty and 3 years ago even bordering on the edge of starvation, the coffee trade is finally recovering and under measures imposed by our President [COS.GetLeader] slowly but surely the economy is growing again."
 cos.13.a: "At last!"
 
@@ -592,13 +582,13 @@ cos.15.a: "Loosen the restrictions."
 cos.15.b: "Force companies to hire native Costa Ricans."
 cos.15.c: "Enforce designated no-go zones."
 
-cos.16.t: "The German Cruiser "Schleswig" docks in Puerto Limon"
-cos.16.d: "Officially running out of supplies whilst cruising the Caribbean but more likely curious as to whether the [COS.GetLeader] regime could prove to be a naval station in the West, the German Cruiser "Schleswig" moored in Puerto Limon earlier this morning.\n\nDelighted by the presence of these foreign guests, [COS.GetLeader] has personally received them with fanfare and a ceremony praising the relation between our two great nations. When later that day in a closed door meeting between the German delegation, the topic concerning the instability in the USA arose, the captain of the vessel handed over his orders to our president that the security of Costa Rica is of vital interest to the German people and that troops, supplies and even full protection could be arranged should instability in the region continue to mount."
+ cos.16.t: "Le Croiseur Allemand "Schleswig" Accoste à Puerto Limon"
+ cos.16.d: "Officiellement à court d'approvisionnement pendant sa croisière dans les Caraïbes, mais plus probablement curieux de savoir si le régime de [COS.GetLeader] pourrait s'avérer être une base navale à l'ouest, le croiseur allemand "Schleswig" a amarré à Puerto Limon plus tôt ce matin.\n\nRavi de la présence de ces invités étrangers, [COS.GetLeader] les a personnellement reçus en fanfare lors d'une cérémonie louant la relation entre nos deux grandes nations. Lorsque plus tard dans la journée, lors d'une réunion à huis clos de la délégation allemande, le sujet de l'instabilité aux États-Unis a été soulevé, le capitaine du navire a transmis ses ordres à notre président que la sécurité du Costa Rica est d'un intérêt vital pour le peuple allemand et que des troupes, des fournitures et même une protection complète pourraient être organisées si l'instabilité dans la région continue à augmenter."
  cos.16.a: "Demander une Garnison Allemande"
 cos.16.b: "Request arms for our army."
 cos.16.c: "We will do just fine on our own."
 
-cos.17.t: "Costa Rica request a German Garrison"
+ cos.17.t: "Le Costa Rica demande une garnison allemande"
 cos.17.d: "Rising instability in the USA and the nearby regimes in Central America have forced the small nation to come to us for aid. Reminding us of the strong ties between our two nations and the significant German population living in their territory, they ask that we station a small regiment in San Jose to deter foreign threats.\n\nWhilst this has short term implications on our relations with the USA, we're sure that they will understand that we are acting for the greater good."
  cos.17.a: "Envoyer le détachement"
 cos.17.b: "We seek no quarrel with the USA."
@@ -607,193 +597,132 @@ cos.17.b: "We seek no quarrel with the USA."
  cos.18.d: "Travelling in an unmarked freighter carrying consumer goods for the Costa Rican people, a German garrison of just over a thousand men sat foot on the island under the cover of darkness and was directed by the commander of our army to their barracks. Gasping in awe at the superior equipment and discipline of these new soldiers, our troops are frightened that they would not be able to counter any rash actions by the German detachment."
  cos.18.a: "Willkommen meine Freunde!"
 
-cos.19.t: "No military support from the Empire"
+ cos.19.t: "Pas de soutien militaire de la part de l'Empire"
 cos.19.d: "Calling our nation irrelevant to the global strategy of the Empire and a waste of resources, the German commission refused to concede any troops for our defence and have requested us not to bring up the matter again."
 cos.19.a: "We are sorry to hear this."
 
-cos.20.t: "Costa Rica requests German Arms"
+ cos.20.t: "Le Costa Rica demande des armes allemandes"
 cos.20.d: "Rising instability in the USA and the nearby regimes in Central America have forced the small nation to come to us for aid. Reminding us of the strong ties between our two nations and the significant German population living in their territory, they ask that we send them a small cache of arms and other supplies to bolster their forces and deter foreign threats.\n\nWhilst this has short term implications on our relations with the USA, we're sure that they will understand that we are acting for the greater good."
  cos.20.a: "Envoyer les fusils."
-cos.20.b: "We seek no quarrel with the USA."
 
-cos.21.t: "German Arms arrive"
+ cos.21.t: "Arrivée d'armes allemandes"
 cos.21.d: "Transported amidst boxes of Swiss chocolate and Krupp machinery, dozens of boxes containing some of the latest Mausers fabricated at FN Herstal were brought into our nation on regular trade ships. Unaware of our deceit, our neighbours will be in for a rude awakening should they stumble upon our army!"
 cos.21.a: "These are clearly "Made in Costa Rica.""
 
-cos.22.t: "No military support from the Empire"
 cos.22.d: "Calling our nation irrelevant to the global strategy of the Empire and a waste of resources, the German commission refused to concede any arms for our troops and have requested us not to bring up the matter again."
 cos.22.a: "Well screw you too!"
 
 ### ACW Events ###
  cos.23.t: "Guerre Civile aux États-Unis !"
-cos.23.d: "The unthinkable has finally happened and once more the "United" States of America find themselves fighting against each-other. All around Central America, socialist agitators and military dictators are roaring in pleasure as the once impenetrable web of American treaties has been left shattered.\n\nNot only does this severely endanger our sovereignty, the limited force we have to protect our nation is nothing but old men and cannon fodder ready to go down in a blaze of fire. We need a strong ally if we wish to survive and we need him now! As Canada is submitting territory after territory in the wake of the Civil War, it may be wise to direct our efforts towards them and hope that we can peacefully escape the soon to be unleashed terror in Central America."
+ cos.23.d: "L'impensable s'est finalement produit et une fois de plus les États "Unis" d'Amérique se retrouvent à se battre les uns contre les autres. Tout autour de l'Amérique centrale, les agitateurs socialistes et les dictateurs militaires rugissent de plaisir alors que la toile autrefois impénétrable des traités américains a été brisée.\n\nNon seulement cela met gravement en danger notre souveraineté, mais la force limitée dont nous disposons pour protéger notre nation n'est rien d'autre que des vieillards et de la chair à canon prêts à tomber dans un feu d'artifice. Nous avons besoin d'un allié fort si nous voulons survivre et nous en avons besoin maintenant ! Comme le Canada soumet territoire après territoire dans le sillage de la Guerre de Sécession, il serait peut-être sage de diriger nos efforts vers eux et d'espérer que nous pourrons échapper pacifiquement à la terreur qui se déchaînera bientôt en Amérique centrale."
 cos.23.a: "Canada will surely save us!"
  cos.23.b: "L'Allemagne va nous protéger !"
 cos.23.c: "All this doomsday talk is bollocks. Costa Rica will do just fine alone."
 
- cos.24.t: "Le Costa Rica demande notre protection"
-cos.24.d: "Horrified by the Civil War in the United States, the small nation looks in fear to its Eastern and Northern borders waiting for an attack now that its protector is at war and has requested we openly express our desire to keep Costa Rica a sovereign state. Whilst our interests in their neighbour Panama are far greater, we could potentially support their regime and establish another Entente foothold in the Caribbean."
+ cos.24.t: "Le Costa Rica Demande Notre Protection"
+ cos.24.d_start: "Horrifiée par la guerre civile aux États-Unis, la petite nation regarde avec crainte ses frontières orientales et septentrionales, attendant une attaque maintenant que son protecteur est en guerre et a demandé que nous exprimions ouvertement notre désir de maintenir le Costa Rica en tant qu'État souverain."
+ cos.24.d: "$cos.24.d_start$ Alors que nos intérêts dans son voisin le Panama sont bien plus importants, nous pourrions potentiellement soutenir son régime et établir une autre base de l'Entente dans les Caraïbes."
 cos.24.a: "Offer them assistance."
 cos.24.b: "Panama is far more important to us."
 
-cos.25.t: "Canada grants us support"
+ cos.25.t: "[FROM.GetNameDefCap] Nous Accorde du Soutien"
 cos.25.d: "Unwilling to see yet another nation in the region collapse into instability, the Canadian government has agreed to guarantee our independence so long as we stay friendly to the Entente cause."
 cos.25.a: "Huzzah!"
 
-cos.26.t: "Canada denies us support"
+ cos.26.t: "[FROM.GetNameDefCap] Nous Refuse du Soutien"
 cos.26.d: "Likely because of their interests in our immediate neighbour, Panama, the Entente has circumvented the question of our sovereignty and send our diplomats packing. Whether this is a sign of a combined Panama-Canadian invasion of Coto is not yet clear but it's most definitely a sign that stability in the region is rapidly declining."
 cos.26.a: "Maybe the Kaiser will come to our aid?"
 cos.26.b: "Dig in lads!"
 
- cos.27.t: "Le Costa Rica demande notre protection"
-cos.27.d: "Horrified by the Civil War in the United States, the small nation looks in fear to its Eastern and Northern borders waiting for an attack now that its protector is at war and has requested we openly express our desire to keep Costa Rica a sovereign state. As Entente forces encroach on the Panama canal determined to snatch it from a failing USA and socialist forces to the North look eagerly to the ill defended Costa Rican nation, it would be in our interests to establish a foothold on the American continent and keep a close eye on the region should the situation escalate even further."
-cos.27.a: "Offer them assistance."
+ cos.27.d: "$cos.24.d_start$ Alors que les forces de l'Entente empiètent sur le canal de Panama, déterminées à l'arracher à des États-Unis en déroute, et que les forces socialistes au Nord regardent avec impatience la nation costaricaine mal défendue, il serait dans notre intérêt d'établir un pied sur le continent américain et de garder un œil sur la région si la situation devait s'aggraver."
 cos.27.b: "We are already overextended as is!"
 
-cos.28.t: "Germany grants us support"
 cos.28.d: "Unwilling to see yet another nation in the region collapse into instability, the German government has agreed to guarantee our independence so long as we stay on friendly terms with their alliance and serve as a foothold for their ambitions in the region."
 cos.28.a: "Everything has a price..."
 
-cos.29.t: "Germany send no further support"
 cos.29.d: "Citing their massive overextension and troubles in the colonies, the German Empire has sadly declined our request. Whilst they are saddened that they can't help any further, they hope we survive the coming tide and would be pleased if the trade connections between our two nations could continue per the usual."
 cos.29.a: "Maybe the Canadians will come to our aid?"
 cos.29.b: "Business is more important than friends..."
 
 ### COTO Events ###
 cos.30.t: "Crisis over Coto!"
- cos.30.d: "Depuis l'indépendance du Panama vis-à-vis de la Colombie, ils revendiquent le Coto, une région située dans la province de Chiriquí au Panama, le long de la frontière entre le Panama et le Costa Rica. En 1911, le juge en chef de la Cour suprême des États-Unis, Edward D. White, a été chargé de l'arbitrage. Il rendit sa décision en 1914, mais le Panama ne l'accepta pas, estimant qu'elle favorisait le Costa Rica. Les hostilités ont éclaté en 1921, lorsque le Costa Rica a envahi la zone. Le Panama reprend facilement la zone. Le conflit s'est toutefois étendu lorsque le Costa Rica s'est installé dans la province de Bocas del Toro. Craignant que leurs intérêts ne soient menacés, les États-Unis ont forcé le Panama à accepter la décision de White.\n\nNos alliés américains ayant sombré dans l'anarchie, le gouvernement panaméen a rouvert le conflit et exige que nous lui cédions le territoire ou que nous affrontions son armée sur le champ de bataille. Bien que nos troupes aient récemment augmenté en taille, nous sommes toujours complètement dépassés par nos voisins panaméens et nous aurons besoin d'une aide étrangère si nous voulons remporter la victoire.\n\nNos alliés, quant à eux, sont moins enthousiastes à l'idée de mener une nouvelle guerre inutile et préfèrent une solution plus diplomatique à la crise, en renforçant la décision de Fallo White et en forçant le Panama à faire marche arrière une fois pour toutes."
+ cos.30.d_start: "Depuis l'indépendance du Panama vis-à-vis de la Colombie, ils revendiquent le Coto, une région située dans la province de Chiriquí au Panama, le long de la frontière entre le Panama et le Costa Rica. En 1911, le juge en chef de la Cour suprême des États-Unis, Edward D. White, fut chargé de l'arbitrage. Il rendit sa décision en 1914, mais le Panama ne l'accepta pas, estimant qu'elle favorisait le Costa Rica. Les hostilités ont éclaté en 1921, lorsque le Costa Rica envahit la zone. Le Panama reprit facilement la zone. Le conflit s'est toutefois étendu lorsque le Costa Rica s'est installé dans la province de Bocas del Toro. Craignant que leurs intérêts ne soient menacés, les États-Unis obligèrent le Panama à accepter la décision de White.\n\n"
+ cos.30.d: "$cos.30.d_start$ Nos alliés américains ayant sombré dans l'anarchie, le gouvernement panaméen a rouvert le conflit et exige que nous lui cédions le territoire ou que nous affrontions son armée sur le champ de bataille. Bien que nos troupes aient récemment augmenté en taille, nous sommes toujours complètement dépassés par nos voisins panaméens et nous aurons besoin d'une aide étrangère si nous voulons remporter la victoire.\n\nNos alliés, quant à eux, sont moins enthousiastes à l'idée de mener une nouvelle guerre inutile et préfèrent une solution plus diplomatique à la crise, en renforçant la décision de Fallo White et en forçant le Panama à faire marche arrière une fois pour toutes."
 cos.30.a: "Request mediation from Canada."
 cos.30.b: "Request mediation from Germany."
 cos.30.c: "We will have to face them on our own!"
 
-cos.301.t: "Costa Rica stands alone!"
+ cos.301.t: "Le Costa Rica fait cavalier seul !"
 cos.301.d: "Not only is their army pathetic and their people complacent, all former allies of Costa Rica have backed out thus giving us full authority to invade the nation and reclaim Coto!"
 cos.301.a: "Tonight we dine in San José!"
 
-cos.31.t: "Crisis over Coto!"
- cos.31.d: "Depuis l'indépendance du Panama vis-à-vis de la Colombie, ils revendiquent le Coto, une région située dans la province de Chiriquí au Panama, le long de la frontière entre le Panama et le Costa Rica. En 1911, le juge en chef de la Cour suprême des États-Unis, Edward D. White, a été chargé de l'arbitrage. Il rendit sa décision en 1914, mais le Panama ne l'accepta pas, estimant qu'elle favorisait le Costa Rica. Les hostilités ont éclaté en 1921, lorsque le Costa Rica a envahi la zone. Le Panama reprend facilement la zone. Le conflit s'est toutefois étendu lorsque le Costa Rica s'est installé dans la province de Bocas del Toro. Craignant que leurs intérêts ne soient menacés, les États-Unis obligent le Panama à accepter la décision de White.\n\nConscient que les Américains ne sont pas en mesure de sauver une fois de plus le Costa Rica, le gouvernement panaméen a envoyé un nouvel ultimatum à San José exigeant l'extradition de la région de Coto. Même si nous n'avons guère de raison de nous mêler de leurs petites querelles, la recherche d'une solution pacifique à la crise réaffirmera notre statut d'excellents négociateurs et pourrait contraindre la région centraméricaine à se soumettre."
+ cos.31.d: "$cos.30.d_start$ Conscient que les Américains ne sont pas en mesure de sauver une fois de plus le Costa Rica, le gouvernement panaméen a envoyé un nouvel ultimatum à San José exigeant l'extradition de la région de Coto. Même si nous n'avons guère de raison de nous mêler de leurs petites querelles, la recherche d'une solution pacifique à la crise réaffirmera notre statut d'excellents négociateurs et pourrait contraindre la région centraméricaine à se soumettre."
 cos.31.a: "Offer to sit down with Panama."
  cos.31.b: "Envoyez un avertissement au Panama."
 
- cos.32.t: "Le Canada offre une médiation"
-cos.32.d: "After being asked by Costa Rica to act as intermediary in the crisis, the Canadian government has scheduled a summit to discuss possible peaceful resolutions to the conflict and prevent war from breaking out. Negotiating on the part of Costa Rica, they are open to force them to pay us a compensation for the territory but they are determined to stick to the Fallo White ruling and keep Costa Rican territorial integrity intact."
+ cos.32.t: "Le [FROM.GetNameDefCap] Offre une Médiation"
+ cos.32.d: "Après avoir été sollicité par le Costa Rica pour servir d'intermédiaire dans la crise, le gouvernement [FROM.GetAdjective] a programmé un sommet pour discuter des résolutions pacifiques possibles du conflit et éviter que la guerre n'éclate. En ce qui concerne le Costa Rica, les négociations sont ouvertes pour les forcer à nous verser une compensation pour le territoire, mais ils sont déterminés à s'en tenir à la décision de Fallo White et à garder intacte l'intégrité territoriale du Costa Rica."
 cos.32.a: "We shall accept the Fallo White Ruling."
 cos.32.b: "Demand monetary compensation for the territory."
 cos.32.c: "We won't negotiate, the time for war has come!"
 
-cos.33.t: "Panama accepts the Fallo White Ruling"
-cos.33.d: "Unwilling to escalate the matter any further and afraid of our military might, the Panama government has agreed to end the dispute and adhere to the Fallo White ruling. Diplomats from both nations have gathered in David to finish the official documents and after the formalities are over, the situation will finally be resolved for good. Costa Rica will retain the Coto region and Panama will give up all claims on the territory"
+ cos.33.t: "Le Panama accepte la décision de Fallo White"
+ cos.33.d: "Ne voulant pas que l'affaire s'envenime davantage et craignant notre puissance militaire, le gouvernement panaméen a accepté de mettre fin au différend et d'adhérer à la décision de Fallo White. $cos.33.d_ending$"
+ cos.33.d_ending: "Les diplomates des deux pays se sont réunis à David pour finaliser les documents officiels et, une fois les formalités terminées, la situation sera définitivement réglée. Le Costa Rica conservera la région de Coto et le Panama renoncera à toute revendication sur ce territoire."
 cos.33.a: "Another job well done."
 
-cos.34.t: "Panama accepts the Fallo White Ruling"
-cos.34.d: "Unwilling to escalate the matter any further and afraid of the Canadian military might, the Panama government has agreed to end the dispute and adhere to the Fallo White ruling. Diplomats from both nations have gathered in David to finish the official documents and after the formalities are over, the situation will finally be resolved for good. Costa Rica will retain the Coto region and Panama will give up all claims on the territory"
+ cos.34.d: "Ne voulant pas que l'affaire s'envenime davantage et craignant la puissance militaire canadienne, le gouvernement panaméen a accepté de mettre fin au différend et d'adhérer à la décision de Fallo White. $cos.33.d_ending$"
 cos.34.a: "Another success for diplomacy!"
 
-cos.35.t: "Panama demands monetary compensation"
+ cos.35.t: "Le Panama exige des compensations monétaires"
 cos.35.d: "Claiming that the loss in territory has come at a great cost to the Panamanian economy, the government in Panama City has demanded that Costa Rica compensates them for the hypothetical losses before any further discussion can continue."
 cos.35.a: "Propose the offer to Costa Rica."
 cos.35.b: "We don't negotiate with villains."
 
-cos.36.t: "Panama demands monetary compensation"
-cos.36.d: "Negotiating on our behalf, the Canadian delegation has received terms from the Panaman government which state that Panama will give up its claims in the regions if they are compensated for the loss in profits. Whilst the legitimacy of this statement is shaky at best, it may be in our best interest to suck it up and thus prevent war from breaking out."
+ cos.36.d: "Négociant en notre nom, la délégation [FROM.GetAdjective] a reçu du gouvernement panaméen les termes selon lesquels le Panama renoncera à ses revendications dans les régions s'il est compensé pour la perte de profits. Bien que la légitimité de cette déclaration soit pour le moins douteuse, il est peut-être dans notre intérêt de l'accepter et d'éviter ainsi que la guerre n'éclate."
 cos.36.a: "Accept the deal."
 cos.36.b: "We don't negotiate with villains."
 
- cos.37.t: "Le Costa Rica accepte la solution"
+ cos.37.t: "Le Costa Rica Accepte la Solution"
 cos.37.d: "Although the government is San Jose is unconvinced by the claims uttered by the Panamanian delegation, they have decided to accept the proposal to preserve peace in the region. During a period of 1 year, Costa Rica will pay 5% of its tax income to the Panamanians to compensate them for the loss and in return Panama will give up all its claims in the region for eternity."
 cos.37.a: "We truly make the best deals."
 
- cos.38.t: "Le Costa Rica accepte la solution"
 cos.38.d: "Although the government is San Jose is unconvinced by the claims uttered by our delegation, they have decided to accept the proposal to preserve peace in the region. During a period of 1 year, Costa Rica will pay 5% of its tax income to the Panamanians to compensate them for the loss and in return we will give up all our claims in the region for eternity."
-cos.38.a: "We truly make the best deals."
 
-cos.39.t: "Canada puts the squeeze on Panama"
-cos.39.d: "After a weak attempt from Panama to compromise, the Royal Navy has dispatched one of its cruisers to strong-arm Panama into giving up. Whilst it could lead to a quick end to the crisis, Canada is playing with fire and further escalation by Panama could happen at any moment."
+ cos.39.t: "[FROM.GetNameDefCap] Fait Pression sur le Panama"
+ cos.39.d: "Après une faible tentative de compromis de la part du Panama, la Royal Navy a envoyé l'un de ses croiseurs pour forcer le Panama à renoncer. Bien que cela puisse conduire à une fin rapide de la crise, le [FROM.GetNameDefCap] joue avec le feu et une nouvelle escalade de la part du Panama pourrait se produire à tout moment."
 cos.39.a: "They are playing with fire."
 
-cos.40.t: "Canada refuses to cooperate any further"
-cos.40.d: "Even though they claimed in the past that compensation for the Coto region could have been awarded, the Canadian delegation made a full turn today and denies that there was ever such an offer. Repeating that Panama will have to adhere to the Fallo White ruling, the cocky Brits believe that the crisis is all but over."
+ cos.40.t: "[FROM.GetNameDefCap] Refuse de Coopérer Davantage"
+ cos.40.d_start: "Bien qu'ils aient affirmé par le passé qu'une compensation pour la région de Coto aurait pu être accordée, la délégation [FROM.GetAdjective] a fait volte-face aujourd'hui et nie qu'une telle offre ait jamais existé."
+ cos.40.d: "$cos.40.d_start$ Répétant que le Panama devra se conformer à la décision de Fallo White, les Britanniques arrogants estiment que la crise est pratiquement terminée."
 cos.40.a: "Then we shall take it by force!"
 cos.40.b: "We have no choice but to comply."
 
-cos.41.t: "War over Coto!"
+ cos.41.t: "La Guerre Contre Coto !"
 cos.41.d: "Negotiations have broken down and Panama has officially declared war on Costa Rica. Since we sided on the Costa Rican side during the discussions, Panama has denounced us as well and dared us to prove our metal on the battlefield instead of in a damp office."
 cos.41.a: "Welp, that didn't go so well."
 
-cos.42.t: "War over Coto!"
 cos.42.d: "As we already feared, the cocky behaviour of the Canadian delegation has pushed Panama too far and war has finally erupted. Whilst we have the support of our Entente allies, this all could have been prevented peacefully..."
 cos.42.a: "All men to battle stations!"
 
- cos.43.t: "Le Costa Rica refuse de payer"
+ cos.43.t: "Le Costa Rica Refuse de Payer"
 cos.43.d: "The deal we so diligently prepared for the Costa Ricans has been rejected by San Jose this morning, claiming that Panama has no valid base to demand anything from them and that they should be happy Costa Rica is even willing to negotiate. Whether these harsh words will escalate the situation is to be seen but a compromise is now fully off the table."
  cos.43.a: "Espérons qu'ils ne fâchent pas le Panama."
 
- cos.44.t: "Le Canada nous lance un avertissement !"
-cos.44.d: "At the request of their ally Costa Rica, the Canadian government has intervened in the crisis on their behalf. Demanding that we adhere to the Fallo White ruling, the Canadians have positioned one of their cruisers close to our shore to intimidate us into cooperating."
+ cos.44.t: "Le Canada Lance un Avertissement !"
+ cos.44.d: "A la demande de leur allié le Costa Rica, le gouvernement [FROM.GetAdjective] est intervenu dans la crise en leur nom. Exigeant que nous adhérions à la décision de Fallo White, les Canadiens ont positionné un de leurs croiseurs près de nos côtes pour nous intimider et nous faire coopérer."
  cos.44.a: "Acceptez la décision de Fallo White."
  cos.44.b: "Nous n'avons pas peur du Canada !"
 
- cos.45.t: "Crise sur Coto !"
- cos.45.d: "Depuis l'indépendance du Panama vis-à-vis de la Colombie, ils revendiquent le Coto, une région située dans la province de Chiriquí au Panama, le long de la frontière entre le Panama et le Costa Rica. En 1911, le juge en chef de la Cour suprême des États-Unis, Edward D. White, a été chargé de l'arbitrage. Il rendit sa décision en 1914, mais le Panama ne l'accepta pas, estimant qu'elle favorisait le Costa Rica. Les hostilités ont éclaté en 1921, lorsque le Costa Rica a envahi la zone. Le Panama reprend facilement la zone. Le conflit s'est toutefois étendu lorsque le Costa Rica s'est installé dans la province de Bocas del Toro. Craignant que leurs intérêts ne soient menacés, les États-Unis obligent le Panama à accepter la décision de White.\n\nConscient que les Américains ne sont pas en mesure de sauver une fois de plus le Costa Rica, le gouvernement panaméen a envoyé un nouvel ultimatum à San José exigeant l'extradition de la région de Coto. Même si nous n'avons guère de raison de nous mêler de leurs petites querelles, la recherche d'une solution pacifique à la crise réaffirmera notre statut d'excellents négociateurs et pourrait contraindre la région centraméricaine à se soumettre."
- cos.45.a: "Proposez de vous mettre à table avec le Panama."
- cos.45.b: "Envoyez un avertissement au Panama."
+# German mediation events mostly reuse Canadian mediation loc
+ cos.48.d: "Ne voulant pas que l'affaire s'envenime davantage et craignant la puissance militaire allemande, le gouvernement panaméen a accepté de mettre fin au différend et d'adhérer à la décision de Fallo White. $cos.33.d_ending$"
 
- cos.46.t: "L'Allemagne propose une médiation"
- cos.46.d: "Après avoir été sollicité par le Costa Rica pour servir d'intermédiaire dans la crise, le gouvernement allemand a programmé un sommet pour discuter des résolutions pacifiques possibles du conflit et éviter que la guerre n'éclate. En ce qui concerne le Costa Rica, les négociations sont ouvertes pour les forcer à nous verser une compensation pour le territoire, mais ils sont déterminés à s'en tenir à la décision de Fallo White et à garder intacte l'intégrité territoriale du Costa Rica."
- cos.46.a: "Nous devons accepter la décision de Fallo White."
- cos.46.b: "Demandez une compensation monétaire pour le territoire."
- cos.46.c: "Nous ne négocierons pas, l'heure de la guerre a sonné !"
+ cos.54.d: "$cos.40.d_start$ Répétant que le Panama devra s'en tenir à la décision de Fallo White, les Boches arrogants estiment que la crise est pratiquement terminée."
 
- cos.47.t: "Le Panama accepte la Décision Fallo White"
- cos.47.d: "Ne voulant pas aggraver la situation et craignant notre puissance militaire, le gouvernement panaméen a accepté de mettre fin au conflit et d'adhérer à la décision de Fallo White. Les diplomates des deux nations se sont réunis à David pour terminer les documents officiels et, une fois les formalités terminées, la situation sera définitivement réglée. Le Costa Rica conservera la région de Coto et le Panama renoncera à toute revendication sur ce territoire."
- cos.47.a: "Un autre travail bien fait."
-
- cos.48.t: "Le Panama accepte la Décision Fallo White"
- cos.48.d: "Ne voulant pas que l'affaire s'envenime davantage et craignant la puissance militaire allemande, le gouvernement panaméen a accepté de mettre fin au différend et d'adhérer à la décision de Fallo White. Les diplomates des deux nations se sont réunis à David pour terminer les documents officiels et, une fois les formalités terminées, la situation sera définitivement réglée. Le Costa Rica conservera la région de Coto et le Panama renoncera à toute revendication sur ce territoire."
- cos.48.a: "Un autre succès pour la diplomatie !"
-
- cos.49.t: "Le Panama demande une compensation financière"
- cos.49.d: "Affirmant que la perte de territoire a coûté cher à l'économie panaméenne, le gouvernement de Panama City a exigé que le Costa Rica le dédommage pour les pertes hypothétiques avant de poursuivre les discussions."
- cos.49.a: "Proposer l'offre au Costa Rica."
- cos.49.b: "On ne négocie pas avec les méchants."
-
- cos.50.t: "Le Panama demande une compensation financière"
- cos.50.d: "Négociant en notre nom, la délégation allemande a reçu des termes du gouvernement panaméen qui stipulent que le Panama abandonnera ses revendications dans les régions s'il est compensé pour la perte de profits. Bien que la légitimité de cette déclaration soit pour le moins douteuse, il est peut-être dans notre intérêt de l'accepter et d'éviter ainsi que la guerre n'éclate."
- cos.50.a: "Acceptez l'accord."
- cos.50.b: "On ne négocie pas avec les méchants."
-
- cos.51.t: "Le Costa Rica accepte la solution"
- cos.51.d: "Bien que le gouvernement de San José ne soit pas convaincu par les revendications de la délégation panaméenne, il a décidé d'accepter la proposition afin de préserver la paix dans la région. Pendant une période d'un an, le Costa Rica versera 5 % de ses revenus fiscaux aux Panaméens pour les dédommager de leur perte et, en retour, le Panama renoncera à toutes ses revendications dans la région pour l'éternité."
- cos.51.a: "Nous faisons vraiment les meilleures affaires."
-
- cos.52.t: "Le Costa Rica accepte la solution"
- cos.52.d: "Bien que le gouvernement de San Jose ne soit pas convaincu par les revendications de notre délégation, il a décidé d'accepter la proposition pour préserver la paix dans la région. Pendant une période d'un an, le Costa Rica versera 5% de ses revenus fiscaux aux Panaméens pour les dédommager de la perte et en retour, nous renoncerons à toutes nos revendications dans la région pour l'éternité."
- cos.52.a: "Nous faisons vraiment les meilleures affaires."
-
- cos.53.t: "L'Allemagne met la pression sur le Panama"
- cos.53.d: "Après une faible tentative de compromis de la part du Panama, la Royal Navy a envoyé l'un de ses croiseurs pour forcer le Panama à renoncer. Bien que cela puisse conduire à une fin rapide de la crise, l'Allemagne joue avec le feu et une nouvelle escalade de la part du Panama pourrait se produire à tout moment."
- cos.53.a: "Ils jouent avec le feu."
-
- cos.54.t: "L'Allemagne refuse de coopérer davantage"
- cos.54.d: "Bien qu'ils aient affirmé par le passé qu'une compensation pour la région de Coto aurait pu être accordée, la délégation allemande a fait volte-face aujourd'hui et nie qu'une telle offre ait jamais existé. Répétant que le Panama devra s'en tenir à la décision de Fallo White, les Boches arrogants estiment que la crise est pratiquement terminée."
- cos.54.a: "Alors nous la prendrons par la force !"
- cos.54.b: "Nous n'avons pas d'autre choix que de nous y conformer."
-
- cos.55.t: "La Guerre contre Coto !"
- cos.55.d: "Les négociations ont été rompues et le Panama a officiellement déclaré la guerre au Costa Rica. Comme nous nous sommes rangés du côté du Costa Rica lors des discussions, le Panama nous a également dénoncés et nous a mis au défi de prouver notre métal sur le champ de bataille plutôt que dans un bureau humide."
- cos.55.a: "Eh bien, ça ne s'est pas si bien passé."
-
- cos.56.t: "La Guerre contre Coto !"
  cos.56.d: "Comme nous le craignions déjà, le comportement insolent de la délégation allemande a poussé le Panama trop loin et la guerre a finalement éclaté. Bien que nous ayons le soutien de nos alliés allemands, tout cela aurait pu être évité pacifiquement..."
- cos.56.a: "Tous les hommes aux postes de combat !"
 
- cos.57.t: "Le Costa Rica refuse de payer"
- cos.57.d: "L'accord que nous avons préparé avec tant de diligence pour les Costaricains a été rejeté par San José ce matin, affirmant que le Panama n'a aucune base valable pour exiger quoi que ce soit d'eux et qu'ils devraient être heureux que le Costa Rica soit même disposé à négocier. Il reste à voir si ces mots durs vont aggraver la situation, mais un compromis est désormais totalement exclu."
- cos.57.a: "Espérons qu'ils ne mettront pas le Panama en colère."
-
- cos.58.t: "L'Allemagne nous lance un avertissement !"
- cos.58.d: "A la demande de leur allié le Costa Rica, le gouvernement allemand est intervenu dans la crise en leur nom. Exigeant que nous adhérions à la décision de Fallo White, les Allemands ont positionné un de leurs croiseurs près de nos côtes pour nous intimider et nous faire coopérer."
- cos.58.a: "Acceptez la décision de Fallo White."
+ cos.58.t: "L'Allemagne Lance un Avertissement !"
  cos.58.b: "Nous n'avons pas peur du Kaiser !"
 
 ### Other Events ###
@@ -815,7 +744,7 @@ cos.44.d: "At the request of their ally Costa Rica, the Canadian government has 
  cos.62.a: "Laissez la presse tranquille."
  cos.62.b: "Obligez les journaux à se soumettre et arrêtez les fauteurs de troubles."
 
- cos.63.t: "Des réfugiés juifs demandent l'autorisation de s'installer"
+ cos.63.t: "Des Réfugiés Juifs Demandent l'Autorisation de S'installer"
  cos.63.d: "Alors que l'antisémitisme continue de croître dans la région autrichienne et en raison de la tension croissante au Moyen-Orient entre l'Empire Ottoman et la nation Égyptienne, une organisation humanitaire américaine appelée Refugee Economic Management a demandé à notre gouvernement de s'ouvrir à 1500 familles juives qui ont été chassées de leurs maisons. Garantissant [COS.GetLeader] que la procédure de réinstallation ne coûterait pas un centime à l'État, elle demande instamment au gouvernement de mettre de côté une petite parcelle de terrain pour leur permettre de construire une communauté juive."
  cos.63.a: "Les Juifs sont des propagateurs du socialisme ! Qu'ils s'en aillent !"
  cos.63.b: "Proposer la ferme Tenorio comme colonie possible."
@@ -830,15 +759,6 @@ cos.44.d: "At the request of their ally Costa Rica, the Canadian government has 
  cos.65.a: "Les Élections doivent être équitables et ouvertes à tous."
  cos.65.b: "Renvoyez Carlos Luis Sáenz de son poste !"
 
- cos.66.t: "Programme d'échange flamand-wallon"
-cos.66.d: ""
- cos.66.a: "Refusez leur offre."
- cos.66.b: "Nous apprécions leur expertise."
-
- cos.67.t: "Création de l'Institut National d'Études Agronomiques du Costa Rica"
-cos.67.d: ""
- cos.67.a: "Très bien. "
-
  cos.68.t: "Le Teatro Nacional de Costa Rica reçoit des fonds"
  cos.68.d: "Construit à la fin du XIXe siècle, alors que la population de San José ne comptait qu'environ 19 000 habitants, grâce à l'argent gagné pendant le boom du café, le Teatro Nacional a longtemps été l'un des principaux instituts de spectacles musicaux et théâtraux de qualité en Amérique centrale. Cependant, l'intérêt décroissant de la population et le manque de pièces locales adaptées au prestige du bâtiment l'ont laissé dans un état quelque peu négligé.\n\nJusqu'à ce qu'une compagnie d'investisseurs flamands et wallons, voyageant à travers le pays dans le cadre d'une mission commerciale envoyée par Mitteleuropa, découvre le site et tombe immédiatement amoureux de l'institution. Promettant d'envoyer de l'aide et des artistes de leur pays, le Teatro a reçu une subvention importante pour poursuivre ses activités. Lorsqu'un récent reportage a été publié dans le journal flamand De Standaard, une campagne publique de crowdfunding pour soutenir le Teatro a été lancée avec un grand succès dans tout le pays.\n\nRemise aujourd'hui par l'ambassadeur de Mitteleuropa, une petite cérémonie a eu lieu devant le bâtiment au cours de laquelle la subvention a été symboliquement échangée contre un sac de grains de café costaricien."
  cos.68.a: "C'est très généreux de leur part."
@@ -848,7 +768,7 @@ cos.67.d: ""
  cos.69.d: "Un groupe progressiste de jeunes diplômés de la faculté de droit a annoncé aujourd'hui la création d'une organisation appelée Centre de Réflexion sur les Problèmes Nationaux, ou El Centro en abrégé. Influencés par le penseur politique péruvien Victor Raúl Haya de la Torre, les jeunes intellectuels estiment que l'État doit être un instrument permettant de mettre en œuvre une réforme sociale radicale. Ils sont frustrés par l'incapacité des administrations de Cortes à s'attaquer aux problèmes sociaux et applaudissent le Congrès des Travailleurs de l'Atlantique pour avoir repoussé l'UFC. Craignant le syndicalisme, les membres d'El Centro pensent que les réformes sociales pourraient être réalisées par le biais du cadre législatif."
  cos.69.a: "Une idée radicale !"
 
- cos.70.t: "Jimenez annonce sa candidature à la présidence"
+ cos.70.t: "Jimenez Annonce Sa Candidature à la Présidence"
  cos.70.d: "Mécontent de la lourdeur et de l'autoritarisme des Cortes, l'ex-président Ricardo Jimenez s'est à nouveau lancé dans la course à la présidence, dans l'espoir de s'appuyer sur l'importante base de partisans que son précédent mandat a alimentée. Les réactions de la gauche ont été jusqu'à présent très chaleureuses, car elle espère que les luttes intestines au sein du PRN lui permettront de prendre le contrôle lors des prochaines élections. Cortes lui-même est tout sauf satisfait et a été vu en train de planifier secrètement avec les membres de son parti le sabotage de la campagne de Jimenez."
  cos.70.a: "La course a commencé !"
 
@@ -858,7 +778,7 @@ cos.67.d: ""
  cos.71.b: "Cortes Castro entame un second mandat !"
  cos.71.c: "Ricardo Jimenez est réélu."
 
- cos.72.t: "Figueres Ferrer prend l'antenne "
+ cos.72.t: "Figueres Ferrer Prend l'Antenne"
  cos.72.d: ""Chers Costaricains et autres personnes vivant dans notre grande nation. C'est avec le cœur lourd que je m'adresse à vous, car je constate que les valeurs pour lesquelles notre république s'est battue si courageusement sont ternies à tout bout de champ. La constitution, autrefois le fondement sacré de notre société, a été crachée par notre président le plus éclairé. La liberté d'expression dont nous étions autrefois fiers est mise en lambeaux par la censure du régime de Castro et l'homme de la rue est menti et opprimé. Alors qu'un jour, s'adresser ouvertement au gouvernement et critiquer ses politiques défaillantes était considéré comme vertueux et juste, c'est maintenant un chemin direct vers la prison. Combien de temps les Costaricains vont-ils supporter le dictateur ? Combien de nos libertés civiles devront encore être supprimées avant que nous ne réalisions que l'homme du palais présidentiel ne parle pas en notre nom ?".\n\nAprès avoir continué à prêcher pendant plus d'une demi-heure, l'éminent homme d'affaires a finalement été retiré de l'antenne par les forces de police et arrêté pour trahison. Mais le mal est fait et les forces de police de San José se demandent comment gérer la situation. Punir sévèrement Ferrer ne fera de lui qu'un martyr, tandis que d'autres craignent que sa libération ne lui permette de recueillir davantage de soutien contre le gouvernement."
  cos.72.a: "Relâchez l'homme. "
  cos.72.b: "Mettez-le sur le premier bateau pour le Mexique !"
@@ -868,20 +788,20 @@ cos.67.d: ""
  cos.73.a: "Que peuvent faire quelques paysans ?"
  cos.73.b: "Cortes annonce sa démission."
 
- cos.74.t: "Cortes démissionne de ses fonctions"
+ cos.74.t: "Cortes Démissionne De Ses Fonctions"
  cos.74.d: "Sous la pression des grèves et des protestations dans tout le pays, l'homme connu comme le président des barres de fer a été contraint de démissionner et a transmis la présidence à son successeur Guardia Calderón. On ne sait pas encore si cela signifie que le régime des Cortes a finalement pris fin ou s'il a simplement changé de tête, mais la population costaricaine est euphorique face à la victoire de la démocratie."
  cos.74.a: "Bonne chance Calderón !"
 
- cos.75.t: "Ferrer s'échappe !"
+ cos.75.t: "Ferrer S'échappe !"
  cos.75.d: "Bien qu'il ait été transporté dans un camion banalisé en direction de Puerto Limon, une bande armée de ses fanatiques a arrêté le convoi à Siquirres et a réussi à obtenir la libération de leur chef. Libre à nouveau et brûlant de passion pour renverser notre régime, il représente un énorme danger pour la sécurité nationale."
  cos.75.a: "Dois-je tout faire moi-même ?"
 
- cos.76.t: "La Légion Caribe effectue un Coup d'État "
+ cos.76.t: "La Légion Caribe Effectue un Coup d'État"
  cos.76.d: "Il a suffi de 700 loyalistes armés de Ferrer pour exécuter un coup d'État sans faille sur le régime de [COS.GetLeader]. S'emparant des villes clés de Puerto Limon, Cartago et San José, les forces de l'armée nationale, insuffisamment approvisionnées et en sous-effectif, n'étaient pas en mesure d'opposer une grande résistance. De petites fusillades ont lieu dans tout le pays, mais au final, le coup d'État est exécuté sans faire couler beaucoup de sang.\n\nSe proclamant président de la nation, Figueres Ferrer a pris le contrôle de la situation et a déjà annoncé des changements radicaux."
  cos.76.a: "Figueres proclame la Junte."
 
 ### Calderón Events ###
- cos.77.t: "Calderón annonce ses ambitions"
+ cos.77.t: "Calderón Annonce Ses Ambitions"
  cos.77.d: "Comme le veut la tradition, le nouveau président a été invité à prononcer un discours lors de sa cérémonie, exposant ses projets pour l'avenir de notre nation. Ce à quoi les gens ne s'attendaient pas, c'est au changement radical de politique annoncé par M. Calderón.\n\nM. Calderón propose des réformes sociales radicales, promettant de fonder une université nationale, de développer un programme de sécurité sociale, de fournir des logements à bas prix, d'augmenter le crédit rural, de promulguer une réforme agraire et d'aider les régions les moins développées du pays. Toutes ces annonces ont complètement stupéfié les membres du PRN qui ne voyaient en Calderón qu'une marionnette de leur politique conservatrice."
  cos.77.a: "Il ne peut pas faire ça !"
 
@@ -893,7 +813,7 @@ cos.67.d: ""
  cos.79.d: "Alors que la crise économique continue de provoquer des perturbations massives, notre gouvernement devient de plus en plus une hiérarchie secrète de favoritisme, de corruption, de vol et d'intimidation.\n\nUn exemple frappant de cette pratique se trouve dans le frère de Calderón, Francisco, qui était auparavant un banquier inconnu et qui occupe maintenant le poste de Ministre de la Sécurité Publique et de Troisième Désigné de la République (un poste qui ressemble un peu à celui de vice-président). Bien que de nombreux dirigeants aient placé des membres de leur famille à des postes de pouvoir, le frère de Calderón est devenu tristement célèbre pour avoir distribué des contrats gouvernementaux non concurrentiels à des copains et à des personnes qui lui versent des pots-de-vin. Cela lui a valu le surnom de "Paco a Medias" parce qu'il aurait exigé une commission de 50% avant de proposer des contrats.\n\nMême si Calderón s'est annoncé comme un président du peuple pour le peuple, la mauvaise gestion économique de son pays et l'augmentation catastrophique de la corruption pèsent lourdement sur la nation."
  cos.79.a: "Pendant que le peuple meurt de faim, les riches deviennent plus riches."
 
- cos.80.t: "[COS.GetLeader] demande des Pouvoirs d'Urgence"
+ cos.80.t: "[COS.GetLeader] Demande des Pouvoirs d'Urgence"
  cos.80.d: "Invoquant l'instabilité dans la région et la menace imminente d'envahisseurs étrangers, [COS.GetLeader] a demandé au Congrès d'étendre immédiatement les pouvoirs d'urgence à son bureau. Il assure qu'il n'en fera pas mauvais usage, mais les critiques parmi les membres du Congrès y voient une nouvelle prise de pouvoir pour enrichir ses amis."
  cos.80.a: "Des temps sombres nous attendent..."
 
@@ -902,11 +822,6 @@ cos.67.d: ""
  cos.81.a: "Prenez leurs terres."
  cos.81.b: "Les priver de leurs droits et confisquer leurs biens."
  cos.81.c: "Peut-être qu'on ne devrait pas..."
-
- cos.82.t: "Camps d'Internement pour les Citoyens Allemands"
- cos.82.d: "Alors que la ferveur patriotique s'empare de la population costaricienne, le président [COS.GetLeader] a non seulement ordonné la saisie de tous les biens allemands, mais a également décrété que tous les citoyens ayant des ancêtres allemands seraient arrêtés et placés dans des camps d'internement jusqu'à ce que l'on puisse décider de leur sort. Mais cela ne s'arrête pas là puisque toutes les personnes jugées sympathisantes de l'Allemagne doivent recevoir le même traitement."
- cos.82.a: "Ils sont une menace pour l'État !"
- cos.82.b: "Cela va un peu trop loin..."
 
  cos.83.t: "Une Offre Tentante..."
  cos.83.d: "La suspension des droits individuels garantis par la Constitution en raison des pouvoirs d'urgence de M. Calderón a conduit le Parti Démocrate de M. Cortes (qui a rompu ses liens avec le PRN après que M. Calderón a pris le contrôle total du pays et a fondé son propre parti) et le Parti Syndicaliste de Manuel Mora Valverde à dénoncer ouvertement le Président pour atteinte à la liberté électorale.\n\nÉtant donné que leurs plaintes sont tombées dans l'oreille d'un sourd au Congrès dominé par le PRN et que le président Calderón n'a pas l'intention de renoncer à ses pouvoirs d'urgence, des voix en marge de la scène ont commencé à appeler à un coup d'État contre le régime dictatorial. Le directeur conservateur de la Banque du Costa Rica, Jorge Hine, a récemment été vu en train de converser avec Mora et lui a vraisemblablement demandé son soutien pour le coup d'État, en lui offrant des sièges dans un gouvernement d'unité qui suivrait son succès."
@@ -922,29 +837,29 @@ cos.67.d: ""
  cos.85.a: "Mora proclame la République Ouvrière."
  cos.85.b: "Des élections d'urgence sont organisées."
 
- cos.86.t: "Jimenez remporte les élections"
+ cos.86.t: "Jimenez Remporte les Élections"
  cos.86.d: "En raison de désaccords entre les partis du gouvernement d'unité, des élections d'urgence sont immédiatement déclarées et rapidement remportées par l'ex-président Jimenez. L'éloge de sa fermeté au cours du mandat 1932-1936 et sa capacité à maintenir un budget équilibré lui ont permis de remporter les élections haut la main."
  cos.86.a: "Bonne chance"
 
- cos.87.t: "[FROM.GetNameDefCap] traverse la frontière"
+ cos.87.t: "[FROM.GetNameDefCap] Traverse la Frontière"
  cos.87.d: "En soutien au syndicaliste Manuel Mora Valverde, le gouvernement nicaraguayen a décidé d'intervenir dans notre crise de succession. Tout en niant officiellement y prendre part, de petites bandes de milices nicaraguayennes ont été vues traversant la frontière et convergeant vers les bastions syndicalistes connus. Alors que notre armée est divisée et que les conservateurs sont empêtrés dans un conflit interne, il semble que la République Ouvrière soit un fait."
  cos.87.a: "La Révolution Mondiale continue toujours plus fort !"
 
- cos.88.t: "[FROM.GetNameDefCap] demande notre intégration dans l'Union Centraméricaine."
+ cos.88.t: "[FROM.GetNameDefCap] Demande Notre Intégration dans l'Union Centraméricaine"
  cos.88.d: "Ce sont les Nicaraguayens qui ont garanti la montée de notre République Ouvrière et ce seront les Nicaraguayens qui mettront fin à notre nation telle que nous la connaissons. Pressant Mora d'accepter leurs idées d'un Centro-Américain, la pression monte entre les deux nations car le président du Costa Rica ne veut pas compromettre la souveraineté de son pays alors que le Nicaragua a les armes et les moyens d'imposer l'union qu'ils recherchent désespérément."
  cos.88.a: "Le Costa Rica rejoint Centro-Américain"
  cos.88.b: "Nous rejetons leur "offre"."
 
- cos.881.t: "Une opportunité au Costa Rica"
+ cos.881.t: "Une Opportunité au Costa Rica"
  cos.881.d: "Le président Guardia ayant été déposé par la force au Costa Rica par une coalition de conservateurs et de syndicalistes, l'occasion s'est présentée d'incorporer pleinement leur nation dans nos rêves d'une Centro-Amérique unie. Bien que le sentiment contre notre nation soit assez fort parmi les Costaricains, [NIC.GetLeader] pense qu'en envoyant des agents secrets et des combattants de la guérilla pour "aider" Valverde à prendre le contrôle de la nation, nous pourrions facilement pousser notre revendication et envahir la nation."
  cos.881.a: "Envoyez-leur du "soutien"."
  cos.881.b: "Nous n'avons aucun désir d'interférer dans leurs affaires."
 
- cos.882.t: "Valverde se retire"
+ cos.882.t: "Valverde Se Retire"
  cos.882.d: "Conscient que sans armée et sans soutien populaire pour s'opposer à notre prise de contrôle militaire de sa nation, il n'a d'autre choix que de céder, Valverde a officiellement annoncé la fin du Costa Rica devant la presse nicaraguayenne et les médias étrangers. Bien que cela soit une surprise pour la communauté extérieure qui connaissait la petite nation comme un outsider dépourvu de grandes ambitions centraméricaines, la pression de tous les côtés s'est avérée trop forte pour résister et la fière nation a finalement été forcée de se soumettre."
  cos.882.a: "Un pas de plus vers la Révolution Mondiale !"
 
- cos.89.t: "L'armée dépose Mora"
+ cos.89.t: "L'Armée Dépose Mora"
  cos.89.d: "Effrayé par les menaces que le Nicaragua faisait peser sur la souveraineté de notre nation, le gouvernement [THIS.GetRulingParty] a finalement trouvé la balise de ralliement dont il avait besoin et a décidé de s'unir contre la menace syndicaliste. L'armée a lancé des frappes sur toutes les grandes villes pour abattre les milices syndicalistes et a réussi à vaincre la menace. Les pertes ont cependant été élevées, car les agents secrets nicaraguayens se sont battus comme des lions pour maintenir intacte la République des Travailleurs."
  cos.89.a: "Organiser des Élections d'Urgence."
  cos.89.b: "Le Conseil de Sécurité Nationale gouverne temporairement."
@@ -959,7 +874,7 @@ cos.67.d: ""
  cos.91.a: "Ricardo Jimenez."
  cos.91.b: "Cortes Castro."
 
- cos.92.t: "Figueres Ferrer prend l'antenne"
+ cos.92.t: "Figueres Ferrer Prend l'Antenne"
  cos.92.d: ""Chers Costaricains et autres personnes vivant dans notre grande nation. C'est avec le cœur lourd que je m'adresse à vous, car je constate que les valeurs pour lesquelles notre république s'est battue si courageusement sont ternies à tout bout de champ. La constitution, autrefois le fondement sacré de notre société, a été crachée par notre Conseil des oligarques le plus éclairé. La liberté d'expression dont nous étions autrefois fiers est mise en lambeaux par la censure de leur régime et l'homme de la rue est menti et opprimé. Alors qu'un jour, s'adresser ouvertement au gouvernement et critiquer ses politiques défaillantes était considéré comme vertueux et juste, c'est maintenant un chemin direct vers la prison. Combien de temps les Costariciens vont-ils supporter cette oligarchie dictatoriale ? Combien d'autres de nos libertés civiles devront être supprimées avant que nous ne réalisions que ceux qui sont au palais présidentiel ne parlent pas en notre nom ?".\n\nAprès avoir continué à prêcher pendant plus d'une demi-heure, l'éminent homme d'affaires a finalement été retiré de l'antenne par les forces de police et arrêté pour trahison. Mais le mal est fait et les forces de police de San José se demandent comment gérer la situation. Punir sévèrement Ferrer ne fera de lui qu'un martyr, tandis que d'autres craignent que sa libération ne lui permette de recueillir davantage de soutien contre le gouvernement."
  cos.92.a: "Relâchez l'homme."
  cos.92.b: "Mettez-le sur le premier bateau pour le Mexique !"
@@ -968,24 +883,24 @@ cos.67.d: ""
  cos.93.d: "Partout dans le pays, les agriculteurs et les travailleurs des plantations ont commencé à s'opposer aux bureaucrates locaux, exigeant l'abolition immédiate du Conseil et la révocation de leurs copains. Très probablement revigorées par les récents bouleversements causés par Figueres Ferrer, les protestations et les actions anti-gouvernementales semblent se poursuivre sans fin en vue."
  cos.93.a: "Que peuvent faire quelques paysans ?"
 
- cos.94.t: "Ferrer s'échappe !"
+ cos.94.t: "Ferrer S'échappe !"
  cos.94.d: "Bien qu'il ait été transporté dans un camion banalisé en direction de Puerto Limon, une bande armée de ses fanatiques a arrêté le convoi à Siquirres et a réussi à obtenir la libération de leur chef. Libre à nouveau et brûlant de passion pour renverser notre régime, il représente un énorme danger pour la sécurité nationale."
  cos.94.a: "Dois-je tout faire moi-même ?"
 
- cos.95.t: "La Légion Caribe exécute un Coup d'État"
+ cos.95.t: "La Légion Caribe Effectue un Coup d'État"
  cos.95.d: "700 armed loyalists of Ferrer were all it took to flawlessly execute a coup d'état on the regime of [COS.GetLeader]. Taking the key cities of Puerto Limon, Cartago and San José, the under-supplied and understaffed forces of the national army were in no position to offer much resistance. Small shootouts occurred throughout the nation but in the end, the coup was executed without much blood spilled.\n\nProclaiming himself president of the nation, Figueres Ferrer has taken control into his own hands and has already announced sweeping changes."
  cos.95.a: "Figueres proclame la Junte."
 
- cos.96.t: "Mora propose une alliance au PRN"
+ cos.96.t: "Mora Propose une Alliance au PRN"
  cos.96.d: "Bien que Calderón ait passé sa carrière à dénoncer publiquement les syndicalistes, après le coup d'État déjoué, il était désormais reconnaissant à Mora d'avoir préservé son existence, réalisant qu'il devrait d'une manière ou d'une autre élargir et dynamiser sa base politique pour continuer à survivre. Ainsi, malgré sa rhétorique socialiste chrétienne antérieure, malgré sa dénonciation répétée du syndicalisme et malgré ses liens étroits avec l'église, Calderón a commencé à discuter d'une alliance avec Mora et les syndicalistes.\n\nAyant obtenu de bons résultats lors des dernières élections régionales, avec 16% des voix, le PVP a annoncé son soutien à l'alliance proposée, bien qu'il ait ouvertement accusé pendant des années le PRN d'emprisonner ses membres et de censurer leurs opinions."
  cos.96.a: "La Gauche se tient unie."
 
- cos.97.t: "La Banqueroute menace le Costa Rica"
+ cos.97.t: "La Banqueroute Menace le Costa Rica"
  cos.97.d: "Alors que les précédents présidents conservateurs s'étaient toujours enorgueillis de leur budget équilibré et de leur gestion économique stricte, le président Calderón a poussé l'économie costaricienne au bord de l'effondrement. Alors qu'il y a trois ans, le budget était en excellente santé et la dette limitée, M. Calderón a augmenté les dépenses de l'État de plus de 60 %, ce qui a entraîné une perturbation massive du trésor public et une augmentation rapide de la dette. Les appels téléphoniques désespérés à nos alliés étrangers pour leur demander un soutien financier sont tombés dans l'oreille d'un sourd et l'effondrement financier commence à devenir imminent. Si l'État ne trouve pas les ressources nécessaires d'ici le 1er mai, il devra refuser les salaires de ses employés et espérer qu'ils resteront dans le rang.\n\nEnthousiasmé par les récents succès enregistrés ailleurs dans la région, un petit groupe de penseurs radicaux a cependant proposé une alternative au président Calderón. Ils proposent qu'il se joigne aux négociations en vue de la création d'un État uni d'Amérique Centrale et que, de ce fait, il fasse peser sa dette croissante sur les autres États de la région. Bien que cela signifie la fin de la souveraineté du Costa Rica, cela permettrait à Calderón de rester au pouvoir."
  cos.97.a: "La Fédération n'est peut-être pas la pire des idées..."
  cos.97.b: "Accroît drastiquement la pression fiscale."
 
- cos.98.t: "L'Élite du Café s'exprime contre Calderón"
+ cos.98.t: "L'Élite du Café S'exprime Contre Calderón"
  cos.98.d: "La corruption généralisée, les pots-de-vin purs et simples et l'augmentation massive de la taxation ont poussé les barons du café au point de rupture. Lors d'une récente réunion du Club Unión de San José, le principal forum social des élites du café, ils se sont réunis pour discuter de la politique de leur président et pour savoir combien de temps encore ils pourraient le soutenir. À la fin de la session, il leur a été demandé de soumettre anonymement un vote de confiance envers leur leader. Sur l'ensemble des membres, un seul est resté confiant dans les capacités de Calderón."
  cos.98.a: "C'est malheureux."
 
@@ -994,7 +909,7 @@ cos.67.d: ""
  cos.99.a: "Picado prend le contrôle."
  cos.99.b: "Calderón annonce son second mandat."
 
- cos.100.t: "Figueres Ferrer prend l'antenne"
+ cos.100.t: "Figueres Ferrer Prend l'Antenne"
  cos.100.d: ""Chers Costaricains et autres personnes vivant dans notre grande nation. C'est avec le cœur lourd que je m'adresse à vous, car je constate que les valeurs pour lesquelles notre république s'est battue si courageusement sont ternies à tout bout de champ. La constitution, autrefois le fondement sacré de notre société, a été crachée par notre président le plus éclairé. La liberté d'expression dont nous nous enorgueillissions autrefois est mise en lambeaux par la censure du régime de Calderón et l'homme de la rue est volé en plein jour. Alors qu'un jour, s'adresser ouvertement au gouvernement et critiquer ses politiques défaillantes était considéré comme vertueux et juste, c'est désormais un chemin direct vers la prison. Combien de temps les Costaricains vont-ils supporter le dictateur ? Combien de nos libertés civiles devront encore être supprimées avant que nous ne réalisions que l'homme du palais présidentiel ne parle pas en notre nom ?".\n\nAprès avoir continué à prêcher pendant plus d'une demi-heure, l'éminent homme d'affaires a finalement été retiré de l'antenne par les forces de police et arrêté pour trahison. Mais le mal est fait et les forces de police de San José se demandent comment gérer la situation. Punir sévèrement Ferrer ne fera de lui qu'un martyr, tandis que d'autres craignent que sa libération ne lui permette de recueillir davantage de soutien contre le gouvernement."
  cos.100.a: "Relâchez l'homme."
  cos.100.b: "Mettez-le sur le premier bateau pour le Mexique !"
@@ -1004,30 +919,30 @@ cos.67.d: ""
  cos.101.a: "Que peuvent faire quelques paysans ?"
  cos.101.b: "Cortes annonce sa démission."
 
- cos.102.t: "Ferrer s'échappe !"
+ cos.102.t: "Ferrer S'échappe !"
  cos.102.d: "Bien qu'il ait été transporté dans un camion banalisé en direction de Puerto Limon, une bande armée de ses fanatiques a arrêté le convoi à Siquirres et a réussi à obtenir la libération de leur chef. Libre à nouveau et brûlant de passion pour renverser notre régime, il représente un énorme danger pour la sécurité nationale."
  cos.102.a: "Dois-je tout faire moi-même ?"
 
- cos.103.t: "La Légion Caribe effectue un Coup d'État"
+ cos.103.t: "La Légion Caribe Effectue un Coup d'État"
  cos.103.d: "Il a suffi de 700 loyalistes armés de Ferrer pour exécuter un coup d'État sans faille sur le régime de [COS.GetLeader]. S'emparant des villes clés de Puerto Limon, Cartago et San José, les forces de l'armée nationale, insuffisamment approvisionnées et en sous-effectif, n'étaient pas en mesure d'opposer une grande résistance. De petites fusillades ont lieu dans tout le pays, mais au final, le coup d'État est exécuté sans faire couler beaucoup de sang.\n\nSe proclamant président de la nation, Figueres Ferrer a pris le contrôle de la situation et a déjà annoncé des changements radicaux."
  cos.103.a: "Figueres proclame la Junte."
 
- cos.106.t: "Les commerçants locaux signent un pacte avec Jimenez"
+ cos.106.t: "Les Commerçants Locaux Signent un Pacte avec Jimenez"
  cos.106.d: "Mécontents des nouvelles mesures d'austérité que Cortes a annoncées pour son second mandat, les commerçants de Cartago se sont ralliés à la bannière de Jiminez qui leur a promis des réductions d'impôts et d'autres avantages s'il devenait le prochain président. Cela constitue une énorme épine dans notre pied, car la plupart de nos soutiens proviennent de ces membres de la classe moyenne."
  cos.106.a: "Qu'ils aillent se faire voir !"
  cos.106.b: "Laissez-moi voir comment je peux adoucir l'affaire..."
 
- cos.107.t: "Un ouragan détruit les Plantations Limon"
+ cos.107.t: "Un Ouragan Détruit les Plantations Limon"
  cos.107.d: " Déjà aux prises avec la réduction de la demande de bananes aux États-Unis et les conditions imposées par la convention collective, les plantations de bananes de l'UFC dans la région de Limon ont été frappées par un ouragan dévastateur qui a fait 10 victimes et a détruit une grande partie des champs. Les porte-parole locaux du PVP sont rapidement arrivés sur les lieux et ont rallié la population contre nous, en clamant que le gouvernement ne fait rien pour aider les travailleurs en difficulté."
  cos.107.a: "Je ne contrôle pas Mère Nature !"
  cos.107.b: "Détourner d'autres fonds pour aider la population locale."
 
- cos.108.t: "Une proposition intéressante..."
+ cos.108.t: "Une Proposition Intéressante..."
  cos.108.d: "Ricardo Jiminez et sa campagne ne cessent de voler des électeurs à notre camp et de porter atteinte au pouvoir global du Parti Républicain conservateur. Comme nous partageons la même base d'électeurs, cela est particulièrement dommageable et risque de renforcer le pouvoir des syndicalistes déjà en hausse. Le chef de la police de San Jose a donc proposé l'aide de ses hommes pour s'attaquer au problème. En envoyant des équipes d'intervention cibler ses rassemblements, il espère effrayer Jiminez et mettre un terme à sa campagne."
  cos.108.a: "Vous avez ma bénédiction."
  cos.108.b: "Nous ne descendrons pas si bas !"
 
- cos.109.t: "Jiminez se retire de la course"
+ cos.109.t: "Jiminez se Retire de la Course"
  cos.109.d: "La violence policière constante et le ciblage de ses partisans ont finalement poussé Jimenez à bout. Affirmant qu'il ne participera pas à une élection dirigée par un escroc qui ne recule pas devant la violence, l'ex-président mécontent a arrêté sa campagne et a supplié ses électeurs de voter pour n'importe qui d'autre que Cortes (et Mora bien sûr)."
  cos.109.a: "Bon débarras !"
 
@@ -1035,30 +950,16 @@ cos.67.d: ""
  cos.110.d: "Ralliée par Mora, le PVP et le Congrès des Travailleurs de l'Atlantique, une autre plantation a cessé le travail, exigeant que le gouvernement intervienne et impose ses exigences aux propriétaires des plantations. Alors que le message du PVP continue de gagner en popularité dans les campagnes, beaucoup craignent que le Costa Rica ne tombe lui aussi sous le coup de la révolution."
  cos.110.a: "C'est parti !"
 
- cos.111.t: "Le Costa Rica proclame la victoire"
- cos.111.d: "Nous nous sommes battus au mieux de nos capacités, mais l'armée costaricienne s'est avérée trop forte pour que nous puissions la vaincre, ce qui a entraîné la fin de notre régime."
- cos.111.a: "La démocratie a été restaurée !"
-
- cos.112.t: "[From.GetNameDefCap] est tombé."
- cos.112.d: "Alors que nos forces défilent dans leur capitale et que le peuple de [From.GetNameDef] réalise que les combats sont terminés, nous pouvons fièrement proclamer que la démocratie a été restaurée dans une autre nation, ce qui nous rapproche un peu plus de notre rêve d'une Caraïbe totalement démocratique."
- cos.112.a: "Longue vie à Don Pepe !\"
-
  cos.113.t: "Crise en Amérique Centrale"
  cos.113.d: "Dans une tentative pour empêcher la dictature d'envahir la région, le caudillo costaricien José Figueres Ferrer a annoncé sa croisade pour libérer le peuple de la CAR de l'oppression et restaurer la liberté et la démocratie. Les deux parties impliquées étant nos alliés, elles attendent avec impatience de voir comment nous allons réagir si nous le souhaitons."
  cos.113.a: "Rester neutre dans cette crise"
  cos.113.b: "Soutenir le Costa Rica et à "Don Pepe"."
  cos.113.c: "Soutenir à la République Centraméricaine."
 
- cos.114.t: "Chute de l'Amérique Centrale !"
- cos.114.d: "Contre toute attente, notre petite nation a sauvé le peuple d'Amérique centrale. Alors que les dictateurs du Nord sont contraints de déposer les armes après avoir subi une défaite catastrophique de notre part, rien ne semble pouvoir s'opposer à l'avènement d'une Caraïbe libre et démocratique. Longue vie à Don Pepe !"
- cos.114.a: "Libérer les nations individuelles et les inviter à l'Alliance des Caraïbes."
- cos.114.b: "Unir l'Amérique Centrale sous une Gouvernance Démocratique."
-
  cos.117.t: "Victoire dans la Guerre de Coto !"
  cos.117.d: "Les Panaméens ont une fois de plus été chassés de nos terres et l'intégrité de notre nation préservée. Avec la pression internationale pour suivre cette fois la décision de Fallo Blanco, le Panama n'a pas d'autre choix que de renoncer à tout jamais à ses revendications sur la région."
  cos.117.a: "Longue Vie au Costa Rica."
 
- cos.118.t: "Victoire dans la Guerre de Coto !"
  cos.118.d: "Il a fallu du sang, de la sueur et des larmes, mais nous pouvons enfin proclamer fièrement que Coto est de nouveau sous notre contrôle. Si la communauté internationale nous regarde de haut pour avoir refusé une résolution pacifique, elle n'a aucune envie d'intervenir une seconde fois, laissant le Costa Rica à notre merci."
  cos.118.a: "Longue Vie au Panama"
 
@@ -1075,11 +976,11 @@ cos.67.d: ""
  cos.122.d: "Bien qu'il soit souvent critiqué pour sa dureté ou sa sévérité dans les punitions, le gouvernement de [COS.GetLeader] s'est profilé comme un gouvernement d'ordre, de discipline et de stricte ponctualité. Promouvant vigoureusement l'honnêteté et l'efficacité des employés publics, Castro lui-même a été vu plus d'une fois en train de patrouiller dans les bureaux du gouvernement tôt le matin pour inspecter la ponctualité et l'assiduité de ses employés. S'il constate que l'un de ses subordonnés se relâche ou accepte des pots-de-vin, il lui est immédiatement demandé de démissionner, quelle que soit son affiliation politique.\n\nBien que cette politique ait suscité l'hostilité de nombreux anciens amis de Castro, l'homme du peuple le félicite pour avoir combattu la corruption et rendu l'État plus efficace."
  cos.122.a: "La discipline est la clé d'une bonne société de travail."
 
-cos.123.t: ""Mamita Yunai""
+ cos.123.t: ""Mamita Yunai""
  cos.123.d: "Écrit par le célèbre leader du Congrès des Travailleurs de l'Atlantique, Carlos Luis Fallas, le roman "Mamita Yunai" a été très bien accueilli par la classe ouvrière et a été salué comme l'une des plus grandes œuvres littéraires de l'histoire du Costa Rica.\n\nLe roman raconte l'histoire d'un homme du nom de José Francisco Sibaja, militant du Bloc Ouvrier et Paysan, qui est envoyé par son parti pour contrôler un vote à Talamanca, connu pour être frauduleux. Voyageant dans l'une des dernières zones peuplées d'Indiens, où l'on ne parle presque pas l'espagnol, cette première partie, raconte les vicissitudes par lesquelles Sibajita passe pour trouver le bureau de vote et l'atteindre, malgré les obstacles mis par les autorités locales. Le militant comprend son impuissance et tente au moins de réduire considérablement l'ampleur de la fraude. Il y parvient partiellement en convainquant le chef de la police et les représentants locaux. En fin de compte, son effort s'avère n'être qu'une goutte d'eau dans la mer et il retourne à Limon, satisfait de son succès et inconscient du peu d'impact de ses actions.\n\nDécrivant avec force détails la pauvreté et la dureté de la vie des Indiens qu'il rencontre, ce récit se veut choquant et révélateur pour l'establishment en place et pour montrer aux gens le peu d'impact de leurs actions."
  cos.123.a: "C'est tout de même un bon roman."
 
- cos.124.t: ""Don Pepe" dissout l'armée."
+ cos.124.t: ""Don Pepe" Dissout l'Armée."
  cos.124.d: "Lors d'une cérémonie au Cuartel Bellavista plus tôt aujourd'hui, le président José Figueres Ferrer a officiellement proclamé la fin de l'esprit militaire du Costa Rica en brisant symboliquement l'un des murs de la citadelle avec un maillet.\n\nComme le stipule l'Article 12 de la Constitution, les forces armées sont dissoutes et remplacées par les forces de police, la Garde Nationale. L'ensemble du budget qui était auparavant consacré à l'armée a été réorienté vers des projets éducatifs et culturels, comme le symbolise la décision du gouvernement de transformer la forteresse en Musée National du Costa Rica."
  cos.124.a: "Vive le Costa Rica !"
 
@@ -1088,13 +989,9 @@ cos.123.t: ""Mamita Yunai""
  cos.125.a: "Au Costa Rica, nous terrorisons les terroristes !"
 
  cos.126.t: "Une Proposition Intéressante"
- cos.126.d: "Afin d'assurer la sécurité des démocraties de toute l'Amérique latine, la nation du Costa Rica a créé l'Alliance Démocratique des Caraïbes, promouvant une coopération pacifique et un pacte de défense mutuelle pour toutes les nations de la région. En raison de nos liens étroits dans le passé et de notre gouvernement démocratique, ils nous ont invités en tant que membre honoraire et seraient très heureux si nous acceptions."
+ cos.126.d: "Afin d'assurer la sécurité des démocraties de toute l'Amérique latine, la nation du [FROM.GetName] a créé l'Alliance Démocratique des Caraïbes, promouvant une coopération pacifique et un pacte de défense mutuelle pour toutes les nations de la région. En raison de nos liens étroits dans le passé et de notre gouvernement démocratique, ils nous ont invités en tant que membre honoraire et seraient très heureux si nous acceptions."
  cos.126.a: "Bien sûr, nous nous joindrons à vous !"
  cos.126.b: "Costa quoi ?"
-
- cos.127.t: "[FROM.GetName] Refuse"
- cos.127.d: "[FROM.GetName] a refusé notre offre d'alliance."
- cos.127.a: "Ils ne savent vraiment pas quand abandonner,\nn'est-ce pas ?"
 
  cos.128.t: "Crise sur le Canal"
  cos.128.d: "Alors que la Guerre Civile Américaine a finalement commencé à s'enliser, les Canadiens ont osé exécuter un coup de force dans la zone du canal. Les Panaméens, cependant, étaient préparés et ont saisi le canal pour eux-mêmes, affirmant qu'il a toujours fait partie du Panama et qu'il le restera à jamais.\n\nCela nous place dans une position intéressante, car nous pouvons fournir aux Canadiens le terrain idéal pour débarquer des forces et prendre le contrôle du Panama par voie terrestre, ce qui pourrait nous garantir la protection canadienne si le besoin s'en faisait sentir à l'avenir."
@@ -1106,13 +1003,56 @@ cos.123.t: ""Mamita Yunai""
  cos.129.a: "Nous acceptons !"
  cos.129.b: "Nous n'avons pas besoin d'une autre responsabilité dans notre alliance."
 
- cos.130.t: "Le Canada accepte !"
+ cos.130.t: "Le Canada Accepte !"
  cos.130.d: "L'heure de la guerre a finalement sonné alors que les premières bottes canadiennes débarquent à Puerto Limon, prêtes à s'imposer dans le cœur des Panaméens, à s'emparer du canal et à déposer leur gouvernement avec une force implacable. Le Britannia a subi suffisamment d'humiliations et la défaite du Panama n'en fera pas partie. Accompagnés d'éclaireurs costariciens et d'un petit détachement de 50 de nos meilleurs soldats, nous ne pouvons qu'espérer qu'ils réussissent dans leur aventure."
  cos.130.a: "En Avant!"
 
- cos.131.t: "Le Canada refuse !"
+ cos.131.t: "Le Canada Refuse !"
  cos.131.d: "À notre grande surprise, le gouvernement canadien a poliment refusé notre offre, très probablement par crainte de devoir nous défendre le moment venu."
  cos.131.a: "Au moins, on a essayé."
+
+ cos.132.t: "Formation de l'Alliance Démocratique des Caraïbes"
+ cos.132.d: "Notre pays ayant été sauvé de la tyrannie par le Caudillo Figueres Ferrer, une nouvelle vague d'espoir pour la liberté et la démocratie s'est manifestée.\nCe nouvel esprit de combat pour les pays plus défavorisés toujours oppressés par des dictateurs a eu pour résultat la proclamation de l'Alliance Démocratique des Caraïbes, une alliance ouverte à toutes les démocraties des Caraïbes, ainsi qu'au Salvador et à l'Équateur. Ses buts fondamentaux seront de renforcer la démocratie dans la région et d'agir d'un seul bloc pour la défense de nos intérêts économiques, militaires et politiques communs.\nUn de ses buts immédiats est la création d'une Fédération Centraméricaine démocratique, unissant les cinq républiques pour utiliser leurs forces combinées pour faire des objectifs de l'alliance une réalité."
+ cos.132.a: "Pour un avenir meilleur en Amérique centrale !"
+
+ cos.133.t: "Invitation au Bloc Économique"
+ cos.133.d: "Nos alliés [FROM.GetAdjetive] ont proposé un bloc économique pour renforcer l'économie des membres de l'alliance."
+ cos.133.a: "Nous apprécions la solidarité."
+
+ cos.134.t: "[FROM.GetName] nous Offre une Invitation à l'Alliance Démocratique des Caraïbes"
+ cos.134.d: "[FROM.GetName] nous a offert une invitation à leur faction, prétendant que notre alliance actuelle avec la Colombie se dégradera avec le temps en assujettissement et qu'ils ne cherchent que le bien pour notre démocratie et notre souveraineté.\n\nBien que ce soit une opinion très alarmiste, il est vrai qu'il y a un déséquilibre de puissance entre nous et la Colombie, mais leur force est aussi bénéfique parce qu'elle aide à décourager les attaques contre nous. Devrions-nous accepter cette offre ?"
+ cos.134.a: "Notre destin se trouve dans les Caraïbes."
+ cos.134.b: "Les Colombiens offriront une meilleure protection."
+
+ cos.135.t: "Activité Suspecte en Provenance du Panama"
+ cos.135.d: "Nous avons reçu des nouvelles d'une réunion entre le Panama et [FROM.FROM.GetName], discutant d'un départ potentiel du Panama de notre alliance par peur d'assujettissement. Il s'agit d'une manœuvre évidente de [FROM.FROM.GetName] pour sortir le Panama de l'Alliance, mais montrer patte blanche pourrait empêcher cette méfiance de dégénérer."
+ cos.135.a: "Il n'y a pas lieu de s'inquiéter."
+ cos.135.b: "Rassurons notre allié sur nos véritables intentions"
+
+ cos.136.t: "Le Panama s'aligne sur nous"
+ cos.136.d: "Le Panama a entendu raison et a décidé de se joindre à nous."
+ cos.136.a: "Un autre allié de la cause démocratique."
+
+ cos.137.t: "Le Panama décline notre offre"
+ cos.137.d: "Le Panama a décidé de rester dans le pacte andin."
+ cos.137.a: "Espérons le meilleur pour eux."
+
+ cos.138.t: "Une Union d'Alliances ?"
+ cos.138.d: "[FROM.GetName] est venu aujourd'hui pour régler nos problèmes concernant nos intérêts communs pour la région du Panama. Leur solution impliquerait d'unir les deux alliances pour partager une position si importante.\nIls soutiennent également qu'unir nos forces aiderait à mieux se défendre contre toute menace et donnerait des bénéfices à nos économies, mais il est indéniable que cela se ferait au prix de notre aide dans leur croisade contre les dictatures et de notre abandon de nos membres non-démocratiques."
+ cos.138.a: "L'unité apportera la prospérité et la sécurité à tous."
+ cos.138.b: "Nous sommes mieux seuls."
+
+ cos.139.t: "Unification avec le Costa Rica"
+ cos.139.d: "Le gouvernement costaricien nous a surpris en annonçant aujourd'hui leur intention de rejoindre notre pays dans l'espoir de créer une union plus forte et d'implémenter le cadre démocratique de leur pays dans la Fédération, pour éviter les problèmes qui ont fait échouer sa prédécesseure.\n\nÉvidemment, nous ne rejetterons pas un tel accord et travaillerons à rendre l'union aussi facile et rapide que possible pour que les cinq républiques soit enfin unies sous la bannière de la Fédération."
+ cos.139.a: "La Fédération enfin réunie."
+
+ cos.140.t: "Établir des liens plus étroits avec l'Amérique Centrale"
+ cos.140.d_level_1: "Comme première étape dans le rapprochement de nos pays, [FROM.GetLeader] a suggéré la réduction du nombre de notre personnel militaire puisqu'ils sont mieux adaptés à prendre en charge la sécurité.\nCela changerait peu notre situation actuelle car notre armée est déjà réduite comparée à la leur.\n\nMais ils ont également demandé la censure de tous les journaux publiant de la propagande anti-unification pour, selon eux, éviter que ces idées ne se transforment en rébellions et en manifestations."
+ cos.140.d_level_2: "Une autre réunion s'est tenue aujourd'hui à propos de la consolidation des liens, au cours de laquelle le gouvernement centraméricain a offert d'investir dans notre secteur industriel pour réduire la part de contrôle que les compagnies étrangères ont dans notre pays.\nMais nos experts ont constaté que cela reviendrait à leur transférer ce contrôle alors qu'aucune promesse concernant le contrôle des terres et des usines n'a été faite, à part celle de nous redonner une bonne part des profits.\nIl n'y a pas beaucoup d'opposants connaissant l'objectif final de la négociation, mais les quelques personnes qui résistent encore considèrent qu'il s'agit de notre dernière chance de maintenir notre souveraineté."
+ cos.140.d_level_3: "Lors de la réunion d'aujourd'hui, nous avons été surpris par "l'offre" de l'Amérique Centrale de prendre en charge la plupart de nos affaires étrangères pour nous préparer à la future intégration dans l'union.\nCeci étant notre dernière chance de refuser, beaucoup de fonctionnaires menacent de démissionner si nous acceptons cet accord."
+ cos.140.d_final: "Notre dernière réunion se tient alors que le dernier document est achevé pour que notre gouvernement devienne un gouvernement régional et que les cinq républiques soient enfin réunies sous une seule et même bannière."
+ cos.140.a: "Des relations plus étroites profiteront aux deux parties."
+ cos.140.b:0 "Ceci est inacceptable"
 
 ### Characters ###
  COS_manuel_mora_valverde: "Manuel Mora Valverde"

@@ -99,8 +99,6 @@ AUS_unlock_daimler: "Débloque la Compagnie §YAustro Daimler§W .\n"
 AUS_unlock_skoda: "Débloque la Compagnie §YŠkoda§W .\n"
 AUS_italy_friend: "Nous avons décidé de nous lier d'amitié avec les Italiens et ils ont acceptés"
 AUS_italy_force: "L'Italie n'a pas acceptée nos avances"
-AUS_italy_bond: "Amitié Austro-Italienne"
-AUS_italy_rival: "Rivalité Austro-Italienne"
 AUS_not_fully_implemented: "§RCette branche n'a pas été implémentée. A utiliser avec prudence.§W\n\n"
 AUS_unlock_phoenix: "Débloque la Compagnie aérienne §YPhönix§! .\n"
 AUS_unlock_bayer: "Débloque la Compagnie Synthétique §YBayer§! .\n"
@@ -110,6 +108,10 @@ AUS_ausgleich_kingdoms: "Tous les Royaumes sont invités aux Ausgleich"
 AUS_ausgleich_peoples: "Toutes les nationalités sont accueillies aux Ausgleich"
 
  AUS_will_not_get_puppet_divisions: "§CToutes les divisions seront §Rdissoutes§!, mais nous hériterons de leur équipement et de leurs effectifs.§!"
+
+### Opinion Modifiers ###
+AUS_italy_bond: "Amitié Austro-Italienne"
+AUS_italy_rival: "Rivalité Austro-Italienne"
 
 ### Companies ###
  austria_montage: "Oesterreichisch-Alpine Montangesellschaft"
@@ -691,8 +693,8 @@ AUS_potb_invite_bulgaria: "De vieux amis en Bulgarie"
 AUS_potb_invite_bulgaria_desc: "La Bulgarie a été un allié essentiel pendant la Weltkrieg, nous aidant à contenir les ambitions excessives des Serbes - du moins le pensions nous. La dissolution des pouvoirs centraux après la guerre a permis aux Serbes perfides d'échapper à notre emprise. Une fois de plus, la Bulgarie est la clé du rétablissement de la paix et de la stabilité dans les Balkans une fois pour toutes"
 
 ### Parties ###
-AUS_totalist_party: "TVK"
-AUS_totalist_party_long: "Totalitäres Volkskonzil"
+ AUS_totalist_party:0 "SAR"
+ AUS_totalist_party_long:0 "Sozialistischer Arbeiterrat"
 AUS_syndicalist_party: "SAR"
 AUS_syndicalist_party_long: "Sozialistischer Arbeiterrat"
 AUS_radical_socialist_party: "ASP"
@@ -742,6 +744,10 @@ austria.3.a: "Vive le Kaiser Otto !"
  austria.4.t: "Emil Freiherr von Škoda Passes Away"
  austria.4.d: "Le petit-fils de l'illustre fondateur du conglomérat Škoda est décédé aujourd'hui d'une insuffisance cardiaque.\n\nEmil von Škoda, qui porte le même nom que le fondateur de l'entreprise, a succédé à son père, Karl, à la tête de l'entreprise en 1929. Alors que son grand-père a fondé l'entreprise et l'a fait monter en flèche, Karl l'a dirigée pendant la Weltkrieg, atteignant des sommets encore plus élevés. En revanche, Karl n'a jamais atteint la même popularité que le fondateur, traitant souvent mal ses employés tchèques. Emil ne pouvait pas être plus différent à cet égard ; parlant parfaitement le tchèque, il sympathisait souvent avec ses employés et pouvait leur parler sans problème. En outre, il a dirigé l'entreprise lors de certaines de ses plus grandes difficultés, comme la crise du Creditanstalt et le Lundi Noir.\n\nHélas, avec son décès et celui de son jeune frère en début d'année, la lignée masculine de la famille Škoda s'éteint avec lui. Alors que l'immense fortune de la famille sera partagée entre sa jeune sœur Hedwig et la matriarche de la famille, Hermine, la direction de l'entreprise s'éloignera probablement de leur direction. Les Škoda, en revanche, ne vont certainement pas disparaître et continueront à vivre en tant que titans de l'industrie de l'armement.\n\nLa direction de facto de l'industrie autrichienne s'est déplacée vers la Fédération des industries autrichiennes et son fondateur, Hans Lauda, qui dirige actuellement la société Veitscher."
  austria.4.a: "Leur ligne se termine, mais leur nom continue."
+
+ austria.5.t:0 "Alamut - le nouveau livre de Vladimir Bartol"
+ austria.5.d:0 "Les Slovènes sont l'une des minorités dont on parle le moins de notre Empire, même si, après des siècles d'appartenance, ils sont restés fidèles à leur propre langue et culture. Le plus récent best-seller dans les territoires de langue slovène, écrit par Bartol, est une histoire de luttes turques et persanes pour contrôler la forteresse d'Alamut. L'action se déroule au XIe siècle, lorsque les Turcs Seldjoukides ont commencé à s'étendre en Asie Mineure. Il est à soupçonner que le livre sera traduit en allemand et dans d'autres langues dans un avenir proche."
+ austria.5.a:0 "Grandiose ! "
 
 aus.elections.1.t: "Élections autrichiennes de 1936"
 aus.elections.1.d: "Depuis le début de la fédéralisation et le fait que les "élections autrichiennes" ont été principalement réduites à la partie germanophone de l'Empire, deux grands partis ont dominé la politique autrichienne : le CS et le SDAP. Le programme du SDAP se concentre sur l'allègement de la situation des travailleurs, en mettant l'accent sur les allocations de chômage et l'intervention du gouvernement. La CS, en revanche, suit un programme de mesures d'austérité sévères"
@@ -1438,9 +1444,9 @@ AUS_radical_socialist_DEF: "la République d'Autriche"
 ### Characters ###
 
  AUS_alfred_klahr: "Alfred Klahr"
- AUS_pierre_ramus: "Pierre Ramus"
  AUS_friedrich_adler: "Friedrich Adler"
  AUS_karl_renner: "Karl Renner"
+ AUS_gustav_stolper: "Gustav Stolper"
  AUS_wilhelm_miklas: "Wilhelm Miklas"
  AUS_franz_dinghofer: "Franz Dinghofer"
 
