@@ -32,8 +32,8 @@
  KR_welcome_splash_tab_3_content_0: "Kaiserreich impose des restrictions sur les actions diplomatiques telles que les §RGuerres Précoces§!, les §RFactions§! et les §RNiveaux d'Autonomie§!.\nKaiserreich inclut également des §CLimites de Division§! et un mécanisme de §CDémobilisation§! pour améliorer la jouabilité en fin de partie.\nPendant les §YConférences de Paix§!, assurez-vous d'annexer tous les États possibles. Plus tard, vous pourrez libérer les pays des territoires annexés grâce aux §Cdécisions§!.\nLe menu de configuration des §YRègles de Jeu Personnalisées§! vous permet d'ajuster de nombreuses options, notamment les §CChemins de Pays§!, la §CPrimauté du Joueur pendant les Conférences de Paix§! et l'outil de §CTransfert d'États et de Pays§!.\nLe £kr_options_icon §YMenu d'Options§! peut être ouvert en cliquant sur son icône en haut à droite. Il vous permet d'ajuster la §Cfréquence des événements§! et d'activer le §Crenommage dynamique§! des états et des points de victoire."
 
  ## TAB 4 ##
- KR_CURRENT_VERSION: "1.2"
- KR_CURRENT_VERSION_NAME: "Pour le Mérite"
+ KR_CURRENT_VERSION: "1.3"
+ KR_CURRENT_VERSION_NAME: "Amid Blue-Coloured Seas"
  KR_CURRENT_VERSION_COMBINED: "Kaiserreich $KR_CURRENT_VERSION$ "$KR_CURRENT_VERSION_NAME$""
  KR_welcome_splash_tab_4_upper_header: "§YWelcome to $KR_CURRENT_VERSION_COMBINED$§!"
  KR_welcome_splash_tab_4_lower_header: "§YRéalisé avec amour par l'équipe Kaiserreich :§!"
@@ -42,7 +42,7 @@
  KR_welcome_splash_tab_4_content_0: "Notre équipe a travaillé dur aux quatre coins du monde pour vous offrir cette nouvelle version et nous ne pourrions être plus honorés que vous choisissiez d'y jouer.\nNous espérons que vous prendrez autant de plaisir à jouer à Kaiserreich que nous en avons pris à le créer !"
  KR_welcome_splash_tab_4_content_1: "Alpinia, Angel, Arvidus, Augenis, Blackfalcon501, Blackleaf, Carmain, Cassrabbit, Cazadorian, Chazem"
  KR_welcome_splash_tab_4_content_2: "Chiang Kai-shrek, Chiron29, ClawedAsh, Cody, DerEherneRächer, DuoDex, El Daddy, falling_robin, Fedex"
- KR_welcome_splash_tab_4_content_3: "Flamefang, Frill Shark, Gaboemi, Hamfast, Hazo, hildagrim, Ido, Igor050301, JazzyHugh, Jeankedezeehond"
+ KR_welcome_splash_tab_4_content_3: "Flamefang, Frill Shark, Gaboemi, Hamfast, Hazo, Ido, Igor050301, JazzyHugh, Jeankedezeehond"
  KR_welcome_splash_tab_4_content_4: "Jonny BL, Kano, katieluka, kergely, KFateweaver, Klyntar King, Krčo, lehmannmo, Luwofe, Matoro, McOmghall"
  KR_welcome_splash_tab_4_content_5: "MrMano, ~mw~ // miwaco., Noot, Pelmen, PPsyrius, Purple Jinjo, Remington, Rnk, Tune, Shiroe"
  KR_welcome_splash_tab_4_content_6: "Shōta, Sonny O'Cad, SuperGreenBeans, suzuha, The Alpha Dog, The Irredentista, The Italian Jojo"
@@ -427,6 +427,8 @@ FROM_becomes_nominal_puppet: "§H[From.GetNameDefCap]§! devient un §HFantôche
  NAME_THEME_STATES_CITIES: "États et Villes"
  NAME_THEME_GENERALS: "Généraux"
  NAME_THEME_CALIPHS: "Califes"
+ NAME_THEME_MONARCHS: "Monarques"
+ NAME_THEME_FAMOUS_PEOPLE: "Personnalités Notables"
 
 ### Second in Command ###
  second_in_command_slot: "Commandant en second"
@@ -766,6 +768,11 @@ tech_integrated_specialists: "Forces spéciales intégrées"
  tech_river_boats_effect: "Active §H$tech_river_boats$§!\n$tech_river_boats_effect_tooltip$"
  tech_river_boats_effect_tooltip: "§Y$category_all_infantry$§!:\n   $STAT_ADJUSTER_MOVEMENT$[?0.1|=+%0]\n   $STAT_ADJUSTER_ATTACK$[?0.1|=+%0]\n   $STAT_ADJUSTER_DEFENCE$[?0.05|=+%0]"
  tech_river_boats_modifier_tooltip: "§Y$category_all_infantry$§!: $STAT_ADJUSTER_MOVEMENT$[?0.1|=+%0], $STAT_ADJUSTER_ATTACK$[?0.1|=+%0], $STAT_ADJUSTER_DEFENCE$[?0.05|=+%0]"
+
+ tech_armored_car_spearhead: "Véhicule Blindé Fer de Lance"
+ tech_armored_car_spearhead_effect: "Active §H$tech_armored_car_spearhead$\n$tech_armored_car_spearhead_effect_tooltip$"
+ tech_armored_car_spearhead_effect_tooltip: "§Y$armored_car$§!\n   $STAT_COMMON_MAX_ORG$: [?10|=+1]\n   $STAT_ARMY_DEFAULT_MORALE$: [?0.1|=+1]\n   $STAT_ADJUSTER_MOVEMENT$: [?0.2|=+%0]"
+ tech_armored_car_spearhead_modifier_tooltip: "§Y$armored_car$§!: $STAT_COMMON_MAX_ORG$: [?10|=+1], $STAT_ARMY_DEFAULT_MORALE$: [?0.1|=+1], $STAT_ADJUSTER_MOVEMENT$: [?0.2|=+%0]"
 
  ### Units ###
  assault_battalion: "$blackshirt_assault_battalion$"
