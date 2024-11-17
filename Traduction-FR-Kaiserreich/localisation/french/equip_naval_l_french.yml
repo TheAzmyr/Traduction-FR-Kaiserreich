@@ -5,6 +5,25 @@
  submarine_2: "Sous-marin amélioré"
  submarine_3: "Sous-marin avancé"
  submarine_4: "Sous-marin moderne"
+
+ cruiser_submarine:9 "$ship_hull_cruiser_submarine$"
+ cruiser_submarine_desc:9 "$ship_hull_cruiser_submarine_desc$"
+
+ fleet_submarine:9 "$ship_hull_fleet_submarine$"
+ fleet_submarine_desc:9 "$ship_hull_fleet_submarine_desc$"
+
+ midget_submarine:9 "$ship_hull_midget_submarine$"
+ midget_submarine_desc:9 "$ship_hull_midget_submarine_desc$"
+
+ rocket_submarine:9 "Sous-marin lanceur de missiles"
+ rocket_submarine_desc:9 "Une nouvelle génération de sous-marins, équipés de missiles et de systèmes de lancement, nous permettant de frapper à l'improviste les cibles stratégiques de nos ennemis."
+
+ nuclear_submarine:9 "$ship_hull_nuclear_submarine$"
+ nuclear_submarine_desc:9 "$ship_hull_nuclear_submarine_desc$"
+
+ nuclear_missile_submarine:9 "Sous-marin à missiles nucléaires"
+ nuclear_missile_submarine_desc:9 "Des sous-marins capables de transporter et de lancer des missiles nucléaires contre nos cibles. Ils peuvent vraiment être la mort, les destructeurs de mondes - et nous ne les verrons même pas arriver."
+
  submarine_1_desc: "Premiers navires de guerre submersibles réellement capables de mener des actions de combat efficaces, ces modèles constituent des améliorations significatives par rapport à leurs prédécesseurs. Les moteurs diesel-électriques remplaçant les moteurs principalement à essence-électriques des premiers sous-marins, ils ont une autonomie et une vitesse de surface nettement supérieures à celles de leurs prédécesseurs. Dans les combats avec les navires de guerre ennemis, ils agissent principalement comme des torpilleurs légers submersibles, mais n'ont pas la vitesse d'immersion ou l'endurance nécessaire pour rester sous l'eau plus longtemps que pendant des périodes relativement brèves. Ce sont ces sous-marins qui ont été utilisés par les principales puissances navales pendant la Weltkrieg."
  submarine_2_desc: "Évolution des premiers modèles de sous-marins, certains de ces navires de guerre ont poussé plus loin les idées des sous-marins "croiseurs", avec des canons plus gros et une plus grande importance accordée aux capacités de surface, tandis que d'autres ont regardé dans l'autre direction, en cherchant à augmenter les capacités et les performances sous l'eau."
  submarine_3_desc: "Les progrès réalisés par certaines conceptions antérieures dans l'extension de la portée, de la vitesse et des capacités générales sous l'eau ont conduit à l'abandon des types de croiseurs au profit de navires mettant davantage l'accent sur les capacités sous-marines. Vraiment améliorés par rapport aux types précédents, ces sous-marins transportaient de puissantes charges utiles de torpilles et constituaient une menace légitime pour presque tous les navires de surface. Cependant, ils étaient encore limités en durée, portée et vitesse de submersion et restaient vulnérables lorsqu'ils faisaient surface, en particulier aux avions."
@@ -31,8 +50,10 @@
  light_cruiser_2: "Croiseur Léger Amélioré"
  light_cruiser_3: "Croiseur Léger Avancé"
  light_cruiser_4: "Croiseur Léger Moderne"
- torpedo_cruiser: "Croiseur-torpilleur"
- torpedo_cruiser_desc: "Basés sur la doctrine de la Jeune École, selon laquelle de petits navires de guerre armés de torpilles pouvaient vaincre efficacement et à peu de frais des cuirassés beaucoup plus grands, ces croiseurs sont principalement armés de torpilles. La plupart des croiseurs torpilleurs sont tombés en disgrâce dans la plupart des marines dans les années 1890, bien que de nombreuses autres marines aient continué à en acquérir au début des années 1900. Les croiseurs lance-torpilles modernes sont conçus pour utiliser des torpilles que les sous-marins ne peuvent pas transporter."
+
+ torpedo_cruiser:9 "Croiseur-torpilleur"
+ torpedo_cruiser_desc:9 "Basés sur la doctrine de la Jeune École, selon laquelle de petits navires de guerre armés de torpilles pouvaient vaincre efficacement et à peu de frais des cuirassés beaucoup plus grands, ces croiseurs sont principalement armés de torpilles. La plupart des croiseurs torpilleurs sont tombés en disgrâce dans la plupart des marines dans les années 1890, bien que de nombreuses autres marines aient continué à en acquérir au début des années 1900. Les croiseurs lance-torpilles modernes sont conçus pour utiliser des torpilles que les sous-marins ne peuvent pas transporter."
+
  light_cruiser_1_desc: "Un blindage de meilleure qualité et la mise au point de moteurs à turbine à vapeur ont conduit à l'apparition de croiseurs blindés légers. Plus rapides et mieux protégés que les croiseurs protégés, ces modèles ont fini par les supplanter dans les années 1910. Bien que plus légers et plus petits que les autres navires contemporains, ils restent de véritables croiseurs, conservant un rayon d'action étendu et l'autonomie nécessaire pour agir de manière indépendante dans le monde entier."
  light_cruiser_2_desc: "La période de l'entre-deux-guerres a été marquée par le perfectionnement des grands croiseurs apparus depuis la course au dreadnought. La politique et les finances étant toujours des contraintes pour de nombreuses puissances navales, les modèles produits ne sont que légèrement plus grands que ceux de la génération précédente. Leur puissance de feu est améliorée par l'utilisation de canons plus gros ou par l'adoption croissante de tourelles triples et de tubes lance-torpilles quadruples. L'importance croissante de l'aviation dans la guerre navale a également conduit à l'adoption d'affûts à double usage à angle élevé, complétés par un nombre croissant d'autocanons."
  light_cruiser_3_desc: "Grâce à l'augmentation des fonds disponibles, les nouveaux croiseurs construits à la fin de l'entre-deux-guerres et au début de la Seconde Weltkrieg ont de nouveau vu leur taille légèrement augmenter. Si le calibre de l'armement principal est resté inchangé, à quelques exceptions près, la puissance de feu a été augmentée par l'ajout d'une tourelle supplémentaire ou l'augmentation du nombre de canons dans chaque tourelle. L'armement secondaire a été amélioré par l'ajout de canons jumelés à double usage et d'un armement antiaérien encore plus spécialisé, souvent associé à des commandes de tir améliorées. Cette génération a également vu l'adoption croissante de systèmes radar sur les croiseurs."
@@ -111,6 +132,9 @@ ship_hull_cruiser_4: "Coque de croiseur moderne"
  ship_hull_heavy_3: "Coque lourde avancée"
  ship_hull_heavy_4: "Coque lourde moderne"
 
+ ship_hull_heavy_modern:0 "Cuirassé moderne"
+ modern_battleship:9 "$ship_hull_heavy_modern$"
+
  ship_hull_carrier: "Porte-avions"
  ship_hull_carrier_desc: "Un navire capital capable d'acheminer des escadrilles de puissants avions jusqu'au théâtre des opérations. Il peut également faire office d'aérodrome flottant positionné au large des côtes ennemies."
  ship_hull_carrier_0: "Coque de Porte-Avions de la Weltkrieg"
@@ -121,14 +145,19 @@ ship_hull_carrier_1: "Coque de porte-avion améliorée"
 ship_hull_carrier_2: "Coque de porte-avion avancée"
 ship_hull_carrier_3: "Coque de porte-avion moderne"
 
+ ship_hull_carrier_modern:0 "Porte-avions moderne"
+ ship_hull_carrier_modern_desc:9 "Les porte-avions les plus grands et les plus avancés, capables d'utiliser les technologies, les équipements et les progrès les plus récents. Ils sont l'exemple même de l'armement de pointe."
+ modern_carrier:9 "$ship_hull_carrier_modern$"
+ modern_carrier_desc:9 "$ship_hull_carrier_modern_desc$"
+ mega_carrier:9 "$ship_hull_mega_carrier$"
+ mega_carrier_desc:9 "$ship_hull_mega_carrier_desc$"
+
  ship_hull_submarine: "Sous-marin"
  ship_hull_submarine_desc: "Bien éloignés de leurs prédécesseurs encore sommaires de la Grande Guerre, les navires modernes sont plus performants qu'ils ne l'ont jamais été et peuvent même menacer les navires les plus imposants pour un coût au final réduit."
 ship_hull_submarine_1: "Coque sous-marine de la Weltkrieg"
 ship_hull_submarine_2: "Coque sous-marine améliorée" #Late Interwar
 ship_hull_submarine_3: "Coque sous-marine avancée"
 ship_hull_submarine_4: "Coque sous-marine moderne"
-# Use the below custom_effect_tooltip when adding the Cruiser Submarine tech. The game is hardcoded to list Cruiser Submarines as Improved Submarine Hulls
- unlock_cruiser_submarine_tech: "Ajoute la technologie : §YCroiseur Sous-marin§!."
 
  ship_hull_pre_dreadnought: "Coque pré-dreadnought"
  ship_hull_pre_dreadnought_desc: "Suivant la conception de la classe Majestic britannique de la fin des années 1890, les cuirassés d'avant le Dreadnought ont remplacé les cuirassés à coque de fer des années 1870 et 1880. Construits en acier et protégés par un blindage en acier trempé, les cuirassés pré-dreadnought transportaient une batterie principale de canons très lourds en barbettes, soutenue par une ou plusieurs batteries secondaires d'armes plus légères.\n\nPuisque la conception du "Dreadnought" les a rendus obsolètes depuis avant la Weltkrieg, couplée à la montée gigantesque des conceptions basées sur le Dreadnought au cours des trois décennies précédentes, seuls quelques-uns d'entre eux sont encore en service."
@@ -137,12 +166,18 @@ ship_hull_submarine_4: "Coque sous-marine moderne"
  ship_hull_cruiser_coastal_defense_ship: "Navire de défense côtière"
  ship_hull_cruiser_coastal_defense_ship_desc: "Les navires de défense côtière étaient de petits navires de guerre, souvent de la taille d'un croiseur, qui sacrifiaient la vitesse et la portée au profit du blindage et de l'armement. Ils étaient généralement attractifs pour les nations qui ne pouvaient pas s'offrir de cuirassés de grande taille ou qui pouvaient se contenter de navires à faible tirant d'eau spécialement conçus pour les opérations côtières près de leurs propres côtes."
  ship_hull_torpedo_cruiser: "Croiseur-torpilleur"
- ship_hull_torpedo_cruiser_desc: "$torpedo_cruiser_desc$"
+ ship_hull_torpedo_cruiser_desc:0 "S'inspirant de la doctrine de la Jeune École, selon laquelle de petits navires de guerre armés de torpilles pouvaient vaincre efficacement et à moindre coût des cuirassés beaucoup plus imposants, ces croiseurs sont principalement armés de torpilles. La plupart des croiseurs torpilleurs sont tombés en disgrâce dans la plupart des marines dans les années 1890, bien que de nombreuses autres marines aient continué à en acquérir au début des années 1900. Les croiseurs lance-torpilles modernes sont conçus pour utiliser des torpilles que les sous-marins ne peuvent pas transporter."
  ship_hull_super_heavy_1: "Coque de dreadnought"
  ship_hull_cruiser_submarine: "Croiseur sous-marin"
  ship_hull_cruiser_submarine_desc: "Beaucoup plus grands que les sous-marins précédents, ces modèles sont de type "croiseur", conçus pour des opérations indépendantes à longue distance dans le cadre de raids commerciaux et destinés à être mieux équipés pour combattre les navires de guerre légers ennemis lorsqu'ils sont en surface. À ce titre, ils sont dotés d'un armement plus lourd et d'une vitesse de surface améliorée. Leurs capacités d'immersion restent toutefois limitées."
  ship_hull_midget_submarine: "Sous-marin de poche"
  ship_hull_midget_submarine_desc: "Un sous-marin de petite taille et manœuvré par un équipage réduit. Sa portée très courte et son armement limité sont compensés par un rythme de production élevé."
+ ship_hull_fleet_submarine:9 "Sous-marin de la flotte"
+ ship_hull_fleet_submarine_desc:9 "Les sous-marins qui, grâce à leur long rayon d'action, peuvent servir d'escorte et de soutien aux flottes de surface."
+ ship_hull_nuclear_submarine:9 "Sous-marin nucléaire"
+ ship_hull_nuclear_submarine_desc:9 "Grâce aux réacteurs nucléaires, nos sous-marins peuvent fonctionner très longtemps sous l'eau, tout en conservant une vitesse élevée, ce qui en fait un outil extrêmement meurtrier dans notre arsenal."
+ ship_hull_mega_carrier:9 "Porte-avions de glace"
+ ship_hull_mega_carrier_desc:9 "Porte-avions gigantesque, créé à partir de composites de glace expérimentaux tels que le Pykrete, qui permet à des avions réguliers d'opérer à partir de lui, augmentant ainsi le rayon d'action de notre aviation navale."
 
  screen_ship: "Navires d'escorte"
  capital_ship: "Navires capitaux"

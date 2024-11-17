@@ -89,7 +89,8 @@
  COS_UFC_plus_8: "L'influence de l'§YUFC§! augmente de £banana_texticon §R8%§!\n"
  COS_UFC_minus_3: "L'influence de l'§YUFC§! diminue de £banana_texticon §G3%§!\n"
  COS_UFC_minus_5: "L'influence de l'§YUFC§! diminue de £banana_texticon §G5%§!\n"
- COS_UFC_profic_increase: "Les profits de l'§YUFC§! augmentent de $RIGHT|G0$.\n\nModifie §Y$UFC_Profit_1_idea$§! par :\n$MODIFIER_CONSUMER_GOODS_FACTOR$ : §Y-§!$RIGHT|Y0%%1$"
+ COS_UFC_profic_increase_tt:9 "Les bénéfices de l'§YUFC§! augmente de §Y[?cos_profit_change]§!.\n\nModifie §Y$COS_UFC_Profit_idea$§! par :\n$MODIFIER_CONSUMER_GOODS_FACTOR$ : §Y[?COS_UFC_consumer_goods_tt|=%%]§!\n$MODIFIER_INDUSTRIAL_CAPACITY_FACTOR$ : §G[?COS_UFC_factory_output_tt|=%%]§!"
+ COS_UFC_profic_decrease_tt:9 "Les bénéfices de l'§YUFC§! diminue de §Y[?cos_profit_change]§!.\n\nModifie §Y$COS_UFC_Profit_idea$§! par :\n$MODIFIER_CONSUMER_GOODS_FACTOR$ : §Y[?COS_UFC_consumer_goods_tt|=%%]§!\n$MODIFIER_INDUSTRIAL_CAPACITY_FACTOR$ : §R[?COS_UFC_factory_output_tt|=%%]§!"
  COS_EXPANDING_OPERATIONS: "L'§YUFC§! étend ses activités"
 
  COS_ZKG_plus_3: "L'influence du §YZKG§! augmente de £coffee_texticon  §R3%§!\n "
@@ -174,7 +175,7 @@
  COS_Market_decisions_desc: "Alors que les nations du monde entier ont commencé à développer de manière drastique leur industrie de l'armement, sentant l'opportunité de faire des profits, nous avons les ressources nécessaires pour participer également à ce commerce.\n\nProfit de l'UFC : §Y[?COS.cos_profit_factor]§!\n"
 
  COS_Purchase_Convoys: "Acheter des Navires de Commerce"
- COS_Purchase_Weapons: "Acheter des Armes Étrangères"
+ COS_Purchase_Trucks:9 "Achat de camions étrangers"
  COS_Purchase_Planes: "Acheter des Avions"
 
  COS_Guardia_decisions: "Politique de [COS.GetLeader]"
@@ -230,6 +231,7 @@
 
  COS_form_faction: "Former $cos_carib_faction$"
  COS_Invite: "Inviter [FROM.GetName] dans le Pacte"
+ COS_form_economic_bloc:9 "Former le bloc économique des Caraïbes"
  COS_economic_bloc: "Inviter [FROM.GetName] dans le Bloc Économique"
  COS_protect_panama: "Sauver le Panama de la coercition colombienne"
  COS_protect_panama_desc: "Le Panama a été forcé par la Colombie à rejoindre leur alliance sous la faible justification de les sauver du socialisme. Donnons-leur un moyen de s'en sortir avant que leur souveraineté ne soit encore plus menacée."
@@ -327,8 +329,10 @@
 
  COS_Expanded_Citizenship: "Citoyenneté Élargie"
 
- COS_economic_bloc_idea: "Bloc Économique des Caraïbes"
- COS_economic_bloc_idea_desc: "Les membres de l'Alliance ne s'intéressent pas seulement aux affaires militaires, mais aussi aux affaires économiques."
+ COS_car_economic_bloc_dynamic_modifier:9 "£pol_idea Bloc économique des Caraïbes"
+ COS_car_economic_bloc_idea:0 "Bloc économique des Caraïbes"
+ COS_car_economic_bloc_idea_desc:9 "§W$MODIFIER_INDUSTRIAL_CAPACITY_FACTOR$: [?COS.COS_car_eco_bloc_modifier|+=%]\n$MODIFIER_INDUSTRIAL_CAPACITY_DOCKYARD_FACTOR$: [?COS.COS_car_eco_bloc_modifier|+=%]\n$MODIFIER_PRODUCTION_SPEED_BUILDINGS_FACTOR$: [?COS.COS_car_eco_bloc_modifier|+=%]\n$MODIFIER_RESEARCH_SPEED_FACTOR$: [?COS.COS_car_eco_bloc_research|+=%]§!"
+ COS_cos_alliance_member_tooltip:9 "§LPour chaque nation rejoignant le bloc économique, ce modificateur sera augmenté.§!"
 
  COS_CEN_ties: "Liens avec l'Amérique Centrale"
 
@@ -342,8 +346,9 @@
  COS_coto_compensation_PAN: "Compensation de Coto"
  COS_coto_compensation_PAN_desc: "Dans le cadre d'un règlement par médiation, nous avons annulé notre réclamation à Coto en échange d'une compensation monétaire."
 
- UFC_Profit_1_idea: "Bénéfices de l'UFC"
- UFC_Profit_1_idea_desc: "L'augmentation des bénéfices de l'activité de la United Fruit Company dans le pays contribue à notre production économique."
+ COS_UFC_profit_dynamic_modifier:9 "£pol_idea Bénéfices de l'UFC"
+ COS_UFC_Profit_idea:0 "Bénéfices de l'UFC"
+ COS_UFC_Profit_idea_desc:9 "L'augmentation des bénéfices tirés de l'activité de lUnited Fruit Company dans le pays contribue à notre production économique. Ses bénéfices actuels sont de §Y[?COS.cos_profit_factor]§!.\n§W-----------------§!\n§WNous obtenons ainsi les effets suivants :\n$MODIFIER_CONSUMER_GOODS_FACTOR$ :§! §Y[?COS.COS_UFC_consumer_goods|=%]§!\n§W$MODIFIER_INDUSTRIAL_CAPACITY_FACTOR$ : [?COS.COS_UFC_factory_output|+=%]§!"
 
 ### Focuses ###
  COS_ZKG_Bailout: "Renflouement de ZKG"

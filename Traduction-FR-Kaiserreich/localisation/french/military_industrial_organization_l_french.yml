@@ -247,6 +247,7 @@
  mio_cat_eq_only_tactical_bomber: "Bombardiers tactiques"
  mio_cat_eq_only_strategic_bomber: "Bombardiers stratégiques"
  mio_cat_eq_all_cv_aircraft: "Avions embarqués"
+ mio_cat_artillery:0 "Artillerie"
 
  #added by KR
  mio_cat_eq_only_cv_fighter: "Chasseurs de Porte-avions"
@@ -304,6 +305,13 @@
  mio_header_anti_tank:0 "Canons antichars"
  mio_header_protection: "Protection"
  mio_header_specialization: "Spécialisation"
+ mio_header_light_assault_gun_department:9 "Département des Armes d'Assaut Légères"
+ mio_header_armored_cars:9 "Voitures Blindées"
+ mio_header_medium_assault_gun_department:9 "Département des Armes d'Assaut Moyennes"
+ mio_header_heavy_assault_gun_department:9 "Département des Armes d'Assaut Lourdes"
+ mio_header_helicopter_construction:9 "Construction d'Hélicoptères"
+ mio_header_single_rotor:9 "Rotor Unique"
+ mio_header_tandem_rotor:9 "Rotor Tandem"
 
  ########   #######  ##       ####  ######  #### ########  ######
  ##     ## ##     ## ##        ##  ##    ##  ##  ##       ##    ##
@@ -336,6 +344,10 @@
  mio_policy_navy_stable_platforms: "Plateformes de tir stables"
  mio_policy_navy_great_sea_keeping: "Bonne tenue en mer"
  mio_policy_navy_coastal_battlefleet: "Flotte côtière"
+
+### GENERIC TOOLTIPS FOR SPECIAL TRAITS ##
+ generic_has_already_completed_this_trait:9 "A déjà réalisé ce trait dans une autre organisation"
+ generic_trait_will_not_be_available_in_other_organizations:9 "§RCe trait ne sera plus disponible dans d'autres organisations.§!."
 
  ###  ##  #  # # #     #   # ###  ##       ##  ###   ##  #  # ### ### #   # ###  ###  ##
   #  #  # ## # # #     ## ##  #  #  #     #  # #  # #  # #  # #    #   # #  #  # #   #
@@ -454,6 +466,25 @@
  generic_mio_trait_24h_rotation_shifts: "Changements de Rotation sur 24h"
  generic_mio_trait_long_distance_escort: "Escortes de trains longue distance"
  generic_mio_trait_barrels_of_hell: "Canons ferroviaires superlourds"
+
+ #####################################
+ ##### ASSAULT GUNS MANUFACTURER #####
+ #####################################
+ generic_assault_guns_organization:9 "Fabricant de Fusils d'Assaut"
+ generic_mio_initial_trait_assault_guns_organization:9 "Concepteur de Fusils d'Assaut"
+ generic_mio_trait_light_assault_gun_improvements:0 "Artillerie Mobile"
+ generic_mio_trait_light_assault_gun_anti_tank_combo:9 "Munitions Perforantes Hautement Explosives"
+ generic_mio_trait_light_assault_gun_improved_cannon_stabilization:9 "Amélioration de la Stabilisation du Canon"
+ generic_mio_trait_light_assault_gun_10_5_iefh_ammunition:9 "Munitions pour l'Obusier de 10,5 cm"
+ generic_mio_trait_medium_assault_gun_improvements:9 "Artillerie Blindée"
+ generic_mio_lighter_materials_assault_guns:0 "Matériaux Plus Légers"
+ generic_mio_armor_hardening_process_assault_guns:9 "Procédés Étendus de Durcissement du Blindage"
+ generic_mio_medium_assault_gun_rocket_tubes:9 "Tubes de Fusée Montés"
+ generic_mio_medium_assault_gun_75_mm_43M_tank_gun:9 "Canon de Char de 75 mm 43M"
+ generic_mio_medium_assault_gun_low_slung_superstructure_and_fighting_compartment:9 "Superstructure Surbaissée et Compartiment de Combat"
+ generic_mio_trait_heavy_assault_gun_improvements:9 "Bases de Feu Mobiles"
+ generic_mio_trait_fully_cast_turret_assault_gun:0 "Tourelle Entièrement Coulée"
+ generic_mio_trait_assault_gun_improved_tracks:9 "Pistes Renforcées"
 
   ## #  # ### ###      #   # ###  ##       ##  ###   ##  #  # ### ### #   # ###  ###  ##
  #   #  #  #  #  #     ## ##  #  #  #     #  # #  # #  # #  # #    #   # #  #  # #   #
@@ -884,3 +915,16 @@
  generic_mio_trait_officer_support_car: "Voiture d'officier"
  generic_mio_trait_heavy_anti_tank_gun: "Canon lourd antichar"
  generic_mio_trait_reinforced_wheels: "Roues renforcées"
+
+ #################################
+ #### HELICOPTER MANUFACTURER ####
+ #################################
+ generic_helicopter_organization:9 "Fabricant d'Hélicoptères"
+ generic_mio_initial_trait_helicopter_manufacturer:9 "Concepteur d'Hélicoptères"
+ generic_mio_trait_tandem_rotor_innovations:9 "Tandem Rotor Innovations"
+ generic_mio_trait_single_rotor_innovations:9 "Innovations à Rotor Unique"
+ generic_mio_trait_side_venting_exhaust:9 "Échappement à Ventilation Latérale"
+ generic_mio_trait_improved_engine:9 "Moteur Amélioré"
+ generic_mio_trait_extra_seating:9 "Sièges Supplémentaires"
+ generic_mio_trait_co_axial_rotors:9 "Rotors Co-axiaux"
+ generic_mio_trait_mass_production_certification:9 "Certification de la Production de Masse"
