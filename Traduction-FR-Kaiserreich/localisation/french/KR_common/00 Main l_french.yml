@@ -32,7 +32,7 @@
  KR_welcome_splash_tab_3_content_0: "Kaiserreich impose des restrictions sur les actions diplomatiques telles que les §RGuerres Précoces§!, les §RFactions§! et les §RNiveaux d'Autonomie§!.\nKaiserreich inclut également des §CLimites de Division§! et un mécanisme de §CDémobilisation§! pour améliorer la jouabilité en fin de partie.\nPendant les §YConférences de Paix§!, assurez-vous d'annexer tous les États possibles. Plus tard, vous pourrez libérer les pays des territoires annexés grâce aux §Cdécisions§!.\nLe menu de configuration des §YRègles de Jeu Personnalisées§! vous permet d'ajuster de nombreuses options, notamment les §CChemins de Pays§!, la §CPrimauté du Joueur pendant les Conférences de Paix§! et l'outil de §CTransfert d'États et de Pays§!.\nLe £kr_options_icon §YMenu d'Options§! peut être ouvert en cliquant sur son icône en haut à droite. Il vous permet d'ajuster la §Cfréquence des événements§! et d'activer le §Crenommage dynamique§! des états et des points de victoire."
 
  ## TAB 4 ##
- KR_CURRENT_VERSION:9 "1.3.2"
+ KR_CURRENT_VERSION:9 "1.3.3"
  KR_CURRENT_VERSION_NAME: "Sur les mers aux reflets bleus"
  KR_CURRENT_VERSION_COMBINED: "Kaiserreich $KR_CURRENT_VERSION$ "$KR_CURRENT_VERSION_NAME$""
  KR_welcome_splash_tab_4_upper_header: "§YWelcome to $KR_CURRENT_VERSION_COMBINED$§!"
@@ -643,77 +643,58 @@ cat_torpedo: "Technologie des torpilles"
  cat_light_armor_research: "Vitesse de recherche des blindés légers"
 
 ### Hidden Techs ###
- camel_corps_tech: "Corps de cavalerie sur chameaux"
- camel_corps_tech_effect: "Active §H$camel_corps_tech$§!\n§HChameaux\n    $desert$§!\n      $STAT_ADJUSTER_ATTACK$§G+15%§!\n      $STAT_ADJUSTER_DEFENCE$§G+5%§!\n      $STAT_ADJUSTER_MOVEMENT$§G+3%§!"
+ tech_camel_corps:0 "Corps des chameaux"
+ tech_camel_corps_terrain_effect:9 "  §Y$desert$§!:\n    $STAT_ADJUSTER_MOVEMENT$[?0.03|=+1%]\n    $STAT_ADJUSTER_ATTACK$[?0.15|=+1%]\n    $STAT_ADJUSTER_DEFENCE$[?0.05|=+1%]"
 
 tech_ski_infantry: "Infanterie à ski"
- tech_ski_infantry_effect: "Active §H$tech_ski_infantry$§!\n§H$infantry$\n    $hills$§!\n      $STAT_ADJUSTER_ATTACK$§G+5%§!\n      $STAT_ADJUSTER_DEFENCE$§G+5%§!\n      $STAT_ADJUSTER_MOVEMENT$§G+5%§!\n    §H$mountain$§!\n      $STAT_ADJUSTER_ATTACK$§G+5%§!\n      $STAT_ADJUSTER_DEFENCE$§G+5%§!\n      $STAT_ADJUSTER_MOVEMENT$§G+10%§!"
+ tech_ski_infantry_terrain_effect:9 "  §Y$hills$§!:\n    $STAT_ADJUSTER_MOVEMENT$[?0.05|=+1%]\n    $STAT_ADJUSTER_ATTACK$[?0.05|=+1%]\n    $STAT_ADJUSTER_DEFENCE$[?0.05|=+1%]\n  §Y$mountain$§!:\n    $STAT_ADJUSTER_MOVEMENT$[?0.1|=+1%]\n    $STAT_ADJUSTER_ATTACK$[?0.05|=+1%]\n    $STAT_ADJUSTER_DEFENCE$[?0.05|=+1%]"
 
 tech_marine_bonus: "Marines améliorés"
- tech_marine_bonus_effect: "Active §H$tech_marine_bonus$\n$tech_marine_bonus_effect_tooltip$"
- tech_marine_bonus_effect_tooltip: "$marine$§!\n      $STAT_ARMY_SOFT_ATTACK$[?0.05|=+%0]\n      $STAT_ARMY_HARD_ATTACK$[?0.05|=+%0]\n§H$amphibious_mechanized$§!\n      $STAT_ARMY_SOFT_ATTACK$[?0.05|=+%0]\n      $STAT_ARMY_HARD_ATTACK$[?0.05|=+%0]\n§H$category_amphibious_tanks$§!\n      $STAT_ARMY_SOFT_ATTACK$[?0.05|=+%0]\n      $STAT_ARMY_HARD_ATTACK$[?0.05|=+%0]"
-
 tech_marine_bonus_2: "Marines entraînés"
- tech_marine_bonus_2_effect: "Active §H$tech_marine_bonus_2$\n$tech_marine_bonus_2_effect_tooltip$"
- tech_marine_bonus_2_effect_tooltip: "$marine$§!\n      $STAT_ARMY_SOFT_ATTACK$[?0.05|=+%0]\n      $STAT_ARMY_HARD_ATTACK$[?0.05|=+%0]\n§H$amphibious_mechanized$§!\n      $STAT_ARMY_SOFT_ATTACK$[?0.05|=+%0]\n      $STAT_ARMY_HARD_ATTACK$[?0.05|=+%0]\n§H$category_amphibious_tanks$§!\n      $STAT_ARMY_SOFT_ATTACK$[?0.05|=+%0]\n      $STAT_ARMY_HARD_ATTACK$[?0.05|=+%0]"
+ tech_marine_bonus_combined:9 "Marines supérieurs"
 
- tech_marine_bonus_combined_effect: "Active §H$tech_marine_bonus$\n$tech_marine_bonus_combined_effect_tooltip$"
- tech_marine_bonus_combined_effect_tooltip: "$marine$§!\n      $STAT_ARMY_SOFT_ATTACK$[?0.1|=+%0]\n      $STAT_ARMY_HARD_ATTACK$[?0.1|=+%0]\n§H$amphibious_mechanized$§!\n      $STAT_ARMY_SOFT_ATTACK$[?0.1|=+%0]\n      $STAT_ARMY_HARD_ATTACK$[?0.1|=+%0]\n§H$category_amphibious_tanks$§!\n      $STAT_ARMY_SOFT_ATTACK$[?0.1|=+%0]\n      $STAT_ARMY_HARD_ATTACK$[?0.1|=+%0]"
+ tech_jungle_warfare:0 "Entraînement au combat dans la jungle"
+ tech_jungle_warfare_terrain_effect:9 "  §Y$jungle$§!:\n    $STAT_ADJUSTER_MOVEMENT$[?0.05|=+1%]\n    $STAT_ADJUSTER_ATTACK$[?0.05|=+1%]\n    $STAT_ADJUSTER_DEFENCE$[?0.03|=+1%]"
 
- jungle_warfare_effect: "Active §H$jungle_warfare$\n$category_light_infantry$\n    $jungle$§!\n      $STAT_ADJUSTER_ATTACK$§G+10%§!\n      $STAT_ADJUSTER_DEFENCE$§G+5%§!\n      $STAT_ADJUSTER_MOVEMENT$§G+5%§!"
+ tech_forest_warfare:9 "Entraînement au combat en forêt"
+ tech_forest_warfare_terrain_effect:9 "  §Y$forest$§!:\n    $STAT_ADJUSTER_MOVEMENT$[?0.05|=+1%]\n    $STAT_ADJUSTER_ATTACK$[?0.05|=+1%]\n    $STAT_ADJUSTER_DEFENCE$[?0.03|=+1%]"
 
- forest_warfare: "Formation d'infanterie des rangers"
- forest_warfare_effect: "Active §H$forest_warfare$\n$category_light_infantry$\n    $forest$§!\n      $STAT_ADJUSTER_ATTACK$§G+10%§!\n      $STAT_ADJUSTER_DEFENCE$§G+5%§!\n      $STAT_ADJUSTER_MOVEMENT$§G+5%§!"
+ tech_improved_field_hospitals:0 "Amélioration des hôpitaux de campagne"
 
-improved_field_hospitals: "Hôpitaux de campagne améliorés"
- improved_field_hospitals_effect: "Active §H$improved_field_hospitals$\n$field_hospital$§!\n      $STAT_ARMY_CASUALTY_TRICKLEBACK$§G+20%§!\n      $STAT_ARMY_EXPERIENCE_LOSS_FACTOR$§G-10%§!"
+ tech_expanded_engineer_corps:0 "Corps du génie élargi"
 
-expanded_engineer_corps_tech: "Corps du génie agrandi"
- expanded_engineer_corps_tech_effect: "Active §H$expanded_engineer_corps_tech$\n$engineer$§!\n      $STAT_ARMY_ENTRENCHMENT$§G+2§!\n    §H$FORT$§!\n      $STAT_ADJUSTER_ATTACK$§G+10%§!\n      $STAT_ADJUSTER_DEFENCE$§G+10%§!"
+ tech_mountain_warfare:9 "Entraînement au combat en montagne"
+ tech_mountain_warfare_terrain_effect:9 "  §Y$mountain$§!:\n    $STAT_ADJUSTER_MOVEMENT$[?0.1|=+1%]\n    $STAT_ADJUSTER_ATTACK$[?0.05|=+1%]\n    $STAT_ADJUSTER_DEFENCE$[?0.05|=+1%]"
 
-mountain_training_tech: "Entraînement à la guerre en montagne"
- mountain_training_tech_effect: "Active §H$mountain_training_tech$\n$category_light_infantry$§!\n    §H$mountain$§!\n      $STAT_ADJUSTER_ATTACK$§G+5%§!\n      $STAT_ADJUSTER_DEFENCE$§G+5%§!\n      $STAT_ADJUSTER_MOVEMENT$§G+10%§!"
+ tech_improved_recon_units:0 "Unités de reconnaissance améliorées"
 
-improved_recon_units_tech: "Unités de reconnaissance améliorées"
- improved_recon_units_tech_effect: "Active §H$improved_recon_units_tech$§!\n$improved_recon_units_tech_effect_tooltip$"
- improved_recon_units_tech_effect_tooltip: "§Y$category_recon$§!:\n   $STAT_ARMY_BREAKTHROUGH$[?1|+=%0]\n   $STAT_ARMY_RECON$[?1|+=%1]"
- improved_recon_units_tech_modifier_tooltip: "§Y$category_recon$§! : $STAT_ARMY_BREAKTHROUGH$[?1|+=%0], $STAT_ARMY_RECON$[?1|+=%1]"
+ tech_urban_warfare:9 "Entraînement au combat urbain"
+ tech_urban_warfare_terrain_effect:9 "  §Y$urban$§!:\n    $STAT_ADJUSTER_MOVEMENT$[?0.05|=+1%]\n    $STAT_ADJUSTER_ATTACK$[?0.05|=+1%]\n    $STAT_ADJUSTER_DEFENCE$[?0.03|=+1%]"
 
-asymmetrical_warfare: "Entraînement à la guerre asymétrique"
- asymmetrical_warfare_effect: "Active §H$asymmetrical_warfare$\n$category_light_infantry$§!\n    §H$urban$§!\n      $STAT_ADJUSTER_ATTACK$§G+10%§!\n      $STAT_ADJUSTER_DEFENCE$§G+5%§!\n      $STAT_ADJUSTER_MOVEMENT$§G+5%§!"
+ tech_desert_warfare:0 "Entraînement au combat du désert"
+ tech_desert_warfare_terrain_effect:9 "  §Y$desert$§!:\n    $STAT_ADJUSTER_MOVEMENT$[?0.05|=+1%]\n    $STAT_ADJUSTER_ATTACK$[?0.1|=+1%]\n    $STAT_ADJUSTER_DEFENCE$[?0.05|=+1%]"
 
-desert_warfare: "Entraînement au combat dans le désert"
- desert_warfare_effect: "Active §H$desert_warfare$§!\n§H$category_light_infantry$\n    $desert$§!\n      $STAT_ADJUSTER_ATTACK$§G+10%§!\n      $STAT_ADJUSTER_DEFENCE$§G+5%§!\n      $STAT_ADJUSTER_MOVEMENT$§G+5%§!"
+ tech_marsh_warfare:0 "Entraînement au combat dans les marais"
+ tech_marsh_warfare_terrain_effect:9 "  §Y$marsh$§!:\n    $STAT_ADJUSTER_MOVEMENT$[?0.05|=+1%]\n    $STAT_ADJUSTER_ATTACK$[?0.1|=+1%]\n    $STAT_ADJUSTER_DEFENCE$[?0.05|=+1%]"
 
- marsh_warfare: "Entraînement au combat dans les marais"
- marsh_warfare_effect: "Active §H$marsh_warfare$§!\n§H$category_light_infantry$\n    $marsh$§!\n      $STAT_ADJUSTER_ATTACK$§G+10%§!\n      $STAT_ADJUSTER_DEFENCE$§G+5%§!\n      $STAT_ADJUSTER_MOVEMENT$§G+5%§!"
-
-anti_fortification_artillery: "Artillerie anti-fortification"
- anti_fortification_artillery_effect: "Active §H$anti_fortification_artillery$§!\n§H$category_artillery$§!\n    $FORT$: $STAT_ADJUSTER_ATTACK$§G+20%§!"
+ tech_anti_fortification_artillery:0 "Artillerie anti-fortification"
+ tech_anti_fortification_artillery_terrain_effect:9 "  §Y$fort$§!:\n    $STAT_ADJUSTER_ATTACK$[?0.2|=+1%]"
 
 tech_integrated_specialists: "Forces spéciales intégrées"
- tech_integrated_specialists_effect: "Active §H$tech_integrated_specialists$§!\n$MODIFIER_SPECIAL_FORCES_CAP$: §G+5%§!\n§H$category_special_forces$§!\n      $STAT_ARMY_SOFT_ATTACK$§G+5%§!\n      $STAT_ARMY_HARD_ATTACK$§G+5%§!"
 
  tech_at_cavalry: "Fusils antichars de cavalerie"
- tech_at_cavalry_effect: "Active §H$tech_at_cavalry$\n$cavalry$§!\n      $STAT_COMMON_PIERCING$§G+3§!"
-
- tech_dragoon_tactics: "Tactiques de dragons"
- tech_dragoon_tactics_effect: "Active §H$tech_dragoon_tactics$\n$cavalry$§!\n      $STAT_COMMON_MAX_ORG$: §G+5§!\n      $STAT_ARMY_DEFAULT_MORALE$: §G+0.10§!\n      $STAT_ADJUSTER_MOVEMENT$§G+10%§!\n      $STAT_ADJUSTER_ATTACK$ de Nuit §G+10§!"
 
  tech_semi_motorised_cav: "Cavalerie semi-motorisée"
- tech_semi_motorised_cav_effect: "Active §H$tech_semi_motorised_cav$\n$cavalry$§!\n      $STAT_COMMON_MAX_ORG$§G+5§!\n      $STAT_ARMY_DEFAULT_MORALE$§G+0.10§!\n      $STAT_ADJUSTER_MOVEMENT$§G+15%§!"
 
  tech_improved_encryption: "Cryptage amélioré"
- tech_improved_encryption_effect: "Active §H$tech_improved_encryption$§!\n$MODIFIER_CRYPTO_STRENGTH$: [?2|+ = 0]"
 
  tech_mountain_artillery: "Artillerie de montagne"
- tech_mountain_artillery_effect: "Active §H$tech_mountain_artillery$§!\n§H$EQUIPMENT_ARTILLERY$\n    $hills$§!\n      $STAT_ADJUSTER_ATTACK$§G+10%§!\n      $STAT_ADJUSTER_MOVEMENT$§G+10%§!\n    §H$mountain$§!\n      $STAT_ADJUSTER_ATTACK$§G+10%§!\n      $STAT_ADJUSTER_MOVEMENT$§G+10%§!"
+ tech_mountain_artillery_terrain_effect:9 "  §Y$hills$§!:\n    $STAT_ADJUSTER_MOVEMENT$[?0.1|=+1%]\n    $STAT_ADJUSTER_ATTACK$[?0.1|=+1%]\n  §Y$mountain$§!:\n    $STAT_ADJUSTER_MOVEMENT$[?0.1|=+1%]\n    $STAT_ADJUSTER_ATTACK$[?0.1|=+1%]"
 
  tech_arctic_commando: "Commandos arctiques"
- tech_arctic_commando_effect: "Active §H$tech_arctic_commando$§!\n    $MODIFIER_SPECIAL_FORCES_NO_SUPPLY_GRACE$: [?48|G1=] $MOD_HOUR$\n    §H$category_special_forces$§!\n        $MODIFIER_ACCLIMATIZATION_COLD_CLIMATE_GAIN_FACTOR$: §G+10%§!\n        §H$hills$§!\n          $STAT_ADJUSTER_MOVEMENT$§G+5%§!\n        §H$mountain$§!\n          $STAT_ADJUSTER_MOVEMENT$§G+5%§!"
+ tech_arctic_commando_terrain_effect:9 "  §Y$hills$§!:\n    $STAT_ADJUSTER_MOVEMENT$[?0.05|=+1%]\n  §Y$mountain$§!:\n    $STAT_ADJUSTER_MOVEMENT$[?0.05|=+1%]"
 
  tech_better_paratroopers: "Parachutistes d'élite"
- tech_better_paratroopers_effect: "Active §H$tech_better_paratroopers$§!\n§H$paratrooper$§!\n      $STAT_ARMY_SOFT_ATTACK$§G+10%§!\n      $STAT_ARMY_DEFAULT_MORALE$: §G+0.20§!\n      $MODIFIER_PARATROOPER_EXTRA_SUPPLY_GRACE$: [?24|G1=] $MOD_HOUR$"
 
  tech_irregulars: "Infanterie irrégulière"
  tech_irregulars_effect: "Active les bataillons de ligne d'§Y$irregular_infantry$§!"
@@ -721,19 +702,9 @@ tech_integrated_specialists: "Forces spéciales intégrées"
  tech_militias: "Unité de milice"
  tech_militias_effect: "Active les bataillons de ligne de §Y$militia$§!"
 
- masterful_blitz_effect: "Active la tactique : §Y$tactic_masterful_blitz$§!"
-
  tech_anti_partisan:0 "Tactiques anti-insurrectionnelles"
- tech_anti_partisan_effect: "Active §H$tech_anti_partisan$§!\n§H$infantry$§!\n      $STAT_ARMY_SUPRESSION_FACTOR$§G+15%§!\n§H$cavalry$§!\n      $STAT_ARMY_SUPRESSION_FACTOR$§G+15%§!\n"
 
- tech_improved_logistics: "Compagnie logistique améliorée"
- tech_improved_logistics_effect: "Active §H$tech_improved_logistics$\n$logistics_company$§!\n   $STAT_ARMY_SUPPLY_CONSUMPTION_FACTOR$[?-0.10|=-%0]\n   $STAT_COMMON_FUEL_CONSUMPTION$[?-0.05|=-%0]"
-
- tech_early_helicopters: "Premiers hélicoptères utilitaires"
- tech_early_helicopters_effect: "Active §Y$tech_early_helicopters$§!\n   $MODIFIER_SPECIAL_FORCES_NO_SUPPLY_GRACE$: [?24|G1=] $MOD_HOUR$\n§H$category_recon$§!\n   $STAT_ARMY_RECON$§G+1§!"
-
- tech_human_wave_tactics: "$tactic_human_wave_tactics$"
- tech_human_wave_tactics_effect: "Active la Tactique : §Y$tactic_human_wave_tactics$§!"
+ tech_improved_logistics:9 "Compagnie logistique améliorée"
 
  long_range_patrol_support_tech: "$long_range_patrol_support$"
  long_range_patrol_support_tech_effect: "Active la compagnie de reconnaissance §Y$long_range_patrol_support$§!."
@@ -743,33 +714,26 @@ tech_integrated_specialists: "Forces spéciales intégrées"
  winter_logistics_support_tech: "$winter_logistics_support$"
  winter_logistics_support_tech_effect: "Active la compagnie de soutien §Y$winter_logistics_support$§!."
 
- tech_extensive_reconaissance: "Reconnaissance en profondeur"
- tech_extensive_reconaissance_effect: "Active §H$tech_extensive_reconaissance$§!\n$tech_extensive_reconaissance_effect_tooltip$"
- tech_extensive_reconaissance_effect_tooltip: "§Y$category_recon$§!:\n   $STAT_ARMY_RECON$[?1|=+%1]\n   §Y$snow$§!: $STAT_ADJUSTER_MOVEMENT$[?0.1|=+%0]\n   §Y$forest$§!: $STAT_ADJUSTER_MOVEMENT$[?0.05|=+%0]\n   §Y$hills$§!: $STAT_ADJUSTER_MOVEMENT$[?0.05|=+%0]\n   §Y$mountain$§!: $STAT_ADJUSTER_MOVEMENT$[?0.05|=+%0]\n   §Y$marsh$§!: $STAT_ADJUSTER_MOVEMENT$[?0.05|=+%0]\n   §Y$plains$§!: $STAT_ADJUSTER_MOVEMENT$[?0.05|=+%0]\n   §Y$river$§!: $STAT_ADJUSTER_MOVEMENT$[?0.05|=+%0]"
- tech_extensive_reconaissance_modifier_tooltip: "§Y$category_recon$§!: $STAT_ARMY_RECON$[?1|=+%1], §Y$snow$§!: $STAT_ADJUSTER_MOVEMENT$[?0.1|=+%0], §Y$forest$§!, §Y$hills$§!, §Y$mountain$§!, §Y$marsh$§!, §Y$plains$§! and §Y$river$§!: $STAT_ADJUSTER_MOVEMENT$[?0.05|=+%0]"
+ tech_extensive_reconnaissance:0 "Reconnaissance approfondie"
+ tech_extensive_reconnaissance_terrain_effect:9 "  §Y$snow$§!: $STAT_ADJUSTER_MOVEMENT$[?0.1|=+1%]\n  §Y$forest$§!: $STAT_ADJUSTER_MOVEMENT$[?0.05|=+1%]\n  §Y$hills$§!: $STAT_ADJUSTER_MOVEMENT$[?0.05|=+1%]\n  §Y$mountain$§!: $STAT_ADJUSTER_MOVEMENT$[?0.05|=+1%]\n  §Y$marsh$§!: $STAT_ADJUSTER_MOVEMENT$[?0.05|=+1%]\n  §Y$plains$§!: $STAT_ADJUSTER_MOVEMENT$[?0.05|=+1%]\n  §Y$river$§!: $STAT_ADJUSTER_MOVEMENT$[?0.05|=+1%]"
 
  tech_strengthened_support_companies: "Compagnies de soutien renforcées"
- tech_strengthened_support_companies_effect: "Active §H$tech_strengthened_support_companies$§!\n$tech_strengthened_support_companies_effect_tooltip$"
- tech_strengthened_support_companies_effect_tooltip: "§Y$category_support_battalions$§!:\n   $STAT_COMMON_MAX_ORG$[?10|=+1]\n   $STAT_COMMON_MAX_STRENGTH$[?5|=G1]"
- tech_strengthened_support_companies_modifier_tooltip: "§Y$category_support_battalions$§!: $STAT_COMMON_MAX_ORG$[?10|=+1], $STAT_COMMON_MAX_STRENGTH$[?5|=+1]"
 
  tech_anti_armour_tactics: "Tactiques anti-blindés"
- tech_anti_armour_tactics_effect: "Active §H$tech_anti_armour_tactics$§!\n$tech_anti_armour_tactics_effect_tooltip$"
- tech_anti_armour_tactics_effect_tooltip: "§Y$category_all_infantry$§!:\n   $STAT_ARMY_HARD_ATTACK$[?0.25|=+%0]\n   $STAT_COMMON_PIERCING$[?1|=+%0]"
- tech_anti_armour_tactics_modifier_tooltip: "§Y$category_all_infantry$§!: $STAT_ARMY_HARD_ATTACK$[?0.25|=+%0], $STAT_COMMON_PIERCING$[?1|=+%0]"
 
  jungle_pioneers_support_tech: "Pionniers de la jungle"
  jungle_pioneers_support_tech_effect: "Active la compagnie de soutien §Y$jungle_pioneers_support$§!."
 
  tech_river_boats: "Navires fluviaux"
- tech_river_boats_effect: "Active §H$tech_river_boats$§!\n$tech_river_boats_effect_tooltip$"
- tech_river_boats_effect_tooltip: "§Y$category_all_infantry$§!:\n   $STAT_ADJUSTER_MOVEMENT$[?0.1|=+%0]\n   $STAT_ADJUSTER_ATTACK$[?0.1|=+%0]\n   $STAT_ADJUSTER_DEFENCE$[?0.05|=+%0]"
- tech_river_boats_modifier_tooltip: "§Y$category_all_infantry$§!: $STAT_ADJUSTER_MOVEMENT$[?0.1|=+%0], $STAT_ADJUSTER_ATTACK$[?0.1|=+%0], $STAT_ADJUSTER_DEFENCE$[?0.05|=+%0]"
+ tech_river_boats_terrain_effect:9 "  §Y$river$§!:\n    $STAT_ADJUSTER_MOVEMENT$[?0.1|=+1%]\n    $STAT_ADJUSTER_ATTACK$[?0.1|=+1%]\n    $STAT_ADJUSTER_DEFENCE$[?0.05|=+1%]"
 
  tech_armored_car_spearhead: "Véhicule blindé de tête"
- tech_armored_car_spearhead_effect: "Active §H$tech_armored_car_spearhead$\n$tech_armored_car_spearhead_effect_tooltip$"
- tech_armored_car_spearhead_effect_tooltip: "§Y$armored_car$§!\n   $STAT_COMMON_MAX_ORG$: [?10|=+1]\n   $STAT_ARMY_DEFAULT_MORALE$: [?0.1|=+1]\n   $STAT_ADJUSTER_MOVEMENT$: [?0.2|=+%0]"
- tech_armored_car_spearhead_modifier_tooltip: "§Y$armored_car$§!: $STAT_COMMON_MAX_ORG$: [?10|=+1], $STAT_ARMY_DEFAULT_MORALE$: [?0.1|=+1], $STAT_ADJUSTER_MOVEMENT$: [?0.2|=+%0]"
+
+ tech_masterful_blitz:9 "$tactic_masterful_blitz$"
+
+ tech_human_wave_tactics: "$tactic_human_wave_tactics$"
+
+ tech_improved_decryption:9 "Décryptage amélioré"
 
  ### Units ###
  assault_battalion: "$blackshirt_assault_battalion$"

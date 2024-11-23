@@ -8,6 +8,8 @@
 
  FACILITY_BUILDINGS:9 "Bâtiments d'expérimentation"
 
+ CAP_SCIENTIST:9 "Scientifique"
+
  PROJECT_STOPPING_TIME_DESC:9 "Projet en suspens : $DAYS|Y$ jour(s)"
  SCIENTIST_ROSTER_WINDOW_TITLE:9 "Scientifiques"
  RECRUIT_SCIENTIST_WINDOW_TITLE:9 "Recrutement de scientifiques"
@@ -494,8 +496,8 @@
  sp_nuclear_war_support_generic_reward_desc:9 "Après un essai réussi largement couvert par un bataillon médiatique étroitement contrôlé, le public commence enfin à comprendre que nous sommes sur le point de créer une super-arme qui nous permettra de vaincre tous nos ennemis."
  sp_nuclear_major_political_interference_generic_reward:9 "Interférences politiques majeures"
  sp_nuclear_major_political_interference_generic_reward_desc:9 "Le projet [SpecialProject.GetName] a été retardé par des interférences de dirigeants politiques, ce qui devra peut-être entraîner un changement de direction au grand désarroi de [Character.GetName]. Si nous voulons garder ce projet sur les rails, nous devons nous occuper de ces épreuves politiques."
- sp_nuclear_major_political_interference_generic_reward_option_keep:9 "Conservons [Character.GetName]"
- sp_nuclear_major_political_interference_generic_reward_option_fire:9 "Remplaçons [Character.GetName]"
+ sp_nuclear_major_political_interference_generic_reward_option_keep:9 "Garder [(Character?.GetName:'CAP_SCIENTIST)]"
+ sp_nuclear_major_political_interference_generic_reward_option_fire:9 "Remplacer [(Character?.GetName:'CAP_SCIENTIST)]"
 
  sp_nuclear_bomb_theoretical_breakthrough_generic_reward:9 "Percée théorique"
  sp_nuclear_bomb_theoretical_breakthrough_generic_reward_desc:9 "[Character.GetName] a réussi à résoudre un problème théorique majeure lors de l'essai du dernier prototype. Le facteur de forme de la bombe est désormais simplifié, facilitant sa production."
@@ -738,12 +740,9 @@
 
  sp_naval_underway_replenishment:9 "Ravitaillement en mer"
  sp_naval_underway_replenishment_desc:9 "Ravitailler les navires en pleine mer, loin de leurs bases d'attache, a toujours été un exercice périlleux. Maintenant que la portée de nos flottes bat des records, il faut à tout prix trouver un nouveau moyen de ravitailler nos bâtiments."
- sp_naval_underway_replenishment_pick_a_tt:9 "$MODIFIER_UNDERWAY_REPLENISHMENT_RANGE$ §G+20%§!\n$MODIFIER_UNDERWAY_REPLENISHMENT_CONVOY_COST$ §R+10%§!"
- sp_naval_underway_replenishment_pick_b_tt:9 "$MODIFIER_UNDERWAY_REPLENISHMENT_RANGE$ §R-10%§!\n$MODIFIER_UNDERWAY_REPLENISHMENT_CONVOY_COST$ §G-20%§!"
 
  sp_naval_proximity_fuze:9 "Fusée de proximité"
  sp_naval_proximity_fuze_desc:9 "Grâce aux innovations dans le domaine de la radio, il est possible de créer de nouvelles fusées capables d'exploser dès lors qu'elles se retrouvent à proximité de leur cible."
- sp_naval_proximity_fuze_custom_tt:9 "$MODIFIER_NAVY_ANTI_AIR_ATTACK$ §G+25%§!"
 
 
 #################################
