@@ -77,7 +77,6 @@ annexation_decisions: "Décisions d'annexion"
  annex.europe.release_germany_republic:0 "Former une république allemande !"
  annex.europe.release_germany_socialist:0 "Former une Allemagne libre et socialiste!"
  annex.europe.release_germany_hohenzollern:0 "Restaurer l'Empire Allemand"
- annex.europe.release_germany_romanov:0 "Le Grand Duc Boris comme empereur d'Allemagne !"
 
  annex.europe.release_danubia_republic: "Libérer une république danubienne unie."
  annex.europe.release_danubia_habsburg: "Restaurez le règne Habsbourg sur la Danubie."
@@ -201,7 +200,7 @@ annexation_decisions: "Décisions d'annexion"
  annex.asia.give_to_bukhara:9 "[bukhara.GetGrantTerritoryEventOption]"
  annex.asia.give_to_khiva:9 "[khiva.GetGrantTerritoryEventOption]"
 
- annex.asia.give_to_transamur:9 "[transamur.GetGrantTerritoryEventOption]"
+ annex.asia.give_to_far_eastern_republic:9 "[far_eastern_republic.GetGrantTerritoryEventOption]"
 
  annex.asia.release_republican_india: "Libérer une république indienne."
  annex.asia.release_princely_india: "Rétablir la Fédération Princière"
@@ -235,7 +234,7 @@ annexation_decisions: "Décisions d'annexion"
  annex.asia.give_to_owner_of_sindh:9 "[sindh.GetGrantTerritoryEventOption]"
  annex.asia.give_to_owner_of_bihar:9 "[bihar.GetGrantTerritoryEventOption]"
  annex.asia.give_to_owner_of_bombay:9 "[bombay.GetGrantTerritoryEventOption]"
- annex.asia.give_to_owner_of_madurai:9 "[madurai.GetGrantTerritoryEventOption]"
+ annex.asia.give_to_owner_of_madura:9 "[madura.GetGrantTerritoryEventOption]"
  annex.asia.give_to_owner_of_andhra:9 "[andhra.GetGrantTerritoryEventOption]"
 
 # Oceania
@@ -381,7 +380,6 @@ annex.185.a: "O'Neill Abú !"
  annexation_prussia: "Le Destin de la Prusse"
  annexation_prussia_desc: "Le Brandebourg était le centre de gravité de la Prusse, et donc de l'Empire Allemand qu'elle a formé. Pendant des décennies, Berlin a bourdonné d'activité, principalement avec les politiciens et les diplomates des grandes puissances, mais depuis [GetYear] avec les ordres et les cris des soldats, et est désormais rendue silencieuse par la loi martiale [Root.GetAdjective]. Avec la fin de l'ancien état allemand vient, inévitablement, le début d'un nouveau.\n\nUn état allemand basé à Berlin serait un prétendant sérieux pour un jour réunifier l'Allemagne, donc certains dans notre gouvernement ont proposé de donner le Brandebourg et Berlin à un état confetti basé dans une ville plus à l'ouest, pour que la Prusse ne puisse plus jamais se relever. D'autres ont mis en avant le besoin d'un allié prussien fort pour contrer nos ennemis à leur frontière, et qu'avec notre suprématie militaire sur l'Europe la Prusse ne pourrait même pas envisager de nous défier. Sans doute les Prussiens pourraient-ils apprécier l'ironie d'une bonne et longue occupation militaire "temporaire"."
  annex.1006.a: "Libérez un État prussien"
- annex.1006.b: "Le Grand Duc Boris comme Roi de Prusse !"
  annex.1006.c:9 "[north_germany.GetGrantTerritoryEventOption]"
 
  annexation_west_prussia:0 "Le Destin de [776.GetName]"
@@ -643,17 +641,14 @@ annex.185.a: "O'Neill Abú !"
 
  annexation_brest:0 "Le destin de Brest"
  annexation_brest_desc:0 "La ville contestée de Brest-Litovsk a été placée sous notre contrôle alors que nos troupes occupent la région. Nous devons maintenant décider de ce qu'il faut en faire."
- annex.1061.a: "Le diviser entre [chelm.GetNonIdeologyNameDef] et [volhynia.GetNonIdeologyNameDef]."
- annex.1061.b: "Le diviser entre [chelm.GetNonIdeologyNameDef] et [pinsk.GetNonIdeologyNameDef]."
- annex.1061.c: "Le diviser avec [chelm.GetNonIdeologyNameDef]."
 
  annexation_polesia:0 "Le Destin de la Polésie"
  annexation_polesia_desc:0 "La région tranquille de Polésie est passée sous notre contrôle puisque nos troupes l'occupent. Nous devons maintenant décider ce que nous allons en faire."
 
  annexation_belarus: "Le Destin du Belarus"
- annexation_belarus_desc:0 "Après une courte campagne à travers la Biélorussie, nous avons réussi à briser les défenses de Minsk. La Ruthénie Blanche est maintenant entre nos mains ! Nous devons maintenant décider de son avenir"
- annex.1063.a: "Libérer la Ruthénie blanche sous un gouvernement ami."
- annex.1063.b: "Libérer la Ruthénie Blanche sous régime militaire allemand."
+ annexation_belarus_desc:9 "Après une courte campagne à travers la Biélorussie, nous avons réussi à briser les défenses de Minsk. Nous devons maintenant décider de l'avenir de ce pays."
+ annex.1063.a:9 "Libérer la Biélorussie."
+ annex.1063.b:9 "Placer la Biélorussie sous régime militaire allemand."
 
  annexation_eastern_belarus:0 "Le destin de la Biélorussie orientale"
  annexation_eastern_belarus_desc:0 "La région du Belarus oriental, anciennement sous contrôle russe, est désormais sous notre contrôle, nous devons décider ce que nous allons en faire."
@@ -663,8 +658,7 @@ annex.185.a: "O'Neill Abú !"
 
  annexation_russia:0 "Le destin de la Russie"
  annexation_russia_desc:0 "Après un long combat avec l'État russe, nous avons lancé une offensive totale et forcé les forces armées russes à se rendre. Moscou est maintenant entre nos mains et le destin de la nation russe avec elle !"
- annex.1065.a: "Libérer les principales terres russes."
- annex.1065.b: "Séparer la Sibérie de la Russie."
+ annex.1065.a:9 "Libérer la Russie."
 
  annexation_latgale:0 "Le Destin de [880.GetName]"
  annexation_latgale_desc:0 "L'état de [880.GetName] a été placé sous notre contrôle alors que nos troupes occupent la région. Nous devons maintenant décider de ce qu'il faut en faire."
@@ -1224,9 +1218,9 @@ annex.185.a: "O'Neill Abú !"
  annexation_upper_chaco: "Le Destin du [1027.GetName]"
  annexation_upper_chaco_desc: "La région de [1027.GetName] est passée sous notre contrôle alors que nos troupes occupent la région. Nous devons maintenant décider de son sort."
 
- annexation_alash:0 "Le Destin d'Alash"
- annexation_alash_desc:0 "Alash a été placé sous notre contrôle alors que nos troupes occupent la région. Nous devons maintenant décider de ce qu'il faut en faire."
- annex.3001.a: "Libérer Alash."
+ annexation_kazakhstan:9 "Le Sort du Kazakhstan"
+ annexation_kazakhstan_desc:9 "Le Kazakhstan a été placé sous notre contrôle alors que nos troupes occupent la région. Nous devons maintenant décider de ce qu'il faut en faire."
+ annex.3001.a:9 "Libérer le Kazakhstan."
 
  annexation_turkestan:0 "Le destin du Turkestan"
  annexation_turkestan_desc:0 "Le Turkestan a été placé sous notre contrôle alors que nos troupes occupent la région. Nous devons maintenant décider de ce qu'il faut en faire."
@@ -1242,11 +1236,11 @@ annex.185.a: "O'Neill Abú !"
 
  annexation_afghanistan:0 "Le destin de l'Afghanistan"
  annexation_afghanistan_desc:0 "Après un long combat avec les Afghans, nous avons lancé une offensive totale et forcé l'armée afghane à se rendre et à fuir dans les montagnes. Kaboul et les routes principales sont maintenant entre nos mains, mais la campagne se mobilise contre nous et nous pourrions avoir un gros combat à mener si nous essayons d'occuper le "Cimetière des empires"."
- annex.3007.a: "Libérer l'Afghanistan."
+ annex.3007.a:9 "Établir une République afghane."
+ annex.3007.b:9 "Restaurer le Royaume d'Afghanistan."
 
  annexation_siberia:0 "Le destin de la Sibérie"
- annexation_siberia_desc:0 "Avec Novo-Nikolaïevsk entre nos mains, nous contrôlons maintenant la Sibérie et nous sommes en mesure de décider ce que nous ferons de ces terres"
- annex.3008.a: "Libérer un état loyal de la Sibérie."
+ annexation_siberia_desc:9 "Avec [570.GetCapitalVictoryPointName] entre nos mains, nous contrôlons maintenant la Sibérie et nous sommes en mesure de décider ce que nous ferons de ces terres"
 
  annexation_russian_far_east:0 "Le destin du Transamour"
  annexation_russian_far_east_desc:0 "Nos armées ont réussi à prendre le contrôle de Transamour, et il est maintenant occupé par nous. Nous avons quelques options maintenant. Nous pouvons soit les subjuguer, soit le garder pour nous-mêmes, étant donné qu'elle possède une position stratégique clé en Asie de l'Est. Qu'est-ce qu'on fait ?"
@@ -1257,7 +1251,7 @@ annex.185.a: "O'Neill Abú !"
  annex.3009.e: "Renoncer au traité d'Aigun et donner le reste du territoire à notre suzerain."
 
  annexation_china:0 "Le destin de la Chine"
- annexation_china_desc: "Après une campagne longue et acharnée dans les vastes étendues de la Chine, nous avons enfin remporté une victoire historique. Maintenant que nous avons gagné la guerre, nous devons décider de la meilleure façon de garantir la paix. Ce n'est pas une mince affaire, étant donné que les Chinois sont en proie à la guerre civile et au règne des seigneurs de guerre depuis quelques décennies et que les gouvernements rivaux ont été largement incapables d'affirmer leur autorité sur les provinces. De nombreuses factions et idéologies concurrentes sont apparues et disparues au fil des ans, chacune promettant de s'attaquer aux principaux problèmes de la Chine mais ayant souvent du mal à s'imposer hors de leurs territoires respectifs. Comment devrions-nous gérer les terres chinoises que nous avons conquises ?"
+ annexation_china_desc:9 "Après une campagne longue et acharnée dans les vastes étendues de la Chine, nous avons enfin remporté une victoire historique. Maintenant que nous avons gagné la guerre, nous devons décider de la meilleure façon de garantir la paix. Ce n'est pas une mince affaire, étant donné que les Chinois sont en proie à la guerre civile et au règne des seigneurs de guerre depuis quelques décennies et que les gouvernements rivaux ont été largement incapables d'affirmer leur autorité sur les provinces. De nombreuses factions et idéologies concurrentes sont apparues et disparues au fil des ans, chacune promettant de s'attaquer aux principaux problèmes de la Chine mais ayant souvent du mal à s'imposer hors de leurs territoires respectifs. Comment devrions-nous gérer les terres chinoises que nous avons conquises ?"
  annex.3010.a: "Incorporer la Chine dans le mandat."
 
  annexation_tibet:0 "Le destin du Tibet"
@@ -1269,7 +1263,7 @@ annex.185.a: "O'Neill Abú !"
  annex.3012.a: "Libérer le Turkestan Oriental."
 
  annexation_mongolia:0 "Le destin de la Mongolie"
- annexation_mongolia_desc: "Après notre campagne réussie dans les steppes de Mongolie, nous avons maintenant la tâche d'établir une nouvelle autorité administrative locale afin de restaurer la paix. Ce n'est pas une tâche facile, d'autant plus qu'il n'existe qu'une seule ville permanente en Mongolie et que la grande majorité des habitants vivent en mode semi-nomade. La Mongolie est dirigée par Roman von Ungern-Sternberg, qui a expulsé les troupes chinoises de la région, aidant Bogd Khan à déclarer l'indépendance. Son règne a cependant été miné par la résistance de l'aristocratie et du clergé locaux, ainsi que par des révolutionnaires de gauche et par des tensions avec les clans voisins Hui Ma. Mais en fin de compte, nous avons gagné et le choix de l'avenir de la Mongolie repose entre nos mains."
+ annexation_mongolia_desc:9 "Après notre campagne réussie dans les steppes de Mongolie, nous avons maintenant la tâche d'établir une nouvelle autorité administrative locale afin de restaurer la paix. Ce n'est pas une tâche facile, d'autant plus qu'il n'existe qu'une seule ville permanente en Mongolie et que la grande majorité des habitants vivent en mode semi-nomade. La Mongolie est dirigée par Roman von Ungern-Sternberg, qui a expulsé les troupes chinoises de la région, aidant Bogd Khan à déclarer l'indépendance. Son règne a cependant été miné par la résistance de l'aristocratie et du clergé locaux, ainsi que par des révolutionnaires de gauche et par des tensions avec les clans voisins Hui Ma. Mais en fin de compte, nous avons gagné et le choix de l'avenir de la Mongolie repose entre nos mains."
  annex.3013.a: "Libérer la Mongolie."
 
  annexation_tuva:0 "Le Destin de [329.GetName]"
@@ -1293,8 +1287,8 @@ annex.185.a: "O'Neill Abú !"
  annexation_japan_desc:0 "Après le succès de notre campagne dans les îles japonaises, nous avons maintenant la tâche d'établir une nouvelle autorité administrative locale afin de rétablir la paix, mais plusieurs options s'offrent à nous..."
  annex.3018.a: "Libérer un gouvernement de transition pour le Japon."
 
- annexation_sakhalin:9 "Le Destin de Sakhalin"
- annexation_sakhalin_desc:9 "L'île de Sakhalin a été placé sous notre contrôle alors que nos troupes occupent la région. Nous devons maintenant décider de ce qu'il faut en faire."
+ annexation_sakhalin:9 "Le Sort de Sakhaline"
+ annexation_sakhalin_desc:9 "L'île de Sakhaline a été placée sous notre contrôle alors que nos troupes occupent la région. Nous devons maintenant décider de ce qu'il faut en faire."
  annex.3019.a:9 "[russia_vladivostok.GetGrantTerritoryEventOption]"
  annex.3019.b:9 "[russia_nikolayevsk.GetGrantTerritoryEventOption]"
 
@@ -1557,13 +1551,22 @@ annex.185.a: "O'Neill Abú !"
  annexation_uttarakhand: "Le Destin de [814.GetName]"
  annexation_uttarakhand_desc: "[814.GetName] est passé sous notre contrôle alors que nos troupes occupent la région. Nous devons maintenant décider de son sort."
  annex.3079.a:9 "[delhi.GetGrantTerritoryEventOption]"
- annex.3079.b:9 "[shimla.GetGrantTerritoryEventOption]"
+ annex.3079.b:9 "[simla.GetGrantTerritoryEventOption]"
 
  annexation_darjeeling: "Le Destin de [887.GetName]"
  annexation_darjeeling_desc: "[887.GetName] est passé sous notre contrôle alors que nos troupes occupent la région. Nous devons maintenant décider de son sort."
 
- annexation_naga_hills: "Le Destin de [1111.GetName]"
+ annexation_naga_hills:9 "Le Sort de [1111.GetName]"
  annexation_naga_hills_desc: "[1111.GetName] était auparavant administré par la Chine des Qing jusqu'à l'Incident Pianma/Hpimaw des années 1910, lorsque des chefs Tusi locaux ont changé leur allégeance pour les britanniques, et fait depuis partie de la Birmanie. Maintenant que la zone est sous notre contrôle, nous devons décider quoi en faire."
+
+ annexation_badakhshan:9 "Le Sort de [1042.GetName]"
+ annexation_badakhshan_desc:9 "[1042.GetName] was administered in a contentious between Russia, China, and Afghanistan ever since 1864 with the signing of the unequal Tacheng Boundary Treaty. Stipulating the border between Russia and China extending to the Pamir Mountains and bounded by Kokand, it did not specify the boundary of Badakhshan, this was further muddled by the signing of another unequal treaty, the Sino-Russian Ili Treaty which stipulated that the Sino-Russian border \"shall be determined in accordance with the existing borders of the two countries\".\n\nFurthermore in 1884, a boundary survey and yet another unequal treaty, the Sino-Russian Kashgar Boundary Treaty, simply added a disputed area to the border. The Russian Empire would send soldiers into the region in 1891, and then entered the Chinese territory in 1892. In 1895, Russia and Britain would divide the Pamirs between themselves, despite the Qing lodging diplomatic complaints.\n\nAdditionally, there exists Afghanistan's claim having historically controlled the region for centuries. After the Russian conquest of Turkestan, the border between Russia and Afghanistan remained loosely defined. Forming the 1884 Afghan Boundary Commission, Britain and Russia hoped to settle the issue, but before the commission could come to an agreement, Russia launched an invasion to push the border as far south as possible, resulting in the Panjdeh Incident; becoming a point of continuous contention from there onwards into the interwar. With multiple parties all lodging claims, it is now up to us to determine its future."
+
+ annexation_kuril_islands:0 "Les Sort des [FROM.FROM.GetName]"
+ annexation_kuril_islands_desc:0 "[FROM.FROM.GetName] ont été placées sous notre contrôle alors que nos troupes occupent la région. Nous devons maintenant décider de ce qu'il faut en faire."
+
+ annexation_grey_wedge:9 "Le Sort de l'Ukraine Grise"
+ annexation_grey_wedge_desc:9 ""L'Ukraine Grise" entre la Sibérie et le Kazakhstan a été placé sous notre contrôle alors que nos troupes occupent la région. Nous devons maintenant décider de ce qu'il faut en faire."
 
  annexation_levant:0 "Le destin du Levant"
  annexation_levant_desc:0 "Nous avons conquis les riches terres du Levant, y compris la grande et ancienne ville de Damas. Que devons-nous faire de ces anciennes provinces ottomanes ?"

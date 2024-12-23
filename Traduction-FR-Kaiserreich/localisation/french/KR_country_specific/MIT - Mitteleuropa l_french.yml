@@ -17,6 +17,16 @@
  mitteleuropa_next_election_days: "§Y[?days_to_next_election]§! jours"
  mitteleuropa_next_election_soon: "§Yimminent§!"
 
+ mitteleuropa_small_value:9 "[?global.MIT_small_value|Y=1]"
+ mitteleuropa_medium_value:9 "[?global.MIT_medium_value|Y=1]"
+ mitteleuropa_large_value:9 "[?global.MIT_large_value|Y=1]"
+ mitteleuropa_huge_value:9 "[?global.MIT_huge_value|Y=1]"
+
+ mitteleuropa_small_cost:9 "[?MIT_small_value_temp|R=1]"
+ mitteleuropa_medium_cost:9 "[?MIT_medium_value_temp|R=1]"
+ mitteleuropa_large_cost:9 "[?MIT_large_value_temp|R=1]"
+ mitteleuropa_huge_cost:9 "[?MIT_huge_value_temp|R=1]"
+
  agenda_score_title: "Score d'ordre du jour"
  agenda_score_tooltip: "[!agenda_score_breakdown_button_click]"
 
@@ -27,6 +37,11 @@
  agenda_score_tooltip_investment: "£pol_power de §Ypouvoir politique§! pour investissement: [?MIT_agenda_investment|+0]"
  agenda_score_tooltip_final: "Score final: [?mtth:mitteleuropa_agenda_score_calculation|G0]"
  agenda_score_tooltip_other_supporters: "De la part des soutiens: §G[GetMitteleuropaAgendaSupportersScore]§!"
+
+ agenda_score_value_default:9 "[?MIT_supported_agenda:agenda_score]"
+ agenda_score_value_fallback:9 "[?mtth:mitteleuropa_agenda_score_calculation]"
+
+ agenda_score_supporters_value:9 "[?other_supporters_value]"
 
  agenda_add_score_desc: "Augmente votre score d'ordre du jour au prix de £pol_power de §Ypouvoir politique§!."
  agenda_sub_score_desc: "Récupère £pol_power de §Ypouvoir politique§! investi au prix de score d'ordre du jour."
@@ -203,7 +218,6 @@
  MIT_mitteleuropa_modifier: "Membre de la Mitteleuropa"
  MIT_mitteleuropa_modifier_desc: "Officiellement intitulée Union Economique d'Europe Centrale, la Mitteleuropa est une union douanière et économique unifiant l'Allemagne et sa sphère d'influence, établie après la Weltkrieg. Les États membres de la Mitteleuropa trouvent l'impact de cet accord mitigé : même si les liens économiques avec l'Allemagne sont bénéfiques, l'accord penche fortement en faveur de l'Allemagne."
 
- MIT_modify_mitteleuropa_modifier: "Modifie §Y$MIT_mitteleuropa_modifier$§! par"
  MIT_targeted_and_research_modifiers_tt: "[THIS.GetMitteleuropaBerlinBureaucracyActive]"
 
  MIT_berlin_bureaucracy_modifier: "(§Y[GER.GetNameWithFlag]§!)\n  $MODIFIER_CIC_TO_TARGET_FACTOR$: [?0.05|R=%]\n  $MODIFIER_TRADE_TO_TARGET_FACTOR$: [?0.25|G=%]\n\n"

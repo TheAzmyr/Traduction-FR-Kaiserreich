@@ -169,8 +169,13 @@ has_scripted_peace_desc: "Le pays est en guerre et est déterminé à remporter 
  unit_limit_count_below: "[?num_actual_divisions|G0]/[?max_divisions|Y0]"
 
  unit_limit_law_bonus:0 "Limite de divisions"
+
  unit_limit_bonus: "Limite de divisions"
+ unit_limit_bonus_tooltip:9 "$unit_limit_bonus$: $RIGHT|+=0$"
+
  unit_limit_factor:0 "Limite de divisions"
+ unit_limit_factor_tooltip:9 "$unit_limit_factor$: $RIGHT|+=0%$"
+
  unit_limit_subject_bonus: "Ajout d'une limite de division pour le Suzerain"
 
  unit_limit_breakdown: "[unit_limit_breakdown]"
@@ -238,7 +243,7 @@ has_scripted_peace_desc: "Le pays est en guerre et est déterminé à remporter 
  solidify_control_desc: "Un peu de tact dans l'utilisation du pouvoir politique ici et là, quelques ressources et nous supprimerons nos obstacles politiques ; nous ne pourrons peut-être pas nous débarrasser de tous ces obstacles, mais même en éliminer certains nous éclaireront la voie et amélioreront notre pouvoir politique à la longue"
 
  restructure_supply_system: "Réorganiser le système ferroviaire"
- restructure_supply_system_desc: "En réorientant les matériaux de construction et les cheminots, nous pouvons rapidement créer un petit nombre de dépôts d'approvisionnement improvisés le long de certains de nos chemins de fer. Mais cette solution n'est pas durable.\n\n§RCette décision ne peut être prise qu'une seule fois. Le bonus disparaîtra si vous construisez plus de 3 centres de ravitaillement supplémentaires.§!"
+ restructure_supply_system_desc:9 "En réorientant les matériaux de construction et les cheminots, nous pouvons rapidement créer un petit nombre de dépôts d'approvisionnement improvisés le long de certains de nos chemins de fer. Mais cette solution n'est pas durable.\n\n§RCette décision ne peut être prise qu'une seule fois. Le bonus disparaîtra si vous construisez plus de 3 centres de ravitaillement supplémentaires.§!"
 
  debug_decisions: "Débugger les décisions"
  turn_off_plpc_debug: "Désactiver Player-Led Conferences"
@@ -261,7 +266,7 @@ has_scripted_peace_desc: "Le pays est en guerre et est déterminé à remporter 
  radical_socialist: "Radicaux-Socialistes"
  social_democrat: "Sociaux-Démocrates"
  social_liberal: "Sociaux-Libéraux"
- market_liberal: "Liberaux Économiques"
+ market_liberal: "Libéraux Économiques"
  social_conservative: "Sociaux-Conservateurs"
  authoritarian_democrat: "Démocrates Autoritaires"
  paternal_autocrat: "Autocrates Paternalistes"

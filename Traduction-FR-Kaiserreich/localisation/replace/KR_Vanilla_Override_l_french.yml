@@ -31,7 +31,7 @@
  LOAD_EVENTS: "Centraliser la Double Monarchie"
  LOAD_GFX: "Combattre dans une guerre territoriale en Asie"
  LOADING_MAIN_MENU: "Soutenir les empires mourants"
- PRECALC_NAVAL_DIST: "Assassiner Kerensky"
+ PRECALC_NAVAL_DIST:9 "Assassiner Chernov"
  EXITING_TO_FRONTEND: "Restaurer les Monarchies"
  LOAD_INIT: "Déployer la Kaiserliche Marine"
  LOAD_FLAGS: "Sauver la Démocratie Américaine"
@@ -101,7 +101,7 @@
 PEACE_CONFERENCE_WHITE_PEACE: "Un §Yaccord de paix§! a été signé entre \n@$ACTOR_TAG$$ACTOR_COUNTRY|Y$ et $RECIPIENT_COUNTRY|Y$@$RECIPIENT_TAG$\nmettant fin aux hostilités"
 
 ### research_l_english
- BLITZKRIEG_LABEL: "BATAILLE D'ENCERCLEMENT"
+ BLITZKRIEG_LABEL:9 "PERCÉE"
  MODERN_BLITZKRIEG_LABEL: "BATAILLE D'ANÉANTISSEMENT"
  schwerpunk: "Défaite en Détail"
  schwerpunk_desc: "Un front de force uniforme est un front de faiblesse uniforme. Dans toute opération, un point focal doit être identifié, et la force maximale doit être concentrée pour gagner à ce point."
@@ -135,7 +135,7 @@ PEACE_CONFERENCE_WHITE_PEACE: "Un §Yaccord de paix§! a été signé entre \n@$
  basic_ship_hull_submarine: "$ship_hull_submarine_2$"
  improved_ship_hull_submarine: "$ship_hull_submarine_3$"
  advanced_ship_hull_submarine: "$ship_hull_submarine_4$"
- panzerschiffe: "$ship_hull_cruiser_panzerschiff$ Coque"
+ panzerschiffe:9 "$ship_hull_cruiser_panzerschiff$ Coque"
 
  early_destroyer: "$destroyer_1$"
  basic_destroyer: "$destroyer_2$"
@@ -546,6 +546,7 @@ PEACE_CONFERENCE_WHITE_PEACE: "Un §Yaccord de paix§! a été signé entre \n@$
 
  modifier_army_sub_unit_category_mobile_infantry_max_org_factor: "Organisation Cav/Mot/Mech"
  modifier_army_sub_unit_artillery_brigade_attack_factor: "Attaque d'artillerie"
+ modifier_army_sub_unit_artillery_brigade_defence_factor:0 "Défense d'Artillerie"
 
  modifier_unit_militia_design_cost_factor: "$militia$ Coût de conception de l'Unité"
  modifier_unit_irregular_infantry_design_cost_factor: "$irregular_infantry$ Coût de conception de l'Unité"
@@ -579,6 +580,14 @@ PEACE_CONFERENCE_WHITE_PEACE: "Un §Yaccord de paix§! a été signé entre \n@$
  upgrade_suicide_pills: "Pilules de Suicide"
  upgrade_training_centers: "Centres d'Entraînement Localisés"
  upgrade_commando_training: "Entraînement Commando"
+
+### plane_designer_l_english
+ small_plane_cas_airframe_5:9 "Cellule d'Appui Aérien Rapproché Supersonique"
+ small_plane_cas_airframe_5_desc:9 "$small_plane_airframe_5_desc$"
+ small_plane_naval_bomber_airframe_5:9 "Cellule de Bombardier Naval Supersonique"
+ small_plane_naval_bomber_airframe_5_desc:9 "$small_plane_airframe_5_desc$"
+ small_plane_suicide_airframe_5:9 "Cellule Suicide Supersonique"
+ small_plane_suicide_airframe_5_desc:9 "$small_plane_airframe_5_desc$"
 
 ### politics_l_english
  POLITICS_LEADER: "§TChef du pays : $LEADER|H$§!"
@@ -647,6 +656,7 @@ PEACE_CONFERENCE_WHITE_PEACE: "Un §Yaccord de paix§! a été signé entre \n@$
  vast_offensives_desc: "Dès qu'une brèche est ouverte, elle doit être exploitée sans ménagement. Ainsi, une offensive d'envergure, capable de percer les lignes de l'ennemi, rendra leur défense difficile, impossible, voire inutile."
  mechanized_wave: "Vague mécanisée"
  mechanized_wave_desc: "Les troupes mécanisées sont idéales pour effectuer les avances rapides qui permettent d'exploiter les percées, aussi bien par l'appui qu'elles apportent aux blindés que pour sécuriser les flancs des brèches."
+ human_infantry_offensive:9 "Assaut par Vagues Multiples"
  continuous_offensive_desc: "Même si les percées sont convenablement exploitées, tôt ou tard l'attaquant s'épuise. Les défenseurs peuvent alors se réorganiser et former de nouvelles lignes défensives. Mais si les réserves sont suffisantes, une offensive bien planifiée peut se poursuivre en profondeur, tournant au désastre pour l'ennemi."
  infantry_weapons2_desc: "Armement individuel et collectif des fantassins, comprenant aussi d'autres types de matériels indispensables à tout soldat. Les modèles d'armes ont été améliorés, et le matériel plus spécialisé."
  improved_infantry_weapons_2_desc: "Armement individuel et collectif des fantassins, comprenant aussi d'autres types de matériels indispensables à tout soldat. Les modèles d'armes ont été améliorés, et le matériel plus spécialisé."
@@ -731,7 +741,7 @@ PEACE_CONFERENCE_WHITE_PEACE: "Un §Yaccord de paix§! a été signé entre \n@$
  DEEP_BATTLE_LABEL: "OPÉRATIONS EN PROFONDEUR"
  MASS_MOBILIZATION_LABEL: "MOBILISATION DE MASSE"
  MASS_MOBILIZATION_LABEL_TT: "Optimise le recrutement afin d'assurer la puissance par le nombre."
- STRATEGIC_DESTRUCTION_DESC: "Bombarder ses usines, de nuit comme (plus dangereusement) de jour, va porter un coup sérieux à la machine de guerre de l'ennemi."
+ STRATEGIC_DESTRUCTION_DESC:9 "Bombarder ses usines, de nuit comme (plus dangereusement) de jour, va porter un coup sérieux à la machine de guerre de l'ennemi."
  cat_mechanized_equipment: "Modèles de véhicules mécanisés"
  armor:0 "Blindage"
  convoy_defense_tree: "Doctrines de défense de convois"

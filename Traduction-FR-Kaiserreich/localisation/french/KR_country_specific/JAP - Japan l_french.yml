@@ -207,6 +207,7 @@ maizuru_naval_arsenal: "Maizuru Naval Arsenal"
 
 ### Global Flags ###
  JAP_defeated_by_china: "Le Japon s'est retiré de la Chine"
+ JAP_Fading_Sun:9 "§rL'empire colonial japonais est dissous§!"
 
 ### Ideas ###
 JAP_narrow_rail: "Chemins de fer à voie étroite"
@@ -284,7 +285,7 @@ JAP_Imperial_Family_powerless_desc: "Le Congrès a décidé d'abolir les titres 
  JAP_disarmed_nation_idea:0 "Nation désarmée"
  JAP_disarmed_nation_idea_desc: "Sur ordre de son nouvel occupant étranger, l'ensemble de l'armée, de la marine et de l'aviation de l'Empire du Japon doit être dissous pour l'instant, en guise de punition pour les guerres impérialistes menées par le Japon à travers l'Asie. Tant que le Japon n'aura pas regagné la confiance de son suzerain, il n'y aura plus de forces armées pour l'instant."
  JAP_jpel_influence_idea: "Défections Vers le JPEL"
- JAP_jpel_influence_idea_desc: "La Ligue d'émancipation du peuple japonais est composée de soldats japonais qui ont décidé de se rendre au Kuomintang et de réfugiés fuyant nos terres. Ouverte à tous, la JPEL rassemble de nombreux citoyens mécontents de notre nation avec la promesse d'une nouvelle aube au Japon qui annoncera la fin du militarisme. Les défections au sein de la JPEL ont nui à notre moral et à notre détermination."
+ JAP_jpel_influence_idea_desc:9 "La Ligue d'émancipation du peuple japonais est composée de soldats japonais qui ont décidé de se rendre au Kuomintang et de réfugiés fuyant nos terres. Ouverte à tous, la JPEL rassemble de nombreux citoyens mécontents de notre nation avec la promesse d'une nouvelle aube au Japon qui annoncera la fin du militarisme. Les défections au sein de la JPEL ont nui à notre moral et à notre détermination."
 
  # Socialist & CHI KMT
  JAP_sister_republic_idea: "République Sœur"
@@ -376,13 +377,7 @@ JAP_Imperial_Family_powerless_desc: "Le Congrès a décidé d'abolir les titres 
  JAP_sw_warplan_research_time_tt: "Fixe la durée de toutes les  Décisions de £GFX_decision_icon_small §YPlannifier la Guerre Contre§! à $RIGHT|0+$ jours."
  JAP_change_war_prep: "Modifie les Décisions £GFX_decision_icon_small  §HPlannifier la Guerre Contre§! par\n Renseignement de l'Armée contre le §HPays Cible§! : [?0.15|+=0%]"
  JAP_change_war_prep_not_lar: "Modifie les Décisions £GFX_decision_icon_small  §HPlannifier la Guerre Contre§! par\n Décryptage contre le §HPays Cible§! : [?0.10|+=0%]"
- JAP_modify_trad_equip: "Modifie §H$JAP_equipment_modernisation$§! par"
- JAP_modification_equip: "£GFX_production_cost  Coût de Production : [?-0.1|=-%]"
- JAP_modify_arty: "$JAP_modify_trad_equip$\n§HArtillerie Tractée§!: $JAP_modification_equip$"
- JAP_modify_supp: "$JAP_modify_trad_equip$\n§HÉquipement de Soutien§!: $JAP_modification_equip$"
- JAP_backbone_of_the_army_tt: "$JAP_modify_trad_equip$\n$MODIFIER_ARMY_INFANTRY_ATTACK_FACTOR$: [?0.10|1+=%]\n$MODIFIER_ARMY_INFANTRY_DEFENCE_FACTOR$: [?0.10|1+=%]\n$MODIFIER_NO_SUPPLY_GRACE$: [?48.0|1+=] Heures"
  JAP_decision_unlocked_during_war: "Cette £GFX_decision_icon_small §HDécision§! deviendra visible une fois en guerre avec le pays cible !"
- JAP_modify_cav: "$JAP_modify_trad_equip$\n$MODIFIER_CAVALRY_ATTACK_FACTOR$: [?0.10|1+=%]\n$MODIFIER_CAVALRY_DEFENCE_FACTOR$: [?0.10|1+=%]"
 
 ### Long War
  # Decisions
@@ -399,13 +394,7 @@ JAP_Imperial_Family_powerless_desc: "Le Congrès a décidé d'abolir les titres 
  JAP_war_ready_equipment_2: "Équipement Prêt Pour la Guerre II"
  JAP_war_ready_equipment_3: "Équipement Prêt Pour la Guerre III"
  JAP_modernization_complete: "Modernisation de l'Armée Achevée"
- JAP_has_researched_support_weapons: "A recherché §YArmes de Soutien I§!"
- JAP_has_researched_infantry_weapons2: "A recherché §YÉquipement d'Infanterie Amélioré I§!"
- JAP_has_researched_improved_infantry_weapons: "A recherché §YArmes II§!"
- JAP_has_researched_artillery1: "A recherché §YArtillerie Améliorée§!"
- JAP_has_researched_mechanised_infantry: "A recherché §YInfanterie Mécanisées§!"
- JAP_has_researched_improved_light_tank: "A recherché §YChars Légers Améliorés§!"
- JAP_has_researched_basic_medium_tank: "A recherché §YChars Moyens de Base§!"
+
  # Ideas
  JAP_research_modernisation_lw: "Modernisation de la Recherche"
  JAP_staff_modernisation_lw: "Modernisation du Personnel"
@@ -415,13 +404,13 @@ JAP_Imperial_Family_powerless_desc: "Le Congrès a décidé d'abolir les titres 
  JAP_long_war_army_lw: "Armée de Longue Guerre"
  # Tooltips
  JAP_unlock_development_plans: "Déverrouille les Décisions de £GFX_decision_icon_small §YPlan de Développement§!, permettant de bénéficier de puissants avantages une fois que des objectifs spécifiques ont été atteints !"
- JAP_has_completed_x_mil: "A terminé §H[?JAP_mil_foci_to_do]§!Priorités Nationales d'armée (Actuellement : [?JAP_compled_mil_focuses|Y0])"
+ JAP_has_completed_x_mil:9 "A terminé $RIGHT|Y0$ priorités Nationales d'armée (Actuellement : [?JAP_compled_mil_focuses|Y0])"
  JAP_research_slot_warning: "Cet emplacement de recherche sera conservé pendant §H365§! jours."
  JAP_deploy_tanks: "Crée ne unité £GFX_nato_unit_light_armor_icon_small  §YDokuritsu Konsei Ryodan II§!:\n   x §Y5§! £GFX_nato_unit_light_armor_icon_small  Bataillon de Chars Légers\n   x §Y5§! £GFX_nato_unit_motorized_icon_small  Bataillon Motorisé\n      - £GFX_nato_unit_artillery_icon_small  Compagnie d'Artillerie\n      - £GFX_nato_unit_recon_icon_small  Détachement de Reconnaissance Motorisé"
  JAP_unlock_new_triangular: "Déverrouille le nouveau modèle £GFX_nato_unit_infantry_icon_small  §YSantanisei Shidan§!:\n   x §Y9§! £GFX_nato_unit_infantry_icon_small  Bataillon d'Infanterie\n   x §Y3§! £GFX_nato_unit_artillery_icon_small  Bataillon d'Artillerie\n      - £GFX_nato_unit_engineer_icon_small  Compagnie d'Ingénieurs\n      - £GFX_nato_unit_artillery_icon_small  Compagnie d'Artillerie\n      - £GFX_nato_unit_recon_icon_small  Détachement de Reconnaissance de Cavalerie"
- JAP_war_ready_industries_3_complete: "A achevé la modernisation de l'industrie."
- JAP_war_ready_soldiers_3_complete: "A achevé la modernisation du personnel."
- JAP_war_ready_equipment_3_complete: "A achevé la modernisation de l'équipement."
+ JAP_war_ready_industries_3_complete:9 "A achevé la modernisation de l'industrie."
+ JAP_war_ready_soldiers_3_complete:9 "A achevé la modernisation du personnel."
+ JAP_war_ready_equipment_3_complete:9 "A achevé la modernisation de l'équipement."
  JAP_merge_into_modern_army: "Fusionne §H$JAP_equipment_modernisation$§!, §H$JAP_research_modernisation_lw$§!, et §H$JAP_staff_modernisation_lw$§! into §H$JAP_long_war_army_lw$§!\nChangement effectif :\n$MODIFIER_CONSCRIPTION_TOTAL_FACTOR$: §G10%§!\n$MODIFIER_STABILITY_WAR_FACTOR$: [?0.10|+=%]"
 
 ### Tooltips ###
@@ -483,9 +472,6 @@ JAP_unlock_nippon_oil: "Déverrouille la société §YNippon Oil§!"
  JAP_destroy_degenerative_individualism_tt: "La prise de cette priorité va temporairement §Gappaiser§! les autres factions de notre gouvernement, nous permettant de passer une priorité de réforme sans encourir de pénalités en termes de stabilité."
  JAP_Curtail_Zaibatsu_tt: "Nous pourrons soit augmenter notre vitesse de construction, mais aussi nos coûts de conception, soit simplement gagner des usines !"
 
- JAP_ennoble_the_national_spirit_tt_1: "§gSi nous avons terminé §Y$JAP_continue_zaibatsu_ties$§!§!:"
- JAP_ennoble_the_national_spirit_tt_2: "§gSi nous avons terminé §Y$JAP_curtail_the_zaibatsu$§!:§!"
-
  JAP_divert_workers_towards_production_cost_tt: "£pol_power  §Y40§! £manpower_texticon  §H200000§!"
  JAP_divert_workers_towards_production_cost_tt_blocked: "£pol_power  §R40§! £manpower_texticon  §R200000§!"
 
@@ -546,7 +532,6 @@ ETS_will_discuss_this: "[ETS.GetNameDefCap] deviendra plus amical avec nous"
 
  # Navy tooltips
  JAP_third_circle_tt: "§YDeux porte-avions§! et §Ydeux cuirassés§! commenceront leur construction, tous à partir d'un avancement de §G40%§!."
- JAP_the_zero_tt: "Ajoute la technologie : §H$JAP_cv_fighter_equipment_2$§!"
  JAP_the_zero_bba_tt: "Si §Y Petite cellule améliorée §! a été recherché avant de terminer cette priorité, nous obtiendrons à la place un modèle de §H Chasseur 1940 (Variante embarquée) §!, et un bonus de recherche pour les futurs technologies de §H moteurs§!."
  JAP_the_zero_not_bba_tt: "Si §YA6M Rei-sen§! a été recherché avant de terminer cette priorité, nous recevrons à la place un §HChasseur 1940 (Variante Porte-avions)§! amélioré."
  JAP_complete_the_fourth_circle_plan: "Compléter le Plan du Cercle"
@@ -663,10 +648,14 @@ JAP_fading_sun: "Le soleil qui s'éteint"
  JAP_fading_sun_timer_enemy:0 "Le Soleil Couchant"
  JAP_fading_sun_timer_enemy_desc: "La perte de la péninsule coréenne et de Port Arthur aux mains de forces étrangères porte un coup sérieux aux efforts de guerre du Japon. À moins qu'il ne parvienne à reprendre pied sur le continent, l'agitation intérieure suscitée par les nombreuses défaites que nous lui avons infligées obligera bientôt l'Empire du Soleil Levant à s'asseoir à la table des négociations."
 
+ JAP_fading_sun_available_tt:9 "§Y[JAP.GetNameDefCap]§! a entièrement repris le contrôle de la Corée"
+
  JAP_offer_peace_to_china: "Offrir la paix à la Chine"
  JAP_offer_peace_to_china_desc: "Les Chinois ont vaincu nos armées et contrôlent maintenant la Mandchourie et la Corée. Bien qu'ils soient incapables d'envahir les îles de la patrie, la honte et l'humiliation de cette défaite ont déclenché une agitation interne massive. Le meilleur plan d'action est maintenant de négocier une paix, quelle que soit la honte, et de se tourner vers la lutte contre nos nouveaux problèmes internes."
  JAP_offer_peace_to_russia: "Offrir la Paix à [From.GetNameDef]"
  JAP_offer_peace_to_russia_desc: "Les Russes ont vaincu nos armées et contrôlent désormais nos territoires sur le continent, se vengeant une fois pour toutes de leur défaite de 1905. Bien qu'ils soient incapables d'envahir les îles de la patrie, la honte et l'humiliation de cette défaite ont déclenché une agitation interne massive. Le meilleur plan d'action est maintenant de négocier une paix, quelle que soit la honte, et de se tourner vers la lutte contre nos nouveaux problèmes internes."
+
+ JAP_offer_peace_available_tt:9 "§Y[JAP.GetNameDefCap]§! ou ses alliés ne contrôlent aucun pays de Corée"
 
  JAP_will_surrender_if_forced_out_of_china: "Effet si le Japon ne contrôle aucun État en Chine continentale :"
  JAP_all_chinese_allies_capitulated: "Tous les alliés de la Chine en Asie continentale ont capitulé."
@@ -685,6 +674,8 @@ JAP_attack_australia: "Attaquer [From.GetNameDef]"
 JAP_attack_australia_desc: "[From.GetNameDefCap] se situe dans notre sphère d'intérêt du Pacifique, et le temps est venu de faire respecter notre volonté à leur égard."
  JAP_demand_hawaii: "Exiger Hawaï de la part de [From.GetNameDef]"
  JAP_demand_hawaii_desc: "La deuxième guerre civile américaine a montré que le gouvernement américain n'était pas en mesure de s'occuper correctement des habitants d'Hawaï. En tant que nouvelle puissance incontestée dans le Pacifique, il n'est que juste que nous exigions que les îles Hawaï nous soient cédées, afin d'assurer une protection mutuellement bénéfique sous notre direction. En cas de refus, la guerre sera déclarée."
+ JAP_take_over_sakhalin:9 "S'emparer du nord de Sakhaline"
+ JAP_take_over_sakhalin_desc:9 "La moitié nord contient tout le pétrole de l'île de Karafuto. Avec un gouvernement faible qui contrôle l'Extrême-Orient et la Russie en arrière-plan, nous n'avons jamais eu autant de chances de nous en emparer !"
  JAP_attack_russia: "Attaquer [From.GetNameDefCap]"
  JAP_attack_russia_desc: "Alors que nous avons réalisé le rêve de coprospérité dans une Asie libérée de l’exploitation européenne, [From.GetNameDef] reste une épine dans notre pied, toujours amer suite à leur défaite en 1905. Nous ne pouvons pas les laisser mettre en péril notre grand projet, et des mesures préventives doivent être prises pour les neutraliser pour de bon."
 
@@ -951,11 +942,11 @@ JAP_rapid_industrialisation_desc: "Bien que notre économie soit en croissance e
  JAP_logistics_corps: "Corps Logistique"
  JAP_logistics_corps_desc: "Une branche de l'armée chargée des questions logistiques - qui veille à ce que nous disposions du matériel nécessaire, de la maintenance, des informations, etc. - nous aidera à surmonter les conditions difficiles, en particulier sur certains des terrains les plus défavorables d'Asie."
  JAP_envolepment_tactics: "Tactiques d'Enveloppement"
- JAP_envolepment_tactics_desc: "S'il y a une leçon à tirer de la Grande Guerre, c'est que les assauts frontaux seuls sont rarement décisifs. Il est de loin préférable de percer les flancs de l'ennemi et d'attaquer l'arrière, ce qui provoque une grande désorganisation à moindre coût pour nos propres forces."
+ JAP_envolepment_tactics_desc:9 "S'il y a une leçon à tirer de la Grande Guerre, c'est que les assauts frontaux seuls sont rarement décisifs. Il est de loin préférable de percer les flancs de l'ennemi et d'attaquer l'arrière, ce qui provoque une grande désorganisation à moindre coût pour nos propres forces."
  JAP_expand_the_engineer_corps: "Développer le Corps des Ingénieurs de l'Armée"
  JAP_expand_the_engineer_corps_desc:0 "Compte tenu de la variété des terrains sur lesquels nous allons nous battre, combinée au manque fréquent d'infrastructures en Asie, la création d'un corps d'ingénieurs spécialisés serait un atout majeur pour nos forces armées. Nous consacrerons des fonds à la création d'une telle unité."
  JAP_update_the_imperial_war_college: "Mise à Jour de l'Imperial War College"
- JAP_update_the_imperial_war_college_desc: "L'École de guerre de l'armée forme les meilleurs officiers de notre pays. Inspirées à l'origine par l'école d'état-major prussienne, ses techniques d'enseignement n'ont pratiquement pas changé en cinquante ans. Il est temps que cette institution vénérée soit adaptée aux normes modernes."
+ JAP_update_the_imperial_war_college_desc:9 "L'École de guerre de l'armée forme les meilleurs officiers de notre pays. Inspirées à l'origine par l'école d'état-major prussienne, ses techniques d'enseignement n'ont pratiquement pas changé en cinquante ans. Il est temps que cette institution vénérée soit adaptée aux normes modernes."
 
 ### Focuses - Navy ###
  JAP_start_the_third_circle_plan: "Lancer le Plan du Troisième Cercle"
@@ -979,7 +970,7 @@ JAP_rapid_industrialisation_desc: "Bien que notre économie soit en croissance e
  JAP_expand_shipping_capacity: "Accroître la Capacité d'Expédition"
  JAP_expand_shipping_capacity_desc: "Les navires de guerre sont peut-être plus impressionnants, mais la marine marchande est tout aussi importante, sinon plus, pour soutenir l'effort de guerre. C'est particulièrement vrai pour nous qui, en tant que nation insulaire, devons nécessairement importer des ressources et approvisionner nos forces expéditionnaires par voie maritime."
  JAP_start_the_fourth_circle_plan: "[GetMaruKeikaku]"
- JAP_start_the_fourth_circle_plan_desc: "Le 4e programme de supplément d'armement naval, ou Fourth Maru Keikaku, est le dernier projet du ministère de la Marine pour l'expansion de l'IJN. Avec un délai de six ans et un budget de plusieurs centaines de milliers de yens, nous prévoyons de produire des dizaines de navires de tous types."
+ JAP_start_the_fourth_circle_plan_desc:9 "Le 4e programme de supplément d'armement naval, ou Fourth Maru Keikaku, est le dernier projet du ministère de la Marine pour l'expansion de l'IJN. Avec un délai de six ans et un budget de plusieurs centaines de milliers de yens, nous prévoyons de produire des dizaines de navires de tous types."
  JAP_expand_personnel_reserves: "Augmenter les Réserves de Personnel"
  JAP_expand_personnel_reserves_desc: "Bien qu'on l'ignore souvent, la marine a les mêmes besoins en effectifs que l'armée de terre. En augmentant la taille de nos réserves navales, nous pourrons remplacer rapidement les pertes."
  JAP_scrap_and_build_program: "Programme de Mise au Rebut et de Construction"
@@ -1256,6 +1247,7 @@ JAP_trade_embargoed: "Embargo japonais"
  JAP_nav_tra_idea: "Navires Prospérité"
 
  # Tooltips
+ JAP_fading_sun_NOT:9 "L'empire colonial japonais n'est §Rpas§! dissous"
  JAP_may_now_invite_sphere: "Les nations non-alignées et soumises de l'Asie de l'Est peuvent maintenant être invitées dans la sphère d'influence économique du Japon"
  JAP_may_now_invest_sphere: "Peut maintenant prendre des décisions pour promouvoir l'investissement dans les membres de la sphère, ce qui - avec le temps - peut conduire à un contrôle japonais sur le pays"
  JAP_withdraws_from_sphere: "§Y[Root.GetNameDefCap]§! se retirera de la sphère économique japonaise"
@@ -1278,7 +1270,7 @@ JAP_KR_gathering_storm_desc: "Après les humiliations successives du Traité de 
  JAP_country_intro_header:0 "Se remettre de la décennie perdue"
  JAP_country_intro_content:0 "Au cours de ce que l'on a appelé la "décennie perdue", les années 20 ont été marquées par la dépression économique et l'instabilité politique au Japon. La situation était particulièrement grave dans le secteur agricole et a provoqué un changement démographique massif, les agriculteurs fuyant les campagnes déprimées pour s'installer dans les zones urbaines, inondant le marché du travail et faisant encore baisser les salaires.\n\nAprès avoir quitté la "coalition constitutionnaliste" dirigée par le Kenseikai et pris la tête du gouvernement, Inukai et son gouvernement ont réussi à étendre la sphère d'influence japonaise à la Mandchourie et aux confins de la Sibérie, acquérant ainsi un marché d'exportation vital pour l'économie japonaise, mais la situation agricole a continué à se détériorer alors que les importations agricoles bon marché de Mandchourie se déversaient dans les campagnes. À l'aube de 1936, la poursuite du réarmement et des investissements de l'État ont permis de reconstruire entièrement l'économie industrielle, mais la question de la pauvreté rurale reste chronique et non résolue"
 
- JAP_guide: "§MRéfome Électorale§! (§mLibéral de Marché§!/ §cSocial Conservateur §!/ §SSocial Démocrate §!/ §gDémocrate Autoritaire§!)\n£white_dot Forcer par le biais de la loi sur la sécurité nationale.\n£white_dot Si les §cSeiyūkai§! ont conservé leur majorité lors des élections de 1936, l'Empereur leur apportera toujours son soutien, sinon vous devrez choisir "Il est hors-la-loi !" lorsqu'il refusera de soutenir le gouvernement.\n£white_dot Si le §cSeiyūkai§! a perdu sa majorité au parlement, les partis peuvent s'unir temporairement jusqu'aux prochaines élections dans le cadre du §gGouvernement d'Unité Nationale§!, sinon des élections anticipées auront lieu, dans lesquelles le §cSeiyūkai§! ou le §mMinseitō§! peuvent l'emporter.\n£white_dot Lors des prochaines élections, vous pourrez également choisir d'élire §gKokumin Dōmei§! ou §SShakai Taishūtō§!\n\n§MPrise de Contrôle Centraliste§! (§PAutocrate Paternel§!)\n£white_dot Si les §cSeiyūkai§! perdent la majorité aux élections de 1936 et que la loi sur la sécurité nationale est adoptée, les militaires peuvent tenter un coup d'État.\n£white_dot Lorsque l'Empereur parle de la Loi sur la sécurité nationale, choisissez de vous opposer au gouvernement, ce qui provoquera un coup d'État militaire entraînant la prise du pouvoir par les §PIJA - Centralistes§!\n\n§MCoup d'État restaurateur - Hirohito§! (§NNational Populiste§!)\n£white_dot Si la loi sur la sécurité nationale est rejetée, les militaires feront un coup d'État et prendront temporairement le pouvoir en tant que §PIJA - Centralistes§!\n£white_dot Peu après, les éléments les plus radicaux de l'armée lanceront un contre-coup d'État, qui aboutira à la prise du pouvoir par les §NIJA - Restaurateurs§!\n\n"
+ JAP_guide:9 "§MRéfome Électorale§! (§mLibéral de Marché§!/ §cSocial Conservateur §!/ §SSocial Démocrate §!/ §gDémocrate Autoritaire§!)\n£white_dot Forcer par le biais de la loi sur la sécurité nationale.\n£white_dot Si les §cSeiyūkai§! ont conservé leur majorité lors des élections de 1936, l'Empereur leur apportera toujours son soutien, sinon vous devrez choisir "Il est hors-la-loi !" lorsqu'il refusera de soutenir le gouvernement.\n£white_dot Si le §cSeiyūkai§! a perdu sa majorité au parlement, les partis peuvent s'unir temporairement jusqu'aux prochaines élections dans le cadre du §gGouvernement d'Unité Nationale§!, sinon des élections anticipées auront lieu, dans lesquelles le §cSeiyūkai§! ou le §mMinseitō§! peuvent l'emporter.\n£white_dot Lors des prochaines élections, vous pourrez également choisir d'élire §gKokumin Dōmei§! ou §SShakai Taishūtō§!\n\n§MPrise de Contrôle Centraliste§! (§PAutocrate Paternel§!)\n£white_dot Si les §cSeiyūkai§! perdent la majorité aux élections de 1936 et que la loi sur la sécurité nationale est adoptée, les militaires peuvent tenter un coup d'État.\n£white_dot Lorsque l'Empereur parle de la Loi sur la sécurité nationale, choisissez de vous opposer au gouvernement, ce qui provoquera un coup d'État militaire entraînant la prise du pouvoir par les §PIJA - Centralistes§!\n\n§MCoup d'État restaurateur - Hirohito§! (§nNational Populiste§!)\n£white_dot Si la loi sur la sécurité nationale est rejetée, les militaires feront un coup d'État et prendront temporairement le pouvoir en tant que §PIJA - Centralistes§!\n£white_dot Peu après, les éléments les plus radicaux de l'armée lanceront un contre-coup d'État, qui aboutira à la prise du pouvoir par les §nIJA - Restaurateurs§!\n\n"
 
 ### Events ###
 japdom.2.t: "Dissolution de la diète"
@@ -1456,7 +1448,7 @@ japdom.58.t: "Hayashi Senjuro est mort !"
  japdom.58.b: "Nommer le Baron Hiranuma."
  japdom.58.c:0 "Gomeifuku wo inorimasu."
 
-japdom.60.t: "La sécheresse fait des ravages"
+ japdom.60.t:9 "La sécheresse fait des ravages"
 japdom.60.d: "Les zones rurales du pays étant déjà en difficulté après la décennie perdue, la sécheresse a contribué à appauvrir davantage les agriculteurs et à mettre en faillite les industries légères construites autour des produits agricoles. Les effets de la sécheresse semblent devoir se poursuivre pendant un certain temps".
  japdom.60.a: "Shō ga nai."
 
@@ -1575,7 +1567,7 @@ japdom.242.a: "Il fallait s'y attendre."
  japdom.405.desc: "Beaucoup d'émotion et de joie à Ashibari aujourd'hui, car le musée folklorique de la ville d'Abashiri a ouvert ses portes au public. Trois mille objets archéologiques et ethnographiques collectés par Yonemura Yoshio. Le musée a été conçu par Yoshiya Tanoue, élève du célèbre architecte américain Frank Lloyd Wright. Les objets du musée datent du paléolithique japonais, des périodes Jōmon et Zoku-Jōmon, jusqu'à la vie quotidienne de l'ère Shōwa, et comprennent des documents relatifs à la culture Satsumon, à la culture Okhotsk et aux Aïnous."
  japdom.405.a: "Un jour de fierté pour notre nation !"
 
- japdom.406.t: "Canon naval de 46 cm/45 Type 94"
+ japdom.406.t:9 "Canon naval de 46 cm/45 Type 94"
  japdom.406.desc: "Conçu pour la première fois sur le HMS Incomparable, un projet de très grand croiseur de combat de l'amiral britannique Jackie Fisher, le canon est resté jusqu'à présent un simple rêve d'architecte naval. À 10 heures du matin, la Terre elle-même a tremblé lorsque l'un des plus gros canons jamais construits a ouvert le feu. Ce tir est intervenu après des mois de planification du prochain "cuirassé ultime", comme l'ont surnommé certains concepteurs plus qu'enthousiastes, certains projets proposant des canons de 46 cm qui seraient capables de dominer les mers. Considéré par les défenseurs de la puissance aérienne comme un projet de prédilection et un gaspillage de ressources et de temps précieux, le canon ne sera probablement pas mis en service avant d'être monté sur son navire respectif."
  japdom.406.a: "Personne ne pourra rivaliser avec notre puissance de feu !"
 
@@ -1584,15 +1576,15 @@ japdom.242.a: "Il fallait s'y attendre."
  japdom.407.a: "Nous avons montré le meilleur de nous-mêmes au monde entier !"
  japdom.407.b: "Si vous voulez la paix, préparez-vous à la guerre !"
 
- japdom.408.t: "Achèvement du nouveau bâtiment de la Diète nationale"
+ japdom.408.t:9 "Achèvement du nouveau bâtiment de la Diète nationale"
  japdom.408.desc: "Après un certain retard dû aux troubles politiques de la dernière décennie, le nouveau bâtiment de la Diète nationale a été achevé aujourd'hui. Il est entièrement construit en matériaux japonais, à l'exception des vitraux, des serrures de porte et du système de tubes pneumatiques. Il s'agit du plus haut bâtiment du pays depuis son inauguration cet après-midi. Le toit et la tour du bâtiment pourraient avoir été inspirés par un autre candidat, Takeuchi Shinshichi, lauréat du troisième prix, et on pense qu'ils ont été choisis parce qu'ils reflétaient une architecture hybride plus moderne que les conceptions purement européennes et est-asiatiques proposées par d'autres architectes. En 1918, le ministère a organisé un concours public de design et 118 projets ont été soumis pour le nouveau bâtiment. Le lauréat du premier prix, Watanabe Fukuzo, a présenté un projet similaire à celui d'Ende et Böckmann. Le bâtiment de la Diète a été construit entre 1920 et 1936 selon un plan basé sur le projet de Fukuzo."
  japdom.408.a: "Espérons que l'attente en valait la peine !"
 
- japdom.409.t: "Séisme de 1943 à Tottori"
+ japdom.409.t:9 "Séisme de 1943 à Tottori"
  japdom.409.desc: "Le 10 septembre à 17 h 36, heure locale, un tremblement de terre de magnitude 7,0 a frappé la préfecture de Tottori. L'épicentre a été localisé dans le district de Ketaka et l'activité sismique a été enregistrée jusqu'à Okayama, sur la côte de la mer intérieure. Des centaines de personnes ont été tuées et on estime que 80 % de la ville de Tottori a été détruite, emportant avec elle de nombreux bâtiments historiques. Deux autres tremblements de terre ont eu lieu plus tôt dans l'année mais n'ont pas causé de dégâts significatifs."
  japdom.409.a: "C'est terrible !"
 
- japdom.410.t: "Achèvement de l'auditorium public de la ville de Taihoku"
+ japdom.410.t:9 "Achèvement de l'auditorium public de la ville de Taihoku"
  japdom.410.desc: "Conçu en hommage à l'ascension de l'empereur Shōwa en 1928 et pour remplacer l'ancien bureau du gouverneur de l'empire Qing pour l'île, l'auditorium public de Taihoku a vu sa construction s'achever après 4 ans, pour un coût légèrement inférieur à un million de yens. La ville jouit désormais du prestige d'être la seule grande ville dotée d'un auditorium public en dehors des îles intérieures. L'architecte en chef du projet, Ide Kaoru, conscient des graves différences de chaleur, de précipitations et d'humidité entre l'île et les îles d'origine, a cherché à souligner le caractère local de l'île tout en continuant à utiliser les conceptions architecturales modernes appliquées au reste de l'île dans le cadre d'autres projets."
  japdom.410.a: "Un bâtiment digne de l'Empereur !"
 
@@ -1721,7 +1713,7 @@ japfor.42.d: "Nous n'avons reçu aucune réponse à notre ultimatum de [From.Get
 japfor.42.a: "Déclarer la guerre !"
 japfor.42.b: "Reculez, nous ne pouvons pas risquer une guerre."
 
-japfor.43.t: "[From.GetNameDefCap] Accepte nos conditions"
+ japfor.43.t:9 "[From.GetNameDefCap] Accepte nos conditions"
 japfor.43.d: "[From.GetNameDefCap] a accepté nos conditions. Ce n'est pas si surprenant après tout : ils n'oseraient pas affronter la puissance des armées de l'Empereur !"
 japfor.43.a: "Super !"
 
@@ -1738,7 +1730,7 @@ japfor.47.t: "Les Indiens déclinent notre offre !"
 japfor.47.d: "Par manque de jugement, les diplomates de [From.GetNameDef] ont décliné notre offre magnanime d'amitié et d'alliance. Les journaux japonais ont réagi par des caricatures de chiens de salon effrayés, se moquant d'eux parce qu'ils n'étaient pas disposés à prendre les mesures nécessaires pour débarrasser le sous-continent du colonialisme".
 japfor.47.a: "Honte à eux !"
 
-japfor.54.t: "Tsingtau est à nous !"
+ japfor.54.t:9 "Tsingtau est à nous !"
 japfor.54.d: "Le port militaire allemand en Asie de l'Est est tombé aux mains de nos armées. Au lieu de leur enseigne de marine, c'est maintenant le drapeau japonais qui flotte fièrement dans la ville. Les commerçants allemands regardent nos régiments défiler dans les rues avec une expression de pierre."
 japfor.54.b: "Une grande victoire !"
 
@@ -1838,16 +1830,6 @@ japfor.206.a: "Punissez cette insolence !"
 japfor.206.b: "Dénoncez le Fengtian."
 japfor.206.c: "Garder le silence."
 
-japfor.213.t: "Nous sommes battus"
-japfor.213.d: "Malgré la grandeur de nos armées et le courage de nos hommes, les troupes japonaises sont en train de s'abattre sur le cœur de la Russie. Il est peut-être temps de faire l'impensable et de leur offrir la paix".
-japfor.213.a: "Envoyez-leur une offre."
-japfor.213.b: "Nous ne nous rendrons jamais !"
-
-japfor.214.t: "La Russie offre la paix"
-japfor.214.d: "La Russie nous a offert la Sibérie en échange de la paix, c'est une offre généreuse, acceptons-nous ?"
-japfor.214.a: "Assez de cette guerre. Nous acceptons !"
-japfor.214.b: "Rien d'autre qu'une victoire totale !"
-
 japfor.215.t: "Les Philippines ont accepté notre offre"
 japfor.215.d: "Les Philippines ont choisi de nous rejoindre, elles ont sagement vu que la résistance serait vaine et ont plutôt choisi de devenir notre allié."
 japfor.215.a: "C'est bon à entendre."
@@ -1864,7 +1846,7 @@ japfor.218.t: "Hawaii a accepté notre offre"
 japfor.218.d: "Hawaii a choisi de nous rejoindre, ils ont sagement vu que la résistance serait vaine et ont plutôt choisi de devenir notre allié."
 japfor.218.a: "C'est bon à entendre."
 
- japfor.225.t: "Les États-Unis dans le désarroi"
+ japfor.225.t:9 "Les États-Unis dans le désarroi"
  japfor.225.d: "La guerre civile a éclaté aux États-Unis, déchirant les derniers morceaux d'unité de l'Union. Cela nous donne l'occasion de supprimer la présence américaine dans le Pacifique central en occupant l'île de Guam. Le gouvernement américain ne peut pas faire grand-chose pour nous arrêter à ce stade"
  japfor.225.a: "Saisissez Guam... et réclamez encore plus !"
 japfor.225.b: "S'emparer de Guam."
@@ -1908,10 +1890,10 @@ japfor.227.a: "En effet, une lettre forte !"
  japfor.238.t: "Le Japon Offre la Paix"
  japfor.238.d: "Après avoir été complètement humilié par l'armée russe, le Japon a proposé une reddition conditionnelle, offrant une retraite totale des régions russes qu'il a illégalement occupées. Leur marine ne peut rien faire d'autre que de bloquer nos ports sur la côte Pacifique, et leur armée a été presque entièrement détruite. La plupart des chefs militaires et des ministres disent que nous devrions accepter leur reddition conditionnelle, tandis qu'une minorité suggère que nous devrions pousser pour une victoire totale, compte tenu de notre supériorité industrielle sur les Japonais."
  japfor.238.a: "Nous acceptons leurs conditions, Mukden a été vengé."
- japfor.238.b: "Nous ne serons satisfaits que lorsque notre armée marchera dans les ruines de Tokyo."
+ japfor.238.b:9 "Nous ne serons satisfaits que lorsque notre armée marchera dans les ruines de Tokyo."
 
  japfor.239.t: "La Russie accepte la Paix"
- japfor.239.d: "L'Ours Russe a accepté notre reddition conditionnelle, ce qui nous permet de retirer notre armée de l'Asie continentale pour la mettre à l'abri dans les îles d'origine. Bien que ce soit une défaite humiliante, au moins ce n'était pas une défaite totale. Notre indépendance vis-à-vis des impérialistes européens a été maintenue."
+ japfor.239.d:9 "L'Ours Russe a accepté notre reddition conditionnelle, ce qui nous permet de retirer notre armée de l'Asie continentale pour la mettre à l'abri dans les îles d'origine. Bien que ce soit une défaite humiliante, au moins ce n'était pas une défaite totale. Notre indépendance vis-à-vis des impérialistes européens a été maintenue."
  japfor.239.a: "Au moins, nos gars sont en sécurité à la maison."
 
  japfor.240.t: "Paix avec l'Empire du Soleil Couchant"
@@ -2154,7 +2136,7 @@ japfor.466.a: "Quelle excellente nouvelle !"
  japfor.600.a: "Unis nous Tenons, Divisés nous Tombons."
 
  japfor.601.t: "Les Chinois résistent à notre Glorieuse Avancée "
- japfor.601.d: "Grâce aux habiles opérations stratégiques des forces impériales et aux efforts de tous les hommes, le Japon a remporté des victoires continues. Chaque jour, les armées chinoises se désintègrent et se brisent et la victoire n'est qu'une question de temps.\nLes Chinois offrent cependant une résistance considérable à notre libération. Ils ne comprennent pas nos véritables intentions de paix et notre désir d'un front asiatique uni contre l'impérialisme allemand. Il y a même des rumeurs selon lesquelles, si notre avancée s'étendait suffisamment loin dans l'intérieur de la Chine, les Chinois détruiraient même les digues du Fleuve Jaune, sacrifiant ainsi la vie de centaines de milliers de compatriotes innocents. Un tel acte scandaleux et cruel ne sera jamais autorisé par l'homme ou le Ciel. \nNéanmoins, il ne faut pas douter de la force et de la détermination de l'armée de Sa Majesté Impériale ! C'est un honneur de mourir pour Sa Majesté alors que nous achevons la véritable destinée du Japon - réunir toute l'Asie sous un même toit."
+ japfor.601.d:9 "Grâce aux habiles opérations stratégiques des forces impériales et aux efforts de tous les hommes, le Japon a remporté des victoires continues. Chaque jour, les armées chinoises se désintègrent et se brisent et la victoire n'est qu'une question de temps.\n\nLes Chinois offrent cependant une résistance considérable à notre libération. Ils ne comprennent pas nos véritables intentions de paix et notre désir d'un front asiatique uni contre l'impérialisme allemand. Il y a même des rumeurs selon lesquelles, si notre avancée s'étendait suffisamment loin dans l'intérieur de la Chine, les Chinois détruiraient même les digues du Fleuve Jaune, sacrifiant ainsi la vie de centaines de milliers de compatriotes innocents. Un tel acte scandaleux et cruel ne sera jamais autorisé par l'homme ou le Ciel. \n\nNéanmoins, il ne faut pas douter de la force et de la détermination de l'armée de Sa Majesté Impériale ! C'est un honneur de mourir pour Sa Majesté alors que nous achevons la véritable destinée du Japon - réunir toute l'Asie sous un même toit."
  japfor.601.a: "Tennōheika Banzai !"
 
  japfor.602.t: "Guerre de Résistance contre l'Agression Japonaise"
@@ -2176,7 +2158,7 @@ japfor.466.a: "Quelle excellente nouvelle !"
  japfor.606.d: "Depuis la prise de Beijing et de Nanjing par les Japonais, ces derniers ont multiplié les opérations de propagande appelant à la paix et demandant aux seigneurs de la guerre de se retirer afin que l'unité revienne en Chine. Bien que nous sachions qu'ils profèrent des mensonges, il semble que leur rhétorique ait contaminé notre population et certains membres de notre armée."
 
  japfor.470.t: "La Grande Guerre du Pacifique"
- japfor.470.d: "Depuis la Seconde Guerre Civile Américaine, l'Empire du Japon est resté pratiquement sans opposition dans le Pacifique, et nombreux sont ceux qui prédisent qu'il deviendra la première puissance de la région, éclipsant ses rivaux américains et allemands en termes d'influence. Reconstruisant sa puissance militaire et industrielle après la guerre civile, le gouvernement américain a de nouveau jeté son dévolu sur le Pacifique, défiant ouvertement la domination du Japon - avec des rapports d'engagements navals entre les deux grandes puissances. \n\nMalgré les succès retentissants du Japon dans le Pacifique, il doit maintenant relever le défi le plus important de son histoire, car la puissance industrielle américaine se débarrasse des décombres de la guerre civile et sa machine de guerre reprend vie."
+ japfor.470.d:9 "Depuis la Seconde Guerre Civile Américaine, l'Empire du Japon est resté pratiquement sans opposition dans le Pacifique, et nombreux sont ceux qui prédisent qu'il deviendra la première puissance de la région, éclipsant ses rivaux américains et allemands en termes d'influence. Reconstruisant sa puissance militaire et industrielle après la guerre civile, le gouvernement américain a de nouveau jeté son dévolu sur le Pacifique, défiant ouvertement la domination du Japon - avec des rapports d'engagements navals entre les deux grandes puissances. \n\nMalgré les succès retentissants du Japon dans le Pacifique, il doit maintenant relever le défi le plus important de son histoire, car la puissance industrielle américaine se débarrasse des décombres de la guerre civile et sa machine de guerre reprend vie."
  worldnews_japan_vs_america_JAP: "Le soleil ne se couchera pas sur nous !"
  worldnews_japan_vs_america_JAP_allies: "Puissions-nous l'emporter, et vite !"
  worldnews_japan_vs_america_USA: "Dans un moment de faiblesse, nous avons trébuché, mais nous ne faiblirons pas !"
@@ -2188,7 +2170,7 @@ japfor.466.a: "Quelle excellente nouvelle !"
 
  japfor.471.t:0 "Le Soleil Levant"
  japfor.471.d.default: "La situation au Japon est toujours critique depuis l'accord de Tsingtao, embrouillée par de nombreuses crises économiques et troubles. Leur réponse inefficace aux interventions allemandes en Chine a conduit à l'effondrement du régime autocratique de Tanaka. Cependant, l'Empire du Soleil Levant a réussi à rebondir en tant que puissance régionale limitée aux confins de l'Asie de l'Est.\n\nAujourd'hui, les dirigeants japonais ont annoncé un nouveau plan pour s'emparer de leur place parmi les grandes puissances, par la force si cela est jugé nécessaire. Cette nouvelle a déjà commencé à atteindre Berlin, le Kaiser et la chancellerie n'ayant pas encore répondu à cette menace éhontée sur leurs possessions coloniales."
- japfor.471.d.defeated_in_china: "Le puissant empire japonais n'avait commencé à étendre ses ailes qu'après l'effondrement de la Bourse de Berlin et la domination des Qing sur la Chine. Cependant, dans une tournure choquante des événements, la Chine a réussi à submerger les forces japonaises à travers la Corée et les a complètement repoussées hors du continent. De nombreux observateurs avant ce moment auraient convenu que le Japon deviendrait la puissance dominante en Asie de l'Est, mais ce pronostic est désormais totalement incertain, après leur défaite calamiteuse.\n\nDans une récente allocution publique des dirigeants du Japon, il semble qu'ils ne soient pas troublés par ce « petit inconvénient » et qu'ils aient annoncé leur intention de redevenir une grande puissance. Seul le temps peut dire si le Japon pourra vraiment donner suite à ses ambitions."
+ japfor.471.d.defeated_in_china:9 "Le puissant empire japonais n'avait commencé à étendre ses ailes qu'après l'effondrement de la Bourse de Berlin et la domination des Qing sur la Chine. Cependant, dans une tournure choquante des événements, la Chine a réussi à submerger les forces japonaises à travers la Corée et les a complètement repoussées hors du continent. De nombreux observateurs avant ce moment auraient convenu que le Japon deviendrait la puissance dominante en Asie de l'Est, mais ce pronostic est désormais totalement incertain, après leur défaite calamiteuse.\n\nDans une récente allocution publique des dirigeants du Japon, il semble qu'ils ne soient pas troublés par ce « petit inconvénient » et qu'ils aient annoncé leur intention de redevenir une grande puissance. Seul le temps peut dire si le Japon pourra vraiment donner suite à ses ambitions."
  japfor.471.a:0 "Inquiétant."
 
 ### Fengtian Events ###
@@ -2224,11 +2206,7 @@ japfor.466.a: "Quelle excellente nouvelle !"
 
 ### Characters ###
  JAP_arahata_kanson: "Arahata Kanson"
- JAP_arahata_kanson_leader_desc: "§YDescription du dirigeant\nNaissance :§! 14 août 1887, à Eirakucho, Yokohama, Kanagawa, Empire du Japon\n§YCarrière politique :§! Le premier Président de la République Populaire du Japon, Arahata Kanson, est arrivé au pouvoir pendant le changement immédiat du paysage politique de la nation. Ayant été arrêté lors de l'Incident du Drapeau rouge, Arahata a du cacher ses tendances pro-socialistes, créant plus tard un milieu clandestin pour les activistes de gauche. Il se dit qu'Arahata pourrait être responsable de toute la violence radicale de gauche contre le régime impérial."
-
- JAP_nosaka_sanzo_leader_desc: "§YDescription du dirigeant\nNaissance :§! 30 mars 1892, à Hagi, Yamaguchi, Empire du Japon\n§YCarrière politique :§! Fils d'un marchand japonais prospère, Nosaka fut élevé dans un environnement bourgeois et fréquenta l'université Keio. Ce fut pendant son séjour à Keio que Nosaka devint intéressé par le mouvement ouvrier international, un intérêt également soutenu par un de ses professeurs, Kiichi Horie. Il compléta ensuite une étude sur une organisation ouvrière modérée connue sous le nom de "Yuaikai", et après avoir obtenu son diplôme devint éditeur du journal de l'organisation.\n\nÀ la suite de la Révolution bolchevique de 1917 puis de la Révolution française de 1919, Nosaka devint un marxiste engagé et se rendit en France en 1919, où il fit la connaissance de socialistes français et britanniques. Influent au sein de la Troisième Internationale en tant qu'un des chefs de facto du mouvement socialiste japonais naissant, il fut capable de se rapprocher du leadership de gauche du Kuomintang après leur expulsion de Chine à la suite de l'échec de la Première Expédition du Nord. Il fut impliqué dans la préparation du Soulèvement de Shanghai de 1932, orchestré à la fois par le Kuomintang et la Ligue des Syndicalistes Chinois, mais l'échec du soulèvement l'amena à participer à l'Insurrection MinGan en tant que volontaire.\n\nAprès avoir accompagné le Kuomintang pendant quelques temps et avoir été témoin du succès de la Seconde Expédition, Nosaka offrit ses services à l'Armée chinoise, aidant à faciliter la rééducation de prisonniers de guerre japonais, capturés au cours de la Seconde Guerre sino-japonaise. C'est grâce à cette tâche qu'il a gagné la confiance du KMT pour diriger la nouvelle République socialiste japonaise vers une nouvelle aube, aux côtés de leur République-sœur chinoise."
- JAP_nosaka_sanzo_advisor_desc: "§YDescription du conseiller\nNaissance :§! §g30 mars 1892, à Hagi, Yamaguchi, Empire du Japon\n§YCarrière politique :§! Fils d'un marchand japonais prospère, Nosaka fut élevé dans un environnement bourgeois et fréquenta l'université Keio. Ce fut pendant son séjour à Keio que Nosaka devint intéressé par le mouvement ouvrier international, un intérêt également soutenu par un de ses professeurs, Kiichi Horie. Il compléta ensuite une étude sur une organisation ouvrière modérée connue sous le nom de "Yuaikai", et après avoir obtenu son diplôme devint éditeur du journal de l'organisation.\n\nÀ la suite de la Révolution bolchevique de 1917 puis de la Révolution française de 1919, Nosaka devint un marxiste engagé et se rendit en France en 1919, où il fit la connaissance de socialistes français et britanniques. Influent au sein de la Troisième Internationale en tant qu'un des chefs de facto du mouvement socialiste japonais naissant, il fut capable de se rapprocher du leadership de gauche du Kuomintang après leur expulsion de Chine à la suite de l'échec de la Première Expédition du Nord. Il fut impliqué dans la préparation du Soulèvement de Shanghai de 1932, orchestré à la fois par le Kuomintang et la Ligue des Syndicalistes Chinois, mais l'échec du soulèvement l'amena à participer à l'Insurrection MinGan en tant que volontaire.\n\nAprès avoir accompagné le Kuomintang pendant quelques temps et avoir été témoin du succès de la Seconde Expédition, Nosaka offrit ses services à l'Armée chinoise. Accueillant toute aide, le Comité Central l'a autorisé à servir l'Armée Nationale Révolutionnaire chinoise en tant que général. Bien que séparé de sa patrie au service d'une autre nation, Nosaka espère un jour revenir au Japon et mettre en place une Révolution Socialiste Japonaise avec lui-même à sa tête.§!\n\n§YNotes : Espérant seulement aider la Révolution nationale chinoise, Nosaka Sanzō s'est tenu à l'écart des querelles politiques au sein du KMT et est considéré comme une figure neutre.§!"
- JAP_nosaka_sanzo_commander_desc: "§YDescription du général\nNaissance :§! §g30 mars 1892, à Hagi, Yamaguchi, Empire du Japon\n§YCarrière militaire :§! Fils d'un marchand japonais prospère, Nosaka fut élevé dans un environnement bourgeois et fréquenta l'université Keio. Ce fut pendant son séjour à Keio que Nosaka devint intéressé par le mouvement ouvrier international, un intérêt également soutenu par un de ses professeurs, Kiichi Horie. Il compléta ensuite une étude sur une organisation ouvrière modérée connue sous le nom de "Yuaikai", et après avoir obtenu son diplôme devint éditeur du journal de l'organisation.\n\nÀ la suite de la Révolution bolchevique de 1917 puis de la Révolution française de 1919, Nosaka devint un marxiste engagé et se rendit en France en 1919, où il fit la connaissance de socialistes français et britanniques. Influent au sein de la Troisième Internationale en tant qu'un des chefs de facto du mouvement socialiste japonais naissant, il fut capable de se rapprocher du leadership de gauche du Kuomintang après leur expulsion de Chine à la suite de l'échec de la Première Expédition du Nord. Il fut impliqué dans la préparation du Soulèvement de Shanghai de 1932, orchestré à la fois par le Kuomintang et la Ligue des Syndicalistes Chinois, mais l'échec du soulèvement l'amena à participer à l'Insurrection MinGan en tant que volontaire.\n\nAprès avoir accompagné le Kuomintang pendant quelques temps et avoir été témoin du succès de la Seconde Expédition, Nosaka offrit ses services à l'Armée chinoise. Accueillant toute aide, le Comité Central l'a autorisé à servir l'Armée Nationale Révolutionnaire chinoise en tant que général. Bien que séparé de sa patrie au service d'une autre nation, Nosaka espère un jour revenir au Japon et mettre en place une Révolution Socialiste Japonaise avec lui-même à sa tête.§!\n\n§YNotes : Espérant seulement aider la Révolution nationale chinoise, Nosaka Sanzō s'est tenu à l'écart des querelles politiques au sein du KMT et est considéré comme une figure neutre.§!"
+ JAP_arahata_kanson_leader_desc:9 "§YDescription du dirigeant\nNaissance :§! 14 août 1887, à Eirakucho, Yokohama, Kanagawa, Empire du Japon\n§YCarrière politique :§! Le premier Président de la République Populaire du Japon, Arahata Kanson, est arrivé au pouvoir pendant le changement immédiat du paysage politique de la nation. Ayant été arrêté lors de l'Incident du Drapeau rouge, Arahata a du cacher ses tendances pro-socialistes, créant plus tard un milieu clandestin pour les activistes de gauche. Il se dit qu'Arahata pourrait être responsable de toute la violence radicale de gauche contre le régime impérial."
 
  JAP_katayama_tetsu: "Katayama Tetsu"
  JAP_ishibashi_tanzan: "Ishibashi Tanzan"
@@ -2238,9 +2216,11 @@ japfor.466.a: "Quelle excellente nouvelle !"
  JAP_takamatsu_nobuhito: "Takamatsu Nobuhito"
 
  JAP_hirohito: "Hirohito"
- JAP_hirohito_leader_desc: "§YDescription du dirigeant\nNaissance :§! 29 avril 1901, au Palais de Tōgū, Aoyama, Tokyo, Empire du Japon\n§YCarrière politique :§! Chargé des tâches qui incombent à un Tennō, Hirohito est monté sur le trône après la mort de son père le 25 décembre 1926, régnant en tant que 124e empereur sur le trône du Chrysanthème. Auparavant, le prince régent d'alors faillit connaître un sort terrible lorsqu'il fut victime d'une tentative d'assassinat suivant le soulèvement anarchiste raté de 1923, qui cherchait à imiter ceux d'Europe. Cette expérience traumatisante a laissé une profonde cicatrice en Hirohito, et il ne pardonnera pas facilement à ceux qui tenteraient de de faire dévier le Japon de sa route. Hirohito est un homme fort et sévère qui n'hésitera pas à faire en sorte que sa nation, le Japon, soit guidée vers un avenir radieux sous son règne. Cependant, avec la montée des tensions internes et externes, on ignore ce qui contribuera à mener le Japon vers la gloire et la grandeur."
- JAP_hirohito_defeat_desc: "§YDescription du dirigeant\nNaissance :§! 29 avril 1901, au Palais de Tōgū, Aoyama, Tokyo, Empire du Japon\n§YCarrière politique :§! Chargé des tâches qui incombent à un Tennō, Hirohito est monté sur le trône après la mort de son père le 25 décembre 1926, régnant en tant que 124e empereur sur le trône du Chrysanthème. Auparavant, le prince régent d'alors faillit connaître un sort terrible lorsqu'il fut victime d'une tentative d'assassinat suivant le soulèvement anarchiste raté de 1923, qui cherchait à imiter ceux d'Europe. Cette expérience traumatisante a laissé une profonde cicatrice en Hirohito, et il ne pardonnera pas facilement à ceux qui tenteraient de de faire dévier le Japon de sa route. Hirohito est un homme fort et sévère qui n'hésitera pas à faire en sorte que sa nation, le Japon, soit guidée vers un avenir radieux sous son règne.\n\nIl semblerait que des temps difficiles et incertains se soient abattus sur l'ancienne grande puissance japonaise. Jadis considérée comme la plus grande puissance navale de toute l'Asie de l'Est, digne de rivaliser avec la Kaiserliche Marine, l'ambition audacieuse de l'Empire japonais s'est rapidement révélée être sa perte. Après une campagne terrestre et maritime victorieuse des forces ennemies, le Japon est complètement occupé pour la première fois de son histoire. Hirohito reste le chef d'État nominal et l'Empereur du peuple japonais, mais seul l'avenir nous dira si cet arrangement est permanent ou non."
- JAP_hirohito_symbol_desc: "§Y Description du leader §!\n§Y Naissance: §! le 29 avril 1901, au palais Tōgū, Aoyama, Tokyo, Empire du Japon\n§Y Carrière Politique : §! Chargé des fonctions dignes de Tenno, Hirohito accéda au trône après la mort de son père le 25 décembre 1926, régnant en tant que 124ème Empereur à s'asseoir sur le trône du Chrysanthème. Avant cela, le prince régent de l'époque avait failli connaître un sort terrible lorsqu'il avait failli être assassiné à la suite de l'échec du soulèvement anarchiste de 1923, qui cherchait à imiter ceux qui se déroulaient en Europe. Cette expérience traumatisante a laissé une profonde cicatrice en Hirohito et il ne pardonnera pas facilement à quiconque tenterait d’égarer le Japon. Hirohito est un homme fort et sévère qui n'hésitera pas à veiller à ce que sa nation, le Japon, soit guidée vers un avenir radieux sous son règne.\n\nIl semblerait que des temps difficiles et incertains mettent en danger l’ancienne grande puissance japonaise. Autrefois considérée comme la puissance navale la plus puissante de toute l'Asie de l'Est, capable de rivaliser avec la Kaiserliche Marine, l'ambition audacieuse de l'Empire Japonais allait bientôt se révéler être sa chute. Après une campagne victorieuse sur terre et sur mer menée par les forces ennemies, le Japon s'est retrouvé occupé pour la première fois de son histoire. Avec la création d'un nouvel État Japonais, il a été définitivement décidé que le rôle de l'empereur serait celui d'être le symbole de l'État japonais et de l'unité du peuple japonais, sans disposer de pouvoirs politiques nominaux.\n"
+ JAP_hirohito_leader_desc:9 "§YDescription du dirigeant\nNaissance :§! 29 avril 1901, au Palais de Tōgū, Aoyama, Tokyo, Empire du Japon\n§YCarrière politique :§! Chargé des tâches qui incombent à un Tennō, Hirohito est monté sur le trône après la mort de son père le 25 décembre 1926, régnant en tant que 124e empereur sur le trône du Chrysanthème. Auparavant, le prince régent d'alors faillit connaître un sort terrible lorsqu'il fut victime d'une tentative d'assassinat suivant le soulèvement anarchiste raté de 1923, qui cherchait à imiter ceux d'Europe. Cette expérience traumatisante a laissé une profonde cicatrice en Hirohito, et il ne pardonnera pas facilement à ceux qui tenteraient de de faire dévier le Japon de sa route. Hirohito est un homme fort et sévère qui n'hésitera pas à faire en sorte que sa nation, le Japon, soit guidée vers un avenir radieux sous son règne. Cependant, avec la montée des tensions internes et externes, on ignore ce qui contribuera à mener le Japon vers la gloire et la grandeur."
+ JAP_hirohito_desc_body:9 "Chargé des fonctions de Tenno, Hirohito est monté sur le trône à la mort de son père le 25 décembre 1926, devenant ainsi le 124e empereur à s'asseoir sur le trône du chrysanthème. Avant cela, le prince régent de l'époque avait failli être assassiné à la suite de l'échec du soulèvement anarchiste de 1923, qui cherchait à imiter ceux qui se produisaient en Europe. Cette expérience traumatisante a laissé une profonde cicatrice chez Hirohito et il ne pardonnera pas facilement à quiconque tenterait d'égarer le Japon. Hirohito est un homme fort et sévère qui n'hésitera pas à faire en sorte que sa nation, le Japon, soit guidée vers un avenir radieux sous son règne."
+ JAP_hirohito_defeat_desc_body:9 "Il semblerait que des temps difficiles et incertains se soient abattus sur l'ancienne grande puissance japonaise. Autrefois considérée comme la plus grande puissance navale de toute l'Asie de l'Est, digne de rivaliser avec la Kaiserliche Marine, l'ambition audacieuse de l'Empire japonais s'est rapidement révélée être sa perte. Après une campagne terrestre et maritime victorieuse des forces ennemies, le Japon est complètement occupé pour la première fois de son histoire."
+ JAP_hirohito_defeat_leader_desc:9 "§YBorn:§! §LApril 29th, 1901, in Tōgū Palace, Aoyama, Tokyo, Empire of Japan§!\n§YBackground:§! §L$JAP_hirohito_desc_body$\n\n$JAP_hirohito_defeat_desc_body$ While Hirohito continues to remain the nominal head of state and the Emperor of the Japanese people, only time will tell whether or not this arrangement is permanent.§!"
+ JAP_hirohito_symbol_leader_desc:9 "§YBorn:§! §LApril 29th, 1901, in Tōgū Palace, Aoyama, Tokyo, Empire of Japan§!\n§YBackground:§! §L$JAP_hirohito_desc_body$\n\n$JAP_hirohito_defeat_desc_body$ With the creation of a new Japanese state it was decided for good that the emperor's role should be being the symbol of the Japanese state and the unity of the Japanese people without even nominal political powers.§!"
 
  JAP_terauchi_hisaichi: "Terauchi Hisaichi"
  JAP_hata_shunroku: "Hata Shunroku"
@@ -2335,6 +2315,10 @@ japfor.466.a: "Quelle excellente nouvelle !"
 
  ### Socialist Advisors ###
  JAP_nosaka_sanzo: "Nosaka Sanzō"
+ JAP_nosaka_sanzo_desc_body:9 "The son of a prosperous Japanese merchant, Nosaka was raised in a bourgeois environment and attended Keio University. It was at his time in Keio, that Nosaka became interested in the international labour movement, an interest that was supported by one of his professors, Kiichi Horie. He then completed a study on a moderate labour organisation known as the \"Yuaikai\" and after graduation; he became an editor for the organisation's journal.\n\nFollowing the 1917 Bolshevik Revolution and the subsequent 1919 French Revolution, Nosaka became a committed Marxist and arrived in France in 1919, where he became acquainted with British and French socialists. Influential through the Third Internationale as one of the de facto leaders of Japan's budding socialist movement, he was able to grow close to the Kuomintang's leftist leadership following their expulsion from China following the failure of the First Northern Expedition. He was involved in preparations for the 1932 Shanghai Uprising orchestrated by both the Kuomintang and the League of Chinese Syndicalists, but the uprising's failure led him to participate in the Mingan insurgency as a volunteer.\n\nAfter having accompanied the Kuomintang for some time and witnessing the success of the Second Expedition, Nosaka pledged his services to the Chinese Army"
+ JAP_nosaka_sanzo_leader_desc:9 "§YDescription du dirigeant\nNaissance :§! 30 mars 1892, à Hagi, Yamaguchi, Empire du Japon\n§YCarrière politique :§! Fils d'un marchand japonais prospère, Nosaka fut élevé dans un environnement bourgeois et fréquenta l'université Keio. Ce fut pendant son séjour à Keio que Nosaka devint intéressé par le mouvement ouvrier international, un intérêt également soutenu par un de ses professeurs, Kiichi Horie. Il compléta ensuite une étude sur une organisation ouvrière modérée connue sous le nom de "Yuaikai", et après avoir obtenu son diplôme devint éditeur du journal de l'organisation.\n\nÀ la suite de la Révolution bolchevique de 1917 puis de la Révolution française de 1919, Nosaka devint un marxiste engagé et se rendit en France en 1919, où il fit la connaissance de socialistes français et britanniques. Influent au sein de la Troisième Internationale en tant qu'un des chefs de facto du mouvement socialiste japonais naissant, il fut capable de se rapprocher du leadership de gauche du Kuomintang après leur expulsion de Chine à la suite de l'échec de la Première Expédition du Nord. Il fut impliqué dans la préparation du Soulèvement de Shanghai de 1932, orchestré à la fois par le Kuomintang et la Ligue des Syndicalistes Chinois, mais l'échec du soulèvement l'amena à participer à l'Insurrection MinGan en tant que volontaire.\n\nAprès avoir accompagné le Kuomintang pendant quelques temps et avoir été témoin du succès de la Seconde Expédition, Nosaka offrit ses services à l'Armée chinoise, aidant à faciliter la rééducation de prisonniers de guerre japonais, capturés au cours de la Seconde Guerre sino-japonaise. C'est grâce à cette tâche qu'il a gagné la confiance du KMT pour diriger la nouvelle République socialiste japonaise vers une nouvelle aube, aux côtés de leur République-sœur chinoise."
+ JAP_nosaka_sanzo_commander_desc:9 "§YDescription du général\nNaissance :§! §g30 mars 1892, à Hagi, Yamaguchi, Empire du Japon\n§YCarrière militaire :§! Fils d'un marchand japonais prospère, Nosaka fut élevé dans un environnement bourgeois et fréquenta l'université Keio. Ce fut pendant son séjour à Keio que Nosaka devint intéressé par le mouvement ouvrier international, un intérêt également soutenu par un de ses professeurs, Kiichi Horie. Il compléta ensuite une étude sur une organisation ouvrière modérée connue sous le nom de "Yuaikai", et après avoir obtenu son diplôme devint éditeur du journal de l'organisation.\n\nÀ la suite de la Révolution bolchevique de 1917 puis de la Révolution française de 1919, Nosaka devint un marxiste engagé et se rendit en France en 1919, où il fit la connaissance de socialistes français et britanniques. Influent au sein de la Troisième Internationale en tant qu'un des chefs de facto du mouvement socialiste japonais naissant, il fut capable de se rapprocher du leadership de gauche du Kuomintang après leur expulsion de Chine à la suite de l'échec de la Première Expédition du Nord. Il fut impliqué dans la préparation du Soulèvement de Shanghai de 1932, orchestré à la fois par le Kuomintang et la Ligue des Syndicalistes Chinois, mais l'échec du soulèvement l'amena à participer à l'Insurrection MinGan en tant que volontaire.\n\nAprès avoir accompagné le Kuomintang pendant quelques temps et avoir été témoin du succès de la Seconde Expédition, Nosaka offrit ses services à l'Armée chinoise. Accueillant toute aide, le Comité Central l'a autorisé à servir l'Armée Nationale Révolutionnaire chinoise en tant que général. Bien que séparé de sa patrie au service d'une autre nation, Nosaka espère un jour revenir au Japon et mettre en place une Révolution Socialiste Japonaise avec lui-même à sa tête.§!\n\n§YNotes : Espérant seulement aider la Révolution nationale chinoise, Nosaka Sanzō s'est tenu à l'écart des querelles politiques au sein du KMT et est considéré comme une figure neutre.§!"
+
  JAP_yamakawa_hitoshi: "Yamakawa Hitoshi"
  JAP_yamakawa_kikue: "Yamakawa Kikue"
  JAP_osugi_sakae: "Ōsugi Sakae"

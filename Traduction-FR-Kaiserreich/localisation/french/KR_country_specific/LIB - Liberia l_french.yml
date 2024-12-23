@@ -21,7 +21,7 @@ LIB_national_populist_party: "GLL"
  LIB_national_populist_party_long: "Grande Loge du Liberia"
 
  LIB_german_liberian_federation: "DLB"
- LIB_german_liberian_federation_long: "Deutsch-Liberianische Bund"
+ LIB_german_liberian_federation_long:9 "Deutsch-Liberianische Bund"
 
 ### Cosmetic Tags ###
  LIB: "Libéria"
@@ -29,14 +29,11 @@ LIB_national_populist_party: "GLL"
  LIB_DEF: "le Libéria"
 
 LIB_totalist: "République Socialiste du Libéria"
-LIB_totalist_ADJ: "Libérien"
 LIB_totalist_DEF: "la République Socialiste du Libéria"
 LIB_syndicalist: "République Socialiste du Libéria"
-LIB_syndicalist_ADJ: "Libérien"
 LIB_syndicalist_DEF: "la République Socialiste du Libéria"
 
  LIB_GER_subject:0 "Dominion du Libéria"
- LIB_GER_subject_ADJ:0 "Libérien"
  LIB_GER_subject_DEF:0 "le Dominion du Libéria"
 
 ### Ideas ###
@@ -46,8 +43,9 @@ LIB_massive_debt_desc: "Le Liberia est envahie par la dette du fait de nombreux 
 LIB_massive_debt_1: "Crise de la dette"
 LIB_massive_debt_1_desc: "Le Liberia est envahie par la dette du fait de nombreux projets ratés les années précédentes. Maintenant non seulement, les investissements économiques sont complexes, mais aussi le remboursement devient de plus en plus difficile."
 
-LIB_bailout_usa_2: "Un sauvetage américain"
-LIB_firestone_bailout: "Le renflouement de Firestone"
+ LIB_bailout_usa_idea:9 "Renflouement américain"
+ LIB_bailout_ger_idea:0 "Renflouement allemand"
+ LIB_firestone_bailout_idea:0 "Renflouement de Firestone"
 LIB_tax_exemption_idea: "L'Exonération fiscale américaine"
 LIB_ger_industrial_model: "Le modèle industriel allemand"
 LIB_black_monday: "Le Lundi noir libérien"
@@ -78,22 +76,11 @@ LIB_freemason_purge_1: "Purge des étrangers"
 LIB_freemason_purge_2: "Purge des Socialistes"
 LIB_freemason_purge_3: "Purge des Republicans"
 
-### Tooltips ###
+### Country Flags ###
  LIB_1939_elections_held: "Les élections de 1939 ont eu lieu\n"
-LIB_receive_militias: "Gain de trois divisions de milicen\n"
-LIB_internal_decisions: "Industrie de guerre importée"
-LIB_obtain_dockyard_access: "Payer pour l'utilisation des chantiers navals américains"
- LIB_assemble_air_squadron: "Importer des chasseurs [FROM.GetAdjective]s"
-LIB_request_infantry_equipment: "Importer des fusils américains"
-LIB_pull_strings_with_industrialists: "Attirer l'industrie lourde américaine"
- LIB_war_in_ivory_coast: "§RUne telle action agressive a la possibilité très réelle de conduire à une guerre totale.§!"
-
- LIB_Not_Enough_Stuff: "Nous n'avons pas assez d'équipement pour répondre à cette demande, et nous n'aurons donc pas d'autre choix que de la refuser."
- LIB_Unlock_equipment_decision: "§YDéverouille la décision§! £decision_icon_small Demande d'aide matérielle"
- LIB_refund_on_fail_decision_TT: "§GVous serez remboursé du pouvoir politique dépensé pour cette décision§!, mais vous devrez attendre que la décision réapparaisse."
- LIB_asking_more_wont_help_TT: "§RSi vous demandez à nouveau la même chose, il est fort probable qu'elle soit à nouveau refusée en raison du manque d'équipement.§!"
 
 ### Decisions ###
+LIB_internal_decisions: "Industrie de guerre importée"
  LIB_request_rifles_from_ally: "Demandez des Fusils à [FROM.GetNameDef]."
  LIB_request_artillery_from_ally: "Demandez l'Artillerie à [FROM.GetNameDef]."
  LIB_request_sup_equip_from_ally: "Demandez du Matériel de Soutien à [FROM.GetNameDef]."
@@ -102,7 +89,7 @@ LIB_pull_strings_with_industrialists: "Attirer l'industrie lourde américaine"
  LIB_country_intro_header:0 "Introduction au Liberia"
  LIB_country_intro_content: "De la taille de la Virginie, le Liberia est une nation indépendante d'Afrique de l'Ouest placée sous la protection des États-Unis d'Amérique. La couche supérieure de la société appartient à un bloc de vote solide appelé le True Whig Party, qui a remporté toutes les élections importantes depuis 1870. Les Libériens américains sont responsables de la propagation du Christianisme aux indigènes, mais ils ont adopté certaines traditions ouest-africaines en cours de route. Les sociétés secrètes, telles que le Poro pour les classes inférieures et l'Ordre Maçonnique du Libéria pour les classes supérieures, veillent à ce que les riches restent riches et que les pauvres puissent se gouverner dans le secret.\n\nLa Weltkrieg est une période sombre et conspiratrice pour le Libéria. Le poste d'écoute français de Monrovia a failli être découvert, l'ambassadeur allemand a disparu dans des circonstances suspectes, et les frontières ont bougé. Pendant la Révolution Britannique, la Sierra Leone a été occupée puis annexée par la France. Aujourd'hui, le Libéria est englouti par les dettes de projets ratés, son économie est aux mains de Firestone Natural Rubber, et son avenir est incertain. Le Président Edwin Barclay, un légitimiste du TWP, sera-t-il capable de sauver le Libéria du désastre ?"
 
- LIB_guide: "§MCoup d'État des Francs-Maçons§! (§NNational Populiste§!)\n£white_dot Après avoir complété la priorité "Statut des Sociétés Secrètes", permettez-leur de "...sortir de l'ombre".\n£white_dot Lorsque les francs-maçons tentent un coup d'État, abandonnez Monrovia.\n\n§MLa Marée Rouge Frappe le Libéria§! (§oTotaliste§!)\n£white_dot Après avoir complété la priorité "Statut des Sociétés Secrètes", bannissez-les.\n£white_dot Lorsque la Marée Rouge frappe le Libéria, fuyez.\n\n§MElections - Parti Populaire / TWP (Nouvelle Garde) / TWP (Centre) / TWP (Vieille Garde)§! (§RRadical Socialiste§! / §lSocial Libéral§! / §mLibéral de Marché§! / §cSocial Conservateur§!)\n£white_dot Après avoir terminé la priorité "Statut des Sociétés Secrètes", si elles sont autorisées à "...sortir de l'ombre", interdisez-les plus tard lors de la tentative de coup d'État.\n£white_dot Par ailleurs, si les sociétés secrètes ont été interdites, les forces frontalières libériennes seront utilisées plus tard pour y remédier.\n£white_dot Renforcer le parti souhaité lors de l'élection qui suit.\n\n§MRetour du Massaquoi§! (§gDémocrate Autoritaire§!)\n£white_dot Après le Lundi Noir, PRENEZ le plan de sauvetage allemand.\n£white_dot Le Libéria deviendra une marionnette allemande.\n\nNote : Après le Lundi Noir, n'acceptez PAS de renflouement de l'Allemagne, c'est-à-dire "Le Reich détient l'Argent et le Pouvoir", à moins qu'on ne vous le demande. Les Américains ou Firestone feront l'affaire."
+ LIB_guide:9 "§MCoup d'État des Francs-Maçons§! (§nNational Populiste§!)\n£white_dot Après avoir complété la priorité "Statut des Sociétés Secrètes", permettez-leur de "...sortir de l'ombre".\n£white_dot Lorsque les francs-maçons tentent un coup d'État, abandonnez Monrovia.\n\n§MLa Marée Rouge Frappe le Libéria§! (§oTotaliste§!)\n£white_dot Après avoir complété la priorité "Statut des Sociétés Secrètes", bannissez-les.\n£white_dot Lorsque la Marée Rouge frappe le Libéria, fuyez.\n\n§MElections - Parti Populaire / TWP (Nouvelle Garde) / TWP (Centre) / TWP (Vieille Garde)§! (§RRadical Socialiste§! / §lSocial Libéral§! / §mLibéral de Marché§! / §cSocial Conservateur§!)\n£white_dot Après avoir terminé la priorité "Statut des Sociétés Secrètes", si elles sont autorisées à "...sortir de l'ombre", interdisez-les plus tard lors de la tentative de coup d'État.\n£white_dot Par ailleurs, si les sociétés secrètes ont été interdites, les forces frontalières libériennes seront utilisées plus tard pour y remédier.\n£white_dot Renforcer le parti souhaité lors de l'élection qui suit.\n\n§MRetour du Massaquoi§! (§gDémocrate Autoritaire§!)\n£white_dot Après le Lundi Noir, PRENEZ le plan de sauvetage allemand.\n£white_dot Le Libéria deviendra une marionnette allemande.\n\nNote : Après le Lundi Noir, n'acceptez PAS de renflouement de l'Allemagne, c'est-à-dire "Le Reich détient l'Argent et le Pouvoir", à moins qu'on ne vous le demande. Les Américains ou Firestone feront l'affaire."
 
 ### Events ###
 lib.2.t: "Relations raciales au Liberia"
@@ -347,7 +334,7 @@ LIB_bailout_partner: "Trouver un partenaire pour nous renflouer"
 LIB_bailout_partner_desc: "Nous ne sommes pas conscients que nos propres efforts ne sauveront pas notre économie qui se détériore. Ce n'est qu'en coopérant avec un partenaire extérieur que nous pourrons sauver l'économie. Nous pouvons demander à la Firestone Natural Rubber Company, au gouvernement Américain, ou même à l'Allemagne."
 
 LIB_bailout_ger: "Sauvetage allemand"
-LIB_bailout_ger_desc: "Notre ambassadeur allemand, Massaquoi, n'avait-il pas un plan pour que l'Allemagne nous tire d'affaire ? Nous avons peut-être eu nos différends avec l'Allemagne dans le passé, mais c'est l'histoire. L'avenir du monde, de l'Afrique, est probablement entre leurs mains."
+ LIB_bailout_ger_desc:9 "Notre ambassadeur allemand, Massaquoi, n'avait-il pas un plan pour que l'Allemagne nous tire d'affaire ? Nous avons peut-être eu nos différends avec l'Allemagne dans le passé, mais c'est l'histoire. L'avenir du monde, de l'Afrique, est probablement entre leurs mains."
 
 LIB_bailout_firestone: "Traiter avec Firestone"
 LIB_bailout_firestone_desc: "Nous devons donner la priorité à l'argent qui existe déjà au Liberia. Harvey Firestone possède 1,5 million d'acres de terres et est prêt à nous aider à sortir de la dette. Selon lui, notre solvabilité est une marque de fierté pour son entreprise."
@@ -461,7 +448,7 @@ LIB_1939_elections: "Élection présidentielle de 1939"
 LIB_1939_elections_desc: "Seuls nos plus anciens hommes d'État, ceux qui vivaient en 1870, pourraient se souvenir d'une élection aussi controversée. La suprématie du True Whig Party est contestée par les réformistes, les syndicalistes et les lobbyistes. Comme nous tenons nos idéaux américains à cœur, nous votons avec conviction."
 
  LIB_true_whig_party: "Le vrai parti Whig"
- LIB_true_whig_party_desc: "Dans ce qui aurait pu être considéré comme un résultat peu surprenant, le True Whig Party, le parti qui a dominé la politique libérienne depuis la fin du 19ème siècle, a obtenu un nouveau mandat lors des élections de cette année. Cependant, le True Whig Party n'est pas aussi énorme qu'il n'y paraît, et la position d'Edwin Barclay à la tête de la nation n'est pas aussi sûre qu'il n'y paraît..."
+ LIB_true_whig_party_desc:9 "Dans ce qui aurait pu être considéré comme un résultat peu surprenant, le True Whig Party, le parti qui a dominé la politique libérienne depuis la fin du 19ème siècle, a obtenu un nouveau mandat lors des élections de cette année. Cependant, le True Whig Party n'est pas aussi énorme qu'il n'y paraît, et la position d'Edwin Barclay à la tête de la nation n'est pas aussi sûre qu'il n'y paraît..."
 
 LIB_totalist_coup: "Coup du destin libérien"
 LIB_totalist_coup_desc: "La répression des sociétés secrètes est la dernière goutte d'eau, mais aussi notre plus grande chance. Si les True Whigs ne veulent pas adhérer aux fondements mêmes de la liberté, alors ils sont les ennemis de la liberté et du socialisme."
