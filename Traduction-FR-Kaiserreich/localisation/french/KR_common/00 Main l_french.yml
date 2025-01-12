@@ -34,7 +34,7 @@
  KR_welcome_splash_tab_3_content_0: "Kaiserreich impose des restrictions sur les actions diplomatiques telles que les §RGuerres Précoces§!, les §RFactions§! et les §RNiveaux d'Autonomie§!.\nKaiserreich inclut également des §CLimites de Division§! et un mécanisme de §CDémobilisation§! pour améliorer la jouabilité en fin de partie.\nPendant les §YConférences de Paix§!, assurez-vous d'annexer tous les États possibles. Plus tard, vous pourrez libérer les pays des territoires annexés grâce aux §Cdécisions§!.\nLe menu de configuration des §YRègles de Jeu Personnalisées§! vous permet d'ajuster de nombreuses options, notamment les §CChemins de Pays§!, la §CPrimauté du Joueur pendant les Conférences de Paix§! et l'outil de §CTransfert d'États et de Pays§!.\nLe £kr_options_icon §YMenu d'Options§! peut être ouvert en cliquant sur son icône en haut à droite. Il vous permet d'ajuster la §Cfréquence des événements§! et d'activer le §Crenommage dynamique§! des états et des points de victoire."
 
  ## TAB 4 ##
- KR_CURRENT_VERSION:9 "1.4.2"
+ KR_CURRENT_VERSION:9 "1.4.3"
  KR_CURRENT_VERSION_NAME:9 "Toutes les Russies"
  KR_CURRENT_VERSION_COMBINED: "Kaiserreich $KR_CURRENT_VERSION$ "$KR_CURRENT_VERSION_NAME$""
  KR_welcome_splash_tab_4_upper_header: "§YWelcome to $KR_CURRENT_VERSION_COMBINED$§!"
@@ -49,14 +49,22 @@
  KR_welcome_splash_tab_4_content_5: "MrMano, ~mw~ // miwaco., Noot, Pelmen, PPsyrius, Purple Jinjo, Rnk, Tune, Sasha, Shiroe"
  KR_welcome_splash_tab_4_content_6: "Sonny O'Cad, SuperGreenBeans, suzuha, The Alpha Dog, The Irredentista, The Italian Jojo"
  KR_welcome_splash_tab_4_content_7: "Toaster, Vidyaország, VladimirLemon, Zimbabwe Salt Co."
- KR_welcome_splash_tab_4_content_8: "§YTraduit par : §!Ergovius, Hellh, IGgame, Mouchi et Romain1912. §YAnciennement traduit par : §!Aegon Targaryen"
+ KR_welcome_splash_tab_4_content_8: "§YTraduit par : §!Ergovius, Hellh, IGgame, Mouchi, N3 et Romain1912. §YAnciennement traduit par : §!Aegon Targaryen"
  KR_welcome_splash_tab_4_content_9: "Brakmar, Darkusios, Demetran, Diro, Fanois, Feuxin, Grikke, IluminatiX, Kfateweaver, Kira, Klik le Araï, Lazu, Le Marocain, LRP2580, MVMaroIV, Nobelo81, Orakle14, Paralux, Remkiller123, Rosak, RyumaTomoka, Sayu, Solal, Superwaffle, TheAzmyr, UltraNico, Vitulus, Youkoulélé et Zeplein"
 
 ### Career Profile ###
  KAISERREICH_CAREER_PROFILE: "Kaiserreich"
 
 ### Diplomacy Tooltips ###
- REQUEST_EXP_FORCE_BLOCKED_TT: "§RCe pays ne vous permet pas de mobiliser ses forces.§!"
+ REQUEST_EXP_FORCE_BLOCKED_GENERIC_TT:0 "§RCe pays ne vous permet pas de solliciter ses forces.§!"
+
+ REQUEST_EXP_FORCE_BLOCKED_CROWNLAND_HUNGARY_TT:9 "§RLa Couronne de Hongrie ne vous permet pas de demander ses forces tant que les priorités Toujours Leur Roi ou Renégociations de l'Ausgleich de 1947 n'ont pas été prises.§!"
+
+ REQUEST_EXP_FORCE_BLOCKED_CROWNLAND_OTHER_TT:9 "§RLes couronnes autrichiennes ne vous permettent pas de solliciter leurs forces tant que les priorités Mesures Drastiques en Temps de Crise ou Cisleithanie n'ont pas toutes 2 été prises.§!"
+
+ REQUEST_EXP_FORCE_BLOCKED_CHINA_TT:9 "§RLes seigneurs de guerre chinois qui sont des gouvernorats associés ne vous permettent pas de demander leurs forces tant qu'ils n'ont pas été intégrés d'au moins un niveau.§!"
+
+ REQUEST_EXP_FORCE_BLOCKED_SHANXI_TT:9 "§RLe Shanxi ne vous permet pas de faire appel à ses forces tant que la lutte pour le pouvoir entre Yan Xishan et Feng Yuxiang n'est pas terminée.§!"
 
  EMBARGO_THREAT_TT: "§RLa tension mondiale doit dépasser §Y50%§!.§!"
  EMBARGO_OPINION_TT: "§R-L'opinion de §Y[FROM.GetNameWithFlag]§! vis à vis de §Y[ROOT.GetNameWithFlag]§! doit être inférieure à -50.§!"

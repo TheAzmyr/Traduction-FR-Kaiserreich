@@ -1,7 +1,6 @@
 ﻿l_french:
 
 ### EE Cooperation Mechanics ###
-
  mie.0.t: "La Menace Russe"
  mie.0.d: "Le marasme de la Russie, qui a duré une décennie, est terminé, et maintenant les Russes se reconstruisent - déjà, ils revendiquent leurs anciens territoires impériaux, et les États d'Europe de l'Est vont sûrement être une de leurs cibles.\n\nPour s'assurer que la menace russe est contenue et que les États d'Europe de l'Est peuvent défendre leur souveraineté, les dirigeants et les généraux des Ostaaten se sont réunis à [MIE_leader.Capital.GetCapitalVictoryPointName] pour discuter d'un programme de coopération mutuelle. Un fonds de défense militaire commun a été établi et [MIE_leader.GetNameDef] a été chargé de le gérer pour financer les projets de défense communs de la région."
  mie.0.a: "Bien !"
@@ -9,6 +8,8 @@
  MIE_decisions: "Coopération en matière de défense de l'Europe de l'Est"
  MIE_decisions_desc: "[?global.russia.GetNameDefCap] refait surface et la sécurité de la région d'Europe de l'Est est menacée. Lorsque la Seconde Weltkrieg commencera, nous devrons nous préparer à affronter la tempête russe - et si nous ne travaillons pas ensemble, nous serons éliminés un par un.\n\nA présent que [?global.russia.GetNameDef] a activé son arbre de politique étrangère, tous les membres orientaux du Reichspakt débloquent la capacité de §Ymettre en commun les ressources§! et de les distribuer entre leurs États membres pour éliminer les maillons faibles. Le pays responsable de la distribution des ressources communes peut investir dans ses États membres pour §Yconstruire des fortifications§!, §Ylever des divisions§! et fournir des §Yesprits nationaux§! bénéfiques.\n\nLes ressources actuelles mises en commun :\n £rifle_texticon Équipement d'infanterie : §Y[?global.MIE_infantry_equipment]§!\n £support_texticon Équipement de soutien : §Y[?global.MIE_support_equipment]§!\n £unit_artillery_icon_small Équipement d'artillerie : §Y[?global.MIE_artillery_equipment]§!\n\n [MIE_leader.GetNameWithFlag] est actuellement responsable de la distribution du pool de ressources."
  MIE_intermarium_active: "La §YCoopération de Défense de l'Europe de l'Est§! est active."
+ MIE_intermarium_formed: "Le programme de Coopération de Défense en Europe de l'Est a démarré."
+ MIE_member:9 "Est membre de la §YCoopération de défense de l'Europe de l'Est§!."
 
  MIE_decisions_GER: "Ostpolitik"
  MIE_decisions_GER_desc: "Notre Empire à l'Est s'étend de la Baltique à la mer Noire. L'Oststaat est un mélange pragmatique d'États de facto nos clients, maintenus dans le rang à la fois grâce à notre force et à la fois de leur crainte de la Russie. Nous surveillons constamment leur évolution politique et réagir si cette évolution menace nos intérêts.\n\n[POL_in_RP]"
@@ -22,16 +23,14 @@
  POL_status_uprising_imminent: "Un soulèvement en Pologne est imminent !"
  POL_status_rebellious: "§RLa Pologne est rebelle !§!"
 
- MIE_intermarium_formed: "Le programme de Coopération de Défense en Europe de l'Est a démarré."
-
  GER_sponsor_MIE: "Parrainer la CDEE"
  GER_sponsor_MIE_desc: "La Coopération de Défense de l'Europe de l'Est a été créée pour coordonner le renforcement militaire des armées de l'Ostaat. Notre complexe militaro-industriel y a participé, mais un soutien plus direct de la part du gouvernement pourrait le renforcer encore davantage."
  GER_fight_forest_brothers: "Créer la Baltische Feldgendarmerie"
  GER_fight_forest_brothers_desc: "L'envoi d'une force de police militaire temporaire dans le duché unifié de la Baltique pourrait s'avérer nécessaire pour l'aider dans sa lutte contre les séparatistes baltes."
  GER_fight_LAF: "Renforcer la Police Lituanienne"
  GER_fight_LAF_desc: "Le gouvernement lituanien a fort à faire avec le Front activiste lituanien, qui serait soutenu par la Russie et qui est une organisation terroriste responsable de nombreux actes odieux. Nous pourrions leur envoyer des forces spécialisées de Prusse pour contrer l'insurrection."
- GER_WHR_coup: "Supprimer le Gouvernement BSDP"
- GER_WHR_coup_desc: "Nous avons été tolérants à l'égard des expériences de démocratie de gauche de la Ruthénie blanche, mais apparemment, c'était une erreur. Nos sources de renseignements nous ont informés de leur pacte secret avec Moscou et de leurs plans pour nous trahir. Cela ne doit pas se produire."
+ GER_BLR_coup:0 "Supprimer le Gouvernement du BDSP"
+ GER_BLR_coup_desc:0 "Nous avons été tolérants à l'égard des expériences de la Ruthénie blanche en matière de démocratie de gauche, mais apparemment, c'était une erreur. Nos sources de renseignements nous ont informés de leur pacte secret avec Moscou et de leurs plans pour nous trahir. Cela ne doit pas se produire."
 
  POL_GER_buy: "Investissements en Pologne"
  POL_GER_buy_desc: "Le renforcement de notre contrôle économique sur la Pologne consolidera notre emprise sur ce pays et garantira que sa future politique étrangère servira bien nos intérêts commerciaux."
@@ -82,8 +81,8 @@
  air_xp_50_blocked: "£air_experience §R50§!"
  air_xp_50_tooltip: "La prise de décision coûte $air_xp_50_blocked$."
 
- MIE_build_forts_in_whr: "Expansion de l'Ostwall"
- MIE_build_forts_in_whr_tt: "§gConstruit des £GFX_land_fort_texticon §Y$bunker_plural$§! de niveau 1 dans chaque province frontalière de Biélorussie.§!"
+ MIE_build_forts_in_blr:0 "Extension de l'Ostwall"
+ MIE_build_forts_in_blr_tt:0 "§gConstruit des £GFX_land_fort_texticon §Y$bunker_plural$§! de niveau 1 dans chaque province frontalière de Biélorussie.§!"
 
  mie.1.t: "Coopération de l'Europe de l'Est"
  mie.1.d: "[MIE_leader.GetNameDefCap] a choisi d'investir une partie de notre fonds commun de coopération en matière de défense en construisant des fortifications à notre frontière russe. Ces fortifications sont maintenant achevées et sont prêtes à servir nos forces."
@@ -175,7 +174,7 @@
  mie.17.t: "Coup d'État pro-allemand au Belarus !"
  mie.17.d: "Il semble que les services de renseignement allemands se soient rendu compte de notre conspiration avec le gouvernement biélorusse et aient pris des mesures décisives. Sous les ordres allemands, les éléments réactionnaires de l'armée biélorusse ont pris le contrôle de Minsk et ont arrêté le président Taraškievič sous l'inculpation de trahison. À l'heure où nous parlons, des socialistes sont arrêtés en Biélorussie alors que l'armée bourgeoise éteint la liberté du peuple biélorusse. Ils sont désormais incapables de se joindre à notre lutte lorsque la guerre commencera - mais ils feront de leur mieux pour nuire aux tentatives du gouvernement militaire de s'opposer à nous. Il est maintenant de notre devoir fraternel de libérer les Biélorusses de l'oppression prussienne !"
  mie.17.a: "À Minsk !"
- GER_coup_WHR: "Coup d'État pro-allemand en Ruthénie Blanche"
+ GER_coup_BLR:0 "Coup d'État Pro-Allemand en Ruthénie Blanche"
 
  mie.18.t: "Accord de secours allemand"
  mie.18.d: "Nos amis berlinois ne nous ont pas laissés seuls ! En dépit de sa propre crise économique, le gouvernement allemand a accepté d'accorder certaines exemptions à nos exportations de céréales, malgré ses politiques protectionnistes accrues visant à protéger son propre secteur agricole. En outre, il a accepté de restructurer une partie de notre dette nationale envers les banques allemandes, ce qui a considérablement allégé le fardeau financier auquel nous sommes confrontés. Ces exemptions devraient atténuer quelque peu les problèmes dans les campagnes."

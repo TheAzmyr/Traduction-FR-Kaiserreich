@@ -32,11 +32,13 @@ FRA_ongoing_phalanstere_development: "§YAide au développement d'un autre pays.
  FRA_blocks_operation_eulen: "§GL'achèvement de cette priorité entrave §Y[GER.GetNameWithFlag]§! de progresser sur la priorité §! §Y$GER_operation_eulen$§!.\n\n§RSi §Y$GER_operation_eulen$§! est lancée, les bonus seront perdus !§!"
  FRA_failed_operation_eulen: "§LEn raison du succès de §Y$GER_operation_eulen$§! allemande, des efforts considérables seront déployés pour calmer l'agitation catholique, ce qui réduira considérablement l'effet potentiel de cette initiative.§!"
 
- FRA_af_custom_modifier_tooltip:9 "[FRA_ArmeeFederale_MotorProductionBonus][FRA_ArmeeFederale_FirstLineBreak][FRA_ArmeeFederale_ArtilleryProductionBonus][FRA_ArmeeFederale_SecondLineBreak][FRA_ArmeeFederale_ArmourBonus]"
+ FRA_af_custom_modifier_tooltip:9 "[FRA_ArmeeFederale_MobileWarfareProductionBonus][FRA_ArmeeFederale_FirstLineBreak][FRA_ArmeeFederale_ArtilleryProductionBonus][FRA_ArmeeFederale_SecondLineBreak][FRA_ArmeeFederale_ArmourBonus]"
  FRA_af_line_break:9 "\n"
 
  FRA_motor_production_bonus:9 "$FRA_motor_production_bonus_no_lar$\n§Y$armored_car_equipment$§!:\n    $production_cost_tt$[?-0.1|-=%2]\n    $STAT_COMMON_RELIABILITY$[?0.05|+=%0]"
  FRA_motor_production_bonus_no_lar:9 "§Y$motorized_equipment$§!: $production_cost_tt$[?-0.1|-=%2]\n§Y$mechanized_equipment$§!: $production_cost_tt$[?-0.1|-=%2]"
+
+ FRA_support_production_bonus:9 "§Y$support_equipment$§!: $production_cost_tt$[?-0.15|-=%2]"
 
  FRA_artillery_production_bonus:9 "§Y$mio_cat_eq_all_artillery$§!: $production_cost_tt$[?-0.1|-=%2]"
 
@@ -53,13 +55,14 @@ FRA_ongoing_phalanstere_development: "§YAide au développement d'un autre pays.
  FRA_capital_ship_production_bonus:9 "§Y$capital_ship$§!:\n    $production_cost_tt$[?-0.1|-=%2]"
  FRA_screen_ship_production_bonus:9 "§Y$screen_ship$§!:\n    $STAT_NAVY_MAXIMUM_SPEED$[?0.05|+=%0]\n    $production_cost_tt$[?-0.05|-=%2]"
 
- FRA_create_international_brigade_template:9 "Créer le modèle $NAME|Y$, avec la composition suivante :\n - £GFX_unit_militia_icon_small §Y9 bataillons de ligne de $militia$§! \n - £GFX_unit_assault_battalion_icon_small 1 compagnie de soutien §Y$assault_battalion$§!\n - £GFX_unit_artillery_icon_small 1 compagnie de soutien §Y$artillery$§!"
- FRA_create_cavalry_template:9 "Créer le modèle $NAME|Y$, avec la composition suivante :\n - £GFX_unit_cavalry_icon_small §Y6  bataillons de ligne de $cavalry$§!\n - £GFX_unit_engineer_icon_small 1 compagnie de soutien §Y$engineer$§!\n - £GFX_unit_artillery_icon_small 1 compagnie de soutien §Y$artillery$§!\n - £GFX_unit_recon_icon_small 1 compagnie de soutien§Y$recon$§!"
- FRA_create_heavy_armour_template:9 "Créer le modèle $NAME|Y$, avec la composition suivante :\n - £GFX_unit_heavy_armor_icon_small §Y4 bataillons de ligne de $heavy_armor$§!\n - £GFX_unit_motorized_icon_small §Y3 bataillons de ligne de $motorized$§!\n - £GFX_unit_mot_recon_icon_small 1 compagnie de soutien §Y$mot_recon$§!\n - £GFX_unit_engineer_icon_small 1 compagnie de soutien §Y$engineer$§!\n - £GFX_unit_artillery_icon_small 1 compagnie de soutien §Y$artillery$§!"
- FRA_create_paratrooper_template_aat:9 "Créer le modèle $NAME|Y$, avec la composition suivante :\n - £GFX_unit_paratrooper_icon_small §Y6 bataillons de ligne de $paratrooper$§!\n - £GFX_unit_recon_icon_small 1 compagnie de soutien de §Y$recon$§!\n - £GFX_unit_engineer_icon_small 1 compagnie de soutien §Y$engineer$§!\n - £GFX_unit_airborne_light_armor_icon_small 1 compagnie de soutien de §Y$airborne_light_armor$§!"
- FRA_create_paratrooper_template:9 "Créer le modèle $NAME|Y$, avec la composition suivante :\n - £GFX_unit_paratrooper_icon_small §Y6 bataillons de ligne de $paratrooper$§!\n - £GFX_unit_recon_icon_small 1 compagnie de soutien de §Y$recon$§!\n - £GFX_unit_engineer_icon_small 1 compagnie de soutien §Y$engineer$§!\n - £GFX_unit_artillery_icon_small 1 compagnie de soutien §Y$artillery$§!"
- FRA_create_marine_template_aat:9 "Créer le modèle $NAME|Y$, avec la composition suivante :\n -£GFX_unit_marine_icon_small  §Y6 bataillons de ligne de $marine$§!\n - £GFX_unit_recon_icon_small 1 compagnie de soutien de §Y$recon$§!\n - £GFX_unit_pioneer_support_icon_small 1 compagnie de soutien §Y$pioneer_support$§!\n - £GFX_unit_artillery_icon_small 1 compagnie de soutien §Y$artillery$§!"
- FRA_create_marine_template:9 "Créer le modèle $NAME|Y$, avec la composition suivante :\n -£GFX_unit_marine_icon_small  §Y6 bataillons de ligne de $marine$§!\n - £GFX_unit_recon_icon_small 1 compagnie de soutien de §Y$recon$§!\n - £GFX_unit_engineer_icon_small 1 compagnie de soutien §Y$engineer$§!\n - £GFX_unit_artillery_icon_small 1 compagnie de soutien §Y$artillery$§!"
+ FRA_create_international_brigade_template:9 "Crée le modèle $NAME|Y$, avec la composition suivante :\n - £GFX_unit_militia_icon_small §Y9 bataillons de ligne de $militia$§! \n - £GFX_unit_assault_battalion_icon_small 1 compagnie de soutien §Y$assault_battalion$§!\n - £GFX_unit_artillery_icon_small 1 compagnie de soutien §Y$artillery$§!"
+ FRA_create_cavalry_template:9 "Crée le modèle $NAME|Y$, avec la composition suivante :\n - £GFX_unit_cavalry_icon_small §Y9 bataillons de ligne de $cavalry$§!\n - £GFX_unit_recon_icon_small §Y$recon$§!\n - £GFX_unit_engineer_icon_small §Y$engineer$§!\n - £GFX_unit_artillery_icon_small §Y$artillery$§!"
+ FRA_create_heavy_armour_template:9 "Crée le modèle $NAME|Y$, avec la composition suivante :\n - £GFX_unit_heavy_armor_icon_small §Y4 bataillons de ligne de $heavy_armor$§!\n - £GFX_unit_motorized_icon_small §Y3 bataillons de ligne de $motorized$§!\n - £GFX_unit_mot_recon_icon_small §Y$mot_recon$§!\n - £GFX_unit_engineer_icon_small §Y$engineer$§!\n - £GFX_unit_artillery_icon_small §Y$artillery$§!"
+ FRA_create_bicycle_template:9 "Crée le modèle $NAME|Y$, avec la composition suivante :\n - £GFX_unit_bicycle_battalion_icon_small §Y9 $bicycle_battalion$§! bataillons de ligne\n - £GFX_unit_mot_artillery_brigade_icon_small §Y1 $mot_artillery_brigade$§! bataillon de ligne\n - £GFX_unit_engineer_icon_small §Y$engineer$§!\n - £GFX_unit_artillery_icon_small §Y$artillery$§!\n - £GFX_unit_assault_battalion_icon_small §Y$assault_battalion$§!"
+ FRA_create_paratrooper_template_aat:9 "Crée le modèle $NAME|Y$, avec la composition suivante :\n - £GFX_unit_paratrooper_icon_small §Y6 bataillons de ligne $paratrooper$§!\n - £GFX_unit_recon_icon_small §Y$recon$§!\n - £GFX_unit_engineer_icon_small §Y$engineer$§!\n - £GFX_unit_airborne_light_armor_icon_small §Y$airborne_light_armor$§!"
+ FRA_create_paratrooper_template:9 "Crée le modèle $NAME|Y$, avec la composition suivante :\n - £GFX_unit_paratrooper_icon_small §Y6 bataillons de ligne $paratrooper$§!\n - £GFX_unit_recon_icon_small §Y$recon$§!\n - £GFX_unit_engineer_icon_small §Y$engineer$§!\n - £GFX_unit_artillery_icon_small §Y$artillery$§!"
+ FRA_create_marine_template_aat:9 "Crée le modèle $NAME|Y$, avec la composition suivante :\n - £GFX_unit_marine_icon_small §Y6 bataillons de ligne de $marine$§!\n - £GFX_unit_recon_icon_small §Y$recon$§!\n - £GFX_unit_pioneer_support_icon_small §Y$pioneer_support$§!\n - £GFX_unit_artillery_icon_small §Y$artillery$§!"
+ FRA_create_marine_template:9 "Crée le modèle $NAME|Y$, avec la composition suivante :\n - £GFX_unit_marine_icon_small §Y6 bataillons de ligne de $marine$§!\n - £GFX_unit_recon_icon_small §Y$recon$§!\n - £GFX_unit_engineer_icon_small §Y$engineer$§!\n - £GFX_unit_artillery_icon_small §Y$artillery$§!"
 
 ### World Tension ###
  FRA_rearmament_threat: "Réarmement Français"
@@ -99,74 +102,17 @@ fcm: "FCM"
 FRA_communard_spirit: "Esprit Communard"
  FRA_communard_spirit_desc: "Nous sommes les héritiers de la Commune de Paris, le premier Etat socialiste jamais créé. Celui-ci a fini par être brutalement réprimé par les réactionnaires républicains mais en 1920, les ouvriers ont fini par avoir leur vengeance et ont renversé la junte militaire du "Parti de l'Ordre". Nous, fils et filles des Communards, nous devons protéger notre Etat et notre esprit, nous ne serons plus jamais commandés par des tyrans !"
 
- FRA_to_war_idea: "Réarmement revanchiste"
- FRA_to_war_idea_desc: "Notre nation doit se réarmer, si nous voulons vaincre les impérialistes !"
+ FRA_revanchist_rearmament:0 "Réarmement Revanchiste"
+ FRA_revanchist_rearmament_desc:0 "Notre nation doit se relever si nous voulons vaincre les impérialistes !"
 
  FRA_renseignements_generaux_lar: "Les Renseignements Généraux"
  FRA_renseignements_generaux_lar_desc: "Les Renseignements Généraux sont les yeux et les oreilles de la Commune, rassemblant des renseignements sur les menaces nationales et internationales à notre rêve prolétarien. Mais la mission des RG va au-delà de la simple sécurité. Ils sont également chargés de promouvoir les valeurs et les principes de notre révolution socialiste, tant au sein du pays qu'à l'étranger. Grâce à leur collecte et à leur analyse de renseignements, ils contribuent à façonner notre politique étrangère et sont les premiers déployés sur le terrain pour briser les chaînes mondiales du capital.\n\nGrâce aux sympathisants présents dans chaque usine encore détenue par la bourgeoisie, nos réseaux sont inégalés."
-
-FRA_economic_reforms_anar: "Réformes économiques"
-FRA_economic_reforms_anar_desc: " De vastes réformes économiques ont été décidées lors de la réunion de 1936 de la Bourse Générale du Travail. Ces réformes ont déjà eu des effets notables sur notre économie, contribuant à la rendre plus dynamique et à la consolider."
-
-FRA_economic_reforms_jaco: "Réformes économiques"
-FRA_economic_reforms_jaco_desc: "De vastes réformes économiques ont été décidées lors de la réunion de 1936 de la Bourse Générale du Travail. Ces réformes ont déjà eu des effets notables sur notre économie, contribuant à la rendre plus dynamique et à la consolider."
-
-FRA_economic_reforms: "Réformes économiques"
-FRA_economic_reforms_desc: " De vastes réformes économiques ont été décidées lors de la réunion de 1936 de la Bourse Générale du Travail. Ces réformes ont déjà eu des effets notables sur notre économie, contribuant à la rendre plus dynamique et à la consolider."
-
- FRA_calibrate_the_economy_idea:0 "Économie calibrée"
- FRA_calibrate_the_economy_idea_desc:0 "Alors que le monde se rapproche lentement de la guerre, nous pouvons rapidement tirer parti de la bonne santé de notre économie pour en réorienter une partie vers le renforcement des capacités militaires. Davantage d'usines sont consacrées à l'armement de nos soldats et à la construction de structures militaires, sans que cela n'ait d'incidence grave sur notre population."
-
-FRA_ruralism_idea: "Ruralisme"
-FRA_ruralism_idea_desc: " Grâce à une réforme en profondeur de notre industrie et de notre économie, le ruralisme signifie que nous n'avons plus à maintenir de grands centres industriels autour des villes populeuses. Cela rend d'ailleurs encore plus difficile toute tentative des forces ennemies de paralyser ou même de détruire notre économie, les plus grands centres industriels ruraux étant beaucoup plus petits et beaucoup plus nombreux que les grands centres industriels européens."
-
- FRA_collective_properties_idea: "Propriétés collectives"
- FRA_collective_properties_idea_desc: "La propriété privée est incompatible avec la liberté de l'individu. En théorie, c'est un principe sur lequel même les syndicalistes orthodoxes sont d'accord avec nous. Cependant, pendant des décennies, l'ancien urbanisme capitaliste et les normes publiques sont restés pratiquement inchangés, et il est temps pour nous d'y mettre fin. Avec la promotion des pratiques de vie en commun et la consolidation des coopératives en propriété commune, notre société est vouée à devenir plus égalitaire et moins gaspilleuse."
-
-FRA_mass_production_idea: "Production de masse"
-FRA_mass_production_idea_desc: "Les usines ont toujours eu un sérieux avantage sur l'artisan. En enchaînant les tâches de production, elles peuvent produire infiniment plus de produits dans un petit laps de temps, et cela pour une qualité presque égale. Au lieu d'essayer de réinventer constamment ce processus, améliorons-le. Nous cherchons l'efficacité absolue dans la production pour battre les capitalistes allemands."
-
-FRA_modern_farms_idea: "Fermes modernes"
-FRA_modern_farms_idea_desc: "Les fermes sont souvent perçues comme un détail ancien et pittoresque de l'économie nationale, mais nous savons mieux que quiconque que ce n'est pas vrai. En modernisant et mécanisant les terres agricoles de la Commune, nous pouvons augmenter massivement notre production agricole et à la fois accélérer puis optimiser les récoltes, la production, le raffinage et la livraison. A nos civils et à nos troupes."
-
- FRA_war_economy_and_agriculture_idea:0 "Guerre, économie et agriculture"
- FRA_war_economy_and_agriculture_idea_desc:0 "Lancé par Jacques Doriot, ministre de l'économie de la République de Corée, le concept de guerre, d'économie et d'agriculture est intéressant. Affirmant qu'une guerre avec l'Allemagne est non seulement inévitable mais qu'elle approche à grands pas, les Soreliens exigent une conversion rapide à une économie dont l'industrie peut non seulement soutenir une guerre, mais aussi dont l'agriculture peut nourrir ses soldats. En somme, une sorte d'économie de guerre totale."
-
- FRA_technician_management_idea: "Vers une gestion technocratique"
- FRA_technician_management_idea_desc: "Trop longtemps, les Syndicats ont été laissés libres de gérer l'économie de manière inefficace, sans l'aide d'experts. Afin de mettre fin au chaos économique et de garantir une modernisation rapide, des ingénieurs, des économistes et d'autres experts seront habilités à guider les décisions des Syndicats et à y opposer leur veto lorsqu'il s'agit de questions économiques."
-
- FRA_sense_of_dedication_idea:0 "Le sens du dévouement"
- FRA_sense_of_dedication_idea_desc:0 "Les travailleurs français travaillent pour plus que leur salaire, et ils ne travaillent certainement pas sous la menace d'une arme. Chaque boîte de conserve qu'ils scellent, chaque brique qu'ils posent, chaque fusil qu'ils assemblent, chaque char qu'ils soudent, est un service rendu à leur pays et à l'esprit de la Commune dans son ensemble."
-
- FRA_industrialization_idea: "Industrialisation Communale"
- FRA_industrialization_idea_desc: "Lancée par le ministre jacobin de l'économie Barthélémy Montagnon, l'industrialisation n'est pas un concept inconnu que ce soit dans la Commune, ou à l'étranger. Cette politique vise à augmenter rapidement la capacité industrielle de la France afin de rattraper notre ennemi juré, l'Allemagne. Elle s'accompagne d'une culture du travail et de la création de villes-usines dédiées."
 
 FRA_working_women_idea: "Les femmes au travail"
 FRA_working_women_idea_desc: "Pendant trop longtemps, les femmes ont été réprimées par des penseurs réactionnaires. Mais sous la République Française, ces dernières ont soutenu la nation avec abnégation pendant que nos frères étaient envoyés à l'abattoir. Il est temps pour nous de reconnaître leur contribution à la société et de formaliser les droits des travailleuses, en temps de paix comme en temps de guerre."
 
 FRA_bhartiya_support: "Arrivée du soutien militaire français"
 FRA_bhartiya_support_desc: "Nous recevons l'appui militaire de nos alliés français. Cette aide désintéressée s'avérera essentielle pour vaincre la Fédération Princière réactionnaire et le Dominion impérialiste de l'Inde. Avec le temps, nous espérons pouvoir remercier la France pour son aide, mais pour l'instant, nous devons nous concentrer sur la tâche à accomplir."
-
- FRA_amenagement_du_territoire_idea:0 "Aménagement du territoire"
- FRA_amenagement_du_territoire_idea_desc:0 "La France est historiquement un pays très centralisé, ce qui signifie que la plupart des développements ont été limités aux villes industrielles et aux centres de population. Nous avons financé de grands projets pour nous assurer que toutes les parties de notre territoire sont développées de manière satisfaisante."
-
- FRA_plan_prost_idea: "Le Plan Prost"
-FRA_plan_prost_idea_desc: "Les projets d'autoroutes d'Henri Prost pour relier la banlieue parisienne se sont avérés populaires dans tout le pays. De nombreuses autres communes comme Lyon ou Marseille ont également adhéré à ce plan et des projets sont déjà en cours d'élaboration pour un grand réseau autoroutier reliant toutes les grandes villes de France, de Lille à Toulouse."
-
-FRA_paramilitary_gendarmes: "Développement de la Gendarmerie"
- FRA_paramilitary_gendarmes_desc:9 "La Gendarmerie est une belle institution, une police paramilitaire capable d'activités civiles et militaires. Alors que beaucoup ont fait pression pour la dissoudre complètement, nous allons plutôt étendre leurs activités pour en faire une force parallèle à la Police fédérale."
-
-FRA_secret_police: "La police secrète"
-FRA_secret_police_desc: "Il y a encore beaucoup d'ennemis de la Commune à l'intérieur de la Commune et parfois même occupant des positions de pouvoir ou au sein de l'armée. Cette pression en faveur de la transparence est dangereuse, nous devons organiser des opérations de police secrètes pour assurer la sécurité des Français face aux influences internes."
-
- FRA_demo_surete: "Sûreté Populaire démocratique"
-FRA_demo_surete_desc: "Nous ne pouvons permettre que la paranoïa mène à la destruction de l'équilibre délicat que nous avons atteint avec la Sûreté Populaire. En démocratisant l'organisation, nous ferons en sorte que les Français respectent la police non pas en en ayant peur, mais en comprenant ses actions et ses objectifs, qui ne sont rien de plus après tout que de les servir."
-
-FRA_hawkish_renseignements: "Des Renseignements révolutionnaires"
- FRA_hawkish_renseignements_desc: "Les Renseignements Généraux doivent assurer notre sécurité contre les ennemis réactionnaires de l'étranger. Le simple contre-espionnage n'est pas suffisant, nous devons être prêts à espionner les pays ennemis et à soutenir les mouvements socialistes à travers le monde. Une bonne attaque est la meilleure des défenses."
-
-FRA_peace_renseignements: "Des Renseignements protecteurs"
-FRA_peace_renseignements_desc: "Les Renseignements Généraux doivent avant tout assurer la sécurité de notre pays. Le contre-espionnage est la pièce maîtresse d'une défense nationale efficace, et il y a de nombreux ennemis qui attendent un moment de faiblesse pour influencer et soulever notre population."
 
 FRA_peaceful_revolution_idea: "Pour une Révolution pacifique"
  FRA_peaceful_revolution_idea_desc: "La Révolution Socialiste Internationale viendra, mais elle sera civilisée. Les principales puissances réactionnaires d'Europe étant finalement anéanties et leurs travailleurs libérés, nous cherchons à encourager d'autres soulèvements en prouvant simplement la supériorité du syndicalisme au monde entier."
@@ -180,12 +126,25 @@ FRA_socialist_education_idea_desc: "L'éducation des jeunes est l'un des plus gr
  FRA_international_avant_garde_idea:0 "Avant-garde de l'Internationale"
  FRA_international_avant_garde_idea_desc:0 "Un style artistique socialiste unifié, de l'art à la musique, pourrait être un outil puissant qui aiderait les masses du monde non-syndicaliste à s'intéresser à nos idéaux - par le biais du divertissement."
 
- FRA_efficient_industry_idea: "Une Industrie efficace"
+ FRA_road_construction_efforts:9 "Efforts de Construction Routière"
+ FRA_large_scale_rural_projects_idea:9 "Projets Ruraux à Grande Échelle"
+ FRA_second_wave_of_mechanisation_idea:9 "Deuxième Vague de Mécanisation"
+ FRA_communal_waterworks_idea:9 "Réseaux d'Eau Communaux"
+ FRA_ploughshares_into_swords_idea:9 "Des Socs aux Épées"
+
+ FRA_autonomous_communes_default:9 "Communes Autonomes"
 
 ### Dynamic Modifiers ###
  FRA_armee_federale_modifier:9 "Armée Fédérale"
  FRA_armee_de_lair_populaire_modifier:9 "Armée de l'Air Populaire"
  FRA_marine_federale_modifier:9 "Marine Fédérale"
+
+ FRA_voluntary_association_modifier:9 "Association Volontaire"
+ FRA_modernisation_and_cartelisation_modifier:9 "Modernisation et Cartellisation"
+ FRA_militarisation_of_the_proletariat_modifier:9 "Militarisation du Prolétariat"
+ FRA_planism_modifier:9 "Planisme"
+
+ FRA_city_of_lights:9 "Ville Lumière"
 
 ### Parties ###
  FRA_totalist_party: "CNS/PSdF"
@@ -251,133 +210,179 @@ FRA_support_bharatiya: "Accord pour une mission militaire en Commune de Bharatiy
 ### Focuses ###
 commune_of_france_focus: "Arbre de priorités de la Commune de France"
 
- FRA_amenagement_du_territoire:0 "Aménagement du territoire"
- FRA_amenagement_du_territoire_desc:0 "Notre territoire est vaste et inégalement développé, certaines régions rurales ayant été laissées pour compte alors que d'autres prospèrent et se développent à des rythmes spectaculaires. Nous devons encourager les initiatives locales et envisager des projets d'infrastructure ambitieux pour résoudre ce problème au niveau local et national."
-FRA_hydroelectricity: " Développement de l'hydroéléctricité"
-FRA_hydroelectricity_desc: "Nos régions montagneuses des Alpes et du Massif Central disposent de nombreux cours d'eau à débit élevé, un environnement idéal pour installer une source d'énergie propre et durable et revitaliser les régions montagneuses rurales et arriérées de la Commune."
- FRA_improve_the_electrical_network:9 "Améliorer le réseau électrique"
- FRA_improve_the_electrical_network_desc:9 "Grâce au succès récent de nos efforts pour développer la production d'énergie hydroélectrique, nous pouvons désormais utiliser de l'électricité moins chère pour renforcer nos capacités industrielles. La rénovation des réseaux électriques afin d'assurer une bonne distribution de ce nouveau surplus est une première étape idéale."
  FRA_office_des_chemins_de_fer:0 "Office des Chemins de Fer"
  FRA_office_des_chemins_de_fer_desc:0 "Une réunion du Congrès sur l'état de l'infrastructure française à la BGT a montré la désorganisation de notre système ferroviaire et le retard qu'il a pris. Le Congrès a convenu de la nécessité de créer un nouvel office spécifiquement chargé du développement et de l'entretien de nos chemins de fer afin de relier toutes les parties de la France entre elles."
-FRA_mining_expansion: "Expansion de l'activité minière"
-FRA_mining_expansion_desc: "Le développement économique et infrastructurel des régions des Alpes et du Massif Central permet une plus grande exploitation des ressources minérales qui y sont disponibles. Nos prospecteurs ont découvert de nouveaux gisements minéraux et nous sommes maintenant prêts à les exploiter à l'échelle industrielle!"
- FRA_plan_prost: "Le Plan Prost"
-FRA_plan_prost_desc: "L'ingénieur et urbaniste Henri Prost a imaginé un projet d'aménagement d'autoroutes autour de la région parisienne pour relier les banlieues périphériques. Cette idée bénéficie d'un large soutien et le BGT a décidé de financer de nouveaux projets d'extension des autoroutes de la Commune. Les communes de Marseille et de Lyon lui ont également demandé de dessiner des plans d'autoroutes pour leurs villes."
-FRA_autoroutes: "Développer les autoroutes"
-FRA_autoroutes_desc: "Les autoroutes se sont avérées être un atout majeur pour l'économie et la mobilité des travailleurs dans les régions urbaines, et un plan ambitieux a été mis de l'avant pour les étendre à tout le pays ! Relier tous les coins de notre pays aura un impact massif sur notre développement régional et ne peut que profiter à la Révolution."
 
- FRA_direction_of_the_economy:0 "Orientation de l'économie"
- FRA_direction_of_the_economy_desc:0 "Notre économie est plus juste pour les travailleurs et généralement assez puissante, alors que les économies réactionnaires vivent et meurent au gré des caprices des capitalistes, mais des conflits internes nous ont empêchés de piloter notre économie. Il est temps de convoquer une réunion de la BGT, afin que ces questions soient réglées une fois pour toutes par une seule faction de la Commune."
- FRA_orthodox_syndicalism:0 "Syndicalisme orthodoxe"
- FRA_orthodox_syndicalism_desc:0 "Le cap fixé depuis la révolution a été réaffirmé. Cette orthodoxie a prouvé son efficacité et, avec un peu de doigté, elle peut l'accroître encore."
- FRA_reduce_unemployment:0 "Réduire le chômage"
- FRA_reduce_unemployment_desc:0 "Outre-Rhin, le chômage atteint des sommets, nous devons faire en sorte que le travailleur français ait toujours un emploi pour nourrir sa famille. Dans cette simple tâche de fournir à notre peuple le fruit de sa subsistance, nous prouvons notre supériorité inhérente aux économies capitalistes et à leurs crises permanentes."
- FRA_worker_designer_cooperation:0 "Coopération entre les travailleurs et les concepteurs"
- FRA_worker_designer_cooperation_desc:0 "En renforçant la coopération entre les scientifiques et les ingénieurs à l'origine des conceptions et des concepts et les travailleurs qui les construisent, nous améliorerons rapidement nos techniques de production. Cela nous permet également de former et d'éduquer rapidement notre main-d'œuvre aux nouvelles techniques, en laissant les concepteurs les enseigner directement aux travailleurs."
- FRA_improve_management_of_unions:0 "Améliorer la gestion des syndicats"
- FRA_improve_management_of_unions_desc:0 "Les syndicats dirigent depuis longtemps l'économie, mais leurs règles comportent des lacunes et des failles qui peuvent être exploitées, entraînant des résultats désastreux pour notre économie. Toutefois, nous ne remettrons pas en question la place des syndicats dans notre pays. Nous allons plutôt renforcer la gestion et réécrire certains codes du travail."
- FRA_sense_of_dedication:0 "Le sens du dévouement"
- FRA_sense_of_dedication_desc:0 "Le travailleur doit se rendre compte qu'il travaille pour le bien de la Commune et du peuple français dans son ensemble. Il doit se sentir investi dans son travail à tout moment, et c'est ainsi que nous améliorerons notre esprit national et notre productivité. Pas besoin de fouet ni de chef d'entreprise oppressif."
- FRA_factory_towns:0 "Villes-usines"
- FRA_factory_towns_desc:0 "Notre projet d'expansion rapide de la base industrielle de la commune peut être soutenu par l'établissement de nouvelles villes-usines, des villes spécialement conçues pour fournir des logements et des produits de base modernes aux travailleurs et à leurs familles, tout en veillant à ce qu'ils vivent à proximité de leur lieu de travail."
- FRA_communal_industrialisation:0 "Industrialisation communale"
- FRA_communal_industrialisation_desc:0 "Barthélémy Montagnon est le nouveau ministre de l'économie de la Commune. Jacobin, il est partisan de l'industrialisation communale. Si notre pays a toujours été l'une des économies modernes de l'Europe, nous ne pouvons pas encore nous comparer à la Ruhr. Ce n'est que par une expansion ambitieuse de notre base industrielle que nous pourrons espérer nous mesurer à l'Allemagne."
- FRA_technician_management: "Vers une Gestion Technocratique"
- FRA_technician_management_desc:0 "Trop longtemps, les syndicats ont été laissés libres de gérer l'économie de manière inefficace, sans l'aide d'experts. Afin de mettre fin au chaos économique et de garantir une modernisation rapide, des ingénieurs, des économistes et d'autres experts seront habilités à guider les décisions des Syndicats et à y opposer leur veto lorsqu'il s'agit de questions économiques."
- FRA_war_economy_and_agriculture:0 "Économie de guerre et agriculture"
- FRA_war_economy_and_agriculture_desc:0 "Jacques Doriot est le nouveau ministre de l'économie de la Commune. Sorelien, il défend sa théorie "Guerre, économie et agriculture", appelant à une conversion rapide à l'économie de guerre ainsi qu'à un développement ambitieux de l'agriculture. Si les réactionnaires allemands attaquent, nous aurons certainement besoin des fusils et du pain."
-FRA_modern_farms: "Fermes modernes"
-FRA_modern_farms_desc: "L'agriculture a été un élément fondamental de la civilisation depuis l'Antiquité, et pourtant elle a profondément changé en un siècle seulement. Des outils récents comme les tracteurs permettent à un seul agriculteur de récolter des champs en une seule journée, ce qui aurait nécessité des dizaines d'agriculteurs et une semaine dans le passé. Mécanisons nos fermes, pour mettre plus de nourriture dans nos assiettes et nos rations."
-FRA_war_industry: "Vers une industrie de guerre"
-FRA_war_industry_desc: "Malgré l'animosité croissante de l'Allemagne, notre économie est encore principalement consacrée à la production de biens civils et n'est pas adaptée à une guerre majeure. Nous devons développer notre production d'armes et d'équipements si nous voulons défendre efficacement la Commune contre les menaces extérieures."
-FRA_mass_production: "Production de masse"
-FRA_mass_production_desc: "Nos ennemis sont nombreux et, par conséquent, notre armée doit être importante. Or, cette armée a besoin de beaucoup d'équipement, et cela met de toute évidence à rude épreuve nos usines. Nous devons chercher de nouvelles façons d'améliorer notre production d'armes légères, tant par la conception que par la fabrication, sans réduire les coûts."
- FRA_worker_self_management:0 "Autogestion des travailleurs"
- FRA_worker_self_management_desc:0 "Daniel Guérin est le nouveau ministre de l'économie de la Commune. Anarchiste, il est partisan d'une plus grande autogestion de la classe ouvrière et mettra en œuvre de nouvelles mesures pour lutter contre la bureaucratisation des syndicats."
-FRA_decentralized_industry: "Vers une industrie décentralisée"
-FRA_decentralized_industry_desc: "Notre industrie est actuellement concentrée autour de Paris et des grandes communes, mais les gens ne vivent pas seulement à Paris, Lille ou Lyon, ils vivent partout en France. Nous devons tout mettre en œuvre pour développer toutes les régions de France afin que notre pays tout entier prospère."
- FRA_collective_properties: "Propriétés collectives"
- FRA_collective_properties_desc: "La propriété privée est incompatible avec la liberté de l'individu. En théorie, c'est un principe sur lequel même les syndicalistes orthodoxes sont d'accord avec nous. Cependant, pendant des décennies, l'ancien urbanisme capitaliste et les normes publiques sont restés pratiquement inchangés, et il est temps d'y mettre fin. Avec la promotion des pratiques de vie en commun et la consolidation des coopératives en propriété commune, notre société est vouée à devenir plus égalitaire et moins gaspilleuse."
-FRA_ruralism: "Ruralisme"
-FRA_ruralism_desc: "La vie du paysan est la plus belle vie que connaisse l'homme, mais le besoin d'une économie industrielle a rendu cette vie impossible pour la plupart des Français. Nous pouvons cependant encore encourager ce mode de vie en amenant leurs usines et leurs lieux de travail à la campagne, mettant fin à la tyrannie de l'urbanisation de masse."
+ FRA_voluntary_association:9 "Association Volontaire"
+ FRA_voluntary_association_desc:9 "La meilleure politique économique n'est pas celle qui est dictée d'en haut, mais celle qui naît naturellement d'en bas, du prolétariat, des travailleurs. Nous rejetons l'étatisme, et au contraire nous embrassons toujours plus la décentralisation et la libération de l'économie française : nous ne triompherons pas en essayant d'encadrer les masses, mais en laissant le Peuple libéré par la Mère Anarchie inaugurer une nouvelle ère de prospérité."
+
+FRA_socialist_education: "Éducation socialiste"
+ FRA_socialist_education_desc:9 "Il faut reconnaître que l'éducation sous la Troisième République était excellente. Par l'éducation, elle a conquis l'esprit des Français et semé les graines de la méritocratie. Cependant, elle a été entravée par ses préjugés bourgeois et n'a pas suffisamment développé les talents issus d'origines plus modestes. L'éducation sous la Révolution ne commet pas les mêmes erreurs : les plus brillants s'élèveront et serviront le Peuple."
+
+ FRA_support_workers_initiatives:9 "Soutenir les Initiatives des Travailleurs"
+ FRA_support_workers_initiatives_desc:9 "L'ingéniosité et le bon sens des masses, les plus proches de la production, ne peuvent être sous-estimés. Nous devons faire un effort particulier pour aider les initiatives émanant de la base économique non seulement à se concrétiser, mais à s'épanouir. Cela permettra sans doute aux hommes impliqués dans ces projets de se consacrer encore plus à leur travail et de voir leurs efforts récompensés, mais ce sera aussi un grand succès de propagande, tant à l'intérieur qu'à l'extérieur de nos frontières."
+
+ FRA_consumer_cooperatives:9 "Coopératives de Consommateurs"
+ FRA_consumer_cooperatives_desc:9 "L'économiste Charles Gides avait développé avant la guerre un réseau de magasins coopératifs, lié à l'ancienne SFIO. Il espérait inaugurer la "République coopérative" grâce à une économie alternative, libérée du capitalisme et des profits indus. Depuis la Révolution, les coopératives de consommation sont devenues omniprésentes, travaillant main dans la main avec les coopératives de production pour apporter aux travailleurs toutes sortes de biens à des prix équitables, massifiant ainsi les échanges."
+
+ FRA_garden_city_movement:9 "Mouvement des Cités-Jardins"
+ FRA_garden_city_movement_desc:9 "Un meilleur cadre de vie est synonyme de travailleurs en meilleure santé et plus productifs. Pour faire face à l'exode rural et soutenir le développement de notre capacité industrielle, des projets à grande échelle ont été approuvés pour faire germer des quartiers à la périphérie des villes ou sur des bidonvilles démolis. Construits selon les idéaux du mouvement des "cités-jardins", ils comprennent des maisons familiales et des logements de moyenne densité, des services et des équipements communs, ainsi que de vastes espaces verts."
+
+ FRA_close_bureaucratic_loopholes:9 "Combler les Lacunes Bureaucratiques"
+ FRA_close_bureaucratic_loopholes_desc:9 "Une critique récurrente de l'État révolutionnaire est particulièrement pertinente : la démocratie économique est une affaire compliquée, qui conduit à des inefficacités intolérables. Nous devons nous efforcer de rendre l'économie plus efficace, sans mettre en péril ses qualités délibératives et ouvrières, et le point de départ le plus évident est de revoir notre bureaucratie et de réduire les processus excessifs qui favorisent à la fois la lenteur et la corruption."
+
+ FRA_modernisation_and_cartelisation:9 "Modernisation et Cartellisation"
+ FRA_modernisation_and_cartelisation_desc:9 "Le socialisme, c'est avant tout le triomphe de l'efficacité économique sur le non-sens capitaliste. La Révolution a déjà permis une grande rationalisation de l'économie, les fédérations industrielles travaillant avec le gouvernement fédéral pour rationaliser la production. Mais ce processus peut être poussé plus loin en favorisant l'essor d'ensembles industriels spécialisés, travaillant harmonieusement ensemble, rouages d'une grande machine."
+
+ FRA_embrace_chain_production:9 "Adopter la Production à la Chaîne"
+ FRA_embrace_chain_production_desc:9 "L'industrie française au tournant de la Révolution est particulière. Bien qu'il y ait déjà une classe prolétarienne importante, de nombreux travailleurs sont encore proches de leurs ancêtres artisans, la production à la chaîne et la gestion scientifique n'étant la norme que dans un petit nombre d'industries. Bien que cela puisse être parfois impopulaire auprès de certains travailleurs, nous devons continuer à convaincre les syndicats de franchir cette étape importante dans la modernisation de la production."
+
+ FRA_mass_application_of_pre_stressed_concrete:9 "Application en Masse du Béton Précontraint"
+ FRA_mass_application_of_pre_stressed_concrete_desc:9 "Mis au point par l'ingénieur Eugène Freyssinet, le béton précontraint constitue une nouvelle étape dans la construction moderne. Le béton, matériau fétiche de l'ère industrielle, présente des problèmes de durabilité et de déformation avec le temps et l'usure. La méthode permet de pallier ces risques, notamment pour les constructions soumises à un usage intensif ou à des pressions importantes. De nouvelles constructions plus durables verront le jour et une campagne de renforcement des sites à risque sera lancée."
+
+ FRA_develop_the_rhone_valley:9 "Développer la Vallée du Rhône"
+ FRA_develop_the_rhone_valley_desc:9 "Le Rhône, artère vitale du Sud-Est, coincé entre le Massif central et les Alpes, est historiquement capricieux. Artère commerciale entre le Nord et le Sud, il est aussi notoirement sujet aux inondations, ce qui entrave gravement le développement de ses rives. C'était bien sûr avant que l'homme ne dompte la nature grâce au travail et à la technologie, et nous pouvons maintenant canaliser l'humeur du fleuve au profit de notre développement industriel."
+
+ FRA_voice_of_the_people:9 "Voix du Peuple"
+ FRA_voice_of_the_people_desc:9 "La France, cœur battant de la Révolution, doit pouvoir atteindre les travailleurs du monde entier, en particulier ceux qui souffrent encore des chaînes du Capital. De Paris au Monde, nous émettrons des programmes radiophoniques dans toutes les langues majeures et ferons savoir à nos camarades qu'ils ne sont pas seuls. Il ne peut s'agir d'une simple émission de propagande : nous veillerons à ce que les informations et les messages socialistes soient accompagnés d'une éducation plus large, d'un divertissement et d'une bonne musique."
+
+ FRA_point_du_jour_studios:9 "Studios Point du Jour"
+ FRA_point_du_jour_studios_desc:9 "Le Septième Art est indéniablement le média de ce siècle, une révolution dans le divertissement et la communication des idées. Né en France, force est de constater qu'Hollywood et Babelsberg ont dépassé la maison du cinéma en capacité de production, pompant du matériel contre-révolutionnaire pour le monde entier. Nous soutiendrons l'extension des installations dans la banlieue parisienne de Billancourt, les studios Point du Jour (Sunrise), et nous financerons des cinéastes novateurs."
+
+ FRA_build_the_autoroutes:9 "Construire les Autoroutes"
+ FRA_build_the_autoroutes_desc:9 "L'ingénieur et urbaniste Henri Prost propose de développer des autoroutes autour de la région parisienne pour relier les banlieues éloignées. Cette idée reçoit un large soutien et la BGT décide de financer de nouveaux projets d'extension des autoroutes à travers la Fédération. Les communes de Marseille et de Lyon lui demandent également de dessiner des plans d'autoroutes pour leurs villes."
+
+ FRA_militarisation_of_the_proletariat:9 "Militarisation du Prolétariat"
+ FRA_militarisation_of_the_proletariat_desc:9 "Nous ne pouvons pas l'oublier : nous, les travailleurs, sommes en guerre, nous avons toujours été en guerre, nous serons toujours en guerre. La production est un combat inlassable, une guerre incessante contre la Réaction rampante, contre la bourgeoisie dégénérée et contre tous ceux qui osent s'opposer à l'Histoire. Les producteurs de France doivent être à la hauteur, prendre leur destin à bras le corps et travailler plus que jamais à forger les outils de la libération du monde."
+
+ FRA_second_wave_of_mechanisation:9 "Deuxième Vague de Mécanisation"
+ FRA_second_wave_of_mechanisation_desc:9 "La France est une puissance agricole, notre terre a toujours été généreuse. Cependant, malgré nos efforts, la récolte d'aujourd'hui n'est pas très différente de celle d'avant la Révolution, et dans certains cas, d'il y a des centaines d'années. Il s'agit toujours d'un processus manuel à forte intensité de main-d'œuvre, la mécanisation progressant lentement. Pour continuer à moderniser notre économie, nous devons aider nos agriculteurs à adopter les nouveaux outils de leur métier."
+
+ FRA_large_scale_rural_projects:9 "Projets Ruraux à Grande Échelle"
+ FRA_large_scale_rural_projects_desc:9 "Nous sommes une nation de petits propriétaires terriens. Lorsque la Révolution est arrivée, il y avait peu de grands domaines à saisir et peu de métayers. Cela signifie que la vie à la campagne est restée relativement inchangée au cours des dernières décennies. Avec toutefois des exceptions notables : la généralisation des coopératives agricoles et les expériences de collectivisation volontaire. Celles-ci sont le passage obligé du développement économique rural, et nous encouragerons leur travail."
+
+ FRA_communal_waterworks:9 "Réseaux d'Eau Communaux"
+ FRA_communal_waterworks_desc:9 "Pour l'instant, il serait impensable de demander à notre classe paysanne de mettre en commun ses parcelles de terre, source de grande fierté pour elle. Pourtant, il existe de nombreux aspects de l'agriculture qui peuvent et doivent être mutualisés pour les rendre plus efficaces et notre agriculture, à terme, encore plus productive : les réseaux d'eau en font partie. En encourageant les communes à coordonner de tels projets, nous jetterons les bases d'une modernisation plus poussée de l'économie rurale."
+
+ FRA_ploughshares_into_swords:9 "Des Socs aux Épées"
+ FRA_ploughshares_into_swords_desc:9 "Le monde rural doit participer à l'effort de la grande guerre industrielle, à la défense de la Révolution. Les productions décentralisées, notamment celles qui nécessitent une touche plus artisanale dans leur création ou leur assemblage, pourront y trouver leur place. Le moissonneur, le paysan, l'artisan aideront leur camarade le soldat à s'équiper en biens de qualité, fiers descendants d'un artisanat ancestral."
+
+ FRA_new_hydroelectric_dams:9 "Nouveaux Barrages Hydroélectriques"
+ FRA_new_hydroelectric_dams_desc:9 "Nos régions montagneuses des Alpes et du Massif central disposent de nombreuses rivières à fort débit, un environnement idéal pour installer une source d'énergie propre et durable et contribuer à revitaliser les régions montagneuses rurales de la France en retard de développement."
+
+ FRA_syndical_consolidation:9 "Consolidation Syndicale"
+ FRA_syndical_consolidation_desc:9 "A l'approche de la prochaine étape du grand conflit révolutionnaire, nous devons appeler les fédérations syndicales à rejeter toutes les rivalités, tous les conflits interpersonnels, tous les corporatismes, et à adopter une discipline productive. Le temps des débats est passé, il est temps de revenir à leurs racines d'outils de guerre de classe : il n'y a qu'une seule classe ouvrière, qu'il n'y ait qu'une seule volonté syndicale singulière."
+
+ FRA_embrace_planism:9 "Embrasser le Planisme"
+ FRA_embrace_planism_desc:9 "La gestion scientifique de l'économie est l'avenir, nous n'aurons de cesse que les forces économiques de la nation soient en totale harmonie avec l'État, travaillant au triomphe sur les ennemis des travailleurs. Nous ne pouvons pas nous laisser distraire par des préoccupations moins importantes, nous ne devons avoir qu'un seul but : la survie et le triomphe de la Révolution, et donc nous devons suivre une seule ligne, une seule volonté, un seul grand Plan."
+
+ FRA_expand_manufacture_darmes_de_tulle:9 "Agrandir la Manufacture d'Armes de Tulle"
+ FRA_expand_manufacture_darmes_de_tulle_desc:9 "Tulle, dans le Limousin, abrite l'une des plus anciennes et des plus grandes usines d'armement de France, avec des milliers d'ouvriers travaillant principalement dans le domaine des armes légères. Alors que notre campagne de réarmement s'accélère, il a été décidé d'agrandir le "Manu", comme l'ont surnommé les habitants de la région. En effet, contrairement à d'autres usines situées dans des bassins industriels traditionnels, notamment dans le Nord, celle-ci est loin de la portée de l'ennemi."
+
+ FRA_directorate_for_arms_production:9 "Direction de la Production Militaire"
+ FRA_directorate_for_arms_production_desc:9 "Si nous voulons triompher dans la course aux armements contre les puissances réactionnaires, nous ne pouvons laisser aucune distraction entraver nos efforts de préparation à la guerre. Un comité exécutif fédéral composé d'officiers, d'experts, de législateurs et de dirigeants syndicaux sera constitué et utilisera toute la puissance de l'État prolétarien pour prendre le contrôle direct de notre industrie de défense, en veillant à ce qu'elle soit parfaitement adaptée pour répondre à nos besoins et à nos impératifs."
+
+ FRA_maximise_production_capacity:0 "Maximiser la Capacité de Production"
+ FRA_maximise_production_capacity_desc:9 "Dans la course à la réaction, nous partons désavantagés en termes de population et de base industrielle. Même si nous ferons de notre mieux pour rattraper notre retard, nous devons faire le maximum avec ce que nous avons. Nos travailleurs libres sont plus productifs et plus qualifiés que ceux qui attendent désespérément leur libération. Si nous devons travailler deux fois plus dur, nous le ferons. Un grand effort est tout ce dont nous avons besoin, et nos camarades sont plus que prêts à se lancer dans cet effort pour nous tous."
+
+ FRA_the_working_mans_automobile:9 "L'Automobile du Travailleur"
+ FRA_the_working_mans_automobile_desc:9 "Le socialisme, c'est répondre aux besoins et aux désirs des travailleurs. Beaucoup de nos camarades pensent aux possibilités offertes par la possession d'une voiture personnelle, non contrainte par des voies tracées et des itinéraires tracés. Les transports en commun ne seront jamais remplacés, mais il faut rendre ce rêve accessible à tous les Français qui travaillent. C'est pourquoi nous nous adresserons aux syndicats de l'industrie automobile pour qu'ils conçoivent de nouveaux modèles, durables, mais simples et bon marché, facilement réparables."
+
+ FRA_new_tractor_factories:9 "Nouvelles Usines de Tracteurs"
+ FRA_new_tractor_factories_desc:9 "Les efforts de mécanisation ont entraîné la nécessité d'un grand nombre d'équipements agricoles mécaniques, en particulier des tracteurs, qui sont la pierre angulaire de ce mouvement. Chaque coopérative possède déjà le sien, mais si nous voulons abandonner complètement la faux, chaque paysan doit avoir sa propre bête de somme moderne. Pour éviter d'alourdir encore la charge des usines de l'industrie automobile, nous ordonnerons la création d'usines spécialisées."
+
+ FRA_viticulture_of_the_twentieth_century:9 "Viticulture du Vingtième Siècle"
+ FRA_viticulture_of_the_twentieth_century_desc:9 "Le vin, pierre angulaire de la sociabilité française, tous les prétextes sont bons pour ouvrir une bonne bouteille. Les rouges de Bordeaux ou de Bourgogne, les blancs de Lorraine, tous ont des admirateurs ici et ailleurs. Les vendanges sont encore largement effectuées à la main, et l'ensemble du processus est encore assez artisanal : bien que certaines parties soient trop cruciales pour être modernisées, ce qui donne au nectar son goût subtil, nous pouvons aider la production de vin à entrer dans ce siècle grâce à des équipements modernisés."
+
+ FRA_expand_the_textile_industry:0 "Développer l'Industrie Textile"
+ FRA_expand_the_textile_industry_desc:9 "Depuis les premiers jours de la révolution industrielle, l'industrie textile a toujours été à la pointe du progrès économique. Aujourd'hui, les fibres synthétiques, les nouvelles machines et les nouvelles techniques ont rendu possible la production de masse, à moindre intensité de main-d'œuvre, de textiles et de vêtements. Paris est déjà la capitale de la mode, bientôt nous serons aussi la patrie du textile durable et abordable : nos travailleurs seront mieux habillés que toutes les dames de Berlin."
+
+ FRA_exploit_the_massif_central:9 "Exploiter le Massif Central"
+ FRA_exploit_the_massif_central_desc:9 "Le développement économique et infrastructurel des régions des Alpes et du Massif central permet une plus grande exploitation des ressources minérales qui y sont disponibles. Nos prospecteurs ont découvert de nouveaux gisements et nous sommes maintenant prêts à les exploiter à l'échelle industrielle !"
 
 FRA_road_to_war: "Le chemin de la guerre"
- FRA_road_to_war_desc: " La guerre avec l'Allemagne est clairement inévitable, cette nation tient en otage nos frères d'Alsace et de Lorraine, et avec ses nombreux vassaux du Reichspakt, elle est la principale puissance contre-révolutionnaire en Europe, voire dans le monde, tyrannisant de centaines de millions de personnes. Cela prendra bientôt fin, nous les vengerons tous. La première Grande Guerre n'a pas été et ne sera pas la dernière."
+ FRA_road_to_war_desc:9 "La Guerre avec l'Allemagne est inévitable, non seulement elle retient en otage nos frères d'Alsace et de Lorraine, mais avec ses nombreuses marionnettes du Reichspakt, elle se présente comme la principale puissance contre-révolutionnaire d'Europe, voire du monde, tyrannisant des centaines de millions d'individus. Cela doit cesser, nous les vengerons tous et nous libérerons nos camarades. La Guerre Mondiale ne devait pas être la dernière, la Guerre Révolutionnaire devra suivre."
+
 FRA_renseignements_generaux: "Les Renseignements Généraux"
- FRA_renseignements_generaux_desc: "Il est devenu évident que nous ne pouvons défendre notre pays de manière adéquate sans une agence de renseignement moderne et centralisée. Les tabous de l'ancien temps s'opposent toujours à cette autorité centralisée et non contrôlée, mais c'est un sacrifice auquel nous devons consentir. Il est insupportable que les espions allemands se moquent de nos pitoyables " comités du renseignement"."
-FRA_military_buildup: "Montée en puissance militaire"
-FRA_military_buildup_desc: "Pour nous préparer à la guerre à venir, nous devrons développer notre industrie de guerre rapidement et efficacement. Cela pourrait nuire à notre croissance économique à court terme, ce qui ne sera évidemment pas très populaire pour notre population qui espèrent la paix et la prospérité, mais nous, le savons mieux que tous. La survie de la Révolution est en jeu !"
- FRA_calibrate_the_economy:0 "Calibrer l'économie"
- FRA_calibrate_the_economy_desc:0 "Le monde capitaliste est toujours aux prises avec la crise économique dévastatrice de l'année dernière, tandis que la justesse de notre propre système continue de faire ses preuves. Il a été suggéré que nous utilisions cet avantage industriel pour transformer certains aspects de l'économie à des fins exclusivement militaires."
-FRA_socialist_education: "Éducation socialiste"
-FRA_socialist_education_desc: "L'éducation de la République française a été excellente à bien des égards, permettant au citoyen moyen d'acquérir une grande connaissance des sciences et des arts. Nous cherchons à continuer à travailler sur cet héritage en veillant à ce que les écoles françaises aient toujours pour objectif premier l'apprentissage et l'éducation, et non la hiérarchie et la discipline comme dans certains pays réactionnaires."
+ FRA_renseignements_generaux_desc:9 "Certains se méfient de tout effort de centralisation, de tout pouvoir donné aux autorités fédérales, surtout lorsqu'il s'agit de sujets sensibles comme le renseignement. Nous comprenons leurs inquiétudes, mais nous devons nous adapter aux nouvelles réalités et centraliser nos efforts si nous voulons pouvoir défendre la Révolution et ses intérêts à l'étranger, face au Deuxième Bureau d'Alger et à l'Abteilung III b de Berlin."
+
+ FRA_the_haunting_spectre:9 "Le Spectre Obsédant"
+ FRA_the_haunting_spectre_desc:9 "Dans chaque port, dans chaque entrepôt, dans chaque caserne et sur chaque chaîne de montage de chaque pouvoir contre-révolutionnaire, nous avons un camarade prêt à faire sa part dans la grande lutte. Notre réseau d'informateurs et de sympathisants est inégalé, comme après ce qui pourrait être plus grand que la classe ouvrière mondiale : nous l'utiliserons pleinement dans le cadre de nos efforts de renseignement."
+
  FRA_vanguard_of_the_revolution: "Avant-Garde de la Révolution"
  FRA_vanguard_of_the_revolution_desc: "Ceux qui luttent encore contre l'oppression capitaliste nous regardent avec beaucoup d'espoir, comme le grand phare, le cœur battant de la révolution. Nous devons faire tout ce qui est en notre pouvoir pour aider ceux qui brisent les chaînes, c'est notre devoir historique. Le soutien idéologique et matériel est une chose, mais il faut aller plus loin et s'impliquer directement dans la lutte armée : Les Français se battront dans le monde entier pour la liberté de tous les travailleurs et triompheront, comme nous avons triomphé ici."
-FRA_department_revolutionary_ideals: "Département des Idéaux Révolutionnaires"
-FRA_department_revolutionary_ideals_desc: "Alors que les enseignements empiriques font facilement leurs preuves, les idéaux portés par la Commune sont plus difficiles à inculquer à notre population. Bien que cela semble inquiétant, nous devons créer une institution prête à nous aider à rappeler à notre peuple la valeur de la Révolution et à empêcher les influences réactionnaires de s'implanter."
+
  FRA_curie_research_institute:9 "Institut de recherche Curie"
- FRA_curie_research_institute_desc:0 "Alors que certaines nations résistent aux enseignements de la science, la France y souscrit sans nuance. Soutenons la création d'un nouvel institut de recherche destiné à accroître notre supériorité technologique. Là où les réactionnaires doutent de chaque découverte et se méfient des changements, nous les accueillons et devenons plus forts d'année en année !"
- FRA_industrial_mobilisation:0 "Mobilisation industrielle"
- FRA_industrial_mobilisation_desc:9 "Notre économie est maintenant bien développée et la Fédération est prête pour la guerre, mais nous pouvons toujours faire mieux. En encourageant d'autres projets industriels, la Commune sera non seulement prête pour la guerre, mais elle sera incontestablement supérieure à tous nos ennemis. Nous prouverons au monde que la Révolution ne sera pas vaincue !"
-FRA_military_science: "Science militaire"
-FRA_military_science_desc: "La France travaille sans cesse à l'amélioration de ses réseaux de recherche, mais les sciences théoriques ne peuvent pas aller plus loin. Nous ouvrirons une nouvelle aile à l'institut de recherche de Blanqui dédiée à la science militaire, ce qui nous permettra de financer et de développer de nouvelles percées qui seront immédiatement mises à profit par notre armée."
+ FRA_curie_research_institute_desc:9 "L'obscurantisme n'a pas sa place dans notre pays. Le matérialisme nous guide : notre politique est scientifique, la science doit donc recevoir tout ce dont elle a besoin pour progresser. Nos esprits les plus brillants travailleront au service de la France, de la Révolution et donc de l'Humanité. Nous créerons un institut de recherche destiné à asseoir notre supériorité technologique, qui portera le nom des brillants physiciens Pierre et Marie Curie."
+
  FRA_synthetic_chemistry:9 "Chimie de synthèse"
  FRA_synthetic_chemistry_desc:0 "La France est grande et pleine de ressources, mais elle n'a pas tout. Le pétrole, le caoutchouc, le tungstène et le chrome font défaut et nous ne devons pas compter sur les exportateurs étrangers en cas de conflit. Nous devons rechercher de nouveaux moyens d'acquérir ces ressources à partir de ce que nous possédons déjà. Certains scientifiques suggèrent même que nous pourrions être en mesure de créer ces ressources."
+
  FRA_electric_machines:0 "Machines électriquesMachines électriques"
  FRA_electric_machines_desc:0 "Alors que l'informatique remonte à la machine à tabuler, nous avons depuis fait des percées massives dans le domaine de l'informatique. Nos mathématiciens nous assurent déjà que ces nouvelles machines sont d'une aide précieuse pour un calcul rapide et efficace. Avec un peu de soutien et de temps, nous ne pouvons qu'imaginer les possibilités de ce nouveau domaine."
+
 FRA_damocles: "Le projet Damoclès"
  FRA_damocles_desc: "Inspirée par la Conférence de Cambridge lors du Dixième Congrès de la Troisième Internationale, une réunion a eu lieu aujourd'hui à l'université de Cambridge. Un groupe de physiciens théoriciens britanniques et français demande des fonds pour la mise en place du "Projet Damoclès", un comité mixte franco-britannique pour la recherche nucléaire."
+
  FRA_zoe_project:9 "Projet Zoé"
  FRA_zoe_project_desc:0 "Le projet Damoclès était très prometteur, mais le refus de [ENG.GetNameDef] d'y participer a paralysé la coopération entre nos scientifiques et les leurs. Quoi qu'il en soit, nous devons persévérer et essayer de trouver des utilisations pour l'atome. Nous dédierons ce projet à la femme qui a découvert le radium et nous a mis sur la voie."
+
  FRA_fortify_the_german_border:0 "Fortifier la frontière allemande"
- FRA_fortify_the_german_border_desc:0 "Nous avons déjà construit un réseau de fortifications assez impressionnant le long de la Meuse et de la frontière avec la Flandre-Wallonie. Néanmoins, nous pouvons l'améliorer avec de nouvelles constructions et des installations militaires de pointe comme des stations radio et des canons d'artillerie modernes. Une chose que la République n'aurait jamais pris la peine de faire, assurément."
- FRA_extend_the_line:0 "Prolonger la ligne"
- FRA_extend_the_line_desc:0 "Bien que nous ayons concentré nos efforts de fortification sur les segments de la ligne les plus défendables, il est évident que l'Allemagne s'attaquera plutôt à nos points faibles. La solution est simple : nous n'aurons pas de points faibles. Au moins, ils apprendront à marcher sur l'eau, bonne chance pour franchir cette ligne !"
+ FRA_fortify_the_german_border_desc:9 "Les fortifications situées le long de la frontière avec l'Empire allemand ont été démolies au lendemain de la Grande Guerre, dans le cadre des dures exigences des vainqueurs. Nous nous sommes trop longtemps accommodés de cet état de fait honteux et nous devons entreprendre sans tarder la construction d'une ligne de défense moderne le long de la frontière avec l'Alsace, la Lorraine occupée et le Luxembourg. La guerre statique d'il y a vingt ans ne sera pas, ne peut pas être répétée, mais il serait insensé de laisser notre porte ouverte."
+
+ FRA_extend_the_line:9 "Garder les Pays-Bas"
+ FRA_extend_the_line_desc:9 "Nos efforts de fortification se sont concentrés sur les pentes des Vosges et les rives de la Meuse, mais il est évident que les plaines des Pays-Bas sont une autoroute pour les troupes allemandes, visant directement le cœur de la Révolution. Nous ne répéterons pas les erreurs de 1914, nous ne permettrons jamais un nouveau plan Schlieffen, et nous devons donc étendre la ligne de fortifications jusqu'à la Manche."
+
  FRA_demand_haute_savoie:0 "Demander la Haute-Savoie"
- FRA_demand_haute_savoie_desc:0 "L'occupation illégale de la Haute-Savoie par la Suisse n'a que trop duré ! Les Suisses se sont montrés des tyrans brutaux et des oppresseurs de notre peuple sur notre propre terre légitime ! Personne ne peut avoir l'audace de persécuter et de traquer des Français et penser qu'il peut s'en tirer, les perfides Suisses ont commis leur dernière erreur."
+ FRA_demand_haute_savoie_desc:9 "La grotesque occupation suisse de la Haute-Savoie, justifiée par des traités obscurs, n'a que trop duré, vestige des premiers temps révolutionnaires où l'on ne s'opposait pas encore aux menaces réactionnaires. Nous demanderons l'évacuation immédiate de la région par les forces suisses et n'hésiterons pas à recourir à la force si elles refusent d'entendre raison : comment osent-elles se cacher derrière la neutralité alors qu'elles brutalisent les travailleurs français !"
+
  FRA_liberate_iberia:0 "Libérer l'Ibérie"
  FRA_liberate_iberia_desc:0 "À notre frontière méridionale, de l'autre côté des Pyrénées, le capitalisme et l'impérialisme persistent. Grâce à nos efforts, nous réaliserons ce qu'aucun impérialiste français n'a pu faire : contrôler totalement la péninsule ibérique. Mais nous sommes différents. Nous le faisons pour les gens du peuple, pas pour des ambitions impériales. Le syndicalisme réussira en Ibérie !"
- FRA_take_down_germany:0 "Démolir l'Allemagne"
- FRA_take_down_germany_desc:0 "Le peuple français n'attend plus ! L'heure est enfin venue, la Révolution l'emportera et nos frères seront vengés de ce qu'ils ont subi pendant la Grande Guerre ! L'Allemagne regrettera d'avoir perdu la première guerre, car nous ne reculerons devant rien jusqu'à ce qu'elle soit complètement détruite !"
- FRA_the_red_danube:0 "Le Danube rouge"
+
+ FRA_take_down_germany:0 "Abattre l'Allemagne"
+ FRA_take_down_germany_desc:9 "L'heure est venue pour le prolétariat français. La Révolution l'emportera : l'Histoire est avec nous, qui pourrait s'opposer à nous ? Avec au cœur l'amour fraternel du peuple allemand, nous ferons en sorte que l'Empire qui l'asservit soit impitoyablement abattu, et que les junkers paient pour ce qu'ils ont fait à nos pères, à nos frères. Nous les vengerons : jusqu'au Rhin, jusqu'à l'Elbe, jusqu'à Berlin et au-delà !"
+
+ FRA_the_red_danube:0 "Le Danube Rouge"
  FRA_the_red_danube_desc:0 "Les peuples danubiens ont prouvé leur incapacité à mener à bien une révolution socialiste dans leur pays et à se libérer de la tyrannie des Habsbourg. Nous les aiderons donc. De même, tous les peuples encore soumis à la tyrannie de cet empire anachronique seront libérés. L'Europe sera libérée du dernier des empires réactionnaires."
+
  FRA_flank_the_rhineland:9 "Flanquer la Rhénanie"
- FRA_flank_the_rhineland_desc:9 "Les basses terres du Benelux sont stratégiquement vitales pour nos efforts de guerre. Les Allemands ne s'attendront pas à une attaque de ce côté et si nous réussissons, nous couperons l'Allemagne de ses zones économiques vitales en Rhénanie. L'Allemagne tombera."
- FRA_world_revolution:0 "Révolution mondiale"
- FRA_world_revolution_desc:0 "La révolution étant désormais bien établie en Europe, nous pouvons commencer à nous tourner vers l'extérieur et lancer un plan formidable pour libérer le monde entier des réactionnaires et des impérialistes. Notre lutte s'achèvera lorsque le dernier d'entre eux sera jugé devant le peuple pour ses crimes. Vive la République Socialiste Mondiale !"
+ FRA_flank_the_rhineland_desc:9 "Les plaines des Pays-Bas constituent un point d'entrée évident vers la Rhénanie, stratégiquement cruciale, cœur de la machine de guerre allemande. La libération rapide des plaines permettra de porter la guerre en Allemagne, de ne pas se battre sur notre sol : il faut être audacieux, le temps des plaisanteries géopolitiques est révolu, il n'y a plus qu'une lutte pour l'avenir de la Révolution, et donc de l'Humanité : un avenir plus radieux nous attend sur le Rhin."
+
+ FRA_world_revolution:0 "Révolution Mondiale"
+ FRA_world_revolution_desc:9 "La révolution étant maintenant bien établie en Europe, nous pouvons commencer à nous tourner vers l'extérieur et lancer un plan formidable pour libérer le monde entier des réactionnaires et des impérialistes. Notre lutte s'achèvera lorsque le dernier d'entre eux sera jugé devant le peuple pour ses crimes. Vive la République Socialiste Mondiale !"
+
 FRA_european_revolution: "Vers une Révolution européenne"
- FRA_european_revolution_desc: "Bien que l'idée d'une révolution mondiale soit une idée noble, nous devons rester réalistes. Avec une ingénieuse influence et aucun autre pouvoir réactionnaire pour s'opposer à nous, nous verrons bientôt les autres continents se convertir au Syndicalisme. Toutefois, nous devons veiller à ce que l'Europe soit exempte de réactionnaires. Vive la République Socialiste Européenne !"
+ FRA_european_revolution_desc:9 "Si l'idée d'une Révolution Mondiale est noble, nous devons rester réalistes. Avec une influence intelligente et aucune autre puissance réactionnaire pour s'opposer à nous, nous verrons bientôt les autres continents se convertir au syndicalisme. Cependant, nous devons veiller à ce que l'Europe soit débarrassée des réactionnaires. Vive la République Socialiste Européenne !"
+
 FRA_peaceful_revolution: "Vers une Révolution pacifique"
-FRA_peaceful_revolution_desc: "Nous entendons ceux qui prétendent que la Révolution ne peut pas prendre fin, et elle ne le fera pas. Cependant, nous ne pouvons pas nous permettre de faire constamment la guerre aux quatre coins du monde sans raison. Les travailleurs sauront choisir le meilleur pour eux et nous, nous agirons comme un phare dans l'obscurité. Concentrons-nous plutôt sur nous-mêmes. Vive la République Socialiste Française !"
+ FRA_peaceful_revolution_desc:9 "Nous entendons ceux qui prétendent que la Révolution ne peut pas prendre fin, et elle ne le fera pas. Cependant, nous ne pouvons pas nous permettre de faire constamment la guerre aux quatre coins du monde sans raison. Les travailleurs sauront choisir le meilleur pour eux et nous, nous agirons comme un phare dans l'obscurité. Concentrons-nous plutôt sur nous-mêmes. Vive la République Socialiste Française !"
 
  FRA_the_congress_of_the_internationale:0 "Le Congrès de la Troisième Internationale"
- FRA_the_congress_of_the_internationale_desc:0 "Chefs de partis socialistes, syndicalistes et totalistes, chefs d'Etat et de gouvernement, ministres des affaires étrangères et journalistes sont arrivés à Paris pour l'ouverture du neuvième congrès de la Troisième Internationale. Nous sommes fiers d'accueillir à nouveau ce congrès et espérons humblement l'utiliser pour renforcer notre position de premier pays socialiste au monde."
+ FRA_the_congress_of_the_internationale_desc:9 "Chefs de partis socialistes, syndicalistes et totalistes, Chefs d'État et de Gouvernement, Ministres des Affaires étrangères et journalistes sont arrivés à Paris pour l'ouverture du Neuvième Congrès de la Troisième Internationale. Nous sommes fiers d'accueillir à nouveau ce Congrès et espérons humblement l'utiliser pour renforcer notre position de premier pays socialiste au monde."
+
  FRA_mission_to_india:9 "Mission en [HND.GetNameDef]"
  FRA_mission_to_india_desc:9 "[HND.GetNameDefCap] a demandé notre soutien dans sa lutte contre ses voisins, les impérialistes de Lahore et les réactionnaires de la Fédération princière. Ils nous demandent d'envoyer des conseillers militaires pour former leurs officiers et leurs troupes. Nous veillerons à ce que cette aide arrive rapidement, afin qu'ils puissent unir l'Inde plus vite."
+
  FRA_arab_committee: "Comité anticolonialiste socialiste"
- FRA_arab_committee_desc: "Les traîtres du peuple français, le bâtard Pétain et sa clique d'amis, se servent du prolétariat indigène pour tenter de retourner sur le continent. Nous ne leur donnerons pas une telle chance. Notre camarade algérien Mohamed Saïl, vivant en France, nous a proposé l'idée de soutenir les mouvements de libération socialistes dans toute l'Afrique, pour le bien de tous les Africains."
+ FRA_arab_committee_desc:9 "Les traîtres réactionnaires cachés à Alger, dirigés par le despote décrépit Pétain, exploitent sans cesse le prolétariat indigène dans leur tentative d'écraser la Révolution. Elle viendra à eux et piétinera leurs résistances, sans tarder, mais des camarades, emmenés par l'Algérien Mohamed Saïl, ont proposé de redoubler d'efforts en faveur des révolutionnaires indigènes de toute l'Afrique : nous leur donnerons l'outil pour œuvrer à leur libération."
+
 FRA_working_women: "Les femmes au travail"
 FRA_working_women_desc: "Pendant le Congrès, Helen Crawfurd est montée sur scène avec son discours enflammé sur le rôle des femmes dans la révolution mondiale. Nous avons appuyé ses arguments et nous sommes maintenant prêts à mettre en œuvre des réformes sensées concernant le statut des femmes qui travaillent dans notre société. Les réactionnaires peuvent ricaner, nous aurons sûrement le dernier mot."
+
  FRA_international_avant_garde:0 "Avant-garde de l'Internationale"
- FRA_international_avant_garde_desc:0 "Les arts traditionnels et la musique classique ont trop longtemps dominé le divertissement des masses. Si le jazz est agréable et largement populaire dans nos pays, un genre ne peut pas lutter contre tous les autres. Nous devons en créer de nouveaux, nous devons montrer au monde ce qu'est le vrai divertissement. Et cela montrera au monde que nous sommes la bonne force de cette époque !"
- FRA_second_inter_congress: "Le Dixième Congrès de l'Internationale"
- FRA_second_inter_congress_desc: "Alors que la Seconde Guerre de Sécession Américaine fait rage et que de nombreux autres conflits sont prêts à éclater à tout moment dans le monde, l'Internationale doit réfléchir à son approche de la Révolution mondiale. Le dernier congrès de l'Internationale s'étant déroulé en France, le prochain aura lieu en Grande-Bretagne."
-FRA_scientific_cooperation: "Coopération scientifique internationale"
-FRA_scientific_cooperation_desc: "Il est clair que nous ne pouvons pas simplement garder nos propres découvertes technologiques pour nous. Lors d'une réunion à l'ancienne université de Cambridge, nous avons décidé d'établir un plan mondial pour combiner les avancées technologiques des pays socialistes. Certains appellent toutefois à un plan plus ambitieux, y compris en matière d'investissements industriels."
- FRA_third_inter_congress: "Le Congrès de la Victoire"
- FRA_third_inter_congress_desc: "La responsabilité de la tenue du Onzième Congrès nous revient une fois de plus, le nouveau site choisi pour cette tâche étant le Palais Populaire, où le Louvre était jadis plein des pillages de l'Empire Français. Comme il se doit, l'un des sujets à l'ordre du jour concerne enfin la libération du continent africain."
+ FRA_international_avant_garde_desc:9 "Un congrès mondial de travailleurs artistiques et littéraires a jeté les bases d'un mouvement en faveur d'un "art prolétarien". Ils ont énoncé trois objectifs : briser les chaînes de la culture bourgeoise, apporter l'art au peuple et aider à libérer le pouvoir créatif des masses. Pour atteindre ces objectifs, ils préconisent que l'art soit acceptable pour le prolétariat, qu'il dépeigne la lutte des travailleurs et qu'il soit au service de la Révolution."
 
  FRA_found_the_phalanstere_international:0 "Création du Phalanstère International"
- FRA_found_the_phalanstere_international_desc:0 "Le besoin de secret impose certaines inefficacités dans la recherche militaire. En travaillant en étroite collaboration avec d'autres nations syndicalistes et en permettant aux chercheurs d'accéder aux secrets les mieux gardés des autres, ce problème fondamental peut être résolu. Le Phalanstère International servira d'autorité centrale pour l'échange de ces secrets."
+ FRA_found_the_phalanstere_international_desc:9 "Une coopération militaire, économique et scientifique plus étroite entre les nations socialistes est une étape cruciale de la Révolution. Le cadre de cette coopération sera établi sous les auspices de l'Internationale. Il sera baptisé "Phalanstère International", en hommage à l'œuvre du socialiste utopiste Charles Fourier : en construisant ce Phalanstère, les travailleurs du monde conquerront l'utopie qu'ils ont méritée."
 
  FRA_integrate_the_corps_francs:9 "Intégrer les Corps Francs"
  FRA_integrate_the_corps_francs_desc:9 "Les Corps Francs, nos commandos, ont fait leurs preuves lors de la Grande Guerre et des événements révolutionnaires des dernières décennies, brisant des impasses impossibles à force de volonté et d'héroïsme. Infiltrer et neutraliser, ouvrir une brèche pour nos forces régulières : seuls les plus courageux sont prêts à prendre les risques de telles missions, et nous avons besoin de cette ferveur dans les confrontations à venir avec les ennemis de la Révolution."
 
- FRA_the_riflemans_friend:9 "L'ami du carabinier"
+ FRA_the_riflemans_friend:9 "L'ami du Carabinier"
  FRA_the_riflemans_friend_desc:9 "Nous inventons chaque jour de nouvelles façons de massacrer, et nous risquons ainsi d'oublier qu'aussi perfectionnées que soient nos machines de mort, ce ne sont pas elles qui triomphent, qui conquièrent, qui avancent, mais l'homme. En fin de compte, il s'agit toujours d'un homme et de son arme. Chaque soldat est un ouvrier de la Révolution, et il doit pouvoir croire que ses outils sont les mieux adaptés à sa tâche sinistre mais nécessaire."
 
- FRA_eyes_on_the_ligne_bleue:9 "Les yeux rivés sur la Ligne Bleue"
- FRA_eyes_on_the_ligne_bleue_desc:9 "La "Ligne bleue", les Vosges, nommée d'après la belle teinte matinale des vénérables montagnes, est notre frontière avec l'impérialisme allemand. Notre chemin vers la paix et la victoire passe par les vallées et les forêts de la chaîne, vers nos frères d'Alsace, nos camarades de la Ruhr. Nous ne pouvons pas laisser l'ennemi choisir le champ de bataille, nous devons le pousser, l'attaquer, le surprendre même à travers un terrain impraticable."
+ FRA_eyes_on_the_ligne_bleue:9 "Les Yeux Rivés sur la Ligne Bleue"
+ FRA_eyes_on_the_ligne_bleue_desc:9 "La "Ligne bleue", les Vosges, nommée d'après la belle teinte matinale des vénérables montagnes, est notre frontière avec l'impérial-junkerisme allemand. Notre chemin vers la paix et la victoire passe par les vallées et les forêts de la chaîne, vers nos frères d'Alsace, nos camarades de la Ruhr. Nous ne pouvons pas laisser l'ennemi choisir le champ de bataille, nous devons le pousser, l'attaquer, le surprendre même à travers un terrain impraticable."
 
  FRA_reform_the_high_command:9 "Réforme du haut commandement"
  FRA_reform_the_high_command_desc:9 "Nos forces fédérales ont trop longtemps été soupçonnées de sympathies contre-révolutionnaires, ce qui a entravé les réformes organisationnelles. Un haut-commandement sûr a été jugé préférable à un haut-commandement efficace. Cette stagnation ne peut plus durer, sinon la France, déjà désavantagée dans la lutte à venir contre la Réaction, ne pourra jamais défendre le flambeau ardent du prolétariat. Adaptabilité et discipline seront notre objectif."
@@ -394,7 +399,7 @@ FRA_scientific_cooperation_desc: "Il est clair que nous ne pouvons pas simplemen
  FRA_the_methodical_war:9 "La guerre méthodique"
  FRA_the_methodical_war_desc:9 "Ce siècle a tué la charge audacieuse, la dernière résistance héroïque. S'il y avait un doute, la Grande Guerre l'a prouvé de manière irréfutable : la guerre est désormais une question de planification, de calendriers, de logistique, de cartes. La guerre est une question purement matérialiste. Si nous voulons que notre combat pour défendre la Révolution soit couronné de succès, nous ne devons pas rechercher la vanité mais la suprématie intellectuelle et matérielle sur les forces du Capital."
 
- FRA_an_armys_stomach:9 "L'estomac d'une armée"
+ FRA_an_armys_stomach:9 "L'Estomac d'une Armée"
  FRA_an_armys_stomach_desc:9 "Un grand ennemi de la Révolution a dit un jour "une armée marche sur son estomac". Il fut alors vaincu, non par des hommes plus courageux ou des tactiques supérieures, mais par des lignes de ravitaillement distendues. Il n'a pas pris son conseil à cœur, et l'Histoire l'a laissé derrière lui. Nous ne commettrons pas la même erreur, notre mission est trop importante. Le camarade-soldat se battra, triomphera et sera bien nourri, bien habillé et bien armé tout au long du chemin."
 
  FRA_principe_de_concentration:0 "Principe de concentration"
@@ -407,10 +412,10 @@ FRA_scientific_cooperation_desc: "Il est clair que nous ne pouvons pas simplemen
  FRA_supremacy_of_movement_desc:9 "Nous devons nous rendre à l'évidence : l'ennemi est plus nombreux que nous et sa puissance industrielle est plus grande que la nôtre. Nous avons avec nous la fraternité internationale des travailleurs, mais un plan pour annuler les avantages du capital ne peut pas faire de mal. Et pour cela, nous devons être audacieux, la prochaine guerre ne peut pas être une guerre de positions, elle doit être terminée avant qu'ils ne sachent ce qui leur est arrivé. Avancer, envelopper, encercler, écraser, jusqu'au bout de la Terre, jusqu'à ce que nous soyons libres."
 
  FRA_la_petite_reine:9 "La Petite Reine"
- FRA_la_petite_reine_desc:9 "La "petite reine", la bicyclette : nos ennemis peuvent se moquer, mais cet objet essentiel de la vie ouvrière sera l'instrument de notre triomphe. Lorsque nos troupes déborderont les leurs, s'infiltreront discrètement dans leurs lignes, avançant rapidement grâce à la seule force du prolétariat, nous verrons bien qui rira le dernier. Leurs véhicules tomberont en panne, manqueront d'essence, seront confinés sur les routes : les nôtres voleront à travers la campagne."
+ FRA_la_petite_reine_desc:9 "La "Petite Reine", la bicyclette : nos ennemis peuvent se moquer, mais cet objet essentiel de la vie ouvrière sera l'instrument de notre triomphe. Lorsque nos troupes déborderont les leurs, s'infiltreront discrètement dans leurs lignes, avançant rapidement grâce à la seule force du prolétariat, nous verrons bien qui rira le dernier. Leurs véhicules tomberont en panne, manqueront d'essence, seront confinés sur les routes : les nôtres voleront à travers la campagne."
 
  FRA_overrun_capitals_front_lines:9 "Dépasser les lignes de front de la capitale"
- FRA_overrun_capitals_front_lines_desc:9 "Si nous voulons submerger l'ennemi et réduire à néant ses avantages, nous devons être rapides, nos troupes doivent traverser de vastes étendues en quelques heures, quelques jours tout au plus. Il faut embrasser l'avenir : des divisions entières, des approvisionnements, de l'artillerie et tout le reste, non pas enchaînés à l'énergie limitée de l'homme et de la bête, mais transportés sans effort par des machines, prêts à se battre à tout moment. C'est une nouvelle ère, l'ère des moteurs : la production a été révolutionnée, la guerre le sera bientôt aussi."
+ FRA_overrun_capitals_front_lines_desc:9 "Si nous voulons submerger l'ennemi et réduire à néant ses avantages, nous devons être rapides, nos troupes doivent traverser de vastes étendues en quelques heures, quelques jours tout au plus. Il faut embrasser l'avenir : des divisions entières, des approvisionnements, de l'artillerie et tout le reste, non pas enchaînés à l'énergie limitée de l'Homme et de la Bête, mais transportés sans effort par des machines, prêts à se battre à tout moment. C'est une nouvelle ère, l'ère des moteurs : la production a été révolutionnée, la guerre le sera bientôt aussi."
 
  FRA_the_modern_comrade_soldier:9 "Le camarade-soldat moderne"
  FRA_the_modern_comrade_soldier_desc:9 "Fini le temps des miliciens avec un brassard rouge, un Lebel et un rêve de Révolution. Le camarade-soldat moderne est parfaitement formé, entraîné, équipé pour faire face à tout ce que le conflit à venir lui réserve. Ses officiers ne sont pas les tyrans d'hier, ils sont unis dans un même but, une même volonté, et eux aussi ont étudié sans relâche la Grande Guerre et les différents conflits révolutionnaires qui l'ont suivie."
@@ -476,7 +481,7 @@ FRA_scientific_cooperation_desc: "Il est clair que nous ne pouvons pas simplemen
  FRA_red_fleet_old_school_desc:9 "Si nous voulons reconquérir notre position navale, il nous faut une grande flotte, capable de se tenir fièrement à côté de celles de nos alliés. De grands et puissants navires imposeront la volonté du peuple sur les mers, de belles prouesses de l'ingénierie et de la construction navale françaises, armés des canons navals les plus impressionnants que les navires français aient portés."
 
  FRA_the_aeronavales_day:9 "La journée de l'Aéronavale"
- FRA_the_aeronavales_day_desc:9 "Il est maintenant évident que les gros navires sont l'obsession des officiers de marine qui ont quelque chose à prouver ou à faire oublier. Laissons les léviathans se mettre péniblement en position, une nuée d'avions les accueillera. Ils ne sauront pas ce qui les a frappés et seront au fond de la Manche avant de se rendre compte que les colosses encombrants constituent un excellent exercice de tir."
+ FRA_the_aeronavales_day_desc:9 "Il est évident que les grands navires sont l'obsession des officiers de marine qui ont quelque chose à prouver ou à faire oublier. Laissons les léviathans se mettre péniblement en position, une nuée d'avions les accueillera. Ils ne sauront pas ce qui les a frappés et seront au fond de la Manche avant de se rendre compte que les colosses encombrants constituent un excellent exercice de tir."
 
  FRA_meute_tactics:9 "Tactique de la meute"
  FRA_meute_tactics_desc:9 "Nous avons beaucoup de retard à rattraper, en commençant par un désavantage certain face à la marine de notre principal ennemi. Une situation que la marine française connaît bien, malheureusement. Ce qui nous manque en tonnage, nous le compensons en bravoure et en ruse : les corsaires sous-marins chassent les navires en meute. Bientôt, la Kaiserliche Marine n'osera plus quitter ses ports, hantée par les ombres de nos chiens de mer."
@@ -521,7 +526,7 @@ FRA_scientific_cooperation_desc: "Il est clair que nous ne pouvons pas simplemen
  FRA_la_lutte_aerienne_desc:9 "Encore balbutiante lors de la Grande Guerre, l'aviation révolutionne déjà la guerre. En quelques années de conflit, elle a fait d'incroyables progrès, de la reconnaissance aux joutes aériennes entre preux chevaliers des airs, en passant par les bombardements et les déploiements massifs. Depuis, à chaque instant, l'avion a prouvé son incroyable utilité et son potentiel. La France était déjà pionnière dans le domaine, elle doit rester dominante."
 
  FRA_ecole_de_lair:0 "École de l'Air"
- FRA_ecole_de_lair_desc:9 "Comme il a été récemment décidé de créer une branche distincte des Forces fédérales pour l'aviation, il est normal qu'elle ait sa propre école de formation d'officiers. L'École de l'air permettra aux aspirants officiers de recevoir l'enseignement des grands pilotes de la Grande Guerre et de la Révolution, afin qu'ils puissent transmettre leur expérience. Pionniers et jeunes pousses fraîches assureront sans aucun doute un héritage glorieux à notre armée de l'air."
+ FRA_ecole_de_lair_desc:9 "Comme il a été récemment décidé de créer une branche distincte des Forces fédérales pour l'aviation, il est normal qu'elle ait sa propre école de formation d'officiers. L'École de l'Air permettra aux aspirants officiers de recevoir l'enseignement des grands pilotes de la Grande Guerre et de la Révolution, afin qu'ils puissent transmettre leur expérience. Pionniers et jeunes pousses fraîches assureront sans aucun doute un héritage glorieux à notre armée de l'air."
 
  FRA_naval_aerial_coordination:9 "Coordination navale et aérienne"
  FRA_naval_aerial_coordination_desc:9 "Le ciel et la mer, forces terrifiantes de la nature, ont été domptés par l'homme. Ils sont, comme tout le reste, un champ de bataille : le prochain conflit s'y déroulera sans doute aussi et devra y être gagné. L'autonomie de l'armée de l'air n'a pas été conçue pour l'isoler, mais au contraire pour donner plus de souplesse à ses missions. La coordination avec la marine fédérale sera essentielle et toute rivalité entre branches doit être étouffée dans l'œuf."
@@ -570,7 +575,7 @@ FRA_KR_gathering_storm_desc: "La Troisième République se termina comme elle av
 
 ### Intro Screen ###
  FRA_country_intro_header:0 "La Commune de France"
- FRA_country_intro_content:0 " La Troisième République a chuté exactement commencé qu'elle avait commencé : vaincue par les armées allemandes et confrontée à la révolution communiste dans son pays. En novembre 1919, une grève générale révolutionnaire fut déclenchée par la CGT, paralysant le pays et provoquant la chute du gouvernement bourgeois. Le "Parti de l'Ordre" n'a pas été assez fort pour mettre fin aux troubles et, dans les mois qui ont suivi, le gouvernement français a été contraint de quitter la France par une coalition de forces de gauche dans une guerre civile brève mais brutale.\n\n15 ans durant, la "Commune de France", autoproclamée, s'est unie derrière une plate-forme commune de consensus syndicaliste et socialiste dirigée par le Comité de Salut public au pouvoir. Cependant, en 1936, le consensus qui s'est dégagé pour reconstruire le pays brisé et défendre les fruits de la révolution contre la menace étrangère est considéré comme de plus en plus dépassé par de nombreux critiques, et les appels à des politiques plus radicales se multiplient. La France a de plus en plus confiance en sa sécurité et en sa mission, mais la tradition révolutionnaire française est disparate, et on ne sait pas exactement quels courants idéologiques vont devenir dominants dans les années à venir....."
+ FRA_country_intro_content:9 "La Troisième République s'est terminée comme elle avait commencé : vaincue par les armes allemandes et confrontée à une révolution communiste à l'intérieur du pays. En novembre 1919, une Grève générale révolutionnaire fut déclenchée par la CGT, paralysant le pays et provoquant la chute du gouvernement bourgeois. Le 'Parti de l'Ordre' ne fut pas assez fort pour mettre fin à l'agitation et, dans les mois qui suivirent, les dirigeants français furent chassés de France par une coalition de forces de gauche au cours d'une guerre civile brève mais brutale.\n\nAu cours des quinze dernières années, la 'Commune de France' autoproclamée s'est unie derrière une plate-forme commune de consensus syndicaliste-socialiste, dirigée par le Comité de Salut Public au pouvoir. Cependant, en 1936, le consensus atteint pour reconstruire le pays brisé et défendre les fruits de la révolution contre les menaces étrangères est considéré comme de plus en plus dépassé par de nombreux critiques, et les appels à des politiques plus radicales se font de plus en plus pressants. La France est de plus en plus confiante dans sa sécurité et dans sa mission, mais la tradition révolutionnaire française est disparate, et l'on ne sait pas exactement quels courants idéologiques deviendront dominants dans les années à venir..."
 
  FRA_guide: "§MAnarchistes/Syndicalistes Orthodoxes /Jacobins/Soréliens§! (§RRadical-Socialiste§!/§rSyndicaliste§!/§oTotaliste§!):\n£white_dot Lors des élections de 1936, une faction doit obtenir la majorité en étant soutenue 3 fois ou plus.\n\n§MPas de majorité aux élections§! (§rSyndicaliste§!)\n£white_dot Lors des élections de 1936, ne soutenez aucune faction plus de 2 fois.\n\n§MRéforme Radicale Jacobine§! (§oTotaliste§!)\n£white_dot Faire en sorte que les Jacobins obtiennent la majorité aux élections de 1936.\n£white_dot Choisissez de balayer l’ancien système.\n£white_dot Traduire en justice Léon Blum et le Front Populaire.\n£white_dot Exécutez-les.\n£white_dot Si le Front Populaire ne peut être purgé, cela entraînera un Coup d’État du Général Gamelin, qui ramènera les syndicalistes orthodoxes au pouvoir."
 
@@ -587,7 +592,7 @@ comfrance.5.d: "Malgré l'organisation réussie du Congrès Syndicaliste en mai,
 comfrance.5.a: "Au revoir, Camarade Pivert."
 
  comfrance.6.t:9 "Jour 1 : Clarifier l'Armée fédérale"
- comfrance.6.d:9 "En raison de la présence des syndicats au sein de l'Armée fédérale, elle est devenue trop politisée, créant des tensions au sein du garant de l'intégrité fédérale et du bras de la Révolution ! Le chef d'état-major sortant, le général populaire de la guerre civile Maurice Gamelin, a donc dû démissionner. Les chefs militaires syndicalistes français, majoritairement soréliens, ont décidé de demander aux militaires qui ils souhaitent voir diriger l'armée française, avant de dissoudre définitivement les organisations syndicales militaires. Chaque école de pensée stratégique est associée à une faction différente, et ce choix aura donc des conséquences politiques."
+ comfrance.6.d:9 "En raison de la présence des syndicats au sein de l'Armée fédérale, elle est devenue trop politisée, créant des tensions au sein du garant de l'intégrité fédérale et bras armé de la Révolution ! Le chef d'état-major sortant, le populaire général de la guerre civile Maurice Gamelin, a donc dû démissionner. Les chefs militaires révolutionnaires français, majoritairement soréliens, ont décidé de demander aux soldats qui ils souhaitent voir diriger l'armée française, avant de dissoudre définitivement les organisations syndicales militaires. Chaque école de pensée stratégique est associée à une faction différente, et ce choix aura donc des conséquences politiques."
  comfrance.6.a:9 "André Boris (Orthodoxe) - Une Tempête d'Obus."
  comfrance.6.b:9 "Ernest Petit (Jacobin) - Guerre Méthodique."
  comfrance.6.c:9 "Diego Brosset (Sorélien) - La Puissance des Masses."
@@ -608,30 +613,30 @@ comfrance.8.t: "Jour 3 : Sécurité intérieure"
  comfrance.8.e: "Maurice Joyeux (Anarchiste)"
 
 comfrance.9.t: "Jour 4 : Affaires économiques"
-comfrance.9.d: " L'élection d'aujourd'hui semble être un plébiscite sur la politique économique de la Commune mise en œuvre ces dernières années. De nombreuses visions de la future économie syndicaliste, plus ou moins concentrées sur l'industrie ou l'agriculture, sont en concurrence. Tous sont cruciaux pour le futur combat final contre l’Allemagne…"
- comfrance.9.a: "Benoît Frachon (orthodoxe) - Syndicalisme Orthodoxe."
- comfrance.9.b: "Barthélémy Montagnon (Jacobin) - Industrialisation."
-comfrance.9.c: "Jacques Doriot (Sorélien) - Economie de guerre et agriculture"
- comfrance.9.e: "Daniel Guérin (Anarchiste) - Autogestion totale ouvrière."
+ comfrance.9.d:9 "L'élection d'aujourd'hui semble être un plébiscite sur la politique économique de la Commune mise en œuvre ces dernières années. De nombreuses visions de la future économie syndicaliste, plus ou moins concentrées sur l'industrie ou l'agriculture, sont en concurrence. Tous sont cruciaux pour le futur combat final contre l’Allemagne…"
+ comfrance.9.a:9 "Benoît Frachon (Orthodoxe) - Modernisation et Amélioration."
+ comfrance.9.b:9 "Barthélémy Montagnon (Jacobin) - Gestion Technocratique."
+ comfrance.9.c:9 "Jacques Doriot (Sorélien) - Mobilisation Sociétale."
+ comfrance.9.e:9 "Daniel Guérin (Anarchiste) - Décentralisation Économique."
 
 comfrance.10.t: "Jour 5 : Affaires étrangères"
-comfrance.10.d: "A l'occasion du dernier jour des élections, l'un des enjeux majeurs de la Commune de France est soulevé : la diplomatie, qui porte la double tâche de répandre la Révolution à travers le monde et de préparer la revanche contre l'Allemagne. Si l'existence même de l'Internationale Syndicaliste n'est pas encore en danger, les futurs théâtres de la Révolution Mondiale seront définis aujourd'hui…"
- comfrance.10.a: "Charles Rappoport (orthodoxe)-Internationalisme."
- comfrance.10.b: "Marcel Déat (Jacobin) - Socialisme Européen."
- comfrance.10.c: "Pierre Comert (Sorélien) - La Guerre des Civilisations."
- comfrance.10.e: "Fernand Desprès (anarchiste) - Révolution Mondiale."
+ comfrance.10.d:9 "A l'occasion du dernier jour des élections, l'un des enjeux majeurs de la Commune de France est soulevé : la diplomatie, qui porte la double tâche de répandre la Révolution à travers le monde et de préparer la revanche contre l'Allemagne. Si l'existence même de l'Internationale Socialiste n'est pas encore en danger, les futurs théâtres de la Révolution Mondiale seront définis aujourd'hui…"
+ comfrance.10.a:9 "Charles Rappoport (Orthodoxe) - Internationalisme."
+ comfrance.10.b:9 "Marcel Déat (Jacobin) - Socialisme Européen."
+ comfrance.10.c:9 "Pierre Comert (Sorélien) - Guerre Civilisationnelle."
+ comfrance.10.e:9 "Fernand Desprès (Anarchiste) - Révolution Mondiale."
 
  comfrance.12.t: "Les Résultats : Majorité Orthodoxe"
  comfrance.12.d: "Même si beaucoup ont vu dans cette élection la chute du consensus orthodoxe qui a dirigé la Commune depuis la mort d'Emile Pouget, ils ont réussi à obtenir une majorité solide lors de l'élection.\n\nLes orthodoxes se tournent maintenant vers Boris Souvarine, émigré russe, qui, contrairement à Pivert, est considéré comme suffisamment fort pour maintenir les factions radicales dans le droit chemin et capable de mener la Commune à sa gloire finale !"
 comfrance.12.a: "Félicitations, Camarade Souvarine"
 
 comfrance.13.t: "Les résultats : Majorité jacobine"
- comfrance.13.d: "Les élections ont finalement mis les Jacobins au pouvoir, permettant le retour des valeurs républicaines pour mener la Commune à la Révolution mondiale ! Les structures syndicales sont désormais aux mains des Jacobins tandis que les partisans soréliens sont chassés, exilés ou abattus. L'Union Socialiste Française, nouvellement créée, va devoir choisir entre le théoricien du parti Marcel Déat et le maire de Bordeaux Adrien Marquet pour diriger la France !"
+ comfrance.13.d:9 "Les élections ont finalement mis les Jacobins au pouvoir, permettant le retour des valeurs républicaines pour mener la Commune à la Révolution mondiale ! Les structures syndicalistes sont désormais aux mains des Jacobins tandis que les partisans soréliens sont chassés, exilés ou abattus. L'Union Socialiste Française, nouvellement créée, va devoir choisir entre le théoricien du parti Marcel Déat et le maire de Bordeaux Adrien Marquet pour diriger la France !"
  comfrance.13.a: "Félicitations, Camarade Déat"
  comfrance.13.b: "Félicitations, Camarade Marquet"
 
- comfrance.14.t: "Marcel Déat succède à Pierre Monatte"
- comfrance.14.d: "Lors de la cérémonie d'inauguration du nouveau Comité de Salut Public à la Bourse Générale du Travail, le nouveau Président du CSP a demandé à son homologue du BGT Pierre Monatte de démissionner, arguant que l'alliance avec les anarchistes ne correspondait plus aux vœux de la Commune. Le vieil homme accepta à contrecœur, consacrant ainsi la prise en charge complète de la Commune par les Jacobins. Marcel Déat est finalement élu."
+ comfrance.14.t:9 "[?FRA_jacobin_leader.GetName] Succède à Pierre Monatte"
+ comfrance.14.d:9 "Lors de la cérémonie d'inauguration du nouveau Comité de Salut Public à la Bourse Générale du Travail, le nouveau Président du CSP a demandé à son homologue du BGT Pierre Monatte de démissionner, arguant que l'alliance avec les anarchistes ne correspondait plus aux vœux de la Commune. Le vieil homme accepta à contrecœur, consacrant ainsi la prise en charge complète de la Commune par les Jacobins. [?FRA_jacobin_leader.GetName] est finalement élu."
  comfrance.14.a: "Vive la Révolution !"
 
 comfrance.15.t: "Les résultats : Majorité sorélienne"
@@ -681,7 +686,7 @@ comfrance.28.t: "La Troisième Internationale"
  comfrance.28.a: "Le congrès se tiendra une semaine après le 1er mai !"
 
  comfrance.29.t: "Le Neuvième Congrès de la Troisième Internationale"
- comfrance.29.d: "Il est temps d'inviter les dirigeants socialistes et syndicalistes qui viendront du monde entier à assister au Neuvième Congrès de la Troisième Internationale."
+ comfrance.29.d:9 "Il est temps d'inviter les dirigeants socialistes et syndicalistes qui viendront du monde entier à assister au Neuvième Congrès de la Troisième Internationale."
 comfrance.29.a: "Envoyez les invitations!"
 
  comfrance.30.t: "La Troisième Internationale"
@@ -701,7 +706,7 @@ comfrance.421.d: "Les Rouges sont bien décidés à répandre leur poison comme 
 comfrance.421.a: "Nous devons être prêts..."
 
 comfrance.43.t: "Le syndicalisme en Espagne"
- comfrance.43.d: "Joaquín Ascaso Budriá est entré en scène et a élaboré la position de la CNT-FAI en Espagne pour le Congrès. La CNT-FAI est le plus grand parti syndicaliste d'Espagne, composé d'anarcho-syndicalistes, de syndicalistes modérés et de syndicalistes. Les révolutionnaires espagnols ont été les témoins directs de la Terreur blanche, des actions contre-révolutionnaires violentes menées contre les travailleurs. Ils sont venus demander un soutien à leur cause le moment venu. Une résolution de soutien aux efforts des forces prolétariennes espagnoles a été votée à l'unanimité, aux cris de "¡Viva la Revolucion !" dans les couloirs de Versailles."
+ comfrance.43.d:9 "Joaquín Ascaso Budriá est entré en scène et a élaboré la position de la CNT-FAI en Espagne pour le Congrès. La CNT-FAI est le plus grand parti syndicaliste d'Espagne, composé d'anarcho-syndicalistes, de syndicalistes modérés et de syndicalistes. Les révolutionnaires espagnols ont été les témoins directs de la Terreur blanche, des actions contre-révolutionnaires violentes menées contre les travailleurs. Ils sont venus demander un soutien à leur cause le moment venu. Une résolution de soutien aux efforts des forces prolétariennes espagnoles a été votée à l'unanimité, aux cris de "¡Viva la Revolucion !" dans les couloirs de Versailles."
  comfrance.43.a: "Nos camarades ibériques peuvent compter sur nous !"
 
 comfrance.45.t: "La Terreur blanche"
@@ -753,7 +758,7 @@ comfrance.57.d: "La Commune de Bharât a demandé un soutien dans sa lutte contr
 comfrance.57.b: "Nous ne pouvons pas gaspiller nos ressources."
 
  comfrance.58.t: "Le camarade Saïl Mohamed veut parler"
- comfrance.58.d: "Le camarade Saïl Mohamed, un éminent socialiste algérien, a été autorisé à prendre la parole devant le Congrès réuni. Il a fait un discours enthousiaste sur la situation au Maroc et en Afrique française où le travail arabe est abusé et exploité au profit des riches et de l'establishment colonial. Sail a exhorté le Congrès à mettre immédiatement un terme à cette situation. Il a proposé la création d'un Comité socialiste anticolonial qui s'efforcera d'approvisionner les conspirateurs syndicalistes anticoloniaux locaux en Afrique du Nord."
+ comfrance.58.d:9 "Le camarade Saïl Mohamed, un éminent socialiste algérien, a été autorisé à prendre la parole devant le Congrès réuni. Il a fait un discours enthousiaste sur la situation au Maroc et en Afrique française où le travail arabe est abusé et exploité au profit des riches et de l'establishment colonial. Sail a exhorté le Congrès à mettre immédiatement un terme à cette situation. Il a proposé la création d'un Comité socialiste anticolonial qui s'efforcera d'approvisionner les conspirateurs socialistes anticoloniaux locaux en Afrique du Nord."
 comfrance.58.a: "Nous soutiendrons volontiers la création de ce comité."
 
  comfrance.59.t: "La fin du Neuvième Congrès"
@@ -769,10 +774,10 @@ comfrance.61.a: "Surveillez-les !"
 comfrance.62.a: "L'Armée rouge utilisera ces camarades à bon escient !"
 
  comfrance.63.t: "La montée du comité anticolonialiste socialiste"
- comfrance.63.d.NFA: "Nos spécialistes du contre-espionnage ont constaté une récente recrudescence de l'activité syndicaliste dans notre pays. Nous savons que la Commune de France, en collaboration avec l'Union Britannique, a créé un Comité anticolonialiste au sein de l'Internationale. Ce comité, avec l'aide de Mohamed Saïl, un traître du peuple algérien vivant en France, coordonne les efforts des syndicalistes pour soutenir les sentiments anticoloniaux dans nos possessions africaines.\n\nLes puissances syndicalistes ont envoyé des quantités importantes d'armes et de matériel pour soutenir les rebelles indigènes. Elles ont également ouvert quelques camps d'entraînement dans leurs régions les plus au sud du pays. Alors que les politiciens les plus inconscients de notre pays croient que rien n'en sortira, nos généraux nous avertissent qu'il faut se méfier."
- comfrance.63.d.GER: "La nouvelle s'est répandue. La Commune de France, aux côtés d'autres membres de l'Internationale, a mis en place un Comité anti-colonial socialiste. Le Comité a pour but de soutenir la cause des Arabes et des Africains dans la libération de leurs terres natales des mains des puissances coloniales, en particulier les restes de l'État français.\nCet organisme coordonnera les actions des puissances syndicalistes en Afrique du Nord et de l'Ouest. Nos rapports de renseignement montrent qu'un petit afflux de radicaux de gauche égyptiens qui veulent se battre pour la cause révolutionnaire arrive également sur le territoire français. Bien que nous ne soyons pas en guerre avec la Commune de France ni avec aucun pays syndicaliste pour l'instant, nous devons être très prudents."
- comfrance.63.d.OTT: "La nouvelle s'est répandue à partir des agents allemands en France. La Commune de France, aux côtés d'autres membres de l'Internationale, a mis en place un Comité socialiste anticolonial. Le Comité a pour but de soutenir la cause des Arabes et des Africains dans la libération de leurs terres natales des mains des puissances coloniales, en particulier des restes de l'État français.\nCet organisme coordonnera les actions des puissances syndicalistes en Afrique du Nord et de l'Ouest. Autant la domination coloniale sur nos anciens territoires d'Afrique du Nord n'est pas pour nous faire plaisir, autant cette initiative est inquiétante. Il est probable que la Commune se battra pour mettre en avant des révolutionnaires et des nationalistes sympathiques à la cause syndicaliste. L'initiative s'inscrit également dans la tentative de l'Égypte d'encourager le nationalisme arabe au Moyen-Orient et en Afrique du Nord, et pourrait renforcer notre rival. Pour ces raisons, nous devons être prudents, même si nous ne serons pas une cible principale."
- comfrance.63.d.SPA: "La nouvelle s'est répandue en Espagne. La Commune de France, aux côtés d'autres membres de l'Internationale, a créé un Comité socialiste anticolonial. Le Comité a pour but de soutenir la cause des Arabes et des Africains dans la libération de leurs terres natales des mains des puissances coloniales, en particulier les restes de l'État français.\nCet organisme coordonnera les actions des puissances syndicalistes en Afrique du Nord et de l'Ouest. Espérons que nous ne serons pas l'une de ses cibles, car nous avons d'autres questions plus importantes à traiter en ce moment."
+ comfrance.63.d.NFA:9 "Nos spécialistes du contre-espionnage ont constaté une récente recrudescence de l'activité syndicaliste dans notre pays. Nous savons que la Commune de France, en collaboration avec l'Union Britannique, a créé un Comité anticolonialiste au sein de l'Internationale. Ce comité, avec l'aide de Mohamed Saïl, un traître du peuple algérien vivant en France, coordonne les efforts des syndicalistes pour soutenir les sentiments anticoloniaux dans nos possessions africaines.\n\nLes puissances syndicalistes ont envoyé des quantités importantes d'armes et de matériel pour soutenir les rebelles indigènes. Elles ont également ouvert quelques camps d'entraînement dans leurs régions les plus au sud du pays. Alors que les politiciens les plus inconscients de notre pays croient que rien n'en sortira, nos généraux nous avertissent qu'il faut se méfier."
+ comfrance.63.d.GER:9 "La nouvelle s'est répandue. La Commune de France, aux côtés d'autres membres de l'Internationale, a mis en place un Comité anti-colonial socialiste. Le Comité a pour but de soutenir la cause des Arabes et des Africains dans la libération de leurs terres natales des mains des puissances coloniales, en particulier les restes de l'État français.\nCet organisme coordonnera les actions des puissances syndicalistes en Afrique du Nord et de l'Ouest. Nos rapports de renseignement montrent qu'un petit afflux de radicaux de gauche égyptiens qui veulent se battre pour la cause révolutionnaire arrive également sur le territoire français. Bien que nous ne soyons pas en guerre avec la Commune de France ni avec aucun pays syndicaliste pour l'instant, nous devons être très prudents."
+ comfrance.63.d.OTT:9 "La nouvelle s'est répandue à partir des agents allemands en France. La Commune de France, aux côtés d'autres membres de l'Internationale, a mis en place un Comité socialiste anticolonial. Le Comité a pour but de soutenir la cause des Arabes et des Africains dans la libération de leurs terres natales des mains des puissances coloniales, en particulier des restes de l'État français.\nCet organisme coordonnera les actions des puissances syndicalistes en Afrique du Nord et de l'Ouest. Autant la domination coloniale sur nos anciens territoires d'Afrique du Nord n'est pas pour nous faire plaisir, autant cette initiative est inquiétante. Il est probable que la Commune se battra pour mettre en avant des révolutionnaires et des nationalistes sympathiques à la cause syndicaliste. L'initiative s'inscrit également dans la tentative de l'Égypte d'encourager le nationalisme arabe au Moyen-Orient et en Afrique du Nord, et pourrait renforcer notre rival. Pour ces raisons, nous devons être prudents, même si nous ne serons pas une cible principale."
+ comfrance.63.d.SPA:9 "La nouvelle s'est répandue en Espagne. La Commune de France, aux côtés d'autres membres de l'Internationale, a créé un Comité socialiste anticolonial. Le Comité a pour but de soutenir la cause des Arabes et des Africains dans la libération de leurs terres natales des mains des puissances coloniales, en particulier les restes de l'État français.\nCet organisme coordonnera les actions des puissances syndicalistes en Afrique du Nord et de l'Ouest. Espérons que nous ne serons pas l'une de ses cibles, car nous avons d'autres questions plus importantes à traiter en ce moment."
  comfrance.63.a: "Une évolution inquiétante."
 
  comfrance.64.t: "L'avènement de la Commission anticoloniale socialiste"
@@ -790,7 +795,7 @@ comfrance.62.a: "L'Armée rouge utilisera ces camarades à bon escient !"
  comfrance.66.d: "Sans aucun préavis, une grande vague de grèves violentes a commencé dans certaines de nos bases industrielles. Ces grèves sont différentes de ce à quoi nous sommes habitués, elles ne sont menées que par une petite partie des travailleurs et ne semblent pas avoir de motif clair, les patrons d'usine dans tout le pays ne se sont réveillés que devant une usine occupée et une grande partie du matériel brisé. Dans d'autres usines, les ouvriers n'occupaient pas l'usine, mais une grande partie des machines a quand même été retrouvée endommagée ou détruite. La répression des grèves et l'arrestation de leurs participants n'ont pas été trop difficiles, mais il semble que ce soit un coup de semonce car ces incidents ont été clairement orchestrés d'ailleurs..."
  comfrance.66.a:9 "Ces maudits Rouges !"
 
- comfrance.67.t: "Les syndicalistes fomentent une rébellion"
+ comfrance.67.t:9 "Les Rouges Fomentent la Rébellion"
  comfrance.67.d: "Les autorités coloniales et le Second Bureau nous ont signalé qu'un afflux inhabituel d'armes et d'équipements a été enregistré dans l'une de nos colonies ces dernières semaines. Tout cela vient manifestement de la Commune de France, qui utilise l'obscurité de la nuit pour faire entrer clandestinement des armes sur notre territoire, nous déstabiliser et inciter à la rébellion. Nous avons cependant mis trop longtemps à découvrir ce plan, et les révolutionnaires sont maintenant suffisamment bien armés pour être enhardis dans leur résistance. Il ne nous reste plus qu'à espérer que nous pourrons résister à la tempête."
  comfrance.67.a: "Des traîtres partout !"
 
@@ -885,7 +890,7 @@ FRA_workers_of_the_world_unite_IRE: "A lucht oibre an domhain, aontaígí!"
  #comfrance.116.a: "Sic transit gloria mundi..."
 
  comfrance.117.t: "La Mort de Tom Mann"
- comfrance.117.d: "Tom Mann, âgé de 84 ans, est décédé dans sa maison de Grassington, dans le Yorkshire du Nord. Traître et Second Président de l'Union Britannique, Mann est resté dans la mémoire des royalistes comme un synonyme de trahison. Si les socialistes britanniques pleurent sa mort, au Canada, ses funérailles sont devenues un jour de lumière dans cette période sombre de l'histoire."
+ comfrance.117.d:9 "Tom Mann, âgé de 84 ans, est décédé dans sa maison de Grassington, dans le Yorkshire du Nord. Traître et Second Président de l'Union Britannique, Mann est resté dans la mémoire des royalistes comme un synonyme de trahison. Si les socialistes britanniques pleurent sa mort, au Canada, ses funérailles sont devenues un jour de lumière dans cette période sombre de l'histoire."
 comfrance.117.a: "Le diable est mort."
 
 comfrance.124.t: "L'aide française arrive !"
@@ -1058,7 +1063,7 @@ comfrance.164.t: "Premier Festival International d'Art de Bourges"
 comfrance.164.a: "Ce sera le premier d'une longue série, le gouvernement s'en assurera !"
 
  comfrance.165.t: "La France propose l'Avant-Garde de l'Internationale"
- comfrance.165.d: "Un effort a été fait par le gouvernement français pour mettre en place une Avant-Garde Internationale. Il visera à créer de nouveaux styles artistiques, uniques dans leurs présentations unorthodoxes, quelque chose que ce monde n'a jamais vu auparavant.\n\nLe gouvernement français estime qu'il s'agira d'un outil utile pour diffuser l'enseignement syndicaliste par des moyens non violents. Maintenant, ils s'attendent à ce que nous nous joignions à eux. "
+ comfrance.165.d:9 "Un effort a été fait par le gouvernement français pour mettre en place une Avant-Garde Internationale. Elle visera à créer de nouveaux styles artistiques, uniques dans leurs présentations non-orthodoxes, quelque chose que ce monde n'a jamais vu auparavant.\n\nLe Gouvernement français estime qu'il s'agira d'un outil utile pour diffuser l'enseignement syndicaliste par des moyens non violents. Maintenant, ils s'attendent à ce que nous nous joignions à eux. "
  comfrance.165.a: "Comptez sur nous !"
 
  comfrance.170.t: "Une Alliance avec l'Internationale ?"
@@ -1150,7 +1155,7 @@ comfrance.164.a: "Ce sera le premier d'une longue série, le gouvernement s'en a
  FRA_invade_liberation_target_desc: "[FROM.GetNameDefCap] est un régime faible et mortel prêt à être détruit, en avant !"
 
  FRA_internationale_category: "Affaires de l'Internationale"
- FRA_internationale_category_desc: "L'alliance de tous les socialistes de notre monde est vraiment quelque chose de beau. Nous travaillerons ensemble pour faire du monde un endroit meilleur pour nous tous."
+ FRA_internationale_category_desc:9 "L'alliance de tous les socialistes de notre monde est vraiment quelque chose de beau. Nous travaillerons ensemble pour faire du monde un endroit meilleur pour nous tous."
 
  FRA_phalanstere_category: "Le Phalanstère International"
  FRA_phalanstere_category_desc: "Au cours du dixième Congrès international, nous avons décidé de nous lancer dans un plan ambitieux d'investissement industriel et économique pour toutes les nations socialistes en développement qui souhaitent s'appliquer. Nous travaillerons ensemble pour faire du monde un endroit meilleur pour nous tous."

@@ -40,6 +40,10 @@ SCA_elections_conservative_victory: "Les conservateurs remportent les élections
 
  SCA_nordic_council_refused: "Le Conseil Nordique a été rejeté"
  SCA_federation_refused: "La Fédération Nordique a été rejetée"
+ SCA_negotiated_with_germany:9 "Nous avons terminé les discussions avec l'Allemagne"
+ SCA_negotiated_with_russia:9 "Nous avons terminé les négociations avec la Russie"
+ SCA_negotiated_with_internationale:9 "Nous avons terminé les discussions avec la Troisième Internationale"
+ SCA_neutrality_established:9 "Nous avons renforcé notre neutralité"
 
 ### Decisions ###
  SCA_economic_development_decisions: "Développer la Fédération"
@@ -110,6 +114,11 @@ SCA_elections_conservative_victory: "Les conservateurs remportent les élections
 
  SCA_join_scandinavian_research: "Rejoindre la Conférence des Scientifiques Scandinaves"
  SCA_join_scandinavian_research_desc: "Nos alliés nordiques ont créé la Conférence des Scientifique Scandinaves, une initiative de recherche conjointe dont l'objectif est de faciliter l'échange de technologies entre les membres de la [FROM.GetFactionName]. En tant que membre de cette dernière, il est temps pour nous de renforcer notre partenariat en rejoignant également la Conférence des Scientifiques Scandinaves."
+ SCA_negotiations_decisions:9 "Négociations pour notre neutralité"
+ SCA_negotiate_with_germany:9 "Début des négociations avec l'Allemagne."
+ SCA_negotiate_with_russia:9 "Entamer des négociations avec la Russie."
+ SCA_negotiate_with_internationale:9 "Entamer des négociations avec la Troisième Internationale."
+ SCA_finish_negotiations:9 "Finaliser les accords."
 
 ### Tooltips ###
  SCA_nordic_council_focus_tt:9 "§Y[SWE.GetName]§!, §Y[NOR.GetName]§! et §Y[DEN.GetName]§!:\n   $TRIGGER_EXISTS$\n   Le parti au pouvoir est §YSocial démocrate§!, §YSocial libéral§!, §YLibéral de marché§! ou §YSocial conservateur§!\n   $TRIGGER_IS_NOT_IN_FACTION$\n   $TRIGGER_IS_NOT_SUBJECT$\n   $TRIGGER_HAS_NOT_CAPITULATED$\n   En paix les uns avec les autres\n   Non actifs ou ne générant pas d'objectifs de guerre liés les uns aux autres"
@@ -117,7 +126,9 @@ SCA_elections_conservative_victory: "Les conservateurs remportent les élections
  SCA_formation_warning: "En formant la §YFédération Nordique§!, votre pays réinitialisera son\n   £GFX_pol_power Poids Politique\n   £GFX_army_experience Expérience Terrestre\n   £GFX_navy_experience Expérience Navale\n   £GFX_air_experience Expérience Aérienne\n   £GFX_command_power Pouvoir de Commandement\n   Adoptera la loi commerciale §YPriorité à l'Export§!\n   Adoptera la loi économique §YÉconomie Civile§!\n   Perdra tous les esprits nationaux actifs, les conseillers politiques, les sociétés de conception et l'état-major militaire."
  SCA_tt_effect_will_come: "L'effet de cette priorité se révèlera lorsque la priorité §CArmée fédérale§! ou §CArmée nationale§! aura été achevée."
  SCA_development_decisions_tt: "§YCette priorité permettra de prendre plusieurs décisions pour le début du§! §CPlan de Développement Économique Nordique.§!"
+ SCA_mio_unlock_tt:9 "§YCela débloquera tous les traits MIO uniques associés à cette priorité.§!"
  SCA_developed_states_tt: "Augmente le niveau du §CPlan Nordique de Développement Économique§! de §Y1§!"
+ SCA_negotiations_tt:9 "§YCela permettra de disposer de décisions pour négocier notre neutralité.§!"
  SCA_activate_resource_extraction_decisions: "§GDiverses décisions relatives à l'extraction des ressources seront activées !§!"
 SCA_tt_nordic_council_stays: "§GLe Conseil Fédéral restera de facto le chef d'État de la Fédération Nordique après la ratification de la Constitution.§!"
 SCA_tt_parliament_new_and_united: "§GUn parlement nordique distinct servira de branche législative à la Fédération Nordique.§!"
@@ -158,7 +169,7 @@ SCA_custom_union_idea: "Marché Unique Nordique"
 SCA_federal_army_idea: "Organisation de l'Armée Fédérale"
  SCA_federal_army_idea_tank1: "Armée fédérale de Jung"
  SCA_federal_army_idea_arty1: "Armée fédérale de Fleischer"
- SCA_federal_army_idea_plan1: "Armée fédérale de Prior"
+ SCA_federal_army_idea_plan1:9 "L'Armée Scandinave"
 SCA_national_armies_idea: "Organisation de l'Armée Nationale"
  SCA_national_armies_idea_tank1: "Armée nationale de Jung"
  SCA_national_armies_idea_arty1: "Armée nationale de Fleischer"
@@ -252,6 +263,8 @@ SCA_market_liberal_party_established: "KP"
  SCANDINAVIA_form_federation_desc:0 "L'intégration et la coopération nordiques se sont avérées être un succès retentissant. Unissons maintenant nos forces et fondons la Fédération Nordique comme un phare brillant de démocratie et de liberté dans un monde troublé."
 
 ### Political
+ SCA_begin_negotiations:9 "Assurer notre neutralité !"
+ SCA_begin_negotiations_desc:9 "L'un des idéaux fondamentaux de la formation de notre fédération était la paix. Nous abandonnerons les guerres inutiles et, pour ce faire, nous devons entamer des négociations avec nos puissants voisins afin que la guerre ne vienne jamais à nos portes."
  SCA_Nordic_Constitution: "La Constitution Nordique"
  SCA_Nordic_Constitution_desc: "Avec la création d'un État nordique unifié, il est primordial d'adopter une constitution qui compte pour tous les États membres de la fédération, en soulignant la force du gouvernement fédéral."
  SCA_Nordic_Parliament: "Un Parlement Nordique Désigné"
@@ -306,6 +319,10 @@ SCA_market_liberal_party_established: "KP"
 ### Army
  SCA_Merge_the_National_Armies: "Fusionner les Armées Nationales"
  SCA_Merge_the_National_Armies_desc: "Il est très inefficace de maintenir trois armées distinctes pour une fédération, malgré l'étroite coopération. Nous devrions tous les fusionner en une seule armée avec une seule structure de commandement."
+ SCA_Unify_Command:9 "Intégrer nos structures de commandement"
+ SCA_Unify_Command_desc:9 "L'unification des structures de commandement de nos pays constitutifs facilitera grandement la coordination de notre nouvelle armée fédérale !"
+ SCA_Enhance_Capabilities:9 "Une véritable armée scandinave"
+ SCA_Enhance_Capabilities_desc:9 "La structure de commandement étant désormais parfaite, il est temps de commencer à intégrer l'ensemble de l'armée et de s'assurer qu'elle est prête à défendre notre Fédération !"
  SCA_Jungs_Mobile_Warfare: "Guerre mobile de Jung"
  SCA_Jungs_Mobile_Warfare_desc: "Le général suédois Helge Jung propose d'investir dans la motorisation de l'armée. Cela nous donnera un avantage dans les manœuvres à travers les terres étendues de la Scandinavie et sur le champ de bataille."
  SCA_Nordic_Trucks: "Motoriser notre Armée"
@@ -483,6 +500,30 @@ scandinavia.18.a: "Les partis plus concis sont toujours bons !"
  scandinavia.19.t: "La formation de la Fédération nordique"
  scandinavia.19.d: "Les délégués de la Suède, de la Norvège et du Danemark se sont réunis ce matin à Stockholm pour finaliser une résolution visant la fédéralisation des trois pays en une seule entité. Connue désormais sous le nom de Fédération Nordique, de nombreux analystes politiques ont débattu de ce que cela signifiait pour l'avenir de l'équilibre des pouvoirs en Europe. Si certains pensent que les idées libérales de la fédération s'alignent sur les intérêts de l'Entente, la plupart s'accordent à dire que la nouvelle nation adoptera probablement une position de neutralité sur toutes les questions. L'équilibre des forces se déplace une fois de plus sur la scène mondiale."
  scandinavia.19.a: "Les aurores boréales brillent de mille feux"
+
+ scandinavia.20.t:9 "La Fédération nordique négocie la neutralité"
+ scandinavia.20.d:9 "Avec la formation de la Fédération nordique, il semble que les Scandivaniens aient décidé de rejeter la violence. Ils se sont toutefois adressés à nous pour négocier la reconnaissance de leur neutralité, deux de leurs nations constitutives se trouvant dans notre sphère économique. Nous pourrions faire pression pour qu'ils y retournent en échange de leur neutralité."
+ scandinavia.20.a:9 "S'ils reviennent dans notre sphère, ils auront la paix."
+
+ scandinavia.21.t:9 "La réponse allemande."
+ scandinavia.21.d:9 "Les Allemands ont répondu à notre demande. Si nous rejoignons leur sphère économique comme l'ont fait la Suède et le Danemark, ils accepteront de respecter notre neutralité."
+ scandinavia.21.a:9 "Ce n'est pas si mal, n'est-ce pas ?"
+
+ scandinavia.22.t:9 "La Fédération nordique négocie la neutralité."
+ scandinavia.22.d:9 "La formation de la Fédération nordique a posé le problème de l'adhésion éventuelle de la Scandinavie unifiée au Reichspakt. Cependant, la Fédération nordique a entamé des pourparlers avec nous afin d'éviter toute effusion de sang. Alors qu'ils sont contraints de réintégrer la sphère économique allemande, nous pouvons exiger d'eux qu'ils s'opposent à toute nouvelle ingérence allemande dans leurs affaires. Nous leur promettons également une protection contre d'autres puissances qu'ils pourront invoquer à tout moment."
+ scandinavia.22.a:9 "Une grande opportunité pour nous"
+
+ scandinavia.23.t:9 "La réponse russe."
+ scandinavia.23.d:9 "Les Russes ont plutôt bien réagi à nos négociations, mais leurs conditions stipulent clairement que nous devons éviter tout autre accord avec l'Allemagne et nous opposer à toute invasion ou ingérence perçue dans nos affaires par d'autres puissances, la Russie nous promettant son aide si nous le souhaitons. Il est donc clair que les Russes nous considèrent comme faisant partie de leur sphère d'influence et que nous devrons peut-être nous frayer un chemin entre eux et l'Allemagne."
+ scandinavia.23.a:9 "La cause exige des sacrifices..."
+
+ scandinavia.24.t:9 "La Fédération nordique négocie la neutralité."
+ scandinavia.24.d:9 "La Fédération nordique nouvellement créée nous a contactés pour discuter de sa neutralité dans les affaires européennes. Ils auraient pu être un ennemi redoutable aux côtés de l'Allemagne, mais ils ont choisi de protéger leur propre peuple. Nous pouvons les inciter à autoriser les partis socialistes et les syndicats syndicalistes à fonctionner librement en échange de la reconnaissance de leur neutralité."
+ scandinavia.24.a:9 "Les partis socialistes ouverts feront de toute façon progresser le socialisme."
+
+ scandinavia.25.t:9 "La réponse socialiste."
+ scandinavia.25.d:9 "La Troisième Internationale a accepté notre demande de neutralité à deux conditions : Premièrement, tout parti politique socialiste qui souhaite organiser des élections et s'y présenter doit être libre de le faire, et deuxièmement, les syndicats syndicalistes doivent pouvoir fonctionner librement sur les lieux de travail. Ces conditions semblent tout à fait raisonnables et quelques nouveaux groupes politiques sont un petit prix à payer pour garantir la neutralité."
+ scandinavia.25.a:9 "Espérons qu'il ne s'agit pas de révolutionnaires..."
 
 ### Characters ###
  SCA_federal_council: "Conseil Fédéral"

@@ -22,21 +22,20 @@ SRI_radical_socialist_DEF: "la République Socialiste d'Italie"
  SRI_italy_DEF: "l'Italie"
 
  SRI_italy_totalist: "République Socialiste d'Italie"
- SRI_italy_totalist_ADJ: "Italien"
  SRI_italy_totalist_DEF: "la République Socialiste d'Italie"
  SRI_italy_syndicalist: "République Socialiste d'Italie"
- SRI_italy_syndicalist_ADJ: "Italien"
  SRI_italy_syndicalist_DEF: "la République Socialiste d'Italie"
  SRI_italy_radical_socialist: "République Socialiste d'Italie"
- SRI_italy_radical_socialist_ADJ: "Italien"
  SRI_italy_radical_socialist_DEF: "la République Socialiste d'Italie"
 
  SRI_social_republic: "République Sociale Italienne"
  SRI_social_republic_ADJ:0 "Italien"
  SRI_social_republic_DEF: "la République Sociale Italienne"
+
  SRI_mussolini_rsi: "République Sociale Italienne"
  SRI_mussolini_rsi_ADJ:0 "Italien"
  SRI_mussolini_rsi_DEF: "la République Sociale Italienne"
+
  SRI_workers_republic: "République Démocratique Italienne des Travailleurs"
  SRI_workers_republic_ADJ:0 "Italien"
  SRI_workers_republic_DEF: "la République Démocratique Italienne des Travailleurs"
@@ -223,8 +222,17 @@ SRI_owned_or_puppet: "appartient aussi a §Y[Root.GetName]§! ou a son fantoche\
  SRI_add_two_forts_in_border_provinces: "Ajoute §G2§! §Y$bunker$s§! à toutes les provinces frontalières.\n"
  SRI_if_fully_controlled: "L'effet s'appliquera également à ces États s'ils sont entièrement contrôlés :"
 
- SRI_gain_militia_template: "Obtenez le modèle §YFormazione di Difesa Proletaria§! composé de §Y6 bataillons de $militia$§! et §Y$artillery$§!.\nLe soutien du §G§Y$assault_battalion$§! sera ajouté au modèle si  §Y$SRI_arditi_del_popolo$§! a été achevé en premier.§!"
- SRI_gain_militia_template_with_assault_battalion: "Obtenez le modèle §YFormazione di Difesa Proletaria§! composé de §Y6 bataillons de $militia$§!, §Y$artillery$§! et §Y$assault_battalion$§! de soutien."
+ SRI_create_bicycle_template:9 "Create $NAME|Y$ template, with the following composition:\n - £GFX_unit_bicycle_battalion_icon_small §Y9 $bicycle_battalion$§! line battalions\n - £GFX_unit_engineer_icon_small §Y$engineer$§!\n - £GFX_unit_artillery_icon_small §Y$artillery$§!"
+ SRI_create_marine_template_aat:9 "Create $NAME|Y$ template, with the following composition:\n - £GFX_unit_marine_icon_small §Y6 $marine$§! line battalions\n - £GFX_unit_engineer_icon_small §Y$engineer$§!\n - £GFX_unit_pioneer_support_icon_small §Y$pioneer_support$§!\n - £GFX_unit_artillery_icon_small §Y$artillery$§!"
+ SRI_create_marine_template:9 "Create $NAME|Y$ template, with the following composition:\n - £GFX_unit_marine_icon_small §Y6 $marine$§! line battalions\n - £GFX_unit_recon_icon_small §Y$recon$§!\n - £GFX_unit_engineer_icon_small §Y$engineer$§!\n - £GFX_unit_artillery_icon_small §Y$artillery$§!"
+ SRI_create_mountaineer_template:9 "Create $NAME|Y$ template, with the following composition:\n - £GFX_unit_mountaineers_icon_small §Y6 $mountaineers$§! line battalions\n - £GFX_unit_recon_icon_small §Y$recon$§!\n - £GFX_unit_engineer_icon_small §Y$engineer$§!\n - £GFX_unit_artillery_icon_small §Y$artillery$§!"
+ SRI_create_paratrooper_template_aat:9 "Create $NAME|Y$ template, with the following composition:\n - £GFX_unit_paratrooper_icon_small §Y6 $paratrooper$§! line battalions\n - £GFX_unit_engineer_icon_small §Y$engineer$§!\n - £GFX_unit_pioneer_support_icon_small §Y$pioneer_support$§!\n - £GFX_unit_airborne_light_armor_icon_small §Y$airborne_light_armor$§!"
+ SRI_create_paratrooper_template:9 "Create $NAME|Y$ template, with the following composition:\n - £GFX_unit_paratrooper_icon_small §Y6 $paratrooper$§! line battalions\n - £GFX_unit_recon_icon_small §Y$recon$§!\n - £GFX_unit_engineer_icon_small §Y$engineer$§!\n - £GFX_unit_artillery_icon_small §Y$artillery$§!"
+ SRI_create_militia_template:9 "Create $NAME|Y$ template, with the following composition:\n - £GFX_unit_militia_icon_small §Y6 $militia$§! line battalions\n - £GFX_unit_artillery_icon_small §Y$artillery$§!"
+ SRI_create_militia_template_with_assault_battalion:9 "Create $NAME|Y$ template, with the following composition:\n - £GFX_unit_militia_icon_small §Y6 $militia$§! line battalions\n - £GFX_unit_artillery_icon_small §Y$artillery$§!\n - £GFX_unit_assault_battalion_icon_small §Y$assault_battalion$§!"
+ SRI_create_coastal_guard_template:9 "Create $NAME|Y$ template, with the following composition:\n - £GFX_unit_infantry_icon_small §Y4 $infantry$§! line battalions\n - £GFX_unit_engineer_icon_small §Y$engineer$§!\n - £GFX_unit_artillery_icon_small §Y$artillery$§!\n - £GFX_unit_anti_air_icon_small §Y$anti_air$§!"
+
+ SRI_militia_assault_battalion_hint:9 "§G§Y$assault_battalion$§! support will be added to the template if §Y$SRI_arditi_del_popolo$§! has been completed first.§!"
 
  SRI_on_completion_citta_del_aria: "§CAprès la complétion de §Y$SRI_citta_del_aria$§!§!:"
  SRI_cda_custom_modifier_tooltip: "[ROOT.SRI_GetCDACustomModifierTooltip]"

@@ -8,6 +8,7 @@
 
  characters_will_be_retired: "§RLes personnages suivants seront retirés:§!"
  characters_will_be_recruited: "§GLes personnages suivants seront recrutés:§!"
+ character_becomes_a_general:9 "(Compétence[?skill_level]) devient Général.\nAttributs :\n£GFX_trait_attack $SKILL_ATTACK$: [?attack_level]\n£GFX_trait_defense $SKILL_DEFENSE$: [?defense_level]\n£GFX_trait_planning $SKILL_PLANNING$: [?planning_level]\n£GFX_trait_logistics $SKILL_LOGISTICS$: [?logistics_level]"
 
  tooltip_immediate_effect_upon_focus_start: "§YEffet immédiat dès le lancement de la priorité:§!\n"
  tooltip_effect_upon_focus_completion: "\n§GEffet lors de l'achèvement de la priorité:§!\n"
@@ -15,8 +16,8 @@
 
  unlock_focuses:9 "§GCette priorité sera éventuellement contournée automatiquement et déverrouillera les autres priorités.§!"
  tooltip_focus_unlocked_by_event:9 "§GCette priorité sera automatiquement déverrouillée via l'événement.§!"
- enables_new_focus_branches:9 "Ouvre l'accès à de nouvelles branches de priorités."
- unlocks_new_focuses:9 "§GDe nouvelles priorités seront débloquées.§!"
+ enables_new_focus_branches:9 "§GOuvre l'accès à de nouvelles branches de priorités.§!"
+ unlocks_new_focuses:9 "§GDe nouvelles priorités nationales seront débloquées.§!"
 
  tooltip_merge_national_spirits:9 "Les §YEsprits nationaux§! précédemment gagnés seront fusionnés en un seul, §Gplus puissant§! !"
  tooltip_apply_one_of_effects_depending_on_ideas: "§gApplique l'un des effets suivants en fonction de notre esprit national actuel :§!"
@@ -31,6 +32,8 @@
 
  which_has_the_following_effect: "Ce qui a l'effet suivant :"
 
+ modifies_sic:9 "Modifie votre §HCommandant en Second§! :"
+
  improves_designer_tt: "§GAméliore§! §YEntreprise d'ingénierie§! :"
  improves_industrial_concern_tt: "§GAméliore§! §YEntreprise industrielle§! :"
  improves_political_advisor_tt:9 "§GAméliore§! un §YConseiller Politique§! :"
@@ -41,8 +44,8 @@
  tooltip_timer_reset_for_peace:0 "§RRéinitialisation de la minuterie jusqu'à la tenue de négociations pour la paix§!"
 
  tooltip_adds_extra_effects_to_foci:9 "§CAjoute des effets supplémentaires aux priorités suivantes :§!"
- tooltip_strengthens_foci:9 "§C§GRenforce§! la priorité suivante :§!"
- tooltip_weakens_foci:9 "§C§RAffaiblit§! la priorité suivante :§!"
+ tooltip_increases_focus_effects:9 "§C§GAugmente§! les effets des priorités suivantes :§!"
+ tooltip_reduces_focus_effects:9 "§C§RRéduit§! les effets des priorités suivantes :§!"
 
  #scoped to the country joining
  tooltip_joins_faction: "§Y[THIS.GetName]§! rejoint la faction."
@@ -75,19 +78,25 @@
 
 ### Bindable Localisation ###
  tooltip_unlock_focus:9 "Débloque la priorité nationale $FOCUS|Y$."
+ tooltip_unlock_two_focuses:9 "Débloque les priorités nationales $FOCUS1|Y$ et $FOCUS2|Y$."
  tooltip_if_focus_completed:9 "§CSi $FOCUS|Y$ est terminé :§!"
  tooltip_if_focus_not_completed:9 "§CSi $FOCUS|Y$ n'a §RPAS§! été complété :§!"
  tooltip_if_two_foci_completed:9 "§CSi $FOCUS1|Y$ ou $FOCUS2|Y$ a été complété :§!"
  tooltip_if_two_foci_not_completed:9 "§CSi $FOCUS1|Y$ et $FOCUS2|Y$ n'ont §RPAS§! été complétés :§!"
  tooltip_extra_effect_from_focus_completion:9 "§CEffet supplémentaire lors de la complétion de $FOCUS|Y$ :§!"
+ tooltip_if_country_completed_focus:9 "§CSi $COUNTRY|Y$ a terminé $FOCUS|Y$:§!"
+ tooltip_if_country_not_completed_focus:9 "§CSi $COUNTRY|Y$ n'a §RPAS§! terminé $FOCUS|Y$:§!"
 
  tooltip_has_national_spirit:9 "A l'esprit national $IDEA|Y$"
  tooltip_has_national_spirit_NOT:9 "N'a pas l'esprit national $IDEA|Y$"
 
+ tooltip_if_national_spirit_is_active:9 "§CSi $IDEA|Y$ est actuellement actif :§!"
  tooltip_available_if_not_at_war_with:9 "§CDisponible seulement si nous ne sommes §Rpas§! en guerre avec $COUNTRY|Y$.§!"
 
  tooltip_change_law_to:9 "Change $CATEGORY$ en '$LAW|Y$', ce qui confère :"
 
+ tooltip_if_political_advisor_is_hired:9 "§CSi $ADVISOR|Y$ est engagé comme §YConseiller Politique§!:§!"
+ tooltip_improves_advisor_trait:9 "§GAméliore§! le trait de $ADVISOR|Y$:"
  tooltip_disable_political_advisor:9 "§R$ADVISOR|Y$ ne sera plus disponible comme §YConseiller politique§!§!"
 
  tooltip_has_tech:9 "A recherché $TECH|Y$"
@@ -103,13 +112,15 @@
  tooltip_modify_three_dynmods:9 "Modifie $DYNMOD1|Y$, $DYNMOD2|Y$ ou $DYNMOD3|Y$ par"
  tooltip_modify_four_dynmods:9 "Modifie $DYNMOD1|Y$, $DYNMOD2|Y$, $DYNMOD3|Y$ ou $DYNMOD4|Y$ par"
 
- tooltip_spawn_units:9 "Créée $COUNT|Y$ divisions $TYPE|Y$"
- tooltip_spawn_unit:9 "Crée une division de $TYPE|Y$"
+ tooltip_spawn_units:9 "Créée $COUNT|Y$ divisions $TYPE|Y$.\n"
+ tooltip_spawn_unit:9 "Crée une division de $TYPE|Y$.\n"
 
  tooltip_yellow_text:9 "$TEXT|Y$"
 
  tooltip_in_days:9 "Dans $DAYS|Y0$ jours :"
  tooltip_after_days:9 "Après $DAYS|Y0$ jours :"
+
+ tooltip_available_scientist:9 "$CHARACTER|Y$ devient disponible en tant que §GScientifique§!."
 
 ### Flag Loc segments ###
  tooltip_event_choice: "§CChoix d'événement§! : "
@@ -117,6 +128,7 @@
  production_cost_tt:9 "£GFX_production_cost  Coût de Production :  "
 
  has_completed_decision: "A pris la décision £decision_icon_small §H"
+ unlocks_decisions:9 "Déverrouille les £decision_icon_small §HDécisions§!"
  gets_event_start: "Obtient l'événement "§H"
  gets_event_end: "§!"."
 
@@ -127,6 +139,7 @@
 
 ### Country Flags ###
  cannot_have_conscription: "Impossibilité de promulguer des lois sur la conscription."
+ cannot_have_extensive_conscription:9 "Ne peut pas promulguer de lois sur la conscription à grande échelle."
 
 ### On Map Area Names ###
  integration_tooltip: "Zones non intégrées"
@@ -347,6 +360,10 @@ AI_OPTION: "Option d'IA seulement"
  modifier_army_sub_unit_paratrooper_defence_factor_tooltip: "$modifier_army_sub_unit_paratrooper_defence_factor$: $RIGHT|+=%2$"
  modifier_army_sub_unit_paratrooper_max_org_factor_tooltip: "$modifier_army_sub_unit_paratrooper_max_org_factor$: $RIGHT|+=%2$"
 
+ modifier_army_sub_unit_assault_battalion_attack_factor_tooltip:9 "$modifier_army_sub_unit_assault_battalion_attack_factor$: $RIGHT|+=%2$"
+ modifier_army_sub_unit_assault_battalion_defence_factor_tooltip:9 "$modifier_army_sub_unit_assault_battalion_defence_factor$: $RIGHT|+=%2$"
+ modifier_army_sub_unit_assault_battalion_max_org_factor_tooltip:9 "$modifier_army_sub_unit_assault_battalion_max_org_factor$: $RIGHT|+=%2$"
+
  max_planning_tooltip:9 "$MODIFIER_MAX_PLANNING$: $RIGHT|+=%1$"
  max_planning_factor_tooltip: "$MODIFIER_MAX_PLANNING_FACTOR$ : $RIGHT|+=%1$"
  planning_speed_tooltip:9 "$MODIFIER_PLANNING_SPEED$: $RIGHT|+=%1$"
@@ -479,6 +496,8 @@ AI_OPTION: "Option d'IA seulement"
  land_bunker_effectiveness_factor_tooltip: "$MODIFIER_LAND_BUNKER_EFFECTIVENESS_FACTOR$: $RIGHT|+=%0$"
  coastal_bunker_effectiveness_factor_tooltip: "$MODIFIER_COASTAL_BUNKER_EFFECTIVENESS_FACTOR$: $RIGHT|+=%0$"
 
+ attrition_tooltip:9 "$MODIFIER_ATTRITION$: $RIGHT|-=%1$"
+
  winter_attrition_factor_tooltip: "$MODIFIER_WINTER_ATTRITION_FACTOR$: $RIGHT|-=%1$"
 
  acclimatization_hot_climate_gain_factor_tooltip: "$MODIFIER_ACCLIMATIZATION_HOT_CLIMATE_GAIN_FACTOR$: $RIGHT|+=%1$"
@@ -488,6 +507,7 @@ AI_OPTION: "Option d'IA seulement"
  air_ace_generation_chance_factor_tooltip: "$MODIFIER_AIR_ACE_GENERATION_CHANCE_FACTOR$: $RIGHT|+=%2$"
  ace_effectiveness_factor_tooltip: "$MODIFIER_ACE_EFFECTIVENESS_FACTOR$: $RIGHT|+=%1$"
 
+ air_attack_factor_tooltip:9 "$MODIFIER_AIR_ATTACK_FACTOR$: $RIGHT|+=%1$"
  air_range_factor_tooltip: "$MODIFIER_AIR_RANGE_FACTOR$: $RIGHT|+=%0$"
  air_agility_factor_tooltip: "$MODIFIER_AIR_AGILITY_FACTOR$: $RIGHT|+=%0$"
  air_accidents_factor_tooltip: "$MODIFIER_AIR_ACCIDENTS_FACTOR$: $RIGHT|-=%1$"
@@ -498,6 +518,7 @@ AI_OPTION: "Option d'IA seulement"
  air_bombing_targetting_tooltip: "$MODIFIER_AIR_BOMBING_TARGETTING$: $RIGHT|+=%1$"
  air_strategic_bomber_bombing_factor_tooltip: "$MODIFIER_STRATEGIC_BOMBER_BOMBING_FACTOR$: $RIGHT|+=%1$"
  ground_attack_factor_tooltip: "$MODIFIER_GROUND_ATTACK_FACTOR$: $RIGHT|+=%1$"
+ port_strike_tooltip:9 "$MODIFIER_PORT_STRIKE_ATTACK_FACTOR$: $RIGHT|+=%1$"
 
  air_mission_efficiency_tooltip: "$MODIFIER_AIR_MISSION_EFFICIENCY$: $RIGHT|+=%1$"
  air_escort_efficiency_tooltip: "$MODIFIER_AIR_ESCORT_EFFICIENCY$: $RIGHT|+=%0$"
@@ -533,7 +554,9 @@ AI_OPTION: "Option d'IA seulement"
  naval_detection_tooltip: "$MODIFIER_NAVAL_DETECTION$: $RIGHT|+=%0$"
  spotting_chance_tooltip: "$MODIFIER_SPOTTING_CHANCE_FACTOR$: $RIGHT|+=%0$"
  screening_efficiency_tooltip: "$MODIFIER_SCREENING_EFFICIENCY$: $RIGHT|+=%1$"
+ screening_without_screens_tooltip:9 "$MODIFIER_SCREENING_WITHOUT_SCREENS$: $RIGHT|+=%1$"
  strike_force_movement_org_loss_tooltip:9 "$MODIFIER_STRIKE_FORCE_MOVING_ORG$: $RIGHT|-=%2$"
+ ships_at_battle_start_tooltip:9 "$MODIFIER_SHIPS_AT_BATTLE_START_FACTOR$: $RIGHT|H%$"
 
  naval_accidents_chance_tooltip:9 "$MODIFIER_NAVAL_ACCIDENTS_CHANCE$: $RIGHT|-=%2$"
  navy_visibility_tooltip:9 "$MODIFIER_NAVAL_VISIBILITY_FACTOR$: $RIGHT|-=%2$"
@@ -597,6 +620,8 @@ AI_OPTION: "Option d'IA seulement"
  local_non_core_manpower_tooltip:9 "$MODIFIER_LOCAL_NON_CORE_MANPOWER$: $RIGHT|+=%0$"
  recruitable_population_tooltip:9 "$MODIFIER_RECRUITABLE_POPULATION$: $RIGHT|+=%2$"
  recruitable_population_factor_tooltip:9 "$MODIFIER_RECRUITABLE_POPULATION_FACTOR$: $RIGHT|+=%2$"
+
+ local_org_regain_tooltip:9 "$MODIFIER_LOCAL_ORG_REGAIN$: $RIGHT|+=%2$"
 
  local_supplies_tooltip:9 "$MODIFIER_LOCAL_SUPPLIES$: $RIGHT|+=%0$"
  local_supplies_for_controller_tooltip:9 "$MODIFIER_LOCAL_SUPPLIES_FOR_CONTROLLER$: $RIGHT|+=%0$"
@@ -1006,6 +1031,10 @@ AI_OPTION: "Option d'IA seulement"
  500_guns:0 "£rifle_texticon  §H500§!"
  500_guns_blocked:0 "£rifle_texticon  §R500§!"
  500_guns_tooltip: "Cela coûte $500_guns_blocked$ pour prendre cette décision."
+
+ 700_guns:9 "£rifle_texticon  §H700§!"
+ 700_guns_blocked:9 "£rifle_texticon  §R700§!"
+ 700_guns_tooltip:9 "La prise de décision coûte $700_guns_blocked$."
 
  1000_guns:0 "£rifle_texticon  §H1000§!"
  1000_guns_blocked:0 "£rifle_texticon  §R1000§!"
