@@ -10,6 +10,7 @@
 
 ### Main Menu ###
  play_in_english_tt:9 ""
+ savegame_crash_workaround_tt:9 "§YHOI4 1.15.4 a été publié le 21 janvier 2025.§!\n§5Malheureusement, de nombreuses sauvegardes créées avant sa sortie se plantent instantanément lorsqu'elles sont chargées normalement.§!\n\n§YSi l'une de vos campagnes est affectée, essayez ce qui suit :§!\n£white_dot Ne chargez §tpas§! votre jeu directement à partir du menu principal ou en cliquant sur le bouton "Reprendre" dans le lanceur.\n£white_dot Au lieu de cela, §5démarrez une nouvelle partie§! et chargez-la.\n£white_dot Ouvrez le menu du jeu et chargez la sauvegarde de votre choix en cliquant sur "§5Charger partie§!"."
 
 ### Splash Screen ###
  KR_welcome_splash_tab_1: "Pays"
@@ -18,11 +19,27 @@
  KR_welcome_splash_tab_4: "Crédits"
  mod_options_button_text: "Continuer"
 
- ## TAB 1 ##
+ ## TAB 1 - all needed to avoid starting errors ##
  KR_welcome_splash_tab_1_header: "[ROOT.GetCountryIntroHeader]"
  KR_welcome_splash_tab_1_content: "[ROOT.GetCountryIntroContent]"
  country_intro_header:9 "$KR_scenario_name$"
+ country_intro_header_1:0 "$KR_scenario_desc$"
+ country_intro_header_2:0 "$KR_scenario_desc$"
+ country_intro_header_3:0 "$KR_scenario_desc$"
+ country_intro_header_4:0 "$KR_scenario_desc$"
+ country_intro_header_5:0 "$KR_scenario_desc$"
+
  country_intro_content:9 "$KR_scenario_desc$"
+ country_intro_content_1:0 "$KR_scenario_desc$"
+ country_intro_content_2:0 "$KR_scenario_desc$"
+ country_intro_content_3:0 "$KR_scenario_desc$"
+ country_intro_content_4:0 "$KR_scenario_desc$"
+ country_intro_content_5:0 "$KR_scenario_desc$"
+
+ guide:9 ""
+ guide_1:9 ""
+ guide_2:9 ""
+ guide_3:9 ""
 
  ## TAB 2 ##
  KR_welcome_splash_tab_2_reveal_spoilers_button: "Spoilers les révélations ?"
@@ -733,6 +750,8 @@ tech_integrated_specialists: "Forces spéciales intégrées"
  tech_masterful_blitz:9 "$tactic_masterful_blitz$"
 
  tech_human_wave_tactics: "$tactic_human_wave_tactics$"
+
+ tech_improved_decryption:9 "Décryptage amélioré"
 
  ### Units ###
  assault_battalion: "$blackshirt_assault_battalion$"
