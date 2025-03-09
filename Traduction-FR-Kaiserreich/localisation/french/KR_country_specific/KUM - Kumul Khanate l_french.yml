@@ -435,6 +435,7 @@
  KUM_zhongying_war_on_tib_decision_desc: "Les Tibétains sont la cause première des malheurs des Hami. Leur piété bouddhiste pollue notre réputation auprès des Indiens, et leur souvenir de la famille de Ma Zhongying signifie qu'ils chercheront certainement à se venger un jour."
 
 ### Intro Screen ###
+ KUM_country_intro_background:9 "GFX_KUM_intro"
  KUM_country_intro_header: "§PLe Khanat Kumul§!"
  KUM_country_intro_content: "Le §PKhanat Kumul§!, qui descend directement du §PKhanat de Chagatai§!, a réussi à vivre tout au long de la §cDynastie Qing§!, jusqu'à l'§lère républicaine§!, puis à revenir dans le giron des §cQing§!. Officiellement un protectorat de l'§cEmpire Qing§!, §PKumul§! contrôle la principale route entre le §PXinjiang§! et le reste de la §lChine§!. La série de §Pkhans ouïghours§! loyaux rend hommage à la fois à l'§cempereur§! à §cBeijing§! et au §Pgouvernement du Xinjiang§! lui-même.\n\nLe précédent §PKhan de Kumul§!, §PMasqud Shah§!, était connu pour le règne le plus autoritaire de l'histoire de l'humble §PKhanat§!, ce qui a conduit à deux soulèvements contre lui en 1907 et 1912. Cette haine pour le §Pkhan§! s'est transmise à notre nouveau dirigeant, §PNasīr Shah§!, qui souhaite avoir au moins des réformes mineures dans le §PKhanat§! en ce qui concerne les montants insensés de l'impôt et la corvée pour gagner l'appréciation de son peuple une fois de plus. Il reste à voir si cela fonctionnera, car il décide toujours de s'appuyer soit sur les §cnobles ouïghours§! connus sous le nom de §cBegs§!, soit sur ses conseillers, le §gloyaliste de Kumul§! §PYulbars Khan§! et l'ancien révolutionnaire anti-Kumul §PHoja-Niyaz§!.\n\n§PKumul§! est considéré comme la dernière chose qui maintient la paix et la prospérité dans le §PXinjiang§!, car même avec les divers opposants de §PNasīr§!, il montre le rêve d'une possible autonomie dans le futur pour les nombreux autres §nhabitants ouïghours§! du §PXinjiang§!. Même avec notre petite taille, les effets de notre existence résonnent largement dans le reste du §PXinjiang§! comme les gardiens de la paix qui empêchent la révolte de masse."
 
@@ -636,7 +637,7 @@
  kumul.81.a: "Si seulement nous pouvions avoir Shakib Arslan..."
 
  kumul.82.t: "Marché du fusil mongol"
- kumul.82.d: "Il est devenu évident pour l'administration qu'un accord commercial exclusif avec les Ottomans leur profite plus qu'à nous. Par conséquent, un agent intrépide de [KUM.GetLeader] a cherché des commerçants mongols. Les Mongols, qui sont plus aptes à piller la Russie et la Chine pour se procurer des armes, sont prêts à faire des échanges. En échange d'une cargaison de fusils, [KUM.GetLeader] a promis leur valeur en tapis de Hotan. "
+ kumul.82.d:9 "Il est devenu évident pour l'administration qu'un accord commercial exclusif avec les Ottomans leur profite plus qu'à nous. Par conséquent, un agent intrépide de [KUM.GetLeader] a cherché des commerçants mongols. Les Mongols, qui sont plus aptes à piller la Russie et la Chine pour se procurer des armes, sont prêts à faire des échanges. En échange d'une cargaison de fusils, [KUM.GetLeader] a promis leur valeur en tapis de Hotan. "
  kumul.82.a: "Une bonne affaire."
 
  kumul.90.t: "Développement des Villes"
@@ -648,7 +649,7 @@
  kumul.91.a: "Excellent. "
 
  kumul.92.t: "Une Autre Route vers la Chine"
- kumul.92.d: "La route entre Kumul et Hexi est l'une des plus traîtresses pour les voyageurs. Du banditisme aux escrocs, de nombreux pièges jonchent ce terminus de la Porte occidentale. Pour [KUM.GetLeader], cette route délabrée est un obstacle majeur à l'obtention de l'aide de la Chine. Par conséquent, [KUM.GetLeader] a demandé que la route soit repavée et qu'une meilleure sécurité soit mise en place pour éliminer les bandits. "
+ kumul.92.d:9 "La route entre Kumul et Hexi est l'une des plus traîtresses pour les voyageurs. Du banditisme aux escrocs, de nombreux pièges jonchent ce terminus de la Porte occidentale. Pour [KUM.GetLeader], cette route délabrée est un obstacle majeur à l'obtention de l'aide de la Chine. Par conséquent, [KUM.GetLeader] a demandé que la route soit repavée et qu'une meilleure sécurité soit mise en place pour éliminer les bandits. "
  kumul.92.a: "Bien joué "
 
  kumul.100.t: "Un festin dans la ville de Kumul"
@@ -805,7 +806,7 @@
  KUM_autonomy_in_vogue_desc: "Afin d'administrer l'immensité du Xinjiang, nous devons nous en remettre au même principe d'autonomie que le gouverneur Yang Zengxin nous a accordé."
 
  KUM_promote_local_businesses: "Promouvoir les entreprises locales"
- KUM_promote_local_businesses_desc: "Le commerce au Xinjiang reflète les décennies de tensions et de ségrégation que les gouverneurs nous ont imposées. Aujourd'hui, une économie plus harmonieuse peut être promue si nous fréquentons les entreprises locales dans toutes les grandes villes du Xinjiang. "
+ KUM_promote_local_businesses_desc:9 "Le commerce au Xinjiang reflète les décennies de tensions et de ségrégation que les gouverneurs nous ont imposées. Aujourd'hui, une économie plus harmonieuse peut être promue si nous fréquentons les entreprises locales dans toutes les grandes villes du Xinjiang. "
 
  KUM_pardon_rebellious_uyghurs: "Pardonner les Ouïghours rebelles"
  KUM_pardon_rebellious_uyghurs_desc: "Le ministère est d'avis que le peuple ouïghour peut facilement accepter notre régime. Quelques Ouïghours pieux devraient être graciés à condition qu'ils rendent leurs armes."
@@ -974,49 +975,68 @@
  KUM_nasir_shah_leader_desc:9 "§YNaissance :§! §L1888, à Kumul, Province du Xinjiang, Empire Qing§!\n§YCarrière :§! §LNasir est né et a été élevé pour être le nouveau Khan de Kumul pendant toute sa vie. Sa famille descend des khans d'il y a des siècles, et ils ont régné sur Kumul pendant tout aussi longtemps. Le père de Nasir, Masqud Shah, était un autoritaire brutal, ce qui a entraîné des rébellions contre son autorité en 1907 et 1912. Bien que ces rébellions aient été écrasées, le ressentiment persistant n'a jamais disparu, et lorsque Nasir a succédé à son père en 1930, une grande partie de ce ressentiment s'est reporté sur Nasir. Cependant, Nasir n'est pas comme son père autoritaire, et il est beaucoup plus ouvert aux réformes, voulant donner plus de pouvoir à ses conseillers et aux Begs.§!"
 
  KUM_bashir_shah: "Bashir Shah"
+ KUM_bashir_shah_leader_desc:9 "§YBorn:§! §L1911, in Kumul, Xinjiang Province, Qing Empire§!"
 
  KUM_yulbars_khan: "Yulbars Khan"
+ KUM_yulbars_khan_sic_desc:9 "§YBorn:§! §LAugust 13th, 1889, in Yangi Hissar, Xinjiang Province, Qing Empire§!"
 
  KUM_hoja_niyaz_haji: "Hoja-Niyaz Haji"
+ KUM_hoja_niyaz_haji_army_chief_desc:9 "§YBorn:§! §L1889, in Kumul, Xinjiang Province, Qing Empire§!"
 
  KUM_mahmut_muhiti: "Mahmut Muhiti"
+ KUM_mahmut_muhiti_sic_desc:9 "§YBorn:§! §L1887, in Turpan, Xinjiang Province, Qing Empire§!"
 
  KUM_khans_court: "La Cour du Khan"
+ KUM_khans_court_sic_desc:9 "§YFounded:§! §L1696, in Kumul Khanate, Qing Empire§!"
 
  #劉希增
  KUM_liu_xizeng: "Liu Xizeng"
+ KUM_liu_xizeng_sic_desc:9 "§YBorn:§! §Lin the Qing Empire§!"
 
  #李謙
  KUM_li_qian: "Li Qian"
+ KUM_li_qian_advisor_desc:9 "§YBorn:§! §Lin the Qing Empire§!"
  KUM_sengchen_thubbstan_tshering: "Sengchen Thubbstan Tshering"
+ KUM_sengchen_thubbstan_tshering_advisor_desc:9 "§YBorn:§! §L1887, in Heijing County, Xianjiang Province, Qing Empire§!"
 
  KUM_tahir_beg: "Tahir Beg"
+ KUM_tahir_beg_advisor_desc:9 "§YBorn:§! §Lin Xinjiang Province, Qing Empire§!"
 
  #馬福元
  KUM_ma_fuyuan:0 "Ma Fuyuan"
+ KUM_ma_fuyuan_advisor_desc:9 "§YBorn:§! §Lin Gansu Province, Qing Empire§!"
 
  #馬占倉
  KUM_ma_zhancang:0 "Ma Zhancang"
+ KUM_ma_zhancang_high_command_desc:9 "§YBorn:§! §L1887, in Gansu Province, Qing Empire§!"
 
  KUM_dalelkhan_sugirbayev:0 "Dalelkhan Sugirbayev"
+ KUM_dalelkhan_sugirbayev_high_command_desc:9 "§YBorn:§! §LJune 24th, 1906, in Khovd Territory, Outer Mongolia, Qing Empire§!"
 
  #羅文幹
  KUM_luo_wengan:0 "Luo Wengan"
+ KUM_luo_wengan_advisor_desc:9 "§YBorn:§! §L1888, in Guangzhou, Guangdong Province, Qing Empire§!"
 
  KUM_ospan_islamuly:9 "Ospan Islamuly"
+ KUM_ospan_islamuly_army_chief_desc:9 "§YBorn:§! §L1899, in Koktokay County, Xinjiang Province, Qing Empire§!"
 
  #包青山
  KUM_pau_tisan: "Pau Tisan"
+ KUM_pau_tisan_advisor_desc:9 "§YBorn:§! §L1887, in Beijing, Zhili Province, Qing Empire§!"
 
  KUM_kemal_kaya_efendi: "Kemal Kaya Efendi"
+ KUM_kemal_kaya_efendi_high_command_desc:9 "§YBorn:§! §Lin Konstantiniyye, Vilayet of Konstantiniyye, Ottoman Empire§!"
 
  #馬仲傑
  KUM_ma_zhongjie: "Ma Zhongjie"
+ KUM_ma_zhongjie_high_command_desc:9 "§YBorn:§! §Lin Hezhou, Gansu Province, Qing Empire§!"
 
  KUM_kalibek_rakhimbekovich: "Kalibek Rakhimbekovich"
+ KUM_kalibek_rakhimbekovich_army_chief_desc:9 "§YBorn:§! §L1908, in Mount Zhayyr, Xinjiang Province, Qing Empire§!"
 
  #張純熙
  KUM_zhang_chunxi:0 "Zhang Chunxi"
+ KUM_zhang_chunxi_sic_desc:9 "§YBorn:§! §Lin the Qing Empire§!"
 
 ### Traits ###
  KUM_first_reformer: "Le Premier Réformateur"

@@ -14,7 +14,9 @@ GAB_radical_socialist_DEF: "la Commune du Gabon"
 
 ### Characters ###
  GAB_Charles_NTchorere: "Charles N'Tchoréré"
+ GAB_charles_ntchorere_leader_desc:9 "§YBorn:§! §LNovember 16th, 1896, in Libreville, French Gabon§!"
  GAB_Gabriel_Leon_Mba: "Gabriel Léon M'ba"
+ GAB_gabriel_leon_mba_leader_desc:9 "§YBorn:§! §LFebruary 9th, 1902, in Libreville, French Gabon§!"
 
 ### Focus tree ###
  KR_gabon_focus:0 "Arbre de priorité du Gabon"
@@ -54,7 +56,7 @@ GAB_Apply_Constitution: "Appliquer la Constitution"
 
 # Introduction
 
- GAB_guide: "§MLa démocratie survit§! (§cSocial-Conservateur§! / §mLibéral de Marché§! / §lSocial-Libéral§!)\n£white_dot Accomplissez la priorité "La Déclaration d'Indépendance" et faites échouer le Coup d'Etat Syndicaliste.\n£white_dot Accomplissez la priorité "Rédiger la Constitution" pour élire les §cSociaux-Conservateurs§!, §mLibéraux de Marché§! ou les §lSociaux-Libéraux§!\n\n§MCoup d'Etat Syndicaliste§! (§RRadical-Socialiste§! / §rSyndicaliste§! / §oTotaliste§!)\n£white_dot Accomplissez la priorité "La Déclaration d'Indépendance" faites en sorte que le Coup d'Etat Syndicaliste réussisse.\n£white_dot  Accomplissez la priorité "Rédiger la Constitution" pour élire les §RRadicaux-Socialistes§!, les §rAnarcho-Syndicalistes§! ou les §oTotalistes§!."
+ GAB_guide:9 "§MLa démocratie survit§! (§cSocial-Conservateur§! / §mLibéral de Marché§! / §lSocial-Libéral§!)\n£white_dot Accomplissez la priorité "La Déclaration d'Indépendance" et faites échouer le Coup d'Etat Syndicaliste.\n£white_dot Accomplissez la priorité "Rédiger la Constitution" pour élire les §cSociaux-Conservateurs§!, §mLibéraux de Marché§! ou les §lSociaux-Libéraux§!\n\n§MCoup d'Etat Syndicaliste§! (§RRadical-Socialiste§! / §rSyndicaliste§! / §oTotaliste§!)\n£white_dot Accomplissez la priorité "La Déclaration d'Indépendance" faites en sorte que le Coup d'Etat Syndicaliste réussisse.\n£white_dot  Accomplissez la priorité "Rédiger la Constitution" pour élire les §RRadicaux-Socialistes§!, les §rAnarcho-Syndicalistes§! ou les §oTotalistes§!."
 
 ### Events ###
 gab.1.t: "Les syndicalistes tentent un coup d'Etat !"
@@ -62,57 +64,18 @@ gab.1.d: "Suite à la déstabilisation qui a suivi la chute de Mittelafrika, le 
  gab.1.a: "Le coup d'Etat est un succès !"
  gab.1.b: "Nos jeunes institutions démocratiques survivent contre son premier obstacle."
 
- gab.3.t: "[FROM.GetNameDefCap] a besoin d'armes !"
- gab.3.d: "L'État Africain de [FROM.GetNameDef] a demandé notre aide pour fournir ses troupes. Ce serait une bonne occasion pour nous de mieux nous implanter dans l'ancien territoire Mittelafrikan."
-gab.3.a: "Donnez-leur ce qu'ils veulent."
- gab.3.b: "Refuser."
-
- gab.4.t: "La France dit Oui !"
-gab.4.d: "La France a écouté notre appel au secours et nous a fourni les armes dont nous avions désespérément besoin !"
-gab.4.a: "Super !"
-
- gab.5.t: "La France dit Non !"
-gab.5.d: "La France a refusé d'écouter notre appel au secours et nous a laissés nous débrouiller seuls !"
-gab.5.a: "Qui en a besoin ?"
-
  gab.6.t: "[FROM.GetNameDefCap] a besoin d'armes !"
  gab.6.d: "L'État africain de [FROM.GetNameDef] a demandé notre aide pour fournir ses troupes, ce serait une bonne occasion de mieux s'implanter dans l'ancien territoire Mittelafrikan."
 gab.6.a: "Donnez-leur ce qu'ils veulent."
  gab.6.b: "Refuser."
 
- gab.7.t: "La France dit oui !"
-gab.7.d: "La France a écouté notre appel au secours et nous a fourni les armes dont nous avions désespérément besoin !"
+ gab.7.t:9 "La France dit oui !"
+ gab.7.d:9 "La France a écouté notre appel au secours et nous a fourni les armes dont nous avions désespérément besoin !"
 gab.7.a: "Super !"
 
- gab.8.t: "La France dit non !"
-gab.8.d: "La France a refusé d'écouter notre appel au secours et nous a laissés nous débrouiller seuls !"
+ gab.8.t:9 "La France dit non !"
+ gab.8.d:9 "La France a refusé d'écouter notre appel au secours et nous a laissés nous débrouiller seuls !"
 gab.8.a: "Qui en a besoin ?"
-
- gab.9.t: "Le Gabon souhaite adhérer à l'Entente"
- gab.9.d: "Le petit État africain veut se joindre à notre alliance"
-gab.9.a: "Oui !"
-gab.9.b: "Non."
-
- gab.10.t: "L'Entente invite le Gabon !"
-gab.10.d: "L'Entente a répondu à notre demande par un oui retentissant !"
-gab.10.a: "Oui !"
-
- gab.11.t: "L'Entente rejette le Gabon !"
-gab.11.d: "L'Entente a répondu à notre demande par un non retentissant."
-gab.11.a: "Blast !"
-
- gab.12.t: "Le Gabon souhaite rejoindre la 3ème Internationale"
- gab.12.d: "Le petit État africain du Gabon, sous la direction de Charles N'Tchoréré, souhaite rejoindre notre alliance."
-gab.12.a: "Oui !"
-gab.12.b: "Non."
-
- gab.13.t: "La 3ème Internationale invite le Gabon !"
- gab.13.d: "La 3ème Internationale a répondu à notre demande par un oui retentissant !"
-gab.13.a: "Oui !"
-
- gab.14.t: "La 3ème Internationale rejette le Gabon !"
- gab.14.d: "La 3ème Internationale a répondu à notre demande par un non retentissant."
-gab.14.a: "Blast !"
 
 gab.15.t: "Les premières élections au Gabon !"
  gab.15.d: "Notre nouveau projet de constitution prévoit l'élection démocratique de notre premier dirigeant élu ! Plusieurs partis bénéficient d'un soutien suffisamment similaire pour que l'élection ait pu basculer dans n'importe quelle direction ce soir !"

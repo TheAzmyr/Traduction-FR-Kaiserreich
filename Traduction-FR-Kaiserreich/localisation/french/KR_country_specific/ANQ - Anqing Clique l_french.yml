@@ -87,8 +87,9 @@ ANQ_social_democrat_party: "Ligue anti-concessions"
  ANQ_social_democrat_party_long: "Mouvement Anti-Concessions\n§gLe Mouvement Anti-Concessions est probablement le plus grand allié de Chen - et, peut-être en même temps sa plus grande faiblesse. Un allié presque accidentel d'ailleurs : organe politique nébuleux, le Mouvement anti-concessions n'est lié que par une seule chose : la haine de l'impérialisme étranger. La rhétorique patriotique de Chen les a ralliés à lui et l'a propulsé sur le devant de la scène, mais il reste à voir s'il peut répondre à leurs attentes. De nombreux membres tendent de plus en plus vers des idées radicales de démocratie populaire et d'État d'inspiration socialiste, ce qui n'est pas du tout ce que Chen lui-même avait à l'esprit, et si leur influence s'accroît sans contrôle, ils pourraient bien devenir un ennemi redoutable, à moins que Chen ne parvienne à les apaiser. Leurs dirigeants continuent à s'agiter contre les vestiges de l'influence allemande et le sentiment nationaliste est sur toutes les lèvres.§!\n"
 
 ### Intro Screen ###
+ ANQ_country_intro_background:9 "GFX_ANQ_intro"
  ANQ_country_intro_header: "La province d'Anhui"
- ANQ_guide: "§MSoutenir Beijing§!\n£white_dot Faites en sorte que notre demande d'aide soit acceptée par le gouvernement Qing.\n£white_dot Pour garantir cela, choisissez Monarchie Zhili - Pro-Anqing dans les règles du jeu.\n\n§MSe ranger du côté de Zhang Zuolin§!\n£white_dot Faites en sorte que notre demande d'aide soit rejetée par le gouvernement Qing. Cela nous apportera le soutien de la Clique Fengtian et du Japon.\n£white_dot Pour garantir cela, ne choisissez pas Monarchie Zhili - Pro-Anqing dans les règles du jeu."
+ ANQ_guide:9 "§MSoutenir Beijing§!\n£white_dot Faites en sorte que notre demande d'aide soit acceptée par le gouvernement Qing.\n£white_dot Pour garantir cela, choisissez Monarchie Zhili - Pro-Anqing dans les règles du jeu.\n\n§MSe ranger du côté de Zhang Zuolin§!\n£white_dot Faites en sorte que notre demande d'aide soit rejetée par le gouvernement Qing. Cela nous apportera le soutien de la Clique Fengtian et du Japon.\n£white_dot Pour garantir cela, ne choisissez pas Monarchie Zhili - Pro-Anqing dans les règles du jeu."
 
  #中国红会
 ANQ_social_liberal_party: "La société du vermillon"
@@ -273,31 +274,19 @@ ANQ_is_reconstructing: "A déjà achevé un projet de reconstruction"
 ANQ_abandons_reclamation: "Anqing a abandonné sa participation à la guerre de reconquête"
 ANQ_commits_reclamation: "Anqing s'est engagé à participer à la guerre de reconquête"
 ANQ_reclamation_decided: "Anqing a décidé de participer ou non à la guerre de reconquête"
-ANQ_with_zhili: "Anqing aux côtés de la République Zhili"
-ANQ_with_feds: "Anqing aux côtés des fédéralistes"
 
  ANQ_feng_aids_reconstruction: "Le Fengtian soutient nos efforts de reconstruction"
  ANQ_fengjapan_aids_reconstruction: "Le Fengtian et le Japon soutiennent nos efforts de reconstruction"
  ANQ_feng_aid_undecided: "L'aide du Fengtian à la reconstruction est indécise"
 ANQ_no_reconstruction_aid: "Fengtian nous a refusé son aide"
 
- ANQ_can_prospect_resources_qing: "A décidé des droits miniers"
- ANQ_can_prospect_resources_alone: "A décidé des droits miniers"
-
  ANQ_shd_is_ally:0 "Alliée à la §HClique de Shandong§!"
 
 ## Tooltips ##
  ANQ_check_credibility: "a plus de $RIGHT|YO$ £anq_credibility de §Ycrédibilité§!"
 
- anq_decrease_cred_1: "Réduit de §R1§! la £anq_credibility §YCrédibilité§!\n"
- anq_decrease_cred_2: "Réduit de §R2§! la £anq_credibility §YCrédibilité§!\n"
- anq_decrease_cred_5: "Réduit de §R5§! la £anq_credibility §YCrédibilité§!\n"
- anq_decrease_cred_10: "Réduit de §R10§! la £anq_credibility §YCrédibilité§!\n"
- anq_decrease_cred_20: "Réduit de §R20§! la £anq_credibility §YCrédibilité§!\n"
-
- anq_increase_cred_5: "Ajoute §G5§! à la £anq_credibility §YCrédibilité§!\n"
- anq_increase_cred_10: "Ajoute §G10§! à la £anq_credibility §YCrédibilité§!\n"
- anq_increase_cred_20: "Ajoute §G20§! à la £anq_credibility §YCrédibilité§!\n"
+ ANQ_increase_credibility_tt:9 "Augmente la £anq_credibility §YCredibilité§! de $RIGHT|G0$.\n"
+ ANQ_decrease_credibility_tt:9 "Diminue la £anq_credibility §YCredibilité§! de $RIGHT|R0$.\n"
 
 anq_increase_qie_05: "Augmenter l'influence de £anq_qie §YQing Influence§! de §C0,5%§!\n"
 anq_increase_qie_1: "Augmenter l'influence de £anq_qie §YQing Influence§! de §C1%§!\n"
@@ -310,23 +299,15 @@ anq_decrease_qie_1: "Diminuer l'influence de £anq_qie §YQing Influence§! de �
 anq_decrease_qie_2: "Diminuer l'influence de £anq_qie §YQing Influence§! de §C2%§!\n"
 anq_decrease_qie_3: "Diminuer l'influence de £anq_qie §YQing Influence§! de §C3%§!\n"
 anq_decrease_qie_5: "Diminuer l'influence de £anq_qie §YQing Influence§! de §C5%§!\n"
-anq_decrease_qie_7: "Diminuer l'influence de £anq_qie §YQing Influence§! de §C7%§!\n"
 
-anq_increase_fng_05: "Augmenter l'influence de £anq_fng §YFengtian Influence§! de §C0,5%§!.\n"
 anq_increase_fng_1: "Augmenter l'influence de £anq_fng §YFengtian Influence§! de §C1%§!.\n"
 anq_increase_fng_2: "Augmenter l'influence de £anq_fng §YFengtian Influence§! de §C2%§!.\n"
-anq_increase_fng_3: "Augmenter l'influence de £anq_fng §YFengtian Influence§! de §C3%§!.\n"
 anq_increase_fng_5: "Augmenter l'influence de £anq_fng §YFengtian Influence§! de §C5%§!.\n"
-anq_increase_fng_7: "Augmenter l'influence de £anq_fng §YFengtian Influence§! de §C7%§!.\n"
 
-anq_decrease_fng_1: "Diminuer l'influence de £anq_fng §YFengtian Influence§! de §C1%§!.\n"
-anq_decrease_fng_2: "Diminuer l'influence de £anq_fng §YFengtian Influence§! de §C2%§!.\n"
 anq_decrease_fng_3: "Diminuer l'influence de £anq_fng §YFengtian Influence§! de §C3%§!.\n"
 anq_decrease_fng_5: "Diminuer l'influence de £anq_fng §YFengtian Influence§! de §C5%§!.\n"
-anq_decrease_fng_7: "Diminuer l'influence de £anq_fng §YFengtian Influence§! de §C7%§!.\n"
 
-anq_increase_jap_1: "Augmenter le score de l'aide japonaise §Y§! de §C1§!\n"
-anq_increase_jap_2: "Augmenter le score de l'aide japonaise §Y§! de §C1§!\n"
+ ANQ_increase_aid_score_tt:9 "Augmente le §YScore d'aide japonaise§! de $RIGHT|C0$.\n"
 
 anq_increase_qie_anger_05x: "§RQing sera légèrement mécontent de votre décision ! (Augmente un peu la colère de §YQing§!)\n"
 anq_increase_qie_anger_1x: "§RQing sera mécontent de votre décision ! (Augmente la colère de §YQing§!)\n"
@@ -334,32 +315,14 @@ anq_increase_qie_anger_2x: "§RQing sera très mécontent de votre décision ! (
 anq_increase_qie_anger_3x: "§RQing sera extrêmement mécontent de votre décision ! (Augmente §YQing Anger§! very much)\n"
 anq_decrease_qie_anger_5: "Diminuer §YQing Anger§! par §G5§!.\n"
 
-anq_nochange_reclamation_willingness: "§YWillingness§! to join the Reclamation War against Beijing does not change.\n"
-anq_increase_reclamation_willingness_1: "Augmenter §YWillingness§! pour rejoindre la guerre de reconquête contre Beijing par §C1§!.\n"
-anq_increase_reclamation_willingness_2: "Augmenter §YWillingness§! pour rejoindre la guerre de reconquête contre Beijing par §C2§!.\n"
-anq_increase_reclamation_willingness_2_feng: "Parce que nous avons remporté la victoire avec l'aide de Fengtian, augmentez §YWillingness§! pour rejoindre leur guerre de reconquête contre Beijing par §C2§!.\n"
-anq_decrease_reclamation_willingness_1: "Diminuer §YWillingness§! pour rejoindre la guerre de reconquête contre Beijing par §C1§!.\n"
- anq_decrease_reclamation_willingness_1_shdanq:0 "En raison de l'incapacité de Fengtian à négocier correctement un accord entre nous et le Shandong, la §YVolonté§! a diminué de §C1§! pour se joindre plus tard à leur guerre de réclamation contre Beijing.\n"
-anq_decrease_reclamation_willingness_2: "Diminuer §YWillingness§! pour rejoindre la guerre de reconquête contre Beijing par §C2§!.\n"
-anq_decrease_reclamation_willingness_3: "Diminuer §YWillingness§! pour rejoindre la guerre de reconquête contre Beijing par §C3§!.\n"
-
-anq_has_governors_focus_tt: "A installé des gouverneurs.\n"
+ ANQ_no_change_reclamation_war_willingness_tt:0 "La §Yvolonté§! de participer à la guerre de reconquête contre Beijing ne change pas.\n"
+ ANQ_increase_reclamation_war_willingness_tt:9 "Augmente la §YVolonté§! de rejoindre la guerre de reconquête contre Beijing de $RIGHT|C0$.\n"
+ ANQ_decrease_reclamation_war_willingness_tt:9 "Diminue la §YVolonté§! de rejoindre la guerre de reconquête contre Beijing de $RIGHT|C0$.\n"
 
 anq_increase_jap_shipments_war_tt: "§GIaugmente les envois réguliers que vous recevez du Japon par voie maritime!§!\n"
 anq_increase_qing_shipments_war_tt: "§GIaccroît les envois réguliers que vous recevez de Qing par voie fluviale et ferroviaire !§!\n"
 
 ANQ_nanjing_defections_tt: "Plusieurs anciennes divisions de Nanjing font défection à nos forces, ne voulant pas se battre pour le Shandong ou le KMT de gauche !"
-
- anq_declare_war_decision_shd_tt:0 "§RDéverrouille la £decision_icon_small §Hdécision§! d'attaquer §YShandong§!. Déclarera la guerre automatiquement dans 60 jours.§!\n"
-anq_declare_war_decision_chi_tt: "§RDébloque £decision_icon_small §HDecision§! pour attaquer §YKuomintang§! Déclarera automatiquement dans 30 jours. §!\n"
-
- anq_fengtian_will_decide_strategy_tt: "Le gouvernement du Fengtian sera informé de notre préférence pour qu'il nous aide à reconstruire. S'il est d'accord, il demandera au Japon. Si l'un d'entre eux ne veut pas s'engager, Fengtian examinera d'autres stratégies possibles.\n"
-anq_fengtian_fast_strike_tt: "Fengtian a la bénédiction du Japon pour organiser une frappe rapide contre Beijing, mais ils ne le feront que si nous sommes d'accord. §RAgreeing signifie aller à la guerre en quelques mois, même si notre pays est toujours en pagaille.§!\n"
- anq_fengtian_will_other_strategy_tt: "Nous ne sommes pas d'accord avec cela. Le gouvernement du Fengtian devra prendre une autre décision.\n"
-anq_fngjap_back_reconstruction_tt: "Les Fengtiens et le Japon s'engagent à mettre en œuvre un plan de reconstruction vaste et complet dans les plus brefs délais. Terminez le §YReconstruction Cooperation§! focus pour le commencer.\n"
-anq_reconstruction_plan_effects_tt: "Réduit de manière significative les coûts du pouvoir politique et le temps de prise de décision §icon_small §HReconstruction Decisions§! and §HKMT and Yiguandao Unrest§!.\n"
-ANQ_fng_waits_18_months_tt: "Fengtian attendra au moins 18 mois pour nous permettre de nous rétablir"
-ANQ_fng_can_now_proclaim_tt: "Les Fengtiens peuvent maintenant entamer le processus final pour entamer une guerre contre Beijing"
 
 anq_reduce_reconstruction_timecost_ally_tt: "§Réduit considérablement le temps et les coûts pour les décisions £decision_icon_small §HReconstruction Decisions§!, mais fait également augmenter l'influence de toutes les décisions §Y [getanqally] §!"
 anq_reduce_reconstruction_timecost_qingextra_tt: "§GRéduit le temps et le coût pour £decision_icon_small §HReconstruction Decisions§!.§!\n"
@@ -379,8 +342,6 @@ anq_find_steel_resources_tt: "Débloque la décision de £decision_icon_small §
 anq_anger_mt_5_tt: "§YColère Qing§! doit être de 5 ou plus.\n"
 anq_high_anger_risk_tt: "§REn raison de l'importante §YInfluence Qing§!, la §YColère Qing§! augmentera plus rapidement et entraînera des conséquences plus importantes. Faites attention à les refuser !§!"
 
-anq_two_divisions_qing_land: "£nato_unit_infantry_icon_small Gain 2 §YInfantry Brigade§! unités avec formation de recrue et équipement d'infanterie de 1936 ans lorsqu'elles sont en guerre avec §Y[QIE.GetNameWithFlag]§!.\n"
-
 anq_will_lead_war_tt: "§RJointer la faction de Qing mènera à une guerre immédiate ! §!\n"
 
 anq_instructions_destruction_spirits_tt: "§gGrâce à £decision_icon_small §HDecisions§! et §HFocuses§!, ces esprits négatifs peuvent être éliminés.§!\n"
@@ -391,16 +352,11 @@ anq_unlocks_xinhai_loyalists_tt: "Débloque la décision £decision_icon_small �
  anq_commit_fengtian_tt: "§RCela signifie qu'Anqing s'engage définitivement à participer à la guerre de reconquête du Fengtian, ce qui signifie qu'elle ne peut pas refuser de s'y joindre une fois que les hostilités ont commencé. Anqing doit donc se préparer à la guerre. §!\n"
  anq_abandon_fengtian_tt: "§RAbandonner le Fengtian conduira à ce qu'Anqing se retrouve seule en Chine, ce qui la rendra très vulnérable. Cela bloque également toute possibilité d'aide japonaise supplémentaire.§!\n"
 
-anq_unlocks_war_beijing_tt: "Débloque la décision £decision_icon_small §HDecision§! d'attaquer le [QIE.GetName] de manière indépendante.\n"
- ANQ_can_attack_hnngxc_tt:9 "$unlocks_decisions$ pour attaquer [GXC.GetName] et [HNN.GetName].\n"
- ANQ_can_attack_hnngxc_proqie_tt:9 "$unlocks_decisions$ pour attaquer [GXC.GetName] et [HNN.GetName] une fois en paix.\n"
-
  anq_fengtian_guarantee_tt: "§H[FNG.GetNameDefCap]§! nous garantira !\n"
  anq_qing_guarantee_tt: "§H[QIE.GetNameDefCap]§! nous garantira !\n"
 
 anq_denounce_fengtian_tt: "§RSi nous les dénonçons de cette manière, nous abandonnerons Fengtian. Cela signifie qu'Anqing se retrouve seul en Chine, ce qui le rend très vulnérable. Cela conduit également à la disparition de toute aide et de tout soutien actuels, ce qui pourrait provoquer un certain chaos.§!\n"
 anq_abandon_conference_tolerated_tt: "§RSi nous n'assistons pas à la conférence, cela reviendra à abandonner Fengtian. Ils ont toléré que nous ne soutenions pas leur guerre auparavant, mais cette fois-ci, ils ne le feront pas. Cela signifie qu'Anqing se retrouve seul en Chine, ce qui le rend très vulnérable. Cela conduit également à la disparition de toute aide et de tout soutien actuels, ce qui pourrait provoquer un certain chaos.§!\n"
-anq_join_front_profengtian_tt: "§RSi nous rejoignons le Front uni, nous serons contraints d'abandonner totalement la cause de Fengtian. Bien que nous ayons d'autres alliés chinois dans cette guerre, une fois celle-ci terminée, nous serons très probablement seuls.§!\n"
 
  anq_change_gov_pataut: "Le gouvernement se transforme en Autocratie Paternaliste.\n"
 
@@ -573,7 +529,7 @@ ANQ_influence_decisions_desc: "[getanqinfluencesystem]"
 
 anq_influence_decisions_proqing: "Les Qing ont contribué à notre défaite de la Clique de Nanjing, et nous leur devons beaucoup. En outre, nous soutenons l'idéal d'une Chine unie. Par conséquent, une coopération étroite avec les Qing et un chemin vers une éventuelle unification sont inévitables : §H[?party_popularity@market_liberal|%1]§!§! §Y(Market Liberal Popularity)§!\n§gCurrent §YQing Anger§! : §R[?ANQ_beijing_anger|0]§! §Y(Diminue 1 par semaine)§!"
  anq_influence_decisions_projapan: "Nous reconnaissons le gouvernement Fengtian comme le gouvernement chinois légitime. A travers eux, les Japonais ont une influence significative car nous dépendons de leur soutien. En utilisant notre soutien à une Chine unie, les Fengtiens chercheront à étendre leur contrôle sur nous. [getanqwillingnessreclamation]§gCurrent §YFengtian Influence§! §H[?party_popularity@market_liberal|%1]§!§! §Y(Market Liberal Popularity)§!\n§gCurrent §YJapanese Aid Score§! §H[?ANQ_tokyo_score]§!§!"
- anq_influence_decisions_alone: "Nous avons mis notre foi dans le gouvernement de Fengtian, cherchant la réalisation de notre rêve républicain. Pourtant, ce que nous avons reçu n'était rien d'autre qu'une trahison.\nFengtian et le Japon nous ont abandonnés, si nous ne réagissons pas rapidement et n'agissons pas, cette situation isolée nous entraînera dans la tourmente de la montée des tensions en Chine et effacera notre existence.\n\n§YMais d'un autre côté, sans leurs chaînes, pourrait-ce être l'occasion de réaliser une ambition encore plus grande ?§!"
+ anq_influence_decisions_alone:9 "Nous avons mis notre foi dans le gouvernement de Fengtian, cherchant la réalisation de notre rêve républicain. Pourtant, ce que nous avons reçu n'était rien d'autre qu'une trahison.\nFengtian et le Japon nous ont abandonnés, si nous ne réagissons pas rapidement et n'agissons pas, cette situation isolée nous entraînera dans la tourmente de la montée des tensions en Chine et effacera notre existence.\n\n§YMais d'un autre côté, sans leurs chaînes, pourrait-ce être l'occasion de réaliser une ambition encore plus grande ?§!"
 anq_willingness_reclamation_loc: "§g§YVolonté§! de rejoindre la guerre de la reconquête : §H[?ANQ_reconnaissance_volontaire|+0]§!§!\n"
 
 ANQ_reduce_qie_influence: "Sabotage de l'influence Qing"
@@ -1046,7 +1002,7 @@ ANQ_eight_regulations: "Huit règlements"
  ANQ_eight_regulations_desc: "Si nous voulons que le soutien de l'opinion publique à notre gouvernement reste élevé, nous devons nous assurer que nos armées ne maltraitent pas le peuple. C'est pourquoi nous devrions introduire des règlements supplémentaires que nos troupes devraient suivre. Si nous les appliquons strictement, la population appréciera bientôt le professionnalisme de nos militaires"
 
 ANQ_pacify_countryside: "Pacifier la campagne"
- ANQ_pacify_countryside_desc: "Maintenant que la guerre est terminée, nous devons nous assurer que la paix revienne dans les campagnes de l'intérieur. Depuis trop longtemps, de nombreux agriculteurs et paysans sont victimes de bandits et de déserteurs. Nous utiliserons notre armée pour pacifier les campagnes et faire face aux éléments violents qui s'y opposent. "
+ ANQ_pacify_countryside_desc:9 "Maintenant que la guerre est terminée, nous devons nous assurer que la paix revienne dans les campagnes de l'intérieur. Depuis trop longtemps, de nombreux agriculteurs et paysans sont victimes de bandits et de déserteurs. Nous utiliserons notre armée pour pacifier les campagnes et faire face aux éléments violents qui s'y opposent. "
 
 ANQ_jiangsu_yiguandao_problem: "Les politiques du Jiangsu Yiguandao"
 ANQ_jiangsu_yiguandao_problem_desc: "Le Yiguandao continue de semer le trouble dans notre province du nord du Jiangsu. Nous devons éliminer le terreau fertile de la pauvreté et de la méfiance qui a conduit ces gens à la religion Yiguandao. Il est également essentiel de se débarrasser de tous les instigateurs et prophètes qui répandent la religion. Une fois que nous aurons fait cela, nous pourrons commencer à réprimer leurs rassemblements et enfin nous en débarrasser".
@@ -1658,7 +1614,7 @@ anq.106.t: "Production de guerre d'urgence"
  anq.109.a: "Eh bien, je pense que cela vaut la peine d'essayer."
 
  anq.110.t: "Lutte coordonnée contre les vices"
- anq.110.d: "Partout, le peuple est asservi par des étrangers qui tentent d'exploiter les montagnes et les rivières. Partout, il est naturel que le peuple se soulève pour défendre le Grand Qing et son empereur, mais certains hommes sont stupides et tentent d'y mettre un terme. Pouvons-nous encore permettre qu'un tel conflit persiste ?\n\nC'est ce qu'a dit [ROOT.GetLeader] dans un récent discours aux gouverneurs, et la cour de Beijing a réagi en publiant un édit proclamant un effort commun pour mettre fin à toutes les formes de corruption et de consommation de drogue dans notre domaine. Peut-être ont-ils été un peu trop pressés d'aider, mais c'est néanmoins apprécié, et nous avons déjà mis en place des groupes chargés d'enquêter sur ces questions. Le processus sera long et difficile, mais nous sommes convaincus qu'il finira par porter ses fruits, et qu'un succès, même limité, vaut mieux que rien du tout. Bien sûr, il ne fait aucun doute que nous sommes confrontés à de nombreux désavantages en tentant de réaliser un tel projet dans une région qui se remet de la dévastation causée par la guerre et qui est bien protégée contre toute forme d'ingérence significative de la part du gouvernement.\n\nMalgré tout, nous avons déjà fait des progrès significatifs dans l'éradication de la corruption au sein de notre administration, et pour ce qui est de la drogue... nous ferons ce que nous pourrons, de toute façon. Ma Dengying est optimiste, ayant pris personnellement en charge ces efforts, et prédit l'éradication totale de l'opium au cours de cette décennie ; d'autres pensent que lancer une telle campagne maintenant ferait plus de mal que de bien. Quoi qu'il en soit, c'est la perception qui compte, et si nous sommes perçus comme adoptant une position dure contre le fléau de l'opium qui frappe actuellement notre peuple, notre popularité ne peut guère en souffrir. "
+ anq.110.d:9 "Partout, le peuple est asservi par des étrangers qui tentent d'exploiter les montagnes et les rivières. Partout, il est naturel que le peuple se soulève pour défendre le Grand Qing et son empereur, mais certains hommes sont stupides et tentent d'y mettre un terme. Pouvons-nous encore permettre qu'un tel conflit persiste ?\n\nC'est ce qu'a dit [ROOT.GetLeader] dans un récent discours aux gouverneurs, et la cour de Beijing a réagi en publiant un édit proclamant un effort commun pour mettre fin à toutes les formes de corruption et de consommation de drogue dans notre domaine. Peut-être ont-ils été un peu trop pressés d'aider, mais c'est néanmoins apprécié, et nous avons déjà mis en place des groupes chargés d'enquêter sur ces questions. Le processus sera long et difficile, mais nous sommes convaincus qu'il finira par porter ses fruits, et qu'un succès, même limité, vaut mieux que rien du tout. Bien sûr, il ne fait aucun doute que nous sommes confrontés à de nombreux désavantages en tentant de réaliser un tel projet dans une région qui se remet de la dévastation causée par la guerre et qui est bien protégée contre toute forme d'ingérence significative de la part du gouvernement.\n\nMalgré tout, nous avons déjà fait des progrès significatifs dans l'éradication de la corruption au sein de notre administration, et pour ce qui est de la drogue... nous ferons ce que nous pourrons, de toute façon. Ma Dengying est optimiste, ayant pris personnellement en charge ces efforts, et prédit l'éradication totale de l'opium au cours de cette décennie ; d'autres pensent que lancer une telle campagne maintenant ferait plus de mal que de bien. Quoi qu'il en soit, c'est la perception qui compte, et si nous sommes perçus comme adoptant une position dure contre le fléau de l'opium qui frappe actuellement notre peuple, notre popularité ne peut guère en souffrir. "
  anq.110.a: "C'est un début, et le premier pas vers la prospérité."
 
  anq.111.t: "La question de l'alphabétisation"
@@ -1727,7 +1683,7 @@ anq.126.t: " Le Fengtien part à la guerre !"
 anq.126.a: "Malheureux"
 
 anq.127.t: "Proclamation du Grand Maréchal"
-anq.127.d: "[FNG.GetLeader] a fait sa grande proclamation, annonçant le début de la guerre de reconquête dans un mois. Comme convenu dans notre stratégie, nous nous joindrons à la guerre avec lui. "
+ anq.127.d:9 "[FNG.GetLeader] a fait sa grande proclamation, annonçant le début de la guerre de reconquête dans un mois. Comme convenu dans notre stratégie, nous nous joindrons à la guerre avec lui. "
  anq.127.a: "Nous respectons notre engagement"
 
 anq.128.t: "Proclamation du Grand Maréchal"
@@ -1824,7 +1780,7 @@ anq.165.b: "Grand"
 anq.165.c: "Ce n'est pas bon"
 
 anq.166.t: "La Ligue anti-concessions appelle à la récupération"
- anq.166.d1: "La Ligue Anti-Concessions, la plus grande organisation anti-concessionniste de Chine, était à l'origine divisée sur la question de savoir si elle soutiendrait notre intention de rejoindre notre allié Fengtian dans la guerre de reconquête. Cependant, la récente restauration mandchoue à Qing a marginalisé les monarchistes et enhardi les républicains, qui y voient un exemple de la raison pour laquelle même une "monarchie constitutionnelle" ne fonctionnerait pas. Même s'ils n'aiment pas beaucoup le fengtien,"
+ anq.166.d1:9 "La Ligue Anti-Concessions, la plus grande organisation anti-concessionniste de Chine, était à l'origine divisée sur la question de savoir si elle soutiendrait notre intention de rejoindre notre allié Fengtian dans la guerre de reconquête. Cependant, la récente restauration mandchoue à Qing a marginalisé les monarchistes et enhardi les républicains, qui y voient un exemple de la raison pour laquelle même une "monarchie constitutionnelle" ne fonctionnerait pas. Même s'ils n'aiment pas beaucoup le fengtien,"
  anq.166.d2: "La Ligue Anti-Concessions, la plus grande organisation anti-concessionniste de Chine, était à l'origine divisée sur la question de savoir si elle soutiendrait notre intention de rejoindre notre allié Fengtian dans la guerre de reconquête. Cependant, la rupture des relations entre Fengtian et le Japon a fait que les républicains qui soutenaient Fengtian ont obtenu un soutien important, car la question japonaise était la principale raison pour laquelle la Ligue n'avait pas pleinement adhéré à notre partenariat avec Fengtian. La faction républicaine est maintenant très enhardie et a demandé à notre gouvernement de se joindre à Fengtian et de mettre fin au régime Qing"
  anq.166.d3: "La Ligue Anti-Concessions, la plus grande organisation anti-concessionniste de Chine, était à l'origine divisée sur la question de savoir si elle soutiendrait notre intention de rejoindre notre allié Fengtian dans la guerre de reconquête. Cependant, notre gouvernement a montré qu'il n'est pas n'importe quel gouvernement de seigneur de guerre, mais qu'il a vraiment fait des efforts pour obtenir une légitimité et une crédibilité appropriées. En conséquence, en raison de notre partenariat avec Fengtian, les anticoncessionnaires républicains se sont maintenant ralliés à notre cause et nous ont soutenus dans notre participation à la guerre de reconquête, croyant que nous veillerions à ce que Fengtian se comporte bien"
 anq.166.a: "Bon"
@@ -1870,7 +1826,7 @@ anq.175.d7: "En raison des circonstances, nous avons déjà été entraînés da
 anq.175.a: "S'engager dans la guerre de reconquête"
  anq.175.b: "Abandonner Fengtian"
  anq_reclamation_credibility_not_enough: "\nMalheureusement, nous avons trop peu de crédibilité pour nous tenir seuls en tant que gouvernement national distinct et dépendons donc trop de Fengtian. Par conséquent, nous ne pouvons pas nous permettre de perdre leur soutien et cela entraînera des conséquences désastreuses si nous ne nous joignons pas à leur guerre de reconquête."
- anq_reclamation_credibility_enough: "\nHeureusement, notre gouvernement a, en utilisant également les arguments contre la guerre de reconquête, suffisamment de crédibilité pour se tenir à l'écart du gouvernement du Fengtian et refuser d'y participer. Cela nous obligera soit à faire valoir nos propres revendications auprès de la direction nationale, soit à chercher un autre parti à soutenir. "
+ anq_reclamation_credibility_enough:9 "\nHeureusement, notre gouvernement a, en utilisant également les arguments contre la guerre de reconquête, suffisamment de crédibilité pour se tenir à l'écart du gouvernement du Fengtian et refuser d'y participer. Cela nous obligera soit à faire valoir nos propres revendications auprès de la direction nationale, soit à chercher un autre parti à soutenir. "
 
 anq.176.t: "Le Shandong passe la main au Fengtian"
  anq.176.d: "Comme convenu lors de la prise de la province du Shandong, maintenant que le conflit avec [QIE.GetNameDef] a commencé, nous devons remettre la province du Shandong à Fengtian, car nous n'avons aucune revendication justifiable sur la région. Le général Liu Heding, que nous avons temporairement institué comme gouverneur du Shandong, est revenu à notre service."
@@ -1959,4 +1915,3 @@ anq.213.a: "Faire la déclaration."
  anq.233.d.wubacking: "Il semblerait que les paroles de Wu Peifu aient encore du poids au sein de la Ligue. L'appui du Maréchal Wu a porté ses fruits ce matin, lorsqu'une flottille de navires a remonté le fleuve Yangtze en brandissant un drapeau blanc. À la grande surprise de nos gardes à Anqing, ces patriotes ont demandé à passer de notre côté ! Inspirés par notre cause nationaliste et encouragés par les paroles du Maréchal de Jade, ces marins ont été organisés par un membre éminent de l'École Navale de Mawěi à Fuzhou. Cet homme, Sa Benxin, malgré son jeune âge, a plusieurs décennies d'expérience navale et, plus important encore, la base de connaissances nécessaire pour contribuer utilement à l'organisation d'une nouvelle flotte destinée à défendre le sud de la Chine. En outre, il est issu d'une lignée navale bien établie et peut nous aider à approfondir nos liens avec l'amirauté de Beijing. Tout cela est de bon augure pour l'avenir de notre mouvement anti-concessionniste !"
  anq.233.d.wurefused: "La marée montante de l'anti-concessionnisme a porté ses fruits aujourd'hui puisque notre message a atteint les oreilles de certains des principaux professeurs de l'École Navale de Mawěi à Fuzhou. Désabusé par le manque chronique de financement sous l'administration de Sun Chuanfang et dégoûté par la soumission continue de Qi Xieyuan aux intérêts étrangers allemands, un petit entourage de professeurs de la marine a prêté allégeance à notre cause ce matin. Parmi eux, on peut citer Sa Benxin, qui possède des années d'expérience dans l'étude des plans de navires étrangers à l'étranger et l'enseignement dans les académies navales. Bien que certains s'inquiètent de ses liens familiaux avec l'establishment naval de Beijing, le Gouverneur Chen a décidé de les accueillir dans son nouveau Département Naval. Bien que la flotte modernisée dont ils rêvent soit encore loin, il est clair que notre mouvement a inspiré une nouvelle génération d'officiers vers un avenir meilleur !"
  anq.233.a: "Bienvenue à bord !"
-

@@ -2,6 +2,11 @@
 
  serbia_focus: "Arbre de priorité de la Serbie"
 
+### Factions ###
+ balkan_socialist_federation:0 "Fédération Socialiste Balkanique"
+ belgrade_pact:0 "Pacte de Belgrade"
+ non_aligned_movement: "Mouvement Non-Aligné"
+
 ### Traits ###
  SER_vodja: "Le Vođa"
  SER_peoples_sovereign:0 "Le Souverain du Peuple"
@@ -532,7 +537,7 @@ aeroput: "Aeroput"
  SER_IMRO_spawned_resistance: "Réseau de Communication Perturbé"
  SER_IMRO_mountain_warfare: "Cols de Montagne Cartographiés"
  SER_imro_decisions: "Organisation Révolutionnaire Interne Macédonienne"
- SER_imro_decisions_desc: "\nL'armée serbe a perdu le contrôle d'une grande partie de la Macédoine au profit de l'ORIM, et une difficile guérilla nous attend.\n\nPendant la rébellion de l'ORIM, l'état de Macédoine peut se trouver dans deux phases : en §YAccalmie§! et en §YAction§!\n\n- Pendant la §Yphase d'accalmie§!, ni la Serbie ni l'ORIM ne sont en mesure d'attaquer l'autre, et la Serbie ne peut stationner aucune division en Macédoine. Au lieu de cela, le conflit se déroule sous la forme d'une série de décisions, un jeu joué par la Serbie et l'ORIM contrôlé par l'IA où les deux parties doivent deviner le point d'attaque de l'autre. Si la Serbie §Yrenforce§! la même région que celle que l'ORIM §Yattaque§!, la Serbie gagne un tour - si l'ORIM §Yattaque§! une région qui n'est pas §Ydéfendue§!, elle gagne un tour.\n   Le meilleur des trois gagne le tour d'accalmie - et le gagnant augmente ou diminue la résistance dans l'état.\n\n- Pendant la §Yphase d'action§!, l'interdiction d'envoyer des troupes en Macédoine est levée, mais les deux camps restent paralysés par des affaiblissements massifs de la §YVitesse§!, de §Yl'Attaque§! et de §Yl'Attrition§! des §YDivisions§!, et pendant le premier mois de la phase, l'ORIM bénéficie d'une période de répit pendant laquelle les dégâts §Yd'Organisation§! et de §YForce§! sont fortement réduits. Si la résistance est suffisamment faible, la Serbie peut §Ylancer une offensive§!, supprimant les effets négatifs de la Macédoine pour le reste de la phase et permettant au joueur serbe d'envahir et de prendre autant de provinces qu'il le peut dans le délai imparti. Si toutes les provinces de l'ORIM sont prises, l'organisation est brisée et la rébellion prend fin. En revanche, si la Serbie ne parvient pas à prendre toutes les provinces dans le délai imparti, l'offensive échoue et la situation se réinstalle.\n\nPendant la rébellion, la Serbie et l'ORIM ont toutes deux accès à des arbres de priorités avec lesquels elles peuvent entraver la progression de leur adversaire.\n\nAttention - si la résistance atteint 100 % ou si Skopje tombe, §Rla Macédoine sera perdue.!§!\n"
+ SER_imro_decisions_desc:9 "\nL'armée serbe a perdu le contrôle d'une grande partie de la Macédoine au profit de l'ORIM, et une difficile guérilla nous attend.\n\nPendant la rébellion de l'ORIM, l'état de Macédoine peut se trouver dans deux phases : en §YAccalmie§! et en §YAction§!\n\n- Pendant la §Yphase d'accalmie§!, ni la Serbie ni l'ORIM ne sont en mesure d'attaquer l'autre, et la Serbie ne peut stationner aucune division en Macédoine. Au lieu de cela, le conflit se déroule sous la forme d'une série de décisions, un jeu joué par la Serbie et l'ORIM contrôlé par l'IA où les deux parties doivent deviner le point d'attaque de l'autre. Si la Serbie §Yrenforce§! la même région que celle que l'ORIM §Yattaque§!, la Serbie gagne un tour - si l'ORIM §Yattaque§! une région qui n'est pas §Ydéfendue§!, elle gagne un tour.\n   Le meilleur des trois gagne le tour d'accalmie - et le gagnant augmente ou diminue la résistance dans l'état.\n\n- Pendant la §Yphase d'action§!, l'interdiction d'envoyer des troupes en Macédoine est levée, mais les deux camps restent paralysés par des affaiblissements massifs de la §YVitesse§!, de §Yl'Attaque§! et de §Yl'Attrition§! des §YDivisions§!, et pendant le premier mois de la phase, l'ORIM bénéficie d'une période de répit pendant laquelle les dégâts §Yd'Organisation§! et de §YForce§! sont fortement réduits. Si la résistance est suffisamment faible, la Serbie peut §Ylancer une offensive§!, supprimant les effets négatifs de la Macédoine pour le reste de la phase et permettant au joueur serbe d'envahir et de prendre autant de provinces qu'il le peut dans le délai imparti. Si toutes les provinces de l'ORIM sont prises, l'organisation est brisée et la rébellion prend fin. En revanche, si la Serbie ne parvient pas à prendre toutes les provinces dans le délai imparti, l'offensive échoue et la situation se réinstalle.\n\nPendant la rébellion, la Serbie et l'ORIM ont toutes deux accès à des arbres de priorités avec lesquels elles peuvent entraver la progression de leur adversaire.\n\nAttention - si la résistance atteint 100 % ou si Skopje tombe, §Rla Macédoine sera perdue.!§!\n"
  SER_IMRO_reb_lull_phase: "Phase Actuelle: §Yen Accalmie§!"
  SER_IMRO_reb_action_phase: "Phase Actuelle: §Yen Action§!"
  IMRO_attacks_north_tt: "Si l'ORIM attaque au §Ynord§!, vous gagnez ce tour. Si l'ORIM attaque au §Ysud§!, ils gagnent ce tour."
@@ -783,7 +788,6 @@ aeroput: "Aeroput"
  SER_Dusan_Proclamation: "La proclamation de Dušan"
 
  SER_Balkan_Research_Initiative_decisions: "Initiative de recherche dans les Balkans"
- SER_Invite_Country: "Inviter [From.GetNameDef]"
 
  SER_economic_council_decision: "Pacte d'organisation"
  SER_economic_council_decision_desc: "Dans le cadre de notre désir d'approfondir les liens avec nos alliés et d'améliorer la situation économique de toute la région des Balkans, nous pouvons proposer la formation d'une union économique. Un Conseil économique sera créé pour la diriger, composé d'experts commerciaux et financiers de ses États membres, qui conseillera les dirigeants du pacte de Belgrade. Plus les membres seront nombreux à être d'accord, plus les avantages seront importants."
@@ -791,6 +795,8 @@ aeroput: "Aeroput"
  SER_economic_council_expansion_desc: "Jusqu'à présent, l'union économique s'avère très bénéfique pour tous ses membres, et nous sommes en mesure de l'améliorer encore en adoptant les nouvelles politiques suggérées par le Conseil économique."
  SER_economic_council_application: "Postuler au Pacte d'Organisation"
  SER_economic_council_application_desc: "Nous avons manqué la création originale du Pacte de l'Organisation à cause de la guerre, mais maintenant que la paix est revenue, nous pouvons à nouveau postuler à l'organisation."
+ SER_give_BUL_research_slot:9 "Help [BUL.GetName] Close the Gap"
+ SER_give_BUL_research_slot_desc:9 "The dream of the South Slavs has been realized with the formation of Yugoslavia. Yet, we must not forget our friends, especially [BUL.GetName]. Though they were our adversaries in the Fourth Balkan War only a few years ago, they have since turned the page, burying the hatchet and joining the Belgrade Pact. As the leader of the Pact, it is our duty to ensure their stability and prosperity, paving the path for a lasting peace in the Balkans."
 
 ### Flags ###
  SER_diplomatic_action: "Déjà en contact avec une faction"
@@ -814,7 +820,6 @@ aeroput: "Aeroput"
 
  SER_the_dream_of_yugoslavia_tooltip: "Gagne l'Esprit National §H$SER_the_dream_of_yugoslavia$§!, qui accorde\nDivisions Maximales: [?8|+=0]\n§H[AUS.GetNameDefCap]§!:\n     $MODIFIER_ATTACK_BONUS_AGAINST_A_COUNTRY$: [?0.1|+=%1]\n     $MODIFIER_DEFENSE_BONUS_AGAINST_A_COUNTRY$: [?0.1|+=%1]\n§H[CRO.GetNameDefCap]§!:\n     $MODIFIER_ATTACK_BONUS_AGAINST_A_COUNTRY$: [?0.1|+=%1]\n     $MODIFIER_DEFENSE_BONUS_AGAINST_A_COUNTRY$: [?0.1|+=%1]\n§H[HUN.GetNameDefCap]§!:\n     $MODIFIER_ATTACK_BONUS_AGAINST_A_COUNTRY$: [?0.1|+=%1]\n     $MODIFIER_DEFENSE_BONUS_AGAINST_A_COUNTRY$: [?0.1|+=%1]"
  SER_the_dream_of_yugoslavia_tooltip_no_AUS: "Gagne l'Esprit National §H$SER_the_dream_of_yugoslavia$§!, qui accorde\nDivisions Maximales: [?8|+=0]\n§H[CRO.GetNameDefCap]§!:\n     $MODIFIER_ATTACK_BONUS_AGAINST_A_COUNTRY$: [?0.1|+=%1]\n     $MODIFIER_DEFENSE_BONUS_AGAINST_A_COUNTRY$: [?0.1|+=%1]\n§H[HUN.GetNameDefCap]§!:\n     $MODIFIER_ATTACK_BONUS_AGAINST_A_COUNTRY$: [?0.1|+=%1]\n     $MODIFIER_DEFENSE_BONUS_AGAINST_A_COUNTRY$: [?0.1|+=%1]"
- SER_The_Dream_Fulfilled_tooltip: "Modifie §H$SER_the_dream_of_yugoslavia$§! par\n$MODIFIER_ARMY_MORALE_FACTOR$: [?0.05|+=%1]\n$MODIFIER_STABILITY_FACTOR$: [?0.05|+=%]"
 
  SER_has_reduced_black_monday: "A réduit les effets de l'esprit national §H$SER_black_monday$§!"
 
@@ -838,6 +843,8 @@ aeroput: "Aeroput"
  SER_bulgaria_integration_tooltip: "États Bulgares non intégrés"
 
  SER_in_faction: "est un membre indépendant d'une faction"
+
+ SER_loses_stambo_ally:9 "§RThe restoration of the monarchy will not be taken kindly by our repubican Yugoslavist allies in Bulgaria§!"
 
 ### Focuses ###
 
@@ -1401,7 +1408,6 @@ aeroput: "Aeroput"
 
  SER_radio_free_belgrade: "Contacter les Milices Rurales"
  SER_radio_free_belgrade_desc: "À l'instar de leurs homologues serbes, les villages illyriens sont communautaires et leurs campagnes regorgent de citoyens armés, allant de simples paysans aux imitateurs des Hajduci. En les contactant en secret, nous pouvons rassembler des partisans, recueillir des renseignements et nous préparer à un soulèvement inévitable."
- SER_radio_free_belgrade_tt: "Modifie §HPlanification Serbe de la Guerre §! de\nInformations Locales aux Ennemis: §R15%§!"
 
  SER_precani_pivot: "Compter sur les Prečani"
  SER_precani_pivot_desc: "La minorité serbe des terres autrichiennes, appelée les Prečani, a été historiquement les partisans les plus enthousiastes d'une union avec la Serbie et de la création de la Yougoslavie - un fait que nous pouvons exploiter pour gagner une base de soutien parmi la population pendant la guerre contre l'Autriche."
@@ -1414,7 +1420,6 @@ aeroput: "Aeroput"
 
  SER_piedmontianism: "Piedmontianisme"
  SER_piedmontianism_desc: "L'Allemagne a été formée par la puissance militaire prussienne et l'Italie par la puissance piémontaise. La Yougoslavie doit donc être formée par la puissance militaire serbe, et ainsi, les préoccupations de l'armée serbe dans la guerre contre l'Autriche devraient être notre première priorité."
- SER_piedmontianism_tt: "Modify §HPlanification Serbe de la Guerre §! by\n$MODIFIER_ARMY_SPEED_FACTOR_FOR_CONTROLLER$: §R-25%§!\n$MODIFIER_LOCAL_ORG_REGAIN$: §R-10%§!"
 
  SER_popular_mobilization: "Mobilisation Populaire"
  SER_popular_mobilization_desc: "Une nation aussi petite que la Serbie ne sera jamais en mesure de vaincre l'Empire des Habsbourg, même avec les autres États des Balkans à ses côtés. Notre seule solution est de retourner les Slaves du Sud de l'Empire contre eux, et de susciter des soulèvements de masse derrière leurs lignes qui nous propulseront vers la victoire."
@@ -1728,6 +1733,7 @@ aeroput: "Aeroput"
 SER_KR_gathering_storm_desc: "Lors de l'autre fameuse révolution de 1925, le peuple serbe a finalement renversé sa monarchie et établi la République serbe, une lumière brillante de liberté et de démocratie dans les Balkans. Au cours des dix dernières années, la République a langui sous les restrictions du traité de Wartholz, mais le premier signe de faiblesse de l'Autriche fera sûrement tomber ces chaînes. Les Serbes peuvent-ils regagner ce qu'ils ont perdu pendant la Weltkrige et rallumer le flambeau de la Yougoslavie, tout en conservant la liberté qu'ils ont finalement obtenue ?"
 
 ### Intro Screen ###
+ SER_country_intro_background:9 "GFX_SER_intro"
  SER_country_intro_header:0 "La République Serbe "
  SER_country_intro_content:0 "L'assassinat de l'Archiduc Franz Ferdinand par Gavrilo Princip, un nationaliste Serbe de Bosnie, a été le catalyseur qui a provoqué le début de la Weltkrieg. Bien que les forces serbes se soient battues vaillamment et aient gagné le respect du monde en retardant l'avancée des Puissances Centrales pendant des mois, à la fin de 1915, la totalité du pays était occupée. Divisée en zones d'occupation austro-hongroise et bulgare, la Serbie est exploitée et brûlée, ses adversaires cherchant à se venger de ce qu'ils considèrent comme un régime barbare. Cependant, cela ne fait qu'encourager la résistance sur le territoire, et les choses changent des deux côtés du front en 1918. L'Autriche-Hongrie, sous la pression de ses alliés allemands, entame enfin des pourparlers de paix, tandis que la résistance serbe de Corfou, voyant l'état pitoyable de l'Entente, arrive à la conclusion que même une paix amère vaut mieux que l'annexion. Le Roi Petar abdique et son fils monte sur le trône sous le nom d'Aleksandar II, qui signe le traité punitif de Wartholz en 1919 - qui rétablit une Serbie croupion dans la zone d'occupation austro-hongroise, liée à jamais à la sphère d'influence autrichienne.\n\nL'enhardissement du mouvement socialiste à Belgrade, inspiré par les Révolutions Russes et Françaises, et l'opposition du Parti Radical du Peuple ont amené Aleksandar II à répondre durement. La vie politique est suspendue, le mouvement socialiste est interdit et une dictature royale est instaurée pour maintenir l'ordre dans la nation vaincue. Cet acte n'a cependant fait qu'attiser les tensions dans le pays, qui ont débouché sur une Révolution en 1925. Les militaires, organisés au sein de la société secrète Konspiracija, ont fait un acte de défi à leur roi et ont orchestré l'assassinat d'Aleksandar II le 3 décembre, ce qui a conduit la dictature royale à sa chute. Le Premier Ministre Vojislav Veljković, s'est rendu à l'opposition, qui a proclamé une République Serbe.\n\nAprès une brève impasse diplomatique, le gouvernement provisoire de Ljubomir Stojanović reconnaît le traité de Wartholz, et Vienne reconnaît à son tour le gouvernement républicain. Aujourd'hui, la Serbie est un symbole brûlant de la démocratie dans les Balkans - du moins en apparence. En vérité, cependant, si le gouvernement peut proclamer des objectifs réconfortants tels que la paix, le bien-être et la prospérité, rien ne se passe au sein du gouvernement serbe sans l'approbation de la Konspiracija. Cette société secrète militaire, délibérément calquée sur la Main Noire, ne cherche qu'une seule et unique chose : la libération de tous les Serbes en dehors des frontières de la République. Toujours dans l'ombre, une autre conspiration se cache également - la Main Blanche, dirigée par Petar Živković, qui attend l'occasion de renverser l'interrègne républicain et de restaurer le fils mineur d'Aleksandar II.\n\nAu début de l'année 1936, la Serbie est toujours, nominalement, un État client de l'Empire austro-hongrois, mais cette emprise se desserre de seconde en seconde, et lorsqu'elle tombe enfin, tous les ennemis de la Serbie peuvent trembler."
 
@@ -2119,6 +2125,11 @@ SER_KR_gathering_storm_desc: "Lors de l'autre fameuse révolution de 1925, le pe
  serbia.75.t: "L'ASOS"
  serbia.75.d: "Les députés de la Skupština qui se sont farouchement opposés au putsch et ont réussi à échapper à l'assignation à résidence ont gagné le sud du pays, où, au Monténégro, ils se sont reformés en une coquille de parlement. La plupart des députés étaient des Ouvriers Socialistes, des Socialistes et des Républicains de gauche, qui avaient le plus de raisons de craindre le nouveau régime de la Konspiracija et donc de lui résister.\n\nBien que certains bataillons et réservistes aient basculé de leur côté, la Skupština en exil semblait initialement édentée, jusqu'à ce qu'elle commence à forger des alliances avec la gauche yougoslave militante. Les anciens guérilleros Pelagićevci dirigés par Vukašin Marković se soulèvent les uns après les autres et sont suivis par des séparatistes monténégrins, macédoniens et albanais, ce qui permet à ce mouvement de consolider une emprise semi-forte sur le sud du pays.\n\nÀ Cetinje, il déclare la formation de l'Assemblée Anti-Réactionnaire pour la Libération de la Serbie, et se transforme effectivement en une organisation révolutionnaire alignée sur la Troisième Internationale."
  serbia.75.a: "Ces traîtres doivent être écrasés !"
+
+ serbia.76.t:9 "The Great Betrayal"
+ serbia.76.d:9 "The actions of President Stamboliyski, in going through with the unthinkable and pledging a formal alliance with the Serbians, were still fresh in the minds of all Bulgarians. It would be an understatement to say that it was controversial and without much debate, but for the most part, it seemed to be swept up in the whole host of other changes that had come to Bulgaria in recent years.\n\nToday this decision has given even more reason to its controversy, as Serbian premier Milan Stojadinović has gone against all pledges of supposed Yugoslavist republican brotherhood, and declared that the Serbian monarchy is to be reinstated.\n\nThe response has been almost unanimous, and the government is hearing for Bulgaria to sever all relations with Serbia immediately. The question remains as where else will Bulgaria be able to look to in the world, and if the dream of a true Yugoslavia is fully extinguished forever."
+ serbia.76.a:9 "We can never stand for this!"
+ serbia.76.b:9 "Surely they don't really mean it? This has to be a joke."
 
  serpuppet.1.t: "La Serbie sous l'Occupation Bulgare"
  serpuppet.1.d: "Suite à la guerre entre le Pacte de Belgrade et la Bulgarie afin de détruire l'hégémonie bulgare dans les Balkans et malgré la supériorité numérique de nos armées, la Serbie a été vaincue. Depuis ce moment, les troupes bulgares sont entrées dans Belgrade et ont sécurisé les dernières poches de résistance. Le gouvernement précédent a été partiellement arrêté, l'autre partie s'étant échappée.\n\nL'autorité bulgare a mis au pouvoir Živojin Perić, le chef du Parti d'État des Démocrates Serbes. Ce parti était déjà au pouvoir entre 1920 et 1925 mais avait été renversé par la Révolution Républicaine. C'est maintenant à eux de reconstruire le pays et de rétablir leurs politiques."
@@ -2656,12 +2667,13 @@ SER_KR_gathering_storm_desc: "Lors de l'autre fameuse révolution de 1925, le pe
  SER_petar_ii_leader_desc:9 "§YNaissance :§! §L6 septembre 1923, au Vieux Palais Royal, Belgrade, Royaume de Serbie§!\n§YCarrière :§! §LPremier et unique enfant d'Aleksandar II Karađorđević, le dernier roi de Serbie avant l'interrègne "républicain", Petar II n'avait que deux ans lorsqu'il fut enlevé du palais royal envahi et remis aux mains de Petar Živković. Le jeune héritier du trône est déplacé hors du pays et se retrouve au Canada, où les loyalistes de la dynastie Karađorđević le confient au Prince Pavle, cousin germain d'Aleksandar II et ami de la Famille Royal britannique. Pendant que la Main Blanche poursuivait le combat dans le Royaume déchu, le Prince se vit confier la tâche d'élever son neveu.\n\nAinsi, Petar grandit dans l'environnement relativement libéral du Canada. Il a passé son enfance à assister à des bals, à parler en anglais et à se soucier peu du pauvre État des Balkans dont il revendiquait le trône. Bien que son tuteur ne lui ait pas appris grand-chose en matière d'art politique, le système de Westminster dont il a été témoin a été profondément marqué en lui. Lorsque le moment est venu pour le jeune roi de rentrer chez lui, il a apporté cette pensée britannique avec lui.\n\nSur le plan de la personnalité, Petar est impulsif, naïf et un idéaliste sans espoir. Son imagination de la situation politique coïncide rarement avec la réalité. Même si son royaume fait pâle figure par rapport à la maison de son enfance, il considère néanmoins que le bien-être de ses sujets est son devoir, même au détriment de son capital politique. Cela rend le jeune roi facile à manipuler pour ceux qui ont un réel sens politique. Ainsi, même si Petar a de bonnes idées en tête, il a toujours été un outil pour ceux qui détiennent le vrai pouvoir, et le sera probablement toujours.§!"
 
  SER_temporary_national_representation: "Représentation Nationale Temporaire"
+ SER_temporary_national_representation_leader_desc:9 "§YBackground:§! §LPrior to the first elections being held in the now-united Yugoslavia, the new state is temporarily being ruled by representatives chosen from each of its constituent nations.§!"
 
  SER_milan_grol: "Milan Grol"
  SER_milan_grol_leader_desc:9 "§YNaissance :§! §L12 septembre 1876, à Belgrade, Principauté de Serbie§!\n§YCarrière :§! §LMilan Grol a reçu une éducation pluridisciplinaire en étudiant la philosophie, la littérature, le théâtre et les arts. Après un séjour à Paris, il retourne en Serbie en 1902 en tant qu'enseignant et écrivain, critiquant fréquemment le roi Alexandre Ier et la dynastie Obrenovic dans la presse. À cette époque, il commence à s'affilier à la gauche, en rejoignant le Parti Radical Indépendant. Sa carrière théâtrale s'achève avec le début de la Weltkrieg. Il s'installe à Genève pendant le conflit et commence à se consacrer à nouveau à ses écrits et à son activisme politiques.\n\nÀ la fin de la guerre, la Serbie est occupée et humiliée. De retour dans son pays, Grol voit une nation dévastée et participe bientôt à la fondation du Parti Républicain Serbe. La victoire aux élections de 1931 a permis à Grol d'occuper le poste de Premier Ministre sous Dragisa Vasic. En conséquence, il est considéré comme le successeur naturel de Vasic et remporte la présidence. Portant sur ses épaules l'héritage de Ljubomir Stojanovic, Milan Grol et son parti ont désormais les moyens de mener à bien les réformes dont ils ont rêvé depuis longtemps.§!"
 
  SER_dimitrije_ljotic: "Dimitrije Ljotić"
- SER_dimitrije_ljotic_leader_desc:9 "§YNaissance :§! §L12 août 1891, à Belgrade, Royaume de Serbie§!"
+ SER_dimitrije_ljotic_sic_desc:0 "§YNaissance :§! §L12 août 1891, à Belgrade, Royaume de Serbie§!"
  SER_mirko_korolija: "Mirko Korolija"
  SER_mirko_korolija_leader_desc:9 "§YNaissance :§! §L9 septembre 1886, à Kistanje, Royaume de Dalmatie, Autriche-Hongrie§!"
  SER_nikola_uzunovic: "Nikola Uzunović"
@@ -2701,8 +2713,8 @@ SER_KR_gathering_storm_desc: "Lors de l'autre fameuse révolution de 1925, le pe
  SER_petar_bojovic_commander_desc:9 "§YNaissance :§! §L16 juin 1858, à Miševići, vilayet de Bosnie, Empire ottoman§!"
  SER_konstantin_popovic: "Konstantin Popović"
  SER_konstantin_popovic_commander_desc:9 "§YNaissance :§! §L4 mars 1908, à Belgrade, Royaume de Serbie§!"
- SER_arso_jovanovic: "Arsenije Jovanović"
- SER_arso_jovanovic_commander_desc:9 "§YNaissance :§! §L24 mars 1907, à Podgorica, district de Zetska, Principauté du Monténégro§!"
+ SER_arsenije_jovanovic:0 "Arsenije Jovanović"
+ SER_arsenije_jovanovic_commander_desc:9 "§YBorn:§! §LMarch 24th, 1907, in Zavala, Principality of Montenegro§!"
  SER_milan_nedic: "Milan Nedić"
  SER_milan_nedic_commander_desc:9 "§YNaissance :§! §L2 septembre 1878, à Grocka, Belgrade, Principauté de Serbie§!"
  SER_milorad_petrovic: "Milorad Petrović"
@@ -2764,6 +2776,7 @@ SER_KR_gathering_storm_desc: "Lors de l'autre fameuse révolution de 1925, le pe
  SER_dragomir_stojanovic:0 "Dragomir Stojanović"
  SER_dragomir_stojanovic_high_command_desc:9 "§YNaissance :§! §L17 août 1878, à Knjaževac, district de Timok, Principauté de Serbie§!"
  SER_navy_army_command:0 "Sous le Commandement de l'Armée"
+ SER_navy_army_command_navy_chief_desc:9 "§YBackground:§! §LThe command of the navy has been assigned to the army, to allow for greater cooperation between the armed forces.§!"
  SER_zdenko_ulepic: "Zdenko Ulepić"
  SER_zdenko_ulepic_air_chief_desc:9 "§YNaissance :§! §L5 juin 1906, à Ljubljana, Duché de Carniole, Autriche-Hongrie§!"
 
@@ -2776,3 +2789,4 @@ SER_KR_gathering_storm_desc: "Lors de l'autre fameuse révolution de 1925, le pe
  MAC_ivan_mihajlov_leader_desc:9 "§YNaissance :§! §L26 août 1896, à Novo Selo, Vilayet du Kosovo, Empire Ottoman§!\n§YCarrière :§! §LIvan Mihajlov est né dans une famille de langue bulgare, dans les montagnes de Macédoine. Une région bientôt déchirée par les tensions ethniques et la guerre. Sa vie même donne un bon aperçu des changements rapides que la région a dû subir. Mihajlov a commencé ses études dans un lycée masculin bulgare de Thessalonique avant que celui-ci ne soit fermé par l'administration grecque pendant la première guerre des Balkans.  Il a donc été brièvement transféré dans un lycée serbe à Skopje, avant de terminer son éducation dans la Macédoine occupée par les Bulgares. Il poursuit enfin ses études de droit à Sofia. Pendant la Weltkrieg, Mihajlov s'est engagé dans l'armée bulgare et est entré en contact personnel avec le chef de l'ORIM, Todor Aleksandrov.\n\nAprès la guerre, Mihajlov est devenu le secrétaire personnel d'Aleksandrov. L'ORIM, ayant enfin atteint ses objectifs, se dissout. Afin de consolider leurs acquis, Aleksandrov dirige Mihajlov et la faction de droite de l'organisation dans l'"Association contre les Bandits Serbes". Une organisation paramilitaire chargée d'éradiquer la résistance serbe et d'ouvrir la voie à la bulgarisation des provinces occidentales. Avec le temps, l'Association se transforme en Ohrana, une organisation paramilitaire macédonienne intimidante et un repaire d'extrême droite.\n\nEn 1930, blessé par une embuscade de tchetniks serbes, Aleksandrov se retire de son rôle actif dans l'organisation. Son protégé Mihajlov lui succède. Il a pleinement adhéré à l'alliance d'Ohrana avec les légions nationales et s'est porté volontaire pour la quatrième guerre des Balkans aux côtés de centaines de ses pairs.  Lorsque la guerre s'est achevée avec la reprise de sa maison par les Serbes, il a choisi de suivre les traces de son mentor. Aux côtés de ses camarades anciens combattants et réfugiés macédoniens, Mihajlov s'infiltre à la frontière serbo-bulgare et proclame la restauration de l'ORIM.  Avec l'intention de libérer la Macédoine des oppresseurs de Belgrade, peu importe le sang versé en cours de route.§!"
 
  MAC_imro_joint_command: "Commandement Interarmées de l'ORIM"
+ MAC_imro_joint_command_commander_desc:9 "§YBorn:§! §Lin Skopje, Macedonia§!"

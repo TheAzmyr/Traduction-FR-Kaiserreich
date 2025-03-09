@@ -179,11 +179,12 @@ has_scripted_peace_desc: "Le pays est en guerre et est déterminé à remporter 
  unit_limit_subject_bonus: "Ajout d'une limite de division pour le Suzerain"
 
  unit_limit_breakdown: "[unit_limit_breakdown]"
- unit_limit_breakdown_default: "§HNombre maximal de divisions§!\nMaximum Actuel : [?uncapped_max_divisions|H0][unit_limit_reached_cap]\n[unit_limit_base_value][unit_limit_core_population][unit_limit_noncore_population][unit_limit_subject_population_bonus][unit_limit_states][unit_limit_subject_state_bonus]\n[unit_limit_factory_count_multiplier][unit_limit_additional_modifiers][unit_limit_faction_leader][unit_limit_factor_used][unit_limit_default][unit_limit_economy_law][unit_limit_bonus_used][unit_limit_above_limit]"
+ unit_limit_breakdown_default:9 "§HNombre maximal de divisions§!\nMaximum Actuel : [?uncapped_max_divisions|H0][unit_limit_reached_floor][unit_limit_reached_ceiling]\n[unit_limit_base_value][unit_limit_core_population][unit_limit_noncore_population][unit_limit_subject_population_bonus][unit_limit_states][unit_limit_subject_state_bonus]\n[unit_limit_factory_count_multiplier][unit_limit_additional_multipliers][unit_limit_faction_leader][unit_limit_factor]\n\nModificateurs additionnels : [unit_limit_base][unit_limit_economy_law][unit_limit_bonus][unit_limit_above_limit]"
 
  unit_limit_list_item: "\n   - "
 
- unit_limit_reached_cap_desc: "\n (Plafonné à un maximum de [?300|H0])"
+ unit_limit_reached_floor_desc:9 "\n(Plafonné à un minimum de [?floor|H0])"
+ unit_limit_reached_ceiling_desc:9 "\n(Plafonné à un maximum de [?ceiling|H0])"
  unit_limit_base_value_desc: "\nValeur de Base : [?base_units|G1]"
  unit_limit_core_population_desc: "$unit_limit_list_item$De la Population des états nationaux : [?core_base|G1]"
  unit_limit_noncore_population_desc: "$unit_limit_list_item$ de la population non-nationale: [?non_core_base|G1]"
@@ -191,16 +192,16 @@ has_scripted_peace_desc: "Le pays est en guerre et est déterminé à remporter 
  unit_limit_states_desc: "$unit_limit_list_item$Des États Détenus : [?num_owned_states|G0]"
  unit_limit_subject_state_bonus_desc: "$unit_limit_list_item$ des états §Hsujets§!: [?subject_states|G0]"
  unit_limit_factory_count_multiplier_desc: "\nMultiplicateur du Nombre d'Usines: [?industry_factor|H%]"
- unit_limit_additional_modifiers_desc: "\n\nModificateurs Supplémentaires :"
- unit_limit_faction_leader_desc: "$unit_limit_list_item$ Chef de faction: §G+15%§!"
- unit_limit_factor_used_desc: "$unit_limit_list_item$ Des Esprits Nationaux : [?modifier@unit_limit_bonus|=+0%]"
- unit_limit_default_desc: "$unit_limit_list_item$Base : [?global.base_unit_limit_bonus|=+0]"
- unit_limit_bonus_used_desc: "$unit_limit_list_item$des spiritueux nationaux: [?modifier@unit_limit_bonus|=+0]"
+ unit_limit_additional_multipliers_desc:9 "\n\nMultiplicateurs supplémentaires :"
+ unit_limit_faction_leader_desc:9 "$unit_limit_list_item$ Chef de faction: [?modifier|+=%0]"
+ unit_limit_factor_desc:9 "$unit_limit_list_item$£pol_idea Esprits nationaux : [?modifier@unit_limit_factor|=+0%]"
+ unit_limit_base_desc:9 "$unit_limit_list_item$Base : [?base|=+0]"
+ unit_limit_bonus_desc:9 "$unit_limit_list_item$£pol_idea Esprits nationaux : [?modifier@unit_limit_bonus|=+0]"
 
- unit_limit_low_economic_mobilisation: "$unit_limit_list_item$du §H$low_economic_mobilisation$§!: [?modifier@unit_limit_law_bonus|+=0]"
- unit_limit_partial_economic_mobilisation: "$unit_limit_list_item$du §H$partial_economic_mobilisation$§!: [?modifier@unit_limit_law_bonus|+=0]"
- unit_limit_war_economy: "$unit_limit_list_item$du §H$war_economy$§!: [?modifier@unit_limit_law_bonus|+=0]"
- unit_limit_tot_economic_mobilisation: "$unit_limit_list_item$du §H$tot_economic_mobilisation$§!: [?modifier@unit_limit_law_bonus|+=0]"
+ unit_limit_low_economic_mobilisation:9 "$unit_limit_list_item$£pol_idea  §H$low_economic_mobilisation$§!: [?modifier@unit_limit_law_bonus|+=0]"
+ unit_limit_partial_economic_mobilisation:9 "$unit_limit_list_item$£pol_idea  §H$partial_economic_mobilisation$§!: [?modifier@unit_limit_law_bonus|+=0]"
+ unit_limit_war_economy:9 "$unit_limit_list_item$£pol_idea  §H$war_economy$§!: [?modifier@unit_limit_law_bonus|+=0]"
+ unit_limit_tot_economic_mobilisation:9 "$unit_limit_list_item$£pol_idea  §H$tot_economic_mobilisation$§!: [?modifier@unit_limit_law_bonus|+=0]"
 
  unit_limit_above_limit_desc: "\n---------------\n$unit_limit_above_limit_text$"
  unit_limit_above_limit_text: "§RNous avons actuellement dépassé notre capacité et le seul moyen d'alléger la pression sur notre pays sera de supprimer certaines de nos divisions.§!\n\n$MODIFIER_ARMY_ORG_FACTOR$: [?mobilisation_penalty_var|+=%1]\n$MODIFIER_CONSUMER_GOODS_FACTOR$: [?mobilisation_penalty_var_positive|=%H1]\n$MODIFIER_INDUSTRIAL_CAPACITY_FACTOR$: [?mobilisation_penalty_var|+=%]\n$MODIFIER_TRAINING_TIME_ARMY_FACTOR$: [?mobilisation_penalty_var_positive|-=%]\n$MODIFIER_LAND_REINFORCE_RATE$: [?mobilisation_penalty_var|+=%1]"
@@ -255,6 +256,7 @@ has_scripted_peace_desc: "Le pays est en guerre et est déterminé à remporter 
  KR_plpc_enable_tt: "La règle §YPrimauté du Joueur§! pour les Conférences de Paix sera de nouveau §Gactivée§!\n"
  KR_plpc_turned_off: "La règle §YPrimauté du Joueur§! pour les Conférences de Paix a été paramétrée mais est actuellement §Rdésactivée§!\n"
  stt_highlight_states: "États Marqués"
+ AI_dont_spend_PP:9 "L'IA ne dépense pas de PP"
 
 ##################
 ### Ideologies ###

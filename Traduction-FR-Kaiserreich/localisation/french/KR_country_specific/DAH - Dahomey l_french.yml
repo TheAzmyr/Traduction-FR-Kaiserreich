@@ -16,11 +16,17 @@ Dahomeyland: "Arbre de priorité de Dahomey"
 
 ### Characters ###
  DAH_Hubert_Maga: "Hubert Maga"
+ DAH_hubert_maga_leader_desc:9 "§YBorn:§! §LAugust 10th, 1916, in Parakou, Colony of Dahomey and Dependencies, French West Africa§!"
  DAH_Agoli_Agbo: "Agoli-Agbo"
+ DAH_agoli_agbo_sic_desc:9 "§YBorn:§! §Lin the Kingdom of Dahomey§!"
  DAH_Basile_Adjou_Moumouni: "Basile Adjou Moumouni"
+ DAH_basile_adjou_moumouni_leader_desc:9 "§YBorn:§! §Lin Cotonou, Colony of Dahomey and Dependencies, French West Africa§!"
  DAH_Christophe_Soglo: "Christophe Soglo"
+ DAH_christophe_soglo_leader_desc:9 "§YBorn:§! §LJune 28th, 1909, in Abomey, Colony of Dahomey and Dependencies, French West Africa§!"
  DAH_Justin_Ahomadegbe_Tometin: "Justin Ahomadégbé-Tomêtin"
+ DAH_justin_ahomadegbe_tometin_leader_desc:9 "§YBorn:§! §LJanuary 16th, 1917, in Abomey, Colony of Dahomey and Dependencies, French West Africa§!"
  DAH_Sourou_Migan_M_J_Apithy: "Sourou-Migan M.J. Apithy"
+ DAH_sourou_migan_m_j_apithy_leader_desc:9 "§YBorn:§! §LApril 8th, 1913, in Porto-Novo, Colony of Dahomey and Dependencies, French West Africa§!"
 
 ### Focuses ###
 DAH_our_own: "Tout seul"
@@ -86,7 +92,6 @@ DAH_baguette_lover: "Approfondir les liens du protectorat"
  DAH_baguette_lover_desc: "Le monde est un grand endroit, avec des pouvoirs beaucoup plus grands que nous essayant de jouer avec notre terre. "Rechercher des liens plus étroits avec notre seigneur pourrait sauver notre nation plus efficacement que si nous étions seuls."
  DAH_baguette_lover_unlock: "Le Dahomey devient un §H$integrated_puppet$§!."
  DAH_status_quo: " Status Quo "
- #This Is Fine, the focus:
  DAH_status_quo_desc: "Le monde est dangereux, et ceux qui se tiennent trop haut ont l'habitude d'être abattus. Le Dahomey, en tant que nation, peut faire profil bas et assurer la paix et la prospérité à son peuple pendant que le reste du monde brûle."
  DAH_normal_person: "Posture équilibrée"
  DAH_normal_person_desc: "Si les Français ne sont pas... de méchants... suzerains... Il n'y a rien de mal à réduire leur influence et à évoluer vers une nation vraiment libre."
@@ -97,30 +102,27 @@ DAH_baguette_lover: "Approfondir les liens du protectorat"
 
 ### Events ###
 dah.001.t: "Expertise française"
- #Oh Great Frenchie of The Lake, what is your wisdom?:
  dah.001.d: "Les Français ont une grande connaissance de la construction de l'État, même dans leur pays d'exil. Peut-être devrions-nous leur demander de partager certaines de ces connaissances, afin que nous puissions devenir un allié plus fort ?"
  dah.001.a: "Recherche d'une aide au développement agricole"
  dah.001.b: "Demandez-leur leur expertise en matière de construction et d'ingénierie."
  dah.001.c: "Pourriez-vous nous montrer comment fabriquer toutes vos armes fantaisistes ?"
 
- dah.002.t: "Armes étrangères"
- dah.002.d: "Notre armée est jeune et manque d'une grande partie de l'équipement de base dont une armée a besoin, en particulier d'armes à feu. Pour combler cette lacune, nous pourrions demander à l'une des grandes puissances (à l'exception de ces satanés Allemands) de nous vendre des armes. Devrions-nous aller de l'avant ?"
- dah.002.a: "Faisons le tour."
-
  dah.005.t: "Notre place dans le monde"
  dah.005.d: "Avant la colonisation africaine, nous étions un peuple libre et autosuffisant. Personne ne pouvait nous empêcher d'être forts, fiers et libres. Aujourd'hui, cependant, le monde est beaucoup plus vaste, avec de nombreux acteurs bien plus importants que nous. Nous sommes donc contraints de réfléchir à notre place dans le monde. Allons-nous redevenir un sujet de la France ? Ou peut-être devrions-nous devenir libres et tenter notre chance là-bas ? Ou devons-nous nous asseoir et laisser les événements se dérouler avant de faire ce choix ?"
  dah.005.a: "L'avenir nous le dira. Tôt ou tard, le temps nous le dira."
 
- dah.006.t: "Le Dahomey veut acheter des armes"
+ dah.006.t:9 "Le Dahomey veut acheter des armes"
  dah.006.d: "La nation récemment indépendante du Dahomey souhaite nous acheter des armes à feu pour approvisionner son armée naissante. Quelle est notre réponse ?"
  dah.006.a: "Nous pouvons certainement leur en vendre !"
- dah.006.b: "Nous avons besoin de l'équipement pour nous-mêmes"
- dah.006.c: "Vendons-en quelques-uns"
+ dah.006.b:9 "Vendons-en quelques-uns."
+ dah.006.c:9 "Nous avons besoin de l'équipement pour nous-mêmes"
 
  dah.007.t: " Réponse à la vente d'armes à feu "
- dah.007.d: "Nous avons été informés par [DAH_gun_target.GetNameDef] des armes que nous voulons acheter !"
- dah.007.a: "Ils nous les vendront !"
- dah.007.b: "Malédiction, ils ont refusé !"
+ dah.007.d:9 "Nous avons été informés par [FROM.GetNameDef] des armes que nous voulions acheter. Heureusement pour nous, ils ont accédé à notre demande !"
+ dah.007.a:0 "Splendide !"
+
+ dah.009.d:9 "Nous avons été informés par [FROM.GetNameDef] des armes que nous voulions acheter. Malheureusement, ils ont refusé notre demande."
+ dah.009.a:0 "Malédiction !"
 
 ### Ideas ###
 DAH_gold_mining: " Mines d'or "

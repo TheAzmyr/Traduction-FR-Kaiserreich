@@ -264,8 +264,11 @@ SZC_famine_PP_80_tooltip_blocked: "£convoy_texticon [?80|R0]"
  SZC_opium_crisis_over_tooltip: "§GLa Crise de l'Opium est résolue!§!\n"
 
  SZC_opium_corruption_tooltip: "La §Ycorruption§! a été éradiquée"
+ SZC_opium_corruption_tooltip_NOT:9 "$SZC_opium_corruption_tooltip$"
  SZC_opium_smuggling_tooltip: "La §Ycontrebande§! a été éradiquée"
+ SZC_opium_smuggling_tooltip_NOT:9 "$SZC_opium_smuggling_tooltip$"
  SZC_opium_addiction_tooltip: "L' §Yaddiction§! a été éradiquée"
+ SZC_opium_addiction_tooltip_NOT:9 "$SZC_opium_addiction_tooltip$"
 
  SZC_opium_monopoly_tier_1: "£opium_texticon Le niveau de §Ycontrôle de l'opium§! est de §Y20%§! ou supérieur"
  SZC_opium_monopoly_tier_2: "£opium_texticon Le niveau de §Ycontrôle de l'opium§! est de §Y40%§! ou supérieur"
@@ -1246,6 +1249,7 @@ SZC_famine_relief_desc_YUN: ""
  SZC_KR_gathering_storm_desc: "Le Sichuan est depuis longtemps un microcosme des nombreux problèmes de la Chine, divisé et changeant constamment de contrôleur depuis 1911. Yang Sen a réussi à émerger du chaos en tant que dirigeant avec l'aide de la clique Zhili de Wu Peifu et Cao Kun, mais même leur contrôle est loin d'être absolu.\n\nÀ la suite d'une invasion tibétaine destructrice, Yang en est venu à compter sur le soutien de factions internes, notamment le corps industriel de Liu Xiang et le département de Baoding de Deng Xihou. Entre-temps, le département des officiers en exil est retourné dans le sud avec le soutien du Yunnan. La poudrière sichuanaise risque d'exploser à nouveau..."
 
 ### Intro Screen###
+ SZC_country_intro_background:9 "GFX_SZC_intro"
  SZC_country_intro_header: "La §gClique du Sichuan§! en 1936"
  SZC_country_intro_content: "A l'aube de l'année 1936, le §gSichuan§! se maintient dans un équilibre très fragile entre ses multiples factions. §gYang Sen§! domine pour l'instant, soutenu par les §PZhili§! en la personne de §PWu Peifu, le Maréchal de Jade§!, et par son proche associé et ancien gouverneur du §gSichuan§!, §PLiu Cunhou§!, dont le statut et les relations, ainsi que des forces considérables, donnent à §gYang§! la stabilité et la légitimité dont il a cruellement besoin. Cependant, les désastres militaires de la dernière décennie ont conduit §gYang Sen§! à s'appuyer sur les cliques dirigées par §cDeng Xihou§! et §PLiu Xiang§!, qui détiennent désormais une influence considérable au sein du gouvernement et du Sichuan même. Les restes du §SDépartement des Officiers§! §Ralignés sur le KMT§! contrôlent toujours des parties du sud du §gSichuan§!, bien que les années qui ont suivi aient vu leur zone de contrôle diminuer régulièrement.\n\nLe §gSichuan§! est sur le fil du rasoir, divisé en interne, avec de multiples factions en lice pour le pouvoir ultime dans la province. Au moindre signe de faiblesse de la part du §PZhili§!, cette poudrière pourrait exploser..."
 
@@ -2400,25 +2404,27 @@ sichuan.11.a: "[SZC_join_faction_accepted]"
 ### Characters ###
  #張瀾
  SZC_zhang_lan: "Zhang Lan"
+ SZC_zhang_lan_advisor_desc:9 "§YBorn:§! §LApril 2nd, 1872, in the Qing Empire§!"
 
  #何魯之
  SZC_he_luzhi:9 "He Luzhi"
+ SZC_he_luzhi_advisor_desc:9 "§YBorn:§! §L1891, in the Qing Empire§!"
 
  #呂超
  SZC_lu_chao: "Lü Chao"
- SZC_lu_chao_bio:9 "A native of Sichuan, Lü graduated in 1909 from the Sichuan Army Primary School. He then joined the Fourth Nanjing Army Secondary School, which he then abandoned to join Sun Yat-sen's revolutionary Tongmenghui to resist and fight for a free Republican China. Like many others from his province, in 1910, he attended the Baoding Academy, which he then left when the Xinhai Revolution broke out in 1911. He then travelled to Shanghai, where he worked with Chen Qimei, Wang Jingwei, and Li Shizeng (prominent associates of Dr. Sun) until he was forced to flee to Sichuan in exile after Yuan Shikai took power.\n\nIn 1915, the National Protection War to resist Yuan's regime in Beijing broke out, and Lü joined fellow Sichuanese Xiong Kiwu as part of Cai E's army in Sichuan. When Chen Jiongming and the Federalist movement attempted to kick Sun Yat-sen out of Guangdong, Lü took the side of Sun and fought against his former comrade Xiong Kiwu for control of Sichuan. He then joined Sun in exile in Shanghai and returned with Sun in his return to Guangdong in 1923 and became one of Sun's trusted allies in the Kuomintang. During the doomed Northern Expedition, Lü represented the Sichuanese forces, and after the mission's failure, he fled back to his native Sichuan in exile once more. Yet, despite numerous defats, the revolutionary spirit installed within Lü never died out. Instead, he continued to bide his time, believing fervently in the principles illustrated by the late eternal premier of the Kuomintang. As he waited in exile under the Yang Sen regime that once again took control of Sichuan, he maintained his contacts with the Kuomintang throughout the country."
+ SZC_lu_chao_bio:9 "A native of Sichuan, Lü graduated in 1909 from the Sichuan Army Primary School. He then joined the Fourth Nanjing Army Secondary School, which he then abandoned to join Sun Yat-sen's revolutionary Tongmenghui to resist and fight for a free Republican China. Like many others from his province, in 1910, he attended the Baoding Academy, which he then left when the Xinhai Revolution broke out in 1911. He then travelled to Shanghai, where he worked with Chen Qimei, Wang Jingwei, and Li Shizeng (prominent associates of Dr. Sun) until he was forced to flee to Sichuan in exile after Yuan Shikai took power.\n\nIn 1915, the National Protection War to resist Yuan's regime in Beijing broke out, and Lü joined fellow Sichuanese Xiong Kiwu as part of Cai E's army in Sichuan. When Chen Jiongming and the Federalist movement attempted to kick Sun Yat-sen out of Guangdong, Lü took the side of Sun and fought against his former comrade Xiong Kiwu for control of Sichuan. He then joined Sun in exile in Shanghai and returned with Sun in his return to Guangdong in 1923 and became one of Sun's trusted allies in the Kuomintang. During the doomed Northern Expedition, Lü represented the Sichuanese forces, and after the mission's failure, he fled back to his native Sichuan in exile once more. Yet, despite numerous defeats, the revolutionary spirit installed within Lü never died out. Instead, he continued to bide his time, believing fervently in the principles illustrated by the late eternal premier of the Kuomintang. As he waited in exile under the Yang Sen regime that once again took control of Sichuan, he maintained his contacts with the Kuomintang throughout the country."
  SZC_lu_chao_leader_desc:9 "§YNaissance :§! §L9 mars 1890, dans le comté de Yibin, province du Sichuan, Empire Qing§!\n§YCarrière :§! §L$SZC_lu_chao_bio$\n\nAujourd'hui, avec la victoire des forces républicaines dans le Sichuan, Lü est devenu le leader de facto d'une alliance tendue entre le Kuomintang républicain et les Fédéralistes, prêt à réaliser la vision du président défunt pour une Chine libre et véritablement démocratique.§!"
  SZC_lu_chao_army_chief_desc:9 "§YNaissance :§! §L9 mars 1890, dans le comté de Yibin, province du Sichuan, Empire Qing§!\n§YAlignement :§! §PKuomintang§!\n§YCarrière :§! §L$SZC_lu_chao_bio$§!"
 
  #熊克武
  SZC_xiong_kewu: "Xiong Kewu"
- SZC_xiong_kewu_bio:9 "Born into a family of doctors, ever since he was young, Xiong Kewu held a love of learning. He became intrigued by the ideas of democracy and modernism presented by the West and lamented that China had fallen gravely behind the rest of the world. In 1903, he attended the Sichuan East Literature Hall and later became acquainted with revolutionaries such as Dai Jitao. After achieving the sponsorship of his uncle, Xiong went to study in Japan, where he met Sun Yat-sen and would later join Sun's Tongmenghui. After the Xinhai Revolution, Xiong served as commander of the Dahan Sichuan Military Government until 1913. Yuan Shikai and the Beiyang Government expelled Sun's forces from China, and Xiong was forced to flee to Japan in exile.\n\n Yet, the defeat did not deter Xiong from dreaming of a free China. In Japan and Southeast Asia, he raised funds for the revolution and returned to China to join Cai E in the victorious National Protection War against Yuan. Despite being comrades in the National Protection War, Xiong turned against his former ally Lü Chao in 1920 and successfully expelled him from the province with the help of the warlord Liu Cunhou. In that same year, he issued a firm declaration that the people of Sichuan would no longer play second fiddle to the Beiyang and Guangzhou Governments that had arisen in the chaos of the Warlord Period. This did not last long as Sichuan collapsed into civil war and Liu Cunhou joined forces with the Beiyang Government, and Xiong was once again forced to flee into exile. He then fled to Guangdong, joining the Chinese Kuomintang, and participated in its first Congress in 1924.\n\nXiong's brief stay in the Kuomintang ended in 1925 when he was betrayed by Wang Jingwei and Chiang Kai-shek on charges that he was colluding with the Chinese Federalist leader Chen Jiongming. After the Northern Expedition's failure and the Kuomintang's breakdown, Xiong returned home to Sichuan dissatisfied with political life. And yet his passion for republican ideals never died, and although he has not forgotten the betrayal of the KMT, he lends an open ear to the Chinese Federalists in Guangdong."
+ SZC_xiong_kewu_bio:9 "Born into a family of doctors, ever since he was young, Xiong Kewu held a love of learning. He became intrigued by the ideas of democracy and modernism presented by the West and lamented that China had fallen gravely behind the rest of the world. In 1903, he attended the Sichuan East Literature Hall and later became acquainted with revolutionaries such as Dai Jitao. After achieving the sponsorship of his uncle, Xiong went to study in Japan, where he met Sun Yat-sen and would later join Sun's Tongmenghui. After the Xinhai Revolution, Xiong served as commander of the Dahan Sichuan Military Government until 1913. Yuan Shikai and the Beiyang Government expelled Sun's forces from China, and Xiong was forced to flee to Japan in exile.\n\nYet, the defeat did not deter Xiong from dreaming of a free China. In Japan and Southeast Asia, he raised funds for the revolution and returned to China to join Cai E in the victorious National Protection War against Yuan. Despite being comrades in the National Protection War, Xiong turned against his former ally Lü Chao in 1920 and successfully expelled him from the province with the help of the warlord Liu Cunhou. In that same year, he issued a firm declaration that the people of Sichuan would no longer play second fiddle to the Beiyang and Guangzhou Governments that had arisen in the chaos of the Warlord Period. This did not last long as Sichuan collapsed into civil war and Liu Cunhou joined forces with the Beiyang Government, and Xiong was once again forced to flee into exile. He then fled to Guangdong, joining the Chinese Kuomintang, and participated in its first Congress in 1924.\n\nXiong's brief stay in the Kuomintang ended in 1925 when he was betrayed by Wang Jingwei and Chiang Kai-shek on charges that he was colluding with the Chinese Federalist leader Chen Jiongming. After the Northern Expedition's failure and the Kuomintang's breakdown, Xiong returned home to Sichuan dissatisfied with political life. And yet his passion for republican ideals never died, and although he has not forgotten the betrayal of the KMT, he lends an open ear to the Chinese Federalists in Guangdong."
  SZC_xiong_kewu_leader_desc:9 "§YNaissance :§! §L26 décembre 1885, dans le comté de Jingyan, province du Sichuan, Empire Qing§!\n§YCarrière :§! §L$SZC_xiong_kewu_bio$\n\nGrâce à son succès dans la récente guerre civile au Sichuan, Xiong veillera à ce que le Sichuan devienne une forteresse républicaine impénétrable qui contribuera à mettre fin à des années d'autoritarisme à Beijing.§!"
  SZC_xiong_kewu_army_chief_desc:9 "§YNaissance :§! §L26 décembre 1885, dans le comté de Jingyan, province du Sichuan, Empire Qing§!\n§YAlignement :§! §SFédéralistes§!\n§YCarrière :§! §L$SZC_xiong_kewu_bio$§!"
 
  #劉伯承
  SZC_liu_bocheng: "Liu Bocheng"
- SZC_liu_bocheng_high_command_desc:9 "§YBorn:§! §L4th December, 1892, in Kaixian County, Sichuan Province, Qing Empire§!\n§YAlignment:§! §SOfficers Department§!\n§YBackground:§! §LWorking on the farm in his teenage years due to his father's death, Liu joined the Sichuan Military Government Army Officer School in 1912. He served under Xiong Kewu after graduation. Liu took part in the Second Revolution of 1913 against Yuan Shikai when Xiong declared his opposition to Beijing. However, Yuan would emerge victorious, and Liu went into exile in Shanghai. While there, Liu joined Sun Yat-sen's Revolutionary Party, the precursor to the Kuomintang.\n\nLiu returned to Sichuan to organise a National Protection Army when Cai E marched against Yuan Shikai's imperial gambit in 1915. During the war in 1916, Liu was shot twice in the head, leaving his right eye blind. In 1924, Liu engaged against the Zhili clique forces of Wu Peifu, and won the battle of Longquanyi. It was in 1924 that Liu would become influenced by the tenets of Marxism and the goals of the National Revolution. In 1926, Liu was formally folded into the Kuomintang.\n\nWhile Liu supported the Guangzhou Nationalist Government in its attempt to take Wuhan by preventing the local Sichuanese warlords from aiding Wu Peifu, the KMT not only failed to take Wuhan but collapsed entirely. Liu's sudden isolation from his allies caused the other Sichuanese warlords to push Liu to the edges of Sichuan, where he remains in hiding to this day. Liu hopes that one day, the Kuomintang will return to the Mainland and the peasants will be free from reactionary oppression.§!"
+ SZC_liu_bocheng_high_command_desc:9 "§YBorn:§! §LDecember 4th, 1892, in Kaixian County, Sichuan Province, Qing Empire§!\n§YAlignment:§! §SOfficers Department§!\n§YBackground:§! §LWorking on the farm in his teenage years due to his father's death, Liu joined the Sichuan Military Government Army Officer School in 1912. He served under Xiong Kewu after graduation. Liu took part in the Second Revolution of 1913 against Yuan Shikai when Xiong declared his opposition to Beijing. However, Yuan would emerge victorious, and Liu went into exile in Shanghai. While there, Liu joined Sun Yat-sen's Revolutionary Party, the precursor to the Kuomintang.\n\nLiu returned to Sichuan to organise a National Protection Army when Cai E marched against Yuan Shikai's imperial gambit in 1915. During the war in 1916, Liu was shot twice in the head, leaving his right eye blind. In 1924, Liu engaged against the Zhili clique forces of Wu Peifu, and won the battle of Longquanyi. It was in 1924 that Liu would become influenced by the tenets of Marxism and the goals of the National Revolution. In 1926, Liu was formally folded into the Kuomintang.\n\nWhile Liu supported the Guangzhou Nationalist Government in its attempt to take Wuhan by preventing the local Sichuanese warlords from aiding Wu Peifu, the KMT not only failed to take Wuhan but collapsed entirely. Liu's sudden isolation from his allies caused the other Sichuanese warlords to push Liu to the edges of Sichuan, where he remains in hiding to this day. Liu hopes that one day, the Kuomintang will return to the Mainland and the peasants will be free from reactionary oppression.§!"
 
  #鄧錫侯
  SZC_deng_xihou: "Deng Xihou"
@@ -2485,15 +2491,19 @@ sichuan.11.a: "[SZC_join_faction_accepted]"
 
  #盧作孚
  SZC_lu_zuofu: "Lu Zuofu"
+ SZC_lu_zuofu_advisor_desc:9 "§YBorn:§! §LApril 14th, 1893, in the Qing Empire§!"
 
  #巴金
  SZC_ba_jin: "Ba Jin"
+ SZC_ba_jin_advisor_desc:9 "§YBorn:§! §LNovember 25th, 1904, in the Qing Empire§!"
 
  #羅瑞卿
  SZC_luo_ruiqing: "Luo Ruiqing"
+ SZC_luo_ruiqing_advisor_desc:9 "§YBorn:§! §LMay 31st, 1906, in the Qing Empire§!"
 
  #周從化
  SZC_zhou_conghua: "Zhou Conghua"
+ SZC_zhou_conghua_advisor_desc:9 "§YBorn:§! §L1896, in the Qing Empire§!"
 
  #李家鈺
  SZC_li_jiayu:0 "Li Jiayu"
@@ -2501,6 +2511,7 @@ sichuan.11.a: "[SZC_join_faction_accepted]"
 
  #唐君毅
  SZC_tang_chun_i: "Tang Chun-i"
+ SZC_tang_chun_i_advisor_desc:9 "§YBorn:§! §LJanuary 17th, 1909, in the Qing Empire§!"
 
  #任鸿隽
  SZC_ren_hongjun:0 "Ren Hongjun"
@@ -2508,21 +2519,28 @@ sichuan.11.a: "[SZC_join_faction_accepted]"
 
  #羅澤洲
  SZC_luo_zezhou:0 "Luo Zezhou"
+ SZC_luo_zezhou_army_chief_desc:9 "§YBorn:§! §L1891, in the Qing Empire§!"
 
  #趙渭濱
  SZC_zhao_weibin:0 "Zhao Weibin"
+ SZC_zhao_weibin_army_chief_desc:9 "§YBorn:§! §L1894, in the Qing Empire§!"
 
  #許國璋
  SZC_xu_guozhang:0 "Xu Guozhang"
+ SZC_xu_guozhang_high_command_desc:9 "§YBorn:§! §LNovember 25th, 1915, in the Qing Empire§!"
 
  #王銘章
  SZC_wang_mingzhang:0 "Wang Mingzhang"
+ SZC_wang_mingzhang_high_command_desc:9 "§YBorn:§! §LJuly 4th, 1893, in the Qing Empire§!"
 
  #鄭少愚
  SZC_zheng_shaoyu:0 "Zheng Shaoyu"
+ SZC_zheng_shaoyu_air_chief_desc:9 "§YBorn:§! §LOctober 9th, 1911, in the Qing Empire§!"
 
  #樂以琴
  SZC_yue_yiqin:0 "Yue Yiqin"
+ SZC_yue_yiqin_air_chief_desc:9 "§YBorn:§! §LNovember 11th, 1914, in the Qing Empire§!"
 
  #杨庶堪
  SZC_yang_shukan:0 "Yang Shukan"
+ SZC_yang_shukan_advisor_desc:9 "§YBorn:§! §LDecember 9th, 1881, in the Qing Empire§!"

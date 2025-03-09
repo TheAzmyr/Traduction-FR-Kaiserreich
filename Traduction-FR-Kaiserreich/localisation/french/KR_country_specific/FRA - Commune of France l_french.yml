@@ -1,5 +1,8 @@
 ﻿l_french:
 
+### Factions ###
+ third_internationale:0 "Troisième Internationale"
+
 ### Tooltips ###
  FRA_ongoing_phalanstere_development: "§YAide au développement d'un autre pays§!"
  CSA_redeagles_tt: "De nouveaux aviateurs volontaires et de nouveaux avions arriveront."
@@ -243,6 +246,9 @@ FRA_socialist_education: "Éducation socialiste"
  FRA_develop_the_rhone_valley:9 "Développer la Vallée du Rhône"
  FRA_develop_the_rhone_valley_desc:9 "Le Rhône, artère vitale du Sud-Est, coincé entre le Massif central et les Alpes, est historiquement capricieux. Artère commerciale entre le Nord et le Sud, il est aussi notoirement sujet aux inondations, ce qui entrave gravement le développement de ses rives. C'était bien sûr avant que l'homme ne dompte la nature grâce au travail et à la technologie, et nous pouvons maintenant canaliser l'humeur du fleuve au profit de notre développement industriel."
 
+ FRA_exploit_the_massif_central:9 "Exploiter le Massif Central"
+ FRA_exploit_the_massif_central_desc:9 "Le développement économique et infrastructurel des régions des Alpes et du Massif central permet une plus grande exploitation des ressources minérales qui y sont disponibles. Nos prospecteurs ont découvert de nouveaux gisements et nous sommes maintenant prêts à les exploiter à l'échelle industrielle !"
+
  FRA_voice_of_the_people:9 "Voix du Peuple"
  FRA_voice_of_the_people_desc:9 "La France, cœur battant de la Révolution, doit pouvoir atteindre les travailleurs du monde entier, en particulier ceux qui souffrent encore des chaînes du Capital. De Paris au Monde, nous émettrons des programmes radiophoniques dans toutes les langues majeures et ferons savoir à nos camarades qu'ils ne sont pas seuls. Il ne peut s'agir d'une simple émission de propagande : nous veillerons à ce que les informations et les messages socialistes soient accompagnés d'une éducation plus large, d'un divertissement et d'une bonne musique."
 
@@ -296,9 +302,6 @@ FRA_socialist_education: "Éducation socialiste"
 
  FRA_expand_the_textile_industry:0 "Développer l'Industrie Textile"
  FRA_expand_the_textile_industry_desc:9 "Depuis les premiers jours de la révolution industrielle, l'industrie textile a toujours été à la pointe du progrès économique. Aujourd'hui, les fibres synthétiques, les nouvelles machines et les nouvelles techniques ont rendu possible la production de masse, à moindre intensité de main-d'œuvre, de textiles et de vêtements. Paris est déjà la capitale de la mode, bientôt nous serons aussi la patrie du textile durable et abordable : nos travailleurs seront mieux habillés que toutes les dames de Berlin."
-
- FRA_exploit_the_massif_central:9 "Exploiter le Massif Central"
- FRA_exploit_the_massif_central_desc:9 "Le développement économique et infrastructurel des régions des Alpes et du Massif central permet une plus grande exploitation des ressources minérales qui y sont disponibles. Nos prospecteurs ont découvert de nouveaux gisements et nous sommes maintenant prêts à les exploiter à l'échelle industrielle !"
 
 FRA_road_to_war: "Le chemin de la guerre"
  FRA_road_to_war_desc:9 "La Guerre avec l'Allemagne est inévitable, non seulement elle retient en otage nos frères d'Alsace et de Lorraine, mais avec ses nombreuses marionnettes du Reichspakt, elle se présente comme la principale puissance contre-révolutionnaire d'Europe, voire du monde, tyrannisant des centaines de millions d'individus. Cela doit cesser, nous les vengerons tous et nous libérerons nos camarades. La Guerre Mondiale ne devait pas être la dernière, la Guerre Révolutionnaire devra suivre."
@@ -574,6 +577,7 @@ FRA_working_women_desc: "Pendant le Congrès, Helen Crawfurd est montée sur sc�
 FRA_KR_gathering_storm_desc: "La Troisième République se termina comme elle avait commencé: vaincue par les armes allemandes et affrontant la Révolution chez elle. En 1919, une grève générale fut convoquée par la CGT, provoquant la chute du gouvernement bourgeois. Depuis 15 ans, la nouvelle «Commune de France» s'unit derrière une plate-forme commune de consensus syndico-socialiste, dirigée par le Comité de Salut Public. Cependant, d'ici à 1936, la nécessité de reconstruire le pays et de défendre la révolution est considérée comme dépassée par de nombreux critiques et l'on demande de plus en plus des politiques plus radicales. La France est confiante dans sa mission, mais on ne sait pas quels courants révolutionnaires deviendront dominants dans les années à venir..."
 
 ### Intro Screen ###
+ FRA_country_intro_background:9 "GFX_FRA_intro"
  FRA_country_intro_header:0 "La Commune de France"
  FRA_country_intro_content:9 "La Troisième République s'est terminée comme elle avait commencé : vaincue par les armes allemandes et confrontée à une révolution communiste à l'intérieur du pays. En novembre 1919, une Grève générale révolutionnaire fut déclenchée par la CGT, paralysant le pays et provoquant la chute du gouvernement bourgeois. Le 'Parti de l'Ordre' ne fut pas assez fort pour mettre fin à l'agitation et, dans les mois qui suivirent, les dirigeants français furent chassés de France par une coalition de forces de gauche au cours d'une guerre civile brève mais brutale.\n\nAu cours des quinze dernières années, la 'Commune de France' autoproclamée s'est unie derrière une plate-forme commune de consensus syndicaliste-socialiste, dirigée par le Comité de Salut Public au pouvoir. Cependant, en 1936, le consensus atteint pour reconstruire le pays brisé et défendre les fruits de la révolution contre les menaces étrangères est considéré comme de plus en plus dépassé par de nombreux critiques, et les appels à des politiques plus radicales se font de plus en plus pressants. La France est de plus en plus confiante dans sa sécurité et dans sa mission, mais la tradition révolutionnaire française est disparate, et l'on ne sait pas exactement quels courants idéologiques deviendront dominants dans les années à venir..."
 
@@ -1216,35 +1220,44 @@ FRA_radical_socialist_DEF: "la Commune de France"
 
 ### Characters ###
  FRA_marcel_deat: "Marcel Déat"
- FRA_marcel_deat_leader_desc:9 "§Ynaissance:§! §L7 mars 1894, Guérigny, Nièvre, République Française§!\n§Yhistoire:§! §LMarcel Déat a bouleversé le système politique communard. Révisionniste qui a souvent affiché son mépris pour le syndicalisme, Déat s'oppose à une grande partie de l'establishment politique français. Ses nombreux ennemis, tant à l'intérieur qu'à l'extérieur de la France, pourraient conduire à sa chute, et peut-être aussi à celle de la Commune.§!"
+ FRA_marcel_deat_leader_desc:9 "§YNaissance :§! §L7 mars 1894, à Guérigny, Nièvre, République française§!\n§YCarrière :§! §LMarcel Déat a bouleversé le système politique communard. Révisionniste ayant souvent affiché son mépris pour le syndicalisme, Déat s'oppose à une grande partie de l'establishment politique français. Ses nombreux ennemis, tant à l'intérieur qu'à l'extérieur de la France, pourraient conduire à sa chute, et peut-être aussi à celle de la Commune.§!"
+ FRA_marcel_deat_sic_desc:9 "§YBorn:§! §LMarch 7th, 1894, in Guérigny, Nièvre, French Republic§!"
 
  FRA_adrien_marquet: "Adrien Marquet"
- FRA_adrien_marquet_leader_desc:9 "§YNaissance:§! §L6 octobre 1884, à Bordeaux, Gironde, République Française§!\n§YHistoire:§! §LJacobin de la première heure, Adrien Marquet n'a eu de cesse de promouvoir et de mettre en valeur la "Révolution constructive" de Déat en dirigeant la Commune de Bordeaux. Les Jacobins ayant obtenu la majorité au sein de la BGT, Marquet a été désigné pour mettre à profit son expérience de dirigeant afin de mettre fin au chaos anarchique.§!"
+ FRA_adrien_marquet_leader_desc:9 "§YNaissance :§! §L6 octobre 1884, à Bordeaux, Gironde, République française§!\n§YHistoire :§! §LJacobin de la première heure, Adrien Marquet n'a eu de cesse de promouvoir et de mettre en valeur la "Révolution constructive" de Déat en dirigeant la Commune de Bordeaux. Les Jacobins ayant obtenu la majorité au sein de la BGT, Marquet a été désigné pour mettre à profit son expérience de dirigeant afin de mettre fin au chaos anarchique.§!"
+ FRA_adrien_marquet_sic_desc:9 "§YBorn:§! §LOctober 6th, 1884, in Bordeaux, Gironde, French Republic§!"
 
  FRA_georges_valois: "Georges Valois"
- FRA_georges_valois_leader_desc:9 "§YNaissance:§! §L7 octobre 1878, Paris, Seine, République Française§!\n§YHistoire:§! §LGeorges Valois, adepte des enseignements nationaux-syndicalistes de Georges Sorel, est devenu président de la Bourse Générale du Travail. Valois prône l'unification des présidences de la Bourse Générale du Travail et du Comité de Salut Public, ce qui, aux yeux de nombreux communards, est un signe précurseur de tyrannie.§!"
+ FRA_georges_valois_leader_desc:9 "§YNaissance :§! §L7 octobre 1878, à Paris, Seine, République française§!\n§YHistoire :§! §LGeorges Valois, adepte des enseignements nationaux-syndicalistes de Georges Sorel, est devenu président de la Bourse Générale du Travail. Valois prône l'unification des présidences de la Bourse Générale du Travail et du Comité de Salut Public, ce qui, aux yeux de nombreux communards, est un signe précurseur de tyrannie.§!"
 
  FRA_marcel_cachin: "Marcel Cachin"
  FRA_marcel_cachin_leader_desc:9 "§YNaissance :§! §L20 septembre 1869, à Paimpol, Côtes-du-Nord, Empire français§!\n§YCarrière :§! §LMarcel Cachin, ancien diplomate et chef du bureau du journal d'État, l'Humanité, est devenu président de la Commune de France. Bien que léniniste, son attitude diplomatique et son charisme général lui permettent de garder un certain degré de cordialité avec les syndicalistes et les anarchistes.§!"
+ FRA_marcel_cachin_advisor_desc:9 "§YBorn:§! §LSeptember 20th, 1869, in Paimpol, Côtes-du-Nord, French Empire§!"
 
  FRA_leon_jouhaux: "Léon Jouhaux"
  FRA_leon_jouhaux_leader_desc:9 "§YNaissance :§! §L1er juillet 1879, à Paris, Seine, République française§!\n§YCarrière :§! §LLéon Jouhaux a été élu Président de la Bourse Générale du Travail. Jouhaux, en tant que syndicaliste révolutionnaire, a participé à la grève générale de 1919 qui a précipité l'établissement de la Commune. Il est un adhérent du syndicalisme orthodoxe français, un véritable centriste au sein des factions de la Commune.§!"
 
  FRA_vincent_auriol: "Vincent Auriol"
  FRA_vincent_auriol_leader_desc:9 "§YNaissance :§! §L27 août 1884, à Revel, Haute-Garonne, République française§!\n§YCarrière :§! §LVincent Auriol, longtemps accusé par les syndicalistes radicaux de sympathie à l'égard de la bourgeoisie, est devenu président de la Bourse Générale du Travail. Il plaide pour la transition graduelle vers un système plus démocratique de gouvernement dans la Commune.§!"
+ FRA_vincent_auriol_advisor_desc:9 "§YBorn:§! §LAugust 27th, 1884, in Revel, Haute-Garonne, French Republic§!"
 
  FRA_jacques_doriot: "Jacques Doriot"
  FRA_jacques_doriot_leader_desc:9 "§YNaissance :§! §L26 septembre 1898, à Bresles, Oise, République française§!\n§YCarrière :§! §LJacques Doriot, vétéran de la Grande Guerre, est rentré de sa captivité en Allemagne pour trouver la France changée à jamais. Sa transformation personnelle de socialiste modéré à Léniniste, puis désormais national-syndicaliste, a instillé en lui une propension enracinée au compromis.§!"
+ FRA_jacques_doriot_advisor_desc:9 "§YBorn:§! §LSeptember 26th, 1898, in Bresles, Oise, French Republic§!"
 
  FRA_benoit_frachon: "Benoît Frachon"
  FRA_benoit_frachon_leader_desc:9 "§YNaissance :§! §L13 mai 1893, au Chambon-Feugerolles, Loire, République française§!\n§YCarrière :§! §LBenoît Frachon, vétéran de la Guerre civile française, est devenu président de la Bourse Générale du Travail. Bien qu'il soit syndicaliste, il est sympathique envers la faction anarchiste ; à cette fin, il a déclaré que réparer le factionnalisme de la Commune serait le but principal de son mandat.§!"
+ FRA_benoit_frachon_advisor_desc:9 "§YBorn:§! §LMay 13th, 1893, in Le Chambon-Feugerolles, Loire, French Republic§!"
 
  FRA_pierre_monatte:0 "Pierre Monatte"
  FRA_pierre_monatte_leader_desc:9 "§YNaissance :§! §L15 janvier 1881, à Monlet, Haute-Loire, République française§!\n§YCarrière :§! §LOuvrier. Militant. Révolutionnaire. Pierre Monatte a eu une influence immense sur notre nation, nous menant avec confiance pendant plus d'une décennie. Né le 15 janvier 1881, il était un syndicaliste célèbre avant la Grande Guerre et a été plusieurs fois arrêté injustement pour des 'crimes' syndicalistes contre le grand Capital, comme sa participation à des manifestations légitimes à la suite de la catastrophe minière de Courrières. Ayant rapidement monté en grade dans les rangs de la Confédération Générale du Travail, il fut même été brièvement exilé par la répression républicaine du mouvement. Lorsque la Guerre éclata, il fut l'un des rares à oser dire non à la collaboration avec le gouvernement bourgeois, peu avant d'être envoyé au front. Cette prescience et sa réputation de révolutionnaire loyal et infatigable ont fait que, le moment venu, Monatte a joué un rôle essentiel dans le renversement de l'ordre ancien et s'est trouvé en excellente position pour diriger le nouveau cours prolétarien de notre nation.\n\nDevenu un des principaux organisateurs des 'Orthodoxes', et certainement leur membre le plus influent, sa direction à mené l'union des 'Centristes' et des 'Ultras', auparavant rivaux, à la victoire lors des élections de 1926, remportant la Présidence. Maître dans l'art de la politique, Monatte a réussi à se maintenir au pouvoir grâce à une coalition fragile avec les Anarchistes, jonglant entre leurs demandes et celles des autres factions si importantes au parlement. Pourtant, l'homme au sommet sera toujours une cible, et dire que le poste qu'il occupe est convoité serait un euphémisme. Alors que les couteaux s'aiguisent dans tous les coins sombres, combien de temps la lumière pourra-t-elle les tenir à distance ?§!"
+ FRA_pierre_monatte_advisor_desc:9 "§YBorn:§! §LJanuary 15th, 1881, in Monlet, Haute-Loire, French Republic§!"
 
  FRA_conseil_de_defense_federal: "Conseil de Défense Fédéral"
-
- FRA_pierre_jules_cot: "Pierre Jules Cot"
+ FRA_conseil_de_defense_federal_leader_desc:9 "§YFounded:§! §LFebruary 1936, in the Palace of the People, Paris, Paris Commune, Federation of the Communes of France§!"
+ FRA_conseil_de_defense_federal_41_leader_desc:9 "§YFounded:§! §LFebruary 1941, in the Palace of the People, Paris, Paris Commune, Federation of the Communes of France§!"
+ FRA_conseil_de_defense_federal_46_leader_desc:9 "§YFounded:§! §LFebruary 1946, in the Palace of the People, Paris, Paris Commune, Federation of the Communes of France§!"
+ FRA_conseil_de_defense_federal_51_leader_desc:9 "§YFounded:§! §LFebruary 1951, in the Palace of the People, Paris, Paris Commune, Federation of the Communes of France§!"
 
  FRA_maurice_gamelin: "Maurice Gamelin"
  FRA_maurice_gamelin_leader_desc:9 "§YNaissance :§! §L20 septembre 1872, à Paris, Seine, République française§!\n§YCarrière :§! §LLe Général Maurice Gamelin a renversé le régime jacobin de Marcel Déat. Bien que son coup d'État soit un affront évident envers le processus démocratique communard déjà douteux, beaucoup regardent désormais Gamelin comme le sauveur de la Commune, et même du syndicalisme.§!"
@@ -1260,6 +1273,7 @@ FRA_radical_socialist_DEF: "la Commune de France"
  FRA_charles_delestraint_army_chief_desc:9 "§YNaissance :§! §L12 mars 1879, à Biache-Saint-Vaast, Pas-de-Calais, République française§!"
 
  FRA_marie_pierre_koenig: "Marie-Pierre Koenig"
+ FRA_marie_pierre_koenig_leader_desc:0 "§YNaissance :§! §L10 octobre 1898, à Caen, Calvados, République française§!"
  FRA_marie_pierre_koenig_army_chief_desc:9 "§YNaissance :§! §L10 octobre 1898, à Caen, Calvados, République française§!"
 
  FRA_ernest_petit: "Ernest Petit"
@@ -1272,7 +1286,7 @@ FRA_radical_socialist_DEF: "la Commune de France"
  FRA_rene_olry_high_command_desc:9 "§YNaissance :§! §L28 juin 1880, à Lille, Nord, République française§!"
 
  FRA_diego_brosset: "Diego Brosset"
- FRA_diego_brosset_commander_desc:9 "§YNaissance :§! §L3 octobre 1898, à Buenos Aires, République argentine§!"
+ FRA_diego_brosset_commander_desc:9 "§YNaissance :§! §L3 octobre 1898, à Buenos Aires, province de Buenos Aires, République argentine§!"
 
  FRA_jean_edouard_verneau: "Jean-Édouard Verneau"
  FRA_jean_edouard_verneau_commander_desc:9 "§YNaissance :§! §L29 août 1890, à Vignot, Meuse, République française§!"
@@ -1335,7 +1349,7 @@ FRA_radical_socialist_DEF: "la Commune de France"
  FRA_gabriel_auphan_admiral_desc:9 "§YNaissance :§! §L4 novembre 1894, à Alès, Gard, République française§!"
 
  FRA_philippe_auboyneau: "Philippe Auboyneau"
- FRA_philippe_auboyneau_high_command_desc:9 "§YNaissance:§! §L9 novembre 1899, à Constantinople, Empire Ottoman§!"
+ FRA_philippe_auboyneau_high_command_desc:9 "§YNaissance :§! §L9 novembre 1899, à Constantinople, vilayet de Konstantiniyye, Empire ottoman§!"
 
  FRA_marcel_gensoul: "Marcel Gensoul"
  FRA_marcel_gensoul_high_command_desc:9 "§YNaissance:§! §L12 octobre 1880, à Montpellier, Hérault, République française§!"
@@ -1347,29 +1361,53 @@ FRA_radical_socialist_DEF: "la Commune de France"
  FRA_edouard_peisson_theorist_desc:9 "§YNaissance:§! §L7 mars 1896, à Marseille, Bouches-du-Rhône, République Française§!"
 
  FRA_irene_and_frederic_joliot_curie: "Irène & Frédéric Joliot-Curie"
+ FRA_irene_and_frederic_joliot_curie_theorist_desc:9 "§YBorn:§! §LSeptember 12th, 1897, in Paris, Seine, French Republic§!\n§YBorn:§! §LMarch 19th, 1900, in Paris, Seine, French Republic§!"
  FRA_robert_esnault_pelterie: "Robert Esnault-Pelterie"
+ FRA_robert_esnault_pelterie_theorist_desc:9 "§YBorn:§! §LNovember 8th, 1881, in Paris, Seine, French Republic§!"
 
  FRA_joseph_vuillemin:0 "Joseph Vuillemin"
+ FRA_joseph_vuillemin_air_chief_desc:9 "§YBorn:§! §LMarch 14th, 1883, in Bordeaux, Gironde, French Republic§!"
  FRA_martial_henri_valin: "Martial Henri Valin"
+ FRA_martial_henri_valin_air_chief_desc:9 "§YBorn:§! §LMay 14th, 1898, in Limoges, Haute-Vienne, French Republic§!"
  FRA_maryse_bastie:0 "Maryse Bastié"
+ FRA_maryse_bastie_high_command_desc:9 "§YBorn:§! §LFebruary 27th, 1898, in Limoges, Haute-Vienne, French Republic§!"
  FRA_victor_leon_ernest_denain: "Victor Léon Ernest Denain"
+ FRA_victor_leon_ernest_denain_high_command_desc:9 "§YBorn:§! §LNovember 6th, 1880, in Dax, Landes, French Republic§!"
  FRA_jean_francois_jannekeyn: "Jean-François Jannekeyn"
+ FRA_jean_francois_jannekeyn_high_command_desc:9 "§YBorn:§! §LNovember 16th, 1892, in Cambrai, Nord, French Republic§!"
  FRA_alfred_heurtaux: "Alfred Heurtaux"
+ FRA_alfred_heurtaux_high_command_desc:9 "§YBorn:§! §LMay 20th, 1893, in Nantes, Loire-Inférieure, French Republic§!"
  FRA_georges_guynemer: "Georges Guynemer"
+ FRA_georges_guynemer_high_command_desc:9 "§YBorn:§! §LDecember 24th, 1894, in Paris, Seine, French Republic§!"
 
+ FRA_pierre_jules_cot: "Pierre Jules Cot"
+ FRA_pierre_jules_cot_advisor_desc:9 "§YBorn:§! §LNovember 20th, 1895, in Grenoble, Isère, French Republic§!"
  FRA_leon_blum:0 "Léon Blum"
+ FRA_leon_blum_advisor_desc:9 "§YBorn:§! §LApril 9th, 1872, in Paris, Seine, French Republic§!"
  FRA_daniel_guerin:0 "Daniel Guérin"
+ FRA_daniel_guerin_advisor_desc:9 "§YBorn:§! §LMay 19th, 1904, in Paris, Seine, French Republic§!"
  FRA_maurice_thorez:0 "Maurice Thorez"
+ FRA_maurice_thorez_advisor_desc:9 "§YBorn:§! §LApril 28th, 1900, in Noyelles-Godault, Pas-de-Calais, French Republic§!"
  FRA_charles_rappoport:0 "Charles Rappoport"
+ FRA_charles_rappoport_advisor_desc:9 "§YBorn:§! §LJune 14th, 1865, in Dūkštas, Kovno Governorate, Russian Empire§!"
  FRA_henri_barbe: "Henri Barbé"
+ FRA_henri_barbe_advisor_desc:9 "§YBorn:§! §LMarch 14th, 1902, in Paris, Seine, French Republic§!"
  FRA_gabriel_lafaye: "Gabriel Lafaye"
- FRA_joseph_paul_boncour:0 "Joseph Paul Boncour"
+ FRA_gabriel_lafaye_advisor_desc:9 "§YBorn:§! §LOctober 4th, 1888, in Eauze, Gers, French Republic§!"
+ FRA_joseph_paul_boncour:9 "Joseph Paul-Boncour"
+ FRA_joseph_paul_boncour_advisor_desc:9 "§YBorn:§! §LAugust 4th, 1873, in Saint-Aignan, Loir-et-Cher, French Republic§!"
  FRA_jacques_duclos: "Jacques Duclos"
+ FRA_jacques_duclos_advisor_desc:9 "§YBorn:§! §LOctober 2nd, 1896, in Louey, Hautes-Pyrénées, French Republic§!"
  FRA_jean_zyromski: "Jean Zyromski"
+ FRA_jean_zyromski_advisor_desc:9 "§YBorn:§! §LApril 20th, 1890, in Nevers, Nièvre, French Republic§!"
+
  FRA_jacques_sadoul: "Jacques Sadoul"
+ FRA_jacques_sadoul_advisor_desc:9 "§YBorn:§! §LMay 22nd, 1881, in Paris, Seine, French Republic§!"
  FRA_suzanne_girault: "Suzanne Girault"
+ FRA_suzanne_girault_advisor_desc:9 "§YBorn:§! §LJuly 28th, 1882, in La Chaux-de-Fonds, Neuchâtel, Swiss Confederation§!"
 
  FRA_confederation_general_du_travail: "Confédération Générale du Travail"
+ FRA_confederation_general_du_travail_sic_desc:9 "§YFondation :§! §L23 septembre 1895, à Limoges, Haute-Vienne, République française§!"
 
  FRA_odette_sansom: "Odette Sansom"
  FRA_richard_sorge: "Richard Sorge"

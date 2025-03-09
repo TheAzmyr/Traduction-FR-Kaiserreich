@@ -13,6 +13,7 @@
  tooltip_immediate_effect_upon_focus_start: "§YEffet immédiat dès le lancement de la priorité:§!\n"
  tooltip_effect_upon_focus_completion: "\n§GEffet lors de l'achèvement de la priorité:§!\n"
  after_idea_expires: "Après l'expiration de l'esprit national :"
+ after_mission_completes:9 "Une fois la mission terminée :"
 
  unlock_focuses:9 "§GCette priorité sera éventuellement contournée automatiquement et déverrouillera les autres priorités.§!"
  tooltip_focus_unlocked_by_event:9 "§GCette priorité sera automatiquement déverrouillée via l'événement.§!"
@@ -105,12 +106,14 @@
  tooltip_add_tech_detailed:9 "Ajoute la technologie : $NAME|Y$ ($TECH|Y$)."
  tooltip_enable_hidden_tech:9 "Active $TECH|Y$\n$EFFECT$"
 
- tooltip_add_dynmod:9 "Ajoute $DYNMOD|Y$ ce qui confère :"
+ tooltip_add_dynmod:9 "Ajoute $DYNMOD|Y$, ce qui confère :"
 
  tooltip_modify_dynmod:9 "Modifie $DYNMOD|Y$ par"
  tooltip_modify_two_dynmods:9 "Modifie $DYNMOD1|Y$ ou $DYNMOD2|Y$ par"
  tooltip_modify_three_dynmods:9 "Modifie $DYNMOD1|Y$, $DYNMOD2|Y$ ou $DYNMOD3|Y$ par"
  tooltip_modify_four_dynmods:9 "Modifie $DYNMOD1|Y$, $DYNMOD2|Y$, $DYNMOD3|Y$ ou $DYNMOD4|Y$ par"
+
+ tooltip_replace_one_of_two_ideas:9 "Remplace $IDEA1|Y$ ou $IDEA2|Y$ par $IDEA3|Y$\nChangement effectif :"
 
  tooltip_spawn_units:9 "Créée $COUNT|Y$ divisions $TYPE|Y$.\n"
  tooltip_spawn_unit:9 "Crée une division de $TYPE|Y$.\n"
@@ -149,8 +152,12 @@ AI_OPTION: "Option d'IA seulement"
 
 ### Decision Names ###
  integrate_state: "Intégrer [From.GetName]"
+ integrate_country:0 "Intégrer [From.GetNameDef]"
  join_faction:0 "Rejoindre la faction [From.GetFactionName]"
+ invite_country:0 "Inviter [FROM.GetNameDef]"
  attack_country:0 " Attaquer [From.GetNameDef] "
+ invade_country:0 "Envahir [From.GetNameDef]"
+ liberate_country:0 "Libérer [FROM.GetNameDef]"
 
 ### Custom Modifier Tooltips ###
  cannot_enact_conscription_tt: "§RImpossible de renforcer les lois sur la conscription.§!"
@@ -221,7 +228,9 @@ AI_OPTION: "Option d'IA seulement"
 
 ### KR-added Modifiers ###
  offmap_military_factories_tooltip: "Usines militaires hors carte"
+ offmap_military_factories_change_tooltip:9 "$offmap_military_factories_tooltip$: $RIGHT|+=0$"
  offmap_civilian_factories_tooltip: "Usines civiles hors carte"
+ offmap_civilian_factories_change_tooltip:9 "$offmap_civilian_factories_tooltip$: $RIGHT|+=0$"
  offmap_dockyards_tooltip: "Chantiers navals hors carte"
  daily_popularity_drift: "Soutien quotidien au parti au pouvoir"
  daily_non_ruling_popularity_drift: "Soutien quotidien des partis non dirigeants"
@@ -485,6 +494,8 @@ AI_OPTION: "Option d'IA seulement"
 
  special_forces_attack_factor_tooltip: "$MODIFIER_SPECIAL_FORCES_ATTACK_FACTOR$: $RIGHT|+=%1$"
  special_forces_defence_factor_tooltip: "$MODIFIER_SPECIAL_FORCES_DEFENCE_FACTOR$: $RIGHT|+=%1$"
+
+ unit_assault_battalion_design_cost_factor_tooltip:9 "$blackshirt_assault_battalion$ Coût unitaire de conception : $RIGHT|-=%2$"
 
  recon_factor_tooltip: "$MODIFIER_RECON_FACTOR$: $RIGHT|+=%1$"
  recon_factor_while_entrenched_tooltip: "$MODIFIER_RECON_FACTOR_WHILE_ENTRENCHED$: $RIGHT|+=%1$"

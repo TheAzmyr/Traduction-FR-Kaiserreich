@@ -68,7 +68,7 @@
  PROGRAM_CAN_START:9 "Aucun projet actif\n§GCliquer§! pour en lancer un"
  PROGRAM_BASIC_RESEARCH:9 "Fournit $BREAKTHROUGH_PROGRESS$% de progrès de percée et un bonus de recherche de $TECHNOLOGY_BONUS|1%$ pour $SPECIALIZATION$. Gagne $EXP|2$ d'expérience par jour"
  PROGRAM_BASIC_RESEARCH_BREAKTHROUGH_DETAIL_TT:9 "Octroie $BREAKTHROUGH_PROGRESS|Y$§Y%§! de progrès de percée chaque jour pour chaque niveau de compétence $SPECIALIZATION|Y$.\n  Niveau de compétence $SKILL_LEVEL|Y$ : $BREAKTHROUGH_TOTAL|Y$§Y%§! de progrès de percée quotidien"
- PROGRAM_BASIC_RESEARCH_TECHNOLOGY_DETAIL_TT:9 "Octroie un bonus de recherche de $TECHNOLOGY_BONUS|1%Y$ pour chaque technologie $SPECIALIZATION|Y$ par niveau de compétence.\n  Niveau de compétence $SKILL_LEVEL|Y$ : bonus de recherche de$TECHNOLOGY_TOTAL|1%Y$"
+ PROGRAM_BASIC_RESEARCH_TECHNOLOGY_DETAIL_TT:9 "Octroie un bonus de recherche de $TECHNOLOGY_BONUS|1%Y$ pour chaque technologie $SPECIALIZATION|Y$ par niveau de compétence.\n  Niveau de compétence $SKILL_LEVEL|Y$ : bonus de recherche de $TECHNOLOGY_TOTAL|1%Y$"
  RESEARCH_BONUS_DIMINISHING_RETURN:9 "§RL'avantage en recherche supplémentaire dans la même spécialisation est réduit de $AMOUNT|1%Y$§!"
  PROGRAM_NO_SCIENTIST_ASSIGNED:9 "Assignez un scientifique pour lancer le projet"
  PROGRAM_SCIENTIST_QUIT:9 "Ne peut pas nommer de scientifique"
@@ -745,6 +745,10 @@
  sp_naval_proximity_fuze:9 "Fusée de proximité"
  sp_naval_proximity_fuze_desc:9 "Grâce aux innovations dans le domaine de la radio, il est possible de créer de nouvelles fusées capables d'exploser dès lors qu'elles se retrouvent à proximité de leur cible."
 
+ sp_naval_armoured_cruiser:9 "Croiseur blindé"
+ sp_naval_armoured_cruiser_desc:9 "Un croiseur blindé, ou Panzerschiff, est un petit vaisseau capital qui comble le vide entre le vénérable cuirassé et les croiseurs lourds de conception plus récente. Ils sont conçus pour avoir une longue portée et être capables de mener des actions indépendantes, en particulier des raids en surface. Ils sont communément, mais à tort, surnommés "cuirassés de poche" en raison de leur armement lourd malgré la taille de leur coque."
+ sp_naval_armoured_cruiser_free_design:9 "Croiseur blindé"
+
 #################################
   ## NAVAL PROTOTYPE REWARDS ###
 #################################
@@ -853,6 +857,12 @@
  sp_naval_proximity_fuzes_preference_a:9 "Ajustons les quantités"
  sp_naval_proximity_fuzes_preference_b:9 "Conservons les quantités"
 
+ sp_naval_armoured_cruiser_unique_reward_a:9 "Philosophie du croiseur blindé"
+ sp_naval_armoured_cruiser_unique_reward_a_desc:9 "En raison de la taille et des ressources limitées d'un petit vaisseau capital dont le poids se situe entre celui d'un cuirassé et celui d'un croiseur lourd, nous devons décider ce sur quoi nos croiseurs blindés doivent se concentrer. L'accent mis sur la vitesse permettra au navire de distancer les navires de guerre plus lourds et de poursuivre les navires plus légers, un peu comme un croiseur plus grand ou un croiseur de combat plus petit. En se concentrant sur l'attaque légère, on obtient un croiseur tueur capable de détruire les raiders ennemis et de dissuader les destroyers. Enfin, l'attaque lourde dissuadera les vaisseaux capitaux ennemis, les obligeant à se retirer ou à s'engager dans une attaque coûteuse."
+ sp_naval_armoured_cruiser_preference_a:9 "La rapidité assurera une plus grande flexibilité."
+ sp_naval_armoured_cruiser_preference_b:9 "L'attaque légère pour détruire les navires plus petits."
+ sp_naval_armoured_cruiser_preference_c:9 "L'attaque lourde : donnez-lui des canons de cuirassé !"
+
 #########################################
  ### NAVAL ADD_EQUIPMENT_BONUS ###
 ########################################
@@ -893,6 +903,9 @@
  sp_modern_carrier_eq_bonus_anti_torpedo:9 "Porte-avions moderne – Contrôle des dommages des torpilles amélioré"
  sp_mega_carrier_eq_bonus_weather:9 "Porte-avions en pykrete – Durabilité à la météo améliorée"
  sp_mega_carrier_eq_bonus_strength:9 "Porte-avions en pykrete – Construction accélérée"
+ sp_armoured_cruiser_eq_bonus_speed:9 "Croiseur blindé rapide"
+ sp_armoured_cruiser_eq_bonus_light_attack:9 "Grand croiseur blindé"
+ sp_armoured_cruiser_eq_bonus_heavy_attack:9 "Cuirassé de poche"
 
 #########################################
  ## GENERIC NAVAL PROTOTYPE REWARDS ###

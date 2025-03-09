@@ -135,7 +135,6 @@ PEACE_CONFERENCE_WHITE_PEACE: "Un §Yaccord de paix§! a été signé entre \n@$
  basic_ship_hull_submarine: "$ship_hull_submarine_2$"
  improved_ship_hull_submarine: "$ship_hull_submarine_3$"
  advanced_ship_hull_submarine: "$ship_hull_submarine_4$"
- panzerschiffe:9 "$ship_hull_cruiser_panzerschiff$ Coque"
 
  early_destroyer: "$destroyer_1$"
  basic_destroyer: "$destroyer_2$"
@@ -324,9 +323,6 @@ PEACE_CONFERENCE_WHITE_PEACE: "Un §Yaccord de paix§! a été signé entre \n@$
  MANPOWER_CURRENT_MOBILIZATION: "Effectifs totaux : $TOTAL|^2H$\n$PERC|2%H$ (mobilisation d'environ $MOB|+3%$ par jour) de la population des territoires nationaux recrutables ($ELIGIBLE|^H$)."
  DIVISION_IN_TEMPLATE_TRANSFER: "La division bascule du modèle $OLD|H$ au modèle $NEW|H$. Sa réorganisation sera terminée lorsque l'équipement de première nécessité aura été livré ; l'ancien équipement sera alors envoyé dans les réserves."
 
-### diplomacy_l_english
- puppet_opinion: "Fantoche"
-
 ### deployment_l_english
  group_armor_title: "Bataillons blindés"
  HAS_ARMIES_WITH_OLD_TEMPLATE: "§RImpossible de supprimer ce modèle car $AMOUNT|H$ divisions sont actuellement en train de passer à un nouveau modèle (en attente du matériel correspondant au nouveau modèle).§!"
@@ -360,7 +356,7 @@ PEACE_CONFERENCE_WHITE_PEACE: "Un §Yaccord de paix§! a été signé entre \n@$
  CAN_DEACTIVATE_AFTER: "Cette licence ne peut être annulée avant le $DATE|H$."
  CAN_CANCEL_ALL_AFTER: "Aucune licence ne peut être annulée avant le $DATE|H$."
  DR_LICENSE_ACCEPTANCE: "$THEM|UY$ est plus susceptible d'accepter les §Ydemandes de production sous licence§! de $US|Y$ : "
- DR_HAS_CORE_ON_ANY_STATE: "$COUNTRY|UY$ contrôle au moins un des États visés : "
+ DR_HAS_CORE_ON_ANY_STATE:9 "$COUNTRY|UY$ contrôle au moins un des États visés : "
  BORDER_WAR_POWER_RATIO: "Rapport de force en notre faveur : $VAL|2%H$"
  SEND_VOL_CONTROL_OF_HOME: "@$TAG$$WHO|UH$ a besoin de contrôler son théâtre d'opérations."
  alert_expeditionary_force_delayed: "Nous disposons de forces expéditionnaires sur ce théâtre d'opérations."
@@ -368,6 +364,15 @@ PEACE_CONFERENCE_WHITE_PEACE: "Un §Yaccord de paix§! a été signé entre \n@$
  DIPLOMACY_PEACE_PROPOSAL_NOT_WARSCORE_ENOUGH: "Le score de guerre doit être d'au moins $LIMIT|%0Y$ pour l'ennemi, or il est actuellement de $WARSCORE|%0Y$."
  DR_COMMUNIST_NOT_NEIGHBOUR: "$THEM|UY$ n'est pas limitrophe de la faction "
  free_license: "Licence gratuite"
+
+ puppet_opinion: "Fantoche"
+ small_decrease:9 "Dégradation de l'Opinion"
+ medium_decrease:9 "Dégradation de l'Opinion"
+ large_decrease:9 "Dégradation de l'Opinion"
+ small_increase:9 "Amélioration de l'Opinion"
+ medium_increase:9 "Amélioration de l'Opinion"
+ large_increase:9 "Amélioration de l'Opinion"
+ huge_increase:9 "Amélioration notable de l'opinion"
 
 ### effects_l_english
  EFFECT_CONTEXT_LEADER: "$LEADER|H$($FLAG$) "
@@ -553,6 +558,7 @@ PEACE_CONFERENCE_WHITE_PEACE: "Un §Yaccord de paix§! a été signé entre \n@$
 
 #missing in vanilla
  large_plane_airframe_design_cost_factor: "Coût de Conception des Cellules de Grande Taille"
+ small_plane_airframe_design_cost_factor:9 "Coût de conception d'une petite cellule"
 
  modifier_state_repair_speed_infrastructure_factor: "$modifier_repair_speed_infrastructure_factor$"
  modifier_state_repair_speed_industrial_complex_factor: "$modifier_repair_speed_industrial_complex_factor$"
