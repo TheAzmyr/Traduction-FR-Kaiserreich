@@ -118,38 +118,40 @@ KR_will_return_cores: "Tous les États côtiers ou contigus qui sont des états 
 party_popularity_delayed_tooltip: "La popularité du parti représente le contrôle de votre gouvernement actuel sur la nation et son soutien avec le peuple. Les partis politiques très populaires sont plus à même de faire avancer leur programme politique et de stabiliser la nation."
 
  party_popularity_tooltip: "§HPopularité de parti§![GetPopularityPPGain]"
- party_popularity_tooltip_long: "§H\n\nEffets de notre popularité de parti actuelle : §!\nGain Quotidien de Puissance Politique: [GetPopularityPPGainValue][GetHasCoalition][GetCoalitionTotalist][GetCoalitionSyndicalist][GetCoalitionRadicalSocialist][GetCoalitionSocialDemocrat][GetCoalitionSocialLiberal][GetCoalitionMarketLiberal][GetCoalitionSocialConservative][GetCoalitionAuthoritarianDemocrat][GetCoalitionPaternalAutocrat][GetCoalitionNationalPopulist]"
+ party_popularity_tooltip_long:9 "§H\n\nEffets de notre Popularité de parti actuelle :§!\n$MODIFIER_POLITICAL_POWER_GAIN$: [GetPopularityPPGainValue][GetHasCoalition][GetCoalitionTotalist][GetCoalitionSyndicalist][GetCoalitionRadicalSocialist][GetCoalitionSocialDemocrat][GetCoalitionSocialLiberal][GetCoalitionMarketLiberal][GetCoalitionSocialConservative][GetCoalitionAuthoritarianDemocrat][GetCoalitionPaternalAutocrat][GetCoalitionNationalPopulist]"
 
 party_popularity_dynamic_modifier: "£pol_idea Popularité du parti"
  party_popularity_dynamic_modifier_ideology_mapped: "Popularité du parti"
  party_popularity_dynamic_modifier_coalition: "Coalitions"
 
  party_popularity_value_default:9 "[?party_popularity@ruling_party|%0]"
- party_popularity_value_mapped:9 "[?party_popularity@var:political_power_ideology|%0]"
+ party_popularity_value_mapped:9 "[?party_popularity@var:temp|%0]"
 
  party_popularity_gain_value_default:9 "[?party_popularity@ruling_party|2=+]"
- party_popularity_gain_value_mapped:9 "[?party_popularity@var:political_power_ideology|2=+]"
+ party_popularity_gain_value_mapped:9 "[?party_popularity@var:temp|2=+]"
  party_popularity_gain_value_disabled:9 "[?0|2=+]"
 
- party_pop_coalition: "\n\n§HPartenaires de coalition :§!\n"
- party_pop_coalition_pp_gain:9 "[?coalition_pp_gain|=+2]"
+ party_pop_coalition:9 "\n\n§HEffets des Partenaires de Coalition :§!\n$MODIFIER_POLITICAL_POWER_GAIN$ : [?coalition_pp_gain|+=2]\n"
+ party_pop_coalition_pp_gain:9 "[?coalition_pp|+2]"
+ party_pop_coalition_stability:9 "[?coalition_stab|Y0%]"
 
- party_pop_coalition_totalist: "- [?token:totalist.GetTokenLocalizedKey] ([GetCoalitionPPGain_Totalist])\n"
- party_pop_coalition_syndicalist: "- [?token:syndicalist.GetTokenLocalizedKey]  ([GetCoalitionPPGain_Syndicalist])\n"
- party_pop_coalition_radical_socialist: "- [?token:radical_socialist.GetTokenLocalizedKey]  ([GetCoalitionPPGain_RadicalSocialist])\n"
- party_pop_coalition_social_democrat: "- [?token:social_democrat.GetTokenLocalizedKey] ([GetCoalitionPPGain_SocialDemocrat])\n"
- party_pop_coalition_social_liberal: "- [?token:social_liberal.GetTokenLocalizedKey] ([GetCoalitionPPGain_SocialLiberal])\n"
- party_pop_coalition_market_liberal: "- [?token:market_liberal.GetTokenLocalizedKey] ([GetCoalitionPPGain_MarketLiberal])\n"
- party_pop_coalition_social_conservative: "- [?token:social_conservative.GetTokenLocalizedKey] ([GetCoalitionPPGain_SocialConservative])\n"
- party_pop_coalition_authoritarian_democrat: "- [?token:authoritarian_democrat.GetTokenLocalizedKey] ([GetCoalitionPPGain_AuthoritarianDemocrat])\n"
- party_pop_coalition_paternal_autocrat: "- [?token:paternal_autocrat.GetTokenLocalizedKey] ([GetCoalitionPPGain_PaternalAutocrat])\n"
- party_pop_coalition_national_populist: "- [?token:national_populist.GetTokenLocalizedKey] ([GetCoalitionPPGain_NationalPopulist])\n"
+ party_pop_coalition_totalist:9 "- [?token:totalist.GetTokenLocalizedKey] ([GetCoalitionStability_Totalist] - [GetCoalitionPPGain_Totalist])\n"
+ party_pop_coalition_syndicalist:9 "- [?token:syndicalist.GetTokenLocalizedKey] ([GetCoalitionStability_Syndicalist] - [GetCoalitionPPGain_Syndicalist])\n"
+ party_pop_coalition_radical_socialist:9 "- [?token:radical_socialist.GetTokenLocalizedKey] ([GetCoalitionStability_RadicalSocialist] - [GetCoalitionPPGain_RadicalSocialist])\n"
+ party_pop_coalition_social_democrat:9 "- [?token:social_democrat.GetTokenLocalizedKey] ([GetCoalitionStability_SocialDemocrat] - [GetCoalitionPPGain_SocialDemocrat])\n"
+ party_pop_coalition_social_liberal:9 "- [?token:social_liberal.GetTokenLocalizedKey] ([GetCoalitionStability_SocialLiberal] - [GetCoalitionPPGain_SocialLiberal])\n"
+ party_pop_coalition_market_liberal:9 "- [?token:market_liberal.GetTokenLocalizedKey] ([GetCoalitionStability_MarketLiberal] - [GetCoalitionPPGain_MarketLiberal])\n"
+ party_pop_coalition_social_conservative:9 "- [?token:social_conservative.GetTokenLocalizedKey] ([GetCoalitionStability_SocialConservative] - [GetCoalitionPPGain_SocialConservative])\n"
+ party_pop_coalition_authoritarian_democrat:9 "- [?token:authoritarian_democrat.GetTokenLocalizedKey] ([GetCoalitionStability_AuthoritarianDemocrat] - [GetCoalitionPPGain_AuthoritarianDemocrat])\n"
+ party_pop_coalition_paternal_autocrat:9 "- [?token:paternal_autocrat.GetTokenLocalizedKey] ([GetCoalitionStability_PaternalAutocrat] - [GetCoalitionPPGain_PaternalAutocrat])\n"
+ party_pop_coalition_national_populist:9 "- [?token:national_populist.GetTokenLocalizedKey] ([GetCoalitionStability_NationalPopulist] - [GetCoalitionPPGain_NationalPopulist])\n"
 
  add_to_coalition: "Les §[GetCoalitionTooltipColour][?coalition_partner_var.GetTokenLocalizedKey]§! vont rejoindre la coalition."
  remove_from_coalition: "Le §[GetCoalitionTooltipColour][?coalition_partner_var.GetTokenLocalizedKey]s§! va quitter la coalition."
+ end_coalition_tt: "La §YCoalition§! va prendre fin."
 
- has_coalition_with_target: "Est en coalition avec le §H[?coalition_target.GetTokenLocalizedKey]§!."
- has_coalition_with_target_NOT: "N'est pas en coalition avec le §H[?coalition_target.GetTokenLocalizedKey]§!."
+ is_in_coalition_with:9 "Est en coalition avec les §H[?global.ideology_groups^$INDEX$.GetTokenLocalizedKey]§!."
+ is_in_coalition_with_NOT:9 "N'est pas en coalition avec les §H[?global.ideology_groups^$INDEX$.GetTokenLocalizedKey]§!."
 
  coalition_stability_tooltip: "Les partenaires de la coalition fourniront maintenant $RIGHT|G%0$ de leur popularité comme gain supplémentaire de §Hpouvoir politique§!."
 

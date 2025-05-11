@@ -7,10 +7,14 @@
  SIA_SiaCW_PatAut_threat: "Régime Allemand au Siam"
 
 ### Traits ###
- SIA_iron_marshal_trait: "Le Maréchal de Fer\n§gConnu pour son leadership charismatique et rusé depuis ses années d'entre-deux-guerres en Birmanie, il n'est pas surprenant que Phibun se retrouve au sommet de la hiérarchie. Son obsession pour le contrôle total des affaires de l'État et son attitude à l'égard de la monarchie lui ont valu un autre surnom : "Cao Cao/Caesar Siamois".§!"
- SIA_pho_khun_trait: "Le Despote Paternel\n§gInspiré par la notion de Pho Khun (autorité patriarcale) de l'époque de Sukhothai et par le règne despotique d'Ayuthaya, Sarit estimait que ce style de gouvernement correspondait le mieux à ses goûts politiques. Il se considérait comme le leader le plus à même de guider le pays dans sa phase "Patiwat" (révolutionnaire) contre les marées gauchistes montantes.§!"
- SIA_under_pho_khun_trait: "Proche Confident du Despote Paternel\n§gSa majesté le roi est maintenant proprement remonté sur le trône, imitant le style de règne despotique d'Ayuthaya du passé. Nous ne saurons jamais avec certitude si le roi lui-même est personnellement impliqué dans l'accession au pouvoir de Sarit Thanarat.§!"
- SIA_prancing_knight_trait: "Le Chevalier Galopant\n§gOn ne s'élève tout simplement pas au sommet sans tromperie et sans mensonge - Phao n'a ni l'un ni l'autre et est prêt à écraser toute opposition en utilisant à la fois la ruse et ses propres forces de police lourdement militarisées.§!"
+ SIA_iron_marshal_trait:0 "Le Maréchal de Fer"
+ SIA_iron_marshal_trait_desc:9 "§LConnu pour son leadership charismatique et rusé depuis ses années d'entre-deux-guerres en Birmanie, il n'est pas surprenant que Phibun se retrouve au sommet de la hiérarchie. Son obsession pour le contrôle total des affaires de l'État et son attitude à l'égard de la monarchie lui ont valu un autre surnom : "Le Cao Cao / César siamois".§!"
+ SIA_pho_khun_trait:9 "Le Despote Paternel"
+ SIA_pho_khun_trait_desc:9 "§LInspiré par la notion de Pho Khun (autorité patriarcale) de l'époque de Sukhothai et par le règne despotique d'Ayuthaya, Sarit a estimé que ce style de gouvernement correspondait le mieux à ses goûts politiques. Il se considère comme le leader le plus à même de guider le pays dans sa phase "Patiwat" (révolutionnaire) contre les marées gauchistes montantes.§!"
+ SIA_under_pho_khun_trait:9 "Proche Confident du Despote Paternel"
+ SIA_under_pho_khun_trait_desc:9 "§LSa majesté le roi est maintenant proprement remonté sur le trône, imitant le style de règne despotique d'Ayuthaya du passé. Nous ne saurons jamais avec certitude si le roi lui-même est personnellement impliqué dans l'accession au pouvoir de Sarit Thanarat.§!"
+ SIA_prancing_knight_trait:9 "Le Chevalier Galopant"
+ SIA_prancing_knight_trait_desc:9 "§LOn ne s'élève tout simplement pas au sommet sans tromperie et sans mensonge - Phao n'a ni l'un ni l'autre et est prêt à écraser toute opposition en utilisant à la fois la ruse et ses propres forces de police lourdement militarisées.§!"
 
  SIA_four_musketeers: "Les Mousquetaires"
  SIA_four_musketeers_desc: "§LCet officier est considéré comme l'un des membres de la colonne vertébrale de l'état-major général siamois moderne. Ces commandants des "Quatre Mousquetaires (+Plus Un)" exercent une influence considérable sur la nouvelle génération d'officiers et ont étudié les récents conflits de manière très détaillée.§!"
@@ -179,7 +183,7 @@
  SIA_PRAJADHIPOK_REFORM: "Les réformes démocratiques de Prajadipok sont un succès."
  SIA_not_finished: "§RCette branche n'est pas encore terminée, elle ne se débloquera jamais et peut être ignorée.§!\n"
  SIA_yuwachon_integration_tt: "Cela nous permettra de mobiliser les unités de cadets militaires en cas d'urgence.\n"
- SIA_relocate_capital_from_Bangkok_tt: "Cela va déplacer temporairement notre capital à Chiang Mai.\n"
+ SIA_relocate_capital_from_Bangkok_tt: "Cela va déplacer temporairement notre capitale à Chiang Mai.\n"
  SIA_relocate_capital_back_from_Chiang_Mai_tt: "Cela va déplacer notre capital vers Bangkok.\n"
  SIA_byebye_Bangkok: "A déplacé la capitale de Bangkok.\n"
  SIA_remove_title_tt: "Les §Ytitres royaux§! seront désormais abandonnés."
@@ -514,7 +518,7 @@ SIA_KR_gathering_storm_desc: "Initialement neutre pendant la Grande Guerre, le S
  siam.39.a: "La guerre doit continuer, il semble..."
 
 ## Phibunsongkhram's Ratthaniyom Reform, Assassination attempt and its aftermath ##
- siam.40.t: "Mettre en Œuvre les Réformes de Ratthaniyom"
+ siam.40.t: "Mettre en oeuvre les Réformes de Ratthaniyom"
  siam.40.d:9 "Les réformes Ratthaniyom, ou "État Populaire", ont été proposées par les nationalistes comme un moyen d'atteindre l'objectif ultime d'une nation forte en faveur du peuple thaïlandais. Cependant, cela peut entraîner des frictions indésirables avec les Malais, les Chinois, les Mons et les Cambodgiens vivant au sein de notre nation."
  siam.40.a: "Qui s'en soucie ? Mettez en œuvre les réformes."
  siam.40.b: "En y réfléchissant bien, c'est probablement une mauvaise idée."
@@ -651,9 +655,9 @@ SIA_KR_gathering_storm_desc: "Initialement neutre pendant la Grande Guerre, le S
  # Faction leader:
  siam.67.d.default: "Aujourd'hui, [SIA.GetSIAshortname] nous a envoyé une délégation diplomatique, demandant de négocier une reddition conditionnelle. Leurs troupes cesseront immédiatement les hostilités, ils cèderont des territoires clés et nous paieront une somme importante de réparations de guerre - tout ce qu'ils demandent en retour est que nous garantissions leur indépendance contre toute future agression étrangère."
  # Faction member, leader accepted peace:
- siam.67.d.faction_peace: "Il y a quelques jours, [SIA.GetSIAshortname] a envoyé une délégation diplomatique à notre faction, demandant de négocier une reddition conditionnelle. Bien que [ROOT.faction_leader.GetNameDef] ait choisi d'accepter l'offre de paix de [SIA.GetProperAdjective] qui comprend des réparations de guerre et la cessation immédiate des hostilités entre nos forces et le peuple [SIA.GetProperAdjective] lui-même - c'est maintenant à nous de décider si nous voulons continuer la guerre seuls ou non."
+ siam.67.d.faction_peace:9 "Il y a quelques jours, [SIA.GetSIAshortname] a envoyé une délégation diplomatique à notre faction, demandant de négocier une reddition conditionnelle. Bien que [ROOT.faction_leader.GetNameDef] ait choisi d'accepter l'offre de paix de [SIA.GetProperAdjective] qui comprend des réparations de guerre et la cessation immédiate des hostilités entre nos forces et le peuple [SIA.GetProperAdjective] lui-même - c'est maintenant à nous de décider si nous voulons continuer la guerre seuls ou non."
  # Faction member, leader refused peace:
- siam.67.d.faction_war: "Il y a quelques jours, [SIA.GetSIAshortname] a envoyé une délégation diplomatique de notre faction, demandant de négocier une reddition conditionnelle. Bien que [ROOT.faction_leader.GetNameDef] ait choisi d'ignorer l'offre de paix [SIA.GetProperAdjective]e qui comprend des réparations de guerre et la cessation immédiate des hostilités entre nos forces et le peuple [SIA.GetProperAdjective], c'est maintenant à nous de décider si nous souhaitons poursuivre cette guerre inutile ou non."
+ siam.67.d.faction_war:9 "Il y a quelques jours, [SIA.GetSIAshortname] a envoyé une délégation diplomatique de notre faction, demandant de négocier une reddition conditionnelle. Bien que [ROOT.faction_leader.GetNameDef] ait choisi d'ignorer l'offre de paix [SIA.GetProperAdjective]e qui comprend des réparations de guerre et la cessation immédiate des hostilités entre nos forces et le peuple [SIA.GetProperAdjective], c'est maintenant à nous de décider si nous souhaitons poursuivre cette guerre inutile ou non."
  siam.67.a: "Oui, mettons fin à cette guerre."
  siam.67.b: "Non, ils seront écrasés."
 

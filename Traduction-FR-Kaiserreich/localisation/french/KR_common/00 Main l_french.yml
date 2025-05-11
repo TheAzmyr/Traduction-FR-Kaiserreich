@@ -36,6 +36,8 @@
  country_intro_content_4:0 "$KR_scenario_desc$"
  country_intro_content_5:0 "$KR_scenario_desc$"
 
+ country_intro_page_indicator:9 "[GetCurrPageCountryIntro]/[GetPageCountCountryIntro]"
+
  guide:9 ""
  guide_1:9 ""
  guide_2:9 ""
@@ -46,12 +48,14 @@
  KR_welcome_splash_tab_2_header:0 "[ROOT.GetNameDefCap]"
  KR_welcome_splash_tab_2_content: "[GetCountryGuide]"
 
+ country_guide_page_indicator:9 "[GetCurrPageCountryGuide]/[GetPageCountCountryGuide]"
+
  ## TAB 3 ##
  KR_welcome_splash_tab_3_content: "§YVeuillez noter les points suivants :§!\n£white_dot \n£white_dot \n£white_dot \n\n£white_dot \n\n£white_dot \n\n£white_dot \n\n\n\n§YCette fenêtre§!  peut être rouverte à tout moment en cliquant sur l'icône du £help_button  en haut à droite. §YRapporter les Problèmes :§!\nCe mod est encore en développement, donc des bugs et des crashs sont possibles. Si vous rencontrez des problèmes, veuillez les signaler à notre §YGitHub issue tracker§! pour nous aider à les corriger rapidement. Un lien se trouve dans le menu pause."
  KR_welcome_splash_tab_3_content_0: "Kaiserreich impose des restrictions sur les actions diplomatiques telles que les §RGuerres Précoces§!, les §RFactions§! et les §RNiveaux d'Autonomie§!.\nKaiserreich inclut également des §CLimites de Division§! et un mécanisme de §CDémobilisation§! pour améliorer la jouabilité en fin de partie.\nPendant les §YConférences de Paix§!, assurez-vous d'annexer tous les États possibles. Plus tard, vous pourrez libérer les pays des territoires annexés grâce aux §Cdécisions§!.\nLe menu de configuration des §YRègles de Jeu Personnalisées§! vous permet d'ajuster de nombreuses options, notamment les §CChemins de Pays§!, la §CPrimauté du Joueur pendant les Conférences de Paix§! et l'outil de §CTransfert d'États et de Pays§!.\nLe £kr_options_icon §YMenu d'Options§! peut être ouvert en cliquant sur son icône en haut à droite. Il vous permet d'ajuster la §Cfréquence des événements§! et d'activer le §Crenommage dynamique§! des états et des points de victoire."
 
  ## TAB 4 ##
- KR_CURRENT_VERSION:9 "1.4.4"
+ KR_CURRENT_VERSION:9 "1.4.5"
  KR_CURRENT_VERSION_NAME:9 "Toutes les Russies"
  KR_CURRENT_VERSION_COMBINED: "Kaiserreich $KR_CURRENT_VERSION$ "$KR_CURRENT_VERSION_NAME$""
  KR_welcome_splash_tab_4_upper_header: "§YWelcome to $KR_CURRENT_VERSION_COMBINED$§!"
@@ -63,10 +67,10 @@
  KR_welcome_splash_tab_4_content_2: "Chiang Kai-shrek, Chiron29, ClawedAsh, Cody, Deliberus, DerEherneRächer, DuoDex, El Daddy, falling_robin, Fedex"
  KR_welcome_splash_tab_4_content_3: "Flamefang, Frill Shark, Gaboemi, Georgy, Gre, Hamfast, Hazo, Ido, Igor050301, JazzyHugh, Jeankedezeehond, jerv"
  KR_welcome_splash_tab_4_content_4:9 "Jonny BL, Kano, katieluka, kergely, KFateweaver, Klyntar King, Krčo, lehmannmo, Luwofe, Matoro, McOmghall"
- KR_welcome_splash_tab_4_content_5:9 "MrMano, ~mw~ // miwaco., Noot, Pelmen, PPsyrius, Purple Jinjo, Rnk, Tune, Sasha, Shiroe"
+ KR_welcome_splash_tab_4_content_5:9 "MrMano, ~mw~ // miwaco., Noot, Pelmen, PPsyrius, Purple Jinjo, Rnk, Sasha, Shiroe"
  KR_welcome_splash_tab_4_content_6: "Sonny O'Cad, SuperGreenBeans, suzuha, The Alpha Dog, The Irredentista, The Italian Jojo"
- KR_welcome_splash_tab_4_content_7: "Toaster, Vidyaország, VladimirLemon, Zimbabwe Salt Co."
- KR_welcome_splash_tab_4_content_8: "§YTraduit par : §!Ergovius, Hellh, IGgame, Mouchi, N3 et Romain1912. §YAnciennement traduit par : §!Aegon Targaryen"
+ KR_welcome_splash_tab_4_content_7:9 "Toaster, Vidyaország, VladimirLemon, Zimbabwe Salt Co."
+ KR_welcome_splash_tab_4_content_8:9 "§YTraduit par : §!Ergovius, Hellh, IGgame, Mouchi, N3 et Romain1912. §YAnciennement traduit par : §!Aegon Targaryen"
  KR_welcome_splash_tab_4_content_9: "Brakmar, Darkusios, Demetran, Diro, Fanois, Feuxin, Grikke, IluminatiX, Kfateweaver, Kira, Klik le Araï, Lazu, Le Marocain, LRP2580, MVMaroIV, Nobelo81, Orakle14, Paralux, Remkiller123, Rosak, RyumaTomoka, Sayu, Solal, Superwaffle, TheAzmyr, UltraNico, Vitulus, Youkoulélé et Zeplein"
 
 ### Career Profile ###
@@ -109,7 +113,7 @@
  social_liberal_plurality: "§l[?token:social_liberal.GetTokenLocalizedKey]§! a la plus haute popularité"
  market_liberal_plurality: "§m[?token:market_liberal.GetTokenLocalizedKey]§! a la plus haute popularité"
  social_conservative_plurality: "§c[?token:social_conservative.GetTokenLocalizedKey]§! a la plus haute popularité"
- authoritarian_democrat_plurality: "§g[?token:authoritarian_democrat.GetTokenLocalizedKey]§! a la plus haute popularité"
+ authoritarian_democrat_plurality:9 "§a[?token:authoritarian_democrat.GetTokenLocalizedKey]§! a la plus haute popularité"
  paternal_autocrat_plurality: "§P[?token:paternal_autocrat.GetTokenLocalizedKey]§! a la plus haute popularité"
  national_populist_plurality:9 "§n[?token:national_populist.GetTokenLocalizedKey]§! a la plus haute popularité"
 
@@ -166,6 +170,7 @@
  is_farsi_speaking_tag: "Est un pays parlant le farsi"
  is_malay_speaking_tag: "Est un pays de langue malaise"
  is_danubian_tag: "Est un pays danubien"
+ is_federal_austria:9 "Est une Autriche fédérale"
  is_balkan_tag: "Est un pays des balkans"
  is_belgian_tag: "Est un pays belge"
  is_uighur_tag: "Est un pays ouïghour"
@@ -662,7 +667,6 @@ cat_torpedo: "Technologie des torpilles"
 
 ### Hidden Techs ###
  tech_camel_corps:0 "Corps des chameaux"
- tech_camel_corps_terrain_effect:9 "  §Y$desert$§!:\n    $STAT_ADJUSTER_MOVEMENT$[?0.03|=+1%]\n    $STAT_ADJUSTER_ATTACK$[?0.15|=+1%]\n    $STAT_ADJUSTER_DEFENCE$[?0.05|=+1%]"
 
 tech_ski_infantry: "Infanterie à ski"
  tech_ski_infantry_terrain_effect:9 "  §Y$hills$§!:\n    $STAT_ADJUSTER_MOVEMENT$[?0.05|=+1%]\n    $STAT_ADJUSTER_ATTACK$[?0.05|=+1%]\n    $STAT_ADJUSTER_DEFENCE$[?0.05|=+1%]\n  §Y$mountain$§!:\n    $STAT_ADJUSTER_MOVEMENT$[?0.1|=+1%]\n    $STAT_ADJUSTER_ATTACK$[?0.05|=+1%]\n    $STAT_ADJUSTER_DEFENCE$[?0.05|=+1%]"
@@ -772,12 +776,13 @@ tech_integrated_specialists: "Forces spéciales intégrées"
  tank_improvised_turret: "Tourelle improvisée"
  tank_improvised_turret_desc: "Elle abrite le canon et peut tourner. Quand elle le veut bien."
 
- ### Debug Tag ###
- XXA: "Territoires intégrables"
- XXA_ADJ: "Intégrable"
- XXA_DEF: "les territoires intégrables"
+ ### System Tag ###
+ AAA:0 "Territoires intégrables"
+ AAA_ADJ:0 "Intégrable"
+ AAA_DEF:0 "les Territoires intégrables"
 
- XXA_on_annex_workaround:0 " "
- XXA_on_annex_workaround_ADJ:0 " "
- XXA_on_annex_workaround_DEF:0 " "
- XXA_placeholder:9 "Placeholder"
+ on_annex_workaround:0 " "
+ on_annex_workaround_ADJ:0 " "
+ on_annex_workaround_DEF:0 " "
+
+ system_placeholder_leader:0 "Placeholder"

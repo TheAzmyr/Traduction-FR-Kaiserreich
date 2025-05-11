@@ -76,17 +76,23 @@
  NEE_LL_Minnesota_Michigan_Route: "Réseau des Lacs : §CMinnesota - Michigan§!"
  NEE_LL_Michigan_Ohio_Route: "Réseau des Lacs : §CMichigan - Ohio§!"
  NEE_LL_Ohio_Albany_Route: "Réseau des Lacs : §COhio - Albany§!"
- NEE_LL_add_guns: "Le §YChemin de Fer Clandestin§! transportera §Y50§! £rifle_texticon et §Y120§! £GFX_population_texticon par poste de contrebande connecté non découvert sur cet itinéraire.\n§YMontant Total§! :\n£rifle_texticon dans ce §YGroupe§! : [?NEE.LL_gun_route]\n£GFX_population_texticon  dans ce §YGroupe§! : [?NEE.LL_people_route]\n\n"
+ NEE_LL_add_guns:9 "Le §YChemin de Fer Clandestin§! transportera §Y50§! £rifle_texticon et §Y120§! £GFX_population_texticon par poste de contrebande connecté non découvert sur cet itinéraire.\n§YMontant Total§! :\n£rifle_texticon dans ce §YGroupe§! : [?NEE.LL_gun_route]\n£GFX_population_texticon  dans ce §YGroupe§! : [?NEE_LL_people_army]\n\n"
+ NEE_LL_increase_guns:9 "Adds £rifle_texticon  $RIGHT|Y0$ to the §YLake Line§!."
+ NEE_LL_increase_population:9 "Adds £GFX_population_texticon  $RIGHT|Y0$ to the §YLake Line§!."
 
  NEE_CL_Mississippi_Kentucky_Route: "Réseau Central: §GMississippi - Kentucky§!"
  NEE_CL_Kentucky_Ohio_Route: "Réseau Central: §GKentucky - Ohio§!"
  NEE_CL_Ohio_Albany_Route: "Réseau Central: §GOhio - Albany§!"
- NEE_CL_add_guns: "Le §YChemin de Fer Clandestin§! transportera §Y30§! £rifle_texticon et §Y110§! £GFX_population_texticon par poste de contrebande connecté non découvert sur cet itinéraire.\n§YMontant Total§! :\n£rifle_texticon dans ce §YGroupe§! : [?NEE.CL_gun_route]\n£GFX_population_texticon  dans ce §YGroupe§! : [?NEE.CL_people_route]\n\n"
+ NEE_CL_add_guns:9 "Le §YChemin de Fer Clandestin§! transportera §Y30§! £rifle_texticon et §Y110§! £GFX_population_texticon par poste de contrebande connecté non découvert sur cet itinéraire.\n§YMontant Total§! :\n£rifle_texticon dans ce §YGroupe§! : [?NEE.CL_gun_route]\n£GFX_population_texticon  dans ce §YGroupe§! : [?NEE_CL_people_army]\n\n"
+ NEE_CL_increase_guns:9 "Adds £rifle_texticon  $RIGHT|Y0$ to the §YCentral Line§!."
+ NEE_CL_increase_population:9 "Adds £GFX_population_texticon  $RIGHT|Y0$ to the §YCentral Line§!."
 
  NEE_EL_Carolina_Virginia_Route: "Réseau Est: §OCaroline du Sud - Virginie§!"
  NEE_EL_Virginia_Jersey_Route: "Réseau Est: §OVirginie- New Jersey§!"
  NEE_EL_Jersey_Albany_Route: "Réseau Est: §ONew Jersey - Albany§!"
- NEE_EL_add_guns: "Le §YChemin de Fer Clandestin§! transportera §Y40§! £rifle_texticon et §Y90§! £GFX_population_texticon par poste de contrebande connecté non découvert sur cet itinéraire.\n§YMontant Total§! :\n£rifle_texticon dans ce §YGroupe§! : [?NEE.EL_gun_route]\n£GFX_population_texticon  dans ce §YGroupe§! : [?NEE.EL_people_route]\n\n"
+ NEE_EL_add_guns:9 "Le §YChemin de Fer Clandestin§! transportera §Y40§! £rifle_texticon et §Y90§! £GFX_population_texticon par poste de contrebande connecté non découvert sur cet itinéraire.\n§YMontant Total§! :\n£rifle_texticon dans ce §YGroupe§! : [?NEE.EL_gun_route]\n£GFX_population_texticon  dans ce §YGroupe§! : [?NEE_EL_people_army]\n\n"
+ NEE_EL_increase_guns:9 "Adds £rifle_texticon  $RIGHT|Y0$ to the §YEastern Line§!."
+ NEE_EL_increase_population:9 "Adds £GFX_population_texticon  $RIGHT|Y0$ to the §YEastern Line§!."
 
 ### Ideas ###
  NEE_Arsenal_of_Democracy_idea: "Arsenal de la démocratie"
@@ -157,12 +163,14 @@
  NEE_support_psa_tt: "(§Y[PSA.GetNameWithFlag]§!) $volunteer_limit_plus_three_tt$"
  NEE_support_aus_tt: "(§Y[TEX.GetNameWithFlag]§!) $volunteer_limit_plus_three_tt$"
 
+ NEE_operation_pointblank_tt:9 "§CLorsqu'en guerre avec §Y[395.Owner.GetName]§!§! :"
+
 ### Flags ###
  NEE_legitimate_america_flag: "§GLa Nouvelle-Angleterre est considérée comme l'Amérique légitime par son peuple§!"
  NEE_united_america: "L'Amérique est unie"
 
 ### Intro guide ###
- NEE_guide:9 "§MPolitique Étrangère§!\n §ML'Ordre Ancien§!\n£white_dot Gagnez avec l'aide de l'Entente. Nous aiderons l'Entente à reconquérir leurs métropoles et prendrons plus tard la tête de l'alliance.\n §ML'Amérique de retour sur la Scène Mondiale§!\n£white_dot Choisissez de vous concentrer sur l'hémisphère occidental après avoir gagné la guerre civile par vous-même. Nous créerons notre propre faction et ressusciterons la Doctrine Monroe, en influençant les nations vers la démocratie.\n §MSe tourner vers le Pacifique§!\n£white_dot Choisissez de vous concentrer sur l'hémisphère oriental après avoir gagné la guerre civile par vous-même. Nous étendrons notre influence au sein des nations asiatiques.\n\nNote : Si nous gagnons avec l'aide d'une autre puissance américaine, l'une des politiques étrangères sera choisie en fonction de la puissance de chaque faction.\n\n§MGuide des Élections§!\n\n§MÉlections Provinciales de 1937§!\n£white_dot §mRépublicains§! : Lewis O.Barrow gagnera les élections.\n£white_dot §mRépublicains (Option de compromis)§! : Joseph William Martin Jr. sera élu comme candidat de compromis.\n£white_dot §lDémocrates§! : David I. Walsh gagnera les élections.\n\n§MÉlections Provinciales de 1940§!\n£white_dot Avoir Barrows le verra s'opposer à Charles Hurley des §lDémocrates§!.\n£white_dot Avoir Joseph Martin verra s'opposer Charles Hurley des §lDémocrates§! et John Winant des §mRépublicains§!.\n£white_dot Avoir Walsh le verra s'opposer à John Winant des §mRépublicains§!.\n\n§MÉlections Provinciales de 1944§!\n£white_dot Avoir Hurley le verra s'opposer à Raymond Baldwin des §mRépublicains§!.\n£white_dot Avoir Barrows, Winant ou Walsh verra s'opposer Raymond Baldwin des §mRépublicains§! et Maurice Tobin des §lDémocrates§!.\n\n§MÉlections Provinciales de 1948§!\n£white_dot Avoir Hurley verra s'opposer George Aiken des §mRépublicains§! et William Harriman des §lDémocrates§!.\n£white_dot Avoir Baldwin le verra s'opposer à William Harriman des §lDémocrates§!.\n£white_dot Avoir Tobin le verra s'opposer à George Aiken des §mRépublicains§!.\n\n§MÉlections Provinciales de 1952§!\n£white_dot Avoir Aiken le verra s'opposer à Chester Bowles des §lDémocrates§!.\n£white_dot Avoir Harriman le verra s'opposer à Thomas Dewey des §mRépublicains§!.\n£white_dot Avoir Baldwin ou Tobin verra s'opposer Thomas Dewey des §mRépublicains§! et Chester Bowles des §lDémocrates§!."
+ NEE_guide:9 "§MPolitique Étrangère§!\n §ML'Ordre Ancien§!\n£white_dot Gagnez la guerre civile et complétez la priorité §Y$NEE_End_Reconstruction$§! en faisant partie de l'Entente.\n£white_dot Nous aiderons l'Entente à reconquérir leurs métropoles et prendrons plus tard la tête de l'alliance.\n\nLes deux options suivantes nécessitent de quitter l'Entente. Pour que cela arrive, le Canada doit rejeter notre pétition pour l'auto-gouvernance de la priorité §Y$NEE_Second_Declaration_of_Independence$§!. Les conditions suivantes augmenteront les chances que cela arrive :\n\n£white_dot Avoir une armée plus petite que la leur.\n£white_dot Avoir une légitimité basse.\n£white_dot Faire en sorte que le Canada soutienne une autre faction américaine que la nôtre.\n£white_dot Faire en sorte que les §aTories§! dirigent le Canada.\n\nCela débloquera une décision pour déclarer l'indépendance vis-à-vis du Canada et quitter l'Entente.\n\n §ML'Amérique de retour sur la Scène Mondiale§!\n£white_dot Choisissez de vous concentrer sur l'hémisphère occidental après avoir complété la priorité §Y$NEE_End_Reconstruction$§!.\n£white_dot Nous créerons notre propre faction et ressusciterons la Doctrine Monroe, en influençant les nations vers la démocratie.\n §MSe tourner vers le Pacifique§!\n£white_dot Choisissez de vous concentrer sur l'hémisphère oriental après avoir complété la priorité §Y$NEE_End_Reconstruction$§!.\n£white_dot Nous étendrons notre influence au sein des nations asiatiques.\n\nNote : Si nous gagnons avec l'aide des États du Pacifique, l'une des deux options sera choisie en fonction de qui a la plus grande légitimité. Le calcul dépendra des conditions suivantes :\n\n£white_dot Si les PSA sont dirigés par le vice-président des États-Unis d'avant le coup d'État de MacArthur.\n£white_dot Le niveau de légitimité actuelle de la Nouvelle-Angleterre.\n£white_dot Posséder un ou plusieurs états suivants : Maryland, Nouvelle-Orléans, Illinois, Missouri et Colorado.\n£white_dot Notre taille d'armée.\n\nSi les PSA ont plus de légitimité que nous, nous adopterons leur idéologie et débloquerons l'option §MSe tourner vers le Pacifique§!.\nSi nous avons plus de légitimité, nous débloquerons l'option §ML'Amérique de retour sur la Scène Mondiale§!.\n\n§MGuide des Élections§!\n\n§MÉlections Provinciales de 1937§!\n£white_dot §mRépublicains§! : Lewis O.Barrow gagnera les élections.\n£white_dot §mRépublicains (Option de compromis)§! : Joseph William Martin Jr. sera élu comme candidat de compromis.\n£white_dot §lDémocrates§! : David I. Walsh gagnera les élections.\n\n§MÉlections Provinciales de 1940§!\n£white_dot Avoir Barrows le verra s'opposer à Charles Hurley des §lDémocrates§!.\n£white_dot Avoir Joseph Martin verra s'opposer Charles Hurley des §lDémocrates§! et John Winant des §mRépublicains§!.\n£white_dot Avoir Walsh le verra s'opposer à John Winant des §mRépublicains§!.\n\n§MÉlections Provinciales de 1944§!\n£white_dot Avoir Hurley le verra s'opposer à Raymond Baldwin des §mRépublicains§!.\n£white_dot Avoir Barrows, Winant ou Walsh verra s'opposer Raymond Baldwin des §mRépublicains§! et Maurice Tobin des §lDémocrates§!.\n\n§MÉlections Provinciales de 1948§!\n£white_dot Avoir Hurley verra s'opposer George Aiken des §mRépublicains§! et William Harriman des §lDémocrates§!.\n£white_dot Avoir Baldwin le verra s'opposer à William Harriman des §lDémocrates§!.\n£white_dot Avoir Tobin le verra s'opposer à George Aiken des §mRépublicains§!.\n\n§MÉlections Provinciales de 1952§!\n£white_dot Avoir Aiken le verra s'opposer à Chester Bowles des §lDémocrates§!.\n£white_dot Avoir Harriman le verra s'opposer à Thomas Dewey des §mRépublicains§!.\n£white_dot Avoir Baldwin ou Tobin verra s'opposer Thomas Dewey des §mRépublicains§! et Chester Bowles des §lDémocrates§!."
 
 ### Decisions ###
 #Entente Allies
@@ -564,8 +572,8 @@
  NEE_Infantry_Support_Breakthroughs: "Percées dans le Soutien de l'Infanterie"
  NEE_Infantry_Support_Breakthroughs_desc: "La Weltkrieg a prouvé de manière concluante qu'envoyer des vagues massives d'infanterie dans un broyeur à viande ne permet pas de gagner des batailles et encore moins la guerre. Ils doivent disposer d'un complément bien équilibré d'unités de soutien pour combattre en utilisant des tactiques d'armes combinées afin de mettre l'ennemi en déroute."
 
- NEE_Fleet_Air_Arm: "L'Héritage du Lexington"
- NEE_Fleet_Air_Arm_desc: "Alors que certains pensent que la puissance de feu des dreadnoughts décide des vagues, notre commandement naval croit que le déploiement d'avions de guerre dans les engagements permettra de gagner des batailles. Puisque nous contrôlons le Grand Chantier Naval de Boston, le lieu de naissance de l'USS Lexington, nous serons en mesure de mettre en œuvre notre tradition de construction de navires avec ce grand chantier naval. Avec les capacités et la main-d'œuvre du chantier naval, nous construirons une nouvelle ligne de porte-avions comme le "Lady Lex" pour nous aider à dominer les vagues."
+ NEE_Fleet_Air_Arm:9 "L'Héritage du Ranger"
+ NEE_Fleet_Air_Arm_desc:9 "Alors que certains pensent que la puissance de feu des dreadnoughts décide des vagues, notre commandement naval croit que le déploiement d'avions de guerre dans les engagements permettra de gagner des batailles. Puisque nous contrôlons le Grand Chantier Naval de Boston, le lieu de naissance de l'USS Ranger, nous serons en mesure de mettre en œuvre notre tradition de construction de navires avec ce grand chantier naval. Avec les capacités et la main-d'œuvre du chantier naval, nous construirons une nouvelle ligne de porte-avions comme le "Lady Lex" pour nous aider à dominer les vagues."
 
 # American Civil War #
  NEE_Southern_Fire: "Le Feu du Sud"
@@ -830,7 +838,7 @@
  NEE_Dollar_Diplomacy: "Diplomatie du Dollar"
  NEE_Dollar_Diplomacy_desc: "Alors que l'économie continue de se remettre des ravages de la Grande Dépression et de la seconde guerre civile américaine, nos industriels ont commencé à rassembler les ressources nécessaires pour reprendre leurs activités à l'étranger. Grâce à la puissance du dollar, nous pourrons peut-être briser l'étau des dictateurs qui asservissent les peuples de l'Hémisphère Occidental."
 
- NEE_Dollar_Diplomacy_tt: "Cette priorité débloquera des £GFX_decision_icon_small §Ydécisions§! pour influencer les £GFX_crypto_defense nations §gAutoritaires§! de l'§CHémisphère Occidental§!"
+ NEE_Dollar_Diplomacy_tt:9 "Cette priorité débloquera des £GFX_decision_icon_small §Ydécisions§! pour influencer les £GFX_crypto_defense nations §aAutoritaires§! de l'§CHémisphère Occidental§!"
 
  NEE_American_Recovery_and_Aid: "Programme Américain d'Aide et de Relance"
  NEE_American_Recovery_and_Aid_desc: "Le Programme Américain d'Aide et de Relance promulgué par le Congrès est devenu populaire grâce aux fréquentes émissions de radio que [NEE.GetLeader] a diffusées dans tout le pays pour encourager les citoyens à écrire à leurs représentants afin de les inciter à adopter ce texte de loi. Le Programme Américain d'Aide et de Relance permet au gouvernement d'investir d'importantes sommes d'argent et de ressources pour développer les nations de l'Hémisphère Occidental."
@@ -1012,7 +1020,7 @@
  NEE_support_labour_unions: "§lSoutenir les Syndicats§!"
  NEE_support_labour_unions_desc: "Le droit de s'organiser en syndicat, bien que découragé par les conservateurs, est le droit de chaque Américain. Cette loi protégera et renforcera les membres des syndicats en leur donnant le droit de s'organiser et de s'engager dans des activités protégées pour améliorer les conditions de travail."
  NEE_encouraged_unions_idea: "Encourager l'Adhésion aux Syndicats"
- NEE_tax_reform: "§lMettre en Œuvre la Réforme Fiscale§!"
+ NEE_tax_reform: "§lMettre en oeuvre la Réforme Fiscale§!"
  NEE_tax_reform_desc: "Afin de poursuivre une plus grande égalité économique, la nouvelle Loi sur les Revenus augmentera l'impôt fédéral sur les revenus les plus élevés. Bien que cela puisse susciter l'opposition des plus riches, les partisans de cette loi espèrent augmenter les revenus annuels de la nation."
  NEE_small_scale_projects: "§lProjets de Travaux à Petite Échelle§!"
  NEE_small_scale_project_desc: "Pour augmenter les taux d'emploi et la productivité du pays, cette loi créera des projets de travail à petite échelle au niveau local afin de développer les zones plus rurales du pays. Les partisans de cette loi espèrent que le développement de la partie agraire du pays nous vaudra le soutien de l'homme du peuple et améliorera sa qualité de vie."
@@ -2795,7 +2803,7 @@
  newengland.504.a: "On ne peut pas tous les sauver..."
 
 # Invite Parallel Group
- newengland.505.t: "Groupe Parallèle repéré"
+ newengland.505.t:9 "Groupe Parallèle Repéré"
  newengland.505.d: "Notre équipe à [UR_state.GetName] a pris contact avec un groupe similaire de voyageurs qui ont révélé qu'ils fuyaient vers la sécurité du Canada. Ils ont révélé qu'ils tentaient le vol par leurs propres moyens, sans contacts ni provisions. Nous pourrions leur offrir un passage avec nous vers la Nouvelle-Angleterre, mais le nombre élevé de nos compagnons pourrait attirer l'attention des patrouilles ennemies de la région. Cependant, il est peu probable qu'ils atteignent le Canada ou la Nouvelle-Angleterre par eux-mêmes..."
  newengland.505.a: "Offrez-leur notre aide."
  newengland.505.b: "Bonne chance pour atteindre le Canada !"

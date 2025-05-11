@@ -5,7 +5,7 @@
 
  mitteleuropa_open_button: "§YMitteleuropa§!"
  mitteleuropa_open_button_desc: "[ROOT.GetMitteleuropaButtonDesc]"
- mitteleuropa_open_button_desc_enabled: "L'Union Douanière d'Europe Centrale, également connue sous le nom de §HMitteleuropa§!, est l'alliance économique unifiant le bloc allemand, un compromis inconfortable entre la suprématie allemande et une vision progressiste de la coopération paneuropéenne. Sa structure interne est compliquée, mais ses institutions clés sont la §HConférence de la Mitteleuropa§!, un sommet des délégués de tous les États membres qui a lieu tous les six mois, et la §HCommission de Mitteleuropa§!, une autorité bureaucratique contrôlée par les États membres dont la §HPrésidence§! est réélue à chaque réunion de la Conférence.\n\nDans l'§Honglet§! Mitteleuropa, vous pouvez voir le pays président, tous les États membres et une liste des §Hordres du jour§! pouvant être proposés pour la prochaine Conférence. Chaque État membre est en mesure d'investir du §Hpouvoir politique§! pour promouvoir l'ordre du jour de son choix ou tenter d'être élu comme prochain §HPrésident de la Mitteleuropa§!. A la fin du cycle et au début de la prochaine Conférence, le Président sélectionnera et activera §Hdeux§! ordres du jour sur les trois ordres du jour les plus soutenus - ainsi que son propre ordre du jour, s'il en a sélectionné un. Ensuite, une nouvelle élection présidentielle aura lieu et le cycle continuera.\n\nEn tant que pays fondateur et le plus puissant, §H[GER.GetNameWithFlag]§! a accès à un arbre de priorités pour débloquer de nouveaux types d'ordres du jour et lancer la réforme de Mitteleuropa - ainsi que pour §Hfaire pencher la Conférence en sa faveur...§!\n\nLa Présidence de Mitteleuropa est assurée par §Y[MIT.GetNameWithFlag]§!\nLa prochaine réunion de la Commission de Mitteleuropa aura lieu vers §Y[GER.GetMitteleuropaNextElection]§!."
+ mitteleuropa_open_button_desc_enabled:9 "L'Union Douanière d'Europe Centrale, également connue sous le nom de §HMitteleuropa§!, est l'alliance économique unifiant le bloc allemand, un compromis inconfortable entre la suprématie allemande et une vision progressiste de la coopération paneuropéenne. Sa structure interne est compliquée, mais ses institutions clés sont la §HConférence de la Mitteleuropa§!, un sommet des délégués de tous les États membres qui a lieu tous les six mois, et la §HCommission de Mitteleuropa§!, une autorité bureaucratique contrôlée par les États membres dont la §HPrésidence§! est réélue à chaque réunion de la Conférence.\n\nDans l'§Honglet§! Mitteleuropa, vous pouvez voir le pays président, tous les États membres et une liste des §Hordres du jour§! pouvant être proposés pour la prochaine Conférence. Chaque État membre est en mesure d'investir du §Hpouvoir politique§! pour promouvoir l'ordre du jour de son choix ou tenter d'être élu comme prochain §HPrésident de la Mitteleuropa§!. A la fin du cycle et au début de la prochaine Conférence, le Président sélectionnera et activera §Hdeux§! ordres du jour sur les trois ordres du jour les plus soutenus - ainsi que son propre ordre du jour, s'il en a sélectionné un. Ensuite, une nouvelle élection présidentielle aura lieu et le cycle continuera.\n\nEn tant que pays fondateur et le plus puissant, §H[GER.GetNameWithFlag]§! a accès à un arbre de priorités pour débloquer de nouveaux types d'ordres du jour et lancer la réforme de Mitteleuropa - ainsi que pour §Hfaire pencher la Conférence en sa faveur...§!\n\nLa Présidence de Mitteleuropa est assurée par §Y[MIT.GetNameWithFlag]§!\nLa prochaine réunion de la Commission de Mitteleuropa aura lieu vers §Y[GER.GetMitteleuropaNextElection]§!."
  mitteleuropa_open_button_desc_disabled: "§Ydeviendra active en 1937§!."
 
  mitteleuropa_leader_title: "Président"
@@ -53,131 +53,131 @@
 
  member_entry_desc: "[THIS.GetMitteleuropaVotingStatus]"
 
- member_entry_proposing_agenda: "§Y[THIS.GetNameDefCap]§! conduit actuellement un effort de lobbying en faveur de §Y[?MIT_supported_agenda:agenda_idea.GetTokenLocalizedKey]§!."
- member_entry_supporting_agenda: "§Y[THIS.GetNameDefCap]§! soutient actuellement l'effort de lobbying§Y[?MIT_supported_agenda:agenda_supporters^0.GetAdjective]§! en faveur de §Y[?MIT_supported_agenda:agenda_idea.GetTokenLocalizedKey]§!."
+ member_entry_proposing_agenda:9 "§Y[THIS.GetNameDefCap]§! conduit actuellement un effort de lobbying en faveur de §Y[?MIT_supported_agenda:agenda_idea.GetName]§!."
+ member_entry_supporting_agenda:9 "§Y[THIS.GetNameDefCap]§! soutient actuellement l'effort de lobbying§Y[?MIT_supported_agenda:agenda_supporters^0.GetAdjective]§! en faveur de §Y[?MIT_supported_agenda:agenda_idea.GetName]§!."
  member_entry_neutral: "§Y[THIS.GetNameDefCap]§! ne soutient actuellement pas d'ordre du jour."
 
  main_agenda_supporter_title: "§Y[?top_agenda:agenda_supporters^0.GetName]§!"
 
- top_agenda_icon_title: "§Y[?top_agenda:agenda_idea.GetTokenLocalizedKey]§!"
+ top_agenda_icon_title:9 "§Y[?top_agenda:agenda_idea.GetTokenLocalizedKey]§!"
  top_agenda_icon_desc: "[!top_agenda_reward_loc_button_click]"
 
  agenda_list_title: "Ordres du jour possibles"
 
- agenda_button_title: "[?agenda:agenda_idea.GetTokenLocalizedKey]"
+ agenda_button_title:9 "[?agenda:agenda_idea.GetTokenLocalizedKey]"
  agenda_button_score: "([?agenda:agenda_score|Y0])"
- agenda_button_tooltip: "[?agenda:agenda_idea.GetTokenLocalizedKey]\nSoutien total: [?agenda:agenda_score|Y0]"
+ agenda_button_tooltip:9 "[?agenda:agenda_idea.GetName]\nSoutien total: [?agenda:agenda_score|Y0]"
  agenda_button_tooltip_delayed: "[!agenda_button_click_enabled]\n§YEffets si promulgué:§!\n[!agenda_reward_loc_button_click]"
 
  top_agendas_title: "Ordres du jour les plus soutenus"
- top_agenda_name: "[?top_agenda:agenda_idea.GetTokenLocalizedKey]"
+ top_agenda_name:9 "[?top_agenda:agenda_idea.GetTokenLocalizedKey]"
  top_agenda_score: "Soutien: [?top_agenda:agenda_score|Y1]"
 
  MIT_recent_agenda_change: "§Y[ROOT.GetNameDefCap]§! a déjà choisi récemment de soutenir un ordre du jour et doit patienter [?MIT_recent_agenda_change:days_left|Y0] jours avant de pouvoir de nouveau voter."
 
- MIT_generic_industrial_projects: "$MIT_generic_industrial_projects_idea$"
+ MIT_generic_industrial_projects:9 "MIT_generic_industrial_projects"
  MIT_generic_industrial_projects_idea: "Soutien aux Projets Industriels"
  MIT_generic_industrial_projects_idea_desc: "Créer un environnement plus convivial pour les industries civiles dans toute la Mitteleuropa et financer l’expansion de la production."
 
  MIT_generic_industrial_projects_improved_idea: "$MIT_generic_industrial_projects_idea$"
  MIT_generic_industrial_projects_improved_idea_desc: "$MIT_generic_industrial_projects_idea_desc$"
 
- MIT_generic_arms_industry: "$MIT_generic_arms_industry_idea$"
+ MIT_generic_arms_industry:9 "MIT_generic_arms_industry"
  MIT_generic_arms_industry_idea: "Soutien à l’industrie de l’armement"
  MIT_generic_arms_industry_idea_desc: "Offrir des prêts bon marché aux fabricants militaires dans toute la Mitteleuropa et renforcer la coopération internationale en matière de fabrication d’armes."
 
  MIT_generic_arms_industry_improved_idea: "$MIT_generic_arms_industry_idea$"
  MIT_generic_arms_industry_improved_idea_desc: "$MIT_generic_arms_industry_idea_desc$"
 
- MIT_generic_infrastructure: "$MIT_generic_infrastructure_idea$"
+ MIT_generic_infrastructure:9 "MIT_generic_infrastructure"
  MIT_generic_infrastructure_idea: "Soutien aux projets d'infrastructures"
  MIT_generic_infrastructure_idea_desc: "Proposer des prêts bon marché pour des projets d’infrastructure et envoyez des conseillers en construction d’Allemagne dans les États membres."
 
  MIT_generic_infrastructure_improved_idea: "$MIT_generic_infrastructure_idea$"
  MIT_generic_infrastructure_improved_idea_desc: "$MIT_generic_infrastructure_idea_desc$"
 
- MIT_generic_financial_bailout: "$MIT_generic_financial_bailout_idea$"
+ MIT_generic_financial_bailout:9 "MIT_generic_financial_bailout"
  MIT_generic_financial_bailout_idea: "Injection Financière"
  MIT_generic_financial_bailout_idea_desc: "Organiser une injection de capitaux des banques allemandes et européennes dans les économies des États membres."
 
  MIT_generic_financial_bailout_improved_idea: "$MIT_generic_financial_bailout_idea$"
  MIT_generic_financial_bailout_improved_idea_desc: "$MIT_generic_financial_bailout_idea_desc$"
 
- MIT_generic_industrial_advisors: "$MIT_generic_industrial_advisors_idea$"
+ MIT_generic_industrial_advisors:9 "MIT_generic_industrial_advisors"
  MIT_generic_industrial_advisors_idea: "Conseillers Industriels de la Mitteleuropa"
  MIT_generic_industrial_advisors_idea_desc: "Envoyer des conseillers allemands en matière industrielle et technologique dans les États membres de la Mitteleuropa."
 
  MIT_generic_industrial_advisors_improved_idea: "$MIT_generic_industrial_advisors_idea$"
  MIT_generic_industrial_advisors_improved_idea_desc: "$MIT_generic_industrial_advisors_idea_desc$"
 
- MIT_generic_arms_experts: "$MIT_generic_arms_experts_idea$"
+ MIT_generic_arms_experts:9 "MIT_generic_arms_experts"
  MIT_generic_arms_experts_idea: "Experts en Armements de la Mitteleuropa"
  MIT_generic_arms_experts_idea_desc: "Envoyer des experts en construction d’armes de l’Armée Impériale Allemande dans les États membres de la Mitteleuropa."
 
  MIT_generic_arms_experts_improved_idea: "$MIT_generic_arms_experts_idea$"
  MIT_generic_arms_experts_improved_idea_desc: "$MIT_generic_arms_experts_idea_desc$"
 
- MIT_generic_cohesion_fund: "$MIT_generic_cohesion_fund_idea$"
+ MIT_generic_cohesion_fund:9 "MIT_generic_cohesion_fund"
  MIT_generic_cohesion_fund_idea: "Soutien du Fonds de Cohésion"
  MIT_generic_cohesion_fund_idea_desc: "Fournir des fonds aux États d’Europe de l’Est pour réduire leur sous-développement et les rapprocher des niveaux économiques occidentaux."
 
- MIT_generic_legal_reform: "$MIT_generic_legal_reform_idea$"
+ MIT_generic_legal_reform:9 "MIT_generic_legal_reform"
  MIT_generic_legal_reform_idea: "Conseillers pour la Réforme Juridique"
  MIT_generic_legal_reform_idea_desc: "Envoyer des conseillers des universités et des tribunaux allemands dans les États membres de la Mitteleuropa pour fournir des conseils sur la législation et coordonner leurs lois avec les accords de la Mitteleuropa."
 
- MIT_directive_system: "$MIT_directive_system_idea$"
+ MIT_directive_system:9 "MIT_directive_system"
  MIT_directive_system_idea: "§RCréer le système de Directives§!"
  MIT_directive_system_idea_desc: "Les directives sont des résolutions de la Commission de Mitteleuropa sur des objectifs ou des projets. Il est obligatoire de les adopter dans un certain temps, mais leur mise en œuvre incombe aux États membres de manière indépendante, en conservant leur autonomie. §Yaméliore quelque peu l'effet des ordres du jour.§!"
 
- MIT_consultative_assembly: "$MIT_consultative_assembly_idea$"
+ MIT_consultative_assembly:9 "MIT_consultative_assembly"
  MIT_consultative_assembly_idea: "§RCréer l'Assemblée Consultative§!"
  MIT_consultative_assembly_idea_desc: "La Conférence des Ministres des Affaires Etrangères sera remplacée par des délégués des parlements nationaux, qui se rassembleront par idéologie plutôt que par nationalité. §Yréduit le déséquilibre des pouvoirs au sein de la Conférence et augmente l'effet de la dépense du pouvoir politique dans la mécanique de la Mitteleuropa.§!"
 
- MIT_qualified_majority: "$MIT_qualified_majority_idea$"
+ MIT_qualified_majority:9 "MIT_qualified_majority"
  MIT_qualified_majority_idea: "§REtablir le Principe de la Majorité Qualifiée§!"
  MIT_qualified_majority_idea_desc: "Créer un système dans lequel chaque vote doit obtenir non seulement la majorité de la Conférence, mais aussi indirectement au moins 60 pour cent de la population totale de la Mitteleuropa, garantira que l'Allemagne devra négocier avec autant d'États membres que possible pour obtenir leur approbation, et l'organisation deviendra plus pluraliste."
 
- MIT_assembly_approval: "$MIT_assembly_approval_idea$"
+ MIT_assembly_approval:9 "MIT_assembly_approval"
  MIT_assembly_approval_idea: "§Rrendre obligatoire l'approbation de l'Assemblée pour les nominations institutionnelles§!"
  MIT_assembly_approval_idea_desc: "Toutes les nominations importantes au sein de l'administration de la Mitteleuropa seront approuvées par les membres de la Conférence. §Ymodifie l'esprit Mitteleuropa.§!"
 
- MIT_regulation_system: "$MIT_regulation_system_idea$"
+ MIT_regulation_system:9 "MIT_regulation_system"
  MIT_regulation_system_idea: "§RCréer le système de régulation§!"
  MIT_regulation_system_idea_desc: "Les règlements sont des résolutions de la Commission de Mitteleuropa qui doivent être suivies par tous les États membres, quelle que soit leur position sur la politique. §Yaméliore l'effet des ordres du jour et augmente le déséquilibre des pouvoirs au sein de la Conférence.§!"
 
- MIT_budget_quota: "$MIT_budget_quota_idea$"
+ MIT_budget_quota:9 "MIT_budget_quota"
  MIT_budget_quota_idea: "§RÉtablir le quota de contribution budgétaire§!"
  MIT_budget_quota_idea_desc: "Tous les votes à la Conférence seront désormais pondérés en fonction de la contribution du pays au budget de la Mitteleuropa, nettement en faveur de l'Allemagne car c'est avant tout son projet. §YRend la mécanique Mitteleuropa beaucoup moins chère pour le Président en exercice.§!"
 
- MIT_enforcement_directorate: "$MIT_enforcement_directorate_idea$"
+ MIT_enforcement_directorate:9 "MIT_enforcement_directorate"
  MIT_enforcement_directorate_idea: "§RCréer la Direction de l'Exécution§!"
  MIT_enforcement_directorate_idea_desc: "Établir une Direction qui supervisera tous les États membres et aura le pouvoir de sanctionner les États qui ne respectent pas à la lettre les réglementations de la Mitteleuropa. §Ymodifie l'esprit Mitteleuropa.§!"
 
- MIT_enlargement_directorate: "$MIT_enlargement_directorate_idea$"
+ MIT_enlargement_directorate:9 "MIT_enlargement_directorate"
  MIT_enlargement_directorate_idea: "§RCréer la Direction de l'Élargissement§!"
  MIT_enlargement_directorate_idea_desc: "Autoriser le Président de la Mitteleuropa à inviter des pays à rejoindre la Mitteleuropa."
 
- MIT_common_travel_area: "$MIT_common_travel_area_idea$"
+ MIT_common_travel_area:9 "MIT_common_travel_area"
  MIT_common_travel_area_idea: "§RÉtablir l'Espace de Voyage Commun Européen§!"
  MIT_common_travel_area_idea_desc: "Établir une zone de déplacement commune dans la Mitteleuropa. §YModifie l'esprit Mitteleuropa.§!"
 
- MIT_support_local_production: "$MIT_support_local_production_idea$"
+ MIT_support_local_production:9 "MIT_support_local_production"
  MIT_support_local_production_idea: "Soutien à la Production Locale"
  MIT_support_local_production_idea_desc: "Établir une réglementation sur certains produits locaux pour les protéger de la concurrence provoquée par la création de l'espace commun de déplacement."
 
- MIT_mitteleuropa_loans: "$MIT_mitteleuropa_loans_idea$"
+ MIT_mitteleuropa_loans:9 "MIT_mitteleuropa_loans"
  MIT_mitteleuropa_loans_idea: "Prêts de la Mitteleuropa"
  MIT_mitteleuropa_loans_idea_desc: "Accorder des prêts bon marché aux États membres de la Banque d'Europe Centrale pour le développement national."
 
- MIT_europamark: "$MIT_europamark_idea$"
+ MIT_europamark:9 "MIT_europamark"
  MIT_europamark_idea: "§RCréer l'Europamark§!"
  MIT_europamark_idea_desc: "Créer une monnaie de réserve commune pour la Mitteleuropa. §YModifie l'esprit Mitteleuropa.§!"
 
- MIT_central_europe_bank: "$MIT_central_europe_bank_idea$"
+ MIT_central_europe_bank:9 "MIT_central_europe_bank"
  MIT_central_europe_bank_idea: "§RCréer la Banque d'Europe Centrale§!"
  MIT_central_europe_bank_idea_desc: "Crée une banque centrale pour la Mitteleuropa. §YModifie l'esprit Mitteleuropa.§!"
 
- MIT_challenge_leadership: "$MIT_challenge_leadership_idea$"
+ MIT_challenge_leadership:9 "MIT_challenge_leadership"
  MIT_challenge_leadership_idea: "§CContester le leadership actuel§!"
  MIT_challenge_leadership_idea_desc: "Rallier les Etats membres de la Mitteleuropa pour essayer de destituer le Président actuel de la Mitteleuropa et de nommer le leader de la faction contestataire comme nouveau Président."
 
@@ -255,10 +255,10 @@
  germany_mitteleuropa_events.1.d.three_agendas: "Les délégués de tous les États de la Mitteleuropa se réunissent à Berlin pour des discussions semestrielles ainsi que des négociations sur l'orientation des activités du bloc. Même si des centaines de questions différentes seront abordées, seules celles qui ont retenu l'attention d'un nombre suffisant d'États membres seront examinées aussi longtemps qu'il le faudra. Il appartiendra également au Président de la Commission Mitteleuropéenne, actuellement originaire de [MIT.GetNameDef], de choisir laquelle des nombreuses propositions sera mise en œuvre par les autorités administratives.\n\nIl y a trois propositions bénéficiant d'un soutien considérable de la part des États membres, ce qui signifie malheureusement que tout le monde ne pourra pas être satisfait de la décision de la Commission aujourd'hui - mais cela dépend du président."
  germany_mitteleuropa_events.1.d.three_agendas_chairman: "Les délégués de tous les États de la Mitteleuropa se réunissent à Berlin pour des discussions semestrielles ainsi que des négociations sur l'orientation des activités du bloc. Même si des centaines de questions différentes seront abordées, seules celles qui ont retenu l'attention d'un nombre suffisant d'États membres seront examinées aussi longtemps qu'il le faudra. Il appartiendra également au Président de la Commission Mitteleuropéenne, actuellement originaire de [MIT.GetNameDef], de choisir laquelle des nombreuses propositions sera mise en œuvre par les autorités administratives.\n\nDeux propositions sont sur la table, bénéficiant d'un soutien considérable de la part des États membres. Toutefois, s'ils les jugent inacceptables, le Président a la possibilité de passer outre les intérêts des États membres et de choisir ceux qu'il juge plus importants."
  germany_mitteleuropa_events.1.d.four_agendas: "Les délégués de tous les États de la Mitteleuropa se réunissent à Berlin pour des discussions semestrielles ainsi que des négociations sur l'orientation des activités du bloc. Même si des centaines de questions différentes seront abordées, seules celles qui ont retenu l'attention d'un nombre suffisant d'États membres seront examinées aussi longtemps qu'il le faudra. Il appartiendra également au Président de la Commission Mitteleuropéenne, actuellement originaire de [MIT.GetNameDef], de choisir laquelle des nombreuses propositions sera mise en œuvre par les autorités administratives.\n\nIl y a trois propositions sur la table qui bénéficient d'un soutien considérable de la part des États membres. Cependant, s'ils les jugent inacceptables, le Président a la possibilité de passer outre les intérêts des États membres et de choisir ceux qu'il juge plus importants."
- germany_mitteleuropa_events.1.a: "Promulguer[?MIT_first_place_agenda.agenda_idea.GetTokenLocalizedKey]"
- germany_mitteleuropa_events.1.b: "Promulguer[?MIT_second_place_agenda.agenda_idea.GetTokenLocalizedKey]"
- germany_mitteleuropa_events.1.c: "Promulguer[?MIT_third_place_agenda.agenda_idea.GetTokenLocalizedKey]"
- germany_mitteleuropa_events.1.d: "Promulguer[?MIT_chairman_agenda.agenda_idea.GetTokenLocalizedKey]"
+ germany_mitteleuropa_events.1.a:9 "Promulguer [?MIT_first_place_agenda.agenda_idea.GetName]"
+ germany_mitteleuropa_events.1.b:9 "Promulguer [?MIT_second_place_agenda.agenda_idea.GetName]"
+ germany_mitteleuropa_events.1.c:9 "Promulguer [?MIT_third_place_agenda.agenda_idea.GetName]"
+ germany_mitteleuropa_events.1.d:9 "Promulguer [?MIT_chairman_agenda.agenda_idea.GetName]"
  germany_mitteleuropa_events.1.e: "Passons à autre chose, alors."
 
  germany_mitteleuropa_events.2.t: "Sommet de la Commission de Mitteleuropa : choix de l'ordre du jour principal"
@@ -322,7 +322,7 @@
 
  germany_mitteleuropa_events.1000.t: "L’Union Douanière d’Europe centrale reprend ses activités"
  germany_mitteleuropa_events.1000.d: "Après que le début de la crise économique provoquée par le krach boursier du Lundi Noir a amené l'Allemagne à détourner son attention des affaires étrangères au cours de l'année écoulée, l'Union Douanière d'Europe centrale, plus communément connue sous le nom de Mitteleuropa, est de retour sur le devant de la scène. Une fois de plus, des sommets des ministres des Affaires Etrangères de l'organisation sont organisés, chacun avec l'intention de coordonner les économies de l'alliance et de faciliter la circulation des marchandises. Au fil du temps, la Mitteleuropa s'est étendue à plusieurs domaines d'activité officiels et non officiels - et les intérêts des États membres peuvent l'aider dans un domaine ou dans un autre.\n\nBien sûr, certains intellectuels et hommes politiques envisagent un peu plus et rêvent de pouvoir réformer l'organisation et créer quelque chose de nouveau... Une hégémonie économique allemande ? La réalisation de rêves paneuropéens ? Le temps nous le dira."
- germany_mitteleuropa_events.1001.d: "L’Union Douanière d’Europe centrale, plus connue sous le nom de Mitteleuropa, est de retour sur le devant de la scène. Une fois de plus, des sommets des ministres des Affaires étrangères de l'organisation sont organisés, chacun avec l'intention de coordonner les économies de l'alliance et de faciliter la circulation des marchandises. Au fil du temps, la Mitteleuropa s'est étendue à plusieurs domaines d'activité officiels et non officiels - et les intérêts des États membres peuvent l'aider dans un domaine ou dans un autre.\n\nBien sûr, certains intellectuels et hommes politiques envisagent un peu plus et rêvent de pouvoir réformer l'organisation et créer quelque chose de nouveau... Une hégémonie économique allemande ? La réalisation de rêves paneuropéens ? Le temps nous le dira."
+ germany_mitteleuropa_events.1001.d:9 "L’Union Douanière d’Europe centrale, plus connue sous le nom de Mitteleuropa, est de retour sur le devant de la scène. Une fois de plus, des sommets des ministres des Affaires étrangères de l'organisation sont organisés, chacun avec l'intention de coordonner les économies de l'alliance et de faciliter la circulation des marchandises. Au fil du temps, la Mitteleuropa s'est étendue à plusieurs domaines d'activité officiels et non officiels - et les intérêts des États membres peuvent l'aider dans un domaine ou dans un autre.\n\nBien sûr, certains intellectuels et hommes politiques envisagent un peu plus et rêvent de pouvoir réformer l'organisation et créer quelque chose de nouveau... Une hégémonie économique allemande ? La réalisation de rêves paneuropéens ? Le temps nous le dira."
  germany_mitteleuropa_events.1000.a:0 "Bien."
 
  germany_mitteleuropa_events.1002.t: "Le Système de Directives"
