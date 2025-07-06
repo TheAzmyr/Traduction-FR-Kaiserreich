@@ -59,17 +59,14 @@ pearl_harbour_shipyard: "Pearl Harbour Naval Shipyard"
  HAW_plantation_support_idea: "Soutenir les Plantations"
  HAW_small_business_idea: "Soutenir les Petites Entreprises"
  HAW_thriving_economy_idea: "Économie Florissante"
- HAW_merchant_marine_idea: "Marine Marchande Hawaïenne"
 
  HAW_the_defense_of_hawaii: "La Défense d'Hawaï"
  HAW_naval_industry_idea: "Industrie Navale"
  HAW_waves_idea: "WACs et WAVEs"
 
- HAW_entente_advisors: "Conseillers de l'Entente"
- HAW_japanese_advisors: "Conseillers Japonais"
- HAW_german_advisors: "Conseillers Allemands"
- HAW_american_advisors: "Conseillers Américains"
- HAW_international_advisors_idea: "Conseillers Syndicalistes"
+ HAW_foreign_advisors:9 "[ROOT.HAW_GetAdvisorIdeaName]"
+ HAW_foreign_advisors_default:9 "Conseillers de [ROOT.GetFactionName]"
+ HAW_foreign_advisors_fallback:0 "Conseillers Étrangers"
 
 ### Tooltips ###
  HAW_foreign_economic_advisors_tooltip: "Débloque la décision : £decision_icon_small §YInviter des Conseillers Économiques§!"
@@ -85,34 +82,10 @@ pearl_harbour_shipyard: "Pearl Harbour Naval Shipyard"
 
  HAW_economic_decisions: "Décisions Économiques"
  HAW_economic_decisions_desc: "Nous sommes une petite île dont l'industrie est presque inexistante. Pour améliorer notre économie, nous devrions essayer d'attirer des spécialistes de l'étranger qui pourront à la fois assister notre gouvernement et investir dans l'île."
- HAW_invite_international_economic_advisors: "Inviter des Conseillers Économiques de l'Internationale"
- HAW_french_investment: "Inviter des Investisseurs Français"
- HAW_syndie_indian_investment: "Inviter des Investisseurs Indiens"
- HAW_syndie_american_investment: "Inviter des Investisseurs Américains"
-
- HAW_invite_american_economic_advisors: "Inviter des Conseillers Économiques Américains"
- HAW_american_industrial_investment: "Inviter des Investisseurs Industriels Américains"
- HAW_american_military_investment: "Inviter des Investisseurs Militaires Américains"
- HAW_american_comerical_investment: "Inviter des Investisseurs Commerciaux Américains"
- HAW_american_naval_investment: "Inviter des Investisseurs Navals Américains"
-
- HAW_invite_german_economic_advisors: "Inviter des Conseillers Économiques Allemands"
- HAW_german_industrial_investment: "Inviter des Investisseurs Industriels Allemands"
- HAW_german_military_investment: "Inviter des Investisseurs Militaires Allemands"
- HAW_aog_investment: "Inviter des Investisseurs Commerciaux Allemands"
- HAW_gea_investment: "Inviter des Investisseurs Navals Allemands"
-
- HAW_invite_japanese_economic_advisors: "Inviter des Conseillers Économiques Japonais"
- HAW_japanese_industrial_investment: "Inviter des Investisseurs Industriels Japonais"
- HAW_japanese_military_investment: "Inviter des Investisseurs Militaires Japonais"
- HAW_japanese_comericial_investment: "Inviter des Investisseurs Commerciaux Japonais"
- HAW_japanese_naval_investment: "Inviter des Investisseurs Navals Japonais"
-
- HAW_invite_entente_economic_advisors: "Inviter des Conseillers Économiques de l'Entente"
- HAW_canadian_industrial_investment: "Inviter des Investisseurs Industriels Canadiens"
- HAW_indian_investment: "Inviter des Investisseurs Indiens"
- HAW_canadian_investment: "Inviter des Investisseurs Commerciaux Canadiens"
- HAW_australasian_investment: "Inviter des Investisseurs Australasiatiques"
+ HAW_attract_industrial_investment:9 "Attirer l'Investissement Industriel [HAW_GetAdvisorDecisionAdjective]"
+ HAW_attract_military_investment:9 "Attirer l'Investissement Militaire [HAW_GetAdvisorDecisionAdjective]"
+ HAW_attract_commercial_investment:9 "Attirer l'Investissement Commercial [HAW_GetAdvisorDecisionAdjective]"
+ HAW_attract_naval_investment:9 "Attirer l'Investissement Naval [HAW_GetAdvisorDecisionAdjective]"
 
  HAW_buying_ships_decisions: "Achats de Navires"
  HAW_buying_ships_decisions_desc: "Hawaï ne possède pas la capacité de production nécessaire pour notre flotte. Or, la flotte est la clef de la défense de nos îles. Nous devrions donc partir à la recherche de nations étrangères prêtes à nous vendre des navires qui pourront soutenir notre flotte."
@@ -256,16 +229,8 @@ pearl_harbour_shipyard: "Pearl Harbour Naval Shipyard"
 ### Naval Focuses ###
  HAW_navy: "Évaluation de l'État de la Flotte"
  HAW_navy_desc: "La marine hawaïenne dépendait fortement ou entièrement du soutien des États-Unis. Avec les loyalistes à Honolulu dédiés à la protection du Pacifique malgré leurs ordres de se replier sur le continent, nous devrions travailler à l'amélioration de nos capacités."
- HAW_grand_navy: "Grande Flotte Hawaïenne"
- HAW_grand_navy_desc: "La Grande Flotte Blanche était à la hauteur de la puissance navale américaine, bien qu'elle ait été utilisée pour son expansion impériale. En tant que nation souveraine, nous surpasserons le continent avec une Grande Marine de protection mutuelle, au lieu d'une incursion impériale."
  HAW_battleships: "Efforts sur les Croiseurs de Bataille"
  HAW_battleships_desc: "Les croiseurs de bataille présentent un équilibre moyen entre les cuirassés lourds et les croiseurs plus rapides. Nous devrions nous assurer d'en avoir dans notre marine."
- HAW_protect_our_trade: "Protection de notre Commerce"
- HAW_protect_our_trade_desc: "Le commerce est la pierre angulaire d'Hawaï. Nous devrions axer notre doctrine navale sur la protection contre les raids ennemis."
- HAW_carrier_expermints: "Expérimentations des Porte-Avions"
- HAW_carrier_expermints_desc: "Les Porte-Avions représentent le futur. Nous devrions investir dans leur recherche et leur construction pour mieux projeter notre puissance navale."
- HAW_buy_cruisers: "Achat de Croiseurs"
- HAW_buy_cruisers_desc: "Les croiseurs plus légers sont importants dans les opérations anti-aériennes, ainsi que pour attaquer les destroyers et les sous-marins ennemis. Nous devons nous assurer que notre marine en a une poignée afin de rester équilibrée. Nous devrions voir quelle puissance navale peut nous en céder quelques uns."
  HAW_destroyer_support: "Se reposer sur la Garde Côtière"
  HAW_destroyer_support_desc: "La restauration de la Garde côtière garantira le bon déroulement du commerce, l'arrestation des criminels en mer et le sauvetage des personnes en danger."
  HAW_naval_avaiation: "Aviation Navale"
@@ -330,7 +295,7 @@ pearl_harbour_shipyard: "Pearl Harbour Naval Shipyard"
  HAW_rule_the_skies_desc: "Nous avons triomphé de nos ennemis et régnons maintenant sur le ciel du Pacifique central. Visez bien, volez, combattez et gagnez"
 
 ### Introduction ###
- HAW_guide:9 "§MRétablir le royaume§! (§cSocial-Conservateur§! / §mLibéral de marché §! / §lSocial-libéral§! / §SSocial-démocrate§! )\n£white_dot Choisissez d'envoyer la garde nationale ou d'écouter les grévistes pour faire face à la grève générale.\n£white_dot Choisissez de déclarer le royaume lors de la réunion d’urgence.\n£white_dot En 1940 et lors de toutes les élections suivantes, vous pourrez élire le §SParti Progressiste§! , le §l Parti Libéral National§!, le §mParti Républicain§! et §cHui Aloha Aina§! .\n\n§MProclamer une République§! (§cSocial-Conservateur§! / §mLibéral de marché§! / §lSocial-libéral§!)\n£white_dot Choisissez d'envoyer la garde nationale ou d'écouter les grévistes pour faire face à la grève générale.\n£white_dot Choisissez de déclarer la république lors de la réunion d’urgence.\n£white_dot En 1940 et lors de toutes les élections suivantes, vous pourrez élire le §lParti Libéral National§!, le §mParti Républicain§! et le §cHui Aloha Aina§!.\n\n§MAnnexion des États-Unis et des États du Pacifique§!\n£white_dot Choisissez d'envoyer la garde nationale ou d'écouter les grévistes pour faire face à la grève générale.\n£white_dot Choisissez de rejoindre l’Amérique lors de la réunion d’urgence ; si les États du Pacifique existent, nous les rejoindrons ; sinon, nous rejoindrons les États-Unis.\n\n§MRévolution réussie§! (§RRadical-Socialiste§! / §rSyndicaliste§! / §oTotaliste§!)\n£white_dot Choisissez d’ignorer la grève générale, envoyez la police à la marche sur Honolulu et laissez les grévistes gagner la bataille d’Honolulu.\n£white_dot En 1940 et lors de toutes les élections suivantes, vous pourrez élire le §oParti Révolutionnaire d'Hawaï§! , la §rFédération Hawaïenne du Travail §! et le §RParti Socialiste d'Hawaï§! .\n\n§MPolitique étrangère§!\n§MSphère de coprospérité§! / §MReichspakt§! / §MEntente§!\n£white_dot Restaurez le royaume ou proclamez une république, et les décisions de rejoindre les factions mentionnées apparaîtront.\n\n§MTroisième Internationale§!\n£white_dot Si la révolution réussit, la décision d’adhérer à la Troisième Internationale apparaîtra."
+ HAW_guide:9 "§MRétablir le royaume§! (§cSocial-Conservateur§! / §mLibéral de marché §! / §lSocial-libéral§! / §SSocial-démocrate§! )\n£white_dot Choisissez d'envoyer la garde nationale ou d'écouter les grévistes pour faire face à la grève générale.\n£white_dot Choisissez de déclarer le royaume lors de la réunion d’urgence.\n£white_dot En 1940 et lors de toutes les élections suivantes, vous pourrez élire le §SParti Progressiste§! , le §l Parti Libéral National§!, le §mParti Républicain§! et §cHui Aloha Aina§! .\n\n§MProclamer une République§! (§cSocial-Conservateur§! / §mLibéral de marché§! / §lSocial-libéral§!)\n£white_dot Choisissez d'envoyer la garde nationale ou d'écouter les grévistes pour faire face à la grève générale.\n£white_dot Choisissez de déclarer la république lors de la réunion d’urgence.\n£white_dot En 1940 et lors de toutes les élections suivantes, vous pourrez élire le §lParti Libéral National§!, le §mParti Républicain§! et le §cHui Aloha Aina§!.\n\n§MAnnexion des États-Unis / de la Coalition Constitutionnelle§!\n£white_dot Choisissez d'envoyer la garde nationale ou d'écouter les grévistes pour faire face à la grève générale.\n£white_dot Choisissez de rejoindre l’Amérique lors de la réunion d’urgence ; si la Coalition Constitutionnelle existe, nous les rejoindrons ; sinon, nous rejoindrons les États-Unis.\n\n§MRévolution réussie§! (§RRadical-Socialiste§! / §rSyndicaliste§! / §oTotaliste§!)\n£white_dot Choisissez d’ignorer la grève générale, envoyez la police à la marche sur Honolulu et laissez les grévistes gagner la bataille d’Honolulu.\n£white_dot En 1940 et lors de toutes les élections suivantes, vous pourrez élire le §oParti Révolutionnaire d'Hawaï§! , la §rFédération Hawaïenne du Travail §! et le §RParti Socialiste d'Hawaï§! .\n\n§MPolitique étrangère§!\n§MSphère de coprospérité§! / §MReichspakt§! / §MEntente§!\n£white_dot Restaurez le royaume ou proclamez une république, et les décisions de rejoindre les factions mentionnées apparaîtront.\n\n§MTroisième Internationale§!\n£white_dot Si la révolution réussit, la décision d’adhérer à la Troisième Internationale apparaîtra."
 
 ### Events ###
  hawaii.1.t: "Le territoire d'Hawaii se révolte"
@@ -473,7 +438,7 @@ pearl_harbour_shipyard: "Pearl Harbour Naval Shipyard"
  hawaii.62.b: "Art Hawaïen Autochtone"
 
  hawaii.63.t: "Intégration des communards américains"
- hawaii.63.d: "La Commune d'Hawaï elle-même trouve ses origines dans les salles de planification de Californie entre les dockers et les syndicalistes pour les fruits de Dole. Ce lien important avec les États-Unis continentaux nous a permis d'importer des bureaucrates et des organisateurs syndicaux à Hawaï afin de mieux réaliser le socialisme. Cependant, ces derniers mois ont montré une certaine désunion entre les organisateurs résidents de longue date et les nouveaux arrivants. Les nouveaux ministres sont peu au fait de l'agriculture et de la construction navale, et utilisent leurs salaires pour importer des biens de plus en plus chers du continent. Ce problème pourrait être ignoré, si ce n'était d'un ressentiment croissant dans la société plus égalitaire que nous construisons tous. Plusieurs hommes et femmes se sont rencontrés anonymement pour demander des \"emplois de bureau confortables\" en récompense de leurs mois de patience dans la nouvelle Commune. Que répondons-nous ?"
+ hawaii.63.d:9 "La Commune d'Hawaï elle-même trouve ses origines dans les salles de planification de Californie entre les dockers et les syndicalistes pour les fruits de Dole. Ce lien important avec les États-Unis continentaux nous a permis d'importer des bureaucrates et des organisateurs syndicaux à Hawaï afin de mieux réaliser le socialisme. Cependant, ces derniers mois ont montré une certaine désunion entre les organisateurs résidents de longue date et les nouveaux arrivants. Les nouveaux ministres sont peu au fait de l'agriculture et de la construction navale, et utilisent leurs salaires pour importer des biens de plus en plus chers du continent. Ce problème pourrait être ignoré, si ce n'était d'un ressentiment croissant dans la société plus égalitaire que nous construisons tous. Plusieurs hommes et femmes se sont rencontrés anonymement pour demander des \"emplois de bureau confortables\" en récompense de leurs mois de patience dans la nouvelle Commune. Que répondons-nous ?"
  hawaii.63.a: "Non ! Vous saviez pour quoi vous aviez signé."
  hawaii.63.b: "Bien ! Prenez un siège."
 
@@ -482,7 +447,6 @@ pearl_harbour_shipyard: "Pearl Harbour Naval Shipyard"
  hawaii.64.a: "Parti Révolutionnaire de Hawaii."
  hawaii.64.b: "Fédération Hawaiienne du Travail"
  hawaii.64.c: "Parti Socialiste de Hawaii"
- hawaii.64.e: "Parti Progressiste"
 
 ### Foreign Events ###
 
@@ -629,7 +593,7 @@ HAW_radical_socialist_DEF: "la Commune d'Hawaï"
 
 ### Characters ###
  HAW_jack_denichi_kimoto: "Jack Denichi Kimoto"
- HAW_jack_denichi_kimoto_leader_desc:9 "§YNaissance :§! §L1906, à 'Ewa, O'ahu, Royaume de Hawaï§!"
+ HAW_jack_denichi_kimoto_leader_desc:9 "§YNaissance :§! §L1906, à 'Ewa, Territoire de Hawaï, États-Unis d'Amérique§!"
  HAW_jack_wayne_hall: "Jack Wayne Hall"
  HAW_jack_wayne_hall_leader_desc:9 "§YNaissance :§! §L28 février 1915, à Ashland, Wisconsin, États-Unis d'Amérique§!"
  HAW_arthur_abraham_rutledge: "Arthur Abraham Rutledge"
@@ -647,7 +611,7 @@ HAW_radical_socialist_DEF: "la Commune d'Hawaï"
 
  HAW_lydia_liliuokalani_kawananakoa: "Lydia Lili'uokalani Kawānanakoa"
  HAW_lydia_liliuokalani_kawananakoa_regnal: "Lili'uokalani II"
- HAW_lydia_liliuokalani_kawananakoa_leader_desc:9 "§YNaissance :§! §L22 juillet 1905, à Honolulu, O'ahu, Royaume de Hawaï§!"
+ HAW_lydia_liliuokalani_kawananakoa_leader_desc:9 "§YNaissance :§! §L22 juillet 1905, à Honolulu, Territoire de Hawaï, États-Unis d'Amérique§!"
 
  HAW_ingram_macklin_stainback:0 "Ingram Macklin Stainback"
  HAW_ingram_macklin_stainback_advisor_desc:9 "§YNaissance :§! §L12 mars 1883, à Somerville, Tennessee, États-Unis d'Amérique§!"
@@ -694,6 +658,3 @@ HAW_radical_socialist_DEF: "la Commune d'Hawaï"
  HAW_andrew_moses_theorist_desc:9 "§YNaissance :§! §L6 juin 1874, à Burnet, Texas, États-Unis d'Amérique§!"
  HAW_millard_fillmore_harmon_jr: "Millard Fillmore Harmon Jr."
  HAW_millard_fillmore_harmon_jr_theorist_desc:9 "§YNaissance :§! §L19 janvier 1888, à Fort Mason, Californie, États-Unis d'Amérique§!"
-
- HAW_barney_hajiro: "Barney Fushimi Hajiro"
- HAW_barney_hajiro_commander_desc:9 "§YNaissance :§! §L16 septembre 1916, à Hawaï, États-Unis d'Amérique§!\n§YCarrière :§! §LBarney Fushimi Hajiro est né dans une famille d'immigrés japonais résidant à Hawaï et s'est enrôlé dans l'armée en 1934. Depuis lors, il a obtenu des résultats remarquables dans les cours d'officier et le déclenchement de la guerre civile a fait du manque d'officiers compétents à Hawaï un problème grave, ce qui a entraîné une promotion prématurée de Hajiro au rang de général. Bien qu'il soit un officier compétent, on lui a accordé trop de pouvoir et de responsabilités pour un homme de son expérience et il n'est pas certain qu'il soit capable de suivre...§!\n\n§YNotes: Garde une profonde rancune contre Emmons en raison de la discrimination qu'il a exercée envers les citoyens américains d'origine japonaise.§!"

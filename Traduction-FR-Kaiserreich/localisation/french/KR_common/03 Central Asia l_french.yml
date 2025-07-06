@@ -22,10 +22,11 @@
  CA_revitalise_the_cities_tt:9 "\n§CSi nous possédons §Y[GetStateName_407]§! et §Y[GetStateName_732]§! lorsque cette priorité est complétée, alors un emplacement de construction sera ajouté dans ces deux états !§!"
 
  CA_prep_intro_tooltip:9 "§RNous aurons besoin d'utiliser nos décisions et nos priorités pour augmenter notre Préparation avant que le conflit n'éclate !§!"
- CA_prep_tooltip:9 "£GFX_supply_texticon $RIGHT|0=+]$ Préparation"
- CA_prep_5_tooltip:9 "£GFX_supply_texticon [?5|H0]"
- CA_prep_5_tooltip_blocked:9 "£GFX_supply_texticon [?5|R0]"
- CA_prep_5_tooltip_tooltip:9 "Prendre cette décision coûte $CA_prep_5_tooltip$"
+ CA_prep_tooltip:9 "£GFX_supply_texticon $RIGHT|0=+$ Préparation"
+
+ CA_5_prep_cost:0 "£GFX_supply_texticon [?5|H0]"
+ CA_5_prep_cost_blocked:0 "£GFX_supply_texticon [?5|R0]"
+ CA_5_prep_cost_tooltip:9 "Cela coûte $CA_5_prep_cost$ pour prendre cette décision."
 
  CA_german_aid_threat:9 "L'Allemagne intervient en Asie Centrale"
 
@@ -34,10 +35,6 @@
  CA_internal_struggles_concluded:9 "§CNous avons résolu nos conflits internes.§!"
 
  CA_ongoing_project_decision_flag:9 "Nous avons un Projet de Développement Spécial en cours"
- CA_subtract_3_prep:9 "£GFX_supply_texticon §R-3§! Préparation."
- CA_subtract_5_prep:9 "£GFX_supply_texticon §R-5§! Préparation."
- CA_subtract_7_prep:9 "£GFX_supply_texticon §R-7§! Préparation."
- CA_subtract_10_prep:9 "£GFX_supply_texticon §R-10§! Préparation."
 
 ### Decisions ###
  CA_unite_central_asia: "Unir l'Asie centrale"
@@ -92,6 +89,7 @@
  CA_crush_opportunists:9 "Écraser les Opportunistes"
 
  CA_hold_out_vs_russia:9 "Tenir Tête à la Russie"
+ CA_defend_kazakhs_tt:9 "Les Kazakhs seront §Rannexés§! s'ils capitulent avant la fin de la guerre. Défendez vos frères du Nord !"
  CA_hold_out_vs_socialist_russia:9 "Tenir Tête aux Socialistes"
  CA_attack_socialist_bukhara_timer:9 "Attaquer la Boukhara Rouge"
  CA_socialist_russian_intervention_timer:9 "Intervention Russe Imminente"
@@ -714,8 +712,8 @@
  cacrisis.509.a:9 "Rejeter les Turcs et essayer de rallier les modérés."
  cacrisis.509.b:9 "Expulser tous ceux qui ont réfléchi sérieusement à cette question !"
 
- cacrisis.510.t:9 "Arrivée des socialistes boukhariens à Moscou"
- cacrisis.510.d:9 "Un petit groupe de révolutionnaires de la nouvelle république socialiste d'Asie centrale, la république de Zeravshan, est arrivé à Moscou, demandant notre aide pour le développement de leur république et la création d'un nouvel élan pour saper les nations réactionnaires de Khiva et du Turkestan. Ils estiment que le moment est propice aux révolutions de gauche dans toute la région, soulignant les activités du parti de l'Union nationale au Turkestan et des Jeunes Khivans. Bien que les factions socialistes de ces partis et organisations soient relativement petites, elles ont des liens profonds avec les personnalités nouvellement élevées à Boukhara et ont été sérieusement revigorées par leur victoire.\n\nBien que nos ressources soient relativement limitées, la vérité est que même des investissements limités dans les conflits d'Asie centrale peuvent rapporter de sérieux dividendes, car même les fusils de la guerre russo-japonaise sont de loin supérieurs à la grande majorité des armes utilisées actuellement par les mouvements révolutionnaires de la région."
+ cacrisis.510.t:9 "Les socialistes [BUK.GetAdjective]s arrivent à Moscou"
+ cacrisis.510.d:9 "Un petit groupe de révolutionnaires de la nouvelle république socialiste d'Asie centrale, [BUK.GetNameDef], est arrivé à Moscou, demandant notre aide pour le développement de leur république et la création d'un nouvel élan pour saper les nations réactionnaires de Khiva et du Turkestan. Ils estiment que le moment est propice aux révolutions de gauche dans toute la région, soulignant les activités du parti de l'Union nationale au Turkestan et des Jeunes Khivans. Bien que les factions socialistes de ces partis et organisations soient relativement petites, elles ont des liens profonds avec les personnalités nouvellement élevées à Boukhara et ont été sérieusement revigorées par leur victoire.\n\nBien que nos ressources soient relativement limitées, la vérité est que même des investissements limités dans les conflits d'Asie centrale peuvent rapporter de sérieux dividendes, car même les fusils de la guerre russo-japonaise sont de loin supérieurs à la grande majorité des armes utilisées actuellement par les mouvements révolutionnaires de la région."
  cacrisis.510.a:9 "Fournir de vagues assurances et une aide limitée."
  cacrisis.510.b:9 "Donnez-leur ce dont ils ont besoin !"
 

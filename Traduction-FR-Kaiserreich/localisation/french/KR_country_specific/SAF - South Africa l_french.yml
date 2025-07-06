@@ -1,10 +1,10 @@
 ﻿l_french:
 
 ### Parties ###
- SAF_totalist_party: "ICU"
+ SAF_totalist_party:9 "ICU (Africaniste)"
  SAF_totalist_party_long: "Industrial and Commercial Workers' Union (Africaniste)"
 
- SAF_syndicalist_party: "ICU"
+ SAF_syndicalist_party:9 "ICU (Syndicaliste)"
  SAF_syndicalist_party_long: "Industrial and Commercial Workers' Union (Syndicaliste)"
 
  SAF_radical_socialist_party: "ISL"
@@ -13,22 +13,22 @@
  SAF_social_democrat_party: "National Council Labour"
  SAF_social_democrat_party_long: "Labour Party (Conseil national)"
 
- SAF_social_liberal_party: "SAP-L"
+ SAF_social_liberal_party:9 "SAP (Libéraux)"
  SAF_social_liberal_party_long: "South African Party (Libéraux)"
 
- SAF_market_liberal_party: "SAP-U"
+ SAF_market_liberal_party:9 "SAP (Unionistes)"
  SAF_market_liberal_party_long: "South African Party (Unionistes)"
 
- SAF_social_conservative_party: "SAP-C"
+ SAF_social_conservative_party:9 "SAP (Conservateurs)"
  SAF_social_conservative_party_long: "South African Party (Conservateurs)"
 
- SAF_authoritarian_democrat_party: "National Party"
+ SAF_authoritarian_democrat_party:9 "National Party"
  SAF_authoritarian_democrat_party_long: "National Party ( Modérés)"
 
- SAF_paternal_autocrat_party: "Gesuiwerde"
+ SAF_paternal_autocrat_party:9 "Gesuiwerde"
  SAF_paternal_autocrat_party_long: "National Party (Nationalistes afrikaners)"
 
- SAF_national_populist_party: "National Party"
+ SAF_national_populist_party:9 "National Party"
  SAF_national_populist_party_long: "National Party (Extrémistes)"
 
  SAF_paternal_autocrat_party_PNP: "Purified National Party"
@@ -48,7 +48,7 @@
  SAF_party_purified_national_nationalist:0 "Purified National Party (Nationalistes afrikaners)"
  SAF_party_purified_national_extremist:0 "Purified National Party (Extrémistes)"
 
- SAF_party_national_conservative:0 "National Conservative"
+ SAF_party_national_conservative:0 "PCN"
  SAF_party_national_conservative_long:0 "National Conservative Party"
 
  SAF_party_independents:0 "Independents"
@@ -73,13 +73,19 @@
  SAF_party_dominion:0 "Dominion"
  SAF_party_dominion_long:0 "Dominion Party"
 
- SAF_party_ANC: "ANC"
- SAF_party_ANC_socialists: "African National Congress (Socialistes)"
- SAF_party_ANC_liberal: "African National Congress (Libéraux)"
- SAF_party_ANC_conservatives: "African National Congress (Conservateurs)"
- SAF_party_ANC_nationalists: "African National Congress (Nationalistes)"
+ SAF_party_ANC_socialists:9 "African National Congress (Socialistes)"
+ SAF_party_ANC_socialists_long:0 "African National Congress (Socialistes)"
 
- SAF_party_liberal:0 "Libéral"
+ SAF_party_ANC_liberals:9 "ANC (Liberals)"
+ SAF_party_ANC_liberals_long:0 "African National Congress (Libéraux)"
+
+ SAF_party_ANC_conservatives:9 "African National Congress (Conservateurs)"
+ SAF_party_ANC_conservatives_long:0 "African National Congress (Conservateurs)"
+
+ SAF_party_ANC_nationalists:9 "African National Congress (Nationalistes)"
+ SAF_party_ANC_nationalists_long:0 "African National Congress (Nationalistes)"
+
+ SAF_party_liberal:9 "Libéral"
  SAF_party_liberal_long: "Parti Libéral d'Afrique du Sud"
 
  SAF_party_afrikaner: "Afrikaner"
@@ -784,9 +790,9 @@ south_african_vickers: "Vickers-Armstrong South Africa"
 ### Tooltips ###
  saf_tt_will_expect_repeal_ICA: "Les sympathisants unionistes de notre groupe parlementaire au Volksraad s'attendent à ce que nous §Yabrogions la loi sur la conciliation industrielle§!.\n"
  saf_tt_repeal_focus_will_be_cancelled: "L'§YAbrogation de l'Industrial Conciliation Act§! sera annulée."
- saf_flag_lack_majority_volksraad: "Le gouvernement n'a pas de §Ymajorité dans le Volksraad§! pour la motion."
+ SAF_flag_lack_majority_volksraad:0 "Le gouvernement n'a pas de §Ymajorité dans le Volksraad§! pour la motion."
  saf_flag_gave_in_to_strikers: "A cédé aux §Ydemandes des grévistes§!."
- saf_flag_elections_held: "Des élections ont eu lieu."
+ SAF_elections_held:0 "Des élections ont eu lieu."
  saf_flag_fusion_elections_held: "Les élections de 1943 ont eu lieu."
  saf_flag_nuweveld_completed: "Le nombre de colons blancs dans le Bechuanaland dépasse les §Y30 000§!"
  SAF_national_conservative_party_formed: "Le §YNational Conservative Party§! s'est formé."
@@ -879,7 +885,6 @@ south_african_vickers: "Vickers-Armstrong South Africa"
  SAF_tt_unemployment_below_threshold: "Le §YTaux de Chômage§! est tombé en-dessous de $RIGHT|R%0$."
  SAF_tt_national_becomes_natpop: "§YL'aile extremiste§! deviendra l'aile §Ydominante§! du §YNational Party§!.\n"
  SAF_tt_MAF_takes_northern_mozambique: "Les §YZambezi§! formeront la nouvelle frontière entre l'§YAfrique du Sud§! et §YMittelafrika§! en §YMozambique§!.\n"
- SAF_no_more_loans:0 "Nous avons déclaré l'état de banqueroute un peu plus tôt."
  SAF_tt_internal_resistance_enabled: "Les §YRésistances Internes§! contre la guerre vont commencer à s'organiser."
  SAF_getWarStance_nonexistent: "§YOrganisation Inactive§!"
  SAF_getWarStance_antiwar: "§RAnti-Guerre§!"
@@ -905,8 +910,6 @@ south_african_vickers: "Vickers-Armstrong South Africa"
 ### Decisions ###
  SAF_nuweveld_decisions:0 "Le projet Nuweveld"
  SAF_nuweveld_decisions_desc:9 "Les terres sauvages du Bechuanaland ont été pour la plupart épargnées par la civilisation, en premier lieu parce que le peuple Tswana s'est assuré la protection du Royaume-Uni. A présent, le gouvernement sud-africain a décidé de répudier ces arrangements et d'ouvrir le Bechuanaland à la colonisation blanche.\n\nColons blancs au Bechuanaland : §G[?542.SAF_whites_in_botswana]§!\nAttractivité des colons : [?542.SAF_settling_attractiveness|%+0]\nRisque d'insurrection : [SAF_getTswanaInsurgency]"
- SAF_third_boer_war_decisions:0 "La troisième guerre des Boers"
- SAF_third_boer_war_decisions_desc:0 "Une fois de plus, les intérêts des colons britanniques et des descendants afrikaners des colons néerlandais d'Afrique du Sud se sont affrontés, et l'Afrique du Sud est à nouveau en feu. Dans un cruel retournement de situation, ce sont maintenant les Britanniques qui ont fait sécession de la domination qu'ils avaient eux-mêmes créée et qui, sous l'influence des nationalistes afrikaners, tentent d'abandonner le giron impérial."
  SAF_ryneveld_doctrine_decisions:0 "Doctrine Ryneveld"
  SAF_ryneveld_doctrine_decisions_desc:0 "La doctrine Ryneveld, formulée par les généraux Jan Smuts et Pierre van Ryneveld, établit que les anciennes colonies appartenant au Royaume-Uni, perdues après leur effondrement à la fin pour la Weltkrieg, ne peuvent être laissées dans l'anarchie jusqu'à ce qu'une force indigène cohérente qui pourrait menacer la civilisation occidentale se forme en Afrique du Sud. Au nom de notre sécurité nationale, il est vital que nous récupérions ces colonies et que nous étendions notre domination sur l'Afrique australe et orientale."
  SAF_black_monday_decisions:0 "Réponse au Lundi Noir"
@@ -924,20 +927,6 @@ south_african_vickers: "Vickers-Armstrong South Africa"
  SAF_yearly_nuweveld_report_desc: "Chaque année, la commission Nuweveld transmettra au gouvernement sud-africain un rapport détaillant les progrès réalisés dans le cadre du projet Nuweveld."
  SAF_control_the_tswana_insurgency: "Contrôler l'insurrection tswana"
  SAF_control_the_tswana_insurgency_desc: "Le peuple tswana s'est révolté contre notre empiètement, techniquement pas tout à fait légal, sur ses terres autrefois protégées. Pour que notre projet de colonisation soit un succès, nous devons nous assurer que nous pouvons contrôler les insurgés tswanas qui errent dans les savanes, qui frappent et se retirent ensuite dans la brousse."
-
- SAF_hold_natal_mission:0 "Défendre le Natal"
- SAF_hold_natal_mission_desc:0 "Si nous voulons assurer notre indépendance et notre loyauté envers le Roi-Empereur en tant que Natal, nous devons veiller à ce que notre cœur, la province, ne tombe pas aux mains des forces boers. Si nous tenons bon suffisamment longtemps, cela forcera probablement les Sud-Africains à s'asseoir à la table des négociations."
- SAF_conquer_natal_mission:0 "Conquérir le Natal"
- SAF_conquer_natal_mission_desc:0 "La conquête de la province rebelle du Natal doit être la priorité absolue : en tant que province côtière, elle peut servir de point de transit pour les forces kaki qui affluent en Afrique du Sud si elle n'est pas rapidement pacifiée. Si nous ne parvenons pas à vaincre les Nataliens, nous risquons d'être contraints à la table de paix et de perdre définitivement la région."
- SAF_defend_south_africa_mission:0 "Défendre l'Afrique du Sud"
- SAF_defend_south_africa_mission_desc:0 "Nos rebelles nationaux ont été pour la plupart pacifiés, mais leurs maîtres [ENT.GetAdjective] ne sont pas encore prêts à abandonner. Cependant, si nous pouvons les empêcher de gagner du terrain ici en Afrique du Sud, ils seront obligés d'abandonner à un moment donné."
- ENT_invade_south_africa_mission:0 "Envahir l'Afrique du Sud"
- ENT_invade_south_africa_mission_desc:0 "Nos alliés sur le terrain en Afrique du Sud ont malheureusement été dépassés par les forces boers, numériquement supérieures. Il est primordial que nous reprenions pied dans la région, sinon nous serons contraints de reconnaître le statu quo républicain à temps."
-
- SAF_defend_socialist_south_africa_mission:0 "Défendre l'Afrique du Sud"
- SAF_defend_socialist_south_africa_mission_desc:0 "Les marionnettes capitalistes ont été pour la plupart neutralisées, mais leurs maîtres [ENT.GetAdjective] ne sont pas encore prêts à abandonner. Cependant, si nous pouvons les empêcher de gagner du terrain ici en Afrique du Sud, ils seront obligés d'abandonner à un moment donné."
- ENT_invade_socialist_south_africa_mission:0 "Envahir l'Afrique du Sud"
- ENT_invade_socialist_south_africa_mission_desc:0 "Nos alliés en Afrique du Sud ont malheureusement été renversés par une foule de milices syndicalistes. Il est primordial que nous prenions à nouveau pied dans la région, sinon nous serons contraints de reconnaître le statu quo républicain à temps."
 
  SAF_decision_township_modernisation: "Améliorer les conditions de logement dans les townships"
  SAF_decision_township_modernisation_desc: "Avec la levée des restrictions précédentes sur la circulation des Sud-Africains noirs vers nos villes, les townships entourant ces villes sont devenus de plus en plus surpeuplés, submergeant les gouvernements locaux et rendant les conditions de vie dans ces townships très mauvaises. Pour résoudre ce problème, il faudra mettre en place un programme de logement à grande échelle."
@@ -1413,7 +1402,6 @@ SAF_KR_gathering_storm_desc: "Certains diront que l'Afrique du Sud est l'endroit
  saf.76.d: "L'année prochaine, le Grand Trek aura commencé il y a exactement un siècle : en 1838, des colons néerlandophones de la colonie du Cap ont commencé à faire un trek - migrer - vers l'est pour échapper à l'influence de l'administration coloniale britannique qui, à l'époque, s'étendait approximativement du Cap à Port Elizabeth, ce qui a finalement conduit directement à la création de la République Boer de Natalia dans ce qui est aujourd'hui la province du Natal et après sa disparition à celle de l'État libre d'Orange et de la République sud-africaine (Transvaal).\n\nPour célébrer cette occasion, le comité du centenaire du Grand Trek a été formé. Il prévoit d'organiser une reconstitution du Grand Trek avec d'authentiques charrettes à bœufs qui se déplaceront de ville en ville, en commençant au Cap en août de l'année prochaine, pour arriver finalement à Pretoria à un endroit désigné le jour de la fête de Dingaan, où sera posée la fondation d'un grand monument Voortrekker. Bien entendu, le comité attend un soutien important de l'État pour ce projet de commémoration de l'histoire des Afrikaners."
  saf.76.a: "Nous apporterons une contribution importante."
  saf.76.b: "Intéressant, mais nous ne pouvons pas épargner l'argent."
- saf.76.c: "Nous ne pouvons pas permettre qu'un traumatisme national soit célébré !"
 
  saf.77.t: "Des organisations africaines réunissent des fonds pour le centenaire"
  saf.77.d: "Suite au refus du gouvernement de financer les festivités prévues pour le centenaire du Grand Trek, les organisations culturelles afrikaner ont choisi de leur propre chef de collecter des fonds. Bien que cette collecte de fonds ait été assez réussie, le montant n'est guère comparable au financement de l'État qui était attendu par le comité, mais au moins les festivités n'ont pas besoin d'être annulées.\n\nIl est clair cependant que de nombreux Afrikaners n'apprécient pas que le gouvernement ait refusé de financer correctement cette ode à leur histoire."
@@ -1502,12 +1490,12 @@ SAF_KR_gathering_storm_desc: "Certains diront que l'Afrique du Sud est l'endroit
  saf.95.a: "Comment osent-ils nous abandonner alors que nous sommes dans le besoin ?"
 
  saf.96.t: "Le retour à la maison a commencé"
- saf.96.d: "Le jour est venu : le gouvernement britannique en exil, dirigeant l'Empire dont nous faisons partie, au moins théoriquement, a commencé son opération pour arracher les îles britanniques à la menace syndicaliste.\n\nL'opposition du parti sud-africain, comme on peut s'y attendre, soutient pleinement la participation de l'Afrique du Sud en vertu d'un devoir perçu d'aider la couronne dans cette lutte, et au nom de la liberté et de la démocratie.\n\nLe gouvernement national ne s'identifie pas à ce sens de l'obligation, et s'il y avait eu des raisons de croire qu'une Troisième Internationale non contrôlée resterait en Europe, il aurait bien pu déclarer la neutralité. Cependant, à la lumière du soutien de l'Internationale à la règle de la majorité en Afrique du Sud et de leur rhétorique de propagation du syndicalisme aux quatre coins du monde, a convaincu le cabinet que les syndicalistes sont une menace mortelle pour l'Afrikaner et même plus largement, pour la nation sud-africaine blanche et que elle doit par conséquent soutenir la lutte britannique dans son propre intérêt."
- saf.96.a: "Ils veulent nous détruire"
-
- saf.97.t: "Le retour à la maison a commencé"
- saf.97.d: "Le jour est venu : le gouvernement britannique en exil, à l'empire duquel nous appartenons, a commencé son opération pour reprendre les îles britanniques de la menace syndicaliste.\n\nBien sûr, le gouvernement dirigé par les Smuts est désireux de remplir les obligations morales de l'Afrique du Sud pour aider à libérer l'Angleterre du syndicalisme, malgré les gémissements des banques nationalistes d'opposition qui veulent les abandonner en cette heure de besoin."
- saf.97.a: "God save the king !"
+ saf.96.d.sap:0 "Le jour est venu : le gouvernement britannique en exil, à l'empire duquel nous appartenons, a commencé son opération pour reprendre les îles britanniques de la menace syndicaliste.\n\nBien sûr, le gouvernement dirigé par les Smuts est désireux de remplir les obligations morales de l'Afrique du Sud pour aider à libérer l'Angleterre du syndicalisme, malgré les gémissements des banques nationalistes d'opposition qui veulent les abandonner en cette heure de besoin."
+ saf.96.d.national:0 "Le jour est venu : le gouvernement britannique en exil, dirigeant l'Empire dont nous faisons partie, au moins théoriquement, a commencé son opération pour arracher les îles britanniques à la menace syndicaliste.\n\nL'opposition du parti sud-africain, comme on peut s'y attendre, soutient pleinement la participation de l'Afrique du Sud en vertu d'un devoir perçu d'aider la couronne dans cette lutte, et au nom de la liberté et de la démocratie.\n\nLe gouvernement national ne s'identifie pas à ce sens de l'obligation, et s'il y avait eu des raisons de croire qu'une Troisième Internationale non contrôlée resterait en Europe, il aurait bien pu déclarer la neutralité. Cependant, à la lumière du soutien de l'Internationale à la règle de la majorité en Afrique du Sud et de leur rhétorique de propagation du syndicalisme aux quatre coins du monde, a convaincu le cabinet que les syndicalistes sont une menace mortelle pour l'Afrikaner et même plus largement, pour la nation sud-africaine blanche et que elle doit par conséquent soutenir la lutte britannique dans son propre intérêt."
+ saf.96.d.fusion:0 "Le jour est venu : le gouvernement britannique en exil, dirigeant l'Empire dont nous faisons partie, au moins théoriquement, a commencé son opération pour arracher les îles britanniques à la menace syndicaliste.\n\nLe gouvernement de coalition soutient sans réserve la participation, bien que les différentes sensibilités du parti sous l'autorité de Jan Smuts et de James Hertzog le fassent pour différentes raisons :\n\nPour Smuts et ses partisans, soutenir le retour de la monarchie canadienne dans ses îles d'origine est un devoir que l'Afrique du Sud lui doit et nécessaire à la défense de la liberté et de la démocratie.\n\nLes Hertzogites du Parti Unifié ainsi que même les Gesuiwerdes du Dr. D. F. Malan ne ressent pas une telle obligation, mais ils voient les syndicalistes avec leurs appels à la révolution mondiale et leur soutien à la règle de la majorité en Afrique du Sud comme une menace mortelle pour la nation afrikaner. Le gouvernement vote :"
+ saf.96.a.sap:0 "God save the king !"
+ saf.96.a.national:0 "Ils veulent nous détruire"
+ saf.96.a.fusion:0 "Onze voix contre zéro en faveur de la guerre!"
 
  saf.98.t: "Un nouveau gouverneur général ?"
  saf.98.d: "Notre actuel gouverneur général, George Villiers, a pris ses fonctions en 1931 et est un noble en exil qui était le whip en chef du gouvernement à la Chambre des lords britannique avant la révolution syndicaliste. Bien que le comte ait fait un excellent travail en remplissant le devoir du roi en Afrique du Sud, des voix se sont élevées pour dire qu'il est grand temps qu'un citoyen sud-africain occupe ce poste prestigieux, au lieu d'un fonctionnaire en exil. Alors que le roi-empérateur ne prendra probablement pas le risque de nommer un Afrikaner, l'anglophone Sir Patrick Duncan a été proposé pour remplacer le comte. Certains membres du gouvernement en exil ont également suggéré de rapprocher l'Afrique du Sud de la couronne en nommant un membre de la famille royale, mais cette idée a été poliment détournée par le gouvernement sud-africain étant donné la sensibilité de la question de la monarchie dans ce pays."
@@ -1786,18 +1774,10 @@ SAF_KR_gathering_storm_desc: "Certains diront que l'Afrique du Sud est l'endroit
  saf.173.d: "Jan Hendrik Hofmeyr affirme régulièrement qu'à un moment donné, la population indigène devrait être représentée par l'un des leurs. Sans surprise, c'était la pire crainte des nationalistes, et de nombreux Sud-Africains blancs semblaient ne pas avoir adhéré à cette idée, car la publication de cette notion avait tendance à faire basculer les élections partielles en faveur des nationalistes.\n\nCependant, les temps changent, et maintenant une majorité suffisamment importante dans le Volksraad a été réunie pour adopter la loi sur la participation des autochtones. Cette loi stipule que le cabinet doit nommer un membre de la communauté autochtone comme ministre des affaires autochtones avec un vote au sein du cabinet. Le [getSAPorUnited] a accompagné le projet de loi déposé avec l'intention de nommer un autochtone à ce poste dès que ce projet de loi aura été adopté par le Volksraad."
  saf.173.a: "La motion est adoptée !"
 
- saf.174.t: "Traité de Johannesburg"
- saf.174.d: "Les forces pro-[ENT.GetAdjective] en Afrique du Sud ont été solidement défaites, et nos forces se sont révélées incapables de reprendre pied dans la région. Compte tenu de ces faits, nous n'avons guère d'autre choix que d'accepter la prise de contrôle de l'Afrique du Sud par les syndicalistes.\n\nNos représentants ont rencontré leurs homologues sud-africains à Johannesburg, le lieu de naissance de la révolution sud-africaine. Selon les termes du traité, nous devons reconnaître les provinces d'Afrique du Sud, ainsi que les territoires du Haut Commissaire du Basutoland, du Swaziland et du Bechuanaland, comme des territoires sud-africains légitimes, et nous devons renoncer à nos revendications sur l'Afrique du Sud."
- saf.174.a: "Signé."
-
- saf.175.t: "Traité de Johannesburg"
- saf.175.d: "Hoggenheimer a été décapité : l'ouvrier sud-africain a pris son destin entre les mains des lâches [ENT.GetAdjective] impérialistes et capitalistes qui ont pillé notre pays pendant si longtemps !\n\nLes foules à Johannesburg crient aux diplomates [ENT.GetAdjective]s qui sont arrivés pour signer l'acceptation par leur gouvernement que l'Afrique du Sud sera un membre libre et indépendant de la communauté internationale."
- saf.175.a: "Si seulement Taffy Long pouvait nous voir maintenant !"
-
  saf.176.t: "Révolution en Afrique du Sud"
  saf.176.d: "Une nouvelle désastreuse est arrivée en Afrique du Sud : notre allié de poids, le premier ministre Jan Smuts, a été évincé par une foule de rebelles syndicalistes, recréant en gros la révolution en Grande-Bretagne en 1925. Les prolétaires ont déclaré un État ouvrier à Pretoria, sur le modèle de l'Union Britanniques. Étant donné le positionnement stratégique de l'Afrique du Sud, certains cherchent à intervenir immédiatement dans ce pays pour le ramener au bercail, mais étant donné la situation isolée de l'Afrique du Sud, il pourrait être assez difficile de les envahir réellement, surtout dans un délai aussi court."
- saf.176.a: "Nous ne pouvons pas nous permettre d'être coupés de nos possessions asiatiques et océaniques !"
- saf.176.b: "C'est désastreux, mais nous ne pouvons pas agir maintenant !"
+ saf.176.a:9 "Nous ne pouvons pas nous permettre d'être coupés de nos possessions asiatiques et océaniques !"
+ saf.176.b:0 "C'est désastreux, mais nous ne pouvons pas agir maintenant !"
 
  saf.177.t: "Formalisation de la Christian National Republic"
  saf.177.d: "En obéissance à Dieu Tout-Puissant et à Sa Sainte Parole, le peuple afrikaans reconnaît sa destination nationale, telle qu'elle est incarnée dans son passé Voortrekker, pour le développement chrétien de l'Afrique du Sud, et pour cette raison accepte que la Constitution républicaine qui suit, remplace toutes les réglementations existantes en droit qui sont en conflit avec elle, et en particulier avec l'abolition totale de la royauté britannique sur les sujets britanniques au sein de la République. Comme on le verra, la constitution n'est destinée qu'aux Afrikaners, les Anglais devant jouer un rôle subalterne.\n\nC'est le premier article de la nouvelle constitution qui a été ratifiée par le commandant général Van Rensburg aujourd'hui à Pretoria. La nouvelle base du droit sud-africain, rédigée par le professeur Lodewicus du Plessis de l'université Potchefstroom, supprime complètement l'ancienne constitution de la république de D.F. Malan, basée sur la loi sud-africaine de 1909.\n\nLa nouvelle constitution proclame l'afrikaans comme la langue nationale, tout en réduisant l'anglais à un simple "supplément", et confère tous les pouvoirs au "Volksleier" - le chef du peuple - qui n'est responsable que devant Dieu, ne doit pas être soumis à des votes au sein du parlement consultatif et peut appliquer et ratifier les lois sur sa signature personnelle. La citoyenneté ne sera due qu'à ceux "dont on peut attendre qu'ils agissent comme bâtisseurs de la nation" et que l'on appelle "hamburgers". Elle donne également à l'État l'autorisation expresse de censurer les "hamburgers" et les organisations qui mettent en danger l'ordre public ou le bon moral de la république.\n\nCe qui légitime et rend suprême le pouvoir du nouveau Volksleier Van Rensburg."
@@ -1868,10 +1848,6 @@ SAF_KR_gathering_storm_desc: "Certains diront que l'Afrique du Sud est l'endroit
  saf.193.t: "L'Occupation [MAF.GetAdjective] du Nord du Mozambique"
  saf.193.d: "Suivant de près notre passage de la frontière, le gouvernement [MAF.GetAdjective] s'est démené pour sécuriser la partie nord du Mozambique, qui n'a pas pu être sécurisée en raison de nos ressources limitées. Désormais, la frontière de facto sépare le Mozambique en deux, en suivant le fleuve Zambèze. Leur réaction a certainement légitimé notre prise de pouvoir. Si nous n'avions pas fait cela, il est presque certain qu'ils auraient occupé tout le Mozambique."
  saf.193.a: "Le Zambèze devra faire office de frontière."
-
- saf.200.t:0 "Le retour à la maison a commencé"
- saf.200.d: "Le jour est venu : le gouvernement britannique en exil, dirigeant l'Empire dont nous faisons partie, au moins théoriquement, a commencé son opération pour arracher les îles britanniques à la menace syndicaliste.\n\nLe gouvernement de coalition soutient sans réserve la participation, bien que les différentes sensibilités du parti sous l'autorité de Jan Smuts et de James Hertzog le fassent pour différentes raisons :\n\nPour Smuts et ses partisans, soutenir le retour de la monarchie canadienne dans ses îles d'origine est un devoir que l'Afrique du Sud lui doit et nécessaire à la défense de la liberté et de la démocratie.\n\nLes Hertzogites du Parti Unifié ainsi que même les Gesuiwerdes du Dr. D. F. Malan ne ressent pas une telle obligation, mais ils voient les syndicalistes avec leurs appels à la révolution mondiale et leur soutien à la règle de la majorité en Afrique du Sud comme une menace mortelle pour la nation afrikaner. Le gouvernement vote :"
- saf.200.a: "Onze voix contre zéro en faveur de la guerre!"
 
  saf.201.t:0 "Le décès du général Hertzog"
  saf.201.d: "Le très honorable général James Barry Munnik Hertzog est décédé aujourd'hui dans sa maison familiale. La mort du général boer d'origine allemande de l'État libre d'Orange, Premier Ministre en exercice et co-fondateur du Parti Unifié ainsi que fondateur du Parti National précédent, marque un tournant dans l'histoire sud-africaine. Elle met une fin définitive à la rivalité raccommodée entre les politiciens du Transvaal et de l'État libre d'Orange qui a défini la scène politique sud-africaine depuis la formation du syndicat.\n\nAlors que les préparatifs des funérailles sont en cours, le Parti Unifié doit décider de qui deviendra son nouveau chef de partiet donc, le nouveau Premier Ministre. Il est bien connu que Hertzog a favorisé son protégé au sein de la faction la plus modérée du Parti National, Nicolaas Havenga. Cependant, il est contesté par les deux ailes qui composaient autrefois le Parti Sud-Africain : d'une part, l'ancien général rival de Hertzog et ancien Premier Ministre, Jan Smuts, devrait être le favori, ayant joué un rôle déterminant dans la cohésion du parti. loin de sa position de conservateur pragmatique. Son protégé beaucoup plus jeune et plus libéral, Jan Hendrik Hofmeyr, est également en lice pour le poste, promettant un renversement radical du cap du Parti Unifié."
@@ -2148,6 +2124,19 @@ SAF_KR_gathering_storm_desc: "Certains diront que l'Afrique du Sud est l'endroit
  saf.500.d:0 "La maison d'édition George Allwen et Unwin a publié un nouveau livre de l'émigré Britannique J.R.R. Tolkien, revenu en Afrique du Sud après la révolution. Il raconte l'histoire de Bilbo Sacquet, une étrange petite créature appelée Hobbit, qui part à l'aventure avec des sorciers, des nains, des géants, des gobelins et un dragon cracheur de feu avant de rentrer chez lui avec un homme riche. Le conte a déjà été largement acclamé par la critique et Tolkien a été nominé pour des prix littéraires. On a laissé entendre qu'il travaille sur quelque chose de plus long et de plus grand, mais le perfectionnisme notoire de l'auteur pourrait bien retarder sa publication."
  saf.500.a:0 "Une histoire délicieuse !"
 
+ saf.501.t:0 "La Seconde Rébellion de Rand"
+ saf.501.d:0 "La base industrielle de l'Afrique du Sud, le Rand, est depuis longtemps un foyer syndicaliste. Jusqu'à présent, les intérêts des travailleurs blancs n'ont jamais pu se concilier avec ceux des indigènes. Peu de gens s'attendaient à ce que la plus grande fédération syndicale d'Afrique du Sud, le Conseil des Métiers et du Travail d'Afrique du Sud, l'Union des Travailleurs Industriels et Commerciaux, et la Ligue Socialiste Internationale multiraciale surmontent leurs différences et renversent le gouvernement du dominion d'Afrique du Sud.\n\nOn signale déjà des frictions entre les socialistes blancs et les socialistes de couleur dans la nouvelle administration, qui réclament le droit pour les anciennes sous-classes raciales d'avoir un rôle de premier plan dans le nouveau gouvernement. On ignore si le syndicalisme peut survivre sans compromettre son identité, dans cet environnement politique hostile."
+ saf.501.a:0 "L'Hydre rouge a atteint le continent noir ?!"
+ saf.501.b:0 "L'Internationale unit le genre humain !"
+
+ saf.502.t:0 "La loi sur l'émancipation des personnes de couleur, est adoptée"
+ saf.502.d:0 "Nouvelles surprenantes d'Afrique du Sud : leur parlement, également connu sous le nom de Volksraad, a approuvé une loi demandée par le gouvernement qui émancipe les Sud-Africains d'origine mixte, connus dans le pays sous le nom de "Coloureds".\n\nLes craintes que l'accord soit torpillé par l'opposition et les éléments conservateurs dans les rangs du gouvernement ne se sont pas concrétisées. Le ministre libéral afrikaner et auteur du projet de loi, Jan Hendrik Hofmeyr, a déclaré que ce n'était que la première étape d'une transition progressive vers une Afrique du Sud qui sera vraiment équitable pour tous ses citoyens. D'autres alliés du Volksraad n'ont pas tardé à ajouter la mise en garde suivante : ils ne sont pas prêts à compromettre les intérêts de la population blanche d'Afrique du Sud dans ce processus."
+ saf.502.a:0 "Un nouveau cap audacieux pour l'Afrique du Sud."
+
+ saf.503.t:0 "Début de la troisième guerre des Boers"
+ saf.503.d:0 "Le ressentiment entre les colons néerlandais et britanniques d'Afrique du Sud couve depuis la fin de la Seconde Guerre des Boers : les premiers cherchant surtout à faire divorcer l'Afrique du Sud de l'Empire britannique tandis que les seconds cherchent à rester aussi proches que possible de celui-ci, la reprise du conflit était peut-être inévitable dès le départ : profitant de leur majorité au sein de l'électorat, les Afrikaners ont déclaré que l'Afrique du Sud était une république indépendante sous la direction du Dr D.F. Malan. Les provinces anglophones de Rhodésie du Sud et du Natal ont peu après déclaré leur loyauté à l'Empire et leur sécession de la république.\nAlors que les lignes de bataille se dessinent, une intervention semble de plus en plus probable. Les Britanniques pourront-ils finalement pacifier définitivement l'Afrique du Sud, ou les Boers retrouveront-ils l'indépendance à laquelle ils ont dû renoncer en 1902 ?"
+ saf.503.a:0 "La troisième fois, c'est la bonne..."
+
 # Death of Smuts, useful loc - Press F to show respect
  #saf.92.t: "The Death of Jan Smuts"
  #saf.92.d.notfederation: "Jan Smuts passed away today at his family farm of Doornkloof, in Irene, near Pretoria. A giant of South African politics, General Smuts has played a decisive role in the nation's history for the last half century. Originally a commander of a Boer Kommando in the 2nd Boer War, Smuts would go on to reconcile his Afrikaner heritage and forge a loyalty to the British Empire that never wavered through the subsequent years. Fighting in the Weltkrieg against the German general, Paul von Lettow Vorbeck, Smuts returned home to South Africa, becoming Prime Minister for a time. His position as leader of the Dominion Party has been filled by Herbert J. Stanley."
@@ -2244,10 +2233,14 @@ SAF_republic_national_populist_DEF: "la République d'Afrique du Sud"
  SAF_republic_puppet_national_populist:0 "République d'Afrique du Sud"
  SAF_republic_puppet_national_populist_DEF:0 "la République d'Afrique du Sud"
 
+ SAF_socialist_civil_war:9 "Second Rand Revolt"
+ SAF_socialist_civil_war_ADJ:0 "Socialiste"
+ SAF_socialist_civil_war_DEF:9 "the Second Rand Revolt"
+
 ### Characters ###
  SAF_james_arnold_la_guma: "James Arnold La Guma"
  SAF_james_arnold_la_guma_leader_desc:9 "§YBorn:§! §LAugust 23rd, 1894, in Bloemfontein, Orange Free State§!\n§YBackground:§! §LJames \"Jimmy\" Arnold La Guma was born to a lower class family of French-Malagasy immigrants, who died shortly after and left James in the care of an uncle in Cape Town. As a coloured man James was not at the bottom of South Africa's racial hierarchy, but his impoverished upbringing nevertheless taught him the grim realities of oppression and inequality. In his boyhood, he participated in the 1906 Cape Town \"Hooligan Riots\", where a multiracial protest of workers and local leftist political leaders was repulsed by police and descended into looting and violence. James for his part joined in by stealing bread and handing it out to the protesting workers. Being largely self-educated, he attributed his first thoughts of class consciousness to reading simple works of proletarian literature and by performing labour-intensive, underpaid jobs. He spent the Weltkrieg in British-occupied Sudwestafrika, toiling on the railroads and in German-owned diamond mines. Here he faced blacklists and arrests, thanks to taking up political activities and trying to organise strikes, which resulted in him returning to South Africa in 1920. James set up shop back in Cape Town, joining Clements Kadalie's Industrial and Commercial Workers' Union and was later elected as its Assistant General Secretary. James emerged as the real power behind the ICU's labour organising, whilst Kadalie tinkered with political theory. Later when Kadalie was deported in 1924, James was tasked together with the British Syndicalist William George Ballinger to argue in Kadalie's absence in order to reconcile the far left of the ICU with its moderate, mainly white wing. Though they managed to secure the ICU's loyalty to Kadalie's vision and James was recognised as leader in Kadalie's absence, the fight over the ICU had a profound effect on James and led him to seriously reconsider the role whites should play in organising the South African labour movement. He began to privately muse that white workers, aware that their privilege always rested on the exploitation of the black proletariat, could not be relied upon to support any revolutionary initiative. James soon forged closer ties with other so-called \"Africanists\" on the radical left who shared this sentiment, such as Albert Nzula and J.T. Gumede. In 1935 he started the exclusively black and coloured National Liberation League. Later, these loyal militants would go on to serve as his own political shock troops in the turbulent days of the Second Rand Revolt.§!"
- SAF_james_arnold_la_guma_commander_desc:9 "§YNaissance :§! §L23 août 1894, à Bloemfontein, État libre d'Orange§!"
+ SAF_james_arnold_la_guma_advisor_desc:0 "§YNaissance :§! §L23 août 1894, à Bloemfontein, État libre d'Orange§!"
 
  SAF_clements_kadalie: "Clements Kadalie"
  SAF_clements_kadalie_leader_desc:9 "§YBorn:§! §LApril 1896, in Chifira, West Nyasa District, British Central Africa Protectorate§!\n§YBackground:§! §LClements Kadalie was born with the native name Lameck Koniwaka Kadali Muwamba to a minor chiefly family. His father and uncle's influence helped secure him entrance to a missionary school, where he turned out to be an exemplary student. At age 16, he was granted a position as a teacher to a minor village school in Nyasaland, but after a year he decided to seek employment as a clerk instead. This eventually brought him to Cape Town, where he first started going by the anglicised name \"Clements Kadalie\". There he met and befriended the white trade unionist Arthur F. Batty and together they joined forces to found a multiethnic trade union, which was dubbed the Industrial and Commercial Workers Union. Clements became known as the \"Father of Black Trade Unionism\" in South Africa and gained a great deal of fame after he and Batty led a dockworkers strike in 1919, an experience that brought them in touch with other leaders of the labour movement, such as James La Guma and Sidney Bunting. As La Guma gained a greater role within the ICU, Clements started focusing his efforts on studying political theory and writing for the ICU's newspaper, \"Black Man\", where he wove together Syndicalist ideas with Pan-Africanism and a religious rhetoric steeped in Garveyism and Ethiopianism.\n\nAs a consequence of his political activism, Clements was deported from South Africa in 1924 and left for Britain, right as the British Revolution began. He soon produced firsthand accounts of the revolution's struggles and offered a spirited defence of British Syndicalism to his peers back in South Africa. Yet in time, he grew disaffected with the African diaspora in Britain and its domination by the Anglican faith. Even though Clements was himself a Presbyterian with strong ties to the Ethiopianist movement, he imagined the need for a post-religious society after the revolution, and eventually packed his bags for Paris where the socio-political culture of Laicism suited him better. After garnering ties with Francophone African radicals, he helped provide input on the future of the ICU, laying out proposals for how the union could continue to operate in his absence and adapt to new circumstances. La Guma and other followers thus helped to promote the multi-ethnic Syndicalist wing of the ICU, against the \"Parallel Unionism\" of the white moderates, winning over indecisive members and helping to calm tensions within the union.\n\nClements himself became the ICU's main representative to the Internationale, keeping a steady watch on his home continent, even in exile, awaiting the spark that could lead to a grand workers uprising, as had happened in France and Britain.§!"

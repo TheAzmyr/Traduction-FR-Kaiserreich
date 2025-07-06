@@ -28,10 +28,6 @@
  GUJ_radical_socialist_ADJ:0 "Gujarati"
  GUJ_radical_socialist_DEF:9 "la République Gujarati"
 
- INR: "Rebelles Bhârates"
- INR_ADJ: "Bhârate"
- INR_DEF: "les Rebelles Bhârates"
-
  KAS: "Cachemire"
  KAS_ADJ: "Cachemirien"
  KAS_DEF:9 "Jammu-et-Cachemire"
@@ -199,6 +195,8 @@
  GUJ_bahman_pestonji_wadia_leader_desc:9 "§YNaissance :§! §L8 octobre 1881, à Bombay, Présidence de Bombay, Inde britannique§!"
  GUJ_sayajirao_gaekwad_iii: "Sayajirao Gaekwad III"
  GUJ_sayajirao_gaekwad_iii_leader_desc:9 "§YNaissance :§! §L11 mars 1863, à Kavlana, État de Baroda, Inde§!"
+ GUJ_pratap_singh_rao_gaekwad:9 "Pratap Singh Rao Gaekwad"
+ GUJ_pratap_singh_rao_gaekwad_leader_desc:9 "§YNaissance :§! §L29 juin 1908, à Baroda, État de Baroda, Inde§!"
 
  PJB_sajjad_zaheer:9 "Sajjad Zaheer"
  PJB_sajjad_zaheer_leader_desc:9 "§YNaissance :§! §L5 novembre 1905, à Lucknow, Provinces unies d'Agra et d'Oudh, Inde britannique§!"
@@ -207,7 +205,7 @@
  PJB_sultan_muhammed_shah:9 "Sultan Muhammed Shah"
  PRF_sultan_muhammed_shah_advisor_desc:9 "§YNaissance :§! §L2 novembre 1877, à Karachi, Présidence de Bombay, Inde britannique§!"
  PJB_liaquat_ali_khan:0 "Liaquat Ali Khan"
- PJB_liaquat_ali_khan_leader_desc:9 "§YNaissance :§! §L1er octobre 1895, à Karnal, province du Pendjab, Inde britannique§!"
+ PJB_liaquat_ali_khan_advisor_desc:0 "§YNaissance :§! §L1er octobre 1895, à Karnal, province du Pendjab, Inde britannique§!"
  PJB_allama_mashriqi:0 "Allama Mashriqi"
  PJB_allama_mashriqi_leader_desc:9 "§YNaissance :§! §L25 août 1888, à Amritsar, province du Pendjab, Inde britannique§!"
  PJB_akbar_khan:0 "Akbar Khan"
@@ -216,11 +214,11 @@
  PJB_abul_ala_maududi_leader_desc:9 "§YNaissance :§! §L25 septembre 1903, à Aurangabad, État d'Hyderabad, Inde§!"
 
  PJB_ali_haidar:0 "Ali Haidar"
- PJB_ali_haidar_commander_desc:9 "§YNaissance :§! §L21 août 1913, à Kohat, province de la Frontière-du-Nord-Ouest, Inde britannique§!"
+ PJB_ali_haidar_high_command_desc:0 "§YNaissance :§! §L21 août 1913, à Kohat, province de la Frontière-du-Nord-Ouest, Inde britannique§!"
  PJB_mahmood_khan_durrani:0 "Mahmood Khan Durrani"
  PJB_mahmood_khan_durrani_commander_desc:9 "§YNaissance :§! §L1er juillet 1914, à Multan, province du Pendjab, Inde britannique§!"
  PJB_shah_nawaz_khan:0 "Shah Nawaz Khan"
- PJB_shah_nawaz_khan_commander_desc:9 "§YNaissance :§! §L24 janvier 1914, à Matore, province du Pendjab, Inde britannique§!"
+ PJB_shah_nawaz_khan_high_command_desc:0 "§YNaissance :§! §L24 janvier 1914, à Matore, province du Pendjab, Inde britannique§!"
 
  KAS_prem_nath_bazaz:9 "Prem Nath Bazaz"
  KAS_prem_nath_bazaz_leader_desc:9 "§YNaissance :§! §L13 juillet 1905, à Budgam, Jammu-et-Cachemire, Inde§!"
@@ -239,16 +237,15 @@
 
  TRV_chithira_thirunal_balarama_varma: "Chithira Thirunal Balarama Varma"
  TRV_chithira_thirunal_balarama_varma_sic_desc:9 "§YNaissance :§! §L8 novembre 1912, à Deepavali, Royaume de Travancore, Inde§!"
- TRV_chandrasekharan_nair: "Chandrasekharan Nair"
- TRV_chandrasekharan_nair_commander_desc:9 "§YNaissance :§! §Là Methu Kummal Vilavan, Royaume de Travancore, Inde§!"
  TRV_p_krishna_pillai:9 "P. Krishna Pillai"
  TRV_p_krishna_pillai_leader_desc:9 "§YNaissance :§! §L19 août 1906, à Vaikom, Royaume de Travancore, Inde§!"
+ TRV_chandrasekharan_nair: "Chandrasekharan Nair"
+ TRV_chandrasekharan_nair_commander_desc:9 "§YNaissance :§! §Là Methu Kummal Vilavan, Royaume de Travancore, Inde§!"
 
 ### Tooltips ###
  india_will_seize_ceylon_if_germany_at_war: "Ceylan sera saisi si cette priorité est prise alors que l'Allemagne est engagée dans une guerre majeure."
- india_compliance_gain_plus_three: "(§YInde§!) $MODIFIER_COMPLIANCE_GAIN_ADD$ : [?0.03|+=%%]"
- india_compliance_gain_plus_two: "(§YInde§!) $MODIFIER_COMPLIANCE_GAIN_ADD$ : [?0.02|+=%%]"
- india_compliance_gain_plus_one: "(§YInde§!) $MODIFIER_COMPLIANCE_GAIN_ADD$ : [?0.01|+=%%]"
+ india_activate_integration_decisions_tooltip:9 "§YD'autres décisions seront prises pour accélérer l'intégration des États récupérés.§!"
+ india_demobilisation_tt:9 "Our nation will begin to demobilise, returning to §YCivilian Economy§! and §YVolunteer Only§!."
 
 ### Shared Decisions ###
 
@@ -256,3 +253,162 @@
  india_invade_tawang_decision_desc: "Au cours du chaos initial qui a conduit à l'effondrement de la domination britannique sur l'Inde, le territoire frontalier de l'Inde de [858.GetName] est tombé sous l'occupation des dirigeants locaux. Maintenant que le sous-continent est à nouveau unifié, il est enfin temps de chercher à rétablir les frontières du pays."
  india_invade_aksai_chin_decision: "Revendiquer [897.GetName]"
  india_invade_aksai_chin_decision_desc: "L'ensemble du Cachemire fait partie de l'Inde, indépendamment des revendications contraires de la Chine, et cela s'étend bien sûr à la partie la plus septentrionale de la région qui est malheureusement tombée sous occupation étrangère. Une demande devrait donc être adressée à [FROM.GetName] pour exiger leur évacuation de la région afin que cette dernière puisse enfin être pleinement placée sous administration [ROOT.GetAdjective]e."
+ india_tackle_resistance_decision:9 "Résistance de l'anse"
+ india_tackle_resistance_decision_desc:9 "Même si l'Inde est unie, il reste d'innombrables personnes amères de leur défaite, prêtes à replonger la nation dans le chaos si jamais elles en ont l'occasion. Nous devons consacrer des ressources considérables pour veiller à ce que ces dissidents soient traités, en utilisant la carotte et le bâton si nécessaire."
+ india_increase_integration_efforts_in_state_decision:9 "Increase Integration Efforts in [FROM.GetName]"
+ india_increase_integration_efforts_in_state_decision_desc:9 "While with enough time our men on the ground will ensure that [FROM.GetName] is properly integrated into the restored nation, it may be prudent to send them additional help to speed up these integration efforts, especially in the more important regions of the country."
+
+ india_reintegration_category:9 "Reintegration of India"
+
+### Shared Events ###
+
+ india.1.t:0 "Choisir la Capitale de [ROOT.GetNameDef]"
+ india.1.d.RAJ:9 "With India finally unified, it is time to rebuild and decide on where we want the capital of the country to be. While Lahore has served us well, it may be wise to move to Delhi, where great work took place before the revolution to turn it into a fitting capital for the nation. Alternatively, we can go back to Calcutta, the old capital of British India, where the period of industrial growth under the Bharatiya People's Republic and its proximity to the coast could be a useful asset to India's trade with the rest of the world. Bombay, meanwhile, has always been one of the most industrious cities on the subcontinent, and unlike Delhi or Calcutta the lack of revolutionary change under the princes could lead to a much smoother restoration of the old administration if chosen as a capital.\n\nAlternatively however, we could simply choose to stay in Lahore, that has stayed our provisional capital, while we slowly integrate the rest of the country and rid it of reactionary and radical elements."
+ india.1.d.HND:0 "L'Inde étant enfin unifiée, il est temps de reconstruire et de décider de l'emplacement de la capitale du pays. Nous pourrions opter pour Delhi, où les progrès réalisés pour en faire le centre de l'administration du Raj depuis 1911 ont été interrompus par la révolution britannique, bien qu'il s'agisse d'un rappel de notre passé colonial. Bombay, quant à elle, a toujours été l'une des villes les plus industrieuses du sous-continent et l'une de celles où le socialisme peut facilement s'implanter.\n\nSi le fait de s'installer dans l'une de ces villes pourrait nous aider à obtenir le soutien de la population, celle-ci n'a pas encore compris les avantages du socialisme sous la direction de notre chef, [ROOT.GetLeader]. Rester à Calcutta, le foyer de la révolution, serait également symbolique pour les générations à venir."
+ india.1.d.PRF:0 "L'Inde étant enfin unifiée, il est temps de reconstruire et de décider de l'emplacement de la capitale du pays. Nous pourrions opter pour Delhi, où les progrès réalisés pour en faire le centre de l'administration du Raj depuis 1911 ont été interrompus par la Révolution britannique, bien qu'il s'agisse d'un rappel de notre passé colonial et que [ROOT.GetLeader] ait toujours voulu son indépendance par rapport au reste de l'Inde. Nous pouvons également nous rendre à Lahore, l'ancienne capitale provisoire de l'Inde britannique, et dans plusieurs des grands empires du passé du sous-continent, si nous souhaitons nous aussi revendiquer la succession de leurs grands héritages.\n\nSéjourner à Hyderabad peut également être un choix judicieux, où les décennies d'investissement ont apporté de nouveaux services publics, des institutions éducatives et financières en plus de l'infrastructure moderne nécessaire à une capitale moderne. La résistance potentielle à laquelle pourraient se heurter à Lahore ou à Delhi ceux qui refusent encore l'avenir du sous-continent fait également de Hyderabad un choix approprié, même si, en fin de compte, il est peu probable qu'une telle résistance dure."
+ india.1.a:9 "L'ancienne capitale, Delhi."
+ india.1.b:9 "Retournons à l'ancienne capitale du Bengale."
+ india.1.c:9 "Il est temps de faire briller Bombay."
+ india.1.e:9 "La grande cité de Lahore nous a bien servi."
+ india.1.d:9 "Restons là où nous sommes."
+
+ india.10.t:9 "The Devastation of India"
+ india.10.d:9 "At last, the war that first started over a decade ago has finally reached its end, but this victory is anything but glorious. The nation now lies in ruins, with thousands dead, homes reduced to rubble, and what little was left of the Indian economy lying in tatters. Worse still, the fighting is not truly over, with many still loyal to the false governments refusing to lay down their arms and accept the new status quo. While one great struggle is now behind us, it is clear that a new great struggle to recover from this conflict has now begun."
+ india.10.a:9 "At least the nation is whole again, what's left of it anyway."
+
+ india.50.t:0 " Traiter avec le Népal "
+ india.50.d:0 "Au lendemain de l'effondrement du Raj, [NEP.GetNameDef] a profité de la situation chaotique pour s'emparer de plusieurs districts de basse altitude au pied de l'Himalaya. L'Inde étant enfin réunifiée, de nombreux faucons au sein du gouvernement réclament la restitution de ce territoire illégalement occupé. Certains réclament même l'inclusion du Népal dans une union douanière plus large combinée à un traité militaire."
+ india.50.a:0 "Exigez le retour des districts occupés !"
+ india.50.b:0 "Réclamez les districts et faites pression pour un gouvernement ami !"
+ india.50.c:0 "Faire pression pour un gouvernement ami!"
+
+ india.51.t:0 "Les demandes de [From.GetNameDef]"
+ india.51.d.return:0 "Nous sommes sous la pression du gouvernement [From.GetAdjective] qui est en train de renaître pour faire sécession des districts que nous avons conquis à la suite de l'effondrement du Raj britannique."
+ india.51.d.govt:0 "Nous sommes sous la pression du gouvernement [From.GetAdjective] qui se remet en place pour faire sécession des districts que nous avons conquis à la suite de l'effondrement du Raj britannique. De plus, ils exigent que nous renoncions à notre indépendance de fait."
+ india.51.a:0 "Nous n'avons pas d'autre choix que de nous y conformer"
+ india.51.b:0 "Dites-leur que le puissant Népal doit défendre ses conquêtes !"
+
+ india.52.t:0 "Le Népal se soumet"
+ india.52.d.return:0 "N'ayant guère le choix, le gouvernement [From.GetAdjective] a rendu notre territoire à notre contrôle."
+ india.52.d.govt:0 "N'ayant guère le choix, le gouvernement [From.GetAdjective] a rendu notre territoire et l'a soumis à un contrôle de facto [Root.GetAdjective]."
+ india.52.a:0 "Y avait-il d'autres doutes ?"
+
+ india.53.t:0 "Le Népal Refuse !"
+ india.53.d:0 "Étonnamment, les [From.GetAdjective]s ont refusé notre demande, répondant que si nous voulons reprendre les basses terres indiennes, nous devrons le faire par la force !"
+ india.53.a:0 "Alors c'est la guerre !"
+ india.53.b:0 "Peut-être une autre fois..."
+
+ india.60.t:9 "[From.GetNameDefCap] Seizes Indian Territories!"
+ india.60.d:0 "Alors que nous étions occupés par notre guerre, les soldats [From.GetAdjective]s ont envahi nos territoires dans l'océan Indien et ont pris le contrôle de nos garnisons locales presque sans qu'elles ne puissent lever le petit doigt. [From.GetNameDefCap] prétend que ces territoires leur appartiennent de plein droit, et pour le moment, nous ne pouvons pas faire grand-chose à ce sujet... à part déclarer la guerre."
+ india.60.a:0 "Cet outrage ne restera pas sans réponse !"
+ india.60.b:0 "Cela signifie la guerre !"
+
+ india.61.t:0 "[From.GetNameDefCap] et le retour de nos colonies indiennes"
+ india.61.d:0 "Le gouvernement [From.GetAdjective] vient de proposer un accord qui transférerait certains des territoires que nous avons arrachés après l'effondrement du Raj britannique à [From.GetNameDef]. Cela pourrait être un bon moyen d'améliorer les relations avec le gouvernement national, mais pourrait aussi créer un dangereux précédent dans nos autres colonies."
+ india.61.a:0 "Remettre les îles aux Indiens"
+ india.61.b:0 "Non, ces bases navales sont vitales pour la marine du Kaiserliche"
+
+ india.62.t:0 "Le transfert des colonies allemandes"
+ india.62.d:0 "Nous avons réussi à convaincre les Allemands de rendre certaines des colonies prises par le Reich après l'effondrement du Raj. C'est à la fois un grand signe de l'amitié indo-allemande, mais aussi la preuve que nous avons vraiment obtenu le mandat de successeur légal des Britanniques. Gloire à l'Inde !"
+ india.62.a:0 "Fusionnez les îles en notre nation !"
+ india.62.b:0 "Accorder à Ceylan une large autonomie interne et incorporer les atolls."
+
+ india.63.t:0 "[From.GetNameDefCap] A refusé"
+ india.63.d:0 "Des représentants du gouvernement [From.GetAdjective] nous ont fait savoir que la restitution des territoires de l'océan Indien est tout simplement impossible, car ils sont vitaux pour la marine du Kaiserliche."
+ india.63.a:0 "Je vois..."
+
+ india.65.t:9 "[From.GetNameDefCap] Seizes [seized_state.GetName]!"
+ india.65.d:0 "Les soldats [From.GetAdjective]s ont pénétré dans [seized_state.GetName] ce matin et ont pris le contrôle de nos garnisons locales presque sans qu'elles ne puissent lever le petit doigt. [From.GetNameDefCap] prétend que [seized_state.GetName] est sans doute possible un territoire indien, et pour le moment, nous ne pouvons pas faire grand-chose à ce sujet."
+ india.65.a:0 "Ces vautours !"
+ india.65.b:0 "Cet outrage ne restera pas sans réponse !"
+
+ india.70.t:0 "[FROM.GetNameDefCap] réclame [858.GetName]"
+ india.70.d:0 "Le sous-continent indien étant à nouveau unifié, [FROM.GetNameDef] a commencé à réclamer le rétablissement complet de leurs anciennes frontières et ont exigé que le territoire frontalier de [858.GetName] leur soit transféré. Bien qu'une telle affirmation soit évidemment fausse, il semble peu probable qu'une puissance aussi renaissante abandonne simplement la question en cas de refus et cherchera probablement à faire valoir ses revendications par la guerre. Il faut donc déterminer si la nation est préparée à une telle éventualité."
+ india.70.a:0 "Nous n'avons pas d'autre choix que de nous y conformer"
+ india.70.b:0 "Nous ne céderons rien à ces tyrans !"
+
+ india.71.t:0 "[FROM.GetNameDefCap] accepte de restituer [858.GetName]"
+ india.71.d:0 "[FROM.GetName] a répondu. Ils ont décidé de rendre le territoire occupé de [858.GetName] aux autorités [ROOT.GetAdjective]es et mieux encore, ils ont décidé de le faire pacifiquement."
+ india.71.a:0 "Il est bon qu'ils aient entendu raison."
+
+ india.72.t:0 "[FROM.GetNameDefCap] refuse de rendre [858.GetName]"
+ india.72.d:0 "En violation de la souveraineté [ROOT.GetAdjective]e sur la région, [FROM.GetName] a refusé de restituer [858.GetName] et ont clairement fait part de leur intention de maintenir leur occupation. Il semble qu'il soit temps à présent d'avoir recours à la force ou de leur abandonner la région."
+ india.72.a:0 "Il semble que la force soit la seule option qui reste."
+ india.72.b:0 "Il ne vaut pas la peine de faire la guerre pour un différend aussi mineur."
+
+ india.75.t:0 "[FROM.GetNameDefCap] demande [897.GetName]"
+ india.75.d:0 "Le sous-continent indien étant à nouveau unifié, [FROM.GetNameDef] a commencé à réclamer le rétablissement complet de leurs anciennes frontières et a exigé que le territoire frontalier de [897.GetName] leur soit transféré. Bien qu'une telle affirmation soit évidemment totalement fausse, il semble peu probable qu'une puissance aussi renaissante abandonne simplement la question en cas de refus et cherchera probablement à faire valoir ses revendications par la guerre. Il faut donc déterminer si la nation est préparée à une telle éventualité."
+ india.75.a:0 "Nous n'avons pas d'autre choix que de nous y conformer"
+ india.75.b:0 "Nous ne céderons rien à ces tyrans !"
+
+ india.76.t:0 "[FROM.GetNameDefCap] accepte de restituer [897.GetName]"
+ india.76.d:0 "Une réponse a été reçue de la part de [FROM.GetName], et ils ont intelligemment décidé d'obtempérer. Ils ont donc accepté de restituer le territoire occupé de [897.GetName] aux autorités [ROOT.GetAdjective]es."
+ india.76.a:0 "Il est bon qu'ils aient entendu raison."
+
+ india.77.t:0 "[FROM.GetNameDefCap] refuse de restituer [897.GetName]"
+ india.77.d:0 "En violation de la souveraineté [ROOT.GetAdjective]e sur la région, [FROM.GetName] a refusé de restituer [897.GetName] et a clairement fait part de son intention de maintenir leur occupation. Il semble qu'il soit temps maintenant d'avoir recours à la forge ou de leur abandonner la région."
+ india.77.a:0 "Il semble que la force soit la seule option qui reste."
+ india.77.b:0 "Il ne vaut pas la peine de faire la guerre pour un différend aussi mineur."
+
+ india.80.t:0 "[From.GetNameDefCap] Exige nos districts birmans"
+ india.80.d:0 "Le maudit gouvernemnt de [From.GetAdjective] exige le retour du territoire birman que nous avons "pacifié" pendant l'effondrement du Raj. C'est une honteuse exhibition de grossièretés !"
+ india.80.a:0 "Il est inutile de se battre pour ces provinces sans intérêt."
+ india.80.b:0 "Nous n'avons pas de districts "birmans", c'est le Siam - uni et indivisible !"
+ india.80.c:0 "Rassemblez nos alliés pour nous défendre !"
+ india.80.e:0 "Appelez notre suzerain à notre défense !"
+
+ india.81.t:9 "[From.GetNameDefCap] Submits"
+ india.81.d:0 "Le gouvernement de [From.GetAdjective] a eu la sagesse de céder à nos exigences et de nous rendre tous les territoires birmans occupés."
+ india.81.a:0 "Une sage décision."
+
+ india.82.t:0 "Nos exigences pour récuperer la Birmanie de [From.GetAdjective] ont été rejetée"
+ india.82.d:0 "Les exigences très raisonnables présentées par notre émissaire au gouvernement de [From.GetAdjective] ont été complètement rejetées ! Nous devons maintenant choisir de faire accepter nos revendications par la force ou de subir une défaite diplomatique, tant sur le plan national qu'international. Les yeux de tout le pays sont tournés vers notre cabinet !"
+ india.82.a:0 "Alors nous libérerons la péninsule malaise par la force !"
+ india.82.b:0 "Ravalons notre fierté et renonçons à nos revendications."
+
+ india.83.t:9 "[demand_country.GetNameDefCap] Menaces [From.GetNameDef]"
+ india.83.d:0 "Un gouvernement résurgent de [demand_country.GetAdjective] fait pression pour une réévaluation de la frontière entre leurs provinces birmanes et celles de notre allié [From.GetAdjective]. C'est une situation difficile étant donné que les zones occupées par [From.GetNameDef] ont été prises de force, mais ce ne serait pas bon pour notre réputation d'abandonner nos alliés en Indochine..."
+ india.83.a:0 "Déclarons notre solidarité avec nos alliés à Bangkok !"
+ india.83.b:0 "Faire pression sur les Siamois pour qu'ils cèdent les districts contestés."
+
+ india.84.t:9 "[From.GetNameDefCap] Defends [SIA.GetNameDef]"
+ india.84.d:0 "Malédiction ! Les lâches siamois se sont cachés sous les jupes de leurs alliés [From.GetAdjective]. Ce que nous pensions être une simple reprise d'une occupation illégale s'est transformé en un conflit international ! C'est peut-être un peu plus que ce que nous avons réclamé, mais les répercussions de l'abandon de nos revendications seraient également désastreuses..."
+ india.84.a:0 "Alors nous libérerons la péninsule malaise par la force !"
+ india.84.b:0 "Une telle guerre ne ferait qu'apporter le chaos en Asie..."
+
+ india.85.t:0 "[From.GetNameDefCap] nous a trahi !"
+ india.85.d:0 "[From.GetAdjective] a envoyé un message disant qu'ils n'ont pas l'intention de nous défendre des revendications de [demand_country.GetNameDef], considérant que nous avons acquis le territoire sous la contrainte depuis le début. Ils nous suggèrent sérieusement de rendre les terres birmanes comme demandé."
+ india.85.a:0 "Alors nous combattrons ces agresseurs par nous-mêmes !"
+ india.85.b:0 "Céder les territoires contestés."
+
+### News Events ###
+ india.100.RAJ_title:0 "Victoire du Dominion"
+ india.100.PRF_title:9 "Victoire de la Fédération"
+ india.100.HND_title:9 "Victoire de la République Populaire de Bharatiya"
+ india.100.Bombay_title:9 "[PRF.GetNameDefCap] Accedes to the Dominion"
+ india.100.RAJ_desc:0 "Depuis la fin de la Grande Guerre, le sous-continent indien a été divisé en trois parties : les vestiges loyalistes du Raj britannique, les socialistes du Congrès National Indien et les princes indiens réactionnaires qui ont rejeté les deux parties.\n\nL a poussière s'étant finalement dissipée, les loyalistes ont triomphé et le Dominion de l'Inde règne désormais sans opposition sur la région, se préparant à devenir une puissance mondiale prééminente une fois qu'elle se sera remise des ravages de la guerre civile."
+ india.100.PRF_desc:9 "Since the end of the Weltkrieg, the Indian sub-continent has been split into three sides: the loyalist remnants of the British Raj, the socialists of the Indian National Congress, and the reactionary Indian princes who rejected both sides.\n\nWith the dust having finally settled, the reactionaries have proven triumphant and the All-India Federation now rules unopposed over the region, setting the nation up to become a pre-eminent world power once it recovers from the devastation of the civil war."
+ india.100.HND_desc:9 "Since the end of the Weltkrieg, the Indian sub-continent has been split into three sides: the loyalist remnants of the British Raj, the socialists of the Indian National Congress, and the reactionary Indian princes who rejected both sides.\n\nWith the dust having finally settled, the socialists have proven triumphant and the Bharatiya People's Republic now rules unopposed over the region, setting itself up to become a pre-eminent world power once it recovers from the devastation of its civil war."
+ india.100.Bombay_desc:9 "Since the end of the Weltkrieg, the Indian sub-continent has been split into three sides: the loyalist remnants of the British Raj, the socialists of the Indian National Congress, and the reactionary Indian princes who rejected both sides.\n\nWith the fall of the socialist Republic, many expected further conflict to break out between the two signatories of the \"Bombay Pact\" alliance over the subcontinent's future. In a surprising turn of events however, [PRF.GetNameDef] has agreed to peacefully accede to the Dominion, ending a decade of conflict with words rather than bullets. The Dominion of India now rules unopposed over the region, setting itself up to become a pre-eminent world power once it recovers from the devastation of its civil war."
+ india.100.RAJ_option:0 "Est-ce que le Raj y est encore ?"
+ india.100.PRF_option:0 "Le règne des princes ne finira jamais."
+ india.100.HND_option:0 "Une libération par le bas."
+ india.100.Bombay_option:9 "Civil war and civil discourse, India has it all."
+
+ india.101.t:0 "Le Kaisar-i-Hind"
+ india.101.d:9 "Le Nizam dirigeant la Fédération pan-indienne, Osman Ali Khan, s'est proclamé aujourd'hui le véritable successeur du titre de Kaisar-i-Hind - un titre porté précédemment par les empereurs moghols et britanniques du sous-continent.\n\nAprès son couronnement dans une grande cérémonie à Delhi, le nouvel empereur a déclaré triomphalement que la nation a enfin repris sa place légitime dans le monde, et qu'il la guidera vers un nouvel avenir radieux. Bien qu'il ait été applaudi par ses soutiens, beaucoup considèrent cela comme un acte prétentieux qui ne sert qu'à flatter l'ego d'Osman."
+ india.101.a:0 "C'est si prétentieux !"
+
+ india.102.chairman:9 "[HND.GetLeader] Élu Président de Bharatiya"
+ india.102.chairwoman:9 "[HND.GetLeader] Élue Présidente de Bharatiya"
+ india.102.intro:9 "In the aftermath of reunification, Bharatiya Chairman Abul Kasem Fazlul Huq announced his retirement from the position, hoping to have his deputy Jawaharlal Nehru succeed him. Soon after, years of factional politicking within the Indian National Congress finally reached their climax, with the leaders of the two other primary factions in the party challenging Nehru's bid."
+ india.102.bose:9 "$india.102.intro$\n\nAfter weeks of a heated election campaign, the INC's membership have rejected Nehru's bid, and have instead selected Maximist leader Subhas Chandra Bose as their new chairman. Bose's election has been interpreted as a clear signal that even with the nation now united, the INC has no intentions of reigning back in its political militarism, with the new government expected to significantly expand upon it."
+ india.102.nehru:9 "$india.102.intro$\n\nAfter weeks of a heated election campaign, Nehru has succeeded in seeing off his challengers, with the party selecting him as their new Chairman. Nehru's election has been interpreted as a clear signal that the Republic will reaffirm its commitment to the global socialist cause, and continue down an orthodox syndicalist direction."
+ india.102.naidu:9 "$india.102.intro$\n\nAfter weeks of a heated election campaign, the INC's membership have rejected Nehru's bid, and have instead selected Agrarian leader Sarojini Naidu as their new chairwoman. Naidu's election has been interpreted as a clear signal of the INC's desire to return to Gandhian thought and homegrown ideological beliefs, harmonised together with socialist ideals."
+ india.102.a:0 "Intéressant."
+
+ india.103.t:9 "La Guerre Civile Indienne Reprend"
+ india.103.d:9 "La Guerre civile indienne, qui s'est déclenchée en 1925 alors que l'Empire britannique s'effilochait, a culminé en 1927 avec un cessez-le-feu qui a laissé le sous-continent dans l'impasse. Désormais, il semble que le cessez-le-feu a finalement été brisé, les hostilités ayant repris entre la République populaire de Bharatiya, socialiste, et les signataires anti-socialistes du Pacte de Bombay, le Dominion de l'Inde et [PRF.GetNameDef].\n\nLe conflit enveloppe les centaines de millions d'habitants de l'Inde, chaque combattant ayant ses propres soutiens. Quelle que soit son issue, il est certain que la Guerre civile indienne sera l'une des plus meurtrières du vingtième siècle."
+ india.103.a:9 "Une autre guerre civile ?"
+ india.103.b:9 "Nous devons aider le Dominion !"
+ india.103.c:9 "Cela portera un coup fatal au colonialisme !"

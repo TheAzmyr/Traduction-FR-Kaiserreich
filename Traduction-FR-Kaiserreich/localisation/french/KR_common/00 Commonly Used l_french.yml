@@ -2,6 +2,8 @@
 
 ### Regular Tooltips (for use in custom_effect_tooltip) ###
  tooltip_white_line: "   \n"
+ tooltip_line_break:0 "\n"
+ tooltip_line_break_2:9 "$tooltip_line_break$$tooltip_line_break$"
 
  elections_in_one_months: "§HDes élections auront lieu dans un mois§!"
  elections_in_three_months: "§HLes élections auront lieu dans trois mois§!\n"
@@ -9,6 +11,11 @@
  characters_will_be_retired: "§RLes personnages suivants seront retirés:§!"
  characters_will_be_recruited: "§GLes personnages suivants seront recrutés:§!"
  character_becomes_a_general:9 "(Compétence [?skill_level]) devient Général.\nAttributs : £GFX_trait_attack [?attack_level] £GFX_trait_defense [?defense_level] £GFX_trait_planning [?planning_level] £GFX_trait_logistics [?logistics_level]"
+ character_becomes_a_general_bound:9 "(Compétence $SKILL$) devient général.\nAttributs : £GFX_trait_attack  $ATTACK$ £GFX_trait_defense $DEFENSE$ £GFX_trait_planning  $PLANNING$ £GFX_trait_logistics $LOGISTICS$."
+ character_becomes_a_field_marshal:9 "(Compétence [?skill_level]) devient maréchal.\nAttributs : £GFX_trait_attack  [?attack_level] £GFX_trait_defense [?defense_level] £GFX_trait_planning  [?planning_level] £GFX_trait_logistics [?logistics_level]."
+ character_becomes_a_field_marshal_bound:9 "(Compétence $SKILL$) devient maréchal.\nAttributs : £GFX_trait_attack $ATTACK$ £GFX_trait_defense $DEFENSE$ £GFX_trait_planning $PLANNING$ £GFX_trait_logistics $LOGISTICS$"
+ character_becomes_a_naval_commander:9 "(Compétence [?skill_level]) devient amiral.\nAttributs : £GFX_trait_attack [?attack_level] £GFX_trait_defense [?defense_level] £GFX_trait_planning [?planning_level] £GFX_trait_logistics [?logistics_level]"
+ character_becomes_a_naval_commander_bound:9 "(Compétence $SKILL$) devient amiral.\nAttributs : £GFX_trait_attack $ATTACK$ £GFX_trait_defense $DEFENSE$ £GFX_trait_planning $PLANNING$ £GFX_trait_logistics $LOGISTICS$"
 
  tooltip_immediate_effect_upon_focus_start: "§YEffet immédiat dès le lancement de la priorité:§!\n"
  tooltip_effect_upon_focus_completion: "\n§GEffet lors de l'achèvement de la priorité:§!\n"
@@ -64,16 +71,13 @@
 
  kill_character_tt: "est mort."
 
+ reduce_stability_decision_cost_twenty_five_percent_tt:9 "Réduire le coût de £pol_power §YPoids politique§! de £GFX_decision_icon_small §Y$generic_raise_stability$§! de §G25%§!"
  reduce_propaganda_decision_cost_twenty_five_percent_tt:9 "Réduit le £pol_power coût en §YPoids Politique§! de £GFX_decision_icon_small §Y$war_propaganda$§!, £GFX_decision_icon_small §Y$war_propaganda_casualties$§!, £GFX_decision_icon_small §Y$war_propaganda_convoys$§! et £GFX_decision_icon_small §Y$war_propaganda_bombing$§! de §G25%§!"
 
  # used to generate tooltips in dockyard or naval base foci when the country doesn't own any coastal states
  random_owned_controlled_coastal_state: "Un état côtier détenu et contrôlé de manière aléatoire"
 
- received_equipment_500: "Vous avez reçu §G500§! de matériel d'infanterie de ce pays\n"
- received_equipment_1000: "Vous avez reçu §G1000§! de matériel d'infanterie de ce pays\n"
- received_equipment_1500: "Vous avez reçu §G1500§! de matériel d'infanterie de ce pays\n"
- received_equipment_2000: "Vous avez reçu §G2000§! de matériel d'infanterie de ce pays\n"
- received_equipment_5000: "Vous avez reçu §G5000§! de matériel d'infanterie de ce pays\n"
+ tooltip_received_equipment:9 "Vous avez reçu $QUANTITY|G$ d'équipement d'infanterie de ce pays"
 
 ### Bindable Localisation ###
  tooltip_unlock_focus:9 "Débloque la priorité nationale $FOCUS|Y$."
@@ -92,6 +96,8 @@
  tooltip_if_national_spirit_is_active:9 "§CSi $IDEA|Y$ est actuellement actif :§!"
  tooltip_available_if_not_at_war_with:9 "§CDisponible seulement si nous ne sommes §Rpas§! en guerre avec $COUNTRY|Y$.§!"
 
+ tooltip_once_at_war_with_country:9 "§CUne fois que la §Rguerre§! avec $COUNTRY|Y$ éclate :§!"
+
  tooltip_change_law_to:9 "Change $CATEGORY$ en '$LAW|Y$', ce qui confère :"
 
  tooltip_if_political_advisor_is_hired:9 "§CSi $ADVISOR|Y$ est engagé comme §YConseiller Politique§!:§!"
@@ -104,7 +110,9 @@
  tooltip_add_tech_detailed:9 "Ajoute la technologie : $NAME|Y$ ($TECH|Y$)."
  tooltip_enable_hidden_tech:9 "Active $TECH|Y$\n$EFFECT$"
 
- tooltip_add_dynmod:9 "Ajoute $DYNMOD|Y$, ce qui confère :"
+ tooltip_add_dynmod_empty:9 "Ajoute $DYNMOD|Y$."
+ tooltip_add_dynmod:9 "Ajoute $DYNMOD|Y$ qui confère :"
+ tooltip_add_dynmod_scoped:9 "Ajoute $DYNMOD|Y$ §Y([$SCOPE$.GetName])§! qui accorde :"
 
  tooltip_modify_dynmod:9 "Modifie $DYNMOD|Y$ par"
  tooltip_modify_two_dynmods:9 "Modifie $DYNMOD1|Y$ ou $DYNMOD2|Y$ par"
@@ -115,6 +123,7 @@
 
  tooltip_spawn_units:9 "Créée $COUNT|Y$ divisions $TYPE|Y$.\n"
  tooltip_spawn_unit:9 "Crée une division de $TYPE|Y$.\n"
+ tooltip_advanced_spawn_unit:9 "Créer un $TYPE|Y$ avec un effectif de $STRENGTH|O$ et un niveau d'expérience de $EXPERIENCE|L$ à $LOCATION|Y$.\n"
 
  tooltip_yellow_text:9 "$TEXT|Y$"
 
@@ -127,15 +136,36 @@
  line_battalion_tt:9 "\n - £$ICON$ §Y$COUNT$ $NAME$§! bataillons de ligne"
  support_battalion_tt:9 "\n - £$ICON$ §Y$NAME$§!"
 
+ tooltip_indented_list:9 "\n$ITEM$ $NEXT_ITEM$"
+
+ tooltip_triggers_with_header:9 "$HEADER$$TRIGGERS$"
+
+ tooltip_at_least_one_of:9 "Au moins un des $ITEMS$ :"
+ tooltip_items_comma:9 "$ITEM|Y$, $NEXT_ITEM$"
+ tooltip_items_and:9 "$ITEM|Y$ et $NEXT_ITEM|Y$"
+ tooltip_items_or:9 "$ITEM|Y$ ou $NEXT_ITEM|Y$"
+
+ has_completed_decision:9 "A pris la décision £decision_icon_small $DECISION|H$"
+ has_completed_decision_NOT:9 "N'a pas pris de décision £decision_icon_small $DECISION|H$"
+
+ has_completed_decision_in_focus:9 "$has_completed_decision$ dans la priorité $FOCUS|H$"
+ has_completed_decision_in_focus_NOT:9 "$has_completed_decision_NOT$ dans la priorité $FOCUS|H$"
+
+ has_completed_decision_in_focus_2:9 "$has_completed_decision$ dans la priorité $FOCUS|H$ ou la priorité $FOCUS_2|H$"
+ has_completed_decision_in_focus_2_NOT:9 "$has_completed_decision_NOT$ dans la priorité $FOCUS|H$ ou la priorité $FOCUS_2|H$"
+
+ tooltip_unlock_decisions_to:9 "Débloque les décisions de $NAME|Y$ pour $EFFECT$."
+
+ add_equipment_to_stockpile_tt:9 "Des unités $UNITS|Y$ de $EQUIPMENT|Y$ sont ajoutées au stock national."
+
+ tooltip_owner_of_state_with_flag:9 "[$STATE$.Owner.GetFlag] le propriétaire de [$STATE$.GetName]"
+ tooltip_owner_of_state:9 "le propriétaire de [$STATE$.GetName]"
+
 ### Flag Loc segments ###
  tooltip_event_choice: "§CChoix d'événement§! : "
- has_completed_focus: "A terminé la priorité §H"
  production_cost_tt:9 "£GFX_production_cost  Coût de Production :  "
 
- has_completed_decision: "A pris la décision £decision_icon_small §H"
  unlocks_decisions:9 "Déverrouille les £decision_icon_small §HDécisions§!"
- gets_event_start: "Obtient l'événement "§H"
- gets_event_end: "§!"."
 
  tooltip_event_pauses_focus: "Un événement lié à cette priorité est en attente de réponse"
 
@@ -145,7 +175,11 @@
 ### On Map Area Names ###
  integration_tooltip: "Zones non intégrées"
 
-### Event Options ###
+### Events ###
+ KR.hidden.t: ""
+ KR.hidden.d: ""
+ KR.hidden.a: ""
+
 AI_OPTION: "Option d'IA seulement"
 
 ### Decision Names ###
@@ -331,7 +365,7 @@ AI_OPTION: "Option d'IA seulement"
  resistance_decay_on_our_occupied_states_tooltip: "$MODIFIER_RESISTANCE_DECAY_ON_OUR_OCCUPIED_STATES$: $RIGHT|-=%0$"
  resistance_damage_to_garrison_on_our_occupied_states_tooltip: "$MODIFIER_RESISTANCE_DAMAGE_TO_GARRISONS_ON_OUR_OCCUPIED_STATES$: $RIGHT|+=%2$"
 
- war_support_tooltip: "$MODIFIER_WAR_SUPPORT_FACTOR$: $RIGHT|=%+$"
+ war_support_factor_tooltip:0 "$MODIFIER_WAR_SUPPORT_FACTOR$ : $RIGHT|=%+$"
  war_support_weekly_tooltip: "$MODIFIER_WAR_SUPPORT_WEEKLY$: $RIGHT|+=%2$"
  weekly_casualties_war_support_tooltip: "$MODIFIER_WEEKLY_CASUALTIES_WAR_SUPPORT$: $RIGHT|+=%0$"
  weekly_convoys_war_support_tooltip: "$MODIFIER_WEEKLY_CONVOYS_WAR_SUPPORT$: $RIGHT|+=%0$"
@@ -428,6 +462,7 @@ AI_OPTION: "Option d'IA seulement"
  navy_org_factor_tooltip:9 "$MODIFIER_NAVY_ORG_FACTOR$: $RIGHT|+=%1$"
  naval_morale_tooltip: "$MODIFIER_NAVAL_MORALE$: $RIGHT|+=1$"
  naval_morale_factor_tooltip: "$MODIFIER_NAVAL_MORALE_FACTOR$: $RIGHT|+=%1$"
+ navy_max_range_factor_tooltip:9 "$MODIFIER_NAVY_MAX_RANGE_FACTOR$ : $RIGHT|+=%1$"
 
  army_xp_gain_tooltip: "$MODIFIER_XP_GAIN_ARMY$: $RIGHT|+=$ $MOD_DAILY$"
  army_xp_gain_factor_tooltip: "$MODIFIER_XP_GAIN_ARMY_FACTOR$: $RIGHT|+=%1$"
@@ -526,6 +561,7 @@ AI_OPTION: "Option d'IA seulement"
  ace_effectiveness_factor_tooltip: "$MODIFIER_ACE_EFFECTIVENESS_FACTOR$: $RIGHT|+=%1$"
 
  air_attack_factor_tooltip:9 "$MODIFIER_AIR_ATTACK_FACTOR$: $RIGHT|+=%1$"
+ air_defence_factor_tooltip:9 "$MODIFIER_AIR_DEFENCE_FACTOR$ : $RIGHT|+=%1$"
  air_range_factor_tooltip: "$MODIFIER_AIR_RANGE_FACTOR$: $RIGHT|+=%0$"
  air_agility_factor_tooltip: "$MODIFIER_AIR_AGILITY_FACTOR$: $RIGHT|+=%0$"
  air_accidents_factor_tooltip: "$MODIFIER_AIR_ACCIDENTS_FACTOR$: $RIGHT|-=%1$"
@@ -729,7 +765,7 @@ AI_OPTION: "Option d'IA seulement"
  fewer_owned_states_than_tooltip: "Moins d'États possédés que $RIGHT|Y0$"
 
 ### Scripted Loc ###
- empty: ""
+ loc_empty:9 ""
 
  loc_empire:9 "empire"
  loc_empire_cap:0 "Empire"
@@ -804,6 +840,9 @@ AI_OPTION: "Option d'IA seulement"
  loc_and_space_before: " $loc_and$"
  loc_and_space_after: "$loc_and$ "
  loc_and_space_both: " $loc_and$ "
+
+ TRIGGER_NO: "£GFX_trigger_no"
+ TRIGGER_YES: "£GFX_trigger_yes"
 
 ### Custom Cost Tooltips (for use in decisions) ###
  CP_5: "£command_power §H5§!"
@@ -1085,3 +1124,19 @@ AI_OPTION: "Option d'IA seulement"
  support_250:0 "£support_texticon  §H250§!"
  support_250_blocked:0 "£support_texticon  §R250§!"
  support_250_tooltip: "Cela coûte $support_250_blocked$ pour prendre la décision"
+
+ manpower_500:9 "£manpower_texticon  §H500§!"
+ manpower_500_blocked:9 "£manpower_texticon  §R500§!"
+ manpower_500_tooltip:9 "La prise de décision coûte $manpower_500_blocked$."
+
+ manpower_1000:9 "£manpower_texticon  §H1000§!"
+ manpower_1000_blocked:9 "£manpower_texticon  §R1000§!"
+ manpower_1000_tooltip:9 "La prise de décision coûte $manpower_1000_blocked$."
+
+ manpower_5000:9 "£manpower_texticon  §H5000§!"
+ manpower_5000_blocked:9 "£manpower_texticon  §R5000§!"
+ manpower_5000_tooltip:9 "La prise de décision coûte $manpower_5000_blocked$."
+
+ manpower_10000:9 "£manpower_texticon  §H10000§!"
+ manpower_10000_blocked:9 "£manpower_texticon  §R10000§!"
+ manpower_10000_tooltip:9 "La prise de décision coûte $manpower_10000_blocked$."

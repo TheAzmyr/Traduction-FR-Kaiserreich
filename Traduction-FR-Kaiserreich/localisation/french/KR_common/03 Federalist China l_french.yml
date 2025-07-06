@@ -92,13 +92,6 @@ UPC_foreign_ministry_tt: "Débloque la £decision_icon_small §HPolitique étran
 
 ### Flags ###
  UPC_reconstruction_plan_unlocked: "A débloqué le Plan de Reconstruction"
- UPC_built_to_nanning:9 "A complété la décision £decision_icon_small §H$UPC_guangzhou_nanning$§!"
- UPC_built_to_guiyang:9 "A complété la décision £decision_icon_small §H$UPC_nanning_guiyang$§!"
- UPC_built_to_changsha:9 "A complété la décision £decision_icon_small §H$UPC_guangzhou_changsha$§!"
- UPC_built_to_fujian:9 "A complété la décision £decision_icon_small §H$UPC_guangzhou_fujian$§!"
- UPC_connected_the_coast:9 "A complété la décision £decision_icon_small §H$UPC_connect_coast$§!"
- UPC_built_to_nanjing:9 "A complété la décision £decision_icon_small §H$UPC_changsha_nanjing$§!"
- UPC_connected_northwest:9 "A complété la décision £decision_icon_small §H$UPC_connect_northwest$§!"
 
 ### Decisions ###
 UPC_mopping_up: "Traiter avec les séparatistes"
@@ -123,8 +116,8 @@ UPC_reconstruction_plan: "Plan de reconstruction"
 
  UPC_guangzhou_nanning: "Chemin de Fer Guangzhou-Nanning"
  UPC_guangzhou_nanning_desc: "Le Guangxi, en partie à cause de son relief accidenté et en partie à cause de son isolement relatif, est mal relié au reste du pays. Afin de mieux intégrer la province sœur du Guangdong et d'empêcher le retour du banditisme et de la corruption, une voie ferrée reliant Guangzhou et Nanning sera construite."
- UPC_improve_Qiongya:9 "Expansion de l'exploitation minière de Qiongya"
- UPC_improve_Qiongya_desc:9 "Le potentiel économique de l'île de Qiongya a longtemps été négligé. Grâce à de nouvelles technologies minières et à un gouvernement stable qui encourage les investissements, nous pouvons remédier à cette situation et développer les activités d'extraction du fer."
+ UPC_improve_qiongya:0 "Expansion de l'exploitation minière de Qiongya"
+ UPC_improve_qiongya_desc:0 "Le potentiel économique de l'île de Qiongya a longtemps été négligé. Grâce à de nouvelles technologies minières et à un gouvernement stable qui encourage les investissements, nous pouvons remédier à cette situation et développer les activités d'extraction du fer."
  UPC_nanning_guiyang: "Chemin de Fer pour Guizhou"
  UPC_nanning_guiyang_desc: "Guizhou est l'une des provinces les plus pauvres du sud du pays, mais elle a du potentiel avec des investissements appropriés. Relier la province au réseau ferroviaire en pleine expansion est la première étape vers l'objectif d'apporter la prospérité dans les coins les plus reculés du pays."
  UPC_guiyang_kunming: "Prolonger la ligne jusqu'à Kunming"
@@ -438,8 +431,10 @@ lngupc.4.a: "Vive la République Fédérale !"
 lngupc.4.b: "Attendez, et notre autonomie ?"
 
 lngupc.5.ta: "[From.GetLeader] Refuse de se conformer"
+ lngupc.5.ta_tooltip:9 "[ROOT.GetLeader] refuse d'obtempérer"
 lngupc.5.da: "Faisant totalement abstraction de notre accord précédent dans [GetConferenceCity], [From.GetNameDef] a refusé de se soumettre au gouvernement fédéral. Cette trahison doit être punie !"
 lngupc.5.tb: "[From.GetLeader] se conforme"
+ lngupc.5.tb_tooltip:9 "[ROOT.GetLeader] se conforme"
 lngupc.5.db: "Sans aucun signe de trouble, les forces de [From.GetNameDef] ont été subordonnées au gouvernement des provinces unies, comme convenu lors de la conférence [GetConferenceCity]."
 lngupc.5.a: "Très bien."
 
@@ -585,3 +580,12 @@ fedchi.203.b: "Jamais !"
 fedchi.204.t: "[FROM.GetName] Rejette notre offre"
  fedchi.204.d: "Les impérialistes de [FROM.GetNameDef] ont refusé de signer un nouveau traité avec nous, s'accrochant plutôt à leur attitude coloniale mourante et à leurs sanctions continues. Ils verront les conséquences de la perte d'accès au marché chinois alors que nous continuons à nous moderniser et à prospérer"
 fedchi.204.a: "Ils regretteront cette insulte."
+
+ fednews.1.t:0 "[From.GetName] proclamé"
+ fednews.1.d:0 "Le mouvement fédéraliste chinois, qui s'appuie sur la prospère ville de [From.Capital.GetCapitalVictoryPointName], a proclamé son propre gouvernement rival. Chen Jiongming, gouverneur général de [From.GetNonIdeologyNameDef] et commandant de l'armée de défense nationale, a déclaré son intention de réunir les différents gouvernements provinciaux du pays, de s'attaquer de front au problème des seigneurs de la guerre et de restaurer la démocratie locale là où les "bandits et les dictateurs du parti" refusaient de négocier et de se réformer.\nBien qu'il n'ait pas déclaré la guerre au gouvernement chinois internationalement reconnu, il est clair que lorsque la base du pouvoir de Chen sera assurée dans le sud, ce dirigeant prudent se déplacera vers le nord au moment opportun si les dirigeants rivaux refusent ses demandes de réformes politiques et économiques."
+ fednews.1.a:0 "Un autre ? Cela devient ridicule !"
+ fednews.1.b:0 "Vive la République fédérale !"
+
+ fednews.2.t:0 "Fin des traités inégaux"
+ fednews.2.d:0 "Le ministère des affaires étrangères des provinces unies de Chine a annoncé l'annulation de tous les traités inégaux conclus avec la Chine. Chen Jiongming et le Parti de l'intérêt public avaient appelé à la fin unilatérale de ces traités depuis les années 1920 et il semble que l'UPC ait tenu sa promesse. Il s'agit d'un changement important dans la diplomatie internationale, qui risque de provoquer une grave rupture entre la Chine et les puissances coloniales européennes.\nToutefois, le pouvoir de l'Occident étant au plus bas en Extrême-Orient, le nouveau gouvernement chinois a saisi l'occasion de se réaffirmer sur la scène mondiale en cherchant à mettre fin à ce qu'il appelle le "siècle de l'humiliation", dans l'espoir de négocier de nouveaux traités "égaux" avec les grandes puissances européennes, alors que la Chine s'avance dans le monde moderne avec une confiance renouvelée."
+ fednews.2.a:0 "La Chine se réaffirme."

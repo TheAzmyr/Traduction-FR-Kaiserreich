@@ -302,7 +302,7 @@
  ROM_revolt_none: "§gIl n'y aucun soutien pour une rébellion armée en Transylvanie.§!"
  ROM_loose_ends_tt1: "Débloque £decision_icon_small la §Hdécision§! pour §HRevendiquer la Bucovine§!."
  ROM_loose_ends_tt2: "Débloque £decision_icon_small la §Hdécision§! pour §Hrevendiquer le Banat Occidental§!."
- ROM_renew_pride_tt: "Débloque £decision_icon_small la §Hdécision§! pour faire de la Transylvanie un territoire national."
+ ROM_renew_pride_tt:9 "Débloque £decision_icon_small la §Hdécision§! pour faire de la Transylvanie un territoire national."
 
  ROM_defeated_by_bulgaria:9 "La Roumanie a été vaincue par la Bulgarie dans la Quatrième Guerre des Balkans"
 
@@ -360,9 +360,6 @@
  ROM_transylvanian_collaboration: "Collaboration Transylvanienne"
  ROM_transylvanian_resistance_tooltip: "Nous allons commencer à organiser une révolte ouverte en Transylvanie afin de soutenir notre invasion."
  ROM_transylvanian_resistance_effect_tooltip: "§HTransylvanie§!:"
- ROM_transylvanian_resistance_target_tooltip: "$MODIFIER_RESISTANCE_TARGET$: $RIGHT|-=%0$"
- ROM_transylvanian_resistance_activity_tooltip: "$MODIFIER_RESISTANCE_ACTIVITY_FACTOR$: $RIGHT|-=%1$"
- ROM_transylvanian_resistance_garrison_tooltip: "$MODIFIER_RESISTANCE_GARRISON_PENETRATION_CHANCE$: $RIGHT|-=%$"
 
  ROM_will_lead_to_war_with_austria: "L'§RAutriche pourrait nous déclarer la guerre afin de protéger l'intégrité territoriale de l'Empire!§!"
  ROM_alfold_unrest: "Insurrection Active : $VALUE|=-%0$"
@@ -476,12 +473,7 @@
  ROM_organise_the_revolt: "Organiser le Soulèvement"
  ROM_start_the_uprising: "Sécuriser la Transylvanie"
 
- ROM_TRS_separatism_tt: "Diffuser un séparatisme pro-Roumain."
- ROM_funded_separatist: "A terminé la décision £decision_icon_small   §H$ROM_fund_separatist$§!"
  ROM_TRS_arms: "A débuté ou complété la décision £decision_icon_small  §H$ROM_smuggle_arms$§!"
- ROM_TRS_prepared: "A terminé la décision £decision_icon_small   §H$ROM_organise_the_revolt$§!"
-
- ROM_start_revolt: "La Transylvanie s'est révoltée."
 
  ROM_integrate_state_decision: "Intégration de [From.GetName]"
  ROM_integrate_state_decision_desc: "Les terres roumaines de l'autre côté des Carpates ont été séparées de la patrie pendant si longtemps que son intégration s'est avérée être un sérieux défi pour notre bureaucratie et notre administration. Enfin, [From.GetName] est prêt à être pleinement intégré à l'État de la Grande Roumanie, avec de nouveaux comtés et circonscriptions électorales à créer."
@@ -546,14 +538,11 @@
  ROM_promotion_of_indigenous_capital: "Promouvoir la Capitale Autochtone"
 
 ### Focuses ###
-
  ROM_focus_tree: "Arbre de Priorités de Roumanie"
 
  ROM_manoeuvres_in_the_carpathians: "Manoeuvres dans les Carpathes"
  ROM_manoeuvres_in_the_carpathians_desc: "Les montagnes des Carpates ont divisé le peuple roumain en deux ; la moitié vivant au sein de notre nation, et l'autre sous la botte oppressive des Hongrois. L'article XI du traité de Bucarest a, en outre, cédé les cols et le territoire stratégique environnant à l'Autriche-Hongrie, mais nous savons qu'un jour ces terres seront récupérées. Des manœuvres à grande échelle à la frontière démontreront notre engagement envers nos frères ethniques."
 
- ROM_entrench_party_control: "Consolider le Parti"
- ROM_entrench_party_control_desc: "Malgré la victoire du Mouvement Légionnaire en 1933, son emprise n'est pas encore assurée. Les difficultés de mise en œuvre de la réforme législative et le devoir du Capitaine de s'occuper à la fois des affaires du parti et de l'État, ainsi qu'un sentiment croissant de mécontentement de la Cour royale ont contribué à un sentiment de faiblesse dans nos rangs. Cela risque de nous poser des problèmes."
  ROM_the_code_of_honor: "Le Code d'Honneur"
  ROM_the_code_of_honor_desc: "A la manière d'une organisation chevaleresque plus que d'un parti, nous agissons selon un code d'honneur, qui nous a été donné par notre Capitaine, Corneliu Zelea Codreanu. En ces temps difficiles, son respect doit être plus strict que jamais, étant donné que nos ennemis n'ont pas disparu, mais se sont simplement cachés dans l'ombre."
  ROM_limit_party_membership: "Chapitres Cuiburi"
@@ -597,8 +586,6 @@
 
  ROM_entente: "Liens avec la Vieille Entente"
  ROM_entente_desc: "En 1916, la Roumanie rejoint les puissances de l'Entente au plus fort des victoires russes contre les Puissances Centrales. Et tandis que nous étions vaincus, les restes de l'Entente ont persisté malgré les capitulations et les révolutions. Maintenant que la Roumanie est à nouveau libre et indépendante, nous nous tournons naturellement vers nos anciens alliés, et nous devrions demander formellement à les rejoindre dans leur noble entreprise."
- ROM_finish_reunion: "Les Détails à régler"
- ROM_finish_reunion_desc: "Bien que nous ayons récupéré la Transylvanie, il y a encore d'autres problèmes à résoudre, car la Roumanie doit être encore plus grande. Après tout, la Grande Roumanie doit maintenant être protégée pour qu'elle résiste à l'épreuve du temps."
  ROM_balkan: "La Direction Future"
  ROM_balkan_desc: "Notre quête est double : réaliser le rêve de la Grande Roumanie et nous assurer que notre voisinage soit également stable et prospères. Nous devons veiller à ce que nos amis de la région le restent afin de créer un ordre stable au sein duquel la Roumanie puisse prospérer."
 
@@ -918,8 +905,8 @@ ROM_KR_gathering_storm_desc: "Le traité de Bucarest a mis fin à la guerre de l
 
 ##Germans hear about the nationalisation
  romania.69.t: "La Roumanie nationalise les champs pétrolifères"
- romania.69.d1: "Après l'effondrement complet de la Société Locative des Terres Pétrolifères, gérant les champs pétrolifères de Ploiesti, le gouvernement de Codreanu a procédé à la nationalisation des actifs de cette société en faillite. Cela représente pour la Roumanie une nouvelle violation du Traité de Bucarest, mais nous ne pouvons pas faire grand-chose pour les en empêcher - le public ne se soucie pas non plus beaucoup de la question."
- romania.69.d2: "Après l'effondrement complet de la Société Locative des Terres Pétrolifères, gérant les champs pétrolifères de Ploiesti, le gouvernement de Codreanu a procédé à la nationalisation des actifs de cette société en faillite. Ils ont cependant offert un « prix équitable » en compensation - ce qui est un geste de bonne volonté même si compte tenu de la situation, il est dénué de sens. Nous ne pouvons pas faire grand-chose pour les en empêcher - le public ne se soucie pas non plus de la question."
+ romania.69.d1:9 "Après l'effondrement complet de la Société Locative des Terres Pétrolifères, gérant les champs pétrolifères de Ploiesti, le gouvernement de Codreanu a procédé à la nationalisation des actifs de cette société en faillite. Cela représente pour la Roumanie une nouvelle violation du Traité de Bucarest, mais nous ne pouvons pas faire grand-chose pour les en empêcher - le public ne se soucie pas non plus beaucoup de la question."
+ romania.69.d2:9 "Après l'effondrement complet de la Société Locative des Terres Pétrolifères, gérant les champs pétrolifères de Ploiesti, le gouvernement de Codreanu a procédé à la nationalisation des actifs de cette société en faillite. Ils ont cependant offert un « prix équitable » en compensation - ce qui est un geste de bonne volonté même si compte tenu de la situation, il est dénué de sens. Nous ne pouvons pas faire grand-chose pour les en empêcher - le public ne se soucie pas non plus de la question."
  romania.69.a: "S'ils pensent pouvoir survivre sans Mitteleuropa, qu'il en soit ainsi!"
  romania.69.b: "Nous sommes trop occupés pour nous soucier de sujets aussi triviaux."
 
@@ -1400,7 +1387,6 @@ ROM_KR_gathering_storm_desc: "Le traité de Bucarest a mis fin à la guerre de l
  romania.96.d1: "A la mort de leur fondateur, la Légion jura de le venger, et y parvint. Conduisant à travers Bucarest dans une automobile de luxe, le roi Carol fut pris en embuscade par un escadron de la mort légionnaire, qui ouvrit le feu à plusieurs reprises, le tuant ainsi que tous les autres occupants du véhicule. Les assassins, se faisant appeler les "Vengeurs", ont rapidement fui les lieux.\n\nAprès la mort du Roi, la couronne est passée à son fils, Mihai. Le pays entre dans une nouvelle phase de chaos et l'avenir de la nation reste incertain."
  romania.96.d2: "Après avoir été écartée du pouvoir, la Légion jura de se venger, et elle y parvint. Conduisant à travers Bucarest dans une automobile de luxe, le roi Carol fut pris en embuscade par un escadron de la mort légionnaire qui ouvrit le feu sur lui à plusieurs reprises, le tuant ainsi que les autres occupants du véhicule. Les assassins, se faisant appeler les "Vengeurs", ont rapidement fui les lieux.\n\nAprès la mort du roi, la couronne est passée à son fils, Mihai. Le pays entre dans une nouvelle phase de chaos et l'avenir de la nation reste incertain."
  romania.96.a: "Puisse son regne être long."
- romania.96.b: "Peut-être faudrait-il trouver quelqu'un de plus facilement malléable?"
 
 #Avenger's coup
  romania.97.t: "Le Coup d'Etat des Vengeurs"
@@ -1765,10 +1751,6 @@ ROM_KR_gathering_storm_desc: "Le traité de Bucarest a mis fin à la guerre de l
  romania.173.d: "Le général Constantin Tobescu a fui le pays après l'ascension de Codreanu, car il ne pouvait pas accepter de servir sous la Garde de Fer à laquelle il s'opposait, même si ses convictions n'y étaient pas complètement opposées. Tobescu est un vétéran de la Weltkrieg, mais il est surtout connu pour sa longue carrière dans la gendarmerie roumaine, commandant l'inspection de la gendarmerie de Bucarest au début des années 1930. Maintenant que les Légionnaires ont été évincés du pouvoir, Tobescu a de nouveau choisi d'offrir ses services à sa patrie."
  romania.173.a: "Bon retour parmi nous, Inspecteur Général"
 
- romania.174.t: "Contrôle du pétrole roumain"
- romania.174.d: "Les champs pétrolifères de Ploesti comptent parmi les gisements de pétrole les plus riches d'Europe. Après la Weltkrieg, de grandes entreprises allemandes et autrichiennes ont obtenu le droit exclusif de les exploiter, mais elles ont ensuite perdu ce contrôle à la suite du Lundi Noir. Maintenant que la Roumanie est à genoux une fois de plus, nous pouvons rétablir notre contrôle sur leurs précieux puits de pétrole et leurs raffineries."
- romania.174.a: "Leur or noir est tout à nous."
-
  romania.175.t: "Le Projet Transalpin"
  romania.175.d: "Afin de renforcer es liens unissant notre pays et de faire de notre époque un véritable âge d'or, le Roi a solennellement annoncé le lancement du projet Transalpina ; une route de montagne spectaculaire qui reliera encore mieux l'Ancien Royaume et la Transylvanie.\n\nCette route traversera les Carpathes du Sud à travers la chaine des Parang et s'étendra de Novaci, au nord-est de Targu Jiu, centre du comté de Gorj, jusqu'à Sebes, dans le comté d'Alba. De par son itinéraire spectaculaire et les possibilités de tourisme de montagne que cette route promet dans la région, sans même parler des avantages d'un itinéraire supplémentaire, l'engouement pour le projet est élevé."
  romania.175.a: "Nos vieilles frontières céderont devant l'unité et le progrès!"
@@ -2100,15 +2082,11 @@ ROM_KR_gathering_storm_desc: "Le traité de Bucarest a mis fin à la guerre de l
  ROM_carlist_cult2: "Centre du Culte Carliste"
  ROM_puppet_king: "Le Roi sous surveillance"
  ROM_protector_of_democracy: "Protecteur de la Démocratie"
- ROM_protector_of_democracy2: "Protecteur de la Démocratie"
  ROM_friend_of_the_legion: "Ami de la Légion"
  ROM_green_prince: "Le Prince Vert"
  ROM_legionary_king: "Roi Légionnaire"
 
 ### Tooltips ###
- ROM_monetary_union_completed: "A terminé la décision £decision_icon_small  §H$ROM_monetary_union$§!"
- ROM_undo_foreign_influence_completed: "A terminé la décision £decision_icon_small  §H$ROM_undo_foreign_influence$§!"
- ROM_UDR: "A terminé la décision £decision_icon_small  §H$ROM_reorganise_UDR$§!"
 
 ### Characters ###
  ROM_cristian_racovski: "Cristian Racovski"

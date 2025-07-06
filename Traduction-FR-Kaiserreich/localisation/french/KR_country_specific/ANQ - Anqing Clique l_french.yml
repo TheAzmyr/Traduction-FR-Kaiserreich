@@ -231,33 +231,15 @@ anq_strength_medium: "Moyen"
 anq_strength_high: "Haut"
 anq_strength_very_high: "Très élevé"
 
-anq_al_longyan: "Longyan"
-anq_al_nanping: "Nanping"
-anq_al_s_fujian: "une ville du sud du Fujian"
-anq_al_quanzhou: "Quanzhou"
-anq_al_xiamen: "Xiamen"
-anq_al_lishui_r: "une ville de Lishui"
-anq_al_wenzhou: "Wenzhou"
-anq_al_gannan: "une ville de Gannan"
-anq_al_nanchang: "Nanchang"
-
 anq_fengtian_name: "Fengtian"
 anq_theqing_name: "Les Qing"
 anq_qing_name: "Qing"
 anq_ally_name: "Allié"
 
 ## Credibility System ##
-ANQ_credibility_dynamic_modifier: "£pol_idea Crédibilité de §CChen Tiaoyuan§!"
-ANQ_credibility_idea: "£anq_credibility Crédibilité de §CChen Tiaoyuan§!"
-ANQ_credibility_idea_desc: "Avec l'ancienne Ligue des huit provinces en ruine et la rhétorique anti-concessionniste qui sévit, Chen Tiaoyuan a réussi à se faire passer pour un phare du mouvement en Chine. Mais ceux qui ont permis son ascension pourraient tout aussi bien le laisser tomber s'il trahissait leurs intérêts. Néanmoins, Chen Tiaoyuan sait très bien que suivre leurs moindres désirs conduira à un Anqing sans les ressources nécessaires pour réaliser cette libération de la Chine.\n§W--------------\n[ANQ_credibility_political_power_gain][ANQ_credibility_organisation][ANQ_credibility_recruitable_pop][ANQ_credibility_stability]§!"
-
- ANQ_credibility_political_power_gain_text: "$MODIFIER_POLITICAL_POWER_GAIN$: [?ANQ.credibility_factor_dynamic_modifier_pol_gain|=%+0]\n"
- ANQ_credibility_political_power_gain_text_last: "$MODIFIER_POLITICAL_POWER_GAIN$: [?ANQ.credibility_factor_dynamic_modifier_pol_gain|=%+0]"
- ANQ_credibility_organisation_text: "$MODIFIER_ARMY_ORG_FACTOR$: [?ANQ.credibility_factor_dynamic_modifier_org|=%+1]\n"
- ANQ_credibility_organisation_text_last: "$MODIFIER_ARMY_ORG_FACTOR$: [?ANQ.credibility_factor_dynamic_modifier_org|=%+1]"
- ANQ_credibility_recruitable_pop_text: "$MODIFIER_CONSCRIPTION_TOTAL_FACTOR$: [?ANQ.credibility_factor_dynamic_modifier_recruitable_pop|%+0]\n"
- ANQ_credibility_recruitable_pop_text_last: "$MODIFIER_CONSCRIPTION_TOTAL_FACTOR$: [?ANQ.credibility_factor_dynamic_modifier_recruitable_pop|%+0]"
- ANQ_credibility_stability_text: "$MODIFIER_STABILITY_FACTOR$: [?ANQ.credibility_factor_dynamic_modifier_stab|=%+2]"
+ ANQ_credibility_modifier:9 "Crédibilité de Chen Tiaoyuan"
+ ANQ_credibility_modifier_tt:9 "£anq_credibility §YCrédibilité§! : [?ANQ_credibility_factor|Y0]"
+ ANQ_credibility_modifier_desc:9 "Alors que l'ancienne Ligue des huit provinces est en ruine et que la rhétorique anti-concessionniste est omniprésente, Chen Tiaoyuan a réussi à s'imposer comme le phare du mouvement en Chine. Cependant, ceux qui ont permis son ascension pourraient tout aussi bien le laisser tomber s'il trahissait leurs intérêts. Néanmoins, Chen Tiaoyuan sait très bien que suivre leurs moindres désirs conduira à un Anqing dépourvu des ressources nécessaires pour mener à bien cette libération de la Chine."
 
 ANQ_jiangsu_shandong_deal_dynamic_modifier: "Exploitation du Jiangsu "
 ANQ_jiangsu_shandong_deal_dynamic_modifier_desc: "Exploitation du Jiangsu à cause de l'accord."
@@ -270,6 +252,7 @@ ANQ_peace: "La paix est établie dans les cinq provinces"
 ANQ_chen_alone: "Anqing est indépendant"
  ANQ_is_proqing: "Anqing reconnaît le [QIE.GetName] comme légitime"
  ANQ_is_profengtian: "Anqing reconnaît la légitimité du Fengtian"
+ ANQ_is_profengtian_NOT:9 "Anqing ne reconnaît pas Fengtian comme légitime"
 ANQ_friendly_japan: "Est amical avec le Japon"
 ANQ_is_reconstructing: "A déjà achevé un projet de reconstruction"
 ANQ_abandons_reclamation: "Anqing a abandonné sa participation à la guerre de reconquête"
@@ -284,37 +267,18 @@ ANQ_no_reconstruction_aid: "Fengtian nous a refusé son aide"
  ANQ_shd_is_ally:0 "Alliée à la §HClique de Shandong§!"
 
 ## Tooltips ##
- ANQ_check_credibility: "a plus de $RIGHT|YO$ £anq_credibility de §Ycrédibilité§!"
+ ANQ_check_credibility:9 "a au moins $RIGHT|Y0$ £anq_credibility de §Ycrédibilité§!"
 
  ANQ_increase_credibility_tt:9 "Augmente la £anq_credibility §YCredibilité§! de $RIGHT|G0$.\n"
  ANQ_decrease_credibility_tt:9 "Diminue la £anq_credibility §YCredibilité§! de $RIGHT|R0$.\n"
 
-anq_increase_qie_05: "Augmenter l'influence de £anq_qie §YQing Influence§! de §C0,5%§!\n"
-anq_increase_qie_1: "Augmenter l'influence de £anq_qie §YQing Influence§! de §C1%§!\n"
-anq_increase_qie_2: "Augmenter l'influence de £anq_qie §YQing Influence§! de §C2%§!\n"
-anq_increase_qie_3: "Augmenter l'influence de £anq_qie §YQing Influence§! de §C3%§!\n"
-anq_increase_qie_5: "Augmenter l'influence de £anq_qie §YQing Influence§! de §C5%§!\n"
-anq_increase_qie_7: "Augmenter l'influence de £anq_qie §YQing Influence§! de §C7%§!\n"
-
-anq_decrease_qie_1: "Diminuer l'influence de £anq_qie §YQing Influence§! de §C1%§!\n"
-anq_decrease_qie_2: "Diminuer l'influence de £anq_qie §YQing Influence§! de §C2%§!\n"
-anq_decrease_qie_3: "Diminuer l'influence de £anq_qie §YQing Influence§! de §C3%§!\n"
-anq_decrease_qie_5: "Diminuer l'influence de £anq_qie §YQing Influence§! de §C5%§!\n"
-
-anq_increase_fng_1: "Augmenter l'influence de £anq_fng §YFengtian Influence§! de §C1%§!.\n"
-anq_increase_fng_2: "Augmenter l'influence de £anq_fng §YFengtian Influence§! de §C2%§!.\n"
-anq_increase_fng_5: "Augmenter l'influence de £anq_fng §YFengtian Influence§! de §C5%§!.\n"
-
-anq_decrease_fng_3: "Diminuer l'influence de £anq_fng §YFengtian Influence§! de §C3%§!.\n"
-anq_decrease_fng_5: "Diminuer l'influence de £anq_fng §YFengtian Influence§! de §C5%§!.\n"
+ ANQ_change_beijing_influence_tt:9 "Change £anq_qieinfluence l'§YInfluence Qing§! de §C[?ANQ_beijing_influence_change|=%0]§!\n"
+ ANQ_change_fengtian_influence_tt:9 "Change £anq_fnginfluence l'§YInfluence du Fengtian§! de §C[?ANQ_fengtian_influence_change|=%0]§!.\n"
 
  ANQ_increase_aid_score_tt:9 "Augmente le §YScore d'aide japonaise§! de $RIGHT|C0$.\n"
 
-anq_increase_qie_anger_05x: "§RQing sera légèrement mécontent de votre décision ! (Augmente un peu la colère de §YQing§!)\n"
-anq_increase_qie_anger_1x: "§RQing sera mécontent de votre décision ! (Augmente la colère de §YQing§!)\n"
-anq_increase_qie_anger_2x: "§RQing sera très mécontent de votre décision ! (Augmente §YQing Anger§! de manière significative)\n"
-anq_increase_qie_anger_3x: "§RQing sera extrêmement mécontent de votre décision ! (Augmente §YQing Anger§! very much)\n"
-anq_decrease_qie_anger_5: "Diminuer §YQing Anger§! par §G5§!.\n"
+ ANQ_beijing_anger_increase_tt:9 "La §YColère Qing§! augmente de $RIGHT|R1$."
+ ANQ_beijing_anger_decrease_tt:9 "La §YColère Qing§! diminue de $RIGHT|G1$."
 
  ANQ_no_change_reclamation_war_willingness_tt:0 "La §Yvolonté§! de participer à la guerre de reconquête contre Beijing ne change pas.\n"
  ANQ_increase_reclamation_war_willingness_tt:9 "Augmente la §YVolonté§! de rejoindre la guerre de reconquête contre Beijing de $RIGHT|C0$.\n"
@@ -341,7 +305,7 @@ anq_no_future_improvements_army_coop_tt: "§Le fait de ne pas dire non maintenan
 anq_find_steel_resources_tt: "Débloque la décision de £decision_icon_small §HDecision§! to develop §YSteel Resources§!\n"
 
 anq_anger_mt_5_tt: "§YColère Qing§! doit être de 5 ou plus.\n"
-anq_high_anger_risk_tt: "§REn raison de l'importante §YInfluence Qing§!, la §YColère Qing§! augmentera plus rapidement et entraînera des conséquences plus importantes. Faites attention à les refuser !§!"
+ ANQ_high_anger_risk_tt:0 "§RA cause de l'§YInfluence Qing§! élevée, la §YColère Qing§! augmentera plus rapidement et mènera à de plus grandes conséquences. Soyez prudent en les repoussant !§!"
 
 anq_will_lead_war_tt: "§RJointer la faction de Qing mènera à une guerre immédiate ! §!\n"
 
@@ -360,6 +324,8 @@ anq_denounce_fengtian_tt: "§RSi nous les dénonçons de cette manière, nous ab
 anq_abandon_conference_tolerated_tt: "§RSi nous n'assistons pas à la conférence, cela reviendra à abandonner Fengtian. Ils ont toléré que nous ne soutenions pas leur guerre auparavant, mais cette fois-ci, ils ne le feront pas. Cela signifie qu'Anqing se retrouve seul en Chine, ce qui le rend très vulnérable. Cela conduit également à la disparition de toute aide et de tout soutien actuels, ce qui pourrait provoquer un certain chaos.§!\n"
 
  anq_change_gov_pataut: "Le gouvernement se transforme en Autocratie Paternaliste.\n"
+
+ anq_anqing_influence_mt_four_tt:0 "£anq_qieinfluence L'§YInfluence Qing§! doit être supérieure à §C30%§!."
 
 #Governor tooltips
 anq_new_governor_jiangsu_tt: "Nous devrons attendre de trouver un meilleur candidat"
@@ -391,7 +357,7 @@ anq_yiguandao_unrest_triggered_by_decision_tt: " §RCet événement négatif a �
 
 ## Decisions ##
 ANQ_anti_concessionists: "Le mouvement anti-concessionniste"
- ANQ_anti_concessionists_desc: "Alors que l'ancienne Ligue des Huit Provinces est en ruine et que la rhétorique anti-concessionniste est omniprésente, [ANQ.GetLeader] s'est imposé avec succès comme le phare du mouvement en Chine. Ceux qui ont permis son ascension, cependant, pourraient tout aussi bien le laisser tomber s'il trahissait leurs intérêts, qui sont parfois contraires aux siens.\n\nLa §YCrédibilité§! §greprésente la légitimité globale dont [ANQ.GetLeader] jouit au sein du mouvement anti-concessionniste et la crédibilité de ses prétentions à servir leur cause.§!\n\n£anq_credibility §YCredibilité§!  : [?ANQ.credibility_factor]\n"
+ ANQ_anti_concessionists_desc:9 "Alors que l'ancienne Ligue des Huit Provinces est en ruine et que la rhétorique anti-concessionniste est omniprésente, [ANQ.GetLeader] s'est imposé avec succès comme le phare du mouvement en Chine. Ceux qui ont permis son ascension, cependant, pourraient tout aussi bien le laisser tomber s'il trahissait leurs intérêts, qui sont parfois contraires aux siens.\n\nLa §YCrédibilité§! §greprésente la légitimité globale dont [ANQ.GetLeader] jouit au sein du mouvement anti-concessionniste et la crédibilité de ses prétentions à servir leur cause.§!\n\n$ANQ_credibility_modifier_tt$\n£anq_credibility Echelle de §YCrédibilité§!  : §Y0-160§!\n§Y$ANQ_credibility_modifier$§! modificateurs passés de £anq_credibility §YCrédibilité§! : §Y120§!."
 
 ANQ_antiwestern_volunteers: "Recruter des volontaires anti-occidentaux"
  ANQ_antiwestern_volunteers_desc: "La haine contre les Occidentaux est forte. Nous devons exploiter cette haine et organiser ceux qui arrivent ici, fuyant la marionnette étrangère à Nanjing, dans de nouvelles divisions de volontaires pour soutenir nos forces. Nous sommes largement dépassés en nombre et nous devons faire appel à tous ceux qui souhaitent nous aider"
@@ -528,7 +494,7 @@ ANQ_decision_lower_yiguandao_unrest_desc: "Maintenant que nous avons commencé �
 ANQ_influence_decisions: "La diplomatie alliée"
 ANQ_influence_decisions_desc: "[getanqinfluencesystem]"
 
-anq_influence_decisions_proqing: "Les Qing ont contribué à notre défaite de la Clique de Nanjing, et nous leur devons beaucoup. En outre, nous soutenons l'idéal d'une Chine unie. Par conséquent, une coopération étroite avec les Qing et un chemin vers une éventuelle unification sont inévitables : §H[?party_popularity@market_liberal|%1]§!§! §Y(Market Liberal Popularity)§!\n§gCurrent §YQing Anger§! : §R[?ANQ_beijing_anger|0]§! §Y(Diminue 1 par semaine)§!"
+ anq_influence_decisions_proqing:9 "Les Qing ont contribué à notre défaite de la Clique de Nanjing, et nous leur devons beaucoup. En outre, nous soutenons l'idéal d'une Chine unie. Par conséquent, une coopération étroite avec les Qing et un chemin vers une éventuelle unification sont inévitables.\n\n§YInfluence Qing§! §gactuelle : §H[?party_popularity@market_liberal|%1]§!§! §Y(Popularité des libéraux de marché)§!\n§YColère Qing§! §gactuelle : [?ANQ_beijing_anger|R1] §Y(Diminue de 1 par semaine)§!"
  anq_influence_decisions_projapan: "Nous reconnaissons le gouvernement Fengtian comme le gouvernement chinois légitime. A travers eux, les Japonais ont une influence significative car nous dépendons de leur soutien. En utilisant notre soutien à une Chine unie, les Fengtiens chercheront à étendre leur contrôle sur nous. [getanqwillingnessreclamation]§gCurrent §YFengtian Influence§! §H[?party_popularity@market_liberal|%1]§!§! §Y(Market Liberal Popularity)§!\n§gCurrent §YJapanese Aid Score§! §H[?ANQ_tokyo_score]§!§!"
  anq_influence_decisions_alone:9 "Nous avons mis notre foi dans le gouvernement de Fengtian, cherchant la réalisation de notre rêve républicain. Pourtant, ce que nous avons reçu n'était rien d'autre qu'une trahison.\nFengtian et le Japon nous ont abandonnés, si nous ne réagissons pas rapidement et n'agissons pas, cette situation isolée nous entraînera dans la tourmente de la montée des tensions en Chine et effacera notre existence.\n\n§YMais d'un autre côté, sans leurs chaînes, pourrait-ce être l'occasion de réaliser une ambition encore plus grande ?§!"
 anq_willingness_reclamation_loc: "§g§YVolonté§! de rejoindre la guerre de la reconquête : §H[?ANQ_reconnaissance_volontaire|+0]§!§!\n"
@@ -628,8 +594,7 @@ ANQ_anti_concessionist_militias: "Milices anticoncessionnistes"
 ANQ_new_xinhai_idea: "Un nouveau Xinhai"
 ANQ_new_xinhai_idea_desc: "Beijing a trahi les idéaux de la révolution du Xinhai. Nous allons revenir à l'époque de cette glorieuse révolution et laisser son feu brûler à nouveau dans le cœur de tous les Chinois. Nous nous battrons pour que le rêve du Xinhai redevienne réalité"
 
-ANQ_new_xinhai_idea1: "Un nouveau Xinhai"
-ANQ_new_xinhai_idea1_desc: "Beijing a trahi les idéaux de la révolution du Xinhai. Nous allons revenir à l'époque de cette glorieuse révolution et laisser son feu brûler à nouveau dans le cœur de tous les Chinois. Nous nous battrons pour que le rêve du Xinhai redevienne réalité"
+ ANQ_new_xinhai_idea1_desc:9 "Beijing a trahi les idéaux de la révolution du Xinhai. Nous allons revenir à l'époque de cette glorieuse révolution et laisser son feu brûler à nouveau dans le cœur de tous les Chinois. Nous nous battrons pour que le rêve du Xinhai redevienne réalité"
 
 ANQ_qing_army_cooperation: "Coopération de l'armée Qing"
 ANQ_qing_army_cooperation_desc: "Bien que nous ne soyons pas parvenus à un accord sur l'unification, nous convenons que la défense contre les menaces extérieures est essentielle pour la survie de la Chine. C'est pourquoi la Clique Anqing de Chen et les Qing coopèrent étroitement dans les affaires militaires pour assurer la qualité des troupes"
@@ -652,9 +617,6 @@ ANQ_qing_enterprises_desc: "Les actions récentes de notre part ont conduit à u
  ANQ_temporary_sanctions_qie: "Sanctions Temporaires"
 
 ANQ_beijing_angry1: "Rupture des relations " 
-ANQ_beijing_angry2: "Rupture des relations"
-ANQ_beijing_angry3: "Rupture des relations"
-ANQ_beijing_angry4: "Rupture des relations"
 
 ANQ_yiguandao: " L'agitation Yiguandao "
 ANQ_yiguandao_desc: "L'agitation générale dans le nord, combinée à la guerre civile, a fait monter en flèche l'agitation des adeptes de la religion Yiguandao. Ils se rassemblent en masse et provoquent un grand chaos dans nos provinces du nord. Si nous ne travaillons pas à les réprimer rapidement, le désordre ne fera qu'empirer : [getanqunreststrengthtextyiguandao]"
@@ -685,7 +647,7 @@ ANQ_Emergency_Troop_Training: "Entraînement des troupes d'urgence"
 ANQ_german_support: "Soutien allemand à Anqing"
  ANQ_japanese_support: "Soutien du Fengtian à Anqing"
 
-ANQ_beijing_cooperation: "Coopération de Beijing : limitée"
+ ANQ_beijing_cooperation0:0 "Beijing Cooperation: Limited"
 ANQ_beijing_cooperation1: "Coopération de Beijing : Bas"
 ANQ_beijing_cooperation2: "Coopération de Beijing : Bas"
 ANQ_beijing_cooperation3: "Coopération de Beijing : Bas"
@@ -699,21 +661,23 @@ ANQ_beijing_cooperation10: "Coopération de Beijing : Très élevé"
 ANQ_beijing_cooperation11: "Coopération de Beijing : presque terminée"
 ANQ_beijing_cooperation12: "Coopération de Beijing : Total"
 
-ANQ_beijing_cooperation_desc: "La Clique d'Anqing doit un certain nombre de choses au gouvernement de Beijing. En outre, tant Chen que les dirigeants de Beijing croient en une Chine unie, libre de toute influence étrangère, ce qui a conduit à une coopération étroite entre les deux gouvernements. Cependant, pour le gouvernement de Beijing, la coopération pourrait ne pas suffire".
-ANQ_beijing_cooperation1_desc: "La Clique d'Anqing doit un certain nombre de choses au gouvernement de Beijing. En outre, tant Chen que les dirigeants de Beijing croient en une Chine unie, libre de toute influence étrangère, ce qui a conduit à une coopération étroite entre les deux gouvernements. Cependant, pour le gouvernement de Beijing, la coopération pourrait ne pas suffire".
-ANQ_beijing_cooperation2_desc: "La Clique d'Anqing doit un certain nombre de choses au gouvernement de Beijing. En outre, tant Chen que les dirigeants de Beijing croient en une Chine unie, libre de toute influence étrangère, ce qui a conduit à une coopération étroite entre les deux gouvernements. Cependant, pour le gouvernement de Beijing, la coopération pourrait ne pas suffire".
+ ANQ_beijing_cooperation_idea_unchanged:9 "$IDEA|Y$ L'esprit national reste inchangé."
+
+ ANQ_beijing_cooperation0_desc:0 "La clique d'Anqing doit un certain nombre de choses au gouvernement de Beijing. En outre, Chen et les dirigeants de Beijing croient tous deux en une Chine unie, libre de toute influence étrangère, ce qui a conduit à une coopération étroite entre les deux gouvernements. Toutefois, pour le gouvernement de Beijing, la coopération pourrait ne pas suffire."
+ ANQ_beijing_cooperation1_desc:9 "La Clique d'Anqing doit un certain nombre de choses au gouvernement de Beijing. En outre, tant Chen que les dirigeants de Beijing croient en une Chine unie, libre de toute influence étrangère, ce qui a conduit à une coopération étroite entre les deux gouvernements. Cependant, pour le gouvernement de Beijing, la coopération pourrait ne pas suffire"
+ ANQ_beijing_cooperation2_desc:9 "La Clique d'Anqing doit un certain nombre de choses au gouvernement de Beijing. En outre, tant Chen que les dirigeants de Beijing croient en une Chine unie, libre de toute influence étrangère, ce qui a conduit à une coopération étroite entre les deux gouvernements. Cependant, pour le gouvernement de Beijing, la coopération pourrait ne pas suffire"
 ANQ_beijing_cooperation3_desc: "Chen et les dirigeants de Beijing croient en une Chine unie, ce qui a conduit à une coopération militaire et économique étroite. Cependant, le gouvernement de Beijing cherche également à contrôler la situation et, en raison de son influence et de la dépendance d'Anqing à leur égard, a commencé à imposer des traités économiques restrictifs".
-ANQ_beijing_cooperation4_desc: "Chen et les dirigeants de Beijing croient en une Chine unie, ce qui a conduit à une coopération militaire et économique étroite. Cependant, le gouvernement de Beijing cherche également à contrôler la situation et, en raison de son influence et de la dépendance d'Anqing à leur égard, a commencé à imposer des traités économiques restrictifs".
+ ANQ_beijing_cooperation4_desc:9 "Chen et les dirigeants de Beijing croient en une Chine unie, ce qui a conduit à une coopération militaire et économique étroite. Cependant, le gouvernement de Beijing cherche également à contrôler la situation et, en raison de son influence et de la dépendance d'Anqing à leur égard, a commencé à imposer des traités économiques restrictifs"
 ANQ_beijing_cooperation5_desc: "Chen et les dirigeants de Beijing croient en une Chine unie, ce qui a conduit à une coopération militaire et économique étroite. Mais cette coopération a un prix, car nous sommes obligés d'accorder un accès économique préférentiel, qui n'est pas différent de celui que les Allemands nous ont imposé autrefois".
-ANQ_beijing_cooperation6_desc: "Chen et les dirigeants de Beijing croient en une Chine unie, ce qui a conduit à une coopération militaire et économique étroite. Mais cette coopération a un prix, car nous sommes obligés d'accorder un accès économique préférentiel, qui n'est pas différent de celui que les Allemands nous ont imposé autrefois".
-ANQ_beijing_cooperation7_desc: "Chen et les dirigeants de Beijing croient en une Chine unie, ce qui a conduit à une coopération militaire et économique étroite. Mais cette coopération a un prix, car nous sommes obligés d'accorder un accès économique préférentiel, qui n'est pas différent de celui que les Allemands nous ont imposé autrefois".
+ ANQ_beijing_cooperation6_desc:9 "Chen et les dirigeants de Beijing croient en une Chine unie, ce qui a conduit à une coopération militaire et économique étroite. Mais cette coopération a un prix, car nous sommes obligés d'accorder un accès économique préférentiel, qui n'est pas différent de celui que les Allemands nous ont imposé autrefois"
+ ANQ_beijing_cooperation7_desc:9 "Chen et les dirigeants de Beijing croient en une Chine unie, ce qui a conduit à une coopération militaire et économique étroite. Mais cette coopération a un prix, car nous sommes obligés d'accorder un accès économique préférentiel, qui n'est pas différent de celui que les Allemands nous ont imposé autrefois"
  ANQ_beijing_cooperation8_desc: "Si une Chine unie est puissante et nous apporte de nombreux avantages, il est évident qu'elle a maintenant un prix. Le gouvernement de Beijing bénéficie d'un accès préférentiel à nos marchés et détient des intérêts importants dans une grande partie de notre industrie. Si nous restons sur cette voie, nous risquons de perdre notre autonomie tout ensemble"
 ANQ_beijing_cooperation9_desc: "Si une Chine unie est puissante et nous apporte de nombreux avantages, il est évident qu'elle a maintenant un prix. Le gouvernement de Beijing bénéficie d'un accès préférentiel à nos marchés et détient des intérêts importants dans une grande partie de notre industrie. L'influence de Beijing est devenue si puissante qu'il n'est peut-être même pas possible de refuser des demandes supplémentaires".
  ANQ_beijing_cooperation10_desc: "Le rêve d'une Chine unie était puissant, mais pour notre gouvernement, il a signifié une soumission presque totale au gouvernement de Beijing. Nous devons être très prudents, sinon leur influence politique et leur contrôle économique conduiront à la fin de notre gouvernement autonome"
  ANQ_beijing_cooperation11_desc: "Le rêve d'une Chine unie était puissant, mais pour notre gouvernement, cela a signifié une soumission pratique au gouvernement de Beijing. Il n'y a guère d'autre choix que de se conformer à toutes les exigences de Beijing"
  ANQ_beijing_cooperation12_desc: "Le rêve d'une Chine unie était puissant, mais pour notre gouvernement, il a signifié la soumission au gouvernement de Beijing. Une grande partie de l'économie est entre leurs mains et bientôt, ils prendront également le contrôle de notre gouvernement"
 
- ANQ_fengtian_cooperation: "Coopération du Fengtian : Limitée"
+ ANQ_fengtian_cooperation0:0 "Cooperation Fengtian : Limitée"
  ANQ_fengtian_cooperation1: "Coopération du Fengtian : Faible"
  ANQ_fengtian_cooperation2: "Coopération du Fengtian : Faible"
  ANQ_fengtian_cooperation3: "Coopération du Fengtian : Faible"
@@ -725,14 +689,16 @@ ANQ_beijing_cooperation9_desc: "Si une Chine unie est puissante et nous apporte 
  ANQ_fengtian_cooperation9: "Coopération du Fengtian : Presque Complète"
  ANQ_fengtian_cooperation10: "Coopération du Fengtian : Totale"
 
-ANQ_fengtian_cooperation_desc: "La Clique d'Anqing doit un certain nombre de choses au gouvernement en Fengtian, et aussi à Tokyo. Si la coopération initiale s'est avérée bénéfique, le gouvernement de Fengtian et ses bienfaiteurs japonais pourraient finalement en demander davantage".
-ANQ_fengtian_cooperation1_desc: "La Clique d'Anqing doit un certain nombre de choses au gouvernement en Fengtian, et aussi à Tokyo. Si la coopération étroite initiale s'est avérée bénéfique, le gouvernement de Fengtian et ses bienfaiteurs japonais pourraient finalement demander davantage".
-ANQ_fengtian_cooperation2_desc: "La Clique d'Anqing doit un certain nombre de choses au gouvernement en Fengtian, et aussi à Tokyo. Si la coopération initiale s'est avérée bénéfique, le gouvernement de Fengtian et ses bienfaiteurs japonais pourraient finalement en demander davantage".
+ ANQ_fengtian_cooperation_idea_unchanged:9 "$IDEA|Y$ L'esprit national reste inchangé."
+
+ ANQ_fengtian_cooperation0_desc:0 "La Clique d'Anqing doit un certain nombre de choses au gouvernement de Fengtian, ainsi qu'à Tokyo. Si la coopération initiale s'est avérée bénéfique, le gouvernement de Fengtian et ses bienfaiteurs japonais pourraient finir par demander davantage."
+ ANQ_fengtian_cooperation1_desc:9 "La Clique d'Anqing doit un certain nombre de choses au gouvernement en Fengtian, et aussi à Tokyo. Si la coopération étroite initiale s'est avérée bénéfique, le gouvernement de Fengtian et ses bienfaiteurs japonais pourraient finalement demander davantage"
+ ANQ_fengtian_cooperation2_desc:9 "La Clique d'Anqing doit un certain nombre de choses au gouvernement en Fengtian, et aussi à Tokyo. Si la coopération initiale s'est avérée bénéfique, le gouvernement de Fengtian et ses bienfaiteurs japonais pourraient finalement en demander davantage"
  ANQ_fengtian_cooperation3_desc: "La Clique d'Anqing doit un certain nombre de choses au gouvernement en Fengtian, et aussi à Tokyo. Si la coopération initiale s'est avérée bénéfique, les gouvernements de Fengtian et de Tokyo cherchent également à exercer un contrôle et, en raison de leur influence et de la dépendance d'Anqing à leur égard, ont commencé à imposer des traités économiques restrictifs"
- ANQ_fengtian_cooperation4_desc: "La Clique d'Anqing doit un certain nombre de choses au gouvernement en Fengtian, et aussi à Tokyo. Si la coopération initiale s'est avérée bénéfique, les gouvernements de Fengtian et de Tokyo cherchent également à exercer un contrôle et, en raison de leur influence et de la dépendance d'Anqing à leur égard, ont commencé à imposer des traités économiques restrictifs"
+ ANQ_fengtian_cooperation4_desc:9 "La Clique d'Anqing doit un certain nombre de choses au gouvernement en Fengtian, et aussi à Tokyo. Si la coopération initiale s'est avérée bénéfique, les gouvernements de Fengtian et de Tokyo cherchent également à exercer un contrôle et, en raison de leur influence et de la dépendance d'Anqing à leur égard, ont commencé à imposer des traités économiques restrictifs"
 ANQ_fengtian_cooperation5_desc: "La Clique d'Anqing coopère étroitement avec les gouvernements de Fengtian et de Tokyo. Mais cette coopération a un prix, car nous sommes obligés d'accorder un accès économique préférentiel, qui n'est pas différent de celui que les Allemands nous ont imposé autrefois".
-ANQ_fengtian_cooperation6_desc: "La Clique d'Anqing coopère étroitement avec les gouvernements de Fengtian et de Tokyo. Mais cette coopération a un prix, car nous sommes obligés d'accorder un accès économique préférentiel, qui n'est pas différent de celui que les Allemands nous ont imposé autrefois".
-ANQ_fengtian_cooperation7_desc: "La Clique d'Anqing coopère étroitement avec les gouvernements de Fengtian et de Tokyo. Mais cette coopération a un prix, car nous sommes obligés d'accorder un accès économique préférentiel, qui n'est pas différent de celui que les Allemands nous ont imposé autrefois".
+ ANQ_fengtian_cooperation6_desc:9 "La Clique d'Anqing coopère étroitement avec les gouvernements de Fengtian et de Tokyo. Mais cette coopération a un prix, car nous sommes obligés d'accorder un accès économique préférentiel, qui n'est pas différent de celui que les Allemands nous ont imposé autrefois"
+ ANQ_fengtian_cooperation7_desc:9 "La Clique d'Anqing coopère étroitement avec les gouvernements de Fengtian et de Tokyo. Mais cette coopération a un prix, car nous sommes obligés d'accorder un accès économique préférentiel, qui n'est pas différent de celui que les Allemands nous ont imposé autrefois"
  ANQ_fengtian_cooperation8_desc: "Si un bloc Fengtian-Anqing uni est puissant et nous procure de nombreux avantages, il est évident qu'il a maintenant un prix. Le gouvernement fengtien et ses partenaires japonais bénéficient d'un accès préférentiel à nos marchés et d'une participation importante dans une grande partie de notre industrie. Si nous restons sur cette voie, nous risquons de perdre notre autonomie tout ensemble"
  ANQ_fengtian_cooperation9_desc: "Si un bloc Fengtian-Anqing uni est puissant et nous procure de nombreux avantages, il est évident qu'il a maintenant un prix. Le gouvernement fengtien et ses partenaires japonais bénéficient d'un accès préférentiel à nos marchés et d'une participation importante dans une grande partie de notre industrie. Leur influence est devenue si puissante qu'il n'est peut-être même pas possible de refuser des demandes supplémentaires"
 ANQ_fengtian_cooperation10_desc: "Bien qu'un bloc Fengtian-Anqing uni soit puissant et nous procure de nombreux avantages, il est évident qu'il s'est fait au prix d'une soumission complète. Une grande partie de l'économie est entre leurs mains et bientôt, ils prendront également le contrôle de notre gouvernement".
@@ -1326,32 +1292,32 @@ anq.40.d: "Dans une autre démonstration de pure hypocrisie, certains des gouver
 anq.40.a: "Nous leur enverrons une lettre forte !"
 
 anq.41.t: "Soldats pris en embuscade"
- anq.41.d: "Lors d'une patrouille régulière aujourd'hui, un groupe de soldats a été pris en embuscade par une bande de guérilleros du Kuomintang près de [getanqattacklocationkmt], qui les a rapidement maîtrisés et tués. D'autres partis de guerre ont été envoyés pour les traquer, sans grand succès"
+ anq.41.d:9 "Lors d'une patrouille régulière aujourd'hui, un groupe de soldats a été pris en embuscade par une bande de guérilleros du Kuomintang près de [?ANQ_KMT_attack_location.GetCapitalVictoryPointName], qui les a rapidement maîtrisés et tués. D'autres partis de guerre ont été envoyés pour les traquer, sans grand succès"
 anq.41.a: " Merde ".
 
-anq.42.t: "Train bombardé dans [getanqattacklocationkmt]".
-anq.42.d: "Alors qu'ils s'arrêtaient pour charger plus de fournitures dans un train à [getanqattacklocationkmt], plusieurs agents du KMT se sont faufilés jusqu'au train et ont placé plusieurs bombes en dessous. Lorsqu'ils ont explosé, ils ont complètement détruit le train, toutes les fournitures et la voie ferrée sur laquelle il se trouvait. Ces terroristes n'ont toujours pas été retrouvés, ayant probablement trouvé refuge dans les maisons de certains des paysans".
+ anq.42.t:9 "Train bombardé à [?ANQ_KMT_attack_location.GetCapitalVictoryPointName]"
+ anq.42.d:9 "Alors qu'ils s'arrêtaient pour charger plus de fournitures dans un train à [?ANQ_KMT_attack_location.GetCapitalVictoryPointName], plusieurs agents du KMT se sont faufilés jusqu'au train et ont placé plusieurs bombes en dessous. Lorsqu'ils ont explosé, ils ont complètement détruit le train, toutes les fournitures et la voie ferrée sur laquelle il se trouvait. Ces terroristes n'ont toujours pas été retrouvés, ayant probablement trouvé refuge dans les maisons de certains des paysans"
 anq.42.a: "Quand cela va-t-il se terminer ?"
 
-anq.43.t: "Officiers assassinés dans [getanqattacklocationkmt]"
-anq.43.d: "Les tensions restent fortes dans le Sud, car nous sommes obligés d'envoyer de plus en plus de troupes et de policiers militaires pour assurer la sécurité de la région. Pendant la formation de la nouvelle police militaire à [getanqattacklocationkmt], plusieurs agents du Kuomintang se sont infiltrés dans les casernes et ont tiré sur plusieurs officiers avant d'être tués par les troupes en formation. Après la mort de ces agents, de multiples petites bombes ont explosé autour des casernes, blessant trois personnes et coûtant cher à réparer".
+ anq.43.t:9 "Officiers assassinés à [?ANQ_KMT_attack_location.GetCapitalVictoryPointName]"
+ anq.43.d:9 "Les tensions restent fortes dans le Sud, car nous sommes obligés d'envoyer de plus en plus de troupes et de policiers militaires pour assurer la sécurité de la région. Pendant la formation de la nouvelle police militaire à [?ANQ_KMT_attack_location.GetCapitalVictoryPointName], plusieurs agents du Kuomintang se sont infiltrés dans les casernes et ont tiré sur plusieurs officiers avant d'être tués par les troupes en formation. Après la mort de ces agents, de multiples petites bombes ont explosé autour des casernes, blessant trois personnes et coûtant cher à réparer"
 anq.43.a: "Qu'ils soient maudits"
 
-anq.44.t: "Usine bombardée à [getanqattacklocationkmt]".
- anq.44.d: "Même si l'usine de [getanqattacklocationkmt] était considérée comme sûre, elle a quand même été victime des agents du Kuomintang. Vers minuit, des explosions soudaines ont retenti dans toute la région, alors qu'une bombe était déclenchée dans le quartier industriel, endommageant une usine. C'est certainement mauvais pour les affaires"
+ anq.44.t:9 "Usine bombardée à [?ANQ_KMT_attack_location.GetCapitalVictoryPointName]"
+ anq.44.d:9 "Même si l'usine de [?ANQ_KMT_attack_location.GetCapitalVictoryPointName] était considérée comme sûre, elle a quand même été victime des agents du Kuomintang. Vers minuit, des explosions soudaines ont retenti dans toute la région, alors qu'une bombe était déclenchée dans le quartier industriel, endommageant une usine. C'est certainement mauvais pour les affaires"
 anq.44.a: "Qu'ils soient maudits"
 
-anq.45.t: "Fusillade à [getanqattacklocationcitykmt]".
-anq.45.d: "Depuis la défaite du président Wang Jingwei, les tensions sont restées fortes dans [getanqattacklocationcitykmt]. La présence militaire et les sympathies du Kuomintang sont restées très élevées. Il était inévitable que cela finisse par déborder, comme c'est le cas aujourd'hui. Un homme, habillé comme un paysan normal, passait devant un groupe de soldats, quand soudain il a sorti un pistolet et a commencé à leur tirer dessus. Bien que cet homme ait été tué rapidement par les troupes, c'était en fait une distraction, car pendant que l'homme était tué, un grand groupe de troupes du Kuomintang a chargé sur les soldats de l'autre côté, et les a tous tués. Au fur et à mesure que la journée avançait, des soldats plus loyaux se sont joints aux combats, mais ils ont été contrés par d'autres attaques du Kuomintang. Des dizaines, voire des centaines de personnes furent tuées, mais heureusement, le soir, les combats avaient diminué et l'ordre était assuré".
+ anq.45.t:9 "Fusillade à [?ANQ_KMT_attack_location.GetCapitalVictoryPointName]"
+ anq.45.d:9 "Depuis la défaite du président Wang Jingwei, les tensions sont restées fortes à [?ANQ_KMT_attack_location.GetCapitalVictoryPointName]. La présence militaire et les sympathies du Kuomintang sont restées très élevées. Il était inévitable que cela finisse par déborder, comme c'est le cas aujourd'hui. Un homme, habillé comme un paysan normal, passait devant un groupe de soldats, quand soudain il a sorti un pistolet et a commencé à leur tirer dessus. Bien que cet homme ait été tué rapidement par les troupes, c'était en fait une distraction, car pendant que l'homme était tué, un grand groupe de troupes du Kuomintang a chargé sur les soldats de l'autre côté, et les a tous tués. Au fur et à mesure que la journée avançait, des soldats plus loyaux se sont joints aux combats, mais ils ont été contrés par d'autres attaques du Kuomintang. Des dizaines, voire des centaines de personnes furent tuées, mais heureusement, le soir, les combats avaient diminué et l'ordre était assuré"
 anq.45.a: "Je suis sûr que ce ne sera pas le dernier"
 
-anq.46.t: "Bombardement d'une usine lourde dans [getanqattacklocationkmt]".
-anq.46.d: "Bien que les KMT aient été vaincus sur le terrain, leur campagne de terreur fait rage. Aujourd'hui, de multiples bombes ont été lancées dans [getanqattacklocationkmt], centrées autour des principaux complexes industriels. Bien qu'il n'y ait pas eu de victimes, l'usine a été très endommagée et ne pourra pas travailler pendant un certain temps. D'après ce qu'a dit le Kuomintang, nous devrions probablement nous habituer à de tels événements, jusqu'à ce que nous les ayons définitivement éliminés".
+ anq.46.t:9 "Bombardement d'une usine lourde à [?ANQ_KMT_attack_location.GetCapitalVictoryPointName]"
+ anq.46.d:9 "Bien que les KMT aient été vaincus sur le terrain, leur campagne de terreur fait rage. Aujourd'hui, de multiples bombes ont été lancées à [?ANQ_KMT_attack_location.GetCapitalVictoryPointName], centrées autour des principaux complexes industriels. Bien qu'il n'y ait pas eu de victimes, l'usine a été très endommagée et ne pourra pas travailler pendant un certain temps. D'après ce qu'a dit le Kuomintang, nous devrions probablement nous habituer à de tels événements, jusqu'à ce que nous les ayons définitivement éliminés"
 anq.46.a: "Qu'ils aillent au diable"
 
-anq.47.t: " Bataille à [getanqattacklocationcitykmt] ".
- anq.47.d: "[getanqattacklocationcitykmt], toujours un foyer d'activités du Kuomintang, a été confronté à une confrontation massive de la part du KMT. Environ 400 soldats du Kuomintang sont entrés sur la place principale de la ville, ont tué tous les policiers et soldats qui s'y trouvaient, et se sont rapidement retranchés dans des fortifications construites à la hâte. Il a fallu de multiples poussées de centaines de nos propres troupes pour pouvoir retourner sur la place et la débarrasser de leurs guérilleros, qui se sont rapidement repliés dans les rues de derrière, pour finalement s'abriter dans les maisons de nombreux paysans qui y vivent. Cependant, l'officier qui dirigeait l'attaque a décidé que ces KMT devaient être déracinés de [getanqattacklocationcitykmt], et a donc envoyé environ 200 soldats pour une folie meurtrière dans toute la ville. Des centaines de civils ont été alignés et abattus, et les maisons de beaucoup d'entre eux ont été réduites en cendres. Lorsque Chen a entendu parler de ce que certains appellent le massacre [getanqattacklocationcitykmt], il a fait arrêter l'officier, mais c'était trop peu, trop tard"
-anq.47.a: "Le massacre de Quanzhou est la faute du KMT".
+ anq.47.t:9 " Bataille à [?ANQ_KMT_attack_location.GetCapitalVictoryPointName]"
+ anq.47.d:9 "[?ANQ_KMT_attack_location.GetCapitalVictoryPointName], toujours un foyer d'activités du Kuomintang, a été confronté à une confrontation massive de la part du KMT. Environ 400 soldats du Kuomintang sont entrés sur la place principale de la ville, ont tué tous les policiers et soldats qui s'y trouvaient, et se sont rapidement retranchés dans des fortifications construites à la hâte. Il a fallu de multiples poussées de centaines de nos propres troupes pour pouvoir retourner sur la place et la débarrasser de leurs guérilleros, qui se sont rapidement repliés dans les rues de derrière, pour finalement s'abriter dans les maisons de nombreux paysans qui y vivent. Cependant, l'officier qui dirigeait l'attaque a décidé que ces KMT devaient être déracinés de [?ANQ_KMT_attack_location.GetCapitalVictoryPointName], et a donc envoyé environ 200 soldats pour une folie meurtrière dans toute la ville. Des centaines de civils ont été alignés et abattus, et les maisons de beaucoup d'entre eux ont été réduites en cendres. Lorsque Chen a entendu parler de ce que certains appellent le massacre de [?ANQ_KMT_attack_location.GetCapitalVictoryPointName], il a fait arrêter l'officier, mais c'était trop peu, trop tard"
+ anq.47.a:9 "Le massacre de [?ANQ_KMT_attack_location.GetCapitalVictoryPointName] est la faute du KMT"
 
 anq.48.t: "Bombardements ferroviaires de masse dans le Sud"
  anq.48.d: "Au début de la journée, de multiples bombes ont été lancées sur une voie ferrée traversant le sud de notre territoire. C'était une attaque très bien organisée, en raison de la quantité de bombes réparties sur plusieurs provinces. L'attaque a paralysé la voie ferrée et se fera sentir tout au long de l'opération, ce qui nuira considérablement à notre capacité à déplacer les troupes et à faire face au KMT, sans parler de la réparation des dégâts. C'est une catastrophe"
@@ -1622,24 +1588,28 @@ anq.106.t: "Production de guerre d'urgence"
  anq.111.d: "L'alphabétisation est essentielle à toute population productive, car elle constitue le principal moyen d'acquérir de nouvelles compétences - des compétences essentielles à la croissance économique et à l'amélioration de la société dans son ensemble. Afin d'augmenter nos propres taux d'alphabétisation (lamentables), nous avons décidé d'instituer plusieurs nouveaux programmes.\nTout d'abord, les soldats recevront une formation de base à la lecture des caractères les plus utiles pour les opérations militaires, afin qu'ils puissent comprendre de manière autonome les ordres écrits.\nDeuxièmement, tous les chefs locaux seront tenus de se présenter pour un examen de leur niveau d'alphabétisation ; s'il s'avère qu'il est trop faible pour leur permettre de faire efficacement leur travail, ils suivront une formation pour y remédier.\nTroisièmement, et c'est peut-être le point le plus important, nous devons accroître l'offre d'éducation de base dans la paysannerie. Nombreux sont ceux qui vivent trop loin de toute forme d'école pour pouvoir la fréquenter, ou qui estiment que l'effort d'envoyer leurs enfants à l'extérieur n'en vaut tout simplement pas la peine. Il faut y remédier : chaque enfant doit avoir la possibilité d'apprendre à lire pour son développement futur, faute de quoi nous commencerons certainement à stagner sur le plan intellectuel.\n\nEn fait, la famille Wu est un excellent exemple de ce qu'une bonne éducation peut apporter : Wu Zhuozhi est un ingénieur mécanique accompli dont les modèles d'automobiles sont actuellement à la mode parmi nos fonctionnaires, son frère est également un ingénieur réputé, sa belle-sœur est une enseignante renommée et sa nièce Wu Jianxiong a un esprit encore plus brillant - ses idées en matière de physique font déjà des vagues. Tout cela leur a été possible grâce à leur accès à l'Université nationale du Sud-Est (également connue sous le nom d'Université de Jiangsu), et notre objectif est maintenant de diffuser ce même potentiel dans chaque province. Ce n'est pas une tâche facile, mais la persévérance nous permettra d'aller jusqu'au bout."
  anq.111.a: "Dans l'enseignement, il ne devrait pas y avoir de distinction de classes."
 
-anq.113.t: "Qing Gouvernement insatisfait"
- anq.113.d1: "Nos bienfaiteurs Qing nous ont fait savoir qu'ils n'étaient pas du tout satisfaits de l'évolution de nos relations. Alors que nous avons travaillé dur pour coopérer et nous rapprocher, nous avons récemment repoussé beaucoup de leurs propositions. Ils ont commencé à utiliser leurs agents contre nous et nous sabotent activement si nous ne montrons pas de remords."
-anq.113.d2: "Bien que leur colère ait diminué quelque peu récemment, le gouvernement Qing continue d'être insatisfait de nos actions et nous ne pouvons certainement pas nous permettre de les mettre encore plus en colère. Nous devons être prudents".
-anq.113.a: "Ce n'est pas bon"
+ anq.113.t:9 "Qing Gouvernement insatisfait"
+ anq.113.d:9 "[ANQ_GetAngerChangeDesc]"
+ anq.113.a:9 "Ce n'est pas bon"
 
-anq.114.t: "Escalade du conflit de Qing"
-anq.114.d1: "Le conflit avec nos bienfaiteurs Qing s'est intensifié, car nous ne faisons que les mettre encore plus en colère par nos récentes actions. Leur sabotage a atteint des niveaux plus élevés et il est devenu difficile de poursuivre une gouvernance normale dans ces circonstances, en partie parce que nous sommes devenus si dépendants des Qing. Nous devons faire quelque chose rapidement".
-anq.114.d2: "Le gouvernement Qing n'est plus furieux, mais le conflit entre nos gouvernements reste très intense. Il est primordial que nous nous efforcions de résoudre les problèmes entre eux. Nous ne pouvons pas nous permettre de faire une erreur".
-anq.114.a: "Cela pourrait mal se terminer"
+ anq.113.t.anger_1:0 "Gouvernement Qing insatisfait"
+ anq.113.d.anger_1_bad:0 "Nos bienfaiteurs Qing nous ont fait savoir qu'ils n'étaient pas du tout satisfaits de l'évolution de nos relations. Bien que nous ayons travaillé dur pour coopérer et nous rapprocher, nous avons récemment rejeté un grand nombre de leurs propositions. Ils ont commencé à utiliser leurs agents contre nous et nous sabotent désormais activement si nous ne montrons pas de remords."
+ anq.113.d.anger_1_good:0 "Même si leur colère s'est quelque peu apaisée ces derniers temps, le gouvernement Qing reste insatisfait de nos actions et nous ne pouvons absolument pas nous permettre de les irriter davantage. Nous devons être prudents."
+ anq.113.a.anger_1:0 "Ce n'est pas bon."
 
-anq.115.t: "Qing est furieux"
-anq.115.d1: "Nos partenaires de Qing nous ont fait savoir qu'ils étaient absolument furieux. La Clique d'Anqing a échoué à toutes leurs attentes et est revenue sur de multiples promesses. Notre gouvernement est devenu de plus en plus instable à mesure que les tensions s'accentuaient"
-anq.115.d2: "Les Qing ont levé les principaux obstacles à notre gouvernement et les relations se sont quelque peu normalisées, mais elles continuent d'être extrêmement mauvaises. Il faudra encore beaucoup d'efforts de notre part avant que les choses ne recommencent à s'améliorer".
-anq.115.a: "Nous devrions probablement faire marche arrière"
+ anq.113.t.anger_2:0 "Escalade du conflit avec les Qing"
+ anq.113.d.anger_2_bad:0 "Le conflit avec nos bienfaiteurs Qing s'est aggravé, car nous les avons encore plus irrités par nos récentes actions. Leur sabotage a atteint des niveaux plus élevés et il est devenu difficile de continuer à gouverner normalement dans ces circonstances, en partie parce que nous sommes devenus si dépendants des Qing. Nous devons agir rapidement."
+ anq.113.d.anger_2_good:0 "Le gouvernement Qing n'est plus furieux, mais le conflit entre nos gouvernements reste très vif. Il est primordial que nous nous efforcions de résoudre les problèmes entre nous. Nous n'avons pas le droit à l'erreur."
+ anq.113.a.anger_2:0 "Cela risque de mal se terminer."
 
-anq.116.t: "Qing entrave notre gouvernement"
-anq.116.d: "Alors que le conflit s'est encore aggravé, Qing a maintenant commencé à entraver tous les éléments de nos gouvernements. Ils ont envoyé des troupes et des agents sur notre territoire pour perturber nos communications et ils ont commencé à approcher nos gouverneurs s'ils veulent peut-être changer d'allégeance. Les connaissant, ils pourraient même être disposés à le faire. Nous devons reprendre le contrôle ou accepter les demandes de Qing"
-anq.116.a: "Il vaudrait mieux les apaiser"
+ anq.113.t.anger_3:0 "Qing est furieux"
+ anq.113.d.anger_3_bad:0 "Nos partenaires Qing nous ont fait savoir qu'ils étaient absolument furieux. La clique d'Anqing a déçu toutes leurs attentes et est revenue sur de nombreuses promesses. Notre gouvernement est devenu de plus en plus instable au fur et à mesure que les tensions augmentaient."
+ anq.113.d.anger_3_good:0 "Les Qing ont levé les principaux obstacles à notre gouvernement et les relations se sont quelque peu normalisées, mais elles restent extrêmement mauvaises. Il faudra encore beaucoup d'efforts de notre part pour que les choses s'améliorent à nouveau."
+ anq.113.a.anger_3:0 "Nous devrions probablement faire marche arrière."
+
+ anq.113.t.anger_4:0 "Qing fait obstruction à notre gouvernement"
+ anq.113.d.anger_4_bad:0 "Le conflit s'étant encore aggravé, Qing a commencé à faire obstruction à tous les éléments de nos gouvernements. Ils ont envoyé des troupes et des agents sur notre territoire pour perturber nos communications et ils ont commencé à demander à nos gouverneurs s'ils voulaient changer d'allégeance. Les connaissant, ils pourraient même être disposés à le faire. Nous devons reprendre le contrôle ou accepter les exigences des Qing."
+ anq.113.a.anger_4:0 "Il serait préférable de les apaiser."
 
 anq.117.t: "Relations Qing restaurées"
 anq.117.d: "Le conflit avec les Qing a été résolu car ils ne sont plus aussi en colère qu'auparavant. Nous devons faire attention à ce que cela ne se reproduise plus".
@@ -1916,3 +1886,13 @@ anq.213.a: "Faire la déclaration."
  anq.233.d.wubacking: "Il semblerait que les paroles de Wu Peifu aient encore du poids au sein de la Ligue. L'appui du Maréchal Wu a porté ses fruits ce matin, lorsqu'une flottille de navires a remonté le fleuve Yangtze en brandissant un drapeau blanc. À la grande surprise de nos gardes à Anqing, ces patriotes ont demandé à passer de notre côté ! Inspirés par notre cause nationaliste et encouragés par les paroles du Maréchal de Jade, ces marins ont été organisés par un membre éminent de l'École Navale de Mawěi à Fuzhou. Cet homme, Sa Benxin, malgré son jeune âge, a plusieurs décennies d'expérience navale et, plus important encore, la base de connaissances nécessaire pour contribuer utilement à l'organisation d'une nouvelle flotte destinée à défendre le sud de la Chine. En outre, il est issu d'une lignée navale bien établie et peut nous aider à approfondir nos liens avec l'amirauté de Beijing. Tout cela est de bon augure pour l'avenir de notre mouvement anti-concessionniste !"
  anq.233.d.wurefused: "La marée montante de l'anti-concessionnisme a porté ses fruits aujourd'hui puisque notre message a atteint les oreilles de certains des principaux professeurs de l'École Navale de Mawěi à Fuzhou. Désabusé par le manque chronique de financement sous l'administration de Sun Chuanfang et dégoûté par la soumission continue de Qi Xieyuan aux intérêts étrangers allemands, un petit entourage de professeurs de la marine a prêté allégeance à notre cause ce matin. Parmi eux, on peut citer Sa Benxin, qui possède des années d'expérience dans l'étude des plans de navires étrangers à l'étranger et l'enseignement dans les académies navales. Bien que certains s'inquiètent de ses liens familiaux avec l'establishment naval de Beijing, le Gouverneur Chen a décidé de les accueillir dans son nouveau Département Naval. Bien que la flotte modernisée dont ils rêvent soit encore loin, il est clair que notre mouvement a inspiré une nouvelle génération d'officiers vers un avenir meilleur !"
  anq.233.a: "Bienvenue à bord !"
+
+ anq.234.t:9 "Remous dans l'alliance Zhili"
+ anq.234.d:9 "Depuis que le roi de Baoding et le maréchal de Jade ont provisoirement soutenu le pari désespéré du général Chen Tiaoyuan contre la prise de pouvoir du maréchal de la Ligue par intérim Qi Xieyuan au sein de la Ligue, et depuis les années précurseurs du soutien officieux de Wu à Chen pendant l'interrègne, "Le Fou" est depuis longtemps lié à ses maîtres zhili du Nord, ravivant l'union de l'arbre généalogique disparate zhili nord-sud, du moins dans l'esprit. Grâce à une coopération étendue et à des accords entre la Ligue parajuridique et le gouvernement central, la rhétorique anti-concessionniste a atteint des sommets et les deux administrations se sont liées d'amitié l'une à l'autre.\n\nCependant, comme toute chose, les relations vont et viennent, et pour le meilleur ou pour le pire, les affaires entre [QIE.Capital.GetCapitalVictoryPointName] et [ANQ.Capital.GetCapitalVictoryPointName] ont changé par rapport à ce qui avait été prévu. Bien qu'il s'agisse d'une amélioration pour certains membres de la famille, cela a également été perçu comme un inconvénient, selon l'orientation, et il ne fait aucun doute que d'autres grondements dans les relations entre les maréchaux ne manqueront pas de se produire."
+ anq.234.a:9 "Plus loyal que Sun et Qi, mais de combien ?"
+
+ anq.235.t:0 "La clique d'Anqing reconnaît Fengtian"
+ anq.235.d:0 "Chen Tiaoyuan, chef de la clique d'Anqing et désormais maître de la Chine orientale, a officiellement reconnu le gouvernement de Fengtian comme le gouvernement national légitime de la Chine. Bien que cela ne soit pas surprenant étant donné le soutien ouvert de Fengtian à la clique d'Anqing pendant la guerre de la Ligue, cette décision a choqué de nombreuses personnes en Chine, mais aussi les Occidentaux qui se méfient de l'influence grandissante du Japon en Chine.\n\nCette déclaration restera dans les mémoires comme un jour important de l'histoire chinoise."
+ anq.235.a:0 "Excellente nouvelle !"
+ anq.235.b:0 "Un développement effrayant."
+

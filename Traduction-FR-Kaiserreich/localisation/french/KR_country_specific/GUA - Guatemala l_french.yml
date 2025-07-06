@@ -32,7 +32,8 @@
  GUA_socialist_compensation_2_desc: "Au Guatemala, les socialistes protestent avec des fonds mexicains depuis la grève des chantiers navals et des chemins de fer, ce qui oblige le gouvernement à compenser les socialistes par des réformes et des changements souvent vides de sens."
 
  GUA_united_fruit: "United Fruit Company"
- GUA_united_fruit_desc: "La United Fruit Company tient d'une main de fer la politique et l'économie guatémaltèques depuis la dictature de Cabrera en 1898. Bien que le Guatemala ait par conséquent vu un développement économique significatif, cela amène la United Fruit Company à mettre en jeu le destin du Guatemala. Elle contrôle actuellement §Y[?UFC_power]%§! de nos terres.\n§W-----------------§!\n§WCela nous donnera les effets suivants :\n$MODIFIER_POLITICAL_POWER_GAIN$ : [?UFC_effect11|+=]\n$MODIFIER_PRODUCTION_SPEED_BUILDINGS_FACTOR$ : [?UFC_effect12|+=%]\n$MODIFIER_CONSUMER_GOODS_FACTOR$ : [?UFC_effect13|H=%1]\n$MODIFIER_WAR_SUPPORT_FACTOR$ : [?UFC_effect14|+=%]§!"
+ GUA_united_fruit_desc:9 "La United Fruit Company tient d'une main de fer la politique et l'économie guatémaltèques depuis la dictature de Cabrera en 1898. Bien que le Guatemala ait par conséquent vu un développement économique significatif, cela amène la United Fruit Company à mettre en jeu le destin du Guatemala."
+ GUA_united_fruit_modifier_tooltip:9 "§CPart des terres contrôlées par l'UFC : §! [?UFC_power|Y%%0]\n$MODIFIER_POLITICAL_POWER_GAIN$ : [?UFC_effect11|+=]\n$MODIFIER_PRODUCTION_SPEED_BUILDINGS_FACTOR$ : [?UFC_effect12|+=%]\n$MODIFIER_CONSUMER_GOODS_FACTOR$ : [?UFC_effect13|H=%1]\n$MODIFIER_WAR_SUPPORT_FACTOR$ : [?UFC_effect14|+=%]"
 
  CEN_united_fruit_land: "United Fruit Company"
 
@@ -67,11 +68,8 @@
  GUA_ubico_dictator: "Culte de la Personnalité"
  GUA_ubico_constitution: "La Nouvelle Constitution Guatémaltèque "
  GUA_workers_economy: "L'économie des travailleurs"
- GUA_kawaii_democracy: "Pousser pour la pluralité"
  GUA_repairing_guatemala: "Réparer le Guatemala"
  GUA_dead_emperor: "L'empereur enchaîné"
- GUA_red_tech: "Enseignements socialistes"
- GUA_blue_tech: "Enseignements méritocratiques"
  GUA_ufc_land: "Apprivoiser l'UFC"
  GUA_restored_liberty: "Le Phare de la Liberté"
  GUA_vitalism_idea: "Vers le Minimum Vital"
@@ -174,10 +172,6 @@
  guatemala.18.d: "Refusant de laisser les rebelles souiller la capitale, les défenseurs se sont ralliés devant Ciudad de Guatemala. La bataille fut sanglante, avec de nombreuses pertes des deux côtés, mais la supériorité numérique des rebelles l'emporta sur la petite armée de défense. Lorsqu'il est apparu clairement que les rebelles allaient gagner, le gouvernement s'est enfui de la capitale, laissant celle-ci ouverte à la libération par l'alliance rebelle. En apprenant cette nouvelle, le reste de l'armée, éparpillé autour de la frontière mexicaine, a accepté de déposer les armes et de prêter serment d'allégeance au nouveau gouvernement."
  guatemala.18.a: "La liberté, enfin !"
 
- guatemala.19.t: "Le destin du Salvador"
- guatemala.19.d: "Le Salvador est devenu rouge ! Nous avons réussi à réprimer la rébellion dans notre pays, mais il semble qu'ils aient échoué. Notre gouvernement a décidé de préparer la guerre pour libérer nos frères !"
- guatemala.19.a: "Aux armes !"
-
  guatemala.20.t:9 "Une politique de l'éducation"
  guatemala.20.d: "Les élections sont une composante saine de toute démocratie. Malheureusement, au Guatemala, elles ont rarement été équitables, l'opposition étant soit inexistante, soit fortement désavantagée, et la violence électorale. La tenue d'élections libres et équitables constituera un événement majeur dans le printemps démocratique du Guatemala. La coalition révolutionnaire, qui a rempli sa mission en renversant la dictature libérale et en rétablissant l'ordre après la guerre civile, sera dissoute et chaque parti se présentera aux élections. Les élections seront probablement serrées, chaque parti disposant de bases de soutien distinctes et bien établies : le parti unioniste attire les conservateurs et les religieux, le PRN représente la jeunesse progressiste et le PCG vise à influencer les ouvriers et les paysans."
  guatemala.20.a: "Le socialisme spirituel et le PRN conduiront le Guatemala vers l'avenir"
@@ -221,27 +215,15 @@
  guatemala.106.b: "Les libéraux sont derrière tout cela."
 
 ### UFC ###
- GUA_UFC_2up: "L'UFC obtiendra §Y2%§! de nos terres !\n"
- GUA_UFC_3up: "L'UFC obtiendra §Y3%§! de nos terres !\n"
- GUA_UFC_5up: "L'UFC obtiendra §Y5%§! de nos terres !\n"
- GUA_UFC_6up: "L'UFC obtiendra §Y6%§! de nos terres !\n"
- GUA_UFC_10up: "L'UFC obtiendra §Y10%§! de nos terres !\n"
- GUA_UFC_12up: "L'UFC obtiendra §Y12%§! de nos terres !\n"
- GUA_UFC_15up: "L'UFC obtiendra §Y15%§! de nos terres !\n"
- GUA_UFC_70up: "L'UFC obtiendra §Y70%§! de nos terres !\n"
- GUA_UFC_12down: "L'UFC perdra §Y12%§! de nos terres !\n"
- GUA_UFC_10down: "L'UFC perdra §Y10%§! de nos terres !\n"
- GUA_UFC_40down: "L'UFC perdra §Y40%§! de nos terres !\n"
- GUA_UFC_5down: "L'UFC perdra §Y5%§! de nos terres !\n"
- GUA_UFC_deleted: "§RLes terres de l'UFC seront nationalisées. Cela va faire enrager la société.§!\n"
+ GUA_UFC_increase:9 "L'UFC obtiendra $RIGHT|Y0%%$ de nos terres !\n"
+ GUA_UFC_increase_to_70:0 "L'UFC obtiendra §Y70%§! de nos terres !\n"
+ GUA_UFC_decrease:9 "L'UFC va perdre $RIGHT|Y0%%$ de nos terres !\n"
 
 ### Other Tooltips ###
  GUA_angry_military: "§RCela va faire enrager les militaires.§!"
  GUA_literacy: "§GVous perdrez également toute autre idée d'analphabétisme que vous aviez auparavant.§!"
  GUA_mountain_attack_tooltip: "§RCet assaut pourrait nous coûter cher si la capitale n'a pas été sécurisée.§!"
  GUA_port_attack_tooltip: "§RNous marcherons notre armée vers le Belize puis nous étendrons nos effectifs au-delà de la frontière mexicaine. Les rebelles pourraient lancer un assaut désespéré.§!"
- GUA_red_strength: "§YLes socialistes vont se renforcer.§!\n"
- GUA_blue_strength: "§YLes conservateurs vont se renforcer.§!\n"
  GUA_ubico_surname: "Ubico"
  GUA_orellana_surname: "Orellana"
  GUA_ufc_coup: "§RDes éléments réactionnaires s’organiseront contre un tel gouvernement progressiste§!."

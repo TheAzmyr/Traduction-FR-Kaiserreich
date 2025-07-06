@@ -52,11 +52,9 @@
  ETS_timurshah_flag: "Le Défilé de la Victoire a repris après une courte interruption"
  ETS_islamiccountry: "Nous avons choisi de privilégier l'intérieur"
  ETS_turkiccountry: "Nous avons choisi de privilégier l'extérieur"
- ETS_army_created: "L'armée a été établie dans son intégralité"
  ETS_demoflag: "Poursuite des Élections Libres"
  ETS_sabriflag: "Report des Élections Nationales"
  ETS_otto_reach_out_flag: "Tendre la Main à l'Empire Ottoman"
- ETS_gold_to_currency_converted:9 "A pris la décision de §H$ETS_convert_gold_to_currency$§!"
 
 #Opinion Modifiers
  ETS_violent_night:0 "Soumettre les Ambassadeurs à un Bain de Sang"
@@ -82,7 +80,6 @@
  ETS_army_training_tt: "Débloque les §HDécisions d'Entraînement de l'Armée et de Formation des Techniques de Combat§!.\n"
  ETS_bughra_raise_militia_tt:9 "§G1§! unité de milice est levée à Hotan."
  ETS_timur_raise_militia_tt:9 "§G1§! unité de milice est levée à Kashgar."
- ETS_create_an_army_tt:9 "Victoire de la Rébellion\n§Y$ETS_fledgling_military$§! n'a pas §Rd'effets secondaires§!"
  ETS_change_popularities: "Change la popularité du National Populisme : [?ETS_change_tooltip1|+%]\nChange la popularité du Démocrate Autoritaire: [?ETS_change_tooltip2|+%]"
  ETS_authelect_tt: "Des élections nationales régulières mais très contrôlées seront organisées tous les quatre ans."
  ETS_demelect_tt: "Des élections nationales libres seront organisées tous les quatre ans."
@@ -301,8 +298,6 @@
 #Decisions
  ETS_foreign_diplomacy: "Soutien Étranger à la Révolution"
  ETS_foreign_diplomacy_desc:9 "En tant que jeune nation indépendante, luttant contre les oppresseurs chinois et les rebelles Kumul, nous devons rechercher le soutien des nations étrangères qui nous entourent, si nous voulons survivre.\n\nPrincipaux Pays :\n§Y[RUS.GetNameWithFlag]§![RUS.get_ETS_foreign_supporters]\n§Y[RAJ.GetNameWithFlag]§![RAJ.get_ETS_foreign_supporters]\n§Y[OTT.GetNameWithFlag]§![OTT.get_ETS_foreign_supporters]\n\nAutres Pays:\n§Y[AFG.GetNameWithFlag]§![AFG.get_ETS_foreign_supporters]\n§Y[TRK.GetNameWithFlag]§![TRK.get_ETS_foreign_supporters]\n§Y[BUK.GetNameWithFlag]§![BUK.get_ETS_foreign_supporters]\n§Y[KAZ.GetNameWithFlag]§![KAZ.get_ETS_foreign_supporters]\n\nQuantité de Fusils:  [get_ETS_infantry_equipment_amount]\nQuantité d'Or:  [?ETS_gold_amount|+]\n"
- ETS_gain_international_recognition: "Reconnaissance des Voisins"
- ETS_gain_international_recognition_desc: "Nous avons gagné la révolution ! Nos voisins n'ont pas d'autre choix que d'accepter notre présence."
  ETS_foreign_support_send_delgations_RUS: "Rechercher le Soutien des Russes"
  ETS_foreign_support_send_delgations_RUS_desc: "La Russie, qui est proche mais n'a pas de frontière avec nous, est dans sa propre tourmente politique. Bien qu'elle puisse mettre du temps à s'en remettre, son désir d'Asie centrale est à peine dissimulé, et elle aurait besoin d'alliés pour assurer sa domination. Nous nous rendrons en Russie et plaiderons en faveur de notre soutien, afin qu'en retour nous devenions leurs alliés."
  ETS_foreign_support_send_delgations_RAJ: "Rechercher le Soutien des Britanniques"
@@ -327,7 +322,6 @@
  ETS_learn_mineral_processing_local: "Employer des Forgerons Locaux pour extraire le Métal"
  ETS_military_operation: "Département de la Guerre du Turkestan Oriental"
  ETS_military_operation_desc: "Notre armée est composée de milices faibles et de rebelles désorganisés. Si nous voulons gagner la guerre et survivre par nous-mêmes, nous devons réformer notre armée et créer une véritable force."
- ETS_create_an_army: "Créer l'Armée de la République du Turkestan Oriental"
  ETS_army_training_adopt_formation_foreign: "Adopter l'Entraînement de [From.GetAdjective]"
  ETS_army_training_adopt_formation_local: "Développer l'Entraînement de l'Armée"
  ETS_army_training_combat_techniques_foreign: "Apprendre les Techniques de Combat de [From.GetAdjective]"
@@ -414,7 +408,6 @@
  ets.11.d: "Une autre délégation du Turkestan Oriental est arrivée aujourd'hui, nous informant qu'ils ont besoin de plus d'armes pour lutter contre leurs ennemis au Xinjiang. Nous devrions nous méfier d'investir trop lourdement en eux."
  ets.11.a:9 "Bien."
  ets.11.b:9 "Pas cette fois."
- ets.11.c:9 "Plus jamais !"
 
  ets.12.t:9 "[From.GetName] a accepté notre demande"
  ets.12.d: "Les caravanes sont revenues avec de bonnes nouvelles. [From.GetName] a accédé à notre demande et nous a donné plus d'équipement pour combattre nos ennemis."
@@ -494,7 +487,7 @@
  ets.26.a:9 "Et nous suivrons le soleil !"
 
  ets.27.t: "Demandes Populaires"
- ets.27.d: "Depuis plus de quinze jours, des manifestations massives se poursuivent dans les principales villes du pays, avec une priorité pour la capitale, Kashgar. La population du Turkestan Oriental, généralement mal informée, a été mise en colère par le projet de Sabri de rechercher des relations plus étroites avec les Chinois, que la plupart des peuples turcs considèrent toujours comme leurs anciens oppresseurs. Alptekin, le partenaire de coalition de Sabri, a démissionné de la coalition, déclarant que pour l'instant il est temps que Sabri démissionne, pour être remplacé par Alptekin bien sûr, et pour que des élections appropriées puissent être organisées pour déterminer qui le peuple veut. De plus, le leader socialiste du parti du Jeune Turkestan, Ishaq Bey, est sorti du bois et a commencé à rassembler des soutiens dans les villes. Si Sabri ne se retire pas, il est clair que son règne sera désormais aussi dictatorial que celui de Timur Beg a pu l'être."
+ ets.27.d:9 "Depuis plus de quinze jours, des manifestations massives se poursuivent dans les principales villes du pays, avec une priorité pour la capitale, Kashgar. La population du Turkestan Oriental, généralement mal informée, a été mise en colère par le projet de Sabri de rechercher des relations plus étroites avec les Chinois, que la plupart des peuples turcs considèrent toujours comme leurs anciens oppresseurs. Alptekin, le partenaire de coalition de Sabri, a démissionné de la coalition, déclarant que pour l'instant il est temps que Sabri démissionne, pour être remplacé par Alptekin bien sûr, et pour que des élections appropriées puissent être organisées pour déterminer qui le peuple veut. De plus, le leader socialiste du parti du Jeune Turkestan, Ishaq Beg, est sorti du bois et a commencé à rassembler des soutiens dans les villes. Si Sabri ne se retire pas, il est clair que son règne sera désormais aussi dictatorial que celui de Timur Beg a pu l'être."
  ets.27.a:9 "Sabri se retire."
  ets.27.b:9 "Sabri reste."
 

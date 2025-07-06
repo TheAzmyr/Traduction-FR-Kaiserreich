@@ -33,14 +33,13 @@
 
  HAI_foreign_control_dynamic_modifier: "£pol_idea Contrôle Politique et Économique Étranger"
  HAI_foreign_control: "Contrôle Politique et Économique Étranger"
- HAI_foreign_control_desc: "Malgré le retrait des Américains de leur occupation de notre île, Haïti continue de se trouver placée fermement dans la sphère économique américaine. Partagé entre les intérêts économiques allemands et américains, notre peuple se trouve continuellement exploité, et à moins que quelque chose de significatif n'arrive à l'une ou l'autre des puissances, nous continuerons à être soumis à leur emprise.\n§W-----------------§!\n§WInfluence économique américaine :§! [GetAmericanInfluence]\n§WInfluence économique allemande :§! [GetGermanInfluence]\n§WInfluence économique communarde française :§! [GetFrenchInfluence]§![GetENTInfluence]\n\n§W[GetRestrictions]§W$MODIFIER_INDUSTRIAL_FACTORY_DONATIONS$:§! [?HAIeconomicinfluncecivs|=+0]\n§W$MODIFIER_POLITICAL_POWER_FACTOR$:§! [?HAIeconomicinfluncepp|%+0]"
-
- HAI_foreign_control_dummy: "$HAI_foreign_control$"
- HAI_foreign_control_dummy_desc: "Malgré le retrait des Américains de leur occupation de notre île, Haïti continue de se trouver placée fermement dans la sphère économique américaine. Partagé entre les intérêts économiques allemands et américains, notre peuple se trouve continuellement exploité, et à moins que quelque chose de significatif n'arrive à l'une ou l'autre des puissances, nous continuerons à être soumis à leur emprise.\n§W-----------------§!\n§WInfluence économique américaine :§! §RHaut§!\n§WInfluence économique allemande :§! §GBas§!\n§WInfluence économique communarde française :§! §GBas§!\n\n§WRestrictions imposées par les Américains :§! §RDépenses gouvernementales§!\n\n§WNe peut assigner des ministres ou des lois :§! §ROui§!\n§W$MODIFIER_INDUSTRIAL_FACTORY_DONATIONS$:§! [?1|=+0]\n§W$MODIFIER_POLITICAL_POWER_FACTOR$:§! [?-0.1|%+0]"
+ HAI_foreign_control_desc:9 "Malgré le retrait des Américains de leur occupation de notre île, Haïti continue de se trouver placée fermement dans la sphère économique américaine. Partagé entre les intérêts économiques allemands et américains, notre peuple se trouve continuellement exploité, et à moins que quelque chose de significatif n'arrive à l'une ou l'autre des puissances, nous continuerons à être soumis à leur emprise."
+ HAI_foreign_control_modifier_tooltip:9 "Influence économique américaine : [GetAmericanInfluence]\nInfluence économique allemande : [GetGermanInfluence]\nInfluence économique communarde française : [GetFrenchInfluence][GetENTInfluence]\n\n[GetRestrictions]$MODIFIER_INDUSTRIAL_FACTORY_DONATIONS$ : [?HAIeconomicinfluncecivs|=+0]\n$MODIFIER_POLITICAL_POWER_FACTOR$ : [?HAIeconomicinfluncepp|%+0]"
 
  HAI_border_clashes_dynamic_modifier: "£pol_idea Affrontements à la Frontière Dominicaine"
  HAI_border_clashes_idea: "Affrontements à la Frontière Dominicaine"
- HAI_border_clashes_idea_desc: "Depuis le retrait des troupes américaines, les Dominicains ont commencé à renforcer leurs forces à notre frontière et à devenir encore plus agressifs dans leurs actions. Malgré notre désir de riposter, les pots-de-vin dominicains ont neutralisé notre armée. Nous devons éradiquer la corruption et moderniser au moins un peu notre armée pour être en mesure de défendre nos frontières.\n§W-----------------\n$MODIFIER_ARMY_ORG_FACTOR$: [?HAIborderclashesORG|+=%1]\n$MODIFIER_STABILITY_FACTOR$: [?HAIborderclashesST|+=%]\n$MODIFIER_WAR_SUPPORT_FACTOR$: [?HAIborderclashesWS|+=%]§!"
+ HAI_border_clashes_idea_desc:9 "Depuis le retrait des troupes américaines, les Dominicains ont commencé à renforcer leurs forces à notre frontière et à devenir encore plus agressifs dans leurs actions. Malgré notre désir de riposter, les pots-de-vin dominicains ont neutralisé notre armée. Nous devons éradiquer la corruption et moderniser au moins un peu notre armée pour être en mesure de défendre nos frontières."
+ HAI_border_clashes_modifier_tooltip:9 "$MODIFIER_ARMY_ORG_FACTOR$ : [?HAIborderclashesORG|+=%1]\n$MODIFIER_STABILITY_FACTOR$ : [?HAIborderclashesST|+=%]\n$MODIFIER_WAR_SUPPORT_FACTOR$ : [?HAIborderclashesWS|+=%]"
 
  HAI_black_monday: "Lundi Noir"
  HAI_black_monday_desc:9 "Notre économie naissante a subi un sérieux revers lorsque l'économie allemande s'est effondrée avec le lundi noir. Les taux de pauvreté continuent d'augmenter, car de plus en plus de personnes de notre nation se retrouvent sans emploi. Avec ses vibrations qui ont traversé l'Atlantique et qui ont paralysé notre économie déjà en difficulté, seul le temps nous dira si l'économie d'Haïti retrouvera un jour son état antérieur."
@@ -320,8 +319,6 @@
  HAI_army_desc: "Alors qu'elle était à l'origine une simple gendarmerie, la Garde d'Haïti est devenue une armée à part entière. Elle et notre force frontalière croissante doivent atteindre une parité totale avec les forces hostiles."
  HAI_dealing_with_dominicans: "Traiter avec les Dominicains"
  HAI_dealing_with_dominicans_desc: "Avec la situation politique stabilisée, nous pouvons adopter ce que notre peuple demande, une plus grande belligérance envers les agresseurs dominicains à la frontière."
- HAI_help_from_abroad: "Aide de l'Étranger"
- HAI_help_from_abroad_desc: "Le comportement de la République dominicaine a attiré l'attention de certains observateurs internationaux. Nous pouvons tirer parti de cette situation pour obtenir une aide militaire de plusieurs nations clés."
  HAI_expand_defenses: "Développer les Défenses"
  HAI_expand_defenses_desc: "Malgré les conflits persistants avec les Dominicains, aucune administration haïtienne n'a fortifié correctement une section de la frontière. Afin de renforcer nos unités frontalières et d'assurer la sécurité en cas de conflit ouvert, nous devrions renforcer la voie d'accès à Port-Au-Prince depuis Saint-Domingue."
  HAI_elite_army: "Une Armée d'Élite"
@@ -344,8 +341,6 @@
  HAI_citizen_soldiers_desc: "Les formations irrégulières ont été essentielles au maintien de l'ordre en Haïti. Plutôt que de tenter de rompre avec cette pratique, la Garde devrait créer des systèmes formels régissant les irréguliers, tels que des directives standard pour l'élection des sous-officiers irréguliers et un ensemble distinct de grades et de classes de rémunération."
  HAI_modern_army: "Une Armée Moderne"
  HAI_modern_army_desc: "Pour garantir l'intégrité opérationnelle, nous devons mettre l'arsenal central de Port-au-Prince au niveau des normes mondiales."
- HAI_border_exercises: "Débuter des Exercices Frontaliers "
- HAI_border_exercises_desc: "Nous ne pouvons plus céder l'initiative stratégique aux Dominicains. Pour signaler notre volonté d'intensifier les affrontements frontaliers, nous devrions organiser un exercice militaire le long de la frontière."
  HAI_prepare_total_war: "Se Préparer à la Guerre Totale"
  HAI_prepare_total_war_desc: "Si Saint-Domingue se comporte de manière cordiale dans les canaux diplomatiques officiels, sa rhétorique intérieure et ses fréquentes provocations à la frontière démentent ses véritables intentions. La guerre, à ce stade, semble inévitable. Nous devons nous préparer à affronter les Dominicains une fois pour toutes."
  HAI_air_force: "Création de l'Armée de l'Air"
@@ -441,7 +436,7 @@
 
  HAI_is_on_campaign: "Est en Campagne"
 
- HAI_American_restrictions: "Restrictions imposées par les Américains:§! §RDépenses du Gouvernement§!\n\n§WNe Peut pas Assigner de Lois ou de Ministres:§! §ROui§!\n"
+ HAI_American_restrictions:9 "Restrictions imposées par les Américains : §RDépenses du Gouvernement§!\n\n§WNe Peut pas Assigner de Lois ou de Ministres:§! §ROui§!\n"
  HAI_no_restrictions: "Aucune Restrictions Gouvernementales\n\n"
  HAI_american_collapse: "Modifier §YContrôle Étranger et Politique§! par\nNe Peut pas Assigner de Lois ou de Ministres : §GOui§!\nRestrictions gouvernementales imposées par les Américains : §GAucune§!"
 
@@ -455,8 +450,6 @@
  HAI_curruption_greatly_lowered:9 "§RLa corruption en Haïti sera fortement réduite...§!"
  HAI_curruption_raised:9 "§GLa corruption haïtienne sera augmenté...§!"
  HAI_curruption_raised_focus: "§RLa corruption haïtienne sera augmenté...§!"
-
- HAI_university_of_Haiti:9 "A Établi l'université d'Haiti"
 
  HAI_leaving_3i: "§RBien que nous soyons forcés de quitter la 3e Internationale pour l'instant, nous pourrons y revenir si les socialistes reviennent au pouvoir...§!"
 
@@ -753,9 +746,8 @@
  hai_cal.5.t: "Choisir le Nouveau Bienfaiteur"
  hai_cal.5.d: "Alors que les États-Unis sont plongés dans la tourmente et que leur présence est devenue de plus en plus chaotique au cours des derniers mois, de nombreux membres de notre gouvernement ont suggéré que nous nous tournions vers une nouvelle grande puissance pour à la fois nous aider à sécuriser notre dette et nous protéger des autres puissances."
  hai_cal.5.a: "L'Allemagne nous a soutenus dans notre lutte, il n'y a pas de doute !"
- hai_cal.5.a_spd: "Avec le SPD au pouvoir, se plier à l'influence allemande est la seule option."
  hai_cal.5.b: "Nous sommes socialistes, nous devons nous aligner sur l'Internationale !"
- hai_cal.5.c:0 "Nous sommes socialistes, nous devons nous aligner sur l'Internationale !"
+ hai_cal.5.c:9 "Nous sommes socialistes, nous devons nous aligner sur l'Internationale !"
 
  hai_cal.50.t: "Haïti s'aligne sur nous"
  hai_cal.50.d: "Après tant de bouleversements, la nation haïtienne semble prête à entrer pleinement sur la scène internationale, à nos côtés. Le gouvernement de Port-au-Prince a publié une série de déclarations rapides concernant un certain nombre de questions internationales alignées sur nos propres positions. Des diplomates haïtiens ont également envoyé des lobbyistes dont la mission consiste à évaluer notre volonté de conclure une alliance militaire avec le pays. Il semble que le pays est susceptible d'aborder officiellement le sujet de l'alliance un jour futur, peut-être demain, ou peut-être dans des années, mais un jour c'est certain."

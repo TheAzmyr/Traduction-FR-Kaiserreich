@@ -133,6 +133,9 @@ INC_Purge_Tan_Viet: "§YPham Van Dong§! est exécuté\nLe ministre §YHoang Van
 INC_closer_ties: "Des liens plus étroits"
  INC_Liberation: "A Soutenu Notre Lutte Révolutionnaire"
 
+### Intro Screen ###
+ INC_guide:9 "§MTan Viet§! (§oTotalist§!)\n£white_dot Complete §YThe National Assembly§! focus.\n£white_dot Have over 30% party popularity for the §oTan Viet§! before the focus finishes.\n\n§MRevolutionary League§! (§rSyndicalist§!)\n£white_dot Complete §YThe National Assembly§! focus.\n£white_dot Have over 30% party popularity for the §rRevolutionary League§! before the focus finishes.\n\n§MAspiration Society§! (§RRadical Socialist§!)\n£white_dot Complete §YThe National Assembly§! focus.\n£white_dot The §RAspiration Society§! will always be available to be elected.\n\n§MVNQDD§! (§RRadical Socialist§!)\n£white_dot In the event \"An Indochinese Declaration of Independence\", choose 'A Moderate Declaration!' and after completing the focus §YAnti-Infiltration Campaign§!, choose 'We must strengthen our intelligence.'\n §CNote§!: Choosing any of these options will not stop you from following this path, but it could lead to that if certain other event options are chosen.\n£white_dot Complete §YThe National Assembly§! focus.\n£white_dot Have over 30% party popularity for the §SVNQDD§! before the focus finishes. If they are elected, the VNQDD will become §RRadical Socialist§! and the Aspiration Society will become §SSocial Democrat§!, with its party popularities flipping too.\n£white_dot If the event \"Socialist Opposition\" appears, choose 'Maybe we did something wrong...' to avoid a socialist uprising.\n\n§MNationalist Martial Law§! (§aAuthoritarian Democrat§! / §PPaternal Autocrat§!)\n£white_dot Follow the same steps to elect the §SVNQDD§!.\n£white_dot Complete either §YPolitical Tutelage§! or §YEncourage Entrepreneurship§! focuses, don't be at war and have either the §oTan Viet§!, §rRevolutionary League§! or §SAspiration Society§! have over 20% party popularity. In a 5 month period, the event \"Socialist Opposition\" will appear, choose to ignore them.\n£white_dot Around 2 months later a socialist uprising will happen, have over 40% party popularity to able to choose to have general Nguyen Binh declare martial law.\n£white_dot Around a month later, the event \"Ending the Martial Law?\" will appear, choose to continue martial law.\n£white_dot Some days an event will appear and we will be able to choose to have a §acivilian§! or a §Pmilitary§! government."
+
 ### Events ###
 viet.0.t: "La Nouvelle Indochine !"
 viet.0.d: "Notre soulèvement général a remporté une grande victoire. Sur le cadavre du régime colonial allemand se dresse fièrement notre nation indépendante, dirigée par la Coalition pour l'Indépendance Nationale Vietnamienne, ou Viet Minh, qui a été créée au début de cette année et qui a coordonné les soulèvements.\n\nNguyen An Ninh a été élu président du Viet Minh. La perte de milliers de vies humaines a déjà prouvé que le régime colonial allemand ne cédera pas avant la lutte finale. Le Viet Minh est déterminé à mener cette guerre de résistance nationale contre les bandits allemands, et cela appelle la volonté de tout le peuple indochinois - Vietnamien, Laotien, Cambodgien, Muong, Tay.... Pour se sacrifier au service de notre juste cause.\n\n(Puisque vous avez un gouvernement de coalition, la popularité de votre gouvernement ne sera pas affectée par celle de votre parti au pouvoir)"
@@ -662,7 +665,8 @@ viet.167.d: "Nos délégués sont reçus indifféremment en [From.GetNameDef].  
  viet.167.a: "Décevant, mais il y a peut être des alternatives."
 
  viet.168.t: "Salutations de [INC.GetNameDef]."
- viet.168.d: "Une mission diplomatique hétéroclite vient d'atterrir sur la côte du Fujian et est arrivée dans notre capitale. Ces personnes sont originaires de [INC.GetNameDef], une nation nouvellement émergente qui se révolte contre l'Empire allemand. La mission indochinoise a réaffirmé son engagement envers notre amitié historique et notre tâche commune de libérer notre peuple du joug de l'impérialisme. Ils ont également réussi à nous faire passer en contrebande des médicaments de champ de bataille dont nous avions grand besoin."
+ viet.168.d.war:9 "A ragtag diplomatic mission just arrived at our capital. These people are from [INC.GetNameDef], a newly emerging nation revolting against the German Empire. The Indochinese mission reaffirmed their commitment to our historical friendship and common task to free our people from the yoke of imperialism. They also managed to smuggle some much-needed battlefield medicine for us."
+ viet.168.d.victory:9 "A diplomatic from the newly victorious Indochinese Union has arrived at our capital. These people are from [INC.GetNameDef] and have just succeeded in revolution against the German Empire. The Indochinese mission reaffirmed their commitment to our historical friendship and common task to free our people from the yoke of imperialism. They also managed to smuggle some much-needed battlefield medicine for us."
  viet.168.a: "Ensemble, nous nous battrons."
 
  viet.169.t: "Mission Militaire [INC.GetAdjective]"
@@ -676,6 +680,31 @@ viet.167.d: "Nos délégués sont reçus indifféremment en [From.GetNameDef].  
  viet.171.t: "Retour de Nguyen Son"
  viet.171.d:9 "La mission militaire dirigée par le général Nguyen Son vient de terminer son service et retourne en Indochine. Ils ont rapporté leurs observations sur la récente guerre civile chinoise et la réforme de l'armée chinoise. "
 viet.171.a: "Excellent."
+
+ viet.172.t:0 "L'Indochine déclare son indépendance"
+ viet.172.d.a:0 "Après la Weltkrieg, l'Allemagne s'est emparée de l'Indochine française, mais la stabilité n'a été rétablie que lorsque l'Allemagne a écrasé les révolutionnaires de Chine du Sud, en 1926.\nLes nationalistes et les militants de gauche indochinois réunis au sein d'un gouvernement de coalition appelé le Viet Minh se sont soulevés contre le régime colonial, lorsque leur chef, Nguyen Anh Ninh, a déclaré l'indépendance de l'Indochine. Après avoir loué l'Internationale et la révolution mondiale, il a condamné l'oppression brutale de la classe ouvrière par les Allemands et affirmé l'engagement des travailleurs indochinois en faveur de l'anti-impérialisme et de la libération des peuples coloniaux.\nLes observateurs s'accordent avec les médias allemands pour dire qu'il ne s'agit que de quelques faibles paysans, que la garnison allemande ou même la police pourraient facilement réprimer le Viet Minh."
+ viet.172.d.b:0 "Après la Weltkrieg, l'Allemagne s'est emparée de l'Indochine française, mais la stabilité n'a été rétablie que lorsque l'Allemagne a écrasé les révolutionnaires de Chine du Sud, en 1926.\nLes nationalistes et les militants de gauche indochinois réunis au sein d'un gouvernement de coalition appelé le Viet Minh se sont soulevés contre le régime colonial, lorsque leur chef, Nguyen Anh Ninh, a déclaré l'indépendance de l'Indochine à Saigon. Après avoir rendu hommage à la résistance des peuples asiatiques, il a condamné l'oppression brutale des Allemands contre les peuples asiatiques et a affirmé l'engagement du peuple indochinois en faveur de l'unité de l'Asie.\nLes observateurs s'accordent avec les médias allemands pour dire qu'il ne s'agit que de quelques faibles paysans, que la garnison allemande ou même la police pourraient facilement réprimer le Viet Minh."
+ viet.172.d.c:0 "Après la Weltkrieg, l'Allemagne s'est emparée de l'Indochine française, mais la stabilité n'a été rétablie que lorsque l'Allemagne a écrasé les révolutionnaires de Chine du Sud, en 1926.\nLes nationalistes et les militants de gauche indochinois réunis au sein d'un gouvernement de coalition appelé le Viet Minh se sont soulevés contre le régime colonial, lorsque leur chef, Nguyen Anh Ninh, a cité la Déclaration française des droits de l'homme, la Déclaration d'indépendance américaine, avant de condamner l'oppression brutale des peuples libres par l'Allemagne et le droit de la nation indochinoise à l'indépendance.\nLes observateurs s'accordent avec les médias allemands pour dire qu'il ne s'agit que de quelques faibles paysans, que la garnison allemande ou même la police pourraient facilement réprimer le Viet Minh."
+ viet.172.a:0 "Oh, comme les puissants sont tombés."
+ viet.172.b:0 "Ce ne sont sûrement pas des sujets coloniaux modèles."
+ viet.172.c:0 "Où ont-ils entendu parler de la Déclaration d'indépendance ?"
+ viet.172.g:0 "L'insubordination ne sera pas tolérée."
+ viet.172.i:0 "L'indépendance ou la mort !"
+ viet.172.j:0 "Nous garderons un œil sur cette question."
+
+ viet.173.t:0 "La révolte Indochinoise est une Réussite"
+ viet.173.d:0 "La ténacité et la fureur des troupes du Viet Minh ont chassé les troupes allemandes de presque tous les points stratégiques de la péninsule indochinoise et le ministère allemand des Affaires Etrangères a finalement accepté de rencontrer les chefs de la rébellion pour leur offrir l'indépendance totale qu'ils revendiquent.\n\n La création de [INC.GetNameDef] a compter d'aujourd'hui a été confirmée par les Viet Minh, sous les acclamations du peuple vietnamien venu assister à cet événement historique. L'avenir du pays est encore incertain, mais les rumeurs d'un alignement sur la commune de bharatiya commencent à se répandre par les voies diplomatiques, alors que le monde tente encore de mesurer l'impact de cet événement sur l'Asie."
+ viet.173.a:0 "Un coup terrible pour le colonialisme !"
+ viet.173.b:0 "Enfin l'indépendance !"
+ viet.173.c:0 "Nous ne nous en remettrons jamais."
+ viet.173.j:0 "L'emprise allemande sur l'Asie est en train de s'effondrer."
+
+ viet.174.t:0 "La révolution indochinoise est vaincue"
+ viet.174.d:0 "Malgré une guérilla féroce des troupes du Viet Minh, l'armée allemande a réussi à contrecarrer la révolte du Viet Minh en Indochine. Les dirigeants de [INC.GetNameDef], qui se cachaient dans la Plaine des Roseaux après l'évacuation du gouvernement central de Saigon, sont présumés morts après que les troupes allemandes ont lancé une opération de ratissage.\n\nCependant, il y a également des rumeurs selon lesquelles les chefs du Viet Minh auraient traversé la frontière et fui vers d'autres pays. Quoi qu'il en soit, la guerre a laissé une cicatrice indélébile sur le territoire, des milliers de villages ayant été détruits et des millions de personnes ayant perdu leur maison dans la lutte acharnée entre les troupes allemandes et les guérilleros vietminhs."
+ viet.174.a:0 "Comme prévu."
+ viet.174.b:0 "Nos intérêts en Asie sont assurés. Pour l'instant."
+ viet.174.c:0 "Une autre nation perdue à cause de l'impérialisme."
+ viet.174.j:0 "La chance. C'est tout ce que c'est !"
 
  viet.1955.t: "Nouveau régime fantoche au Nord !"
  viet.1955.d: "Malgré ce que beaucoup espéraient, il semble que la guerre ne se soit pas terminée avec la défaite des réactionnaires de Hanoi - défiant toute logique et toute attente, les [From.GetAdjective]s ont étendu une zone de contrôle qui occupe désormais une grande partie de l'Indochine. [From.Capital.GetCapitalVictoryPointName] a effrontément déclaré que la ligne qu'ils ont tracée est nécessaire pour établir une zone de sécurité contre le gouvernement indochinois "ouvertement hostile", à notre grande exaspération - la seule explication étant une préparation pour écraser notre mouvement révolutionnaire.\n\nComme on pouvait s'y attendre, beaucoup appellent maintenant à la guerre pour libérer les territoires occupés. Bien que [From.GetNameDef] vienne de vaincre les forces allemandes en Asie, il est difficile de concevoir qu'elles puissent résister à nos forces tout en étant occupées sur d'autres fronts, et les faucons ont donc fait valoir qu'une attaque devrait être menée dès que possible. Tout ce que nous devons faire, c'est donner le signal."
@@ -693,9 +722,6 @@ spend_10_guerilla: "§Y10§! Force de Guérilla"
 spend_10_guerilla_blocked: "§R10§! Force de Guérilla"
 spend_10_guerilla_tooltip: "Cela coûte §R10§! §YForce de Guérilla§! pour prendre cette mesure."
  INC_increase_guerilla_strength_tt:9 "Les §Yactivités de la Guerrilla§! seront renforcées par $RIGHT|G0$."
- spend_5000_manpower: "£manpower_texticon §Y5000§!"
- spend_5000_manpower_blocked: "£manpower_texticon §R5000§!"
- spend_5000_manpower_tooltip:9 "La prise de décision coûte $spend_5000_manpower_blocked$."
 INC_sabotage_tonkin_decision: "Sabotage dans le nord du Vietnam"
 INC_sabotage_annam_decision: "Sabotage dans le centre du Vietnam"
 INC_urban_terrorism_decision: "Lancer une attaque de terrorisme urbain"
@@ -825,24 +851,20 @@ INC_build_junk_fleet_decision_desc: "Alors que la puissante marine allemande est
 INC_build_junk_fleet_tooltip: "§YCela nous donnera accès à des marchands d'armes autour de la mer de Chine méridionale.§!"
 INC_smuggling_in_Siam_decision: "Acheter des armes au marché noir siamois"
 INC_smuggling_in_Siam_decision_desc: "Le contrôle des armes à feu au Siam est faible. Il nous est possible d'acheter directement des armes au marché noir siamois. Cependant, cela pourrait entraîner une suspicion indésirable de la part de l'autorité siamoise...."
- INC_to_Bharatiya: "§YCela pourrait aider à établir une ligne de communication avec notre fidèle ami, la commune de Bharatiya§!"
+ INC_to_Bharatiya:9 "§YCela pourrait aider à établir une ligne de communication avec notre fidèle ami, la République Populaire de Bhârat§!"
 INC_receive_aid_from_Bharatiya: "Recevoir l'aide de la Commune de Bhârat"
-INC_receive_aid_from_Bharatiya_desc: "La Commune de Bhârat a généreusement offert son aide. Nous n'avons qu'à les transporter en Indochine."
+ INC_receive_aid_from_Bharatiya_desc:9 "La République Populaire de Bhârat a généreusement offert son aide. Nous n'avons qu'à les transporter en Indochine."
 INC_smuggling_in_Hongkong_decision: "Les surplus d'armes de l'Entente"
 INC_smuggling_in_Hongkong_decision_desc: "Un grand nombre d'armes de l'Entente datant de la Weltkrieg est disponible à Hongkong. Ce n'est pas difficile d'acheter des armes déguisées."
 INC_purchase_support_in_Hongkong_decision: "Acheter du matériel de guerre de Hongkong"
 INC_purchase_support_in_Hongkong_decision_desc: "Achetez du matériel de guerre, y compris des médicaments, des radios et des vélos de Hongkong."
 INC_set_up_network_in_Burma_decision: "Infiltrer la Birmanie"
-INC_set_up_network_in_Burma_decision_desc: "L'un des moyens d'accéder en toute sécurité à notre allié fraternel, la Commune de Bhârat, est de passer par la Birmanie. Cependant, nous devons traiter avec diverses factions locales là-bas..."
+ INC_set_up_network_in_Burma_decision_desc:9 "L'un des moyens d'accéder en toute sécurité à notre allié fraternel, la République Populaire de Bhârat, est de passer par la Birmanie. Cependant, nous devons traiter avec diverses factions locales là-bas..."
 INC_deal_with_Chinese_warlord_decision: "Traiter avec le Yunnan"
-INC_deal_with_Chinese_warlord_decision_desc: "Un moyen d'accéder en toute sécurité à notre allié fraternel, la Commune de Bhârat, est de passer par le Yunnan. Cependant, nous devons traiter avec le seigneur de guerre chinois..."
+ INC_deal_with_Chinese_warlord_decision_desc:9 "Un moyen d'accéder en toute sécurité à notre allié fraternel, la République Populaire de Bhârat, est de passer par le Yunnan. Cependant, nous devons traiter avec le seigneur de guerre chinois..."
 INC_expand_arm_workshop_decision: "Agrandir les ateliers d'armes"
 INC_expand_arm_workshop_decision_desc: "En important le matériel nécessaire, nous pouvons agrandir les installations de production d'armes à Saïgon."
 INC_lower_trafficking_cost: "Cela réduira le §Ycoût§! du §Ytrafic d'arme§!"
-
-spend_1000_manpower: "£manpower_texticon §Y1000§!"
-spend_1000_manpower_blocked: "£manpower_texticon §R1000§!"
- spend_1000_manpower_tooltip:9 "Cela coûte $spend_1000_manpower_blocked$ de prendre cette décision."
 
 #Relationship with China
  #the Chinese People have always been Friends of the Indochinese People Throughout History
@@ -904,8 +926,8 @@ spend_1000_manpower_blocked: "£manpower_texticon §R1000§!"
  #Send military advisors to Burma
  #The newly established socialist regime in Burma is reforming its army. The battle-hardened Indochinese army might be able to send some advisors to help them.
 
- #Send Volunteers to Bharatiya Commune
- #The Bharatiya Commune is in its sacred war against Indian reactionaries. We should send volunteers to help them.
+ #Send Volunteers to the Bharatiya People's Republic
+ #The Bharatiya People's Republic is in its sacred war against Indian reactionaries. We should send volunteers to help them.
 
 INC_expropriate_traitors_land_decision: "Exproprier la Terre des Traîtres"
 INC_declare_dai_viet_decision: "Déclarer la République du Dai Viet"
@@ -1152,7 +1174,7 @@ INC_Our_International_Obligation_desc: "La Commune de France a commencé la guer
 INC_Ask_For_Membership: "Demande d'Adhésion au Phalanstère"
 INC_Ask_For_Membership_desc: "La Commune de France a lancé le projet International Phalanstère . Nous devrions nous unir pour développer notre patrie rétrograde et promouvoir la révolution."
 INC_Join_East_Syndicalist_Faction: "Rejoindre la Faction Syndicaliste de l'Est"
-INC_Join_East_Syndicalist_Faction_desc: "Notre relation avec la Commune de Bhârat s'est transformée en quelque chose qui ressemble à de l'amitié. Rejoignons formellement nos frères à Calcutta, et fleurissons ensemble comme un lotus brillant."
+ INC_Join_East_Syndicalist_Faction_desc:9 "Notre relation avec la République Populaire de Bhârat s'est transformée en quelque chose qui ressemble à de l'amitié. Rejoignons formellement nos frères à Calcutta, et fleurissons ensemble comme un lotus brillant."
  INC_Join_Co_Prosperity_Sphere:0 "Rejoindre la sphère de coprospérité"
  INC_Join_Co_Prosperity_Sphere_desc:0 "Nos compatriotes à Tokyo ont créé une nouvelle organisation d'États asiatiques qui se consacre à la défense mutuelle et à la réduction de l'influence occidentale dans la région. Bien que certains puissent prétendre que cette organisation n'est guère plus qu'une association d'États fantoches japonais, en y adhérant, nous pouvons fermement répudier les impérialistes occidentaux une fois pour toutes."
 INC_Seek_Support_From_Japan: "Solliciter l'Appui du Japon"
@@ -1164,7 +1186,7 @@ INC_Beyond_Indochina_desc: "Nous avons consolidé notre sécurité. Il est temps
 INC_Special_Relationship_With_France: "Relations Privilégiées avec la France"
 INC_Special_Relationship_With_France_desc: "La Commune de France, phare du socialisme mondial, a apporté la révolution et la libération à l'Indochine. La plupart des révolutionnaires indochinois ont rejoint la révolution en France, et notre juste cause a toujours été soutenue par nos camarades français. Il est tout à fait raisonnable que nous développions une relation spéciale avec la Commune de France."
 INC_Strengthen_Our_Tie_with_Calcutta: "Renforcer les Liens avec Calcutta"
-INC_Strengthen_Our_Tie_with_Calcutta_desc: "Calcutta est le centre de la révolution asiatique, nous devons consolider notre amitié avec la commune de Bhârat."
+ INC_Strengthen_Our_Tie_with_Calcutta_desc:9 "Calcutta est le centre de la révolution asiatique, nous devons consolider notre amitié avec la République Populaire de Bhârat."
 
 ### Cosmetic Tags ###
  INC: "Indochine"
