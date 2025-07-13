@@ -1521,7 +1521,7 @@
  GER_11000_mp_2000_eq: "£manpower_icon  §H11000§! £rifle_texticon  §H2000§!"
  GER_11000_mp_2000_eq_blocked: "£manpower_icon  §R1000§! £rifle_texticon §R2000§!"
  GER_11000_mp_2000_eq_tooltip: "Cela coûte $GER_11000_mp_2000_eq_blocked$ pour prendre cette décision"
- GER_will_send_volunteers:9 "Si [GER.GetNameWithFlag] est contrôlée par l'IA, elle enverra des volontaires dans vos guerres en cours!"
+ GER_will_send_volunteers:9 "Si [GER.GetNameWithFlag] est contrôlé par l'IA, il enverra des volontaires à vos guerres en cours !\n\nAttention : accepter les volontaires allemands dans notre guerre contre la Russie augmentera le temps de la mission §YTenir contre la Russie§!"
 
  GER_AZR_align_azerbaijan: "Aligner l’Azerbaïdjan sur nos intérêts"
  GER_AZR_align_azerbaijan_desc:9 "Le moment est venu pour nous d'acquérir le plus grand prix du Moyen-Orient, le pétrole de l'Azerbaïdjan. Si nous organisons une réunion avec des diplomates azerbaïdjanais de haut rang à Bakou, nous pourrons peut-être parvenir à un accord avec eux. En garantissant leur indépendance, ils pourraient bien accepter de se soumettre à notre suzeraineté sans se battre."
@@ -1866,9 +1866,9 @@
  GER_SWR_invite_natlibs:9 "Inviter les Libéraux nationaux dans la Coalition Schwarz-Weiß-Rot"
  GER_SWR_invite_hanoverians:9 "Inviter le Parti hanovrien dans la Coalition Schwarz-Weiß-Rot"
 
- GER_abolish_universal_suffrage_tt:9 "$modifies_sic$\nRemplace le trait §YChevalier d'Elbie-Orientale§! par §YPrécurseur de la réaction§!, un trait §Ydynamique§! dont les effets dépendent de votre popularité §nnationale-populiste§! actuelle. Effets actuels:\n- Facteur de population recrutable: [?GER.party_popularity@national_populist|=%+]\n- Soutien à la guerre: [?GER.party_popularity@national_populist|=%+]\n\nAprès la Seconde Weltkrieg, nous pourrons transformer nos plans en une loi constitutionnelle, cette priorité devrait garantir que notre gouvernement devienne §Pautocrate-paternaliste.§!"
+ GER_abolish_universal_suffrage_tt:9 "$modifies_sic$\nRemplace le trait §YChevalier d'Elbie-Orientale§! par §YPrécurseur de la réaction§!, un trait §Ydynamique§! dont les effets dépendent de votre popularité §nnationale-populiste§! actuelle. Effets actuels:\n- Facteur de population recrutable: [?GER.party_popularity@national_populist|=%+]\n- $MODIFIER_WAR_SUPPORT_FACTOR$ : [?GER.party_popularity@national_populist|=%+]\n\nAprès la Seconde Weltkrieg, nous pourrons transformer nos plans en une loi constitutionnelle, cette priorité devrait garantir que notre gouvernement devienne §Pautocrate-paternaliste.§!"
  KR_east_elbia_knight_sic_dvlp_tt:9 "Les effets de ce trait sont représentés par le modificateur §YPrésage de la réaction§! dans l'onglet des Idées Nationales."
- GER_people_conservatism_tt:9 "$modifies_sic$\nRemplace le trait §YChevalier d'Elbie-Orientale§! par §YPrécurseur de la normalité§!, un trait §Ydynamique§! dont les effets dépendent de votre popularité §Ldémocrate autoritaire§! actuelle. Effets actuels:\n- Vitesse de construction des §Yusines civiles§!: [?GER.party_popularity@authoritarian_democrat|=%+]\n- Stabilité: [?GER.party_popularity@authoritarian_democrat|=%+]\n\nAprès la Seconde Weltkrieg, nous pourrons transformer nos plans en une loi constitutionnelle, cette priorité devrait garantir que notre gouvernement devienne §Ldémocrate-autoritaire.§!"
+ GER_people_conservatism_tt:9 "$modifies_sic$\nRemplace le trait §YChevalier d'Elbie-Orientale§! par §YPrécurseur de la normalité§!, un trait §Ydynamique§! dont les effets dépendent de votre popularité §Ldémocrate autoritaire§! actuelle. Effets actuels:\n- $modifier_production_speed_industrial_complex_factor$ : [?GER.party_popularity@authoritarian_democrat|=%+]\n- $MODIFIER_STABILITY_FACTOR$ : [?GER.party_popularity@authoritarian_democrat|=%+]\n\nAprès la Seconde Weltkrieg, nous pourrons transformer nos plans en une loi constitutionnelle, cette priorité devrait garantir que notre gouvernement devienne §Ldémocrate-autoritaire.§!"
  KR_east_elbia_knight_sic_dkp_tt:9 "Les effets de ce trait sont représentés par le modificateur §YPrésage de la normalité§! dans l'onglet des Idées Nationales."
 
  GER_schlange_agricultural_settlement: "Loi sur la promotion des établissements agricoles"
@@ -2817,8 +2817,8 @@
  GER_invade_france: "Opération : Scharnhorst"
  GER_invade_france_desc: "Maintenant que notre situation intérieure s’est stabilisée, nous pouvons tourner notre attention vers notre frontière occidentale. Les machinations des Communards français pour renverser la paix en Europe sont bien connues: si nous les frappons à titre préventif, nous pouvons nous assurer que ce conflit ne dégénèrera pas en une seconde guerre mondiale."
 
- GER_cross_the_ostwall:9 "Cross the Ostwall"
- GER_cross_the_ostwall_desc:9 "A victory has been achieved against the West at lightning speed, and the only power left to oppose German domination of Europe is Russia. We have every single advantage on our side, and it is time we prevent any and all major threats to German power. To Moscow!"
+ GER_cross_the_ostwall:9 "Traverser l'Ostwall"
+ GER_cross_the_ostwall_desc:9 "Une victoire a été remportée contre l'Occident à la vitesse de l'éclair, et la seule puissance qui reste pour s'opposer à la domination allemande sur l'Europe est la Russie. Nous avons tous les atouts de notre côté et il est temps de prévenir toute menace majeure pour la puissance allemande. À Moscou !"
 
  GER_combat_defeatism: "Combattre le défaitisme"
  GER_combat_defeatism_desc: "La guerre a pris la nation allemande au dépourvu, et nombreux sont ceux qui, minés par des années de ralentissement économique et de querelles politiques, ne savent pas si nous serons capables de supporter une attaque conjointe des syndicalistes et de la Russie. Un tel défaitisme doit être réprimé immédiatement et l’esprit patriotique de tous les Allemands doit être ravivé. Ensemble pour la victoire!"
@@ -6482,8 +6482,8 @@
 
  GER_economic_health_label: "Santé Economique: [?GER_economic_health|0+]"
  GER_economic_health_label_tt: "Les effets actuels sur la santé de notre économie sont:\n[GERGetCurrentEconomicHealthEffects]"
- GER_bm_consumer_goods_loss:9 "Usines de Biens de Consommation: [?GER_consumer_goods_loss|%H1]"
- GER_bm_all_effects_loss:9 "Usines de Biens de Consommation: [?GER_consumer_goods_loss|%H1]\nVitesse de Construction: [?GER_building_production_loss|=%+]\n£prod_eff_cap  Plafond de productivité: [?GER_max_efficiency_loss|=%+]\nProduction des usines: [?GER_factory_output_loss|=%+]"
+ GER_bm_consumer_goods_loss:9 "$MODIFIER_CONSUMER_GOODS_FACTOR$ : [?GER_consumer_goods_loss|%H1]"
+ GER_bm_all_effects_loss:9 "$MODIFIER_CONSUMER_GOODS_FACTOR$ : [?GER_consumer_goods_loss|%H1]\n$MODIFIER_PRODUCTION_SPEED_BUILDINGS_FACTOR$ : [?GER_building_production_loss|=%+]\n£prod_eff_cap  $MODIFIER_PRODUCTION_FACTORY_MAX_EFFICIENCY_FACTOR$ : [?GER_max_efficiency_loss|=%+]\n$MODIFIER_INDUSTRIAL_CAPACITY_FACTOR$ : [?GER_factory_output_loss|=%+]"
 
  GER_debt_label: "Dette Actuelle: [?GER_debt|0-]% du PIB"
  GER_debt_label_tt: "Si notre dette atteint un niveau égal à 200% du PIB, nous ferons alors §Rdéfaut sur notre dette§!! Nous perdrons le jeu de cartes du Lundi Noir et notre économie s'écroulera!"

@@ -9,8 +9,8 @@
  TRK_tt_sc_faction_wins:9 "§YAvec la promesse de tenir des élections "libres et équitables", la §cFaction Réformiste§! de l'Union des Musulmans solidifie sa position, transformant la moitié de la popularité des §aDémocrates Autoritaires§! en popularité pour les §cSociaux-Conservateurs§!.§!"
  TRK_tt_pa_faction_wins:9 "§YAvec la prolongation pour une durée indéfinie de la loi martiale, la §Pfaction conservatrice§! de l'Union des Musulmans solidifie sa position, transformant la moitié de la popularité des §aDémocrates Autoritaires§! en popularité pour les §PAutocrates Paternalistes§!.§!"
  TRK_tt_cannot_coalition:9 "§RNotre nouvelle orientation politique nous empêchera de rejoindre des coalitions dans le futur.§!"
- TRK_tt_cast_aside_ll:9 "Fusionne §YRelâcher la laisse§! et §YContrôle militaire normalisé§! en §YRégime militaire apartisan§!\nChangements effectifs\nGain de poids politique : §G+5%§!\nOrganisation des divisions : §G+5%§!\nStabilité : §G+5%§!\nDurée de justification d'un objectif de guerre : §G-25%§!\n"
- TRK_tt_cast_aside_lg:9 "Fusionne §YGouverneurs loyaux§! et §YContrôle militaire normalisé§! en §YRégime militaire apartisan§!\nChangements effectifs\nGain de poids politique : §G+5%§!\nOrganisation des divisions : §G+5%§!\nStabilité : §G+5%§!\nDurée de justification d'un objectif de guerre : §G-25%§!\n"
+ TRK_tt_cast_aside_ll:9 "Fusionne §YRelâcher la laisse§! et §YContrôle militaire normalisé§! en §YRégime militaire apartisan§!\nChangements effectifs\nGain de poids politique : §G+5%§!\nOrganisation des divisions : §G+5%§!\n$MODIFIER_STABILITY_FACTOR$ : §G+5%§!\nDurée de justification d'un objectif de guerre : §G-25%§!\n"
+ TRK_tt_cast_aside_lg:9 "Fusionne §YGouverneurs loyaux§! et §YContrôle militaire normalisé§! en §YRégime militaire apartisan§!\nChangements effectifs\nGain de poids politique : §G+5%§!\nOrganisation des divisions : §G+5%§!\n$MODIFIER_STABILITY_FACTOR$ : §G+5%§!\nDurée de justification d'un objectif de guerre : §G-25%§!\n"
  TRK_tt_sufi_upgrades:9 "§CSi nous avons l'esprit national §YSoutien des Mollahs§! lorsque ce focus se termine, nous augmentrons notre §Ystabilité§!, la §Ypopularité de notre parti§!, et l'esprit national §YSoutien des ordres soufis§! sera amélioré!§!"
  TRK_tt_electoral_unity_short:9 "§CSi nous avons l'esprit national §YUnité Électorale§! lorsque ce focus se termine, unifier nos partis sera moins coûteux.§!"
 
@@ -127,7 +127,7 @@
  TRK_language_unification_both_tt:9 "§CSi nous avons §Y[TRK_nazir_turyakululy.GetName]§! comme conseiller et l'esprit national §Y$TRK_debate_jadid$§! lorsque cette priorité se termine, les malus initiaux seront moins désavantageux et l'esprit obtenu sera plus puissant !§!"
 
  TRK_warlord_riders_template:9 "Gagne quatre divisions de £nato_unit_cavalry_icon_small §YWarlord Auxiliaries§! avec 5 §YBataillons de cavalerie§! et 1 §YCompagnie de reconnaissance de soutien§!.\n"
- KR_red_basmachi_tt:9 "Combine et améliore §Y$TRK_the_peoples_party_national_turkism$§!, §Y$TRK_formalised_presidency$§! et §Y$TRK_statist_econ$§! dans §Y$TRK_red_basmachi_regime$§!\nChangements effectifs :\nGain quotidien de poids politique : §G+0,03§!\nFacteur de population recrutable : §G+3%§!\nTaux de récupération de la division : §G+7,0%§!\nStabilité : §G+7,50%§!\nCroissance de l'efficacité de la production : §G+10,00%§!"
+ KR_red_basmachi_tt:9 "Combine et améliore §Y$TRK_the_peoples_party_national_turkism$§!, §Y$TRK_formalised_presidency$§! et §Y$TRK_statist_econ$§! dans §Y$TRK_red_basmachi_regime$§!\nChangements effectifs :\nGain quotidien de poids politique : §G+0,03§!\nFacteur de population recrutable : §G+3%§!\nTaux de récupération de la division : §G+7,0%§!\n$MODIFIER_STABILITY_FACTOR$ : §G+7,50%§!\nCroissance de l'efficacité de la production : §G+10,00%§!"
 
 ### Scripted Loc ###
  TRK_yb_weak_loc:9 "§RRéduit au silence et trop effrayé pour s'organiser§!"
@@ -558,7 +558,7 @@
 
  TRK_black_monday:0 "Les répercussions du Lundi Noir"
  TRK_black_monday_modifier:9 "£pol_idea Les répercussions du Lundi Noir"
- TRK_black_monday_desc:9 "L’effondrement de la Bourse de Berlin a provoqué une onde de choc dans toute la Russie. Ce choc économique mondial a anéanti nos plans de relance économique et des efforts considérables seront nécessaires pour atténuer cette crise.\n\n§W$MODIFIER_CONSUMER_GOODS_FACTOR$ : §! [?TRK.TRK_black_monday_consumer_goods|H%0]\n§W$MODIFIER_PRODUCTION_SPEED_BUILDINGS_FACTOR$ : §! [?TRK.TRK_black_monday_construction_speed|=%+]\n§WProduction d'usine: §! [?TRK.TRK_black_monday_factory_output|=%+]"
+ TRK_black_monday_desc:9 "L’effondrement de la Bourse de Berlin a provoqué une onde de choc dans toute la Russie. Ce choc économique mondial a anéanti nos plans de relance économique et des efforts considérables seront nécessaires pour atténuer cette crise.\n\n§W$MODIFIER_CONSUMER_GOODS_FACTOR$ : §! [?TRK.TRK_black_monday_consumer_goods|H%0]\n§W$MODIFIER_PRODUCTION_SPEED_BUILDINGS_FACTOR$ : §! [?TRK.TRK_black_monday_construction_speed|=%+]\n§W$MODIFIER_INDUSTRIAL_CAPACITY_FACTOR$ : §! [?TRK.TRK_black_monday_factory_output|=%+]"
 
  TRK_looking_towards_afg:9 "Regard en direction de l’Afghanistan"
  TRK_russian_capital_flight:9 "Fuite des capitaux russes"
