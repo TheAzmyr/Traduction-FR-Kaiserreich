@@ -55,7 +55,7 @@
  KR_welcome_splash_tab_3_content_0: "Kaiserreich impose des restrictions sur les actions diplomatiques telles que les §RGuerres Précoces§!, les §RFactions§! et les §RNiveaux d'Autonomie§!.\nKaiserreich inclut également des §CLimites de Division§! et un mécanisme de §CDémobilisation§! pour améliorer la jouabilité en fin de partie.\nPendant les §YConférences de Paix§!, assurez-vous d'annexer tous les États possibles. Plus tard, vous pourrez libérer les pays des territoires annexés grâce aux §Cdécisions§!.\nLe menu de configuration des §YRègles de Jeu Personnalisées§! vous permet d'ajuster de nombreuses options, notamment les §CChemins de Pays§!, la §CPrimauté du Joueur pendant les Conférences de Paix§! et l'outil de §CTransfert d'États et de Pays§!.\nLe £kr_options_icon §YMenu d'Options§! peut être ouvert en cliquant sur son icône en haut à droite. Il vous permet d'ajuster la §Cfréquence des événements§! et d'activer le §Crenommage dynamique§! des états et des points de victoire."
 
  ## TAB 4 ##
- KR_CURRENT_VERSION:9 "1.5.1"
+ KR_CURRENT_VERSION:9 "1.5.2"
  KR_CURRENT_VERSION_NAME:9 "Meilleur des mondes"
  KR_CURRENT_VERSION_COMBINED: "Kaiserreich $KR_CURRENT_VERSION$ "$KR_CURRENT_VERSION_NAME$""
  KR_welcome_splash_tab_4_upper_header: "§YWelcome to $KR_CURRENT_VERSION_COMBINED$§!"
@@ -69,7 +69,7 @@
  KR_welcome_splash_tab_4_content_4:9 "Jonny BL, Kano, katieluka, kergely, KFateweaver, Klyntar King, Krčo, lehmannmo, Matoro, McOmghall"
  KR_welcome_splash_tab_4_content_5:9 "MrMano, ~mw~ // miwaco., Noot, Pelmen, PPsyrius, Purple Jinjo, Rnk, Sasha, Shiroe"
  KR_welcome_splash_tab_4_content_6:9 "Sonny O'Cad, SuperGreenBeans, suzuha, tan_mi.ya, The Alpha Dog, The Don Golian, The Irredentista, The Italian Jojo"
- KR_welcome_splash_tab_4_content_7:9 "Toaster, Vidyaország, VladimirLemon, Zimbabwe Salt Co."
+ KR_welcome_splash_tab_4_content_7:9 "~mw~ // miwaco.  ·  Noot  ·  Pelmen  ·  PPsyrius  ·  Purple Jinjo  ·  Rnk ·  Sasha  ·  Shiroe  ·  Sonny O'Cad"
  KR_welcome_splash_tab_4_content_8:9 "§YTraduit par : §!Ergovius, IGgame et Mouchi. §YAnciennement traduit par : §!Aegon Targaryen"
  KR_welcome_splash_tab_4_content_9:9 "Brakmar, Darkusios, Demetran, Diro, Fanois, Feuxin, Grikke, Hellh, IluminatiX, Kfateweaver, Kira, Klik le Araï, Lazu, Le Marocain, LRP2580, MVMaroIV, N3, Nobelo81, Orakle14, Paralux, Remkiller123, Romain1912, Rosak, RyumaTomoka, Sayu, Solal, Superwaffle, TheAzmyr, UltraNico, Vitulus, Youkoulélé et Zeplein"
 
@@ -307,10 +307,15 @@
 
 ### Static Modifiers ###
  volunteer_limit_plus_three: "Augmentation de la limite des volontaires"
+ volunteer_limit_plus_three_tt:9 "$MODIFIER_SEND_VOLUNTEER_SIZE$: [?3|0+=]"
  volunteer_limit_plus_two: "$volunteer_limit_plus_three$"
+ volunteer_limit_plus_two_tt:9 "$MODIFIER_SEND_VOLUNTEER_SIZE$: [?2|0+=]"
  volunteer_limit_plus_one: "$volunteer_limit_plus_three$"
+ volunteer_limit_plus_one_tt:9 "$MODIFIER_SEND_VOLUNTEER_SIZE$: [?1|0+=]"
  volunteer_limit_plus_fifty_percent: "$volunteer_limit_plus_three$"
+ volunteer_limit_plus_fifty_percent_tt:9 "$MODIFIER_SEND_VOLUNTEER_FACTOR$: [?0.5|+=%]"
  volunteer_limit_plus_hundred_percent: "$volunteer_limit_plus_three$"
+ volunteer_limit_plus_hundred_percent_tt:9 "$MODIFIER_SEND_VOLUNTEER_FACTOR$: [?1|+=%]"
 
 ### Continents ###
 is_actually_an_island: "est un état insulaire"
@@ -700,23 +705,16 @@ tech_integrated_specialists: "Forces spéciales intégrées"
 
  tech_better_paratroopers: "Parachutistes d'élite"
 
- tech_irregulars: "Infanterie irrégulière"
- tech_irregulars_effect: "Active les bataillons de ligne d'§Y$irregular_infantry$§!"
+ tech_irregulars:9 "Infanterie irrégulière"
 
- tech_militias: "Unité de milice"
- tech_militias_effect: "Active les bataillons de ligne de §Y$militia$§!"
+ tech_militias:9 "Unité de milice"
 
  tech_anti_partisan:0 "Tactiques anti-insurrectionnelles"
 
  tech_improved_logistics:9 "Compagnie logistique améliorée"
 
- long_range_patrol_support_tech: "$long_range_patrol_support$"
- long_range_patrol_support_tech_effect: "Active la compagnie de reconnaissance §Y$long_range_patrol_support$§!."
  modifier_army_sub_unit_long_range_patrol_support_attack_factor_tooltip: "$modifier_army_sub_unit_long_range_patrol_support_attack_factor$ : $RIGHT|+=%2$"
  modifier_army_sub_unit_long_range_patrol_support_defence_factor_tooltip: "$modifier_army_sub_unit_long_range_patrol_support_defence_factor$: $RIGHT|+=%2$"
-
- winter_logistics_support_tech: "$winter_logistics_support$"
- winter_logistics_support_tech_effect: "Active la compagnie de soutien §Y$winter_logistics_support$§!."
 
  tech_extensive_reconnaissance:0 "Reconnaissance approfondie"
  tech_extensive_reconnaissance_terrain_effect:9 "  §Y$snow$§!: $STAT_ADJUSTER_MOVEMENT$[?0.1|=+1%]\n  §Y$forest$§!: $STAT_ADJUSTER_MOVEMENT$[?0.05|=+1%]\n  §Y$hills$§!: $STAT_ADJUSTER_MOVEMENT$[?0.05|=+1%]\n  §Y$mountain$§!: $STAT_ADJUSTER_MOVEMENT$[?0.05|=+1%]\n  §Y$marsh$§!: $STAT_ADJUSTER_MOVEMENT$[?0.05|=+1%]\n  §Y$plains$§!: $STAT_ADJUSTER_MOVEMENT$[?0.05|=+1%]\n  §Y$river$§!: $STAT_ADJUSTER_MOVEMENT$[?0.05|=+1%]"
@@ -724,9 +722,6 @@ tech_integrated_specialists: "Forces spéciales intégrées"
  tech_strengthened_support_companies: "Compagnies de soutien renforcées"
 
  tech_anti_armour_tactics: "Tactiques anti-blindés"
-
- jungle_pioneers_support_tech: "Pionniers de la jungle"
- jungle_pioneers_support_tech_effect: "Active la compagnie de soutien §Y$jungle_pioneers_support$§!."
 
  tech_river_boats: "Navires fluviaux"
  tech_river_boats_terrain_effect:9 "  §Y$river$§!:\n    $STAT_ADJUSTER_MOVEMENT$[?0.1|=+1%]\n    $STAT_ADJUSTER_ATTACK$[?0.1|=+1%]\n    $STAT_ADJUSTER_DEFENCE$[?0.05|=+1%]"
@@ -741,6 +736,20 @@ tech_integrated_specialists: "Forces spéciales intégrées"
 
  tech_elephant_sappers:9 "Sapeurs d'éléphants"
  tech_elephant_sappers_terrain_effect:9 "  §Y$jungle$§!:\n    $STAT_ADJUSTER_MOVEMENT$ [?0.05|=+1%]\n    $STAT_ADJUSTER_ATTACK$ [?0.05|=+1%]\n    $STAT_ADJUSTER_DEFENCE$ [?0.05|=+1%]\n  §Y$mountain$§!:\n    $STAT_ADJUSTER_MOVEMENT$ [?0.05|=+1%]\n    $STAT_ADJUSTER_ATTACK$ [?0.05|=+1%]\n    $STAT_ADJUSTER_DEFENCE$ [?0.05|=+1%]"
+
+ tech_bicycle_battalion:9 "$bicycle_battalion$"
+
+ tech_camelry:9 "$camelry$"
+
+ tech_penal_battalion:9 "$penal_battalion$"
+
+ tech_winter_logistics_support:0 "$winter_logistics_support$"
+
+ tech_long_range_patrol_support:0 "$long_range_patrol_support$"
+
+ tech_jungle_pioneers_support:9 "$jungle_pioneers_support$"
+
+ tech_sturmtruppe_battalion:9 "$sturmtruppe_battalion$"
 
  ### Units ###
  assault_battalion: "$blackshirt_assault_battalion$"

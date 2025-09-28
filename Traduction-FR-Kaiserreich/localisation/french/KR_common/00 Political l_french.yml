@@ -82,43 +82,13 @@ KR_will_return_cores: "Tous les États côtiers ou contigus qui sont des états 
  government_is_loc: "Le Parti actuellement au pouvoir est"
  government_is_not_loc: "Le Parti actuellement au pouvoir n'est pas"
 
- KR_is_socialist: "$government_is_loc$ §Y$totalist$§!,§Y$syndicalist$§! ou §Y$radical_socialist$§!"
- KR_is_socialist_NOT: "$government_is_not_loc$ §Y$totalist$§!, §Y$syndicalist$§! ou §Y$radical_socialist$§!"
-
- KR_is_elected: "$government_is_loc$ §Y$social_democrat$§!, §Y$social_liberal$§!, §Y$market_liberal$§! ou §Y$social_conservative$§!"
- KR_is_elected_NOT: "$government_is_not_loc$ §Y$social_democrat$§!, §Y$social_liberal$§!, §Y$market_liberal$§! ou §Y$social_conservative$§!"
-
- KR_is_democratic: "$government_is_loc$ §Y$social_democrat$§!, §Y$social_liberal$§!, §Y$market_liberal$§!, §Y$social_conservative$§! ou §Y$authoritarian_democrat$§!"
- KR_is_democratic_NOT: "$government_is_not_loc$ §Y$social_democrat$§!, §Y$social_liberal$§!, §Y$market_liberal$§!, §Y$social_conservative$§! ou §Y$authoritarian_democrat$§!"
-
- KR_is_authoritarian: "$government_is_loc$ §Y$authoritarian_democrat$§!, §Y$paternal_autocrat$§! ou §Y$national_populist$§!"
- KR_is_authoritarian_NOT: "$government_is_not_loc$ §Y$authoritarian_democrat$§!, §Y$paternal_autocrat$§! ou §Y$national_populist$§!"
-
- KR_is_dictatorship: "$government_is_loc$ §Y$paternal_autocrat$§! ou §Y$national_populist$§!"
- KR_is_dictatorship_NOT: "$government_is_not_loc$ §Y$paternal_autocrat$§! ou §Y$national_populist$§!"
-
- KR_right_wing_democracy: "$government_is_loc$ §Y$market_liberal$§! ou §Y$social_conservative$§!"
- KR_right_wing_democracy_NOT: "$government_is_not_loc$ §Y$market_liberal$§! ou §Y$social_conservative$§!"
-
- KR_left_wing_democracy: "$government_is_loc$ §Y$social_democrat$§! ou §Y$social_liberal$§!"
- KR_left_wing_democracy_NOT: "$government_is_not_loc$ §Y$social_democrat$§! ou §Y$social_liberal$§!"
-
- KR_is_any_authoritarian: "$government_is_loc$ §Y$totalist$§!, §Y$authoritarian_democrat$§!, §Y$paternal_autocrat$§! ou §Y$national_populist$§!"
- KR_is_any_authoritarian_NOT: "$government_is_not_loc$ §Y$totalist$§!, §Y$authoritarian_democrat$§!, §Y$paternal_autocrat$§! ou §Y$national_populist$§!"
-
- KR_is_liberal: "$government_is_loc$§Y$social_democrat$§!, §Y$social_liberal$§! ou §Y$market_liberal$§!"
- KR_is_liberal_NOT: "$government_is_not_loc$§Y$social_democrat$§!, §Y$social_liberal$§! ou §Y$market_liberal$§!"
-
- KR_is_conservative: "$government_is_loc$§Y$social_conservative$§! ou §Y$authoritarian_democrat$§!"
- KR_is_conservative_NOT: "$government_is_not_loc$§Y$social_conservative$§! ou §Y$authoritarian_democrat$§!"
-
 ### Party Popularity Tooltips ###
  popularity_ideology_tooltip: "Votre parti actuel au pouvoir est §H[?current_party_ideology_group.GetTokenLocalizedKey]§!"
  popularity_ideology_desc: "§L[GetPopularityTooltipDesc]§!"
 party_popularity_delayed_tooltip: "La popularité du parti représente le contrôle de votre gouvernement actuel sur la nation et son soutien avec le peuple. Les partis politiques très populaires sont plus à même de faire avancer leur programme politique et de stabiliser la nation."
 
  party_popularity_tooltip: "§HPopularité de parti§![GetPopularityPPGain]"
- party_popularity_tooltip_long:9 "§H\n\nEffets de notre Popularité de parti actuelle :§!\n$MODIFIER_POLITICAL_POWER_GAIN$: [GetPopularityPPGainValue][GetHasCoalition][GetCoalitionTotalist][GetCoalitionSyndicalist][GetCoalitionRadicalSocialist][GetCoalitionSocialDemocrat][GetCoalitionSocialLiberal][GetCoalitionMarketLiberal][GetCoalitionSocialConservative][GetCoalitionAuthoritarianDemocrat][GetCoalitionPaternalAutocrat][GetCoalitionNationalPopulist]"
+ party_popularity_tooltip_long:9 "§H\n\nEffets de notre Popularité de parti actuelle :§!\n$MODIFIER_POLITICAL_POWER_GAIN$ : [GetPopularityPPGainValue][GetHasCoalition][GetCoalitionPartyPop]"
 
 party_popularity_dynamic_modifier: "£pol_idea Popularité du parti"
  party_popularity_dynamic_modifier_ideology_mapped: "Popularité du parti"
@@ -135,16 +105,7 @@ party_popularity_dynamic_modifier: "£pol_idea Popularité du parti"
  party_pop_coalition_pp_gain:9 "[?coalition_pp|+2]"
  party_pop_coalition_stability:9 "[?coalition_stab|Y0%]"
 
- party_pop_coalition_totalist:9 "- [?token:totalist.GetTokenLocalizedKey] ([GetCoalitionStability_Totalist] - [GetCoalitionPPGain_Totalist])\n"
- party_pop_coalition_syndicalist:9 "- [?token:syndicalist.GetTokenLocalizedKey] ([GetCoalitionStability_Syndicalist] - [GetCoalitionPPGain_Syndicalist])\n"
- party_pop_coalition_radical_socialist:9 "- [?token:radical_socialist.GetTokenLocalizedKey] ([GetCoalitionStability_RadicalSocialist] - [GetCoalitionPPGain_RadicalSocialist])\n"
- party_pop_coalition_social_democrat:9 "- [?token:social_democrat.GetTokenLocalizedKey] ([GetCoalitionStability_SocialDemocrat] - [GetCoalitionPPGain_SocialDemocrat])\n"
- party_pop_coalition_social_liberal:9 "- [?token:social_liberal.GetTokenLocalizedKey] ([GetCoalitionStability_SocialLiberal] - [GetCoalitionPPGain_SocialLiberal])\n"
- party_pop_coalition_market_liberal:9 "- [?token:market_liberal.GetTokenLocalizedKey] ([GetCoalitionStability_MarketLiberal] - [GetCoalitionPPGain_MarketLiberal])\n"
- party_pop_coalition_social_conservative:9 "- [?token:social_conservative.GetTokenLocalizedKey] ([GetCoalitionStability_SocialConservative] - [GetCoalitionPPGain_SocialConservative])\n"
- party_pop_coalition_authoritarian_democrat:9 "- [?token:authoritarian_democrat.GetTokenLocalizedKey] ([GetCoalitionStability_AuthoritarianDemocrat] - [GetCoalitionPPGain_AuthoritarianDemocrat])\n"
- party_pop_coalition_paternal_autocrat:9 "- [?token:paternal_autocrat.GetTokenLocalizedKey] ([GetCoalitionStability_PaternalAutocrat] - [GetCoalitionPPGain_PaternalAutocrat])\n"
- party_pop_coalition_national_populist:9 "- [?token:national_populist.GetTokenLocalizedKey] ([GetCoalitionStability_NationalPopulist] - [GetCoalitionPPGain_NationalPopulist])\n"
+ party_pop_coalition_ideology:9 "- [?global.ideology_groups^ideology_index_current.GetTokenLocalizedKey] ([GetCoalitionStability] - [GetCoalitionPPGain])\n[GetCoalitionPartyPop]"
 
  add_to_coalition: "Les §[GetCoalitionTooltipColour][?coalition_partner_var.GetTokenLocalizedKey]§! vont rejoindre la coalition."
  remove_from_coalition: "Les §[GetCoalitionTooltipColour][?coalition_partner_var.GetTokenLocalizedKey]§! vont quitter la coalition."
@@ -215,7 +176,8 @@ has_scripted_peace_desc: "Le pays est en guerre et est déterminé à remporter 
  unit_limit_breakdown_desc_disabled: "Le §HNombre Maximum de Divisions§! a été désactivé par les règles du jeu."
 
 ### Tooltips ###
- KR_party_pop_less_than_100: "Moins de §Y100%§! de soutien pour [Root.GetRulingParty]."
+ KR_party_pop_less_than:9 "Soutien inférieur à $RIGHT|%0Y$ pour [ROOT.GetRulingParty]"
+ KR_party_pop_more_than:9 "Soutien supérieur à $RIGHT|%0Y$ pour [ROOT.GetRulingParty]"
  is_ally_of_ROOT: "Est un allié de [ROOT.GetNameDef]"
  has_coalition_with: "Est en coalisation avec §H[?coalition_partner_to_check.GetTokenLocalizedKey]§!"
 
@@ -278,6 +240,18 @@ has_scripted_peace_desc: "Le pays est en guerre et est déterminé à remporter 
  paternal_autocrat: "Autocrates Paternalistes"
  national_populist: "Nationaux-Populistes"
 
+### Names Coloured ###
+ totalist_coloured:9 "§oTotalistes§!"
+ syndicalist_coloured:9 "§rSyndicalistes§!"
+ radical_socialist_coloured:9 "§RRadicaux-Socialistes§!"
+ social_democrat_coloured:9 "§SSociaux-Démocrates§!"
+ social_liberal_coloured:9 "§lSociaux-Libéraux§!"
+ market_liberal_coloured:9 "§mLibéraux Économiques§!"
+ social_conservative_coloured:9 "§cSociaux-Conservateurs§!"
+ authoritarian_democrat_coloured:9 "§aDémocrates Autoritaires§!"
+ paternal_autocrat_coloured:0 "§PAutocrates Paternalistes§!"
+ national_populist_coloured:9 "§nNationaux-Populistes§!"
+
 ### Nouns ###
 totalist_noun: "Totalisme"
 syndicalist_noun: "Syndicalisme"
@@ -310,7 +284,7 @@ national_populist_desc: "Réactionnaire"
  social_democrat_subtype_desc: "La Sociale-Démocratie représente divers gouvernements dirigés par des groupes réformistes de gauche qui rejettent la nécessité inhérente d'une lutte des classes violente pour atteindre leurs objectifs, s'opposant parfois à leurs pairs plus radicaux dans le processus. Nombre d'entre eux préconisent plutôt un changement par la voie des urnes, même si, le cas échéant, les révolutionnaires de ce type ne sont pas rares."
  social_liberal_subtype_desc: "Le Social-Libéralisme reflète de nombreux styles de gouvernement de la tradition libérale progressiste, poussant souvent au changement du contrat social pour répondre aux demandes croissantes du peuple. Ces gouvernements ont tendance à se concentrer sur l'élargissement ou la protection des libertés civiles par le biais de réformes politiques et économiques, bien que leurs objectifs varient d'une nation à l'autre."
  market_liberal_subtype_desc: "Les gouvernements libéraux économiques, dits "de marché", sont issus du libéralisme classique et ont leurs racines dans diverses philosophies des Lumières. Prônant le caractère sacré de la liberté individuelle et défendant généralement un gouvernement représentatif et la libre entreprise, cette catégorie représente un large éventail de groupes, dont les libéraux du marché libre, les libéraux nationaux et les libéraux conservateurs."
- social_conservative_subtype_desc: "Le Conservatisme Social englobe de nombreux gouvernements démocratiques qui cherchent à préserver, à soutenir ou à renforcer les valeurs traditionnelles de leurs peuples face à des circonstances changeantes. Ses adeptes ne sont pas rigidement réactionnaires, mais soutiennent généralement l'État de droit et la démocratie, et sont prêts à rechercher des changements mesurés et progressifs qui s'alignent sur leur éthique au sein des systèmes politiques qu'ils habitent."
+ social_conservative_subtype_desc:9 "Le Conservatisme Social englobe de nombreux gouvernements démocratiques qui cherchent à préserver, à soutenir ou à renforcer les valeurs traditionnelles de leurs peuples face à des circonstances changeantes. Ses adeptes ne sont pas rigidement réactionnaires, mais soutiennent généralement l'État de droit et la démocratie, et sont prêts à rechercher des changements mesurés et progressifs qui s'alignent sur leur éthique au sein des systèmes politiques qu'ils habitent."
  authoritarian_democrat_subtype_desc: "La Démocratie Autoritaire décrit une large gamme de systèmes gouvernementaux partiellement représentatifs, caractérisés par des personnalités puissantes et des groupes d'intérêt qui gouvernent sous l'apparence d'un pouvoir législatif libre. Si cette structure politique est parfois le fruit de convictions idéologiques ou d'un simple pragmatisme, elle est parfois le résultat d'institutions élues faibles ou transitoires."
  paternal_autocrat_subtype_desc: "L'Autocratie paternaliste est davantage un état d'esprit qu'une idéologie, et les gouvernements autocratiques paternels rejettent parfois explicitement la partisanerie idéologique. Le gouvernement autocratique paternel fait souvent appel à un chef fort et sage, tel qu'un roi, un général ou un ecclésiastique, pour protéger et guider le peuple, mais sa nature dominatrice n'a pas empêché ses adeptes d'exercer une influence sur les masses."
  national_populist_subtype_desc: "Le National-Populisme est le produit de la confluence de mouvements ultranationalistes de droite nés dans un monde en mutation et décrit des gouvernements qui cherchent à exploiter l'énergie du peuple à des fins souvent radicales. Souvent méprisants à l'égard de la démocratie traditionnelle et s'appuyant sur la désaffection des masses à l'égard de l'establishment, beaucoup se tournent vers des inspirations éclectiques pour résoudre des problèmes de premier plan."

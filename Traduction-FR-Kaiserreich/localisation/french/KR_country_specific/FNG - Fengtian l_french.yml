@@ -83,7 +83,7 @@ FNG_Principled_Executive: "Exécutif de principe"
  FNG_Japanese_Economic_Union_2: "Union Économique Japonaise"
  FNG_Japanese_Economic_Union_3: "Union Économique Japonaise"
 FNG_Industrial_Soy_Shortage: "Pénurie de soie industrielle"
- FNG_support_ANQ_idea: "Soutien à la Clique d'Anqing"
+ FNG_support_ANQ_idea: "Soutien au Gouvernement d'Anqing"
  FNG_support_ANQ_idea_tt:0 "(§Y[ANQ.GetNameWithFlag]§!) $volunteer_limit_plus_two_tt$"
  FNG_support_SHD_idea:0 "Soutien à la clique de Shandong"
  FNG_support_SHD_idea_tt:9 "(§Y[SHD.GetNameWithFlag]§!) $volunteer_limit_plus_two_tt$"
@@ -119,7 +119,7 @@ FNG_Expel_the_Japanese_Bandits_desc: "Le temps est venu de chasser les intrus ja
 
  FNG_mantetsu_profits_modifier: "£pol_idea Profits de la Mantetsu"
  FNG_mantetsu_profits: "Profits de la Mantetsu"
- FNG_mantetsu_profits_desc:9 "La Compagnie Ferroviaire de Mandchourie du Sud, officieusement connue sous le nom de Mantetsu, est présente en Mandchourie depuis la fin de la guerre russo-japonaise. Aujourd'hui, ses activités s'étendent sur toute la largeur de la région et constituent le cœur de son économie industrielle en pleine croissance. La Mantetsu fournit plus de revenus bruts au Gouvernement japonais que le reste de son empire réuni.\n\n§YLes effets de cet esprit national vont augmenter proportionnellement à la popularité §mLibérale Économique§! du [FNG.GetFlag] [FNG.GetName]."
+ FNG_mantetsu_profits_desc:9 "La Compagnie Ferroviaire de Mandchourie du Sud, officieusement connue sous le nom de Mantetsu, est présente en Mandchourie depuis la fin de la guerre russo-japonaise. Aujourd'hui, ses activités s'étendent sur toute la largeur de la région et constituent le cœur de son économie industrielle en pleine croissance. La Mantetsu fournit plus de revenus bruts au Gouvernement japonais que le reste de son empire réuni.\n\n§YLes effets de cet esprit national vont augmenter proportionnellement à la popularité $market_liberal_coloured$ du [FNG.GetFlag] [FNG.GetName].§!"
  FNG_mantetsu_profits_effects: "$MODIFIER_LOCAL_RESOURCES_FACTOR$ : [?FNG.JAP_mantetsu_resource_gain|=%+]\n$MODIFIER_INDUSTRIAL_CAPACITY_FACTOR$ : [?FNG.JAP_mantetsu_factory_output|=%+]"
 
  FNG_mantetsu_level_very_high_tooltip: "Plus de §H50%§! de soutien à §HL'Association Concordia§!"
@@ -234,7 +234,7 @@ FNG_Demands_Mission: "Les exigences [From.GetAdjective]"
 FNG_Demands_Mission_tooltip: "Pas d'autres négociations en cours"
  FNG_End_Of_The_Conference: "Fin de la Conférence"
 
- FNG_Beijing_conference_enforcing_peace: "Paix de [FNG.GetLeader]"
+ FNG_Beijing_conference_enforcing_peace: "Pais de [FNG.GetLeader]"
  FNG_enforce_peace: "Contacter la Délégation de [FROM.GetLeader]"
  FNG_enforce_peace_desc: "[FNG.GetLeader] s'adressera personnellement aux représentants de [FROM.GetLeader] à la conférence, pour discuter de la fin des guerres en cours de [FROM.GetNameDef], qui sont contraires à l'esprit de la conférence."
 
@@ -357,7 +357,7 @@ FNG_Shanhaiguan_Infiltration: "Infiltration de Shanhaiguan"
  FNG_Shanhaiguan_Infiltration_desc: "Avec la frontière [QIE.GetAdjective]-Fengtienne montagneuse et fortement militarisée, même une attaque à Shanhaiguan sera difficile. Certains ont proposé de faciliter notre entrée en infiltrant des unités, qui se soulèveront une fois la guerre commencée, et d'attaquer les défenseurs [QIE.GetAdjective] par l'arrière."
  FNG_Escalate_the_Propaganda_War: "Intensifier la Guerre de Propagande"
  FNG_Escalate_the_Propaganda_War_desc: "Nous avons mené une guerre de propagande intermittente contre [QIE.GetNameDef] au cours des huit dernières années. Maintenant, nous devons élever la voix et étendre notre portée !"
-FNG_The_Grand_Marshals_Proclamation: "La Proclamation du Grand Maréchal"
+ FNG_The_Grand_Marshals_Proclamation: "La proclamation du Grand Maréchal"
  FNG_The_Grand_Marshals_Proclamation_desc: "Dans une grande proclamation, le Grand Maréchal va dénoncer l'illégitimité de [CHN.GetNameDef] et de son [GetBeijingGovernmentIdeology], et déclarer la fin d'une ère de reconstruction et de préparation. La nouvelle ère, guidée par les idéaux mis en avant par la révolution, sera celle de la reconquête et de la gloire nationale !"
 FNG_Begin_the_War_of_National_Reclamation: "Commencer la guerre de reconquête nationale"
  FNG_Begin_the_War_of_National_Reclamation_desc: "Le moment est venu, après tant de temps passé à construire notre force et à attendre notre heure, de déclarer le début de la guerre de la reconquête nationale ! Dix mille ans à la République ! Dix mille ans au Grand Maréchal ! En avant pour la Chine !"
@@ -497,7 +497,6 @@ FNG_leads_to_reclamation_war: "Commence la voie vers la §Rguerre§! avec §Y[60
  FNG_CHN_enemies_tooltip:9 "[CHN.GetNameDefCap] est en guerre contre 3 ennemis ou plus"
 
  FNG_impressed_prince: "§GLe Prince a été impressionné !§!\n"
- FNG_dongbei_tejian: "La division de chars §YDongbei Tejian§! va apparaître près de [745.GetCapitalVictoryPointName].\n"
 
  FNG_shanhaiguan_modifier_desc: "Nos infiltrés vont appliquer les effets suivants au §Y[608.Owner.GetName]§! de §YTangshan§!\nRenseignements aux ennemis : §R+200%§!\n$MODIFIERS_ARMY_DEFENCE_FACTOR$ : §R-80.0%§!\n"
 
@@ -520,13 +519,6 @@ FNG_Wuhan_looting_stopped: "§GL'Ordre§! sera restauré dans la province de Zhi
  FNG_unlock_showa_steel: "Déverrouille la société §YShōwa Steel§!."
 
  FNG_unlock_southern_companies: "Déverrouille les entreprises suivantes :\n- §Y$wusong_locomotive_works_FNG$§!\n- §Y$china_aviation_corporation_FNG$§!\n- §Y$academia_sinica_FNG$§!\n"
-
-FNG_second_army_spawn: "£manpower_texticon 3 unités de §YDivision de la deuxième armée§!  apparaîtront à Beijing.\n"
-FNG_cadet_corps_spawn: "£manpower_texticon 2 unités de §YCorps de cadets de Baoding§!  apparaîtront à Baoding.\n"
- FNG_independent_brigades_spawn_dezhou: "£manpower_texticon 2 §YBrigade Indépendante§! apparaissent à Dezhou.\n"
- FNG_independent_brigades_spawn_kaifeng: "£manpower_texticon 2 unités de §YBrigrade indépendante§! apparaîtront à Kaifeng.\n"
- FNG_independent_brigades_spawn_ruyang: "£manpower_texticon 2 unités de §YBrigrade indépendante§! apparaîtront à Ruyang.\n"
- FNG_independent_brigades_spawn_guanzhong: "£manpower_texticon 2 unités de §YBrigrade indépendante§! apparaîtront à Guanzhong.\n"
 
 FNG_one_time_cost: "(Il s'agit d'un coût unique)\n"
 FNG_japan_denies_provinces: "§RL'achèvement de ce travail pourrait avoir de graves conséquences sur les relations entre Fengtian et le Japon.§!\n"
@@ -616,13 +608,13 @@ FNG_ma_zhanshan_reinstated: "§YMa Zhanshan§! sera réintégré en tant que §Y
  FNG_collaborated_with_japan: "A collaboré avec le Japon"
 
 #ships (include decisions names, decision category use loc from focus)
- FNG_JAP_destroyers: "Commander des destroyers"
+ FNG_JAP_destroyers: "Commander des Destroyers"
  FNG_JAP_destroyers_tooltip: "Un escadron de quatre destroyers arrivera après avoir été construit."
-FNG_JAP_subs: "Commandé des Submarines"
+ FNG_JAP_subs: "Commander des Sous-Marins"
  FNG_JAP_subs_tooltip: "Un escadron de six sous-marins arrivera après avoir été construit."
-FNG_JAP_cruisers: "Commandé des Cruisers"
+ FNG_JAP_cruisers: "Commander des Croiseurs"
  FNG_JAP_cruisers_tooltip: "Deux croiseurs arriveront après avoir été construits."
-FNG_JAP_convoys: "Commandé des Convois"
+ FNG_JAP_convoys: "Commander des Convois"
 
 # Political Power Bonus Tooltips #
 BONUS_PP_20: "Bonus de pouvoir politique: §G+20§!\n"
@@ -668,7 +660,7 @@ FNG_radical_socialist_party: "Kuomintang"
  FNG_social_democrat_party_long:9 "Xianzhengdang (Parti Constitutionaliste)\n§LCertains partisans de Liang Qichao et du défunt Parti Progressiste se sont rendus à Shenyang, ne voulant pas supporter la restauration de la monarchie et s'accrochant au dernier vestige de Beiyang. Cette branche du parti reste largement inorganisée, même si la sympathie pour leurs réformes demeure.§!\n"
  FNG_social_liberal_party:9 "Républicains"
  FNG_social_liberal_party_long:9 "Républicains Indépendants\n§LLe gouvernement de Beiyang comprenait de nombreux indépendants politiques, une tradition maintenue dans l'assemblée de Fengtian. Peu d'entre eux osent s'élever contre le régime actuel, mais ceux qui le font rêvent clairement d'une république beaucoup plus démocratique.§!\n"
-FNG_market_liberal_party: "Association Concordia"
+ FNG_market_liberal_party: "Association de la Concorde"
  FNG_market_liberal_party_long:9 "Xiehehui (Association Concordia)\n§LGroupement de politiciens et de lobbyistes ayant tous les attributs d'un parti, l'Association Concordia représente les intérêts de Mantetsu, et parfois d'autres Zaibatsu japonais, à l'Assemblée. Leurs positions idéologiques réelles varient, certains utilisant les Japonais pour contrer le pouvoir de Zhang à leur propre profit, d'autres souscrivant aux principes pan-asiatiques.§!\n"
  FNG_social_conservative_party: "Clique des Communications"
  FNG_social_conservative_party_long:9 "Jiaotongxi (Clique des Communications)\n§LSeule faction politiquement cohérente à émerger de l'ancien gouvernement de Beiyang, la Clique des Communications est une collection de barons des chemins de fer et du télégraphe, principalement intéressés par leurs propres profits mais engagés dans une confrontation avec Mantetsu et l'Association Concordia au sujet de l'infrastructure du pays.§!\n"
@@ -752,7 +744,7 @@ FNG_Yamato_Hotel_Licenses: "Licences d'hôtel Yamato"
  FNG_Fengtian_Society_for_Light_Metals: "Société du Fengtian pour les Métaux Légers"
  FNG_Fengtian_Society_for_Light_Metals_desc: "On sait depuis de nombreuses années qu'il existe d'importants gisements de bauxite et d'alunite dans la province du Fengtian, mais les progrès récents des laboratoires parrainés par Mantetsu à Fushun et à Tokyo ont permis de produire de l'aluminium, grâce à un certain nombre de procédés électrochimiques."
 
-FNG_Yalu_and_Songhua_Hydroelectricity: "Hydroélectricité de Yalu et Songhua"
+ FNG_Yalu_and_Songhua_Hydroelectricity: "L'hydroélectricité de Yalu et Songhua"
  FNG_Yalu_and_Songhua_Hydroelectricity_desc: "Les abondants gisements de charbon de la Mandchourie constituent une excellente source d'énergie, mais les forts courants des rivières Yalu et Songhua pourraient fournir une énergie supplémentaire à un coût minime. Avec l'expertise japonaise, nous pourrions exploiter ces puissantes rivières pour alimenter plus de foyers et d'industries."
 
  FNG_Japanese_Coal_Gasification_Methods: "Méthodes Japonaises de Gazéification du Charbon"
@@ -1067,7 +1059,7 @@ FNG_Expand_the_Shenyang_Aerodrome_desc: "L'un des premiers centres d'aviation mi
  FNG_country_intro_header_3:0 "Briefing Politique"
  FNG_country_intro_content_3:0 "Le Fengtian a quatre factions politiques principales :\n\n1. La Ligue pour la Reconquête\n\nAssociation informelle de généraux, de gouverneurs, de bureaucrates et de politiciens déchus sans affiliation idéologique forte, dont la plupart se retrouvent au Fengtian parce qu'il n'y a pas d'autres endroits où ils pourraient détenir un semblant de pouvoir. Facilement soudoyés et tentés, ils servent souvent à promouvoir les intérêts de quiconque est prêt à payer, et par conséquent la "ligue" est très divisée malgré le contrôle d'une grande partie de l'Assemblée, manquant de la volonté politique d'agir de manière décisive.\n\n2. La Clique de Zhang\n\nComposée de loyalistes et de généraux, la Clique de Zhang n'a pas d'idéologie particulière, si ce n'est celle de promouvoir les pouvoirs politiques du Grand Maréchal. Tout en se réclamant de la démocratie, les partisans de Zhang ne sont pas attachés aux idéaux républicains et ne les promeuvent que pour leur utilité.\n\n3. La Clique des Communications\n\nSeule faction politiquement cohérente issue de l'ancien gouvernement de Beiyang, la Clique des Communications est un groupe de barons des chemins de fer et des télégraphes, essentiellement intéressés, mais qui s'opposent à la Mantetsu et à l'Association Concordia au sujet de l'infrastructure du pays.\n\n4. L'Association Concordia\n\nGroupement de politiciens et de lobbyistes ayant tous les attributs d'un parti, l'Association Concordia représente les intérêts de la Mantetsu, et parfois d'autres Zaibatsu japonaises, au sein de l'Assemblée. Leurs positions idéologiques varient, certains utilisant les Japonais pour contrer le pouvoir de Zhang à leur propre avantage, tandis que d'autres souscrivent aux principes pan-asiatiques."
 
- FNG_guide:9 "§MZhang Tente de Négocier / Le Compromis Fédéraliste§! (§aDémocrates Autoritaires§!)\n£white_dot Capturez et tenez Beijing lors de la guerre Zhili-Fengtian.\n£white_dot Une chaîne d'événements démarrera bientôt, dans laquelle vous pourrez choisir d'inviter les seigneurs de guerre non alignés sur le Kuomintang.\n£white_dot Si, à la fin de la conférence, vous avez au moins trois soutiens, les négociations seront couronnées de succès et vous mettrez sous tutelle toutes les provinces qui vous ont soutenu.\n£white_dot Vous pouvez obtenir le soutien de Song Qingling si le Kuomintang de Gauche a été vaincu lors d'une guerre, si vous acceptez ses demandes après l'avoir invitée et si vous ne reculez pas lorsque le Japon vous menace. Cela ne comptera pas comme l'un des trois soutiens requis.\n£white_dot Vous pouvez obtenir le soutien des Fédéralistes si Chen Jiongming est au pouvoir au Liangguang ou au Sichuan, si la conférence de Shenyang s'est tenue avec succès avant la guerre, si vous acceptez toutes les demandes des Fédéralistes et si vous ne reculez pas devant les menaces du Japon.\n\n§MMaîtres de Notre Propre Destin - La Conférence Échoue§! (§aDémocrates Autoritaires§!)\n£white_dot Capturez Beijing lors de la guerre Zhili-Fengtian.\n£white_dot Choisissez d'unifier la Chine par l'épée, ou bien faites échouer la Conférence d'Unification en ayant moins de 3 partisans à la fin.\n£white_dot Après la Question de la Présidence, faites en sorte que Zhang Zuolin survive à la tentative d'assassinat, ou bien faites en sorte qu'il meure et que Zhang Xueliang garde le contrôle.\n£white_dot Si le Japon n'a pas soutenu la tentative d'assassinat, vous pourrez rejoindre sa faction par le biais du Traité d'Amitié et de Coopération. Dans le cas contraire, il vous déclarera la guerre.\n\n§MLe Mal Nécessaire§! (§PAutocrates Paternalistes§!)\n£white_dot Capturez Beijing lors de la guerre Zhili-Fengtian.\n£white_dot Choisissez d'unifier la Chine par l'épée, ou bien faites échouer la Conférence d'Unification en ayant moins de 3 partisans à la fin.\n£white_dot Après la Question de la Présidence, faites assassiner Zhang Zuolin.\n£white_dot Dans l'évènement suivant, mettez Yang Yuting au pouvoir.\n£white_dot §RNOTE : Vous deviendrez un sujet du Japon.§!"
+ FNG_guide:9 "§MZhang Tente de Négocier / Le Compromis Fédéraliste§! ($authoritarian_democrat_coloured$)\n£white_dot Capturez et tenez Beijing lors de la guerre Zhili-Fengtian.\n£white_dot Une chaîne d'événements démarrera bientôt, dans laquelle vous pourrez choisir d'inviter les seigneurs de guerre non alignés sur le Kuomintang.\n£white_dot Si, à la fin de la conférence, vous avez au moins trois soutiens, les négociations seront couronnées de succès et vous mettrez sous tutelle toutes les provinces qui vous ont soutenu.\n£white_dot Vous pouvez obtenir le soutien de Song Qingling si le Kuomintang de Gauche a été vaincu lors d'une guerre, si vous acceptez ses demandes après l'avoir invitée et si vous ne reculez pas lorsque le Japon vous menace. Cela ne comptera pas comme l'un des trois soutiens requis.\n£white_dot Vous pouvez obtenir le soutien des Fédéralistes si Chen Jiongming est au pouvoir au Liangguang ou au Sichuan, si la conférence de Shenyang s'est tenue avec succès avant la guerre, si vous acceptez toutes les demandes des Fédéralistes et si vous ne reculez pas devant les menaces du Japon.\n\n§MMaîtres de Notre Propre Destin - La Conférence Échoue§! ($authoritarian_democrat_coloured$)\n£white_dot Capturez Beijing lors de la guerre Zhili-Fengtian.\n£white_dot Choisissez d'unifier la Chine par l'épée, ou bien faites échouer la Conférence d'Unification en ayant moins de 3 partisans à la fin.\n£white_dot Après la Question de la Présidence, faites en sorte que Zhang Zuolin survive à la tentative d'assassinat, ou bien faites en sorte qu'il meure et que Zhang Xueliang garde le contrôle.\n£white_dot Si le Japon n'a pas soutenu la tentative d'assassinat, vous pourrez rejoindre sa faction par le biais du Traité d'Amitié et de Coopération. Dans le cas contraire, il vous déclarera la guerre.\n\n§MLe Mal Nécessaire§! ($paternal_autocrat_coloured$)\n£white_dot Capturez Beijing lors de la guerre Zhili-Fengtian.\n£white_dot Choisissez d'unifier la Chine par l'épée, ou bien faites échouer la Conférence d'Unification en ayant moins de 3 partisans à la fin.\n£white_dot Après la Question de la Présidence, faites assassiner Zhang Zuolin.\n£white_dot Dans l'évènement suivant, mettez Yang Yuting au pouvoir.\n£white_dot §RNOTE : Vous deviendrez un sujet du Japon.§!"
 
 ### New Fengtian Events ###
  fengtian.1.t: "Des Rumeurs Incitent à la Révolte Régionaliste"
@@ -1079,7 +1071,7 @@ FNG_Expand_the_Shenyang_Aerodrome_desc: "L'un des premiers centres d'aviation mi
  fengtian.3.d2: "Les manifestants se sont à nouveau rassemblés dans plusieurs endroits bien en vue des villes du Nord-Est. Leur nombre n'était pas assez important pour poser de sérieux problèmes, mais cela n'a pas empêché la police de sévir, de patauger dans la masse avec des matraques et des crosses de fusils, et de disperser les manifestants en fuite dans les rues secondaires bondées. Furieux de cette violence, certains membres du "Parti Dongbei" ont déjà juré de revenir en plus grand nombre, mais on espère que cette réponse rapide et décisive dissuadera tous les membres du mouvement, sauf les plus durs, ce qui les rendra d'autant plus faciles à rassembler et à réduire au silence.\n\nPlus inquiétant encore, les membres des associations professionnelles locales, des chambres de commerce et des assemblées municipales parlent d'un boycott fiscal. Contrairement à certains des jeunes étudiants, ces hommes plus âgés se souviennent des temps difficiles de la fin de la dernière décennie, lorsque les dépenses de guerre ont dépassé l'économie du Nord-Est et l'ont envoyée en chute libre."
  fengtian.3.d3: "Malgré les efforts de la police, les protestations régionalistes se sont poursuivies sporadiquement dans le Nord-Est, et ont été renforcées par le soutien des chambres de commerce locales, des bureaux de change et d'autres institutions commerciales préoccupées par les coûts économiques d'une guerre dans le Sud. Bien que cela semble être une attitude actuelle, on ne sait pas si ces groupes saperont l'effort de guerre lorsque le moment décisif arrivera, et bien que les protestations publiques n'aient pas encore tourné à la violence, ce n'est peut-être qu'une question de temps. Le plus tôt on s'attaquera à ce problème, le mieux ce sera."
  fengtian.3.d4: "Les nouvelles de la poursuite des conflits au sud ont donné un nouvel élan au mouvement régionaliste. Les tentatives de répression ont été continuellement entravées par le refus de certains bureaucrates, chefs de police et autres fonctionnaires sympathiques de s'acquitter pleinement de leurs fonctions. Il ne fait aucun doute qu'un effort complet devra être fait pour éradiquer ces éléments frustrants et rétablir l'ordre. Au fur et à mesure que le mécontentement du public se poursuit, la légitimité et la force de notre gouvernement sont progressivement sapées."
-fengtian.3.a: "Malheureux"
+ fengtian.3.a: "C'est malheureux."
 
 fengtian.4.t: "Les agents provocateurs en action"
  fengtian.4.d: "Comme prévu, nos agents bien placés ont réussi à pousser certains membres du mouvement régionaliste vers la violence. Des manifestations de plus en plus violentes ont déjà causé des dommages aux biens publics, et les réactions ont été négatives. Ce n'est peut-être qu'une question de temps avant que nous ayons la justification dont nous avons besoin."
@@ -1091,7 +1083,7 @@ fengtian.5.a: "Bon... et mauvais."
 
  fengtian.6.t: "Les Arrestations Massives Commencent"
  fengtian.6.d: "Avec la justification appropriée maintenant en place, nos policiers consciencieux, avec le soutien de la milice locale et de l'Armée du Fengtian, ont commencé à rassembler des manifestants présumés. La majorité d'entre eux seront finalement renvoyés chez eux, mais pas nécessairement en un seul morceau. L'espoir principal est que leur emprisonnement servira de message aux autres manifestants, et à tous les sympathisants, que le gouvernement ne tolérera plus leur subversion."
-fengtian.6.a: "Bon débarras"
+ fengtian.6.a: "Bon débarras !"
 
  fengtian.7.t: "Une Offre de la Kempeitai"
  fengtian.7.d: "La Kempeitai, la police extrajudiciaire de l'Armée japonaise, a pris note de notre problème régionaliste et propose une solution partielle. Grâce à un large réseau d'informateurs, ils prétendent disposer d'informations sur un certain nombre de chiffres qui sous-tendent le mouvement régionaliste - informations qu'ils ont volontairement fournies. En réponse, nous devons fournir des renseignements sur plusieurs agitateurs et insurgés anti-japonais qui leur ont jusqu'à présent échappé, notamment en raison de notre propre ingérence. Jusqu'à présent, il nous a été commode de rester en contact avec ces nationalistes, dans l'attente d'affaires où nous devons repousser l'influence japonaise.\n\nS'agit-il d'une de ces affaires ? Ou devrions-nous accepter le marché et offrir ces personnes sur un plateau d'argent ?"
@@ -1105,8 +1097,8 @@ fengtian.8.a: "Progrès."
 #The Fate of Mantetsu Schooling
 fengtian.9.t: "Reprendre le flambeau de l'éducation"
  fengtian.9.d: "Notre élimination ciblée des enseignants et autres intellectuels du "Parti Dongbei" régionaliste a conduit, comme on pouvait s'y attendre, à un chaos éducatif et à des interruptions majeures de la recherche, mais le personnel du consulat japonais a proposé une solution possible. La Mantetsu a longtemps maintenu une série d'écoles privées destinées à l'origine aux fils et aux filles des employés, ainsi qu'aux immigrants japonais, qui se targuent de fournir une éducation comparable, voire supérieure, à celle offerte dans les îles d'origine. À notre demande, le gouvernement japonais pourrait faire pression sur la Mantetsu pour qu'il ouvre ces écoles au public et fournisse du personnel pour combler les pénuries temporaires.\n\nUne fois que nous aurons ouvert la porte à ce genre d'activité, il sera très difficile de la fermer, et ces écoles seront presque certainement utilisées pour diffuser la culture et les normes japonaises. Nous devrions y réfléchir attentivement."
-fengtian.9.a: "Déclinez l'offre."
-fengtian.9.b: "Accepter l'offre."
+ fengtian.9.a: "Décliner l'offre"
+ fengtian.9.b: "Accepter l'offre"
 
  fengtian.10.t: "Le Scandale du Kimono"
  fengtian.10.d: "Scandale ! La plus jeune fille du Grand Maréchal a été photographiée portant un kimono japonais lors d'une séance de photos à la 'Hokutou Kokuritsudaigaku', ou 'Académie Nationale du Nord-Est', dirigée par la Mantestsu. Malgré le risque d'arrestation, la nouvelle de la photo s'est déjà largement répandue, ainsi que quelques copies de l'image elle-même, bien que les agences de presse locales et nationales sachent mieux que quiconque qu'il ne faut pas imprimer cette diffamation. Certains agents des services de renseignements militaires spéculent que l'image a été prise et diffusée intentionnellement par les Japonais pour punir le gouvernement de ses récentes actions, mais aucune preuve n'est apparue à l'appui de cette hypothèse.\n\nIl ne fait cependant aucun doute que nos ennemis utiliseront cette occasion pour diffuser leur propagande infâme."
@@ -1115,7 +1107,7 @@ fengtian.10.a: "Quel embarras !"
 
  fengtian.11.t: "Des Élèves Rejoignent la Ligue de la Jeunesse"
  fengtian.11.d: "Dans un incident embarrassant et profondément préjudiciable, une bande d'écoliers chinois de Changchun a récemment annoncé son intention de rejoindre la Ligue de la Jeunesse du Fengtian, qui promeut activement les intérêts japonais dans notre pays. Il est évident que leurs jeunes esprits sont facilement impressionnables, mais leur parade dans les rues de leur ville natale, en agitant des drapeaux japonais, en a dégoûté plus d'un et a suscité une inimitié totale envers le gouvernement. Les parents pleurent, se demandant comment leurs enfants ont pu être aussi pervertis, et exigent une alternative à ces dangereuses écoles gérées par les Japonais."
-fengtian.11.a: "C'est un scandale !"
+ fengtian.11.a: "C'est un outrage !"
 fengtian.11.b: "Fermez les écoles !"
 
  fengtian.12.t: "Des Uniformes Chinois pour les Élèves Chinois"
@@ -1127,17 +1119,17 @@ fengtian.11.b: "Fermez les écoles !"
  fengtian.13.d: "Les infrastructures du nord-est de la Chine sont souvent considérées comme supérieures à celles du reste du pays, mais même ainsi, elles répondent rarement aux normes occidentales. Malgré toute leur modernité, les chemins de fer de Mantetsu ne parviennent pas à couvrir entièrement une région de la taille de la France et de l'Allemagne réunies. Des lignes ferroviaires provinciales plus petites, ainsi qu'un réseau d'autoroutes qui s'entrecroisent, ont été construites au cours des dernières décennies pour tenter de résoudre ce problème, mais elles sont rares et éloignées les unes des autres, sans compter qu'elles sont souvent mal entretenues. Si nous voulons stimuler le développement économique et mieux soutenir nos armées sur le terrain, nous devons développer davantage ces réseaux et assurer leur entretien. Liaoning, le cœur de nos opérations, est un bon point de départ, et un ensemble de petites entreprises chinoises sont déjà impatientes de commencer à travailler.\n\nCes entreprises, en l'absence de Mantetsu et d'ingénieurs japonais, feront beaucoup pour démontrer la force et l'indépendance de la Chine."
  fengtian.13.d_jap: "Les infrastructures du nord-est de la Chine sont souvent considérées comme supérieures à celles du reste du pays, mais même ainsi, elles répondent rarement aux normes occidentales. Malgré toute leur modernité, les chemins de fer de Mantetsu ne parviennent pas à couvrir entièrement une région de la taille de la France et de l'Allemagne réunies. Des lignes ferroviaires provinciales plus petites, ainsi qu'un réseau d'autoroutes qui s'entrecroisent, ont été construites au cours des dernières décennies pour tenter de résoudre ce problème, mais elles sont rares et éloignées les unes des autres, sans compter qu'elles sont souvent mal entretenues. Si nous voulons stimuler le développement économique et mieux soutenir nos armées sur le terrain, nous devons développer davantage ces réseaux et assurer leur entretien. Liaoning, le cœur de nos opérations, est un bon endroit pour commencer, et déjà Mantetsu et un ensemble de petites sociétés chinoises se disputent le contrat ouvert.\n\nLes Japonais affirment, peut-être à juste titre, qu'ils pourraient effectuer le travail en deux fois moins de temps grâce à leurs ressources et à leur expertise, mais le choix d'une société chinoise serait une grande preuve de la force et de l'indépendance de la Chine."
 fengtian.13.a: "Choisissez une compagnie chinoise."
-fengtian.13.b: "Choisissez Mantetsu."
+ fengtian.13.b: "Choisissez la Mantetsu."
 
  fengtian.14.t: "Achèvement du développement des infrastructures dans le Liaoning"
  fengtian.14.d: "Après des mois de construction et divers retards malheureux, les aménagements d'infrastructure prévus dans le Liaoning sont enfin terminés. Après avoir examiné les plans et les ressources disponibles, la CNT mettra sans doute un autre contrat à disposition prochainement."
-fengtian.14.a: "Bonnes nouvelles !"
+ fengtian.14.a: "Excellentes nouvelles !"
 
  fengtian.15.t: "Développement des infrastructures à Liaobei et Jilin"
  fengtian.15.d: "Contrairement à ce qui se passe dans le Liaoning, les infrastructures locales existantes dans le Liaobei et le Jilin sont plutôt rares, en particulier dans les contreforts des chaînes de montagnes du Grand Khingan et de Changbai. La CTN a élaboré un plan élaboré d'inspiration japonaise visant à relier les centres de Jilin City et de Changchun à des communautés autrement isolées, les routes s'étendant vers l'extérieur presque comme les rayons d'une roue. Le plan est si vaste qu'il est impossible de le réaliser dans un délai raisonnable. Nous n'en réaliserons donc que les premières étapes pour l'instant."
  fengtian.15.d_jap: "Contrairement à ce qui se passe dans le Liaoning, les infrastructures locales existantes dans le Liaobei et le Jilin sont plutôt rares, en particulier dans les contreforts des chaînes de montagnes du Grand Khingan et de Changbai. La CTN a élaboré un plan élaboré d'inspiration japonaise visant à relier les centres de Jilin City et de Changchun à des communautés autrement isolées, les routes s'étendant vers l'extérieur presque comme les rayons d'une roue. Le plan est si vaste qu'il est en grande partie impossible à réaliser dans un délai raisonnable. Certains ont suggéré qu'il s'agit d'un plan astucieux des Japonais pour susciter une plus grande confiance, car Mantetsu pourrait probablement mener à bien un projet aussi tentaculaire là où nos propres entreprises chinoises n'y parviendraient pas. Néanmoins, nous avons décidé de diviser le travail en plusieurs étapes, en ne prévoyant que le développement initial pour le moment.\n\nComme par le passé, Mantetsu propose de réaliser les travaux de construction dans les meilleurs délais, mais les entreprises chinoises se tiennent prêtes à effectuer la même tâche."
-fengtian.15.a: "Choisissez une entreprise chinoise"
-fengtian.15.b: "Choisissez Mantetsu."
+ fengtian.15.a: "Choisissez une compagnie chinoise."
+ fengtian.15.b: "Choisissez la Mantetsu."
 
  fengtian.16.t: "Achèvement du développement des infrastructures à Liaobei et Jilin"
  fengtian.16.d: "Notre plan de développement des infrastructures pour Liaobei et Jilin est terminé, du moins dans la mesure où il doit l'être pour nos objectifs actuels. Vraiment, le Nord-Est s'achemine vers un avenir plus radieux."
@@ -1147,7 +1139,7 @@ fengtian.15.b: "Choisissez Mantetsu."
  fengtian.17.d: "Bien qu'ils soient beaucoup plus calmes que les régions sauvages du Heilongjiang ou de la steppe du Hailar, le Nenjiang et le Songjiang sont parmi les régions les moins développées de Mandchourie. La majeure partie de notre travail consistera à transformer d'anciens sentiers pédestres, qui serpentent à travers les collines et entre les montagnes, en chemins de fer modernes à voie étroite ou en autoroutes robustes. Par nécessité, la plupart de nos travaux seront liés au "Chemin de Fer Oriental Chinois", construit à l'origine par les Russes dans le cadre du Transsibérien, mais aujourd'hui fortement influencé par les Japonais."
  fengtian.17.d_jap:9 "Bien qu'ils soient beaucoup plus calmes que les régions sauvages du Heilongjiang ou de la steppe du Hailar, le Nenjiang et le Songjiang sont parmi les régions les moins développées de Mandchourie. La majeure partie de notre travail consistera à transformer d'anciens sentiers pédestres, qui serpentent à travers les collines et entre les montagnes, en chemins de fer modernes à voie étroite ou en autoroutes robustes. Par nécessité, la plupart de nos travaux seront liés au "Chemin de Fer Oriental Chinois", construit à l'origine par les Russes dans le cadre du Transsibérien, mais aujourd'hui fortement influencé par les Japonais.\n\n Comme on pouvait s'y attendre, Mantetsu propose de réaliser les travaux de construction, mais il existe aussi des entreprises chinoises parfaitement viables."
 fengtian.17.a: "Choisissez une compagnie chinoise."
-fengtian.17.b: "Choisissez Mantetsu."
+ fengtian.17.b: "Choisissez la Mantetsu."
 
  fengtian.18.t: "Achèvement du développement des infrastructures à Nenjiang et Songjiang"
  fengtian.18.d: "Malgré les défis auxquels nos travailleurs ont été confrontés, les travaux sont terminés sur les infrastructures nouvellement développées à Nenjiang et Songjiang. Bien que le développement plus au nord ait été envisagé, la CNT estime que cela dépasse la portée de son mandat actuel, du moins pour l'instant."
@@ -1155,7 +1147,7 @@ fengtian.18.a: "Wansui !"
 
 fengtian.19.t: "Grève des ouvriers de la construction ferroviaire !"
 fengtian.19.d: "Les travailleurs chinois, se plaignant de salaires insuffisants et de conditions de travail difficiles, ont refusé de reprendre le travail dans le cadre d'une grève soigneusement coordonnée. Malgré la présence des syndicats des chemins de fer dans le Nord-Est, leur coordination dans ce cas suggère l'implication de la Clique des communications, peut-être dans le cadre d'une tentative de démontrer leur influence ou de riposter à une apparence de légèreté.\nBien que cette tournure des événements les affecte également, les Japonais sont heureux de nous voir nous chamailler entre nous. La grève prendra fin, mais pas sans causer des retards importants"
-fengtian.19.a: "Malheureux."
+ fengtian.19.a: "C'est Regrettable."
 
  fengtian.20.t: "Les retards affectent la construction d'infrastructures"
 fengtian.20.d: "La nature de la situation était assez claire dès l'apparition des premiers signes ; des cargaisons manquaient de manière inexplicable, les rails étaient posés juste assez à un angle incorrect pour nécessiter une reconstruction complète, et des inspections soudaines de la main-d'œuvre par des agents japonais censés rechercher des "criminels dangereux" ; inspections qui ont inévitablement nécessité la suspension des travaux.\n\nCes mêmes tactiques ont été employées par les Japonais dans les années 1920 contre les projets ferroviaires de la Clique Fengtian, en essayant de ralentir et de discréditer la construction chinoise afin de limiter la concurrence à Mantetsu, et maintenant ils semblent retarder nos efforts une fois de plus. Malheureusement, nous ne pouvons pas faire grand-chose"
@@ -1180,7 +1172,7 @@ fengtian.23.a: "Enfin !"
 
 fengtian.24.t: "Wu Jinglian critique le Japon"
 fengtian.24.d: "Citant la récente expansion de la garnison militaire japonaise à Shenyang, Wu Jinglian a lancé une critique cinglante du Japon et de sa politique étrangère depuis l'Assemblée. Bien que d'autres politiciens aient été connus pour dénigrer les Japonais dans le passé, le poste de ministre des affaires étrangères donne aux paroles de Wu une signification différente, et les élève au-dessus des limites de l'Assemblée.\nNous n'avons pas perdu de temps, le consul général du Japon a déjà exigé que nous démissions le ministre Wu de ses fonctions."
-fengtian.24.a: "Oh mon Dieu."
+ fengtian.24.a: "Oh là là."
 fengtian.24.b: "Le Japon est notre allié fraternel..."
 
  fengtian.25.t: "Mantetsu proteste contre la construction d'un chemin de fer"
@@ -1207,7 +1199,7 @@ fengtian.29.t: "Wu Jinglian négocie de nouvelles conditions commerciales"
 
  fengtian.30.t: "Mantetsu lève les restrictions sur les chemins de fer"
  fengtian.30.d: "Après mûre réflexion, et en dépit de nos relations parfois tendues, le conseil d'administration de Mantetsu a décidé de mettre de côté les restrictions habituellement imposées à nos mouvements stratégiques. Il s'agit sans aucun doute d'un compromis fait en considération de notre nouvelle entrée en guerre. Mantetsu réimposera probablement ces restrictions lorsque la paix sera revenue."
- fengtian.30.a:0 "Enfin !"
+ fengtian.30.a:0 "Enfin!"
 
  fengtian.31.t: "Mantetsu réimpose des restrictions sur les chemins de fer"
  fengtian.31.d: "Compte tenu de la fin de notre guerre récente, le conseil d'administration de Mantetsu a décidé de réimposer ses restrictions sur nos mouvements stratégiques en Mandchourie."
@@ -1215,12 +1207,12 @@ fengtian.29.t: "Wu Jinglian négocie de nouvelles conditions commerciales"
 
 fengtian.32.t: "Une nouvelle entreprise automobile"
  fengtian.32.d: "Grâce à la production régulière du camion Minsheng par l'Arsenal de Shenyang et à nos efforts pour encourager la coopération sino-japonaise, un groupe d'oligarques de la Clique des Communications s'est associé à la société Jidosha-Seizo, filiale de la Nihon Sangyo Zaibatsu, pour financer la création d'une nouvelle usine automobile, dans la province de Fengtian. Déjà, un groupe de jeunes ingénieurs, pour la plupart formés au Japon, étudient les perspectives de modèles plus modernes, inspirés de Minsheng et orientés vers le consommateur"
-fengtian.32.a: "Bonnes nouvelles !"
+ fengtian.32.a: "Bonne nouvelle !"
  fengtian.32.b: "L'implication des Japonais est inacceptable."
 
 fengtian.33.t: "Mettre fin à la pénurie d'investissements"
 fengtian.33.d: "Après une dizaine d'années d'investissements externes ou internes limités, au-delà de ceux du gouvernement, Fengtian est devenu un lieu fiable et digne de confiance pour une croissance prospère. En allant de mieux en mieux, et avec les feux de l'industrie derrière nous, nos perspectives de reprendre le pays s'améliorent de jour en jour. Alors que nous commençons d'autres projets de développement, nous devrions commencer à voir nos efforts d'investissement ouvrir des opportunités connexes."
-fengtian.33.a: "Enfin !"
+ fengtian.33.a: "Enfin!"
 
  #Post-Beijing Chaos Events
  fengtian.34.t:9 "Lances Rouges à Dezhou !"
@@ -1253,7 +1245,7 @@ fengtian.43.b: "Le Japon est tout seul."
 
  fengtian.44.t:9 "La nourriture part pour la Corée"
 fengtian.44.d: "La proposition du Japon ayant été acceptée, des provisions partent de Yingkou pour Incheon et d'autres ports de Corée, ainsi que le long des lignes Anfeng et Gyeongui vers Pyongyang. Bien que la famine ne soit pas encore arrivée, il est difficile de présenter les cargaisons quittant les côtes chinoises comme autre chose qu'un acte de soumission aux Japonais"
-fengtian.44.a: "Nous endurerons."
+ fengtian.44.a: "Nous supporterons."
 
  fengtian.45.t: "La proposition relative au soja industriel"
  fengtian.45.d: "L'augmentation de nos exportations de denrées alimentaires, afin de contrer la sécheresse à laquelle sont actuellement confrontées les îles d'origine et la Corée, a entraîné une baisse des provisions dans tout le Fengtian et un mécontentement considérable de la population. Certains ministres du gouvernement ont proposé de réduire la production de soja industriel, ce qui permettrait de fournir suffisamment de nourriture mais handicaperait notre industrie civile et certaines exportations jusqu'à ce que la crise soit résolue."
@@ -1262,12 +1254,12 @@ fengtian.45.b: "Nous ne pouvons pas nous permettre cela."
 
 fengtian.46.t: "La sécheresse s'achève"
  fengtian.46.d: "Après des mois de difficultés, la sécheresse en Corée et au Japon a pris fin. Nous ne sommes plus censés apporter une quelconque aide au Japon ou à la Corée."
-fengtian.46.a: "Enfin !"
+ fengtian.46.a: "Enfin!"
 
 #Hokkaido Farming
 fengtian.47.t: "Une proposition de Mantetsu"
  fengtian.47.d: "Un représentant de l'aile de recherche de Mantetsu a présenté une proposition dont il assure que l'acceptation est dans notre intérêt, mais dont il insiste pour qu'elle reste totalement secrète. Apparemment, à la suite de la sécheresse de 1939, Mantetsu a réuni des experts agricoles, des hauts fonctionnaires d'organisations agricoles et des universitaires dans le but d'améliorer l'efficacité et la production agricoles dans le Nord-Est. Après des mois de tests, une des équipes de recherche a créé une solution basée sur les méthodes agricoles utilisées à Hokkaido, qui pourrait permettre à une famille chinoise moyenne de cultiver dix hectares entiers de terre sans avoir besoin d'embaucher des travailleurs saisonniers, améliorant ainsi la production et libérant de la main-d'œuvre pour les usines d'Anshan, de Fushun et de Shenyang. Le responsable de Mantetsu indique que ces méthodes devraient être diffusées par le biais de brochures d'information et d'instructeurs chinois, eux-mêmes formés par des experts japonais, et il semble souligner l'idée que ce projet devrait être dissocié de toutes les manières possibles du chemin de fer de Mandchourie du Sud.\n\nAprès quelques investigations, la section des renseignements de l'armée a déterminé que l'armée du Kwantung a refusé de soutenir les efforts de Mantetsu, suggérant que les deux factions pourraient être en concurrence, ou que cela fait simplement partie d'une ruse japonaise élaborée. Les fonctionnaires relativement libéraux de l'aile de recherche de Mantetsu et d'autres bureaux bureaucratiques sont connus pour s'opposer à l'armée conservatrice de l'Armée du Kwantung."
-fengtian.47.a: "Accepter la proposition."
+ fengtian.47.a: "Acceptez la proposition"
 fengtian.47.b: "Refuser la proposition."
 
 fengtian.48.t: "L'agriculture d'Hokkaido porte ses fruits"
@@ -1285,7 +1277,7 @@ fengtian.50.b: "Nos actions étaient légitimes !"
 
  fengtian.51.t:9 "L'Opinion Publique Change en Notre Faveur"
  fengtian.51.d: "Contre toute attente, la défense du projet agricole d'Hokkaido par le Grand Maréchal Zhang semble avoir convaincu tous les intéressés. L'impact a été atténué, et le programme peut se poursuivre sans interruption."
-fengtian.51.a: "Merveilleuses nouvelles !"
+ fengtian.51.a: "Merveilleuses nouvelles!"
 
 fengtian.52.t: "Le public est furieux !"
  fengtian.52.d: "Malgré les efforts de notre bureaucrate, et même ceux du Grand Maréchal Zhang, de nombreuses personnalités de l'armée ne sont toujours pas convaincues que le projet agricole d'Hokkaido en vaut la peine. En conséquence, le programme sera presque certainement interrompu, et notre gouvernement divisé est confronté à un autre point de discorde."
@@ -1355,7 +1347,7 @@ fengtian.63.a: "Excellent."
 fengtian.64.d: "À la lumière des récents développements au Japon, les responsables de l'aile de recherche de Mantetsu ont commencé à collaborer avec les nôtres, en fournissant de nouveaux outils et de meilleures pratiques afin que nous puissions plus rapidement atteindre le même niveau d'avancement."
 fengtian.64.a: "Excellent"
 
- fengtian.65.t: "Mantetsu Chōsabu Collaboration à la production"
+ fengtian.65.t: "Mantetsu Chōsabu Collaboration de production"
 fengtian.65.d: "À la lumière des récents développements technologiques du Japon, les scientifiques de l'aile de recherche de Mantetsu ont commencé à collaborer avec les nôtres, fournissant de nouvelles machines et pratiques de fabrication afin que nous puissions plus rapidement atteindre le même niveau d'avancement."
 fengtian.65.a: "Excellent."
 
@@ -1391,7 +1383,7 @@ fengtian.71.e: "Nous devons faire le ménage !"
 
 fengtian.72.t: "Découverte de preuves bancaires !"
  fengtian.72.d: "Après une enquête approfondie impliquant d'innombrables pots-de-vin et menaces, les enquêteurs de Mantetsu ont conclu que notre gouvernement a intentionnellement trompé son peuple, et est entièrement responsable du récent désastre financier. Nous ne sommes pas en mesure de refuser leurs appels à l'arrestation de plusieurs ministres impliqués, mais comme par hasard le Grand Maréchal et ses plus proches conseillers ont été épargnés d'un blâme direct, et le directeur de Mantetsu, Matsuoka Yōsuke, a suggéré qu'en échange de faveurs politiques, toute l'affaire pourrait être mise de côté indéfiniment."
-fengtian.72.a: "Acceptez l'offre."
+ fengtian.72.a: "Accepter l'offre"
 fengtian.72.b: "Refuser l'offre."
 
 fengtian.73.t: "Le Japon accepte le renflouement"
@@ -1405,7 +1397,7 @@ fengtian.74.b: "Peut-être que le ministre Ruan peut arranger les choses."
 
 fengtian.75.t: "L'état du corps des officiers"
  fengtian.75.d: "Le corps des officiers de Fengtian est un mélange inhabituel de jeunes Chinois éduqués soit au Rikugun Shikan Gakkō au Japon, soit à la Salle de Conférence de l'Armée du Nord-Est, soir à l'Académie Militaire de Baoding, de Chinois plus âgés qui ont servi dans les guerres civiles, et d'officiers japonais faisant partie de la Mission militaire au Fengtian, tous unis par des loyautés communes envers les individus plus que par un dévouement particulier envers l'État. Les officiers japonais en particulier sont connus pour apprécier toute station du Nord-Est, la monnaie dévaluée leur permettant de vivre une vie relativement luxueuse, et d'engager des domestiques pour la plupart des tâches subalternes, ce qui leur vaut l'inimitié non seulement de leurs camarades mais aussi de la population locale.\n\nMaintenant, avec la fondation de l'Académie nationale de Shenyang, ces officiers ont saisi l'occasion pour se moquer des locaux actuels de l'académie, qui sont vieux de plusieurs décennies et en mauvais état. Alors qu'un bâtiment moderne plus récent s'élève à proximité, l'état pitoyable de l'académie laisse actuellement le gouvernement ouvert à la critique"
-fengtian.75.a: "Malheureux"
+ fengtian.75.a: "C'est Regrettable."
 
 fengtian.76.t: "Expulser les officiers japonais"
 fengtian.76.d: "Le Japon a maintenu une mission militaire en Fengtian depuis la fondation du gouvernement Fengtian en 1926, qui a été précédée par plus d'une décennie d'opérations japonaises informelles en soutien à la Clique Fengtian de Zhang Zuolin. La mission a servi à aider de nombreux aspects du développement de l'armée, principalement par la fourniture d'armes et d'équipements, mais aussi par l'aide à la formation et à la planification. Heureusement, la pénurie d'officiers au lendemain des guerres civiles a permis au Japon d'attacher des officiers japonais à des postes de commandement sur le terrain, et même de diriger nos unités de façon indépendante. Cela a eu un effet négatif sur le moral de nos hommes, rendant l'influence du Japon bien trop évidente, alors même que la Mission militaire tente, et réussit souvent, à influencer nos affaires de gouvernement. Pour que nos soldats et le peuple chinois aient un quelconque respect pour notre gouvernement, la Mission militaire japonaise doit partir"
@@ -1426,12 +1418,12 @@ fengtian.78.a: "Nous n'avons pas d'autre choix que de nous soumettre."
 
 fengtian.79.t: "Wu Wang Zai Ju"
 fengtian.79.d: "Le Grand Maréchal Zhang Zuolin a prononcé un discours court mais puissant faisant allusion à l'État historique de Qi qui, au bord de la défaite lors du siège de Ju, a renversé la vapeur et a finalement gagné la guerre. Ce sera notre exemple alors que nous avançons contre ceux qui voudraient maintenir la Chine faible et divisée"
-fengtian.79.a: "Lire le texte du discours."
+ fengtian.79.a: "Lisez le texte du discours."
  fengtian.79.b: "La Reconquête du Sud est inévitable !"
 
 fengtian.80.t: "Reprendre la Mongolie intérieure"
  fengtian.80.d: "Le temps est venu de rendre la Mongolie intérieure à la sphère chinoise et, une fois de plus, de soumettre cette région frontalière en plein essor. Nous devons poursuivre la guerre avec autant de précipitation que possible"
-fengtian.80.a: "En avant !"
+ fengtian.80.a: "Avanti popolo !"
 
 fengtian.81.t: "Victoire en Mongolie intérieure"
 fengtian.81.d: "Après nous être emparés de la Mongolie intérieure et l'avoir tenue à l'abri des contre-attaques ennemies, nous avons réussi à conclure une paix et à atteindre nos objectifs. C'est un petit pas dans la lutte pour reconquérir toute la Chine"
@@ -1450,16 +1442,16 @@ fengtian.82.b: "Nous n'aurons rien à faire avec ça."
 
 fengtian.83.t: "Cigarettes du dragon d'or"
 fengtian.83.d: "Les préparatifs nécessaires ont été effectués et la production va bientôt commencer. A en juger par un message télégraphique envoyé de Shanghai, Doihara a l'intention de nous informer de ses progrès dans le temps"
-fengtian.83.a: "Bien."
+ fengtian.83.a: "Bon."
 
 fengtian.84.t: "Retards dans les plans de Doihara"
 fengtian.84.d: "Les communications de Doihara ont été peu fréquentes, éparses et souvent évasives, jusqu'à ce qu'il suggère plus récemment une rencontre dans l'ancien hôtel Astor House à Shanghai. Doihara a présenté ses excuses pour le retard de son programme lors d'un repas très coûteux dans la salle à manger élaborée, et a semblé réellement frustré, mais après son retour, notre agent a pris soin de souligner que les progrès sont toujours en cours et que l'argent sera bientôt versé. D'autres agents de renseignement dans les villes des légations et dans d'autres régions de Chine racontent une histoire assez différente et suggèrent que l'opération est déjà rentable, la grande majorité de l'argent étant utilisée pour financer les autres activités subversives de Doihara. Les preuves semblent suggérer que notre représentant à Shanghai a été soudoyé, mais Doihara finira sûrement par cracher ce qu'il a promis..."
-fengtian.84.a: "Malheureux."
+ fengtian.84.a: "C'est Regrettable."
 fengtian.84.b: "Nous en avons assez."
 
 fengtian.85.t: "D'autres retards"
 fengtian.85.d: "Doihara a suggéré une autre rencontre, encore une fois après une longue période de communication limitée, mais cette fois dans une cachette isolée près de Xiamen dans la province de Fujian. Insistant sur le fait qu'il a eu des problèmes avec la Bande Verte, Doihara s'excuse une fois de plus pour les retards, mais insiste sur le fait que nous recevrons nos fonds dans les prochains mois. La plupart de nos agents chargés de surveiller les activités de Doihara ont mystérieusement disparu, donc son statut réel est difficile à déterminer."
-fengtian.85.a: "Malheureux."
+ fengtian.85.a: "C'est Regrettable."
 fengtian.85.b: "Nous en avons assez."
 
 fengtian.86.t: "Doihara a réussi"
@@ -1473,7 +1465,7 @@ fengtian.87.d: "Après une rapide série d'arrestations dans la juridiction [QIE
 
 fengtian.89.t: "Le destin de Doihara"
 fengtian.89.d: "Un de nos agents qui surveille les progrès de Doihara a transmis des nouvelles malheureuses. Il semble que, dans ses efforts pour obtenir des taux de transfert rentables à Shanghai, Doihara se soit fait des ennemis de la Triade de la Bande Verte. Son corps aurait été retrouvé à l'extérieur d'un bordel de ruelle aux côtés de ceux de plusieurs gardes du corps, identifiable uniquement grâce à son uniforme et aux témoignages de civils proches. Les agents de Kempeitai ont déjà commencé une enquête en partenariat avec la police municipale de Shanghai, mais à toutes fins utiles, l'initiative de Doihara peut être considérée comme morte dans l'eau."
-fengtian.89.a: "Ainsi soit-il."
+ fengtian.89.a: "Qu'il en soit ainsi"
 
 fengtian.90.t: "La dépendance à l'opium se répand dans [QIE.GetNameDef]"
 fengtian.90.d: "Malgré les efforts des responsables locaux et même [QIE.GetNameDef], la dépendance à l'opium s'est lentement répandue dans la population générale pour atteindre des niveaux rivalisant avec ceux des ères Tongzhi et Guangxu, affaiblissant le "gouvernement central" et ses armées. C'est tout à notre avantage, mais si nos efforts pour faire connaître cet état de fait au public ont un impact sur les relations publiques, il sera difficile de le contenir. Le commerce de l'opium a longtemps été considéré non seulement comme un mal, mais aussi comme un outil de l'impérialisme occidental"
@@ -1486,23 +1478,23 @@ fengtian.91.d_mantetsu: "Le Département de la Propagande redouble déjà d'effo
 
 fengtian.92.t: "Artillerie obsolète du Japon"
  fengtian.92.d: "En réponse à notre demande, l'armée impériale japonaise a autorisé une importante expédition d'artillerie obsolète qui n'a probablement pas été utilisée depuis la Weltkrieg. C'est décevant, voire totalement inutile"
-fengtian.92.a: "Bien."
+ fengtian.92.a: "Bon."
 
 fengtian.93.t: "L'artillerie la plus récente du Japon"
  fengtian.93.d: "En réponse à notre demande, l'armée impériale japonaise a autorisé un envoi important de sa dernière artillerie de l'arsenal de Kokura. Nos officiers ont déjà les yeux rivés sur les armes promises avec le genre d'excitation spéciale réservée exclusivement à l'acier usiné et aux explosifs puissants"
-fengtian.93.a: "Bien."
+ fengtian.93.a: "Bon."
 
 fengtian.94.t: "Fengtian demande de l'artillerie"
 fengtian.94.d1: "Le gouvernement de Fengtian a depuis longtemps un avantage sur ses rivaux chinois grâce à nos fréquentes aides matérielles. Dans ce cas particulier, on nous demande de l'artillerie. Nous pourrions envoyer ce que nous avons de mieux, ce qui devrait faire une différence significative dans un pays aussi arriéré, mais nous pourrions aussi fournir un plus grand nombre d'armes obsolètes bon marché à moindre coût pour nous-mêmes. Ou nous pourrions toujours n'envoyer rien du tout"
 fengtian.94.d2: "Le gouvernement de Fengtian a depuis longtemps un avantage sur ses rivaux chinois grâce à notre aide matérielle fréquente. Dans ce cas particulier, on nous demande de l'artillerie, qui est particulièrement prisée parmi les arsenaux des seigneurs de la guerre"
-fengtian.94.a: "Envoyez le matériel le plus récent"
+ fengtian.94.a: "Envoyez le dernier matériel"
 fengtian.94.b: "Envoyer du matériel obsolète"
 fengtian.94.c: "Ne rien envoyer"
 fengtian.94.d: "Nous ne pouvons pas nous le permettre"
 
 fengtian.95.t: "Le Japon livre du matériel obsolète"
  fengtian.95.d: "En réponse à notre demande, l'armée impériale japonaise a autorisé un envoi important de matériel d'infanterie obsolète. Certains de ces équipements semblent avoir été utilisés pour la dernière fois pendant la guerre russo-japonaise, ou même avant. C'est décevant"
-fengtian.95.a: "Ainsi soit-il."
+ fengtian.95.a: "Qu'il en soit ainsi"
 
 fengtian.96.t: "Le Japon fournit le dernier équipement"
  fengtian.96.d: "En réponse à notre demande, l'armée impériale japonaise a autorisé un envoi important de son dernier matériel d'infanterie."
@@ -1521,11 +1513,11 @@ fengtian.971.a: "Tant pis pour la fraternité panasiatique"
 
  fengtian.98.t: "Chars obsolètes du Japon"
  fengtian.98.d:0 "Bien que les Japonais aient refusé, comme on pouvait s'y attendre, de nous envoyer leur dernier équipement blindé, seuls les plus cyniques anticipaient l'arrivée des chars rouillés et cabossés de l'ère Weltkrieg qui sont actuellement déchargés à Yingkou. Bien qu'ils soient mieux que rien du tout, c'est nettement décevant"
- fengtian.98.a: "Ainsi soit-il."
+ fengtian.98.a: "Qu'il en soit ainsi"
 
  fengtian.99.t: "Chars en surplus du Japon"
  fengtian.99.d:0 "Bien que les Japonais aient refusé, comme on pouvait s'y attendre, de nous envoyer leur dernier équipement blindé, ils ont accepté d'envoyer un certain nombre de chars légers excédentaires d'un modèle plus ancien mais pas entièrement obsolète."
- fengtian.99.a: "Bien"
+ fengtian.99.a: "Bon."
 
 fengtian.100.t: "Fengtian demande des chars légers"
  fengtian.100.d1: "Le gouvernement de Fengtian a depuis longtemps un avantage sur ses rivaux chinois grâce à nos fréquentes aides matérielles. Dans ce cas particulier, on nous demande des chars légers, qui sont mieux adaptés que les modèles plus lourds aux terrains accidentés et aux infrastructures primitives de la Chine. Les derniers véhicules blindés seraient gaspillés, voire carrément dangereux, entre les mains des Chinois, mais nous avons des stocks excédentaires de chars à peine dépassés qui pourraient être appréciés. Nous pourrions aussi envoyer des équipements encore plus anciens sans frais réels pour nous, bien que nous puissions bien sûr choisir de ne rien envoyer du tout"
@@ -1551,7 +1543,7 @@ fengtian.103.b: "Oubliez ça."
 
 fengtian.104.t: "Les préparatifs sont terminés à Shanhaiguan"
 fengtian.104.d: "Nos agents de renseignement ont appris que la plupart de nos soldats infiltrés sont maintenant en position au sud de Shanhaiguan. Ils doivent maintenant faire profil bas et attendre le début de la guerre de reconquête nationale"
-fengtian.104.a: "Bonnes nouvelles."
+ fengtian.104.a: "Bonne nouvelle."
 
 fengtian.105.t: "Échec à Shanhaiguan"
 fengtian.105.d: "Nos agents de renseignement ont appris que, lors du processus d'infiltration à travers Shanhaiguan, nos soldats ont été découverts et enlevés par des agents [QIE.GetAdjective] et des groupes de la police militaire. S'il reste quelqu'un, il sera sans aucun doute trop dispersé et désorganisé pour être utile une fois que nous aurons commencé la guerre, et ce plan doit donc malheureusement être considéré comme un échec"
@@ -1585,8 +1577,8 @@ fengtian.112.b: "Garder le silence."
 
 fengtian.113.t: "Le Japon nous dénonce"
 fengtian.113.d: "Décrivant notre dénonciation de leur conduite lors du récent incident d'Anshan comme "insolente" et "indigne de la générosité japonaise", le gouvernement japonais a émis une réprimande cinglante à la fois publiquement et par le biais d'une lettre délivrée directement par le consul général du Japon à Shenyang. La garnison de Kwantung a effectué une série de manœuvres motorisées et blindées en pleine vue de la capitale, leur message étant clair. Toute escalade de cette situation entraînerait sans aucun doute de nouvelles réprimandes auxquelles nous ne pouvons apporter aucune réponse significative"
-fengtian.113.a: "Ainsi soit-il."
-fengtian.113.b: "Nous ne serons pas intimidés !"
+ fengtian.113.a: "Qu'il en soit ainsi"
+ fengtian.113.b: "Nous ne nous laisserons pas intimider !"
 
 fengtian.114.t: "Une opportunité se présente"
  fengtian.114.d: "Dans les années qui ont suivi la retraite de l'armée fengtienne au-delà de la Grande Muraille, un œil vigilant a été porté sur le sud. Le point d'étranglement naturel créé par le col de Shanhai a toujours rendu difficile l'entrée des armées zhili, mais tout aussi difficile la sortie des nôtres. Tout effort pour reconquérir la Chine a toujours dépendu d'un moment de faiblesse du sud. Un tel moment semble maintenant sur le point d'arriver, alors que le sentiment anti-allemand qui couvait a éclaté en violence dans la Ligue des huit provinces, et que le gouverneur de l'Anhui s'est séparé de Nanjing - espérant monter la Ligue et le gouvernement central l'un contre l'autre pour son propre bénéfice. Heureusement, nous ne sommes pas encore prêts à commencer notre campagne tant attendue, il y a des questions en suspens dans le Nord-Est à régler et on ne sait toujours pas exactement ce qu'il adviendra de la situation dans la Ligue. Nous devons surveiller et attendre la bonne occasion"
@@ -1622,7 +1614,7 @@ fengtian.119.a: "La troisième fois est la bonne !"
 
 fengtian.120.t: "La Ligue de la jeunesse de Mandchourie"
 fengtian.120.d: "La Ligue de la jeunesse de Mandchourie existe depuis plusieurs années en tant qu'association générale pour les employés de Mantetsu et d'autres résidents japonais dans le Nord-Est, mais les récentes attaques de bandits l'ont amenée à publier une déclaration sur la question, appelant le gouvernement japonais à mieux protéger ses citoyens, et demandant un plus grand degré de contrôle sur notre gouvernement. Bien sûr, l'impact immédiat sera probablement minime, mais si la Ligue de la jeunesse poursuit ses efforts, elle pourrait faire tourner quelques têtes à Tokyo."
-fengtian.120.a: "Malheureux."
+ fengtian.120.a: "C'est Regrettable."
 
 fengtian.124.t: "Heinous Assassination in Shenyang !"
 fengtian.124.d: "Sur le chemin des bureaux gouvernementaux, un membre de la Clique des communications a été abattu en public par ce qui semble être un loyaliste [QIE.GetAdjective], recruté parmi la population mandchoue du nord-est ! [QIE.GetNameDefCap] était connu pour recruter des espions et des assassins auparavant, mais certaines rumeurs suggèrent que cet assassin a plutôt été engagé par des membres de l'Association Concordia, en conflit avec les barons des chemins de fer et du télégraphe de la Clique des communications pour le contrôle des infrastructures du pays"
@@ -1630,7 +1622,7 @@ fengtian.124.a: "Une terrible perte."
 
  fengtian.125.t: "Bénéfices records de la Mantetsu"
  fengtian.125.d: "La Compagnie Ferroviaire de Mandchourie du Sud, plus communément appelée "Mantetsu", domine depuis longtemps de vastes secteurs de l'économie du Fengtian et constitue en outre le principal moyen d'influence du Japon sur notre gouvernement. Bien que cette influence soit malvenue, elle apporte des capitaux et des technologies essentiels sans lesquels le Grand Maréchal ne pourrait jamais espérer reprendre la Chine.\n\nLa Compagnie a annoncé aujourd'hui des bénéfices records, dont une grande partie est reversée au gouvernement japonais sous forme de recettes fiscales."
-fengtian.125.a: "Est-ce un mal nécessaire ?"
+ fengtian.125.a: "Est ce un mal nécessaire?"
 
 fengtian.126.t: "La propagation des faux dollars"
 fengtian.126.d: "Afin d'économiser de l'argent, la version du dollar fengtien actuellement en circulation est la même qu'au moment de sa première émission, car les équipements d'impression de qualité sont très coûteux. Cependant, il semble que la monnaie reste vulnérable à la contrefaçon, et on pense déjà que des milliers de faux dollars fengtiens circulent"
@@ -1665,17 +1657,17 @@ fengtian.132.c: "Nous ne participerons pas !"
 fengtian.133.d: "La capitale chinoise étant sécurisée, nous avons aidé le gouvernement fengtien à atteindre le premier et peut-être le plus grand objectif de son long cheminement vers la reconquête nationale. Le commandant local de l'IJA qui a mené l'assaut sur la capitale a déjà commencé à organiser un défilé de victoire, et a gentiment invité les divisions fengtiennes voisines à y participer. Cependant, dans un acte d'impertinence sans précédent, le gouvernement fengtien a non seulement refusé notre offre, mais a activement entravé notre propre défilé en prétendant que c'est "leur jour de gloire" et non le nôtre ! Nous pourrions faire une déclaration immédiate, en réduisant l'aide des Fengtiens, mais ils restent nos alliés, et la guerre se poursuit sans relâche.
 fengtian.133.a: "Punissez cette insolence immédiatement !"
 fengtian.133.b: "La punition devra attendre."
-fengtian.133.c: "Qu'il en soit ainsi."
+ fengtian.133.c: "Qu'il en soit ainsi"
 
  fengtian.134.t: "Insolence chinoise à Tiannanmen !"
 fengtian.134.d: "La capitale chinoise étant sécurisée, nous avons aidé le gouvernement de Fengtian à atteindre le premier et peut-être le plus grand objectif de son long cheminement vers la reconquête nationale. Le commandant local de l'IJA qui a mené l'assaut sur la capitale a déjà commencé à organiser un défilé de victoire, et a gentiment invité les divisions fengtiennes voisines à y participer. Cependant, dans un acte d'impertinence sans précédent, le gouvernement fengtien a refusé notre offre et organisera son propre défilé ! Il est certain que nos propres troupes resplendissantes les ridiculiseront, mais leurs actions méritent peut-être une réponse plus sérieuse"
 fengtian.134.a: "Punissez cette impertinence immédiatement !"
 fengtian.134.b: "La punition devra attendre."
-fengtian.134.c: "Qu'il en soit ainsi."
+ fengtian.134.c: "Qu'il en soit ainsi"
 
 fengtian.135.t: "La colère retardée du Japon"
 fengtian.135.d: "En réponse à notre embarras envers leurs forces pendant l'occupation de Beijing, le gouvernement japonais a temporairement coupé ses différentes formes d'aide à notre pays. Il semble que la fierté japonaise soit facilement ternie et que les rancunes ne soient pas oubliées de sitôt"
-fengtian.135.a: "Malheureux"
+ fengtian.135.a: "C'est Regrettable."
 fengtian.135.b: "Nous pouvons aussi avoir de la rancune, expulser leur mission militaire !"
 
  fengtian.136.t.annexed: "L'Effondrement du Gouvernement de Fengtian"
@@ -1693,14 +1685,14 @@ fengtian.138.b: "Pas sur notre sol."
 fengtian.139.t: "Les cinq couleurs"
  fengtian.139.d_1: "La Jilin Film Association a publié aujourd'hui son premier long métrage, une vaste étude ethnographique détaillant les diverses populations du Nord-Est, des pins enneigés du Heilongjiang aux rives fertiles du cours inférieur du fleuve Liao, en épousant les valeurs de la politique nationale "Cinq races sous une seule Union"\nGrâce à l'aide du gouvernement, l'association a pu accéder facilement à un certain nombre d'endroits éloignés afin de filmer et de mieux diffuser son message d'unité et d'harmonie, bien que certaines critiques aient été émises sur sa couverture des Coréens et des Japonais, dont beaucoup cohabitent également dans le Nord-Est, mais ne font pas officiellement partie des "cinq races" désignées dans le drapeau national. Dans l'ensemble, et malgré sa projection relativement restreinte en raison du nombre limité de salles, le film a été considéré comme un grand succès"
  fengtian.139.d_2: "L'association du film [745.GetCapitalVictoryPointName] a publié aujourd'hui son premier long métrage, un vaste panorama ethnographique des diverses populations du Nord-Est, des pins enneigés du Heilongjiang aux rives fertiles du cours inférieur du fleuve Liao, qui défend les valeurs de la politique nationale "Cinq races sous une seule Union"\nBien que ses messages d'unité et d'harmonie raciales soient bons en eux-mêmes, le film a été critiqué pour avoir passé presque la moitié de son temps de projection à se concentrer sur les Japonais et les Coréens, dont beaucoup cohabitent dans le Nord-Est, mais ne font pas officiellement partie des "Cinq races" désignées dans le drapeau national. Malgré cela, et malgré sa projection relativement limitée en raison du nombre restreint de salles, le film a été considéré comme un succès"
-fengtian.139.a: "Les petits succès ouvrent la voie à la victoire !"
+ fengtian.139.a: "De petits succès ouvrent la voie à la victoire !"
 fengtian.139.b: "De petits succès ouvrent la voie à la victoire !"
 
 fengtian.140.t_1: "La chanson de l'orchidée blanche"
 fengtian.140.t_2: "Les poux font peur"
  fengtian.140.d_1: "Depuis sa première sortie, la Mantetsu Film Association a sorti plusieurs autres films, chacun ayant attiré une certaine attention et suivant généralement les accords convenus lors de sa fondation. Le dernier film, "Song of the White Orchid", a cependant attiré une attention particulière. Il s'agit d'un enchevêtrement romantique entre un Japonais (Kazuo Hasegawa) et une Chinoise (Li Xianglan) où Li quitte son amant à la suite d'un malentendu et rejoint un groupe de bandits mandchous qui complotent pour saboter le chemin de fer de Mandchourie du Sud. Elle apprend par la suite que ce malentendu a été délibérément arrangé par des espions [QIE.GetAdjective], renouvelle sa foi en Hasegawa et met le complot à mal. Les deux protagonistes semblent être des allégories claires pour leurs pays respectifs, et des inquiétudes ont été soulevées, mais la valeur de propagande anti [QIE.GetAdjective] est significative, et l'air du thème est tellement accrocheur..."
  fengtian.140.d_2: "Depuis sa première sortie, l'Association du film [745.GetCapitalVictoryPointName] a produit plusieurs autres films, chacun ayant attiré une certaine attention et suivant généralement les accords convenus lors de sa fondation. Le dernier film, "Les poux sont effrayants", a cependant attiré une attention notable. Il présente une leçon scientifique et hygiénique aux spectateurs grâce à une combinaison de microscopie et de poux animés "scandaleux" en stop-motion qui, selon certains, semblent "sauter de l'écran" Outre le fait que les spectateurs ont peur pour la première fois de sortir du théâtre, le message général est avilissant, jouant sur les suppositions japonaises selon lesquelles les Chinois sont, par habitude, sales et infestés de poux ; la réception étant par conséquent assez négative, et amenant certains à se demander si cela aurait pu être évité si le gouvernement avait joué un rôle plus actif dans la production"
-fengtian.140.a: "Bien."
+ fengtian.140.a: "Bon."
 fengtian.140.b: "Je n'ai pas peur des poux !"
 
 fengtian.141.t: "Honghuzi écrasé !"
@@ -1755,20 +1747,20 @@ fengtian.147.a: "J'espère qu'elles sont positives."
 
 fengtian.148.t: "Le Prince Kan'in empoisonné"
  fengtian.148.d: "Après s'être plaint de maux de tête et de vertiges à la suite du dîner d'État, le prince Kan'in s'est effondré juste devant sa chambre dans la propriété du Grand Maréchal. Grâce aux soins médicaux prodigués par un hôpital voisin appartenant à Mantetsu, il semble en bonne voie de guérison. Cependant, les analyses sanguines ne laissent guère de doute sur le fait qu'il s'agissait d'une tentative d'attentat contre sa vie. La défaillance de la sécurité responsable, et l'événement en lui-même, représentent un profond embarras national et une grave insulte à la famille impériale du Japon. Des répercussions graves sont tout à fait possibles."
-fengtian.148.a: "Comment cela a-t-il pu arriver ?"
+ fengtian.148.a: "Comment cela a-t-il pu se produire ?"
 
 fengtian.149.t: "Le prince Kan'in est abattu !"
  fengtian.149.d: "Pendant son inspection d'un avant-poste au nord du col de Shanhai, un soldat renégat a soudainement ouvert le feu sur le prince Kan'in, tuant plusieurs de ses gardes avant d'être débordé. Heureusement, le Prince a été blessé de façon relativement mineure, mais la défaillance de la sécurité responsable, et l'événement en lui-même, représentent un profond embarras national et une grave insulte à la famille impériale du Japon.\n\nLes travaux d'investigation menés jusqu'à présent semblent suggérer que le soldat faisait partie d'une faction extrémiste au sein de la Clique de Zhang, et la réponse du Japon pourrait être sévère."
-fengtian.149.a: "Comment cela a-t-il pu arriver ?"
+ fengtian.149.a: "Comment cela a-t-il pu se produire ?"
 
  fengtian.150.t:9 "Le train du Prince est bombardé !"
  fengtian.150.d: "Quelques minutes seulement après avoir quitté la gare de Huanggutun à Shenyang, le train du Prince a été secoué par une explosion massive, effaçant ses wagons arrière. Heureusement, un changement de dernière minute a fait que son wagon a été déplacé à l'avant du train, ce qui lui a permis de s'échapper avec seulement des blessures mineures. La défaillance de la sécurité responsable, et l'événement en lui-même, représentent un profond embarras national et une grave insulte à la famille impériale du Japon.\nLe travail d'investigation effectué jusqu'à présent semble suggérer que des membres de rang inférieur de la Clique des communications pourraient être responsables, et la réponse du Japon pourrait être sévère."
-fengtian.150.a: "Comment cela a-t-il pu arriver ?"
+ fengtian.150.a: "Comment cela a-t-il pu se produire ?"
 
 fengtian.1500.t: "La visite du prince est écourtée"
 fengtian.1500.d_1: "En raison du déclenchement de la guerre, le Prince a décidé de mettre fin à sa visite tôt et partira pour [745.GetCapitalVictoryPointName] demain matin."
 fengtian.1500.d_2: "En raison du déclenchement de la guerre, le prince Kan'in Kotohito a décidé d'annuler sa visite dans le Nord-Est. Une tournure malheureuse des événements, mais naturellement la guerre doit prendre la plus haute priorité."
-fengtian.1500.a: "Oh, bien."
+ fengtian.1500.a: "Mais bon..."
 
  fengtian.167.t:9 "Ma Zhanshan et la Clique du Heilongjiang Proposent de Faire Défection !"
  fengtian.167.d:9 "Les cliques des seigneurs de la guerre sont rarement les organisations les plus concrètes ou cohérentes, et cela est encore plus vrai dans les rangs de celle de [ROOT.GetLeader]. Toutefois, la défection et la trahison d'une clique à une autre sont prises très au sérieux. D'habitude, de tels événements sont réservés pour des moments où une Clique passe le relais à une autre, comme lorsque l'Anhui s'est effondré et a entraîné des défections vers le Zhili et le Fengtian lors de leur première ère de domination, ou lorsque la trahison de Feng Yuxiang et la Deuxième Guerre Zhili-Fengtian ont vu des défections du Zhili vers le Guominjun, ou plus encore vers le Fengtian.\n\nAvec les nouvelles préoccupantes de la mort de Zhang Zuolin dans ses précieuses Provinces du Nord-Est, apparemment des mains des Japonais, et l'ascension rapide du général Yang Yutin au poste de Grand Maréchal du Gouvernement Fengtian, une autre vague de désertions s'est répandue depuis le Fengtian. A la suite de sa prise de pouvoir, Yuting a entrepris de purger tous ses rivaux qui avaient eu ne serait-ce que l'idée de le trahir, y compris le Jeune Maréchal Zhang Xueliang et ses loyalistes.\n\nToutefois, ayant réussi à éviter Yuting et sa Clique Shikan pendant suffisamment longtemps, le fidèle de Shaoshuai Ma Zhanshan et Zhang Tingshu, accompagné de deux anciens alliés de Zuolin, Wan Fulin et Wu Junsheng, communément appelés "Clique du Heilongjiang", ont informé par messager à cheval les commandants de [ROOT.GetLeader] de leur intention de déserter. Bien qu'ayant des compétences inégales, Zhanshan étant connu pour ses excentricités et Junsheng pour sa maladresse, ils cherchent néanmoins à venger Zuolin et à destituer Yuting. Mais une question reste en suspens : ces bandits devenus généraux sont-ils dignes de confiance ?"
@@ -1802,7 +1794,7 @@ fengtian.174.a: "Ne jamais regarder un cheval de cadeau dans la bouche."
 
 fengtian.175.t: "Grèves ferroviaires" !
  fengtian.175.d: "Des membres influents de l'Association Concordia avaient prévu de présenter demain une législation renforçant leur contrôle sur le télégraphe du pays, affirmant que certaines sections dans la province de Jilin avaient été construites sans permis, et demandant leur transfert à des "autorités plus fiables". Cependant, les principales lignes allant de [745.GetCapitalVictoryPointName] à Harbin ont soudainement connu une série de grèves, interrompant le service en signe de protestation contre la législation proposée.\n\nFace à ce rejet massif, la législation a été mise de côté pour le moment, et il semble probable que Li Shaogeng et ses nombreux contacts en soient responsables."
-fengtian.175.a: "Bien."
+ fengtian.175.a: "Bon."
 
  fengtian.1751.t:0 "Grèves ferroviaires"
  fengtian.1751.d: "Tôt ce matin, les principales lignes ferroviaires reliant [745.GetCapitalVictoryPointName], Shenyang et Harbin ont été fermées et retardées par des grèves, ce qui a paralysé l'économie des ressources du pays.\n\nLe Mantetsu et ses défenseurs au sein de l'Association Concordia semblent avoir profité de l'occasion pour faire venir des travailleurs du Territoire Loué de Kwantung afin d'assurer le fonctionnement des services de base, mais les grèves se poursuivent néanmoins, démontrant la volonté de Liang Shiyi de nuire à sa propre cause pour manifester son mécontentement face au refus du Grand Maréchal."
@@ -1826,7 +1818,7 @@ fengtian.179.a: "A qui peut-on encore faire confiance ?"
 
 fengtian.180.t: "Tang Yulin chevauche un tigre !"
  fengtian.180.d: "Le général Tang Yulin a été aperçu audacieusement assis sur un tigre vorace quelque part dans la province de Rehe ! Ou l'a-t-il fait ?\n\nUne image représentant Tang a largement circulé, apparaissant dans les journaux de tout le nord-est, bien que son origine ne soit pas claire. Certains affirment que l'image a été trafiquée, tandis que d'autres pensent que le tigre est seulement empaillé, mais l'aspect qui retient le plus l'attention est le contexte. Le grand maréchal Zhang Zuolin est souvent surnommé « le Tigre du Nord », et le fait que Tang soit représenté en train de chevaucher un tigre donne une image très douteuse.\n\nPour sa part, Tang Yulin prétend que l'image est la création d'un saboteur [QIE.GetAdjective], mais ses fêtes extravagantes à Chaoyang suggèrent que l'image, si ce n'est le tigre, pourrait bien être authentique."
-fengtian.180.a: "C'est un scandale !"
+ fengtian.180.a: "C'est un outrage !"
 fengtian.180.b: "C'est sûrement un faux..."
 
 fengtian.181.t: "Le différend fiscal sur les CER"
@@ -1922,7 +1914,7 @@ fengtian.199.t: "Le Japon exige la réintégration de Ruan Zhenduo"
 fengtian.199.a: "Réintégrer Ruan"
 fengtian.199.b: "Ils devraient être reconnaissants que nous ne lui ayons pas tiré dessus"
 
-fengtian.200.t: "Conférence des alliés pour la réhabilitation"
+ fengtian.200.t: "Conférence des alliés de la poldérisation"
  fengtian.200.d1: "L'effondrement de la Ligue des Huit Provinces nous a donné un énorme avantage contre [QIE.GetNameDef], puisque notre allié, Anqing, contrôle maintenant les Cinq Provinces. Nous devrions les approcher pour discuter des stratégies possibles dans la guerre de reconquête et pour les amener à s'engager à rejoindre le conflit de notre côté"
  fengtian.200.d2: "L'effondrement de la Ligue des Huit Provinces nous a donné un énorme avantage contre [QIE.GetNameDef], puisque notre allié, Shandong, contrôle maintenant les Cinq Provinces. Nous devrions les approcher pour discuter des stratégies possibles dans la guerre de reconquête et pour les amener à s'engager à rejoindre le conflit de notre côté"
 fengtian.200.a: "Demandez-leur."
@@ -1938,7 +1930,7 @@ fengtian.202.t: "Conférence des alliés de la poldérisation"
 fengtian.202.d1: "La Clique d'Anqing, invoquant une combinaison d'échec de notre part à les soutenir correctement, à négocier des accords, d'influence japonaise et d'autres événements, a décidé d'abandonner la guerre de reconquête, et avec cela, nous. C'est extrêmement regrettable car cela signifie que nous avons perdu un allié. [getfngshandongreclaccept]"
 fengtian.202.d2: "La Clique d'Anqing s'est engagée à participer à la guerre de reconquête. [getfngshandongreclaccept]"
  #anqing:
-fengtian.202.a: "Étudier les stratégies" #anqing
+ fengtian.202.a: "Étudier les stratégies."
  #shandong:
 fengtian.202.b: "Étudier les stratégies." #shandong
 fengtian.202.c: "Nous devrons nous en tenir à notre stratégie actuelle"
@@ -1997,7 +1989,7 @@ fengtian.216.t: "Anqing exige la fin de la revendication de Zhang Zongchang"
  fengtian.216.d2: "Chen Tiaoyuan est arrivé à Shenyang pour régler son différend territorial avec Zhang Zongchang. Bien que ni l'un ni l'autre n'aient proféré de menaces à notre connaissance, Zhang et Chen sont certainement capables de faire couler le premier sang si Zhang Zuolin ne parvient pas à résoudre la frontière. De longues heures de négociation avec Chen Tiaoyuan révèlent sa conclusion selon laquelle Zhang Zongchang et Shandong sont désormais responsables. En raison de la quantité de ressources déversées dans le Shandong, Chen suggère que Zhang Zongchang soit autorisé à conserver ses gains dans le Jiangsu, mais que le reste d'Anqing soit proclamé. Zhang peut avoir le Jiangsu, le reste qu'ils veulent"
  fengtian.216.d3: "Chen Tiaoyuan est arrivé à Shenyang pour régler son différend territorial avec Zhang Zongchang. Bien qu'aucun des deux n'ait proféré de menaces à notre connaissance, Zhang et Chen sont certainement capables de faire couler le premier sang si Zhang Zuolin ne parvient pas à résoudre la frontière. De longues heures de négociation avec Chen Tiaoyuan révèlent sa conclusion selon laquelle Zhang Zongchang et Shandong sont désormais responsables. En raison de la quantité de ressources déversées dans le Shandong, Chen suggère que Zhang Zongchang soit autorisé à conserver ses gains dans le Jiangsu, mais que le reste d'Anqing soit proclamé. Zhang peut avoir des parties du Jiangsu, le reste ils veulent"
  fengtian.216.d4: "Chen Tiaoyuan est arrivé à Shenyang pour régler son différend territorial avec Zhang Zongchang. Bien qu'aucun des deux n'ait proféré de menaces à notre connaissance, Zhang et Chen sont certainement capables de faire couler le premier sang si Zhang Zuolin ne parvient pas à résoudre la frontière. De longues heures de négociation avec Chen Tiaoyuan révèlent sa conclusion selon laquelle Zhang Zongchang et Shandong sont désormais responsables. En raison de la quantité de ressources déversées dans le Shandong, Chen suggère que Zhang Zongchang rende le Jiangsu, et que l'autodétermination de Chen sur Anqing soit proclamée"
-fengtian.216.a: "Noté"
+ fengtian.216.a: "Noté."
 
 fengtian.217.t: "Shandong exige que Chen Tiaoyuan mette fin à sa revendication"
  fengtian.217.d1: "Zhang Zongchang est arrivé à Shenyang pour régler son différend territorial avec Chen Tiaoyuan. Bien qu'aucun des deux n'ait proféré de menaces à notre connaissance, Zhang et Chen sont certainement capables de faire couler le premier sang si Zhang Zuolin ne parvient pas à résoudre la frontière. De longues heures de négociation avec Zhang Zongchang révèlent sa conclusion selon laquelle Chen Tiaoyuan et Anqing sont désormais responsables. Malgré la quantité de ressources investies à Anqing, il ressort des discussions que Zhang Zongchang pense que les commandants de tours à Anqing sont trop dangereux pour travailler pour le bien de la Chine. Zhang Zongchang insiste pour nous dire qu'il ne devrait garder que ses gains marginaux dans le Jiangsu"
@@ -2101,7 +2093,7 @@ fengtian.232.a: "C'est la guerre, alors"
 
  fengtian.233.t: "Compromis accepté"
 fengtian.233.d: "Le compromis élaboré par Fengtian, qui implique un contrôle politique aux mains de la clique de Chen à Anqing et un contrôle économique appartenant à Zhang, a été accepté par toutes les parties. Cela signifie que Shandong et Anqing peuvent maintenant devenir des alliés sous la protection de Fengtian"
-fengtian.233.a: "Grande nouvelle."
+ fengtian.233.a: "Excellentes nouvelles"
 
  fengtian.234.t: "Compromis rejeté"
  fengtian.234.d1: "Malheureusement, le comportement a été rejeté. Le Shandong n'a pas accepté le comportement, ce qui signifie qu'il est inutile. Anqing l'a cependant accepté, mais il fallait que les deux parties se mettent d'accord si nous voulions que cela fonctionne. Cela signifie que nos alliés, Shandong et Anqing, iront sûrement en guerre. Nous pouvons décider de soutenir l'un des deux, ou simplement attendre"
@@ -2131,31 +2123,11 @@ fengtian.237.a: "Très bien."
  fengtian.2372.d: "Le Gouvernement de Fengtian a apporté son soutien exclusif à la clique d'Anqing de Chen Tiaoyuan dans le conflit qui vient d'éclater entre ses deux alliés orientaux. En conséquence, il nous a été demandé de cesser notre aide à la Clique de Shandong de Zhang Zongchang. Nous pourrions refuser, mais des forces puissantes au sein du gouvernement insistent pour que nous accédions à la demande de Zhang. Nous pouvons réorienter notre aide vers Anqing, si nous le souhaitons."
  fengtian.2372.a:0 "Très bien."
 
- fengtian.239.t: "Anqing a gagné !"
- fengtian.239.d: "La Clique d'Anqing, que nous avons soutenue pendant leur guerre contre la Ligue et plus tard contre le Kuomintang et d'autres seigneurs de la guerre, est sortie victorieuse et a uni les cinq provinces. C'est une très bonne nouvelle, car cela signifie que nous avons maintenant un allié très puissant qui se trouve au sud de notre ennemi ! Nous devrons immédiatement réfléchir à la manière dont nous allons utiliser cet avantage."
-fengtian.239.a: "Bonnes nouvelles"
-
-fengtian.240.t: "Anqing demande une aide à la reconstruction"
- fengtian.240.d: "La Clique d'Anqing a proposé une stratégie. Ils sont prêts à participer à la guerre, mais seulement si nous et nos bailleurs de fonds japonais leur fournissons une aide très généreuse et étendue pour les aider à se remettre de la désastreuse guerre de la Ligue. Cette stratégie les ramènerait en effet rapidement à leur pleine puissance, mais nous coûterait un capital important. Nous ne savons pas non plus si les Japonais accepteront. Nous pouvons également penser à d'autres options."
-fengtian.240.a: "Engagez votre soutien, demandez au Japon."
-fengtian.240.b: "Nous ne pouvons pas les aider."
-
-fengtian.241.t: "La reconstruction d'Anqing commence"
- fengtian.241.d1: "Marqués par la dévastation tout au long de la guerre de la Ligue, nos humbles demandes à nos bienfaiteurs de Shenyang et de Tokyo d'aider à la reconstruction des différentes provinces de la Ligue après notre victoire sont malheureusement tombées dans l'oreille d'un sourd. Invoquant des coûts financiers importants et la méfiance à l'égard de notre véritable loyauté, le vieux maréchal n'a pu fournir qu'une maigre aide à la reconstruction.\n\nLes Japonais, introuvables, ont refusé de répondre à nos télégrammes, jugeant peut-être que [ANQ.GetLeader] n'en valait pas la peine, ou ayant d'autres projets plus malveillants pour les provinces de la Ligue."
- fengtian.241.d2: "Marquée par la dévastation tout au long de la guerre de la Ligue, notre humble demande à nos bienfaiteurs de Shenyang et de Tokyo d'aider à la reconstruction des différentes provinces de la Ligue après notre victoire dans la guerre de la Ligue a été accueillie en chœur. Grâce au soutien financier de Fengtian et des Japonais, le vieux maréchal et le gouvernement japonais ont fourni une subvention complète pour la reconstruction de nos provinces.\n\nEn peu de temps, nous jouerons notre rôle dans l'unification de la nation et dans la garantie d'une Chine forte pour les décennies à venir."
- fengtian.241.a: "D'une manière ou d'une autre, leur aide est inestimable."
-
-fengtian.242.t: "Aide japonaise à la reconstruction"
- fengtian.242.d1: "Malgré nos supplications, nos courbettes et notre accueil favorable des intérêts japonais, ces perfides imbéciles ont refusé de nous accorder la moindre aide pour la reconstruction des provinces de nos alliés au sein de la nouvelle Ligue revitalisée. Naturellement, l'assemblée de Shenyang est divisée sur la manière de procéder. Certains, principalement au sein de la Ligue pour la Reconquête et de la Clique des Communications, notamment Liang Shiyi, ont insisté pour que le plan de reconstruction proposé soit poursuivi, et lorgnent sur des contrats de communication potentiels dans les provinces côtières rentables.\n\nD'autres, notamment la Clique de Zhang et l'Association Concordia, se sont opposées à ces idées, en avançant des arguments différents. La Clique de Zhang insiste sur le fait qu'Anqing est loin d'être une priorité et que le fait de devoir soutenir à la fois le Fengtian et la contribution prévue du Japon à la reconstruction priverait l'armée des fonds nécessaires à la remise en état. De même, l'Association Concordia affirme que, puisque les Japonais se sont retirés du plan, il n'est manifestement pas nécessaire de voir la Chine réunie sous le gouvernement légitime."
-fengtian.242.d2: "Les Japonais ont également engagé une aide, nous devrions en informer Anqing."
-fengtian.242.a: "Commencez l'aide à la reconstruction."
-fengtian.242.b: "Annuler l'aide à la reconstruction."
-
 fengtian.243.t: "Anqing s'engage dans la reconquête"
 fengtian.243.d: "La Clique d'Anqing a pris la bonne décision et a décidé de rejoindre notre alliance et de s'engager à nous aider dans la guerre de reconquête contre Beijing. Ils ont pesé de nombreux facteurs, et savoir qu'ils ont quand même décidé de se joindre à notre cause est une très bonne nouvelle."
-fengtian.243.a: "Très bien."
+ fengtian.243.a: "Bien"
 
-fengtian.244.t: "Anqing abandonne la reconquête"
+ fengtian.244.t: "Abandon des revendications d'Anqing"
  fengtian.244.d1: "La Clique d'Anqing, dirigée par Chen Tiaoyuan, a décidé de refuser toute participation à notre guerre de reconquête contre les [QIE.GetName] ! C'est extrêmement irrespectueux, car notre gouvernement et les Japonais les ont soutenus pendant la guerre de la Ligue et les ont aidés à prendre le contrôle des cinq provinces. Cependant, nous avons besoin de toute l'aide que nous pouvons obtenir, et en tant que telle, nous pouvons laisser faire et espérer qu'ils se joindront à la guerre, quelle que soit la date à laquelle elle aura commencé. Mais s'ils ne s'y joignent pas, cela signifierait que nous devrions les considérer comme un autre chef de guerre que nous devrons faire tomber pour unir la Chine."
  fengtian.244.d2: "La Clique d'Anqing, dirigée par Chen Tiaoyuan, a décidé de refuser toute participation à notre guerre de reconquête contre les [QIE.GetName] ! C'est extrêmement irrespectueux, car notre gouvernement et les Japonais les ont soutenus pendant la guerre de la Ligue et les ont aidés à prendre le contrôle des cinq provinces. Nous avons également investi des ressources considérables dans leur reconstruction, en espérant qu'ils s'avéreraient un allié plus précieux. Nous devrions annuler notre aide à la reconstruction immédiatement. Cependant, nous avons besoin de toute aide que nous pouvons obtenir, et en tant que telle, nous pourrions la laisser faire et espérer qu'ils se joindront à la guerre, quelle que soit la date à laquelle elle aura commencé. Mais s'ils ne s'y joignent pas, cela signifierait que nous devrions les considérer comme un autre seigneur de guerre que nous devrons abattre pour unir la Chine."
 fengtian.244.a: "Coupez les liens et dénoncez-les."
@@ -2163,7 +2135,7 @@ fengtian.244.b: "Tolérez-les et attendez."
 
 fengtian.245.t: "Anqing coupe les liens de toute façon"
  fengtian.245.d: "Malheureusement, même si nous avions décidé de tolérer Anqing pour l'instant, ils ont décidé de couper complètement les liens eux-mêmes. Cela signifie que nous ne pouvons pas du tout compter sur eux et que nous devons les voir comme une autre clique de seigneurs de la guerre."
-fengtian.245.a: "Malheureux"
+ fengtian.245.a: "C'est Regrettable."
 
  fengtian.246.t: "Anqing annexe le Shandong"
  fengtian.246.d: "À l'origine, nous avions convenu avec Anqing qu'ils contrôleraient temporairement le Shandong jusqu'au début de la guerre de reconquête, car ils n'avaient pas de droit légitime sur ce territoire et nous reconnaissaient comme le gouvernement national. Maintenant que ce n'est plus le cas, Chen Tiaoyuan d'Anqing a décidé de prendre le contrôle total du Shandong et de l'intégrer à sa Ligue. Cela signifie que le territoire ne nous est pas accessible."
@@ -2196,7 +2168,7 @@ fengtian.255.t: "Nos ennemis se préparent à la guerre !"
  fengtian.255.d_1: "Selon nos espions de [FROM.Capital.GetCapitalVictoryPointName], [FROM.GetNameDef] s'apprête à nous déclarer la guerre. Ce combat sera un combat pour la survie."
 fengtian.255.d_2: "Au milieu de la nuit, deux trains de trente-quatre voitures ont traversé la gare de Huanggutun à Shenyang en direction d'une zone de transit à Jinxi, à environ 150 miles au sud. Deux heures plus tard, deux autres trains sont passés, et au matin, dix au total. Nos espions sont maintenant certains qu'un grand rassemblement a commencé au-delà de la Grande Muraille. Une fois de plus, les armées de Zhang Zuolin se préparent à marcher vers le sud par le col de Shanhai. Une fois de plus, nous devons écraser ces chiens du nord-est, comme nous l'avons fait il y a dix ans, comme l'ont fait les dynasties d'autrefois."
  fengtian.255.d_3: "Nos espions à [FROM.Capital.GetCapitalVictoryPointName] rapportent que le [FROM.GetName] se prépare à rejoindre le [FNG.GetName] dans sa guerre contre nous !"
-fengtian.255.a: "Nous n'avons que peu de temps pour nous préparer."
+ fengtian.255.a: "Nous ne disposons que d'un délai très court pour nous préparer."
 
  fengtian.256.t:9 "Le [FROM.GetName] appelle à l'aide !"
  fengtian.256.d: "La nouvelle est arrivée par téléphone directement de [FROM.Capital.GetCapitalVictoryPointName], nos alliés de [FROM.GetName] sont sur le point d'être attaqués par [FNG.GetName] ! Leurs forces sont déjà mobilisées, mais ils ne peuvent pas affronter cet ennemi seuls."
@@ -2219,7 +2191,7 @@ fengtian.271.e: "Ces foutus fèves de soja !"
 fengtian.272.t: "Scandale à Beijing"
  fengtian.272.d_bad: "Un certain nombre de pillages étaient inévitables à Beijing. Capitale nationale depuis des siècles et foyer de générations d'empereurs, la richesse répartie dans la bureaucratie omniprésente de la ville a longtemps échappé à toute mesure. Cependant, ce n'est pas la richesse matérielle qui a entraîné la ville dans un scandale. On suppose que certains de nos soldats ont capturé les épouses et les concubines de ministres du gouvernement et, après avoir commis des actes inqualifiables, les ont fait parader dans les rues de la ville comme des trophées. Pour aggraver les choses, certains ont été placés sur un échafaudage de fortune et sont vendus comme des bavardages au plus offrant. Dans toute armée disciplinée, ils seraient exécutés pour ce comportement, et nous avons donné des assurances en ce sens à la population locale, mais il est fort possible que l'affaire soit passée sous silence par les commandants locaux"
  fengtian.272.d_good: "Un certain nombre de pillages étaient inévitables à Beijing. Capitale nationale depuis des siècles et foyer de générations d'empereurs, la richesse répartie dans la bureaucratie omniprésente de la ville a longtemps échappé à toute mesure. Cependant, ce n'est pas la richesse matérielle qui a entraîné la ville dans un scandale. On suppose que certains de nos soldats ont capturé les épouses et les concubines de ministres du gouvernement et, après avoir commis des actes inqualifiables, les ont fait parader dans les rues de la ville comme des trophées. Pour aggraver les choses, certains ont été placés sur un échafaudage de fortune et sont vendus comme des bavardages au plus offrant. Dans toute armée disciplinée, ils seraient exécutés pour ce comportement, et nous avons donné des assurances en ce sens à la population locale. Heureusement, grâce à notre code de conduite et aux réactions rapides d'un commandant moins tolérant, la majorité de ces soldats ont été empêchés et attendent d'être punis"
-fengtian.272.a: "Outrageux !"
+ fengtian.272.a: "C'est scandaleux !"
 
 fengtian.273.t: "Profanation dans le comté de Yi"
 fengtian.273.d_bad: "Des nouvelles alarmantes sont apparues dans le comté de Yi, dans la province de Zhili, où un certain nombre de soldats de l'armée fengtienne ont fait sauter l'entrée de plusieurs tombes Qing occidentales. Depuis la vulgaire profanation du lieu de repos de l'impératrice douairière Cixi en 1928, par le subordonné indirect de Zhang, Sun Dianying, ce sujet a été utilisé pour nuire à la réputation du Grand Maréchal dans certains milieux. Avec ce nouvel épisode, si semblable au précédent, il n'y aura peut-être pas de véritable rétablissement. Le montant exact des richesses volées dans les tombes n'est pas clair, mais les soldats impliqués ont disparu dans les roseaux le long du lac Baiyangdian, et la majorité d'entre eux se retrouveront probablement bientôt sur le marché noir"
@@ -2299,7 +2271,7 @@ fengtian.287.d: "Zhang Zuolin a annoncé son intention de se retirer de son post
 fengtian.289.t: "Un sinistre complot"
  fengtian.289.d: "Un avis inhabituel a été porté à l'attention du gouvernement, transmis par Kenji Doihara, dont les opérations clandestines sont bien connues dans nos cercles de renseignement. Apparemment, Yang Yuting, un général influent et notamment pro-japonais au sein de l'armée fengtienne, prépare le renversement et l'assassinat de Zhang Zuolin. Cette initiative semble avoir été stimulée par la décision de Zhang d'accorder la présidence à son fils, ce qui reflète peut-être simplement des querelles entre factions, mais cette nomination est déjà préoccupante pour beaucoup au sein du ministère de la Guerre. Les sentiments antijaponais de Zhang Xueliang sont bien connus, et s'il s'empare d'un quelconque pouvoir réel, il pourrait y avoir des conséquences sur nos relations avec le gouvernement Fengtian, et sur nos plans à long terme pour la Chine dans son ensemble.\nNous pourrions choisir de soutenir la prise de pouvoir de Yang Yuting, et il est un ami bien connu du Japon. D'un autre côté, certains membres du ministère des affaires étrangères conseillent la prudence et prétendent que toute cette opération est le résultat d'une ingérence de nos propres unités basées en Mandchourie. On sait depuis longtemps que l'armée du Kwantung a des penchants bien plus affirmés en matière de politique étrangère que le gouvernement de Tokyo"
 fengtian.289.a: "Leur fournir une assistance secrète."
-fengtian.289.b: "C'est trop dangereux."
+ fengtian.289.b: "C'est trop dangereux"
 
 fengtian.290.t: "Embuscade à Shenyang !"
  fengtian.290.d: "Au milieu d'une rue animée de Shenyang, la voiture blindée sur mesure de Zhang Zuolin a soudain été prise pour cible alors qu'une petite bombe explosait sous ses roues. Le véhicule a été violemment projeté vers le haut, puis s'est écrasé dans une boutique de tailleur voisine. Une fusillade s'est immédiatement déclenchée lorsque des embusqueurs des deux côtés de la rue ont commencé à ouvrir le feu sur les occupants survivants de la voiture, et au moment où les renforts sont arrivés près de quinze minutes plus tard, son propriétaire avait subi diverses brûlures et blessures par éclats et balles. La vie de Zhang Zuolin est maintenant en jeu"
@@ -2359,7 +2331,7 @@ fengtian.300.d: "Tous nos efforts en Mandchourie ont porté leurs fruits. Avec Z
 
  fengtian.301.t: "La Fin du Fengtian"
  fengtian.301.d: "La situation en Mandchourie semble désastreuse. Avec la mort de Zhang, le Gouvernement Fengtian s'est essentiellement effondré sur lui-même, et si nous n'intervenons pas, ses ennemis vont bientôt les envahir, invalidant tout notre travail pour sécuriser la Mandchourie. Cette région est notre ligne de vie nationale, notre garantie contre l'hégémonie occidentale, et elle est sous notre protection.."
-fengtian.301.a: "Envoyer un ultimatum !"
+ fengtian.301.a: "Envoyez un ultimatum !"
 
 fengtian.302.t: "Le Japon envoie un ultimatum"
  fengtian.302.d: "Le Japon nous a envoyé un ultimatum - cesser toutes les hostilités contre [FNG.GetName], ou faire face à la guerre avec l'Empire. La Mandchourie a longtemps été au premier plan de la stratégie nationale du Japon, et il est peu probable qu'ils fassent marche arrière."
@@ -2398,7 +2370,7 @@ fengtian.309.a: "Ce sera fait"
 
  fengtian.310.t: "[FNG.GetLeader] demande de l'aide contre les bandits"
  fengtian.310.d: "La Mandchourie a longtemps été la proie des bandits, en particulier à sa frontière nord, peu peuplée. Une certaine part de cette activité est considérée comme normale, mais apparemment [FNG.GetLeader] a demandé notre aide pour faire face à un groupe de bandits particulièrement frustrant. L'armée du Kwantung a recommandé de déployer un contingent de sa garde ferroviaire de Mandchourie du Sud, mais le ministère des affaires étrangères estime qu'un engagement aussi important risque de provoquer un incident imprévu. Nos troupes sont connues pour tirer d'abord et poser des questions ensuite. D'autres demandent pourquoi nous devrions nous impliquer dans quelque chose qui, après tout, devrait être la responsabilité de [FNG.GetLeader]."
- fengtian.310.a: "Déployer la garde des chemins de fer"
+ fengtian.310.a: "Déployer la Garde Ferroviaire"
  fengtian.310.b: "Fournir des armes et de la reconnaissance"
  fengtian.310.c: "C'est indigne de nous"
 
@@ -2417,7 +2389,7 @@ fengtian.309.a: "Ce sera fait"
 
  fengtian.314.t: "Le Japon fournit des armes et de la reconnaissance"
  fengtian.314.d: "En réponse à notre demande d'aide pour résoudre notre problème de bandits, l'armée du Kwantung a livré un mélange d'armes et d'autres fournitures pour aider nos efforts. Le plus utile de tout est leur offre de faire une série de vols de reconnaissance au-dessus de [GetHonghuziLocation], car leur optique aérienne est bien en avance sur la nôtre. Cela devrait considérablement augmenter les chances de succès de notre expédition."
- fengtian.314.a: "Bonne nouvelle !"
+ fengtian.314.a: "Excellentes nouvelles !"
 
  fengtian.315.t: "Le Japon refuse de s'impliquer"
  fengtian.315.d: "Les Japonais ont refusé toute participation à nos opérations anti-bandits, considérant que la question était "indigne d'eux". Devrions-nous quand même procéder ?"
@@ -2533,7 +2505,7 @@ fengtian.309.a: "Ce sera fait"
  fngpolitic.1.d_Huang_hog: "Convaincue de leur influence croissante au sein du gouvernement, la Ligue pour la Reconquête a proposé Pan Fu, notre actuel président de l'Assemblée et chef du gouvernement, pour remplacer notre actuel ministre des affaires étrangères. Il n'est pas rare que des hommes politiques et des chefs de guerre particulièrement puissants consolident leur pouvoir en occupant plusieurs postes, et sa réputation d'homme de caractère le rend bien adapté pour détourner les soupçons et les accusations de détournement de pouvoir. Néanmoins, ses valeurs républicaines résolues ont fait de sa relation avec le Grand Maréchal une relation de coopération contre des ennemis mutuels, et il réagira sans aucun doute mal à la poursuite de la consolidation des pouvoirs déjà étendus du Grand Maréchal.\n\nLa proéminence de Huang et l'importance du ministère des affaires étrangères pour la Ligue pour la Reconquête signifient qu'ils vont se battre pour qu'il obtienne le poste, mais la décision finale sera prise par le Grand Maréchal."
 fngpolitic.1.a: "Nommer Wu."
 fngpolitic.1.b: "Nommer Chang."
- fngpolitic.1.c:9 "Nommer Huang."
+ fngpolitic.1.c:9 "Nommer Pan."
 fngpolitic.1.e: "Refuser la nomination."
 
  fngpolitic.2.t: "La Ligue pour la Reconquête nomme un nouveau Ministre de l'Économie"
@@ -2553,7 +2525,7 @@ fngpolitic.4.t: "La Clique des communications nomme un nouveau ministre de l'éc
  fngpolitic.4.d_Lu:9 "Grâce à leur force croissante au sein du gouvernement, la Clique des communications a nommé Lu Ronghuan au poste de ministre de l'économie. Originaire de la province Fengtienne, Lu a supervisé la vente de la partie d'Extrême Orient Russe du Chemin de fer chinois de l'Est à Fengtian en 1927, et a été président du conseil d'administration depuis lors, ce qui fait de lui une figure importante de l'opposition à Mantetsu, tout en lui permettant d'accumuler une grande richesse personnelle.\n\nLes liens étendus de la Clique des communications avec les ministères du Commerce et des Finances rendent cette nomination relativement facile, et la transition en douceur, laissant au Grand Maréchal le seul choix d'approuver ou non la nomination"
 fngpolitic.4.d_Li: "Grâce à leur force croissante au sein du gouvernement, la Clique des communications a nommé Li Shaogeng au poste de ministre de l'économie. Accordé le rôle de directeur de la Chinese Eastern Railway en 1929, Li n'a jamais été particulièrement franc ou charismatique, mais il entretient un réseau complexe de voies détournées et d'accords secrets avec des fonctionnaires et des bureaucrates de bas niveau dans tout le Nord-Est. Ses relations les plus importantes, cependant, sont avec les syndicats des chemins de fer, qui travaillent avec la Clique des communications pour s'opposer à Mantetsu et à l'influence japonaise en échange de droits, d'avantages et de contrôle sur le lieu de travail.\nLi est connu pour être silencieusement compétent, mais le Grand Maréchal peut toujours choisir d'empêcher la nomination"
 fngpolitic.4.a: "Nommez Lu."
-fngpolitic.4.b: "Nommez Li."
+ fngpolitic.4.b: "Nommer Li."
 fngpolitic.4.c: "Refuser la nomination."
 
 fngpolitic.5.t: "La Clique des communications nomme un nouveau ministre des affaires étrangères"
@@ -2581,10 +2553,10 @@ fngpolitic.6.e: "Refuser la nomination."
 fngpolitic.8.d_Yuan: "Grâce à leur pouvoir croissant au sein du gouvernement, la Clique Zhang a décidé de nommer Yuan Jinkai au poste de ministre de l'Intérieur. Contrairement à beaucoup de membres de sa faction, Yuan est autant un bureaucrate qu'un soldat, avec une expérience dans la gestion de la logistique dans le Heilongjiang, et sa position au conseil d'administration de la Chinese Eastern Railway lui donne des liens et une rivalité avec la Clique des Communications. Alors que lui et sa faction proclament une loyauté absolue au Grand Maréchal, plus ils détiennent de pouvoir, plus les autres factions s'agitent, donnant au moins une raison à Zhang de refuser éventuellement de nommer Yuan."
 fngpolitic.8.d_Ma: "Grâce à leur pouvoir croissant au sein du gouvernement, la clique Zhang a décidé de nommer Ma Zhanshan au poste de ministre de l'Intérieur. En tant que "diplômé de l'Université de la forêt verte", Ma partage un lien avec Zhang Zuolin, et ses talents de cavalier et de tireur d'élite ont fait de lui une légende populaire. Cependant, ce même passé l'a laissé illettré, particulièrement hostile aux Japonais, et sans aucune formation militaire formelle. Déjà, des membres des autres factions ont exprimé leurs plaintes concernant le placement d'un "seigneur bandit" au sein du cabinet, y compris certains autres membres de la Clique Zhang, et il semble clair que la nomination a été obtenue par le patron de Ma, Wu Junsheng."
  fngpolitic.8.d_Tang: "Grâce à leur pouvoir croissant au sein du gouvernement, la Clique Zhang a décidé de nommer Tang Yulin au poste de ministre de l'Intérieur. Gouverneur de Rehe, et a promis la domination de Chahar avant que ses forces n'en soient chassées par la cavalerie mongole à la fin de la dernière guerre de Zhifeng, Tang est connu pour être une sorte de bavure administrative, et son soutien à la restauration des Qing de 1917 l'a rendu impopulaire dans certains milieux. En conséquence, sa nomination semble être le résultat de la politique interne de la Clique, ou simplement de pots-de-vin bien placés financés par sa richesse considérable.\n\nA court de toute tentative malavisée d'ouvrir un conflit au sujet de Chahar, ou de tout embarras administratif, Tang se présente comme un ministre discret peu susceptible de susciter une concurrence politique. Bien sûr, le Grand Maréchal peut toujours refuser la nomination"
-fngpolitic.8.a: "Nommez Yuan."
+ fngpolitic.8.a: "Nomme Yuan."
 fngpolitic.8.b: "Nommez Ma."
 fngpolitic.8.c: "Nomme Tang."
-fngpolitic.8.e: "Refuser le rendez-vous."
+ fngpolitic.8.e: "Refuser la nomination."
 
  fngpolitic.10.t: "La Clique de Zhang nomme un nouveau Ministre de l'Économie"
 fngpolitic.10.d_Sun: "Bien que la plupart des membres de la Clique Zhang soient des militaires sans grande expérience dans la gestion d'une économie nationale, le poste de ministre de l'économie est toujours important pour leurs objectifs politiques et militaires à long terme, et c'est pourquoi Sun Qichang a été nommé pour remplacer l'actuel occupant du poste. Sun rompt cependant avec cette tendance, dans la mesure où il possède une expérience à la fois politique et administrative, principalement dans la province de Jilin sous Zang Shiyi. En tant que tel, il est susceptible de bien servir dans le rôle, bien que beaucoup seront mécontents qu'un membre de sa faction le détienne. La décision revient au Grand Maréchal."
@@ -2608,7 +2580,7 @@ fngpolitic.11.c: "Refuser la nomination."
 fngpolitic.12.t: "L'Association Concordia nomme un nouveau ministre de l'économie"
  fngpolitic.12.d_Ruan: "Grâce à son influence croissante au sein du gouvernement, l'Association Concordia a nommé Ruan Zhenduo au poste de ministre de l'économie. Bien qu'il ait une formation de médecin et non d'économiste, les liens étroits que Ruan entretient avec les Japonais dans le domaine médical ont conduit à son ascension fulgurante en politique, et il est désormais le principal intermédiaire entre le ministère japonais des affaires étrangères et l'Association Concordia. Bien que son manque d'expérience en économie soit préoccupant, Ruan est connu pour sa diligence, et la gestion des événements de Fengtian par le ministère japonais des Affaires étrangères est nettement plus prudente que celle de Mantetsu ou de l'armée du Kwantung."
  fngpolitic.12.d_Yu: "Grâce à leur influence croissante au sein du gouvernement, l'Association Concordia a nommé Yu Zhishan au poste de ministre de l'économie. Officier de l'Armée de terre de part en part, Yu adopte une approche pragmatique de la position de Fengtian visa-vis du Japon, considérant que c'est le seul moyen pour Fengtian de vaincre le Sud, et pour la Chine dans son ensemble de conserver son identité face à la domination occidentale. Avec une grande expérience de la gestion des lignes d'approvisionnement et de la production d'armes pendant la guerre, Yu est susceptible de mener une politique mettant l'accent sur l'industrialisation militaire, en alignant étroitement sa position sur les intérêts de l'armée du Kwantung.\nLa décision finale revient au Grand Maréchal"
-fngpolitic.12.a: "Nommez Ruan."
+ fngpolitic.12.a: "Nommer Ruan."
 fngpolitic.12.b: "Nommez Yu."
 fngpolitic.12.c: "Refuser la nomination."
 
@@ -2663,7 +2635,7 @@ fngpolitic.28.t.minor: "Protestations antijaponaises"
 fngpolitic.28.d.minor: "Furieux de la mainmise croissante du Japon sur notre pays, des protestations ont éclaté à Shenyang, Harbin et Changchun. Des unités de la police et de l'armée sont déjà sur place pour contenir les protestations, mais le mal est déjà fait"
 fngpolitic.28.t.major: "Protestations antijaponaises majeures"
  fngpolitic.28.d.major: "Fâchés par l'écrasante mainmise du Japon et de Mantetsu sur notre pays, des protestations ont éclaté dans tout le pays. Des unités de police et de l'armée sont déjà sur place, mais elles ne semblent pas vouloir vraiment presser les foules. Bien que les manifestations devraient s'apaiser dans quelques jours, il semble peu probable qu'elles se terminent à moins de changements majeurs."
-fngpolitic.28.a: "Malheureux"
+ fngpolitic.28.a: "C'est Regrettable."
 
 fngpolitic.29.t: "Influence rampante de Mantetsu"
 fngpolitic.29.d: "Comme il l'a fait pendant des années, Mantetsu poursuit ses efforts, lents mais sûrs, pour dominer notre économie, en investissant dans les entreprises, en rachetant d'autres et en se diversifiant dans le secteur industriel. \N Avec suffisamment de temps, il semble que le pays tout entier pourrait être englouti, à moins qu'une rupture définitive et décisive ne soit faite avec le Japon."
@@ -2706,7 +2678,7 @@ fngshen.4.b: "Ne vous donnez pas la peine"
  fngshen.5.d.no_allies: "Aujourd'hui, nous avons reçu un message de [FROM.GetNameDef] nous faisant part de son souhait de discuter d'une éventuelle coopération contre [QIE.GetNameDef]. Bien que nous ne soyons pas d'accord sur de nombreux points, nous pouvons peut-être attribuer leur ton plus accueillant à l'isolement plus large qu'ils connaissent. Compte tenu de leur manque d'alliés dans la région, leur présence nous permettrait de les encourager à accepter des réformes dont ils ont cruellement besoin en échange de notre aide. Comment devrions-nous répondre ?"
  fngshen.5.d.conference: "Dans un développement plutôt surprenant, [FROM.GetNonIdeologyNameDef] nous a invités à assister à leur conférence à Shenyang. Leur objectif est de créer une large coalition contre [QIE.GetNameDef]. Jusqu'à présent, ils semblent avoir réussi à rallier les autres chefs de guerre à leur cause. Si nous étions présents, nous pourrions peut-être les convaincre d'entreprendre certaines réformes indispensables. Comment devons-nous répondre à leur invitation ?"
 fngshen.5.a: "Très bien, allons à Shenyang."
-fngshen.5.b: "Nous n'avons pas confiance en eux."
+ fngshen.5.b: "Nous ne leur faisons pas confiance."
 
  fngshen.6.t.accepted: "[From.GetNonIdeologyNameDefCap] accepte la Conférence"
 fngshen.6.d.accepted: "Bonne nouvelle ! [From.GetLeader] a répondu à notre invitation à participer à la conférence de Shenyang. Il a accepté de participer à la conférence et nous devrions nous attendre à l'arrivée d'une délégation fédéraliste dans un avenir proche"
@@ -2714,7 +2686,7 @@ fngshen.6.a: "Excellent."
 
  fngshen.6.t.refused: "[From.GetNonIdeologyNameDefCap] refuse notre offre"
 fngshen.6.d.refused: "Sans surprise, [From.GetLeader] a refusé notre branche d'olivier. Dans la lettre qu'il a envoyée en réponse à notre invitation, il a cité l'influence japonaise comme raison principale, affirmant qu'il doutait de notre capacité à parler pour nous-mêmes plutôt que de simplement faire les enchères de Tokyo"
-fngshen.6.b: "Leur perte"
+ fngshen.6.b: "Leur perte."
 
 fngshen.7.t: "Début de la conférence de Shenyang"
  fngshen.7.d: "Les délégués sont arrivés à Shenyang pour discuter de l'initiative de [From.GetNonIdeologyNameDef] contre le régime. Une brève cérémonie d'ouverture a eu lieu, avec en point d'orgue un discours d'introduction de Zhang Zuolin. Tout le monde est de bonne humeur, même si personne ne doute des défis diplomatiques qui nous attendent."
@@ -2779,7 +2751,7 @@ fngshen.19.a: "Que peut-on attendre d'une marionnette japonaise ?"
 
 fngshen.20.t: "[From.GetNonIdeologyNameDef] Refuse de dénoncer les concessions"
 fngshen.20.d: "Malgré tous nos efforts, nos délégués n'ont pas réussi à convaincre Zuolin de s'opposer aux concessions. Nous ne laisserons pas cela passer à la légère, mais nous ne devons pas commettre d'actions irréfléchies et dénoncer immédiatement Zuolin. Examinons les facteurs et décidons si nous devons ou non nous joindre à Zuolin dans sa guerre de revendication contre Beijing."
-fngshen.20.a: "C'est regrettable."
+ fngshen.20.a: "C'est Regrettable."
 
 fngshen.21.t: "Tiaoyuan décide de sa position"
 fngshen.21.d: "La position de [FNG.GetNonIdeologyNameDef] sur la question des concessionnaires a fortement irrité Chen Tiaoyuan de [ANQ.GetNonIdeologyNameDef]. Cependant, les délégués de [ANQ.GetNonIdeologyNameDef] nous ont informés que la décision de se joindre ou non à notre guerre contre Beijing et de conclure une alliance avec nous n'a pas encore été prise. Nous attendons avec impatience leur réponse finale."
@@ -2887,7 +2859,7 @@ fngconf.1.b: "Seule l'épée peut unir la Chine !"
 fngconf.2.t: "Assister à la conférence de réunification nationale ?"
  fngconf.2.d: "Après s'être emparé de Beijing et avoir hissé le drapeau des cinq couleurs au-dessus de ses murs, le gouvernement fengtien a fait son premier grand pas vers la "reconquête" de la Chine, et a repris son rôle de candidat actif à la direction nationale. Son chef, le maréchal Zhang Zuolin, a appelé à une conférence nationale pour discuter de ce qu'il appelle "l'unification pacifique de la Chine" Les partisans de cette notion mettent l'accent sur l'unité face à l'impérialisme occidental, alors que les détracteurs citent tout, de la dépendance de Zuolin au soutien japonais à la structure même du gouvernement Fengtian.\nLes désaccords et les disputes passés mis à part, le fait que les vents soufflent dans la direction de Zhang Zuolin signifie que nous ne perdrions pas la face en y assistant, mais que le simple fait d'y assister pourrait lui conférer une légitimité"
 fngconf.2.a: "Oui, nous y assisterons."
-fngconf.2.b: "C'est une perte de temps."
+ fngconf.2.b: "C'est une perte de temps.."
 
 FNG_betrayal_tooltip: "§REn tant qu'allié déclaré de Fengtian, ne pas assister à la conférence équivaudra à abandonner Fengtian.§!"
 
@@ -2921,11 +2893,11 @@ fngconf.7.b: "Ne vous donnez pas la peine"
 
 fngconf.8.t: "Le Japon dépose une plainte"
 fngconf.8.d: "Un fonctionnaire de l'ambassade du Japon à Shenyang a déposé une plainte officielle au nom du gouvernement de Tokyo, exprimant son mécontentement face à notre décision d'inviter des éléments "radicaux" à la conférence. Il a fait remarquer que le Japon espère que cette "erreur" n'entraînera pas de perturbations dans les relations sino-japonaises, par ailleurs "cordiales" Quoi qu'il en soit, nous poursuivrons les choses comme prévu"
-fngconf.8.a: "Qu'ils crient"
+ fngconf.8.a: "Laissez les se plaindre."
 
 fngconf.9.t.conference: "Les délégués arrivent "
 fngconf.9.d.conference: "Les déléguations du [FNG_conference_participant_0][FNG_conference_participant_1][FNG_conference_participant_2][FNG_conference_participant_3][FNG_conference_participant_4][FNG_conference_participant_5][FNG_conference_participant_6][FNG_conference_participant_7][FNG_conference_participant_8][FNG_conference_participant_9][FNG_conference_participant_10][FNG_conference_participant_11][FNG_conference_participant_12][FNG_conference_participant_13][FNG_conference_participant_14][FNG_conference_participant_15][FNG_conference_participant_16][FNG_conference_participant_17][FNG_conference_participant_18][FNG_conference_participant_19] sont arrivés à Beijing pour la conférence d'unification."
-fngconf.9.a: "Soyez les bienvenus !"
+ fngconf.9.a: "Bienvenue ! "
 
 fngconf.9.t.conference_fails: "Un rêve brisé"
 fngconf.9.d.conference_fails: "La conférence d'unification prévue échoue avant même de pouvoir commencer, car la plupart des Chinois ont refusé de s'engager dans la diplomatie avec Fengtian."
@@ -2937,13 +2909,14 @@ fngconf.10.a: "Commençons"
 
 fngconf.11.t: "Le discours de Tiaoyuan"
 fngconf.11.d: "À Beijing, l'un des moments clés de l'agenda d'aujourd'hui a été le discours de Chen Tiaoyuan, l'ancien gouverneur de la province d'Anhui qui s'est fait remarquer lors de l'effondrement de la Ligue des huit provinces. Il a félicité les efforts du gouvernement Fengtian sous [FNG.GetLeader] pour résister à l'impérialisme allemand, ainsi que leurs nombreux laquais qui font passer les intérêts des étrangers avant ceux des Chinois, mais a averti qu'il s'attendait à la même résistance obstinée contre tout autre agresseur étranger. Le discours a été applaudi dans tous les coins de la salle, bien que certains aient interprété le discours comme une critique subtile des liens de Zhang Zuolin avec les Japonais"
-fngconf.11.a: "Bien parlé"
+ fngconf.11.a: "Bien dit."
 
 fngconf.12.t: "Question de la Constitution"
 fngconf.12.d.federalist: "Au début de la conférence, le premier ordre du jour était la proposition de création d'une nouvelle constitution. Cette proposition énoncerait clairement les droits et les pouvoirs accordés au peuple et au gouvernement, mais tout le monde n'est pas satisfait. Chen Jiongming s'est montré, comme on pouvait s'y attendre, critique à fond de la proposition sous sa forme actuelle, qui, selon lui, accorderait trop de pouvoirs à l'exécutif de la nation. Il préférerait plutôt la restauration de la constitution de 1923, suspendue, qui est largement considérée comme la plus libérale de Chine à ce jour. Le bloc fédéraliste s'est rapidement aligné derrière Chen, et cela restera sans doute une question épineuse au cours de la conférence"
 fngconf.12.d.no_federalist: "Au début de la conférence, le premier ordre du jour était la proposition de création d'une nouvelle constitution. Ce n'est peut-être pas ce que tout le monde voulait, mais il semble que tout le monde puisse être d'accord, ou du moins l'accepter, car elle définit clairement les droits, les pouvoirs et les limites fixés aux branches du gouvernement. Après un certain débat et quelques propositions d'amendements, il semble qu'elle fasse l'objet d'un large consensus. Certains commentateurs ont noté que la relative sérénité affichée est le signe que peu d'entre eux envisagent de suivre les principes actuels de la constitution à long terme"
 fngconf.12.a: "Le débat commence."
-fngconf.12.b: "Intéressant."
+ fngconf.12.b:9 "Intéressant."
+ fngconf.12.c:0 "Intéressant."
 
 fngconf.13.t: "Désaccords avec les fédéralistes"
  fngconf.13.d: "Les désaccords sur la constitution ont été au centre de la conférence pratiquement depuis son début, et maintenant les Fédéralistes ont été rejoints par d'autres délégués qui, bien qu'ils ne partagent pas les mêmes préoccupations que les Fédéralistes, ont profité de cette occasion pour obtenir que certaines de leurs préoccupations plus mineures soient prises en compte.\nAlors qu'ils auraient probablement accepté le projet de constitution tel qu'il était, l'opposition farouche des fédéralistes sur cette question leur a permis d'unir leurs forces et de former un bloc d'opposition important, bien qu'informel, dans les salles de conférence, suffisamment grand pour tenir le reste de la conférence. Il semblerait que les procédures soient au point mort jusqu'à ce que l'une ou l'autre des parties bouge ou propose un compromis"
@@ -2966,8 +2939,8 @@ fngconf.15.d.rejected_feds: "Avec le refus des Fengtiens de bouger sur l'applica
 fngconf.15.d.betrayed: "Malgré leurs différences, un compromis entre les fédéralistes de Zhang Zuolin et de Chen Jiongming aurait pu être possible, mais il ne l'a pas été. Ironiquement, le point de discorde n'était pas idéologique sous quelque forme que ce soit, mais plutôt territorial. Fengtian a promis un territoire fédéraliste à un autre demandeur, espérant l'amener à bord, mais ce faisant, Zhang a involontairement détruit toute bonne volonté entre lui et ses partenaires de négociation fédéralistes. Furieux, ils sont déjà en route pour quitter la ville." #Non-Federalist POV
  #Federalist POV:
 fngconf.15.d.betrayed_feds: "Malgré nos divergences, un compromis avec le gouvernement fengtien de Zhang Zuolin aurait pu être possible. Mais il est maintenant clair que de tels rêves n'ont tout simplement jamais été réalisés. Dans un acte de trahison effronté, Zhang a promis des portions de notre territoire à un autre demandeur, et ce faisant, il ne s'est pas montré meilleur que tout autre chef de guerre prédateur. Nous ne pouvons accepter une telle insulte, et nos délégués prévoient déjà de quitter la conférence demain." #Federalist POV
-fngconf.15.a: "C'est leur perte."
-fngconf.15.b: "Cela n'est pas de bon augure."
+ fngconf.15.a: "Leur perte."
+ fngconf.15.b: "Cela n'augure rien de bon."
 
  fngconf.16.t: "Song Qingling prend la parole"
  fngconf.16.d: "Sa présence même à la conférence étant controversée, le discours de la luminaire du Kuomintang allait inévitablement attirer beaucoup d'attention. Malgré la défaite totale de son organisation sur le plan militaire, l'héritage de son défunt mari porte toujours en lui la sympathie de nombreux républicains et intellectuels à travers le pays, ce qui fait de son soutien un bien précieux - surtout pour Zhang Zuolin, qui continue à rechercher une légitimité extérieure. Comme on pouvait s'y attendre, Song Qingling a dénoncé l'incapacité des régimes précédents à répondre aux véritables besoins et désirs de la population, et a déclaré que tout gouvernement chinois véritablement légitime doit réussir là où ses prédécesseurs ont échoué. Ses paroles ont été accueillies par des applaudissements polis de la part des autres délégués, mais il ne fait aucun doute que les réformes qu'elle a proposées seront controversées par les délégués les plus conservateurs"
@@ -2997,7 +2970,7 @@ fngconf.19.b: "Le Japon pourrait ne pas aimer ça..."
 
 fngconf.20.t: "Le débat anti-concessionniste"
 fngconf.20.d: "Bien qu'ils ne voient pas toujours les choses du même œil, le thème de l'anticoncessionnisme a réuni les deux Chens de la conférence. Le Chen Tiaoyuan d'Anqing et le fédéraliste Chen Jiongming ont trouvé un terrain d'entente dans leur opposition aux concessions et ont formé un bloc uni. Mené par ces deux voix fortes, le camp anti-concessionniste a fait une très forte apparition dans les débats, gagnant à son côté de nombreux délégués non engagés"
-fngconf.20.a: "Cela pourrait être un problème."
+ fngconf.20.a: "Cela pourrait poser un problème"
 fngconf.20.b: "Un autre débat animé ?"
 
 fngconf.21.t: "La chanson soutient l'anticoncessionnisme"
@@ -3014,7 +2987,7 @@ fngconf.22.c: "Un point de non-retour."
 fngconf.23.t: "Danger dans la Conférence de Beijing"
  fngconf.23.d: "Dans un spectacle des plus honteux, Zhang Zuolin a cédé à la pression des forces anti-étrangères en Chine. En dénonçant nos efforts bienveillants pour protéger et élever la Chine face à l'impérialisme occidental, Zhang a montré son vrai visage. Cette impertinence, cette insolence face à notre coopération militaire et économique de longue date est une insulte sans pareille ! Malgré les avertissements de certains au sein du ministère des affaires étrangères contre une réponse précipitée, de larges pans de l'establishment militaire et politique exigent une réponse immédiate, certains partisans de la ligne dure insistant même pour que nous utilisions l'influence qui nous reste pour envoyer à Zhang un ultimatum le forçant à faire marche arrière."
 fngconf.23.a: "Exigez qu'ils fassent marche arrière."
-fngconf.23.b: "Ne rien faire pour l'instant."
+ fngconf.23.b: "Ne faites rien pour l'instant."
 
 fngconf.24.t: "Une lettre forte"
 fngconf.24.d: "Il n'a pas fallu longtemps à Tokyo pour répondre à notre décision de nous ranger du côté des anticoncessionnaires. Une lettre est arrivée de l'ambassade du Japon demandant que nous fassions immédiatement marche arrière sur notre nouvelle position anti-concessionniste, et que nous fassions immédiatement des excuses publiques pour notre "insolence honteuse"\nSi nous n'acceptons pas, la réponse de Tokyo sera probablement cinglante. Mais si nous faisons marche arrière maintenant, il n'y a pas une âme en Chine qui verra cela autrement qu'une trahison aux intérêts étrangers"
@@ -3025,7 +2998,7 @@ fngconf.25.t: "Zhang Zuolin recule"
 fngconf.25.d: "Voyant enfin la raison, Zhang Zuolin a fait marche arrière face à nos justes exigences pour qu'il cesse sa lâche trahison de nos intérêts communs en Chine. Bien que cela puisse rendre les choses plus difficiles pour lui sur le plan politique en Chine, nous ne pourrions jamais permettre la subversion de nos objectifs plus larges, qui prennent en compte le destin de toute l'Asie de l'Est"
 fngconf.25.a: "Nous devrons garder un oeil sur lui."
 
- fngconf.26.t: "Fengtian fait marche arrière"
+ fngconf.26.t: "Fengtian  fait marche arrière"
  fngconf.26.d: "Alors qu'il semblait que Zhang Zuolin avait pris la décision courageuse de résister à l'impérialisme japonais en dénonçant les concessions étrangères comme nous l'avions demandé, il a maintenant fait marche arrière. Nous aurions dû nous attendre à ce genre de comportement à double visage de la part d'un ancien bandit, et maintenant il est allé jusqu'à présenter des excuses publiques à l'empereur du Japon ! En réalité, il a choisi la voie de la lâcheté et de l'infamie, à laquelle il sera sans doute condamné jusqu'à la fin de ses jours. Si Zhang ne peut pas arracher la main du Japon, nous devrons le faire pour lui. Il ne peut y avoir d'autre réponse à cet outrage que de quitter la conférence dans son intégralité"
 fngconf.26.a: "Il a toujours été la marionnette du Japon !"
 
@@ -3035,7 +3008,7 @@ fngconf.27.d.feds: "Alors qu'il semblait que Zhang Zuolin avait pris la décisio
 fngconf.27.d.feds_own_song: "Considérant la honteuse prosternation de Zhang Zuolin devant les Japonais, le temps est venu pour notre délégation à Beijing de faire ses valises et de partir. Toute la conférence d'unification n'a été qu'une farce, et une scène pour Zhang Zuolin, qui a étalé ses victoires militaires dans une vaine tentative de surmonter ses origines de bandit. Maintenant, la Chine doit être unifiée par l'épée, et déjà d'autres s'alignent derrière nous pour le faire. Song Qingling et un certain nombre d'autres délégués ont déjà déclaré leur intention de suivre nos traces"
 fngconf.27.d.feds_own: "Considérant la honteuse prosternation de Zhang Zuolin devant les Japonais, le temps est venu pour notre délégation à Beijing de faire ses valises et de partir. Toute la conférence d'unification n'a été qu'une farce, et une scène pour Zhang Zuolin, qui a étalé ses victoires militaires dans une vaine tentative de surmonter ses origines de bandit. Maintenant, la Chine doit être unifiée par l'épée"
 fngconf.27.a: "À quoi pensait-il ?"
-fngconf.27.b: "Qu'il en soit ainsi."
+ fngconf.27.b: "Qu'il en soit ainsi"
 
  fngconf.28.t: "Fengtian  fait marche arrière"
  fngconf.28.d.feds: "Alors qu'il semblait que Zhang Zuolin avait pris la décision courageuse de résister à l'impérialisme japonais en dénonçant les concessions étrangères comme nous l'avions demandé, il a maintenant fait marche arrière. Nous aurions dû nous attendre à ce genre de comportement à double visage de la part d'un ancien bandit, et maintenant il est allé jusqu'à présenter des excuses publiques à l'empereur du Japon ! Cela nous met dans une position difficile, car l'anti-concessionnisme a constitué le noyau de notre crédibilité auprès du peuple, mais Fengtian a été notre principal sponsor. Les fédéralistes de Chen Jiongming ont déjà dénoncé cette démarche et déclaré leur intention de quitter la conférence. La pression monte maintenant sur nous pour que nous fassions de même"
@@ -3047,7 +3020,7 @@ fngconf.29.t: "Chen Tiaoyuan dénonce Zhang Zuolin"
 fngconf.29.d.ANQ_song: "Chen Tiaoyuan, dont l'ascension en Chine orientale est due en grande partie à sa populaire plate-forme anti-concessionniste, est devenu, comme on pouvait s'y attendre, un critique virulent des récentes excuses de Zhang Zuolin aux Japonais. Toutefois, à la surprise générale, ses déclarations ont dégénéré en une dénonciation à fond, couronnée par une déclaration selon laquelle il a l'intention de quitter complètement la Conférence de réunification nationale. Song Qingling ayant déjà déclaré son intention de partir, c'est un coup dur pour le pouvoir et le prestige de Fengtian, qui prive Zhang d'un allié clé et amène beaucoup de gens à mettre en doute la validité de la conférence. Les derniers partisans de Zhang se sont empressés de souligner que Chen doit également sa position à l'aide de Fengtian, et de mettre ce désastre sur le compte des machinations de la radicale Song - une impératrice Nanfeng pour une nouvelle ère"
 fngconf.29.d.ANQ: "Chen Tiaoyuan, dont l'ascendant en Chine orientale est dû en grande partie à sa plate-forme anti-concessionniste populaire, est devenu, comme on pouvait s'y attendre, un critique virulent des récentes excuses de Zhang Zuolin aux Japonais. Toutefois, à la surprise générale, ses déclarations ont dégénéré en une dénonciation à fond, couronnée par une déclaration selon laquelle il a l'intention de quitter complètement la Conférence de réunification nationale. C'est un coup dur pour le pouvoir et le prestige de Fengtian, qui prive Zhang d'un allié clé et amène beaucoup de gens à remettre en question la validité de la conférence"
 fngconf.29.a: "Ce bâtard ingrat !"
-fngconf.29.b: "Troublant"
+ fngconf.29.b: "Inquiétant."
 
 fngconf.30.t: "La fureur d'Anqing"
 fngconf.30.d: "Chen Tiaoyuan, dont l'ascension en Chine orientale est due en grande partie à sa plate-forme anti-concessionniste populaire, est devenu, comme on pouvait s'y attendre, un critique virulent des récentes excuses de Zhang Zuolin aux Japonais. Cependant, il n'a pas choisi de quitter complètement la conférence, ce qui a été interprété par la plupart des participants comme un signe qu'il s'agissait en fin de compte d'une mesure pour sauver la face et de peu de choses. Fengtian a été le principal sponsor de Chen, et se séparer de son parapluie protecteur laisserait non seulement Anqing à la dérive, mais aussi ses vastes régions côtières vulnérables à une invasion japonaise. Les mots de Chen sont féroces, mais pourraient finir par être plus écorcés que mordus."
@@ -3072,7 +3045,7 @@ fngconf.33.c: "Ne faites rien pour l'instant."
 
 fngconf.34.t: "Le Japon est silencieux"
 fngconf.34.d: "À la surprise générale, le Japon n'a pas réagi à notre refus de leur ultimatum et à une attitude qu'ils avaient qualifiée d'"impertinente" et d'"inacceptable" Peut-être le Japon a-t-il simplement peur de saper notre légitimité, espérant toujours que nous puissions lui servir de pont pour resserrer son emprise sur la Chine dans son ensemble. Ou peut-être que le Japon est un tigre de papier, et qu'il est bien plus faible que ce à quoi on s'attendait"
-fngconf.34.a: "Intéressant"
+ fngconf.34.a: "Intéressant."
 
 fngconf.35.t: "Mouvements de troupes suspects"
  fngconf.35.d:9 "Depuis notre confrontation récente avec le Japon, des rumeurs inquiétantes se sont répandues dans le Nord-Est sur une invasion japonaise imminente. Aujourd'hui, les observateurs de la province de Jilin semblent avoir trouvé confirmation en signalant des mouvements de troupes suspects sur la rive sud du fleuve Yalu. Nous devons envisager de renforcer immédiatement nos défenses pour faire face au coup qui s'annonce."
@@ -3087,8 +3060,8 @@ fngconf.36.a: "Pas de capitulation !"
  fngconf.37.a: "C'est la goutte d'eau qui fait déborder le vase, nous marchons vers le nord !"
  fngconf.37.b: "Ce n'est pas le bon moment, dites à l'armée d'attendre."
 
- fngconf.38.t:9 "Skirmish on the Yalu"
- fngconf.38.d:9 "With the recent souring in relations between [FNG.GetCapitalVictoryPointName] and Tokyo, tensions have finally boiled over. While specific details remain unclear, what remains certain is that a patrol from the Andong garrison encountered a contingent of the Japanese Chosen Army by the Yalu river and a short firefight ensued. The Japanese, convinced that our troops are at fault, have accused our government of instigating it.\n\n Regardless of how the skirmish may have started, the Japanese now have the perfect excuse to launch an invasion."
+ fngconf.38.t:9 "Escarmouche sur le Yalu"
+ fngconf.38.d:9 "Les relations s'étant récemment dégradées entre [FNG.GetCapitalVictoryPointName] et Tokyo, les tensions ont finalement atteint leur paroxysme. Les détails restent flous, mais nous sommes certains qu'une patrouille de la garnison d'Andong a rencontré un contingent de l'Armée japonaise près du fleuve Yalu, et qu'une courte fusillade s'en est suivie. Les Japonais, convaincus que nos troupes en sont la cause, ont accusé notre gouvernement de l'avoir fomenté.\n\nPeu importe la cause de l'escarmouche, les Japonais ont désormais l'excuse parfaite pour lancer une invasion."
  fngconf.38.a:9 "Nous attendrons leur réponse."
 
 fngconf.45.t: "Notre temps est venu de faire des revendications"
@@ -3115,8 +3088,8 @@ fngconf.47.a: "Excellent."
 
 fngconf.48.t: "[FNG_active_negotiations_target.GetNameDefCap] Demandes d'autonomie"
 fngconf.48.d: "[FNG_active_negotiations_target.GetNameDefCap] veut l'autonomie en échange du soutien au Fengtian."
-fngconf.48.a: "[Très bien]."
-fngconf.48.b: "Inacceptable."
+ fngconf.48.a: "Très bien."
+ fngconf.48.b: "Inacceptable"
 
 fngconf.49.t: "[From.GetNameDefCap] Accepte l'autonomie"
 fngconf.49.d: "[From.GetNameDefCap] nous a promis l'autonomie dans leur sphère en échange de notre soutien."
@@ -3124,17 +3097,17 @@ fngconf.49.a: "Excellent"
 
 fngconf.50.t: "[From.GetNameDefCap] Refuse l'autonomie"
 fngconf.50.d: "[From.GetNameDefCap] a refusé notre demande d'autonomie. Il nous a été demandé de clarifier notre position sur le fait de les soutenir ou non sans faire de demandes "irréalistes" et "injustifiées"
- fngconf.50.a: "Supportez-le."
+ fngconf.50.a: "Supportez-le.."
 fngconf.50.b: "Quittez la conférence."
 
 fngconf.51.t: "[From.GetNameDefCap] A quitté la conférence"
 fngconf.51.d: "[From.GetNameDefCap] a quitté la conférence avec colère après avoir vu ses demandes rejetées."
-fngconf.51.a: "Leur perte"
+ fngconf.51.a: "Leur perte."
 
 fngconf.52.t: "[FNG_active_negotiations_target.GetNameDefCap] Demande des concessions économiques"
 fngconf.52.d: "[FNG_active_negotiations_target.GetNameDefCap] veut des concessions économiques en échange d'un soutien au Fengtian."
-fngconf.52.a: "[Très bien]."
-fngconf.52.b: "Inacceptable."
+ fngconf.52.a: "Très bien."
+ fngconf.52.b: "Inacceptable"
 
 fngconf.53.t: "[From.GetNameDefCap] Accepte des concessions économiques"
 fngconf.53.d: "[From.GetNameDefCap] nous a accordé des concessions économiques en échange de notre soutien."
@@ -3143,8 +3116,8 @@ fngconf.53.a: "Merveilleux"
 fngconf.54.t: "[From.GetNameDefCap] Refuse les concessions économiques"
 fngconf.54.d: "[From.GetNameDefCap] a refusé de nous accorder des concessions économiques en échange de notre soutien. Il nous a été demandé de clarifier notre position sur le fait de les soutenir ou non sans faire de demandes "irréalistes" et "injustifiées"
 fngconf.54.a: "Exigez l'autonomie"
-fngconf.54.b: "Supporter"
-fngconf.54.c: "Quitter la conférence."
+ fngconf.54.b: "Supportez-le.."
+ fngconf.54.c: "Quittez la conférence."
 
 fngconf.55.t: "[FNG_active_negotiations_target.GetNameDefCap] Demande des concessions territoriales"
  fngconf.55.d.SHD:9 "En échange de leur soutien, [SHD.GetLeader] de Shandong a exigé que tous les territoires des anciennes Huit Provinces passent sous son contrôle. Cela leur permettrait d'occuper une position dominante sur l'ensemble du littoral chinois et d'accéder aux richesses commerciales et industrielles qui en découlent."
@@ -3157,7 +3130,7 @@ fngconf.55.d.SZC: "Les délégués du Sichuan nous ont fait savoir qu'ils souhai
 fngconf.55.d.XSM: "En échange de leur soutien, les seigneurs du Mas de Xibei ont exigé que la province du Xinjiang soit placée sous leur contrôle. Acceptons-nous de leur accorder cette demande ?"
 fngconf.55.d.XSM_SIK: ""
  fngconf.55.d.XSM_KUM: ""
-fngconf.55.a: "Très bien"
+ fngconf.55.a: "Très bien."
 fngconf.55.b: "Offrez-leur plutôt l'autonomie."
 fngconf.55.c: "Inacceptable"
 
@@ -3172,8 +3145,8 @@ fngconf.56.a: "Merveilleux"
 fngconf.57.t: "[From.GetNameDefCap] offre plutôt l'autonomie"
 fngconf.57.d.offered: ""
 fngconf.57.d.territory_rejected: "[From.GetNameDefCap] a refusé de nous donner nos terres revendiquées, mais a offert l'autonomie en échange."
-fngconf.57.a: "Accepter"
- fngconf.57.b: "Refuser."
+ fngconf.57.a: "Accepter."
+ fngconf.57.b: "Refusez de signer le traité."
 
 fngconf.58.t: "[From.GetNameDefCap] Refuse les revendications territoriales"
 fngconf.58.d: "[From.GetNameDefCap] a refusé de nous donner nos terres revendiquées."
@@ -3187,7 +3160,7 @@ fngconf.59.d.GXC: "Le Yunnan revendique le Guangxi. Comment devrions-nous répon
 fngconf.59.d.GXC_HNN: "Le Yunnan revendique le Guangxi et le Guizhou. Comment devrions-nous répondre ?"
 fngconf.59.a: "Un prix lointain pour l'unification."
 fngconf.59.b: "Exigez l'autonomie en échange."
-fngconf.59.c: "Demander aux fédéralistes de nous soutenir."
+ fngconf.59.c: "Demandez aux fédéralistes de nous soutenir"
 fngconf.59.e: "Proposez un compromis : Hunan cède Guizhou et gagne l'autonomie."
 fngconf.59.f: "Nous ne céderons pas notre territoire."
 
@@ -3202,8 +3175,8 @@ fngconf.61.a: "Excellent"
 
 fngconf.62.t: "[From.GetNameDefCap] Demande l'autonomie en échange"
 fngconf.62.d: "[From.GetNameDefCap] veut que l'autonomie soit une condition préalable à la cession de la région contestée."
-fngconf.62.a: "[Accepter]"
-fngconf.62.b: "Refuser."
+ fngconf.62.a: "Accepter."
+ fngconf.62.b: "Refusez de signer le traité."
 
 fngconf.63.t: "[From.GetNameDefCap] Refuse l'autonomie"
 fngconf.63.d: "[From.GetNameDefCap] a refusé le compromis sur l'autonomie. Nous devons maintenant prendre une décision difficile quant à la manière d'aller de l'avant à la lumière de cela"
@@ -3226,8 +3199,8 @@ fngconf.65.c: "La région est à nous !"
 
 fngconf.66.t: "Les fédéralistes demandent l'autonomie pour le Hunan"
  fngconf.66.d: "Après quelques délibérations et négociations, les fédéralistes se sont présentés pour nous proposer un compromis : le Guizhou en échange de l'autonomie du Hunanese."
-fngconf.66.a: "Accepter"
-fngconf.66.b: "Refuser."
+ fngconf.66.a: "Accepter."
+ fngconf.66.b: "Refusez de signer le traité."
 
 fngconf.67.t: "Compromis accepté"
 fngconf.67.d: "Fengtian a accepté le compromis"
@@ -3245,17 +3218,17 @@ fngconf.69.a: "Se ranger du côté de [From.GetNameDef]."
 fngconf.69.b: "Proposez plutôt l'autonomie à [FNG_active_negotiations_target.GetNameDef]."
 fngconf.69.c: "Se ranger du côté de [FNG_active_negotiations_target.GetNameDef]."
 
- fngconf.70.t: "Le Fengtian est contre nous"
+ fngconf.70.t: "Le Fengtien se range de notre côté"
 fngconf.70.d: "Fengtian a pris parti contre nous concernant les revendications territoriales conflictuelles"
 fngconf.70.a: "Abandonnez nos revendications."
-fngconf.70.b: "Quitter la conférence."
+ fngconf.70.b: "Quittez la conférence."
 
 fngconf.71.t: "Le Fengtien se range de notre côté"
 fngconf.71.d: "Fengtian a pris parti contre nous concernant les revendications territoriales conflictuelles"
 fngconf.71.a: "Cède le territoire contesté."
 fngconf.71.b: "Quittez la conférence."
 
-fngconf.73.t: "Fin de la conférence d'unification"
+ fngconf.73.t: "La fin de la conférence d'unification"
  fngconf.73.d.success: "Zhang Zuolin a accompli ce que beaucoup ont qualifié d'impossible. Le monde entier a regardé les participants à la conférence se frayer un chemin à travers leurs nombreux points de friction et, à la surprise de nombreux observateurs tant au niveau national qu'international, les Chinois ont réussi à mettre de côté leurs différences et à s'unir pour le bien commun de leur pays. La plupart des Chinois ont enfin une chance de connaître une paix et une unité durables après le dur labeur accompli par les nombreux diplomates présents à la conférence.\n\nÀ la fin de la conférence, des plaisanteries et des formalités ont été échangées. Certains étaient plus heureux que d'autres des accords qui avaient été conclus, mais tous étaient bien conscients que l'histoire était écrite. Lors de la cérémonie de clôture, le maréchal fengtien a tenu un discours dans lequel il a exprimé sa plus sincère gratitude aux participants pour leur travail acharné au cours des épreuves et des tribulations que la conférence avait posées. En effet, ils avaient tous réussi à prouver au monde que les Chinois étaient capables de se rassembler, de mettre leurs différences de côté et d'œuvrer pour un avenir meilleur.\n\nLa Chine est maintenant plus proche que jamais d'être unie. Grâce aux efforts de Zhang Zuolin et à ceux des délégués, un bain de sang sans précédent a probablement été évité également."
 fngconf.73.d.failure: "Les opposants étaient nombreux, et leur pessimisme n'était pas sans raison, même s'il est probable qu'ils se contentent pour l'instant d'appeler cela une perspective réaliste. Au fur et à mesure que les choses allaient d'un échec à l'autre, ils ont malheureusement eu raison à maintes reprises, alors que la malheureuse mascarade d'une conférence se poursuivait jusqu'à ce que le clou final soit mis dans son cercueil. La conférence s'est terminée sans grande fanfare et aucun gagnant n'a pu être compté parmi les participants. Ce qui avait été entrepris avec tant d'espoir par le maréchal Zuolin ne sera plus qu'une note de bas de page historique parmi les nombreuses autres initiatives ratées pour rassembler la Chine"
  fngconf.73.d.warrers: "Zhang Zuolin a accompli ce que beaucoup ont qualifié d'impossible. Le monde entier a regardé les participants à la conférence se frayer un chemin à travers leurs nombreux points de friction et, à la surprise de nombreux observateurs tant au niveau national qu'international, les Chinois ont réussi à mettre de côté leurs différences et à s'unir pour le bien commun de leur pays. La plupart des Chinois ont enfin une chance de connaître une paix et une unité durables après le dur labeur accompli par les nombreux diplomates présents à la conférence.\n\nÀ la fin de la conférence, des plaisanteries et des formalités ont été échangées. Certains étaient plus heureux que d'autres des accords qui avaient été conclus, mais tous étaient bien conscients que l'histoire était écrite. Lors de la cérémonie de clôture, le maréchal fengtien a tenu un discours dans lequel il a exprimé sa plus sincère gratitude aux participants pour leur travail acharné au cours des épreuves et des tribulations que la conférence avait posées. En effet, ils avaient tous réussi à prouver au monde que les Chinois étaient capables de se rassembler, de mettre leurs différences de côté et d'œuvrer pour un avenir meilleur.\n\nBien que la Chine soit aujourd'hui plus proche que jamais d'être unie, certains de ceux qui ont accepté nos conditions lors de la conférence restent embourbés dans la guerre entre eux. Tant que leurs conflits n'auront pas pris fin, ils ne pourront pas rejoindre notre Chine unifiée."
@@ -3287,7 +3260,7 @@ fngconf.75.a: "Ils se soumettront ou mourront."
  fngconf.80.t: "Pais de [FNG.GetLeader]"
  fngconf.80.d: "Le Grand Maréchal [FNG.GetLeader], de [FNG.GetNameDef], a adressé à nos délégués à la conférence d'unification de Beijing un appel personnel demandant la fin de notre conflit avec [FNG_enemy_0][FNG_enemy_1][FNG_enemy_2][FNG_enemy_3][FNG_enemy_4] et toutes les forces associées. La poursuite des combats, estime-t-il, sape l'esprit de la conférence, même s'il espère très probablement tirer parti de ce rôle de pacificateur pour consolider sa légitimité en tant que dirigeant national.\n\nNous pouvons toujours refuser, car [FNG.GetLeader] n'est pas encore en mesure de donner suite à une menace implicite, mais nous perdrions certainement de l'estime aux yeux de nos collègues participants à la conférence et du peuple chinois dans son ensemble.\n\nApparemment, une demande similaire a été faite à nos ennemis."
  fngconf.80.a: "Nous sommes d'accord"
- fngconf.80.b: "Nous continuons à nous battre !"
+ fngconf.80.b: "Nous nous battrons !"
 
  fngconf.81.t: "[FROM.GetName] rejette la Paix de [FNG.GetLeader]"
  fngconf.81.d_fng: "Malgré tous nos efforts, il semble que [FNG_enemy_0][FNG_enemy_1][FNG_enemy_2][FNG_enemy_3][FNG_enemy_4] et leurs forces associées ne soient pas disposées à faire la paix. Nous devrons attendre que la conférence soit terminée et qu'ils décident de se joindre à notre cause. Ou, s'ils font un mauvais choix, leur petit conflit sera rendu sans importance par notre plus grand effort pour pacifier la Chine. Parfois, la paix doit être livrée par l'épée."
@@ -3387,7 +3360,7 @@ fngconf.75.a: "Ils se soumettront ou mourront."
  FNG_government_national_populist:0 "Gouvernement de Fengtian"
  FNG_government_national_populist_DEF:0 "le Gouvernement de Fengtian"
 
- FNG_ROC: "Chine"
+ FNG_ROC: "la Chine"
  FNG_ROC_ADJ: "Chinois"
  FNG_ROC_DEF: "la Chine"
 
@@ -3412,7 +3385,7 @@ FNG_ROC_paternal_autocrat_DEF: "la République de Chine"
 FNG_ROC_national_populist: "République de Chine"
 FNG_ROC_national_populist_DEF: "la République de Chine"
 
- FNG_JAP: "Chine"
+ FNG_JAP: "la Chine"
  FNG_JAP_ADJ: "Chinois"
  FNG_JAP_DEF: "la Chine"
 
@@ -3482,11 +3455,11 @@ FNG_ROC_national_populist_DEF: "la République de Chine"
  FNG_feng_yong:9 "Feng Yong"
  FNG_feng_yong_desc:9 "A dear friend of Zhang Xueliang, having been close since childhood, Feng Yong is the eldest son of Feng Delin who was one of the old veterans of the Fengtian Clique, and an ally of Zhang Zuolin. Sharing the same courtesy name as Xueliang, and growing up together, Feng would accompany Xueliang to the Northeast Army Lecture Hall, and similarly to the Baoding Army Officers School. Serving as a staff officer of the Fengtian Aviation Department, he would play a key role in the establishment of the Northeast Air Force.\n\nFollowing the First ZhiFeng War in 1922, Feng would grow disgusted with the concept of war, resigning from the military and became the general manager of Daye Iron Factory, engaging in armament production, and concurrently principal of Daye Factory Engineer School. In 1926 he donated 3.1 million yuan to establish Feng Yong University, serving as its principal — the first Western style university in the Northeast. With free tuition, and the attaching of great importance to military and physical education, his ideas had considerable effect on the Northeast's students.\n\nFollowing the onset of the Fourth and Fifth ZhiFeng Wars, Feng would emerge out of retirement at the behest of Xueliang, but not to fight the Zhili. Organising his own forces, Feng would focus instead on blunting Japanese operations within Manchuria, allegedly on the Old Marshal's consent."
  FNG_feng_yong_leader_desc:9 "§YNaissance :§! §L23 octobre 1901, à Haicheng, district de Shengjing, Empire Qing§!\n§YCarrière :§! §L$FNG_feng_yong_desc$§!"
- FNG_feng_yong_advisor_desc:9 "§YBorn:§! §LOctober 23rd, 1901, in Haicheng, Shengjing District, Qing Empire§!\n§YAlignment:§! §nYoung China Party§!\n§YBackground:§! §L$FNG_feng_yong_desc$§!\n\n§YNotes: During his time as principal, Feng would become ingratiated with the Young China Party, transforming his university into one of the most active platforms for the YCP's expansion. Whilst not fully committed to the YCP's operation, he is a card carrying member of the party.§!"
+ FNG_feng_yong_advisor_desc:9 "§YNaissance :§! §L23 octobre 1901, à Haicheng, district de Shengjing, Empire Qing§!\n§YAlignement :§! §nParti Jeune Chine§!\n§YCarrière :§! §L$FNG_feng_yong_desc$§!\n\n§YNotes : Pendant son mandat de directeur, Feng s'est rapproché du Parti Jeune Chine, transformant son université en l'une des plateformes les plus actives pour l'expansion du PJC. Bien qu'il ne soit pas pleinement engagé dans les activités du PJC, il est membre officiel du parti.§!"
 
  #唐紹儀
  FNG_tang_shaoyi: "Tang Shaoyi"
- FNG_tang_shaoyi_leader_desc:9 "§YNaissance :§! §L2 janvier 1862, dans le comté de Xiangshan, Province de Guangdong, Empire Qing§!\n§YCarrière :§! §LQuelle indignité. Être forcé de sortir de sa retraite pour danser au bout des ficelles japonaises. Un homme d'État loyal, que certains considèrent comme un héros, réduit à l'état d'épave, "Président" en apparence pour le compte de ses geôliers japonais. Pourtant, Tang Shaoyi a une histoire riche et triomphante en tant qu'un des premiers hommes d'État républicains de Chine.\n\nAmi proche de Yuan Shikai dans sa jeunesse, il monta dans les rangs de la bureaucratie civile de l'Empire Qing, suivant Yuan où qu'il aille. Promu Ministre des Affaires étrangères en 1906 à la suite de sa gestion experte de la situation tibétaine, Tang fut brièvement Gouverneur du Fengtian, Ministre des Postes et Communications avant de participer à la Révolution Xinhai en tant que porte-parole civil de Yuan Shikai. Capital dans les négociations de paix nord-sud, Tang Shaoyi finit par s'assurer le poste de premier Premier Ministre de la République.\n\nIl démissionna peu après, invoquant le mépris de Yuan Shikai pour l'État de droit et le dénonçant pendant la Guerre de Protection de la Nation. Tang servit dans un des gouvernements de Duan Qirui avant de le quitter pour rejoindre le Mouvement de protection de la Constitution dans le sud, mené par le Dr Sun. Avec le virage de plus en plus autoritaire de Sun, reflété de la même manière à Beijing, la fibre démocrate et parlementaire de Tang s'étiola et disparut. Vivant reclus en 1927, il revint finalement en 1929 pour servir de magistrat de comté, participant à des cercles anti-Zhili.\n\nAyant pris sa retraite à Shanghai, les forces d'occupation japonaises ont traîné Tang Shaoyi hors de chez lui et l'ont placé au sommet de leur régime. Qu'il soit un martyr ou un collaborateur volontaire est encore sujet à débat.\n\n§YNotes : Son beau-fils est le célèbre V.K. Wellington Koo.§!"
+ FNG_tang_shaoyi_leader_desc:9 "§YNaissance :§! §L2 janvier 1862, dans le comté de Xiangshan, province de Guangdong, Empire Qing§!\n§YCarrière :§! §LQuelle indignité. Être forcé de sortir de sa retraite pour danser au bout des ficelles japonaises. Un homme d'État loyal, que certains considèrent comme un héros, réduit à l'état d'épave, "Président" en apparence pour le compte de ses geôliers japonais. Pourtant, Tang Shaoyi a une histoire riche et triomphante en tant qu'un des premiers hommes d'État républicains de Chine.\n\nAmi proche de Yuan Shikai dans sa jeunesse, il monta dans les rangs de la bureaucratie civile de l'Empire Qing, suivant Yuan où qu'il aille. Promu Ministre des Affaires étrangères en 1906 à la suite de sa gestion experte de la situation tibétaine, Tang fut brièvement Gouverneur du Fengtian, Ministre des Postes et Communications avant de participer à la Révolution Xinhai en tant que porte-parole civil de Yuan Shikai. Capital dans les négociations de paix nord-sud, Tang Shaoyi finit par s'assurer le poste de premier Premier Ministre de la République.\n\nIl démissionna peu après, invoquant le mépris de Yuan Shikai pour l'État de droit et le dénonçant pendant la Guerre de Protection de la Nation. Tang servit dans un des gouvernements de Duan Qirui avant de le quitter pour rejoindre le Mouvement de protection de la Constitution dans le sud, mené par le Dr Sun. Avec le virage de plus en plus autoritaire de Sun, reflété de la même manière à Beijing, la fibre démocrate et parlementaire de Tang s'étiola et disparut. Vivant reclus en 1927, il revint finalement en 1929 pour servir de magistrat de comté, participant à des cercles anti-Zhili.\n\nAyant pris sa retraite à Shanghai, les forces d'occupation japonaises ont traîné Tang Shaoyi hors de chez lui et l'ont placé au sommet de leur régime. Qu'il soit un martyr ou un collaborateur volontaire est encore sujet à débat.§!\n\n§YNotes : Son beau-fils est le célèbre V.K. Wellington Koo.§!"
 
  #朱霽青
  FNG_zhu_jiqing:9 "Zhu Jiqing"
@@ -3552,7 +3525,7 @@ FNG_ROC_national_populist_DEF: "la République de Chine"
 
  #袁金鎧
  FNG_yuan_jinkai:0 "Yuan Jinkai"
- FNG_yuan_jinkai_advisor_desc:9 "§YBorn:§! §L1870, in Liaoyang Sub-prefecture, Shengjing District, Qing Empire§!\n§YAlignment:§! §PZhang§!\n§YBackground:§! §LBecoming a scholar at the age of nineteen, he would study at Cuisheng Academy in Shenyang, becoming friends with the likes of Wang Yongjiang through student reformist efforts. After graduation, Yuan would endeavour to setup a series of private schools in his own village and neighbouring ones, starting a career as a prolific teacher. Inspired by the likes of Xu Zhen, Yuan would also work towards organising village milita to protect the various villages from banditry.\n\nIn 1904 Yuan would serve as the police chief of Lioayang County and general director of the Liaoyang Patrol Police Bureau. Becoming a personal scion of the powerful Zhao Erxun, Yuan would become elected as a member of the Fengtian Consultative Bureau, and upon Wu Jinglian's ascension as Speaker of the Bureau, Yuan would become deputy speaker. Following Zhao Erxun's appointment as governor, Yuan would serve as his counselor and confidant. Appointed as a member of Fengtian's first parliament, he would become the Financial Secretary, and following Zhang Zuolin's rise to power in 1915, would become the Old Marshal's secretary-general.\n\nSeeing a brief stint in various positions ranging from provincial ones to that of the Bejing Provisional Council in 1925, he would serve as senior advisor to the Grand Marshal's Office in 1927, serving as Zuolin's right-hand man in civil affairs.\n\nWith the retreat North, Yuan has continued his service to the Old Marshal, similarly serving in a capacity as a member of the Northeast Political Affairs Committee.§!"
+ FNG_yuan_jinkai_advisor_desc:9 "§YBorn:§! §L1870, in Liaoyang Sub-prefecture, Shengjing District, Qing Empire§!\n§YAlignment:§! §PZhang§!\n§YBackground:§! §LBecoming a scholar at the age of nineteen, he would study at Cuisheng Academy in Shenyang, becoming friends with the likes of Wang Yongjiang through student reformist efforts. After graduation, Yuan would endeavour to setup a series of private schools in his own village and neighbouring ones, starting a career as a prolific teacher. Inspired by the likes of Xu Zhen, Yuan would also work towards organising village militia to protect the various villages from banditry.\n\nIn 1904 Yuan would serve as the police chief of Lioayang County and general director of the Liaoyang Patrol Police Bureau. Becoming a personal scion of the powerful Zhao Erxun, Yuan would become elected as a member of the Fengtian Consultative Bureau, and upon Wu Jinglian's ascension as Speaker of the Bureau, Yuan would become deputy speaker. Following Zhao Erxun's appointment as governor, Yuan would serve as his counselor and confidant. Appointed as a member of Fengtian's first parliament, he would become the Financial Secretary, and following Zhang Zuolin's rise to power in 1915, would become the Old Marshal's secretary-general.\n\nSeeing a brief stint in various positions ranging from provincial ones to that of the Bejing Provisional Council in 1925, he would serve as senior advisor to the Grand Marshal's Office in 1927, serving as Zuolin's right-hand man in civil affairs.\n\nWith the retreat North, Yuan has continued his service to the Old Marshal, similarly serving in a capacity as a member of the Northeast Political Affairs Committee.§!"
 
  #丁鑑修
  FNG_ding_jianxiu:0 "Ding Jianxiu"
@@ -3632,23 +3605,23 @@ FNG_ROC_national_populist_DEF: "la République de Chine"
 
  #吳克仁
  FNG_wu_keren:9 "Wu Keren"
- FNG_wu_keren_commander_desc:9 "§YBorn:§! §L1894, in Ning'an, Jilin District, Qing Empire§!\n§YBackground:§! §LEthnically a Manchu, Wu Keren comes from a Plain White Banner family and he received a chance to receive primary and secondary education, a thing that is scarce for most Chinese. Yet, Wu, whose nationalistic sentiment was ignited since his childhood, decided not to complete his studies but to join the army in a bid to save his country, and he enrolled in the 5th Class of the Baoding Military Academy in 1916.\n\nAfter studying artillery for two years, Wu was appointed as a junior officer in the Northwest Frontier Defence Army under Xu Shuzheng of the Anhui clique. After Wu's force was defeated and incorporated into the Zhili-Anhui War in 1920, he joined the Fengtian Clique as a military tutor and company commander. In 1926, Wu, then an artillery tutor at the Northeast Military Academy, was sent to Japan by Zhang Xueliang to study modern artillery. After returning in the next year, Wu would be promoted as the head of artillery the lecturing regiment of the Academy and a regimental commander. Assisting the Fengtian clique with his artillery expertise in wars against the Zhili clique, Wu rose through the ranks as an outstanding commander. Two years after the 4th Zhili-Fengitan War, Zhang Xueliang sent Wu overseas, this time to Europe, to study more about artillery, enabling him to obtain more insights into modern artillery warfare. Therefore, when the Fengtian army required more able leaders, Wu was nominated as one of the natural choices."
+ FNG_wu_keren_commander_desc:9 "§YBorn:§! §L1894, in Ning'an, Jilin District, Qing Empire§!\n§YBackground:§! §LEthnically a Manchu, Wu Keren comes from a Plain White Banner family and he received a chance to receive primary and secondary education, a thing that is scarce for most Chinese. Yet, Wu, whose nationalistic sentiment was ignited since his childhood, decided not to complete his studies but to join the army in a bid to save his country, and he enrolled in the 5th Class of the Baoding Military Academy in 1916.\n\nAfter studying artillery for two years, Wu was appointed as a junior officer in the Northwest Frontier Defence Army under Xu Shuzheng of the Anhui clique. After Wu's force was defeated and incorporated into the Zhili-Anhui War in 1920, he joined the Fengtian Clique as a military tutor and company commander. In 1926, Wu, then an artillery tutor at the Northeast Military Academy, was sent to Japan by Zhang Xueliang to study modern artillery. After returning in the next year, Wu would be promoted as the head of artillery the lecturing regiment of the Academy and a regimental commander. Assisting the Fengtian clique with his artillery expertise in wars against the Zhili clique, Wu rose through the ranks as an outstanding commander. Two years after the 4th Zhili-Fengitan War, Zhang Xueliang sent Wu overseas, this time to Europe, to study more about artillery, enabling him to obtain more insights into modern artillery warfare. Therefore, when the Fengtian army required more able leaders, Wu was nominated as one of the natural choices.§!"
 
  #劉鎮東
  FNG_liu_zhendong:9 "Liu Zhendong"
- FNG_liu_zhendong_commander_desc:9 "§YBorn:§! §L1893, in Yishui County, Shandong Province, Qing Empire§!\n§YAlignment:§! §aShaoshuai Clique§!\n§YBackground:§! §LWhen Liu Zhendong studied in a primary school in his hometown, he was regarded as an outstanding student, unfortunately, he had to abandon his studies and join his father to do wood craftsmanship in a bid to sustain his family. In 1911, 19-year-old Liu migrated to Northeast China with his father to make a better living.\n\nBefore entering the Northeastern Army Lecture Hall with the referral of Guo Songling, Liu first worked as a letter writer and joined the Fengtian army as a clerk in 1918. After graduating, he stayed in Guo Songling's force as a junior commander and took part in the Second Zhili-Fengtian War. When Guo revolted against the Fengtian clique, Liu followed as a divisional commander under him. Despite so, Liu was eventually pardoned and he enrolled in the Staff College in 1927, becoming the cadet with the highest rank in his class. As a well-educated and passionate officer, Liu stands out in the ranks of the Fengtian clique when new groups of officers are promoted. Yet, it is noteworthy that Liu seems to have some strong opinions against Japanese presence in the Northeast provinces and the pro-Japanese elements of the so-called Shikan clique."
+ FNG_liu_zhendong_commander_desc:9 "§YBorn:§! §L1893, in Yishui County, Shandong Province, Qing Empire§!\n§YAlignment:§! §aShaoshuai Clique§!\n§YBackground:§! §LWhen Liu Zhendong studied in a primary school in his hometown, he was regarded as an outstanding student, unfortunately, he had to abandon his studies and join his father to do wood craftsmanship in a bid to sustain his family. In 1911, 19-year-old Liu migrated to Northeast China with his father to make a better living.\n\nBefore entering the Northeastern Army Lecture Hall with the referral of Guo Songling, Liu first worked as a letter writer and joined the Fengtian army as a clerk in 1918. After graduating, he stayed in Guo Songling's force as a junior commander and took part in the Second Zhili-Fengtian War. When Guo revolted against the Fengtian clique, Liu followed as a divisional commander under him. Despite so, Liu was eventually pardoned and he enrolled in the Staff College in 1927, becoming the cadet with the highest rank in his class. As a well-educated and passionate officer, Liu stands out in the ranks of the Fengtian clique when new groups of officers are promoted. Yet, it is noteworthy that Liu seems to have some strong opinions against Japanese presence in the Northeast provinces and the pro-Japanese elements of the so-called Shikan clique.§!"
 
  #周福成
  FNG_zhou_fucheng:9 "Zhou Fucheng"
- FNG_zhou_fucheng_commander_desc:9 "§YBorn:§! §L1897, in Fengtian, Shengjing District, Qing Empire§!\n§YAlignment:§! §LApolitical§!\n§YBackground:§! §LLike many officers in the Fengtian Army, Zhou Fucheng studied in the Fengtian Army Primary School before enrolling in the 9th class of the Baoding Military Academy in 1919 after finishing his secondary studies in his hometown. Although Zhou studied infantry in Baoding, he began his military career as a platoon commander in the forces stationed in Heilongjiang under Wu Junsheng, the well-known old cavalier who was then a divisional commander, after graduating in 1923. Zhou participated in the 3rd and the 4th Zhili-Fengtian Wars and rose through the ranks thanks to his performance as a well-trained officer in the front against Zhili troops. Zhou would already be a regimental commander by 1927, and he was promoted to a divisional commander not long ago in replacement of his incapable superior.\n\nAs a surefooted and domestically trained officer, Zhou received much recognition within the Fengtian clique(excluding some senior members who are part of the Shikan clique), especially from the Young Marshal who values talents in the army, it is also why he is now given command authority as a senior general. Having that said, Zhou is not particularly interested and involved in the politics of the clique, but he seems to be concerned with the Japanese presence in his home province."
+ FNG_zhou_fucheng_commander_desc:9 "§YBorn:§! §L1897, in Fengtian, Shengjing District, Qing Empire§!\n§YAlignment:§! §LApolitical§!\n§YBackground:§! §LLike many officers in the Fengtian Army, Zhou Fucheng studied in the Fengtian Army Primary School before enrolling in the 9th class of the Baoding Military Academy in 1919 after finishing his secondary studies in his hometown. Although Zhou studied infantry in Baoding, he began his military career as a platoon commander in the forces stationed in Heilongjiang under Wu Junsheng, the well-known old cavalier who was then a divisional commander, after graduating in 1923. Zhou participated in the 3rd and the 4th Zhili-Fengtian Wars and rose through the ranks thanks to his performance as a well-trained officer in the front against Zhili troops. Zhou would already be a regimental commander by 1927, and he was promoted to a divisional commander not long ago in replacement of his incapable superior.\n\nAs a surefooted and domestically trained officer, Zhou received much recognition within the Fengtian clique(excluding some senior members who are part of the Shikan clique), especially from the Young Marshal who values talents in the army, it is also why he is now given command authority as a senior general. Having that said, Zhou is not particularly interested and involved in the politics of the clique, but he seems to be concerned with the Japanese presence in his home province.§!"
 
  #郭恩霖
  FNG_guo_enlin:9 "Guo Enlin"
- FNG_guo_enlin_commander_desc:9 "§YBorn:§! §L1893, in Liaoyang, Shengjing District, Qing Empire§!\n§YAlignment:§! §PShikan Clique§!\n§YBackground:§! §LA relatively young officer in the Fengtian clique, Guo Enlin received extensive military training that many (if not most) of his superiors and colleagues could hardly compare with him. After finishing his education in a military primary school in Fengtian, Guo enrolled in the 5th Class of the Baoding Military Academy in 1915 and studied artillery. Instead of concluding his military studies, Guo decided to further his cadet life in Japan as he enrolled in the 12th Class of the Imperial Japanese Army Academy to study infantry with government sponsorship. Unlike most of his compatriots who would return to China after studying in the Academy, Guo joined a Japanese artillery regiment as an intern and later entered the 4th class of the Army War College of Japan in 1923.\n\nGuo finished his military studies in Japan in 1925 and joined the Fengtian army as a senior staff under Zhang Zuoxiang, Guo was also responsible for the training of armies in Jilin. Although he missed the first two Zhili-Fengtian Wars, Guo still proved himself as a capable staff in the other two conflicts with the Zhili clique. As a well-educated officer who studied modern warfare in Japan, Guo's skills would be valuable. Guo is very close to the Shikan clique and has expressed his admiration for the Japanese Army openly, very likely related to his educational background."
+ FNG_guo_enlin_commander_desc:9 "§YBorn:§! §L1893, in Liaoyang, Shengjing District, Qing Empire§!\n§YAlignment:§! §PShikan Clique§!\n§YBackground:§! §LA relatively young officer in the Fengtian clique, Guo Enlin received extensive military training that many (if not most) of his superiors and colleagues could hardly compare with him. After finishing his education in a military primary school in Fengtian, Guo enrolled in the 5th Class of the Baoding Military Academy in 1915 and studied artillery. Instead of concluding his military studies, Guo decided to further his cadet life in Japan as he enrolled in the 12th Class of the Imperial Japanese Army Academy to study infantry with government sponsorship. Unlike most of his compatriots who would return to China after studying in the Academy, Guo joined a Japanese artillery regiment as an intern and later entered the 4th class of the Army War College of Japan in 1923.\n\nGuo finished his military studies in Japan in 1925 and joined the Fengtian army as a senior staff under Zhang Zuoxiang, Guo was also responsible for the training of armies in Jilin. Although he missed the first two Zhili-Fengtian Wars, Guo still proved himself as a capable staff in the other two conflicts with the Zhili clique. As a well-educated officer who studied modern warfare in Japan, Guo's skills would be valuable. Guo is very close to the Shikan clique and has expressed his admiration for the Japanese Army openly, very likely related to his educational background.§!"
 
  #郭希鵬
  FNG_guo_xipeng:9 "Guo Xipeng"
- FNG_guo_xipeng_commander_desc:9 "§YBorn:§! §L1890, in Gaiping County, Shengjing District, Qing Empire§!\n§YAlignment:§! §LApolitical§!\n§YBackground:§! §LComing from a merchant family in a small county, Guo Xipeng was able to receive both primary and secondary education in his hometown. After studying briefly at the Fengtian School of Law and Political Science, Guo attended the Northeastern Army Lecture Hall and studied cavalry. Before being sent to Japan to receive more modern military training, Guo served as a junior cavalry commander and fought in the First Zhili-Fengtian War in 1922.\n\nIn Japan, Guo studied at a cavalry school in Chiba (some people in the Fengtian Army always think that he went to the Imperial Japanese Army Academy), later he enrolled in the Army War College of Japan to study modern military science and warfare. In 1925, Guo returned as a commander of a cavalry regiment under Yu Zhishan, he would command a cavalry brigade the next year, operating in the plains of Chahar during the Zhili-Fengtian Wars in 1927 and 1928. Guo would continue to rise in the Fengtian army as an able cavalier. His knowledge of modern warfare learned in Japan would be a great addition to the Fengtian Army, and Guo is known for not working with the Shikan clique or the Concordia association despite having studied in Japan."
+ FNG_guo_xipeng_commander_desc:9 "§YBorn:§! §L1890, in Gaiping County, Shengjing District, Qing Empire§!\n§YAlignment:§! §LApolitical§!\n§YBackground:§! §LComing from a merchant family in a small county, Guo Xipeng was able to receive both primary and secondary education in his hometown. After studying briefly at the Fengtian School of Law and Political Science, Guo attended the Northeastern Army Lecture Hall and studied cavalry. Before being sent to Japan to receive more modern military training, Guo served as a junior cavalry commander and fought in the First Zhili-Fengtian War in 1922.\n\nIn Japan, Guo studied at a cavalry school in Chiba (some people in the Fengtian Army always think that he went to the Imperial Japanese Army Academy), later he enrolled in the Army War College of Japan to study modern military science and warfare. In 1925, Guo returned as a commander of a cavalry regiment under Yu Zhishan, he would command a cavalry brigade the next year, operating in the plains of Chahar during the Zhili-Fengtian Wars in 1927 and 1928. Guo would continue to rise in the Fengtian army as an able cavalier. His knowledge of modern warfare learned in Japan would be a great addition to the Fengtian Army, and Guo is known for not working with the Shikan clique or the Concordia association despite having studied in Japan.§!"
 
  #戢翼翘
  FNG_ji_yiqiao:9 "Ji Yiqiao"

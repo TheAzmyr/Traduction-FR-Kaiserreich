@@ -3,7 +3,6 @@
  persia_focus: "Arbre de priorités d'Iran"
 
 ### Factions ###
- golestan_pact:0 "Pacte du Golestan"
  tabriz_accords:0 "Accords de Tabriz"
 
 ### Parties ###
@@ -32,6 +31,10 @@
 ### Tooltips ###
  PER_embargo_anti_socialists_tt: "Tous les ennemis de l'Internationale seront placés sous §Hembargo§! et ne bénéficieront plus de nos réserves de pétrole - et ils nous placeront sous embargo en retour."
  PER_puppet_kurdistan_upon_war_tt:9 "§5Si le Kurdistan existe lorsque la guerre avec les Ottomans éclate, il deviendra notre sujet.§!"
+ PER_join_moscow_accord_ashkhabad_tt:9 "We will exchange §Y[418.GetName]§! for an alliance with §Y[RUS.GetNameWithFlag]§!."
+ PER_RUS_refused_alliance_offer:9 "§Y[RUS.GetNameWithFlag]§! has refused our alliance offer"
+ PER_dismantle_faction_tt:9 "§RThe §Y[ROOT.GetFactionName]§! will be dismantled!§!\nDepending on their government, our allies will have a choice to join alongside us or abandon our alliance!"
+ PER_tabriz_accords_capitulation_tt:9 "§RWith the capitulation of §Y[FROM.GetNameDefCap]§!, the §YTabriz Accords§! are no more!§!"
 
  PER_monarchy_tt: "La Monarchie garde le pouvoir."
  PER_revolution_tt: "Une Révolution a pris la place."
@@ -81,30 +84,22 @@
  PER_new_consti_desc: "Alors que la nation est sur une nouvelle voie, il est temps d'écrire une nouvelle constitution pour assurer l'avenir de [PER.GetNameDef]."
  PER_mideast_democracy: "Démocratie Resplendissante"
  PER_mideast_democracy_desc: "[PER.GetNameDefCap] est l'une des premières nations du Moyen-Orient à avoir adopté la démocratie. En tant que nation libre guidée par son peuple, c'est le devoir de [PER.GetNameDef] que de protéger les idéaux de la démocratie."
+ PER_join_reichspakt:0 "Rejoindre le Reichspakt"
+ PER_join_reichspakt_desc:9 "For the past century, Persia has been at the mercy of both the Russians and the British. It is time for us to orient ourselves towards a partner that has not treated [PER.GetNameDef] as badly as they have. German capital has brought prosperity to [PER.GetNameDef], and German arms will keep it safe."
+ PER_join_moscow_accord:0 "Rejoindre l'Accord de Moscou"
+ PER_join_moscow_accord_desc:9 "[RUS.GetNameDefCap] has been the regional ally of choice ever since its recent resurgence. Now is the time to formalise and deepen our partnership."
  PER_mideast_communism: "Phare du Socialisme"
  PER_mideast_communism_desc: "Nous sommes la première nation du Moyen-Orient à adopter le socialisme. Il est de notre devoir de préserver le nouveau système de gouvernance et de répandre la révolution dans la région ! Il est temps que les travailleurs du Moyen-Orient et toutes les autres majorités opprimées se soulèvent contre leurs gouvernements !"
  PER_anti_imperialism: "Une Inde libérée des Impérialistes !"
  PER_anti_imperialism_desc:9 "Maintenant que nous avons sécurisé notre nation, il est temps de répandre la révolution à l'étranger. Le Dominion de l'Inde retient une partie de notre peuple au Baloutchistan, et avec l'aide de la République populaire du Bharat, nous pouvons libérer les travailleurs de l'Inde."
  PER_join_internationale:0 "Rejoignez la Troisième Internationale"
  PER_join_internationale_desc: "Alors que les forces du socialisme se développent au Moyen-Orient, nos camarades en Europe luttent pour les droits de la classe ouvrière dans le monde entier. Il est temps maintenant de rejoindre une lutte bien plus grande que la nôtre, une lutte internationale pour la liberté de tous les travailleurs !"
- PER_tajik: "Libération du Tadjikistan"
- PER_tajik_desc: "Les Tadjiks sont nos frères. Notre chair et notre sang. Bien que le Khan du Turkestan ait accepté une influence iranienne dans son règne, ce n'est toujours pas suffisant pour garantir la sécurité de nos frères au Tadjikistan. Nous devons agir."
- PER_afghanistan: "La Question Afghane"
- PER_afghanistan_desc: "La nation afghane faisait autrefois partie de l'empire iranien, mais les Britanniques leur ont accordé l'indépendance, nous obligeant à les libérer. Il est temps pour nous de reprendre ce qui nous appartient de droit. Les Hazaras et les Pachtounes sont autant iraniens que les Perses et doivent être ramenés au bercail."
  PER_baharain: "Bahreïn, le Joyau du Golfe"
  PER_baharain_desc: "Bahreïn a une population chiite dominante et la plupart d'entre eux parlent notre langue, le farsi. Bahreïn a longtemps été le vassal de [PER.GetNameDef] et une partie de son territoire, mais a finalement été perdu dans les années 1700. Depuis lors, nous avons maintenu des relations étroites avec les dirigeants locaux et exercé notre influence, mais il est enfin temps de récupérer les terres perdues."
- PER_acerbaican: "Réunion avec l'Azerbaïdjan"
- PER_acerbaican_desc:9 "Le peuple de l'Azerbaïdjan n'est pas différent de notre propre peuple azerbaïdjanais. Leurs terres ont toujours fait partie de nos terres. En réalité, le peuple azerbaïdjanais est [PER.GetAdjective] autant que nous et il doit revenir dans notre giron. Il est temps de défaire la tyrannie qui nous a été imposée par la Russie."
  PER_agha_khan_legacy: "L'Héritage d'Agha Mohammed Khan"
  PER_agha_khan_legacy_desc: "Maintenant que la place du Shah est assurée au sein de la nation, il est temps de récupérer notre ancienne gloire. Comme Agha Mohammad Khan, nous forgerons un empire qui sera la crainte des hommes pour les siècles à venir. Longue vie à [PER.GetNameDef] et longue vie à la dynastie Qajar !"
  PER_iraq_i_arab: "Réaffirmer nos revendications sur Iraq-i-Arab"
  PER_iraq_i_arab_desc: "Cela fait 3 siècles que nous contrôlons l'Irak. Nos prédécesseurs safavides régnaient autrefois sur la région en tant que Shahs. Pourtant, les armées ottomanes ont fini par l'emporter et ont pris la région. Comme les Irakiens sont nos frères chiites, nous devons faire de notre mieux pour les libérer de l'emprise du Calife sunnite et c'est maintenant le moment idéal car les Ottomans sont sur le point de s'effondrer."
- PER_armenia: "Question Arménienne"
- PER_armenia_desc: "L'Arménie est une anomalie dans les affaires [PER.GetAdjective]s. Il y a peu de temps, le pays se trouvait encore sous l'autorité [PER.GetAdjective] et beaucoup veulent les réunir avec notre propre peuple. Pourtant, la réalité est que même si nous avons des similitudes et des relations amicales, nous ne sommes pas assez similaires pour leur imposer notre autorité. Peut-être qu'une alliance est la voie à suivre pour rapprocher notre peuple."
- PER_kartli_province: "La Province de Kartli"
- PER_kartli_province_desc: "La Géorgie a été perdue aux mains des Russes en 1813. Puisque la Russie a perdu son contrôle sur le Caucase, il est temps de riposter."
- PER_baluchistan: "Récupérer le Balouchistan"
- PER_baluchistan_desc: "Le Baloutchistan faisait partie de notre territoire légitime, qui nous a été volé par les Britanniques. Il est temps de frapper l'empire affaibli et de récupérer nos terres une fois pour toutes."
  PER_govt_reform: "Réforme Gouvernementale"
  PER_govt_reform_desc: "Afin de survivre aux défis à venir, nous devons nous adapter et surmonter les nouveaux défis qui nous attendent. Ce n'est qu'en réformant les fonctions gouvernementales que nous pourrons survivre."
  PER_mandatory_edu: "Éducation Obligatoire"
@@ -284,7 +279,6 @@ shabaz_aircraft_manufacturer: "Shabaz Aircraft Manufacturer"
  PER_illiteracy_desc: "Beaucoup de gens dans notre nation n'ont jamais reçu aucune forme d'éducation, ce qui a mené à une population ignorante et inintelligente."
 
 ### Opinion Modifiers ###
- PER_oil_trade: "Commerce du Pétrole avec l'Iran"
  PER_armenian_friendship: "Amitié Irano-Arménienne"
  PER_military_cooperation: "Coopération Militaire"
  PER_naval_cooperation: "Coopération navale"
@@ -306,384 +300,339 @@ shabaz_aircraft_manufacturer: "Shabaz Aircraft Manufacturer"
  PER_guide:9 "§MColère du Lion Qajar§! (§PAutocrates Paternalistes§!)\n£white_dot À la mort d'Ahmad Shah Qajar, choisissez de faire fuir Hassan Mirza de la Perse.\n£white_dot Lors de l'évènement suivant, choisissez d'envoyer des loyalistes au Majlis.\n\n§MConstitutionnalisme Renforcé§! (§aDémocrates Autoritaires§! / §SSociaux-Démocrates§! / §lSociaux-Libéraux§! / §cSociaux-Conservateurs§!)\n£white_dot À la mort d'Ahmad Shah Qajar, choisissez de faire en sorte qu'Hassan Mirza reste en Perse.\n£white_dot Lors de l'événement suivant, choisissez de ne rien faire.\n£white_dot Pour obtenir le Shah Hamid Mirza, envoyez des loyalistes au Majlis, assassinez le Shah, puis faites la paix.\n£white_dot Lors de l'élection de 1938, nous aurons l'option de choisir entre le §SHD§!, une coalition de droite menée par le §cHET§! et une coalition libérale menée par le §lHEe§!.\n£white_dot Lors des élections suivantes, les options seront le §SHD§!, le §cHET§! ou une coalition de droite menée par le §aKhandane Qajar§!.\n\n§MVive la Révolution§! (§RRadicaux-Socialistes§! / §SSociaux-Démocrates§! / §lSociaux-Libéraux§! / §mLibéraux Économiques§! / §cSociaux-Conservateurs§!)\n£white_dot À la mort d'Ahmad Shah Qajar, choisissez de faire fuir Hassan Mirza de la Perse.\n£white_dot Lors de l'événement suivant, choisissez de ne rien faire.\n£white_dot Pour obtenir une république radical-socialiste, choisissez de former une république socialiste.\n£white_dot Pour obtenir une république démocratique, choisissez les démocrates pour former une république.\n£white_dot Si nous formons une république démocratique :\n Lors de l'élection de 1938, nous pourrons choisir entre le §SHD§! et le §mHT§!.\n Lors de l'élection de 1942, nous pourrons choisir entre le §SHD§! et le §cHET§!.\n Et en 1946, nous pourrons choisir entre le §SHD§!, le §lHEe§! et le §cHET§!."
 
 ### Events ###
- pers.2.t: "Le Shah est Mort !"
- pers.2.d: "Des rapports nous sont parvenus ce matin pour nous informer du décès d'Ahmad Shah Qajar. Après avoir été frappé d'une balle lors d'une tentative d'assassinat socialiste il y a quelques années, sa santé avait décliné et il semble que cela, combiné au stress croissant lié à la conduite de la nation, l'ait mené à sa mort. Hassan Mirza, frère d'Ahmad et héritier du Trône du Soleil, a pris le pouvoir, mais une lutte pour le pouvoir a déjà commencé entre les nombreuses factions de [PER.GetNameDef]. Mirza lui-même a de plus grandes ambitions pour la dynastie Qajar, suscitant les soupçons des politiciens du Majlis. Les socialistes, un groupe interdit depuis de nombreuses années, pourraient tenter de saisir leur chance face à la possibilité d'exercer un pouvoir potentiel.\n\nActuellement, la seule question est de savoir si Hassan Mirza reste dans le pays ou s'enfuit pour sa sécurité."
- pers.2.a: "Mirza restera dans [PER.GetNameDef]"
- pers.2.b: "Mirza s'enfuit."
-
- pers.3.t: "Les Loyalistes prennent d'assaut le Majlis"
- pers.3.d: "Des personnes fidèles à la dynastie Qajar ont pris d'assaut le Majlis sous le commandement d'Hassan Mirza, pour tenter d'éliminer les menaces potentielles. Après tout, de nombreux politiciens ont été arrêtés pour assurer une transition sûre au gouvernement. Le Majlis a été fermé jusqu'à nouvel ordre."
- pers.3.a: "Pouvoir au Shah !"
-
- pers.4.t: "Monarchie Absolue formée"
- pers.4.d: "La monarchie a établi un pouvoir absolu dans [PER.GetNameDef]. Nous n'aurons plus à nous soucier de petites choses comme la démocratie ou la liberté, car elles ne sont plus nécessaires."
- pers.4.a: "Longue vie au Shah !"
-
- pers.5.t: "Que se passe-t-il maintenant ?"
- pers.5.d: "Mirza a décidé de rester dans [PER.GetNameDef]. Il y a beaucoup de gens qui lui sont loyaux et qui sont prêts à se battre pour lui. Nous pourrions ordonner à ces personnes de prendre d'assaut le Majlis pour maintenir l'ordre et capturer toute menace potentielle. Nous pourrions également envoyer ces personnes capturer des points clés dans [266.GetCapitalVictoryPointName] pour essayer de sécuriser le pouvoir. Cependant, Hassan Mirza pourrait aussi ne pas commander du tout le peuple pour essayer de maintenir la paix."
- pers.5.a: "Envoyez les loyalistes au Majlis."
- pers.5.b: "Envoyez les loyalistes capturer les points clés dans [266.GetCapitalVictoryPointName]."
- pers.5.c: "Ne semons pas les ennuis."
-
- pers.6.t: "Que se passe-t-il maintenant ?"
- pers.6.d: "Bien que Hassan Mirza ait décidé de fuir [PER.GetNameDef], de nombreuses personnes lui sont encore fidèles et sont prêtes à se battre. Nous pourrions ordonner à ces personnes de prendre d'assaut le Majlis pour maintenir l'ordre et capturer toute menace potentielle. Nous pourrions également envoyer ces personnes capturer des points clés dans [266.GetCapitalVictoryPointName] pour essayer de sécuriser le pouvoir. Cependant, Hassan Mirza pourrait aussi ne pas commander du tout le peuple pour essayer de maintenir la paix."
- pers.6.a: "Envoyez les loyalistes au Majlis."
- pers.6.b: "Envoyez les loyalistes capturer les points clés dans [266.GetCapitalVictoryPointName]."
- pers.6.c: "Ne semons pas les ennuis."
-
- pers.7.t: "Les Loyalistes capturent les positions clés de la ville"
- pers.7.d: "Les fidèles du Shah ont réussi à s'emparer de parties importantes de [266.GetCapitalVictoryPointName]. La police et l'armée ont empêché toute rébellion. Cependant, certains politiciens refusent toujours d'accepter un pouvoir plus fort de la part du Shah. Ces politiciens sont loyaux envers le Majlis, et non envers le Shah. Devons-nous permettre à ces politiciens de rester libres, en leur donnant l'opportunité de s'unifier contre le Shah ? Cependant, nous pourrions arrêter temporairement ces politiciens pour empêcher un soulèvement."
- pers.7.a: "Arrêtez-les temporairement afin de sécuriser le pouvoir."
- pers.7.b: "Laissez les faire ce qu'ils veulent."
-
- pers.8.t: "La Monarchie Constitutionnelle demeure"
- pers.8.d: "Le pouvoir du Shah étant assuré et le Majli lui étant fidèle, un gouvernement stable a été créé pour servir le nouveau Shah de [PER.GetNameDef], Hassan Mirza."
- pers.8.a: "Longue vie au Shah !"
-
- pers.10.t: "Les Démocrates et les Socialistes unissent leurs forces"
- pers.10.d: "Les forces de plusieurs partis politiques, principalement du parti démocrate et des membres du parti interdit Edalat, se sont unies contre les forces loyalistes. Les forces fidèles au Shah n'ont pas réussi à s'assurer le contrôle et une révolution complète est imminente."
- pers.10.a: "Bon sang..."
-
- pers.11.t: "Les politiciens sont prêts à combattre Hassan Mirza"
- pers.11.d: "Ce n'est une surprise pour personne qu'Hassan Mirza essaie d'obtenir plus de pouvoir pour les Qajars. La mort d'Ahmad était l'occasion parfaite qu'attendait Hassan Mirza. Cependant, les politiciens savaient que cela allait arriver et s'y sont préparés. Les forces ont été rassemblées et elles sont prêtes à se battre. Cela pourrait conduire à une guerre civile. Il y a aussi la possibilité d'assassiner Hassan Mirza, qui pourrait conduire à une transition de pouvoir plus pacifique."
- pers.11.a: "Que le combat pour [PER.GetNameDef] commence !"
- pers.11.b: "Assassiner Mirza."
-
- pers.12.t: "Hassan Mirza reste pacifique"
- pers.12.d: "Hassan Mirza a surpris tout le monde en restant pacifique lors de cette opportunité. Beaucoup de gens pensaient que profitant de la mort de son frère, Mirza tenterait de créer une monarchie absolue au profit des Qajars. Cependant, Mirza n'a pas ordonné à ses troupes de faire quoi que ce soit, affirmant qu'il souhaite maintenir une transition pacifique du pouvoir. Maintenant, il semble que les choses se soient arrangées depuis la mort d'Ahmad, et les gens se préparent pour le couronnement d'Hassan Mirza en tant que nouveau Shah."
- pers.12.a: "Quel homme sage ce Mirza."
-
- pers.14.t: "Mirza ne donne aucun ordre et s'en va"
- pers.14.d: "Hassan Mirza n'a donné aucun ordre à ses hommes avant de partir se cacher. Cela signifie que les forces loyalistes n'ont aucune direction, aucun commandement central. Cela donne aux rebelles l'opportunité de rassembler leurs forces."
- pers.14.a: "Les Qajars pourraient-ils perdre leur pouvoir ?"
-
- pers.15.t: "Les politiciens sont prêts à combattre Hassan Mirza"
- pers.15.d: "Ce n'est une surprise pour personne qu'Hassan Mirza essaie d'obtenir plus de pouvoir pour le compte des Qajars. La mort d'Ahmad était l'occasion parfaite qu'attendait Hassan Mirza. Cependant, les politiciens savaient que cela allait arriver et s'y sont préparés. Les forces ont été rassemblées et sont prêtes à se battre. Il semble que les villes plongent dans la guerre civile."
- pers.15.a: "Que le combat pour [PER.GetNameDef] commence !"
-
- pers.16.t: "Hassan Mirza a été assassiné !"
- pers.16.d: "Un groupe de rebelles socialistes a réussi à assassiner Hassan Mirza à l'aide d'une bombe alors qu'il parlait à certains de ses officiers. C'est un coup dur pour les loyalistes et la dynastie Qajar. Cependant, Hassan Mirza a eu un fils, Soltan Hamid Mirza, qui va désormais prendre les rênes pour tenter de rétablir la stabilité. Actuellement, il y a deux options. Les politiciens ont dit qu'ils étaient prêts à négocier avec nous pour une transition pacifique. Néanmoins, nous pourrions également ignorer toute négociation, mais cela ferait basculer la nation au bord de la guerre civile."
- pers.16.a: "Nous nous battrons pour [PER.GetNameDef] !"
- pers.16.b: "Nous devrions négocier pour la paix en [PER.GetName]"
-
- pers.17.t: "Révolution !"
- pers.17.d: "Les citoyens de [PER.GetNameDef] ont tranché ; le régime monarchique a bel et bien vécu ! Une majorité des Qajars et de leurs fidèles se sont cachés ou ont été exilés du pays. Une réunion d'urgence au Majlis a été convoquée pour décider du système de gouvernement de [PER.GetNameDef]. Nous pouvons soit former une république pleinement démocratique sous l'égide du parti démocrate, qui régnait auparavant avec le Shah, avec des élections tous les 4 ans. Notre autre option est d'appeler au pouvoir le parti socialiste Edalat. Le parti avait été interdit depuis l'échec de la tentative d'assassinat d'Ahmad Shah mais continuait de bénéficier d'un large soutien à travers [PER.GetNameDef]."
- pers.17.a: "Les Démocrates formeront une république."
- pers.17.b: "Edalat établira une république socialiste."
-
- pers.18.t: "Les Démocrates forment un gouvernement"
- pers.18.d: "Ça a été décidé. Le parti démocrate a formé un gouvernement et un parlement démocratiques. Sayyed Hasan Taqizadeh est devenu le premier Président de la nouvelle République d'Iran."
- pers.18.a: "La Démocratie triomphe !"
-
- pers.19.t: "Les Socialistes forment un gouvernement"
- pers.19.d: "Ça a été décidé. Le parti Edalat a formé un gouvernement socialiste sous la présidence d'Iraj Eskandari. Les paysans de [PER.GetNameDef] se réjouissent alors qu'Eskandari prononce son premier discours, parlant de plans visant à donner plus de pouvoir aux travailleurs et à leurs syndicats et à redistribuer la richesse aux pauvres."
- pers.19.a: "Une victoire pour les travailleurs."
-
- pers.20.t: "La Guerre Civile dans les villes !"
- pers.20.d: "Tout le monde savait que la guerre civile était une possibilité susceptible de frapper notre nation désunie. Des combats ont éclaté dans les grandes villes, avec des affrontements entre socialistes, républicains et loyalistes qajar. Cependant, il semble que notre désunion ait été quelque peu bénéfique, car en dehors des villes, la plupart des gens ne se soucient pas suffisamment de leur gouvernement pour se battre pour cela. Cela signifie que les combats sont entièrement contenus dans les villes. Ce sera un combat sanglant, et celui qui en sortira victorieux unifiera [PER.GetNameDef] sous son gouvernement, et les perdants seront sans aucun doute dépouillés de toute influence."
- pers.20.a: "Que le meilleur parti l'emporte."
-
- pers.21.t: "La bataille pour Isfahan"
- pers.21.d: "Ispahan, autrefois capitale de l'empire safavide, est considérée comme l'une des plus belles villes de [PER.GetNameDef] et possède de nombreux sites historiques. Elle est si populaire que certains l'appellent "Ispahan, la moitié du monde". Au cours des derniers jours, depuis la mort de Shah Ahmad Qajar, les forces pro-Hassan Mirza ont réussi à s'emparer de points clés autour de la ville, comme le palais Chehel Sotun et la place Naghsh-e Jahan, afin de supprimer toute résistance de la part des groupes antimonarchistes. Pendant ce temps, un petit groupe de rebelles qui se préparaient à frapper la ville a réussi à capturer les ponts sur la rivière Zayandeh Rud et les ont détruits, à l'exception des célèbres ponts safavides de Si o Se Pol et Khaju, coupant efficacement les royalistes de la partie sud de la ville."
- pers.21.a: "Les forces loyalistes doivent pousser, même si c'est dangereux."
- pers.21.b: "Les loyalistes tenteront d'encercler les rebelles en ramant vers l'autre côté."
-
- pers.22.t: "La bataille pour Tabriz"
- pers.22.d: "Tabriz, l'une des villes historiques de [PER.GetNameDef] datant de l'ère sassanide a gagné en importance comme capitale de [PER.GetNameDef] sous l'ère Ilkhanate, et à l'époque de l'ascension des Safavides. Egalement centre économique important tout au long de l'histoire de [PER.GetNameDef], la ville est restée étrangement silencieuse ces derniers jours. Il y a quelques jours à peine, avec la mort d'Ahmad Shah Qajar, les révolutionnaires présents dans la ville, tout comme pendant la révolution constitutionnelle de 1908, ont commencé à prendre le contrôle de presque tous les lieux importants de la ville : notamment la maison de la Constitution de Tabriz, le grand bazar de Tabriz et la mosquée de Kabud. Alors que les fidèles à Hassan Mirza se sont fait surprendre par les révolutionnaires Tabrizi, ils ont cependant réussi à sécuriser le mausolée Arg-e Alishah qui s'était avéré être un bon endroit pour résister aux forces révolutionnaires, comme l'avaient prouvé les Russes en 1911 lors de leur prise de Tabriz."
- pers.22.a: "Les Révolutionnaires prennent d'assaut l'Arg-e Alisah afin de vaincre les royalistes."
- pers.22.b: "Les rebelles retardent l'attaque pour négocier des conditions de paix avec leur commandant."
-
- pers.24.t: "La bataille pour Mashaad"
- pers.24.d: "La ville la plus sainte pour les chiites de [PER.GetNameDef], le lieu de repos du 8ème imam chiite Reza, est actuellement en état de guerre depuis la mort du Shah. Les révolutionnaires, ayant une petite emprise dans la ville, ont à peine réussi à tenir tête à la forte concentration de forces royalistes, ils ont donc eu recours à la guérilla et endommagé les bâtiments gouvernementaux, attaquant les patrouilles royalistes et faisant sauter des caches de ravitaillement. Cependant, cela ne suffira probablement pas."
- pers.24.a: "Les rebelles sont bientôt mis en fuite par des citoyens loyaux."
-
- pers.26.t: "La bataille pour Shiraz"
- pers.26.d: "Shiraz est probablement l'une des plus anciennes villes [PER.GetAdjective]s à exister, datant de l'Empire achéménide et de sa fondation. Étant l'une des capitales culturelles de [PER.GetNameDef] à travers l'histoire, Shiraz a joué un rôle important dans l'identité et les affaires politiques de [PER.GetNameDef]. Au cours des deux derniers jours depuis la mort du Shah, les forces révolutionnaires ont réussi à prendre le contrôle de différents points clés autour de la ville avec un minimum de dommages portés aux sites historiques et culturels célèbres, tels que les célèbres poètes Hafez Shirazi et le lieu de repos de Sa'di à côté la mosquée Shah Cheragh, la porte du Coran et la célèbre forteresse de la dynastie Zand intitulée Arg of Karim Khan. Alors que les forces révolutionnaires ont réussi à prendre le contrôle de la majeure partie de la ville, les membres de la tribu Qashqai, fidèles au Shah, s'apprêtent à capturer Shiraz et pourraient ramener la ville sous contrôle loyaliste. À l'insu de la tribu Qashqai, la tribu révolutionnaire Bakhtiari, qui a toujours été en faveur des constitutionnalistes et a participé à la révolution constitutionnelle de 1907, a cependant envoyé une force énorme pour aider les révolutionnaires. S'ils y arrivent à temps, ils pourraient peut-être faire pencher la balance en faveur des défenseurs révolutionnaires..."
- pers.26.a: "La tribu Bakhtiari accélère sa marche vers Shiraz afin de renforcer les rebelles dans la ville."
- pers.26.b: "La tribu Qashqai lance une offensive anticipée qui faire tomber la ville sous son contrôle."
-
- pers.27.t: "La bataille pour Bandar e'Abbas"
- pers.27.d: "Bandar e'Abbas est l'une des villes commerciales les plus importantes de [PER.GetNameDef]. En raison de son port et de son emplacement clé dans le golfe Persique, la ville a historiquement été un centre d'échanges pour les marchands étrangers et un endroit où la plupart des exportations [PER.GetAdjective]s ont lieu. La ville portuaire de Bandar e'Abbas a connu ces derniers jours de violents combats entre les partisans d'Hassan Mirza et les révolutionnaires. Bien que la ville ait été initialement bien gardée par les partisans Qajar, en raison de son importance, les membres du parti Edalat avaient secrètement fait venir des socialistes étrangers dans la ville afin de combattre les soldats Qajar lorsque le moment serait venu. Dès que la nouvelle de la mort d'Ahmad Shah s'est répandue, les forces Qajar ont commencé à fortifier des parties importantes de la ville, en particulier le port, le bouclant jusqu'à nouvel ordre. Pendant ce temps, les révolutionnaires aux côtés des combattants étrangers ont commencé à frapper les positions Qajar les plus faibles au moment où ils s'y attendaient le moins. En quelques heures, les plus petits avant-postes qajar avaient été entièrement détruits, et lorsque la nouvelle parvint aux forces qajar, il était trop tard pour qu'elles fassent quoi que ce soit, si ce n'est pour fortifier les derniers postes importants qu'ils occupaient. En raison de problèmes d'infrastructure, aucun renfort n'arrivera à temps dans la ville."
- pers.27.a: "Les révolutionnaires attaquent les derniers avant-postes fortifiés et revendiquent la prise de la ville."
-
- pers.28.t: "Fin des combats"
- pers.28.d: "Il semble que les combats ont commencé à ralentir. Des centaines de personnes ont été tuées, à la fois des combattants volontaires et des civils innocents. Des familles ont été déchirées à cause des convictions politiques, mais l'ordre a été quelque peu rétabli."
- pers.28.a: "Et le vainqueur est..."
-
- pers.29.t: "Les loyalistes sortent victorieux"
- pers.29.d: "Alors que la poussière retombe, il semble que les loyalistes Qajar soient sortis victorieux des combats. Tous les rebelles restants qui refusent d'accepter le nouveau gouvernement sont arrêtés pour assurer la stabilité."
- pers.29.a: "Comme cela devrait être."
-
- pers.30.t: "Les rebelles sortent victorieux"
- pers.30.d: "Alors que la poussière retombe, il semble que les rebelles anti-Qajar, une union de républicains et de socialistes, l'ait emporté dans les villes et prennent ainsi le pouvoir."
- pers.30.a: "Comme cela devrait être."
-
- pers.31.t: "Le Lundi Noir frappe [PER.GetNameDef]"
- pers.31.d: "L'économie allemande est en croissance depuis leur victoire lors de la Weltkrieg et entretient des liens économiques étroits avec [PER.GetNameDef]. En raison de la taille de leur économie et de nos importantes réserves de pétrole, notre économie est de plus en plus dépendante de celle de l'Allemagne. Depuis la fin de la Weltkrieg, notre économie s'est rétablie assez rapidement et les effets de la famine persane ont presque été résolus.\n\nCependant, la crise a frappé l'Allemagne lors de la crise du Lundi Noir. Toute l'économie allemande s'est effondrée, créant des remous affectant de nombreuses autres nations du monde, et entraînant leurs économies avec elles. Il semble que l'une de ces vagues nous ait frappé. Soudain, des milliers de personnes ont perdu tout leur argent et leur emploi, et des familles vont à nouveau mourir de faim. La direction s'est réunie lors d'une réunion d'urgence pour trouver un plan visant à résoudre ce problème."
- pers.31.a: "Les choses ne peuvent que s'améliorer..."
-
- pers.32.t: "Fortune d'Astan Quds Razavi"
- pers.32.d: "L'Astan Quds Razavi est une fondation caritative autonome basée en [PER.GetName], et connue sous le nom de Boyard. Ils s'occupent des domaines, réparent et rénovent de vieux temples et autres bâtiments, et même éduquent les écoliers orphelins. Ils sont très populaire et riches, et ont même une influence au sein de notre gouvernement. Cependant, ce sur quoi nous voulons nous concentrer, c'est leur immense richesse. Voyant les effets du Lundi Noir sur nos citoyens, l'Astan Quds Razavi ont accepté de nous céder une partie de leur richesse pour aider à résoudre le problème. Cependant, nous avons une deuxième option. Nous pourrions pleinement saisir leur richesse, nous donnant plus d'argent pour résoudre la crise du Lundi Noir. Cependant, l'organisation Astan Quds Razavi bénéficie d'un large soutien et saisir leur richesse nous ferait donc perdre beaucoup de soutien de la part du public."
- pers.32.a: "L'affaire est suffisamment intéressante."
- pers.32.b: "Saisir leur fortune."
-
- pers.33.t: "Fortune du Cheikh Khaz'al"
- pers.33.d: "Khaz'al ibn Jabir ibn Merdaw al-Ka'bi est l'un des hommes les plus riches de [PER.GetNameDef], sinon de tout le Moyen-Orient. Ayant acheté une participation dans la compagnie pétrolière anglo-[PER.GetAdjective] et ayant reçu des dons pendant des années de la part de l'Empire britannique aux côtés de ses sujets dans la province du Khouzestan, il est devenu incroyablement riche et influent, au point que la province du Khuzestan était quasiment son royaume personnel. Avec les réformes économiques en cours, nous avons besoin d'une énorme source de revenus et nous pensons que la fortune de Cheikh Khaz'al est la réponse. Si nous pouvons le convaincre de nous fournir volontairement sa richesse, nous pouvons empêcher toute hostilité indésirable. D'un autre côté, nous pouvons saisir tous ses biens, ce qui l'éliminera complètement en tant que menace à l'avenir et nous donnera également plus de fournitures pour travailler. Bien que les conséquences d'une telle action seront graves."
- pers.33.a: "Nous devons essayer de le convaincre de nous céder sa richesse."
- pers.33.b: "Il est temps de nous débarrasser de Khaz'al. Depuis trop longtemps son pouvoir n'a cessé de croître."
-
- pers.34.t: "Révoquer l'opposition ?"
- pers.34.d: "Depuis que la révolution a eu lieu et que les socialistes se sont emparés du gouvernement, une question mobilisa les esprits : devrions-nous travailler avec les politiciens du gouvernement précédent, ou devrions-nous écarter définitivement quiconque a travaillé pour le gouvernement précédent, afin d'achever complètement la révolution. Le gouvernement précédent, bien que sous la forte autorité des Qajars, était un gouvernement social-démocrate, prouvant en cela que les politiques sont capables de travailler au moins un peu avec nous. Cependant, il y a une chance que ces forces réactionnaires, si elles sont maintenues au gouvernement, essaient de corrompre et inévitablement de détruire la révolution. Bien qu'à court terme la purge du gouvernement ait un effet dangereux, à long terme elle pourrait préserver la révolution de façon permanente."
- pers.34.a: "Il est temps de choisir."
-
- pers.35.t: "Le Clergé appelle au Jihad !"
- pers.35.d: "Avec notre nation sous la menace de la destruction, le Clergé partout en [PER.GetName], en particulier à Qom et Mashhad, a déclaré un Jihad. Cela incitera nos hommes à se battre plus fort et conduira sûrement à la victoire contre la menace extérieure."
- pers.35.a: "[PER.GetNameDefCap] se bat !"
-
- pers.36.t: "Fin du Jihad"
- pers.36.d: "Avec notre nation en paix, le Clergé a annoncé la fin du Jihad. Nous avons survécu à la guerre et remporté la victoire !"
- pers.36.a: "[PER.GetNameDefCap] vit dans la gloire !"
-
- pers.37.t: "Protestations des Socialistes"
- pers.37.d: "Des centaines de personnes se sont rassemblées dans les rues, pour protester contre notre gouvernement actuel. Ces personnes sont membres du parti socialiste interdit \"Edalat\", la principale organisation socialiste de [PER.GetNameDef]. Bien qu'il soit illégal, il compte encore beaucoup de soutien parmi notre population. Ces manifestations se terminent toujours par de violents affrontements avec la police, et chaque jour, de plus en plus de gens perdent confiance en notre gouvernement. Si nous voulons que ces manifestations s'arrêtent, nous devons mettre fin au chaos politique au sein du gouvernement lui-même et rétablir l'ordre dans tout le pays."
- pers.37.a: "Un jour, la violence cessera."
-
- pers.38.t: "Élection Présidentielle de 1938"
- pers.38.d: "Comme nous l'avons promis lorsque nous avons pris le pouvoir au gouvernement, la première élection présidentielle a lieu en [PER.GetName], et les habitants de [PER.GetNameDef] ont le choix entre de nombreuses options. Les choses sont encore très instables et les gens ne se sont toujours pas complètement remis du chaos d'après la mort d'Ahmad. Le premier est une coalition Démocrate-Edalat, avec Taqizadeh comme Président. Ils ont formé une coalition parce que leurs deux dirigeants sont de proches associés et ont tous deux travaillé ensemble pendant la révolution contre le Shah. Ils ont des points de vue similaires, ils peuvent donc bien travailler ensemble pour le moment. Cependant, ils diffèrent à bien des égards, et cela restera une alliance fragile. L'autre candidat principal est Mohammed Ali Foroughi Zoka-ol-Molk, à la tête d'une coalition Tajadod-Eslah Talaban. Ces partis se sont réunis pour tenter de réduire l'influence de l'Edalat et du parti Démocrate, et sont en désaccord avec eux dans presque tous les domaines. Ces partis peuvent bien travailler ensemble, car l'Eslah Talaban, ayant perdu une certaine popularité en raison de son alignement sur le Shah, peut mettre en œuvre sa politique sociale, tandis que le parti Tajadod peut mettre en œuvre ses réformes économiques."
- pers.38.b: "Sayyed Hasan Taqizadeh remporte les suffrages."
- pers.38.e: "Mohammed Ali Foroughi Zoka-ol-Molk emporte le vote."
-
- pers.39.t: "Élection Présidentielle de 1942"
- pers.39.d: "C'est à nouveau le temps des élections en [PER.GetName], et les choses se sont beaucoup calmées. Le premier choix est Sayyed Hasan Taqizadeh du parti Démocrate. Cette fois, il n'y a pas de coalition avec le parti Edalat, en raison de la baisse des tensions politiques. Taqizadeh croit aux réformes du système économique pour aider ceux qui n'ont pas grand-chose, comme ceux qui ont été touchés par la famine. Le deuxième est Ahmad Qavam du parti Eslah Talaban. Ses croyances sont beaucoup plus traditionnelles et il pense que des réformes limitées sont préférables. Ces deux partis sont en rivalité depuis la première révolution constitutionnelle et souhaitent tous deux exercer le pouvoir en [PER.GetName]."
- pers.39.b: "Sayyed Hasan Taqizadeh remporte les suffrages."
- pers.39.f: "Ahmad Qavam remporte les suffrages."
-
- pers.40.t: "Élection Présidentielle de 1946"
- pers.40.d: "Une fois de plus, c'est l'heure des élections en [PER.GetName], et il y a le choix entre de nombreuses options. Le premier choix est une coalition entre le parti Démocrate et le parti Edalat dirigé par Taqizadeh. Le parti Edalat a beaucoup perdu en popularité depuis les premières élections, mais a formé une coalition avec les Démocrates pour tenter de regagner son influence. Deuxième possibilité, une coopération entre le parti Tajadod et le parti Eetedaliun dirigé par Mohammed Mosaddegh. Bien qu'ils soient quelque peu en désaccord sur les politiques sociales, économiquement, ils peuvent travailler ensemble efficacement. Les deux ne sont pas des partis majeurs, ils ont donc besoin de leur popularité combinée pour gagner. Enfin, dernier choix, le parti Eslah Talaban. Ils ont gagné en popularité depuis la révolution, car beaucoup de gens pensent que s'il n'y avait pas eu de révolution, il n'y aurait peut-être pas eu autant de guerres qu'il y en a eu récemment. De nombreuses personnes sont décédées et de plus en plus de personnes se tournent vers le parti Eslah Talaban pour résoudre ce problème."
- pers.40.b: "Sayyed Hasan Taqizadeh remporte les suffrages."
- pers.40.c: "Mohammad Mosaddegh remporte les suffrages."
- pers.40.f: "Ahmad Qavam remporte les suffrages."
-
- pers.41.t: "Élection du Majlis de 1938"
- pers.41.d: "Depuis la création de la monarchie constitutionnelle, les Majlis ont joué un rôle majeur dans la politique de [PER.GetNameDef]. Agissant en tant que parlement de [PER.GetNameDef], ils ont un pouvoir important dans la vie quotidienne de tous les [PER.GetAdjective]s. Aujourd'hui, le moment est venu d'élire de nouvelles personnes au sein des Majlis et de nommer de nouveaux ministres.\n\nLe premier gouvernement est un gouvernement issu du parti démocrate. C'était le parti au pouvoir sous le précédent Shah, avant que sa santé déclinante ne se détériore trop. Les démocrates restent très populaires dans tout le pays, ayant déjà prouvé leur capacité à le gouverner. Ils prévoient de rester modérés et d'apporter stabilité et unité à [PER.GetNameDef]. Le second gouvernement possible est une coalition de membres du parti Eslah Talaban et de ministres plus autoritaires. Ils sont convaincus que plus de pouvoir devrait être donné au Shah, et que la perte de pouvoir de ce dernier a été la cause du chaos, après la mort d'Ahmad. Ils sont toujours opposés à un exercice absolu du pouvoir du Shah, mais souhaite qu'il s'implique plus directement dans la politique. Ils veulent également garder les rênes de la scène politique, en nommant le général Reza Khan comme ministre de la Sécurité. Enfin, le dernier gouvernement possible est une coalition de nombreux partis, de ministres démocrates, du parti Eetedaliun et du parti Tajadod. Ils sont généralement d'accord avec l'idée de la monarchie constitutionnelle, mais souhaitent tout de même que le Shah ait moins de pouvoir. Ils peuvent être en désaccord sur les politiques économiques et sociales, mais peuvent s'unir pour faire adopter quelques petites réformes."
- pers.41.a: "Parti Démocrate."
- pers.41.b: "Coalition de Droite."
- pers.41.c: "Coalition libérale."
-
- pers.42.t: "Élection du Majlis de 1942"
- pers.42.d: "Il est à nouveau temps de nommer de nouvelles personnes au Majlis, et les choses se sont beaucoup calmées, de sorte que les partis sont plus ouverts à la mise en œuvre de leurs propres politiques et programmes. La première option est une coalition entre des membres du parti démocrate et du parti Tajadod. Ils sont entièrement d'accord sur les questions sociales et peuvent donc facilement adopter une réforme sociale. Cependant, sur le plan économique, ils diffèrent énormément, mais ils préféreraient que le pouvoir soit partagé entre eux plutôt qu'avec d'autres partis. Deuxième option, le cabinet du parti Eslah Talaban. Ils sont plus modérés, croient aux valeurs traditionnelles et à un partage du pouvoir et une coopération étroite entre le Shah et le Majlis. Enfin, dernière option, une coalition entre des membres du parti Tajadod et des ministres plus autoritaires. Les ministres autoritaires veulent accorder toujours plus de pouvoir pour le Shah et veulent profiter des élections pour imposer leurs idées au sein du Majlis. Les Tajadod ont également changé de tactique, estimant qu'un Shah fort leur sera bénéfique et les aidera à faire passer leurs réformes."
- pers.42.a: "Coalition Démocrate"
- pers.42.b: "Parti Eslah Talaban."
- pers.42.c: "Coalition de Droite."
-
- pers.43.t: "Élection du Majlis de 1946"
- pers.43.d: "Il est à nouveau temps de nommer de nouvelles personnes au Majlis. La première option pour former un gouvernement est le parti démocrate, qui se présente désormais de manière indépendante. Ils ont un agenda très libéral et peuvent maintenant tenter de faire adopter des réformes sociales. Deuxième option, un gouvernement formé par le parti Eslah Talaban. Ils sont plus modérés, croyant aux valeurs traditionnelles et croient en un pouvoir partagé et une coopération étroite entre le Shah et le Majlis. Enfin, dernière option, une coalition entre des membres du parti Tajadod et des ministres plus autoritaires. Les ministres autoritaires veulent accorder toujours plus de pouvoir pour le Shah et veulent profiter des élections pour imposer leurs idées au sein du Majlis. Les Tajadod ont également changé de tactique, estimant qu'un Shah fort leur sera bénéfique et les aidera à faire passer leurs réformes."
- pers.43.a: "Parti Démocrate."
- pers.43.b: "Parti Eslah Talaban."
- pers.43.c: "Coalition de Droite."
-
- pers.44.t: "Guerre avec l'Azerbaïdjan"
- pers.44.d1: "Dans le nord de l'État de Tabriz, il y a une population majoritaire de Turcs azerbaïdjanais. Cette population nous donne une justification pour réunir le peuple azerbaïdjanais sous notre drapeau.\n\nCependant, une nation située à notre frontière, l'Arménie, a également un compte à régler avec l'Azerbaïdjan. Nous pouvons approcher l'Arménie en vue d'une alliance militaire avec elle, et nous pouvons diviser le territoire azerbaïdjanais dans un intérêt mutuel."
- pers.44.d2: "Dans le nord de l'État de Tabriz, il y a une population majoritaire de Turcs azerbaïdjanais. Cette population nous donne une justification pour réunir le peuple azerbaïdjanais sous notre drapeau.\n\nLes Arméniens restent nos alliés depuis que nous avons commencé à lutter ensemble contre les Ottomans, mais qui peut savoir combien de temps cet arrangement durera ? Nous pourrions rendre notre alliance avec les Arméniens plus permanente, en échange du partage du territoire azerbaïdjanais avec eux."
- pers.44.a: "Nous n'avons pas besoin de l'aide de l'Arménie."
- pers.44.b: "Approcher l'Arménie."
-
- pers.45.t: "Agression [PER.GetAdjective] - qui devrions-nous appeler à l'aide ?"
- pers.45.d: "Des rapports font état d'une augmentation des agressions [PER.GetAdjective]s à nos frontières, avec le potentiel de dégénérer en une guerre totale. Les [PER.GetAdjective]s prétendent qu'ils souhaitent unir le peuple azerbaïdjanais sous un même drapeau, mais nous voyons clair à travers ces mensonges. L'Iran essaie juste d'étendre encore plus son influence. Nous ne sommes pas en mesure aujourd'hui de nous défendre contre [PER.GetNameDef] par nous-mêmes. Mais, nous pouvons contacter les Allemands pour conclure un accord pour la défense."
- pers.45.a: "Approcher l'Allemagne."
- pers.45.c: "Nous devons le faire seul."
-
- pers.46.t: "L'Azerbaïdjan veut l'aide contre l'agression [PER.GetAdjective]"
- pers.46.d: "Le gouvernement azerbaïdjanais a demandé que nous les défendions lorsque les [PER.GetAdjective]s leur déclareraient la guerre. Le pétrole des champs pétrolifères de Bakou alimente nos chars et nos voitures, donc l'Azerbaïdjan pourrait être un bon allié. Cependant, si nous menaçons les [PER.GetAdjective]s, ils pourraient réagir en nous laissant utiliser leur pétrole à la place. Si cela se produit, nous n'avons pas à nous impliquer dans ce problème. Ou, nous pourrions simplement ignorer complètement cette affaire."
- pers.46.a: "Garantir l'Azerbaïdjan"
- pers.46.b: "Qui se soucie de l'Azerbaïdjan?"
-
- pers.47.t: "L'Allemagne garantit l'Azerbaïdjan"
- pers.47.d: "Il y a un problème dans le fait que les Allemands ont affirmé qu'ils défendraient l'Azerbaïdjan si nous entrions en guerre avec eux. La puissance de l'armée allemande est une chose que nous ne souhaitons pas nous frotter. Cependant, la principale raison pour laquelle l'Allemagne veut protéger l'Azerbaïdjan est son pétrole. Nous avons également d'importants stocks de pétrole que les Allemands pourraient utiliser pour leurs machines de guerre. Par conséquent, nous pourrions envoyer aux Allemands une proposition d'accord visant à utiliser notre pétrole à la place de celui des Azerbaïdjanais."
- pers.47.a: "Envoyer la proposition relative au pétrole."
- pers.47.b: "Nous ne craignons pas les Allemands !"
- pers.47.c: "En arrière."
-
- pers.48.t: "[PER.GetNameDefCap] offre du pétrole contre l'Azerbaïdjan"
- pers.48.d: "[PER.GetNameDefCap] nous a envoyé une proposition d'accord, nous proposant le commerce de leurs stocks de pétrole, à condition de mettre fin à notre garantie des Azerbaïdjanais. Nous ne devrions probablement pas nous impliquer dans une guerre au Moyen-Orient alors que nous avons déjà de l'instabilité chez nous."
- pers.48.a: "Nous avons obtenu ce que nous voulions, révoquez la garantie."
- pers.48.b: "Déclinez, nous ne trahissons pas nos alliés."
-
- pers.49.t: "[PER.GetNameDefCap] a reculé"
- pers.49.d: "[PER.GetNameDefCap] a décidé de reculer après son agression contre nous. Ils ont retiré leurs troupes de notre frontière, et notre sécurité est assurée. C'est un vrai jour de fête."
- pers.49.a: "Réjouissez-vous !"
-
- pers.50.t: "L'Allemagne a choisi l'accord sur le pétrole"
- pers.50.d: "Les Allemands ont décidé d'utiliser notre pétrole au lieu de celui des Azerbaïdjanais et ont révoqué leur garantie. Nous n'avons plus à nous soucier des Allemands et nous aurons bientôt plus de commerce, ce qui stimulera notre économie."
- pers.50.a: "L'Azerbaïdjan sera à nous."
-
- pers.51.t: "L'Allemagne maintient sa garantie"
- pers.51.d: "L'Allemagne a refusé toute offre de retirer sa garantie sur l'Azerbaïdjan et prétend qu'elle continuera à défendre son allié. Il est peut-être temps pour nous de revenir sur nos récentes revendications."
- pers.51.a: "Nous ne craignions pas les Européens."
- pers.51.b: "Nous ne pouvons affronter les Allemands !"
-
- pers.55.t: "Personne ne veut nous aider"
- pers.55.d: "Nous avons approché la puissance étrangère, et elle a décliné. Nous n'avons plus personne vers qui nous tourner, nous devons donc affronter les [PER.GetAdjective]s seuls. Nous nous battrons aussi fort que nous le pouvons !"
- pers.55.a: "Cela ne peut être bien..."
-
- pers.56.t: "L'Azerbaïdjan se dresse seul"
- pers.56.d: "Nous pouvons saisir notre chance. L'Azerbaïdjan a essayé de demander de l'aide aux puissances étrangères, et elles ont toutes refusé. Ils comprennent notre justification pour unir l'Azerbaïdjan sous le drapeau [PER.GetAdjective], et nous le ferons !"
- pers.56.a: "À la guerre !"
-
- pers.58.t: "[PER.GetNameDefCap] offre des territoires contre de l'aide"
- pers.58.d1:0 "[PER.GetNameDefCap] nous a approchés avec un accord. Ils prévoient d'envahir notre voisin l'Azerbaïdjan et nous offre un territoire en échange. Ensemble, nous pouvons facilement éliminer l'Azerbaïdjan et obtenir un territoire dans le processus."
- pers.58.d2: "[PER.GetNameDefCap] nous a proposé un marché. Ils prévoient d'envahir notre voisin l'Azerbaïdjan et nous ont offert un territoire si nous les aidons. En faisant cela, notre alliance existante deviendrait plus permanente."
- pers.58.a: "Nous acceptons d'aider."
- pers.58.b: "Nous resterons alliés, alors."
- pers.58.c:0 "Nous ne voulons pas risquer d'être impliqués."
- pers.58.e: "Nous ne voulons pas nous engager pour si longtemps."
-
- pers.59.t: "L'Arménie refuse notre offre"
- pers.59.d: "L'Arménie a refusé notre offre d'alliance. Ces inconscients, nous pouvons nous occuper des Azerbaïdjanais nous-mêmes. Cependant, il nous est encore possible d'oublier notre plan et de laisser l'Azerbaïdjan en l'état."
- pers.59.a: "Poursuivre le plan."
- pers.59.b: "En arrière."
-
- pers.60.t: "L'Arménie a accepté l'accord"
- pers.60.d: "L'Arménie a accepté de conclure une alliance formelle avec nous pour combattre les Azerbaïdjanais. Cela s'avérera sans aucun doute très utile dans la guerre à venir et dans toutes les guerres futures que nous aurons à mener."
- pers.60.a: "Ensemble nous sommes forts !"
-
- pers.62.t: "La Question Arménienne"
- pers.62.d: "L'Arménie a toujours été une grande question pour le peuple [PER.GetAdjective]. Ils faisaient autrefois partie du Grand Empire perse, et certains disent donc qu'ils devraient à nouveau nous le rejoindre, de force. Cependant, nous avons également la possibilité de nous allier plus étroitement à eux, en connectant plus efficacement notre économie pour stimuler nos deux économies."
- pers.62.a: "Ramenez-les, par la force."
- pers.62.b: "Ouvrir nos économies."
-
- pers.67.t: "[PER.GetNameDefCap] demande Bahreïn"
- pers.67.d: "[PER.GetNameDefCap] nous a envoyé un ultimatum, déclarant que nous devrions leur céder immédiatement l'île de Bahreïn. Leur revendication sur Bahreïn remonte à des centaines d'années, mais le gouvernement [PER.GetAdjective] parle toujours avec passion de la reconquête des « terres perdues ». Ils disent que si nous ne cédons pas les îles, ils devront prendre des mesures militaires."
- pers.67.a: "Laissez tomber."
- pers.67.b: "Nous ne craignons pas [PER.GetNameDef]"
-
- pers.68.t: "Ils cèdent Bahreïn."
- pers.68.d: "Nous sommes désormais les seuls propriétaires de Bahreïn, comme cela aurait toujours dû être."
- pers.68.a: "Parfait."
-
- pers.69.t: "Ils refusent notre ultimatum"
- pers.69.d: "Ils ont refusé de nous céder Bahreïn. Notre seule option pour récupérer l'ile est la guerre."
- pers.69.a: "A la guerre !"
-
- pers.70.t:9 "L'annexion de Sulaymaniyah"
- pers.70.d:9 "Maintenant que la poussière est retombée et que nous sommes sortis victorieux des armées ottomanes, il semble que notre allié kurde n'ait plus d'utilité. [KUR.GetLeader] n'a réussi à maintenir son autorité chancelante sur la région que grâce à la guerre contre les Turcs, et avec leur effondrement, beaucoup de ses anciens compagnons d'armes ont déjà commencé à se retourner contre lui, car il est loin d'être une figure unificatrice dans la région.\n\nPour rétablir l'ordre dans la région, nous avons envoyé plusieurs divisions dans la ville de Sulaymaniyah et dans les campagnes, en lançant le même ultimatum aux différents seigneurs de guerre qui tentent de profiter du chaos : déposez les armes ou mourez.\n\nLes forces désorganisées qui composaient les armées de nos anciens alliés étant coupées de tout soutien étranger, et face à une population largement apathique qui souhaite un retour à la stabilité, notre armée a été en mesure d'occuper efficacement toute la région, et bien que nous devions faire face à une résistance sporadique, Sulaymaniyah est désormais à nous."
- pers.70.a:9 "Nous n'avions vraiment pas le choix."
-
- pers.80.t: "Paix avec la Russie ?"
- pers.80.d: "Nous avons repoussé la Russie jusqu'à la mer Noire. Cependant, nous ne voulons pas trop nous étendre. Nous pouvons approcher la Russie avec une offre de paix."
- pers.80.a: "Offrez leur la paix."
- pers.80.b: "Nous irons jusqu'à Moscou !"
-
- pers.81.t: "Paix avec [PER.GetNameDef] ?"
- pers.81.d: "La guerre avec [PER.GetNameDef] n'a pas du tout tourné en notre faveur. Ils nous ont proposé un accord de paix, nous faisant cependant perdre beaucoup de territoire."
- pers.81.a: "Accepter la paix."
- pers.81.b: "Nous les repousserons !"
-
- pers.82.t: "Paix avec l'Entente ?"
- pers.82.d: "Nous avons combattu avec succès le Dominion de l'Inde et devons maintenant nous rapprocher de l'Entente pour obtenir la paix."
- pers.82.a: "Proposer la paix."
- pers.82.b: "Au combat !"
-
- pers.83.t: "Paix avec [PER.GetNameDef] ?"
- pers.83.d: "[PER.GetNameDefCap] a vaincu le Dominion de l'Inde. Ils nous proposent un accord - la paix, en échange du Baloutchistan. Que doit-on répondre ?"
- pers.83.a: "Nous n'avons d'autres choix que d'accepter."
- pers.83.b: "Jamais !"
-
- pers.85.t: "Nowruz"
- pers.85.d: "Aujourd'hui, partout en [PER.GetName], les gens célèbrent Nowruz, une ancienne tradition remontant au début de la foi zoroastrienne et de l'ancienne Perse. Nowruz célèbre le Nouvel An [PER.GetAdjective] et le début du printemps, rapprochant les gens pendant toute la durée des festivités."
- pers.85.a: "Joyeux Nowruz !"
-
- pers.86.t: "Nowruz"
- pers.86.d: "Aujourd'hui, partout en [PER.GetName], les gens célèbrent Nowruz, une ancienne tradition remontant au début de la foi zoroastrienne et de l'ancienne Perse. Nowruz célèbre le Nouvel An [PER.GetAdjective] et le début du printemps, rapprochant les gens pendant toute la durée des festivités."
- pers.86.a: "Joyeux Nowruz !"
-
- pers.87.t: "Paix avec les Allemands"
- pers.87.d: "Cette guerre avec les Allemands s'est avérée infructueuse. Nous devrions leur offrir la paix pour la stabilité de notre nation."
- pers.87.a: "Offrez leur la paix"
- pers.87.b: "La Paix c'est pour les faibles."
-
- pers.88.t: "Paix avec [PER.GetNameDef] ?"
- pers.88.d: "Nous avons fait la guerre à [PER.GetNameDef] pour défendre notre allié, l'Azerbaïdjan. Cependant, de toute évidence, cela n'a pas fonctionné. Nous devrions probablement faire la paix avec eux."
- pers.88.a: "Accepter la paix."
- pers.88.b: "Jamais !"
-
- pers.89.t: "Dictionnaire de Dehkhoda"
- pers.89.d: "Avec la montée des mouvements nationalistes et séparatistes partout dans le monde, [PER.GetNameDef] uni et unifié est nécessaire. Récemment, nous avons découvert les efforts d'Ali Akbar Dehkhoda, un éminent linguiste [PER.GetAdjective], pour créer le tout premier dictionnaire farsi. Nous pouvons profiter de cette occasion pour éduquer davantage notre peuple et, ce faisant, renforcer notre unité."
- pers.89.a: "Donnez une tape dans le dos d'Ali Akbar et félicitez-le pour son petit projet."
- pers.89.b: "Financez le projet et préparez-vous à distribuer le livre gratuitement dans tout le pays."
-
- pers.90.t: "Excavation de Persépolis"
- pers.90.d: "Ces dernières années, les historiens du monde entier ont commencé à s'intéresser davantage au passé historique de [PER.GetNameDef]. Récemment, Ernst Emil Herzfield, un archéologue et historien allemand, a fouillé les ruines de Persépolis et il vient de demander l'autorisation de renouveler ses fouilles de Persépolis. C'est à nous de décider quoi faire de sa demande."
- pers.90.a: "Autorisez l'excavation, mais régulez-la fortement pour protéger le site du vol et du vandalisme."
- pers.90.b: "Autoriser une excavation sans restrictions."
- pers.90.c: "Ne laissez pas l'excavation se poursuivre."
-
- pers.91.t: "Muharram"
- pers.91.d: "Aujourd'hui marque le début de Muharram, premier mois du calendrier islamique, un mois de deuil pour les chiites en [PER.GetName]. Au cours de ce mois, l'Imam Husein, le troisième imam chiite a été martyrisé et les événements qui ont conduit à son martyre sont encore frais dans la mémoire des chiites de [PER.GetNameDef]."
- pers.91.a: "Nous le pleurons."
-
- pers.92.t: "Muharram"
- pers.92.d: "Aujourd'hui marque le début de Muharram, premier mois du calendrier islamique, un mois de deuil pour les chiites en [PER.GetName]. Au cours de ce mois, l'Imam Husein, le troisième imam chiite a été martyrisé et les événements qui ont conduit à son martyre sont encore frais dans la mémoire des chiites de [PER.GetNameDef]."
- pers.92.a: "Nous le pleurons."
-
- pers.97.t: "Ramadan"
- pers.97.d: "Aujourd'hui, c'est le début du neuvième mois du calendrier islamique, le Ramadan. Un mois de jeûne et de prière pour les musulmans du monde entier, remontant aux premiers jours de l'expansion de l'Islam. Au fur et à mesure que les [PER.GetAdjective]s commencent les préparatifs des jeûnes et des prières du mois, on peut remarquer l'harmonie que cela a apporté."
- pers.97.a: "Bon Ramadan !"
-
- pers.98.t: "Ramadan"
- pers.98.d: "Aujourd'hui, c'est le début du neuvième mois du calendrier islamique, le Ramadan. Un mois de jeûne et de prière pour les musulmans du monde entier, remontant aux premiers jours de l'expansion de l'Islam. Au fur et à mesure que les [PER.GetAdjective]s commencent les préparatifs des jeûnes et des prières du mois, on peut remarquer l'harmonie que cela a apporté."
- pers.98.a: "Bon Ramadan !"
-
- pers.99.t: "Nuit de Yalda"
- pers.99.d: "Aujourd'hui, 30ème jour de Azar, le dernier jour du neuvième mois du calendrier [PER.GetAdjective], marque la célébration de Yalda. La nuit la plus longue et la plus sombre de l'année qui est le solstice d'hiver dans l'hémisphère nord est la nuit où les Iraniens se réunissent et leurs familles pour manger, boire et lire de la poésie. Datant des débuts de la foi zoroastrienne, Yalda est presque aussi importante que Nowruz pour tout le peuple iranien."
- pers.99.a: "Joyeuse Nuit de Yalda !"
-
- pers.100.t: "Nuit de Yalda"
- pers.100.d: "Aujourd'hui, 30ème jour de Azar, le dernier jour du neuvième mois du calendrier [PER.GetAdjective], marque la célébration de Yalda. La nuit la plus longue et la plus sombre de l'année qui est le solstice d'hiver dans l'hémisphère nord est la nuit où les Iraniens se réunissent et leurs familles pour manger, boire et lire de la poésie. Datant des débuts de la foi zoroastrienne, Yalda est presque aussi importante que Nowruz pour tout le peuple iranien."
- pers.100.a: "Joyeuse Nuit de Yalda !"
-
- pers.101.t: "Un ours a été trouvé par des soldats"
- pers.101.d: "Récemment, un ourson a été trouvé par un de nos officiers dans les fortifications voisines de [266.GetCapitalVictoryPointName]. Alors que nous avions initialement prévu d'emmener l'ours en raison du règlement militaire, nous avons commencé à reconsidérer la question, car les troupes stationnées dans le fort ont demandé à ce qu'il reste. Nous avons décidé d'autoriser l'ours à rester au fort pour le moment afin de remonter le moral des troupes. Les troupes ont décidé de le nommer Rostam."
- pers.101.a: "Quel événement particulier."
-
- pers.102.t: "Rostam l'ours"
- pers.102.d: "Rostam l'ours a plutôt bien grandi aux côtés de notre armée. Suite au transfert de son propriétaire à la 2ème compagnie d'approvisionnement d'artillerie, Rostam a été transféré à la compagnie et s'est depuis lié d'amitié avec ses troupes. Ils ont pris l'ours comme mascotte et il les aide même à transporter leur artillerie."
- pers.102.a: "Un événement vraiment étrange dans l'histoire de l'armée [PER.GetAdjective]."
-
- pers.103.t: "Problèmes avec Rostam"
- pers.103.d: "Malheureusement, en raison de problèmes financiers, le propriétaire de Rostam cherche à le vendre au plus offrant. Cela entraînera sans doute une perte de moral pour la 2ème compagnie de ravitaillement d'artillerie. Plusieurs généraux de haut rang ont commencé à discuter de la situation et nous devons décider quoi faire."
- pers.103.a: "Nous avons des choses plus importantes à faire que de nous soucier d'un ours idiot !"
- pers.103.b: "Nous devons acheter Rostam !"
-
- pers.104.t: "Rostam a été vendu"
- pers.104.d: "Rostam l'ours a été vendu à un marchand polonais de passage en [PER.GetNameDef]. Il semble que la caravane marchande polonaise ait été vraiment amusée par l'ours militaire et dès qu'ils ont découvert qu'il était à vendre, ils l'ont acheté. Ils ont même commencé à l'appeler d'un nouveau nom, Wojtek."
- pers.104.a: "Hélas, le sort de Wojtek le mènera en Pologne."
-
- pers.105.t: "[From.GetNameDefCap] demande à nous rejoindre"
- pers.105.d: "Alors que les feux révolutionnaires balaient l'Asie, le besoin de solidarité et de coopération entre les peuples nouvellement émancipés devient de plus en plus évident. Conscients des dangers de rester neutres sur une scène mondiale en pleine mutation, nos camarades de [From.GetNameDef] ont demandé à rejoindre le [ROOT.GetFactionName]. En acceptant cette demande, nous étendrions notre influence au Moyen-Orient, une région vitale pour nos intérêts stratégiques. Cependant, des voix dissidentes ont mis en garde contre l'enchevêtrement dans des entreprises étrangères inutiles."
- pers.105.a:0 "Nous souhaitons la bienvenue à nos camarades [From.GetAdjectiveCap]."
- pers.105.b:9 "Ce n'est pas nécessaire, rejetons leur pétition."
-
- pers.106.t:0 "[From.GetNameDefCap] Accepte !"
- pers.106.d:0 "Comme nous l'avions prévu, [FROM.GetNameDef] a accepté notre demande d'adhésion au [From.GetFactionName], consacrant ainsi les liens croissants entre nos nations. Quel que soit l'avenir, nous traverserons la tempête ensemble."
- pers.106.a:0 "Nous resterons unis."
-
- pers.107.t:0 "[From.GetNameDefCap] refuse"
- pers.107.d: "De manière inattendue et décevante, [FROM.GetNameDef] a rejeté notre demande pour les rejoindre, et nous nous retrouvons encore plus isolés des affaires mondiales."
- pers.107.a: "C'est décevant, mais il y a peut-être d'autres solutions."
-
- pers.110.t: "Révolution Républicaine en Iran"
- pers.110.d: "La nouvelle de la mort du Shah parvenant à Téhéran il y a quelques jours, le peuple perse est descendu dans la rue pour exiger l'établissement d'une république. Hier soir, il semble que les manifestants républicains aient réussi à prendre le contrôle et à chasser la dynastie Qajar hors du pays. La Perse, ou l'Iran comme on l'appelle maintenant, a été un lieu d'instabilité et de troubles depuis la fin de l'occupation anglo-russe de la nation.\n\nAlors que le Moyen-Orient devient de plus en plus instable, beaucoup se demandent comment le nouveau gouvernement républicain réagira aux menaces ou aux défis possibles dans la région."
- pers.110.a: "Plus d'instabilité..."
-
- pers.111.t: "Révolution Socialiste en Iran !"
- pers.111.d: "La nouvelle de la mort du Shah parvenant à Téhéran il y a quelques jours, le peuple perse est descendu dans la rue pour exiger l'abolition de la monarchie. Hier soir, il semble que les manifestants socialistes aient réussi à prendre le contrôle et à chasser la dynastie Qajar hors du pays. Le premier État socialiste du Moyen-Orient a été déclaré. La Perse, ou l'Iran comme on l'appelle maintenant, a été un lieu d'instabilité et de troubles depuis la fin de l'occupation anglo-russe de la nation.\n\nAlors que le Moyen-Orient devient de plus en plus instable, beaucoup se demandent comment le nouveau gouvernement socialiste réagira aux menaces ou défis possibles dans la région."
- pers.111.a: "Le Socialisme au Moyen-Orient ?"
- pers.111.b: "Travailleurs d'Iran, brisez vos chaînes !"
+ persia_events.2.t:0 "Le Shah est Mort !"
+ persia_events.2.d:0 "Des rapports nous sont parvenus ce matin pour nous informer du décès d'Ahmad Shah Qajar. Après avoir été frappé d'une balle lors d'une tentative d'assassinat socialiste il y a quelques années, sa santé avait décliné et il semble que cela, combiné au stress croissant lié à la conduite de la nation, l'ait mené à sa mort. Hassan Mirza, frère d'Ahmad et héritier du Trône du Soleil, a pris le pouvoir, mais une lutte pour le pouvoir a déjà commencé entre les nombreuses factions de [PER.GetNameDef]. Mirza lui-même a de plus grandes ambitions pour la dynastie Qajar, suscitant les soupçons des politiciens du Majlis. Les socialistes, un groupe interdit depuis de nombreuses années, pourraient tenter de saisir leur chance face à la possibilité d'exercer un pouvoir potentiel.\n\nActuellement, la seule question est de savoir si Hassan Mirza reste dans le pays ou s'enfuit pour sa sécurité."
+ persia_events.2.a:0 "Mirza restera dans [PER.GetNameDef]"
+ persia_events.2.b:0 "Mirza s'enfuit."
+
+ persia_events.3.t:0 "Les Loyalistes prennent d'assaut le Majlis"
+ persia_events.3.d:0 "Des personnes fidèles à la dynastie Qajar ont pris d'assaut le Majlis sous le commandement d'Hassan Mirza, pour tenter d'éliminer les menaces potentielles. Après tout, de nombreux politiciens ont été arrêtés pour assurer une transition sûre au gouvernement. Le Majlis a été fermé jusqu'à nouvel ordre."
+ persia_events.3.a:0 "Pouvoir au Shah !"
+
+ persia_events.4.t:0 "Monarchie Absolue formée"
+ persia_events.4.d:0 "La monarchie a établi un pouvoir absolu dans [PER.GetNameDef]. Nous n'aurons plus à nous soucier de petites choses comme la démocratie ou la liberté, car elles ne sont plus nécessaires."
+ persia_events.4.a:0 "Longue vie au Shah !"
+
+ persia_events.5.t:0 "Que se passe-t-il maintenant ?"
+ persia_events.5.d:0 "Mirza a décidé de rester dans [PER.GetNameDef]. Il y a beaucoup de gens qui lui sont loyaux et qui sont prêts à se battre pour lui. Nous pourrions ordonner à ces personnes de prendre d'assaut le Majlis pour maintenir l'ordre et capturer toute menace potentielle. Nous pourrions également envoyer ces personnes capturer des points clés dans [266.GetCapitalVictoryPointName] pour essayer de sécuriser le pouvoir. Cependant, Hassan Mirza pourrait aussi ne pas commander du tout le peuple pour essayer de maintenir la paix."
+ persia_events.5.a:0 "Envoyez les loyalistes au Majlis."
+ persia_events.5.b:0 "Envoyez les loyalistes capturer les points clés dans [266.GetCapitalVictoryPointName]."
+ persia_events.5.c:0 "Ne semons pas les ennuis."
+
+ persia_events.6.t:0 "Que se passe-t-il maintenant ?"
+ persia_events.6.d:0 "Bien que Hassan Mirza ait décidé de fuir [PER.GetNameDef], de nombreuses personnes lui sont encore fidèles et sont prêtes à se battre. Nous pourrions ordonner à ces personnes de prendre d'assaut le Majlis pour maintenir l'ordre et capturer toute menace potentielle. Nous pourrions également envoyer ces personnes capturer des points clés dans [266.GetCapitalVictoryPointName] pour essayer de sécuriser le pouvoir. Cependant, Hassan Mirza pourrait aussi ne pas commander du tout le peuple pour essayer de maintenir la paix."
+ persia_events.6.a:0 "Envoyez les loyalistes au Majlis."
+ persia_events.6.b:0 "Envoyez les loyalistes capturer les points clés dans [266.GetCapitalVictoryPointName]."
+ persia_events.6.c:0 "Ne semons pas les ennuis."
+
+ persia_events.7.t:0 "Les Loyalistes capturent les positions clés de la ville"
+ persia_events.7.d:0 "Les fidèles du Shah ont réussi à s'emparer de parties importantes de [266.GetCapitalVictoryPointName]. La police et l'armée ont empêché toute rébellion. Cependant, certains politiciens refusent toujours d'accepter un pouvoir plus fort de la part du Shah. Ces politiciens sont loyaux envers le Majlis, et non envers le Shah. Devons-nous permettre à ces politiciens de rester libres, en leur donnant l'opportunité de s'unifier contre le Shah ? Cependant, nous pourrions arrêter temporairement ces politiciens pour empêcher un soulèvement."
+ persia_events.7.a:0 "Arrêtez-les temporairement afin de sécuriser le pouvoir."
+ persia_events.7.b:0 "Laissez les faire ce qu'ils veulent."
+
+ persia_events.8.t:0 "La Monarchie Constitutionnelle demeure"
+ persia_events.8.d:0 "Le pouvoir du Shah étant assuré et le Majli lui étant fidèle, un gouvernement stable a été créé pour servir le nouveau Shah de [PER.GetNameDef], Hassan Mirza."
+ persia_events.8.a:0 "Longue vie au Shah !"
+
+ persia_events.10.t:0 "Les Démocrates et les Socialistes unissent leurs forces"
+ persia_events.10.d:0 "Les forces de plusieurs partis politiques, principalement du parti démocrate et des membres du parti interdit Edalat, se sont unies contre les forces loyalistes. Les forces fidèles au Shah n'ont pas réussi à s'assurer le contrôle et une révolution complète est imminente."
+ persia_events.10.a:0 "Bon sang..."
+
+ persia_events.11.t:0 "Les politiciens sont prêts à combattre Hassan Mirza"
+ persia_events.11.d:0 "Ce n'est une surprise pour personne qu'Hassan Mirza essaie d'obtenir plus de pouvoir pour les Qajars. La mort d'Ahmad était l'occasion parfaite qu'attendait Hassan Mirza. Cependant, les politiciens savaient que cela allait arriver et s'y sont préparés. Les forces ont été rassemblées et elles sont prêtes à se battre. Cela pourrait conduire à une guerre civile. Il y a aussi la possibilité d'assassiner Hassan Mirza, qui pourrait conduire à une transition de pouvoir plus pacifique."
+ persia_events.11.a:0 "Que le combat pour [PER.GetNameDef] commence !"
+ persia_events.11.b:0 "Assassiner Mirza."
+
+ persia_events.12.t:0 "Hassan Mirza reste pacifique"
+ persia_events.12.d:0 "Hassan Mirza a surpris tout le monde en restant pacifique lors de cette opportunité. Beaucoup de gens pensaient que profitant de la mort de son frère, Mirza tenterait de créer une monarchie absolue au profit des Qajars. Cependant, Mirza n'a pas ordonné à ses troupes de faire quoi que ce soit, affirmant qu'il souhaite maintenir une transition pacifique du pouvoir. Maintenant, il semble que les choses se soient arrangées depuis la mort d'Ahmad, et les gens se préparent pour le couronnement d'Hassan Mirza en tant que nouveau Shah."
+ persia_events.12.a:0 "Quel homme sage ce Mirza."
+
+ persia_events.14.t:0 "Mirza ne donne aucun ordre et s'en va"
+ persia_events.14.d:0 "Hassan Mirza n'a donné aucun ordre à ses hommes avant de partir se cacher. Cela signifie que les forces loyalistes n'ont aucune direction, aucun commandement central. Cela donne aux rebelles l'opportunité de rassembler leurs forces."
+ persia_events.14.a:0 "Les Qajars pourraient-ils perdre leur pouvoir ?"
+
+ persia_events.15.t:0 "Les politiciens sont prêts à combattre Hassan Mirza"
+ persia_events.15.d:0 "Ce n'est une surprise pour personne qu'Hassan Mirza essaie d'obtenir plus de pouvoir pour le compte des Qajars. La mort d'Ahmad était l'occasion parfaite qu'attendait Hassan Mirza. Cependant, les politiciens savaient que cela allait arriver et s'y sont préparés. Les forces ont été rassemblées et sont prêtes à se battre. Il semble que les villes plongent dans la guerre civile."
+ persia_events.15.a:0 "Que le combat pour [PER.GetNameDef] commence !"
+
+ persia_events.16.t:0 "Hassan Mirza a été assassiné !"
+ persia_events.16.d:0 "Un groupe de rebelles socialistes a réussi à assassiner Hassan Mirza à l'aide d'une bombe alors qu'il parlait à certains de ses officiers. C'est un coup dur pour les loyalistes et la dynastie Qajar. Cependant, Hassan Mirza a eu un fils, Soltan Hamid Mirza, qui va désormais prendre les rênes pour tenter de rétablir la stabilité. Actuellement, il y a deux options. Les politiciens ont dit qu'ils étaient prêts à négocier avec nous pour une transition pacifique. Néanmoins, nous pourrions également ignorer toute négociation, mais cela ferait basculer la nation au bord de la guerre civile."
+ persia_events.16.a:0 "Nous nous battrons pour [PER.GetNameDef] !"
+ persia_events.16.b:0 "Nous devrions négocier pour la paix en [PER.GetName]"
+
+ persia_events.17.t:0 "Révolution !"
+ persia_events.17.d:0 "Les citoyens de [PER.GetNameDef] ont tranché ; le régime monarchique a bel et bien vécu ! Une majorité des Qajars et de leurs fidèles se sont cachés ou ont été exilés du pays. Une réunion d'urgence au Majlis a été convoquée pour décider du système de gouvernement de [PER.GetNameDef]. Nous pouvons soit former une république pleinement démocratique sous l'égide du parti démocrate, qui régnait auparavant avec le Shah, avec des élections tous les 4 ans. Notre autre option est d'appeler au pouvoir le parti socialiste Edalat. Le parti avait été interdit depuis l'échec de la tentative d'assassinat d'Ahmad Shah mais continuait de bénéficier d'un large soutien à travers [PER.GetNameDef]."
+ persia_events.17.a:0 "Les Démocrates formeront une république."
+ persia_events.17.b:0 "Edalat établira une république socialiste."
+
+ persia_events.18.t:0 "Les Démocrates forment un gouvernement"
+ persia_events.18.d:0 "Ça a été décidé. Le parti démocrate a formé un gouvernement et un parlement démocratiques. Sayyed Hasan Taqizadeh est devenu le premier Président de la nouvelle République d'Iran."
+ persia_events.18.a:0 "La Démocratie triomphe !"
+
+ persia_events.19.t:0 "Les Socialistes forment un gouvernement"
+ persia_events.19.d:0 "Ça a été décidé. Le parti Edalat a formé un gouvernement socialiste sous la présidence d'Iraj Eskandari. Les paysans de [PER.GetNameDef] se réjouissent alors qu'Eskandari prononce son premier discours, parlant de plans visant à donner plus de pouvoir aux travailleurs et à leurs syndicats et à redistribuer la richesse aux pauvres."
+ persia_events.19.a:0 "Une victoire pour les travailleurs."
+
+ persia_events.20.t:0 "La Guerre Civile dans les villes !"
+ persia_events.20.d:0 "Tout le monde savait que la guerre civile était une possibilité susceptible de frapper notre nation désunie. Des combats ont éclaté dans les grandes villes, avec des affrontements entre socialistes, républicains et loyalistes qajar. Cependant, il semble que notre désunion ait été quelque peu bénéfique, car en dehors des villes, la plupart des gens ne se soucient pas suffisamment de leur gouvernement pour se battre pour cela. Cela signifie que les combats sont entièrement contenus dans les villes. Ce sera un combat sanglant, et celui qui en sortira victorieux unifiera [PER.GetNameDef] sous son gouvernement, et les perdants seront sans aucun doute dépouillés de toute influence."
+ persia_events.20.a:0 "Que le meilleur parti l'emporte."
+
+ persia_events.21.t:0 "La bataille pour Isfahan"
+ persia_events.21.d:9 "Isfahan, once the capital of Safavid empire, is considered one of [PER.GetNameDef]'s most beautiful cities and has many historical sites. It is so popular that some refer to it as \"Isfahan, half of the world\". In the past few days since Shah Ahmad Qajar's death, pro-Hassan Mirza forces have managed to seize important locations around the city, like the Chehel Sotun palace and Naghsh-e Jahan Square, in order to stop any sort of resistance from anti-monarchist groups. Meanwhile, a small group of rebels who were preparing to strike the city have managed to capture the bridges on the Zayandeh Rud River and destroyed them, except the famous Safavid bridges of Si o Se Pol and Khaju, effectively cutting the royalists out of the southern part of the city."
+ persia_events.21.a:0 "Les forces loyalistes doivent pousser, même si c'est dangereux."
+ persia_events.21.b:0 "Les loyalistes tenteront d'encercler les rebelles en ramant vers l'autre côté."
+
+ persia_events.22.t:0 "La bataille pour Tabriz"
+ persia_events.22.d:0 "Tabriz, l'une des villes historiques de [PER.GetNameDef] datant de l'ère sassanide a gagné en importance comme capitale de [PER.GetNameDef] sous l'ère Ilkhanate, et à l'époque de l'ascension des Safavides. Egalement centre économique important tout au long de l'histoire de [PER.GetNameDef], la ville est restée étrangement silencieuse ces derniers jours. Il y a quelques jours à peine, avec la mort d'Ahmad Shah Qajar, les révolutionnaires présents dans la ville, tout comme pendant la révolution constitutionnelle de 1908, ont commencé à prendre le contrôle de presque tous les lieux importants de la ville : notamment la maison de la Constitution de Tabriz, le grand bazar de Tabriz et la mosquée de Kabud. Alors que les fidèles à Hassan Mirza se sont fait surprendre par les révolutionnaires Tabrizi, ils ont cependant réussi à sécuriser le mausolée Arg-e Alishah qui s'était avéré être un bon endroit pour résister aux forces révolutionnaires, comme l'avaient prouvé les Russes en 1911 lors de leur prise de Tabriz."
+ persia_events.22.a:0 "Les Révolutionnaires prennent d'assaut l'Arg-e Alisah afin de vaincre les royalistes."
+ persia_events.22.b:0 "Les rebelles retardent l'attaque pour négocier des conditions de paix avec leur commandant."
+
+ persia_events.24.t:0 "La bataille pour Mashaad"
+ persia_events.24.d:0 "La ville la plus sainte pour les chiites de [PER.GetNameDef], le lieu de repos du 8ème imam chiite Reza, est actuellement en état de guerre depuis la mort du Shah. Les révolutionnaires, ayant une petite emprise dans la ville, ont à peine réussi à tenir tête à la forte concentration de forces royalistes, ils ont donc eu recours à la guérilla et endommagé les bâtiments gouvernementaux, attaquant les patrouilles royalistes et faisant sauter des caches de ravitaillement. Cependant, cela ne suffira probablement pas."
+ persia_events.24.a:0 "Les rebelles sont bientôt mis en fuite par des citoyens loyaux."
+
+ persia_events.26.t:0 "La bataille pour Shiraz"
+ persia_events.26.d:0 "Shiraz est probablement l'une des plus anciennes villes [PER.GetAdjective]s à exister, datant de l'Empire achéménide et de sa fondation. Étant l'une des capitales culturelles de [PER.GetNameDef] à travers l'histoire, Shiraz a joué un rôle important dans l'identité et les affaires politiques de [PER.GetNameDef]. Au cours des deux derniers jours depuis la mort du Shah, les forces révolutionnaires ont réussi à prendre le contrôle de différents points clés autour de la ville avec un minimum de dommages portés aux sites historiques et culturels célèbres, tels que les célèbres poètes Hafez Shirazi et le lieu de repos de Sa'di à côté la mosquée Shah Cheragh, la porte du Coran et la célèbre forteresse de la dynastie Zand intitulée Arg of Karim Khan. Alors que les forces révolutionnaires ont réussi à prendre le contrôle de la majeure partie de la ville, les membres de la tribu Qashqai, fidèles au Shah, s'apprêtent à capturer Shiraz et pourraient ramener la ville sous contrôle loyaliste. À l'insu de la tribu Qashqai, la tribu révolutionnaire Bakhtiari, qui a toujours été en faveur des constitutionnalistes et a participé à la révolution constitutionnelle de 1907, a cependant envoyé une force énorme pour aider les révolutionnaires. S'ils y arrivent à temps, ils pourraient peut-être faire pencher la balance en faveur des défenseurs révolutionnaires..."
+ persia_events.26.a:0 "La tribu Bakhtiari accélère sa marche vers Shiraz afin de renforcer les rebelles dans la ville."
+ persia_events.26.b:0 "La tribu Qashqai lance une offensive anticipée qui faire tomber la ville sous son contrôle."
+
+ persia_events.27.t:0 "La bataille pour Bandar e'Abbas"
+ persia_events.27.d:0 "Bandar e'Abbas est l'une des villes commerciales les plus importantes de [PER.GetNameDef]. En raison de son port et de son emplacement clé dans le golfe Persique, la ville a historiquement été un centre d'échanges pour les marchands étrangers et un endroit où la plupart des exportations [PER.GetAdjective]s ont lieu. La ville portuaire de Bandar e'Abbas a connu ces derniers jours de violents combats entre les partisans d'Hassan Mirza et les révolutionnaires. Bien que la ville ait été initialement bien gardée par les partisans Qajar, en raison de son importance, les membres du parti Edalat avaient secrètement fait venir des socialistes étrangers dans la ville afin de combattre les soldats Qajar lorsque le moment serait venu. Dès que la nouvelle de la mort d'Ahmad Shah s'est répandue, les forces Qajar ont commencé à fortifier des parties importantes de la ville, en particulier le port, le bouclant jusqu'à nouvel ordre. Pendant ce temps, les révolutionnaires aux côtés des combattants étrangers ont commencé à frapper les positions Qajar les plus faibles au moment où ils s'y attendaient le moins. En quelques heures, les plus petits avant-postes qajar avaient été entièrement détruits, et lorsque la nouvelle parvint aux forces qajar, il était trop tard pour qu'elles fassent quoi que ce soit, si ce n'est pour fortifier les derniers postes importants qu'ils occupaient. En raison de problèmes d'infrastructure, aucun renfort n'arrivera à temps dans la ville."
+ persia_events.27.a:0 "Les révolutionnaires attaquent les derniers avant-postes fortifiés et revendiquent la prise de la ville."
+
+ persia_events.28.t:0 "Fin des combats"
+ persia_events.28.d:0 "Il semble que les combats ont commencé à ralentir. Des centaines de personnes ont été tuées, à la fois des combattants volontaires et des civils innocents. Des familles ont été déchirées à cause des convictions politiques, mais l'ordre a été quelque peu rétabli."
+ persia_events.28.a:0 "Et le vainqueur est..."
+
+ persia_events.29.t:0 "Les loyalistes sortent victorieux"
+ persia_events.29.d:0 "Alors que la poussière retombe, il semble que les loyalistes Qajar soient sortis victorieux des combats. Tous les rebelles restants qui refusent d'accepter le nouveau gouvernement sont arrêtés pour assurer la stabilité."
+ persia_events.29.a:0 "Comme cela devrait être."
+
+ persia_events.30.t:0 "Les rebelles sortent victorieux"
+ persia_events.30.d:0 "Alors que la poussière retombe, il semble que les rebelles anti-Qajar, une union de républicains et de socialistes, l'ait emporté dans les villes et prennent ainsi le pouvoir."
+ persia_events.30.a:0 "Comme cela devrait être."
+
+ persia_events.31.t:0 "Le Lundi Noir frappe [PER.GetNameDef]"
+ persia_events.31.d:0 "L'économie allemande est en croissance depuis leur victoire lors de la Weltkrieg et entretient des liens économiques étroits avec [PER.GetNameDef]. En raison de la taille de leur économie et de nos importantes réserves de pétrole, notre économie est de plus en plus dépendante de celle de l'Allemagne. Depuis la fin de la Weltkrieg, notre économie s'est rétablie assez rapidement et les effets de la famine persane ont presque été résolus.\n\nCependant, la crise a frappé l'Allemagne lors de la crise du Lundi Noir. Toute l'économie allemande s'est effondrée, créant des remous affectant de nombreuses autres nations du monde, et entraînant leurs économies avec elles. Il semble que l'une de ces vagues nous ait frappé. Soudain, des milliers de personnes ont perdu tout leur argent et leur emploi, et des familles vont à nouveau mourir de faim. La direction s'est réunie lors d'une réunion d'urgence pour trouver un plan visant à résoudre ce problème."
+ persia_events.31.a:0 "Les choses ne peuvent que s'améliorer..."
+
+ persia_events.32.t:0 "Fortune d'Astan Quds Razavi"
+ persia_events.32.d:0 "L'Astan Quds Razavi est une fondation caritative autonome basée en [PER.GetName], et connue sous le nom de Boyard. Ils s'occupent des domaines, réparent et rénovent de vieux temples et autres bâtiments, et même éduquent les écoliers orphelins. Ils sont très populaire et riches, et ont même une influence au sein de notre gouvernement. Cependant, ce sur quoi nous voulons nous concentrer, c'est leur immense richesse. Voyant les effets du Lundi Noir sur nos citoyens, l'Astan Quds Razavi ont accepté de nous céder une partie de leur richesse pour aider à résoudre le problème. Cependant, nous avons une deuxième option. Nous pourrions pleinement saisir leur richesse, nous donnant plus d'argent pour résoudre la crise du Lundi Noir. Cependant, l'organisation Astan Quds Razavi bénéficie d'un large soutien et saisir leur richesse nous ferait donc perdre beaucoup de soutien de la part du public."
+ persia_events.32.a:0 "L'affaire est suffisamment intéressante."
+ persia_events.32.b:0 "Saisir leur fortune."
+
+ persia_events.33.t:0 "Fortune du Cheikh Khaz'al"
+ persia_events.33.d:0 "Khaz'al ibn Jabir ibn Merdaw al-Ka'bi est l'un des hommes les plus riches de [PER.GetNameDef], sinon de tout le Moyen-Orient. Ayant acheté une participation dans la compagnie pétrolière anglo-[PER.GetAdjective] et ayant reçu des dons pendant des années de la part de l'Empire britannique aux côtés de ses sujets dans la province du Khouzestan, il est devenu incroyablement riche et influent, au point que la province du Khuzestan était quasiment son royaume personnel. Avec les réformes économiques en cours, nous avons besoin d'une énorme source de revenus et nous pensons que la fortune de Cheikh Khaz'al est la réponse. Si nous pouvons le convaincre de nous fournir volontairement sa richesse, nous pouvons empêcher toute hostilité indésirable. D'un autre côté, nous pouvons saisir tous ses biens, ce qui l'éliminera complètement en tant que menace à l'avenir et nous donnera également plus de fournitures pour travailler. Bien que les conséquences d'une telle action seront graves."
+ persia_events.33.a:0 "Nous devons essayer de le convaincre de nous céder sa richesse."
+ persia_events.33.b:0 "Il est temps de nous débarrasser de Khaz'al. Depuis trop longtemps son pouvoir n'a cessé de croître."
+
+ persia_events.34.t:0 "Révoquer l'opposition ?"
+ persia_events.34.d:0 "Depuis que la révolution a eu lieu et que les socialistes se sont emparés du gouvernement, une question mobilisa les esprits : devrions-nous travailler avec les politiciens du gouvernement précédent, ou devrions-nous écarter définitivement quiconque a travaillé pour le gouvernement précédent, afin d'achever complètement la révolution. Le gouvernement précédent, bien que sous la forte autorité des Qajars, était un gouvernement social-démocrate, prouvant en cela que les politiques sont capables de travailler au moins un peu avec nous. Cependant, il y a une chance que ces forces réactionnaires, si elles sont maintenues au gouvernement, essaient de corrompre et inévitablement de détruire la révolution. Bien qu'à court terme la purge du gouvernement ait un effet dangereux, à long terme elle pourrait préserver la révolution de façon permanente."
+ persia_events.34.a:0 "Il est temps de choisir."
+
+ persia_events.35.t:0 "Le Clergé appelle au Jihad !"
+ persia_events.35.d:0 "Avec notre nation sous la menace de la destruction, le Clergé partout en [PER.GetName], en particulier à Qom et Mashhad, a déclaré un Jihad. Cela incitera nos hommes à se battre plus fort et conduira sûrement à la victoire contre la menace extérieure."
+ persia_events.35.a:0 "[PER.GetNameDefCap] se bat !"
+
+ persia_events.36.t:0 "Fin du Jihad"
+ persia_events.36.d:0 "Avec notre nation en paix, le Clergé a annoncé la fin du Jihad. Nous avons survécu à la guerre et remporté la victoire !"
+ persia_events.36.a:0 "[PER.GetNameDefCap] vit dans la gloire !"
+
+ persia_events.37.t:0 "Protestations des Socialistes"
+ persia_events.37.d:0 "Des centaines de personnes se sont rassemblées dans les rues, pour protester contre notre gouvernement actuel. Ces personnes sont membres du parti socialiste interdit "Edalat", la principale organisation socialiste de [PER.GetNameDef]. Bien qu'il soit illégal, il compte encore beaucoup de soutien parmi notre population. Ces manifestations se terminent toujours par de violents affrontements avec la police, et chaque jour, de plus en plus de gens perdent confiance en notre gouvernement. Si nous voulons que ces manifestations s'arrêtent, nous devons mettre fin au chaos politique au sein du gouvernement lui-même et rétablir l'ordre dans tout le pays."
+ persia_events.37.a:0 "Un jour, la violence cessera."
+
+ persia_events.38.t:0 "Élection Présidentielle de 1938"
+ persia_events.38.d:0 "Comme nous l'avons promis lorsque nous avons pris le pouvoir au gouvernement, la première élection présidentielle a lieu en [PER.GetName], et les habitants de [PER.GetNameDef] ont le choix entre de nombreuses options. Les choses sont encore très instables et les gens ne se sont toujours pas complètement remis du chaos d'après la mort d'Ahmad. Le premier est une coalition Démocrate-Edalat, avec Taqizadeh comme Président. Ils ont formé une coalition parce que leurs deux dirigeants sont de proches associés et ont tous deux travaillé ensemble pendant la révolution contre le Shah. Ils ont des points de vue similaires, ils peuvent donc bien travailler ensemble pour le moment. Cependant, ils diffèrent à bien des égards, et cela restera une alliance fragile. L'autre candidat principal est Mohammed Ali Foroughi Zoka-ol-Molk, à la tête d'une coalition Tajadod-Eslah Talaban. Ces partis se sont réunis pour tenter de réduire l'influence de l'Edalat et du parti Démocrate, et sont en désaccord avec eux dans presque tous les domaines. Ces partis peuvent bien travailler ensemble, car l'Eslah Talaban, ayant perdu une certaine popularité en raison de son alignement sur le Shah, peut mettre en œuvre sa politique sociale, tandis que le parti Tajadod peut mettre en œuvre ses réformes économiques."
+ persia_events.38.a:0 "Sayyed Hasan Taqizadeh remporte les suffrages."
+ persia_events.38.b:0 "Mohammed Ali Foroughi Zoka-ol-Molk emporte le vote."
+
+ persia_events.39.t:0 "Élection Présidentielle de 1942"
+ persia_events.39.d:0 "C'est à nouveau le temps des élections en [PER.GetName], et les choses se sont beaucoup calmées. Le premier choix est Sayyed Hasan Taqizadeh du parti Démocrate. Cette fois, il n'y a pas de coalition avec le parti Edalat, en raison de la baisse des tensions politiques. Taqizadeh croit aux réformes du système économique pour aider ceux qui n'ont pas grand-chose, comme ceux qui ont été touchés par la famine. Le deuxième est Ahmad Qavam du parti Eslah Talaban. Ses croyances sont beaucoup plus traditionnelles et il pense que des réformes limitées sont préférables. Ces deux partis sont en rivalité depuis la première révolution constitutionnelle et souhaitent tous deux exercer le pouvoir en [PER.GetName]."
+ persia_events.39.a:0 "Sayyed Hasan Taqizadeh remporte les suffrages."
+ persia_events.39.b:0 "Ahmad Qavam remporte les suffrages."
+
+ persia_events.40.t:0 "Élection Présidentielle de 1946"
+ persia_events.40.d:0 "Une fois de plus, c'est l'heure des élections en [PER.GetName], et il y a le choix entre de nombreuses options. Le premier choix est une coalition entre le parti Démocrate et le parti Edalat dirigé par Taqizadeh. Le parti Edalat a beaucoup perdu en popularité depuis les premières élections, mais a formé une coalition avec les Démocrates pour tenter de regagner son influence. Deuxième possibilité, une coopération entre le parti Tajadod et le parti Eetedaliun dirigé par Mohammed Mosaddegh. Bien qu'ils soient quelque peu en désaccord sur les politiques sociales, économiquement, ils peuvent travailler ensemble efficacement. Les deux ne sont pas des partis majeurs, ils ont donc besoin de leur popularité combinée pour gagner. Enfin, dernier choix, le parti Eslah Talaban. Ils ont gagné en popularité depuis la révolution, car beaucoup de gens pensent que s'il n'y avait pas eu de révolution, il n'y aurait peut-être pas eu autant de guerres qu'il y en a eu récemment. De nombreuses personnes sont décédées et de plus en plus de personnes se tournent vers le parti Eslah Talaban pour résoudre ce problème."
+ persia_events.40.a:0 "Sayyed Hasan Taqizadeh remporte les suffrages."
+ persia_events.40.b:0 "Mohammad Mosaddegh remporte les suffrages."
+ persia_events.40.c:0 "Ahmad Qavam remporte les suffrages."
+
+ persia_events.41.t:0 "Élection du Majlis de 1938"
+ persia_events.41.d:0 "Depuis la création de la monarchie constitutionnelle, les Majlis ont joué un rôle majeur dans la politique de [PER.GetNameDef]. Agissant en tant que parlement de [PER.GetNameDef], ils ont un pouvoir important dans la vie quotidienne de tous les [PER.GetAdjective]s. Aujourd'hui, le moment est venu d'élire de nouvelles personnes au sein des Majlis et de nommer de nouveaux ministres.\n\nLe premier gouvernement est un gouvernement issu du parti démocrate. C'était le parti au pouvoir sous le précédent Shah, avant que sa santé déclinante ne se détériore trop. Les démocrates restent très populaires dans tout le pays, ayant déjà prouvé leur capacité à le gouverner. Ils prévoient de rester modérés et d'apporter stabilité et unité à [PER.GetNameDef]. Le second gouvernement possible est une coalition de membres du parti Eslah Talaban et de ministres plus autoritaires. Ils sont convaincus que plus de pouvoir devrait être donné au Shah, et que la perte de pouvoir de ce dernier a été la cause du chaos, après la mort d'Ahmad. Ils sont toujours opposés à un exercice absolu du pouvoir du Shah, mais souhaite qu'il s'implique plus directement dans la politique. Ils veulent également garder les rênes de la scène politique, en nommant le général Reza Khan comme ministre de la Sécurité. Enfin, le dernier gouvernement possible est une coalition de nombreux partis, de ministres démocrates, du parti Eetedaliun et du parti Tajadod. Ils sont généralement d'accord avec l'idée de la monarchie constitutionnelle, mais souhaitent tout de même que le Shah ait moins de pouvoir. Ils peuvent être en désaccord sur les politiques économiques et sociales, mais peuvent s'unir pour faire adopter quelques petites réformes."
+ persia_events.41.a:0 "Parti Démocrate."
+ persia_events.41.b:0 "Coalition de Droite."
+ persia_events.41.c:0 "Coalition libérale."
+
+ persia_events.42.t:0 "Élection du Majlis de 1942"
+ persia_events.42.d:0 "Il est à nouveau temps de nommer de nouvelles personnes au Majlis, et les choses se sont beaucoup calmées, de sorte que les partis sont plus ouverts à la mise en œuvre de leurs propres politiques et programmes. La première option est une coalition entre des membres du parti démocrate et du parti Tajadod. Ils sont entièrement d'accord sur les questions sociales et peuvent donc facilement adopter une réforme sociale. Cependant, sur le plan économique, ils diffèrent énormément, mais ils préféreraient que le pouvoir soit partagé entre eux plutôt qu'avec d'autres partis. Deuxième option, le cabinet du parti Eslah Talaban. Ils sont plus modérés, croient aux valeurs traditionnelles et à un partage du pouvoir et une coopération étroite entre le Shah et le Majlis. Enfin, dernière option, une coalition entre des membres du parti Tajadod et des ministres plus autoritaires. Les ministres autoritaires veulent accorder toujours plus de pouvoir pour le Shah et veulent profiter des élections pour imposer leurs idées au sein du Majlis. Les Tajadod ont également changé de tactique, estimant qu'un Shah fort leur sera bénéfique et les aidera à faire passer leurs réformes."
+ persia_events.42.a:0 "Coalition Démocrate"
+ persia_events.42.b:0 "Parti Eslah Talaban."
+ persia_events.42.c:0 "Coalition de Droite."
+
+ persia_events.43.t:0 "Élection du Majlis de 1946"
+ persia_events.43.d:0 "Il est à nouveau temps de nommer de nouvelles personnes au Majlis. La première option pour former un gouvernement est le parti démocrate, qui se présente désormais de manière indépendante. Ils ont un agenda très libéral et peuvent maintenant tenter de faire adopter des réformes sociales. Deuxième option, un gouvernement formé par le parti Eslah Talaban. Ils sont plus modérés, croyant aux valeurs traditionnelles et croient en un pouvoir partagé et une coopération étroite entre le Shah et le Majlis. Enfin, dernière option, une coalition entre des membres du parti Tajadod et des ministres plus autoritaires. Les ministres autoritaires veulent accorder toujours plus de pouvoir pour le Shah et veulent profiter des élections pour imposer leurs idées au sein du Majlis. Les Tajadod ont également changé de tactique, estimant qu'un Shah fort leur sera bénéfique et les aidera à faire passer leurs réformes."
+ persia_events.43.a:0 "Parti Démocrate."
+ persia_events.43.b:0 "Parti Eslah Talaban."
+ persia_events.43.c:0 "Coalition de Droite."
+
+ persia_events.67.t:0 "[PER.GetNameDefCap] demande Bahreïn"
+ persia_events.67.d:0 "[PER.GetNameDefCap] nous a envoyé un ultimatum, déclarant que nous devrions leur céder immédiatement l'île de Bahreïn. Leur revendication sur Bahreïn remonte à des centaines d'années, mais le gouvernement [PER.GetAdjective] parle toujours avec passion de la reconquête des « terres perdues ». Ils disent que si nous ne cédons pas les îles, ils devront prendre des mesures militaires."
+ persia_events.67.a:0 "Laissez tomber."
+ persia_events.67.b:0 "Nous ne craignons pas [PER.GetNameDef]"
+
+ persia_events.68.t:9 "[FROM.GetNameDefCap] Cedes Bahrain to Us"
+ persia_events.68.d:0 "Nous sommes désormais les seuls propriétaires de Bahreïn, comme cela aurait toujours dû être."
+ persia_events.68.a:0 "Parfait."
+
+ persia_events.69.t:9 "[FROM.GetNameDefCap] Refuses Our Ultimatum"
+ persia_events.69.d:0 "Ils ont refusé de nous céder Bahreïn. Notre seule option pour récupérer l'ile est la guerre."
+ persia_events.69.a:0 "À la guerre !"
+
+ persia_events.70.t:0 "L'annexion de Sulaymaniyah"
+ persia_events.70.d:0 "Maintenant que la poussière est retombée et que nous sommes sortis victorieux des armées ottomanes, il semble que notre allié kurde n'ait plus d'utilité. [KUR.GetLeader] n'a réussi à maintenir son autorité chancelante sur la région que grâce à la guerre contre les Turcs, et avec leur effondrement, beaucoup de ses anciens compagnons d'armes ont déjà commencé à se retourner contre lui, car il est loin d'être une figure unificatrice dans la région.\n\nPour rétablir l'ordre dans la région, nous avons envoyé plusieurs divisions dans la ville de Sulaymaniyah et dans les campagnes, en lançant le même ultimatum aux différents seigneurs de guerre qui tentent de profiter du chaos : déposez les armes ou mourez.\n\nLes forces désorganisées qui composaient les armées de nos anciens alliés étant coupées de tout soutien étranger, et face à une population largement apathique qui souhaite un retour à la stabilité, notre armée a été en mesure d'occuper efficacement toute la région, et bien que nous devions faire face à une résistance sporadique, Sulaymaniyah est désormais à nous."
+ persia_events.70.a:0 "Nous n'avions vraiment pas le choix."
+
+ persia_events.80.t:0 "Paix avec la Russie ?"
+ persia_events.80.d:0 "Nous avons repoussé la Russie jusqu'à la mer Noire. Cependant, nous ne voulons pas trop nous étendre. Nous pouvons approcher la Russie avec une offre de paix."
+ persia_events.80.a:0 "Offrez leur la paix"
+ persia_events.80.b:0 "Nous irons jusqu'à Moscou !"
+
+ persia_events.81.t:0 "Paix avec [PER.GetNameDef] ?"
+ persia_events.81.d:0 "La guerre avec [PER.GetNameDef] n'a pas du tout tourné en notre faveur. Ils nous ont proposé un accord de paix, nous faisant cependant perdre beaucoup de territoire."
+ persia_events.81.a:0 "Accepter la paix."
+ persia_events.81.b:0 "Nous les repousserons !"
+
+ persia_events.82.t:0 "Paix avec l'Entente ?"
+ persia_events.82.d:0 "Nous avons combattu avec succès le Dominion de l'Inde et devons maintenant nous rapprocher de l'Entente pour obtenir la paix."
+ persia_events.82.a:0 "Proposer la paix."
+ persia_events.82.b:0 "Au combat !"
+
+ persia_events.83.t:0 "Paix avec [PER.GetNameDef] ?"
+ persia_events.83.d:0 "[PER.GetNameDefCap] a vaincu le Dominion de l'Inde. Ils nous proposent un accord - la paix, en échange du Baloutchistan. Que doit-on répondre ?"
+ persia_events.83.a:0 "Nous n'avons pas d'autre choix que d'accepter"
+ persia_events.83.b:0 "Jamais !"
+
+ persia_events.85.t:0 "Nowruz"
+ persia_events.85.d:9 "Today, all around [ROOT.GetNameDef], people celebrate Nowruz, an ancient tradition going back to the beginning of the Zoroastrian faith and ancient Persia. Nowruz celebrates the [ROOT.GetAdjective] New Year and the beginning of Spring, bringing people closer together for the duration of the festivities."
+ persia_events.85.a:0 "Joyeux Nowruz !"
+
+ persia_events.87.t:0 "Paix avec les Allemands"
+ persia_events.87.d:0 "Cette guerre avec les Allemands s'est avérée infructueuse. Nous devrions leur offrir la paix pour la stabilité de notre nation."
+ persia_events.87.a:0 "Offrez leur la paix"
+ persia_events.87.b:0 "La Paix c'est pour les faibles."
+
+ persia_events.88.t:0 "Paix avec [PER.GetNameDef] ?"
+ persia_events.88.d:0 "Nous avons fait la guerre à [PER.GetNameDef] pour défendre notre allié, l'Azerbaïdjan. Cependant, de toute évidence, cela n'a pas fonctionné. Nous devrions probablement faire la paix avec eux."
+ persia_events.88.a:0 "Accepter la paix."
+ persia_events.88.b:0 "Jamais !"
+
+ persia_events.89.t:0 "Dictionnaire de Dehkhoda"
+ persia_events.89.d:0 "Avec la montée des mouvements nationalistes et séparatistes partout dans le monde, [PER.GetNameDef] uni et unifié est nécessaire. Récemment, nous avons découvert les efforts d'Ali Akbar Dehkhoda, un éminent linguiste [PER.GetAdjective], pour créer le tout premier dictionnaire farsi. Nous pouvons profiter de cette occasion pour éduquer davantage notre peuple et, ce faisant, renforcer notre unité."
+ persia_events.89.a:0 "Donnez une tape dans le dos d'Ali Akbar et félicitez-le pour son petit projet."
+ persia_events.89.b:0 "Financez le projet et préparez-vous à distribuer le livre gratuitement dans tout le pays."
+
+ persia_events.90.t:0 "Excavation de Persépolis"
+ persia_events.90.d:0 "Ces dernières années, les historiens du monde entier ont commencé à s'intéresser davantage au passé historique de [PER.GetNameDef]. Récemment, Ernst Emil Herzfield, un archéologue et historien allemand, a fouillé les ruines de Persépolis et il vient de demander l'autorisation de renouveler ses fouilles de Persépolis. C'est à nous de décider quoi faire de sa demande."
+ persia_events.90.a:0 "Autorisez l'excavation, mais régulez-la fortement pour protéger le site du vol et du vandalisme."
+ persia_events.90.b:0 "Autoriser une excavation sans restrictions."
+ persia_events.90.c:0 "Ne laissez pas l'excavation se poursuivre."
+
+ persia_events.91.t:0 "Muharram"
+ persia_events.91.d:9 "Today marks the start of Muharram, first month of the Islamic calendar, a month of grief for Shias in [ROOT.GetNameDef]. In this month, Imam Husein, the third Shia Imam was martyred and the events leading to his martyrdom are still fresh in the memories of Shias in [ROOT.GetNameDef]."
+ persia_events.91.a:0 "Nous le pleurons."
+
+ persia_events.97.t:0 "Ramadan"
+ persia_events.97.d:9 "Today is the beginning of the ninth Islamic month, Ramadan. A month of fasting and prayer for the Muslims all around the world, going back to the first days of the rise of Islam. As [ROOT.GetAdjective]s begin preparations for the month's fasts and prayers, one can notice the harmony it has brought."
+ persia_events.97.a:0 "Bon Ramadan !"
+
+ persia_events.99.t:0 "Nuit de Yalda"
+ persia_events.99.d:9 "Today, 30th of Azar, the last day of the ninth month of the [ROOT.GetAdjective] calendar, marks the Yalda celebration. The longest and darkest night of the year which is the winter solstice in the northern hemisphere is the night where Iranic people gather together and their families to eat, drink and read poetry. Dating back to the beginnings of the Zoroastrian faith, Yalda is almost as important as Nowruz to all Iranic people."
+ persia_events.99.a:0 "Joyeuse Nuit de Yalda !"
+
+ persia_events.101.t:9 "Bear Found by Soldiers"
+ persia_events.101.d:0 "Récemment, un ourson a été trouvé par un de nos officiers dans les fortifications voisines de [266.GetCapitalVictoryPointName]. Alors que nous avions initialement prévu d'emmener l'ours en raison du règlement militaire, nous avons commencé à reconsidérer la question, car les troupes stationnées dans le fort ont demandé à ce qu'il reste. Nous avons décidé d'autoriser l'ours à rester au fort pour le moment afin de remonter le moral des troupes. Les troupes ont décidé de le nommer Rostam."
+ persia_events.101.a:0 "Quel événement particulier."
+
+ persia_events.102.t:9 "Rostam the Bear"
+ persia_events.102.d:0 "Rostam l'ours a plutôt bien grandi aux côtés de notre armée. Suite au transfert de son propriétaire à la 2ème compagnie d'approvisionnement d'artillerie, Rostam a été transféré à la compagnie et s'est depuis lié d'amitié avec ses troupes. Ils ont pris l'ours comme mascotte et il les aide même à transporter leur artillerie."
+ persia_events.102.a:0 "Un événement vraiment étrange dans l'histoire de l'armée [PER.GetAdjective]."
+
+ persia_events.103.t:0 "Problèmes avec Rostam"
+ persia_events.103.d:0 "Malheureusement, en raison de problèmes financiers, le propriétaire de Rostam cherche à le vendre au plus offrant. Cela entraînera sans doute une perte de moral pour la 2ème compagnie de ravitaillement d'artillerie. Plusieurs généraux de haut rang ont commencé à discuter de la situation et nous devons décider quoi faire."
+ persia_events.103.a:0 "Nous avons des choses plus importantes à faire que de nous soucier d'un ours idiot !"
+ persia_events.103.b:0 "Nous devons acheter Rostam !"
+
+ persia_events.104.t:9 "Rostam Has Been Sold"
+ persia_events.104.d:0 "Rostam l'ours a été vendu à un marchand polonais de passage en [PER.GetNameDef]. Il semble que la caravane marchande polonaise ait été vraiment amusée par l'ours militaire et dès qu'ils ont découvert qu'il était à vendre, ils l'ont acheté. Ils ont même commencé à l'appeler d'un nouveau nom, Wojtek."
+ persia_events.104.a:0 "Hélas, le sort de Wojtek le mènera en Pologne."
+
+ persia_events.105.t:0 "[From.GetNameDefCap] demande à nous rejoindre"
+ persia_events.105.d:0 "Alors que les feux révolutionnaires balaient l'Asie, le besoin de solidarité et de coopération entre les peuples nouvellement émancipés devient de plus en plus évident. Conscients des dangers de rester neutres sur une scène mondiale en pleine mutation, nos camarades de [From.GetNameDef] ont demandé à rejoindre le [ROOT.GetFactionName]. En acceptant cette demande, nous étendrions notre influence au Moyen-Orient, une région vitale pour nos intérêts stratégiques. Cependant, des voix dissidentes ont mis en garde contre l'enchevêtrement dans des entreprises étrangères inutiles."
+ persia_events.105.a:0 "Nous souhaitons la bienvenue à nos camarades [From.GetAdjectiveCap]."
+ persia_events.105.b:0 "Ce n'est pas nécessaire, rejetons leur pétition."
+
+ persia_events.106.t:0 "[From.GetNameDefCap] Accepte !"
+ persia_events.106.d:0 "Comme nous l'avions prévu, [FROM.GetNameDef] a accepté notre demande d'adhésion au [From.GetFactionName], consacrant ainsi les liens croissants entre nos nations. Quel que soit l'avenir, nous traverserons la tempête ensemble."
+ persia_events.106.a:0 "Nous resterons unis."
+
+ persia_events.107.t:0 "[From.GetNameDefCap] Refuse"
+ persia_events.107.d:0 "De manière inattendue et décevante, [FROM.GetNameDef] a rejeté notre demande pour les rejoindre, et nous nous retrouvons encore plus isolés des affaires mondiales."
+ persia_events.107.a:0 "C'est décevant, mais il y a peut-être d'autres solutions."
+
+ persia_events.110.t:0 "Révolution Républicaine en Iran"
+ persia_events.110.d:0 "La nouvelle de la mort du Shah parvenant à Téhéran il y a quelques jours, le peuple perse est descendu dans la rue pour exiger l'établissement d'une république. Hier soir, il semble que les manifestants républicains aient réussi à prendre le contrôle et à chasser la dynastie Qajar hors du pays. La Perse, ou l'Iran comme on l'appelle maintenant, a été un lieu d'instabilité et de troubles depuis la fin de l'occupation anglo-russe de la nation.\n\nAlors que le Moyen-Orient devient de plus en plus instable, beaucoup se demandent comment le nouveau gouvernement républicain réagira aux menaces ou aux défis possibles dans la région."
+ persia_events.110.a:0 "Plus d'instabilité..."
+
+ persia_events.111.t:0 "Révolution Socialiste en Iran !"
+ persia_events.111.d:0 "La nouvelle de la mort du Shah parvenant à Téhéran il y a quelques jours, le peuple perse est descendu dans la rue pour exiger l'abolition de la monarchie. Hier soir, il semble que les manifestants socialistes aient réussi à prendre le contrôle et à chasser la dynastie Qajar hors du pays. Le premier État socialiste du Moyen-Orient a été déclaré. La Perse, ou l'Iran comme on l'appelle maintenant, a été un lieu d'instabilité et de troubles depuis la fin de l'occupation anglo-russe de la nation.\n\nAlors que le Moyen-Orient devient de plus en plus instable, beaucoup se demandent comment le nouveau gouvernement socialiste réagira aux menaces ou défis possibles dans la région."
+ persia_events.111.a:0 "Le Socialisme au Moyen-Orient ?"
+ persia_events.111.b:0 "Travailleurs d'Iran, brisez vos chaînes !"
+
+ persia_events.120.t:9 "[PER.GetName] Asks For an Alliance"
+ persia_events.120.d.base:9 "Today, the Iranian ambassador to Russia explained to his counterpart that his country wishes for a military alliance between our two nations. Russo-Iranian relations have been warming in recent years, especially due to a shared hatred against the Turks, and it seems they wish to repay us for our help against them."
+ persia_events.120.d.ashkhabad:9 "Today, the Iranian ambassador to Russia explained to his counterpart that his country wishes for a military alliance between our two nations. Russo-Iranian relations have been warming in recent years, especially due to a shared hatred against the Turks, and it seems they wish to repay us for our help against them.\n\nIn a gesture of good faith they have also promised that Ashkabad, which has been under de-facto Iranian administration since 1929, will be returned to us."
+ persia_events.120.a:9 "Such are the fruits of good relations."
+ persia_events.120.b:9 "Seems unnecessary."
+
+ persia_events.121.t:9 "Russia Accepts Our Offer For an Alliance"
+ persia_events.121.d.base:9 "Our ambassador to Russia has notified us that [RUS.Capital.GetCapitalVictoryPointName] is willing to enter a military alliance between our two nations."
+ persia_events.121.d.ashkhabad:9 "$persia_events.121.d.base$ Accordingly, [418.GetName] will be transferred back to Russian control."
+ persia_events.121.a:9 "May it last for ages to come."
+
+ persia_events.122.t:9 "Russia Denies Our Request"
+ persia_events.122.d:9 "The Russian ambassador to Iran stated that his country was not interested in a military alliance. Clearly he must be out of his mind, or desire our subjugation rather than partnership - maybe both?"
+ persia_events.122.a:0 "Peu importe."
+
+ persia_events.123.t:9 "[PER.GetNameDefCap] Discontinues the [PER.GetFactionName]"
+ persia_events.123.d:9 "Citing that our alliance has outlived its usefulness, the [PER.GetAdjective] government has today announced the end of its participation in the [PER.GetFactionName]. With that, the alliance has been effectively dismantled, leaving us without the protection of the [PER.GetAdjective] army."
+ persia_events.123.a:0 "Ce n'est pas comme si nous en avions besoin de toute façon !"
+
+ persia_events.124.t:9 "The [FROM.GetAdjective] Collapse"
+ persia_events.124.d:9 "When we entered the war against the Ottomans, we joined the Iranians, the Egyptians, the Arabs, and many more in their righteous struggle. Seemingly the entire Middle East had taken up arms against Kostantiniye, and back then, hopes were high that this war would be over quick, with overwhelming numbers working in our favour and the decadent Ottoman Empire simply collapsing under its own weight. But now, the situation is looking dire.\n\nNews has just reached [ROOT.Capital.GetCapitalVictoryPointName] that, with Teheran and other major [FROM.GetAdjective] cities having fallen to the advancing Ottoman forces, [FROM.GetNameDef] has officially surrendered to the Sublime Porte. With that, our closest allies, and by extension the Tabriz Accords, are no more. And now, we stand alone against an overwhelming enemy.\n\nStill, surrender is not an option. The Ottomans would accept nothing but the total annihilation of our nation - and we simply cannot allow that to happen. If we must die, then die we will - but we shall fight on in the name of our forefathers, defending our lands from the Turkish brute to our last breath!"
+ persia_events.124.a:9 "[ROOT.GetName] is not yet lost!"
+
+ persia_events.125.t:9 "[PER.GetNameDefCap] Joins the [future_persian_faction_leader.GetFactionName]"
+ persia_events.125.d:9 "Seeking to align themselves with a major power, [PER.GetNameDef] has recently informed us of their desire to apply for membership in the [future_persian_faction_leader.GetFactionName]. Unwilling to simply abandon their allies, however, they have offered us to join forces with [future_persian_faction_leader.GetNameDef] alongside them, continuing the [ROOT.GetAdjective]-[PER.GetAdjective] cooperation in a larger alliance framework than the now-disbanded Tabriz Accords."
+ persia_events.125.a:9 "Let us join alongside our [PER.GetAdjective] brothers!"
+ persia_events.125.b:9 "We are fine on our own!"
+
+ persia_events.126.t:9 "[FROM.GetNameDefCap] Seeks Entry Into the [ROOT.GetFactionName]"
+ persia_events.126.d:9 "With [PER.GetNameDefCap] having chosen to disestablish the Tabriz Accords and instead align themselves with the [ROOT.GetFactionName], their former allies have been left with a choice: either follow the [PER.GetAdjective] lead or remain isolated and without protection. Wisely, [FROM.GetNameDef] has chosen the former option, and as such, has now officially petitioned to join the [ROOT.GetFactionName] and contribute to our military alliance. The question now is whether we should allow them in."
+ persia_events.126.a:9 "They are welcome to join!"
+ persia_events.126.b:0 "Nous n'avons pas besoin d'eux !"
+
+ persia_events.127.t:9 "[FROM.GetNameDefCap] Approves of Our Entry"
+ persia_events.127.d:9 "News has just reached us from our ambassador in [FROM.Capital.GetCapitalVictoryPointName] that [FROM.GetNameDef] has accepted our request, allowing us to join the [FROM.GetFactionName] alongside our [PER.GetAdjective] allies."
+ persia_events.127.a:0 "Splendide !"
+
+ persia_events.128.t:9 "[FROM.GetNameDefCap] Denies Our Entry"
+ persia_events.128.d:9 "Citing that we, unlike our [PER.GetAdjective] allies, would be unable to contribute anything of value, [FROM.GetNameDef] has turned down our offer of joining the [FROM.GetFactionName]."
+ persia_events.128.a:0 "Bon sang !"
 
 ### Decisions ###
  PER_country_namechange_decision: "Changer notre nom pour Iran"
- PER_country_namechange_decision_desc: "La pression monte du côté des éléments modernisateurs de notre nation pour pousser la communauté internationale à nous appeler « Iran », le nom que nous utilisons pour nous-mêmes, au lieu de l'exonyme désuet « Perse ». Nous ne savons pas vraiment pourquoi il s'agit d'un tel débat."
+ PER_country_namechange_decision_desc:9 "La pression monte du côté des éléments modernisateurs de notre nation pour pousser la communauté internationale à nous appeler « Iran », le nom que nous utilisons pour nous-mêmes, au lieu de l'exonyme désuet « Perse ». Nous ne savons pas vraiment pourquoi il s'agit d'un tel débat."
  PER_embargo_anti_socialists: "Embargo sur le Pétrole pour les Ennemis du Socialisme"
  PER_embargo_anti_socialists_desc: "Nous sommes trop éloignés du théâtre européen pour soutenir directement la Troisième Internationale - cependant, nous sommes en possession de vastes réserves de pétrole que recherchent toutes les grandes puissances du monde. Interdisons l'exportation de pétrole vers le Reichspakt, l'Entente et l'Accord de Moscou pour que les ennemis du socialisme ne puissent pas alimenter leurs machines de guerre !"
 

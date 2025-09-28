@@ -2,6 +2,31 @@
 
  German_East_Asia: "Arbre de priorités de l'Extrême-Orient Germanique"
 
+### Colonies, Protectorates, Mandates ###
+ GEA_territory_title:9 "[THIS.GermanEastAsiaGetStateTerritoryTitle]"
+ ## Leased Territories
+ GEA_territory_744:9 "Leased Territory"
+ ## Indochina
+ GEA_territory_671:9 "Tonkin Protectorate"
+ GEA_territory_670:9 "Luang Prabang Protectorate"
+ GEA_territory_827:9 "Annam Protectorate"
+ GEA_territory_286:9 "Colony of Cochinchina"
+ GEA_territory_750:9 "Cambodia Protectorate"
+ ## Malay Peninsula
+ GEA_territory_336:9 "Straits Settlements"
+ GEA_territory_963:9 "Federated Malay States"
+ GEA_territory_846:9 "[THIS.GetName] State"
+ GEA_territory_751:9 "Kelantan & Terengganu States"
+ ## Borneo
+ GEA_territory_333:9 "Sarawak & Brunei"
+ GEA_territory_828:9 "State of North Borneo"
+ ## Pacific Islands
+ GEA_territory_757:9 "German New Guinea"
+ GEA_territory_941:9 "German Samoa"
+ GEA_territory_641:9 "German Polynesia"
+ GEA_territory_635:9 "New Hebrides Condominium"
+ GEA_territory_634:9 "British Western Pacific"
+
 ### Parties ###
 GEA_totalist_party: "Totalistes d'Asie Orientale"
 GEA_totalist_party_long: "Totalistes d'Asie Orientale"
@@ -87,8 +112,6 @@ GEA_national_populist_party_long: "Ligue nationale de Malaisie"
  GEA_indochinese_investments_desc:9 "Les usines textiles d'Indochine ont besoin d'un financement supplémentaire pour se développer et innover dans de nouvelles techniques de confection. L'octroi de ce financement nous rendrait sympathiques aux yeux de la population locale et nous apporterait de nouveaux revenus à long terme. Cela contribuera à la reprise économique et à la stabilisation de la société."
  GEA_local_arms_foundries:0 "Fonderies d'armes locales"
  GEA_local_arms_foundries_desc:9 "Les armuriers au sein de notre juridiction manquent cruellement, c'est le moins qu'on puisse dire. Nous devrions investir dans ce domaine pour accélérer le développement de nouveaux modèles et de nouvelles installations, afin de réduire notre dépendance à l'égard de la ferraille de Berlin."
- GEA_fiscal_austerity0:0 "Protéger Tsingtau"
- GEA_fiscal_austerity0_desc:9 "Nos troupes ont combattu et saigné jusqu'à la fin pour défendre Tsingtau pendant la Weltkrieg, et ces hommes courageux constituaient une grande partie du cercle rapproché de von Mücke. Nous devons honorer leur sacrifice et renforcer notre position en Chine en continuant à fortifier la baie de Kiautschou."
  GEA_authorise_local_arms_production:0 "Autoriser la production locale d'armes"
  GEA_authorise_local_arms_production_desc:9 "Actuellement, bon nombre de nos traités interdisent aux autorités et aux princes autochtones de produire des armes, comme condition de notre protection. Avec les réformes qui ont été apportées à la structure de base de notre gouvernement, nous en sommes venus à considérer ces restrictions comme un obstacle et nous tenons à les supprimer."
  GEA_siamese_border_fortifications:0 "Fortifier la frontière avec le Siam"
@@ -155,8 +178,6 @@ GEA_national_populist_party_long: "Ligue nationale de Malaisie"
  GEA_anti_invasion_plan_desc:0 "En organisant des jeux de guerre, en créant une réserve de béton et d'acier et en formant la population civile aux méthodes d'évacuation, nous pouvons faire en sorte que tout scénario d'invasion soit affronté avec toute la force requise."
  GEA_absolute_defence_sphere:0 "Sphère de défense intégrale"
  GEA_absolute_defence_sphere_desc:0 "La doctrine de la "sphère de protection totale" est une réflexion extrême sur l'accent que nous mettons sur la défense des colonies contre les invasions. Elle exige la mise en place de multiples dispositifs de protection contre les défaillances et des plans de secours pour se préparer à tous les scénarios possibles d'invasion et de débarquement naval, et pour entraîner sans relâche les troupes afin qu'elles soient prêtes pour chacun d'entre eux."
-GEA_navyfort4: "Fortifications côtières de Saïgon"
-GEA_navyfort4_desc: "Saïgon est la porte d'entrée du Vietnam et de l'Indochine proprement dite, et en tant que telle, nous devrions chercher à fortifier la ville contre les assauts amphibies."
  GEA_improved_marine_training: "Amélioration de l'Entraînement des Marins"
  GEA_improved_marine_training_desc:9 "Avec notre situation unique sur le globe, nous nous concentrons naturellement plus sur les forces amphibies que les autres nations, les Seebataillonen en particulier étant connus pour leurs assauts amphibies durs et rapides. Nous devrions leur fournir une formation supplémentaire pour nous assurer qu'ils sont à la pointe du progrès."
  GEA_expand_the_singapore_detachment:0 "Agrandissement du détachement de [336.GetCapitalVictoryPointName]"
@@ -229,307 +250,287 @@ GEA_navyfort4_desc: "Saïgon est la porte d'entrée du Vietnam et de l'Indochine
 
 ### Events ###
 # Black Monday
-Ostasien.2.t: "Lundi Noir !"
-Ostasien.2.d: "La situation en Allemagne est désastreuse. Après une crise financière dévastatrice, l'économie allemande est en lambeaux et les colonies ne manqueront pas de lui succéder. Nous devons réduire une grande partie de nos dépenses et chercher immédiatement des moyens de soutenir l'économie déjà affaiblie de l'Asie Orientale. La reprise pourrait prendre de nombreuses années...."
-Ostasien.2.a: "Désastreux !"
+ german_east_asia_events.2.t:0 "Le Lundi Noir !"
+ german_east_asia_events.2.d:0 "La situation en Allemagne est désastreuse. Après une crise financière dévastatrice, l'économie allemande est en lambeaux et les colonies ne manqueront pas de lui succéder. Nous devons réduire une grande partie de nos dépenses et chercher immédiatement des moyens de soutenir l'économie déjà affaiblie de l'Asie Orientale. La reprise pourrait prendre de nombreuses années...."
+ german_east_asia_events.2.a:0 "Katastrophal !"
 
-Ostasien.3.t: "La fin de la semaine noire"
-Ostasien.3.d: "Une semaine s'est écoulée depuis le premier krach boursier de Berlin. Le caoutchouc et l'étain, nos principaux produits d'exportation, ont déjà perdu plus de la moitié de leur valeur d'avant le Lundi Noir en raison de la chute de la demande de pneus dans l'industrie automobile. Pendant ce temps, les exportations de riz vers le marché européen ont cessé, laissant des dizaines de milliers de tonnes pourrir dans les champs et sur les quais. Les Européens de Singapour, de Saïgon et d'autres villes sans épargne et sans propriété foncière ont tout perdu sur le marché, et se retrouvent aujourd'hui à peine mieux lotis que leurs voisins indochinois.."
-Ostasien.3.a: "Il faut faire quelque chose !"
+ german_east_asia_events.3.t:0 "La fin de la semaine noire"
+ german_east_asia_events.3.d:0 "Une semaine s'est écoulée depuis le premier krach boursier de Berlin. Le caoutchouc et l'étain, nos principaux produits d'exportation, ont déjà perdu plus de la moitié de leur valeur d'avant le Lundi Noir en raison de la chute de la demande de pneus dans l'industrie automobile. Pendant ce temps, les exportations de riz vers le marché européen ont cessé, laissant des dizaines de milliers de tonnes pourrir dans les champs et sur les quais. Les Européens de Singapour, de Saïgon et d'autres villes sans épargne et sans propriété foncière ont tout perdu sur le marché, et se retrouvent aujourd'hui à peine mieux lotis que leurs voisins indochinois.."
+ german_east_asia_events.3.a:0 "Il faut faire quelque chose !"
 
 ### Uprising Chain ###
 # Yen Bai Muytiny
-Ostasien.4.t: "Instabilité en Indochine"
-Ostasien.4.d: "Depuis que notre force expéditionnaire a détruit Ho Chi Minh et ses agitateurs syndicalistes à Guangzhou il y a dix ans, l'Indochine a connu une période relativement stable. Mais le récent krach boursier de Berlin, ou Lundi Noir, a eu un impact dévastateur sur l'économie indochinoise hautement concurrencée. Les grèves et les émeutes du riz se propagent au Tonkin, en Annam et en Cochinchine. Les étudiants et les intellectuels des villes demandent plus de liberté. Pire encore, nos renseignements suggère que certains révolutionnaires clandestins étendent secrètement leur influence."
-Ostasien.4.a: "Cette colonie est connue pour son instabilité."
+ german_east_asia_events.4.t:0 "Instabilité en Indochine"
+ german_east_asia_events.4.d:0 "Depuis que notre force expéditionnaire a détruit Ho Chi Minh et ses agitateurs syndicalistes à Guangzhou il y a dix ans, l'Indochine a connu une période relativement stable. Mais le récent krach boursier de Berlin, ou Lundi Noir, a eu un impact dévastateur sur l'économie indochinoise hautement concurrencée. Les grèves et les émeutes du riz se propagent au Tonkin, en Annam et en Cochinchine. Les étudiants et les intellectuels des villes demandent plus de liberté. Pire encore, nos renseignements suggère que certains révolutionnaires clandestins étendent secrètement leur influence."
+ german_east_asia_events.4.a:0 "Cette colonie est connue pour son instabilité."
 
-Ostasien.5.t: "Agitation nationaliste au Tonkin"
-Ostasien.5.d: "Nous avons découvert une série de mouvements nationalistes et anticolonialistes au Tonkin. Dans tous les coins de Hanoi, des agitateurs diffusent des pamphlets appelant à l'unité nationale et à l'indépendance. Le chef de file derrière les agitations est un groupe appelé le Parti Nationaliste Vietnamien (VNQDD), et nos agents ont découvert un plan insidieux : ces bandits sont infiltrés dans notre garnison au Tonkin."
-Ostasien.5.a: "Nous devons nous préparer."
+ german_east_asia_events.5.t:0 "Agitation nationaliste au Tonkin"
+ german_east_asia_events.5.d:0 "Nous avons découvert une série de mouvements nationalistes et anticolonialistes au Tonkin. Dans tous les coins de Hanoi, des agitateurs diffusent des pamphlets appelant à l'unité nationale et à l'indépendance. Le chef de file derrière les agitations est un groupe appelé le Parti Nationaliste Vietnamien (VNQDD), et nos agents ont découvert un plan insidieux : ces bandits sont infiltrés dans notre garnison au Tonkin."
+ german_east_asia_events.5.a:0 "Nous devons nous préparer."
 
-Ostasien.6.t: "La mutinerie de Yen-Bai"
-Ostasien.6.d: "Aujourd'hui, des garnisons tonkinoises à Yen-Bai, un poste militaire près de la frontière sino-indochinoise, ont organisé une mutinerie contre les autorités coloniales ! Des agents armés du VNQDDD les accompagnent. Grâce à nos espions, nous avons saboté leur plan pour lancer un soulèvement coordonné. Nous avons repoussé les rebelles et commencé une vaste opération de répression au Tonkin. Aujourd'hui, les rebelles désespérés fuient vers la zone montagneuse de la frontière sino-vietnamienne."
-Ostasien.6.a: "Concentrons nos forces pour écraser ces bandits !"
-Ostasien.6.b: "Déclarez la loi martiale dans toute l'Indochine !"
+ german_east_asia_events.6.t:0 "La mutinerie de Yen-Bai"
+ german_east_asia_events.6.d:0 "Aujourd'hui, des garnisons tonkinoises à Yen-Bai, un poste militaire près de la frontière sino-indochinoise, ont organisé une mutinerie contre les autorités coloniales ! Des agents armés du VNQDDD les accompagnent. Grâce à nos espions, nous avons saboté leur plan pour lancer un soulèvement coordonné. Nous avons repoussé les rebelles et commencé une vaste opération de répression au Tonkin. Aujourd'hui, les rebelles désespérés fuient vers la zone montagneuse de la frontière sino-vietnamienne."
+ german_east_asia_events.6.a:0 "Concentrons nos forces pour écraser ces bandits !"
+ german_east_asia_events.6.b:0 "Déclarez la loi martiale dans toute l'Indochine !"
 
  # FRA:
-Ostasien.7.t: "Une tragédie indochinoise" # FRA
- Ostasien.7.d: ""Viet-Nam ! Viet-Nam ! Viet-Nam ! La patrie du Sud ! Treize fois, j'ai entendu le tollé devant la guillotine de Yen-Bai. Treize hommes condamnés à mort l'ont criée, un par un, à deux mètres de l'échafaudage."\n\n- Un journaliste français, Louis Roubaud, a été témoin de la récente et brutale répression allemande en Indochine, notre ancienne colonie et l'actuel bastion du colonialisme allemand en Extrême-Orient. Le général André Marty, un ami proche de feu le révolutionnaire indochinois Ho Chi Minh, a demandé une intervention en Indochine. Depuis la fin de la Weltkrieg, des milliers d'étudiants, de soldats et d'ouvriers indochinois sont restés en France et sont devenus de fermes révolutionnaires. Si nous les renvoyons avec des armes adéquates, ils pourront organiser un soulèvement en Cochinchine. Cela pourrait déstabiliser l'empire colonial allemand et servir la révolution mondiale."
-Ostasien.7.a: "Bon voyage, camarades indochinois !"
-Ostasien.7.b: "Nous ne sommes pas le Pigneau de Behaine moderne."
+ german_east_asia_events.7.t:0 "Une tragédie indochinoise"
+ german_east_asia_events.7.d:0 ""Viet-Nam ! Viet-Nam ! Viet-Nam ! La patrie du Sud ! Treize fois, j'ai entendu le tollé devant la guillotine de Yen-Bai. Treize hommes condamnés à mort l'ont criée, un par un, à deux mètres de l'échafaudage."\n\n- Un journaliste français, Louis Roubaud, a été témoin de la récente et brutale répression allemande en Indochine, notre ancienne colonie et l'actuel bastion du colonialisme allemand en Extrême-Orient. Le général André Marty, un ami proche de feu le révolutionnaire indochinois Ho Chi Minh, a demandé une intervention en Indochine. Depuis la fin de la Weltkrieg, des milliers d'étudiants, de soldats et d'ouvriers indochinois sont restés en France et sont devenus de fermes révolutionnaires. Si nous les renvoyons avec des armes adéquates, ils pourront organiser un soulèvement en Cochinchine. Cela pourrait déstabiliser l'empire colonial allemand et servir la révolution mondiale."
+ german_east_asia_events.7.a:0 "Bon voyage, camarades indochinois !"
+ german_east_asia_events.7.b:0 "Nous ne sommes pas le Pigneau de Behaine moderne."
 
  # HND:
-Ostasien.8.t: "Une tragédie indochinoise" # BHC
-Ostasien.8.d: ""Viet-Nam ! Viet-Nam ! Viet-Nam ! Patrie du Sud ! Treize fois, j'ai entendu la clameur devant la guillotine de Yen-Bai. Treize hommes condamnés à mort l'ont crié, un par un, à deux mètres de l'échafaudage." \n\nUn journaliste français Louis Roubaud a été témoin de la brutale répression allemande en Indochine, notre ancienne colonie et l'actuel bastion du colonialisme allemand en Extrême-Orient. Aujourd'hui, le général Jacques Doriot, un ami proche de feu le révolutionnaire indochinois Ho Chi Minh, a plaidé en faveur d'une intervention en Indochine. Depuis la fin de la Weltkrieg, des milliers d'étudiants, de soldats et d'ouvriers indochinois sont restés en France et sont devenus des révolutionnaires convaincu. Si nous les renvoyons avec suffisamment d'armes, ils peuvent organiser un soulèvement en Cochinchine. Cela pourrait déstabiliser l'empire colonial allemand et servir la révolution mondiale."
-Ostasien.8.a: "Envoyez notre aide."
-Ostasien.8.b: "Nous ne sommes pas intéressés."
+ german_east_asia_events.8.t:0 "Une tragédie indochinoise"
+ german_east_asia_events.8.d:0 ""Viet-Nam ! Viet-Nam ! Viet-Nam ! Patrie du Sud ! Treize fois, j'ai entendu la clameur devant la guillotine de Yen-Bai. Treize hommes condamnés à mort l'ont crié, un par un, à deux mètres de l'échafaudage." \n\nUn journaliste français Louis Roubaud a été témoin de la brutale répression allemande en Indochine, notre ancienne colonie et l'actuel bastion du colonialisme allemand en Extrême-Orient. Aujourd'hui, le général Jacques Doriot, un ami proche de feu le révolutionnaire indochinois Ho Chi Minh, a plaidé en faveur d'une intervention en Indochine. Depuis la fin de la Weltkrieg, des milliers d'étudiants, de soldats et d'ouvriers indochinois sont restés en France et sont devenus des révolutionnaires convaincu. Si nous les renvoyons avec suffisamment d'armes, ils peuvent organiser un soulèvement en Cochinchine. Cela pourrait déstabiliser l'empire colonial allemand et servir la révolution mondiale."
+ german_east_asia_events.8.a:0 "Envoyez notre aide."
+ german_east_asia_events.8.b:0 "Nous ne sommes pas intéressés."
 
 # Bao Dai Reform
-Ostasien.9.t: "L'empereur Bao Dai rentre en Indochine"
- Ostasien.9.d: "Bao Dai, le monarque d'Annam, a récemment terminé ses études en Allemagne et est retourné en Indochine. S'il ne se contentera pas d'un simple rôle cérémoniel, une monarchie soigneusement contrôlée permettrait d'atténuer l'instabilité rurale et de gagner le soutien du peuple, car les paysans annamiens sont intrinsèquement attachés à leur empereur. Cependant, les colons européens de Saïgon s'opposent farouchement à toute tentative de partage du pouvoir avec les Annamois."
-Ostasien.9.a: "Bon retour chez vous, notre empereur fantoche."
-Ostasien.9.b: "Il devrait peut-être continuer ses études."
+ german_east_asia_events.9.t:9 "Emperor Bao Dai Returns to Indochina"
+ german_east_asia_events.9.d:0 "Bao Dai, le monarque d'Annam, a récemment terminé ses études en Allemagne et est retourné en Indochine. S'il ne se contentera pas d'un simple rôle cérémoniel, une monarchie soigneusement contrôlée permettrait d'atténuer l'instabilité rurale et de gagner le soutien du peuple, car les paysans annamiens sont intrinsèquement attachés à leur empereur. Cependant, les colons européens de Saïgon s'opposent farouchement à toute tentative de partage du pouvoir avec les Annamois."
+ german_east_asia_events.9.a:0 "Bon retour chez vous, notre empereur fantoche."
 
-Ostasien.10.t: "Les réformes de Bao Dai : Première Étape"
- Ostasien.10.d: "Monté sur le trône, Bao Dai a recruté plusieurs personnalités réformatrices dans sa cour, dont l'intellectuel néo-traditionnaliste Pham Quyhn et l'administrateur catholique Ngo Dinh Diem. Ses ministres ont maintenant décidé d'engager une réforme administrative pour revitaliser le système bureaucratique dysfonctionnel. Actuellement, les mandarins du protectorat d'Annam ne dirigent le pays que nominalement, tandis que leurs conseillers européens détiennent le véritable pouvoir. La réforme de Bao Dai va certainement porter atteinte à la monopolisation du pouvoir par les européens."
-Ostasien.10.a: "C'est une nécessité."
-Ostasien.10.b: "Arrêtez-le. Il est allé trop loin."
+ german_east_asia_events.10.t:0 "Les réformes de Bao Dai : Première Étape"
+ german_east_asia_events.10.d:0 "Monté sur le trône, Bao Dai a recruté plusieurs personnalités réformatrices dans sa cour, dont l'intellectuel néo-traditionnaliste Pham Quyhn et l'administrateur catholique Ngo Dinh Diem. Ses ministres ont maintenant décidé d'engager une réforme administrative pour revitaliser le système bureaucratique dysfonctionnel. Actuellement, les mandarins du protectorat d'Annam ne dirigent le pays que nominalement, tandis que leurs conseillers européens détiennent le véritable pouvoir. La réforme de Bao Dai va certainement porter atteinte à la monopolisation du pouvoir par les européens."
+ german_east_asia_events.10.a:0 "C'est une nécessité."
+ german_east_asia_events.10.b:0 "Arrêtez-le. Il est allé trop loin."
 
-Ostasien.11.t: "Les réformes de Bao Dai : Deuxième étape"
-Ostasien.11.d: "Après la réforme administrative, le cabinet de Bao Dai a commencé à centraliser davantage le pouvoir. La récente tourmente en Indochine lui offre une bonne excuse. Il nous implore de lui accorder l'autorité de mettre sur pied une force de police impériale. Bao Dai et ses ministres affirment que seule la police impériale, sur ordre de la cour impériale de Hue, peut effectivement pacifier les paysans désobéissants et rétablir l'ordre à Annam."
-Ostasien.11.a: "Cela nous aidera."
-Ostasien.11.b: "Donner du pouvoir aux Annamais est dangereux."
+ german_east_asia_events.11.t:0 "Les réformes de Bao Dai : Deuxième étape"
+ german_east_asia_events.11.d:0 "Après la réforme administrative, le cabinet de Bao Dai a commencé à centraliser davantage le pouvoir. La récente tourmente en Indochine lui offre une bonne excuse. Il nous implore de lui accorder l'autorité de mettre sur pied une force de police impériale. Bao Dai et ses ministres affirment que seule la police impériale, sur ordre de la cour impériale de Hue, peut effectivement pacifier les paysans désobéissants et rétablir l'ordre à Annam."
+ german_east_asia_events.11.a:0 "Cela nous aidera."
+ german_east_asia_events.11.b:0 "Donner du pouvoir aux Annamais est dangereux."
 
 # Revolution in Cochinchina
+ german_east_asia_events.12.t:0 "Instabilité en Cochinchine"
+ german_east_asia_events.12.d:0 "Avec nos forces occupées à réprimer les nationalistes au Tonkin, la situation dans le sud de la Cochinchine devient de plus en plus instable. Les grèves ont diminué, mais les militants syndicaux se réuniraient fréquemment et des rumeurs se répandent selon lesquelles des agitateurs, déguisés en moines et en marchands, organisent les paysans en sociétés secrètes en Cochinchine et dans l'Annam du sud. D'autres renseignements suggèrent que de nombreux exilés vietnamiens franchissent illégalement la frontière et entrent en Indochine. Ils sont susceptibles d'être envoyés par des puissances étrangères pour se livrer à des activités subversives."
+ german_east_asia_events.12.a:0 "Je sens le calme avant la tempête."
 
-Ostasien.12.t: "Instabilité en Cochinchine"
-Ostasien.12.d: "Avec nos forces occupées à réprimer les nationalistes au Tonkin, la situation dans le sud de la Cochinchine devient de plus en plus instable. Les grèves ont diminué, mais les militants syndicaux se réuniraient fréquemment et des rumeurs se répandent selon lesquelles des agitateurs, déguisés en moines et en marchands, organisent les paysans en sociétés secrètes en Cochinchine et dans l'Annam du sud. D'autres renseignements suggèrent que de nombreux exilés vietnamiens franchissent illégalement la frontière et entrent en Indochine. Ils sont susceptibles d'être envoyés par des puissances étrangères pour se livrer à des activités subversives."
-Ostasien.12.a: "Je sens le calme avant la tempête."
+ german_east_asia_events.13.t:0 "Évasion à Poulo Condor"
+ german_east_asia_events.13.d:0 "Ce matin, notre prison centrale sur l'île de Poulo Condor a signalé une évasion massive ! Il s'agissait clairement d'une action bien organisée ; les prisonniers se sont échappés par un tunnel sous le couvert de minuit, puis se sont embarqués sur des jonques pré-préparées et ont disparu dans les réseaux de canaux et les marais du delta du Mékong. On estime qu'environ 150 prisonniers sur un total de 25 000 se sont évadés. La plupart sont des agitateurs de gauche."
+ german_east_asia_events.13.a:0 "Cette colonie n'a été rien d'autre que des ennuis !"
 
-Ostasien.13.t: "Évasion à Poulo Condor"
-Ostasien.13.d: "Ce matin, notre prison centrale sur l'île de Poulo Condor a signalé une évasion massive ! Il s'agissait clairement d'une action bien organisée ; les prisonniers se sont échappés par un tunnel sous le couvert de minuit, puis se sont embarqués sur des jonques pré-préparées et ont disparu dans les réseaux de canaux et les marais du delta du Mékong. On estime qu'environ 150 prisonniers sur un total de 25 000 se sont évadés. La plupart sont des agitateurs de gauche."
-Ostasien.13.a: "Cette colonie n'a été rien d'autre que des ennuis !"
+ german_east_asia_events.14.t:0 "Le mouvement de la commune de Binh Dinh"
+ german_east_asia_events.14.d:0 "La province de Binh Dinh, foyer de la rébellion de Tay Son, assiste à une escalade dramatique de son mouvement paysan. Les manifestants ont d'abord exigé la fin du travail de corvée, l'équivalent du servage, mais lorsqu'ils ont été ignorés par les administrateurs locaux, les paysans en colère ont commencé à brûler les bâtiments administratifs, les mairies et les gares, à détruire les registres fiscaux et à piller les postes de police. L'administration locale a été paralysée et des associations appelées "communes" ont été formées, et le mouvement a commencé à s'étendre à d'autres provinces du sud de l'Annam et du Mékong. Il est clair que les Viet Minh sont derrière tous ces mouvements !"
+ german_east_asia_events.14.a:0 "Nous pouvons peut-être régler ce problème pacifiquement."
+ german_east_asia_events.14.b:0 "Envoyez les troupes !"
+ german_east_asia_events.14.c:0 "L'IA évite les tricheries liées à la rébellion - signalez-le si vous le voyez"
 
-Ostasien.14.t: "Le mouvement de la commune de Binh Dinh"
-Ostasien.14.d: "La province de Binh Dinh, foyer de la rébellion de Tay Son, assiste à une escalade dramatique de son mouvement paysan. Les manifestants ont d'abord exigé la fin du travail de corvée, l'équivalent du servage, mais lorsqu'ils ont été ignorés par les administrateurs locaux, les paysans en colère ont commencé à brûler les bâtiments administratifs, les mairies et les gares, à détruire les registres fiscaux et à piller les postes de police. L'administration locale a été paralysée et des associations appelées "communes" ont été formées, et le mouvement a commencé à s'étendre à d'autres provinces du sud de l'Annam et du Mékong. Il est clair que les Viet Minh sont derrière tous ces mouvements !"
-Ostasien.14.a: "Nous pouvons peut-être régler ce problème pacifiquement."
-Ostasien.14.b: "Envoyez les troupes !"
- Ostasien.14.c: "L'IA évite les tricheries liées à la rébellion - signalez-le si vous le voyez"
+ german_east_asia_events.15.t:0 "Le soulèvement de Saïgon"
+ german_east_asia_events.15.d:0 "Hier, des insurrections concertées ont simultanément éclaté du Tonkin à la Cochinchine. Les syndicats ont déclenché une grève générale et ont tenté d'occuper les bâtiments de l'administration municipale. Alors que dans la plupart des régions l'ordre a été rétabli, les Viet Minh ont amené leur rébellion paysanne de Binh Dinh et du Mékong à Saigon et sont entrés dans la ville. Les garnisons locales ont fait défection et les rebelles ont pris le contrôle des principales installations administratives et de communication à Saigon !"
+ german_east_asia_events.15.a:9 "Vive la révolution ! (Play as Indochina)"
+ german_east_asia_events.15.b:0 "Maudit soit le Viet Minh !"
+ german_east_asia_events.15.d.fra:0 "Dans un exemple de collaboration prolétarienne, les syndicats de tout le sud de l'Indochine sont entrés en grève générale, ont joint leurs forces avec le Viet Minh, et ont initié un soulèvement général contre l'administration impérialiste des Boches ! Les peuples d'Indochine se battent désormais pour leur libération de l'impérialisme et du capitalisme !"
+ german_east_asia_events.15.a.fra:9 "Indochine, lève-toi ! (Play as Indochina)"
+ german_east_asia_events.15.b.fra:9 "Bonne chance, chers camarades !"
 
-Ostasien.15.t: "Le soulèvement de Saïgon"
-Ostasien.15.d: "Hier, des insurrections concertées ont simultanément éclaté du Tonkin à la Cochinchine. Les syndicats ont déclenché une grève générale et ont tenté d'occuper les bâtiments de l'administration municipale. Alors que dans la plupart des régions l'ordre a été rétabli, les Viet Minh ont amené leur rébellion paysanne de Binh Dinh et du Mékong à Saigon et sont entrés dans la ville. Les garnisons locales ont fait défection et les rebelles ont pris le contrôle des principales installations administratives et de communication à Saigon !"
-Ostasien.15.a: "Vive la Revolution! (jouer l'Indochine)"
-Ostasien.15.b: "Maudit soit le Viet Minh !"
- Ostasien.15.d.fra:9 "Dans un exemple de collaboration prolétarienne, les syndicats de tout le sud de l'Indochine sont entrés en grève générale, ont joint leurs forces avec le Viet Minh, et ont initié un soulèvement général contre l'administration impérialiste des Boches ! Les peuples d'Indochine se battent désormais pour leur libération de l'impérialisme et du capitalisme !"
- Ostasien.15.a.fra:9 "En avant, Indochine ! (Jouer les révolutionnaires indochinois)"
- Ostasien.15.b.fra:9 "Bonne chance, chers camerades !"
+ german_east_asia_events.16.t:0 "La situation en Indochine se détériore"
+ german_east_asia_events.16.d:0 "La situation en Indochine s'est détériorée, les insurgés étant beaucoup plus difficiles à mater que nous ne le pensions. Les forces régulières Viet Minh poussent vers le nord tandis que leurs unités de guérilla harcèlent nos voies de communications et répandent la peur. De nombreux colons doutent que nous puissions encore tenir l'Indochine et exigent l'évacuation de leurs biens de valeur vers d'autres colonies."
+ german_east_asia_events.16.a:0 "Évacuez les biens !"
+ german_east_asia_events.16.b:0 "Tout est sous contrôle !"
 
-Ostasien.16.t: "La situation en Indochine se détériore"
-Ostasien.16.d: "La situation en Indochine s'est détériorée, les insurgés étant beaucoup plus difficiles à mater que nous ne le pensions. Les forces régulières Viet Minh poussent vers le nord tandis que leurs unités de guérilla harcèlent nos voies de communications et répandent la peur. De nombreux colons doutent que nous puissions encore tenir l'Indochine et exigent l'évacuation de leurs biens de valeur vers d'autres colonies."
-Ostasien.16.a: "Évacuez les biens !"
-Ostasien.16.b: "Tout est sous contrôle !"
+ german_east_asia_events.17.t:0 "La situation en Indochine se détériore"
+ german_east_asia_events.17.d:0 "Il semble que, bien que les rapports officiels de nos colonies d'Extrême-Orient fassent état de succès significatifs dans la répression de l'insurrection, selon les renseignements militaires, la situation en Indochine s'est en fait détériorée. Pacifier les rebelles Viet Minh semble avoir été plus que ce que l'amirauté ne pouvait supporter. Certaines grandes villes et positions stratégiques sont tombées entre les mains des rebelles ; la peur et l'agitation se répandent. Peut-être que l'Extrême-Orient germanique a besoin d'aide ?"
+ german_east_asia_events.17.a:0 "Ils peuvent gérer ça."
+ german_east_asia_events.17.b:0 "Envoyez des renforts !"
+ german_east_asia_events.17.c:0 "Une guerre en Asie ? Tally ho !"
 
-Ostasien.17.t: "La situation en Indochine se détériore"
-Ostasien.17.d: "Il semble que, bien que les rapports officiels de nos colonies d'Extrême-Orient fassent état de succès significatifs dans la répression de l'insurrection, selon les renseignements militaires, la situation en Indochine s'est en fait détériorée. Pacifier les rebelles Viet Minh semble avoir été plus que ce que l'amirauté ne pouvait supporter. Certaines grandes villes et positions stratégiques sont tombées entre les mains des rebelles ; la peur et l'agitation se répandent. Peut-être que l'Extrême-Orient germanique a besoin d'aide ?"
-Ostasien.17.a: "Ils peuvent gérer ça."
-Ostasien.17.b: "Envoyez des renforts !"
-Ostasien.17.c: "Une guerre en Asie ? Tally ho !"
+ german_east_asia_events.18.t:0 "[INC.GetNameDefCap] envoie une offre de paix"
+ german_east_asia_events.18.d:0 "Le soulèvement en Indochine s'est aggravé. Les positions clés sont tombées aux mains de bandits Viet Minh et nous avons du mal à nous en sortir. Maintenant, les rebelles indochinois nous envoient une initiative de pourparlers de paix. Bien que l'on craigne que cela ne soit considéré comme une humiliation, il pourrait être judicieux de renoncer au contrôle de la région."
+ german_east_asia_events.18.a:0 "Non, nous continuerons à combattre ces rebelles !"
+ german_east_asia_events.18.b:0 "On ne peut plus se permettre de se battre."
 
- Ostasien.18.t: "[INC.GetNameDefCap] envoie une offre de paix"
-Ostasien.18.d: "Le soulèvement en Indochine s'est aggravé. Les positions clés sont tombées aux mains de bandits Viet Minh et nous avons du mal à nous en sortir. Maintenant, les rebelles indochinois nous envoient une initiative de pourparlers de paix. Bien que l'on craigne que cela ne soit considéré comme une humiliation, il pourrait être judicieux de renoncer au contrôle de la région."
-Ostasien.18.a: "Non, nous continuerons à combattre ces rebelles !"
-Ostasien.18.b: "On ne peut plus se permettre de se battre."
+ german_east_asia_events.19.t:0 "Les pourparlers de paix ont échoué"
+ german_east_asia_events.19.d:0 "Les impérialistes allemands ont refusé notre initiative de paix et ont décidé de poursuivre la guerre."
+ german_east_asia_events.19.a:0 "Seules les fusils peuvent parler aux impérialistes !"
 
-Ostasien.19.t: "Les pourparlers de paix ont échoué"
-Ostasien.19.d: "Les impérialistes allemands ont refusé notre initiative de paix et ont décidé de poursuivre la guerre."
-Ostasien.19.a: "Seules les fusils peuvent parler aux impérialistes !"
+ german_east_asia_events.20.t:0 "Victoire en Indochine"
+ german_east_asia_events.20.d:0 "L'Allemagne a accepté l'initiative de paix et s'est retirée de la péninsule indochinoise. Nous avons rempli notre mission de forcer les impérialistes allemands à se retirer. L'Indochine est maintenant libérée du régime colonial allemand ! C'est une grande victoire pour notre peuple et une défaite majeure pour les impérialistes allemands et leurs laquais."
+ german_east_asia_events.20.a:0 "Rentrez chez vous les casques à pointes !"
 
-Ostasien.20.t: "Victoire en Indochine"
-Ostasien.20.d: "L'Allemagne a accepté l'initiative de paix et s'est retirée de la péninsule indochinoise. Nous avons rempli notre mission de forcer les impérialistes allemands à se retirer. L'Indochine est maintenant libérée du régime colonial allemand ! C'est une grande victoire pour notre peuple et une défaite majeure pour les impérialistes allemands et leurs laquais."
-Ostasien.20.a: "Rentrez chez vous les casques à pointes !"
+ german_east_asia_events.21.t:0 "Bonnes nouvelles, mauvaises nouvelles"
+ german_east_asia_events.21.d:0 "Il semble que Berlin s'inquiète de la situation en Indochine. La mauvaise nouvelle, c'est qu'ils ont découvert que nous ne nous en sortons pas bien et qu'ils nous ont sévèrement critiqués. La bonne nouvelle, c'est qu'ils ont envoyé des renforts pour réprimer les insurgés Viet Minh."
+ german_east_asia_events.21.a:0 "Bonne nouvelle."
 
-Ostasien.21.t: "Bonnes nouvelles, mauvaises nouvelles"
-Ostasien.21.d: "Il semble que Berlin s'inquiète de la situation en Indochine. La mauvaise nouvelle, c'est qu'ils ont découvert que nous ne nous en sortons pas bien et qu'ils nous ont sévèrement critiqués. La bonne nouvelle, c'est qu'ils ont envoyé des renforts pour réprimer les insurgés Viet Minh."
-Ostasien.21.a: "Bonnes nouvelles."
+ german_east_asia_events.22.t:0 "Victoire en Indochine"
+ german_east_asia_events.22.d:0 "Notre glorieuse armée a réussi à déjouer la révolte Viet Minh en Indochine ! C'est un jour glorieux pour l'Allemagne !"
+ german_east_asia_events.22.a:0 "Sehr gut, Kameraden !"
 
-Ostasien.22.t: "Victoire en Indochine"
-Ostasien.22.d: "Notre glorieuse armée a réussi à déjouer la révolte Viet Minh en Indochine ! C'est un jour glorieux pour l'Allemagne !"
-Ostasien.22.a: "Sehr gut, Kameraden !"
-
- Ostasien.23.t: "Intensification de la guerre en Indochine"
-Ostasien.23.d: "Avec l'engagement de l'Empire allemand dans la péninsule indochinoise, la guerre de résistance a atteint un niveau sans précédent ! Mais nous triompherons, car la juste cause de la libération est invincible. On dit aussi que d'autres grandes puissances tentent de transformer la péninsule indochinoise en un bourbier pour l'Allemagne...."
-Ostasien.23.a: "Battez-vous !"
+ german_east_asia_events.23.t:0 "Intensification de la guerre en Indochine"
+ german_east_asia_events.23.d:0 "Avec l'engagement de l'Empire allemand dans la péninsule indochinoise, la guerre de résistance a atteint un niveau sans précédent ! Mais nous triompherons, car la juste cause de la libération est invincible. On dit aussi que d'autres grandes puissances tentent de transformer la péninsule indochinoise en un bourbier pour l'Allemagne...."
+ german_east_asia_events.23.a:0 "Battez-vous !"
 
  # Extra:
-Ostasien.25.t: "La solution Bao Dai" # Extra
-Ostasien.25.d: "Avec la chute de la Cochinchine aux mains du Viet Minh et la montée de la guérilla partout, toute l'Indochine est en état d'urgence. Les élites locales et les nationalistes anti-syndicalistes se sont ralliés derrière l'empereur Bao Dai et proposent une solution : Si nous honorons le traité de protectorat, c'est-à-dire si nous accordons à la dynastie Nguyen une plus grande autonomie à Annam et au Tonkin, ils contribueront à pacifier les zones rurales, à mobiliser les ressources locales et à battre les rebelles. Sinon, le sentiment anticolonialiste dominant donnera un avantage aux Viet Minh. La missive de Bao Dai s'achève sur une fin sinistre, déclarant que si l'Allemagne ne répond pas au nationalisme vietnamien, " Chaque village sera un nid de résistance, chaque ancien collaborateur un ennemi, et vos fonctionnaires et colons chercheront eux-mêmes à quitter cette atmosphère qui va les étouffer "."
-Ostasien.25.b: "On peut s'en occuper nous-mêmes."
-Ostasien.25.a: "Nous avons besoin de son aide."
- #Ostasien.25.c: "Bao Dai will lead Annam to peace and order (Release & switch to VIN)"
+ german_east_asia_events.25.t:0 "La solution Bao Dai"
+ german_east_asia_events.25.d:0 "Avec la chute de la Cochinchine aux mains du Viet Minh et la montée de la guérilla partout, toute l'Indochine est en état d'urgence. Les élites locales et les nationalistes anti-syndicalistes se sont ralliés derrière l'empereur Bao Dai et proposent une solution : Si nous honorons le traité de protectorat, c'est-à-dire si nous accordons à la dynastie Nguyen une plus grande autonomie à Annam et au Tonkin, ils contribueront à pacifier les zones rurales, à mobiliser les ressources locales et à battre les rebelles. Sinon, le sentiment anticolonialiste dominant donnera un avantage aux Viet Minh. La missive de Bao Dai s'achève sur une fin sinistre, déclarant que si l'Allemagne ne répond pas au nationalisme vietnamien, " Chaque village sera un nid de résistance, chaque ancien collaborateur un ennemi, et vos fonctionnaires et colons chercheront eux-mêmes à quitter cette atmosphère qui va les étouffer "."
+ german_east_asia_events.25.b:0 "On peut s'en occuper nous-mêmes."
+ german_east_asia_events.25.a:0 "Nous avons besoin de son aide."
 
-Ostasien.30.t: "Chute des prix"
-Ostasien.30.d: "Les prix du riz et du caoutchouc chutent rapidement dans les colonies. Les agriculteurs et les propriétaires de plantations, qui dépendent des exportations de riz et de caoutchouc, ont été durement touchés, en particulier dans nos deux principales colonies d'Indochine et de Malaisie. Il est possible de contrôler le prix dans une colonie, mais nos ressources sont limitées, et cela se fera presque certainement au détriment de l'autre."
-Ostasien.30.a: "Ça ne nous regarde pas."
-Ostasien.30.b: "Protéger l'Indochine."
-Ostasien.30.c: "Protéger la Malaisie."
+ german_east_asia_events.30.t:0 "Chute des prix"
+ german_east_asia_events.30.d:0 "Les prix du riz et du caoutchouc chutent rapidement dans les colonies. Les agriculteurs et les propriétaires de plantations, qui dépendent des exportations de riz et de caoutchouc, ont été durement touchés, en particulier dans nos deux principales colonies d'Indochine et de Malaisie. Il est possible de contrôler le prix dans une colonie, mais nos ressources sont limitées, et cela se fera presque certainement au détriment de l'autre."
+ german_east_asia_events.30.a:0 "Ça ne nous regarde pas."
+ german_east_asia_events.30.b:0 "Protéger l'Indochine."
+ german_east_asia_events.30.c:0 "Protéger la Malaisie."
 
-Ostasien.32.t: "Grèves dans les plantations"
- Ostasien.32.d: "Le prix du caoutchouc ne cesse de baisser. De nombreux propriétaires de plantations ont décidé de licencier des travailleurs et de faire travailler les autres à plein temps. Ces décisions ont déclenché des grèves à grande échelle dans les plantations d'Indochine et de Malaisie. Les travailleurs exigent des employeurs qu'ils cessent de licencier leurs employés et qu'ils réclament des horaires de travail plus courtes et de meilleures conditions. Comme la plupart des travailleurs des plantations sont analphabètes, on soupçonne que des agitateurs socialistes sont derrière leur coordination."
-Ostasien.32.a: "Réprimer les grèves."
-Ostasien.32.b: "Essayez de négocier avec eux."
+ german_east_asia_events.32.t:0 "Grèves dans les plantations"
+ german_east_asia_events.32.d:0 "Le prix du caoutchouc ne cesse de baisser. De nombreux propriétaires de plantations ont décidé de licencier des travailleurs et de faire travailler les autres à plein temps. Ces décisions ont déclenché des grèves à grande échelle dans les plantations d'Indochine et de Malaisie. Les travailleurs exigent des employeurs qu'ils cessent de licencier leurs employés et qu'ils réclament des horaires de travail plus courtes et de meilleures conditions. Comme la plupart des travailleurs des plantations sont analphabètes, on soupçonne que des agitateurs socialistes sont derrière leur coordination."
+ german_east_asia_events.32.a:0 "Réprimer les grèves."
+ german_east_asia_events.32.b:0 "Essayez de négocier avec eux."
 
- Ostasien.31.t: "Les privilèges des Européens"
-Ostasien.31.d: "Avec le choc économique du Lundi Noir, de nombreux colons européens ont tout perdu et se sont appauvris du jour au lendemain. Aujourd'hui, certains nous ont demandé de renforcer leurs privilèges sociaux et commerciaux afin que, en tant que colons, ils ne soient pas réduits à vivre comme de simples sujets coloniaux. Ils soutiennent qu'un système de ségrégation raciale strict est le seul moyen d'assurer la paix dans nos colonies."
-Ostasien.31.a: "Rejetez-les."
-Ostasien.31.b: "Renforcer les privilèges des européens."
+ german_east_asia_events.31.t:0 "Les privilèges des Européens"
+ german_east_asia_events.31.d:0 "Avec le choc économique du Lundi Noir, de nombreux colons européens ont tout perdu et se sont appauvris du jour au lendemain. Aujourd'hui, certains nous ont demandé de renforcer leurs privilèges sociaux et commerciaux afin que, en tant que colons, ils ne soient pas réduits à vivre comme de simples sujets coloniaux. Ils soutiennent qu'un système de ségrégation raciale strict est le seul moyen d'assurer la paix dans nos colonies."
+ german_east_asia_events.31.a:0 "Rejetez-les."
+ german_east_asia_events.31.b:0 "Renforcer les privilèges des européens."
 
- Ostasien.33.t: "La commune de Binh Dinh est pacifiée"
-Ostasien.33.d: "La rébellion paysanne dans la province de Binh Dinh a été pacifiée par nos soldats. Les bombardiers et les tirs de la marine se sont avérés particulièrement efficaces pour intimider les agriculteurs vietnamiens. Binh Dinh, en vietnamien, signifie pacification, et maintenant il a vraiment été fidèle à son nom."
- Ostasien.33.a: "Les loyalistes auront tout notre soutien !"
+ german_east_asia_events.33.t:0 "La commune de Binh Dinh est pacifiée"
+ german_east_asia_events.33.d:0 "La rébellion paysanne dans la province de Binh Dinh a été pacifiée par nos soldats. Les bombardiers et les tirs de la marine se sont avérés particulièrement efficaces pour intimider les agriculteurs vietnamiens. Binh Dinh, en vietnamien, signifie pacification, et maintenant il a vraiment été fidèle à son nom."
+ german_east_asia_events.33.a:0 "Les loyalistes auront tout notre soutien !"
 
-Ostasien.34.t: "L'agitation diminue à Saïgon"
-Ostasien.34.d: "Le bruit de la pluie qui tombe sur la place déserte est assourdissant. Un pamphlet en lambeaux, jeté dans le caniveau, l'encre qui coule sur le papier en fleurs bleuâtres, est la seule chose qui sert encore de preuve que Saïgon était, jusqu'à tout récemment, un foyer d'agitation socialiste et syndicaliste radical. Un ouvrier vietnamien tenant un drapeau rouge socialiste est représenté sur le pamphlet. Ce dernier se lit comme suit : "Travailleurs d'Indochine, unissez-vous !" Il est rapidement emporté par la pluie et rejeté dans les égouts d'où il est venu."
-Ostasien.34.a: "Bonne nouvelle."
+ german_east_asia_events.34.t:0 "L'agitation diminue à Saïgon"
+ german_east_asia_events.34.d:0 "Le bruit de la pluie qui tombe sur la place déserte est assourdissant. Un pamphlet en lambeaux, jeté dans le caniveau, l'encre qui coule sur le papier en fleurs bleuâtres, est la seule chose qui sert encore de preuve que Saïgon était, jusqu'à tout récemment, un foyer d'agitation socialiste et syndicaliste radical. Un ouvrier vietnamien tenant un drapeau rouge socialiste est représenté sur le pamphlet. Ce dernier se lit comme suit : "Travailleurs d'Indochine, unissez-vous !" Il est rapidement emporté par la pluie et rejeté dans les égouts d'où il est venu."
+ german_east_asia_events.34.a:0 "Bonne nouvelle."
 
-Ostasien.35.t: "La loi de la guerre"
-Ostasien.35.d: "Les Viet Minh ne respectent pas les règles de la guerre moderne. Non seulement leurs guérilleros refusent de porter l'uniforme, mais ils font souvent de leur mieux pour se fondre dans la population civile. Il est presque impossible de distinguer un insurgé Viet Minh d'un civil. Nos généraux soutiennent que la guerre contre le Viet Minh ne peut être que totale."
-Ostasien.35.b: "Essayez au moins de faire la différence...."
-Ostasien.35.a: "Tirez sur tout ce qui bouge !"
+ german_east_asia_events.35.t:0 "La loi de la guerre"
+ german_east_asia_events.35.d:0 "Les Viet Minh ne respectent pas les règles de la guerre moderne. Non seulement leurs guérilleros refusent de porter l'uniforme, mais ils font souvent de leur mieux pour se fondre dans la population civile. Il est presque impossible de distinguer un insurgé Viet Minh d'un civil. Nos généraux soutiennent que la guerre contre le Viet Minh ne peut être que totale."
+ german_east_asia_events.35.b:0 "Essayez au moins de faire la différence...."
+ german_east_asia_events.35.a:0 "Tirez sur tout ce qui bouge !"
 
- Ostasien.40.t: "Acquérir des conseillers Mittelafrikain"
- Ostasien.40.d: "Mittelafrika est en quelque sorte notre projet frère, nous défendons tous deux le Kaiserreich contre ses ennemis extérieurs et ses sujets insubordonnés, il est donc tout à fait raisonnable que nous renforcions nos liens. Le Grand Amiral a décidé d'engager des conseillers de Mittelafrikanisch dans l'espoir qu'ils profiteront à nos forces combattantes et renforceront nos efforts anti-insurrectionnels"
- Ostasien.40.a: "Nous en tirerons certainement quelques leçons utiles."
+ german_east_asia_events.40.t:0 "Acquérir des conseillers Mittelafrikain"
+ german_east_asia_events.40.d:0 "Mittelafrika est en quelque sorte notre projet frère, nous défendons tous deux le Kaiserreich contre ses ennemis extérieurs et ses sujets insubordonnés, il est donc tout à fait raisonnable que nous renforcions nos liens. Le Grand Amiral a décidé d'engager des conseillers de Mittelafrikanisch dans l'espoir qu'ils profiteront à nos forces combattantes et renforceront nos efforts anti-insurrectionnels"
+ german_east_asia_events.40.a:0 "Nous en tirerons certainement quelques leçons utiles."
 
-Ostasien.41.t: "Une délégation militaire de Mittelafrika"
- Ostasien.41.d: "L'amiral von Mücke et une délégation ont accueilli le Mittelafrikanisch au moment où il débarquait de son bateau à [336.GetCapitalVictoryPointName]. Ils semblaient être les hommes que l'Amirauté regardait avec leur apparence rude et grisonnante inspirant confiance. Ils ont dit quelques mots avant d'être escortés jusqu'à leur logement local, au grand amusement de la population locale, car l'apparition de plusieurs Askari a fait beaucoup de bruit."
-Ostasien.41.a: "Mein Gott, il pourrait lutter contre un taureau."
-
-Ostasien.42.t: "Apprendre de la Mittelafrika"
-Ostasien.42.d: "Notre délégation militaire est revenue de Mittelafrika. En dépit de quelques défauts observés dans l'administration locale, notre délégation a indiqué qu'ils ont été chaleureusement accueillis en Mittelafrika et qu'ils ont beaucoup appris d'eux."
- Ostasien.42.a: "Les loyalistes auront tout notre soutien !"
-
-Ostasien.51.t: "Une nouvelle amirauté"
-Ostasien.51.d.a: "Après avoir réévalué le statut de l'amirauté, nous avons décidé que l'Extrême-Orient germanique devait être transformé en une colonie pleinement fonctionnelle. Nous nous concentrerons sur la construction d'une administration pour établir un gouvernement direct depuis Singapour !"
-Ostasien.51.d.b: "Après avoir réévalué le statut de l'amirauté, nous avons décidé que l'Extrême-Orient germanique est avant tout une branche de la Kaiserliche Marine. Nous nous concentrerons sur la construction navale et laisserons l'administration aux autochtones."
-Ostasien.51.a: "Super !"
-Ostasien.51.b: "Super !"
+ german_east_asia_events.41.t:0 "Une délégation militaire de Mittelafrika"
+ german_east_asia_events.41.d:0 "L'amiral von Mücke et une délégation ont accueilli le Mittelafrikanisch au moment où il débarquait de son bateau à [336.GetCapitalVictoryPointName]. Ils semblaient être les hommes que l'Amirauté regardait avec leur apparence rude et grisonnante inspirant confiance. Ils ont dit quelques mots avant d'être escortés jusqu'à leur logement local, au grand amusement de la population locale, car l'apparition de plusieurs Askari a fait beaucoup de bruit."
+ german_east_asia_events.41.a:0 "Mein Gott, il pourrait lutter contre un taureau."
 
 # GEA Action in the Philippines
+ german_east_asia_events.60.t:9 "Socialist Rebellion in the Philippines"
+ german_east_asia_events.60.d:0 "Avec la fin du régime colonial américain aux Philippines, l'archipel est tombé dans le chaos. Un groupe d'officiers de l'armée mécontents ainsi que des bandes de paysans et d'ouvriers se sont révoltés pour renverser le gouvernement et mettre sur pied un régime socialiste. Il reste à voir si les forces militaires philippines peuvent réprimer les rebelles, mais une aide de notre part augmentera certainement leurs chances de gagner."
+ german_east_asia_events.60.a:0 "Soutenir secrètement l'armée philippine."
+ german_east_asia_events.60.b:0 "Ce ne sont pas nos affaires."
 
-Ostasien.60.t: "Révolte socialiste aux Philippines"
-Ostasien.60.d: "Avec la fin du régime colonial américain aux Philippines, l'archipel est tombé dans le chaos. Un groupe d'officiers de l'armée mécontents ainsi que des bandes de paysans et d'ouvriers se sont révoltés pour renverser le gouvernement et mettre sur pied un régime socialiste. Il reste à voir si les forces militaires philippines peuvent réprimer les rebelles, mais une aide de notre part augmentera certainement leurs chances de gagner."
-Ostasien.60.a: "Soutenir secrètement l'armée philippine."
-Ostasien.60.b: "Ce ne sont pas nos affaires."
+ german_east_asia_events.61.t:9 "Socialists Seize Power in the Philippines!"
+ german_east_asia_events.61.d:0 "Le gouvernement philippin avait cédé le pouvoir au mouvement syndicaliste. Toutefois, les parties méridionales des Philippines, y compris les îles Palawan et Mindanao, ne sont pas sous le contrôle de ce nouveau gouvernement central. Serait-ce là notre chance de les libérer de la tyrannie syndicaliste et de les placer sous la protection impériale ?"
+ german_east_asia_events.61.a:0 "Envoyez une flotte pour sécuriser les îles du sud."
+ german_east_asia_events.61.b:0 "Laissez tomber"
 
-Ostasien.61.t: "Les socialistes s'emparent du pouvoir aux Philippines !"
-Ostasien.61.d: "Le gouvernement philippin avait cédé le pouvoir au mouvement syndicaliste. Toutefois, les parties méridionales des Philippines, y compris les îles Palawan et Mindanao, ne sont pas sous le contrôle de ce nouveau gouvernement central. Serait-ce là notre chance de les libérer de la tyrannie syndicaliste et de les placer sous la protection impériale ?"
-Ostasien.61.a: "Envoyez une flotte pour sécuriser les îles du sud."
-Ostasien.61.b: "Laissez-les."
+ german_east_asia_events.62.t:9 "A German Fleet off Palawan!"
+ german_east_asia_events.62.d:0 "L'Allemagne a placé la population des régions méridionales sous leur "protection" et a envoyé une flotte pour sécuriser la zone. Comment devrions-nous réagir ?"
+ german_east_asia_events.62.a:0 "Nous mourrons héroïquement."
+ german_east_asia_events.62.b:0 "Nous ne pouvons rien faire."
 
-Ostasien.62.t: "Une flotte allemande au large de Palawan !"
-Ostasien.62.d: "L'Allemagne a placé la population des régions méridionales sous leur "protection" et a envoyé une flotte pour sécuriser la zone. Comment devrions-nous réagir ?"
-Ostasien.62.a: "Nous mourrons héroïquement."
-Ostasien.62.b: "Nous ne pouvons rien faire."
+ german_east_asia_events.63.t:9 "The Philippine Government Folds"
+ german_east_asia_events.63.d:0 "Le gouvernement philippin a refusé de nous affronter. Maintenant, les îles du sud des Philippines peuvent être ajoutées aux colonies d'Extrême-Orient, un jour glorieux pour l'Empire Allemand."
+ german_east_asia_events.63.a:0 "Excellent."
 
-Ostasien.63.t: "Le gouvernement philippin recul"
-Ostasien.63.d: "Le gouvernement philippin a refusé de nous affronter. Maintenant, les îles du sud des Philippines peuvent être ajoutées aux colonies d'Extrême-Orient, un jour glorieux pour l'Empire Allemand."
-Ostasien.63.a: "Excellent."
+ german_east_asia_events.64.t:9 "Ostasien Fleet Secures the Southern Philippines"
+ german_east_asia_events.64.d:0 "Aujourd'hui, l'amiral von Mücke a rapporté depuis [336.GetCapitalVictoryPointName] que la flotte ostasienne a réussi à protéger les îles du sud des Philippines contre le régime syndicaliste de Manille. Un jour glorieux pour l'Empire Allemand."
+ german_east_asia_events.64.a:0 "Les loyalistes auront tout notre soutien !"
 
-Ostasien.64.t: "La flotte d'Extrême-Orient sécurise le sud des Philippines"
-Ostasien.64.d: "Aujourd'hui, l'amiral von Mücke a rapporté depuis [336.GetCapitalVictoryPointName] que la flotte ostasienne a réussi à protéger les îles du sud des Philippines contre le régime syndicaliste de Manille. Un jour glorieux pour l'Empire Allemand."
- Ostasien.64.a: "Les loyalistes auront tout notre soutien !"
-
-Ostasien.65.t: "Les Philippines nous déclarent la guerre"
-Ostasien.65.d: "Suite à l'établissement d'un gouvernement syndicaliste à Manille, la flotte d'Extrême-Orient a courageusement tenté de sécuriser les îles du sud des Philippines. Maintenant, le gouvernement syndicaliste des Philippines a décidé, de façon suicidaire, de nous déclarer la guerre."
-Ostasien.65.a: "Bien joué."
+ german_east_asia_events.65.t:9 "The Philippines Declares War Against Us"
+ german_east_asia_events.65.d:0 "Suite à l'établissement d'un gouvernement syndicaliste à Manille, la flotte d'Extrême-Orient a courageusement tenté de sécuriser les îles du sud des Philippines. Maintenant, le gouvernement syndicaliste des Philippines a décidé, de façon suicidaire, de nous déclarer la guerre."
+ german_east_asia_events.65.a:0 "Bien joué."
 
 # GEA Intervention in Burma
+ german_east_asia_events.66.t:0 "Troubles sociaux en Birmanie"
+ german_east_asia_events.66.d:0 "La République de Birmanie, qui abrite de nombreux intérêts commerciaux allemands, est confrontée à une crise politique profonde. Les étudiants et les travailleurs se sont élevés contre le gouvernement central lors de manifestations et de protestations critiques. Les unités de police n'ont jusqu'à présent pas réussi à contenir les manifestants radicaux. Devrions-nous essayer de soutenir le gouvernement birman dans cette crise ?"
+ german_east_asia_events.66.a:0 "Envoyez la flotte pour montrer notre soutien."
+ german_east_asia_events.66.b:0 "Ce ne sont pas nos affaires."
 
-Ostasien.66.t: "Troubles sociaux en Birmanie"
-Ostasien.66.d: "La République de Birmanie, qui abrite de nombreux intérêts commerciaux allemands, est confrontée à une crise politique profonde. Les étudiants et les travailleurs se sont élevés contre le gouvernement central lors de manifestations et de protestations critiques. Les unités de police n'ont jusqu'à présent pas réussi à contenir les manifestants radicaux. Devrions-nous essayer de soutenir le gouvernement birman dans cette crise ?"
-Ostasien.66.a: "Envoyez la flotte pour montrer notre soutien."
-Ostasien.66.b: "Ce ne sont pas nos affaires."
+ german_east_asia_events.67.t:0 "La flotte allemande arrive à Rangoon"
+ german_east_asia_events.67.d:0 "Aujourd'hui, une flotte allemande massive est arrivée à Rangoon. La délégation navale allemande est venue manifester son soutien au gouvernement birman. Les dissidents ont été choqués et dissuadés par la puissante flotte allemande."
+ german_east_asia_events.67.a:0 "La puissante Allemagne !"
 
-Ostasien.67.t: "La flotte allemande arrive à Rangoon"
-Ostasien.67.d: "Aujourd'hui, une flotte allemande massive est arrivée à Rangoon. La délégation navale allemande est venue manifester son soutien au gouvernement birman. Les dissidents ont été choqués et dissuadés par la puissante flotte allemande."
-Ostasien.67.a: "La puissante Allemagne !"
-
-Ostasien.68.t: "Rétablissement de l'ordre en Birmanie"
-Ostasien.68.d: "La Birmanie, jeune république récemment confrontée à une crise politique profonde, a retrouvé l'ordre grâce à l'action rapide et résolue de la flotte d'Extrême-Orient. L'ambassadeur de Birmanie a remercié l'Empire allemand et l'amiral Hellmuth Mücke. Maintenant, ils cherchent des relations plus étroites avec l'empire allemand pour protéger leur indépendance et leur stabilité."
-Ostasien.68.a: "Garantissez leur indépendance."
-Ostasien.68.b: "Mais je ne sais rien sur la Birmanie !"
+ german_east_asia_events.68.t:0 "Rétablissement de l'ordre en Birmanie"
+ german_east_asia_events.68.d:0 "La Birmanie, jeune république récemment confrontée à une crise politique profonde, a retrouvé l'ordre grâce à l'action rapide et résolue de la flotte d'Extrême-Orient. L'ambassadeur de Birmanie a remercié l'Empire allemand et l'amiral Hellmuth Mücke. Maintenant, ils cherchent des relations plus étroites avec l'empire allemand pour protéger leur indépendance et leur stabilité."
+ german_east_asia_events.68.a:0 "Garantissez leur indépendance."
+ german_east_asia_events.68.b:0 "Mais je ne sais rien sur la Birmanie !"
 
 #GEA natural disaster
+ german_east_asia_events.69.t:0 "Les volcans Vulcains et Kaia entrent en éruption !"
+ german_east_asia_events.69.d:0 "Aujourd'hui, la ville de Rabaul a été frappée par deux éruptions volcaniques massives. Malgré tous nos efforts, des centaines de citoyens n'ont pas pu fuir à temps et ont été enterrés sous les cendres. Les missionnaires du Sacré-Cœur ont observé les éruptions explosives et ont rapidement installé un camp d'évacuation au quartier général de leur mission à Herbertshöhe. Plusieurs milliers de blessés et de sans-abri attendent maintenant que l'administration coloniale envoie de l'aide après cette catastrophe."
+ german_east_asia_events.69.a:0 "Nous devons nous dépêcher."
 
-Ostasien.69.t: "Les volcans Vulcains et Kaia entrent en éruption !"
-Ostasien.69.d: "Aujourd'hui, la ville de Rabaul a été frappée par deux éruptions volcaniques massives. Malgré tous nos efforts, des centaines de citoyens n'ont pas pu fuir à temps et ont été enterrés sous les cendres. Les missionnaires du Sacré-Cœur ont observé les éruptions explosives et ont rapidement installé un camp d'évacuation au quartier général de leur mission à Herbertshöhe. Plusieurs milliers de blessés et de sans-abri attendent maintenant que l'administration coloniale envoie de l'aide après cette catastrophe."
-Ostasien.69.a: "Nous devons nous dépêcher." 
+ german_east_asia_events.200.t:0 "Renforcements en Asie de l'Est"
+ german_east_asia_events.200.d:0 "Le Reichskolonialamt a demandé que davantage d'hommes soient envoyés aux opérations en Asie de l'Est, afin de soulager les troupes en difficulté dans cette région. Même si ces hommes auraient pu avoir plus de facilité à servir chez eux, l'Asie de l'Est est un foyer de syndicalisme et de conflits entre les différentes factions avec lesquelles nous avons des accords favorables."
+ german_east_asia_events.200.a:0 "Tels sont les coûts d'un empire."
 
-# Dissolution of the GEA
+ german_east_asia_events.201.t:0 "Expéditions de matériel vers l'Asie de l'Est"
+ german_east_asia_events.201.d:0 "Le Reichskolonialamt a demandé l'envoi de plus de fusils pour les opérations en Asie de l'Est, afin de réduire la pénurie et de s'assurer que toutes les divisions sont au complet. Ces fusils se trouveront utiles pour assurer la stabilité de nos possessions orientales lointaines."
+ german_east_asia_events.201.a:0 "Tels sont les coûts d'un empire."
 
- #Ostasien.69.t: "Berlin goes quiet"
- #Ostasien.69.d: "We've now lost all contact with our colonial office in Berlin, not knowing of what to do next. Meanwhile the natives start to gather outside the Government Office, demanding independence. The atmosphere is tense like it never has been before before."
- #Ostasien.69.a: "An uncertain future awaits us."
+ german_east_asia_events.202.t:0 "L'Allemagne nous offre de l'armement"
+ german_east_asia_events.202.d:0 "Le gouvernement allemand d'Asie de l'Est a reconnu, au nom de l'Allemagne, notre situation désastreuse et a offert un généreux envoi de matériel d'infanterie pour nous aider dans notre lutte pour la survie. Cependant, cette gentillesse cache certainement le désir d'une emprise encore plus forte sur notre économie une fois la guerre terminée."
+ german_east_asia_events.202.a:0 "Nous n'avons pas d'autre choix que d'accepter"
+ german_east_asia_events.202.b:0 "Nous devons affirmer notre indépendance !"
 
- Ostasien.200.t: "Renforcements en Asie de l'Est"
- Ostasien.200.d: "Le Reichskolonialamt a demandé que davantage d'hommes soient envoyés aux opérations en Asie de l'Est, afin de soulager les troupes en difficulté dans cette région. Même si ces hommes auraient pu avoir plus de facilité à servir chez eux, l'Asie de l'Est est un foyer de syndicalisme et de conflits entre les différentes factions avec lesquelles nous avons des accords favorables."
- Ostasien.200.a: "Tels sont les coûts d'un empire."
+ german_east_asia_events.203.t:0 "L'Allemagne nous offre de l'aide pour notre industrie"
+ german_east_asia_events.203.d:0 "Le gouvernement allemand d'Asie de l'Est a reconnu, au nom de l'Allemagne, notre situation désastreuse et a offert à certaines de ses usines situées sur notre territoire de travailler temporairement pour approvisionner notre production d'armes. Bien que cela semble très utile, il faut se demander quel sera le coût à la fin de la guerre..."
+ german_east_asia_events.203.a:0 "La survie de nos gouvernements en dépend, aussi triste que cela puisse être."
+ german_east_asia_events.203.b:0 "On ne peut pas se permettre de s'empêtrer encore plus dans leur toile !"
 
- Ostasien.201.t: "Expéditions de matériel vers l'Asie de l'Est"
- Ostasien.201.d: "Le Reichskolonialamt a demandé l'envoi de plus de fusils pour les opérations en Asie de l'Est, afin de réduire la pénurie et de s'assurer que toutes les divisions sont au complet. Ces fusils se trouveront utiles pour assurer la stabilité de nos possessions orientales lointaines."
- Ostasien.201.a: "Tels sont les coûts d'un empire."
+ german_east_asia_events.204.t:0 "Le bail de l'usine est terminé"
+ german_east_asia_events.204.d:0 "Les conditions imposées par l'AOG imposent que le bail de leurs usines prenne fin aujourd'hui. Elles se sont avérées très utiles dans notre lutte, et nous sommes sûrs que les Allemands le savent aussi."
+ german_east_asia_events.204.a:0 "Nous devrons accepter les conséquences de cette "aide"."
 
- Ostasien.202.t: "L'Allemagne nous offre de l'armement"
- Ostasien.202.d: "Le gouvernement allemand d'Asie de l'Est a reconnu, au nom de l'Allemagne, notre situation désastreuse et a offert un généreux envoi de matériel d'infanterie pour nous aider dans notre lutte pour la survie. Cependant, cette gentillesse cache certainement le désir d'une emprise encore plus forte sur notre économie une fois la guerre terminée."
- Ostasien.202.a: "Nous n'avons pas d'autre choix que d'accepter."
- Ostasien.202.b: "Nous devons affirmer notre indépendance !"
+ german_east_asia_events.207.t:0 "L'influence des AOG en Chine s'accroît..."
+ german_east_asia_events.207.d:0 "Au milieu d'une saison de nouvelles mitigées, il semble que nos partenaires de l'AOG aient réussi à trouver un coup de chance. L'achèvement et l'achat du chemin de fer de ZheGan, un projet ferroviaire de grande envergure au sein de la Ligue des huit provinces, a permis à l'AOG d'étendre son influence plus profondément sur le territoire chinois. Bien que certaines réactions aux actions de l'AOG aient été moins qu'agréables, nous pouvons supposer sans risque que c'est un signe de bonnes choses à venir."
+ german_east_asia_events.207.a:0 "Une bonne nouvelle."
 
- Ostasien.203.t: "L'Allemagne nous offre de l'aide pour notre industrie"
- Ostasien.203.d: "Le gouvernement allemand d'Asie de l'Est a reconnu, au nom de l'Allemagne, notre situation désastreuse et a offert à certaines de ses usines situées sur notre territoire de travailler temporairement pour approvisionner notre production d'armes. Bien que cela semble très utile, il faut se demander quel sera le coût à la fin de la guerre..."
- Ostasien.203.a: "La survie de nos gouvernements en dépend, aussi triste que cela puisse être."
- Ostasien.203.b: "On ne peut pas se permettre de s'empêtrer encore plus dans leur toile !"
+ german_east_asia_events.208.t:0 "Le Lundi Noir Frappe l'AOG !"
+ german_east_asia_events.208.d:0 "Nos partenaires chinois n'ont pas mieux surmonté que nous la crise du lundi noir ; il semblerait que les entreprises allemandes, déjà soumises à la pression des éléments locaux, aient été particulièrement touchées. La Deutsch-Asiatische Bank, autrefois considérée comme trop grande pour faire faillite, est au bord de l'effondrement, et les effets de cette instabilité financière se font déjà sentir dans notre propre secteur financier."
+ german_east_asia_events.208.a:0 "Vous aussi, hein ?"
 
- Ostasien.204.t: "Le bail de l'usine est terminé"
- Ostasien.204.d: "Les conditions imposées par l'AOG imposent que le bail de leurs usines prenne fin aujourd'hui. Elles se sont avérées très utiles dans notre lutte, et nous sommes sûrs que les Allemands le savent aussi."
- Ostasien.204.a: "Nous devrons accepter les conséquences de cette "aide"."
+ german_east_asia_events.209.t:0 "Les entreprises allemandes fuient la Ligue."
+ german_east_asia_events.209.d:0 "Avec l'effondrement de la Ligue des huit provinces dans la guerre civile, la confiance allemande dans le statu quo, et la Chine en général, s'est également effondrée. Alors que Qi Xieyuan a garanti de soutenir les intérêts allemands lors de sa victoire, la croyance dans la survie de l'AOG et de ses précieuses villes de concession s'effondre rapidement."
+ german_east_asia_events.209.a:0 "Ayez un peu de foi, bon sang !"
 
- Ostasien.205.t: "La mine de Kramat Pulai s'épuise."
- Ostasien.205.d: "La mine de Kramat Pulai, principale source de nos exportations de tungstène, a fait de nous l'un des principaux fournisseurs de tungstène au monde. Cependant, des rapports de la mine ont indiqué un assèchement des gisements de scheelite de la mine, et avertissent d'un épuisement complet imminent de la mine dans un avenir proche."
- Ostasien.205.a: "Inquiétant."
+ german_east_asia_events.210.t:0 "Les restes de l'AOG..."
+ german_east_asia_events.210.d:0 "Avec l'éradication complète de la clique de Nanjing, le chapitre de l'influence allemande en Chine semble s'être achevé. Nous faisons de notre mieux pour absorber l'administration déplacée de l'AOG dans nos concessions restantes, mais la réalité de la perte de notre influence asiatique est difficile à appréhender."
+ german_east_asia_events.210.a:0 "Au moins, nous avons encore Qingdao."
 
- Ostasien.206.t: "La mine de Kramat Pulai s'effondre !"
- Ostasien.206.d: "La mine de Kramat Pulai est officiellement épuisée. Bien qu'il reste des traces de scheelite et que les mines de Perak continuent à produire des quantités raisonnables, notre statut de premier exportateur de tungstène dans la région n'est plus une réalité."
- Ostasien.206.a: "C'était bien tant que ça a duré."
+ german_east_asia_events.211.t:0 "Les entreprises allemandes retournent en Chine."
+ german_east_asia_events.211.d:0 "Avec la survie réussie de la clique de Nankin, la confiance dans les entreprises chinoises a commencé à revenir. L'AOG, bien qu'il ait été clairement ébranlé par cette expérience, a considéré cette crise comme une expérience d'apprentissage et une opportunité, espérant tirer parti de l'état affaibli de Nankin pour mieux protéger les intérêts allemands contre une future crise."
+ german_east_asia_events.211.a:0 "Alors, continuez comme si de rien n'était."
 
- #Ostasien.207.t: "Ostasien and The AOG"
- #Ostasien.207.d: "As the primary centre of German influence in Asia, the work of the Ostasien administration often crosses paths with that of the Aufsichtsrat der Ostasiatischen Generalverwaltung, or AOG. While we retain direct control of Guangzhou and Tsingtau, through the AOG, an administrative body operating inside the League of Eight Provinces, we are able to indirectly profit from several key coastal concession cities, alongside various German-owned infrastructure and industries further inland. The AOG does not answer to Ostasien, nor we to them; nevertheless it is in both of our direct interests to support and protect each other where we are able."
- #Ostasien.207.a: "Cooperation is key."
+ german_east_asia_events.212.t:0 "Liens avec Ostasien"
+ german_east_asia_events.212.d:0 "Nos relations amicales actuelles avec l'Allemagne étant assurées, l'administration Ostasien a pris des mesures pour soutenir notre jeune construction navale. Si les raisons de cette démarche sont sans doute tout à fait pragmatiques, l'aide qu'elle a apportée n'en est pas moins bénéfique pour notre propre survie. Les ingénieurs allemands ont proposé de fournir de nouvelles conceptions de navires à nos chantiers navals, ou, à défaut, l'offre d'un attaché naval permanent pour poursuivre la formation de notre propre marine a été suggérée."
+ german_east_asia_events.212.a:0 "Nous allons intégrer leur conception de navire léger."
+ german_east_asia_events.212.b:0 "Nous pouvons utiliser leur expertise en matière de cuirassés."
+ german_east_asia_events.212.c:0 "Un attaché naval permanent serait bénéfique."
 
- Ostasien.207.t: "L'influence des AOG en Chine s'accroît..."
- Ostasien.207.d: "Au milieu d'une saison de nouvelles mitigées, il semble que nos partenaires de l'AOG aient réussi à trouver un coup de chance. L'achèvement et l'achat du chemin de fer de ZheGan, un projet ferroviaire de grande envergure au sein de la Ligue des huit provinces, a permis à l'AOG d'étendre son influence plus profondément sur le territoire chinois. Bien que certaines réactions aux actions de l'AOG aient été moins qu'agréables, nous pouvons supposer sans risque que c'est un signe de bonnes choses à venir."
- Ostasien.207.a: "C'est bon à entendre."
+ german_east_asia_events.213.t:0 "Perte du Soutien Allemand"
+ german_east_asia_events.213.d:0 "La marine allemande d'Asie orientale, fierté de l'Empire allemand et symbole des prouesses militaires et navales allemandes dans le Pacifique, est tombée. Avec l'effondrement de l'Asie orientale allemande, les conseillers, techniciens et experts allemands restés en Chine sont rappelés car ils n'ont plus aucune raison de rester en Asie. Bien que cela renforce notre indépendance nationale et supprime notre dépendance à l'égard de l'Allemagne, cela indique que la coopération sino-allemande cessera pour le moment. Même si nous continuerons à entretenir des relations cordiales et amicales avec l'Allemagne, nous n'aurons plus accès aux avantages liés à notre alignement sur l'Allemagne, et nous devrons donc nous débrouiller seuls. Grâce à la coopération, nous avons réussi à moderniser nos forces et notre économie, mais tout a une fin."
+ german_east_asia_events.213.a:0 "Une époque se termine... une autre commence"
 
- Ostasien.208.t: "Le Lundi Noir Frappe l'AOG !"
- Ostasien.208.d: "Nos partenaires chinois n'ont pas mieux surmonté que nous la crise du lundi noir ; il semblerait que les entreprises allemandes, déjà soumises à la pression des éléments locaux, aient été particulièrement touchées. La Deutsch-Asiatische Bank, autrefois considérée comme trop grande pour faire faillite, est au bord de l'effondrement, et les effets de cette instabilité financière se font déjà sentir dans notre propre secteur financier."
- Ostasien.208.a: "Vous aussi, hein ?"
+ german_east_asia_events.214.t:0 "Rétablissement de notre influence en Chine"
+ german_east_asia_events.214.d:0 "Avec le nouveau régime soutenu par l'Allemagne et créé par nos forces alliées en Chine, nous avons pu rétablir notre ancienne influence dans les villes portuaires. Nous pouvons maintenant reprendre notre expansion économique sur le marché chinois, qui avait été si brutalement interrompue auparavant."
+ german_east_asia_events.214.a:0 "Une nouvelle ère d'influence allemande s'ouvre en Chine !"
 
- Ostasien.209.t: "Les entreprises allemandes fuient la Ligue."
- Ostasien.209.d: "Avec l'effondrement de la Ligue des huit provinces dans la guerre civile, la confiance allemande dans le statu quo, et la Chine en général, s'est également effondrée. Alors que Qi Xieyuan a garanti de soutenir les intérêts allemands lors de sa victoire, la croyance dans la survie de l'AOG et de ses précieuses villes de concession s'effondre rapidement."
- Ostasien.209.a: "Ayez un peu de foi, bon sang !"
+ german_east_asia_events.300.t:0 "L'Allemagne défend l'Asie de l'Est"
+ german_east_asia_events.300.d.guam:0 "Depuis la fin de la Grande Guerre, les Japonais et les Allemands s'opposent sur les sphères d'influence en Asie de l'Est. L'effondrement de l'Empire britannique et le vide de pouvoir qui s'ensuit ne font qu'aggraver la situation. En 1928, les Américains ont brièvement réussi à établir un équilibre précaire dans la région avec la signature des traités de la légation chinoise.\n\nLe début de la deuxième guerre civile américaine a plongé la région Asie-Pacifique dans le désarroi le plus total. Embarrassée par son incapacité à empêcher le Japon de s'emparer de Guam, l'Allemagne a publié aujourd'hui une déclaration dans laquelle elle menace de défendre les États asiatiques indépendants et les colonies. Il est clair qu'elle espère former une coalition contre son rival, mais beaucoup doutent que cette prise de position retienne longtemps les Japonais."
+ german_east_asia_events.300.d.noguam:0 "Depuis la fin de la Grande Guerre, les Japonais et les Allemands s'opposent sur les sphères d'influence en Asie de l'Est. L'effondrement de l'Empire britannique et le vide de pouvoir qui s'ensuit ne font qu'aggraver la situation. En 1928, les Américains ont brièvement réussi à établir un équilibre précaire dans la région grâce à la signature des traités de la légation chinoise.\n\nLa deuxième guerre civile américaine a plongé la région Asie-Pacifique dans le désarroi le plus total, enhardissant les faucons de guerre japonais. Craignant l'expansionnisme japonais, l'Allemagne a publié aujourd'hui une déclaration dans laquelle elle menace de défendre les États et colonies asiatiques indépendants. Il est clair qu'elle espère former une coalition contre son rival, mais nombreux sont ceux qui doutent que ces prises de position retiennent longtemps les Japonais."
+ german_east_asia_events.300.a:0 "Le dernier bastion de paix dans le Pacifique."
+ german_east_asia_events.300.b:0 "Le dernier rempart de l'impérialisme en Asie."
+ german_east_asia_events.300.c:0 "Dernier bastion de la paix ? Ou le dernier rempart de l'impérialisme ?"
 
- Ostasien.210.t: "Les restes de l'AOG..."
- Ostasien.210.d: "Avec l'éradication complète de la clique de Nanjing, le chapitre de l'influence allemande en Chine semble s'être achevé. Nous faisons de notre mieux pour absorber l'administration déplacée de l'AOG dans nos concessions restantes, mais la réalité de la perte de notre influence asiatique est difficile à appréhender."
- Ostasien.210.a: "Au moins, nous avons encore Qingdao."
+ german_east_asia_events.1000.t:9 "German East Asia Wishes to Align with Us"
+ german_east_asia_events.1000.d.german:9 "Having managed to somehow outlive the collapse of the Heimat, the administration in [GetVictoryPointName_12299] has at last reached out to our government, wishing to reestablish German rule over the territory.\n\nAs the most legitimate successor state to the German Empire it would be logical for us to accept their offer, although the risk associated in protecting the territory may make us consider refusing their request."
+ german_east_asia_events.1000.d.overlord:9 "Having managed to somehow outlive the collapse of the Heimat, the administration in [GetVictoryPointName_12299] has at last reached out to our government, wishing to reestablish German rule over the territory. As the protectors of the German government in Berlin, it is only logical for their administration to also seek to be placed under our protection and guidance, although legally remaining part of Germany.\n\nSuch an offer should certainly be considered, as it would greatly extend our reach and prestige, although the risk associated in protecting the territory may make us consider refusing their request."
+ german_east_asia_events.1000.a:9 "We welcome [GetVictoryPointName_12299] back to the fold."
+ german_east_asia_events.1000.b:9 "No, they would simply be dead weight."
 
- Ostasien.211.t: "Les entreprises allemandes retournent en Chine."
- Ostasien.211.d: "Avec la survie réussie de la clique de Nankin, la confiance dans les entreprises chinoises a commencé à revenir. L'AOG, bien qu'il ait été clairement ébranlé par cette expérience, a considéré cette crise comme une expérience d'apprentissage et une opportunité, espérant tirer parti de l'état affaibli de Nankin pour mieux protéger les intérêts allemands contre une future crise."
- Ostasien.211.a: "Alors, continuez comme si de rien n'était."
+ german_east_asia_events.1001.t:9 "[FROM.GetNameDefCap] Agrees to Our Request"
+ german_east_asia_events.1001.d:9 "Word has been received back from [FROM.GetNameDef], with their government having agreed to reestablish colonial ties and protect our administration from any potential invasions. Let us hope that we can at last begin a return to normalcy and escape the chaos of yesteryear."
+ german_east_asia_events.1001.a:9 "It is good to be back."
 
- Ostasien.212.t: "Liens avec Ostasien"
- Ostasien.212.d: "Nos relations amicales actuelles avec l'Allemagne étant assurées, l'administration Ostasien a pris des mesures pour soutenir notre jeune construction navale. Si les raisons de cette démarche sont sans doute tout à fait pragmatiques, l'aide qu'elle a apportée n'en est pas moins bénéfique pour notre propre survie. Les ingénieurs allemands ont proposé de fournir de nouvelles conceptions de navires à nos chantiers navals, ou, à défaut, l'offre d'un attaché naval permanent pour poursuivre la formation de notre propre marine a été suggérée."
- Ostasien.212.a: "Nous allons intégrer leur conception de navire léger."
- Ostasien.212.b: "Nous pouvons utiliser leur expertise en matière de cuirassés."
- Ostasien.212.c: "Un attaché naval permanent serait bénéfique."
+ german_east_asia_events.1002.t:0 "[FROM.GetNameDefCap] Refuse notre Demande"
+ german_east_asia_events.1002.d:9 "For whatever reason, [From.GetNameDef] has refused our request to reestablish colonial ties, seemingly believing that we would be more trouble than we are worth. We must now reconsider how our regime will continue without the protection and aid of the Heimat."
+ german_east_asia_events.1002.a:9 "Betrayed once again..."
 
- Ostasien.213.t: "Perte du Soutien Allemand"
- Ostasien.213.d:0 "La marine allemande d'Asie orientale, fierté de l'Empire allemand et symbole des prouesses militaires et navales allemandes dans le Pacifique, est tombée. Avec l'effondrement de l'Asie orientale allemande, les conseillers, techniciens et experts allemands restés en Chine sont rappelés car ils n'ont plus aucune raison de rester en Asie. Bien que cela renforce notre indépendance nationale et supprime notre dépendance à l'égard de l'Allemagne, cela indique que la coopération sino-allemande cessera pour le moment. Même si nous continuerons à entretenir des relations cordiales et amicales avec l'Allemagne, nous n'aurons plus accès aux avantages liés à notre alignement sur l'Allemagne, et nous devrons donc nous débrouiller seuls. Grâce à la coopération, nous avons réussi à moderniser nos forces et notre économie, mais tout a une fin."
- Ostasien.213.a: "Une époque se termine... une autre commence"
-
- Ostasien.214.t: "Rétablissement de notre influence en Chine"
- Ostasien.214.d: "Avec le nouveau régime soutenu par l'Allemagne et créé par nos forces alliées en Chine, nous avons pu rétablir notre ancienne influence dans les villes portuaires. Nous pouvons maintenant reprendre notre expansion économique sur le marché chinois, qui avait été si brutalement interrompue auparavant."
- Ostasien.214.a: "Une nouvelle ère d'influence allemande s'ouvre en Chine !"
-
- Ostasien.300.t:9 "L'Allemagne défend l'Asie de l'Est"
- Ostasien.300.d.guam:9 "Depuis la fin de la Grande Guerre, les Japonais et les Allemands s'opposent sur les sphères d'influence en Asie de l'Est. L'effondrement de l'Empire britannique et le vide de pouvoir qui s'ensuit ne font qu'aggraver la situation. En 1928, les Américains ont brièvement réussi à établir un équilibre précaire dans la région avec la signature des traités de la légation chinoise.\n\nLe début de la deuxième guerre civile américaine a plongé la région Asie-Pacifique dans le désarroi le plus total. Embarrassée par son incapacité à empêcher le Japon de s'emparer de Guam, l'Allemagne a publié aujourd'hui une déclaration dans laquelle elle menace de défendre les États asiatiques indépendants et les colonies. Il est clair qu'elle espère former une coalition contre son rival, mais beaucoup doutent que cette prise de position retienne longtemps les Japonais."
- Ostasien.300.d.noguam:9 "Depuis la fin de la Grande Guerre, les Japonais et les Allemands s'opposent sur les sphères d'influence en Asie de l'Est. L'effondrement de l'Empire britannique et le vide de pouvoir qui s'ensuit ne font qu'aggraver la situation. En 1928, les Américains ont brièvement réussi à établir un équilibre précaire dans la région grâce à la signature des traités de la légation chinoise.\n\nLa deuxième guerre civile américaine a plongé la région Asie-Pacifique dans le désarroi le plus total, enhardissant les faucons de guerre japonais. Craignant l'expansionnisme japonais, l'Allemagne a publié aujourd'hui une déclaration dans laquelle elle menace de défendre les États et colonies asiatiques indépendants. Il est clair qu'elle espère former une coalition contre son rival, mais nombreux sont ceux qui doutent que ces prises de position retiennent longtemps les Japonais."
- Ostasien.300.a:9 "Le dernier bastion de paix dans le Pacifique."
- Ostasien.300.b:9 "Le dernier rempart de l'impérialisme en Asie."
- Ostasien.300.c:9 "Dernier bastion de la paix ? Ou le dernier rempart de l'impérialisme ?"
-
- asiapeace.7.t: "Arrivée des commandants d'Asie de l'Est"
- asiapeace.7.d: "Maintenant que nos colonies d'Asie de l'Est ont été envahies par nos ennemis, les commandants de leur flotte et de leur garnison ont commencé à affluer vers l'Heimat, réalisant des évasions audacieuses en sous-marin et de longs voyages à travers le Moyen-Orient et l'Afrique. Les commandants et les officiers subalternes de la garnison d'Asie de l'Est sont loin d'avoir tous réussi à s'échapper, mais ceux qui y sont parvenus sont des vétérans de la guerre dans la jungle malaise et indochinoise, et pourraient être utiles dans les rangs de la Heer.\n\nD'un autre côté, ils ont manqué à leur devoir en Asie de l'Est..."
- asiapeace.7.a: "Nous les accueillerons à bras ouverts."
- asiapeace.7.b: "Ces hommes courageux ont fait leur devoir - ils devraient prendre leur retraite."
+ east_asia_peace_events.7.t:0 "Arrivée des commandants d'Asie de l'Est"
+ east_asia_peace_events.7.d:0 "Maintenant que nos colonies d'Asie de l'Est ont été envahies par nos ennemis, les commandants de leur flotte et de leur garnison ont commencé à affluer vers l'Heimat, réalisant des évasions audacieuses en sous-marin et de longs voyages à travers le Moyen-Orient et l'Afrique. Les commandants et les officiers subalternes de la garnison d'Asie de l'Est sont loin d'avoir tous réussi à s'échapper, mais ceux qui y sont parvenus sont des vétérans de la guerre dans la jungle malaise et indochinoise, et pourraient être utiles dans les rangs de la Heer.\n\nD'un autre côté, ils ont manqué à leur devoir en Asie de l'Est..."
+ east_asia_peace_events.7.a:0 "Nous les accueillerons à bras ouverts."
+ east_asia_peace_events.7.b:0 "Ces hommes courageux ont fait leur devoir - ils devraient prendre leur retraite."
 
 #decisions
 GEA_indochina_war_decisions: "La guerre d'Indochine"
@@ -548,6 +549,10 @@ GEA_Fernspaher_decision_desc: "La guerre de plus en plus intense en Indochine a 
  GEA_german_indochinese_reconciliation_desc: "Le flash-back des actions de contre-insurrection en Indochine hante l'amiral Hellmuth von Mücke et il sent maintenant qu'il doit faire quelque chose pour réconcilier les meurtres brutaux. Il veut mener une politique coloniale populaire en accordant une plus grande autonomie locale et en favorisant l'harmonie germano-indochinoise. Ce faisant, il espère regagner le cœur et l'esprit des populations indochinoises."
 GEA_take_east_asian_navy: "Prendre le contrôle de la marine d'Extrême-Orient"
  GEA_take_east_asian_navy_desc: "La marine allemande d'Asie de l'Est est un atout précieux pour notre stratégie navale en Asie de l'Est. Il serait préférable qu'elle soit plus étroitement intégrée dans la structure de commandement de Berlin."
+ GEA_align_with_the_new_german_government:9 "Align with the New German Government"
+ GEA_align_with_the_new_german_government_desc:9 "With an independent German government once again in control of Berlin, it would be wise for us to restore our connections to them and reestablish proper rule from the Heimat as well as seeking their protection from outside invasion."
+ GEA_align_with_berlins_protector:9 "Align with Berlin's Protector"
+ GEA_align_with_berlins_protector_desc:9 "Despite the fall of Berlin to a hostile power, we cannot simply continue to survive forever on our own, especially as the vultures circle in around us. We should negotiate an agreement with Berlin's new protector, seeing our ties to Berlin restored and our administration also placed under their protection."
 
  GEA_colonial_decisions: "Le Bureau colonial impérial"
  GEA_colonial_decisions_desc: "Le Reichskolonialamt, ou Bureau colonial impérial, est le superviseur général du projet colonial allemand. En tant que tel, nous devons passer par lui pour obtenir du matériel de guerre précieux ou du sang neuf de la patrie."
@@ -563,57 +568,15 @@ GEA_take_east_asian_navy: "Prendre le contrôle de la marine d'Extrême-Orient"
  GEA_give_guns_to_lep: "Donnez-leur des armes"
  GEA_give_guns_to_lep_desc: "Nous veillerons à ce qu'une importante cargaison de matériel allemand soit envoyée aux troupes mal équipées du gouvernement de Nankin, pour, espérons-le, faire pencher la balance en leur faveur."
 
- GEA_development_idea: "Opérations minières"
- #Change to the German spelling 'Johore' for lore-consistency:
  GEA_develop_aluminium_deposits:0 "Développer l'exploitation de bauxite dans [GetNameGEAJohore]"
  GEA_develop_aluminium_deposits_desc:0 "Nos prospecteurs ont découvert un riche gisement de bauxite dans l'état de [GetNameGEAJohore], parfait pour la production d'aluminium. Bien que le coût initial de l'extraction soit important, le tonnage prévu en vaut la peine."
- GEA_develop_aluminium_deposits_wtt:0 "Développer l'exploitation de bauxite dans [GetNameGEAJohore]"
- GEA_develop_aluminium_deposits_wtt_desc:0 "Nos prospecteurs ont découvert un riche gisement de bauxite dans l'état de [GetNameGEAJohore], parfait pour la production d'aluminium. Bien que le coût initial de l'extraction soit important, le tonnage prévu en vaut la peine."
- #Change to the German spelling 'Johore' for lore-consistency:
 GEA_develop_sarawak_oil: "Opérations pétrolières au Sarawak" #Change to the German spelling 'Johore' for lore-consistency
 GEA_develop_sarawak_oil_desc: "Nos niveaux de consommation de pétrole sont actuellement incapables de soutenir notre flotte en cas d'opérations navales à long terme. Toutefois, en augmentant notre production locale de pétrole à Bornéo, nous pouvons commencer à constituer une réserve pour éviter les pénuries de carburant."
-GEA_develop_sarawak_oil_wtt: "Opérations pétrolières au Sarawak"
- GEA_develop_sarawak_oil_wtt_desc: "Nos niveaux de consommation de pétrole sont actuellement incapables de soutenir notre flotte en cas d'opérations navales à long terme. Toutefois, en augmentant notre production locale de pétrole à Bornéo, nous pouvons commencer à constituer une réserve pour éviter les pénuries de carburant."
-
-#Fleet Exercise
-#With the arrival of new capital ships, our fleet has experimented and exercised new group tactics. Maybe it's time to have a joint exercise with the High Sea Fleet?
-#Fleet Exercise
-#Admiral Hellmuth wanted to hold a fleet exercise between the High Sea Fleet and the East Asian fleet. The East Asian fleet is known for their tactic innovation. This might be a good chance to examine our fleet tactics.
-#Kaiserliche Marine has decided to launch a large-scale naval exercise in Indian Ocean. The scenario is be a war for the control of Indian Ocean between the Black fleet in a defensive stance and a superior Yellow fleet aimed to destroy the Black fleet and seize the control of the Andaman Islands. The powerful Yellow Fleet, commanded by admiral Wilhelm Marschall, is comprised of some most modern battleships in the High Sea Fleet. The Yellow Fleet will conduct their operation from Trincomalee naval base. Now it's time to decide our fleet composition and plan.
-#Deploy our battleships for a face-to-face combat!
-#Deploy battlecruisers for strategic deterrance!
-#Deploy carrier groups for long-range operation!
-
-#The Yellow Fleet tried to seize the Andaman Islands
-#The exercise has started. The intelligence and air reconnaissance suggests that the Yellow fleet is actively preparing the invasion of the Andaman islands. It's estimated that the Yellow will try to secure the Bay of Bengal with concentrated fleet, and then launched the invasion. Should we take a defensive stance to intercept Admiral Marschall's fleet in the area close to the Andaman islands, or try to take the initiative to disturb enemy operation by aggressive actions?
-#Intercept them
-#Take the initiative!
-
-#Result: Black fleet tactic defeat - battlecruisers
-#The Black fleet located the invading Yellow fleet by air reconnaissance. Our battlecruisers soon encountered the Yellow scout cruisers. Although the Yellow fleet was slaughtered by Black battlecruisers in the initial encounter, Yellow battleships managed to arrived in time and overwhelmed the Black fleet with massive firepower. One Black battlecruiser suffered critical hits in their engine room and failed to escape but the rest returned to [336.GetCapitalVictoryPointName]. Having suffered heavy loss of cruisers, the Yellow fleet doesn't have enough screen ships to support the amphibious assault either. The battle was considered a tactic defeat of the Black fleet but the result was strategic stalemate.
-
-#Result: Black fleet tactic victory - battleships
-#The Black fleet located the invading Yellow fleet by air reconnaissance. The Black scout line spread out in front of the main battle force soon encountered the Yellow scout cruisers. The Black battleships were placed in execellent position to deal serious blows to the Yellow cruisers. Admiral Marschall's main force came into action before the cruisers were annihilated. Over the next hours both fleets exchanged long-range gunfire. The new rangefinders on SMS Neckar allowed it to deliver precious hits even when firing at extreme range. Admiral Hellmuth broke the engagement before the Yellow fleet could shorten the range and fully exploit its numerous advantage. managed to withdraw, it had suffered heavy loss and lost the ability to defend the Andaman islands, and the Yellow fleet eventually was able to launch an amphibious operation. Although the battle was indecisive, the Yellow fleet doesn't have enough screen ships to support the amphibious assault and the exercise ended up with Black fleet's strategic victory.
-
-#Result: Black fleet strategic defeat - battleships
-#Black's advance was quickly located by the Yellow's picket line of submarines, depriving them of any advantage of surprise. Soon, the Black fleet encountered the Admiral Marschall's cruiser group west of the Andaman islands. The Yellow cruisers turning to the north-west on a course to rejoin the battleships. The Black fleet pursued the cruisers until the Yellow battleships moved into position. Over the next hours both fleets exchanged long-range gunfire and the Black fleet was outgunned by the superior Yellow fleet. When Admral Hellmuth's fleet managed to withdraw, it had suffered heavy loss and lost the ability to defend the Andaman islands, and the Yellow fleet eventually was able to launch an amphibious operation. The exercise ended up with Black fleet's strategic defeat.
-
-#Result: Black fleet strategic victory - battlecruisers
-#Admiral Hellmuth decided to disperse his cruisers to harass the Yellow fleet and use battlecruiser to support them. These commerce destroyers posed great threats to the Yellow convoys. The Yellow fleet attempted to fend off the raiders by search and destroy actions but the Black cruisers avoid the engagement. Finally Admiral Marschall decided to disperse his fleet to protect the convoys. In an engagement, the convoys escorted by a Yellow battleship was assaulted by a Black raiding fleet supported by three battlecruisers. The convoys were savaged before the reinforcement arrived. The Yellow fleet was deterred from further actions. The result was judged a strategic victory of Admiral Hellmuth's Black fleet.
-
-#Result: Black fleet decisive victory - carriers
-#Admiral Hellmuth decided to take an audacious action: The black fleet comprised four aircraft carriers plus supporting ships under the command of the Admiral moved to about 200 miles south of Sri Lanka. The first attack wave of 93 aircraft took off in pre-dawn darkness heading towards Trincomalee. The air strike achieved complete surprise. The Yellow battle fleet and convoys are at anchor in the harbour of Trincomalee and failed to organise any resistance. Aerial torpedo experts in all modern navies had previously thought that torpedo attacks against ships can not take place in shallow waters, but the Ostasien fleet had developed a new method of preventing torpedoes from diving too deep. The air strike delivered a devastating blow to the Yellow fleet with surprisingly little loss of planes. The exercise ended up with Black decisive victory.
-
-#Result: Black fleet decisive victory - carriers
-#The Black carriers and screen ships formed a concentrated battle group sailing towards the west. The scout bombers managed to locate the Yellow convoys by the morning. A massive attack wave was launched but the pilot missed the position of the convoys. Instead, they discovered the location of the Yellow main forces. The Ostasien torpedo bombers launched their strike with deadly precision. As a result of two waves of aerial attacks, at least three Yellow battelships and two cruisers were judged to have suffered damage, among which one cruiser considered to be hit by three torpedoes was judged sunk. The loss of Black aircraft was negligible. The exercise ended up with Black decisive victory.
-
-#Result: Black fleet strategic defeat - carriers
-#The Black's advance was quickly located by the Yellow's picket line of submarines. Due to the failure of reconnaissance, Black carriers encountered the scout cruisers fleet of the Yellow. Significant damage was laid on carriers during the surface gunfire action, with Hellmuth's carrier eventually judged sunk by torpedo from a Yellow destroyer. The Black fleet had lost the ability to defend the Andaman islands, and the Yellow fleet eventually was able to launch an amphibious operation. The exercise ended up with Black fleet's strategic defeat.
 
 ### Misc Events ###
-Ostasien.100.t: "La Grande Parade"
-Ostasien.100.d: "À 9 h, la Grande Flotte d'Extrême-Orient a quitté le port de [336.GetCapitalVictoryPointName] pour effectuer des exercices à grande échelle à l'extérieur des limites de la ville. Des exercices d'attaque aérienne impressionnants ont été effectués par nos porte-avions et complétés par de grands exercices de tir au large par nos cuirassés. Après cela, la flotte s'est ensuite dirigée vers Tsingtau pour y mener des exercices afin de lancer un avertissement à tous ceux qui nous menacent."
-Ostasien.100.a: "Ils auraient raison de craindre notre puissance."
+ german_east_asia_events.100.t:0 "La Grande Parade"
+ german_east_asia_events.100.d:0 "À 9 h, la Grande Flotte d'Extrême-Orient a quitté le port de [336.GetCapitalVictoryPointName] pour effectuer des exercices à grande échelle à l'extérieur des limites de la ville. Des exercices d'attaque aérienne impressionnants ont été effectués par nos porte-avions et complétés par de grands exercices de tir au large par nos cuirassés. Après cela, la flotte s'est ensuite dirigée vers Tsingtau pour y mener des exercices afin de lancer un avertissement à tous ceux qui nous menacent."
+ german_east_asia_events.100.a:0 "Ils auraient raison de craindre notre puissance."
 
 ###decisions
  GEA_start_naval_blockade: "Commencer le blocus naval"
@@ -659,8 +622,6 @@ GEA_Saigon_Werft: "Saigon Werft" # Scrapped due to lack of icons
 GEA_Germaniawerft: "Germaniawerft Saigon"
 
 ### Ideas ###
- GEA_colonial_nation: "Gouvernement colonial"
- GEA_colonial_nation_desc: "Malgré son autonomie limitée dans les relations avec ses voisins, la GEA est en fait un gouvernement colonial ; tout son appareil d'État repose sur la puissance allemande et est maintenu par elle, avec un budget préparé à Berlin et sa monnaie rattachée au mark allemand."
 GEA_colonial_question: "Question coloniale"
 GEA_colonial_question_desc: "La quantité d'effectifs que notre armée peut recruter est très limitée. Des règlements stricts concernant l'adhésion des ressortissants étrangers et un manque général de volonté de la part des autochtones étouffent nos tentatives de constituer une force plus importante."
  GEA_army_of_marines: "Armée de Marines"
@@ -671,9 +632,9 @@ GEA_colonial_question_desc: "La quantité d'effectifs que notre armée peut recr
 GEA_counter_insurgency_desc: "L'utilisation de conventions et de tactiques "non conventionnelles" développées par ceux qui ont combattu dans les durs environnements de l'Afrique a donné à nos troupes l'avantage dont elles ont besoin."
  GEA_black_monday_idea: "Lundi Noir"
 GEA_black_monday_idea_desc: "Le Lundi Noir a ébranlé et paralysé notre industrie déjà faible."
-GEA_black_monday_idea2: "Redressement du Lundi Noir"
+ GEA_black_monday_idea2: "Fin du Lundi Noir"
 GEA_black_monday_idea2_desc: "Le Lundi Noir a dévasté et paralysé notre industrie déjà faible, mais nous faisons des efforts pour nous rétablir."
-GEA_austerity_budget: "Rigueur budgétaire"
+ GEA_austerity_budget: "Austérité budgétaire"
 GEA_austerity_budget_desc: "Bien que des mesures aient été prises pour réduire les effets du Lundi Noir, l'amirauté est toujours limitée par un manque de fonds."
 GEA_austerity_budget2: "Austérité budgétaire"
 GEA_austerity_budget2_desc: "Bien que des mesures aient été prises pour réduire les effets du Lundi Noir, l'amirauté est toujours limitée par un manque de fonds."
@@ -710,7 +671,7 @@ GEA_vietcong_killer_idea_desc: "Tous ceux qui courent sont des Viet Minh ! Tous 
  GEA_naval_attache_idea: "Mission navale en Asie de l'Est"
 
 ### Country Names ###
- GEA: "Extrême-Orient Germanique"
+ GEA: "l'Extrême-Orient Germanique"
  GEA_ADJ: "Germano-Oriental"
  GEA_DEF: "l'Extrême-Orient Germanique"
 

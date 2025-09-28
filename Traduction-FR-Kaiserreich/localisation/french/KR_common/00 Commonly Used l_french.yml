@@ -56,14 +56,6 @@
  #scoped to the country joining
  tooltip_joins_faction: "§Y[THIS.GetName]§! rejoint la faction."
 
- if_controlled_by_PREV: "si est contrôlé par §Y[PREV.GetNonIdeologyName]§! :"
-
- may_lead_to_war_with_THIS: "§RPeut mener à une guerre avec [This.GetNameDef]!§!"
- may_lead_to_war_with_FROM: "§RPeut mener à une guerre avec [From.GetNameDef]§!"
- may_lead_to_war_with_FROM_overlord: "§RPeut mener à une guerre avec [From.overlord.GetNameDef]§!"
- may_lead_to_war_with_FROM_FROM: "§RPeut mener à une guerre avec [From.From.GetNameDef]!§!"
- may_lead_to_war_with_FROM_FROM_overlord: "§RPeut mener à une guerre avec [From.From.overlord.GetNameDef]!§!"
-
  state_integration_enabled_tooltip: "Si possédé, peut devenir un état national lorsqu'il atteint une §Hconformité de [?integration_threshold?50|%%0]§!."
  state_integration_disabled_tooltip: "Ne peut plus devenir national."
  integration_only_on_owned_states: "§YCet effet ne s'appliquera qu'aux états qui sont à la fois possédés et contrôlés :§!"
@@ -77,25 +69,38 @@
  # used to generate tooltips in dockyard or naval base foci when the country doesn't own any coastal states
  random_owned_controlled_coastal_state: "Un état côtier détenu et contrôlé de manière aléatoire"
 
- tooltip_received_equipment:9 "Vous avez reçu $QUANTITY|G$ d'équipement d'infanterie de ce pays"
+ focus_tree_has_changed_tt:0 "§RLa situation politique a évolué.§!"
+ focus_tree_will_change_tt:0 "§GL'arbre de priorités va changer...§!"
 
 ### Bindable Localisation ###
- tooltip_unlock_focus:9 "Débloque la priorité nationale $FOCUS|Y$."
- tooltip_unlock_two_focuses:9 "Débloque les priorités nationales $FOCUS1|Y$ et $FOCUS2|Y$."
+ tooltip_enable_focus:9 "§GActive§! la priorité nationale $FOCUS|Y$."
+ tooltip_enable_two_focuses:9 "§GActive§! les priorités nationales $FOCUS1|Y$ et $FOCUS2|Y$."
+ tooltip_disable_focus:9 "§RDésactive§! la priorité nationale $FOCUS|Y$."
+ tooltip_disable_two_focuses:9 "§RDésactive§! les priorités nationales $FOCUS1|Y$ et $FOCUS2|Y$."
+
  tooltip_if_focus_completed:9 "§CSi $FOCUS|Y$ est terminé :§!"
  tooltip_if_focus_not_completed:9 "§CSi $FOCUS|Y$ n'a §RPAS§! été complété :§!"
  tooltip_if_two_foci_completed:9 "§CSi $FOCUS1|Y$ ou $FOCUS2|Y$ a été complété :§!"
  tooltip_if_two_foci_not_completed:9 "§CSi $FOCUS1|Y$ et $FOCUS2|Y$ n'ont §RPAS§! été complétés :§!"
+
  tooltip_extra_effect_from_focus_completion:9 "§CEffet supplémentaire lors de la complétion de $FOCUS|Y$ :§!"
+ tooltip_strengthen_focus:9 "§GRenforce§! les effets de la priorité nationale $FOCUS|Y$."
+ tooltip_strengthen_two_focuses:9 "§GRenforce§! les effets des priorités nationales $FOCUS1|Y$ et $FOCUS2|Y$."
+
  tooltip_if_country_completed_focus:9 "§CSi $COUNTRY|Y$ a terminé $FOCUS|Y$:§!"
  tooltip_if_country_not_completed_focus:9 "§CSi $COUNTRY|Y$ n'a §RPAS§! terminé $FOCUS|Y$:§!"
 
+ tooltip_effects_determined_by_focus:9 "Les effets de cette priorité nationale seront déterminés par la priorité $FOCUS|Y$."
+ tooltip_set_focus_effects:9 "La priorité nationale $FOCUS|Y$ aura désormais les effets suivants :"
+
  tooltip_has_national_spirit:9 "A l'esprit national $IDEA|Y$"
  tooltip_has_national_spirit_NOT:9 "N'a pas l'esprit national $IDEA|Y$"
-
  tooltip_if_national_spirit_is_active:9 "§CSi $IDEA|Y$ est actuellement actif :§!"
- tooltip_available_if_not_at_war_with:9 "§CDisponible seulement si nous ne sommes §Rpas§! en guerre avec $COUNTRY|Y$.§!"
 
+ tooltip_has_government:9 "Le parti actuel est $IDEOLOGY$."
+ tooltip_has_government_NOT:9 "Le parti actuel n'est pas $IDEOLOGY$."
+
+ tooltip_available_if_not_at_war_with:9 "§CDisponible seulement si nous ne sommes §Rpas§! en guerre avec $COUNTRY|Y$.§!"
  tooltip_once_at_war_with_country:9 "§CUne fois que la §Rguerre§! avec $COUNTRY|Y$ éclate :§!"
 
  tooltip_change_law_to:9 "Change $CATEGORY$ en '$LAW|Y$', ce qui confère :"
@@ -119,7 +124,20 @@
  tooltip_modify_three_dynmods:9 "Modifie $DYNMOD1|Y$, $DYNMOD2|Y$ ou $DYNMOD3|Y$ par"
  tooltip_modify_four_dynmods:9 "Modifie $DYNMOD1|Y$, $DYNMOD2|Y$, $DYNMOD3|Y$ ou $DYNMOD4|Y$ par"
 
+ tooltip_replace_dynmod:9 "Remplace $DYNMOD1|Y$ par $DYNMOD2|Y$\nChangements concrets :"
+
  tooltip_replace_one_of_two_ideas:9 "Remplace $IDEA1|Y$ ou $IDEA2|Y$ par $IDEA3|Y$\nChangement effectif :"
+
+ tooltip_add_building_shared:9 "Ajoute $NUMBER|G$ $BUILDING|Y$"
+ tooltip_add_building_on_all_provinces:9 "$tooltip_add_building_shared$ dans toutes les provinces.\n"
+ tooltip_add_building_on_border_provinces:9 "$tooltip_add_building_shared$ dans toutes les provinces frontalières.\n"
+ tooltip_add_building_on_border_provinces_with_tag:9 "$tooltip_add_building_shared$ dans toutes les provinces bordant §Y[$TAG$.GetFlag] [$TAG$.GetNonIdeologyNameDefCap]§!.\n"
+ tooltip_add_building_on_coastal_provinces:9 "$tooltip_add_building_shared$ dans toutes les provinces côtières.\n"
+ tooltip_add_naval_base_levels:9 "Ajoute $NUMBER|G$ niveaux à toutes les bases navales existantes.\n"
+ tooltip_add_building_on_naval_base:9 "$tooltip_add_building_shared$ dans toutes les bases navales.\n"
+ tooltip_add_building_on_victory_points:9 "$tooltip_add_building_shared$ dans tous les points de victoire.\n"
+ tooltip_add_building_on_victory_points_above_value:9 "$tooltip_add_building_shared$ dans tous les points de victoires égaux ou supérieurs à $VALUE|Y$.\n"
+ tooltip_add_building_on_victory_point:9 "$tooltip_add_building_shared$ dans £victory_points  §Y[THIS.Controller.GetVictoryPointName_$VP$]§!.\n"
 
  tooltip_spawn_units:9 "Créée $COUNT|Y$ divisions $TYPE|Y$.\n"
  tooltip_spawn_unit:9 "Crée une division de $TYPE|Y$.\n"
@@ -132,11 +150,12 @@
 
  tooltip_available_scientist:9 "$CHARACTER|Y$ devient disponible en tant que §GScientifique§!."
 
- tooltip_create_division_template:9 "Crée le modèle $NAME|Y$, avec la composition suivante : $LINE_1$$LINE_2$$LINE_3$$LINE_4$$LINE_5$$SUPPORT_1$$SUPPORT_2$$SUPPORT_3$$SUPPORT_4$$SUPPORT_5$"
- line_battalion_tt:9 "\n - £$ICON$ §Y$COUNT$ $NAME$§! bataillons de ligne"
- support_battalion_tt:9 "\n - £$ICON$ §Y$NAME$§!"
+ tooltip_create_division_template:9 "Crée le modèle $NAME|Y$, avec la composition suivante : $LINE_1$$LINE_2$$LINE_3$$LINE_4$$LINE_5$$LINE_6$$LINE_7$$LINE_8$$LINE_9$$LINE_10$$SUPPORT_1$$SUPPORT_2$$SUPPORT_3$$SUPPORT_4$$SUPPORT_5$[GetTemplateDeletionWarning]"
+ division_template_deletion_warning:9 "\nTous les modèles existants avec le même nom seront §Rdissous§!, remboursant leurs effectifs et leur équipement."
+ line_battalion_tt:9 "\n£indent £$ICON$ §Y$COUNT$ $NAME$§! bataillons de ligne"
+ support_battalion_tt:9 "\n£indent £$ICON$ §Y$NAME$§!"
 
- tooltip_indented_list:9 "\n$ITEM$ $NEXT_ITEM$"
+ tooltip_indented_list:9 "\n£indent $ITEM$$NEXT_ITEM$"
 
  tooltip_triggers_with_header:9 "$HEADER$$TRIGGERS$"
 
@@ -161,6 +180,12 @@
  tooltip_owner_of_state_with_flag:9 "[$STATE$.Owner.GetFlag] le propriétaire de [$STATE$.GetName]"
  tooltip_owner_of_state:9 "le propriétaire de [$STATE$.GetName]"
 
+ tooltip_if_controlled_by:9 "Si contrôlé par $COUNTRY|Y$ :"
+
+ tooltip_received_equipment:9 "Vous avez reçu $QUANTITY|G$ d'équipement d'infanterie de ce pays"
+
+ may_lead_to_war_with:9 "§RPeut mener à une guerre avec $COUNTRY$§!"
+
 ### Flag Loc segments ###
  tooltip_event_choice: "§CChoix d'événement§! : "
  production_cost_tt:9 "£GFX_production_cost  Coût de Production :  "
@@ -173,7 +198,7 @@
  # flag_loc_entry: "$has_completed_decision$$your_decision_here$§!"
 
 ### On Map Area Names ###
- integration_tooltip: "Zones non intégrées"
+ integration_tooltip:9 "Zones Non Intégrées"
 
 ### Events ###
  KR.hidden.t: ""
@@ -185,7 +210,7 @@ AI_OPTION: "Option d'IA seulement"
 ### Decision Names ###
  integrate_state: "Intégrer [From.GetName]"
  integrate_country:0 "Intégrer [From.GetNameDef]"
- join_faction:0 "Rejoindre la faction [From.GetFactionName]"
+ join_faction:0 "Rejoignez le [From.GetFactionName]"
  invite_country:0 "Inviter [FROM.GetNameDef]"
  attack_country:0 " Attaquer [From.GetNameDef] "
  invade_country:0 "Envahir [From.GetNameDef]"
@@ -202,12 +227,6 @@ AI_OPTION: "Option d'IA seulement"
  cannot_build_armor_ships_tt: "§RNe peut pas produire de blindés ou de navires.§!"
  cannot_build_aircraft_ships_tt: "§RNe peut pas produire d'avions ou de navires.§!"
  cannot_build_anything_tt: "§RNe peut pas produire de blindés, d'avions ou de navires.§!"
-
- volunteer_limit_plus_three_tt: "$MODIFIER_SEND_VOLUNTEER_SIZE$:[?3|+=0]"
- volunteer_limit_plus_two_tt: "$MODIFIER_SEND_VOLUNTEER_SIZE$:[?2|+=0]"
- volunteer_limit_plus_one_tt: "$MODIFIER_SEND_VOLUNTEER_SIZE$:[?1|+=0]"
- volunteer_limit_plus_fifty_percent_tt: "$MODIFIER_SEND_VOLUNTEER_SIZE$:[?0.5|+=%1]"
- volunteer_limit_plus_hundred_percent_tt: "$MODIFIER_SEND_VOLUNTEER_SIZE$:[?0.1|+=%1]"
 
 ### Idea Names ###
  black_monday:0 "Lundi Noir"
@@ -269,6 +288,9 @@ AI_OPTION: "Option d'IA seulement"
 
  cic_from_target_factor_tooltip: "Industrie civile du pays cible"
  mic_from_target_factor_tooltip: "Industrie militaire du pays cible"
+
+ state_defection_chance:9 "Chance de Défection d'un État"
+ state_defection_chance_tooltip:9 "$state_defection_chance$ : $RIGHT|-=%%0$"
 
 ### Modifiers (for use as tooltips in variable effects) ###
  consumer_goods_factor_tooltip:0 "$MODIFIER_CONSUMER_GOODS_FACTOR$ : $RIGHT|Y=%1$"
@@ -348,6 +370,7 @@ AI_OPTION: "Option d'IA seulement"
  stability_factor_tooltip:0 "$MODIFIER_STABILITY_FACTOR$: $RIGHT|=%+$"
  stability_weekly_tooltip: "$MODIFIER_STABILITY_WEEKLY$: $RIGHT|=%+$"
  party_popularity_stability_factor_tooltip: "$MODIFIER_STABILITY_POPULARITY_FACTOR$: $RIGHT|=%+$"
+ war_stability_factor_tooltip:9 "$MODIFIER_STABILITY_WAR_FACTOR$ $RIGHT|+=%1$"
 
  starting_compliance_tooltip:9 "$MODIFIER_COMPLIANCE_STARTING_VALUE$: $RIGHT|+=%0$"
  compliance_gain_tooltip: "$MODIFIER_COMPLIANCE_GAIN_ADD$ : $RIGHT|+=2$"
@@ -367,9 +390,11 @@ AI_OPTION: "Option d'IA seulement"
 
  war_support_factor_tooltip:0 "$MODIFIER_WAR_SUPPORT_FACTOR$ : $RIGHT|=%+$"
  war_support_weekly_tooltip: "$MODIFIER_WAR_SUPPORT_WEEKLY$: $RIGHT|+=%2$"
- weekly_casualties_war_support_tooltip: "$MODIFIER_WEEKLY_CASUALTIES_WAR_SUPPORT$: $RIGHT|+=%0$"
- weekly_convoys_war_support_tooltip: "$MODIFIER_WEEKLY_CONVOYS_WAR_SUPPORT$: $RIGHT|+=%0$"
- weekly_bombing_war_support_tooltip: "$MODIFIER_WEEKLY_BOMBING_WAR_SUPPORT$: $RIGHT|+=%0$"
+ weekly_casualties_war_support_tooltip:9 "$MODIFIER_WEEKLY_CASUALTIES_WAR_SUPPORT$ : $RIGHT|+=%2$"
+ weekly_convoys_war_support_tooltip:9 "$MODIFIER_WEEKLY_CONVOYS_WAR_SUPPORT$ : $RIGHT|+=%2$"
+ weekly_bombing_war_support_tooltip:9 "$MODIFIER_WEEKLY_BOMBING_WAR_SUPPORT$ : $RIGHT|+=%2$"
+
+ surrender_limit_tooltip:9 "$MODIFIER_SURRENDER_LIMIT$ $RIGHT|+=%1$"
 
  max_dig_in_tooltip: "$MODIFIER_MAX_DIG_IN$ : $RIGHT|+=1$"
  max_dig_in_factor_tooltip: "$MODIFIER_MAX_DIG_IN_FACTOR$ : $RIGHT|=%+1$"
@@ -410,6 +435,7 @@ AI_OPTION: "Option d'IA seulement"
  max_planning_factor_tooltip: "$MODIFIER_MAX_PLANNING_FACTOR$ : $RIGHT|+=%1$"
  planning_speed_tooltip:9 "$MODIFIER_PLANNING_SPEED$: $RIGHT|+=%1$"
 
+ mobilization_laws_cost_factor_tooltip:9 "$mobilization_laws_cost_factor$ : $RIGHT|-=%1$"
  political_advisor_cost_factor_tooltip: "$political_advisor_cost_factor$: $RIGHT|-=%0$"
  air_advisor_cost_factor_tooltip: "$MODIFIER_AIR_ADVISOR_COST_FACTOR$ : $RIGHT|-=%0$"
  army_advisor_cost_factor_tooltip: "$MODIFIER_ARMY_ADVISOR_COST_FACTOR$ : $RIGHT|-=%0$"
@@ -669,6 +695,8 @@ AI_OPTION: "Option d'IA seulement"
  enemy_intel_network_gain_factor_over_occupied_tag_tooltip:9 "$MODIFIER_ENEMY_INTEL_NETWORK_GAIN_FACTOR_OVER_OCCUPIED_TAG$: $RIGHT|-=%0$"
  local_intel_to_enemies_tooltip:9 "$MODIFIER_LOCAL_INTEL_TO_ENEMIES$: $RIGHT|-=%0$"
 
+ operative_slot_tooltip:9 "$MODIFIER_OPERATIVE_SLOT$ : $RIGHT|+=0$"
+
  local_building_slots_tooltip:9 "$MODIFIER_LOCAL_BUILDING_SLOTS$: $RIGHT|+=0$"
  local_building_slots_factor_tooltip:0 "$MODIFIER_LOCAL_BUILDING_SLOTS_FACTOR$: $RIGHT|+=%0$"
  local_factories_tooltip:9 "$MODIFIER_LOCAL_FACTORIES$: $RIGHT|+=%0$"
@@ -749,6 +777,8 @@ AI_OPTION: "Option d'IA seulement"
  navy_intel_to_others_tooltip: "$MODIFIER_NAVY_INTEL_TO_OTHERS$: $RIGHT|-=%%1$"
  airforce_intel_to_others_tooltip: "$MODIFIER_AIRFORCE_INTEL_TO_OTHERS$ : $RIGHT|-=%%1$"
 
+ drift_defence_factor_tooltip:9 "$MODIFIER_DRIFT_DEFENCE_FACTOR$ : $RIGHT|+=%1$"
+
  totalist_drift_tooltip: "$totalist_drift$: $RIGHT|+=$"
  syndicalist_drift_tooltip: "$syndicalist_drift$: $RIGHT|+=$"
  radical_socialist_drift_tooltip: "$radical_socialist_drift$: $RIGHT|+=$"
@@ -774,7 +804,7 @@ AI_OPTION: "Option d'IA seulement"
  loc_republic: "république"
  loc_republic_cap:0 "République"
  loc_state: "état"
- loc_state_cap:0 "État"
+ loc_state_cap:0 "Étatique"
 
  loc_king: "Roi"
  loc_queen: "Reine"
@@ -1140,3 +1170,23 @@ AI_OPTION: "Option d'IA seulement"
  manpower_10000:9 "£manpower_texticon  §H10000§!"
  manpower_10000_blocked:9 "£manpower_texticon  §R10000§!"
  manpower_10000_tooltip:9 "La prise de décision coûte $manpower_10000_blocked$."
+
+ ruling_party_2:9 "£[?var:current_party_ideology_group.GetTokenKey]_texticon  §H2%§!"
+ ruling_party_2_blocked:9 "£[?var:current_party_ideology_group.GetTokenKey]_texticon  §R2%§!"
+ ruling_party_2_tooltip:9 "Prendre cette décision coûtera $ruling_party_2_blocked$"
+
+ ruling_party_3:9 "£[?var:current_party_ideology_group.GetTokenKey]_texticon  §H3%§!"
+ ruling_party_3_blocked:9 "£[?var:current_party_ideology_group.GetTokenKey]_texticon  §R3%§!"
+ ruling_party_3_tooltip:9 "Prendre cette décision coûtera $ruling_party_3_blocked$"
+
+ ruling_party_5:9 "£[?var:current_party_ideology_group.GetTokenKey]_texticon  §H5%§!"
+ ruling_party_5_blocked:9 "£[?var:current_party_ideology_group.GetTokenKey]_texticon  §R5%§!"
+ ruling_party_5_tooltip:9 "Prendre cette décision coûtera $ruling_party_5_blocked$"
+
+ ruling_party_10:9 "£[?var:current_party_ideology_group.GetTokenKey]_texticon  §H10%§!"
+ ruling_party_10_blocked:9 "£[?var:current_party_ideology_group.GetTokenKey]_texticon  §R10%§!"
+ ruling_party_10_tooltip:9 "Prendre cette décision coûtera $ruling_party_10_blocked$"
+
+ ruling_party_15:9 "£[?var:current_party_ideology_group.GetTokenKey]_texticon  §H15%§!"
+ ruling_party_15_blocked:9 "£[?var:current_party_ideology_group.GetTokenKey]_texticon  §R15%§!"
+ ruling_party_15_tooltip:9 "Prendre cette décision coûtera $ruling_party_15_blocked$"

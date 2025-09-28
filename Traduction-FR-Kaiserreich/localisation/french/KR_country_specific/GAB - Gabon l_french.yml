@@ -13,6 +13,8 @@ GAB_radical_socialist: "Commune du Gabon"
 GAB_radical_socialist_DEF: "la Commune du Gabon"
 
 ### Characters ###
+ GAB_jean_baptiste_ndende_dibantsa:9 "Jean-Baptiste Ndende Dibantsa"
+ GAB_jean_baptiste_ndende_dibantsa_leader_desc:9 "§YBorn:§! §L1875, in Tsogho Country, French Gabon§!"
  GAB_Charles_NTchorere: "Charles N'Tchoréré"
  GAB_charles_ntchorere_leader_desc:9 "§YNaissance :§! §L16 Novembre, 1896, Libreville, Gabon français§!"
  GAB_Gabriel_Leon_Mba: "Gabriel Léon M'ba"
@@ -59,35 +61,35 @@ GAB_Apply_Constitution: "Appliquer la Constitution"
  GAB_guide:9 "§MLa démocratie survit§! (§cSocial-Conservateur§! / §mLibéral de Marché§! / §lSocial-Libéral§!)\n£white_dot Accomplissez la priorité "La Déclaration d'Indépendance" et faites échouer le Coup d'Etat Syndicaliste.\n£white_dot Accomplissez la priorité "Rédiger la Constitution" pour élire les §cSociaux-Conservateurs§!, §mLibéraux de Marché§! ou les §lSociaux-Libéraux§!\n\n§MCoup d'Etat Syndicaliste§! (§RRadical-Socialiste§! / §rSyndicaliste§! / §oTotaliste§!)\n£white_dot Accomplissez la priorité "La Déclaration d'Indépendance" faites en sorte que le Coup d'Etat Syndicaliste réussisse.\n£white_dot  Accomplissez la priorité "Rédiger la Constitution" pour élire les §RRadicaux-Socialistes§!, les §rAnarcho-Syndicalistes§! ou les §oTotalistes§!."
 
 ### Events ###
-gab.1.t: "Les syndicalistes tentent un coup d'Etat !"
-gab.1.d: "Suite à la déstabilisation qui a suivi la chute de Mittelafrika, le parti syndicaliste du Gabon, dirigé par Charles N'Tchoréré, tente de prendre le contrôle du gouvernement une fois pour toutes !"
- gab.1.a: "Le coup d'Etat est un succès !"
- gab.1.b: "Nos jeunes institutions démocratiques survivent contre son premier obstacle."
+ gabon_events.1.t:9 "Dibantsa Challenges Government"
+ gabon_events.1.d:9 "Following the destabilisation that came with the fall of Mittelafrika, Jean-Baptiste Ndende Dibantsa, leader of the Gabonese section of the League for Human and Citizens' Rights, has rallied popular support in order to seize control of the government."
+ gabon_events.1.a:9 "The popular revolution is a success!"
+ gabon_events.1.b:0 "Nos jeunes institutions démocratiques survivent contre son premier obstacle."
 
- gab.6.t: "[FROM.GetNameDefCap] a besoin d'armes !"
- gab.6.d: "L'État africain de [FROM.GetNameDef] a demandé notre aide pour fournir ses troupes, ce serait une bonne occasion de mieux s'implanter dans l'ancien territoire Mittelafrikan."
-gab.6.a: "Donnez-leur ce qu'ils veulent."
- gab.6.b: "Refuser."
+ gabon_events.6.t:0 "[FROM.GetNameDefCap] a besoin d'armes !"
+ gabon_events.6.d:0 "L'État africain de [FROM.GetNameDef] a demandé notre aide pour fournir ses troupes, ce serait une bonne occasion de mieux s'implanter dans l'ancien territoire Mittelafrikan."
+ gabon_events.6.a:0 "Donnez-leur ce qu'ils veulent"
+ gabon_events.6.b:0 "Refusez de signer le traité."
 
- gab.7.t:9 "[FROM.GetNameDefCap] dit oui !"
- gab.7.d:9 "[FROM.GetNameDefCap] a écouté notre appel au secours et nous a fourni les armes dont nous avions désespérément besoin !"
-gab.7.a: "Super !"
+ gabon_events.7.t:0 "[FROM.GetNameDefCap] dit oui !"
+ gabon_events.7.d:0 "[FROM.GetNameDefCap] a écouté notre appel au secours et nous a fourni les armes dont nous avions désespérément besoin !"
+ gabon_events.7.a:0 "Grandiose ! "
 
- gab.8.t:9 "[FROM.GetNameDefCap] dit non !"
- gab.8.d:9 "[FROM.GetNameDefCap] a refusé d'écouter notre appel au secours et nous a laissés nous débrouiller seuls !"
-gab.8.a: "Qui en a besoin ?"
+ gabon_events.8.t:0 "[FROM.GetNameDefCap] dit non !"
+ gabon_events.8.d:0 "[FROM.GetNameDefCap] a refusé d'écouter notre appel au secours et nous a laissés nous débrouiller seuls !"
+ gabon_events.8.a:0 "Qui en a besoin ?"
 
-gab.15.t: "Les premières élections au Gabon !"
- gab.15.d: "Notre nouveau projet de constitution prévoit l'élection démocratique de notre premier dirigeant élu ! Plusieurs partis bénéficient d'un soutien suffisamment similaire pour que l'élection ait pu basculer dans n'importe quelle direction ce soir !"
-gab.15.a: "Les conservateurs sociaux gagnent !"
-gab.15.b: "Les libéraux du marché gagnent !"
- gab.15.c: "Les libéraux sociaux gagnent !"
+ gabon_events.15.t:0 "Les premières élections au Gabon !"
+ gabon_events.15.d:0 "Notre nouveau projet de constitution prévoit l'élection démocratique de notre premier dirigeant élu ! Plusieurs partis bénéficient d'un soutien suffisamment similaire pour que l'élection ait pu basculer dans n'importe quelle direction ce soir !"
+ gabon_events.15.a:0 "Les conservateurs sociaux gagnent !"
+ gabon_events.15.b:0 "Les libéraux du marché gagnent !"
+ gabon_events.15.c:0 "Les libéraux sociaux gagnent !"
 
-gab.16.t: "La Première Convention Syndicaliste Gabonaise !"
- gab.16.d: "Après la rédaction de la Constitution du Gabon, un débat éclate à la convention, les trois grandes factions syndicalistes doivent parvenir à une conclusion quant à celui qui deviendra le parti au pouvoir au Gabon ! Une grande dénaturation commence..."
-gab.16.a: "Les socialistes radicaux règnent !"
-gab.16.b: "Les anarcho-syndicalistes ont la majorité !"
-gab.16.c: "Les totalistes auront le pouvoir !"
+ gabon_events.16.t:0 "La Première Convention Syndicaliste Gabonaise !"
+ gabon_events.16.d:0 "Après la rédaction de la Constitution du Gabon, un débat éclate à la convention, les trois grandes factions syndicalistes doivent parvenir à une conclusion quant à celui qui deviendra le parti au pouvoir au Gabon ! Une grande dénaturation commence..."
+ gabon_events.16.a:0 "Les socialistes radicaux règnent !"
+ gabon_events.16.b:0 "Les anarcho-syndicalistes ont la majorité !"
+ gabon_events.16.c:0 "Les totalistes auront le pouvoir !"
 
 ### Ideas ###
 GAB_push_independence_idea: " Poussée vers l'indépendance "
@@ -96,11 +98,11 @@ GAB_push_independence_idea: " Poussée vers l'indépendance "
  GAB_Dahomey_Coop_idea: "Coopérer avec le Dahomey"
  GAB_Dahomey_Coop_idea_desc: "Un ami de notre ami est aussi NOTRE ami. La coopération entre nous et le Dahomey aidera les deux nations."
 
- GAB_French_Advisors_idea: "Conseillers français"
+ GAB_French_Advisors_idea: "Conseillers Français"
  GAB_French_Advisors_idea_desc: "La Commune de France nous a envoyé plusieurs conseillers expérimentés pour nous aider dans notre lutte pour l'indépendance."
 
 GAB_The_Gabonese_Constitution: "La_Constitution_Gabonaise"
  GAB_The_Gabonese_Constitution_desc: "La ratification d'une constitution a donné la légitimité nécessaire à la souveraineté du Gabon, et a rapproché de nombreuses factions au sein de notre nation."
 
 ### Tooltips ###
-GAB_recruit_tt: "Deux divisions de milice seront recrutées."
+

@@ -44,7 +44,7 @@
 
 ### Intro Screen ###
  ASY_country_intro_header:0 "l'Assyrie"
- ASY_guide:9 "§ML'Assyrie aux Assyriens§! (§nNational-Populiste§!)\n£white_dot Accomplissez la priorité "$ASY_Maintain_State_of_Emergency$".\n\n§MUn Etat Multinational§! (§cSocial-Conservateur§!)\n£white_dot Accomplissez la priorité "$ASY_Relinquish_Temporal_Power$". \n\n§MLa Frontière de l'Impérialisme§! (§mLibéral de Marché§!)\n£white_dot Accomplissez la priorité "$ASY_Frontline_Imperialism$" et "$ASY_Protectorate_Assyria$"."
+ ASY_guide:9 "§MAssyrie aux Assyriens§! ($national_populist_coloured$)\n£white_dot Accomplissez la priorité "$ASY_Maintain_State_of_Emergency$".\n\n§MÉtat Multinational§! ($social_conservative_coloured$)\n£white_dot Accomplissez la priorité "$ASY_Relinquish_Temporal_Power$". \n\n§MFrontière de l'Impérialisme§! ($market_liberal_coloured$)\n£white_dot Accomplissez la priorité "$ASY_Frontline_Imperialism$" et "$ASY_Protectorate_Assyria$"."
 
 ### Ideas ###
  ASY_Technical_Illiteracy: "Analphabétisme Technique"
@@ -104,7 +104,6 @@
  ASY_Assyrian_Army_Idea_desc: "Les milices et les unités organisées à la hâte ont gagné notre liberté. Pour la protéger des agressions étrangères, nous devrons standardiser notre armée, notre formation et notre équipement. Il ne faudra rien de moins pour que l'Assyrie reste sur la carte."
 
 ### Tooltips ###
- ASY_expanded_levies_tt: "£nato_unit_cavalry_icon_small Gagne 1 unité de §YDivision de Cavalerie§! avec formation des recrues et équipement d'infanterie de 1918 à §YBasra§!\n£nato_unit_infantry_icon_small Gagne 1 unité de §YDivision de Infanterie§! avec formation des recrues et équipement d'infanterie de 1918 à §YBasra§!\n\nGagne un £GFX_army_experience §Ggénéral de niveau 1§! nommé §YOdisho Moshe§!"
  ASY_madan_resistance_tt: "Effets de §YRésistance Ma'dān §! seront ajustés par :\n$MODIFIER_RECRUITABLE_POPULATION_FACTOR$: §G+5%§!\n$MODIFIER_LOCAL_BUILDING_SLOTS_FACTOR$: §G+15%§!\n$MODIFIER_STATE_RESOURCES_FACTOR$: §G+15%§!\n$MODIFIER_STATE_PRODUCTION_SPEED_BUILDINGS_FACTOR$: §G+5%§!"
  ASY_controls_gulf_tt: "Le Protectorat d'Assyrie a réussi à restaurer tous les protectorats du Golfe Persique !"
 
@@ -303,7 +302,7 @@
 ### Events
  assyria_events.1.t:0 "Criminels Ma'dān"
  assyria_events.1.d:9 "Les Ma'dān, ou Arabes des Marais, qui habitent les marais près de la ville de Bassora, ont longtemps été une épine dans le pied de l'autorité centrale de la région, tout comme leur habitat marécageux a été pratiquement terra incognita pour l'administration ottomane. Les explorateurs qui s'aventurent sur leurs terres ne reviennent jamais, et les Ma'dān qui coopèrent avec les autorités extérieures se retrouvent souvent sévèrement punis par leurs chefs locaux en représailles. La nature inhospitalière de leurs marais a, jusqu'à présent, largement assuré leur autonomie, et leur apathie politique envers le régime ottoman les a maintenus hors du radar.\n\nLes récents projets assyriens de construction de barrages et de colonisation visant à développer de nouvelles terres agricoles et à débusquer la résistance chiite qui se bat contre les colons assyriens les ont contraints à adopter une position plus active ; désormais, les Arabes des marais n'abritent pas seulement les fugitifs des opérations assyriennes, mais aussi ceux du Wali Baghdadi. Ce dernier, furieux de cette évolution, a demandé des renforts à Kostantiniye pour les mettre au pas et imposer à la fois des taxes et la conscription pour l'armée ottomane."
- assyria_events.1.a:0 "Laissez-les tranquilles."
+ assyria_events.1.a:0 "Laissez tomber"
  assyria_events.1.b:0 "Acceptez sa demande."
 
  assyria_events.2.t:0 "Massacre à Al-Qurnah"
@@ -314,7 +313,7 @@
  assyria_events.3.t:0 "Les Levies Assyriens se Vengent d'Al-Qurnah."
  assyria_events.3.d:0 "En représailles au meurtre d'Assyriens et à la destruction de leurs biens, le gouvernement local assyrien a envoyé les Levées assyriennes pour se venger des Ma'dān. Brûlant de multiples villages et poussant les Arabes des Marais plus loin dans les marécages et les marais du sud de la Mésopotamie, leurs actions montrent une intention claire de disloquer par la force la population indigène afin d'acquérir des terres plus fertiles.\n\nLe Wali de Bassora a demandé au gouvernement la confirmation du démantèlement des lévés assyriens, car il craint que de nouvelles actions ne conduisent à un massacre rivalisant avec la guerre civile libanaise, qui s'est déroulée il y a seulement quelques décennies. Cependant, il voit également dans ce défi une occasion d'affaiblir l'autonomie des Assyriens et de hâter leur pleine intégration dans la nouvelle société ottomane."
  assyria_events.3.a:0 "Démobilisez les Levées  !"
- assyria_events.3.b:0 "Laissez-les tranquilles."
+ assyria_events.3.b:0 "Laissez tomber"
 
  assyria_events.4.t:0 "Shimun XXI Eshai Plaide pour la Préservation des Levies Assyriens."
  assyria_events.4.d:0 "Le patriarche de Babylone et chef de facto de la communauté assyrienne, Shimun XXI Eshai, a demandé l'autorisation de maintenir les levées assyriennes. Sans eux, dit-il, son peuple est entièrement laissé à la merci des forces de gendarmerie musulmanes et n'a aucun moyen d'empêcher les Arabes des marais d'assassiner d'autres Assyriens."
@@ -337,31 +336,31 @@
  assyria_events.7.b:0 "Ouvrir des négociations avec les Ottomans pour l'indépendance de l'Assyrie."
  assyria_events.7.c:0 "Nous ne pouvons pas risquer nos relations avec les Ottomans."
 
- assyria_events.8.t:0 "[CAN.GetNameDef] intervient en faveur des Assyriens."
+ assyria_events.8.t:9 "[CAN.GetNameDefCap] Intervient en Faveur des Assyriens"
  assyria_events.8.d:0 "Dans une tournure choquante des événements, le gouvernement canadien a osé s'ingérer directement dans nos affaires intérieures. Il exige une cessation immédiate des hostilités avec le Basra Vilayet, et la mise en œuvre immédiate de l'autonomie assyrienne. Ils souhaitent que les Assyriens soient dirigés par leur propre parlement, qu'ils forment et fassent fonctionner leurs propres forces de sécurité et qu'ils gèrent la politique à Basra tout en restant, pour toutes les autres affaires, une province de l'Empire ottoman.\n\nToutefois, le fait de ne pas écraser ces insurgés infligerait d'immenses dommages au prestige de la Porte, mais risquerait également de susciter une montée du séparatisme ailleurs dans l'empire, plus particulièrement chez les Grecs et les Arabes."
  assyria_events.8.a:0 "Nous ne nous laisserons pas faire !"
  assyria_events.8.b:0 "Nous n'avons pas d'autre choix que de céder."
 
- assyria_events.9.t:0 "[OTT.GetNameDef] Refuse nos Demandes"
+ assyria_events.9.t:9 "[OTT.GetNameDefCap] Refuse nos Demandes"
  assyria_events.9.d: "Sans surprise, la Sublime Porte a refusé notre ultimatum et a intensifié ses opérations à Bassorah pour tenter de mettre un terme rapide et décisif à la révolte assyrienne. D'Ottawa à [RAJ.Capital.GetCapitalVictoryPointName], les volontaires de l'Entente se mobilisent officieusement pour combattre une fois de plus aux côtés des Levées assyriennes et garantir leur indépendance et, plus important encore, les gisements de pétrole vitaux de l'Irak."
  assyria_events.9.a:0 "Espérons que notre soutien pourra être utile avant qu'il ne soit trop tard..."
  assyria_events.9.b: "Nous devons nous assurer que l'Assyrie ne tombe pas ! (Jouer l'Assyrie)"
 
- assyria_events.10.t:0 "[OTT.GetNameDef] Cède à nos Demandes"
+ assyria_events.10.t:9 "[OTT.GetNameDefCap] Cède à nos Demandes"
  assyria_events.10.d:0 "Craignant une autre campagne militaire prolongée en Mésopotamie, le gouvernement ottoman a câblé tôt ce matin qu'il s'abstiendrait d'intervenir davantage dans l'affaire des Assyriens, leur accordant presque officiellement leur indépendance. Même s'ils refusent de reconnaître les Assyriens, en maintenant que le vilayet de Bassora reste dans son intégralité une partie de l'Empire ottoman, en pratique, les Turcs n'interviendront plus à Bassora."
  assyria_events.10.a:0 "Un jour joyeux pour tous !"
  assyria_events.10.b: "Gloire à l'Assyrie ! (Jouer l'Assyrie)"
 
- assyria_events.11.t:0 "[CAN.GetName] Exige la fin des hostilités à Bassora"
+ assyria_events.11.t:9 "[CAN.GetNameDefCap] Exige la Fin des Hostilités à Bassora"
  assyria_events.11.d:0 "Poursuivant sa politique séculaire d'ingérence dans les affaires des autres nations, l'ambassadeur britannique a demandé au gouvernement ottoman de discuter d'une résolution pacifique de la débâcle assyrienne.\n\nIls exigent un retrait immédiat de toutes les forces ottomanes de Basra Vilayet, et demandent la fin des hostilités avec l'État assyrien nouvellement proclamé. Une demande aussi ridicule ne peut être admise, elle infligerait d'immenses dommages au prestige de la Porte et donnerait probablement lieu à une augmentation du séparatisme ailleurs dans l'empire, notamment chez les Grecs et les Arabes."
  assyria_events.11.a:0 "C'est absurde ! Nous refusons leurs conditions."
  assyria_events.11.b:0 "Nous allons accepter cette offre..."
 
- assyria_events.12.t:0 "[OTT.GetNameDef] Accepte notre Proposition"
+ assyria_events.12.t:9 "[OTT.GetNameDefCap] Accepte Notre Proposition"
  assyria_events.12.d:0 "En accord avec notre proposition, l'armée ottomane a mis fin aux hostilités avec les rebelles assyriens. En leur accordant le droit de créer leur propre parlement et de maintenir leurs propres forces de sécurité, la Porte a accédé à la plupart de leurs demandes, sauf l'indépendance totale."
  assyria_events.12.a:0 "Une autre résolution pacifique !"
 
- assyria_events.13.t: "[OTT.GetNameDef] refuse notre proposition"
+ assyria_events.13.t:9 "[OTT.GetNameDefCap] Refuse Notre Proposition"
  assyria_events.13.d:0 "Sans surprise, la Sublime Porte a refusé notre proposition et a augmenté ses opérations à Basra dans le but de mettre un terme rapide et décisif à la révolte assyrienne. Alors que la situation continue de s'aggraver pour les lévriers assyriens, certains ont demandé une intervention militaire directe pour assurer la protection du peuple assyrien et sécuriser les vastes gisements de pétrole de l'Irak.\n\nIl est peu probable qu'une campagne outre-mer au Moyen-Orient soit dans notre intérêt pour le moment, mais nous pourrions peut-être organiser un soutien matériel et envoyer des volontaires pour les aider, sans aller jusqu'à déclarer la guerre."
  assyria_events.13.a:0 "Nous devrions nous abstenir d'intervenir."
  assyria_events.13.b:0 "Nous enverrons ce que nous pourrons."
@@ -370,22 +369,22 @@
  assyria_events.13.f: "Aidez-les et assurez-vous qu'ils réussissent ! (Jouer l'Assyrie)"
  assyria_events.13.g: "Nous ne devons reculer devant rien pour sauver l'Assyrie ! Tout le monde sur le pont ! (Jouer l'Assyrie)"
 
- assyria_events.14.t:0 "[CAN.GetNameDef] Refuse d'intervenir en notre nom"
+ assyria_events.14.t:9 "[CAN.GetNameDefCap] Refuse d'Intervenir en Notre Nom"
  assyria_events.14.d:0 "Ignorant les appels du patriarche lui-même, le gouvernement d'Ottawa a fait savoir à Bassora "qu'un conflit avec le gouvernement turc n'était pas souhaité" et qu'il s'abstiendrait donc d'intervenir dans le conflit sous quelque forme que ce soit."
  assyria_events.14.a:0 "Nous sommes perdus..."
 
- assyria_events.28.t: "[CAN.GetName] Envoi de l'équipement"
- assyria_events.28.d: "[CAN.GetNameDef] a demandé à [OTT.GetNameDef] de nous accorder l'autonomie, mais cela a été refusé par les ignobles Turcs. Bien que nos amis de l'Entente ne puissent pas engager de troupes dans notre lutte, quelques armes et hommes sont déjà arrivés sur nos côtes."
+ assyria_events.28.t:9 "[CAN.GetNameDefCap] Envoie de l'Équipement"
+ assyria_events.28.d:9 "[CAN.GetNameDefCap] a demandé à [OTT.GetNameDef] de nous accorder l'autonomie, mais cela a été refusé par les ignobles Turcs. Bien que nos amis de l'Entente ne puissent pas engager de troupes dans notre lutte, quelques armes et hommes sont déjà arrivés sur nos côtes."
  assyria_events.28.a: "Nous devons être reconnaissants pour tout ce que nous recevons."
 
- assyria_events.29.t: "[CAN.GetName] Envoie de l'aide"
- assyria_events.29.d: "[CAN.GetNameDef] a demandé à [OTT.GetNameDef] de nous accorder l'indépendance, mais cela a été refusé par les ignobles Turcs. Nos amis de l'Entente ont déjà commencé à déverser du matériel et de la main-d'œuvre dans le pays, et une quantité limitée de troupes professionnelles sera également envoyée."
+ assyria_events.29.t:9 "[CAN.GetNameDefCap] Envoie de l'Aide"
+ assyria_events.29.d:9 "[CAN.GetNameDefCap] a demandé à [OTT.GetNameDef] de nous accorder l'indépendance, mais cela a été refusé par les ignobles Turcs. Nos amis de l'Entente ont déjà commencé à déverser du matériel et de la main-d'œuvre dans le pays, et une quantité limitée de troupes professionnelles sera également envoyée."
  assyria_events.29.a: "Nous apprécions leur aide."
 
 # Peace Events
  assyria_events.15.t:0 "L'Assyrie Proclame sa Victoire en Irak"
  assyria_events.15.d:0 "En repoussant les forces turques contre toute attente, les lévriers assyriens ont gagné leur guerre d'indépendance et proclamé leur pleine autorité sur l'Irak."
- assyria_events.15.a:0 "Acceptez leurs demandes."
+ assyria_events.15.a:0 "Accepter leurs demandes."
  assyria_events.15.b:0 "Nous ne céderons jamais !"
 
  assyria_events.16.t:0 "Victoire au Levant!"
@@ -437,7 +436,7 @@
 
  assyria_events.27.t:0 "Offre rejetée"
  assyria_events.27.d:0 "Tout comme ils nous ont abandonnés après la fin de la Weltkrieg, les vils impérialistes britanniques nous ont à nouveau tourné le dos. Seul, inexpérimenté et avec peu de moyens financiers, le peuple assyrien devra se débrouiller seul dans un environnement inhospitalier."
- assyria_events.27.a:0 "Salauds !"
+ assyria_events.27.a:0 "Ces salauds!"
 
  assyria_events.30.t: "Transfert de la concession [812.GetName]."
  assyria_events.30.d: "Alors que les exilés de Grande-Bretagne continuent de rentrer chez eux, le temps est venu de renoncer à certains des traités qui nous ont été transférés en 1925 avec la chute de la Grande-Bretagne. A savoir, la concession pétrolière de [812.GetName]. Louée par [812.Owner.GetNameDef] à l'Empire britannique, nous en avons été les gardiens au cours des deux dernières décennies. Avec la récente restauration du pouvoir à Londres, nous remettons désormais la concession sous contrôle britannique."
@@ -451,19 +450,19 @@
  assyria_events.32.d: "Des délégations de la Grande-Bretagne et de [CAN.GetNameDef] nous ont contactés pour un ajustement de la concession pétrolière qu'ils possèdent en [812.GetName]. Bien que le contrôle de la concession soit passé aux mains des Canadiens après la Révolution Britannique, le moment est venu de restituer le bail original à la Grande-Bretagne. Alors que Londres fait jouer ses muscles restaurés, elle a demandé que les concessions soient à nouveau contrôlées depuis Londres plutôt que depuis Ottawa..."
  assyria_events.32.a:0 "Très bien."
 
- assyria_events.33.t: "[ASY.GetName] Demande notre Pétrole !"
- assyria_events.33.d: "Nous avons reçu aujourd'hui un message de [ASY.GetNameDef], un pays qui a récemment acquis son indépendance, mais qui est déjà tombé dans la dépendance des pays de l'Entente.\nDans son message, le gouvernement de [ASY.GetNameDef] indique qu'il souhaiterait vivement "louer" une grande partie de nos gisements de pétrole dans les régions de [676.GetName] et [349.GetName]. En cas de refus de notre part, notre voisin considérerait qu'il s'agit d'une mesure inamicale à son égard et "prendrait des mesures".\nIl ne fait aucun doute que dans les coulisses du gouvernement de [ASY.GetNameDef] se trouvent les hommes de l'Entente, qui occupent presque ouvertement tous les postes clés. Ils ont besoin de notre pétrole pour se préparer à une nouvelle guerre européenne, et ils n'arrêteront donc pas leur chantage pour rien. Cependant, notre armée ne dispose pas de forces suffisantes pour lutter contre un ennemi aussi puissant..."
+ assyria_events.33.t:9 "[ASY.GetNameDefCap] Demande notre Pétrole !"
+ assyria_events.33.d:9 "Nous avons reçu aujourd'hui un message de [ASY.GetNameDef], un pays qui a récemment acquis son indépendance, mais qui est déjà tombé dans la dépendance des pays de l'Entente.\nDans son message, le gouvernement [ASY.GetAdjective] indique qu'il souhaiterait vivement "louer" une grande partie de nos gisements de pétrole dans les régions de [676.GetName] et [349.GetName]. En cas de refus de notre part, notre voisin considérerait qu'il s'agit d'une mesure inamicale à son égard et "prendrait des mesures".\nIl ne fait aucun doute que dans les coulisses du gouvernement de [ASY.GetNameDef] se trouvent les hommes de l'Entente, qui occupent presque ouvertement tous les postes clés. Ils ont besoin de notre pétrole pour se préparer à une nouvelle guerre européenne, et ils n'arrêteront donc pas leur chantage pour rien. Cependant, notre armée ne dispose pas de forces suffisantes pour lutter contre un ennemi aussi puissant..."
  assyria_events.33.a: "L'Entente est trop forte pour nous !"
  assyria_events.33.b: "Demandez à nos alliés."
  assyria_events.33.c: "Nous n'abandonnerons pas !"
 
- assyria_events.34.t: "[FROM.GetName] nous donne les champs !"
- assyria_events.34.d: "Nos menaces ont porté leurs fruits et le gouvernement de [IRQ.GetNameDef] a accepté de nous louer ses champs pétroliers.\nNous sommes très satisfaits de ce résultat et nous savons déjà comment utiliser les nouvelles réserves d'or noir."
+ assyria_events.34.t:9 "[FROM.GetNameDefCap] nous Donne les Champs !"
+ assyria_events.34.d:9 "Nos menaces ont porté leurs fruits et le gouvernement [IRQ.GetAdjective] a accepté de nous louer ses champs pétroliers.\nNous sommes très satisfaits de ce résultat et nous savons déjà comment utiliser les nouvelles réserves d'or noir."
  assyria_events.34.a:0 "Excellente nouvelle !"
 
  assyria_events.35.t:9 "L'Entente demande du pétrole à [FROM.GetNameDef]"
- assyria_events.35.d:9 "Nous venons de recevoir un message de [IRQ.Capital.GetCapitalVictoryPointName] contenant une copie de la récente offre de [ASY.GetNameDef] de louer la plupart des champs pétroliers dans les régions de [676.GetName] et [349.GetName].\nOn pourrait considérer qu'il s'agit d'une affaire interne à [FROM.GetNameDef] si les mots à la fin de l'offre ne mentionnaient pas clairement la menace de guerre en cas de refus de l'Irak. Comme le gouvernement de [ASY.GetNameDef] est entièrement sous le contrôle de l'Entente, cette menace ne peut signifier qu'une chose : la guerre avec l'ensemble de l'alliance. \nLe gouvernement de [FROM.GetNameDef] nous prévient qu'il n'a pas assez de forces pour se battre, et nous demande donc de respecter les garanties que nous avons données précédemment concernant l'indépendance de [FROM.GetNameDef]. Sommes-nous prêts à donner une réponse aussi honorable ou est-il préférable d'attendre que l'ennemi soit distrait ?"
- assyria_events.35.a: "Nous sommes prêts à protéger l'Irak."
+ assyria_events.35.d:9 "Nous venons de recevoir un message de [IRQ.Capital.GetCapitalVictoryPointName] contenant une copie de la récente offre de [ASY.GetAdjective] de louer la plupart des champs pétroliers dans les régions de [676.GetName] et [349.GetName].\nOn pourrait considérer qu'il s'agit d'une affaire interne à [FROM.GetNameDef] si les mots à la fin de l'offre ne mentionnaient pas clairement la menace de guerre en cas de refus de l'Irak. Comme le gouvernement [ASY.GetAdjective] est un état client de l'Entente en tout point, cette menace ne peut signifier qu'une chose : la guerre avec l'ensemble de l'alliance. \nLe gouvernement [FROM.GetAdjective] nous prévient qu'il n'a pas assez de forces pour se battre, et nous demande donc de respecter les garanties que nous avons données précédemment concernant l'indépendance [FROM.GetAdjective]. Sommes-nous prêts à donner une réponse aussi honorable ou est-il préférable d'attendre que l'ennemi soit distrait ?"
+ assyria_events.35.a:9 "Nous sommes prêts à protéger l'Irak."
  assyria_events.35.b: "Nous ne sommes pas préparés."
 
  assyria_events.36.t: "Le Pacte du Caire Nous a Abandonnés"
@@ -472,7 +471,7 @@
  assyria_events.36.b: "Nous sommes trop faibles !"
 
  assyria_events.37.t: "[FROM.GetName] Rejette l'Ultimatum !"
- assyria_events.37.d: "Le gouvernement de [FROM.GetNameDef] nous a répondu qu'il ne pouvait pas accepter nos conditions et qu'il refusait de louer les champs pétrolifères. Comme nous et nos alliés avons besoin de ce pétrole, il ne nous reste qu'une seule solution : rendre notre voisin beaucoup plus agréable pour nous."
+ assyria_events.37.d:9 "Le gouvernement [FROM.GetAdjective] nous a répondu qu'il ne pouvait pas accepter nos conditions et qu'il refusait de louer les champs pétrolifères. Comme nous et nos alliés avons besoin de ce pétrole, il ne nous reste qu'une seule solution : rendre notre voisin beaucoup plus agréable pour nous."
  assyria_events.37.a: "Nous avons besoin de pétrole."
 
  assyria_events.38.t:0 "L'Assyrie déclare son indépendance"
