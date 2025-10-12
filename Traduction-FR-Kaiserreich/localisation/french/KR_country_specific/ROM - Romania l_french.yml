@@ -57,7 +57,6 @@
  fabrica_de_arme_cugir: "Fabrica de Arme Cugir"
  societatea_concordia: "Societatea Concordia"
  udr: "UDR"
- caile_ferate_romane: "Căile Ferate Române"
  leonida: "Leonida"
  industria_aeronautica_romana: "Industria Aeronautică Română"
  icar: "ICAR"
@@ -251,7 +250,6 @@
  ROM_selectczc: "A pris le parti du Capitaine dans le Grand Jeu."
 
  ROM_1cap: "Nécessite au moins §RViolemment sous-pression§! pour les Légionnaires."
- ROM_1king: "Nécessite au moins §RPouvoir faiblissant§! pour le Roi."
  ROM_5cap: "Nécessite au moins §YEquilibre du Pouvoir§! pour les Légionnaires."
  ROM_5king: "Nécessite au moins §YEquilibre du Pouvoir§! pour le Roi."
  ROM_10cap: "Nécessite au §GForte emprise§! pour les Légionnaires"
@@ -286,8 +284,8 @@
  ROM_leave_faction: "Quitter le [FROM.GetFactionName]"
  ROM_leave_faction_desc: "Maintenant que nous avons recouvré nos terres ancestrales et vaincu nos ennemis communs, certains remettent en question notre alliance militaire continue. Devrions-nous poursuivre cette alliance formelle, de peur d'être entraînés dans un nouveau conflit dont nos alliés actuels pourraient se trouver partie prenante, ou nos intérêts devraient-ils rester proches de ceux qui sont les plus proches de nous ?"
 
- ROM_select_czc:9 "Vous jouerez du point de vue du mouvement légionnaire. Votre $MODIFIER_POLITICAL_POWER_FACTOR$ sera lié à la popularité du parti §nNational Populiste§!.\n"
- ROM_select_carol:9 "Vous jouerez du point de vue du Roi Carol II. Votre $MODIFIER_POLITICAL_POWER_FACTOR$ sera lié à la popularité du parti §PAutocratie Paternelle§!.\n"
+ ROM_select_czc:9 "Vous jouerez du point de vue du mouvement légionnaire. Votre $MODIFIER_POLITICAL_POWER_FACTOR$ sera lié à la popularité du parti $national_populist_coloured$!.\n"
+ ROM_select_carol:9 "Vous jouerez du point de vue du Roi Carol II. Votre $MODIFIER_POLITICAL_POWER_FACTOR$ sera lié à la popularité du parti $paternal_autocrat_coloured$.\n"
 
  ROM_prepare_union_tooltip:9 "$unlocks_decisions$ pour §HSoutenir les Séparatistes en Transylvanie.§!\n"
  ROM_ultimatum_tooltip: "Active £decision_icon_small la §Hdécision§! pour §HRevendiquer la Transylvanie.§!\n"
@@ -1205,7 +1203,7 @@ ROM_KR_gathering_storm_desc: "Le traité de Bucarest a mis fin à la guerre de l
 #Transylvanian infra sabotaged (for HUN)
  romania_events.58.t:0 "Terrorisme en Transylvanie"
  romania_events.58.d:0 "Les troubles en Transylvanie se sont encore intensifiés avec le bombardement d'un certain nombre de lignes de chemin de fer la nuit dernière. La coordination derrière ces attaques est clairement bien trop importante pour être le travail de simples anarchistes amateurs. C'est clairement le travail de terroristes hautement organisés et équipés, ainsi que d'espions étrangers visant à saboter notre infrastructure. Nous ne pouvons que supposer l'implacation de la Garde de Fer de Bucarest, maisaprès la protestation de notre ambassadeur, ils nient farouchement toute implication. Nous devrions accroître notre présence militaire en Transylvanie considérant que la situation continue de s'aggraver."
- romania_events.58.a:0 "Sabotage?!"
+ romania_events.58.a:0 "Sabotage ?!"
 
 #Transylvanian garrisons hit (for HUN)
  romania_events.59.t:0 "Les garnisons des Carpathes ont été frappées!"
@@ -1648,7 +1646,7 @@ ROM_KR_gathering_storm_desc: "Le traité de Bucarest a mis fin à la guerre de l
  romania_events.149.a:0 "Comme prévu."
 
  romania_events.150.t:0 "Carol de Roumanie a été assassiné par la Garde de Fer"
- romania_events.150.d:0 "La fragile alliance entre le roi Carol II de Roumanie et le mouvement légionnaire de Corneliu Zelea Codreanu était apparemment destinée à ne pas durer longtemps. Codreanu a été chassé du pouvoir dans l'espoir que son mouvement en serait décapité, mais ses partisans méprisés se sont rapidement regroupés et ont entrepris d'assassiner le roi, par vengeance, une entreprise qui a malheureusement réussi.\n\nÀ la suite du bain de sang dans la capitale, le prince [ROM.GetLeader] a été couronné roi, et il reste à voir comment il s'y prendra pour ramener la paix dans son pays."
+ romania_events.150.d:9 "La fragile alliance entre le roi Carol II de Roumanie et le mouvement légionnaire de Corneliu Zelea Codreanu était apparemment destinée à ne pas durer longtemps. Codreanu a été chassé du pouvoir dans l'espoir que son mouvement en serait décapité, mais ses partisans méprisés se sont rapidement regroupés et ont entrepris d'assassiner le roi, par vengeance, une entreprise qui a malheureusement réussi.\n\nÀ la suite du bain de sang dans la capitale, le prince [ROM.GetLeader] a été couronné roi, et il reste à voir comment il s'y prendra pour ramener la paix dans son pays."
  romania_events.150.a:0 "Longue vie au Roi [ROM.GetLeader]"
 
  romania_events.151.t:0 "La Garde de Fer établit un contrôle total"
@@ -2102,7 +2100,7 @@ ROM_KR_gathering_storm_desc: "Le traité de Bucarest a mis fin à la guerre de l
  ROM_ion_mihalache_leader_desc:9 "§YNaissance :§! §L3 mars 1882, à Topoloveni, comté d'Arges, Royaume de Roumanie§!"
 
  ROM_dinu_bratianu: "Dinu Brătianu"
- ROM_dinu_bratianu_leader_desc:9 "§YNaissance :§! §L13 janvier 1866, à Florica, comté d'Arges, Royaume de Roumanie§!"
+ ROM_dinu_bratianu_leader_desc:9 "§YNaissance :§! §L13 janvier 1866, à Stefănesti, comté d'Arges, Principautés unies de Roumanie§!"
 
  ROM_alexandru_cantacuzino: "Alexandru Cantacuzino"
  ROM_alexandru_cantacuzino_leader_desc:9 "§YNaissance :§! §L1901, à Ciocănesti, comté d'Ilfov, Royaume de Roumanie§!\n§YCarrière :§! §LIssu de l'ancienne famille princière Cantacuzino, se réclamant de la dynastie byzantine des Kantakouzenos, le prince Alexandru Cantacuzino est un noble très atypique. Croyant fermement aux préceptes de la Légion de l'Archange Michel, Cantacuzino s'est fait remarquer dans de nombreux congrès d'étudiants nationalistes, tenant des discours enflammés dénonçant ce qu'il considérait comme des fléaux pour son pays. Gravissant rapidement les échelons du Mouvement Légionnaire, il devint membre du cercle rapproché du capitaine et se fit connaître en tant que théoricien et organisateur efficace. Après avoir fait ses armes dans la Guerre civile espagnole, le prince est rentré au pays et s'est retrouvé mêlé au conflit entre le Capitaine et le Roi, qui ne cessait de s'aggraver.\n\nChoqué par l'assassinat de Codreanu, Cantacuzino a rejoint le combat, ralliant de nombreux légionnaires à la cause et aidant à réorganiser le mouvement pour la lutte, apparaissant comme l'un des principaux candidats à la succession du Capitaine. Très vite, le zèle des hommes de l'Archange l'a emporté et la croix barrée flotte à nouveau au-dessus de toute la Roumanie. Le Sénat légionnaire l'a confirmé comme successeur du Capitaine, et il est maintenant prêt à mettre en œuvre sa vision pour toute la Roumanie, en tant que Conducător et Régent.§!"
@@ -2170,7 +2168,7 @@ ROM_KR_gathering_storm_desc: "Le traité de Bucarest a mis fin à la guerre de l
  ROM_florea_tenescu_high_command_desc:9 "§YNaissance :§! §L1er avril 1884, à Turnu Măgurele, comté de Teleorman, Royaume de Roumanie§!"
 
  ROM_nicolae_radescu: "Nicolae Radescu"
- ROM_nicolae_radescu_commander_desc:9 "§YNaissance :§! §L30 mars 1874, à Păusesti-Otăsău, comté de Vâlcea, Royaume de Roumanie§!"
+ ROM_nicolae_radescu_commander_desc:9 "§YNaissance :§! §L30 mars 1874, à Păusesti-Otăsău, comté de Vâlcea, Principauté de Roumanie§!"
 
  ROM_constantin_tobescu: "Constantin Tobescu"
  ROM_constantin_tobescu_commander_desc:9 "§YNaissance :§! §L28 janvier 1893, à Comani, comté d'Olt, Royaume de Roumanie§!"
@@ -2188,7 +2186,7 @@ ROM_KR_gathering_storm_desc: "Le traité de Bucarest a mis fin à la guerre de l
  ROM_iuliu_maniu_sic_desc:9 "§YNaissance :§! §L8 janvier 1873, à Simleu Silvaniei, comté de Szilágy, Royaume de Hongrie, Autriche-Hongrie§!"
 
  ROM_constantin_angelescu:0 "Constantin Angelescu"
- ROM_constantin_angelescu_sic_desc:9 "§YNaissance :§! §L12 juin 1869, à Craiova, comté de Dolj, Royaume de Roumanie§!"
+ ROM_constantin_angelescu_sic_desc:9 "§YNaissance :§! §L12 juin 1869, à Craiova, comté de Dolj, Principauté de Roumanie§!"
 
  ROM_alexandru_vaida_voevod:0 "Alexandru Vaida-Voevod"
  ROM_alexandru_vaida_voevod_sic_desc:9 "§YNaissance :§! §L27 février 1872, à Olpret, comté de Belső-Szolnok, Royaume de Hongrie, Autriche-Hongrie§!"
@@ -2206,7 +2204,7 @@ ROM_KR_gathering_storm_desc: "Le traité de Bucarest a mis fin à la guerre de l
  ROM_ion_mota_sic_desc:9 "§YNaissance :§! §L5 juillet 1902, à Orăstie, comté de Hunyad, Royaume de Hongrie, Autriche-Hongrie§!"
 
  ROM_ernest_urdarianu:0 "Ernest Urdărianu"
- ROM_ernest_urdarianu_advisor_desc:9 "§YBorn:§! §LMay 6th, 1897, in Slatina, Olt County, Kingdom of Romania§!"
+ ROM_ernest_urdarianu_advisor_desc:9 "§YNaissance :§! §L6 mai 1897, à Slatina, comté d'Olt, Royaume de Roumanie§!"
 
  ROM_gheorghe_clime:9 "Gheorghe Clime"
  ROM_gheorghe_clime_advisor_desc:0 "§YNaissance :§! §L1889, à Oancea, comté de Covurlui, Royaume de Roumanie§!"
@@ -2233,7 +2231,7 @@ ROM_KR_gathering_storm_desc: "Le traité de Bucarest a mis fin à la guerre de l
  ROM_mihail_moruzov_advisor_desc:0 "§YNaissance :§! §L8 novembre 1887, à Zebil, comté de Tulcea, Royaume de Roumanie§!"
 
  ROM_dimitrie_gusti: "Dimitrie Gusti"
- ROM_dimitrie_gusti_advisor_desc:9 "§YNaissance :§! §L13 février 1880, à Iasi, comté d'Iasi, Royaume de Roumanie§!"
+ ROM_dimitrie_gusti_advisor_desc:9 "§YNaissance :§! §L13 février 1880, à Iasi, comté d'Iasi, Principauté de Roumanie§!"
 
  ROM_emanoil_ionescu: "Emanoil Ionescu"
  ROM_emanoil_ionescu_theorist_desc:9 "§YNaissance :§! §L17 mars 1893, à Movileni, comté d'Olt, Royaume de Roumanie§!"
@@ -2245,4 +2243,4 @@ ROM_KR_gathering_storm_desc: "Le traité de Bucarest a mis fin à la guerre de l
  ROM_gheorghe_jienescu_air_chief_desc:9 "§YNaissance :§! §L16 septembre 1894, à Rast, comté de Dolj, Royaume de Roumanie§!"
 
  ROM_alexandrina_cantacuzino:9 "Alexandrina Cantacuzino"
- ROM_alexandrina_cantacuzino_advisor_desc:9 "§YNaissance :§! §L20 septembre 1876, à Ciocănesti, comté de Dâmbovita, Royaume de Roumanie§!"
+ ROM_alexandrina_cantacuzino_advisor_desc:9 "§YNaissance :§! §L20 septembre 1876, à Ciocănesti, comté de Dâmbovita, Principauté de Roumanie§!"

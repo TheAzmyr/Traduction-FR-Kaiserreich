@@ -6,7 +6,7 @@
  intermarium_events.0.a:0 "Grandiose ! "
 
  MIE_decisions: "Coopération en matière de défense de l'Europe de l'Est"
- MIE_decisions_desc: "[?global.russia.GetNameDefCap] refait surface et la sécurité de la région d'Europe de l'Est est menacée. Lorsque la Seconde Weltkrieg commencera, nous devrons nous préparer à affronter la tempête russe - et si nous ne travaillons pas ensemble, nous serons éliminés un par un.\n\nA présent que [?global.russia.GetNameDef] a activé son arbre de politique étrangère, tous les membres orientaux du Reichspakt débloquent la capacité de §Ymettre en commun les ressources§! et de les distribuer entre leurs États membres pour éliminer les maillons faibles. Le pays responsable de la distribution des ressources communes peut investir dans ses États membres pour §Yconstruire des fortifications§!, §Ylever des divisions§! et fournir des §Yesprits nationaux§! bénéfiques.\n\nLes ressources actuelles mises en commun :\n £rifle_texticon Équipement d'infanterie : §Y[?global.MIE_infantry_equipment]§!\n £support_texticon Équipement de soutien : §Y[?global.MIE_support_equipment]§!\n £unit_artillery_icon_small Équipement d'artillerie : §Y[?global.MIE_artillery_equipment]§!\n\n [MIE_leader.GetNameWithFlag] est actuellement responsable de la distribution du pool de ressources."
+ MIE_decisions_desc:9 "[?global.russia.GetNameDefCap] refait surface et la sécurité de la région d'Europe de l'Est est menacée. Lorsque la Seconde Weltkrieg commencera, nous devrons nous préparer à affronter la tempête russe - et si nous ne travaillons pas ensemble, nous serons éliminés un par un.\n\nA présent que [?global.russia.GetNameDef] a activé son arbre de politique étrangère, tous les membres orientaux du Reichspakt débloquent la capacité de §Ymettre en commun les ressources§! et de les distribuer entre leurs États membres pour éliminer les maillons faibles. Le pays responsable de la distribution des ressources communes peut investir dans ses États membres pour §Yconstruire des fortifications§!, §Ylever des divisions§! et fournir des §Yesprits nationaux§! bénéfiques.\n\nLes ressources actuelles mises en commun :\n    £rifle_texticon  $infantry_equipment$ : §Y[?global.MIE_infantry_equipment]§!\n    £support_texticon  $support_equipment$ : §Y[?global.MIE_support_equipment]§!\n    £unit_artillery_icon_small  $artillery_equipment$ : §Y[?global.MIE_artillery_equipment]§!\n\n[MIE_leader.GetNameWithFlag] est actuellement responsable de la distribution des ressources communes."
  MIE_intermarium_active: "La §YCoopération de Défense de l'Europe de l'Est§! est active."
  MIE_intermarium_formed: "Le programme de Coopération de Défense en Europe de l'Est a démarré."
  MIE_member:9 "Est membre de la §YCoopération de défense de l'Europe de l'Est§!."
@@ -56,17 +56,17 @@
  MIE_allow_equipment_shipments: "Autoriser des Envois de Matériel"
  MIE_allow_equipment_shipments_desc: "Si nous avons précédemment demandé à nos alliés de ne pas envoyer d'équipements, nous sommes libres d'annuler cette décision à tout moment."
 
- MIE_spend_guns: "Envoyer 1000 £rifle_texticon  Équipement d'Infanterie"
- MIE_spend_support:0 "Envoyer 250 £support_texticon  Équipement de Soutien"
- MIE_spend_artillery: "Envoyer 250 £unit_artillery_icon_small  Équipement d'Artillerie"
+ MIE_spend_guns:9 "Envoyer 1000 £rifle_texticon  $infantry_equipment$"
+ MIE_spend_support:9 "Envoyer 250 £support_texticon  $support_equipment$"
+ MIE_spend_artillery:9 "Envoyer 250 £unit_artillery_icon_small  $artillery_equipment$"
 
- MIE_spend_guns_self: "Prendre 1000 £rifle_texticon Équipements d'Infanterie"
- MIE_spend_support_self: "Prendre 250 £support_texticon Équipement de Soutien"
- MIE_spend_artillery_self: "Prendre 250 £unit_artillery_icon_small Équipement d'Artillerie"
+ MIE_spend_guns_self:9 "Prendre 1000 £rifle_texticon  $infantry_equipment$"
+ MIE_spend_support_self:9 "Prendre 250 £support_texticon  $support_equipment$"
+ MIE_spend_artillery_self:9 "Prendre 250 £unit_artillery_icon_small  $artillery_equipment$"
 
- MIE_invest_guns: "Investir 500 £rifle_texticon  Équipement d'Infanterie"
- MIE_invest_support:0 "Investir 150 £support_texticon  Équipement de Soutien"
- MIE_invest_artillery:0 "Investir 250 £unit_artillery_icon_small  Équipement d'Artillerie"
+ MIE_invest_guns:9 "Investir 500 £rifle_texticon  $infantry_equipment$"
+ MIE_invest_support:9 "Investir 150 £support_texticon  $support_equipment$"
+ MIE_invest_artillery:9 "Investir 250 £unit_artillery_icon_small  $artillery_equipment$"
 
  MIE_250_artilleryeq: "£unit_artillery_icon_small  §H250§!"
  MIE_250_artilleryeq_blocked: "£unit_artillery_icon_small  §R250§!"
@@ -126,7 +126,7 @@
  intermarium_events.7.a:0 "Grandiose ! "
 
  MIE_air_command_1: "Infrastructure de défense aérienne commune"
- MIE_all_build_air_infra: "Chaque État membre construira un niveau supplémentaire de §HBase Aérienne§! et deux niveaux supplémentaires de §HBatterie Anti-Air§! dans sa capitale, et recevra §H50§!  £unit_fighter_icon_small\n\nCe qui permettra de débloquer de nouvelles décisions."
+ MIE_all_build_air_infra:9 "Chaque État membre construira un niveau supplémentaire de §H$air_base$§! et deux niveaux supplémentaires de §H$anti_air_building$§! dans sa capitale, et recevra §H50§!  £unit_fighter_icon_small\n\nCeci permettra de débloquer de nouvelles décisions."
 
  intermarium_events.8.t:0 "Coopération de l'Europe de l'Est"
  intermarium_events.8.d:0 "[MIE_leader.GetNameDefCap] a choisi d'investir une partie de notre fonds de coopération de défense commune en établissant l'infrastructure d'un commandement conjoint de défense aérienne entre les États d'Europe de l'Est. Cela comprend la construction de nouvelles bases aériennes et la fourniture d'avions de chasse pour tous les participants au système."
@@ -184,4 +184,4 @@
  intermarium_events.19.b:0 "Nous sommes prêts à nous défendre et à défendre nos voisins!"
  intermarium_events.19.c:0 "Nous sommes prêts à nous défendre!"
  intermarium_events.19.b.tt:0 "Jusqu'à ce que §H[FRA.GetNameDef]§! ait capitulé, ni §H[GER.GetNameDef]§! ni leurs alliés n’enverront de divisions à nos frontières, et nous affronterons les Russes seuls.\nLes pays participant à la §Hcoopération de défense en l'Europe de l'Est§! seront toujours capables de se défendre les uns les autres.\n\n§RAVERTISSEMENT: Cela rendra la guerre avec la Russie un peu plus difficile.§!"
- intermarium_events.19.c.tt:0 "Jusqu'à ce que §H[FRA.GetNameDef]§! ait capitulé, ni §H[GER.GetNameDef]§! ni leurs alliés n’enverront de divisions à un l'un des membres de la §Hcoopération de défense en l'Europe de l'Est§!.\n\n§RAVERTISSEMENT: Cela rendra la guerre avec la Russie plus difficile et ils gagneront du matériel d'infanterie supplémentaire.§!"
+ intermarium_events.19.c.tt:9 "Jusqu'à ce que §H[FRA.GetNameDef]§! ait capitulé, ni §H[GER.GetNameDef]§! ni leurs alliés n’enverront de divisions à un l'un des membres de la §Hcoopération de défense en l'Europe de l'Est§!.\n\n§RAVERTISSEMENT : Cela rendra la guerre avec la Russie plus difficile et ils gagneront du $infantry_equipment$ supplémentaire.§!"

@@ -3,10 +3,10 @@
 West_Indies_Federation: "Arbre de priorité des Antilles"
 
 ### Parties ###
- WIF_totalist_party_long: "Front Revolutionnaire"
+ WIF_totalist_party_long: "Front Révolutionnaire"
  WIF_totalist_party: "FR"
 
- WIF_syndicalist_party_long: "Resistance Nationale"
+ WIF_syndicalist_party_long: "Résistance Nationale"
  WIF_syndicalist_party: "RN"
 
  WIF_radical_socialist_party_long: "Coalition pour la liberté"
@@ -288,7 +288,7 @@ west_indies_stable_time: "Le soutien politique de gauche va fortement diminuer e
 
 ### Social Turmoil ###
  WIF_angereffects_modifier: "£pol_idea Turbulences sociales"
- WIF_angereffect_idea:9 "Troubles Sociaux\n§W--------------§!\n§gBien que politiquement uni, le [ROOT.GetName] est socialement divisé. Les forces loyalistes et socialistes se disputent la domination de la vie publique, tandis que l'identité localiste se développe lentement au sein des nombreuses îles, culturellement très diverses du pays.\n\n[WIF_coupornotloc]§YMises à jour de manière dynamique:§!\n§W-----------------------\nTension actuelle avec les§! §YSocialistes§!§W:§! [WIF_socornot]\n§WTension actuelle avec l'§! §YEmpire§!§W:§! [WIF_britornot]\n\n§W$MODIFIER_STABILITY_FACTOR$:§! [?WIF.var_wif_stability|=%+]\n§W$MODIFIER_WAR_SUPPORT_FACTOR$:§! [?WIF.var_wif_war_support|=%+]\n§W$MODIFIER_POLITICAL_POWER_FACTOR$:§! [?WIF.var_wif_pol_power|=%+]"
+ WIF_angereffect_idea:9 "Troubles Sociaux\n§W--------------§!\n§gBien que politiquement uni, le [ROOT.GetName] est socialement divisé. Les forces loyalistes et socialistes se disputent la domination de la vie publique, tandis que l'identité localiste se développe lentement au sein des nombreuses îles, culturellement très diverses du pays.§!\n\n[WIF_coupornotloc]§YMises à jour de manière dynamique:§!\n§W-----------------------\nTension actuelle avec les§! §YSocialistes§!§W:§! [WIF_socornot]\n§WTension actuelle avec l'§! §YEmpire§!§W:§! [WIF_britornot]\n\n§W$MODIFIER_STABILITY_FACTOR$:§! [?WIF.var_wif_stability|=%+]\n§W$MODIFIER_WAR_SUPPORT_FACTOR$:§! [?WIF.var_wif_war_support|=%+]\n§W$MODIFIER_POLITICAL_POWER_FACTOR$:§! [?WIF.var_wif_pol_power|=%+]"
  WIF_angereffect_idea_desc: "Notes sur le calcul :\n- Les effets de base sont calculés de manière linéaire. Cinq points de stabilité ou cinq pour cent de gain de pouvoir politique sont soustraits pour chaque niveau de colère socialiste ou impérial légèrement supérieur respectivement.\n- Pour des niveaux de colère moyens ou plus élevés, le soutien de guerre est déduit sur la même échelle.\n-  Sous un gouvernement socialiste ou impérial, alors que les malus de la faction au pouvoir sont évidemment niées, les malus de l'autre faction sont intensifiées. Cela n'affecte pas le seuil à partir duquel un coup d'État peut avoir lieu."
 
  WIF_socialistangerloc_very_low:9 "§CTrès Bas ([?WIF_socialist_anger])§!"
@@ -303,7 +303,7 @@ west_indies_stable_time: "Le soutien politique de gauche va fortement diminuer e
  WIF_britishangerloc_high:9 "§OHaut ([?WIF_british_anger])§!"
  WIF_britishangerloc_very_high:9 "§RTrès Haut ([?WIF_british_anger])§!"
 
- WIF_coupornotloc_yes:9 "Si la tension d'un groupe atteint un§! §gniveau §RTrès Haut§!, un §Rcoup d'État§! peut être lancé.§!\n\n"
+ WIF_coupornotloc_yes:9 "§gSi la tension d'un groupe atteint un§! §gniveau §RTrès Haut§!, un §Rcoup d'État§! peut être lancé.§!\n\n"
 
  WIF_socornot_yes: "§WN/A§!"
  WIF_socornot_no: "[WIF_socialistangerloc]"
@@ -358,7 +358,7 @@ west_indies_stable_time: "Le soutien politique de gauche va fortement diminuer e
  WIF_integration_process_NCP_federal_institute_desc: "L'Institut fédéral des Antilles sera un organe consultatif chargé d'organiser le processus d'intégration."
 
  WIF_integration_process_NCP_category: "Processus d'intégration"
- WIF_integration_process_NCP_category_desc:9 "Consolidation-c'est notre priorité. Nous devons mener à bien l'unification de notre patrie. Nous devons le faire le plus rapidement possible. Ceci sera évalué par le taux d'intégration. En fonction de sa valeur après l'expiration du timer, nous recevrons une évaluation appropriée. \n\nNiveaux de taux d'intégration:\n§G100-80%\n§H80-50%\n§R50-30%\n§R0-30%\n\n§gOur taux d'intégration actuel: [?wifint]%§!"
+ WIF_integration_process_NCP_category_desc:9 "Consolidation-c'est notre priorité. Nous devons mener à bien l'unification de notre patrie. Nous devons le faire le plus rapidement possible. Ceci sera évalué par le taux d'intégration. En fonction de sa valeur après l'expiration du timer, nous recevrons une évaluation appropriée. \n\nNiveaux de taux d'intégration :\n§G100-80%§!\n§H80-50%§!\n§R50-30%§!\n§R0-30%§!\n\n§gOur taux d'intégration actuel : [?wifint]%§!"
 
  WIF_integration_process_NCP_timer: "Chronomètre d'intégration"
  WIF_integration_process_NCP_timer_desc: "A la fin du chronomètre, nous recevrons une évaluation défintive de l'éfficacité du processus. S'il est assez haut, nous réintégrerons les anciennes colonies Françaises."
@@ -462,7 +462,7 @@ palpcoaltion3_2: "§YLe gouvernement à été formé.§!"
  WIF_country_intro_header:0 "Présentation de la Fédération des Antilles"
  WIF_country_intro_content:0 "La Fédération des Antilles a connu une histoire troublée depuis sa création, avec ce qui était au départ une division entre les Anglais qui voulaient et ne voulaient pas incorporer les colonies françaises, évoluant vers une scission complète entre la culture française et britannique. La victoire du NCP (National Consolidation Party) aux élections de 1925 a entraîné l'incorporation des colonies françaises, mais avec de profondes racines socialistes en elles, cela a immédiatement tourné au chaos.\n\nCela s'est terminé par la victoire de l'UP (Parti de l'Unité) et la signature de l'accord de Cayenne en 1931. Celui-ci établit la possibilité pour les Français de créer leurs propres partis et leur accorde une plus grande autonomie que les colonies britanniques. Si cette démarche a bien tourné au début, elle semble n'avoir fait qu'accroître les tensions à long terme, la droite modérée exigeant l'abrogation de l'ensemble de l'accord et son remplacement par un nouvel accord, tandis que la gauche veut accroître encore l'autonomie des Français ou de tous les territoires de la Fédération.\n\nUn nouveau parti, le PA (Parti pour l'Autonomie), un immense maillage de socialistes et de libéraux français ainsi qu'un petit nombre de politiciens britanniques de gauche destinés à représenter la gauche, a été créé en 1933. En partie en réponse à cela, le NCP n'a cessé de gagner en puissance et en popularité, car une grande partie de la population britannique a le sentiment d'avoir été malmenée par l'accord de Cayenne. Après avoir échappé de justesse aux élections de 1933, le Parti de l'Unité se trouve dans une position dangereuse."
 
- WIF_guide:9 "§MVictoire PA-PNP§! (§SSociaux-Démocrates§!)\n£white_dot Ne pas réaliser plus d'une priorité de réforme de la Commission Moyne avant que celle-ci ne rende son rapport, et le §SPA-PNP§! pourra être élu lors des élections fédérales. \n\n§MVictoire PA-LP§! (§lSociaux-Libéraux§!)\n£white_dot Réaliser au moins deux priorités de réforme de la Commission Moyne avant que celle-ci ne rende son rapport, et le §lPA-LP§! pourra être élue lors des élections fédérales.\n\n§MVictoire de l'Unité§! (§mLibéraux Économiques§!)\n£white_dot Réaliser au moins une priorité de réforme de la Commission Moyne avant que la Commission Moyne ne rende son rapport et le §mParti de l'Unité§! pourra être élu aux élections fédérales.\n\n§MVictoire NCP§! (§cSociaux-Conservateurs§!)\n£white_dot Il suffit de choisir le §cNCP§! comme vainqueur des élections fédérales. Il sera toujours disponible, quel que soit le nombre de priorités de la Commission Moyne pris ou non.\n\n§MLe Push du Gouverneur§! (§aDémocrates Autoritaires§!)\n£white_dot Si vous êtes en paix et que les tensions avec l'Empire sont égales ou supérieures à 80, le coup d'État sera déclenché de manière aléatoire. \n£white_dot Si vous complétez la priorité "§YRestaurer la Démocratie§!", vous pourrez élire n'importe lequel des partis ci-dessus, dans les mêmes conditions.\n\n§MRévolution§! - §MLabour Party§! / §MPeople’s Party§! / §MButler Party§! (§RRadicaux-Socialistes§! / §rSyndicalistes§!)\n£white_dot Si les tensions socialistes sont égales ou supérieures à 80, la révolution se déclenchera de manière aléatoire.\n£white_dot Après avoir choisi la priorité "§YDémocratie Socialiste§!", vous pourrez élire le §RLabour Party§!, le §RPeople’s Party§!, ou le §rButler Party§!.\n\n§CRemarque : si les tensions avec l'Empire ou les socialistes sont supérieures à 89, le coup d'État ou la révolution seront accélérés, tandis que si elles sont supérieures à 98, l'événement se produira encore plus rapidement.§!"
+ WIF_guide:9 "§MVictoire PA-PNP§! ($social_democrat_coloured$)\n£white_dot Ne pas réaliser plus d'une priorité de réforme de la Commission Moyne avant que celle-ci ne rende son rapport, et le §SPA-PNP§! pourra être élu lors des élections fédérales. \n\n§MVictoire PA-LP§! ($social_liberal_coloured$)\n£white_dot Réaliser au moins deux priorités de réforme de la Commission Moyne avant que celle-ci ne rende son rapport, et le §lPA-LP§! pourra être élue lors des élections fédérales.\n\n§MVictoire de l'Unité§! ($market_liberal_coloured$)\n£white_dot Réaliser au moins une priorité de réforme de la Commission Moyne avant que la Commission Moyne ne rende son rapport et le §mParti de l'Unité§! pourra être élu aux élections fédérales.\n\n§MVictoire NCP§! ($social_conservative_coloured$)\n£white_dot Il suffit de choisir le §cNCP§! comme vainqueur des élections fédérales. Il sera toujours disponible, quel que soit le nombre de priorités de la Commission Moyne pris ou non.\n\n§MLe Push du Gouverneur§! ($authoritarian_democrat_coloured$)\n£white_dot Si vous êtes en paix et que les tensions avec l'Empire sont égales ou supérieures à 80, le coup d'État sera déclenché de manière aléatoire. \n£white_dot Si vous complétez la priorité "§YRestaurer la Démocratie§!", vous pourrez élire n'importe lequel des partis ci-dessus, dans les mêmes conditions.\n\n§MRévolution§! - §MLabour Party§! / §MPeople’s Party§! / §MButler Party§! ($radical_socialist_coloured$ / $syndicalist_coloured$)\n£white_dot Si les tensions socialistes sont égales ou supérieures à 80, la révolution se déclenchera de manière aléatoire.\n£white_dot Après avoir choisi la priorité "§YDémocratie Socialiste§!", vous pourrez élire le §RLabour Party§!, le §RPeople’s Party§!, ou le §rButler Party§!.\n\n§CRemarque : si les tensions avec l'Empire ou les socialistes sont supérieures à 89, le coup d'État ou la révolution seront accélérés, tandis que si elles sont supérieures à 98, l'événement se produira encore plus rapidement.§!"
 
 ### Events ###
  west_indies_federation_politics_events.2.t:0 "Grèves paysannes en Guadeloupe"
@@ -1505,16 +1505,16 @@ palpcoaltion3_2: "§YLe gouvernement à été formé.§!"
  WIF_war_effort_desc: "En raison de la guerre actuelle, nous nous trouvons dans une légère pénurie de matériel et d'équipement pour nos hommes sur le front, et c'est donc une priorité pour notre gouvernement d'investir dans de nouvelles usines pour produire le matériel dont nos hommes ont grandement besoin sur le terrain."
 
 ### Country Names ###
- WIF: "Antilles"
- WIF_ADJ: "Antillais"
- WIF_DEF: "les Antilles"
+ WIF: "Indes Occidentales"
+ WIF_ADJ: "Indo-Occidental"
+ WIF_DEF: "les Indes Occidentales"
 
- WIF_totalist: "Union des Indes occidentales"
- WIF_totalist_DEF: "l'Union des Indes occidentales"
- WIF_syndicalist: "Union des Indes occidentales"
- WIF_syndicalist_DEF: "l'Union des Indes occidentales"
- WIF_radical_socialist: "Union des Indes occidentales"
- WIF_radical_socialist_DEF: "l'Union des Indes occidentales"
+ WIF_totalist: "Union des Indes Occidentales"
+ WIF_totalist_DEF: "l'Union des Indes Occidentales"
+ WIF_syndicalist: "Union des Indes Occidentales"
+ WIF_syndicalist_DEF: "l'Union des Indes Occidentales"
+ WIF_radical_socialist: "Union des Indes Occidentales"
+ WIF_radical_socialist_DEF: "l'Union des Indes Occidentales"
  WIF_social_democrat: "Fédération des Indes Occidentales"
  WIF_social_democrat_DEF: "la Fédération des Indes Occidentales"
  WIF_social_liberal: "Fédération des Indes Occidentales"
@@ -1528,7 +1528,7 @@ palpcoaltion3_2: "§YLe gouvernement à été formé.§!"
  WIF_paternal_autocrat: "Fédération des Indes Occidentales"
  WIF_paternal_autocrat_DEF: "la Fédération des Indes Occidentales"
  WIF_national_populist: "État des Caraïbes"
- WIF_national_populist_ADJ: "des Caraïbes"
+ WIF_national_populist_ADJ: "Caribéen"
  WIF_national_populist_DEF: "l'État des Caraïbes"
 
  WIF_confederation_totalist: "Union des Indes occidentales"
@@ -1537,20 +1537,20 @@ palpcoaltion3_2: "§YLe gouvernement à été formé.§!"
  WIF_confederation_syndicalist_DEF: "l'Union des Indes occidentales"
  WIF_confederation_radical_socialist: "Union des Indes occidentales"
  WIF_confederation_radical_socialist_DEF: "l'Union des Indes occidentales"
- WIF_confederation_social_democrat: "Confédération des Caraïbes"
- WIF_confederation_social_democrat_DEF: "la Confédération des Caraïbes"
- WIF_confederation_social_liberal: "Confédération des Caraïbes"
- WIF_confederation_social_liberal_DEF: "la Confédération des Caraïbes"
- WIF_confederation_market_liberal: "Confédération des Caraïbes"
- WIF_confederation_market_liberal_DEF: "la Confédération des Caraïbes"
- WIF_confederation_social_conservative: "Confédération des Caraïbes"
- WIF_confederation_social_conservative_DEF: "la Confédération des Caraïbes"
- WIF_confederation_authoritarian_democrat: "Confédération des Caraïbes"
- WIF_confederation_authoritarian_democrat_DEF: "la Confédération des Caraïbes"
- WIF_confederation_paternal_autocrat: "Confédération des Caraïbes"
- WIF_confederation_paternal_autocrat_DEF: "la Confédération des Caraïbes"
+ WIF_confederation_social_democrat: "Confédération des Indes Occidentales"
+ WIF_confederation_social_democrat_DEF: "la Confédération des Indes Occidentales"
+ WIF_confederation_social_liberal: "Confédération des Indes Occidentales"
+ WIF_confederation_social_liberal_DEF: "la Confédération des Indes Occidentales"
+ WIF_confederation_market_liberal: "Confédération des Indes Occidentales"
+ WIF_confederation_market_liberal_DEF: "la Confédération des Indes Occidentales"
+ WIF_confederation_social_conservative: "Confédération des Indes Occidentales"
+ WIF_confederation_social_conservative_DEF: "la Confédération des Indes Occidentales"
+ WIF_confederation_authoritarian_democrat: "Confédération des Indes Occidentales"
+ WIF_confederation_authoritarian_democrat_DEF: "la Confédération des Indes Occidentales"
+ WIF_confederation_paternal_autocrat: "Confédération des Indes Occidentales"
+ WIF_confederation_paternal_autocrat_DEF: "la Confédération des Indes Occidentales"
  WIF_confederation_national_populist: "État des Caraïbes"
- WIF_confederation_national_populist_ADJ: "des Caraïbes"
+ WIF_confederation_national_populist_ADJ: "Caribéen"
  WIF_confederation_national_populist_DEF: "l'État des Caraïbes"
 
  ANT: "Antilles-Guyana"
@@ -1558,10 +1558,10 @@ palpcoaltion3_2: "§YLe gouvernement à été formé.§!"
  ANT_DEF: "les Antilles-Guyana"
 
  GYA: "Guyana"
- GYA_ADJ: "Guyanien"
+ GYA_ADJ: "Guyanais"
  GYA_DEF: "la Guyana"
 
- JAM: "la Jamaïque"
+ JAM: "Jamaïque"
  JAM_ADJ: "Jamaïcain"
  JAM_DEF: "la Jamaïque"
 
@@ -1673,8 +1673,6 @@ palpcoaltion3_2: "§YLe gouvernement à été formé.§!"
 
  WIF_andrew_cunningham: "Andrew Cunningham"
  WIF_andrew_cunningham_navy_chief_desc:9 "§YNaissance :§! §L7 janvier 1883, à Dublin, Irlande§!"
-
- WIF_harry_cordeaux_commander_desc:9 "§YNaissance :§! §L15 novembre 1870 à Poona, Présidence de Bombay, Inde britannique§!\n§YCarrière :§! §LSir Harry Edward Spiller Cordeaux est né à Poona, en Inde, parce que son père était juge à Bombay. De retour en Grande-Bretagne pour ses études, il rejoint le corps d'état-major indien en 1896. Il passe rapidement de l'armée au poste colonial, devenant consul du Somaliland de 1904 à 1906, puis commissaire et commandant en chef. Devenu gouverneur de l'Ouganda en 1910, il a contribué à la construction d'infrastructures dans la région avant d'être muté sur l'île isolée de Sainte-Hélène jusqu'en 1921, où, après la Grande Guerre, il a été nommé gouverneur des Bahamas, poste qu'il occupe encore aujourd'hui, succédant à Bede Clifford. Il a fait beaucoup de choses remarquables sur l'île, comme la réforme des cours suprêmes et l'amélioration du port de Nassau. Il est aimé par la population, mais on parle généralement de lui au sein de l'état-major comme d'un gouverneur plutôt que d'un véritable général.§!\n\n§YNotes : Gouverneur des Bahamas. Il a plus d'expérience en tant que gouverneur qu'en tant que général. Il a réussi à maintenir l'agitation aux Bahamas à un niveau historiquement bas grâce à un développement mineur, certains prédisant que si les Antilles se révoltent, les Bahamas pourraient rester fidèles à la famille royale.§!"
 
  WIF_denis_bernard: "Denis Bernard"
  WIF_denis_bernard_high_command_desc:9 "§YNaissance :§! §L22 octobre 1882, à Londres, Angleterre§!"

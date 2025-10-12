@@ -79,7 +79,7 @@
  # Tooltips
  FER_change_japanese_favours_tt:9 "[JAP.GetFlag] §Rfaveurs§! de Tokyo changera de [?RUS_favour_change|=+0]\n"
  FER_japanese_assistance_may_change_tt:9 "L'esprit national §Y$FER_japanese_assistance$§! peut changer."
- FER_holy_squads_tt:9 "Forme des divisions §0Diterikhsite§! dans §YBlagoveshchensk§!. Le nombre d'unités engendrées augmente en fonction de l'équilibre des forces du côté des §0Diterikhs§!."
+ FER_holy_squads_tt:9 "Le nombre d'unités engendrées augmente en fonction de l'équilibre des forces du côté des §0Diterikhs§!."
  FER_expand_honghuzi_tt:9 "Le nombre d'unités générées augmente en fonction de l'équilibre des pouvoirs du côté de §PSemyonov§!."
  decision_cost_army_xp_50_pp_50:9 "£army_experience §H50§!  £pol_power §H50§!"
  decision_cost_army_xp_50_pp_50_blocked:9 "£army_experience §R50§!  £pol_power §R50§!"
@@ -96,18 +96,18 @@
  FER_constitution_restored:9 "A rétabli la Constitution Républicaine"
  FER_hetman_constitution:9 "A crée la Constitution de Semionov"
 
- FER_if_moscow_taken_masters_of_siberia_bypass:9 "If we own §Y[219.GetName]§!, this focus will be §Ybypassed§! and all the effects below will be executed."
- FER_if_moscow_taken_masters_of_siberia_bypass_2:9 "If we own §Y[219.GetName]§!, the focus §Y$FER_masters_over_siberia$§! will be §Ybypassed§! if not already completed and most of its effects will be executed."
+ FER_if_moscow_taken_masters_of_siberia_bypass:9 "Si nous possédons §Y[219.GetName]§!, cette priorité sera §Yatteinte§! et tous les effets ci-dessous seront exécutés."
+ FER_if_moscow_taken_masters_of_siberia_bypass_2:9 "Si nous possédons §Y[219.GetName]§!, la priorité §Y$FER_masters_over_siberia$§! sera §Yatteinte§! si elle n'est pas déjà terminé et la plupart de ses effets seront exécutés."
 
  ### Decisions ###
  FER_ride_to_west:9 "En route vers l'Ouest"
  FER_ride_to_west_desc:9 "[FER_ride_to_west_scripted]"
- FER_ride_to_west_socrus:9 "Ура! Les tirailleurs sibériens et les braves cosaques de Sibérie marchent à nouveau contre la menace rouge ! Notre chemin sera peut-être long et difficile, mais avec une persévérance et une foi absolues, nous vaincrons nos ennemis impies. Suivez-moi, mes amis : il y a trois mille milles jusqu'à l'Oural et au-delà !\n\n§CNous devons atteindre au moins Irkoutsk avant de pouvoir rêver de paix – ou mourir en essayant."
- FER_ride_to_west_savinkov:9 "Ура! Le tyran siège au Kremlin : un terroriste qui méprise la tradition, un nihiliste qui glorifie le péché. Il a enlevé les droits ancestraux des Cosaques, ses sbires détruisent tout ce qui est sacré en Russie. Cela ne peut pas durer ! Réveillez-vous, hommes de Sibérie !\n\n§CNous devons atteindre au moins Irkoutsk avant de pouvoir rêver de paix – ou mourir en essayant."
+ FER_ride_to_west_socrus:9 "Ура! Les tirailleurs sibériens et les braves cosaques de Sibérie marchent à nouveau contre la menace rouge ! Notre chemin sera peut-être long et difficile, mais avec une persévérance et une foi absolues, nous vaincrons nos ennemis impies. Suivez-moi, mes amis : il y a trois mille milles jusqu'à l'Oural et au-delà !\n\n§CNous devons atteindre au moins Irkoutsk avant de pouvoir rêver de paix – ou mourir en essayant.§!"
+ FER_ride_to_west_savinkov:9 "Ура! Le tyran siège au Kremlin : un terroriste qui méprise la tradition, un nihiliste qui glorifie le péché. Il a enlevé les droits ancestraux des Cosaques, ses sbires détruisent tout ce qui est sacré en Russie. Cela ne peut pas durer ! Réveillez-vous, hommes de Sibérie !\n\n§CNous devons atteindre au moins Irkoutsk avant de pouvoir rêver de paix – ou mourir en essayant.§!"
  FER_defend_siberia:9 "Défendre la Sibérie"
  FER_defend_siberia_tt_1:9 "§CPuisque nous occupons actuellement §YTcheliabinsk§! et §YEkaterinbourg§! , nous §Ggagnerons toute la Sibérie§! quand la guerre sera terminée!§!"
  FER_defend_siberia_tt_2:9 "§CDans notre situation actuelle, la guerre se terminera par une paix blanche. Si nous prenons §YTcheliabinsk§! et §YEkaterinbourg§! , nous §Ggagnerons toute la Sibérie§! lorsque la guerre se terminera.§!"
- FER_defend_siberia_tt_3:9 "§CDans notre situation actuelle dans la guerre, la [RSA.GetNameDef] §rn'acceptera pas d'offre de paix §!. Continuez à vous battre!§!"
+ FER_defend_siberia_tt_3:9 "§CDans notre situation actuelle dans la guerre, [RSA.GetNameDef] §rn'acceptera pas d'offre de paix §!. Continuez à vous battre!§!"
  FER_secure_far_east:9 "Sécuriser l'Extrême-Orient"
  FER_take_chita:9 "Sécuriser Chita"
  FER_take_irkutsk:9 "Sécuriser le Baïkal"
@@ -178,8 +178,8 @@
  FER_air_force:9 "Forces aériennes russes"
  FER_navy:9 "Marine russe"
  FER_reactionary_resistance:0 "Résistance Réactionnaire"
- FER_socialist_reconstruction:9 "Socialist Reconstruction"
- FER_socialist_reconstruction_3:9 "New Far East Economy"
+ FER_socialist_reconstruction:9 "Reconstruction socialiste"
+ FER_socialist_reconstruction_3:9 "Nouvelle économie de l'Extrême-Orient"
 
 ### Focus tree ###
  FER_focus:9 "Arbre de priorités d'Extrême-Orient"
@@ -354,21 +354,21 @@
  FER_revenge_for_1905_desc:9 "Les Japonais ont eu tort de croire qu'ils pourraient financer notre rébellion et nous utiliser à leurs propres fins. Pensant apparemment qu'ils pourraient utiliser l'Extrême-Orient comme un tampon contre la Russie, leur plan a échoué de manière spectaculaire, et nous sommes maintenant en position de leur rendre la monnaie de leur pièce pour tous les ennuis qu'ils nous ont causés il y a des années. Comme lors de la dernière résistance du célèbre croiseur Varyag, nous nous battrons jusqu'au bout !"
  FER_eradicate_western_influence:9 "Éradication de l’influence occidentale"
  FER_eradicate_western_influence_desc:9 "La Mère Russie, défenseur de la foi orthodoxe, a été détruite par la modernité et l'occidentalisme depuis l'accession au trône de Pierre. Considérant tout ce qui était traditionnel et enraciné dans la foi comme « arriéré », ils ont déclaré la guerre à l'esprit russe. Mais cet esprit n'est pas mort - et ce n'est qu'en détruisant les bellicistes modernistes que nous pouvons être sûrs qu'il reste enflammé."
- FER_eradicate_western_influence_tt:9 "Déclare la guerre à toutes les nations §mLibérales de marché§!, §lSociales-libérales§!, §SSociales-démocrates§!, §RRadicales-socialistes§!, §rSyndicalistes§!, et §oTotalistes§!."
+ FER_eradicate_western_influence_tt:9 "Déclare la guerre à toutes les nations européennes $market_liberal_coloured$, $social_liberal_coloured$, $social_democrat_coloured$, $radical_socialist_coloured$, $syndicalist_coloured$ et $totalist_coloured$."
  FER_join_old_allies:9 "Raviver l'ancienne alliance"
  FER_join_old_allies_desc:9 "L'Entente a été à la fois une amie et une ennemie des circonstances. Dans la nouvelle ère où l'Allemagne tente de consolider sa domination sur le monde, l'Entente est le seul bastion qui lui résiste. L'inclusion de la Russie dans ce bloc de puissances rappellerait au moins à Berlin que ses ennemis ont été abattus, mais qu'ils ne disparaitront jamais."
 
  ### Socialist Puppet ###
- FER_red_vladivostok:9 "Red Vladivostok"
- FER_crush_the_reactionaries:9 "Crush the Reactionaries"
- FER_secure_regional_allies:9 "Secure Regional Allies"
- FER_foster_socialist_education:9 "Foster Socialist Education"
- FER_create_the_pra:9 "Create the PRA"
- FER_revolution_of_the_east:9 "Revolution of the East"
- FER_revive_the_port_of_vladivostok:9 "Revive the Port of Vladivostok"
- FER_rebuild_the_mining_industry:9 "Rebuild the Mining Industry"
- FER_expand_the_fishery_industry:9 "Expand the Fishery Industry"
- FER_build_political_legitimacy:9 "Build Political Legitimacy"
+ FER_red_vladivostok:9 "Vladivostok rouge"
+ FER_crush_the_reactionaries:9 "Écraser les réactionnaires"
+ FER_secure_regional_allies:9 "S'assurer des alliés régionaux"
+ FER_foster_socialist_education:9 "Favoriser l'éducation socialiste"
+ FER_create_the_pra:9 "Créer l'ARP"
+ FER_revolution_of_the_east:9 "Révolution de l'Orient"
+ FER_revive_the_port_of_vladivostok:9 "Relancer le port de Vladivostok"
+ FER_rebuild_the_mining_industry:9 "Reconstruire l'industrie minière"
+ FER_expand_the_fishery_industry:9 "Développer l'industrie de la pêche"
+ FER_build_political_legitimacy:9 "Renforcer la légitimité politique"
 
 ### Intro Screen ###
  FER_country_intro_background:9 "GFX_FER_intro"
@@ -381,7 +381,7 @@
  FER_country_intro_header_3:9 "$RUS_country_intro_header_3$"
  FER_country_intro_content_3:9 "$RUS_country_intro_content_3$"
 
- FER_guide:9 "§MSemionov - Sauveur de la République / Hetmanat russe§! (§aDémocrates Autoritaires§! / §PAutocrates Paternalistes§!)\n£white_dot Restez §PAutocrate paternaliste§! dans l'§Yéquilibre du pouvoir§!.\n£white_dot Après la défaite de la Russie lors de la Seconde Weltkrieg, achevez la priorité nationale §Y$FER_rival_government$§! et conquérez le reste de la Russie.\n£white_dot Choisissez le sous-chemin en sélectionnant soit la priorité §Y$FER_saviour_of_republic$§! soit §Y$FER_russian_hetmanate$§! .\n\n§MSemionov - République de Sibérie / Atamanat de Sibérie§! (§aDémocrates Autoritaires§! / §PAutocrates Paternalistes§!)\n£white_dot Restez §PAutocrate Paternaliste§! dans l'§Yéquilibre du pouvoir§!.\n£white_dot Après la défaite de la Russie lors de la Seconde Weltkrieg, complétez la priorité nationale §Y$FER_home_in_east$§! .\n£white_dot Choisissez le sous-chemin en sélectionnant soit la priorité §Y$FER_siberian_republic$§! soit §Y$FER_siberian_hetmanate$§! .\n\n§MDiterikhs - Sainte Rus'§! (§nNationaux-Populistes§!)\n£white_dot Devenez un §nNational Populiste§! dans l'§Yéquilibre des pouvoirs§! en atteignant la fin des Diterikhs.\n£white_dot Après la défaite de la Russie lors de la Seconde Weltkrieg, achevez la priorité nationale §Y$FER_rival_government$§! et conquérez le reste de la Russie."
+ FER_guide:9 "§MSemionov - Sauveur de la République / Hetmanat russe§! ($authoritarian_democrat_coloured$ / $paternal_autocrat_coloured$)\n£white_dot Restez $paternal_autocrat_coloured$ dans l'§Yéquilibre du pouvoir§!.\n£white_dot Après la défaite de la Russie lors de la Seconde Weltkrieg, achevez la priorité nationale §Y$FER_rival_government$§! et conquérez le reste de la Russie.\n£white_dot Choisissez le sous-chemin en sélectionnant soit la priorité §Y$FER_saviour_of_republic$§! soit §Y$FER_russian_hetmanate$§! .\n\n§MSemionov - République de Sibérie / Atamanat de Sibérie§!  ($authoritarian_democrat_coloured$ / $paternal_autocrat_coloured$)\n£white_dot Restez $paternal_autocrat_coloured$ dans l'§Yéquilibre du pouvoir§!.\n£white_dot Après la défaite de la Russie lors de la Seconde Weltkrieg, complétez la priorité nationale §Y$FER_home_in_east$§! .\n£white_dot Choisissez le sous-chemin en sélectionnant soit la priorité §Y$FER_siberian_republic$§! soit §Y$FER_siberian_hetmanate$§! .\n\n§MDiterikhs - Sainte Rus'§! ($national_populist_coloured$)\n£white_dot Devenez $national_populist_coloured$ dans l'§Yéquilibre des pouvoirs§! en atteignant la fin des Diterikhs.\n£white_dot Après la défaite de la Russie lors de la Seconde Weltkrieg, achevez la priorité nationale §Y$FER_rival_government$§! et conquérez le reste de la Russie."
 
 ### Events ###
  russia_far_east_events.1.t:0 "Bureau pour la libération de la Russie"
@@ -595,7 +595,7 @@
  russia_far_east_events.47.a:0 "Excellent."
 
  russia_far_east_events.48.t:0 "Exportations de bombardiers Mitsubishi"
- russia_far_east_events.48.d:9 "We have avoided making any too great commitments to [FER.GetLeader]'s rogue government - so, naturally, it was not taken well when we found out that Mitsubishi sold tactical bombers to [FER.GetNameDef]. In negotiations with minister [FER.GetSecondInCommand], Mitsubishi representatives had agreed to sell a sizable amount of Ki-2 medium bombers to the Russian rebels, greatly increasing their striking power."
+ russia_far_east_events.48.d:9 "Nous avons évité de prendre des engagements trop importants envers le gouvernement voyou de [FER.GetLeader]. C'est pourquoi nous avons été mal accueillis lorsque nous avons appris que Mitsubishi avait vendu des bombardiers tactiques à [FER.GetNameDef]. Lors de négociations avec le ministre [FER.GetSecondInCommand], les représentants de Mitsubishi avaient accepté de vendre une quantité importante de bombardiers moyens Ki-2 aux rebelles russes, augmentant ainsi considérablement leur puissance de frappe."
  russia_far_east_events.48.a:0 "Interdire toute nouvelle importation."
 
  russia_far_east_events.49.t:0 "[FER.GetName] recherche une alliance officielle"
@@ -717,7 +717,7 @@
  russia_far_east_events.90.d:0 "Les rapports sur les lignes de front sont rares, mais les derniers en date sont sombres. L'Empire allemand est tombé aux mains de forces adverses et les forces du Kremlin ont triomphé de manière décisive, sans doute désireuses de se tourner vers l'Est et de mettre un terme à notre rébellion une fois pour toutes. Le seul moyen d'éviter l'inévitable serait peut-être de faire appel à une intervention directe des Japonais, même si cela nous rendrait encore plus dépendants de Tokyo."
  russia_far_east_events.90.a:0 "Demandez à Tokyo de conclure un cessez-le-feu."
  russia_far_east_events.90.b:0 "Non, on continue à se battre !"
- russia_far_east_events.90.a.tt:9 "We will keep all lands that we currently occupy from [RUS.GetNameDef] in the Russian Far East and peace out with them, becoming a puppet of [JAP.GetNameDef]."
+ russia_far_east_events.90.a.tt:9 "Nous garderons toutes les terres que nous occupons actuellement de [RUS.GetNameDef] dans l'Extrême-Orient russe et nous ferons la paix avec eux, devenant ainsi une marionnette de [JAP.GetNameDef]."
 
  russia_far_east_events.91.t:0 "Cessez-le-feu en Extrême-Orient"
  russia_far_east_events.91.d:0 "Du fait de notre victoire à l'ouest, les bandits de l'armée d'Extrême-Orient se sont précipités pour trouver une solution - et ils semblent avoir un atout dans leur manche. Les troupes japonaises ont rapidement occupé l'Extrême-Orient et nous ont empêchés d'avancer plus loin. Un cessez-le-feu a été conclu à la hâte et les Japonais promettent une solution à long terme au problème sibérien - même si nous savons bien qu'ils sont pleins de mensonges. Nous reprendrons Vladivostok, tôt ou tard."
@@ -798,9 +798,9 @@
 
  ### News event
  russia_far_east_events.1000.t:0 "L'armée d'Extrême-Orient unifie la Russie"
- russia_far_east_events.1000.d:0 "Dans une tournure surprenante des évènements, la petite faction rebelle qui a commencé son combat à partir de la rébellion d'Amour-Oussouri en Sibérie, et qui s'est depuis développée pour englober toute la Russie, a déclaré sa victoire et l'organisation d'un nouveau gouvernement sous sa supervision.\n\n[FER_unification_news_event_desc]"
- russia_far_east_events.1000.semyonov:0 "Ce nouveau gouvernement russe sera dirigé par l'Ataman Grigori Semyonov, un ancien chef de guerre cosaque exilé qui aurait été soutenu par les services de renseignements japonais et dont la réputation de banditisme et d'actes sans scrupules s'est répandue très loin.\nIl reste à voir comment ce nouveau gouvernement s'organisera, car malgré certaines promesses d'organiser des élections libres, beaucoup soupçonnent la création d'un régime personnaliste autour de Semionov."
- russia_far_east_events.1000.diterikhs:0 "Ce nouveau gouvernement russe sera dirigé par Mikhaïl Diterikhs, un général monarchiste ultra-réactionnaire, qui a pris le contrôle de la rébellion après l'éviction de son ancien chef, Grigori Semyonov. Le général Diterikhs a ouvertement exprimé son désir de restauration d'une monarchie russe sur le modèle de l'ancien Tsarat. Beaucoup de choses restent encore incertaines concernant la direction de ce nouveau régime, mais de nombreux gouvernements des pays voisins s'attendent à ce qu'il soit très hostile et erratique."
+ russia_far_east_events.1000.d:9 "Dans une tournure surprenante des évènements, la petite faction rebelle qui a commencé son combat à partir de la rébellion d'Amour-Oussouri en Sibérie, et qui s'est depuis développée pour englober toute la Russie, a déclaré sa victoire et l'organisation d'un nouveau gouvernement sous sa supervision.\n\n[FER_unification_news_event_desc]"
+ russia_far_east_events.1000.semyonov:9 "Ce nouveau gouvernement russe sera dirigé par l'Ataman Grigori Semyonov, un ancien chef de guerre cosaque exilé qui aurait été soutenu par les services de renseignements japonais et dont la réputation de banditisme et d'actes sans scrupules s'est répandue très loin.\nIl reste à voir comment ce nouveau gouvernement s'organisera, car malgré certaines promesses d'organiser des élections libres, beaucoup soupçonnent la création d'un régime personnaliste autour de Semionov."
+ russia_far_east_events.1000.diterikhs:9 "Ce nouveau gouvernement russe sera dirigé par Mikhaïl Diterikhs, un général monarchiste ultra-réactionnaire, qui a pris le contrôle de la rébellion après l'éviction de son ancien chef, Grigori Semyonov. Le général Diterikhs a ouvertement exprimé son désir de restauration d'une monarchie russe sur le modèle de l'ancien Tsarat. Beaucoup de choses restent encore incertaines concernant la direction de ce nouveau régime, mais de nombreux gouvernements des pays voisins s'attendent à ce qu'il soit très hostile et erratique."
  russia_far_east_events.1000.a:0 "Nous redonnerons à la Russie toute sa gloire d'antan."
  russia_far_east_events.1000.b:0 "Arrêtez, vous êtes censés nous obéir !!!"
  russia_far_east_events.1000.c:0 "Un développement très préoccupant."
@@ -862,7 +862,7 @@
  FER_RUS_state_national_populist:0 "État russe"
  FER_RUS_state_national_populist_DEF:0 "l'État russe"
 
- FER_GU:9 "Green Ukraine"
+ FER_GU:9 "Ukraine verte"
 
  #FER_RUS_republic_authoritarian_democrat: "Russian Republic"
  #FER_RUS_republic_authoritarian_democrat_ADJ: "Russian"

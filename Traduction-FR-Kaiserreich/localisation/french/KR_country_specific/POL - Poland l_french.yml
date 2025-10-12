@@ -90,8 +90,8 @@ l_french:
  POL_market_liberal_DEF:0 "la République de Pologne"
  POL_social_conservative:0 "République de Pologne"
  POL_social_conservative_DEF:0 "la République de Pologne"
- POL_evil_monarchy_democrat:0 "République de Pologne"
- POL_evil_monarchy_democrat_DEF:0 "la République de Pologne"
+ POL_authoritarian_democrat:0 "République de Pologne"
+ POL_authoritarian_democrat_DEF:0 "la République de Pologne"
  POL_paternal_autocrat:0 "République de Pologne"
  POL_paternal_autocrat_DEF:0 "la République de Pologne"
  POL_national_populist:0 "République de Pologne"
@@ -100,8 +100,8 @@ l_french:
  POL_kingdom:0 "Pologne"
  POL_kingdom_DEF:0 "la Pologne"
 
- POL_AUS_kingdom:9 "le Royaume de Pologne"
- POL_AUS_kingdom_DEF:9 "le Royaume de Pologne"
+ POL_AUS_kingdom:9 "Pologne"
+ POL_AUS_kingdom_DEF:9 "la Pologne"
 
  POL_gengov:0 "Generalgouvernement Warschau"
  POL_gengov_DEF:0 "le Generalgouvernement Warschau"
@@ -383,7 +383,6 @@ l_french:
  cop: "COP"
  ava: "AVA"
  fb_radom: "FB Radom"
- pwu_desc: "PWU (Usines d'Armement d'État) est un conglomérat militaire d'État formé par les usines de FK Warsaw, FB Radom, FS Warsaw et FA Skarżysko. Subordonnée au ministère des affaires militaires, la PWU a pour fonction de garantir des armes légères de bonne qualité à l'armée polonaise."
  perkun: "Perkun"
  zaklady_przemyslowe: "Zakłady Przemysłowe Stowarzyszenia Mechaników Polskich"
  cws: "CWS"
@@ -567,8 +566,8 @@ l_french:
  POL_Contracts_With_CWS_desc: "Centralne Warsztaty Samochodowe, créée en 1918 pour assurer l'entretien de l'équipement de notre armée, a pris de l'ampleur depuis ses humbles origines et est aujourd'hui en mesure de produire ses propres modèles de voitures et de motos. Il va donc de soi que nous soutenions cette entreprise locale en lui fournissant des contrats lucratifs pour la production de véhicules pour notre armée, renforçant ainsi les liens essentiels entre l'armée et l'industrie."
  POL_Expand_PZInz: "Étendre PZInz"
  POL_Expand_PZInz_desc: "Państwowe Zakłady Inżynierii ("Travaux d'ingénierie nationale") est une entreprise assez expérimentée dans la fabrication d'une large gamme de véhicules militaires et civils, qui sont souvent des licences de modèles étrangers. En leur fournissant des fonds pour étendre leurs opérations à la production de véhicules blindés nationaux, nous aurons accès à un fournisseur national relativement stable pour nos nouvelles unités blindées."
- POL_Develop_The_22TP:9 "Develop the 22TP"
- POL_Develop_The_22TP_desc:9 "The earlier 8TP programme has shown the power a more modern tank fleet can have on the battlefield. Looking to expand on this earlier success, plans have been drawn up for the creation of a vehicle which is even larger, better armed and can run more efficiently. This tank has been termed the 22TP by many of its designers, and should we support it, it will truly make our armoured force the envy of the Reichspakt."
+ POL_Develop_The_22TP:9 "Développer le 22TP"
+ POL_Develop_The_22TP_desc:9 "Le précédent programme 8TP a démontré la puissance qu'une flotte de chars plus moderne peut avoir sur le champ de bataille. Afin de tirer parti de ce succès, des plans ont été élaborés pour la création d'un véhicule encore plus grand, mieux armé et plus efficace. Ce char a été baptisé 22TP par bon nombre de ses concepteurs, et si nous soutenons ce projet, il fera véritablement de nos forces blindées l'envie du Reichspakt."
  POL_Integrated_Communication: "Communication Intégrée"
  POL_Integrated_Communication_desc: "Notre position au milieu du Reichspakt fera de nous une plaque tournante des communications, et il est important que notre armée soit capable de travailler ensemble et de communiquer rapidement et efficacement entre elle. Pour faciliter cela, nous structurerons centralement notre système de communication pour qu'il soit standardisé et stratifié afin de garantir que l'information puisse parvenir à qui il faut, quand il le faut."
  POL_Artillery_from_the_Sky: "L'artillerie tombée du ciel"
@@ -1179,16 +1178,6 @@ l_french:
  pol_aus_eco_texticon_ten_blocked: "[AUS.GetFlag] §R10%§!"
  pol_aus_eco_texticon_ten_tooltip: "Cela coûte $pol_aus_eco_texticon_ten_blocked$ d’influence économique pour prendre cette décision."
 
- POL_influence_decreasing: "Influence économique de [POL.GetFlag] en baisse!"
- POL_GER_influence_decreasing: "Influence économique de [GER.GetFlag] en baisse!"
- POL_AUS_influence_decreasing: "Influence de [AUS.GetFlag] en baisse!"
- POL_reduction_POL_tt: "Notre influence économique [ROOT.GetFlag] va diminuer."
- POL_reduction_tt: "[ROOT.GetFlag] l'influence économique [Root.GetAdjective] va diminuer en Pologne."
-
- POL_swap_payment: "Modifier le paiement"
- POL_change_to_paying_with_inf: "Nous utiliserons l'influence de [ROOT.GetFlag] comme paiement."
- POL_change_to_paying_with_pp: "Nous utiliserons £pol_power §YPoids Politique§! comme paiement."
-
  POL_add_POL_AUS_influence_tt: "@AUS L'influence autrichienne évoluera de [?POL_influence_change|=Y0%%]\n"
  POL_add_POL_GER_influence_tt: "@GER  L'influence allemande évoluera de [?POL_influence_change|=Y0%%]\n"
  POL_add_POL_influence_tt: "@POL L'influence polonaise évoluera de [?POL_influence_change|=Y0%%]\n"
@@ -1367,7 +1356,7 @@ l_french:
  POL_centralize_paramilitaries: "Centraliser les Paramilitaires"
  POL_centralize_paramilitaries_desc: "Pendant la révolution, de nombreux groupes que nous avons considérés comme nos "alliés" ont armé leurs propres paramilitaires. Leur loyauté envers la révolution étant remise en question, ces milices sont considérées comme de plus en plus dangereuses : elles doivent être désarmées et unifiées au sein d'une organisation loyale envers le peuple, et non envers les partis."
  POL_propaganda_campaigns:0 "Campagnes de Propagande"
- POL_bypass_bureaucrats_desc: "En prenant le contrôle des grands journaux et en les transformant en nos porte-parole, nous pouvons faire en sorte que notre voix soit entendue plus fort - comme il se doit."
+ POL_propaganda_campaigns_desc:0 "En prenant le contrôle des principaux journaux et en les transformant en nos porte-paroles, nous pouvons nous assurer que notre voix est entendue plus fort - comme il se doit."
  POL_truce_with_PPS: "Compromis avec le PPS"
  POL_truce_with_PPS_desc: "Les socialistes modérés ont demandé la limitation et le contrôle des gardes rouges, une démocratie accrue et une publication plus ouverte. Si nous le souhaitons, nous pouvons trouver un terrain d'entente avec eux, et espérer obtenir leur soutien pour la nouvelle Pologne socialiste."
  POL_truce_with_PSL: "Compromis avec le PSL"
@@ -1450,7 +1439,7 @@ POL_KR_gathering_storm_desc: "L'Acte du 5 novembre a peut-être mis un État pol
  POL_country_intro_header_4:0 "Le Comité National"
  POL_country_intro_content_4:0 "Le Comité National Polonais, formé par l'Entente comme gouvernement fantoche pour la Pologne pendant la Weltkrieg, ne nous a pas donné la paix même après toutes ces années. Son chef, Roman Dmowski, est lui-même en exil à Moscou, mais il exerce toujours une influence considérable sur la droite polonaise. Même aujourd'hui, alors que ses démocrates nationaux sont poussés en marge de la politique, ce n'est un secret pour personne que beaucoup lui sont encore fidèles.\n\nL'extrême droite peut être divisée en deux factions : les nationalistes conservateurs, qui sont prêts à travailler avec nous à contrecœur, mais n'hésiteraient pas à nous poignarder dans le dos si cela signifiait l'indépendance totale de la Pologne, et les nationalistes radicaux tels que l'ONR.\n\nCes ultranationalistes sont responsables de dizaines d'attaques contre notre gouvernement et leurs ennemis politiques, empruntant leurs tactiques aux sauvages de l'Est comme Codreanu et Savinkov. Ils sont farouchement anti-allemands, antisémites, anti-establishment et irrécupérables. Toutefois, les nationalistes plus modérés peuvent être satisfaits, tant que nos politiques prouvent que nous ne sacrifions pas la nature catholique et conservatrice de la Pologne aux caprices des socialistes et des libéraux."
 
- POL_guide:9 "§MRoyaume MKP§! (§mLibéraux Économiques§!)\n£white_dot Lors des élections de 1938, obtenez plus de 50% de soutien combiné des monarchistes et des nationalistes, avec les monarchistes plus haut que les nationalistes.\n\n§MRoyaume MKP-SP§! (§aDémocrates Autoritaires§!)\n£white_dot Lors des élections de 1938, nommez Studnicki.\n£white_dot Veillez à ce que des manifestations de masse ne soient pas organisées après les élections.\n\n§MRoyaume Chjena§! (§cSociaux-Conservateurs§!)\n£white_dot Lors des élections de 1938, obtenez plus de 50% de soutien combiné des monarchistes et des nationalistes, avec les nationalistes plus haut que les monarchistes.\n\n§MRépublique PPS / PSL§! (§lSociaux-Libéraux§! / §SSociaux-Démocrates§!)\n£white_dot Lors de l'élection de 1938, obtenez plus de 50 % de soutien combiné des républicains et des socialistes et nommez l'un ou l'autre des partis susmentionnés.\n£white_dot Révoquez le gouvernement en prenant la priorité Entraver le Sénat ou Réduire le Geheimrat.\nAttendez la fin de la mission Organiser des Manifestations de Masse et n'envoyez pas Guderian pour sécuriser la capitale.\n\n§MRépublique Chjena§! (§cSociaux-Conservateurs§!)\n£white_dot Soit :\n£white_dot Avec une république Sociale-Libérale ou Sociale-Démocrate, adopter la Sécularisation alors que le soutien nationaliste est plus élevé que le soutien républicain.\n£white_dot Dans le cadre du soulèvement national-populiste, échouez à la mission de contrôle du Sejm.\n\n§MNationalistes - OZN§! (§PAutocrates Paternalistes§!)\n£white_dot Avec une monarchie ou une république Sociale-Conservatrice, lancez l'Opération Parasol pendant la Weltkrieg.\n\n§MSocialistes - ZSP et SZW / PPS - L§! (§rSyndicalistes§! / §RRadicaux-Socialistes§!)\n£white_dot Obtenez plus de 50 % de soutien socialiste pendant la Weltkrieg, et la mission Diffusion de l'Humeur Révolutionnaire se transformera en soulèvement.\n£white_dot Ne donnez pas de pouvoirs d'urgence à Zakrzewski.\n\n§MSocialistes - Radicaux du ZSP§! (§oTotalistes§!)\n£white_dot Même chose que ci-dessus, mais donnez à Zakrzewski des pouvoirs d'urgence et conservez-les.\n\n§MNationalistes - ON§! (§nNationaux-Populistes§!)\n£white_dot Obtenez plus de 50 % de soutien nationaliste pendant la Weltkrieg en tant que Pologne non Social-Conservatrice, et la mission Agitation Anti-Allemande se transformera en soulèvement.\n£white_dot N'échouez pas aux missions de consolidation."
+ POL_guide:9 "§MRoyaume - MKP§! ($market_liberal_coloured$)\n£white_dot Lors des élections de 1938, obtenez plus de 50% de soutien combiné des monarchistes et des nationalistes, avec les monarchistes plus haut que les nationalistes.\n\n§MRoyaume - MKP-SP§! ($authoritarian_democrat_coloured$)\n£white_dot Lors des élections de 1938, nommez Studnicki.\n£white_dot Veillez à ce que des manifestations de masse ne soient pas organisées après les élections.\n\n§MRoyaume - Chjena§! ($social_conservative_coloured$)\n£white_dot Lors des élections de 1938, obtenez plus de 50% de soutien combiné des monarchistes et des nationalistes, avec les nationalistes plus haut que les monarchistes.\n\n§MRépublique - PPS / PSL§! ($social_liberal_coloured$ / $social_democrat_coloured$)\n£white_dot Lors de l'élection de 1938, obtenez plus de 50 % de soutien combiné des républicains et des socialistes et nommez l'un ou l'autre des partis susmentionnés.\n£white_dot Révoquez le gouvernement en prenant la priorité Entraver le Sénat ou Réduire le Geheimrat.\nAttendez la fin de la mission Organiser des Manifestations de Masse et n'envoyez pas Guderian pour sécuriser la capitale.\n\n§MRépublique - Chjena§! ($social_conservative_coloured$)\n£white_dot Soit :\n£white_dot Avec une république Sociale-Libérale ou Sociale-Démocrate, adopter la Sécularisation alors que le soutien nationaliste est plus élevé que le soutien républicain.\n£white_dot Dans le cadre du soulèvement national-populiste, échouez à la mission de contrôle du Sejm.\n\n§MNationalistes - OZN§! ($paternal_autocrat_coloured$)\n£white_dot Avec une monarchie ou une république Sociale-Conservatrice, lancez l'Opération Parasol pendant la Weltkrieg.\n\n§MSocialistes - ZSP et SZW / PPS-L§! ($syndicalist_coloured$ / $radical_socialist_coloured$)\n£white_dot Obtenez plus de 50 % de soutien socialiste pendant la Weltkrieg, et la mission Diffusion de l'Humeur Révolutionnaire se transformera en soulèvement.\n£white_dot Ne donnez pas de pouvoirs d'urgence à Zakrzewski.\n\n§MSocialistes - Radicaux du ZSP§! ($totalist_coloured$)\n£white_dot Même chose que ci-dessus, mais donnez à Zakrzewski des pouvoirs d'urgence et conservez-les.\n\n§MNationalistes - ON§! ($national_populist_coloured$)\n£white_dot Obtenez plus de 50 % de soutien nationaliste pendant la Weltkrieg en tant que Pologne non Social-Conservatrice, et la mission Agitation Anti-Allemande se transformera en soulèvement.\n£white_dot N'échouez pas aux missions de consolidation."
 
 ### Events ###
 
@@ -1878,7 +1867,7 @@ POL_KR_gathering_storm_desc: "L'Acte du 5 novembre a peut-être mis un État pol
  poland_events.151.t.ci:0 "Victoire électorale pour le Cercle."
  poland_events.151.t.ch:0 "Victoire électorale pour le ChZJN"
  poland_events.151.t.ce:0 "Victoire électorale pour le Centrolew"
- poland_events.151.d.ci:9 "As the MKP begins to choose ministers, they have dramatic promises to fulfil. Despite the unrest and major economic depression, the MKP managed to guide the nation through it and keep the support of the people.\n\nThe King has voiced his support of the new government, and most of the upper class seems satisfied for the victory of the status quo. The Centrolew Alliance, debating on what they did wrong, has shown its weakness against the less radical idea of Poland."
+ poland_events.151.d.ci:9 "Tandis que le MKP commence à choisir des ministres, ils ont des promesses importantes à remplir. Malgré l'agitation et la dépression économique, le MKP a réussi à guider la nation et à garder le soutien du peuple.\n\nLe Roi a fait part de son soutien au nouveau gouvernement, et la plupart des élites semblent satisfaites de la victoire du statu quo. L'alliance du Centrolew, débattant sur ses propres erreurs, a montré sa faiblesse contre une idée moins radicale de la Pologne."
  poland_events.151.d.ch:0 "Le nouveau président des ministres, le jeune et charismatique Józef Chaciński, a prêté serment pour diriger le gouvernement de Sa Majesté. Avec une faible majorité au Sejm et au Sénat, le gouvernement largement chrétien-démocrate de Chaciński pourra poursuivre ses politiques qui ne diffèrent pas radicalement de celles du gouvernement précédent.\n\nOn s'attend toutefois à ce que Chaciński cherche à éloigner le Royaume de l'influence allemande et à mettre en œuvre des politiques plus nationalistes, telles qu'une législation contre les propriétaires d'entreprises juives. Il reste à voir si le gouvernement gardera la confiance du Roi à l'avenir."
  poland_events.151.d.ce:0 "Le Roi a nommé [POL.GetSecondInCommand] comme nouveau président des ministres, qui a immédiatement commencé à former un gouvernement libéral de gauche. Le Centrolew est maintenant confronté à d'énormes défis : tenir les promesses faites au peuple, face à un Sénat profondément conservateur et au Roi qui considère la gauche avec suspicion, surtout après la montée du radicalisme au lendemain du Lundi Noir.\n\nDe nombreux analystes politiques donnent au nouveau gouvernement un an maximum ; après tout, il n'y a jamais eu de gouvernement centriste en Pologne qui ait tenu tout un mandat."
  poland_events.151.a.ci:0 "Un toast pour le roi Auguste !"
@@ -2145,7 +2134,7 @@ POL_KR_gathering_storm_desc: "L'Acte du 5 novembre a peut-être mis un État pol
  #for UKR:
  poland_events.248.t1:0 "Union avec Stanislaviv"
  poland_events.248.t2:0 "Union avec la Galicie Orientale"
- poland_events.248.d1:9 "After lengthy negotiations, we have failed to secure ourselves the city of Lviv, but the Austrians had the sense to cede at least the Stanislaviv region to [UKR.GetNameDef].\n\nAs a disappointing consolidation prize, they have promised to grant regional autonomy to the Ukrainians inside their borders, but it is hard to believe that they will uphold their promises, no matter how liberal their government is."
+ poland_events.248.d1:9 "Après d'âpres négociations, nous avons échoué à nous assurer la ville de Lviv, mais les Autrichiens ont eu le bon sens de céder la région de Stanislaviv à [UKR.GetNameDef].\n\nComme lot de consolation, ils ont promis d'accorder l'autonomie régionale aux Ukrainiens au sein de leurs frontières, mais il est difficile de croire qu'ils tiendront leur promesse, peu importe à quel point leur gouvernement est libéral."
  poland_events.248.d2:0 "Après de longues négociations, nous avons finalement triomphé des Polonais et persuadé les Autrichiens de voir la raison : Lviv est à juste titre une ville ukrainienne, et elle doit le rester.\n\nUne célébration nationale a été déclarée, alors que l'union de la Galicie orientale et de l'Ukraine était proclamée - une union qui ne sera plus jamais rompue. Les délégués de Varsovie étaient aigris, mais ce n'est pas différent de nos interactions habituelles avec les Polonais."
  poland_events.248.a:0 "Bienvenue, frères."
 
@@ -2245,7 +2234,7 @@ POL_KR_gathering_storm_desc: "L'Acte du 5 novembre a peut-être mis un État pol
 
 #Truce event chain
  poland_events.273.t:0 "La délégation polonaise pour la Paix"
- poland_events.273.d.fra:9 "A group of Polish diplomats have met with our ambassador through their embassy in a neutral country. They have requested to begin talks of a truce and an eventual peace, as [POL.GetNameDef] does not consider the war worthwhile anymore.\n\nThe social democratic Centrolew government of Poland has expressed their wish for peaceful cooperation with the syndicalist states. While not truly revolutionary, the current Polish Socialist Party is known for their belief in true socialism, and we have supported their revolutionary wing in many occasions.\n\nWe could accept peace with [POL.GetNameDef], in exchange that they will put a true revolutionary government in power. This will no doubt set us in a collision course with Moscow."
+ poland_events.273.d.fra:9 "Un groupe de diplomates polonais a rencontré notre ambassadeur dans une ambassade d'un pays neutre. Ils ont demandé à entamer des pourparlers en vue d'une trêve et d'une paix éventuelle, car [POL.GetNameDef] ne considère plus que la guerre vaut la peine de se battre.\n\nLe gouvernement Centrolew, social-démocrate, a exprimé son souhait d'une coopération pacifique avec les États syndicalistes. Bien qu'il ne soit pas vraiment révolutionnaire, le Parti socialiste polonais actuel croit réellement au socialisme, et nous avons déjà soutenu son aile révolutionnaire à plusieurs occasions.\n\nNous pourrions accepter la paix avec [POL.GetNameDef], à la condition qu'ils installent un véritable gouvernement révolutionnaire à leur tête. Cela nous mènera sans aucun doute vers une confrontation avec Moscou."
  poland_events.273.d.rus:0 "Un groupe de diplomates polonais a rencontré notre ambassadeur par l'intermédiaire de leur ambassade dans un pays neutre. Ils ont demandé à entamer des pourparlers en vue d'une trêve et d'une paix éventuelle, car [POL.GetNameDef] estime que la guerre ne vaut plus la peine d'être menée, et ils ont exprimé leur souhait d'une coopération pacifique avec la Russie contre la menace syndicaliste à l'ouest.\n\nCertains affirment que la loyauté des Polonais ne peut être assurée que par une victoire militaire sur leur gouvernement collaborateur allemand, mais des voix plus pragmatiques au sein du cabinet ont noté qu'une alliance avec la Pologne est un bon moyen d'apparaître comme le protecteur de l'Europe centrale contre l'impérialisme français."
  poland_events.273.a:0 "Faisons la paix - et parlons réparations de guerre."
  poland_events.273.b:0 "Faisons la paix - sans conditions."
@@ -2296,8 +2285,8 @@ POL_KR_gathering_storm_desc: "L'Acte du 5 novembre a peut-être mis un État pol
  #Black Monday & Economy
  poland_events.297.t:0 "Explosion de la Dette des Petits Agriculteurs"
  poland_events.297.d.text:0 "La campagne polonaise est fortement polarisée, entre de très grands domaines appartenant à la noblesse et des petits exploitants à peine autosuffisants dont les parcelles sont trop petites pour acquérir du capital pour la mécanisation ou l'expansion. C'est pourquoi de nombreux petits agriculteurs se sont endettés lourdement pour financer l'achat de tracteurs et d'autres machines agricoles pour leurs villages.\n\nPendant le boom économique, il s'agissait d'un moyen efficace d'accroître la productivité des terres et, à terme, de rembourser la dette, mais avec l'effondrement des prix des produits agricoles après le lundi noir, des milliers d'agriculteurs se sont retrouvés écrasés sous une montagne de dettes toujours plus lourdes et risquent de perdre leurs terres au profit de banques tout aussi désespérées."
- poland_events.297.d.no_coop:9 "$poland_events.297.d.text$\n\nNeedless to say, this has led the peasantry to turn increasingly interested in the radical programme of the PSL, preaching for their liberation."
- poland_events.297.d.coop:9 "$poland_events.297.d.text$\n\nHowever, our recent overtures towards the cooperative movement have alleviated the issue somewhat, preventing the PSL from capitalising on the unrest."
+ poland_events.297.d.no_coop:9 "$poland_events.297.d.text$\n\nIl va sans dire que cela a conduit la paysannerie à s'intéresser de plus en plus au programme radical du PSL, qui prône leur libération."
+ poland_events.297.d.coop:9 "$poland_events.297.d.text$\n\nToutefois, nos ouvertures récentes vers le mouvement coopératif ont quelque peu soulagé ce problème, empêchant le PSL de capitaliser sur cette agitation."
  poland_events.297.a:0 "Ils sont livrés à eux-mêmes."
  poland_events.297.b:0 "Notre soutien aux agriculteurs a porté ses fruits."
 
@@ -2432,8 +2421,8 @@ POL_KR_gathering_storm_desc: "L'Acte du 5 novembre a peut-être mis un État pol
  #Berbecki:
  poland_events.335.c:0 "Berbecki sera un excellent Inspecteur Général."
 
- poland_events.336.t:9 "The 22TP Project"
- poland_events.336.d:9 "The joint German-Polish 22TP Project is the prime example of the fruits of cooperation. The original 8TP has improved upon the original in almost every regard, but it has since been shown to be outdated in just as many ways. The new 9-tonne tank is aimed to improve upon its predecessor, but instead of a general-purpose vehicle, the designers are divided between two visions.\n\nThe Polish lead designer, Edward Habich, has proposed multiple improvements to vehicle's armour, believing that 22TP's function should be infantry support, like its predecessors. Heinz Guderian is proposing to focus on mobility instead, by saving on armour but installing more powerful engines and radios to the units."
+ poland_events.336.t:9 "Le Projet 22TP"
+ poland_events.336.d:9 "Le projet commun germano-polonais 22TP est l'exemple parfait des fruits de la coopération. Le 8TP avait prouvé sa supériorité sur l'original dans presque tous les domaines, mais il a depuis fait la preuve de son obsolescence. Le nouveau tank de 9 tonnes vise à améliorer son prédécesseur, mais au lieu d'un véhicule à usage général, les concepteurs sont partagés entre deux visions.\n\nLe concepteur polonais principal, Edward Habich, a proposé plusieurs améliorations au blindage du véhicule, croyant que le but du 22TP devrait être le soutien à l'infanterie, comme ses prédécesseurs. Heinz Guderian propose de se concentrer plutôt sur la mobilité, en diminuant le blindage au profit de moteurs plus puissants et d'unités de radio."
  poland_events.336.a:0 "Privilégiez la rapidité."
  poland_events.336.b:0 "Privilégiez la protection."
 
@@ -2714,7 +2703,7 @@ POL_KR_gathering_storm_desc: "L'Acte du 5 novembre a peut-être mis un État pol
  poland_events.420.a:0 "Un autre soulèvement polonais ?"
 #
  poland_events.421.t:0 "Diminution de la Tension en Pologne"
- poland_events.421.d:0 "Malgré notre récente mise en garde contre l'imminence d'un coup d'État en Pologne, nous avons récemment appris que la menace apparente qui pesait sur leur gouvernement s'est apaisée, du moins pour l'instant.\n\nDes forces extrémistes, hostiles au gouvernement polonais, semblaient être sur le point de prendre le contrôle du pays, mais il semble que les forces gouvernementales aient rassemblé suffisamment de soutien pour écraser les opposants.\n\nLe fait que de tels événements se soient produits est de mauvais augure pour l'avenir, car ils pourraient facilement se reproduire. Mais pour l'instant, nos alliés restent fidèles à eux-mêmes."
+ poland_events.421.d:9 "Malgré notre récente mise en garde contre l'imminence d'un coup d'État en Pologne, nous avons récemment appris que la menace apparente qui pesait sur leur gouvernement s'est apaisée, du moins pour l'instant.\n\nDes forces extrémistes, hostiles au gouvernement polonais, semblaient être sur le point de prendre le contrôle du pays, mais il semble que les forces gouvernementales aient rassemblé suffisamment de soutien pour écraser les opposants.\n\nLe fait que de tels événements se soient produits est de mauvais augure pour l'avenir, car ils pourraient facilement se reproduire. Mais pour l'instant, nos alliés restent fidèles à eux-mêmes."
  poland_events.421.a:0 "C'était trop proche pour être confortable."
 #
  poland_events.540.t:0 "Une alliance avec le PPS ?"
@@ -3219,9 +3208,9 @@ POL_KR_gathering_storm_desc: "L'Acte du 5 novembre a peut-être mis un État pol
 
  poland_news_events.4.t:0 "Coup d'État Nationaliste en Pologne"
  poland_news_events.4.d.centrolew_text:0 "En réponse aux politiques controversées menées contre l'Église par le gouvernement du Centrolew, un groupe de conspirateurs dirigé par Edward Rydz-Śmigły marche sur Varsovie en pleine nuit et s'empare de la capitale au petit matin après un bref combat contre les forces loyalistes. Pour éviter une nouvelle effusion de sang, le gouvernement démissionne et remet le pouvoir à Rydz-Śmigły."
- poland_news_events.4.d.centrolew_ultimatum:9 "$poland_news_events.4.d.centrolew_text$\n\nAfter an ultimatum from Poland's former ally to restore the Centrolew government, Śmigły withdrew from the alliance, declaring all previous treaties void and assumed the title of Chief of State in preparation for an inevitable response by Poland's former ally."
- poland_news_events.4.d.centrolew_accept:9 "$poland_news_events.4.d.centrolew_text$\n\nAfter an agreement to uphold previous treaties with Poland's ally, Rydz consolidated power by taking the postion of Chief of Army and Minister of Defence, while the rest of his cabinet was formed by National Democrats and associates of Rydz."
- poland_news_events.4.d.parasol:9 "Taking advantage of the war in Europe, General Edward Rydz-Śmigły executed a well-planned conspiracy with support from the National Democrat government and the Polish military. The military easily marched on Warsaw with simultaneous operations securing control over other major cities.\n\nAssuming the title of Chief of State, Rydz-Śmigły declared his intention to finally complete Piłsudski's work and achieve Poland's final liberation from German oppression."
+ poland_news_events.4.d.centrolew_ultimatum:9 "$poland_news_events.4.d.centrolew_text$\n\nAprès un ultimatum de la part de l'ancien allié polonais pour restaurer le gouvernement Centrolew, Śmigły s'est retiré de l'alliance, déclarant tous les anciens traités nuls et prenant le titre de Chef de l'État, en préparation de l'inévitable réponse de l'ancien allié de la Pologne."
+ poland_news_events.4.d.centrolew_accept:9 "$poland_news_events.4.d.centrolew_text$\n\nUne fois conclu un accord pour respecter les anciens traités avec l'allié de la Pologne, Rydz a consolidé son pouvoir en prenant le poste de Chef de l'Armée et ministre de la Défense, tandis que le reste de son gouvernement est composé de nationaux-démocrates et d'associés de Rydz."
+ poland_news_events.4.d.parasol:9 "Prenant avantage de la guerre en Europe, le général Edward Rydz-Śmigły a mis en marche une conspiration bien planifiée avec le soutien du gouvernement national-démocrate et de l'armée polonaise. L'armée a facilement marché sur Varsovie et plusieurs opérations simultanées ont pris le contrôle d'autres grandes villes.\n\nPrenant le titre de Chef de l'État, Rydz-Śmigły a déclaré son intention d'enfin achever l’œuvre de Piłsudski et d'accomplir la libération totale de la Pologne de l'oppression allemande."
  poland_news_events.4.a:0 "Nous jurons que nous ne serons plus des esclaves !"
  poland_news_events.4.b:0 "Ils seront écrasés sans pitié."
  poland_news_events.4.c:0 "L'ordre Germanique vacille une fois de plus."

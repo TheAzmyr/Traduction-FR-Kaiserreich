@@ -321,8 +321,8 @@
  china_cannot_declare_war_while_in_united_front: "Les membres du Front uni ne peuvent pas déclarer d'autres guerres."
 
  china_becomes_CHN_tt: "§YNous avons été reconnus comme le gouvernement le plus légitime de Chine.§!"
- china_is_CHN_tt: "§YNous sommes le gouvernement le plus légitime de Chine.§!"
- china_is_the_chinese_unifier_tt: "§YA unifié la Chine.§!"
+ china_is_CHN_tt:9 "§YEst le gouvernement le plus légitime de Chine§!"
+ china_is_the_chinese_unifier_tt:9 "§YA unifié la Chine§!"
  china_has_war_with_CUF_tt:9 "Est en guerre avec le Front Uni Chinois"
 
  CHN_has_chosen_a_capital_flag: "§YNous avons choisi une capitale permanente pour la Chine.§!"
@@ -549,7 +549,7 @@ unite_china_justification_idea: "Chine unie !"
  china_foreign_support_desc: "En raison de notre succès durant la guerre, une mission étrangère a été mise en place pour nous aider à nous projeter au delà de notre victoire."
  china_desertions_common: "Les désertions deviennent communes"
  china_desertions_common_desc: "Une série de défaites a conduit de plus en plus d'hommes à refuser de se battre, certains rejoignant parfois l'armée pour recevoir une nouvelle paire de vêtements puis les vendre ensuite au marché le plus proche."
- china_morale_effects_tooltip:9 "§YMoral de la Guerre de la Ligue§!\nGain de pouvoir politique : [?china_morale_dm_political_power_gain|+=%0]\n$MODIFIER_WAR_SUPPORT_FACTOR$ : [?china_morale_dm_war_support_factor|+%=2]\nLimite de Capitulation : [?china_morale_dm_surrender_limit|+%=0]\nPercée : [?china_morale_dm_breakthrough_factor|+%=1]"
+ china_morale_effects_tooltip:9 "§YMoral de la Guerre de la Ligue§!\n$MODIFIER_POLITICAL_POWER_GAIN$ : [?china_morale_dm_political_power_gain|+=%0]\n$MODIFIER_WAR_SUPPORT_FACTOR$ : [?china_morale_dm_war_support_factor|+%=2]\nLimite de Capitulation : [?china_morale_dm_surrender_limit|+%=0]\nPercée : [?china_morale_dm_breakthrough_factor|+%=1]"
  china_anti_stalemate_idea_2: "Moral en chute libre"
  china_anti_stalemate_idea_2_desc: "L'incapacité de [THIS.GetLeader] à mettre un terme décisif à la guerre a provoqué un effondrement complet et total du moral dans les rangs de l'armée. Chaque jour, des soldats déposent les armes ou se tournent vers le banditisme, abandonnant notre cause à son sort."
  china_motivated_soldiers: "Soldats Motivés"
@@ -1429,12 +1429,12 @@ unite_china_justification_idea: "Chine unie !"
  china_events.316.d:9 "Malgré la remise en cause de leur domination et de leur contrôle de la Chine lors de l'Expédition du Nord, la restauration Xuantong qui a suivi a restauré l'Empire Qing et a vu le contrôle du Nord consolidé par Wu Peifu, Cao Kun et la Clique du Zhili.\n\nMalgré les troubles de ces dernières années, avec l'effondrement économique du Lundi Noir et la Guerre de la Ligue, le Zhili a résisté à la tempête. Alors que d'autres seigneurs de guerre ont tenté de se séparer du contrôle du Zhili, ce dernier a néanmoins vaincu tous les gouvernements concurrents, unifiant ainsi la Chine une fois de plus. Dans un discours glorieux prononcé à [FROM.Capital.GetCapitalVictoryPointName], Wu Peifu a déclaré que le Zhili chercherait à moderniser la Chine et à affirmer à nouveau son influence dans le monde."
  china_events.316.a:9 "Wu Peifu s'est surpassé !"
 
- china_events.340.t: "Le Président Wang s'accroche"
- china_events.340.d: "Bien qu'il ait mené le Kuomintang de l'exil et de la quasi-destruction à des succès nationaux retentissants avec l'achèvement de la Seconde Expédition du Nord, le Président [CHI.GetLeader] semblait s'effondrer face à l'opposition croissante des factions du Comité d'Action Provisoire du Kuomintang. Cependant, malgré les attaques de toutes parts, il semble que le président ait consolidé son contrôle et son autorité sur le parti, en écrasant efficacement l'opposition.\n\nAujourd'hui, pour la première fois depuis des décennies, la paix est enfin revenue en Chine et le Président Wang s'efforcera de moderniser et de relancer le pays afin de respecter les principes énoncés par son mentor, feu le Dr Sun Yat-sen, pour les années à venir."
+ china_events.340.t: "Le Président Wang Tient Bon"
+ china_events.340.d: "Bien qu'il ait mené le Kuomintang de l'exil et de la quasi-destruction à des succès nationaux retentissants avec l'achèvement de la Seconde Expédition du Nord, le président [CHI.GetLeader] semblait s'effondrer face à l'opposition croissante des factions du Comité d'Action Provisoire du Kuomintang. Cependant, malgré les attaques de toutes parts, il semble que le président ait consolidé son contrôle et son autorité sur le Parti, en écrasant efficacement l'opposition.\n\nAujourd'hui, pour la première fois depuis des décennies, la paix est enfin revenue en Chine et le président Wang s'efforcera de moderniser et de relancer le pays afin de respecter les principes énoncés par son mentor, feu le Dr Sun Yat-sen, pour les années à venir."
  china_events.340.a: "Wang Jingwei est véritablement l'héritier de la révolution du Dr Sun."
 
  china_events.341.t: "Le PAC de Song s'assure la direction du KMT"
- china_events.341.d: "Alors que le Kuomintang était nominalement dirigé par Wang Jingwei pendant la période d'exil du parti qui suivit l'Expédition du Nord, ceux qui restèrent en Chine s'organisèrent en tant que gouvernement autonome de l'insurrection de MinGan. C'est sur cette base que le Comité d'action provisoire (PAC) du Kuomintang a été formé et, dans sa déclaration de 1932 au peuple révolutionnaire de Chine et du monde, il a annoncé une plate-forme populiste et socialiste, apparemment plus proche du peuple.\n\nDes années plus tard, la Présidente [CHI.GetLeader] a déclaré que le PAC se transformait en un nouveau Comité Révolutionnaire chargé de guider les masses populaires vers l'éradication des classes et vers un nouvel avenir révolutionnaire pour les paysans et les travailleurs de Chine. "
+ china_events.341.d: "Alors que le Kuomintang était officiellement dirigé par Wang Jingwei pendant la période d'exil du parti qui a suivi l'Expédition du Nord, ceux qui sont restés en Chine se sont organisés en tant que gouvernement autonome de l'Insurrection de MinGan. C'est sur cette base que le Comité d'Action Provisoire (PAC) du Kuomintang a été formé et, dans sa déclaration de 1932 au peuple révolutionnaire de Chine et du monde, il a annoncé un programme populiste et socialiste, apparemment plus proche du peuple.\n\nDes années plus tard, la présidente [CHI.GetLeader] a déclaré que le PAC se transformait en un nouveau Comité Révolutionnaire chargé de guider les masses populaires vers l'éradication des classes et vers un nouvel avenir révolutionnaire pour les paysans et les travailleurs de Chine."
  china_events.341.a: "Les citoyens se sont levés !"
 
  china_events.342.t: "La Faction de Réorganisation prend le contrôle du KMT"
@@ -1442,7 +1442,7 @@ unite_china_justification_idea: "Chine unie !"
  china_events.342.a: "Une Nouvelle Chine a vu le jour..."
 
  china_events.343.t: "La Société du Réveil de la Chine déclare la Victoire"
- china_events.343.d: "Alors que le Kuomintang est parvenu à unifier le pays sous son drapeau, le parti sombre dans la guerre civile à la suite de l'assassinat et de la mort de son ancien président, Wang Jingwei. Alors que les factions en conflit commencent à s'affronter, la Société radicale du renouveau chinois parvient à s'emparer du pouvoir et à placer le pays en état d'urgence.\n\nDans un grand discours prononcé depuis [FROM.Capital.GetCapitalVictoryPointName], le général Hu Zongnan a déclaré que tous les ennemis de la Chine, qu'ils soient externes ou internes, seraient écrasés sous une nouvelle direction de la révolution nationale. Le discours du CRS sur une révolution totalitaire inspirée par des personnalités telles que Savinkov, Mussolini et Mosley ne manquera pas d'assombrir les chances de démocratie en Chine."
+ china_events.343.d: "Alors que le Kuomintang était parvenu à unifier le pays sous son drapeau, le Parti a sombré dans la guerre civile à la suite de l'assassinat et de la mort de son ancien président, Wang Jingwei. Alors que les factions en conflit commençaient à s'affronter, la Société pour le Renouveau de la Chine est parvenue à s'emparer du pouvoir et à placer le pays en état d'urgence.\n\nDans un grand discours prononcé depuis [FROM.Capital.GetCapitalVictoryPointName], le généralissime Hu Zongnan a déclaré que tous les ennemis de la Chine, qu'ils soient externes ou internes, seraient écrasés par la nouvelle direction de la révolution nationale. Le discours de la SRC sur une révolution totalitaire inspirée par des personnalités telles que Savinkov, Mussolini et Mosley ne manquera pas d'assombrir les chances de démocratie en Chine."
  china_events.343.a: "L'Obscurité s'est abattue sur la Révolution Nationale."
 
 # Faction Joining Events
@@ -1485,12 +1485,12 @@ unite_china_justification_idea: "Chine unie !"
  china_events.409.d: "Les Russes ont répondu à notre ambassadeur à Moscou en rejetant notre demande officielle pour cause de conflit d'intérêts. Si les Russes ont rejeté notre demande, ils ont néanmoins affirmé la poursuite des bonnes relations entre nos deux nations. Quoi qu'il en soit, il s'agit d'un coup dur pour nos aspirations à négocier avec les grandes puissances du monde sur un pied d'égalité. Cependant, nous devons continuer à nous efforcer d'établir des relations d'égal à égal avec les autres grandes puissances, car notre destin est de devenir la grande puissance de l'Asie de l'Est, avec ou sans leur reconnaissance."
  china_events.409.a: "Après toutes ces années, ils nous traitent encore comme des pions !"
 
- china_events.410.t:9 "La Chine veut rejoindre la Sphère de Co-Prospérité"
+ china_events.410.t:9 "La Chine veut Rejoindre la Sphère de Coprospérité"
  china_events.410.d: "Pendant la période des seigneurs de guerre, nous avons soutenu la clique du Fengtian en tant que gouvernement légitime de toute la Chine. Notre gouvernement est même intervenu directement dans la guerre civile chinoise pour aider nos amis du continent. Cependant, la situation de guerre n'a pas évolué à l'avantage du Japon et nous avons été expulsés de Chine, pour de bon, pensions-nous. Cependant, cette période de paix avec le gouvernement chinois a également créé une situation unique pour la réconciliation.\n\nAvant que les circonstances regrettables ne provoquent la guerre sino-japonaise, de nombreux Chinois et Japonais ont milité pour que nos deux nations s'unissent dans la cause du pan-asiatisme, où nous travaillerions ensemble pour chasser les impérialistes européens et libérer nos frères asiatiques opprimés. Des penseurs politiques comme Ikki Kita ont salué la révolution chinoise de 1912, et de nombreux officiers supérieurs de l'armée chinoise ont fait leurs études ici au Japon.\n\nLe gouvernement chinois a compris la sagesse d’une telle initiative et l’ambassadeur chinois a téléphoné aujourd’hui à notre gouvernement pour qu’il dépose une demande officielle d’adhésion à la sphère de coprospérité. Il est toutefois clair, d’après le ton employé, qu’il s’attend à être traité comme un partenaire égal et que le Japon ne doit pas être le grand frère de cette relation, comme ce fut le cas entre nous et Shenyang dans les années 30. Une telle affirmation aurait été risible par le passé, mais la Chine émerge comme une nouvelle puissance unie que nous ne devons pas prendre à la légère."
  china_events.410.a: "L'Asie aux Asiatiques !"
  china_events.410.b: "Les Chinois ne sont pas nos égaux et ils ne le seront jamais !"
 
- china_events.411.t:9 "La Chine rejoint la Sphère de Co-Prospérité"
+ china_events.411.t:9 "La Chine Rejoint la Sphère de Coprospérité"
  china_events.411.d: "Les Japonais ont contacté notre ambassadeur, nous souhaitant la bienvenue au sein de la Sphère de coprospérité. Beaucoup trouveraient impensable notre alliance avec les Japonais, car il n'y a pas si longtemps encore, ils étaient la principale puissance impérialiste tentant d'empêcher notre ascension. Ils oublient cependant la longue histoire des liens entre la Chine et le Japon. Le président Duan Qirui et sa clique de l'Anhui ont eu une relation fructueuse avec Tokyo qui n'a pas atteint le niveau de chien de garde de la relation Shenyang-Tokyo des années 30, et nous veillerons à ce que notre nouvelle relation avec Tokyo ne soit pas celle du début du 20e siècle. Au lieu de cela, nos deux nations rechercheront une relation d'égalité basée sur le gain mutuel et la coopération. Ensemble, nous expulserons les impérialistes européens une fois pour toutes ! L'Asie aux Asiatiques !"
  china_events.411.a: "Le Japon et la Chine unis face à l’impérialisme !"
 
@@ -2060,7 +2060,7 @@ unite_china_justification_idea: "Chine unie !"
 
 #United China Cosmetic Tags
 
- LKT_united_china:0 "la Chine"
+ LKT_united_china:0 "Chine"
  LKT_united_china_ADJ:0 "Chinois"
  LKT_united_china_DEF:0 "la Chine"
 
@@ -2085,7 +2085,7 @@ unite_china_justification_idea: "Chine unie !"
  LKT_united_china_national_populist:0 "République de Chine"
  LKT_united_china_national_populist_DEF:0 "la République de Chine"
 
- RKT_united_china:0 "la Chine"
+ RKT_united_china:0 "Chine"
  RKT_united_china_ADJ:0 "Chinois"
  RKT_united_china_DEF:0 "la Chine"
 
@@ -2110,7 +2110,7 @@ unite_china_justification_idea: "Chine unie !"
  RKT_united_china_national_populist:0 "République de Chine"
  RKT_united_china_national_populist_DEF:0 "la République de Chine"
 
- KMT_united_china:0 "la Chine"
+ KMT_united_china:0 "Chine"
  KMT_united_china_ADJ:0 "Chinois"
  KMT_united_china_DEF:0 "la Chine"
 
@@ -2135,7 +2135,7 @@ unite_china_justification_idea: "Chine unie !"
  KMT_united_china_national_populist:0 "République de Chine"
  KMT_united_china_national_populist_DEF:0 "la République de Chine"
 
- UPC_united_china:0 "la Chine"
+ UPC_united_china:0 "Chine"
  UPC_united_china_ADJ:0 "Chinois"
  UPC_united_china_DEF:0 "la Chine"
 
@@ -2160,7 +2160,7 @@ unite_china_justification_idea: "Chine unie !"
  UPC_united_china_national_populist:0 "Provinces-Unies de Chine"
  UPC_united_china_national_populist_DEF:0 "les Provinces-Unies de Chine"
 
- UPC_united_china_five_races:0 "la Chine"
+ UPC_united_china_five_races:0 "Chine"
  UPC_united_china_five_races_ADJ:0 "Chinois"
  UPC_united_china_five_races_DEF:0 "la Chine"
 
@@ -2185,7 +2185,7 @@ unite_china_justification_idea: "Chine unie !"
  UPC_united_china_five_races_national_populist:0 "Provinces-Unies de Chine"
  UPC_united_china_five_races_national_populist_DEF:0 "les Provinces-Unies de Chine"
 
- ZHL_united_china:0 "la Chine"
+ ZHL_united_china:0 "Chine"
  ZHL_united_china_ADJ:0 "Chinois"
  ZHL_united_china_DEF:0 "la Chine"
 
@@ -2210,7 +2210,7 @@ unite_china_justification_idea: "Chine unie !"
  ZHL_united_china_national_populist:0 "République de Chine"
  ZHL_united_china_national_populist_DEF:0 "la République de Chine"
 
- SZH_united_china:0 "la Chine"
+ SZH_united_china:0 "Chine"
  SZH_united_china_ADJ:0 "Chinois"
  SZH_united_china_DEF:0 "la Chine"
 
@@ -2235,7 +2235,7 @@ unite_china_justification_idea: "Chine unie !"
  SZH_united_china_national_populist:0 "République de Chine"
  SZH_united_china_national_populist_DEF:0 "la République de Chine"
 
- AGJ_united_china:0 "la Chine"
+ AGJ_united_china:0 "Chine"
  AGJ_united_china_ADJ:0 "Chinois"
  AGJ_united_china_DEF:0 "la Chine"
 
@@ -2289,7 +2289,7 @@ unite_china_justification_idea: "Chine unie !"
  chinese_province_title: "Province [THIS.ChinaGetStateProvinceTitle]"
  anhui_province_state:0 "Anhui"
  chahar_province_state: "Chahar"
- fengtian_province_state:0 "le Fengtian"
+ fengtian_province_state:0 "Fengtian"
  fujian_province_state: "Fujian"
  gansu_province_state: "Gansu"
  guangdong_province_state:0 "Guangdong"
@@ -2307,7 +2307,7 @@ unite_china_justification_idea: "Chine unie !"
  qinghai_province_state: "Qinghai"
  shaanxi_province_state: "Shaanxi"
  shandong_province_state:0 "Shandong"
- shanxi_province_state:0 "le Shanxi"
+ shanxi_province_state:0 "Shanxi"
  sichuan_province_state:0 "Sichuan"
  suiyuan_province_state:0 "Suiyuan"
  taiwan_province_state:0 "Taïwan"
