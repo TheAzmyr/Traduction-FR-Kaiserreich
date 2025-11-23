@@ -55,7 +55,7 @@
  KR_welcome_splash_tab_3_content_0: "Kaiserreich impose des restrictions sur les actions diplomatiques telles que les §RGuerres Précoces§!, les §RFactions§! et les §RNiveaux d'Autonomie§!.\nKaiserreich inclut également des §CLimites de Division§! et un mécanisme de §CDémobilisation§! pour améliorer la jouabilité en fin de partie.\nPendant les §YConférences de Paix§!, assurez-vous d'annexer tous les États possibles. Plus tard, vous pourrez libérer les pays des territoires annexés grâce aux §Cdécisions§!.\nLe menu de configuration des §YRègles de Jeu Personnalisées§! vous permet d'ajuster de nombreuses options, notamment les §CChemins de Pays§!, la §CPrimauté du Joueur pendant les Conférences de Paix§! et l'outil de §CTransfert d'États et de Pays§!.\nLe £kr_options_icon §YMenu d'Options§! peut être ouvert en cliquant sur son icône en haut à droite. Il vous permet d'ajuster la §Cfréquence des événements§! et d'activer le §Crenommage dynamique§! des états et des points de victoire."
 
  ## TAB 4 ##
- KR_CURRENT_VERSION:9 "1.5.3"
+ KR_CURRENT_VERSION:9 "1.5.4"
  KR_CURRENT_VERSION_NAME:9 "Meilleur des mondes"
  KR_CURRENT_VERSION_COMBINED: "Kaiserreich $KR_CURRENT_VERSION$ "$KR_CURRENT_VERSION_NAME$""
  KR_welcome_splash_tab_4_upper_header: "§YWelcome to $KR_CURRENT_VERSION_COMBINED$§!"
@@ -66,8 +66,8 @@
  KR_welcome_splash_tab_4_content_1:9 "Alpinia, Angel, Amber, Anthony OliveOil, Arvidus, Augenis, AwsomeGuy49, Blackfalcon501, Blackleaf, Carmain, Cassrabbit, Cazadorian"
  KR_welcome_splash_tab_4_content_2:9 "Chiang Kai-shrek, Chiron29, ClawedAsh, Cody, Deliberus, DerEherneRächer, DidSomethingOnce, DuoDex, El Daddy, falling_robin, Fedex"
  KR_welcome_splash_tab_4_content_3:9 "Flamefang, Frill Shark, Gaboemi, Georgy, Gre, Hamfast, Hazo, Ido, Igor050301, JazzyHugh, Jeankedezeehond, jerv"
- KR_welcome_splash_tab_4_content_4:9 "Jonny BL, Kano, katieluka, kergely, KFateweaver, Klyntar King, Krčo, lehmannmo, Matoro, McOmghall"
- KR_welcome_splash_tab_4_content_5:9 "MrMano, ~mw~ // miwaco., Noot, Pelmen, PPsyrius, Purple Jinjo, Rnk, Sasha, Shiroe"
+ KR_welcome_splash_tab_4_content_4:9 "Jonny BL, Kano, katieluka, kergely, KFateweaver, Klyntar King, Krčo, lehmannmo, marimari, Matoro, McOmghall"
+ KR_welcome_splash_tab_4_content_5:9 "MrMano, ~mw~ // miwaco., Noot, Pelmen, PPsyrius, Rnk, Sasha, Shiroe"
  KR_welcome_splash_tab_4_content_6:9 "Sonny O'Cad, SuperGreenBeans, suzuha, tan_mi.ya, The Alpha Dog, The Don Golian, The Irredentista, The Italian Jojo"
  KR_welcome_splash_tab_4_content_7:9 "Toaster, Vidyaország, VladimirLemon, Zimbabwe Salt Co."
  KR_welcome_splash_tab_4_content_8:9 "§YTraduit par : §!Ergovius, IGgame et Mouchi. §YAnciennement traduit par : §!Aegon Targaryen"
@@ -234,6 +234,17 @@
 
  is_leader_of_economic_sphere_of:9 "Est le leader de la §Ysphère économique§! de $COUNTRY|Y$"
  is_leader_of_economic_sphere_of_NOT:9 "N'est §Rpas§! le leader de la §Ysphère économique§! de $COUNTRY|Y$"
+
+ economic_sphere_label_text:9 "[GetEconomicSphereName]"
+ economic_sphere_label_none:9 "No Economic Sphere"
+
+ economic_sphere_label_tooltip:9 "[PoliticalTabEconomicSphereLabel_GetTooltip]"
+ economic_sphere_label_tooltip_leader:9 "§Y[ROOT.GetNameWithFlag]§! is the leader of §Y[GetEconomicSphereName]§!."
+ economic_sphere_label_tooltip_member:9 "§Y[ROOT.GetNameWithFlag]§! is a member of §Y[GetEconomicSphereName]§!, which is led by §Y[?economic_sphere:members^0.GetNameWithFlag]§!."
+ economic_sphere_label_tooltip_none:9 "§Y[ROOT.GetNameWithFlag]§! is not a member of any economic spheres."
+
+ economic_sphere_label_tooltip_delayed:9 "[PoliticalTabEconomicSphereLabel_GetTooltipDelayed]"
+ economic_sphere_label_tooltip_delayed_text:0 "§L[GetEconomicSphereDesc]§!"
 
  economic_sphere_button_tooltip: "§Y[GetEconomicSphereName]§!"
  economic_sphere_button_tooltip_delayed: "§L[GetEconomicSphereDesc]§!"
@@ -509,7 +520,7 @@ FOCUS_FILTER_LEC_CURRENCY: "Réserves monétaires"
  generic_events.103.a:0 "Nous devrons garder cela à l'esprit"
 
  generic_events.106.t:0 "La lutte pour l'indépendance"
- generic_events.106.d: "Le contrôle [Root.overlord.GetAdjective] sur le gouvernement [Root.GetAdjective] diminue depuis un certain temps déjà. Nous sommes trop puissants pour qu’ils puissent nous contenir. Il monte une profonde revendication au sein du peuple [Root.GetAdjective] pour que [Root.GetNameDef] soit libre, et bientôt notre heure viendra."
+ generic_events.106.d:9 "Le contrôle [Root.overlord.GetAdjective] sur le gouvernement [Root.GetAdjective] diminue depuis un certain temps déjà. Nous sommes trop puissants pour qu’ils puissent nous contenir. Il monte une profonde revendication au sein du peuple [Root.GetAdjective] pour que [Root.GetNameDef] soit libre, et bientôt notre heure viendra."
  generic_events.106.a:0 "Longue vie à un [Root.GetName] libre !"
  generic_events.106.b:0 "Oui, nous devons exiger notre indépendance"
  generic_events.106.c:0 "Non, mieux vaut ne pas déranger le nid de frelons"
@@ -623,6 +634,7 @@ not_during_ceasefire: "Pas tant que le cessez-le-feu est maintenu"
 
  generic_neutral_foreign_policy: "Politique étrangère neutre"
  generic_neutral_foreign_policy_desc: "Que ce soit par pacifisme, par nécessité ou tout simplement par intérêt personnel, les objectifs de la politique étrangère de cet État se caractérisent actuellement par le désir d'éviter tout engagement à l'étranger. L'activité militaire est axée sur des considérations défensives et toutes les actions sur la scène internationale sont conçues pour créer le moins d'ennemis possible."
+ deterrence:9 "Deterrence"
 
  increase_state_category_by_one_level_tt: "Cela nous fournit §G1§! emplacement de construction supplémentaire.\n"
  increase_state_category_by_two_levels_tt: "Cela nous fournit §G2§! emplacements de construction supplémentaires.\n"
@@ -728,10 +740,6 @@ tech_integrated_specialists: "Forces spéciales intégrées"
  tech_river_boats_terrain_effect:9 "  §Y$river$§!:\n    $STAT_ADJUSTER_MOVEMENT$[?0.1|=+1%]\n    $STAT_ADJUSTER_ATTACK$[?0.1|=+1%]\n    $STAT_ADJUSTER_DEFENCE$[?0.05|=+1%]"
 
  tech_armored_car_spearhead: "Véhicule blindé de tête"
-
- tech_masterful_blitz:9 "$tactic_masterful_blitz$"
-
- tech_human_wave_tactics: "$tactic_human_wave_tactics$"
 
  tech_improved_decryption:9 "Décryptage amélioré"
 

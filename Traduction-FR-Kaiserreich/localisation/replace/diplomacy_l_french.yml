@@ -1,5 +1,63 @@
 ﻿l_french:
+########################################################
+### KEEP THESE IN THE SAME ORDER AS THE VANILLA FILE ###
+########################################################
 
 #vanilla tooltips that indicate potential factions to join, removed in KR due to not being applicable
  DW_VERY_LIKELY_JOIN_FACTION:9 ""
  POSSIBLE_FACTION_INVITES:9 ""
+
+#removed the second sentence, since KR puppets can refuse them
+ DIPLOMACY_REQUEST_EXP_FORCE_ACTION_DESC: "Demande le contrôle d'un certain nombre de divisions à un état fantoche."
+
+#amended to account for KR's recall volunteers diplo action
+ SEND_VOLUNTEERS_INFO: "\nLes divisions envoyées seront retirées de la carte pendant le transit et reviendront sur la carte dans le pays cible lorsque le transfert sera terminé. Les divisions reviendront automatiquement si vous vous retrouvez en guerre ou si le pays cible est en paix."
+
+#renamed to match KR's ideological groups
+ DR_US_DEMOCRATIC: "§Y$US|U$§! est Libéral : "
+ DR_US_NEUTRAL: "§Y$US|U$§! est Conservateur : "
+ DR_US_COMMUNIST: "§Y$US|U$§! est Socialiste :"
+ DR_US_FASCIST: "§Y$US|U$§! est Réactionnaire : "
+
+#changed to British spelling
+ DIPLOMACY_MESSAGE_CANCELED_TITLE: "$RELATION$ annulé(e)"
+ DIPLOMACY_MESSAGE_CANCELED_MESSAGE: "$RELATION$ avec $COUNTRY$ §Rannulé(e)§! $REASON$"
+ LEND_LEASE_VEHICLES_BUTTON_DISABLED: "§TNous ne produisons pas de blindés ou n'en avons pas en réserve§!"
+ INCOMING_LEND_LEASE_VEHICLES_BUTTON_DISABLED: "§TNous ne savons pas si des blindés sont disponibles pour l'exportation§!"
+ DIPLOMACY_REQUEST_LICENSED_PRODUCTION_TITLE: "Acquérir une licence"
+ DIPLOMACY_MANAGE_LICENSED_PRODUCTION_EXISTING_TITLE: "Gérer les licences"
+ DIPLOMACY_MESSAGE_DECLINED_MESSAGE_DIPLOMACY_REQUEST_LICENSED_PRODUCTION: "§Y$COUNTRY$§! a §Rrejeté§! notre demande d'acquisition d'une licence de production."
+ DIPLOMACY_MESSAGE_ACCEPTED_MESSAGE_DIPLOMACY_REQUEST_LICENSED_PRODUCTION: "§Y$COUNTRY$§! a §Gaccepté§! notre demande d'acquisition d'une licence de production."
+ DIPLOMACY_REQUEST_LICENSED_PRODUCTION_ACTION_DESC: "Demander une licence donnant le droit de produire nous-même du matériel de ce pays."
+ DIPLOMACY_MANAGE_LICENSED_PRODUCTION_EXISTING_ACTION_DESC:9 "Acquérir de nouvelles licences ou mettre un terme à celles en cours."
+ DIPLOMACY_REQUEST_LICENSED_PRODUCTION_REQUEST_DESC: "$COUNTRY|UY$ demande une licence de production pour $LIST|Y$\nCe pays est prêt à payer $COST|Y$ £civ_factory tant que la licence aura cours."
+ DIPLOMACY_SHOW_ACTIVE_LICENSES: "§HLicences en cours§!"
+ DIPLOMACY_SHOW_AVAILABLE_LICENSES: "§HLicences disponibles§!"
+ DIPLOMACY_CANCEL_LICENSED_PRODUCTION_TITLE: "Mettre fin à une licence de production"
+ DIPLOMACY_CANCEL_LICENSED_PRODUCTION_ACTION_DESC: "Annule toutes les licences de production qui peuvent l'être."
+ CAN_DEACTIVATE_AFTER: "Cette licence ne peut être annulée avant le $DATE|H$."
+ CAN_CANCEL_ALL_AFTER: "Aucune licence ne peut être annulée avant le $DATE|H$."
+ DR_LICENSE_ACCEPTANCE: "§Y$THEM|U$§! est plus susceptible d'accepter les §Ydemandes de production sous licence§! de §Y$US$§! : "
+ DR_HAS_CORE_ON_ANY_STATE:9 "$COUNTRY|UY$ contrôle au moins un des États visés : "
+ BORDER_WAR_POWER_RATIO: "Rapport de force en notre faveur : $VAL|2%H$"
+ SEND_VOL_CONTROL_OF_HOME: "@$TAG$$WHO|UH$ a besoin de contrôler son théâtre d'opérations."
+ alert_expeditionary_force_delayed: "Nous disposons de forces expéditionnaires sur ce théâtre d'opérations."
+ DIPLOMACY_WAR_NO_WAR_WARGOAL_NO_NEIGBOR_WARS: "- Nous pouvons uniquement déclarer des guerres injustifiées à nos voisins et aux pays qui sont déjà en guerre contre des membres de notre faction et leurs voisins."
+ DIPLOMACY_PEACE_PROPOSAL_NOT_WARSCORE_ENOUGH: "Le score de guerre doit être d'au moins $LIMIT|%0Y$ pour l'ennemi, or il est actuellement de $WARSCORE|%0Y$."
+ DR_COMMUNIST_NOT_NEIGHBOUR: "$THEM|UY$ n'est pas limitrophe de la faction "
+ free_license: "Licence gratuite"
+
+#missing in vanilla
+ DIPLOMACY_INTERNATIONAL_MARKET_ACCESS_RIGHTS: "Accès au Marché"
+
+#removed colon character at the end
+ puppet_opinion: "État fantoche"
+
+#capitalised 'opinion'
+ small_decrease:9 "Dégradation de l'opinion"
+ medium_decrease:9 "Dégradation de l'opinion"
+ large_decrease:9 "Dégradation de l'opinion"
+ small_increase:9 "Amélioration de l'opinion"
+ medium_increase:9 "Amélioration de l'opinion"
+ large_increase:9 "Amélioration de l'opinion"
+ huge_increase:9 "Amélioration notable de l'opinion"

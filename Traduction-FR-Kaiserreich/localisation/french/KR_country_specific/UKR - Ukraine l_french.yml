@@ -362,7 +362,7 @@
  UKR_GER_loans_tt:0 "Prêts de l'Allemagne"
  UKR_AUS_loans_tt: "Prêts de l'Autriche"
  UKR_loan_tt: "§CCette décision peut être prise deux fois.§!"
- UKR_loan_tt_hetman: "§gUne fois le bureau de l'Hetman sécurisé et la révolte réglée, nous pouvons à nouveau nous réjouir d'inviter l'élite économique allemande, telle que Siemens et Krupp, à nous aider dans nos efforts d'industrialisation en cours.§!"
+ UKR_loan_tt_hetman:9 "§gUne fois le bureau de l'Hetman sécurisé et la révolte réglée, nous pouvons à nouveau nous réjouir d'inviter l'élite économique allemande, telle que Siemens et Krupp, à nous aider dans nos efforts d'industrialisation en cours.§!"
  UKR_loan_tt_not_hetman: "§gBien que nous fassions toujours partie du bloc économique Mitteleuropéen, l'assistance des géants allemands du monde des affaires a malheureusement été largement réduite suite à notre désir de relations économiques plus équitables après l'éviction de l'Hetman.\n\nHeureusement, les professionnels autrichiens sont plus enclins à s'engager avec nous dans des secteurs où leurs homologues frères ne le font pas.§!"
  UKR_industry_subsidies: "Subventions à l'Industrie"
  UKR_slash_regulations: "Règlement sur les Rémanents"
@@ -424,7 +424,6 @@
  UKR_reward_peasants_tt: "Ces décisions compléteront la §Yréforme agraire§! hetmaniste ratée. Le résultat final dépend de la mesure avec laquelle l'Hetmanat a pu faire avancer la réforme agraire."
  UKR_lun_integration: "Préparation Psychologique"
  UKR_factionalism: "Factionnalisme Croissant"
- UKR_cross_of_sword_TT: "§YMykola Stsiborskyi§!: modifie le trait §YPatriote§! par\n$MODIFIER_POLITICAL_POWER_FACTOR$: §G+10%§!\n$MODIFIER_CONSCRIPTION_FACTOR$: §Y+0.5%§!"
  UKR_black_sea_tt: "Active la décision: §YPromulguer la Doctrine de la Mer Noire§!, qui est disponible après la défaite de la Russie.\nElle a l'effet suivant :"
 
  UKR_natiocracy_idea_moderate_tt: "Remplace §YSyndicalisme d'État§! et §YLa Révolution Nationale§! par §YPatriotisme§!\nChangement effectif : \n$MODIFIER_PRODUCTION_SPEED_BUILDINGS_FACTOR$: §G+5%§!\n$MODIFIER_POLITICAL_POWER_FACTOR$: §G+5%§!\n$MODIFIER_PRODUCTION_FACTORY_START_EFFICIENCY_FACTOR$: §G+5%§!"
@@ -497,15 +496,10 @@
  UKR_urdp_left_strengthen_tt: "L'§lURDP§!-§SGauche§! §Ggaignera§! de l'influence."
  UKR_urdp_left_weaken_tt: "L'§lURDP§!-§SGauche§! §Rperdra§! de l'influence."
 
- UKR_usdrp_attitude_uncooperative: "Relations avec les Partenaires de Coalition"
- UKR_usdrp_attitude_indifferent: "Relations avec les Partenaires de Coalition"
- UKR_usdrp_attitude_cooperative: "Relations avec les Partenaires de Coalition"
- UKR_usdrp_attitude_amenable: "Relations avec les Partenaires de Coalition"
-
- UKR_urdp_attitude_uncooperative: "Relations avec les Partenaires de Coalition"
- UKR_urdp_attitude_indifferent: "Relations avec les Partenaires de Coalition"
- UKR_urdp_attitude_cooperative: "Relations avec les Partenaires de Coalition"
- UKR_urdp_attitude_amenable: "Relations avec les Partenaires de Coalition"
+ UKR_coalition_partner_uncooperative:0 "Relations avec les Partenaires de Coalition"
+ UKR_coalition_partner_indifferent:0 "Relations avec les Partenaires de Coalition"
+ UKR_coalition_partner_cooperative:0 "Relations avec les Partenaires de Coalition"
+ UKR_coalition_partner_amenable:0 "Relations avec les Partenaires de Coalition"
 
  UKR_urdp_high:0 "§GHaut§!"
  UKR_urdp_moderate: "§MModérée§!"
@@ -527,78 +521,54 @@
  UKR_amenable_active: "§C"
  UKR_usdrp_relation_inactive: "§L"
 
- #URDP as coalition partner's effects first, USDRP second, hoe.
- ukraine_republican_level_0_desc: "Ce niveau de relation s'étend de §Y0§!-§Y5§!.\n\n[UKR_urdp_uncooperative_pp] [UKR_urdp_uncooperative_stab] [UKR_urdp_uncooperative_ws] [UKR_urdp_uncooperative_factory_output] [UKR_urdp_uncooperative_prod_eff_base] [UKR_usdrp_uncooperative_pp] [UKR_usdrp_uncooperative_stab] [UKR_usdrp_uncooperative_ws] [UKR_usdrp_uncooperative_prod_eff_base]"
+ #the USDRP and URDP coalition vars are shared, hoe
+ ukraine_republican_level_0_desc:9 "Ce niveau de relation s'étend de §Y0§!-§Y5§!.\n\n[UKR_urdp_uncooperative_pp] [UKR_urdp_uncooperative_stab] [UKR_urdp_uncooperative_ws] [UKR_urdp_uncooperative_factory_output] [UKR_urdp_uncooperative_prod_eff_base] [UKR_usdrp_uncooperative_pp] [UKR_usdrp_uncooperative_stab] [UKR_usdrp_uncooperative_ws] [UKR_usdrp_uncooperative_prod_eff_base]"
  ukraine_republican_level_1_desc:9 "Ce niveau de relation s'étend de §Y6§!-§Y10§!.\n\n[UKR_urdp_indifferent_pp] [UKR_urdp_indifferent_stab] [UKR_urdp_indifferent_syndie_drift] [UKR_urdp_indifferent_radsoc_drift] [UKR_urdp_indifferent_factory_output] [UKR_urdp_indifferent_prod_eff_base] [UKR_usdrp_indifferent_pp] [UKR_usdrp_indifferent_stab] [UKR_usdrp_indifferent_ws] [UKR_urdp_indifferent_ws] [UKR_usdrp_indifferent_prod_eff_base]"
  ukraine_republican_level_2_desc:9 "Ce niveau de relation s'étend de §Y11§!-§Y15§!.\n\n[UKR_urdp_cooperative_pp] [UKR_urdp_cooperative_stab] [UKR_urdp_cooperative_syndie_drift] [UKR_urdp_cooperative_radsoc_drift] [UKR_urdp_cooperative_factory_output] [UKR_urdp_cooperative_construction_speed] [UKR_urdp_cooperative_prod_eff_cap] [UKR_urdp_cooperative_prod_eff_base] [UKR_urdp_cooperative_consumer_goods] [UKR_urdp_cooperative_land_reform] [UKR_usdrp_cooperative_pp] [UKR_usdrp_cooperative_stab] [UKR_usdrp_cooperative_production_speed_buildings_factor] [UKR_usdrp_cooperative_prod_eff_base] [UKR_usdrp_cooperative_consumer_goods] [UKR_usdrp_cooperative_prod_eff_cap] [UKR_usdrp_cooperative_land_reform] [UKR_usdrp_cooperative_industrialisation]"
- ukraine_republican_level_3_desc: "Ce niveau de relation s'étend de §Y16§!-§Y20§!.\n\n[UKR_urdp_amenable_pp] [UKR_urdp_amenable_stab] [UKR_urdp_amenable_syndie_drift] [UKR_urdp_amenable_radsoc_drift] [UKR_urdp_amenable_factory_output] [UKR_urdp_amenable_construction_speed] [UKR_urdp_amenable_prod_eff_cap] [UKR_urdp_amenable_prod_eff_base] [UKR_urdp_amenable_consumer_goods] [UKR_urdp_amenable_land_reform] [UKR_usdrp_amenable_pp] [UKR_usdrp_amenable_stab] [UKR_usdrp_amenable_production_speed_buildings_factor] [UKR_usdrp_amenable_prod_eff_base] [UKR_usdrp_amenable_consumer_goods] [UKR_usdrp_amenable_prod_eff_cap] [UKR_usdrp_amenable_prod_eff_retention] [UKR_usdrp_amenable_land_reform] [UKR_usdrp_amenable_industrialisation]"
+ ukraine_republican_level_3_desc:9 "Ce niveau de relation s'étend de §Y16§!-§Y20§!.\n\n[UKR_urdp_amenable_pp] [UKR_urdp_amenable_stab] [UKR_urdp_amenable_syndie_drift] [UKR_urdp_amenable_radsoc_drift] [UKR_urdp_amenable_factory_output] [UKR_urdp_amenable_construction_speed] [UKR_urdp_amenable_prod_eff_cap] [UKR_urdp_amenable_prod_eff_base] [UKR_urdp_amenable_consumer_goods] [UKR_urdp_amenable_land_reform] [UKR_usdrp_amenable_pp] [UKR_usdrp_amenable_stab] [UKR_usdrp_amenable_production_speed_buildings_factor] [UKR_usdrp_amenable_prod_eff_base] [UKR_usdrp_amenable_consumer_goods] [UKR_usdrp_amenable_prod_eff_cap] [UKR_usdrp_amenable_prod_eff_retention] [UKR_usdrp_amenable_land_reform] [UKR_usdrp_amenable_industrialisation]"
 
- UKR_urdp_uncooperative_pp_tt: "$MODIFIER_POLITICAL_POWER_FACTOR$: [?UKR.UKR_urdp_attitude_uncooperative_political_power_gain|=+]"
- UKR_urdp_indifferent_pp_tt: "$MODIFIER_POLITICAL_POWER_FACTOR$: [?UKR.UKR_urdp_attitude_indifferent_political_power_gain|=+]"
- UKR_urdp_cooperative_pp_tt: "$MODIFIER_POLITICAL_POWER_FACTOR$: [?UKR.UKR_urdp_attitude_cooperative_political_power_gain|=+]"
- UKR_urdp_amenable_pp_tt: "$MODIFIER_POLITICAL_POWER_FACTOR$: [?UKR.UKR_urdp_attitude_amenable_political_power_gain|=+]"
+ #Uncooperative Tooltips
+ UKR_coalition_partner_uncooperative_ppg_tt:9 "$MODIFIER_POLITICAL_POWER_GAIN$: [?UKR.UKR_coalition_partner_uncooperative_political_power_gain|=+]"
+ UKR_coalition_partner_uncooperative_sf_tt:9 "\n$MODIFIER_STABILITY_FACTOR$: [?UKR.UKR_coalition_partner_uncooperative_stability_factor|=+%]"
+ UKR_coalition_partner_uncooperative_wsf_tt:9 "\n$MODIFIER_WAR_SUPPORT_FACTOR$: [?UKR.UKR_coalition_partner_uncooperative_war_support_factor|=+%]"
+ UKR_coalition_partner_uncooperative_pfsef_tt:9 "\n$MODIFIER_PRODUCTION_FACTORY_START_EFFICIENCY_FACTOR$: [?UKR.UKR_coalition_partner_uncooperative_production_factory_start_efficiency_factor|=%+$]"
+ UKR_coalition_partner_uncooperative_icf_tt:9 "\n$MODIFIER_INDUSTRIAL_CAPACITY_FACTOR$: [?UKR.UKR_coalition_partner_uncooperative_industrial_capacity_factory|=+%]"
 
- UKR_urdp_uncooperative_stab_tt: "\n$MODIFIER_STABILITY_FACTOR$: [?UKR.UKR_urdp_attitude_uncooperative_stability_factor|=+%]"
- UKR_urdp_indifferent_stab_tt: "\n$MODIFIER_STABILITY_FACTOR$: [?UKR.UKR_urdp_attitude_indifferent_stability_factor|=+%]"
- UKR_urdp_cooperative_stab_tt: "\n$MODIFIER_STABILITY_FACTOR$: [?UKR.UKR_urdp_attitude_cooperative_stability_factor|=+%]"
- UKR_urdp_amenable_stab_tt: "\n$MODIFIER_STABILITY_FACTOR$: [?UKR.UKR_urdp_attitude_amenable_stability_factor|=+%]"
+ #Indifferent Tooltips
+ UKR_coalition_partner_indifferent_ppg_tt:9 "$MODIFIER_POLITICAL_POWER_GAIN$: [?UKR.UKR_coalition_partner_indifferent_political_power_gain|=+]"
+ UKR_coalition_partner_indifferent_sf_tt:9 "\n$MODIFIER_STABILITY_FACTOR$: [?UKR.UKR_coalition_partner_indifferent_stability_factor|=+%]"
+ UKR_coalition_partner_indifferent_wsf_tt:9 "\n$MODIFIER_WAR_SUPPORT_FACTOR$: [?UKR.UKR_coalition_partner_indifferent_war_support_factor|=+%]"
+ UKR_coalition_partner_indifferent_pfsef_tt:9 "\n$MODIFIER_PRODUCTION_FACTORY_START_EFFICIENCY_FACTOR$: [?UKR.UKR_coalition_partner_indifferent_production_factory_start_efficiency_factor|=%+$]"
+ UKR_coalition_partner_indifferent_icf_tt:9 "\n$MODIFIER_INDUSTRIAL_CAPACITY_FACTOR$: [?UKR.UKR_coalition_partner_indifferent_industrial_capacity_factory|=+%]"
 
- UKR_urdp_uncooperative_ws_tt: "\n$MODIFIER_WAR_SUPPORT_FACTOR$: [?UKR.UKR_urdp_attitude_uncooperative_war_support_factor|=+%]"
- UKR_urdp_indifferent_ws_tt: "\n$MODIFIER_WAR_SUPPORT_FACTOR$: [?UKR.UKR_urdp_attitude_indifferent_war_support_factor|=+%]"
+ #Cooperative Tooltips
+ UKR_coalition_partner_cooperative_ppg_tt:9 "$MODIFIER_POLITICAL_POWER_GAIN$: [?UKR.UKR_coalition_partner_cooperative_political_power_gain|=+]"
+ UKR_coalition_partner_cooperative_sf_tt:9 "\n$MODIFIER_STABILITY_FACTOR$: [?UKR.UKR_coalition_partner_cooperative_stability_factor|=+%]"
+ UKR_coalition_partner_cooperative_cgf_tt:9 "\n$MODIFIER_CONSUMER_GOODS_FACTOR$: [?UKR.UKR_coalition_partner_cooperative_consumer_goods_factor|Y=%1$]"
+ UKR_coalition_partner_cooperative_psbf_tt:9 "\n$MODIFIER_PRODUCTION_SPEED_BUILDINGS_FACTOR$: [?UKR.UKR_coalition_partner_cooperative_production_speed_buildings_factor|=+%]"
+ UKR_coalition_partner_cooperative_pfmef_tt:9 "\n$MODIFIER_PRODUCTION_FACTORY_MAX_EFFICIENCY_FACTOR$: [?UKR.UKR_coalition_partner_cooperative_production_factory_max_efficiency_factor|=%+$]"
+ UKR_coalition_partner_cooperative_pfsef_tt:9 "\n$MODIFIER_PRODUCTION_FACTORY_START_EFFICIENCY_FACTOR$: [?UKR.UKR_coalition_partner_cooperative_production_factory_start_efficiency_factor|=%+$]"
+ UKR_coalition_partner_cooperative_icf_tt:9 "\n$MODIFIER_INDUSTRIAL_CAPACITY_FACTOR$: [?UKR.UKR_coalition_partner_cooperative_industrial_capacity_factory|=+%]"
 
- UKR_urdp_uncooperative_factory_output_tt: "\n$MODIFIER_INDUSTRIAL_CAPACITY_FACTOR$: [?UKR.UKR_urdp_attitude_uncooperative_industrial_capacity_factory|=+%]"
- UKR_urdp_indifferent_factory_output_tt: "\n$MODIFIER_INDUSTRIAL_CAPACITY_FACTOR$: [?UKR.UKR_urdp_attitude_indifferent_industrial_capacity_factory|=+%]"
- UKR_urdp_cooperative_factory_output_tt: "\n$MODIFIER_INDUSTRIAL_CAPACITY_FACTOR$: [?UKR.UKR_urdp_attitude_cooperative_industrial_capacity_factory|=+%]"
- UKR_urdp_amenable_factory_output_tt: "\n$MODIFIER_INDUSTRIAL_CAPACITY_FACTOR$: [?UKR.UKR_urdp_attitude_amenable_industrial_capacity_factory|=+%]"
+ UKR_usdrp_cooperative_land_reform_tt:9 "\nLScore de Réforme Agraire §Y+3§! tous les §Y150 jours§!"
+ UKR_urdp_cooperative_land_reform_tt:9 "\nLScore de Réforme Agraire §Y+4§! tous les §Y150 jours§!"
 
- UKR_urdp_cooperative_construction_speed_tt: "\n$MODIFIER_PRODUCTION_SPEED_BUILDINGS_FACTOR$: [?UKR.UKR_urdp_attitude_cooperative_production_speed_buildings_factor|=+%]"
- UKR_urdp_amenable_construction_speed_tt: "\n$MODIFIER_PRODUCTION_SPEED_BUILDINGS_FACTOR$: [?UKR.UKR_urdp_attitude_amenable_production_speed_buildings_factor|=+%]"
+ UKR_urdp_cooperative_industrialisation_tt:0 "\nScore Industriel §Y+2§! tous les §Y150 jours§!"
 
- UKR_urdp_cooperative_prod_eff_cap_tt: "\n$MODIFIER_PRODUCTION_FACTORY_MAX_EFFICIENCY_FACTOR$: [?UKR.UKR_urdp_attitude_cooperative_production_factory_max_efficiency_factor|=%+$]"
- UKR_urdp_amenable_prod_eff_cap_tt: "\n$MODIFIER_PRODUCTION_FACTORY_MAX_EFFICIENCY_FACTOR$: [?UKR.UKR_urdp_attitude_amenable_production_factory_max_efficiency_factor|=%+$]"
+ #Amenable Tooltips
+ UKR_coalition_partner_amenable_ppg_tt:9 "$MODIFIER_POLITICAL_POWER_GAIN$: [?UKR.UKR_coalition_partner_amenable_political_power_gain|=+]"
+ UKR_coalition_partner_amenable_sf_tt:9 "\n$MODIFIER_STABILITY_FACTOR$: [?UKR.UKR_coalition_partner_amenable_stability_factor|=+%]"
+ UKR_coalition_partner_amenable_cgf_tt:9 "\n$MODIFIER_CONSUMER_GOODS_FACTOR$: [?UKR.UKR_coalition_partner_amenable_consumer_goods_factor|Y=%1$]"
+ UKR_coalition_partner_amenable_psbf_tt:9 "\n$MODIFIER_PRODUCTION_SPEED_BUILDINGS_FACTOR$: [?UKR.UKR_coalition_partner_amenable_production_speed_buildings_factor|=+%]"
+ UKR_coalition_partner_amenable_pfmef_tt:9 "\n$MODIFIER_PRODUCTION_FACTORY_MAX_EFFICIENCY_FACTOR$: [?UKR.UKR_coalition_partner_amenable_production_factory_max_efficiency_factor|=%+$]"
+ UKR_coalition_partner_amenable_pfsef_tt:9 "\n$MODIFIER_PRODUCTION_FACTORY_START_EFFICIENCY_FACTOR$: [?UKR.UKR_coalition_partner_amenable_production_factory_start_efficiency_factor|=%+$]"
+ UKR_coalition_partner_amenable_lcpef_tt:9 "\n$MODIFIER_LINE_CHANGE_PRODUCTION_EFFICIENCY_FACTOR$: [?UKR.UKR_coalition_partner_amenable_line_change_production_efficiency_factor|=%+$]"
+ UKR_coalition_partner_amenable_icf_tt:9 "\n$MODIFIER_INDUSTRIAL_CAPACITY_FACTOR$: [?UKR.UKR_coalition_partner_amenable_industrial_capacity_factory|=+%]"
 
- UKR_urdp_uncooperative_prod_eff_base_tt: "\n$MODIFIER_PRODUCTION_FACTORY_START_EFFICIENCY_FACTOR$: [?UKR.UKR_urdp_attitude_uncooperative_production_factory_start_efficiency_factor|=%+$]"
- UKR_urdp_indifferent_prod_eff_base_tt: "\n$MODIFIER_PRODUCTION_FACTORY_START_EFFICIENCY_FACTOR$: [?UKR.UKR_urdp_attitude_indifferent_production_factory_start_efficiency_factor|=%+$]"
- UKR_urdp_cooperative_prod_eff_base_tt: "\n$MODIFIER_PRODUCTION_FACTORY_START_EFFICIENCY_FACTOR$: [?UKR.UKR_urdp_attitude_cooperative_production_factory_start_efficiency_factor|=%+$]"
- UKR_urdp_amenable_prod_eff_base_tt: "\n$MODIFIER_PRODUCTION_FACTORY_START_EFFICIENCY_FACTOR$: [?UKR.UKR_urdp_attitude_amenable_production_factory_start_efficiency_factor|=%+$]"
-
- UKR_urdp_cooperative_consumer_goods_tt: "\n$MODIFIER_CONSUMER_GOODS_FACTOR$: [?UKR.UKR_urdp_attitude_cooperative_consumer_goods_factor|Y=%1$]"
- UKR_urdp_amenable_consumer_goods_tt: "\n$MODIFIER_CONSUMER_GOODS_FACTOR$: [?UKR.UKR_urdp_attitude_amenable_consumer_goods_factor|Y=%1$]"
-
- UKR_usdrp_cooperative_land_reform_tt: "\nLScore de Réforme Agraire §Y+3§! tous les §Y150 jours§!"
  UKR_usdrp_amenable_land_reform_tt: "\nLScore de Réforme Agraire §Y+3§! tous les §Y150 jours§!"
-
- UKR_urdp_cooperative_land_reform_tt: "\nLScore de Réforme Agraire §Y+4§! tous les §Y150 jours§!"
  UKR_urdp_amenable_land_reform_tt: "\nLScore de Réforme Agraire §Y+4§! tous les §Y150 jours§!"
 
- UKR_usdrp_cooperative_industrialisation_tt: "\nScore Industriel §Y+2§! tous les §Y150 jours§!"
- UKR_usdrp_amenable_industrialisation_tt: "\nScore Industriel §Y+3§! tous les §Y150 jours§!"
-
- UKR_usdrp_uncooperative_pp_tt: "\n$MODIFIER_POLITICAL_POWER_FACTOR$: [?UKR.UKR_usdrp_attitude_uncooperative_political_power_gain|=+]"
- UKR_usdrp_indifferent_pp_tt: "\n$MODIFIER_POLITICAL_POWER_FACTOR$: [?UKR.UKR_usdrp_attitude_indifferent_political_power_gain|=+]"
- UKR_usdrp_cooperative_pp_tt: "\n$MODIFIER_POLITICAL_POWER_FACTOR$: [?UKR.UKR_usdrp_attitude_cooperative_political_power_gain|=+]"
- UKR_usdrp_amenable_pp_tt: "\n$MODIFIER_POLITICAL_POWER_FACTOR$: [?UKR.UKR_usdrp_attitude_amenable_political_power_gain|=+]"
-
- UKR_usdrp_amenable_stab_tt: "\n$MODIFIER_STABILITY_FACTOR$: [?UKR.UKR_usdrp_attitude_amenable_stability_factor|=+%]"
-
- UKR_usdrp_uncooperative_ws_tt: "\n$MODIFIER_WAR_SUPPORT_FACTOR$: [?UKR.UKR_usdrp_attitude_uncooperative_war_support_factor|=+%]"
- UKR_usdrp_indifferent_ws_tt: "\n$MODIFIER_WAR_SUPPORT_FACTOR$: [?UKR.UKR_usdrp_attitude_indifferent_war_support_factor|=+%]"
-
- UKR_usdrp_cooperative_production_speed_buildings_factor_tt: "\n$MODIFIER_PRODUCTION_SPEED_BUILDINGS_FACTOR$: [?UKR.UKR_usdrp_attitude_cooperative_production_speed_buildings_factor|=+%]"
- UKR_usdrp_amenable_production_speed_buildings_factor_tt: "\n$MODIFIER_PRODUCTION_SPEED_BUILDINGS_FACTOR$: [?UKR.UKR_usdrp_attitude_amenable_production_speed_buildings_factor|=+%]"
-
- UKR_usdrp_uncooperative_prod_eff_base_tt: "\n$MODIFIER_PRODUCTION_FACTORY_START_EFFICIENCY_FACTOR$: [?UKR.UKR_usdrp_attitude_uncooperative_production_factory_start_efficiency_factor|=%+$]"
- UKR_usdrp_indifferent_prod_eff_base_tt: "\n$MODIFIER_PRODUCTION_FACTORY_START_EFFICIENCY_FACTOR$: [?UKR.UKR_usdrp_attitude_indifferent_production_factory_start_efficiency_factor|=%+$]"
- UKR_usdrp_cooperative_prod_eff_base_tt: "\n$MODIFIER_PRODUCTION_FACTORY_START_EFFICIENCY_FACTOR$: [?UKR.UKR_usdrp_attitude_cooperative_production_factory_start_efficiency_factor|=%+$]"
- UKR_usdrp_amenable_prod_eff_base_tt: "\n$MODIFIER_PRODUCTION_FACTORY_START_EFFICIENCY_FACTOR$: [?UKR.UKR_usdrp_attitude_amenable_production_factory_start_efficiency_factor|=%+$]"
-
- UKR_usdrp_cooperative_consumer_goods_tt: "\n$MODIFIER_CONSUMER_GOODS_FACTOR$: [?UKR.UKR_usdrp_attitude_cooperative_consumer_goods_factor|Y=%1$]"
- UKR_usdrp_amenable_consumer_goods_tt: "\n$MODIFIER_CONSUMER_GOODS_FACTOR$: [?UKR.UKR_usdrp_attitude_amenable_consumer_goods_factor|Y=%1$]"
-
- UKR_usdrp_cooperative_prod_eff_cap_tt: "\n$MODIFIER_PRODUCTION_FACTORY_MAX_EFFICIENCY_FACTOR$: [?UKR.UKR_usdrp_attitude_cooperative_production_factory_max_efficiency_factor|=%+$]"
- UKR_usdrp_amenable_prod_eff_cap_tt: "\n$MODIFIER_PRODUCTION_FACTORY_MAX_EFFICIENCY_FACTOR$: [?UKR.UKR_usdrp_attitude_amenable_production_factory_max_efficiency_factor|=%+$]"
-
- UKR_usdrp_amenable_prod_eff_retention_tt: "\n$MODIFIER_LINE_CHANGE_PRODUCTION_EFFICIENCY_FACTOR$: [?UKR.UKR_usdrp_attitude_amenable_line_change_production_efficiency_factor|=%+$]"
+ UKR_urdp_amenable_industrialisation_tt:0 "\nScore Industriel §Y+3§! tous les §Y150 jours§!"
 
  UKR_usdrp_uncooperative: "§RNon coopératif§!"
  UKR_usdrp_indifferent: "§OIndifférent§!"
@@ -865,6 +835,7 @@
  UKR_balanced_approach_tt: "Score Réforme Agraire §Y+1§! et Score Industriel §Y+1§! tous les §Y100 jours§!"
  UKR_representatives_of_protofis_1_tt: "Score Industriel §Y+2§! tous les §Y100 jours§!"
  UKR_representatives_of_protofis_2_tt: "Score Industriel §Y+3§! tous les §Y100 jours§!"
+ UKR_representatives_of_protofis_trait_change_tt:9 "Industrial Score increases by an extra §Y+1§! every §Y100 days§!"
  UKR_progressive_taxation_hetmanate_tt: "Score Industriel §Y+2§! tous les §Y150 jours§!"
  UKR_rural_banks_tt:9 "§CLes décisions relatives à la réforme agraire coûteront 40 pouvoir politique de moins.§!"
  UKR_progressive_taxation_hetmanate:0 "Fiscalité Progressive"
@@ -4194,7 +4165,7 @@ UKR_KR_gathering_storm_desc: "Le rêve d'une Ukraine indépendante s'est concré
  ukraine_republican_events.264.a:0 "Merci, Mykyta Shapoval."
 
  ukraine_republican_events.265.t:0 "Congrès d'Urgence du Parti !"
- ukraine_republican_events.265.d:0 "Au fil des années, nous avons été bombardé d'appels en faveur d'une classe politique qui soit enfin à la hauteur. «Nous avons besoin de nouveaux dirigeants, de nouvelles idées et de nouvelles personnalités », disent-ils. « C'est exact », répondons-nous. La défaite de la Russie étant imminente, il a été décidé d'organiser des élections spéciales au congrès du Parti Social-Fémocrate des Travailleurs Ukrainiens. Néanmoins, une controverse a éclaté assez peu de temps après.\n\nLes quatre principaux candidats élus au Comité Central sans grande opposition étaient Oleksii Kozlovskyi, Mykola Malashko, Ivan Luchyshyn et Petro Volyniak. Kozlovskyi et Malashko, tous d'anciens soldats (le premier ayant été officier), ils partagent également une passion pour l'économie coopérative et les activités pédagogiques. Luchyshyn n'est pas très éloigné des deux premiers et se concentre également sur les coopératives, bien que davantage sur l'aspect économique pratique des choses. Volyniak, en revanche, se concentre exclusivement sur le travail global du Ministère de l’Éducation. Néanmoins, tous les quatre ont réussi à se trouver une place dans la chambre dirigeante de l’USDRP.\n\nMais ensuite, les choses ont mal tourné. Alors qu'il ne restait plus qu'une place de membre au Comité Central, deux candidats opposés ont été examinés. D’un côté, il y avait Yurii Lavrinenko. Lavrinenko, écrivain célèbre et polémiste de premier plan, a acquis une certaine influence grâce à ses relations étroites avec des écrivains progressistes d'Ukraine, de Galicie et même de Pologne.\n\nD’un autre côté, il y avait Ivan Bahrianyi. De même, Bahrianyi est également un écrivain célèbre et un polémiste de premier plan. Mais contrairement à Lavrinenko, Bahrianyi se distingue également par sa rhétorique enflammée et sa teinte politique anti-russe plutôt radicale (pour un social-démocrate). S’il est élu, il sera certainement considéré comme l’un des dirigeants des groupes partis les plus à droite.\n\nJusqu'à présent, Lavrinenko est le favori pour le remporter. Mais il pourrait y avoir un bouleversement. En tout cas, le résultat consacre la victoire de..."
+ ukraine_republican_events.265.d:9 "Au fil des années, nous avons été bombardé d'appels en faveur d'une classe politique qui soit enfin à la hauteur. «Nous avons besoin de nouveaux dirigeants, de nouvelles idées et de nouvelles personnalités », disent-ils. « C'est exact », répondons-nous. La défaite de la Russie étant imminente, il a été décidé d'organiser des élections spéciales au congrès du Parti Social-Fémocrate des Travailleurs Ukrainiens. Néanmoins, une controverse a éclaté assez peu de temps après.\n\nLes quatre principaux candidats élus au Comité Central sans grande opposition étaient Oleksii Kozlovskyi, Mykola Malashko, Ivan Luchyshyn et Petro Volyniak. Kozlovskyi et Malashko, tous d'anciens soldats (le premier ayant été officier), ils partagent également une passion pour l'économie coopérative et les activités pédagogiques. Luchyshyn n'est pas très éloigné des deux premiers et se concentre également sur les coopératives, bien que davantage sur l'aspect économique pratique des choses. Volyniak, en revanche, se concentre exclusivement sur le travail global du Ministère de l’Éducation. Néanmoins, tous les quatre ont réussi à se trouver une place dans la chambre dirigeante de l’USDRP.\n\nMais ensuite, les choses ont mal tourné. Alors qu'il ne restait plus qu'une place de membre au Comité Central, deux candidats opposés ont été examinés. D’un côté, il y avait Yurii Lavrinenko. Lavrinenko, écrivain célèbre et polémiste de premier plan, a acquis une certaine influence grâce à ses relations étroites avec des écrivains progressistes d'Ukraine, de Galicie et même de Pologne.\n\nD’un autre côté, il y avait Ivan Bahrianyi. De même, Bahrianyi est également un écrivain célèbre et un polémiste de premier plan. Mais contrairement à Lavrinenko, Bahrianyi se distingue également par sa rhétorique enflammée et sa teinte politique anti-russe plutôt radicale (pour un social-démocrate). S’il est élu, il sera certainement considéré comme l’un des dirigeants des groupes partis les plus à droite.\n\nJusqu'à présent, Lavrinenko est le favori pour le remporter. Mais il pourrait y avoir un bouleversement. En tout cas, le résultat consacre la victoire de..."
  ukraine_republican_events.265.a:0 "Victoire de Lavrinenko!"
  ukraine_republican_events.265.b:0 "Le succès de Bahrianyi!"
 

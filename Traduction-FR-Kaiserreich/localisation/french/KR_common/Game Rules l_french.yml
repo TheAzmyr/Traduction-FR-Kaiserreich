@@ -123,6 +123,8 @@
  #        The text for the option descriptions should always be written in the present tense and always in the third person.
  #        Avoid "Leader will do xyz", or "attempts to", or "decides to", or "has been", if they can be avoided, as they just waste space.
  #        Options for country leader changes that have no unique content and no ideology change should generally be avoided, other than a few limited circumstances.
+ #        For when there are rules for a party that can have different leaders (e.g. "Republicans - William Borah"), or a path has different sub-paths that have rules (e.g. "Reunification - Shadow President"), use hyphens.
+ #        For when there are rules for a party that has different internal factions or groupings, use brackets (e.g. "Conservatives (Authoritarian)").
  #    Forpol Rules
  #        All faction/alignment choices should have a TAG_FORPOL rule, with the rule called that in the code and "Demonym Foreign Policy" in the text, in all circumstances.
  #        For the names of these options, they should be just named after the faction in question. i.e. "Reichspakt", not "Align with Germany". These should never be narrative names.
@@ -441,10 +443,6 @@
  RULE_OPTION_HAW_STRIKE_SYNDIE:9 "£KR_game_rule_flag_HAW_syndicalist  Révolution"
  RULE_OPTION_HAW_STRIKE_SYNDIE_DESC:0 "La répression violente des travailleurs met en colère la population de l'ancien territoire et les grèves deviennent incontrôlables. Les grévistes parviennent à vaincre la police et la garde nationale et à prendre le contrôle d'Honolulu. La Commune d'Hawaï est proclamée !"
  RULE_OPTION_HAW_STRIKE_ANNEXATION_DESC:9 "La Grève générale est défaite. Le Comité d'Urgence d'Hawaï décide de rester dans le giron de l'Amérique et reconnaît"
- RULE_OPTION_HAW_STRIKE_USA:9 "£KR_game_rule_flag_USA  Annexation du Gouvernement Fédéral"
- RULE_OPTION_HAW_STRIKE_USA_DESC:9 "$RULE_OPTION_HAW_STRIKE_ANNEXATION_DESC$ gouvernement fédéral comme le gouvernement légitime.\n\n§RRequiert :§!\n§RPas§! de §CGuerre civile avec MacArthur§! dans §Y$USA_CIVIL_WAR$§!"
- RULE_OPTION_HAW_STRIKE_ACC:9 "£KR_game_rule_flag_ACC  Coalition Constitutionnelle Américaine"
- RULE_OPTION_HAW_STRIKE_ACC_DESC:9 "$RULE_OPTION_HAW_STRIKE_ANNEXATION_DESC$ Coalition constitutionnelle américaine comme gouvernement légitime.$USA_MARCARTHUR_WAR_PLAN_REQUIREMENTS$"
 
  HAW_PATH:0 "£KR_game_rule_flag_HAW  Élections sur les Îles"
  HAW_PATH_DEM_REQUIREMENTS:9 "\n\n§RRequiert :§!\n§CMonarchie§! ou §CRépublique§! dans §Y$HAW_STRIKE$§!"
@@ -924,14 +922,27 @@
  RULE_OPTION_ARG_FORPOL_ENT_FALKLAND_DESC:9 "L'Argentine rejoint l'Entente mais doit en contrepartie renoncer aux îles Malouines.$ARG_FORPOL_START_REQUIREMENTS$ ou n'importe quel §CGrupo de Oficiales Unidos§! ou §CFarrell - PS§! dans §Y$ARG_PATH$§!"
 
  FOP_PATH:0 "£KR_game_rule_flag_FOP_syndicalist Le premier Congrès national du commerce"
+ FOP_FORPOL_REQUIREMENTS:9 "\n\n§RRequires:§!\n§CPatagonia wins the War in the Southern Cone§!"
  RULE_OPTION_FOP_PATH_RANDOM:0 "Par Défaut"
  RULE_OPTION_FOP_PATH_RANDOM_DESC:9 "Issu d'une tradition de démocratie républicaine, l'Argentine n'avait jamais eu de Congrès des Syndicats jusqu'à présent, et alors que beaucoup sont impatients de voir cet événement historique, beaucoup craignent qu'il ne s'agisse simplement d'une mascarade pour justifier un régime dictatorial. Alors que les portes de l'ancien Congrès s'ouvrent aux délégués de l'Union, le sort de la nation est en jeu..."
  RULE_OPTION_FOP_PATH_RADICALS_SYNDIE:9 "£KR_game_rule_flag_FOP_syndicalist  Sindicatos - Radicales"
  RULE_OPTION_FOP_PATH_RADICALS_SYNDIE_DESC:9 "Avec Severino di Giovanni comme président en exercice, les anarchistes radicaux de la §rUnión de Sindicatos Argentinos§!, ou Union des Syndicats argentins, prennent le dessus sur les autres factions de manière décisive. Avec une position très dure sur la religion, l'inégalité et le nationalisme, les anarchistes tentent de balayer tout ce qui reste de l'ancienne Argentine et de faire du territoire argentin une nation pour tous les travailleurs du monde.\nLes anarchistes radicaux cherchent à rejoindre la Troisième Internationale."
  RULE_OPTION_FOP_PATH_MODERATES_SYNDIE:9 "£KR_game_rule_flag_FOP_syndicalist  Sindicatos - Moderados"
  RULE_OPTION_FOP_PATH_MODERATES_SYNDIE_DESC:9 "Soto restant à son poste de président, les modérés de la §rUnión de Sindicatos Argentinos§!, ou Union des Syndicats argentins, restent au-dessus des autres factions et se préparent à effectuer des changements radicaux dans la nation. Bien qu'idéologiquement motivé, Soto est un pragmatique au sein du mouvement révolutionnaire, et cherche un compromis entre les idéaux anarchistes et la réalité de la société qu'il a maintenant le devoir de reconstruire.\nLes anarchistes modérés cherchent à rejoindre la Troisième Internationale."
- RULE_OPTION_FOP_PATH_MODERATES_RADSOC:9 "£KR_game_rule_flag_FOP_radical_socialist  FORA - Moderados"
- RULE_OPTION_FOP_PATH_MODERATES_RADSOC_DESC:9 "Après des décennies de lutte, la §RFederación Obrera Regional Argentina§!, ou Fédération ouvrière régionale d'Argentine, réussit finalement à devenir la force dominante de la politique argentine. Leur gouvernement, bien que moins radical que les autres syndicats, essaie tout de même de réformer la nation en faveur des travailleurs.\nLes modérés essayent de rester neutre dans la politique mondiale."
+ RULE_OPTION_FOP_PATH_RADSOC_START_END_DESC:9 "finally manage to become the dominant force in Argentinian politics.\nTheir rule, while not as radical as the other unions, still tries to reform the nation in favour of the workers"
+ RULE_OPTION_FOP_PATH_RADSOC_START_DESC:9 "After decades of struggle, the moderates of the §RFederación Obrera Regional Argentina§!, or Argentine Regional Workers' Federation, $RULE_OPTION_FOP_PATH_RADSOC_START_END_DESC$"
+ RULE_OPTION_FOP_CONSTITUTION_START_DESC:9 "$RULE_OPTION_FOP_PATH_RADSOC_START_DESC$, while restoring the constitution of the Argentine Republic of 1898."
+ RULE_OPTION_FOP_PATH_CONSTITUTION_RADSOC:9 "£KR_game_rule_flag_ARG  Restore Consitution - FORA"
+ RULE_OPTION_FOP_PATH_CONSTITUTION_RADSOC_DESC:9 "$RULE_OPTION_FOP_CONSTITUTION_START_DESC$\nFORA are successful in the following elections, and aim to remain neutral in world affairs.$FOP_FORPOL_REQUIREMENTS$"
+ RULE_OPTION_FOP_PATH_NOT_RADSOC_START_DESC:9 "After decades of struggle, the Federación Obrera Regional Argentina $RULE_OPTION_FOP_PATH_RADSOC_START_END_DESC$"
+ RULE_OPTION_FOP_CONSTITUTION_NOT_RADSOC_START_DESC:9 "$RULE_OPTION_FOP_PATH_NOT_RADSOC_START_DESC$, while restoring the constitution of the Argentine Republic of 1898."
+ RULE_OPTION_FOP_NOT_RADSOC_END_DESC:9 "gain a shock victory in the subsequent elections, and aim to remain neutral in world affairs."
+ RULE_OPTION_FOP_PATH_SOCLIB:9 "£KR_game_rule_flag_ARG  Restore Consitution - UCR"
+ RULE_OPTION_FOP_PATH_SOCLIB_DESC:9 "$RULE_OPTION_FOP_CONSTITUTION_NOT_RADSOC_START_DESC$\nThe §lUnión Cívica Radical§!, or Radical Civil Union, $RULE_OPTION_FOP_NOT_RADSOC_END_DESC$"
+ RULE_OPTION_FOP_PATH_MARLIB:9 "£KR_game_rule_flag_ARG  Restore Consitution - PDN"
+ RULE_OPTION_FOP_PATH_MARLIB_DESC:9 "$RULE_OPTION_FOP_CONSTITUTION_NOT_RADSOC_START_DESC$\nThe §mPartido Demócrata Nacional§!, or National Democratic Party, $RULE_OPTION_FOP_NOT_RADSOC_END_DESC$"
+ RULE_OPTION_FOP_PATH_REVOLUTIONARY_RADSOC:9 "£KR_game_rule_flag_ARG  FORA (Moderados)"
+ RULE_OPTION_FOP_PATH_REVOLUTIONARY_RADSOC_DESC:9 "$RULE_OPTION_FOP_PATH_RADSOC_START_DESC$, and maintain Argentina's current system of revolutionary democracy.\nThe moderates aim to remain neutral in world affairs.$FOP_FORPOL_REQUIREMENTS$"
  RULE_OPTION_FOP_PATH_UGARTISTAS_RADSOC:9 "£KR_game_rule_flag_FOP_radical_socialist  FORA - Ugartistas"
  RULE_OPTION_FOP_PATH_UGARTISTAS_RADSOC_DESC:9 "Les Ugaristas passent d'un club restreint à une faction conséquente de la §RFederación Obrera Regional Argentina§!, ou Fédération ouvrière régionale d'Argentine, avec la victoire de la révolution. Ils cherchent une approche nouvelle du socialisme, qui fusionne les idées du nationalisme argentin, de l'anti-impérialisme américain, de l'agrarisme et de la démocratie économique.\nLes Ugaristas cherchent à créer une nouvelle faction d'États socialistes sud-américains."
  RULE_OPTION_FOP_PATH_UGARTISTAS_BOOSTED_RADSOC:9 "£KR_game_rule_flag_FOP_radical_socialist  FORA - Ugartistas (Boostés)"
@@ -2446,7 +2457,7 @@
  RULE_OPTION_UKR_PATH_MARLIB_DESC:9 "$RULE_OPTION_UKR_PATH_REP_DESC$\n\nLors des élections qui suivent la révolte, l'URDP forme un gouvernement et engage l'Ukraine sur la voie du progrès et du parlementarisme. Après la défaite de la Russie, le parti est réélu, l'aile droite du §mUkrainska Radykalno-Demokratychna Partiia§!, ou Parti radical-démocrate ukrainien, devenant la plus influente.$UKR_PATH_REQUIREMENTS$"
  RULE_OPTION_UKR_PATH_REP_SOCDEM:0 "£KR_game_rule_flag_UKR  République - Mandat pour les Ouvriers"
  RULE_OPTION_UKR_PATH_REP_SOCDEM_DESC:9 "$RULE_OPTION_UKR_PATH_REP_DESC$\n\nLors des élections suivant la révolte, l'§SUkrainska Sotsial-Demokratychna Robitnycha Partiia§!, ou Parti ouvrier social-démocrate ukrainien, forme un gouvernement et guide l'Ukraine vers une voie démocrate-socialiste."
- RULE_OPTION_UKR_PATH_RADSOC: "£KR_game_rule_flag_UKR  République - Révolution Intérieure"
+ RULE_OPTION_UKR_PATH_RADSOC:9 "£KR_game_rule_flag_UKR  République - Révolution Intérieure"
  RULE_OPTION_UKR_PATH_RADSOC_DESC:9 "$RULE_OPTION_UKR_PATH_REP_DESC$\n\nLors des élections qui suivent la révolte, la RDS s'allie au Parti ouvrier social-démocrate ukrainien pour jeter les bases d'une Ukraine agraire et socialiste.\n\nSi la défense allemande contre l'Internationale commence à faiblir, la §RRobitnycho-Demokratychnyi Soiuz§!, ou Union ouvrière-démocratique, achève sa transition vers le socialisme et change de camp dans la guerre, rejoignant la Troisième Internationale une fois l'Allemagne vaincue.\n\n§CNote : L'Ukraine change de camp immédiatement si la Russie socialiste entre en guerre contre l'Allemagne. Sinon, l'Allemagne doit atteindre plus de 20% de capitulation et l'Ukraine doit être en guerre avec la Commune de France.§!"
  RULE_OPTION_UKR_PATH_SYNDIE: "£KR_game_rule_flag_UKR_syndicalist  République - Un Combat pour l'Éternité"
  RULE_OPTION_UKR_PATH_SYNDIE_DESC:9 "$RULE_OPTION_UKR_PATH_REP_DESC$\n\nMais tout ne va pas bien dans la nouvelle république. Les inefficacités du gouvernement nouvellement élu signifient la mort de la cause républicaine et un coup d'État socialiste, dirigé par le §rUkrainska Partiia Sotsialistiv-Revoliutsioneriv-Borotbystiv (Komunistiv-Syndykalistiv)§!, ou Parti ukrainien des Socialistes-Révolutionnaires-Borotbystes (Communistes-Syndicalistes), s'empare violemment du pouvoir."
@@ -2620,9 +2631,6 @@
  RULE_OPTION_ROM_PATH_PATAUT_DESC:9 "Le roi Carol II et sa §PCamarila Regală§!, ou Camarilla royale, sont les grands vainqueurs du Grand Jeu.\nCarol réforme plus tard sa Camarilla en §PFrontul Renaşterii Naţionale§!, ou Front de la Renaissance nationale.$ROM_PATH_REQUIREMENTS$"
  RULE_OPTION_ROM_PATH_NATPOP:9 "£KR_game_rule_flag_ROM  Nicolae - Légionnaires"
  RULE_OPTION_ROM_PATH_NATPOP_DESC:9 "Codreanu et sa §nLegiunea Arhanghelului Mihail§!, ou Légion de l'Archange Michel, sont les grands vainqueurs du Grand Jeu.\nLe frère de Carol, Nicolae, un sympathisant de la Légion, est couronné roi sous le nom de Nicolae Ier.$ROM_PATH_REQUIREMENTS$"
- RULE_OPTION_ROM_PATH_MIHAI_DESC:9 "Ni son père ni la Légion ne prenant le dessus, une fois la poussière retombée le roi Mihai Ier dirige la Roumanie. Le jeune roi"
- RULE_OPTION_ROM_PATH_AUTDEM:9 "£KR_game_rule_flag_ROM  Mihai - Gouvernement Militaire"
- RULE_OPTION_ROM_PATH_AUTDEM_DESC:9 "$RULE_OPTION_ROM_PATH_MIHAI_DESC$ confie le pays à un §aGuvernul Militar§!, ou Gouvernement militaire.$ROM_PATH_REQUIREMENTS$"
  RULE_OPTION_ROM_DEM_DESC:9 "$RULE_OPTION_ROM_PATH_MIHAI_DESC$ ramène son pays à la démocratie."
  RULE_OPTION_ROM_DEM_END_DESC:9 "prend une place de premier plan dans son parti et remporte l'élection."
  RULE_OPTION_ROM_PATH_SOCDEM:9 "£KR_game_rule_flag_ROM  Mihai - Parti Paysan (Gauche)"
