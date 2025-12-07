@@ -54,7 +54,6 @@
  ETS_turkiccountry: "Nous avons choisi de privilégier l'extérieur"
  ETS_demoflag: "Poursuite des Élections Libres"
  ETS_sabriflag: "Report des Élections Nationales"
- ETS_otto_reach_out_flag: "Tendre la Main à l'Empire Ottoman"
 
 #Opinion Modifiers
  ETS_violent_night:0 "Soumettre les Ambassadeurs à un Bain de Sang"
@@ -69,18 +68,14 @@
  get_ETS_infantry_equipment_amount_excess: "§G[?num_equipment@infantry_equipment]§!"
 
 #Custom Tooltip
- ETS_foreign_diplomacy_tt: "Débloque les §HDécisions du Soutien Étranger à la Révolution§!.\n"
  ETS_request_equipment_with_highway_tt:9 "§GDavantage de fusils seront donnés si les pays étrangers accèdent à la demande.§!"
- ETS_gold_seized_tt: "§Y1,5§! unité d'§Yor§! est ajoutée à la trésorerie nationale."
- ETS_gold_hotan_tt: "§Y5§! unités d'§Yor§! sont ajoutées à la trésorerie nationale.\n"
- ETS_gold_hotan_weekly_tt: "§Y1§! unité d'§Yor§! est ajoutée à la trésorerie nationale."
+ ETS_gold_increase:9 "$RIGHT|1Y$ unités d'§YOr§! sont ajoutées à la trésorerie nationale.\n"
  ETS_convert_hotan_factory_tt: "§GNous allons commencer à convertir l'Usine de Tapis de Hotan en Usine Militaire.§!\n§CLe soutien étranger des grands pays accélérerait le processus§!\nDéverrouille les §HDécisions de Conversion de l'Usine de Tapis de Hotan§!.\n"
- ETS_not_enough_gold_for_factory_tt: "§YAucune Usine Civile§! ne sera construite en raison d'un §Rmanque d'or§!"
+ ETS_not_enough_gold_for_factory_tt:9 "§YAucune Usine Civile§! ne sera construite en raison d'un §Rmanque d'or§!\n§YPour construire une usine civile, nous aurons besoin de 20 Or.§!"
  ETS_convert_hotan_tt: "§YHotan§!:\nRemplace §Y1 Usine Civile§! par §Y1 Usine Militaire§!"
  ETS_army_training_tt: "Débloque les §HDécisions d'Entraînement de l'Armée et de Formation des Techniques de Combat§!.\n"
  ETS_bughra_raise_militia_tt:9 "§G1§! unité de milice est levée à Hotan."
  ETS_timur_raise_militia_tt:9 "§G1§! unité de milice est levée à Kashgar."
- ETS_change_popularities: "Change la popularité du National Populisme : [?ETS_change_tooltip1|+%]\nChange la popularité du Démocrate Autoritaire: [?ETS_change_tooltip2|+%]"
  ETS_authelect_tt: "Des élections nationales régulières mais très contrôlées seront organisées tous les quatre ans."
  ETS_demelect_tt: "Des élections nationales libres seront organisées tous les quatre ans."
  ETS_local_firearm_expert_hired_tooltip: "§GNous allons engager un expert local en armes à feu.§!"
@@ -91,8 +86,10 @@
 
  ETS_get_new_advisors: "§LLes conseillers suivants passeront de notre côté : §!\n§YOspan Batyr§!\n§YDalelkhan Sugirbayev§!\n§YKalibek Rakhimbekovich§!"
 
- ETS_can_construct_kashgar_hotan_highway:9 "Tous les éléments suivants doivent être vrais :\n£indent Contrôle la province située au nord-est de §Y$VICTORY_POINTS_10870_RENAME$§!\n£indent Contrôle toutes les provinces qui suivent la £indent route la plus courte entre §Y$VICTORY_POINTS_10870_RENAME$§! et §Y$VICTORY_POINTS_5216_RENAME$§!\n£indent Contrôle la province à l'est de §Y$VICTORY_POINTS_5216_RENAME$§!"
+ ETS_can_construct_kashgar_hotan_highway:9 "Tous les éléments suivants doivent être vrais :\n£indent Contrôle la province située au nord-est de §Y[619.Controller.GetVictoryPointName_10870]§!\n£indent Contrôle toutes les provinces qui suivent la £indent route la plus courte entre §Y[619.Controller.GetVictoryPointName_10870]§! et §Y[619.Controller.GetVictoryPointName_5216]§!\n£indent Contrôle la province à l'est de §Y[619.Controller.GetVictoryPointName_5216]§!"
  ETS_building_the_kashgar_hotan_highway_tt:9 "Nous pouvons également améliorer l'infrastructure dans l'État de §Y[287.GetName]§! si nous le contrôlons."
+
+ ETS_has_won_in_xinjiang:9 "Nous avons remporté la guerre civile du Xinjiang"
 
 #Define Text
  ETS_hotan_conversion_yes: "\n\n£trigger_yes Nous pouvons maintenant convertir l'Usine de Tapis de Hotan\n§RTous les éléments suivants sont requis:§!"
@@ -299,21 +296,32 @@
 
 #Decisions
  ETS_foreign_diplomacy: "Soutien Étranger à la Révolution"
- ETS_foreign_diplomacy_desc:9 "En tant que jeune nation indépendante, luttant contre les oppresseurs chinois et les rebelles Kumul, nous devons rechercher le soutien des nations étrangères qui nous entourent, si nous voulons survivre.\n\nPrincipaux Pays :\n§Y[RUS.GetNameWithFlag]§![RUS.get_ETS_foreign_supporters]\n§Y[RAJ.GetNameWithFlag]§![RAJ.get_ETS_foreign_supporters]\n§Y[OTT.GetNameWithFlag]§![OTT.get_ETS_foreign_supporters]\n\nAutres Pays:\n§Y[AFG.GetNameWithFlag]§![AFG.get_ETS_foreign_supporters]\n§Y[TRK.GetNameWithFlag]§![TRK.get_ETS_foreign_supporters]\n§Y[BUK.GetNameWithFlag]§![BUK.get_ETS_foreign_supporters]\n§Y[KAZ.GetNameWithFlag]§![KAZ.get_ETS_foreign_supporters]\n\nQuantité de Fusils:  [get_ETS_infantry_equipment_amount]\nQuantité d'Or:  [?ETS_gold_amount|+]\n"
- ETS_foreign_support_send_delgations_RUS: "Rechercher le Soutien des Russes"
- ETS_foreign_support_send_delgations_RUS_desc: "La Russie, qui est proche mais n'a pas de frontière avec nous, est dans sa propre tourmente politique. Bien qu'elle puisse mettre du temps à s'en remettre, son désir d'Asie centrale est à peine dissimulé, et elle aurait besoin d'alliés pour assurer sa domination. Nous nous rendrons en Russie et plaiderons en faveur de notre soutien, afin qu'en retour nous devenions leurs alliés."
- ETS_foreign_support_send_delgations_RAJ: "Rechercher le Soutien des Britanniques"
- ETS_foreign_support_send_delgations_RAJ_desc: "Les Britanniques, qui ne sont plus que l'ombre de leur gloire passée, possèdent encore un tiers du sous-continent indien. Ils pourraient être un puissant soutien à notre cause. Nous allons rassembler un train de chameaux et nous diriger immédiatement vers [RAJ.GetNameDef] pour leur demander leur soutien et leur offrir notre appui pour leur domination sur l'Inde."
- ETS_foreign_support_send_delgations_OTT: "Rechercher le Soutien de l'Empire Ottoman"
- ETS_foreign_support_send_delgations_OTT_desc: "L'Empire Ottoman est très éloigné de nous, mais cela ne diminue en rien leur fervent soutien à notre indépendance. Nous nous rendrons à Bagdad pour demander leur soutien."
- ETS_foreign_support_send_delgations_AFG: "Rechercher le Soutien du Khan à Kaboul"
- ETS_foreign_support_send_delgations_AFG_desc: "Le Khan de Kaboul est très favorable à notre cause. Nous allons rassembler un train de chameaux et nous diriger vers Kaboul pour demander leur soutien."
- ETS_foreign_support_send_delgations_central_asia:9 "Rechercher le soutien de [From.GetNameDef]"
- ETS_foreign_support_send_delgations_central_asia_desc:9 "Nous allons assembler un train de chameaux et nous diriger vers [From.GetNameDef] pour demander leur soutien."
+ ETS_foreign_diplomacy_desc:9 "En tant que jeune nation indépendante, luttant contre les oppresseurs chinois et les rebelles Kumul, nous devons rechercher le soutien des nations étrangères qui nous entourent, si nous voulons survivre.\n\nPrincipaux Pays :\n§Y[RUS.GetNameWithFlag]§![RUS.get_ETS_foreign_supporters]\n§Y[RAJ.GetNameWithFlag]§![RAJ.get_ETS_foreign_supporters]\n§Y[OTT.GetNameWithFlag]§![OTT.get_ETS_foreign_supporters]\n\nAutres Pays:\n§Y[AFG.GetNameWithFlag]§![AFG.get_ETS_foreign_supporters]\n§Y[TRK.GetNameWithFlag]§![TRK.get_ETS_foreign_supporters]\n§Y[BUK.GetNameWithFlag]§![BUK.get_ETS_foreign_supporters]\n\nQuantité de Fusils:  [get_ETS_infantry_equipment_amount]\nQuantité d'Or:  [?ETS_gold_amount|+]\n"
+
+ ETS_foreign_support_send_delegations_major:9 "[FROM.ETS_SendDelegationTitle]"
+ ETS_foreign_support_send_delegations_major_desc:9 "[FROM.ETS_SendDelegationDesc]"
+ ETS_foreign_support_send_delegations_minor:9 "[FROM.ETS_SendDelegationTitle]"
+ ETS_foreign_support_send_delegations_minor_desc:9 "[FROM.ETS_SendDelegationDesc]"
+
+ RUS_ETS_foreign_support_send_delegations:0 "Rechercher le soutien des Russes"
+ RUS_ETS_foreign_support_send_delegations_desc:0 "La Russie, proche de nous mais sans frontière, est en proie à ses propres troubles politiques. Bien qu'il lui faille du temps pour s'en remettre, son désir d'Asie centrale est à peine dissimulé et elle aurait besoin d'alliés pour asseoir son autorité. Nous nous rendrons en Russie et présenterons des arguments en faveur de notre soutien, afin que nous devenions en retour leur allié."
+ RAJ_ETS_foreign_support_send_delegations:0 "Rechercher le soutien des Britanniques"
+ RAJ_ETS_foreign_support_send_delegations_desc:0 "Les Britanniques, qui ne sont plus que l'ombre de leur gloire passée, possèdent encore un tiers du sous-continent indien. Ils pourraient être un puissant soutien à notre cause. Nous allons rassembler un train de chameaux et nous diriger immédiatement vers [RAJ.GetNameDef] pour leur demander leur soutien et leur offrir notre appui pour leur domination sur l'Inde."
+ TUR_ETS_foreign_support_send_delegations:0 "Rechercher le soutien de l'Empire ottoman"
+ TUR_ETS_foreign_support_send_delegations_desc:0 "L'Empire ottoman est très éloigné de nous, mais cela ne diminue en rien leur soutien fervent à notre indépendance. Nous nous rendrons à Bagdad pour leur demander leur soutien."
+ AFG_ETS_foreign_support_send_delegations:0 "Rechercher le soutien du Khan à Kaboul"
+ AFG_ETS_foreign_support_send_delegations_desc:0 "Le Khan de Kaboul est très favorable à notre cause. Nous allons monter un train de chameaux et nous diriger vers Kaboul pour demander leur soutien."
+ ETS_foreign_support_send_delegations:0 "Rechercher le soutien de [From.GetNameDef]"
+ ETS_foreign_support_send_delegations_desc:0 "Nous allons rassembler un train de chameaux et nous diriger vers [From.GetNameDef] pour leur demander leur soutien."
+
+ RUS_ETS_delegations_event_picture:9 "GFX_report_event_WAL_Fortify_Palace"
+ RAJ_ETS_delegations_event_picture:9 "GFX_report_event_DEI_hotel_des_indes"
+ ETS_delegations_event_picture:9 "GFX_report_event_generic_diplomacy3"
+
  ETS_foreign_support_more_equipment_partial_support:9 "Demande d'équipementl de [From.GetNameDef]"
  ETS_foreign_support_more_equipment_full_support:9 "Plus d'équipement de [From.GetNameDef]"
  ETS_economics_of_war_decisions:9 "Économie de guerre"
- ETS_economics_of_war_decisions_desc:0 "Si nous voulons survivre, nous devons mettre de l'ordre dans notre économie de guerre. Nous devons commencer à convertir les usines et obtenir une bonne quantité d'or pour nos coffres. [get_ETS_hotan_conversion] [get_ETS_hotan_firearm_expert][get_ETS_hotan_learn_gunpowder] [get_ETS_hotan_learn_mineral_processing]\n\nMontant d'or : [?ETS_gold_amount|+]"
+ ETS_economics_of_war_decisions_desc:9 "Si nous voulons survivre, nous devons mettre de l'ordre dans notre économie de guerre. Nous devons commencer à convertir les usines et obtenir une bonne quantité d'or pour nos coffres. [get_ETS_hotan_conversion] [get_ETS_hotan_firearm_expert][get_ETS_hotan_learn_gunpowder] [get_ETS_hotan_learn_mineral_processing]\n\nMontant d'or : [?ETS_gold_amount|+1]"
  ETS_convert_gold_to_currency: "Créer une Monnaie Unifiée"
  ETS_complete_hotan_conversion: "Achever la Conversion en Usine"
  ETS_hire_firearm_expert_foreign:9 "Engager un expert en armes à feu de [From.GetNameDef]"
@@ -337,19 +345,20 @@
  ETS_war_with_KUM: "Guerre avec le Khanat de Kumul"
  ETS_war_with_KUM_desc: "Ils doivent être détruits"
 
+ CP_15_manpower_4500:9 "£command_power §H15§! £manpower_texticon §H4500§!"
+ CP_15_manpower_4500_blocked:9 "£command_power §R15§! £manpower_texticon §R4500§!"
+ CP_15_manpower_4500_tooltip:9 "La prise de décision coûte $CP_15_manpower_4500_blocked$."
+
  ETS_turkic_diplo_decisions: "Diplomatie Turque"
  ETS_turkic_diplo_decisions_desc: "En tant que nation turque nouvellement indépendante, nous devrions essayer de tendre la main à d'autres nations turques à travers le monde, pour une coopération et un développement mutuels."
  ETS_reach_out_to_country_decision: "Contacter [FROM.GetNameDef]"
  ETS_send_officers_to_train_in_otto_decision: "Envoyer des Officiers s'entraîner à [FROM.GetNameDef]"
 
-#Tooltips
- ETS_not_already_receiving_from_help_training: "Ne pas recevoir l'aide de [From.GetNameWithFlag] dans d'autres domaines du processus d'entraînement."
- ETS_not_already_receiving_from_help_conversion: "Ne pas recevoir l'aide de [From.GetNameWithFlag] dans d'autres domaines du processus de conversion."
-
 #Flags
  ETS_army_adopt_formation_training: "Dans le processus d'adoption des formations d'infanterie"
  ETS_army_combat_techniques_training: "Dans le processus de développement des techniques de combat"
- ETS_mineral_processing_learning: "Dans le processus de découverte de la formule Gunpowder"
+ ETS_mineral_processing_learning:9 "En cours d'apprentissage de la transformation des minéraux."
+ ETS_gunpowder_formula_discovery:0 "En découvrant la formule de la poudre à canon"
  ETS_firearm_expert_hiring: "En cours d'embauche d'un expert en armes à feu"
 
 # Intro Screen
@@ -369,30 +378,6 @@
  east_turkestan_events.2.a:0 "Fournir un soutien complet !"
  east_turkestan_events.2.b:0 "Fournir un soutien partiel."
  east_turkestan_events.2.c:0 "Ne prenez même pas la peine de les rencontrer."
-
- east_turkestan_events.3.t:0 "La Délégation du Turkestan Oriental Demande de l'Aide"
- east_turkestan_events.3.d:0 "La délégation du Turkestan Oriental est arrivée ce matin, nous demandant de soutenir leur guerre d'indépendance contre la clique du Xinjiang. Comment devrions-nous répondre ? Nous pouvons leur fournir des armes et de l'or sur une base régulière comme soutien total, ou juste cette fois comme soutien partiel, ou ne pas les soutenir du tout."
- east_turkestan_events.3.a:0 "Fournir un soutien complet !"
- east_turkestan_events.3.b:0 "Fournir un soutien partiel."
- east_turkestan_events.3.c:0 "Ne prenez même pas la peine de les rencontrer."
-
- east_turkestan_events.4.t:0 "La Délégation du Turkestan Oriental Demande de l'Aide"
- east_turkestan_events.4.d:0 "La délégation du Turkestan Oriental est arrivée ce matin, nous demandant de soutenir leur guerre d'indépendance contre la clique du Xinjiang. Comment devrions-nous répondre ? Nous pouvons leur fournir des armes et de l'or sur une base régulière comme soutien total, ou juste cette fois comme soutien partiel, ou ne pas les soutenir du tout."
- east_turkestan_events.4.a:0 "Fournir un soutien complet !"
- east_turkestan_events.4.b:0 "Fournir un soutien partiel."
- east_turkestan_events.4.c:0 "Ne prenez même pas la peine de les rencontrer."
-
- east_turkestan_events.5.t:0 "La Délégation du Turkestan Oriental Demande de l'Aide"
- east_turkestan_events.5.d:0 "La délégation du Turkestan Oriental est arrivée ce matin, nous demandant de soutenir leur guerre d'indépendance contre la clique du Xinjiang. Comment devrions-nous répondre ? Nous pouvons leur fournir des armes et de l'or sur une base régulière comme soutien total, ou juste cette fois comme soutien partiel, ou ne pas les soutenir du tout."
- east_turkestan_events.5.a:0 "Fournir un soutien complet !"
- east_turkestan_events.5.b:0 "Fournir un soutien partiel."
- east_turkestan_events.5.c:0 "Ne prenez même pas la peine de les rencontrer."
-
- east_turkestan_events.6.t:0 "La Délégation du Turkestan Oriental Demande de l'Aide"
- east_turkestan_events.6.d:0 "La délégation du Turkestan Oriental est arrivée ce matin, nous demandant de soutenir leur guerre d'indépendance contre la clique du Xinjiang. Comment devrions-nous répondre ? Nous pouvons leur fournir des armes et de l'or sur une base régulière comme soutien total, ou juste cette fois comme soutien partiel, ou ne pas les soutenir du tout."
- east_turkestan_events.6.a:0 "Fournir un soutien complet !"
- east_turkestan_events.6.b:0 "Fournir un soutien partiel."
- east_turkestan_events.6.c:0 "Ne prenez même pas la peine de les rencontrer."
 
  east_turkestan_events.8.t:0 "Soutien total donné de [From.GetNameDef]"
  east_turkestan_events.8.d:0 "La délégation que nous avons envoyée à [From.GetName] a apporté de grandes nouvelles. Le gouvernement de [From.GetAdjective] est très sensible à notre cause, et a décidé d'apporter son soutien total pour nous aider à obtenir l'indépendance. Ils ont fourni une quantité décente de fusils et de munitions, ainsi que de l'or."

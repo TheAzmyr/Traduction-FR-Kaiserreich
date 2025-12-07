@@ -484,7 +484,9 @@
 
 ### Republic Decisions ###
  UKR_republic_decisions: "Administration Républicaine"
- UKR_republic_decisions_desc: "Les dernières élections nous ont obligés à faire des compromis, des promesses et à nous regrouper avec un autre parti. Il s'agit simplement d'agir et de garantir que le gouvernement de coalition de la République populaire restaurée puisse résister à la tempête et garantir un gouvernement populaire et stable.\n\n[UKR_republican_decision_category_text]\n\n"
+ UKR_republic_decisions_desc:9 "Les dernières élections nous ont obligés à faire des compromis, des promesses et à nous regrouper avec un autre parti. Il s'agit simplement d'agir et de garantir que le gouvernement de coalition de la République populaire restaurée puisse résister à la tempête et garantir un gouvernement populaire et stable.\n\n[UKR_republican_decision_category_text]\n\n"
+ UKR_usdrp_coalition_tt: "dans l'§SUSDRP§!"
+ UKR_urdp_coalition_tt: "dans l'§lURDP§!"
  UKR_republic_decisions_desc_part_two: "[UKR_republic_decisions_second_half]"
  UKR_republic_decisions_part_two_urdp: "Nous devons également veiller à ce que le fractionnement au sein de l'§lURDP§! ne devienne pas incontrôlable. Laisser l'une des factions du parti avoir une influence trop faible peut conduire à une §Rrévolte de l'intérieur§! - mais parfois, une influence §GHaute§! peut s'avérer utile.\n\nL'§CInfluence§! de la §mDroite§! est [UKR_urdp_right_influence_level].\nL'§CInfluence§! du §lCentre§! est [UKR_urdp_centre_influence_level].\nL'§CInfluence§! de la §SGauche§! est [UKR_urdp_left_influence_level]."
  UKR_republic_decisions_part_two_usdrp:9 "Grâce aux §Hévénements§! et aux §Hpriorités§!, nous pouvons également influencer l'§1Idéalisme§! au sein du §Sparti§!. Chaque niveau supplémentaire §Gaméliorera§! les effets de notre arbre des priorités politique. L'§1Idéalisme§! peut varier de §Y-4§! à §Y+6§! avec des améliorations plafonnées à §Y+4§!. Plus le niveau sera élevé, plus nos priorités seront affectées. \n\nLe niveau actuel d'§1idéalisme§! est: [?UKR_usdrp_idealism_points|=Y0]"
@@ -505,21 +507,16 @@
  UKR_urdp_moderate: "§MModérée§!"
  UKR_urdp_low: "§PBasse§!"
 
- UKR_republican_decision_category_urdp: "Des concessions seront nécessaires pour satisfaire nos partenaires de la coalition[UKR_postwar_coalition_category_text]. En fonction de leur attitude à notre égard, nous obtiendrons §Cdivers modificateurs§!. Ces modificateurs pourront changer au fil du temps grâce aux §Ypriorités§! et aux §YYévénements§!.\n\nActuellement, leur attitude à notre égard est [UKR_usdrp_attitude] (§Y[?UKR_usdrp_attitude]§!)."
- UKR_republican_decision_category_usdrp: "Des concessions seront nécessaires pour satisfaire nos partenaires de la coalition[UKR_postwar_coalition_category_text]. En fonction de leur attitude à notre égard, nous obtiendrons §Cdivers modificateurs§!. Ces modificateurs pourront changer au fil du temps grâce aux §Ypriorités§! et aux §YYévénements§!.\n\nActuellement, leur attitude à notre égard est [UKR_urdp_attitude]] (§Y[?UKR_urdp_attitude]§!)."
- UKR_usdrp_coalition_tt: "dans l'§SUSDRP§!"
- UKR_urdp_coalition_tt: "dans l'§lURDP§!"
-
- ukraine_republican_level_0: "[UKR_usdrp_uncooperative_activated]Non coopératif§!"
- ukraine_republican_level_1: "[UKR_usdrp_indifferent_activated]Indifférent§!"
- ukraine_republican_level_2: "[UKR_usdrp_cooperative_activated]Cooperatif§!"
- ukraine_republican_level_3: "[UKR_usdrp_amenable_activated]Souple§!"
+ ukraine_republican_level_0:9 "[UKR_usdrp_uncooperative_activated]Non coopératif§!"
+ ukraine_republican_level_1:9 "[UKR_usdrp_indifferent_activated]Indifférent§!"
+ ukraine_republican_level_2:9 "[UKR_usdrp_cooperative_activated]Cooperatif§!"
+ ukraine_republican_level_3:9 "[UKR_usdrp_amenable_activated]Souple§!"
 
  UKR_uncooperative_active: "§R"
  UKR_indifferent_active: "§O"
  UKR_cooperative_active: "§G"
  UKR_amenable_active: "§C"
- UKR_usdrp_relation_inactive: "§L"
+ UKR_relation_inactive:0 "§L"
 
  #the USDRP and URDP coalition vars are shared, hoe
  ukraine_republican_level_0_desc:9 "Ce niveau de relation s'étend de §Y0§!-§Y5§!.\n\n[UKR_urdp_uncooperative_pp] [UKR_urdp_uncooperative_stab] [UKR_urdp_uncooperative_ws] [UKR_urdp_uncooperative_factory_output] [UKR_urdp_uncooperative_prod_eff_base] [UKR_usdrp_uncooperative_pp] [UKR_usdrp_uncooperative_stab] [UKR_usdrp_uncooperative_ws] [UKR_usdrp_uncooperative_prod_eff_base]"
@@ -570,10 +567,11 @@
 
  UKR_urdp_amenable_industrialisation_tt:0 "\nScore Industriel §Y+3§! tous les §Y150 jours§!"
 
- UKR_usdrp_uncooperative: "§RNon coopératif§!"
- UKR_usdrp_indifferent: "§OIndifférent§!"
- UKR_usdrp_cooperative: "§GCooperatif§!"
- UKR_usdrp_amenable: "§CSouple§!"
+ UKR_coalition_partner_attitude_uncooperative:0 "§RNon coopératif§!"
+ UKR_coalition_partner_attitude_indifferent:0 "§OIndifférent§!"
+ UKR_coalition_partner_attitude_cooperative:0 "§GCooperatif§!"
+ UKR_coalition_partner_attitude_amenable:0 "§CSouple§!"
+
  UKR_galician_negotiations: "Négociations en Galice"
  UKR_galician_negotiations_desc:9 "Les Ukrainiens de l'Empire autrichien nous ont donné refuge et nous ont soutenus lorsque nous luttions contre l'oppression des Hetmanites. Maintenant que la démocratie est assurée, il est de notre devoir de leur rendre la pareille et de les inviter à rejoindre notre nouvelle république."
  UKR_revolution_within_a_revolution: "Révolution dans la Révolution"
@@ -738,10 +736,10 @@
  UKR_republic_socialists_gain_pop_tt: "Le §RRDS§! §Ggagnera§! de la popularité."
  UKR_republic_socialists_lose_pop_tt: "Le §RRDS§! §Rperdra§! de la popularité."
 
- UKR_urdp_usdrp_relationship_worsen: "Les relations de l'§lURDP§! avec l'§SUSDRP§! vont s'§Raggraver§!. (§R[?UKR_usdrp_attitude_change]§!)"
- UKR_usdrp_urdp_relationship_worsen: "Les relations de l'§SUSDRP§! avec l'§lURDP§! vont s'§Raggraver§!. (§R[?UKR_urdp_attitude_change]§!)"
- UKR_usdrp_urdp_relationship_improve: "Les relations de l'§SUSDRP§! avec l'§lURDP§! vont s'§Gaméliorer§!. (§G+[?UKR_urdp_attitude_change]§!)"
- UKR_urdp_usdrp_relationship_improve: "Les relations de l'§lURDP§! avec l'§SUSDRP§! vont s'§Gaméliorer§!. (§G+[?UKR_usdrp_attitude_change]§!)"
+ UKR_urdp_usdrp_relationship_worsen:9 "Les relations de l'§lURDP§! avec l'§SUSDRP§! vont s'§Raggraver§!. (§R[?UKR_usdrp_attitude_change]§!)"
+ UKR_usdrp_urdp_relationship_worsen:9 "Les relations de l'§SUSDRP§! avec l'§lURDP§! vont s'§Raggraver§!. (§R[?UKR_urdp_attitude_change]§!)"
+ UKR_usdrp_urdp_relationship_improve:9 "Les relations de l'§SUSDRP§! avec l'§lURDP§! vont s'§Gaméliorer§!. (§G+[?UKR_urdp_attitude_change]§!)"
+ UKR_urdp_usdrp_relationship_improve:9 "Les relations de l'§lURDP§! avec l'§SUSDRP§! vont s'§Gaméliorer§!. (§G+[?UKR_usdrp_attitude_change]§!)"
 
  UKR_republic_elections_radicals: "§lURDP§!"
  UKR_republic_elections_socdems: "§SUSDRP§!"
@@ -1000,7 +998,6 @@
  UKR_eastern_threat_desc: "[?global.russia.GetNameDefCap] n'a jamais vraiment accepté une Ukraine indépendante. L'objectif des forces armées ukrainiennes, maintenant et pour toujours, sera de tenir la menace russe à distance."
 
  UKR_evacuate_industry: "L'Evacuation de l'Industrie"
- UKR_holds_east_dnipro: "Nous contrôlons tout État à l'est du Dniepr qui n'est pas coupé."
  UKR_fortify_homel: "Ligne de fortification de [241.GetName] - Shostka"
  UKR_fortify_sumy: "Ligne de Fortification de [225.GetName] - [221.GetName] "
  UKR_fortify_yuzivka: "Ligne de fortification de Luhanske-Mariiupil"
@@ -1708,6 +1705,9 @@ UKR_KR_gathering_storm_desc: "Le rêve d'une Ukraine indépendante s'est concré
  ukraine_events.93.d:0 "Les historiens du futur débattront probablement autour du fait de savoir si la grande contre-offensive après la chute de l’Allemagne sera incluse dans la Deuxième Weltkrieg, ou quelque chose de plus magnifique : la Troisième Weltkrieg. Cette dernière opinion donne à César ce qui est à César, car l’Ukraine et ses alliés ont réussi un exploit monumental.\n\nMais le temps n’est pas venu pour de telles discussions : l’Europe doit se reconstruire. Nous n’oublierons jamais les pertes que nous avons subies pendant la guerre, mais nous n’oublierons jamais non plus la raison pour laquelle la guerre a éclaté. Même si la plupart attribuent la montée de l’agression franco-russe à la fin des années 1930 à la principale cause du conflit, il y a du vrai dans la théorie selon laquelle le désir allemand de suprématie européenne et potentiellement même de domination mondiale n’a fait qu’attiser davantage les tensions.\n\nNous connaissons nous-mêmes les conséquences de tels désirs. De 1918 jusqu’à la révolte victorieuse anti-Hetman, les Allemands ont soutenu le gouvernement autoritaire hetmaniste, nous obligeant à vendre des céréales à bas prix et à nous soumettre au système mitteleuropéen plutôt oppressif. Même après la restauration de la République Populaire, ces mesures ont été maintenues – tandis que nous aspirions à une véritable liberté.\n\nDésormais, nous ne serons pas les seuls à pouvoir goûter à cette véritable liberté. C'est pour que l'Europe n'en vienne plus jamais aux mains, pour que l'hégémonie économique et la suprématie militaire ne façonnent plus le continent, pour que l'Europe soit sûre pour la démocratie, qu'un grand congrès se déroule à Berlin. Sur la base du précédent Traité de Coopération entre États Populaires, une nouvelle législation est en cours d'élaboration pour garantir toutes ces nobles idées à travers l'Europe. À partir de ce jour, nous entrons désormais dans une nouvelle ère : une ère de paix, de coopération, de fraternité et de démocratie."
  ukraine_events.93.a:0 "Ce sont les fils de mon pays. Où en seriez-vous aujourd'hui, en Europe, s'ils n'étaient pas là ?"
  #ukraine_events.93 through ukraine_events.103 are all Army Reorg events
+
+ #Needed to display event option tooltip
+ ukraine_events.99.a:9 "$ukraine_republican_events.242.a$"
 
  #Title is same as ukraine_republican_events.234
  ukraine_events.104.d:0 "L'État ukrainien est une nation particulière, et nous vivons une époque particulière - la paix est en train de s'effondrer. Les armées deviennent de plus en plus grandes, les industries d'armement gonflent comme jamais auparavant - comme en 1914, il suffira d'une étincelle pour que la situation s'emballe. Et si l'Allemagne n'accepte pas d'être au moins partiellement responsable, nous devons prendre l'initiative nous-mêmes.\n\nC'est pourquoi le diplomate hétmaniste et, peut-être, le fonctionnaire d'État le plus favorable à la Russie, Oleksandr Sakhno-Ustymovych, a été envoyé en mission à Moscou pour un ultime effort. Lorsqu'il a rencontré le chef d'État russe, [RUS.GetLeader], il a tenté de trouver un terrain d'entente. N'est-il pas dans l'intérêt des deux pays d'éviter une nouvelle guerre, potentiellement encore plus catastrophique, qui opposerait les voisins les uns aux autres ?\n\nBien que [RUS.GetLeader] ait semblé sympathique au début et ait réaffirmé la reconnaissance par la Russie du statut d'État de l'Ukraine, il est devenu sceptique. Ce désir de paix, a-t-il poursuivi, ne sera pas propice s'il n'est pas étayé par des actions. Si l'Allemagne ne souhaite pas la guerre, pourquoi maintient-elle une présence militaire aussi importante en Ukraine et dans les pays voisins ? Pourquoi continue-t-elle à construire de profondes lignes de fortification sur le Dniepr et la Daugava ? Si l'Ukraine souhaite la paix, elle devrait peut-être renoncer à son accord de sécurité avec l'Allemagne et trouver un terrain d'entente avec ses frères historiques.\n\nSakhno-Ustymovitch était déterminé : il a ajouté que l'Ukraine n'avait aucune revendication territoriale à l'égard de la Russie et que, si l'Allemagne devait un jour attaquer, Kiev s'opposerait fermement à toute tentative d'utilisation de son territoire comme terrain de rassemblement pour la Heer. Mais cela ne suffit pas : la condition d'une paix durable en Europe est le retrait de l'Allemagne de l'Est. Il serait dommage que les deux États finissent par se faire la guerre, certes, mais c'est la réalité si l'Ukraine se rend complice de l'agression allemande.\n\nFinalement, les deux pays ont quitté la table des négociations. Si la paix n'est plus une option, il ne reste plus qu'à se préparer."
@@ -4110,6 +4110,9 @@ UKR_KR_gathering_storm_desc: "Le rêve d'une Ukraine indépendante s'est concré
  ukraine_republican_events.242.t:0 "La Réforme de l'Armée Est Achevée"
  ukraine_republican_events.242.d:0 "La dernière réforme de l'armée a été menée à bien. L'armée ukrainienne se modernise rapidement et nous serons bientôt en mesure de défendre notre territoire au mieux de nos capacités."
  ukraine_republican_events.242.a:0 "Splendide "
+
+ #Needed to display event option tooltip
+ ukraine_republican_events.247.a:9 "$ukraine_republican_events.242.a$"
 
  ukraine_republican_events.252.t:0 "Une Perturbation Académique Majeure"
  ukraine_republican_events.252.d:0 "Rien ne laissait présager une quelconque perturbation lorsque Panas Fedenko a été annoncé comme conférencier à l'université nationale de Kiev. M. Fedenko dirige peut-être le gouvernement de notre république naissante, mais un air de civilité devrait être attendu dans notre société\n\nLa conférence de M. Panas à l'université devait porter sur les dangers du nationalisme extrême, en particulier le nationalisme "intégral". Bien que cela ne soit pas explicitement mentionné dans les documents de promotion de la conférence, il a été largement compris qu'il s'agissait d'une critique de la Ligue des nationalistes ukrainiens (LUN).\n\nÀ son arrivée, M. Fedenko s'est présenté à la barre et a été immédiatement interrompu par une escouade en uniforme aux cris de "Honte" et "Agents moscovites dehors". Les provocateurs ont été rapidement maîtrisés et personne n'a été blessé. Cependant, il était clair que ces individus étaient des membres ou des associés de la LUN.\n\nAprès enquête, il a été déterminé que cette unité particulière de LUN était liée à un certain Panteleimon Sak, jeune directeur d'une des meilleures écoles de Kiev. Bien qu'il n'ait été accusé de rien, M. Sak a été immédiatement licencié. Il semble que Panteleimon ait migré vers la LUN assez récemment - un examen plus approfondi a révélé que le jeune éducateur a dérivé vers divers mouvements au cours de la dernière décennie, à la fois socialistes et hétémonistes.\n\nIl n'est certainement pas le seul à l'avoir fait. Pour certains, la restauration républicaine promettait un renouveau de la nation ukrainienne, qui entraînerait la destruction de l'influence culturelle et politique russe sur l'Ukraine, si omniprésente dans l'Hetmanat. Cependant, ils ont perdu leurs illusions face à ce qu'ils considèrent comme une négligence de la priorité accordée à la nationalité titulaire de l'Ukraine et à la mise à l'écart des éléments étrangers. Pour l'instant, ces débats sont largement hors de propos, mais en cas de guerre avec la Russie, ils deviendront certainement une question d'une importance capitale."

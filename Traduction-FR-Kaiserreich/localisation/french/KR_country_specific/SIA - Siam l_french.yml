@@ -72,7 +72,7 @@
  SIA_education_reform_idea: "Loi sur le Programme Scolaire National"
  SIA_education_reform_idea_desc: "En standardisant le système éducatif selon un programme national, nous pouvons garantir l'amélioration des taux d'alphabétisation dans tout le pays."
  SIA_chulachomklao_academy: "Académie Militaire [ROOT.GetSIAprefixEN]"
- SIA_chulachomklao_academy_desc:9 "En fusionnant l'École des Cadets de l'Armée [ROOT.GetSIAprefixEN] [SIA.GetProperAdjective] (fondée en 1887) avec l'Institut Polytechnique de l'Armée [ROOT.GetSIAprefixEN] [SIA.GetProperAdjective] , la nouvelle "Académie Militaire [ROOT.GetSIAprefixEN]" devrait, nous l'espérons, produire de meilleurs diplômés grâce à la formation croisée avec d'autres branches de l'armée, tout en nous permettant d'économiser de l'argent grâce à l'abolition des cours désuets/dupliqués dans le nouveau programme. "
+ SIA_chulachomklao_academy_desc:9 "En fusionnant l'École des Cadets de l'Armée [ROOT.GetSIAprefixEN] [SIA.GetProperAdjective] (fondée en 1887) avec l'Institut Polytechnique de l'Armée [ROOT.GetSIAprefixEN] [SIA.GetProperAdjective] , la nouvelle "Académie Militaire [ROOT.GetSIAprefixEN]" devrait, nous l'espérons, produire de meilleurs diplômés grâce à la formation croisée avec d'autres branches de l'armée, tout en nous permettant d'économiser de l'argent grâce à l'abolition des cours désuets et dupliqués dans le nouveau programme. "
  SIA_industrialmobilizationplan: "Plan de Mobilisation Industrielle"
  SIA_industrialmobilizationplan_desc: "Créé comme un plan d'urgence pour aider l'État à mieux faire face à la guerre, notre plan de mobilisation industrielle nous permet d'augmenter notre production industrielle d'environ 10%."
  SIA_taharn_pran_idea: "Taharn Pran"
@@ -279,11 +279,11 @@ SIA_KR_gathering_storm_desc: "Initialement neutre pendant la Grande Guerre, le S
 
 ## Black Monday and Early political chaos # Max Reform 7 - Lowest 0: 0-2 = Khana Ratsadon coup, 3-4 = Civil War with Prajadhipok Bias (based on Boworadet Rebellion), 5-6 = success, 7 = Reactionary coup with Paribatra as HoS
  siam_events.4.t:0 "Le Lundi Noir frappe [SIA.GetSIAshortname] !"
- siam_events.4.d:9 "En raison de sa forte dépendance à l'égard de ses liens économiques avec l'Allemagne, le Lundi Noir a rapidement entraîné [SIA.GetSIAshortname] dans un gouffre économique. La demande pour ses principales exportations agricoles a fortement chuté et les cargaisons ont été laissées à l'abandon dans leurs entrepôts. Les employés des entreprises étrangères sont continuellement licenciés, tandis que le peuple a commencé à se rassembler autour du Grand Palais en quête d'espoir. Il est évident que nous devons faire quelque chose pour remédier à notre situation économique, afin d'éviter qu'elle ne s'aggrave et que nous ne tombions encore plus bas."
+ siam_events.4.d:9 "Le lundi noir a rapidement entraîné le [SIA.GetSIAshortname] dans un gouffre économique, car la demande pour ses principales exportations agricoles a fortement chuté et les cargaisons ont été laissées à l'abandon dans les entrepôts. Les employés de bureau travaillant pour des sociétés étrangères sont continuellement licenciés, tandis que la population a commencé à se rassembler autour du Grand Palais en quête d'espoir. Il est évident qu'il faut faire quelque chose pour remédier à notre situation économique, de peur qu'elle ne s'aggrave et n'entraîne l'économie dans une spirale descendante."
  siam_events.4.a:0 "Khun Prah !"
 
  siam_events.5.t:0 "Problèmes du Riz Jasmin"
- siam_events.5.d:9 "L'un des principaux exportateurs de riz de [SIA.GetSIAshortname], les agriculteurs de l'autre côté du Chao Phraya, ont demandé l'intervention du gouvernement pour faire face à l'offre excessive de riz due à une baisse générale de la demande et à la diminution des possibilités d'exportation après le Lundi Noir."
+ siam_events.5.d:9 "L'un des principaux exportateurs de riz de [SIA.GetSIAshortname], les agriculteurs de l'autre côté du Chao Phraya ont demandé l'intervention du gouvernement pour faire face à l'offre excessive de riz due à une baisse générale de la demande et à la diminution des possibilités d'exportation après le Lundi Noir."
  #-200, +2 reform:
  siam_events.5.a:0 "Acheter la plus grande partie du riz pour aider à stabiliser le prix."
  #-100, +1 reform:
@@ -310,7 +310,7 @@ SIA_KR_gathering_storm_desc: "Initialement neutre pendant la Grande Guerre, le S
  siam_events.7.c:0 "Nous ne devons pas montrer de faiblesses !"
 
  siam_events.8.t:0 "Taxe d'Urgence"
- siam_events.8.d:9 "Même si nous avons adopté de nombreuses réformes radicales, nous n'avons toujours pas assez d'argent pour équilibrer suffisamment le budget de cette année. Une taxe d'urgence devrait permettre de remédier à cette situation mais créera davantage de souffrance pour nos loyaux sujets."
+ siam_events.8.d:9 "Bien que de nombreuses réformes radicales aient été adoptées, il n'y a toujours pas assez d'argent pour équilibrer le budget de cette année. Une taxe d'urgence devrait permettre de remédier à cette situation, mais elle entraînera davantage de souffrances pour les loyaux sujets de la Couronne."
  #+50, 0 reform:
  siam_events.8.a:0 "Augmentez le taux de l'impôt sur le revenu !"
  #+10, +1 reform:
@@ -601,9 +601,9 @@ SIA_KR_gathering_storm_desc: "Initialement neutre pendant la Grande Guerre, le S
  # Faction leader:
  siam_events.67.d.default:0 "Aujourd'hui, [SIA.GetSIAshortname] nous a envoyé une délégation diplomatique, demandant de négocier une reddition conditionnelle. Leurs troupes cesseront immédiatement les hostilités, ils cèderont des territoires clés et nous paieront une somme importante de réparations de guerre - tout ce qu'ils demandent en retour est que nous garantissions leur indépendance contre toute future agression étrangère."
  # Faction member, leader accepted peace:
- siam_events.67.d.faction_peace:9 "Il y a quelques jours, [SIA.GetSIAshortname] a envoyé une délégation diplomatique à notre faction, demandant de négocier une reddition conditionnelle. Bien que [ROOT.faction_leader.GetNameDef] ait choisi d'accepter l'offre de paix de [SIA.GetProperAdjective] qui comprend des réparations de guerre et la cessation immédiate des hostilités entre nos forces et le peuple [SIA.GetProperAdjective] lui-même - c'est maintenant à nous de décider si nous voulons continuer la guerre seuls ou non."
+ siam_events.67.d.faction_peace:9 "Il y a quelques jours, [SIA.GetSIAshortname] a envoyé une délégation diplomatique à notre faction, demandant de négocier une reddition conditionnelle. Bien que [ROOT.FactionLeader.GetNameDef] ait choisi d'accepter l'offre de paix de [SIA.GetProperAdjective] qui comprend des réparations de guerre et la cessation immédiate des hostilités entre nos forces et le peuple [SIA.GetProperAdjective] lui-même - c'est maintenant à nous de décider si nous voulons continuer la guerre seuls ou non."
  # Faction member, leader refused peace:
- siam_events.67.d.faction_war:9 "Il y a quelques jours, [SIA.GetSIAshortname] a envoyé une délégation diplomatique de notre faction, demandant de négocier une reddition conditionnelle. Bien que [ROOT.faction_leader.GetNameDef] ait choisi d'ignorer l'offre de paix [SIA.GetProperAdjective]e qui comprend des réparations de guerre et la cessation immédiate des hostilités entre nos forces et le peuple [SIA.GetProperAdjective], c'est maintenant à nous de décider si nous souhaitons poursuivre cette guerre inutile ou non."
+ siam_events.67.d.faction_war:9 "Il y a quelques jours, [SIA.GetSIAshortname] a envoyé une délégation diplomatique de notre faction, demandant de négocier une reddition conditionnelle. Bien que [ROOT.FactionLeader.GetNameDef] ait choisi d'ignorer l'offre de paix [SIA.GetProperAdjective]e qui comprend des réparations de guerre et la cessation immédiate des hostilités entre nos forces et le peuple [SIA.GetProperAdjective], c'est maintenant à nous de décider si nous souhaitons poursuivre cette guerre inutile ou non."
  siam_events.67.a:0 "Oui, mettons un terme à cette guerre."
  siam_events.67.b:0 "Non, ils seront écrasés."
 
@@ -1124,7 +1124,7 @@ SIA_KR_gathering_storm_desc: "Initialement neutre pendant la Grande Guerre, le S
  SIA_taharpran: "Taharn Pran"
  SIA_taharpran_desc: "Également connu sous le nom de "[SIA.GetProperAdjective] Rangers" en anglais, le Taharn Pran est une unité d'infanterie légère paramilitaire de l'armée [ROOT.GetSIAprefixEN] [SIA.GetProperAdjective] composée de volontaires qui sont formés pour patrouiller aux frontières. Ils agissent comme une force d'intervention rapide en cas d'invasion étrangère. Les volontaires locaux veillent également à ce que nous ayons toujours l'avantage du terrain sur l'ennemi."
  SIA_royalmilitaryacademy: "Académie Militaire [ROOT.GetSIAprefixEN]"
- SIA_royalmilitaryacademy_desc:9 "En fusionnant l'École des Cadets de l'Armée [ROOT.GetSIAprefixEN] [SIA.GetProperAdjective] (fondée en 1887) avec l'Institut Polytechnique de l'Armée [ROOT.GetSIAprefixEN] [SIA.GetProperAdjective] , la nouvelle "Académie Militaire [ROOT.GetSIAprefixEN]" devrait, nous l'espérons, produire de meilleurs diplômés grâce à la formation croisée avec d'autres branches de l'armée, tout en nous permettant d'économiser de l'argent grâce à l'abolition des cours désuets/dupliqués dans le nouveau programme."
+ SIA_royalmilitaryacademy_desc:9 "En fusionnant l'École des Cadets de l'Armée [ROOT.GetSIAprefixEN] [SIA.GetProperAdjective] (fondée en 1887) avec l'Institut Polytechnique de l'Armée [ROOT.GetSIAprefixEN] [SIA.GetProperAdjective] , la nouvelle "Académie Militaire [ROOT.GetSIAprefixEN]" devrait, nous l'espérons, produire de meilleurs diplômés grâce à la formation croisée avec d'autres branches de l'armée, tout en nous permettant d'économiser de l'argent grâce à l'abolition des cours désuets et dupliqués dans le nouveau programme."
  SIA_royalmunitionsfactory: "Usine de Munitions [ROOT.GetSIAprefixEN]"
  SIA_royalmunitionsfactory_desc: "Ayant des ennemis de tous les côtés, [SIA.GetSIAshortname] a presque épuisé tous ses obus d'artillerie pendant la Weltkrieg, sans aucun moyen de se réapprovisionner. Au fil des ans, le département logistique paranoïaque a donc accumulé une réserve massive d'obus d'artillerie, mais des usines de munitions supplémentaires nous aideraient certainement en cas de conflit prolongé."
  SIA_industrialmobilization: "Plan de Mobilisation Industrielle"

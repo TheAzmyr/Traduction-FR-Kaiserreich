@@ -141,7 +141,6 @@ JAP_social_liberal_party_long: "Kakushintō (Parti réformiste)"
 
 ### Companies ###
  Nippon_Electric_Company: "Nippon Denki"
- Ishikawajima_Heavy_Industries: "Industries Lourdes Ishikawajima"
  mitsui:0 "Mitsui"
 Furukawa_Siemens: "Furukawa Siemens"
 Nihon_Musen: "Nihon Musen"
@@ -330,8 +329,6 @@ JAP_Imperial_Family_powerless_desc: "Le Congrès a décidé d'abolir les titres 
  JAP_show_war_plans_sea: "Montrer les Cibles de la Planification de la Guerre en Asie du Sud-Est"
  JAP_war_planning_against_from: "Planification de la guerre contre [FROM.Owner.GetNameWithFlag]"
  JAP_strike_against_from: "Frapper contre [FROM.GetNameWithFlag] !"
- JAP_strike_against_from_china_tt:9 "(§YPays Cible§!) Bonus d'attaque contre le pays : §G+25.0%§!\n(§YPays Cible§!) Bonus de percée contre le pays: §G+25.0%§!"
- JAP_decisive_strike: "Frappe Décisive"
  JAP_battle_for_production: "Bataille pour la Production"
  JAP_battle_for_morale: "Bataille du Moral"
  JAP_battle_for_defence: "Bataille Pour l'Empire"
@@ -412,7 +409,6 @@ JAP_food_shipments_cut: "Les expéditions de nourriture et d'aide à §Y[JAP.Get
  JAP_upgrade_zaibatsu_tt:9 "Certaines entreprises seront §Gaméliorées§! :"
  JAP_has_taken_zaibatsu_eco_tt: "Si nous avons choisi de §Y Soutenir les Zaibatsu§!, nous obtiendrons :"
  JAP_has_taken_bureaucratic_eco_tt: "Si nous avons opté pour une §Y Économie Bureaucratique §! à la place, nous obtiendrons :"
- JAP_the_shinkansen_proposal_tt:0 "Ajoute un maximum de §YChemin de Fer§! dans §YKantō§!, §YChūgoku§!, §YKansai§! et §YTōkai§!"
 JAP_unlock_nippon_oil: "Déverrouille la société §YNippon Oil§!"
 
  # Military Centralism Tooltips
@@ -463,12 +459,9 @@ JAP_unlock_nippon_oil: "Déverrouille la société §YNippon Oil§!"
  JAP_seiyukai_land_reform_tt: "Mener à son terme la réforme agraire vous accordera de la §Ystabilité§! supplémentaire et du §Ysoutien à la guerre§!."
 
  # Foreign Policy Tooltips
- JAP_gain_claim_southern_islands: "§Y[JAP.GetNameDefCap]§! obtient un droit sur §HSingapour§!, §H[1020.GetCapitalVictoryPointName]§!, et sur toutes les §Yîles du Pacifique§! non américaines qui ne sont pas détenues par un allié ou un membre de sa sphère économique.\n"
-JAP_backed_down_pacific: " Recul des revendications sur les îles du Pacifique "
 
 JAP_may_war_with_indochina: "Recevra les décisions d'aller en guerre contre des cibles valables en §YIndochine§!\n"
 JAP_can_attack_india: "Recevra les décisions d'aller en guerre contre des cibles valables en Inde".
-JAP_may_war_with_siam: "Recevra la décision d'entrer en guerre contre §Y[SIA.GetNameDef]§!\n"
 
 is_working_with_JAP: "Cette nation s'est engagée à travailler avec le Japon"
 
@@ -490,10 +483,6 @@ JAP_no_training_help: "a refusé l'aide du Japon".
  JAP_returns_land: "§GLe Japon nous remettra toutes les terres que nous revendiquons ou qui sont notre cœur et qu'il ne possède pas.§!\n"
  JAP_no_ichigo_tooltip:9 "Bonus d'attaque contre §H$all_chinese_countries_tt$§! : [?0.15|+=%1]"
  JAP_ichigo_tooltip:9 "Bonus d'attaque contre §H$all_chinese_countries_tt$§! : [?0.25|+=%1]"
-
-japanese_economic_influence_cost: "£pol_power [?From.japanese_economic_influence|H0]".
-japanese_economic_influence_cost_blocked: "£pol_power [?From.japanese_economic_influence|R0]".
-japanese_economic_influence_cost_tooltip: "Cela coûte £pol_power Un pouvoir politique égal à l'influence existante"
 
 chinese_tag_must_agree: "[From.GetNameDefCap] doit accepter pour que cela prenne effet !"
 JAP_you_get_the_mils_back: "Vous récupérez les usines !"
@@ -620,24 +609,21 @@ JAP_land_reform_desc: "La réforme agraire est une question qui se pose dans la 
  JAP_offer_peace_to_russia: "Offrir la Paix à [From.GetNameDef]"
  JAP_offer_peace_to_russia_desc: "Les Russes ont vaincu nos armées et contrôlent désormais nos territoires sur le continent, se vengeant une fois pour toutes de leur défaite de 1905. Bien qu'ils soient incapables d'envahir les îles de la patrie, la honte et l'humiliation de cette défaite ont déclenché une agitation interne massive. Le meilleur plan d'action est maintenant de négocier une paix, quelle que soit la honte, et de se tourner vers la lutte contre nos nouveaux problèmes internes."
 
- JAP_offer_peace_available_tt:9 "§Y[JAP.GetNameDefCap]§! ou ses alliés ne contrôlent aucun pays de Corée"
-
- JAP_all_chinese_allies_capitulated: "Tous les alliés de la Chine en Asie continentale ont capitulé."
- JAP_all_owned_chinese_states_occupied: "Tous les états possédés en Chine continentale sont occupés"
+ JAP_fading_sun_korea_fully_controlled_tt:9 "§Y[JAP.GetName]§! ou ses alliés contrôlent la péninsule coréenne"
+ JAP_fading_sun_controls_major_chinese_city_tt:9 "§Y[JAP.GetName]§! ou ses alliés contrôlent [592.GetName], [608.GetName], [613.GetName] ou [716.GetName]"
+ JAP_fading_sun_any_chinese_ally_not_capitulated_tt:9 "Un allié chinois du §Y[JAP.GetName]§! n'a pas capitulé"
 
 ### War Decisions ###
 JAP_attack_indochina_desc: "Un [From.GetNameDef] indépendant ne peut être autorisé, pas dans notre sphère d'influence. Nous devons agir immédiatement !"
 JAP_attack_india_desc: "Si nous devons prendre le commandement du sous-continent indien, [From.GetNameDef] devrait être notre prochaine cible."
 JAP_attack_australia_desc: "[From.GetNameDefCap] se situe dans notre sphère d'intérêt du Pacifique, et le temps est venu de faire respecter notre volonté à leur égard."
- JAP_demand_hawaii: "Exiger Hawaï de la part de [From.GetNameDef]"
- JAP_demand_hawaii_desc: "La deuxième guerre civile américaine a montré que le gouvernement américain n'était pas en mesure de s'occuper correctement des habitants d'Hawaï. En tant que nouvelle puissance incontestée dans le Pacifique, il n'est que juste que nous exigions que les îles Hawaï nous soient cédées, afin d'assurer une protection mutuellement bénéfique sous notre direction. En cas de refus, la guerre sera déclarée."
  JAP_take_over_sakhalin:9 "S'emparer du nord de Sakhaline"
  JAP_take_over_sakhalin_desc:9 "La moitié nord contient tout le pétrole de l'île de Karafuto. Avec un gouvernement faible qui contrôle l'Extrême-Orient et la Russie en arrière-plan, nous n'avons jamais eu autant de chances de nous en emparer !"
  JAP_attack_russia_desc: "Alors que nous avons réalisé le rêve de coprospérité dans une Asie libérée de l’exploitation européenne, [From.GetNameDef] reste une épine dans notre pied, toujours amer suite à leur défaite en 1905. Nous ne pouvons pas les laisser mettre en péril notre grand projet, et des mesures préventives doivent être prises pour les neutraliser pour de bon."
 
 ### Influence in China ###
 JAP_influence_china: "Influencer la Chine"
-JAP_influence_china_desc: "La Chine est un grand pays. "Influence" pourrait signifier beaucoup de choses, allant du simple fait de semer le chaos au soutien de nos alliés, en passant par la simple boucherie pure et simple. Faites vos choix avec sagesse, car beaucoup d'entre eux peuvent avoir des conséquences imprévues..."
+ JAP_influence_china_desc:9 "La Chine est un grand pays. "Influence" pourrait signifier beaucoup de choses, allant du simple fait de semer le chaos au soutien de nos alliés, en passant par la simple boucherie pure et simple. Faites vos choix avec sagesse, car beaucoup d'entre eux peuvent avoir des conséquences imprévues..."
 
 ### Support Allies ###
 JAP_china_army_training: "Développement de l'armée de [From.GetNameDef]" 
@@ -1023,8 +1009,6 @@ JAP_support_allies_desc: "De nombreux chefs de guerre chinois font la queue pour
  JAP_continental_warfare_desc: "Une série de batailles décisives a été planifiée sous le nom d'opération Ichi-gō, destinée à relier nos différentes armées et à écraser les Chinois une fois pour toutes. Nous misons beaucoup sur cette opération et, en cas d'échec, notre stabilité en souffrira certainement, car la guerre semblera impossible à gagner aux yeux de l'opinion publique. Mais nous avons toute confiance en nos généraux pour remporter enfin la victoire. En avant les soldats japonais ! Tennō Heika Banzai !"
  JAP_the_fruits_of_loyalty:0 "Les fruits de la loyauté"
  JAP_the_fruits_of_loyalty_desc:0 "Le gouvernement de Zhang Zuolin a été notre principal allié en Chine pendant de nombreuses années, et le soutenir dans sa quête d'unification de la Chine a été notre objectif et la raison de cette guerre. Il est donc impératif que nous lui restituions toutes les terres que nous avons prises et qu'il revendique comme faisant partie intégrante de la Chine"
-JAP_plant_cherry_blossoms: "Planter des arbres de Sakura"
-JAP_plant_cherry_blossoms_desc: "Le sang que nous avons versé en Chine a coûté cher et nos gains ont été durement gagnés. Nous n'allons pas laisser un chef de guerre surgissant avec des idées sur ses droits ou sur le nationalisme chinois nous les prendre. Nos principales revendications en Chine resteront sous notre contrôle et ouvertes à la colonisation par le peuple japonais, que nous symboliserons en plantant des cerisiers".
  JAP_dismantle_legation_cities:0 "Démanteler les villes des légations"
  JAP_dismantle_legation_cities_desc:0 "Les Occidentaux bien-pensants qui dirigent [LEC.GetNameDef] ont jugé bon de nous exclure de leurs conseils et de leurs salles de pouvoir. Nous leur montrerons le prix de leur impudence"
 
@@ -1312,7 +1296,6 @@ JAP_KR_gathering_storm_desc: "Après les humiliations successives du Traité de 
  japan_domestic_events.21.t:0 "Le Coup d'État est Défait"
  japan_domestic_events.21.d:0 "Le coup d'État des restaurateurs est vaincu. Qualifiés de traîtres, les restaurateurs font l'objet d'une purge dans tout le pays. Des voix s'élèvent pour demander à l'armée de jouer un rôle plus important dans le gouvernement afin d'aider à éradiquer les traîtres et les syndicalistes."
  japan_domestic_events.21.a:0 "Le ministre de l'Armée Hayashi assumera le poste de premier ministre."
- japan_domestic_events.21.b:0 "Ce n'est pas nécessaire pour le moment."
 
  japan_domestic_events.22.t:0 "Le gouvernement d'unité nationale"
  japan_domestic_events.22.d:0 "Nakajima Chikuhei du Seiyūkai et Adachi Kenzō du Minseitō, tous deux partisans de la loi sur la sécurité nationale, ont publié une déclaration commune, exhortant les deux principaux partis à former un "gouvernement d'unité nationale" multipartite afin de protéger le Kokutai (politique nationale) de la menace syndicaliste."
@@ -1643,11 +1626,6 @@ JAP_KR_gathering_storm_desc: "Après les humiliations successives du Traité de 
  japan_foreign_events.33.d:0 "Il semblerait que les hommes d'État de [From.GetNameDef] aient convenu que leur chemin vers la prospérité et la force passe par la coopération avec la puissance prééminente de l'Asie, [JAP.GetNameDef]. Nous allons prendre des dispositions pour les intégrer dans l'alliance militaire officielle qui sous-tend la Grande Sphère de coprospérité de l'Asie de l'Est"
  japan_foreign_events.33.a:0 "Grandiose ! "
 
- japan_foreign_events.34.t:0 "Une alliance japonaise ?"
- japan_foreign_events.34.d:0 "Une communication du Japon est arrivée aujourd'hui, indiquant que dans le cadre de leur politique de soutien à l'autodétermination des cultures non-Han sur ce qui est théoriquement le territoire chinois, ils sont prêts à souscrire à une alliance militaire complète avec nous. Devrions-nous accepter ?"
- japan_foreign_events.34.a:0 "Bien sûr !"
- japan_foreign_events.34.b:0 "Bien sûr !"
-
  japan_foreign_events.340.t:0 "[From.GetNameDefCap] A accepté"
  japan_foreign_events.340.d:0 "Le gouvernement [From.GetAdjective] a vu la sagesse de notre offre et a accepté une place dans notre alliance."
  japan_foreign_events.340.a:0 "Excellent."
@@ -1688,38 +1666,6 @@ JAP_KR_gathering_storm_desc: "Après les humiliations successives du Traité de 
  japan_foreign_events.47.d:0 "Par manque de jugement, les diplomates de [From.GetNameDef] ont décliné notre offre magnanime d'amitié et d'alliance. Les journaux japonais ont réagi par des caricatures de chiens de salon effrayés, se moquant d'eux parce qu'ils n'étaient pas disposés à prendre les mesures nécessaires pour débarrasser le sous-continent du colonialisme"
  japan_foreign_events.47.a:0 "Honte à eux !"
 
- japan_foreign_events.54.t:0 "Tsingtau est à nous !"
- japan_foreign_events.54.d:0 "Le port militaire allemand en Asie de l'Est est tombé aux mains de nos armées. Au lieu de leur enseigne de marine, c'est maintenant le drapeau japonais qui flotte fièrement dans la ville. Les commerçants allemands regardent nos régiments défiler dans les rues avec une expression de pierre."
- japan_foreign_events.54.b:0 "Une grande victoire !"
-
- japan_foreign_events.55.t:0 "Le Japon nous menace !"
- japan_foreign_events.55.d:0 "Une importante force opérationnelle japonaise a fait voile vers les îles et menace de nous attaquer si nous ne nous plions pas à leur demande de reddition totale !"
- japan_foreign_events.55.a:0 "Résistez et appelez à l'aide !"
- japan_foreign_events.55.b:0 "La reddition est notre seule option."
-
- japan_foreign_events.56.t:0 "Les Philippines supplient à l'aide !"
- japan_foreign_events.56.d:0 "Le Japon frappe à la porte des Philippines, et ils sont venus nous supplier de les aider. Devrions-nous leur répondre ?"
- japan_foreign_events.56.a:0 "Offrez notre protection."
- japan_foreign_events.56.b:0 "Nous ne pouvons pas aller aussi loin."
-
- japan_foreign_events.57.t:0 "Les Philippines ont le soutien [philippines_backer.GetAdjective]."
- japan_foreign_events.57.d:0 "Les Philippins résistent à nos demandes, et [philippines_backer.GetNameDef] soutient leur revendication d'indépendance."
- japan_foreign_events.57.a:0 "Nous les détruirons, quoi qu'il arrive."
- japan_foreign_events.57.b:0 "Reculez, nous pourrons revenir plus tard."
-
- japan_foreign_events.5701.t:0 "Les Japonais reculent"
- japan_foreign_events.5701.d:0 "Apparemment, les Japonais n'ont pas voulu nous mettre à l'épreuve. Ils ont renoncé à leurs menaces, du moins pour l'instant."
- japan_foreign_events.5701.a:0 "C'est un soulagement."
-
- japan_foreign_events.58.t:0 "Les Philippines résistent !"
- japan_foreign_events.58.d:0 "Les Philippines résistent à nos exigences, sans qu'aucun bailleur de fonds étranger ne vienne à leur secours. Nous devrions leur faire payer cela dans le sang."
- japan_foreign_events.58.a:0 "Nous les détruirons."
-
- japan_foreign_events.59.t:0 "Les Philippins se rendent !"
- japan_foreign_events.59.d:0 "Voyant la puissance de nos forces, les Philippines n'ont eu d'autre chance que de se soumettre devant les braves fils de l'empire !"
- japan_foreign_events.59.a:0 "Marionnettes !"
- japan_foreign_events.59.b:0 "Annexez-les !"
-
  japan_foreign_events.62.t:0 "Le Japon nous menace !"
  japan_foreign_events.62.d:0 "Un important groupe de travail japonais a fait voile vers les îles et menace de nous attaquer si nous ne nous plions pas à leur demande de reddition totale !"
  japan_foreign_events.62.a:0 "Résistez et appelez à l'aide !"
@@ -1756,9 +1702,6 @@ JAP_KR_gathering_storm_desc: "Après les humiliations successives du Traité de 
  japan_foreign_events.92.d:0 "Une déclaration choquante a été faite par [FROM.GetNameDef]. Préoccupé par des "actions agressives" à l'encontre de [LEC.GetNameDef], le ministre des Affaires étrangères [FROM.GetAdjective] a décrié nos récentes actions et a déclaré que les engagements de sa nation envers Shanghai ne seraient pas ignorés. Au mépris de toute raison, [FROM.GetNameDef] est prêt à se battre pour défendre [LEC.GetNameDef]."
  japan_foreign_events.92.a:0 "Ils auront leur guerre."
 
- japan_foreign_events.200.t:0 "Les Allemands supplient pour la paix !"
- japan_foreign_events.200.d:0 "Débordés par notre armée supérieure, les Allemands viennent nous supplier pour la paix. Ils nous offrent en échange la totalité de l'Indonésie et certaines de leurs propres colonies. Comment devrions-nous répondre ?"
-
  japan_foreign_events.202.t:0 "La crise de l'argent fengtienne"
  japan_foreign_events.202.d:0 "Lorsque la Banque du Japon et la Mitsui Bank, deux des plus grandes banques de notre pays, ont demandé le paiement de leurs prêts en une succession rapide, la Banque centrale de Fengtian a fait défaut en raison d'une soudaine et prétendument inexplicable insuffisance des réserves d'argent. On ne sait pas s'il s'agissait simplement d'incompétence et de mauvaise gestion ou de quelque chose de plus sinistre, mais il ne fait guère de doute que le gouvernement fengtien se trouve dans une situation économique désastreuse et qu'il a demandé notre aide. Alors que notre influence garantira que Mitsui et la Banque du Japon soient payées avant tout, un gouvernement fengtien défaillant bouleverserait gravement leurs revendications de légitimité et nos demandes de bienveillance. Nous avons la possibilité de les renflouer"
  japan_foreign_events.202.a:0 "Nous n'avons pas le choix"
@@ -1788,27 +1731,9 @@ JAP_KR_gathering_storm_desc: "Après les humiliations successives du Traité de 
  japan_foreign_events.206.b:0 "Dénoncez le Fengtian."
  japan_foreign_events.206.c:0 "Garder le silence."
 
- japan_foreign_events.215.t:0 "Les Philippines ont accepté notre offre"
- japan_foreign_events.215.d:0 "Les Philippines ont choisi de nous rejoindre, elles ont sagement vu que la résistance serait vaine et ont plutôt choisi de devenir notre allié."
- japan_foreign_events.215.a:0 "C'est bon à entendre."
-
- japan_foreign_events.216.t:0 "Les Philippines ont rejoint l'Entente"
- japan_foreign_events.216.d:0 "Les Philippines ont choisi de rejoindre l'Entente ; elles ont refusé l'offre d'amitié. Cela ne doit pas rester impuni, mais l'Entente est forte, nous devons donc faire notre possible."
- japan_foreign_events.216.a:0 "Bientôt, bientôt."
-
- japan_foreign_events.217.t:0 "Les Philippines ont rejoint le Reichspakt"
- japan_foreign_events.217.d:0 "Les Philippines ont choisi de rejoindre le Reichspakt ; elles ont refusé l'offre d'amitié qui leur était faite. Cela ne doit pas rester impuni, mais le Reichspakt est fort, nous devons donc offrir notre temps"
- japan_foreign_events.217.a:0 "Bientôt, bientôt."
-
  japan_foreign_events.218.t:0 "Hawaii a accepté notre offre"
  japan_foreign_events.218.d:0 "Hawaii a choisi de nous rejoindre, ils ont sagement vu que la résistance serait vaine et ont plutôt choisi de devenir notre allié."
  japan_foreign_events.218.a:0 "C'est bon à entendre."
-
- japan_foreign_events.225.t:0 "Les États-Unis dans le désarroi"
- japan_foreign_events.225.d:0 "La guerre civile a éclaté aux États-Unis, déchirant les derniers morceaux d'unité de l'Union. Cela nous donne l'occasion de supprimer la présence américaine dans le Pacifique central en occupant l'île de Guam. Le gouvernement américain ne peut pas faire grand-chose pour nous arrêter à ce stade"
- japan_foreign_events.225.a:0 "Saisissez Guam... et réclamez encore plus !"
- japan_foreign_events.225.b:0 "S'emparer de Guam."
- japan_foreign_events.225.c:0 "Il vaut mieux laisser tomber, je pense."
 
  japan_foreign_events.226.t:0 "Le Japon s'empare de Guam"
  japan_foreign_events.226.d:0 "Alors que l'Amérique est en pleine tourmente, le Japon a fait preuve d'audace en envoyant une force navale sur l'île de Guam pour l'occuper. Guam fait partie des îles Mariannes, capturées par les États-Unis pendant la guerre hispano-américaine. Les autres îles ont été vendues aux Allemands et ont été saisies par les Japonais pendant la Grande Guerre, mais elles ont finalement été restituées à la fin du conflit.\n\nLes États-Unis ont construit une station de ravitaillement en carburant, des casernes de marine et quelques canons côtiers à Guam au début des années 1900, mais les planificateurs politiques de Washington doutaient de leur capacité à défendre les îles en cas d'invasion et, parallèlement aux efforts de négociation avec les autres puissances de la région, ils n'ont pas réussi à construire des défenses de manière significative. Guam a été jugée inutile pour renforcer les Philippines et, compte tenu de la détérioration de la situation intérieure en Amérique, on espérait que la présence allemande à proximité mettrait un frein à toute agression des forces japonaises jusqu'à ce que la situation se débloque.\n\nLorsque les avions de reconnaissance japonais commencent à tourner autour de Guam, les espoirs de protection allemande s'évanouissent. La flotte allemande étant trop éloignée et l'administration locale ne souhaitant pas provoquer une guerre dans le Pacifique sans ordres supplémentaires de Berlin, les Japonais ont réussi à tromper les Américains. Néanmoins, la garnison américaine, en infériorité numérique, s'est défendue avec des armes légères lors d'une série d'escarmouches qui ont duré trois jours avant qu'elle ne se rende. Les autorités japonaises ont déployé une garnison et divers enseignants venus du Japon pour commencer la japonisation du peuple indigène Chamorro, mais il faut s'attendre à une résistance à leur autorité."
@@ -2059,22 +1984,6 @@ JAP_KR_gathering_storm_desc: "Après les humiliations successives du Traité de 
  japan_foreign_events.550.a:0 "Shōgi ? Est-ce un fruit ou... ?"
 
 ### Sino - Japanese War Events ###
- japan_foreign_events.600.t:0 "Les Japonais s'abattent sur la Chine"
- japan_foreign_events.600.d:0 "Ce que nous avons longtemps craint est finalement arrivé. Depuis longtemps, les Japonais lorgnent avec avidité sur notre vaste territoire, profitant de nos ressources naturelles et de notre unité nationale divisée. Cette invasion mettra à l'épreuve notre courage, et nous ne faiblirons pas. Les Japonais sont des barbares méprisables. Déjà des rapports nous sont parvenus faisant état de crimes innommables et on ne peut qu'imaginer le sort de leurs compatriotes aux mains de ces détestables pirates. Les puissances occidentales, préoccupées par les événements en Europe et en Amérique, nous ont abandonnés à notre sort.\n\nEt alors que nous sommes en danger, la Chine n'a-t-elle pas résisté et combattu les envahisseurs depuis des siècles ? Notre civilisation date de 4 000 ans - un témoignage de notre glorieuse volonté et de notre détermination. Nous résisterons à leur invasion avec la plus grande ténacité et nous repousserons les Japonais dans leurs îles. Qilái ! Nous ne devons plus être divisés et esclaves des chiens japonais, ce n'est pas le moment !"
- japan_foreign_events.600.a:0 "Unis nous Tenons, Divisés nous Tombons."
-
- japan_foreign_events.601.t:0 "Les Chinois Résistent à notre Glorieuse Avancée"
- japan_foreign_events.601.d:0 "Grâce aux habiles opérations stratégiques des forces impériales et aux efforts de tous les hommes, le Japon a remporté des victoires continues. Chaque jour, les armées chinoises se désintègrent et se brisent et la victoire n'est qu'une question de temps.\n\nLes Chinois offrent cependant une résistance considérable à notre libération. Ils ne comprennent pas nos véritables intentions de paix et notre désir d'un front asiatique uni contre l'impérialisme allemand. Il y a même des rumeurs selon lesquelles, si notre avancée s'étendait suffisamment loin dans l'intérieur de la Chine, les Chinois détruiraient même les digues du Fleuve Jaune, sacrifiant ainsi la vie de centaines de milliers de compatriotes innocents. Un tel acte scandaleux et cruel ne sera jamais autorisé par l'homme ou le Ciel. \n\nNéanmoins, il ne faut pas douter de la force et de la détermination de l'armée de Sa Majesté Impériale ! C'est un honneur de mourir pour Sa Majesté alors que nous achevons la véritable destinée du Japon - réunir toute l'Asie sous un même toit."
- japan_foreign_events.601.a:0 "Tennōheika Banzai !"
-
- japan_foreign_events.602.t:0 "Guerre de Résistance contre l'Agression Japonaise"
- japan_foreign_events.602.d:0 "La Chine fait face à son plus grand péril national et pourtant, pour chaque pouce de terre chinoise perdu, l'appel urgent à l'action se fait entendre ! Nos troupes se défendent vaillamment sans armes dépassées et nous sommes abandonnés par les puissances impérialistes - pourtant, chaque jour, la machine de guerre japonaise souffre, incapable de briser notre esprit indomptable. Soldats et citoyens, seigneurs de la guerre et républicains, propriétaires terriens et paysans - mettez de côté vos querelles car l'heure est à l'unité ! Les barbares avides envieront toujours notre beau pays, mais ils ne l'auront pas. Nous triompherons d'eux, que le peuple chinois soit uni dans sa lutte contre les bandits - le peuple chinois sera enfin émancipé de l'impérialisme !"
- japan_foreign_events.602.a:0 "Nous allons nous battre jusqu'à la mort ! Wansui !"
-
- japan_foreign_events.603.t:0 "La Guerre en Chine"
- japan_foreign_events.603.d:0 "Au fur et à mesure que la guerre en Chine s'est intensifiée, nos vaillantes troupes se sont retrouvées dans une situation désavantageuse malgré leur équipement et leur entraînement exceptionnels. Nos commandants sur le terrain ont déjà commencé à se chamailler et à se disputer, entreprenant leurs propres initiatives divergentes, que le gouvernement de Tokyo et parfois même le quartier général impérial ne peuvent contraindre. En outre, la rivalité de longue date entre l'Armée et la Marine a déjà débordé sur la Guerre de Chine, la marine refusant d'expédier des équipements, voire les jetant par-dessus bord dans les ports, laissant à l'armée le soin de les repêcher.\n\nMaintenant que nous sommes prêts à pousser plus avant en Chine, nos lignes d'approvisionnement serpentant sur des sentiers boueux et à travers des cols de montagne traîtres, ce problème ne peut que s'aggraver. Nous devons nous efforcer de résoudre les conflits internes, et optimiser nos moyens de guerre, ou bien risquer la défaite face à un ennemi inférieur."
- japan_foreign_events.603.a:0 "Shō ga nai ..."
-
  japan_foreign_events.604.t:0 "Campagne de Propagande Japonaise"
  japan_foreign_events.604.d:0 "Depuis la prise de Beijing et de Nanjing par les Japonais, ces derniers multiplient les opérations de propagande appelant à la paix au nom du panasiatisme. Bien que nous sachions qu'ils profèrent des mensonges, il semble que leur rhétorique ait contaminé notre population."
  japan_foreign_events.604.a:0 "C'est Regrettable."
@@ -2351,7 +2260,6 @@ JAP_KR_gathering_storm_desc: "Après les humiliations successives du Traité de 
  JAP_nagumo_chuichi: "Nagumo Chūichi"
  JAP_nagumo_chuichi_admiral_desc:9 "§YNaissance :§! §L25 mars 1887, à Yonezawa, préfecture de Yamagata, Empire du Japon§!"
 
- JAP_nishina_yoshio_theorist_desc:9 "§YNaissance :§! §L6 décembre 1890, à Satoshō, préfecture d'Okayama, Empire du Japon§!"
  JAP_obata_toshiro: "Obata Toshirō"
  JAP_obata_toshiro_theorist_desc:9 "§YNaissance :§! §L19 février 1885, dans la préfecture de Kōchi, Empire du Japon§!"
  JAP_tokugawa_yoshitoshi: "Tokugawa Yoshitoshi"
@@ -2365,6 +2273,7 @@ JAP_KR_gathering_storm_desc: "Après les humiliations successives du Traité de 
  JAP_taneki_hisamura:9 "Taneki Hisamura"
  JAP_yoji_ito:9 "Yōji Itō"
  JAP_yoshio_nishina:9 "Yoshio Nishina"
+ JAP_yoshio_nishina_scientist_desc:0 "§YNaissance :§! §L6 décembre 1890, à Satoshō, préfecture d'Okayama, Empire du Japon§!"
  ### Socialist Advisors ###
  JAP_nosaka_sanzo: "Nosaka Sanzō"
  JAP_nosaka_sanzo_desc_body:9 "Fils d'un marchand japonais prospère, Nosaka fut élevé dans un environnement bourgeois et fréquenta l'université Keio. Ce fut pendant son séjour à Keio que Nosaka devint intéressé par le mouvement ouvrier international, un intérêt également soutenu par un de ses professeurs, Kiichi Horie. Il compléta ensuite une étude sur une organisation ouvrière modérée connue sous le nom de "Yuaikai", et après avoir obtenu son diplôme devint éditeur du journal de l'organisation.\n\nÀ la suite de la Révolution bolchevique de 1917 puis de la Révolution française de 1919, Nosaka devint un marxiste engagé et se rendit en France en 1919, où il fit la connaissance de socialistes français et britanniques. Influent au sein de la Troisième Internationale en tant qu'un des chefs de facto du mouvement socialiste japonais naissant, il fut capable de se rapprocher du leadership de gauche du Kuomintang après leur expulsion de Chine à la suite de l'échec de la Première Expédition du Nord. Il fut impliqué dans la préparation du Soulèvement de Shanghai de 1932, orchestré à la fois par le Kuomintang et la Ligue des Syndicalistes Chinois, mais l'échec du soulèvement l'amena à participer à l'Insurrection MinGan en tant que volontaire.\n\nAprès avoir accompagné le Kuomintang pendant quelques temps et avoir été témoin du succès de la Seconde Expédition, Nosaka offrit ses services à l'Armée chinoise"

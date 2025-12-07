@@ -1,11 +1,5 @@
 ﻿l_french:
 
-### Factions ###
- democratic_alliance_of_the_caribbean:0 "Alliance démocratique des Caraïbes"
- liberal_pact:0 "Pacte libéral"
- peoples_vanguard:0 "Avant-garde du peuple"
- revolutionary_front:0 "Front révolutionnaire"
-
 ### Country Names ###
  CEN: "Amérique Centrale"
  CEN_ADJ: "Centraméricain"
@@ -368,7 +362,7 @@
  CENdem_continue_integration_of_PAN: "Poursuivre l'Intégration du Panama"
 
  CENdem_Democratic_Alliance_of_the_Caribbean_decisions:0 "Alliance Démocratique des Caraïbes"
- CENdem_form_faction:9 "Former $democratic_alliance_of_the_caribbean$"
+ CENdem_form_faction:9 "Former $faction_democratic_alliance_of_the_caribbean$"
 
  #Decision only avaliable to CEN, better fit for this file
  CENdem_integrate_COS: "Établir des Liens Plus Étroits avec le Costa Rica"
@@ -733,6 +727,10 @@
  central_america_democratic_events.246.t:0 "Les Antilles Acceptent"
  central_america_democratic_events.246.d:0 "Les Antilles ont abandonné leurs prétentions sur la région et peuvent désormais l'intégrer en toute sécurité."
  central_america_democratic_events.246.a:0 "Une grande victoire diplomatique."
+
+ central_america_democratic_events.250.t:9 "[ROOT.GetName] unit l'Amérique centrale"
+ central_america_democratic_events.250.d:9 "Les dernières années ont été une période turbulente pour les nations d'Amérique centrale, la région ayant été plongée dans le chaos à la suite du déclenchement de la guerre civile américaine. Les joueurs locaux ont saisi l'occasion et mené une politique de militarisation agressive pour tenter d'unifier les quatre pays.\n\nAu final, personne ne s'attendait à ce que [ROOT.GetName] soit le premier à proclamer une nouvelle union politique. Après tout, nous avions rejeté les projets d'unification précédents et nous étions perçus comme beaucoup plus stables politiquement que nos voisins. Mais à la suite d'une campagne coûteuse qui a vu nos troupes remonter jusqu'au nord, nous contrôlons aujourd'hui toutes les grandes villes d'Amérique centrale, et nos ennemis sont en exil ou se sont rendus. [ROOT.GetLeader] a déclaré que, pour maintenir la paix, l'Amérique centrale allait s'unir sous une même bannière. Il a également précisé qu'une nouvelle constitution serait rédigée dans les plus brefs délais et que les partis de tout le pays y seraient représentés équitablement.\n\nCependant, certains ont mis en garde contre un excès d'enthousiasme, car ils nous rappellent les grandes disparités en matière d'urbanisation et de richesse dans le pays, et que nous avons uni ces territoires non pas par la négociation, mais par la conquête. Seul l'avenir nous dira si la nouvelle République restera entière ou si elle finira par se dissoudre à nouveau."
+ central_america_democratic_events.250.a:0 "Nous avons beaucoup de travail devant nous."
 
 ### Focuses ###
 ### Political Tree
@@ -1690,7 +1688,7 @@
  CEN_spread_light_idea: "Répandre la lumière de Dieu"
  CEN_small_man_idea: "Pour le petit homme"
  CEN_edu_reform_idea: "Réformes de l'éducation"
- CEN_food_distribution_idea: "Distribution de nourriture"
+ CEN_food_distribution_idea:9 "Distribution de nourriture"
  CEN_healthcare_idea:0 "Santé publique"
  CEN_agri_reform_idea: "Réformes agricoles"
  CEN_cash_crop_idea: "Le boom des cultures de rente"
@@ -1759,8 +1757,8 @@
  CENmil_asked_for_stuff: "Efforts diplomatiques en cours"
 
  CENmil_clarified_irca_flag: "Clarification du statut de l'IRCA"
- CENmil_clarified_rail_2_flag:9 "Préparer la construction de la section suivante"
- CENmil_clarified_rail_3_flag:9 "Préparer la construction de la section suivante"
+ CENmil_clarified_rail_2_flag:9 "Le manque de financement pour la section suivante a été résolu."
+ CENmil_clarified_rail_3_flag:9 "Nous avons décidé de la manière de traiter la sécurité de nos travailleurs pour la prochaine section."
  CENmil_clarified_rail_4_flag:9 "Préparer la construction de la section suivante"
  CENmil_clarified_rail_5_flag:9 "Préparer la construction de la section suivante"
  CENmil_ca_rail_1_finished_flag: "Fini l'expansion des pistes de l'IRCA"
@@ -1856,7 +1854,7 @@
  CENmil_travel_casual_desc: "Un président sert mal son peuple s'il reste dans le palais présidentiel toute la journée. En visitant tous les coins de l'union, le peuple verra en Ubico un président qui se soucie vraiment de lui."
  CENmil_travel_big_time: "Voyager dans toute l'Union"
  CENmil_travel_big_time_desc: "Le président Ubico a l'intention de visiter toutes les villes, tous les villages et toutes les fermes d'Amérique centrale au cours d'un voyage d'un mois, dans le cadre d'une campagne de relations publiques massive et pour surpasser tous les autres présidents de l'histoire des nations d'Amérique centrale."
- CENmil_visit_world_power:9 "Visit [FROM.GetNameDef]"
+ CENmil_visit_world_power:9 "Visiter [FROM.GetNameDef]"
  CENmil_backing_from_world_power: "Recevoir le Soutien de Grandes Nations"
  CENmil_backing_from_world_power_desc: "Avec le soutien des principales nations du monde, personne ne peut remettre en question nos politiques."
  CENmil_block_enemies: "Bloquer les Ennemis Économiquement"
@@ -1966,7 +1964,7 @@
  cenmil_you_may_only_ask_one_tt:9 "§RVous ne pouvez recevoir de garanties que d'une seule grande puissance, choisissez avec qui vous vous alignez.§!\n"
  CENmil_grand_visit_done_tt: "§RVous ne pouvez visiter qu'une seule grande puissance.§!\n"
  CENmil_foreign_companies_influence_above_20:0 "L'influence des entreprises étrangères n'est pas inférieure à §Y20%§!.\n"
- CENmil_foreign_companies_influence_below_90:9 "The influence of foreign companies is not above §Y90%§!.\n"
+ CENmil_foreign_companies_influence_below_90:9 "L'influence des entreprises étrangères ne dépasse pas §Y90 %§!.\n"
  cenmil_more_gov_control_tt: "§GNous pourrons réclamer la plupart des revenus des chemins de fer, ce qui les rendra plus rentables pour le gouvernement.§!\n"
  cenmil_wait_tt: "Une fois que nous contrôlons le territoire en question, nous recevrons un événement pour continuer le chemin de fer."
 
