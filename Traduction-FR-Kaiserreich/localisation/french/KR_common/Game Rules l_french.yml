@@ -20,7 +20,7 @@
  custom_diff_strong_rsa:9 "£KR_game_rule_flag_RSA  Renforcer l'Armée Russe Libre"
  custom_diff_strong_fer:9 "£KR_game_rule_flag_FER_army  Renforcer l'Armée d'Extrême-Orient"
  custom_diff_strong_buk:9 "£KR_game_rule_flag_BUK  Renforcer Boukhara"
- custom_diff_strong_trk:9 "£KR_game_rule_flag_TRK  Renforcer le Turkestan"
+ custom_diff_strong_trk:9 "£KR_game_rule_flag_TRK_authoritarian_democrat Renforcer le Turkestan"
  custom_diff_strong_khi:9 "£KR_game_rule_flag_KHI  Renforcer Khiva"
  custom_diff_strong_kaz:9 "£KR_game_rule_flag_KAZ  Renforcer le Kazakhstan"
  custom_diff_strong_wca:9 "£KR_game_rule_flag_WCA  Renforcer le Congrès ouvrier"
@@ -142,7 +142,7 @@
  #        There should also not be game rules for tag internal content that does not effect their leader, ideology, or foreign policy.
  #        So there is no need for game rules for mutually exclusive sub-branches of economic or military trees, for instance.
  #    Rule Requirements
- #        In the "Requires" section, generally speaking, they should be seperated by double linebreaks / blank lines into three categories, where applicable.
+ #        In the "Requires" section, generally speaking, they should be separated by double linebreaks / blank lines into three categories, where applicable.
  #        The first of these are narrative/event requirements, the second, requirements that other game rules are active, and then the third, requirements that other game rules are not active.
  #        There is some slight leeway here in cases where events and then options follow a particular sequence in time.
  #        All potential rules options that are required for another given rule option to work should all be individually listed, unless such a rule option is already mentioned within the requirements of another mentioned rule.
@@ -2231,6 +2231,17 @@
  RULE_OPTION_RUS_FORPOL_RUS:9 "£KR_game_rule_flag_RUS_socialist  Socialisme Indépendant"
  RULE_OPTION_RUS_FORPOL_RUS_DESC:9 "Convaincue qu'elle doit guider le monde socialiste et en raison de sa position géopolitique unique, la Russie crée sa propre alliance militaire.$RUS_FORPOL_REQUIREMENTS$\n\nSi §CRDP - Sulimov§! ou un §CVST-Centre§! dans §Y$RUS_PATH$§!, alors la Commune de France doit choisir §CSoréliens§! ou §CJacobins§! dans\n§Y$FRA_PATH$§!\n§CNote : Si la Commune de France n'est plus le chef de la Troisième Internationale, le nouveau chef de faction doit avoir un gouvernement des $totalist_coloured$§!"
 
+ RUS_CENTRAL_ASIA:9 "£KR_game_rule_flag_RUS  £KR_game_rule_flag_KHI  £KR_game_rule_flag_TRK_authoritarian_democrat  £KR_game_rule_flag_BUK  Turkestan sous Moscou"
+ RUS_CENTRAL_ASIA_REQUIREMENTS:9 "\n\n§RRequiert :§!\n§CLa Russie est victorieuse dans son intervention en Asie centrale§!"
+ RULE_OPTION_RUS_CENTRAL_ASIA_RANDOM:0 "Défaut"
+ RULE_OPTION_RUS_CENTRAL_ASIA_RANDOM_DESC:9 "Vainqueurs de la rébellion turque en Asie centrale, les Russes contrôlent à nouveau le destin du Turkestan. Un nouvel arrangement doit être trouvé pour ces terres reconquises."
+ RULE_OPTION_RUS_CENTRAL_ASIA_ANNEX:9 "£KR_game_rule_flag_RUS  Annexation"
+ RULE_OPTION_RUS_CENTRAL_ASIA_ANNEX_DESC:9 "A la recherche d'une main plus directe pour prévenir de futures rébellions, la Russie absorbe les royaumes d'Asie centrale dans les siens. $RUS_CENTRAL_ASIA_REQUIREMENTS$\n\n§RPas§! de §Crépublique socialiste§! dans §Y$RUS_AFTERMATH$§!\n§RPas§! de §CPSR-Droite§! ou §CRDP§! dans §Y$RUS_PATH$§!"
+ RULE_OPTION_RUS_CENTRAL_ASIA_UNIFIED:9 "£KR_game_rule_flag_RUS  £KR_game_rule_flag_BUK  Turkestan uni"
+ RULE_OPTION_RUS_CENTRAL_ASIA_UNIFIED_DESC:9 "Le gouvernement russe récompense son allié boukharien au sud avec les terres reconquises, créant ainsi un nouveau Turkestan qui répond à Moscou. $RUS_CENTRAL_ASIA_REQUIREMENTS$\n\n§RPas§! §CSZRS (Idéocrate)§! dans §Y$RUS_PATH$§!"
+ RULE_OPTION_RUS_CENTRAL_ASIA_SEPARATE:9 "£KR_game_rule_flag_RUS_socialist  £KR_game_rule_flag_KHI_radical_socialist  £KR_game_rule_flag_TRK  £KR_game_rule_flag_BUK_radical_socialist  États fantoches séparés"
+ RULE_OPTION_RUS_CENTRAL_ASIA_SEPARATE_DESC:9 "Pour éviter de nouveaux troubles, le gouvernement socialiste russe divise l'Asie centrale en républiques distinctes sur la base de frontières historiques et ethniques. $RUS_CENTRAL_ASIA_REQUIREMENTS$\n\n§CRépublique socialiste§! dans §Y$RUS_AFTERMATH$§! ou\n§CRDP - Sulimov§! dans §Y$RUS_PATH$§!"
+
  RUS_CONFERENCE:9 "£KR_game_rule_flag_RUS  £KR_game_rule_flag_CAN  £KR_game_rule_flag_FRA  La Conférence Eurêka"
  RUS_CONFERENCE_REQUIREMENTS:9 "\n\n§RRequiert :§!\n§CL'Allemagne est vaincue dans la Seconde Weltkrieg§!\n§CL'Entente est en guerre avec la Troisième Internationale§!\n\n§CLa Seconde Guerre de Sécession est terminée§! ou\n§Caucun de ses participants américains n'est membre de l'Entente ou de la Troisième Internationale§!\n\n§RPas§! de §CRépublique socialiste§! dans §Y$RUS_AFTERMATH$§!\n§RPas§! §CRDP - Sulimov§! ou §CSZRS (Vieux Svobodnik)§! or\n§CSZRS (Idéocrate)§! dans §Y$RUS_PATH$§!"
  RULE_OPTION_RUS_CONFERENCE_RANDOM:0 "Par Défaut"
@@ -4078,7 +4089,7 @@
  RULE_OPTION_SIA_FORPOL_INT: "£KR_game_rule_flag_SIA_radical_socialist  £KR_game_rule_flag_FRA  Internationale"
  RULE_OPTION_SIA_FORPOL_INT_DESC:9 "Considérant l’Internationale comme le moyen de briser les chaînes du capitalisme et du colonialisme, les Siamois se considèrent comme leurs alliés naturels.$SIA_FORPOL_REBELS_REQUIREMENTS$\n\n§CRébellion de Thamrongnawasawat§! dans\n§Y$SIA_CIVIL_WAR$§!"
  RULE_OPTION_SIA_FORPOL_HND:9 "£KR_game_rule_flag_SIA_radical_socialist  £KR_game_rule_flag_HND  République Populaire du Bharat"
- RULE_OPTION_SIA_FORPOL_HND_DESC:9 "Voyant dans la Commune du Bharat la première puissance asiatique à se débarrasser des chaînes du capitalisme et du colonialisme, les Siamois se considèrent comme leurs alliés naturels.$SIA_FORPOL_REBELS_REQUIREMENTS$\n\n§CRébellion de Thamrongnawasawat§! dans\n§Y$SIA_CIVIL_WAR$§!\n\n§CNote : Si la République populaire du Bharat n'est pas déjà dans une faction, ils forment l'Union syndicaliste de l'Orient avec le Siam.§!"
+ RULE_OPTION_SIA_FORPOL_HND_DESC:9 "Voyant dans la République Populaire du Bharat la première puissance asiatique à se débarrasser des chaînes du capitalisme et du colonialisme, les Siamois se considèrent comme leurs alliés naturels.$SIA_FORPOL_REBELS_REQUIREMENTS$\n\n§CRébellion de Thamrongnawasawat§! dans\n§Y$SIA_CIVIL_WAR$§!\n\n§CNote : Si la République populaire du Bharat n'est pas déjà dans une faction, ils forment l'Union syndicaliste de l'Orient avec le Siam.§!"
  RULE_OPTION_SIA_FORPOL_CHI: "£KR_game_rule_flag_SIA_radical_socialist  £KR_game_rule_flag_CHI  Kuomintang de Gauche"
  RULE_OPTION_SIA_FORPOL_CHI_DESC:9 "Le succès de la révolution en Chine incite les Siamois à s'allier au Kuomintang et à libérer l'Asie de l'impérialisme sous toutes ses formes.$SIA_FORPOL_REBELS_REQUIREMENTS$\n\n§CLe Kuomintang de Gauche unifie la Chine§!\n\n§CRébellion de Thamrongnawasawat§! dans\n§Y$SIA_CIVIL_WAR$§!"
  RULE_OPTION_SIA_FORPOL_NEUT: "£KR_game_rule_flag_SIA  Neutralité"
@@ -4179,7 +4190,7 @@
  RULE_OPTION_INS_FORPOL_INT: "£KR_game_rule_flag_INS_syndicalist  £KR_game_rule_flag_FRA  Internationale"
  RULE_OPTION_INS_FORPOL_INT_DESC:9 "Considérant que l’Internationale est leur allié le plus fort possible contre l’impérialisme occidental et pour la libération des travailleurs, les Indonésiens s’alignent sur l’Internationale.$INS_FORPOL_REQUIREMENTS$\n\n§CParti Prolétarien§! dans §Y$INS_PATH$§!"
  RULE_OPTION_INS_FORPOL_HND:9 "£KR_game_rule_flag_INS_syndicalist  £KR_game_rule_flag_HND  République Populaire du Bharat"
- RULE_OPTION_INS_FORPOL_HND_DESC:9 "Considérant la Commune du Bharat comme la première puissance asiatique à se débarrasser des chaînes du capitalisme et du colonialisme, les Indonésiens se considèrent comme leurs alliés naturels.$INS_FORPOL_REQUIREMENTS$\n\n§CParti Prolétarien§! dans §Y$INS_PATH$§!\n\n§CNote : Si la République populaire du Bharat n'est pas déjà dans une faction, ils forment l'Union syndicaliste de l'Orient avec l'Indonésie.§!"
+ RULE_OPTION_INS_FORPOL_HND_DESC:9 "Considérant la République populaire du Bharat comme la première puissance asiatique à se débarrasser des chaînes du capitalisme et du colonialisme, les Indonésiens se considèrent comme leurs alliés naturels.$INS_FORPOL_REQUIREMENTS$\n\n§CParti Prolétarien§! dans §Y$INS_PATH$§!\n\n§CNote : Si la République populaire du Bharat n'est pas déjà dans une faction, ils forment l'Union syndicaliste de l'Orient avec l'Indonésie.§!"
  RULE_OPTION_INS_FORPOL_CHI: "£KR_game_rule_flag_INS_syndicalist  £KR_game_rule_flag_CHI  Kuomintang de Gauche"
  RULE_OPTION_INS_FORPOL_CHI_DESC:9 "Avec l’unification réussie de la Chine, le statut du Japon en tant que seule puissance d’Asie de l’Est fait partie du passé. Trouvant des partenaires plus proches dans ses camarades socialistes du Kuomintang de Gauche, l’Indonésie se range du côté des Chinois dans l’espoir de briser l’impérialisme étranger.$INS_FORPOL_REQUIREMENTS$\n\n§CLe Kuomintang de Gauche unifie la Chine§!\n\n§CParti Prolétarien§! dans §Y$INS_PATH$§!"
 
