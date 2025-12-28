@@ -33,16 +33,6 @@ SHA_national_populist_party_long: "Union nationale des Shan"
 
 SHA_A_Day_of_Independence: "Un jour de liberté, un jour de retrouvailles"
 SHA_A_Day_of_Independence_desc: "L'État Shan en a enfin assez des chiens chinois. Les saophas sont en colère, et le peuple aussi. Nous sommes appelés aux armes. Aujourd'hui est un jour d'indépendance et de retrouvailles avec nos frères Tai. Hommes, femmes et enfants de Shan, levez-vous !"
-SHA_Unite_Against_the_Enemy: "Unir les États brisés"
-SHA_Unite_Against_the_Enemy_desc: "L'État Shan est composé de nombreux territoires régis par leurs propres saophas. Certains, étant loin du conflit, ne se soucient guère de savoir si nous gagnons ou perdons. Cependant, nous devons utiliser cette guerre comme un moyen de convaincre les saophas de se regrouper, de peur que nous ne tombions à nouveau entre les mains des Chinois"
-SHA_Noble_Sacrifices: "Les nobles sacrifices des Taï"
-SHA_Noble_Sacrifices_desc: "Les guerres se gagnent en sacrifiant son âme pour son pays. Notre peuple Tai doit faire de même, car même si la guerre n'est pas la vraie voie, c'est par nécessité que nous devons souiller les montagnes de notre sang pour gagner la liberté"
-SHA_Destroy: "Une trahison de la paix"
-SHA_Destroy_desc: "Le cœur lourd, Sao Shwe Thaik doit accepter la destruction finale de l'ennemi chinois. Leur défaite est notre victoire, et nous devons gagner à tout prix pour protéger notre souveraineté. Ce sera fait - ils seront anéantis par nos hommes, et justice sera faite."
-SHA_Resist: "Résister ; défier l'envahisseur"
-SHA_Resist_desc: "'Quand les Chinois viennent chercher vos familles, résistez, compatriotes ! Prenez votre arme et restez groupés ! Même si vous n'êtes pas un soldat, la protection de votre famille et de votre mère patrie est de la plus haute importance"
-SHA_The_Fight_is_Over: "Le combat est terminé"
-SHA_The_Fight_is_Over_desc: "L'accord a été signé, et Shan n'est plus en guerre avec le Yunnan. Nous avons acquis une indépendance totale vis-à-vis des Chinois et des Birmans, et il est temps de planter notre pieu dans le monde. Réjouissez-vous, car aujourd'hui est un jour de fête !"
  SHA_Centralize_the_States: "Centraliser les États"
  SHA_Centralize_the_States_desc: "Le système de fédéralisme du Shan est anachronique et doit être modifié. Les saophas sont aux ordres de Sao Shwe Thaik, et la Confédération doit devenir centralisée si nous voulons progresser dans le monde"
 SHA_The_Federalist_Dream: "Le rêve fédéraliste"
@@ -55,8 +45,8 @@ SHA_A_Guiding_Hand: "La main directrice de Sao Shwe Thaik"
  SHA_A_Guiding_Hand_desc: "Le peuple Tai est un sujet loyal du gouvernement de Taunggyi, de ses régions et de Sao Shwe Thaik. Sao Shwe Thaik guidera les Shan vers la centralisation et la démocratie, et le peuple suivra"
 SHA_The_Nation_First: "Mettre la nation au premier plan"
 SHA_The_Nation_First_desc: "Trop nombreux sont ceux qui placent leur clan au-dessus de tout. De telles loyautés sont un poison pour l'unité nationale et permettent à des éléments étrangers de monter nos peuples les uns contre les autres. Une vaste campagne de propagande devrait être lancée pour décourager de tels liens"
-SHA_Memories_of_the_Independence_War: "Souvenirs de la guerre d'indépendance"
-SHA_Memories_of_the_Independence_War_desc: "La lutte pour l'indépendance a été longue et sanglante. Mais nous l'avons surmontée, et nous pouvons maintenant appliquer formellement sa leçon au développement des forces armées"
+ SHA_fight_for_freedom:9 "Lutte pour la liberté"
+ SHA_fight_for_freedom_desc:0 "La lutte pour l'indépendance a été longue et sanglante. Mais nous l'avons surmontée, et nous pouvons maintenant appliquer formellement sa leçon au développement des forces armées"
 SHA_A_Professional_National_Army: "Une armée nationale professionnelle"
 SHA_A_Professional_National_Army_desc: "La structure décentralisée de nos forces jusqu'à présent ne peut être maintenue. Développons non seulement une force professionnelle de style occidental où chaque homme est entraîné de manière intensive et adapté à un système de commandement rigide"
 SHA_Superior_Weaponry: "Armes supérieures"
@@ -93,64 +83,66 @@ SHA_Our_Fortress_Our_Homeland: "La liberté s'arrête là où commence la violen
 
 ### Events ###
 
- shan_events.1.t:0 "Indépendance de la Confédération Shan"
- shan_events.1.d:0 "L'État Shan, habité par le peuple Tai local, a été pendant de nombreuses années un point de discorde entre les puissances en Asie. Dans les montagnes du Shan, ce sont les saophas qui gouvernent leurs propres petits royaumes dans la région depuis les années 1200. Elle a connu de nombreuses guerres, les royaumes ne cessant de rafler les régions voisines. Lorsque les Britanniques sont arrivés, les saophas se sont soumis, mais après la Weltkrieg et l'effondrement de l'émir britannique dans les années 1920, la Birmanie s'est libérée de l'Empire avec Shan à sa remorque. Le royaume du Siam envahit brièvement l'État Shan, prenant la région qu'ils appellent aujourd'hui Saharat Thai Doem. Shan s'était toujours battu pour obtenir plus de droits sous le régime birman, et maintenant, après la prise de pouvoir par les Chinois, les saophas de Shan se sont rebellés, dans l'espoir qu'un jour, le peuple Tai sera à nouveau libre"
- shan_events.1.a:0 "Nous serons toujours loyaux envers Shan."
+ #NOTE: These events have all been removed per Yunnan changes, but keeping the loc here in case someone decides to work on Shan in future and wants to reuse it as a starting point.
 
- shan_events.2.t:0 "Le plan Kokang"
- shan_events.2.d:0 "Le général récemment promu Sao Yang Wen Pin, Saopha de Kokang, a esquissé un plan pour reprendre Kokang, actuellement sous contrôle yunnanien. Bien qu'il soit lui-même d'origine chinoise, Sao Yang Wen Pin n'éprouve aucune sympathie pour la Clique du Yunnan et s'identifie beaucoup plus à Kokang et, par extension, à la Confédération Shan. Les promesses de Kunming sont grandes, mais il est, dans son cœur, un natif du Shan. Avec la ville sous notre contrôle, nous serions en mesure de traverser le fleuve qui sépare le Shan de la Chine et d'en faire sortir nos troupes"
- shan_events.2.a:0 "Espérons que cela fonctionne pour nous."
-
- shan_events.3.t:0 "Aller de l'avant après la guerre"
- shan_events.3.d:0 "Maintenant que le Shan a été consolidé et que notre confédération est en paix, nous devons maintenant choisir la voie que nous allons suivre. Les saophas doivent se réunir à Yawnghwe Haw pour discuter de ces questions, et c'est là que se décidera l'avenir de notre nation, maintenant que nous avons terminé notre combat pour l'indépendance"
- shan_events.3.a:0 "Nous devons suivre la voie qui nous convient le mieux."
-
- shan_events.4.t:0 "La conférence Yawnghwe"
- shan_events.4.d:0 "Et c'est ainsi que les saophas sont réunis à Yawnghwe Haw, le centre de notre capitale, Taunggyi, et la maison de Sao Shwe Thaik. Les saophas sont fortement en faveur du maintien du statu quo, une confédération démocratique et pacifiste des différents États Shan. Cependant, certains ont également soulevé la question de l'abandon volontaire de leur pouvoir afin de créer une nation plus unifiée et plus stable, à l'abri de toute autre invasion étrangère potentielle. Si le statu quo est largement populaire et même soutenu par Sao Shwe Thaik, la crainte d'une nouvelle invasion du Yunnan est également répandue, et la centralisation pourrait être une meilleure voie pour la nation. Il ne reste plus qu'à prendre une décision et Shan suivra la voie choisie ici, aujourd'hui, à Taunggyi"
- shan_events.4.a:0 "La Confédération est la voie de l'avenir !"
- shan_events.4.b:0 "Réforme et centralisation !"
-
- shan_events.5.t:0 "Le discours de Sao Shwe Thaik à Taunggyi"
- shan_events.5.d:0 "Ce matin, les habitants de Taunggyi et des villes voisines se sont rassemblés devant l'hôtel de ville et le bâtiment du gouvernement pour écouter Sao Shwe Thaik parler. Il a prononcé un discours enthousiaste, parlant de la souveraineté de l'État Shan, du chemin pacifiste et juste que la Confédération allait prendre. Divers saophas et dirigeants du gouvernement étaient invités sur la scène"
- shan_events.5.a:0 "Inspirant"
-
- shan_events.6.t:0 "Le commerce de la drogue dans le Shan"
- shan_events.6.d:0 "Le Shan fait partie du Triangle d'or, une région tristement célèbre dans le monde entier pour sa production et son commerce d'opium. C'est une source de revenus importante pour de nombreuses personnes, en particulier au Nord, dans le Kachin. Cependant, le commerce illégal d'opium est devenu un problème au sein de la Confédération Shan. Que faisons-nous du commerce de la drogue ?"
- shan_events.6.a:0 "Limiter et taxer."
- shan_events.6.b:0 "Ne mettons pas les commerçants en colère."
- shan_events.6.c:0 "Rassemblez les trafiquants illégaux et emprisonnez-les !"
-
- shan_events.7.t:0 "Une visite diplomatique à Myitkyina"
- shan_events.7.d:0 "L'État du Kachin, au Nord, a combattu avec nous dans la guerre d'indépendance. Dans le but de préserver les relations diplomatiques amicales entre les deux nations Shan et Kachin, Sao Shwe Thaik et une délégation diplomatique ont décidé de se rendre à Myitkyina pour une visite diplomatique, et pour discuter de l'avenir de nos deux nations nouvellement indépendantes"
- shan_events.7.a:0 "Bon voyage !"
-
- shan_events.8.t:0 "La délégation revient de Kachin"
- shan_events.8.d:0 "Sao Shwe Thaik et la délégation diplomatique Shan sont de retour après un voyage de deux semaines à Kachin, où ils ont été accueillis par les habitants de Myitkyina et les chefs du gouvernement de Jingpho avec une grande hospitalité et une grande amabilité. Une conférence s'est tenue à Myitkyina au cours de laquelle les dirigeants des gouvernements Shan et Kachin ont parlé de la coopération future entre les deux nations"
- shan_events.8.a:0 "Welcome back !"
-
- shan_events.9.t:0 "Une visite diplomatique du Shan"
- shan_events.9.d:0 "Sao Shwe Thaik et un groupe de fonctionnaires importants du gouvernement de Shan sont sur le point de venir dans notre capitale, Myitkyina, dans le but de préserver les relations amicales entre nos deux pays après la guerre contre la Clique du Yunnan. Nous avons accepté de les accueillir, et les préparatifs sont en cours pour leur arrivée"
- shan_events.9.a:0 "Qu'ils viennent à Myitkyina."
-
- shan_events.10.t:0 "La délégation Shan retourne à Taunggyi"
- shan_events.10.d:0 "Après deux semaines de discussions et de visites, Sao Shwe Thaik et la délégation de Shan ont fait leurs adieux à Kachin. Les pourparlers ont été couronnés de succès, apportant des avantages économiques et sociaux tant aux pays qu'à leurs citoyens. La coopération future a également été évoquée, et les deux nations nouvellement indépendantes ont été encore plus rapprochées"
- shan_events.10.a:0 "Revenez bientôt !"
-
- shan_events.11.t:0 "L'amélioration personnelle dans le Shan"
- shan_events.11.d:0 "Sous la conduite de leurs saophas, les habitants de nombreux États du Shan ont commencé à se moderniser davantage et à améliorer leurs conditions de vie. Des toilettes plus modernes, datant des années 1920, ont été installées dans les villes rurales, et des enseignants ont été envoyés de Taunggyi pour enseigner aux enfants des campagnes, afin de contribuer à l'éducation de la prochaine génération"
- shan_events.11.a:0 "Grandiose ! "
-
- shan_events.12.t:0 "Les bénéfices de l'opium"
- shan_events.12.d:0 "L'opium a donné un petit coup de fouet à notre économie, car les premiers bénéfices de la taxation et de la limitation de l'opium sont arrivés. Cependant, la limitation a créé davantage de problèmes, à savoir la vente de quantités accrues d'opium illégalement sur le marché noir. Les gens sont également devenus moins productifs, car un certain nombre de personnes sont régulièrement sous opium au travail. Les fonctionnaires et les policiers tentent de sévir contre le marché noir, mais sans grand succès. Cependant, nous avons certainement tiré des bénéfices de nos actions"
- shan_events.12.a:0 "Concerne, mais une amélioration certaine."
-
- shan_events.13.t:0 "Inaction contre l'opium"
- shan_events.13.d:0 "Le commerce de l'opium a été aussi prolifique que jamais, avec peu ou pas de perturbations de la part du gouvernement. Les gens sont allés travailler alors qu'ils étaient sous opium, et la productivité a diminué à cause de la drogue. Cependant, il y a eu des avantages - les trafiquants de drogue ne sont plus hostiles au gouvernement après leur inaction, et nous avons éliminé les ennemis potentiels du Nord"
- shan_events.13.a:0 "Espérons que c'était le bon choix."
-
- shan_events.14.t:0 "La résistance des trafiquants de drogue"
- shan_events.14.d:0 "Après que les trafiquants d'opium illégaux ont été arrêtés, jugés et jetés en prison, de nombreux autres trafiquants de drogue sont passés dans la clandestinité. Les prix de la drogue ont augmenté, et les trafiquants essaient d'éviter l'œil de la loi de manière beaucoup plus habile. Toutefois, une solution temporaire a été trouvée : la police a réprimé tous les trafiquants de drogue illégaux signalés en donnant des sommes d'argent à quiconque les dénonce en guise de récompense"
- shan_events.14.a:0 "Maudits soient ces barons de la drogue !"
+ #shan_events.1.t: "Independence of the Shan Confederation"
+ #shan_events.1.d: "The Shan State, inhabited by the local Tai people, has for many years been a point of contention between powers in Asia. Ruling in the mountains of Shan are the saophas, ruling their own small kingdoms in the region since the 1200s. It underwent many wars, with the kingdoms constantly raiding neighbouring regions. When the British came, the saophas submitted, but after the Weltkrieg and the collapse of the British Empire in the 1920s, Burma broke free from the Empire with Shan in tow. The Kingdom of Siam briefly invaded Shan State, taking the area now known by them as Saharat Thai Doem. Shan had always fought for more rights under the Burmese regime, and now, after the Chinese takeover, the saophas of Shan have rebelled, in the hope that one day, the Tai people will be free once again."
+ #shan_events.1.a: "Loyal to Shan we'll ever be."
+ #
+ #shan_events.2.t: "The Kokang Plan"
+ #shan_events.2.d: "The recently promoted General Sao Yang Wen Pin, Saopha of Kokang, has sketched out a plan to retake Kokang, currently under Yunnanese control. Though ethnically Chinese himself, Sao Yang Wen Pin feels no sympathy for the Yunnan Clique, and identifies much more with Kokang and, by extension, the Shan Confederation. The promises Kunming gives are large, but he is, in his heart, a native of Shan. With the city under our control, we would be able to cross the river separating Shan and China, and spill in our troops from there."
+ #shan_events.2.a: "Let's hope this works out for us."
+ #
+ #shan_events.3.t: "Moving Forwards After the War"
+ #shan_events.3.d: "Now that Shan has been consolidated and our confederation is at peace, we must now choose the path by which we will follow. The saophas are to be convened at Yawnghwe Haw to discuss such matters, and the future of our nation will be decided there, now that we have finished our fight for independence."
+ #shan_events.3.a: "We must tread the way that is best for us."
+ #
+ #shan_events.4.t: "The Yawnghwe Conference"
+ #shan_events.4.d: "And so it has been done - the saophas are gathered at Yawnghwe Haw, the centre of our capital, Taunggyi, and the home of Sao Shwe Thaik. The saophas are strongly in favour of keeping the status quo, a democratic, pacifist confederation of the various Shan states. However, some have also raised the question of willingly giving up their power in order for a more unified and stable nation, safe from any other potential foreign invasions. While the status quo is widely popular and even supported by Sao Shwe Thaik, fears of another Yunnanese invasion are widespread too, and centralisation might be a better path for the nation. The only thing that remains is for the decision to be made, and Shan will go down the path chosen here, today, at Taunggyi."
+ #shan_events.4.a: "The Confederation is the way forwards!"
+ #shan_events.4.b: "Reform and Centralisation!"
+ #
+ #shan_events.5.t: "Sao Shwe Thaik's Speech at Taunggyi"
+ #shan_events.5.d: "This morning, the people of Taunggyi and neighbouring towns gathered outside the City Hall and the government building to hear Sao Shwe Thaik speak. He gave a rousing speech, speaking about the hard-fought sovereignty of Shan state, and of the pacifist and just road the Confederation would take. Invited onto the stage were various saophas and leaders in the government."
+ #shan_events.5.a: "Inspiring."
+ #
+ #shan_events.6.t: "The Drug Trade in Shan"
+ #shan_events.6.d: "Shan is a part of the Golden Triangle, an infamous region in the world known for its opium production and trading. It is a major source of income for many people, especially to the North, in Kachin. However, illegal opium trading has become a problem within the Shan Confederation. What do we do with the drug trade?"
+ #shan_events.6.a: "Limit and tax it."
+ #shan_events.6.b: "Let's not anger the traders."
+ #shan_events.6.c: "Round the illegal traders up and imprison them!"
+ #
+ #shan_events.7.t: "A Diplomatic Visit to Myitkyina"
+ #shan_events.7.d: "The State of Kachin, to the North, fought with us in the Independence war. In the interests of preserving friendly diplomatic relations between the two nations of Shan and Kachin, Sao Shwe Thaik and a diplomatic delegation have decided to go to Myitkyina for a diplomatic visit, and to discuss the future of our two, newly-independent nations."
+ #shan_events.7.a: "Bon voyage!"
+ #
+ #shan_events.8.t: "The Delegation Returns from Kachin"
+ #shan_events.8.d: "Sao Shwe Thaik and the Shan diplomatic delegation have returned after a two-week trip to Kachin, where they were greeted by the locals in Myitkyina and the Jingpho government leaders with great hospitality and friendliness. A conference was held at Myitkyina in which the leaders of the Shan and Kachin governments talked about future cooperation between the two nations."
+ #shan_events.8.a: "Welcome back!"
+ #
+ #shan_events.9.t: "A Diplomatic Visit from Shan"
+ #shan_events.9.d: "Sao Shwe Thaik and a group of important officials in the government of Shan are about to come to our capital, Myitkyina, in the interests of preserving our two countries' friendly relations after the war against the Yunnan Clique. We have agreed to host them, and preparations are being made for their arrival."
+ #shan_events.9.a: "Let them come to Myitkyina."
+ #
+ #shan_events.10.t: "The Shan Delegation Returns to Taunggyi"
+ #shan_events.10.d: "After two weeks of talks and tours, Sao Shwe Thaik and the delegation from Shan has said their goodbyes with Kachin. The talks were overwhelmingly successful, giving economic and social benefits to both the countries and their citizens. Future cooperation has also been talked about, and the two newly-independent nations have been brought together even more."
+ #shan_events.10.a: "Come back soon!"
+ #
+ #shan_events.11.t: "Self-Improvement in Shan"
+ #shan_events.11.d: "Under the guidance of their saophas, the people of many states in Shan have begun to modernise more and improve their living conditions. More modern, 1920s toilets were installed in rural towns, and teachers have been dispatched from Taunggyi to teach countryside children, to help bring up the next generation."
+ #shan_events.11.a: "Great!"
+ #
+ #shan_events.12.t: "Opium Profits"
+ #shan_events.12.d: "Opium has given our economy a bit of a boost, as the first profits from taxing and limiting opium have arrived. However, the limit has created more problems, namely the selling of increased amounts opium illegally on the black market. People have also become less productive, due to a number of people regularly being high on opium at work. Officials and policemen are trying to crack down on the black market, but no great success has been achieved. However, we have certainly received benefits from our actions."
+ #shan_events.12.a: "Concerning, but a definite improvement."
+ #
+ #shan_events.13.t: "Inaction Against Opium"
+ #shan_events.13.d: "The opium trade has been as prolific as ever, with little to no disturbance from the government. People have gone to work while high on opium, and productivity has decreased due to the drug. However, there have been benefits - drug traders are no longer hostile to the government after their inaction, and we have eliminated possible enemies to the North."
+ #shan_events.13.a: "Let's hope it was the right choice."
+ #
+ #shan_events.14.t: "The Resistance of the Drug Traders"
+ #shan_events.14.d: "After the illegal opium traders were rounded up, put on trial, and thrown in prison, many other drug traders have gone underground. Drug prices have gone up, and the traders are trying to avoid the eye of the law in much more craftier ways. However, a temporary solution has been reached - the police have cracked down on any illegal drug traders reported with sums of money given to anyone who reports illegal drug traders as a reward."
+ #shan_events.14.a: "Damn those drug lords!"
 
 ### Ideas ###
 
