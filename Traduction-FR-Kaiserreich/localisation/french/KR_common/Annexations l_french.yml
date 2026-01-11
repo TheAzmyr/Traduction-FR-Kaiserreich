@@ -85,6 +85,7 @@ annexation_decisions: "Décisions d'annexion"
 
  annexation_events.europe.give_to_ireland:0 "[ireland.GetGrantTerritoryEventOption]"
  annexation_events.europe.give_to_england:0 "[england.GetGrantTerritoryEventOption]"
+ annexation_events.europe.give_to_scotland:9 "[scotland.GetGrantTerritoryEventOption]"
  annexation_events.europe.give_to_denmark:0 "[denmark.GetGrantTerritoryEventOption]"
  annexation_events.europe.give_to_norway:0 "[norway.GetGrantTerritoryEventOption]"
 
@@ -303,10 +304,10 @@ annexation_decisions: "Décisions d'annexion"
  annexation_events.7.desc_generic:0 "Le gouvernement [From.GetAdjective] ne semble apparemment pas vouloir récupérer leurs terres ou ne fait pas confiance à notre offre. De toute façon, ils ont refusé de rejoindre notre alliance"
  annexation_events.7.a_generic:0 "Il semble que ce soit une perte pour eux."
 
- annexation_events.8.t_romania:0 "[From.GetNameDefCap] Nous Trahit !"
- annexation_events.8.t_generic:0 "[From.GetNameDefCap] Abandonne le [Root.GetFactionName]"
- annexation_events.8.desc_romania:0 "La trahison nous est tombée dessus! Jusqu'à présent, tous considéraient [FROM.GetNameDef] comme un allié indéfectible dans une période chaotique - mais apparemment, l'amitié est une chose fragile en politique. Il est apparu aujourd'hui que [FROM.GetNameDef] a été impliqué dans des négociations secrètes avec [FROM.FROM.GetNameDef], avec l'intention de parvenir à un accord pour satisfaire leurs revendications sur la Transylvanie en échange d'une alliance. Cela n'aurait peut-être pas été une blessure aussi dramatique si nous n'avions pas appris l'annonce de la conclusion de l'accord - et l'expulsion de nos forces de [FROM.GetNameDef].\n\nNous avons été pris au dépourvu par la nouvelle, et les réactions à l'intérieur et à l'extérieur du gouvernement vont de la stupeur au désespoir, en passant par le prix que [FROM.GetNameDef] sera obligé de payer pour sa duplicité."
- annexation_events.8.desc_generic:0 "Il semble qu'une offre faite par [From.From.GetNameDef] pour le retour des terres revendiquées ait emporté la décision de [From.GetNameDef]. Ils ont abandonné notre alliance et ont rejoint [From.From.GetFactionName]. C'est peut-être un territoire que nous n'aurions jamais pu leur concéder, mais même ainsi, cela reste une pilule amère à avaler."
+ annexation_events.8.t_romania:9 "[FROM.FROM.GetNameDefCap] nous trahit !"
+ annexation_events.8.t_generic:9 "[FROM.FROM.GetNameDefCap] abandonne le [Root.GetFactionName]"
+ annexation_events.8.desc_romania:9 "La trahison nous est tombée dessus! Jusqu'à présent, tous considéraient [FROM.FROM.GetNameDef] comme un allié indéfectible dans une période chaotique - mais apparemment, l'amitié est une chose fragile en politique. Il est apparu aujourd'hui que [FROM.FROM.GetNameDef] a été impliqué dans des négociations secrètes avec [FROM.GetNameDef], avec l'intention de parvenir à un accord pour satisfaire leurs revendications sur la Transylvanie en échange d'une alliance. Cela n'aurait peut-être pas été une blessure aussi dramatique si nous n'avions pas appris l'annonce de la conclusion de l'accord - et l'expulsion de nos forces de [FROM.FROM.GetNameDef].\n\nNous avons été pris au dépourvu par la nouvelle, et les réactions à l'intérieur et à l'extérieur du gouvernement vont de la stupeur au désespoir, en passant par le prix que [FROM.FROM.GetNameDef] sera obligé de payer pour sa duplicité."
+ annexation_events.8.desc_generic:9 "Il semble qu'une offre faite par [FROM.GetNameDef] pour le retour des terres revendiquées ait emporté la décision de [FROM.FROM.GetNameDef]. Ils ont abandonné notre alliance et ont rejoint [FROM.GetFactionName]. C'est peut-être un territoire que nous n'aurions jamais pu leur concéder, mais même ainsi, cela reste une pilule amère à avaler."
  annexation_events.8.a_romania:0 "Et après tout ce que nous avons traversé!"
  annexation_events.8.a_generic:0 "Espérons que nous ne finirons pas dans des camps opposés..."
 
@@ -1007,11 +1008,14 @@ annexation_decisions: "Décisions d'annexion"
  annexation_events.1142.b:0 "[komotini.GetGrantTerritoryEventOption]"
  annexation_events.1142.c:0 "[florina.GetGrantTerritoryEventOption]"
 
+ annexation_119:0 "Le destin de [119.GetName]"
+ annexation_119_desc:0 "Nous avons pris le contrôle de la région de [119.GetName] et devons maintenant décider de ce qu'il faut en faire."
+
  annexation_942:0 "Le destin de [942.GetName]"
  annexation_942_desc:0 "Nous avons pris le contrôle de la région montagneuse de [942.GetName] et devons maintenant décider de ce que nous allons en faire."
 
- annexation_119:0 "Le destin de [119.GetName]"
- annexation_119_desc:0 "Nous avons pris le contrôle de la région de [119.GetName] et devons maintenant décider de ce qu'il faut en faire."
+ annexation_1124:9 "Le destin de [1124.GetName]"
+ annexation_1124_desc:9 "Nous avons pris le contrôle de [1124.GetName] et devons maintenant décider de ce qu'il faut en faire."
 
 ### Americas Events ###
 

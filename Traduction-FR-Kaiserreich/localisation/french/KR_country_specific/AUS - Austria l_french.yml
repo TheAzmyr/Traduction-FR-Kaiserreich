@@ -53,7 +53,8 @@ AUS_treaty_of_budapest: "L'Autriche a été vaincue par le pacte de Belgrade"
 AUS_ausgleich_kingdoms: "Tous les Royaumes sont invités aux Ausgleich"
 AUS_ausgleich_peoples: "Toutes les nationalités sont accueillies aux Ausgleich"
 
- AUS_will_not_get_puppet_divisions: "§CToutes les divisions seront §Rdissoutes§!, mais nous hériterons de leur équipement et de leurs effectifs.§!"
+ AUS_transfer_puppet_divisions:9 "§CToutes les divisions [THIS.GetAdjective] seront §Yhéritées§!.§!"
+ AUS_transfer_puppet_equipment_and_manpower:9 "§CToutes les divisions [THIS.GetAdjective] seront §Ydémantelées§! et leur équipement et leurs troupes seront transférées dans nos réserves.§!"
 
 ### Opinion Modifiers ###
  AUS_italy_bond: "Amitié austro-italienne"
@@ -999,7 +1000,8 @@ AUS_ausgleich_dominated_delegation_GAL: "Nous sommes un État polonais. Nous env
 
  ausgleich_events.701.t:0 "[From.GetNameDefCap] accepte la réintrégation"
  ausgleich_events.701.d:0 "Le gouvernement [From.GetAdjective] a accepté notre proposition d'un État plus centralisé"
- ausgleich_events.701.a:0 "Excellent."
+ ausgleich_events.701.a:9 "Excellent.\n(Conserver les divisions)"
+ ausgleich_events.701.b:9 "Excellent.\n(Démanteler les divisions)"
 
  ausgleich_events.702.t:0 "[From.GetNameDefCap] envahit la Hongrie !"
  ausgleich_events.702.d:0 "Les vautours de [FROM.GetNameDef] ont décidé de profiter de nos troubles internes pour envahir le Royaume de Hongrie. Malgré leur état de révolte, la Hongrie dans son ensemble est l'un des principaux royaumes des Habsbourg et doit être défendue contre nos voisins sanguinaires. Même si nous sommes déjà occupés à réprimer la révolte des Magyars, nous devons considérer leur invasion comme une attaque contre la monarchie dans son ensemble, quel que soit notre état de fait."
