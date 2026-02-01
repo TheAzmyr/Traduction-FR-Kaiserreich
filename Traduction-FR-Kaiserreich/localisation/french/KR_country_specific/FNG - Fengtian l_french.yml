@@ -120,15 +120,15 @@ FNG_Expel_the_Japanese_Bandits_desc: "Le temps est venu de chasser les intrus ja
 
  FNG_mantetsu_profits_modifier: "£pol_idea Profits de la Mantetsu"
  FNG_mantetsu_profits: "Profits de la Mantetsu"
- FNG_mantetsu_profits_desc:9 "La Compagnie Ferroviaire de Mandchourie du Sud, officieusement connue sous le nom de Mantetsu, est présente en Mandchourie depuis la fin de la guerre russo-japonaise. Aujourd'hui, ses activités s'étendent sur toute la largeur de la région et constituent le cœur de son économie industrielle en pleine croissance. La Mantetsu fournit plus de revenus bruts au Gouvernement japonais que le reste de son empire réuni.\n\n§YLes effets de cet esprit national vont augmenter proportionnellement à la popularité $market_liberal_coloured$ du [FNG.GetFlag] [FNG.GetName].§!"
+ FNG_mantetsu_profits_desc:9 "La Compagnie Ferroviaire de Mandchourie du Sud, officieusement connue sous le nom de Mantetsu, est présente en Mandchourie depuis la fin de la guerre russo-japonaise. Aujourd'hui, ses activités s'étendent sur toute la largeur de la région et constituent le cœur de son économie industrielle en pleine croissance. La Mantetsu fournit plus de revenus bruts au Gouvernement japonais que le reste de son empire réuni.\n\n§YPlus l'§jInfluence japonaise§! au [FNG.GetFlag] [FNG.GetName] est importante, plus les effets de cet esprit national augmenteront.§!"
  FNG_mantetsu_profits_effects: "$MODIFIER_LOCAL_RESOURCES_FACTOR$ : [?FNG.JAP_mantetsu_resource_gain|=%+]\n$MODIFIER_INDUSTRIAL_CAPACITY_FACTOR$ : [?FNG.JAP_mantetsu_factory_output|=%+]"
 
- FNG_mantetsu_level_very_high_tooltip:9 "Plus de §H50%§! de soutien à §HL'Association Concordia§!"
- FNG_mantetsu_level_high_tooltip:9 "Entre §H30%§! et §H50%§! de soutien à §HL'Association Concordia§!"
- FNG_mantetsu_level_medium_tooltip:9 "Entre §H20%§! et §H30%§! de soutien à §HL'Association Concordia§!"
- FNG_mantetsu_level_low_tooltip:9 "Entre §H0%§! et §H20%§! de soutien à §HL'Association Concordia§!"
- FNG_mantetsu_level_none_tooltip:9 "L'§HAssociation Concordia§! s'est effondrée"
- FNG_mantetsu_level_none_tooltip_NOT:9 "§jJapanese Influence§! has not been §Yexpelled§!"
+ FNG_mantetsu_level_very_high_tooltip:9 "A plus de §H75%§! d'§jInfluence japonaise§!"
+ FNG_mantetsu_level_high_tooltip:9 "A entre §H50%§! et §H75%§! d'§jInfluence japonaise§!"
+ FNG_mantetsu_level_medium_tooltip:9 "A entre §H25%§! et §H50%§! d'§jInfluence japonaise§!"
+ FNG_mantetsu_level_low_tooltip:9 "A entre §H0%§! et §H25%§! d'§jInfluence japonaise§!"
+ FNG_mantetsu_level_none_tooltip:9 "L'§jInfluence japonaise§! a été §Yexpulsée§!"
+ FNG_mantetsu_level_none_tooltip_NOT:9 "L'§jInfluence japonaise§! n'a pas été §Yexpulsée§!"
 
  FNG_disgruntled_soldiers_idea: "Armée Mécontente"
  FNG_disgruntled_soldiers_idea_desc: "En Chine, le pillage a longtemps été considéré comme le droit des soldats victorieux. Aujourd'hui, l'Armée du Fengtian s'est vu refuser ce droit, et elle n'en est pas heureuse."
@@ -177,7 +177,7 @@ FNG_Expel_the_Japanese_Bandits_desc: "Le temps est venu de chasser les intrus ja
 
  FNG_beiyang_popular_support_intro:9 "The popular image of a warlord is that of an arbitrary tyrant: a cruel, uneducated autocrat with little regard to human life, ceaseless avarice, and surrounded by a decadent court of vice and yesmen. The reality is much more nuanced. Many warlords were well-educated and kept up to date with international political trends, and while most had a ruthless streak, that was hardly uncommon in China. Furthermore, while most were autocrats, they hardly ruled alone: they were backed by a complex web of politicians, generals, economic elites, social figures, and intellectuals."
 
- FNG_popular_support_twin_dragons_taming_the_water:9 "Federalist Spirit: §cTwin Dragons Taming the Water§!"
+ FNG_popular_support_twin_dragons_taming_the_water:9 "Esprit Fédéraliste : §cDragons Jumeaux Domptant l'Eau§!"
  FNG_popular_support_twin_dragons_taming_the_water_desc:9 "The modern Chinese Federalist rose and fell across the first half of the 1920s. A coalition of constitutionalists, democrats, and regionalists - they banded together amid the continued North-South stalemate at the peak of the warlord era. Their calls for the various provinces to work towards implementing local self-government and then peacefully unite together into a federal republic achieved some traction, but after a promising start it was rejected by both northern and southern governments, with further discrediting by the Zhili's successful unification by force.\n\nIn what almost seems like a cruel joke, it would appear that the final attempt to bridge the North-South divide as of recent has proved its most fruitful; finally, after decades, the nation is united in somewhat amiable terms. Albeit, the situation is far from genuine. With Zhang Junmai thrust into the position of compromise Premier for a President who would rather surf the delights of hedonism than heed governance, the government has found itself miraculously inefficient at even the most basic conducts of Governance. United on the surface, it takes but one glance beneath to witness all the cracks manifesting in the Republic's hastily composed structures."
 
  FNG_popular_support_the_finely_oiled_machine:9 "Political Legitimacy: §cThe FInely Oiled Machine§!"
@@ -393,7 +393,7 @@ FNG_Japanese_Interests_in_Manchuria: "Intérêts japonais en Mandchourie"
 FNG_foreign_policy: "La voie de la reconquête"
  FNG_foreign_policy_desc:9 "La fin de la dernière Guerre Zhifeng en 1928 a vu l'exil du mouvement républicain chinois autrefois florissant vers le Nord-Est. Depuis, nos forces ont affronté les troupes [QIE.GetAdjective] à Shanhaiguan, tandis que l'Allemagne et le Japon ont mené une guerre d'espionnage silencieuse dans les villes côtières. Un jour prochain, la Chine sera récupérée et réunifiée..."
  FNG_japanese_influence_desc:9 "\n\nJapanese influence is currently at [?FNG.FNG_JAP_influence_variable|j%0], we would be wise to keep it low and leave our options open."
- FNG_japanese_influence_expelled_desc:9 "\n\nJapanese influence has been §Yexpelled§!, we have only but ourselves to rely on now."
+ FNG_japanese_influence_expelled_desc:9 "\n\nL'influence japonaise a été §Yexpulsée§!. Nous ne pouvons compter que sur nous-mêmes."
 
 FNG_National_Irredentism: "Promouvoir l'irrédentisme national"
 FNG_National_Irredentism_desc: "Malgré nos efforts fructueux pour réprimer le mouvement régionaliste du nord-est, une certaine apathie demeure au sein de la population générale. Afin d'obtenir le plein soutien nécessaire à la reconquête nationale, nous devons lancer une vaste campagne de propagande !"
@@ -576,8 +576,8 @@ FNG_looting_events_will_continue: "Des événements similaires §Rse poursuivron
 FNG_troops_allowed_to_raid: "Nous allons recevoir §RÉvénements de pillage.§!"
 FNG_troops_not_allowed_to_raid: "L'impact des §RÉvénements de pillage§! va être réduit."
 
- FNG_Beijing_Baoding_looting_stopped:0 "§GL'Ordre§! sera restauré dans la province de Zhili."
- FNG_Zhengzhou_Luoyang_looting_stopped:0 "§GL'Ordre§! sera restauré dans la province de Zhili."
+ FNG_Beijing_Baoding_looting_stopped:0 "L'§GOrdre§! sera restauré dans la province du Zhili."
+ FNG_Zhengzhou_Luoyang_looting_stopped:0 "L'§GOrdre§! sera restauré dans la province du Henan."
 FNG_Wuhan_looting_stopped: "§GL'Ordre§! sera restauré dans la province de Zhili."
 
  FNG_unlock_showa_steel: "Déverrouille la société §YShōwa Steel§!."
@@ -622,7 +622,7 @@ FNG_merchants_wait: "§GCette décision peut être remise à plus tard sans cons
 
  FNG_annex_SHD_tooltip:0 "Le §YGouvernement Fengtian§! annexe la §YClique Shandong§!."
 
- FNG_has_united_china:9 "Fengtian a proclamé la §H$FNG_ROC_authoritarian_democrat$§!"
+ FNG_has_united_china:9 "Le Fengtian a proclamé la §H$united_china_authoritarian_democrat$§!"
 
  FNG_war_began_one_year_tt: "La guerre de récupération nationale a commencé il y a plus d'un an"
 
@@ -697,7 +697,7 @@ FNG_merchants_wait: "§GCette décision peut être remise à plus tard sans cons
 
  FNG_the_state_socialist_regime_tt:9 "§LWe will gain civilian factories in §YNanjing, Harbin, Beijing, Wuhan, and Jilin§!. We will gain one civilian factory per city depending on the influence of the combined total of half of our §SSocial Democrat§!, §lSocial Liberal§! and §nNational Populist§! popularities.§!"
 
- FNG_war_of_national_pacification_tt:9 "(§Y$all_chinese_countries_tt_cap$§!) $MODIFIERS_ARMY_ATTACK_FACTOR$: [?0.10|+=%%]"
+ FNG_war_of_national_pacification_tt:9 "(§Y$all_chinese_countries_tt_cap$§!) $MODIFIERS_ARMY_ATTACK_FACTOR$ : [?0.10|+=%%]"
 
 #ships (include decisions names, decision category use loc from focus)
  FNG_JAP_destroyers: "Commander des Destroyers"
@@ -727,7 +727,7 @@ BONUS_PP_100: "Bonus de pouvoir politique: §G+100§!\n"
  CC_POP: "L'influence de la §HClique de communication§! change de: [?CCPOP|%+]\n"
 
 # Concordia Association #
- CA_remove:9 "§HL'Association Concordia§! n'a plus d'influence.\n"
+ CA_remove:9 "L'§jInfluence japonaise§! sera §Yexpulsée§!.\n"
 
 ### Focus Flags ###
  strengthen_army: "Priorité à l'Armée"
@@ -735,12 +735,12 @@ BONUS_PP_100: "Bonus de pouvoir politique: §G+100§!\n"
 FNG_projapan: "Nous poursuivons une politique §Hpro-Japonaise§!"
 
 ### Parties ###
- FNG_totalist_party:0 "Parti Syndicaliste Chinois"
- FNG_totalist_party_long:9 "Gongtuandang (Parti Syndicaliste Chinois)\n§LLa portée du syndicalisme dans le Nord-Est est limitée malgré une base industrielle relativement importante. Des bandes de guérilleros radicaux dirigés par Guan Xiangying provoquent des troubles dans les campagnes, mais ne sont guère plus qu'un épouvantail politique.§!\n"
- FNG_syndicalist_party:0 "Parti Syndicaliste Chinois"
- FNG_syndicalist_party_long:9 "Gongtuandang (Parti Syndicaliste Chinois)\n§LLa portée du syndicalisme dans le Nord-Est est limitée malgré une base industrielle relativement importante. Des bandes de guérilleros radicaux dirigés par Guan Xiangying provoquent des troubles dans les campagnes, mais ne sont guère plus qu'un épouvantail politique.§!\n"
- FNG_radical_socialist_party:0 "Kuomintang"
- FNG_radical_socialist_party_long:9 "Guomindang (Kuomintang)\n§LFondé par Sun Yat-sen, le Kuomintang est essentiellement un parti basé dans le sud. Poussé vers la clandestinité en 1927, il conserve quelques sympathisants dans le nord, dont la plus grande cellule, connue sous le nom de Direction du Salut National Anti-Japonais du Nord-Est, est dirigée par Zhu Jiqing, cadre de l'Association des Camarades Réorganisés.§!\n"
+ FNG_totalist_party:0 "Radicaux"
+ FNG_totalist_party_long:9 "Radicaux et Révolutionnaires indépendants\n§LLa branche révolutionnaire du radicalisme en Chine a une histoire fascinante, émanant de la lutte immémoriale des martyrs et des héros contre les injustices. Mobilisant la fureur des masses, divers révolutionnaires se sont succédé, pacifiquement ou par le feu et la guerre. Se rassemblant pour la plupart dans divers partis tels que le Kuomintang ou le Parti Jeune Chine, la pensée révolutionnaire est largement opposée à celle des réformistes.\n\nL'attrait du radicalisme s'étend cependant à toute la Chine, de la steppe frontalière du Nord-Ouest aux rues bruyantes de Shanghai, et beaucoup s'accrochent aux idéaux d'une Chine radicalement transformée, soit par l'idéal égalitaire socialiste, soit par le nationalisme. Agissant sous les ordres des éléments radicaux du Kuomintang, du Parti Jeune Chine ou du Parti syndicaliste chinois, les groupes extrémistes refusent de participer au système parlementaire chinois, considérant le nouveau Gouvernement central comme une trahison de la révolution socialiste.§!\n"
+ FNG_syndicalist_party:0 "PSC"
+ FNG_syndicalist_party_long:9 "Parti syndicaliste chinois (Zhongguo Gongtuandang)\n§LLargement confiné aux centres urbains ou aux villes portuaires, le Parti syndicaliste chinois est resté pendant des années un simple parti junior fragmenté du Kuomintang chinois. Considéré comme un radicalisme de bas étage épousant une idéologie étrangère dans un pays ne disposant pas d'une base de soutien ouvrier aussi importante qu'en Europe ou en Amérique, le parti syndicaliste chinois a néanmoins remporté des succès significatifs dans son histoire politique. Il a joué un rôle clé dans des événements historiques tels que les grèves de Hong Kong-Canton en 1925, qui ont abouti à la création de la Ligue des Syndicalistes chinois, ou le Soulèvement de Shanghai en 1932, qui a donné lieu à une vaste action de masse nationale.\n\nPluraliste par nature, le Parti syndicaliste chinois s'est retrouvé fragmenté en une série de cliques disparates. Dans le Nord-Est, ils sont largement réduits à une bande de guérilleros dirigés par Guan Xiangying, ce qui diverge fortement de leur appui sur la population ouvrière urbaine du reste de la Chine. Ils ne sont rien de plus qu'un épouvantail politique.§!\n"
+ FNG_radical_socialist_party:0 "KMT"
+ FNG_radical_socialist_party_long:9 "Kuomintang chinois (Zhongguo Guomindang)\n§LLe Parti nationaliste chinois a pris de nombreuses formes au cours de son histoire mouvementée. Fondé en tant qu'organisation parlementaire du Tongmenghui en 1912 par Sun Yat-sen, Huang Xing et Song Jiaoren, le Kuomintang s'est efforcé de servir fidèlement de parti parlementaire au sein de la première République de Beiyang. Après l'assassinat de Song et les multiples exils de Sun, le Parti s'est réorganisé pour devenir le Gemingang chinois, avant de renaître sous le nom de Guomindang le 10 octobre 1919. Dédié aux Trois Principes du Peuple tels qu'adoptés par le Dr Sun Yat-sen, le Kuomintang aspire à la mise en œuvre du Parti-État, ou Dangguo, et à la mise en œuvre de la Révolution nationale en trois étapes. En aspirant aux Trois Principes de Minzu, Minquan et Minsheng (respectivement le nationalisme, la démocratie et la justice sociale), il espère voir naître une nouvelle république révolutionnaire.\n\nForcé à la clandestinité en 1927, son influence limitée au sein de poches révolutionnaires utopiques et d'exilés épars ne fait aucune différence dans le Nord-Est, où sa plus grande cellule de sympathisants est connue sous le nom de Directoire du Salut national anti-japonais du Nord-Est, dirigé par Zhu Jiqing de l'Association des Camarades pour la Réorganisation.§!\n"
  FNG_social_democrat_party:9 "Parti Constitutionnaliste"
  FNG_social_democrat_party_long:9 "Xianzhengdang (Parti Constitutionaliste)\n§LCertains partisans de Liang Qichao et du défunt Parti Progressiste se sont rendus à Shenyang, ne voulant pas supporter la restauration de la monarchie et s'accrochant au dernier vestige de Beiyang. Cette branche du parti reste largement inorganisée, même si la sympathie pour leurs réformes demeure.§!\n"
  FNG_social_liberal_party:9 "Républicains"
@@ -754,7 +754,7 @@ FNG_projapan: "Nous poursuivons une politique §Hpro-Japonaise§!"
  FNG_paternal_autocrat_party: "Clique de Zhang"
  FNG_paternal_autocrat_party_long:9 "Zhanghui (Clique de Zhang)\n§LLa Clique de Zhang, composée de loyalistes et de généraux, n'a pas d'idéologie spécifique, si ce n'est celle de promouvoir les pouvoirs politiques du Grand Maréchal. Tout en prétendant à la démocratie, les partisans de Zhang ne sont pas attachés aux idéaux républicains et ne les promeuvent que pour leur utilité.§!\n"
  FNG_national_populist_party:9 "Parti Jeune Chine"
- FNG_national_populist_party_long:9 "Zhongguo Qingniandang (Parti Jeune Chine)\n§LParti nationaliste prônant des réformes à grande échelle (y compris quelques appels nominaux à la démocratie), le Parti Jeune Chine compte quelques sympathisants dans le nord-est, mais reste largement inorganisé.§!\n"
+ FNG_national_populist_party_long:9 "Parti Jeune Chine (Zhongguo Qingniandang)\n§LNé de la "Société Jeune Chine" étudiante, le Parti Jeune Chine fut l'un des successeurs de cette société et se divisa en factions "nationaliste", "socialiste" et "idéaliste", dirigées respectivement par Zeng Qi et Li Huang, Li Dazhao et Wang Guangqi. Lors de leurs voyages d'études en France, Zeng Qi et Li Huang, ainsi que les autres membres de leur faction nationaliste, se disputaient avec d'autres étudiants en France tels que Zhou Enlai, Cai Yuanpei et Li Shizeng.\n\nDevenues parfois violentes, les manifestations de soutien au Parti syndicaliste chinois amènent Zeng et Li à former leur propre parti, annonçant la création du Parti Jeune Chine en 1923, en dehors de Paris. Se développant rapidement parmi les organisations étudiantes chinoises, le Parti Jeune Chine s'opposa concrètement à la coopération du Kuomintang avec le PSC, et le PJC revint à Shanghai en fondant une série de sociétés politiques et de journaux en 1924.\n\nLargement confiné au sud de la Grande Muraille, le Parti Jeune Chine a néanmoins un peu d'influence au Nord-Est. Grâce à des contacts dans diverses institutions éducatives telles que les académies de Feng Yong ou l'Académie de l'Armée du Nord-Est, Wang Shizeng a réussi à rallier des intellectuels comme Wang Jiexia et Huo Weizhou, gagnant un avant-poste au sein de la Clique du Fengtian.§!\n"
 
 ### Companies ###
 anshan_iron_and_steel: "Fer & Acier d'Anshan "
@@ -2828,7 +2828,7 @@ FNG_federalists_angered: "§R[FNG_shenyang_federalist_leader.GetNonIdeologyNameD
  fengtian_endgame_events.005.a:9 "Is there no trust anymore?"
  fengtian_endgame_events.005.b:9 "Rival personalities are bound to clash."
 
- fengtian_endgame_events.006.t:9 "The End of the Provisional Presidency"
+ fengtian_endgame_events.006.t:9 "La Fin de la Présidence Provisoire"
 
 ###GUI
  FNG_grand_marshals_favor_category: "La faveur du Grand Maréchal"
@@ -2955,7 +2955,7 @@ FNG_federalists_angered: "§R[FNG_shenyang_federalist_leader.GetNonIdeologyNameD
  FNG_zhang_zuolin: "Zhang Zuolin"
  FNG_zhang_zuolin_bio:9 "Né dans une famille pauvre près de Shenyang, Zhang Zuolin a débuté son ascension fulgurante en tant que bandit, exploitant la situation militaire chaotique de la fin de l’Ère Guangxu. À la suite de la Révolution Xinhai, Zhang parvint à prendre le contrôle de sa province natale du Fengtian. Le large assortiment d'alliances de Zhang, composé d'officiers locaux de Beiyang et d'anciens amis bandits, a formé le noyau de la Clique du Fengtian, qui devint l'un des principaux dissidents de la Clique de Beiyang.\n\nZhang avait à l'origine fait alliance avec Duan Qirui, dans le but d'utiliser ses connexions japonaises pour s'assurer des armes à feu, mais il se retourna bientôt contre la Clique de l'Anhui avec l'aide de la Clique du Zhili. Les deux cliques du Zhili et du Fengtian sont ensuite devenues des ennemies jurées, une situation qui perdure encore aujourd'hui. Zhang contrôla Beijing seul pendant un moment, mais la Clique du Zhili restaura son contrôle sur la ville en 1927.\n\nÀ la suite de la Restauration Qing, Zhang a préservé l'indépendance du Nord-est envers l'autorité de Beijing et a contesté leur autorité directe à diriger la Chine, revendiquant pour lui-même le manteau la Révolution Xinhai et se disant héritier légitime du Gouvernement de Beiyang. L'engagement réel de Zhang envers le républicanisme démocratique est pour le moins douteux, mais si le Vieux Maréchal peut utiliser la rhétorique républicaine pour restaurer son statut de gouvernement internationalement reconnu, alors qu'il en soit ainsi."
  FNG_zhang_zuolin_leader_desc:9 "§YNaissance :§! §L19 mars 1875, dans le comté de Haicheng, district de Shengjing, Empire Qing§!\n§YCarrière :§! §L$FNG_zhang_zuolin_bio$§!"
- FNG_zhang_zuolin_army_chief_desc:9 "§YBorn:§! §LMarch 19th, 1875, in Haicheng County, Shengjing District, Great Qing§!\n§YAlignment:§! §PZhang§!\n§YBackground:§! §L$FNG_zhang_zuolin_bio$§!\n\n§YNotes: Despite his poor literacy and lack of a formal education, the Old Marshal is a capable and self-aware leader with a knack for delegating. His pragmatic nature has many describing him as ideologically 'Pro-Zhang'.§!"
+ FNG_zhang_zuolin_army_chief_desc:9 "§YNaissance :§! §L19 mars 1875, comté de Haicheng, district de Shengjing, Grand Qing§!\n§YAlignement :§! §PZhang§!\n§YCarrière :§! §L$FNG_zhang_zuolin_bio$§!\n\n§YNotes : Malgré son illettrisme et son manque d'éducation, le Vieux Maréchal est un chef compétent et conscient de lui-même, avec une passion pour la délégation. Sa nature pragmatique a amené certains à le décrire comme idéologiquement "pro-Zhang".§!"
 
  #張學良
  FNG_zhang_xueliang: "Zhang Xueliang"
@@ -2974,7 +2974,7 @@ FNG_federalists_angered: "§R[FNG_shenyang_federalist_leader.GetNonIdeologyNameD
 
  #朱霽青
  FNG_zhu_jiqing:9 "Zhu Jiqing"
- FNG_zhu_jiqing_leader_desc:9 "§YNaissance :§! §L21 juin 1882, dans le comté de Guangning, province du Fengtian, Empire Qing§!"
+ FNG_zhu_jiqing_leader_desc:9 "§YNaissance :§! §L21 juin 1882, comté de Guangning, district de Shengjing, Grand Qing§!"
 
  #週鯨文
  FNG_zhou_jingwen:9 "Zhou Jingwen"
@@ -3170,7 +3170,7 @@ FNG_federalists_angered: "§R[FNG_shenyang_federalist_leader.GetNonIdeologyNameD
 
  #孟鐵樵
  FNG_meng_tieqiao:0 "Meng Tieqiao"
- FNG_meng_tieqiao_high_command_desc:9 "§YNaissance :§! §Ldans l'Empire Qing§!"
+ FNG_meng_tieqiao_high_command_desc:9 "§YNaissance :§! §Ldans le Grand Qing§!"
 
  #謝剛哲
  FNG_xie_gangzhe:0 "Xie Gangzhe"
@@ -3200,14 +3200,14 @@ FNG_federalists_angered: "§R[FNG_shenyang_federalist_leader.GetNonIdeologyNameD
 ### Traits ###
 
  FNG_mukden_tiger:9 "Tigre du Nord"
- FNG_mukden_tiger_desc:9 "§LOriginaire de la province de Fengtian, Zhang Zuolin est passé d'une vie de pauvreté dans la région rurale de Dongbei au poste de grand maréchal de l'Anguojun. Doté de nombreux noms et fin stratège, Zuolin est sans aucun doute aussi féroce qu'un tigre.§!"
+ FNG_mukden_tiger_desc:9 "§LOriginaire de la province de Fengtian, Zhang Zuolin est passé d'une vie de pauvreté dans la région rurale de Dongbei au poste de Grand Maréchal de l'Anguojun. Doté de nombreux noms et fin stratège, le maréchal Zhang est sans aucun doute aussi féroce qu'un tigre.§!"
  FNG_light_in_the_north: "Lumière dans le Nord"
- FNG_marshal_of_destiny:9 "Marshal of Destiny"
- FNG_unwilling_participant:9 "Unwilling Participant"
- FNG_tofu_president:9 "Tofu President"
+ FNG_marshal_of_destiny:9 "Maréchal du Destin"
+ FNG_unwilling_participant:9 "Participant Involontaire"
+ FNG_tofu_president:9 "Président Tofu"
  FNG_jovial_japanophile_hos:9 "$FNG_jovial_japanophile$"
  FNG_anfu_socialist:9 "Anfu Socialist"
- FNG_pan_asian_proponent:9 "Pan-Asian Proponent"
+ FNG_pan_asian_proponent:9 "Promoteur du Pan-Asiatisme"
  FNG_dongbei_daydreamer:9 "Dongbei Daydreamer"
 
  FNG_reinstated_assemblyman: "Député Réintégré"
@@ -3227,9 +3227,9 @@ FNG_federalists_angered: "§R[FNG_shenyang_federalist_leader.GetNonIdeologyNameD
  FNG_political_economist_sic:9 "$FNG_political_economist$"
  FNG_institutional_industrialist: "Industriel Institutionnel"
  FNG_quartermaster_in_chief: "Quartier-Maître en Chef"
- FNG_jiwei_dragon:9 "Jiwei Dragon"
+ FNG_jiwei_dragon:9 "Dragon de Jiwei"
  FNG_jiwei_dragon_sic:9 "$FNG_jiwei_dragon$"
- FNG_jovial_japanophile:9 "Jovial Japanophile"
+ FNG_jovial_japanophile:9 "Japonophile Jovial"
  FNG_capitulating_counselor:9 "Capitulating Counselor"
  FNG_chinas_puppeteer:9 "China's Puppeteer"
  FNG_defiant_disciplinarian:9 "Defiant Disciplinarian"
@@ -3246,7 +3246,7 @@ FNG_federalists_angered: "§R[FNG_shenyang_federalist_leader.GetNonIdeologyNameD
  FNG_spirit_and_steel_2:0 "Esprit et Acier"
 
 ### Scripted Loc ###
- FNG_the_moral_republic_zhang:9 "The Moral Republic"
+ FNG_the_moral_republic_zhang:9 "La République Morale"
  FNG_the_moral_republic_yang:9 "Establishing Republican Legitimacy"
 
  FNG_the_moral_republic_desc_zhang:9 "As a nation, China appears to have utterly lost itself; its national character, the very structure by which families are brought together, and by which society prospers. Abounding ever since November 4th, there has been a great recoil from the merits of Confucianism, yet equally Neo-Confucianism has brough forward a rejuvenated strain of the all-encompassing national philosophy, and such traditions must be respected."
