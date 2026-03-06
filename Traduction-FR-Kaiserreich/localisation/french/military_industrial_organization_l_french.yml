@@ -24,8 +24,13 @@
  INDUSTRIAL_ORG_OPEN_DETAILS_WINDOW_TOOLTIP_DELAYED: "$NAME|UY$ a $NUMBER|Y0$ points de trait à dépenser."
  INDUSTRIAL_ORG_LIST_INITIAL_TRAIT_NAME: "$NAME|Y$"
  INDUSTRIAL_ORG_DETAIL_WINDOW_OPEN_QUEUE_BUTTON: "File des traits"
+ INDUSTRIAL_ORG_DETAIL_WINDOW_SAVE_QUEUE_DESCRIPTION:9 "§HSauvegarder dans un fichier§!\nEnregistrez cette file de trait dans un fichier afin d'y avoir accès pendant vos prochaines parties."
+ INDUSTRIAL_ORG_DETAIL_WINDOW_DELETE_QUEUE_DESCRIPTION:9 "§HSupprimer de la file sauvegardée§!\nCliquez sur ce bouton pour effacer la file actuelle et supprimer la file sauvegardée actuellement sélectionnée. Si une file sauvegardée est sélectionnée, cela §Rsupprimera la file sauvegardée de façon permanente§!."
+ INDUSTRIAL_ORG_DETAIL_WINDOW_DELETE_SPECIFIC_QUEUE_DESCRIPTION:9 "§HSupprimer la file sauvegardée§!\n§RCliquez sur pour supprimer définitivement la file d'attente des traits sauvegardés§!."
+ INDUSTRIAL_ORG_DETAIL_WINDOW_IMPORT_FROM_OTHER_MIO_TOOLTIP:9 "Importer des traits valides de la file de traits pour une autre Organisation Militaire Industrielle : $ORG|Y$."
  INDUSTRIAL_ORG_DETAIL_WINDOW_OPEN_QUEUE_BUTTON_WITH_ITEMS: "$INDUSTRIAL_ORG_DETAIL_WINDOW_OPEN_QUEUE_BUTTON$( $NUMBER_ITEMS$)"
  INDUSTRIAL_ORG_QUEUE_WINDOW_INSTRUCTION: "Quand cette organisation a des points de traits, le premier disponible dans cette file d'attente sera complété.\n§GMaj + Clic§! sur un trait pour l'§Yajouter à cette file d'attente§!.\n§GGlisser & Déposer§! pour §Ychanger l'ordre de la file d'attente§!."
+ INDUSTRIAL_ORG_QUEUE_WINDOW_ITEM:9 "§GAtteinte§!"
  INDUSTRIAL_ORG_QUEUE_WINDOW_ITEM_DRAGDROP: "§GGlissez déposez§! pour modifier l'ordre de la file"
  INDUSTRIAL_ORG_QUEUE_WINDOW_REMOVE_TOOLTIP: "Retirer de la file"
  INDUSTRIAL_ORG_DETAIL_WINDOW_TRAITS_TAB:0 "Traits"
@@ -219,6 +224,43 @@
 
  INDUSTRIAL_ORG_TOOLTIP_PRODUCTION_TASK_INFO: "Donner une tâche de ligne de production à une §YOrganisation militaro-industrielle§! permet d'appliquer des bonus de production à cette ligne."
  INDUSTRIAL_ORG_TOOLTIP_RESEARCH_TASK_INFO: "Donner une tâche de recherche à une §YOrganisation militaro-industrielle§! augmente la vitesse de recherche et peut appliquer des bonus spécifiques à l'équipement."
+
+ INDUSTRIAL_ORG_QUEUE_NAME:9 "File :"
+
+ INDUSTRIAL_ORG_QUEUE_OVERWRITE:9 "Écraser"
+ INDUSTRIAL_ORG_QUEUE_RENAME:9 "Renommer"
+ INDUSTRIAL_ORG_QUEUE_RENAME_AND_OVERWRITE:9 "Remplacer"
+ INDUSTRIAL_ORG_QUEUE_SAVE_DESCRIPTION:9 "Enregistrez la file de trait courante dans un fichier afin d'y avoir accès pendant vos prochaines parties."
+ INDUSTRIAL_ORG_QUEUE_SAVE_OVERWRITE_DESC:9 "Sélectionnez la file de traits à écraser, laissez vide pour créer une nouvelle file de traits sauvegardée :"
+ INDUSTRIAL_ORG_QUEUE_SAVE_NAME_DESC:9 "Saisir un (nouveau) nom pour la file de traits à enregistrer :"
+ INDUSTRIAL_ORG_QUEUE_SAVE_AS:9 "Sauvegarder en tant que"
+ INDUSTRIAL_ORG_QUEUE_SAVE:9 "Sauvegarder"
+ INDUSTRIAL_ORG_QUEUE_SAVE_BUTTON_DISABLED_TOOLTIP:9 "§RLa file de traits a besoin d'un nom non vide pour être sauvegardée.§!"
+
+ INDUSTRIAL_ORG_QUEUE_SAVE_BUTTON_ENABLED_TOOLTIP:9 "§GCliquer§! pour sauvegarder la file de traits."
+ INDUSTRIAL_ORG_QUEUE_SAVE_BUTTON_CREATE_NEW_ENABLED_TOOLTIP:9 "§GCliquer§! pour sauvegarder la file de traits "$SAVED|Y$" et pour créer une nouvelle file d'attente des traits."
+ INDUSTRIAL_ORG_QUEUE_DISCARD_BUTTON_TOOLTIP:9 "§GCliquer§! pour §Rannuler des modifications apportées à la file de traits actuelle§! et charger la file d'attente de traits "$LOAD|Y$"."
+ INDUSTRIAL_ORG_QUEUE_DISCARD_BUTTON_CREATE_NEW_TOOLTIP:9 "§GCliquer§! pour §Rannuler les modifications apportées à la file de trait actuelle§! et créer une nouvelle file d'attente."
+
+ INDUSTRIAL_ORG_QUEUE_SAVE_BEFORE_LOAD_TITLE:9 "Sauvegarder la file des trait avant le chargement"
+ INDUSTRIAL_ORG_QUEUE_SAVE_BEFORE_LOAD_DESC:9 "§YVous avez des modifications non sauvegardées qui seraient perdues.§!\n\nVoulez-vous sauvegarder ou rejeter la file des traits "$SAVED|Y$" avant de charger la file des traits "$LOAD|Y$" ?\n\nSi vous ne sauvegardez pas, §Rles modifications apportées à la file de traits actuelle seront perdues§!."
+ INDUSTRIAL_ORG_QUEUE_SAVE_BEFORE_LOAD_SAVE:9 "Sauvegarder"
+ INDUSTRIAL_ORG_QUEUE_SAVE_BEFORE_LOAD_TOOLTIP:9 "§GCliquer§! pour sauvegarder la file de traits "$SAVED|Y$" et charger la file d'attente des traits "$LOAD|Y$"."
+ INDUSTRIAL_ORG_QUEUE_SAVE_BEFORE_LOAD_DISCARD_SAVE:9 "Annuler"
+ INDUSTRIAL_ORG_QUEUE_SAVE_BEFORE_CREATE_NEW_DESC:9 "§YVous avez des modifications non sauvegardées qui seraient perdues.§!\n\nVoulez-vous sauvegarder ou rejeter la file de traits actuelle "$SAVED|Y$" avant de créer une nouvelle file de traits ?\n\nSi vous ne sauvegardez pas, §Rles modifications apportées à la file de traits actuelle seront perdues§!."
+ INDUSTRIAL_ORG_QUEUE_SAVE_BEFORE_CREATE_NEW_SAVE:9 "Sauvegarder"
+ INDUSTRIAL_ORG_QUEUE_SAVE_BEFORE_CREATE_NEW_DISCARD_SAVE:9 "Annuler"
+
+ INDUSTRIAL_ORG_QUEUE_LOAD_FROM_SIMILAR_MIO:9 "Charger les traits partagés de la file d'attente pour $MIO|Y$"
+ INDUSTRIAL_ORG_QUEUE_LOAD_UNKNOWN_MIO:9 "Organisation militaro-industrielle inconnue"
+
+ INDUSTRIAL_ORG_DELETE_QUEUE_TITLE:9 "Supprimer la file de trait sauvegardée"
+ INDUSTRIAL_ORG_DELETE_QUEUE_DESC:9 "Êtes-vous sûr de vouloir supprimer la file de traits sauvegardée $QUEUE|Y$ pour MIO $MIO|Y$ ?\n\nCela effacera les traits sauvegardés de la file d'attente et la §Rsupprimera définitivement§!."
+ INDUSTRIAL_ORG_DELETE_QUEUE_CONFIRM:9 "Effacer"
+
+ INDUSTRIAL_ORG_CLEAR_QUEUE_TITLE:9 "Effacer la file de traits"
+ INDUSTRIAL_ORG_CLEAR_QUEUE_DESC:9 "Êtes-vous sûr de vouloir effacer la file d'attente actuelle ?"
+ INDUSTRIAL_ORG_CLEAR_QUEUE_CONFIRM:9 "Effacer"
 
  ###################################################################################################
  #### Content localisation
@@ -628,6 +670,7 @@
  #########################################
  generic_refurbishment_repair_dockyard_organization:0 "Remise en état et réparation du chantier naval"
  generic_mio_refurbishment_repair_dockyard_organization:9 "$generic_refurbishment_repair_dockyard_organization$"
+ generic_mio_initial_trait_refurbishment_repair_dockyard:9 "Concepteur en rénovation et réparation"
  generic_mio_trait_heavy_armored_hull: "Coque blindée lourde"
  generic_mio_trait_isolated_firemains: "Alimentation en eau isolée"
  generic_mio_trait_counter_flooding_system: "Systèmes anti-inondation"

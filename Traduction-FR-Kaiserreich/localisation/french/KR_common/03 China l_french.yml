@@ -18,8 +18,6 @@
  COUNTRY_integrated_governorate:0 "$NONIDEOLOGY$"
  COUNTRY_integrated_governorate_DEF:0 "$NONIDEOLOGYDEF$"
 
- CHN_game_rule_rigged_warning_tt:9 "§RUne règle du jeu a été activée, ce qui a prédéterminé la conséquence.§!"
-
 ### Dynamic Modifiers ###
  china_dense_rural_infrastructure: "Zone rurale densément peuplée"
  china_dense_rural_infrastructure_desc: "Les réseaux d’infrastructures de cette zone sont déjà fortement saturés du fait d'une population locale dense.\n\nSera supprimé en atteignant le maximum d'§Y$infrastructure$§! dans cet état."
@@ -142,7 +140,7 @@
  china_integrate_subjects: "Augmenter l'intégration de [FROM.GetNameDef]"
  china_integrate_subjects_desc: "Bien que les dirigeants de [FROM.Capital.GetCapitalVictoryPointName] aient fait preuve de sagesse et décidé de s'aligner sur nous, nous devons aller plus loin si nous voulons vraiment mettre fin à l'ère des seigneurs de la guerre. Nous nous efforcerons de rapprocher l'administration [FROM.GetAdjective]e de la nôtre."
 
- china_joint_strike_GXC_decision:0 "Coordonner une frappe conjointe avec [FROM.GetNameDef]."
+ china_joint_strike_GXC_decision:9 "Coordonner une frappe conjointe avec [FROM.GetNameDef]."
  china_joint_strike_GXC_decision_desc:9 "Seuls, nos chances contre [GXC.GetNameDef] sont minces, mais [FROM.GetNameDef] pourrait s'opposer à la tyrannie [GXC.GetAdjective]. Cependant, nous devons agir rapidement - nous devons avoir l'élément de surprise pour que cette attaque conjointe soit efficace. Si ce plan fonctionne, nous agirons immédiatement contre nos ennemis [GXC.GetAdjective]."
  china_joint_strike_GXC_attack_mission:9 "[YUN.GetNonIdeologyName]-[HNN.GetNonIdeologyName] Frappe conjointe contre [GXC.GetNameDef]"
  china_joint_strike_tooltip:0 "Nous ne pouvons mener une attaque conjointe qu'avec une seule faction."
@@ -197,12 +195,12 @@
 
  china_demand_annexation: "Exiger l'annexion de [FROM.GetNameDef]"
  china_demand_annexation_desc: "Nos propres magistrats étant déjà intégrés dans [FROM.Capital.GetCapitalVictoryPointName] et dans les rangs [FROM.GetAdjective]s, il ne reste plus qu'à obtenir la soumission finale de [FROM.GetLeader] à notre cause. Leur autonomie, qui n'existe plus que sur le papier, prendra fin."
- china_offer_alliance: "Proposer une alliance avec [FROM.GetNameDef]"
+ china_offer_alliance:9 "Proposer une alliance avec [FROM.GetNameDef]"
  china_offer_alliance_desc: "Laissés à la dérive par l'évolution de la situation en Chine, nos alliés de [FROM.Capital.GetCapitalVictoryPointName] ont néanmoins réussi à s'imposer face aux vents changeants de la nation. Compte tenu de leur alignement sur nous, nous allons entamer des négociations pour unir nos forces et concrétiser notre vision commune de l'avenir."
  china_negotiate_with_legation_cities: "Négocier avec [FROM.GetNameDef]"
  china_negotiate_with_legation_cities_desc: "Les Villes des Légations, creusées sur la côte chinoise par des puissances étrangères voraces, sont une institution qui a mis en évidence le traitement inégal de notre fière nation par divers impérialistes. Ayant finalement apporté l'unité à l'intérieur du pays et mis fin à l'instabilité qui l'affligeait, les Légations n'ont plus de raison d'être dans le monde. Nous allons agir pour mettre fin à ce triste chapitre de l'histoire chinoise."
  china_request_return_of_concessions: "Demander la restitution des Concessions [FROM.GetAdjective]es"
- china_request_return_of_concessions_desc: "Les concessions étaient initialement de petites parcelles de terre louées à des puissances étrangères dans notre faiblesse, qui n'ont fait que s'étendre au fur et à mesure que les puissances coloniales cherchaient à abaisser notre peuple. Ayant enfin uni la nation, nous pouvons faire jouer la puissance unie de la Chine et défier formellement les impérialistes qui s'accrochent désespérément à leurs possessions injustes."
+ china_request_return_of_concessions_desc:9 "Les concessions étaient initialement de petites parcelles de terre louées à des puissances étrangères dans notre faiblesse, qui n'ont fait que s'étendre au fur et à mesure que les puissances coloniales cherchaient à abaisser notre peuple. Ayant enfin uni la nation, nous pouvons faire jouer la puissance unie de la Chine et défier formellement les impérialistes qui s'accrochent désespérément à leurs possessions injustes."
  china_seize_concessions: "Saisir les Concessions [FROM.GetAdjective]es"
  china_seize_concessions_desc: "Les négociations ayant échoué, nous n'avons plus d'autre choix que l'épée pour libérer nos concitoyens de la domination étrangère. Nos forces ont déjà commencé à s'amasser le long de la périphérie, prêtes à assurer le retour de ces villes à leur propriétaire légitime."
 
@@ -326,8 +324,8 @@
  china_alignment_right_kuomintang:0 "Est dirigé par le §cKuomintang de Droite§!"
  china_alignment_right_kuomintang_NOT:0 "N'est §Rpas§! dirigé par le §cKuomintang de Droite§!"
 
- china_alignment_chinese_southern_republican:0 "Est dirigé par un régime §Rrépublicain§!"
- china_alignment_chinese_southern_republican_NOT:0 "N'est §Rpas§! dirigé par un régime §Rrépublicain§!"
+ china_alignment_chinese_southern_republican:9 "Est dirigé par un régime §Gsud-républicain§!"
+ china_alignment_chinese_southern_republican_NOT:9 "N'est §Rpas§! dirigé par un régime §Gsud-républicain§!"
 
  china_alignment_geacps:9 "Est dirigé par un régime §jGEACPS§!"
  china_alignment_geacps_NOT:9 "N'est §Rpas§! dirigé par un régime §jGEACPS§!"
@@ -364,8 +362,8 @@
  china_is_aligned_with_kmt:9 "Est dirigé par un régime §kami du Kuomintang§!"
  china_is_aligned_with_kmt_NOT:9 "N'est §Rpas§! dirigé par un régime §kami du Kuomintang§!"
 
- china_is_aligned_with_republicans:9 "Est dirigé par un régime §nami des Républicains§!"
- china_is_aligned_with_republicans_NOT:9 "N'est §Rpas§! dirigé par un régime §nami des Républicains§!"
+ china_is_aligned_with_southern_republicans:9 "Est gouverné par un régime favorable §Gsud-républicain§!"
+ china_is_aligned_with_southern_republicans_NOT:9 "N'est §Rpas§! gouverné par un régime favorable §Gsud-républicain§!"
 
  china_is_unaligned: "Est une clique non alignée"
  china_is_unaligned_NOT: "N'est §Rpas§! est une clique non alignée"
@@ -380,7 +378,7 @@
  china_country_may_demand_regime_change: "§RIls pourraient exiger en retour un gouvernement idéologiquement compatible !§!"
 
  china_refused_alliance: "Refus d'une offre d'alliance antérieure"
- china_refused_alliance_NOT: "Pas de refus d'offres d'alliance antérieures"
+ china_refused_alliance_NOT:9 "N'a §Rpas§! refusé d'offres d'alliance antérieures"
 
  all_chinese_countries_tt: "tous les pays chinois"
  all_chinese_countries_tt_cap: "Tous les pays Chinois"
@@ -417,26 +415,29 @@
 
  CHN_has_chosen_a_capital_flag: "§YNous avons choisi une capitale permanente pour la Chine.§!"
 
- AGJ_set_leader_tt:9 "§eNous assumerons la direction nationale de l'Anguojun.§!"
- RGC_set_leader_tt: "§jNous assumerons la direction nationale de l'alignement GEACPS.§!"
- UPC_set_leader_tt: "§fNous assumerons la direction nationale des Fédéralistes.§!"
- LKT_set_leader_tt: "§kNous assumerons la direction nationale du Kuomintang de Gauche.§!"
- NZH_set_leader_tt: "§zNous assumerons la direction nationale de la Clique du Zhili du Nord.§!"
- MCU_set_leader_tt: "§qNous assumerons la direction nationale des Restaurationnistes.§!"
- RKT_set_leader_tt: "§cNous assumerons la direction nationale du Kuomintang de Droite.§!"
- SZH_set_leader_tt:9 "§YNous assumerons la direction nationale de la Clique du Zhili du Sud.§!"
+ CHN_assume_tt:9 "Nous assumerons la direction nationale de la"
+ AGJ_set_leader_tt:9 "§e$CHN_assume_tt$ Anguojun.§!"
+ RGC_set_leader_tt:9 "§j$CHN_assume_tt$ alignement GEACPS.§!"
+ UPC_set_leader_tt:9 "§f$CHN_assume_tt$ Fédéralistes.§!"
+ LKT_set_leader_tt:9 "§k$CHN_assume_tt$ Kuomintang de Gauche.§!"
+ NZH_set_leader_tt:9 "§z$CHN_assume_tt$ Clique du Zhili du Nord.§!"
+ MCU_set_leader_tt:9 "§q$CHN_assume_tt$ Restaurationnistes.§!"
+ RKT_set_leader_tt:9 "§c$CHN_assume_tt$ Kuomintang de Droite.§!"
+ SZH_set_leader_tt:9 "§Y$CHN_assume_tt$ Clique du Zhili du Sud.§!"
 
- CHN_No_Other_AGJ_tt:9 "§YAucune autre faction existante n'a revendiqué le flambeau de l'§eAnguojun§!.§!"
- CHN_No_Other_RGC_tt: "§YAucune Autre Faction Existante n'a Revendiqué le Flambeau du §jGEACPS§!.§!"
- CHN_No_Other_UPC_tt: "§YAucune autre faction existante n'a revendiqué le flambeau porté par les §fFédéralistes§!.§!"
- CHN_No_Other_LKT_tt: "§YAucune autre faction existante n'a revendiqué le flambeau porté par le §kKuomintang de Gauche§!.§!"
- CHN_No_Other_NZH_tt: "§YAucune Autre Faction Existante n'a Revendiqué le Flambeau du §zZhili du Nord§!.§!"
- CHN_No_Other_MCU_tt: "§YAucune autre faction existante n'a revendiqué le flambeau porté par les §qRestaurationnistes§!.§!"
- CHN_No_Other_RKT_tt: "§YAucune autre faction existante n'a revendiqué le flambeau porté par le §cKuomintang de Droite§!.§!"
- CHN_No_Other_SZH_tt:9 "§YAucune autre faction existante n'a revendiqué le flambeau du §MZhili du Sud§!.§!"
- CHN_No_Other_NPA_tt:9 "§YAucune autre faction existante n'a revendiqué le flambeau de l'§LAlliance de Protection de la Nation§!.§!"
+ CHN_no_other_tt:9 "Aucune autre faction existante n'a revendiqué la"
+ CHN_No_Other_AGJ_tt:9 "§Y$CHN_no_other_tt$ flambeau de l'§eAnguojun§!.§!"
+ CHN_No_Other_RGC_tt:9 "§Y$CHN_no_other_tt$ Flambeau du §jGEACPS§!.§!"
+ CHN_No_Other_UPC_tt:9 "§Y$CHN_no_other_tt$ le flambeau des §fFédéralistes§!.§!"
+ CHN_No_Other_LKT_tt:9 "§Y$CHN_no_other_tt$ flambeau du §kKuomintang de Gauche§!.§!"
+ CHN_No_Other_NZH_tt:9 "§Y$CHN_no_other_tt$ Flambeau du §zZhili du Nord§!.§!"
+ CHN_No_Other_MCU_tt:9 "§Y$CHN_no_other_tt$ flambeau des §qRestaurationnistes§!.§!"
+ CHN_No_Other_RKT_tt:9 "§Y$CHN_no_other_tt$ flambeau du §cKuomintang de Droite§!.§!"
+ CHN_No_Other_SZH_tt:9 "§Y$CHN_no_other_tt$ flambeau du §MZhili du Sud§!.§!"
+ CHN_No_Other_NPA_tt:9 "§Y$CHN_no_other_tt$ flambeau de l'§LAlliance de Protection de la Nation§!.§!"
 
- CHN_has_revolted_flag:9 "§RS'est révolté au cours des 90 derniers jours.§!"
+ CHN_has_revolted:9 "S'est révolté au cours des 90 derniers jours."
+ CHN_has_revolted_NOT:9 "Ne s'est §Rpas§! pas révolté au cours des 90 derniers jours."
 
 ### Bound Tooltips ###
  CHN_gain_stab_relative_to_ideology_tt:9 "§CNous gagnerons de la £GFX_stability_texticon §YStabilité§! proportionnellement à la popularité des $IDEOLOGY$.§!"
@@ -566,7 +567,7 @@ china_army_decisions: "Réforme de l'armée"
  china_request_infantry_equipment: "Demande de Fusils [FROM.GetAdjective]s"
  china_request_artillery_equipment: "Demande d'Artillerie [FROM.GetAdjective]e"
  china_request_support_equipment: "Demande d'Équipement de Soutien [FROM.GetAdjective]"
- china_request_refused: "Non : §H[FROM.GetNameDefCap]§! a refusé une demande au cours des trois derniers mois."
+ china_request_refused:9 "§H[FROM.GetNameDefCap]§! n'a §Rpas§! refusé une demande au cours des trois derniers mois."
  china_awaiting_request: "En attente d'une réponse à une autre demande."
 
 ### League War Decisions
@@ -1028,7 +1029,7 @@ unite_china_justification_idea: "Chine unie !"
  china_events.22.a: "Idiots et traîtres."
 
  china_events.23.t: "La fin du Front Uni Chinois"
- china_events.23.d: "Maintenant que l'invasion ennemie est terminée, il semble que le Front uni chinois n'ait plus lieu d'être. Les différents seigneurs de la guerre ont déjà commencé à refuser les ordres du gouvernement central et à prendre leurs distances avec [ROOT.Capital.GetCapitalVictoryPointName]. Il semble que les choses vont redevenir ce qu'elles étaient alors que les différentes factions revendiquent le leadership national.\n\nPourtant, nous avons démontré au cours de cette dernière guerre que nous pouvions diriger la Chine. Que nous pouvons la protéger des invasions ennemies et que la désunion n'est pas inhérente, mais une maladie causée par l'égoïsme régionaliste. Puisse le peuple se souvenir de nous et de nos réalisations dans toute la nation, et nous serons bientôt unis à nouveau avec lui."
+ china_events.23.d:9 "Maintenant que l'invasion ennemie est terminée, il semble que le Front uni chinois n'ait plus lieu d'être. Les différents seigneurs de la guerre ont déjà commencé à refuser les ordres du gouvernement central et à prendre leurs distances avec [ROOT.Capital.GetCapitalVictoryPointName]. Il semble que les choses vont redevenir ce qu'elles étaient alors que les différentes factions revendiquent le leadership national.\n\nPourtant, nous avons démontré au cours de cette dernière guerre que nous pouvions diriger la Chine. Que nous pouvons la protéger des invasions ennemies et que la désunion n'est pas inhérente, mais une maladie causée par l'égoïsme régionaliste. Puisse le peuple se souvenir de nous et de nos réalisations dans toute la nation, et nous serons bientôt unis à nouveau avec lui."
  china_events.23.a: "Victoire bénie."
 
  china_events.24.t: "Le Front Uni se dissout"
@@ -1848,7 +1849,7 @@ unite_china_justification_idea: "Chine unie !"
  china_events.411.a: "Le Japon et la Chine unis face à l’impérialisme !"
 
  china_events.412.t: "Notre Candidature Refusée"
- china_events.412.d: "Les Japonais ont contacté notre ambassadeur, refusant notre candidature au sein de la Sphère de coprospérité pour cause de conflit d'intérêts. Tokyo a souligné qu'il souhaitait toujours entretenir de bonnes relations avec nous et que la libération panasiatique était un objectif louable. Notre gouvernement a dénoncé Tokyo pour avoir manifestement gardé rancune envers la Chine suite à leur défaite lors de la guerre sino-japonaise et pour avoir relégué la libération panasiatique au second plan, derrière sa mesquinerie. Il ressort clairement de cette interaction que le Japon est toujours intéressé par la suprématie sur l'Asie et qu'il s'accroche désespérément à cette ligne de pensée délirante. En fin de compte, c'est leur faiblesse qui apparaît au grand jour et la Chine sort renforcée de cet incident."
+ china_events.412.d:9 "Les Japonais ont contacté notre ambassadeur, refusant notre candidature au sein de la Sphère de coprospérité pour cause de conflit d'intérêts. Tokyo a souligné qu'il souhaitait toujours entretenir de bonnes relations avec nous et que la libération panasiatique était un objectif louable. Notre gouvernement a dénoncé Tokyo pour avoir manifestement gardé rancune envers la Chine suite à leur défaite lors de la guerre sino-japonaise et pour avoir relégué la libération panasiatique au second plan, derrière sa mesquinerie. Il ressort clairement de cette interaction que le Japon est toujours intéressé par la suprématie sur l'Asie et qu'il s'accroche désespérément à cette ligne de pensée délirante. En fin de compte, c'est leur faiblesse qui apparaît au grand jour et la Chine sort renforcée de cet incident."
  china_events.412.a: "Nous aurions dû nous méfier des Japonais."
 
  china_events.413.t:9 "La Chine cherche à rejoindre l'Entente"
@@ -3125,6 +3126,7 @@ unite_china_justification_idea: "Chine unie !"
  jiangsu_province_state: "Jiangsu"
  jiangxi_province_state: "Jiangxi"
  jilin_province_state:0 "Jilin"
+ mongolia_province_state:9 "Wai Menggu"
  ningxia_province_state:0 "Ningxia"
  qinghai_province_state: "Qinghai"
  shaanxi_province_state: "Shaanxi"
@@ -3133,16 +3135,20 @@ unite_china_justification_idea: "Chine unie !"
  sichuan_province_state:0 "Sichuan"
  suiyuan_province_state:0 "Suiyuan"
  taiwan_province_state:0 "Taïwan"
+ tibet_province_state:9 "Xizang"
  xinjiang_province_state:0 "Xinjiang"
  yunnan_province_state:0 "Yunnan"
  zhejiang_province_state: "Zhejiang"
  zhili_province_state:0 "Zhili"
 
 ### Flags ###
- china_is_potential_government: "A formé un §Ygouvernement national provisoire.§!"
+ china_is_potential_government:9 "A formé un §Ygouvernement national provisoire§!"
+ china_is_potential_government_NOT:9 "N'a §Rpas§! formé de §Ygouvernement national provisoire§!"
  china_demanding_concession:9 "A demandé une concession au cours du dernier mois"
  CHN_south_china_war_started:9 "La §YGuerre de Chine du Sud§! a commencé."
  CHN_SCW_neutral_flag:9 "Est neutre dans la §YGuerre de Chine du Sud§!."
+ CHN_tag_is_hearing_alliance_offer_flag:9 "§Y[FROM.GetNameDefCap] est actuellement engagé dans une diplomatie (une offre d'alliance ou une demande de soumission) de la part d'une autre faction.§!"
+ CHN_tag_is_hearing_alliance_offer_flag_NOT:9 "§Y[FROM.GetNameDefCap] n'est§! §Rpas§! §Yactuellement engagé dans une diplomatie (une offre d'alliance ou une demande de soumission) de la part d'une autre faction.§!"
 
 ### Chinese Arsenal Mechanic ###
  CHN_armour_industry_organisation: "Industrie Chinoise des Blindés"
@@ -3172,7 +3178,7 @@ unite_china_justification_idea: "Chine unie !"
  CHN_integrate_major_arsenal_decision_desc: "[CHN_integrate_major_arsenal_desc_scripted_loc]"
 
  CHN_integrate_major_arsenal_shenyang_key: "Intégrer l'Arsenal de Shenyang"
- CHN_integrate_major_arsenal_shenyang_desc_key: "L'arsenal de Shenyang est peut-être l'une des réalisations les plus marquantes de la clique de Fengtian, créée et entretenue avec l'aide de conseillers japonais pour maintenir l'emprise de Zhang Zuolin sur la Mandchourie et alimenter ses ambitions d'unification de la Chine sous sa bannière. Connu officiellement sous le nom d'arsenal des trois provinces orientales, il est l'un des plus grands de Chine et se vante de sa capacité à produire plus d'armes que tous les autres arsenaux chinois réunis au cours des années 1920. Profitant de la puissance industrielle supérieure du Dongbei et de ses riches ressources naturelles, l'arsenal de Shenyang est devenu un centre non seulement de production, mais aussi de création d'une vaste chaîne logistique militaire (y compris la production centralisée de rations et d'uniformes), ainsi que de développement de ses propres armes. Si Zhang n'a pas été en mesure de rompre totalement la dépendance de la Chine à l'égard des importations d'armes étrangères, il jouera peut-être, sous notre direction, un rôle précieux dans la construction d'une industrie nationale de l'armement."
+ CHN_integrate_major_arsenal_shenyang_desc_key:9 "L'arsenal de Shenyang est peut-être l'une des réalisations les plus marquantes de la clique de Fengtian, créée et entretenue avec l'aide de conseillers japonais pour maintenir l'emprise de Zhang Zuolin sur la Mandchourie et alimenter ses ambitions d'unification de la Chine sous sa bannière. Connu officiellement sous le nom d'arsenal des trois provinces orientales, il est l'un des plus grands de Chine et se vante de sa capacité à produire plus d'armes que tous les autres arsenaux chinois réunis au cours des années 1920. Profitant de la puissance industrielle supérieure du Dongbei et de ses riches ressources naturelles, l'arsenal de Shenyang est devenu un centre non seulement de production, mais aussi de création d'une vaste chaîne logistique militaire (y compris la production centralisée de rations et d'uniformes), ainsi que de développement de ses propres armes. Si Zhang n'a pas été en mesure de rompre totalement la dépendance de la Chine à l'égard des importations d'armes étrangères, il jouera peut-être, sous notre direction, un rôle précieux dans la construction d'une industrie nationale de l'armement."
  integrated_shenyang:9 "L'arsenal de Shenyang a été intégré"
 
  CHN_integrate_major_arsenal_taiyuan_key: "Intégrer l'Arsenal de Taiyuan"

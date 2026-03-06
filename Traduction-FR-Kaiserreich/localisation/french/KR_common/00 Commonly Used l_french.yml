@@ -63,8 +63,9 @@
 
  kill_character_tt:9 "meurt."
 
- reduce_stability_decision_cost_twenty_five_percent_tt:9 "Réduire le coût en £pol_power §Y$POLITICAL_POWER$§! de £GFX_decision_icon_small §Y$generic_raise_stability$§! de §G25%§!"
- reduce_propaganda_decision_cost_twenty_five_percent_tt:9 "Réduit le coût en £pol_power §Y$POLITICAL_POWER$§! de £GFX_decision_icon_small §Y$war_propaganda$§!, £GFX_decision_icon_small §Y$war_propaganda_casualties$§!, £GFX_decision_icon_small §Y$war_propaganda_convoys$§! et £GFX_decision_icon_small §Y$war_propaganda_bombing$§! de §G25%§!"
+ reduce_stability_decision_cost_tt:9 "Réduire le coût de £pol_power §Y$POLITICAL_POWER$§! de £GFX_decision_icon_small §Y$generic_raise_stability$§! de $NUMBER|G$."
+ reduce_support_decision_cost_tt:9 "Réduire le coût £pol_power §Y$POLITICAL_POWER$§! de £GFX_decision_icon_small §Y$generic_raise_support$§! de $NUMBER|G$."
+ reduce_propaganda_decision_cost_tt:9 "Réduire le coût £pol_power §Y$POLITICAL_POWER$§! de £GFX_decision_icon_small §Y$war_propaganda$§!, £GFX_decision_icon_small §Y$war_propaganda_casualties$§!, £GFX_decision_icon_small §Y$war_propaganda_convoys$§!, et £GFX_decision_icon_small §Y$war_propaganda_bombing$§! par $NUMBER|G$"
 
  # used to generate tooltips in dockyard or naval base foci when the country doesn't own any coastal states
  random_owned_controlled_coastal_state: "Un état côtier détenu et contrôlé de manière aléatoire"
@@ -82,6 +83,9 @@
  tooltip_if_focus_not_completed:9 "§CSi $FOCUS|Y$ n'a §RPAS§! été complété :§!"
  tooltip_if_two_foci_completed:9 "§CSi $FOCUS1|Y$ ou $FOCUS2|Y$ a été complété :§!"
  tooltip_if_two_foci_not_completed:9 "§CSi $FOCUS1|Y$ et $FOCUS2|Y$ n'ont §RPAS§! été complétés :§!"
+
+ tooltip_focus_completed_invalid_tt:9 "£trigger_no §CSi $FOCUS|Y$ est terminé :§!"
+ tooltip_focus_completed_valid_tt:9 "£trigger_yes §CSi $FOCUS|Y$ est terminé :§!"
 
  tooltip_extra_effect_from_focus_completion:9 "§CEffet supplémentaire lors de la complétion de $FOCUS|Y$ :§!"
  tooltip_strengthen_focus:9 "§GRenforce§! les effets de la priorité nationale $FOCUS|Y$."
@@ -336,6 +340,9 @@ AI_OPTION: "Option d'IA seulement"
 
  trade_opinion_factor_tooltip: "$MODIFIER_TRADE_OPINION_FACTOR$: $RIGHT|Y=%$"
  min_export_tooltip: "$MODIFIER_MIN_EXPORT_FACTOR$: $RIGHT|=Y%0$"
+
+ opinion_gain_monthly_factor_tooltip:9 "$MODIFIER_OPINION_GAIN_MONTHLY_FACTOR$: $RIGHT|+=%$"
+ improve_relations_maintain_cost_factor_tooltip:9 "$MODIFIER_IMPROVE_RELATIONS_MAINTAIN_COST_FACTOR$: $RIGHT|-=%$"
 
  production_factory_max_efficiency_factor_tooltip:0 "$MODIFIER_PRODUCTION_FACTORY_MAX_EFFICIENCY_FACTOR$: $RIGHT|=%+$"
  production_factory_start_efficiency_factor_tooltip:0 "$MODIFIER_PRODUCTION_FACTORY_START_EFFICIENCY_FACTOR$: $RIGHT|=%+$"
