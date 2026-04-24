@@ -93,7 +93,7 @@
  KMT_national_reconstruction_category_desc:0 "La Commission nationale de Reconstruction est une idée originale du regretté Dr Sun Yat-sen, qui écrivait que pendant la phase de tutelle politique, des mesures devaient être prises afin de garantir la modernisation et la démocratisation réussies du pays. Si la Chine veut redevenir une grande puissance mondiale, elle doit être reconstruite à partir de zéro avec l'aide du Kuomintang chinois.\n\nSi les efforts de reconstruction nationale ont été considérablement freinés par les Première et Seconde Expéditions du Nord, l'achèvement de la Seconde Expédition du Nord a finalement donné au Parti l'occasion de réaliser l'objectif "jianshe" de la Révolution Xinhai de 1911. Maintenant que nous pouvons nous éloigner de la phase de propagande et de la phase militaire de la révolution, conformément aux principes de notre grand Président éternel, nous devons entrer dans la phase de reconstruction politique et économique de la Révolution nationale. Pas à pas, usine par usine, ferme par ferme, nous reconstruirons les grandes fondations économiques et politiques de notre pays afin que la Chine puisse résister à jamais à l'impérialisme étranger et retrouver sa grandeur."
 
  KMT_national_reconstruction_mission:0 "£civ_factory_output  Compléter la Reconstruction Nationale"
- KMT_national_reconstruction_mission_desc:9 "Le grand projet du Parti a été pleinement lancé et bénéficie du soutien des membres du Comité d'Action provisoire et de l'Association des Camarades pour la Réorganisation. Si les factions du Parti sont unies pour mener à bien le projet de Reconstruction nationale, l'échec de celui-ci pourrait entraîner la perte du pouvoir politique pour l'une des factions et l'accession au pouvoir de l'autre."
+ KMT_national_reconstruction_mission_desc:9 "The Party's grand project has been fully launched and has acquired full internal support. While there is unity between the factions of the Party to fulfill the National Reconstruction project, failure to do so may lead to the loss of political power for one faction - and the gaining of power for the other."
  KMT_factory_goals_tt:9 "Plus de §Y[?KMT_factory_goals]§! usines au total"
 
  KMT_NRC_heavy_industry_decisions_tt:9 "§CChoisir cette priorité nous donnera accès à plus de décisions d'§YIndustrie lourde§! dans la catégorie §Y$KMT_national_reconstruction_category$§!.§!"
@@ -448,12 +448,15 @@
 
 #People's Minsheng Cooperative Economic Partnership
 
+ minsheng_partnership_research_name:9 "People's Minsheng Cooperative Technological Partnership"
+ minsheng_partnership_research_desc:9 "In addition to economic cooperation, the Minsheng Partnership also seeks to promote technological cooperation between its constituent states in hopes that together Asia can leap into modernity."
+
  KR_minsheng_partnership_member_dynamic_mod: "$KR_minsheng_partnership_name$"
  KR_minsheng_partnership_member_dynamic_mod_desc: "$KR_minsheng_partnership_desc$"
  KR_minsheng_partnership_leader_dynamic_mod: "$KR_minsheng_partnership_name_leader$"
  KR_minsheng_partnership_leader_dynamic_mod_desc: "$KR_minsheng_partnership_desc_CHI$"
 
- KMT_minsheng_effects_layout_tabbed:0 "     Efficacité du Gain de Ressources : [?0.10|+=%]\n     $MODIFIER_PRODUCTION_SPEED_BUILDINGS_FACTOR$: [?0.05|+=%]\n     $MODIFIER_CONSUMER_GOODS_FACTOR$: [?-0.05|Y%]\n     Exportations Minimum : [?0.10|+=%]\n     $MODIFIER_RESEARCH_SPEED_FACTOR$: [?CHI.minsheng_partnership_research_var|+=%]"
+ KMT_minsheng_effects_layout_tabbed:9 "     Efficacité du Gain de Ressources : [?0.10|+=%]\n     $MODIFIER_PRODUCTION_SPEED_BUILDINGS_FACTOR$: [?0.05|+=%]\n     $MODIFIER_CONSUMER_GOODS_FACTOR$: [?-0.05|Y%]\n     Exportations Minimum : [?0.10|+=%]\n     $MODIFIER_RESEARCH_SPEED_FACTOR$: [?CHI.minsheng_partnership_research_var|+=%]"
  KMT_minsheng_leader_effects_layout_tabbed:0 "     Efficacité du Gain de Ressources : [?0.005|+=%]\n     $MODIFIER_PRODUCTION_SPEED_BUILDINGS_FACTOR$: [?0.005|+=%]\n     $MODIFIER_CONSUMER_GOODS_FACTOR$: [?-0.002|Y%]\n     Facteur d'opinion des routes commerciales : [?0.01|Y%]\n     $MODIFIER_RESEARCH_SPEED_FACTOR$: [?0.002|+=%]"
  CHI_founder_of_minsheng_partnership:9 "Fonde le §H$KMT_minsheng_partnership_full_name$§!\n$KMT_minsheng_leader_effects_layout_tabbed$"
  CHI_invitation_for_minsheng_partnership_tt:9 "Nous gagnerons accès à des décisions pour inviter des membres dans la faction §H$KMT_minsheng_partnership_full_name$§!"
@@ -471,7 +474,7 @@
  KR_minsheng_partnership_desc:9 "Le destin de la Révolution nationale chinoise est que la Chine, en tant que pays imprégné d'un fort sentiment nationaliste, est mieux placée que toute autre nation orientale pour lutter contre l'impérialisme. La situation économique et l'histoire des peuples opprimés de l'Orient sont similaires à celles de la Chine. Comme la Chine, ils ne devraient pas évoluer vers des systèmes capitalistes ou purement syndicalistes, mais plutôt avoir pour objectif d'imiter le modèle chinois et de créer des "Pays du Minsheng du peuple" via le §H$KMT_minsheng_partnership_full_name$§!.\n\nEn tant qu'État partenaire dans ce nouvel ordre économique oriental, alors que le dragon chinois commence à rétablir son hégémonie sur l'Asie-Pacifique, notre économie a bénéficié de certains avantages grâce à l'augmentation du commerce, des investissements et du développement régionaux. Cela dit, le fait que cet arrangement ait principalement profité aux Chinois n'est pas passé inaperçu, car les exportations des colonies nouvellement libérées ont été redirigées de leurs anciennes métropoles vers Guangzhou et Shanghai. Nous ne pouvons qu'espérer que nos "libérateurs" accepteront à l'avenir un accord plus équitable, car pour l'instant, ils se sentent libres de se récompenser en tant que "professeurs" pendant notre période de tutelle nationale."
 
  KR_minsheng_partnership_effects_CHI:9 "Efficacité du Gain de Ressources : [?KMT_minsheng_local_resources_var|+=%]\n$MODIFIER_PRODUCTION_SPEED_BUILDINGS_FACTOR$: [?KMT_minsheng_construction_var|+=%]\n$MODIFIER_CONSUMER_GOODS_FACTOR$: [?KMT_minsheng_consumer_goods_var|Y%]\nFacteur d'opinion des routes commerciales : [?KMT_minsheng_trade_opinion_var|Y%]\n$MODIFIER_RESEARCH_SPEED_FACTOR$: [?KMT_minsheng_research_speed_var|+=%]"
- KR_minsheng_partnership_effects: "Efficacité du Gain de Ressources : [?0.1|+=%]\n$MODIFIER_PRODUCTION_SPEED_BUILDINGS_FACTOR$: [?0.05|+=%]\n$MODIFIER_CONSUMER_GOODS_FACTOR$: §Y-5.0%§!\nRessources pour le Marché : [?0.1|+=%Y]\n$MODIFIER_RESEARCH_SPEED_FACTOR$: [?CHI.minsheng_partnership_research_var|+=%]"
+ KR_minsheng_partnership_effects:9 "Efficacité du Gain de Ressources : [?0.1|+=%]\n$MODIFIER_PRODUCTION_SPEED_BUILDINGS_FACTOR$: [?0.05|+=%]\n$MODIFIER_CONSUMER_GOODS_FACTOR$: §Y-5.0%§!\nRessources pour le Marché : [?0.1|+=%Y]\n$MODIFIER_RESEARCH_SPEED_FACTOR$: [?CHI.minsheng_partnership_research_var|+=%]"
 
 #Zeal Events
  RKT.zealmechanic.001.t:9 "Les Trois Principes Révisés au [FROM.GetName] !"

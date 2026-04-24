@@ -757,3 +757,8 @@
 
  TRIGGER_HAS_ACTIVE_FACTION_RULE:9 "$COUNTRY_OR_FACTION|H$ a la règle $RULE|H$ activée"
  TRIGGER_HAS_NOT_ACTIVE_FACTION_RULE:9 "$COUNTRY_OR_FACTION|H$ n'a pas la règle $RULE|H$ activée"
+
+# TODO: Fix for count_in_collection crashes. Revert if count_in_collection is fixed
+ count_in_collection_battalions_workaround_tooltip:9 "At least $RIGHT|H*0$ §Y[?unit_type_temp.GetTokenLocalizedKey] Battalions§! in Faction. Currently: $LEFT|H*0$"
+ count_in_collection_marine_workaround_tooltip:9 "At least $RIGHT|H*0$ §YMarine Battalions, Marine Commandos Battalions, Amtrac Battalion Battalions and Amphibious Armor§! in Faction. Currently: $LEFT|H*0$"
+ count_in_collection_units_workaround_tooltip:9 "At least $RIGHT|H*0$ §Y[?unit_type_temp.GetTokenLocalizedKey]§! in Faction. Currently: $LEFT|H*0$"

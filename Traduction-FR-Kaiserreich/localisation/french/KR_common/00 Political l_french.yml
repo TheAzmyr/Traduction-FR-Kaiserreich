@@ -86,7 +86,9 @@ KR_will_return_cores: "Tous les États côtiers ou contigus qui sont des états 
  government_is_not_loc: "Le Parti actuellement au pouvoir n'est pas"
 
 ### Party Popularity Tooltips ###
- popularity_ideology_tooltip: "Votre parti actuel au pouvoir est §H[?current_party_ideology_group.GetTokenLocalizedKey]§!"
+ popularity_ideology_tooltip:9 "[GetPopularityTooltip]"
+ popularity_ideology_tooltip_default:9 "Your current ruling party is §H[?current_party_ideology_group.GetTokenLocalizedKey]§!."
+ popularity_ideology_tooltip_mapped:9 "$popularity_ideology_tooltip_default$\nYour default $MODIFIER_POLITICAL_POWER_GAIN$ is tied to the Party Popularity of the §H[?global.ideology_groups^political_power_ideology.GetTokenLocalizedKey]s§!."
  popularity_ideology_desc: "§L[GetPopularityTooltipDesc]§!"
 party_popularity_delayed_tooltip: "La popularité du parti représente le contrôle de votre gouvernement actuel sur la nation et son soutien avec le peuple. Les partis politiques très populaires sont plus à même de faire avancer leur programme politique et de stabiliser la nation."
 

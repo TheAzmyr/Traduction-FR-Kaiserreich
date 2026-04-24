@@ -32,6 +32,7 @@
 
  china_join_the_internationale_decision:0 "Rejoindre l'Internationale"
  china_join_the_internationale_decision_desc:0 "Lorsque l'invasion allemande a mis fin à la première expédition nordique, de nombreux exilés du Kuomintang ont cherché refuge dans les pays de la Troisième Internationale. Aujourd'hui, avec notre force ravivée et revigorée, il est tout à fait naturel que nous puissions jouer un rôle en aidant la Troisième Internationale à répandre la révolution mondiale et en remboursant nos camarades socialistes pour l'aide qu'ils nous ont apportée au fil des ans."
+ CHN_join_the_internationale_puppets_warning_tt:9 "§YNote:§!§RJoining or forming the Internationale will prevent you from having any non-socialist (Radical Socialist, Syndicalist, or Totalist) puppet states. Any existing ones will be set free!§!"
 
  china_create_the_fourth_internationale_decision:0 "Créer la Quatrième Internationale"
  china_create_the_fourth_internationale_decision_desc:9 "Même si la Troisième Internationale est tombée, nous n'abandonnerons jamais le rêve d'une révolution mondiale. Nous reprendrons le flambeau et rallierons les travailleurs dans une nouvelle campagne de libération mondiale !"
@@ -69,6 +70,10 @@
 
  china_offer_ceasefire: "Négocier un cessez-le-feu avec [FROM.GetNameDef]"
  china_offer_ceasefire_desc: "La Chine s'est retrouvée en guerre contre une grande puissance. Les combattre seuls serait une décision insensée tant que la Chine est encore divisée. Nous devrions négocier avec nos ennemis actuels [FROM.Capital.GetCapitalVictoryPointName] une trêve temporaire jusqu'à ce que l'agresseur ait été vaincu. Nous ne devons pas oublier que tout ce que veulent les impérialistes, ce sont nos richesses. Nous n'avons rien à perdre ! Wansui !"
+
+ china_reclaim_CUF_leadership:9 "Reclaim Leadership of the Chinese United Front"
+ china_reclaim_CUF_leadership_desc:9 "Due to chaotic circumstances beyond our control, de facto leadership of the Chinese United Front fell into the hands of [CUF.GetLeader]. While their stewardship was appreciated, ultimately it makes little sense for a Governor to be at the healm instead of the President. Therefore, we shall reasume control over the war-time coalition immediately."
+ china_reclaim_CUF_leadership_tt:9 "§YCode Limitations prevent subjects from accepting Japan's surrender. The overlord of the former CUF leader shall become the new CUF leader.§!"
 
  china_declare_government: "[ROOT.china_declare_government_text]"
  china_declare_government_desc: "[ROOT.china_declare_government_text_desc]"
@@ -149,6 +154,9 @@
 
  northwest_conflict_surrender: "Reddition à l'Ennemi"
 
+ himalaya_border_conflict_decision:9 "Instigate a Border Conflict with [FROM.GetNameDef]"
+ himalaya_border_conflict_decision_desc:9 "The [FROM.GetAdjective] government has denied our rightful claims in our disputed border in the Himalayas. Now that diplomacy has failed us, it is imperative that we find other solutions. For now, we shall begin by sending small detachments to fortify key strategic choke-points in the area. If we are lucky, they will be forced to back down once they see our superior might. Some wonder however if this may be the pretext for a wider conflict..."
+
  china_integration_timer:9 "[THIS.overlord.GetNameDefCap] améliore l'intégration"
 
  china_break_free: "Défier l'autorité [ROOT.Overlord.GetLeader]e"
@@ -194,7 +202,7 @@
  CHN_join_FROM_decision_desc:9 "[FROM.GetLeader] est une étoile montante en Chine, qui a su tirer parti de son contrôle sur la puissante armée [FROM.GetAdjective] et de ses alliés du [FROM.GetRulingParty] pour devenir un concurrent national à part entière. Opérant depuis sa base de [FROM.Capital.GetCapitalVictoryPointName], ce challenger inattendu pour la domination nationale est très prometteur, et nous allons nous rapprocher de lui."
 
  china_demand_annexation: "Exiger l'annexion de [FROM.GetNameDef]"
- china_demand_annexation_desc: "Nos propres magistrats étant déjà intégrés dans [FROM.Capital.GetCapitalVictoryPointName] et dans les rangs [FROM.GetAdjective]s, il ne reste plus qu'à obtenir la soumission finale de [FROM.GetLeader] à notre cause. Leur autonomie, qui n'existe plus que sur le papier, prendra fin."
+ china_demand_annexation_desc:9 "The [FROM.GetNonIdeologyName] Region has long been under China's sphere of influence for hundreds of years, but it broke free from us during the chaos of the Xinhai Revolution. With China's unification, we shall bring the [FROM.GetAdjective]s back into our fold and end its brief period of independence."
  china_offer_alliance:9 "Proposer une alliance avec [FROM.GetNameDef]"
  china_offer_alliance_desc: "Laissés à la dérive par l'évolution de la situation en Chine, nos alliés de [FROM.Capital.GetCapitalVictoryPointName] ont néanmoins réussi à s'imposer face aux vents changeants de la nation. Compte tenu de leur alignement sur nous, nous allons entamer des négociations pour unir nos forces et concrétiser notre vision commune de l'avenir."
  china_negotiate_with_legation_cities: "Négocier avec [FROM.GetNameDef]"
@@ -1079,6 +1087,10 @@ unite_china_justification_idea: "Chine unie !"
  china_enters_great_seas_war_desc_possible_front_member:9 "Rassemblant diverses factions chinoises, le Front uni chinois a été créé pour s'opposer à l'impérialisme japonais et coordonner la libération du Dongbei. Bien que [ROOT.GetLeader] et son équipe réfléchissent encore à leur adhésion, cela n'a pas empêché d'autres personnes d'aller de l'avant dans la création de cette alliance.\n\nNous avons subi des pressions internes, même au sein du [ROOT.GetRulingParty], pour participer à cette libération de la patrie, même si les risques restent évidents. Unis, la Chine peut représenter une menace majeure, mais la victoire est loin d'être assurée. Et l'avenir du front n'est pas certain non plus - ce qui se passera après une victoire reste une question ouverte."
  china_enters_great_seas_war_desc_enemy:9 "Diverses forces chinoises, exploitant notre vulnérabilité pendant notre guerre contre l'Allemagne, se sont réunies pour former un soi-disant "Front uni chinois". Réunissant des factions disparates de seigneurs de la guerre en une alliance et un gouvernement prétendument conjoints, ils ont juré de nous forcer à nous retirer de la Mandchourie, en utilisant toutes les ressources et toutes les forces du patriotisme chinois qui subsistent dans une nation aussi divisée.\n\nBien qu'il soit peu probable qu'une alliance aussi peu maniable puisse réellement résister à nos forces, cette soudaine unité chinoise est source d'inquiétude. Nous devons veiller à nous adapter de manière adéquate à ces changements sur le champ de bataille, et éventuellement élargir la portée de nos objectifs de campagne."
  china_enters_great_seas_war_desc_neutral:9 "Exploitant la vulnérabilité des Japonais dans leur guerre contre l'Allemagne, diverses factions chinoises ont accepté de coopérer au sein d'un "Front uni chinois". Apparemment doté d'une structure de commandement et d'un gouvernement unifiés, les experts préviennent qu'en pratique, l'autonomie régionale restera inchangée et que la coordination fera probablement défaut.\n\nQuoi qu'il en soit, cette soudaine unité contre l'impérialisme japonais a provoqué un élan de patriotisme dans les villes du pays. Les doutes qui existent quant à la sincérité des participants ou aux chances de victoire sont restés largement invisibles, alors que la nation chinoise se mobilise pour la guerre. Il semble que l'idée d'une Chine unie soit loin d'être morte, même si l'issue de la guerre pourrait bien changer la donne."
+
+ china_events.32.t:9 "[CUF.GetLeader] Reclaims Chinese Leadership"
+ china_events.32.d:9 "During China's war of national resistance, various disparate factions across the land have banded together to fight off foreign invasion. Leadership over the Chinese United Front has fluctuated as the fortunes of the various contenders wax and wane as they seek to demonstrate their long-term feasibility as master of China. Unexpectedly the de facto leadership fell upon the shoulders of a regional Governor who had pledged his allegiance to the [CUF.GetAdjective] central government. This caused a brief dispute over who was truly in charge, but was ultimately resolved when [CUF.GetLeader] exerted his prerogative and emerged as the recognised leader of China...for now at least."
+ china_events.32.a:9 "Sometimes a leadership shuffle is needed in war."
 
 ### Army Reform Events ###
  china_events.40.t.first_step: "Les réformes militaires [ROOT.GetAdjective]es"
@@ -2133,6 +2145,7 @@ unite_china_justification_idea: "Chine unie !"
  CHN_xinjiang_get_unique_governor_xsm:9 "Ma Hushan terminera ce que Ma Zhongying a commencé."
  CHN_xinjiang_get_unique_governor_rkmt:9 "La sincérité de Burhan Shahidi lui a permis de gagner le Xinjiang."
  CHN_xinjiang_get_unique_governor_manchu:9 "Yulbars Khan servira bien l'Empereur."
+ CHN_xinjiang_get_default_governor:9 "Can hardly go wrong with Yang's methods."
 
  CHN.foreignpolicy.303.t:9 "Affaires relatives à Taïwan"
  CHN.foreignpolicy.303.d_base:9 "Après la cession de Taïwan au Japon, divers mouvements en faveur de l'indépendance et de l'autonomie ont vu le jour. Cette ferveur s'est manifestée sous la forme de l'Association culturelle taïwanaise, dirigée par Jiang Weishui et Lin Xiantian. Jiang et Lin finirent par se séparer, Jiang formant son parti populaire taïwanais, proche du Kuomintang, tandis que Lin, qui adhérait à Liang Qichao, et des éléments conservateurs formaient l'Alliance taïwanaise pour l'autonomie. Au lendemain de la récupération de Taïwan, le PPT s'est retrouvé en difficulté. Des modérés comme Cai Peihuo se sont opposés au radicalisme et à l'attitude autoritaire de Jiang, menaçant de diviser le parti.\n\nLe parti syndicaliste taïwanais a également été supprimé dès l'arrivée des autorités continentales. Entre-temps, les anciennes élites et la gentry ont tenté de courtiser le soutien du nouveau régime chinois, bien que la perception du TAHR comme antipatriotique ait nui à leur réputation auprès des autorités professionnelles. Au milieu du TPP et de la TAHR est née l'Association des camarades pour la restauration de Taïwan, dirigée par les frères Liao Wenkui et Liao Wenyi. Composée de technocrates et d'intellectuels éduqués à l'occidentale, il s'agit d'un mouvement généralement libéral, qui cherche à s'attirer le soutien des libéraux de la Chine continentale."
@@ -2154,6 +2167,52 @@ unite_china_justification_idea: "Chine unie !"
  CHN_taiwan_get_unique_governor_manchu:9 "Lin et son TAHR serviront bien l'Empereur."
 
 ##Other Foreign Policy (400-599):
+
+#Tawang and Askai Chin Border War Events (400-419)
+ CHN.foreignpolicy.400.t:0 "Guerre dans l'Himalaya"
+ CHN.foreignpolicy.400.d:9 "For weeks now, forces have been amassing along the Himalayas over hotly contested territories once claimed by British India and Qing China in the early 1900s. Both sides have since undergone significant turmoil, but their successor states have not forgotten their respective claims, the chief sources of tensions being [858.GetName] and [897.GetName]. Claimed by competing governments in India, China and local powers in Tibet and Xinjiang respectively, they became a flash point in diplomatic relations across the mountains.\n\nUnfortunately, the extremists have won out in [FROM.Capital.GetCapitalVictoryPointName]. Not satisfied with the initial outcome, they have successfully lobbied for a total war which will determine the fate of far more than a few hamlets in the Himalayas."
+ CHN.foreignpolicy.400.a:9 "We shall emerge victorious!"
+ CHN.foreignpolicy.400.b:9 "A drastic escalation!"
+
+ CHN.foreignpolicy.401.t:9 "Revisiting the MacMahon Line"
+ CHN.foreignpolicy.401.d:9 "Under the rule of Qing China, Tibet was a self-governing protectorate but saw Chinese influence decay rapidly during the Great Game of the late 19th century between the British and Russian Empires. While Qing forces attempted to reassert control, the revolution of 1911 disrupted these plans and Tibetan forces expelled the Chinese presence from their territory. In this period of Chinese instability, the British negotiated a treaty with the Republic of China and Tibet at Simla and Delhi that formally divided Tibet into an Outer Tibet and Inner Tibet. As part of the agreement, Tibet then delineated several hundred square miles (including the region of Tawang) to British India. Outraged by the treaty, the Chinese refused to sign and the Tibetans likewise refused to accept it given their acceptance as conditional upon Chinese acceptance.\n\nNonetheless, the British maintained that the 1914 Border Revision was legitimate, and the so-called McMahon Line was enforced albeit sporadically.  But during the British revolution in 1925 and the subsequent Indian Civil War, Tibetan forces were able to reclaim de facto control over the territory.\n\nThe chaos of the past few years have distracted India, China, and Tibet from these matters. [KR_himalaya_war_tawang_defender_tag.GetNameDefCap] controls the region in practice and with Tawang's high, difficult terrain and low practical value it would be difficult to dislodge them. But [FROM.GetNameDef] seems undeterred and has begun amassing forces to challenge the status quo in a potentially deadly standoff."
+ CHN.foreignpolicy.401.a:9 "A troubled boundary."
+ CHN.foreignpolicy.401.a_tt:9 "§RA border war has broken out over Tawang. If this conflict is not resolved in one hundred days, the defender will retain control over the state.§!"
+
+ CHN.foreignpolicy.402.t:9 "[KR_himalaya_war_tawang_defender_tag.GetNameDefCap] Victorious in [858.GetName]"
+ CHN.foreignpolicy.402.d:9 "For the past few weeks, minor skirmishes have broken out near the town of Tawang with both sides exchanging light artillery and small arms fire across the contested territory, known as Arunachal Pradesh to the Indians, Lhoyu and Monyul to the Tibetans, and Southern Tibet to the Chinese. Though casualties were ultimately light, the high altitudes have caused significant hardship for both sides.\n\nIn the end however, the [KR_himalaya_war_tawang_defender_tag.GetAdjective] have established commanding defensive positions over the region - driving out enemy incursions into their territory. Both sides have quickly realized that further escalation would likely require mobilisation of their entire nations. Accepting the status quo would leave [KR_himalaya_war_tawang_defender_tag.Capital.GetCapitalVictoryPointName] at an advantage, however all but the most belligerent of warhawks believe further war would devastate both. Still, there are many on both sides who believe this is but the first battle of a much wider war between civilisations and have sought to continue the fight across the Himalayas."
+ CHN.foreignpolicy.402.a:9 "It seems we will all have to be satisfied with this outcome."
+ CHN.foreignpolicy.402.b:9 "Nonsense, this will go on to the end!"
+
+ CHN.foreignpolicy.403.t:9 "[KR_himalaya_war_tawang_attacker_tag.GetNameDefCap] Victorious in [858.GetName]"
+ CHN.foreignpolicy.403.d:9 "For the past few weeks, minor skirmishes have broken out near the town of Tawang with both sides exchanging light artillery and small arms fire across the contested territory, known as Arunachal Pradesh to the Indians, Lhoyu and Monyul to the Tibetans, and Southern Tibet to the Chinese. Though casualties were ultimately light, the high altitudes have caused significant hardship for both sides.\n\nIn the end however, the [KR_himalaya_war_tawang_attacker_tag.GetAdjective] have seized commanding defensive positions over the region - driving out enemy forces and taking it for their own. Both sides have quickly realized that further escalation would likely require mobilisation of their entire nations. Accepting the status quo would leave [KR_himalaya_war_tawang_attacker_tag.Capital.GetCapitalVictoryPointName] at an advantage, however all but the most belligerent of warhawks believe further war would devastate both. Still, there are many on both sides who believe this is but the first battle of a much wider war between civilisations and have sought to continue the fight across the Himalayas."
+ CHN.foreignpolicy.403.a:9 "This war is over."
+ CHN.foreignpolicy.403.b:9 "This war is just getting started!"
+
+ CHN.foreignpolicy.404.t:9 "Stalemate in [858.GetName]"
+ CHN.foreignpolicy.404.d:9 "For a hundred days, minor skirmishes have broken out near the town of Tawang with both sides exchanging light artillery and small arms fire across the contested territory, known as Arunachal Pradesh to the Indians, Lhoyu and Monyul to the Tibetans, and Southern Tibet to the Chinese. Though casualties were ultimately light, the high altitudes have caused significant hardship for both sides.\n\nDespite their mutual stubbornness, neither side have made significant headway in the conflict as defensive positions litter the hilly roads. The rugged terrain has made it difficult to establish stable logistics or effective air support, rendering both forces stuck in a stalemate. It seems that neither will be able to make further headway with the limited resources they have been given.\n\nNegotiations have begun between the two sides, hoping to mediate the conflict lest it spill into a full-blown war. To end the war here would likely result in a return to the status quo ante bellum, strongly favoring [KR_himalaya_war_tawang_defender_tag.GetNameDef]. But warhawks in both camps claim they are so very close to winning the conflict, and furthermore that this situation is the opening shot of a great showdown between two civilizations. Instead of peace, they demand total victory."
+ CHN.foreignpolicy.404.a:9 "Let us pretend like this never happened. "
+ CHN.foreignpolicy.404.b:9 "How could we pretend this is anything but our finest hour?"
+
+ CHN.foreignpolicy.411.t:9 "The [897.GetName] Border Dispute"
+ CHN.foreignpolicy.411.d:9 "The dispute over the western portion of the Sino-Indian border (Aksai Chin) first arose in 1834 with the conquest of Ladakh by the armies of Raja Gulab Singh under the suzerainty of the Sikh Empire. After an unsuccessful campaign into Tibet, Gulab Singh and the Tibetans signed a treaty in 1842 agreeing to stick to the “old established frontiers” (which was not specified). The British conquest of the Sikhs resulted in the transfer of the Jammu and Kashmir region to the British - who then contacted Chinese officials who had little interest. The region remained ignored largely throughout the 19th century and was named the “Johnson Line” after W.H. Johnson, a British surveyor who extended British Kashmir into the eastern edge of Chang Chenmo Valley along the Kunlun Mountains (which extended into Chinese Turkestan and Tibet).\n\nChinese forces formally reconquered Turkestan in 1878, renaming it to Xinjiang (New Frontier) and reverted to the traditional border. The British agreed, anxious to not share a border with the Russians (who were involved in the Great Game). A half hearted border was created with weak boundary pillars until in 1899, the British returned to the border with the Maccartney-Macdonald Line, which planned to cede to China the Aksai Chin plains while China ceded its claims on Huzna. China never accepted it and following the fall of the Qing, the British officially began using the Johnson Line but neither side enforced it. The Xinjiang provincial government exploited the 1925 British Revolution to move on the region on behalf of the Chinese government, and the British Indian Government - preoccupied with its civil war, would do little to contest it.\n\nThe situation has since changed. Troops have begun to amass on both sides of the border and rival patrols and moved closer and closer to one another. It seems that hostilities are bound to break out in the area."
+ CHN.foreignpolicy.411.a:9 "Trouble brews in the highlands."
+ CHN.foreignpolicy.411.a_tt:9 "§RA border war has broken out over Aksai Chin. If this conflict is not resolved in one hundred days, the defender will retain control over the state.§!"
+
+ CHN.foreignpolicy.412.t:9 "[KR_himalaya_war_aksai_chin_defender_tag.Getadjective] Defenders Victorious in [897.GetName]"
+ CHN.foreignpolicy.412.d:9 "For the past few weeks, rival forces have been engaging in minor skirmishes in [897.GetName]. Light artillery and small arms fire have claimed dozens of lives in the miserable high altitude conditions as local forces struggle for control over the region.\n\nGiven the circumstances, it was no surprise that the [KR_himalaya_war_aksai_chin_defender_tag.GetAdjective] defenders generally maintained the advantage, bleeding out their foes and forcing them to retreat. Negotiations have begun, with [KR_himalaya_war_aksai_chin_defender_tag.capital.Getcapitalvictorypointname] benefiting from their battlefield advantage. A greater conflict would require massive mobilisation between two nations still dealing with the strains of modernisation and recovery.\n\nBut there are many radicals on both sides who insist that peace would merely be delaying an inevitable wide-scale conflict. They call for an escalation into a wider war that will decide the fate of the region for good."
+ CHN.foreignpolicy.412.a:9 "Our long-term outlook depends on peaceful cooperation."
+ CHN.foreignpolicy.412.b:9 "Our national security demands total victory!"
+
+ CHN.foreignpolicy.413.t:9 "[KR_himalaya_war_aksai_chin_attacker_tag.Getadjective] Forces Move Into [897.GetName]"
+ CHN.foreignpolicy.413.d:9 "For the past few weeks, rival forces have been engaging in minor skirmishes in [897.GetName]. Light artillery and small arms fire have claimed dozens of lives in the miserable high altitude conditions as local forces struggle for control over the region.\n\nIn a stunning reversal, [KR_himalaya_war_aksai_chin_attacker_tag.GetAdjective] forces were able to seize the initiative and drive out their rivals from their fortifications in [897.GetName]. The defenders, poorly organised and with improperly constructed defenses, withered under enemy fire and were forced to retreat, handing [KR_himalaya_war_aksai_chin_attacker_tag.GetLeader] a great victory. Negotiations have begun, with [KR_himalaya_war_aksai_chin_attacker_tag.Capital.Getcapitalvictorypointname] benefiting from their battlefield advantage. A greater conflict would require massive mobilisation between two nations still dealing with the strains of modernisation and recovery.\n\nBut there are many radicals on both sides who insist that peace would merely be delaying an inevitable wide-scale conflict. They call for an escalation into a wider war that will decide the fate of the region for good."
+ CHN.foreignpolicy.413.a:9 "There is little to do now but sign the inevitable peace deal."
+ CHN.foreignpolicy.413.b:9 "What can we do but pursue a final victory?"
+
+ CHN.foreignpolicy.414.t:9 "[897.GetName] Skirmishes End in a Stalemate"
+ CHN.foreignpolicy.414.d:9 "For the past few weeks, rival forces have been engaging in minor skirmishes in [897.GetName]. Light artillery and small arms fire have claimed dozens of lives in the miserable high altitude conditions as local forces struggle for control over the region.\n\nLittle progress has been made in the conflict, as [KR_himalaya_war_aksai_chin_attacker_tag.GetAdjective] troops struggle to make headway and [KR_himalaya_war_aksai_chin_defender_tag.Getadjective] defenders fail to dislodge them.\n\nNegotiations have begun, and the status quo certainly benefits [KR_himalaya_war_aksai_chin_defender_tag.Capital.GetCapitalVictoryPointName], but the war remains a major concern for both sides. A greater conflict would require massive mobilisation between two nations still dealing with the strains of modernisation and recovery.\n\nBut there are many radicals on both sides who insist that peace would merely be delaying an inevitable wide-scale conflict. They call for an escalation into a wider war that will decide the fate of the region for good."
+ CHN.foreignpolicy.414.a:9 "We must end this bloody mess."
+ CHN.foreignpolicy.414.b:9 "There is only one way to end this for good!"
 
 ## Chinese Puppeting (600-799):
 
@@ -3109,7 +3168,7 @@ unite_china_justification_idea: "Chine unie !"
  RKMT_united_china_cosmetic_national_populist:0 "République de Chine"
  RKMT_united_china_cosmetic_national_populist_DEF:0 "la République de Chine"
 # Provinces
- chinese_province_title: "Province [THIS.ChinaGetStateProvinceTitle]"
+ chinese_province_title:9 "[THIS.ChinaGetStateProvinceTitle] [THIS.ChinaGetStateRegionType]"
  anhui_province_state:0 "Anhui"
  chahar_province_state: "Chahar"
  fengtian_province_state:0 "Fengtian"
@@ -3140,6 +3199,9 @@ unite_china_justification_idea: "Chine unie !"
  yunnan_province_state:0 "Yunnan"
  zhejiang_province_state: "Zhejiang"
  zhili_province_state:0 "Zhili"
+
+ CHN_state_is_autonomous_region:0 "Région Autonome"
+ CHN_state_is_province:9 "Province"
 
 ### Flags ###
  china_is_potential_government:9 "A formé un §Ygouvernement national provisoire§!"
