@@ -12,4 +12,4 @@ tags={
 	"Events"
 }
 picture="thumb.jpg"
-supported_version="1.18.*"
+supported_version="1.19.*"
