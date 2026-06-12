@@ -69,26 +69,10 @@
  NFA_fate_of_french_africa_cat: "Le destin de l'Afrique Française"
  NFA_fate_of_french_africa_cat_desc: "Pendant trop longtemps, les colonies françaises ont été considérées comme de simples terres sur lesquelles vivaient de simples personnes à exploiter. Il est de notre devoir sacré de tendre la main à nos frères et sœurs et de les élever. Nous apporterons la lumière du christianisme et de la civilisation aux indigènes, qui ont trop longtemps trébuché dans les ténèbres !"
 
- NFA_Focus_On_Algeria: "Concentrer nos efforts sur l'Algérie"
- NFA_Integrate_Algeria: "Intégrer l'Algérie dans l'Union-Française"
- NFA_Focus_On_Tunisia: "Concentrer nos efforts sur la Tunisie"
- NFA_Integrate_Tunisia: "Intégrer la Tunisie dans l'Union-Française"
- NFA_Focus_On_Guinea: "Concentrer nos efforts sur la Guinée Française"
- NFA_Integrate_Guinea: "Intégrer la Guinée dans l'Union-Française"
- NFA_Focus_On_Mauritania: "Concentrer nos efforts sur la Mauritanie"
- NFA_Integrate_Mauritania: "Intégrer la Mauritanie dans l'Union-Française"
+ NFA_focus_on_region:9 "Focus Efforts on [?FROM.core_countries^0.GetNonIdeologyNameDef]"
  NFA_Focus_On_French_Sudan: "Concentrer nos efforts sur le Soudan Français"
+ NFA_integrate_region:9 "Integrate [?FROM.core_countries^0.GetNonIdeologyNameDef] into the French Union"
  NFA_Integrate_French_Sudan: "Intégrer le Soudan français dans l'Union-Française"
- NFA_Focus_On_Ivory_Coast: "Concentrer nos efforts sur la Côte d'Ivoire"
- NFA_Integrate_Ivory_Coast: "Intégrer la Côte d'Ivoire dans l'Union-Française"
- NFA_Focus_On_Upper_Volta: "Concentrer nos efforts sur la Haute-Volta"
- NFA_Integrate_Upper_Volta: "Intégrer la Haute-Volta dans l'Union-Française"
- NFA_Focus_On_Niger: "Concentrer nos efforts sur le Niger"
- NFA_Integrate_Niger: "Intégrer le Niger dans l'Union-Française"
- NFA_Focus_On_Chad: "Concentrer nos efforts sur le Tchad"
- NFA_Integrate_Chad: "Intégrer le Tchad dans l'Union-Française"
- NFA_Focus_On_Dahomey: "Concentrer nos efforts sur le Dahomey"
- NFA_Integrate_Dahomey: "Intégrer le Dahomey dans l'Union-Française"
 
  NFA_transahara_cat: "Ligne de Chemin de Fer Trans-Saharienne"
  NFA_transahara_cat_desc: "Ce qui reste de la France est en fait divisé en deux parties. L'Algérie et la Tunisie sont isolées de l'Afrique Occidentale Française par les vastes étendues du Désert du Sahara. Un voyage à pied prend plus de deux mois d'une marche difficile. C'est parfaitement inacceptable !\n\nSi pour l'instant nous pouvons toujours expédier des fournitures, des hommes et des ressources par l'Atlantique, cela deviendrait nettement plus difficile en cas de conflit avec un futur ennemi capable de patrouiller dans l'Atlantique ou pire encore, fermer le détroit de Gibraltar à nos navires. Nous ne devons permettre à personne d'exploiter notre situation actuelle ! Si nous achevons ce projet, nous pourrons aussi montrer au monde que la France joue toujours dans la même cour que les grandes nations du globe et qu'elle doit être respectée."
@@ -432,8 +416,6 @@ chartiers_dakar: "Chantiers Navals de Dakar"
  NATFRA_Class_Collab_idea: "Collaboration de classe"
  NATFRA_Chantiers_de_Jeunesse_idea: "Chantiers de Jeunesse"
  NATFRA_Travail_Famille_Patrie_idea: "Travail, Famille, Patrie"
-
- NATFRA_TFP_Swap_tt: "Remplace §YProgrammes de Logement§!, §YCollaboration de Classe§! et §YRedressement Français§! par §YTravail, Famille, Patrie§!\nChangement Effectif :\n$MODIFIER_STABILITY_OFFENSIVE_WAR_FACTOR$ : §G+10.00%§!"
 
 #Mordacq/Democracy Military Tree Ideas
 
@@ -858,7 +840,6 @@ chartiers_dakar: "Chantiers Navals de Dakar"
  NATFRA_Coordinated_Strikes_desc: "Un assaut combiné concentré de forces blindées, de soutien aérien, de tirs d'artillerie, suivi de près par des avancées d'infanterie, prenant l'ennemi par surprise et le neutralisant avant même qu'il ne puisse réagir, fut extrêmement efficace dans les derniers jours de la Grande Guerre. Une nouvelle génération d'officiers a parfaitement compris l'incroyable potentiel de ces frappes et sera chargée d'en faire pleinement usage."
  NATFRA_Ineluctable_Advance: "Combinaison des armes"
  NATFRA_Ineluctable_Advance_desc: "Henri Mordacq a enfin imposé sa vision de la guerre moderne : des unités blindées, un soutien intégré de l'artillerie et de l'aviation et la puissance éternelle du fantassin français, travaillant de concert pour détruire les ennemis de la France. Rien ne pourra arrêter la puissance des forces armées françaises : la reconquête de la métropole n'est qu'une question de temps."
- NATFRA_Ineluctable_Advance_tt: "Remplace §Y$NATFRA_Logistic_Support_idea$§! et §Y$NATFRA_Coordinated_Strikes_idea$§! par §Y$NATFRA_Ineluctable_Advance$§!\nChangement Effectif:\n§YMotorisé§!: $MODIFIER_BREAKTHROUGH$: §G+10%§!\n§YMécanisé§!: $MODIFIER_BREAKTHROUGH$: §G+10%§!\n§Y$EQUIPMENT_ARMOR$§!: $MODIFIER_BREAKTHROUGH$: §G+10%§!\n"
  NATFRA_Aeronavale: "L'Aéronavale"
  NATFRA_Aeronavale_desc: "La guerre en mer est inévitable, car avec nos alliés nous devons d'abord nous débarrasser de la présence navale syndicaliste en Méditerranée occidentale si nous voulons enfin entamer la reconquête de la métropole : si la doctrine actuelle préconise des navires de plus en plus grands, nous allons aussi développer notre aviation navale, en utilisant des avions de mer à la fois pour la reconnaissance et pour cibler les navires ennemis depuis les airs."
  NATFRA_War_of_Communications: "Guerre des communications"
@@ -896,7 +877,6 @@ chartiers_dakar: "Chantiers Navals de Dakar"
  NATFRA_Mobilise_Every_Man_desc: "La France est une nation de soldats citoyens et chaque homme de 20 à 45 ans connaît son devoir : ceux dont on n'a pas besoin dans les industries critiques seront prêts pour le service actif à tout moment. Ces hommes courageux, tous des héros, certains ayant vu les horreurs de la Grande Guerre, d'autres trop jeunes pour se souvenir de la beauté du continent, lutteront jusqu'au bout pour libérer leurs compatriotes."
  NATFRA_Use_Everything: "Tout utiliser"
  NATFRA_Use_Everything_desc: "Plus, nous avons besoin de plus, toujours plus. Plus d'armes, plus de matériel de guerre, plus d'hommes. Tout doit être jeté dans cet ultime effort. Certains pourraient considérer cela comme du désespoir, mais nous connaissons la vérité : c'est la pulsion des hommes privés de leurs droits de naissance. Comme nos ancêtres le chantaient lorsqu'ils combattaient les armées des tyrans d'Europe : "Sachons vaincre ou sachons périr !" Faisons connaître la victoire, ou périssons."
- NATFRA_Use_Everything_tt: "Remplace §YGestion des Ressources§! et §YMobiliser chaque Homme§! par §YTout Utiliser§!\nChangement Effectif :\n$MODIFIER_INDUSTRIAL_CAPACITY_FACTOR$ : §G+5.00%§!\n$MODIFIER_INDUSTRIAL_CAPACITY_DOCKYARD_FACTOR$ : §G+5.00%§!\nVitesse de Mobilisation : §G+5.00%§!\nEfficacité de la prod. de Ressources : §G+5.00%§!\n$MODIFIER_PRODUCTION_FACTORY_EFFICIENCY_GAIN_FACTOR$ : §G+5.00%§!"
  NATFRA_Firestorm_Doctrine: "Doctrine de la Tempête de Feu"
  NATFRA_Firestorm_Doctrine_desc: "Les empêtes de feu sont une chose terrifiante, avançant sur des centaines de mètres en quelques secondes, détruisant tout sur leur passage, ne laissant derrière eux qu'un monde de cendres. Pour sauver la France, nos forces armées doivent affronter les forces communardes comme une tempête de feu, détruisant tout sur leur passage sans laisser une seconde à l'ennemi pour se ressaisir, détruisant résolument tout sur leur passage jusqu'à la libération de la métropole."
  NATFRA_Rain_of_Shells: "Pluie d'obus"
@@ -907,7 +887,6 @@ chartiers_dakar: "Chantiers Navals de Dakar"
  NATFRA_Death_and_Ruin: "Mort et ruine"
  NATFRA_Death_and_Ruin_desc: "La guerre est une tragédie. En tant que telle, elle doit être rapide, de sorte que l'orgie de violence puisse rester relativement limitée. Mais nous ne pouvons pas nous permettre de laisser la sentimentalité prendre le dessus en ces temps critiques, où le salut même de la France est en jeu : notre guerre sera rapide, car rien ne sera retenu : chaque barrage d'artillerie, chaque bombardement, chaque offensive sera décisif, quel qu'en soit le coût pour nos ennemis."
  NATFRA_Death_and_Ruin_idea: "Mort et ruine"
- NATFRA_Death_and_Ruin_tt: "Remplace §YPluie d'obus§! et §YIncinération§! par §YMort et Ruine§!\nChangement Effectif :\n§YArtillerie Motorisée§! : Attaque Légère : §G+10%§!\n§YArtillerie de Rockets Motorisé§! : Attaque Légère : §G+10%§!\nBombardement Stratégique : §G+7.5%§!\n"
 
 # Pétain/AF Military Tree #
 
@@ -1207,8 +1186,6 @@ chartiers_dakar: "Chantiers Navals de Dakar"
  NATFRA_Integral_Monarch: "Le Roi l'a sauvée !"
  NATFRA_Integral_Monarch_desc: "La vraie France a longtemps souffert de la tyrannie de ses ennemis, qu'ils soient des républicains parasites ou des socialistes impies. Il reste beaucoup à faire pour réparer les dégâts, mais la nation se redresse enfin sous la direction attentive et vigilante de son monarque légitime.\nVive le Roi ! Vive la France !"
 
- NATFRA_Integral_Monarch_idea_flip_tt: "Remplace §YUn Monarque de Retour, Cercle Proudhon, Parlements Provinciaux Restaurés, Camelots Étendus,§! et §YDoctrine Sociale Renforcée§! par §YUn Monarque Intégral§!\nChangement net effectif :\n$MODIFIER_CONSUMER_GOODS_FACTOR$: §Y-5.0%§!"
-
 # Redressement #
 
  NATFRA_Marshal_Triumph: "Le Maréchal triomphant"
@@ -1235,8 +1212,6 @@ chartiers_dakar: "Chantiers Navals de Dakar"
  NATFRA_End_State_Meddle_desc: "La République Française a maintes fois tenté, de manière pathétique, de participer à l'économie, ce qui s'est soldé le plus souvent par un échec embarrassant : les bureaucrates qui n'ont pratiquement jamais occupé de véritable emploi ne sont tout simplement pas rompus à l'art subtil du profit. Il est temps de mettre fin à cette mascarade et de limiter le rôle de l'État à ce qu'il fait de mieux : défendre l'État de droit."
  NATFRA_Marshal_Above_Liberty_Below: "Le Maréchal au dessus, la liberté en dessous"
  NATFRA_Marshal_Above_Liberty_Below_desc: "Grâce aux conseils bienveillants du Lion, la France est prête à aller de l'avant. Il reste encore beaucoup à faire, mais les Français peuvent enfin être tranquilles, sachant que les esprits les plus brillants et les plus compétents de notre époque ont été réunis pour réparer les dégâts causés par le syndicalisme et éviter les erreurs de la Troisième République quasi-socialiste hypertrophiée. Plus jamais l'État de droit ne sera menacé."
-
- NATFRA_Marshal_idea_flip_tt: "Remplace §YRevitalisation Nationale, Nouvelle Politique,§! et §YRéorganisation Administrative§! par §YUn État Technocratique§!.\nChangement net effectif :\n$MODIFIER_RESEARCH_SPEED_FACTOR$: §G+2.50%§!"
 
 # Democratic #
 
@@ -1389,19 +1364,15 @@ chartiers_dakar: "Chantiers Navals de Dakar"
 
  NFA_Autonomous_State: "État autonome"
  NFA_Colonial_Exploitation: "Exploitation coloniale"
- NFA_Colonial_Exploitation_tt: "Remplace §HRésistance Coloniale§! par §HExploitation Coloniale§!\nChangement Effectif :\n$MODIFIER_LOCAL_RESOURCES$: §G+25%§!\n$MODIFIER_LOCAL_FACTORIES$: §G+25%§!\n$MODIFIER_LOCAL_BUILDING_SLOTS_FACTOR$: §G+50%§!\n$MODIFIER_RESISTANCE_TARGET$: §R+15%§!\n$MODIFIER_RESISTANCE_ACTIVITY_FACTOR$: §R+20%§!"
  NFA_Monaco: "Principauté de Monaco"
  NFA_Monaco_desc: "Depuis 1297, les princes de la famille Grimaldi règnent sur le Rocher de Monaco. La courte interruption pendant laquelle Monaco a été annexé à la Commune de France est maintenant terminée et le Prince Louis II Grimaldi est de retour au Palais princier. Il est maintenant temps pour lui de rouvrir les casinos et de faire à nouveau de Monaco une destination de choix."
 
  NFA_Foreign_Legion: "Légion Étrangère élargie"
- NFA_Foreign_Legion_tt: "$MODIFIER_RECRUITABLE_POPULATION$: [?0.05|+%2=]"
 
- NFA_French_West_African_States_tt: "§YÉtats Français d'Afrique de l'Ouest§!"
+ NFA_French_West_African_States_tt:9 "§YÉtats Français d'Afrique de l'Ouest§!"
+ NFA_French_West_African_States_tt2:0 "§YÉtats Français d'Afrique de l'Ouest§!"
 
- NFA_Civ_Mission_Effect_tt: "§YÉtats des colonies françaises d'Afrique§! :\n Ajoute ce qui suit :\n    $MODIFIER_RESISTANCE_TARGET$: §R+5.0%§!\n    $MODIFIER_COMPLIANCE_GAIN_ADD$: §G+0.01%§!"
- NFA_Promote_Autonomy_Effect_tt: "§YÉtats des colonies françaises d'Afrique§! :\n Ajoute ce qui suit :\n    $MODIFIER_RESISTANCE_TARGET$: §G-10.0%§!\n    $MODIFIER_COMPLIANCE_GAIN_ADD$: §R-0.01%§!"
  NFA_Algiers_Conference_Civ_effect: "Vous pouvez désormais intégrer les §YÉtats Français Coloniaux Africains§! en tant qu'État §GCœur§! dans l'Union française"
- NFA_Algiers_Conference_AF_effect: "§YÉtats Colonisés d'Afrique Française§! :\n Supprime le modificateur §YRésistance Coloniale§!\n Désactive la résistance et la conformité\n Ajoute ce qui suit :\n    $MODIFIER_LOCAL_RESOURCES$: §G+15.0%§!\n    $MODIFIER_LOCAL_MANPOWER$: §G+20%§!"
  nfa_africa_civ_mission_in_progress: "Détourne actuellement des ressources vers une région d'Afrique"
  nfa_transsaharan_rails_tt: "Avec l'achèvement du §GChemin de fer Transsaharien§!, nous pourrons désormais envoyer des troupes par §Crail§! entre §YAlger§! et l'§YAfrique de l'Ouest Française§!"
 
@@ -2012,7 +1983,8 @@ chartiers_dakar: "Chantiers Navals de Dakar"
  french_republic_events.156.a:0 "Hourra !"
 
  french_republic_events.157.t:0 "Les Français demandent leurs terres"
- french_republic_events.157.d:0 "Suite à la guerre civile française qui a eu lieu après la Grande Guerre, la France a été divisée en deux moitiés. Maintenant, avec la conclusion de la Seconde Weltkrieg derrière nous, les Communards sont vaincus et la réactionnaire [NFA.GetName] est victorieuse. Dans l'optique de la reconstruction, ils sont venus nous rencontrer pour discuter du sort de l'occupation du Nord de la France. Ils estiment que la France doit être reconstituée afin d'éviter un effondrement de l'intérieur, les anciens Communards se ralliant à un gouvernement qui permet aux citoyens français de rester en dehors de la patrie.\n\nNotre alliance avec les Français au sein de l'Entente pourrait être remise en question si nous cherchons à conserver notre emprise sur les terres françaises !"
+ french_republic_events.157.d1:0 "Suite à la guerre civile française qui a eu lieu après la Grande Guerre, la France a été divisée en deux moitiés. Maintenant, avec la conclusion de la Seconde Weltkrieg derrière nous, les Communards sont vaincus et la réactionnaire [NFA.GetName] est victorieuse. Dans l'optique de la reconstruction, ils sont venus nous rencontrer pour discuter du sort de l'occupation du Nord de la France. Ils estiment que la France doit être reconstituée afin d'éviter un effondrement de l'intérieur, les anciens Communards se ralliant à un gouvernement qui permet aux citoyens français de rester en dehors de la patrie.\n\nNotre alliance avec les Français au sein de l'Entente pourrait être remise en question si nous cherchons à conserver notre emprise sur les terres françaises !"
+ french_republic_events.157.d2:9 "Following the French civil war that occurred after the Great War, France was split into two halves. Now with the conclusion of the Second Weltkrieg behind us, the Communards lie defeated and the reactionary [NFA.GetName] stands victorious. With the rebuilding in mind, they have come to meet us to discuss the fate of the occupation of Southern France. They feel that France must be made whole again in order to prevent collapse from within as former Communards rally against a government that allows French citizens to remain outside of the patrie.\n\nOur alliance with the French in the Entente may be called into question if we seek to retain our hold on the French land!"
  french_republic_events.157.a:0 "La France doit être reconstituée !"
  french_republic_events.157.b:0 "Nous remettrons tout, sauf Dunkerque."
  french_republic_events.157.c:0 "Nous garderons la terre !"

@@ -204,6 +204,7 @@ annexation_decisions: "Décisions d'annexion"
  annexation_events.asia.give_to_khiva:0 "[khiva.GetGrantTerritoryEventOption]"
 
  annexation_events.asia.give_to_far_eastern_republic:0 "[far_eastern_republic.GetGrantTerritoryEventOption]"
+ annexation_events.asia.give_to_manchuria:0 "[manchuria.GetGrantTerritoryEventOption]"
 
  annexation_events.asia.release_republican_india:0 "Libérer une République Indienne."
  annexation_events.asia.release_princely_india:0 "Rétablir la Fédération Princière"
@@ -245,6 +246,7 @@ annexation_decisions: "Décisions d'annexion"
  annexation_events.oceania.give_to_australia:0 "[australia.GetGrantTerritoryEventOption]"
  annexation_events.oceania.give_to_new_zealand:0 "[new_zealand.GetGrantTerritoryEventOption]"
  annexation_events.oceania.give_to_philippines:0 "[philippines.GetGrantTerritoryEventOption]"
+ annexation_events.oceania.give_to_hawaii:9 "[hawaii.GetGrantTerritoryEventOption]"
 
 # China
  annexation_events.china.release_china:9 "Passons en revue nos options avec les factions locales."
@@ -949,10 +951,6 @@ annexation_decisions: "Décisions d'annexion"
  annexation_events.1127.b:0 "[adrianople.GetGrantTerritoryEventOption]"
  annexation_events.1127.c:0 "[plovdiv.GetGrantTerritoryEventOption]"
 
- annexation_1109:0 "Le destin de[1109.GetName]"
- annexation_1109_desc:0 "Nous avons pris le contrôle de la petite région frontalière de [1109.GetName] et devons maintenant décider de ce que nous allons en faire."
- annexation_events.1128.a:0 "[karavanks.GetGrantTerritoryEventOption]"
-
  annexation_980:0 "Le destin de [980.GetName]"
  annexation_980_desc:0 "Nous avons pris le contrôle de la région métropolitaine de [980.GetName] et devons maintenant décider de ce qu'il faut en faire."
 
@@ -1283,7 +1281,8 @@ annexation_decisions: "Décisions d'annexion"
  annexation_408_desc:9 "Nos armées ont réussi à prendre le contrôle de l'Extrême-Orient russe, que nous occupons désormais. Plusieurs options s'offrent à nous. Nous pouvons soit créer un État client loyal dans la région, soit nous l'approprier, étant donné qu'elle possède une position stratégique clé en Asie de l'Est. Qu'allons-nous faire ?"
  annexation_events.3009.a:0 "Libérer la République d'Extrême-Orient."
  annexation_events.3009.b:0 "Former une République de la Verte Ukraine."
- annexation_events.3009.c:0 "[manchuria.GetGrantTerritoryEventOption]"
+ annexation_events.3009.c:9 "[annexation_fate_of_far_east_manchuria_option]"
+ annexation_events.3009.c.split:9 "Split it between [manchuria.GetNonIdeologyNameDef] and [?transfer_target.GetNonIdeologyNameDef]."
  annexation_events.3009.d:0 "Renoncer au Traité d'Aigun."
  annexation_events.3009.e:0 "Renoncer au traité d'Aigun et donner le reste du territoire à notre suzerain."
 
@@ -1307,7 +1306,7 @@ annexation_decisions: "Décisions d'annexion"
  annexation_329_desc:0 "L'État de [329.GetName] a été placé sous notre contrôle, nos troupes occupant la région. Nous devons maintenant décider de ce qu'il convient d'en faire."
 
  annexation_716:0 "Le destin de la Mandchourie"
- annexation_716_desc:0 "Après le succès de notre campagne en Mandchourie, nous avons maintenant pour mission d'établir une nouvelle autorité administrative locale afin de rétablir la paix. La Mandchourie, également connue sous le nom de Dongbei (le Nord-Est) en chinois, est une région riche en ressources naturelles et en industries. Nommée d'après les tribus mandchoues qui régnaient autrefois sur la région, leur conquête de la Chine et l'ouverture ultérieure de la région à l'immigration han ont ironiquement fait de l'ethnie mandchoue une minorité, dont beaucoup se sont depuis assimilés. Au lendemain de la révolution Xinhai, la clique de Fengtian, soutenue par le Japon, a utilisé la région comme base pour unifier la Chine sous sa bannière. Aujourd'hui, cependant, la terre nous appartient et nous avons plusieurs options quant à la manière de procéder."
+ annexation_716_desc:9 "Après le succès de notre campagne en Mandchourie, nous avons maintenant pour mission d'établir une nouvelle autorité administrative locale afin de rétablir la paix. La Mandchourie, également connue sous le nom de Dongbei (le Nord-Est) en chinois, est une région riche en ressources naturelles et en industries. Nommée d'après les tribus mandchoues qui régnaient autrefois sur la région, leur conquête de la Chine et l'ouverture ultérieure de la région à l'immigration han ont ironiquement fait de l'ethnie mandchoue une minorité, dont beaucoup se sont depuis assimilés. Au lendemain de la révolution Xinhai, la clique de Fengtian, soutenue par le Japon, a utilisé la région comme base pour unifier la Chine sous sa bannière. Aujourd'hui, cependant, la terre nous appartient et nous avons plusieurs options quant à la manière de procéder."
  annexation_events.3015.a:0 "Créer une Mandchourie indépendante."
 
  annexation_743:0 "Le destin de Shanghai"

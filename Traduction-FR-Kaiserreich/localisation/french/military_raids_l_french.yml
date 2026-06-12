@@ -21,6 +21,7 @@
  tooltip_launch_all_button_second:9 "$NUM|H$ raids sont prêts à lancer"
  tooltip_launch_button_enabled:9 "§GCliquer§! pour lancer le raid"
  tooltip_launch_button_disabled:9 "§RLe raid n'est pas encore prêt§!"
+ tooltip_launch_button_right_click:9 "§GRight-click§! to find §Y$NAME$§!"
  tooltip_for_expand_button:0 "§GCliquer§! pour agrandir"
  tooltip_for_collapse_button:0 "§GCliquer§! pour réduire"
  tooltip_for_no_items:9 "§RAucun élément§!"
@@ -67,6 +68,9 @@
  raid_type_commando_facility_raid_desc:9 "Un groupe de marines est déployé pour attaquer un bâtiment sur le littoral."
  raid_type_airfield_raid:9 "Raid d'aérodrome"
  raid_type_supply_hub_raid:9 "Raid de nœud logistique"
+ raid_type_rescue_captured_general:9 "Rescue Captured Commander"
+ raid_type_rescue_captured_general_desc:9 "A team of soldiers infiltrates behind enemy lines to locate and rescue a Commander being held captive by the enemy."
+ raid_type_rescue_captured_general_captive_line:9 "§Y$NAME$§! is being held captive here."
  raid_type_demo_dam_raid:9 "Briseurs de barrages"
  raid_type_thermonuclear_strike:9 "Frappe thermonucléaire"
  raid_type_thermonuclear_strike_desc:9 "Accompagné de son escorte, ce bombardier stratégique peut larguer une bombe thermonucléaire sur n'importe quelle cible, avant de tenter de quitter la zone pour éviter l'onde de choc."
@@ -256,6 +260,7 @@
  tooltip_raid_warning_counterplay_header:9 "§GAccroît les chances d'une défense réussie :§!"
  tooltip_raid_success_chance_improvement_header:9 "§GAccroît les chances d'un raid réussi :§!"
  tooltip_raid_modifier_effect_improvement:9 "  §g(conséquences actuelles : §!$VALUE$/$MAX$§g de §!$SOURCE$§g)§!"
+ tooltip_raid_modifier_effect_improvement_no_source:9 "  §g(current effect: §!$VALUE$/$MAX$§g)§!"
  tooltip_raid_warning_success_chance_header:9 "Chances de déjouer le raid : $VALUE|H%1$"
 
  # Success chance modifiers
@@ -394,5 +399,6 @@
  raid_target_name_thermonuclear:9 "$LOCATION|H$"
  raid_target_name_supply_hub:9 "§H$supply_node$§!"
  raid_target_name_great_wall:9 "§H$the_great_wall$§!"
+ raid_target_name_state:0 "$LOCATION|H$"
 
  raid_tooltip_trigger_title:9 "$TITLE|H$ :"

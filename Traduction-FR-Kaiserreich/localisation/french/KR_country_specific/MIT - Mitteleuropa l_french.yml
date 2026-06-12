@@ -17,16 +17,6 @@
  mitteleuropa_next_election_days: "§Y[?days_to_next_election]§! jours"
  mitteleuropa_next_election_soon: "§Yimminent§!"
 
- mitteleuropa_small_value:9 "[?global.MIT_small_value|Y=1]"
- mitteleuropa_medium_value:9 "[?global.MIT_medium_value|Y=1]"
- mitteleuropa_large_value:9 "[?global.MIT_large_value|Y=1]"
- mitteleuropa_huge_value:9 "[?global.MIT_huge_value|Y=1]"
-
- mitteleuropa_small_cost:9 "[?MIT_small_value_temp|R=1]"
- mitteleuropa_medium_cost:9 "[?MIT_medium_value_temp|R=1]"
- mitteleuropa_large_cost:9 "[?MIT_large_value_temp|R=1]"
- mitteleuropa_huge_cost:9 "[?MIT_huge_value_temp|R=1]"
-
  agenda_score_title: "Score d'ordre du jour"
  agenda_score_tooltip: "[!agenda_score_breakdown_button_click]"
 
@@ -46,8 +36,16 @@
  agenda_add_score_desc: "Augmente votre score d'ordre du jour au prix de £pol_power de §Ypouvoir politique§!."
  agenda_sub_score_desc: "Récupère £pol_power de §Ypouvoir politique§! investi au prix de score d'ordre du jour."
 
- add_score_commands: "§GCliquez§! pour dépenser [GetMitteleuropaSmallCost] £pol_power pour augmenter le score de [GetMitteleuropaSmallValue]\n§GCtrl + Click§! pour dépenser [GetMitteleuropaMediumCost] £pol_power pour augmenter le score de [GetMitteleuropaMediumValue]\n§GShift + Click§! pour dépenser [GetMitteleuropaLargeCost] £pol_power pour augmenter le score de [GetMitteleuropaLargeValue]\n§GCtrl + Shift + Click§! pour dépenser [GetMitteleuropaHugeCost] £pol_power pour augmenter le score de [GetMitteleuropaHugeValue]"
- subtract_score_commands: "§GCliquez§! pour récupérer [GetMitteleuropaSmallCost] £pol_power, pour réduire le score de [GetMitteleuropaSmallValue]\n§GCtrl + Click§! pour récupérer [GetMitteleuropaMediumCost] £pol_power, pour réduire le score de [GetMitteleuropaMediumValue]\n§GShift + Click§! pour récupérer [GetMitteleuropaLargeCost] £pol_power, pour réduire le score de [GetMitteleuropaLargeValue]\n§GCtrl + Shift + Click§! pour récupérer [GetMitteleuropaHugeCost] £pol_power, pour réduire le score de [GetMitteleuropaHugeValue]"
+ add_score_commands:9 "§GCliquez§! pour dépenser [GetMitteleuropaSmallCost] £pol_power pour augmenter le score de [GetMitteleuropaSmallValue]\n§GCtrl + Click§! pour dépenser [GetMitteleuropaMediumCost] £pol_power pour augmenter le score de [GetMitteleuropaMediumValue]\n§GShift + Click§! pour dépenser [GetMitteleuropaLargeCost] £pol_power pour augmenter le score de [GetMitteleuropaLargeValue]\n§GCtrl + Shift + Click§! pour dépenser [GetMitteleuropaHugeCost] £pol_power pour augmenter le score de [GetMitteleuropaHugeValue]"
+ MIT_add_agenda_score_tooltip:9 "§G[GetMitteleuropaCostHotkey]§! to spend [?MIT_cost|+=2Y] £pol_power to increase the score by [?MIT_value|=0Y]"
+
+ subtract_score_commands:9 "§GCliquez§! pour récupérer [GetMitteleuropaSmallCost] £pol_power, pour réduire le score de [GetMitteleuropaSmallValue]\n§GCtrl + Click§! pour récupérer [GetMitteleuropaMediumCost] £pol_power, pour réduire le score de [GetMitteleuropaMediumValue]\n§GShift + Click§! pour récupérer [GetMitteleuropaLargeCost] £pol_power, pour réduire le score de [GetMitteleuropaLargeValue]\n§GCtrl + Shift + Click§! pour récupérer [GetMitteleuropaHugeCost] £pol_power, pour réduire le score de [GetMitteleuropaHugeValue]"
+ MIT_subtract_agenda_score_tooltip:9 "§G[GetMitteleuropaCostHotkey]§! to recover [?MIT_cost|+=2Y] £pol_power, reducing the score by [?MIT_value|=0Y]"
+
+ mitteleuropa_cost_hotkey_1:9 "Click"
+ mitteleuropa_cost_hotkey_5:9 "Ctrl + Click"
+ mitteleuropa_cost_hotkey_10:9 "Shift + Click"
+ mitteleuropa_cost_hotkey_50:9 "Ctrl + Shift + Click"
 
  member_entry_title: "§Y[THIS.GetName]§!"
 

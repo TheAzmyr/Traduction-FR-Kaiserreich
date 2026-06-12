@@ -28,9 +28,6 @@ XSM_national_populist_party_long: "Administration Militaire Xining"
 XSM_qinghai_struggle_over: "La lutte pour le Qinghai est terminée."
 XSM_bufang_rules_qinghai: "Ma Bufang règne à Qinghai."
 XSM_lin_rules_qinghai: "Ma Lin règne à Qinghai."
-XSM_hongkui_rules_gansu: "Ma Hongkui règne dans le Gansu."
-XSM_hongkui_rules_ningxia: "Ma Hongkui règne au Ningxia."
-XSM_hongbin_rules_ningxia: "Ma Hongbin règne au Ningxia."
  XSM_ma_biao_in_yushu: "Ma Biao est en Yushu."
 northwest_conflict_ended: "Le conflit du Nord-Ouest est terminé."
 
@@ -54,11 +51,9 @@ XSM_add_3_bufang_tooltip: "§RMa Bufang va accroître son contrôle sur Qinghai 
 XSM_add_5_hongkui_ningxia_tooltip: "§RMa Hongkui va accroître son contrôle sur le Ningxia de§!§Y5%§!\n"
 XSM_add_5_hongbin_ningxia_tooltip: "§RMa Hongbin va accroître son contrôle sur le Ningxia de§!§Y5%§!\n"
 
-YUS_add_5_XSM_tooltip: "§RLa Clique Ma va augmenter sa présence dans le Yushu de§!§Y5%§!\n"
-YUS_add_5_TIB_tooltip: "§RLe Tibet va accroître sa présence dans le Yushu de§!§Y5%§!\n"
-YUS_add_10_XSM_tooltip: "§La Clique Ma va augmenter sa présence dans le Yushu de§!§Y10%§!\n"
-YUS_add_15_TIB_tooltip: "§RLe Tibet va accroître sa présence dans le Yushu de§!§Y15%§!\n"
-XSM_yushu_tension_increase_tooltip: "§La tension dans le Yushu va augmenter.§!\n" 
+ XSM_increase_ma_control_tooltip:9 "§RThe Ma Clique will increase its presence over Yushu by $RIGHT|0Y%%$.§!\n"
+ XSM_increase_tibetan_control_tooltip:9 "§RTibet will increase its presence over Yushu by $RIGHT|0Y%%$.§!\n"
+ XSM_yushu_tension_increase_tooltip:9 "§La tension dans le Yushu va augmenter.§!\n"
 YUS_unable_to_raid_tooltip: "§YLe Tibet ne pourra pas faire de raid pendant trente jours.§!\n"
 XSM_deploy_yushu: "§YLa garnison de Yushu sera déployée sous la juridiction de la Clique de Qinghai.§!\n"
 
@@ -128,7 +123,7 @@ XSM_council_defection: "Défection du Conseil"
  XSM_council_defection_desc: "Bufang a recommencé ses manœuvres au sein du conseil, en utilisant des menaces, des pots-de-vin et des rumeurs vicieuses pour gagner des faveurs. On peut s'attendre à ce qu'il poursuive cette activité jusqu'à ce que la question du poste de gouverneur soit enfin réglée."
 
 XSM_yushu_conflict: "Conflit de Yushu"
- XSM_yushu_conflict_desc: "Yushu est une commune très contestée entre le Tibet et le Mas, dont le contrôle de la ville est en constante évolution depuis le début des années 30. Bien qu'en statu quo pour l'instant, les deux parties tentent de prendre des mesures pour s'assurer que la ville finira par tomber sous leur contrôle. Cela pourrait cependant conduire à un conflit d'une ampleur encore plus grande que celle à laquelle on pourrait s'attendre...\n\nLes tensions actuelles de Yushu sont à leur comble:§Y[?XSM.yushu_tensions]§!\n\nLe contrôle Ma sur le Yushu est:§Y[?XSM.yushu_control]%§!\nLe contrôle tibétain sur le Yushu§Y[?TIB.yushu_control]%§!"
+ XSM_yushu_conflict_desc:9 "Yushu est une commune très contestée entre le Tibet et le Mas, dont le contrôle de la ville est en constante évolution depuis le début des années 30. Bien qu'en statu quo pour l'instant, les deux parties tentent de prendre des mesures pour s'assurer que la ville finira par tomber sous leur contrôle. Cela pourrait cependant conduire à un conflit d'une ampleur encore plus grande que celle à laquelle on pourrait s'attendre...\n\nLes tensions actuelles de Yushu sont à leur comble:§Y[?XSM.yushu_tensions]§!\n\nLe contrôle Ma sur le Yushu est:§Y[?XSM.yushu_control]%§!\nLe contrôle tibétain sur le Yushu§Y[?TIB.yushu_control]%§!"
 XSM_ma_biao_decision: "Re-positionner Ma Biao à Yushu"
  XSM_ma_biao_decision_desc: "Bien que Ma Biao ait démissionné de son poste de défense de Yushu contre les Tibétains après notre intervention réussie dans la guerre tibéto-sichuanaise, la menace réémergente des hommes de la tribu et des pilleurs rend sa présence nécessaire une fois de plus. Cependant, le positionnement de ce qui est considéré comme le héros de la guerre tibétaine ne passera certainement pas inaperçu chez nos voisins du sud."
  XSM_reinforce_biao_garrison: "Renforcer Ma Biao"
@@ -153,6 +148,12 @@ XSM_reinforce_border2_desc: "Si la frontière entre le Tibet et le Qinghai exist
  XSM_country_intro_background:9 "GFX_XSM_intro"
  XSM_country_intro_header: "Introduction à la §PClique des Ma§!"
  XSM_country_intro_content:9 "La §PClique des Ma§! est composée d'une multitude de gouverneurs §lchinois§! qui ont servi la §cDynastie Qing§! depuis les années 1880. La §Pfamille Ma§! elle-même n'est pas une famille géante, mais trois familles qui se partagent le pouvoir dans la région. La §Ppremière famille§! a été éclipsée après le décès du chef de famille, §PMa Anliang§!, en 1918. Aujourd'hui principalement dirigée par les §Pdeuxième§! et §Ptroisième familles§!, la §Pclique§! a connu un règne prospère sur son territoire depuis.\n\nLa §lRévolution Xinhai§! a conduit les §PMa§! sous §PAnliang§! à se ranger initialement du côté des §cQing§!, mais quand la défaite fut inévitable, ils firent défection vers la §lrépublique§!. Après avoir forcé les §PMongols§! au nord et le §PTibet§! au sud à reconnaître la §lRépublique§! comme le gouvernement légitime, les §PMa§! gardèrent un air de stabilité à l'intérieur de la Chine du Nord-Ouest. §PMa Anliang§! mourut bientôt en 1918, la §Pclique§! étant principalement divisée en deux. La §PClique des Ma§! sous §PMa Fuxiang§! qui tenait le §PGansu§! et le §PNingxia§! et la §cClique du sud§! sous §cMa Qi§! basée dans le futur §cQinghai§!.\n\nLa §Pclique§! était encore un peu unie dans son camp mais le §aGuominjun§! occupa bientôt le §PGansu du sud§!, forçant les §PMa§! à se ranger du côté de §aFeng Yuxiang§!. Après que la réalité de la situation du §aGuominjun§! soit devenue plus claire, tous les §Pseigneurs de guerre§!, à l'exception de quelques uns, quittèrent leur camp pour le §PZhili§!.\n\nRestant fidèles au §PZhili§! grâce à la §crestauration des Qing§! et au-delà, les §PMa§! sont devenus des figures de confiance pour la plupart des cliques, si ce n'est toutes, en tant que protecteurs valables de l'intention du nord-ouest de garder la terre §lchinoise§!. Maintenant qu'ils règnent aussi sur §aSuiyuan§!, connu aussi sous le nom d'§aUlanqab§! par les §PMongols§!, la §Pclique§! prospère en tant que membres essentiels de la §cDynastie Qing§!, prêts à se battre pour ce en quoi ils croient."
+
+ XSM_country_intro_header_1:9 "$CHN_country_intro_header_1$"
+ XSM_country_intro_content_1:9 "$CHN_country_intro_content_1$"
+
+ XSM_country_intro_header_2:9 "$CHN_country_intro_header_2$"
+ XSM_country_intro_content_2:9 "$CHN_country_intro_content_2$"
 
  XSM_guide:9 "§MMa Lin garde le Pouvoir§! ($social_conservative_coloured$)\n£white_dot Dans la lutte pour le Qinghai, maintenir l'influence de Ma Lin à plus de 50 %.\n£white_dot À la suite du conflit du Nord-Ouest, lorsque le conflit entre Ma Hongbin et Ma Hongkui s'aggrave, le conseil de Xining ne soutient pas Ma Hongkui et soutient pleinement Ma Liang pour diriger le Ningxia avec Ma Hongbin.\n£white_dot Ensuite, laisser Ma Hongbin seul au Ningxia, ce qui laissera Ma Lin aux commandes et le conflit non résolu.\n\n§MMa Bufang s'empare du Pouvoir§! ($national_populist_coloured$)\n£white_dot Dans la lutte pour le Qinghai, augmenter l'influence de Ma Bufang à plus de 50 %.\n£white_dot À la suite du conflit du Nord-Ouest, lorsque le conflit entre Ma Hongbin et Ma Hongkui s'aggrave, le conseil de Xining ne soutient pas Ma Hongkui et soutient pleinement Ma Liang pour diriger le Ningxia avec Ma Hongbin.\n£white_dot Ensuite, laisser Ma Hongbin seul au Ningxia, ce qui laissera Ma Bufang aux commandes et le conflit non résolu.\n\n§MMa Hongbin manœuvre Ma Hongkui§! ($authoritarian_democrat_coloured$)\n£white_dot À la suite du conflit du Nord-Ouest, le conseil de Xining ne soutient pas Ma Hongkui ni Ma Liang pour diriger le Ningxia avec Ma Hongbin, ce qui permet à Ma Hongbin de déjouer Ma Hongkui et de diriger la Clique Ma depuis le Ningxia.\n\n§MMa Hongkui manœuvre Ma Hongbin§! ($paternal_autocrat_coloured$)\n£white_dot À la suite du conflit du Nord-Ouest, le conseil de Xining soutient Ma Hongbin et ses nouvelles méthodes, le laissant gouverneur de la Clique Ma."
 

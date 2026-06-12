@@ -12,15 +12,15 @@
  play_in_english_tt:9 ""
 
 ### Splash Screen ###
- KR_welcome_splash_tab_1: "Pays"
- KR_welcome_splash_tab_2: "Guides d'accès"
- KR_welcome_splash_tab_3: "Comment jouer"
- KR_welcome_splash_tab_4: "Crédits"
+ kr_intro_screen_tab_1:0 "Pays"
+ kr_intro_screen_tab_2:0 "Guides d'accès"
+ kr_intro_screen_tab_3:0 "Comment jouer"
+ kr_intro_screen_tab_4:0 "Crédits"
  mod_options_button_text: "Continuer"
 
  ## TAB 1 - all needed to avoid starting errors ##
- KR_welcome_splash_tab_1_header: "[ROOT.GetCountryIntroHeader]"
- KR_welcome_splash_tab_1_content: "[ROOT.GetCountryIntroContent]"
+ kr_intro_screen_tab_1_header:0 "[ROOT.GetCountryIntroHeader]"
+ kr_intro_screen_tab_1_content:0 "[ROOT.GetCountryIntroContent]"
  country_intro_background:9 "GFX_KR_default_intro"
  country_intro_header:9 "$KR_scenario_name$"
  country_intro_header_1:0 "$KR_scenario_desc$"
@@ -44,34 +44,34 @@
  guide_3:9 ""
 
  ## TAB 2 ##
- KR_welcome_splash_tab_2_reveal_spoilers_button: "Spoilers les révélations ?"
- KR_welcome_splash_tab_2_header:0 "[ROOT.GetNameDefCap]"
- KR_welcome_splash_tab_2_content: "[GetCountryGuide]"
+ kr_intro_screen_tab_2_reveal_spoilers_button:0 "Afficher le guide caché ?"
+ kr_intro_screen_tab_2_header:0 "[ROOT.GetNameDefCap]"
+ kr_intro_screen_tab_2_content:0 "[GetCountryGuide]"
 
  country_guide_page_indicator:9 "[GetCurrPageCountryGuide]/[GetPageCountCountryGuide]"
 
  ## TAB 3 ##
- KR_welcome_splash_tab_3_content: "§YVeuillez noter les points suivants :§!\n£white_dot \n£white_dot \n£white_dot \n\n£white_dot \n\n£white_dot \n\n£white_dot \n\n\n\n§YCette fenêtre§!  peut être rouverte à tout moment en cliquant sur l'icône du £help_button  en haut à droite. §YRapporter les Problèmes :§!\nCe mod est encore en développement, donc des bugs et des crashs sont possibles. Si vous rencontrez des problèmes, veuillez les signaler à notre §YGitHub issue tracker§! pour nous aider à les corriger rapidement. Un lien se trouve dans le menu pause."
- KR_welcome_splash_tab_3_content_0: "Kaiserreich impose des restrictions sur les actions diplomatiques telles que les §RGuerres Précoces§!, les §RFactions§! et les §RNiveaux d'Autonomie§!.\nKaiserreich inclut également des §CLimites de Division§! et un mécanisme de §CDémobilisation§! pour améliorer la jouabilité en fin de partie.\nPendant les §YConférences de Paix§!, assurez-vous d'annexer tous les États possibles. Plus tard, vous pourrez libérer les pays des territoires annexés grâce aux §Cdécisions§!.\nLe menu de configuration des §YRègles de Jeu Personnalisées§! vous permet d'ajuster de nombreuses options, notamment les §CChemins de Pays§!, la §CPrimauté du Joueur pendant les Conférences de Paix§! et l'outil de §CTransfert d'États et de Pays§!.\nLe £kr_options_icon §YMenu d'Options§! peut être ouvert en cliquant sur son icône en haut à droite. Il vous permet d'ajuster la §Cfréquence des événements§! et d'activer le §Crenommage dynamique§! des états et des points de victoire."
+ kr_intro_screen_tab_3_content:0 "§YVeuillez noter les points suivants :§!\n£white_dot \n£white_dot \n£white_dot \n\n£white_dot \n\n£white_dot \n\n£white_dot \n\n§YRapport de bugs :§!\nCe mod est encore en développement, donc des bugs et des crashs sont possibles. Si vous rencontrez des problèmes, veuillez les signaler à notre §YGitHub issue tracker§! pour nous aider à les corriger rapidement. Un lien se trouve dans le menu pause."
+ kr_intro_screen_tab_3_content_0:9 "Kaiserreich impose des restrictions sur les actions diplomatiques telles que les §RGuerres Précoces§!, les §RFactions§! et les §RNiveaux d'Autonomie§!.\nKaiserreich inclut également des §CLimites de Division§! et un mécanisme de §CDémobilisation§! pour améliorer la jouabilité en fin de partie.\nPendant les §YConférences de Paix§!, assurez-vous d'annexer tous les États possibles. Plus tard, vous pourrez libérer les pays des territoires annexés grâce aux §Cdécisions§!.\nLe menu de configuration des §YRègles de Jeu Personnalisées§! vous permet d'ajuster de nombreuses options, notamment les §CChemins de Pays§!, la §CPrimauté du Joueur pendant les Conférences de Paix§! et l'outil de §CTransfert d'États et de Pays§!.\nLe menu des §YOptions§! dans l'onglet §YPays§! vous permet d'ajuster la §Cfréquence des événements d'actualité§! et d'activer le §Crenommage dynamique§! des états et des points de victoire.\nCliquez sur l'icône £kr_intro_screen_icon  située dans le coin supérieur droit pour §Yrouvrir cet écran d'introduction§! à tout moment"
 
  ## TAB 4 ##
  KR_CURRENT_VERSION:9 "1.6.3"
  KR_CURRENT_VERSION_NAME:9 "Ce qui s'est passé à Ju"
  KR_CURRENT_VERSION_COMBINED: "Kaiserreich $KR_CURRENT_VERSION$ "$KR_CURRENT_VERSION_NAME$""
- KR_welcome_splash_tab_4_upper_header: "§YWelcome to $KR_CURRENT_VERSION_COMBINED$§!"
- KR_welcome_splash_tab_4_lower_header: "§YRéalisé avec amour par l'équipe Kaiserreich :§!"
- KR_welcome_splash_tab_4_content: "$KR_welcome_splash_tab_4_content_1$, $KR_welcome_splash_tab_4_content_2$, $KR_welcome_splash_tab_4_content_3$, $KR_welcome_splash_tab_4_content_4$, $KR_welcome_splash_tab_4_content_5$, $KR_welcome_splash_tab_4_content_6$,$KR_welcome_splash_tab_4_content_7$\n$KR_welcome_splash_tab_4_content_8$, $KR_welcome_splash_tab_4_content_9$"
+ kr_intro_screen_tab_4_upper_header:0 "§YBienvenu à $KR_CURRENT_VERSION_COMBINED$§!"
+ kr_intro_screen_tab_4_lower_header:0 "§YRéalisé avec amour par l'équipe Kaiserreich :§!"
+ kr_intro_screen_tab_4_content:9 "$kr_intro_screen_tab_4_content_1$, $kr_intro_screen_tab_4_content_2$, $kr_intro_screen_tab_4_content_3$, $kr_intro_screen_tab_4_content_4$, $kr_intro_screen_tab_4_content_5$, $kr_intro_screen_tab_4_content_6$, $kr_intro_screen_tab_4_content_7$, $kr_intro_screen_tab_4_content_8$, $kr_intro_screen_tab_4_content_9$"
 
- KR_welcome_splash_tab_4_content_0: "Notre équipe a travaillé dur aux quatre coins du monde pour vous offrir cette nouvelle version et nous serions réellement honorés que vous choisissiez d'y jouer.\nNous espérons que vous prendrez autant de plaisir à jouer à Kaiserreich que nous en avons pris à le créer !"
- KR_welcome_splash_tab_4_content_1:9 "Amber, Angel, Anthony OliveOil, Arvidus, Andrey, Augenis, AwsomeGuy49, Blackfalcon501, Blackleaf, Carmain, Cassrabbit, Cazadorian"
- KR_welcome_splash_tab_4_content_2:9 "Chiang Kai-shrek, Chiron29, ClawedAsh, Cody, Deliberus, DerEherneRächer, Deutero, DidSomethingOnce, DuoDex, El Daddy, falling_robin, Fedex"
- KR_welcome_splash_tab_4_content_3:9 "FestivePuppet, Flamefang, Frill Shark, Gaboemi, Georgy, Goose, Gre, Hamfast, Hazo, Hexcron, Ido, Igor050301, JazzyHugh, jerv"
- KR_welcome_splash_tab_4_content_4:9 "Jonny BL, Kano, Kara, katieluka, kergely, Klyntar King, Krčo, lehmannmo, marimari, Matoro"
- KR_welcome_splash_tab_4_content_5:9 "Mikha, MrMano, ~mw~ // miwaco., Nightsay, Noot, Pelmen, PPsyrius, Rnk, Sasha, Shiroe"
- KR_welcome_splash_tab_4_content_6:9 "Sonny O'Cad, SuperGreenBeans, suzuha, tan_mi.ya, The Alpha Dog, The Don Golian, The Irredentista, The Italian Jojo"
- KR_welcome_splash_tab_4_content_7:9 "Toaster, Vidyaország, VladimirLemon, Zimbabwe Salt Co."
- KR_welcome_splash_tab_4_content_8:9 "§YTraduit par : §!Ergovius, LapinPGM et Mouchi. §YAnciennement traduit par : §!Aegon Targaryen"
- KR_welcome_splash_tab_4_content_9:9 "Brakmar, Darkusios, Demetran, Diro, Fanois, Feuxin, Grikke, Hellh, IGgame, IluminatiX, Kfateweaver, Kira, Klik le Araï, Lazu, Le Marocain, LRP2580, MVMaroIV, N3, Nobelo81, Orakle14, Paralux, Remkiller123, Romain1912, Rosak, RyumaTomoka, Sayu, Solal, Superwaffle, TheAzmyr, UltraNico, Vitulus, Youkoulélé et Zeplein"
+ kr_intro_screen_tab_4_content_0:0 "Notre équipe a travaillé dur aux quatre coins du monde pour vous offrir cette nouvelle version et nous serions réellement honorés que vous choisissiez d'y jouer.\nNous espérons que vous prendrez autant de plaisir à jouer à Kaiserreich que nous en avons pris à le créer !"
+ kr_intro_screen_tab_4_content_1:9 "Amber, Angel, Anthony OliveOil, Arvidus, Andrey, AwsomeGuy49, Blackfalcon501"
+ kr_intro_screen_tab_4_content_2:9 "Blackleaf, Carmain, Cassrabbit, Cazadorian, Chiang Kai-shrek, Chiron29, ClawedAsh"
+ kr_intro_screen_tab_4_content_3:9 "Cody, Deliberus, DerEherneRächer, Deutero, DidSomethingOnce, DuoDex, El Daddy"
+ kr_intro_screen_tab_4_content_4:9 "falling_robin, Fedex, FestivePuppet, Flamefang, Frill Shark, Gaboemi, Georgy, Goose"
+ kr_intro_screen_tab_4_content_5:9 "Gre, Hamfast, Hazo, Hexcron, Ido, Igor050301, JazzyHugh, jerv, Jonny BL, Kano"
+ kr_intro_screen_tab_4_content_6:9 "Kara, katieluka, kergely, Klyntar King, Krčo, lehmannmo, marimari, Matoro, Mikha"
+ kr_intro_screen_tab_4_content_7:9 "MrMano, ~mw~ // miwaco., Nightsay, Noot, Pelmen, PPsyrius, Rnk, Sasha, Shiroe"
+ kr_intro_screen_tab_4_content_8:9 "Sonny O'Cad, SuperGreenBeans, tan_mi.ya, The Alpha Dog, The Don Golian, The Irredentista"
+ kr_intro_screen_tab_4_content_9:9 "The Italian Jojo, Toaster, Vidyaország, VladimirLemon, Zimbabwe Salt Co.\n§YTraduit par : §!Ergovius, LapinPGM et Mouchi. §YAnciennement traduit par : §!Aegon Targaryen, Brakmar, Darkusios, Demetran, Diro, Fanois, Feuxin, Grikke, Hellh, IGgame, IluminatiX, Kfateweaver, Kira, Klik le Araï, Lazu, Le Marocain, LRP2580, MVMaroIV, N3, Nobelo81, Orakle14, Paralux, Remkiller123, Romain1912, Rosak, RyumaTomoka, Sayu, Solal, Superwaffle, TheAzmyr, UltraNico, Vitulus, Youkoulélé et Zeplein"
 
 ### Career Profile ###
  KAISERREICH_CAREER_PROFILE: "Kaiserreich"
@@ -147,6 +147,7 @@
  is_portuguese_tag: "Est un pays lusophone"
  is_brazilian_tag: "Est un pays brésilien"
  is_chinese_tag: "Est un pays chinois"
+ is_chinese_tag_NOT:9 "Is §Rnot§! a Chinese country"
  is_dutch_tag: "Est un pays néerlandophone"
  is_english_tag: "Est un pays anglophone"
  is_commonwealth_tag: "Est un pays du Commonwealth"
@@ -198,11 +199,10 @@
  power_balance_button_disabled: "Votre pays n'a pas d'§Yéquilibre du pouvoir§! actif."
 
 ### Options GUI ###
- kr_options_title: "§YOptions de Kaiserreich§!"
- kr_options_tooltip: "Activer/Désactiver les options de jeu spécifiques à Kaiserreich"
+ kr_options_title:9 "—— Options ——"
 
- kr_help_title: "§YÉcran d'information sur le pays§!"
- kr_help_tooltip: "Cliquez sur pour ouvrir l'§Yécran intro§!\n\nContient :\n£white_dot des informations sur votre pays,\n£white_dot une liste de §Cguides de chemins§! spécifiques,\n£white_dot des informations sur les caractéristiques propres au mod, et\n£white_dot les crédits du mod."
+ kr_intro_screen_button_title:9 "§YIntro Screen§!"
+ kr_intro_screen_button_tooltip:9 "Click to re-open the §Yintro screen§!.\n\nThe intro screen contains:\n£white_dot §YOptions§! for customising your experience\n£white_dot Historical background for your country\n£white_dot §YPath Guides§! specific to your country\n£white_dot Information on mod-specific features"
 
  custom_achievements_text: "Succès personnalisés"
  custom_achievements_tooltip: "§GCliquez§! ici pour activer la capacité de débloquer des succès personnalisés."
@@ -505,6 +505,9 @@ FOCUS_FILTER_LEC_CURRENCY: "Réserves monétaires"
  is_in_faction_but_not_leader: "est dans une faction mais n'est pas son chef de file"
  is_in_faction_but_not_leader_NOT: "est chef de file de faction ou n'est pas dans une faction"
 
+ imminent_war:9 "§Y[THIS.GetNameWithFlag]§! is likely to be at war soon"
+ imminent_war_NOT:9 "§Y[THIS.GetNameWithFlag]§! is unlikely to be at war soon"
+
  has_guarantor: "est garanti"
  has_guarantor_NOT:0 "N'est pas garanti"
 
@@ -585,15 +588,6 @@ KR_fight_for_independence_desc: "[From.GetNameDefCap] a peut-être refusé notre
 
  generic_events.257.t:0 "Déclarer la guerre à [war_target.GetNameDef] ?"
  generic_events.257.d:0 "[marked_country.GetNameDefCap] va déclarer la guerre à [war_target.GetNameDef]. Il n'y a pas de vérification pour savoir si cette déclaration est valide, si ce n'est que les deux pays ne sont pas alliés et ne sont pas déjà en guerre.\n\n§RNOTE: Cela peut très bien briser le contenu du Kaiserreich ! Utilisez-le à vos risques et périls !§!"
-
-### Unit Leader Events ###
- unit_leader.1.t: "[From.GetName] tombe malade"
- unit_leader.1.d: "Alors qu'il travaillait au service de la nation, il semble que [From.GetRank] [From.GetName] ait poussé trop loin. En raison du mauvais climat qui règne dans sa zone opérationnelle, le [From.GetRank] est tombé malade, et aura probablement besoin d'un certain temps pour se rétablir. Jusqu'à ce qu'il [From.GetSheHe] se rétablisse, [From.GetSheHe] ne sera pas aussi performant qu'[From.GetHerHis] le serait normalement."
-unit_leader.1.a: "C'est regrettable."
-
- unit_leader.2.t: "[From.GetName] a été blessé"
- unit_leader.2.d: "En menant la bataille à bien, il semble que le [From.GetRank] [From.GetName] se soit mis un peu trop en danger tout en menant ses hommes. [From.GetSheHeCap] a été blessé, et il faudra probablement un certain temps pour que les blessures cicatrisent complètement, jusqu'à ce que le [From.GetRank] ne puisse plus commander à son niveau habituel."
-unit_leader.2.a: "C'est regrettable."
 
 ### Government in Exile Events ###
  mtg_exile_leader_added.1.t: "Le leader [exile_nation.GetAdjective] en exil propose ses services."
@@ -724,10 +718,6 @@ tech_integrated_specialists: "Forces spéciales intégrées"
 
  tech_better_paratroopers: "Parachutistes d'élite"
 
- tech_irregulars:9 "Infanterie irrégulière"
-
- tech_militias:9 "Unité de milice"
-
  tech_anti_partisan:0 "Tactiques anti-insurrectionnelles"
 
  tech_improved_logistics:9 "Compagnie logistique améliorée"
@@ -751,27 +741,12 @@ tech_integrated_specialists: "Forces spéciales intégrées"
 
  tech_elephant_sappers:9 "Sapeurs d'éléphants"
  tech_elephant_sappers_terrain_effect:9 "  §Y$jungle$§!:\n    $STAT_ADJUSTER_MOVEMENT$ [?0.05|=+1%]\n    $STAT_ADJUSTER_ATTACK$ [?0.05|=+1%]\n    $STAT_ADJUSTER_DEFENCE$ [?0.05|=+1%]\n  §Y$mountain$§!:\n    $STAT_ADJUSTER_MOVEMENT$ [?0.05|=+1%]\n    $STAT_ADJUSTER_ATTACK$ [?0.05|=+1%]\n    $STAT_ADJUSTER_DEFENCE$ [?0.05|=+1%]"
-
- tech_bicycle_battalion:9 "$bicycle_battalion$"
-
- tech_camelry:9 "$camelry$"
-
- tech_penal_battalion:9 "$penal_battalion$"
-
- tech_winter_logistics_support:0 "$winter_logistics_support$"
-
- tech_long_range_patrol_support:0 "$long_range_patrol_support$"
-
- tech_jungle_pioneers_support:9 "$jungle_pioneers_support$"
-
- tech_sturmtruppe_battalion:9 "$sturmtruppe_battalion$"
+ 
+ tech_improved_assault_battalion:9 "Improved Assault Battalion"
 
  ### Units ###
  assault_battalion: "$blackshirt_assault_battalion$"
  assault_battalion_desc: "$blackshirt_assault_battalion_desc$"
-
- tech_assault_battalion: "$assault_battalion$"
- tech_assault_battalion_effect: "Active la compagnie de soutien §Y$assault_battalion$§!."
 
  modifier_army_sub_unit_assault_battalion_attack_factor: "Attaque du $assault_battalion$"
  modifier_army_sub_unit_assault_battalion_defence_factor: "Défense de l'$assault_battalion$"
