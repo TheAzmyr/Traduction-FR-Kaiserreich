@@ -276,7 +276,7 @@
  AT_LEAST_50_CIVS:9 "§YChaque Membre de la Faction§! ayant au moins §Y50 $industrial_complex$§!"
  AT_LEAST_50_MILS:9 "§YChaque Membre de la Faction§! ayant au moins §Y50 $arms_factory$§!"
  AT_LEAST_100_MILS_CIVS:9 "§YChaque Membre de la Faction§! ayant au moins §Y100 $arms_factory$§!"
- AT_LEAST_500_FACTORIES:9 "§YChaque Membre de la Faction§! contrôlant au moins un total de §Y500 $arms_factory$, $industrial_complex$ et $dockyard$§!"
+ AT_LEAST_500_FACTORIES:9 "§YChaque Membre de la Faction§! contrôlant au moins un total de §Y500 $arms_factory$, $industrial_complex$ et $dockyard$§! gagne 1 point d'initiative de faction"
  AT_LEAST_200_CONVOYS:9 "§YChaque Membre de la Faction§! ayant au moins §Y200 $convoys$§!"
 
  GUERILLA_TOTAL_ABOVE_THRESHOLD:9 "Des activités de Guérilla ont commencé dans plus de 4 états"
@@ -284,8 +284,8 @@
  OWNS_LISTED_STATE:9 "Chaque membre de la faction possédant l'un de ces états :"
  HAS_AT_LEAST_5K_INFANTRY_EQUIPMENT:9 "§YChaque Membre de la Faction§! ayant au moins 5000 $infantry_equipment$ en réserve"
  HAS_DEPLOYED_AT_LEAST_5M_MANPOWER:9 "§YChaque Membre de la Faction§! ayant au moins 5 millions d'hommes déployés"
- ONE_PANZER_GENERAL:9 "§YUn Général§! avec le trait §Y$panzer_leader$§!, §Y$panzer_expert$§! ou §Y$armor_officer$§! :"
- ONE_INFANTRY_GENERAL:9 "§YUn Général§! avec le trait §Y$infantry_officer$§!, §Y$infantry_leader$§! ou §Y$infantry_expert$§! :"
+ ONE_PANZER_GENERAL:9 "§YUn Commandant§! avec le trait §Y$panzer_leader$§!, §Y$panzer_expert$§! ou §Y$armor_officer$§! :"
+ ONE_INFANTRY_GENERAL:9 "§YUn Commandant§! avec le trait §Y$infantry_officer$§!, §Y$infantry_leader$§! ou §Y$infantry_expert$§! :"
  ONE_ADMIRAL:9 "§YUn Amiral§!"
  ONE_GENERAL:9 "§YUn Général§!"
  ALL_FACTION_MEMBERS_WITH_1_AMPHIBIOUS:9 "§YChaque membre d'une faction§! dispose d'au moins une division §YAmphibie§!"
@@ -584,9 +584,9 @@
  INTELLIGENCE_POPUP_DESCRIPTION:9 "Êtes-vous sûr de vouloir dépenser £faction_initiative_texticon $COST|H$ pour assigner $GROUP|H$ ?"
  ADD_GOAL_TITLE:9 "Ajouter un Objectif"
  ADD_GOAL_CANNOT_AFFORD:9 "§RVous ne pouvez pas vous permettre d'ajouter un objectif, car cela coûte £faction_initiative_texticon $COST|.0$§!"
- REPLACE_GOAL_TT_ALREADY_SELECTED:9 "§RL'Objectif est déjà actif§!"
- ADD_GOAL_TT_ALREADY_COMPLETED:9 "§RL'Objectif a déjà été complété§!"
- ADD_GOAL_TT_ALREADY_ATTEMPTED:9 "§RL'Objectif a déjà été essayé§!"
+ REPLACE_GOAL_TT_ALREADY_SELECTED:9 "§RL'Objectif est déjà actif§!\n"
+ ADD_GOAL_TT_ALREADY_COMPLETED:9 "§RL'Objectif a déjà été complété§!\n"
+ ADD_GOAL_TT_ALREADY_ATTEMPTED:9 "§RL'Objectif a déjà été essayé§!\n"
 
  IN_STOCKPILE:9 "$EQUIPMENTNAME|H$ en réserve"
 
@@ -764,13 +764,13 @@
  count_in_collection_units_workaround_tooltip:9 "Au moins $RIGHT|H*0$ §Y[?unit_type_temp.GetTokenLocalizedKey]§! dans la Faction. Actuellement : $LEFT|H*0$"
 
 # TODO: Fix for collection_size crashes. Revert if collection_size is fixed.
- faction_get_core_states_not_fully_controlled_workaround_tooltip:9 "Number of §H$FACTION_CORE_STATES_NOT_FULLY_CONTROLLED$§! ($LEFT|H0$) is less than $RIGHT|H0$"
- faction_get_enemy_core_states_controlled_by_us_workaround_tooltip:9 "Number of §H$ENEMY_FACTION_CORE_STATES_CONTROLLED_BY_US$§! ($LEFT|H0$) is greater than $RIGHT|H0$"
- faction_get_enemy_faction_states_bombed_workaround_tooltip:9 "Number of §H$ENEMY_FACTION_STATES_BOMBED$§! ($LEFT|H0$) is greater than $RIGHT|H0$"
- faction_casualities_inflicted_by_faction_members_workaround_tooltip:9 "Number of §H$COLLECTION_CASUALTIES_INFLICTED_BY_FACTION_MEMBERS$§! ($LEFT|H0$) is greater than $RIGHT|H0$"
- faction_border_states_full_infrastructure_workaround_tooltip:9 "Number of §H$COLLECTION_FACTION_BORDER_STATES_FULL_INFRASTRUCTURE$§! ($LEFT|H0$) is less than $RIGHT|H0$"
+ faction_get_core_states_not_fully_controlled_workaround_tooltip:9 "Le nombre de §H$FACTION_CORE_STATES_NOT_FULLY_CONTROLLED$§! ($LEFT|H0$) est inférieur à $RIGHT|H0$"
+ faction_get_enemy_core_states_controlled_by_us_workaround_tooltip:9 "Le nombre de §H$ENEMY_FACTION_CORE_STATES_CONTROLLED_BY_US$§! ($LEFT|H0$) est supérieur à $RIGHT|H0$"
+ faction_get_enemy_faction_states_bombed_workaround_tooltip:9 "Le nombre de §H$ENEMY_FACTION_STATES_BOMBED$§! ($LEFT|H0$) est supérieur à $RIGHT|H0$"
+ faction_casualities_inflicted_by_faction_members_workaround_tooltip:9 "Le nombre de §H$COLLECTION_CASUALTIES_INFLICTED_BY_FACTION_MEMBERS$§! ($LEFT|H0$) est supérieur à $RIGHT|H0$"
+ faction_border_states_full_infrastructure_workaround_tooltip:9 "Le nombre de §H$COLLECTION_FACTION_BORDER_STATES_FULL_INFRASTRUCTURE$§! ($LEFT|H0$) est inférieur à $RIGHT|H0$"
 
- any_faction_member_tooltip:9 "Any Faction Member"
+ any_faction_member_tooltip:9 "Tout Membre de la Faction"
 
- faction_core_states_fully_controlled_by_faction_members:9 "All §HFaction Owned Core States§! are fully controlled by §HFaction Members§!"
+ faction_core_states_fully_controlled_by_faction_members:9 "Tous les §HÉtats nationaux de la Faction§! sont entièrement contrôlés par des §HMembres de la Faction§!"
 

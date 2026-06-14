@@ -117,7 +117,7 @@
  # List of advisor role loc keys: second_in_command, political_advisor, theorist, army_chief, navy_chief, air_chief, high_command
  country_leader_loc:9 "Dirigeant du Pays"
 
- character_becomes_leader_of_ruling_party_effect_tooltip:9 "becomes leader for the §H[?PREV.PREV.current_party_ideology_group.GetTokenLocalizedKey]§! party."
+ character_becomes_leader_of_ruling_party_effect_tooltip:9 "devient dirigeant du parti §H[?PREV.PREV.current_party_ideology_group.GetTokenLocalizedKey]§!."
 
  tooltip_has_tech:9 "A recherché $TECH|Y$"
  tooltip_has_tech_detailed:9 "A recherché $NAME|Y$ ($TECH|Y$)"
@@ -136,12 +136,12 @@
 
  tooltip_replace_dynmod:9 "Remplace $DYNMOD1|Y$ par $DYNMOD2|Y$\nChangements concrets :"
 
- tooltip_modify_bop:9 "Modify $BOP|Y$ Balance of Power by"
+ tooltip_modify_bop:9 "Modifie $BOP|Y$ l'Équilibre des Pouvoirs par"
 
  tooltip_replace_one_of_two_ideas:9 "Remplace $IDEA1|Y$ ou $IDEA2|Y$ par $IDEA3|Y$\nChangement effectif :"
 
- tooltip_replace_two_ideas_with_one:9 "Replace $IDEA1|Y$ and $IDEA2|Y$ with $IDEA3|Y$\nEffective change:"
- tooltip_replace_three_ideas_with_one:9 "Replace $IDEA1|Y$, $IDEA2|Y$ and $IDEA3|Y$ with $IDEA4|Y$\nEffective change:"
+ tooltip_replace_two_ideas_with_one:9 "Remplace $IDEA1|Y$ et $IDEA2|Y$ par $IDEA3|Y$\nChangement effectif :"
+ tooltip_replace_three_ideas_with_one:9 "Remplace $IDEA1|Y$, $IDEA2|Y$ et $IDEA3|Y$ par $IDEA4|Y$\nChangement effectif :"
 
  tooltip_add_building_shared:9 "Ajoute $NUMBER|G$ $BUILDING|Y$"
  tooltip_add_building_on_all_provinces:9 "$tooltip_add_building_shared$ dans toutes les provinces.\n"
@@ -199,14 +199,14 @@
  tooltip_target_state_owner_tag:9 "[?target_state:owner.GetTag]"
 
  tooltip_if_controlled_by:9 "Si contrôlé par $COUNTRY|Y$ :"
- tooltip_if_owned_by:9 "If owned by $COUNTRY|Y$:"
+ tooltip_if_owned_by:9 "Si possédé par $COUNTRY|Y$ :"
 
  tooltip_received_equipment:9 "Vous avez reçu $QUANTITY|G$ $infantry_equipment$ de ce pays"
 
  may_lead_to_war_with:9 "§RPeut mener à une guerre avec $COUNTRY$.§!"
  will_lead_to_war_with:9 "§RDéclenchera une guerre avec $COUNTRY$.§!"
 
- tooltip_equipment_bonus_equipment_type:9 "$EQUIPMENT|H$:"
+ tooltip_equipment_bonus_equipment_type:9 "$EQUIPMENT|H$ :"
 
 ### Flag Loc segments ###
  tooltip_event_choice: "§CChoix d'événement§! : "
@@ -300,8 +300,8 @@ AI_OPTION: "Option d'IA seulement"
  day_saturday: "Samedi"
 
 ### Hardcoded Variable Tooltips ###
- days_until_next_election_greater_than:9 "There are more than $RIGHT|H0$ days until the next election is scheduled to happpen. Currently: $LEFT|H0$."
- days_until_next_election_less_than:9 "There are less than $RIGHT|H0$ days until the next election is scheduled to happpen. Currently: $LEFT|H0$."
+ days_until_next_election_greater_than:9 "Il reste plus de $RIGHT|H0$ jours avant que la prochaine élection ait lieu. Actuellement : $LEFT|H0$."
+ days_until_next_election_less_than:9 "Il reste moins de $RIGHT|H0$ jours avant que la prochaine élection ait lieu. Actuellement : $LEFT|H0$."
 
 ### KR-added Modifiers ###
  offmap_military_factories_tooltip:9 "$arms_factory$ hors carte"
@@ -404,7 +404,7 @@ AI_OPTION: "Option d'IA seulement"
  stability_factor_tooltip:0 "$MODIFIER_STABILITY_FACTOR$: $RIGHT|=%+$"
  stability_weekly_tooltip: "$MODIFIER_STABILITY_WEEKLY$: $RIGHT|=%+$"
  party_popularity_stability_factor_tooltip: "$MODIFIER_STABILITY_POPULARITY_FACTOR$: $RIGHT|=%+$"
- war_stability_factor_tooltip:9 "$MODIFIER_STABILITY_WAR_FACTOR$ $RIGHT|+=%1$"
+ war_stability_factor_tooltip:9 "$MODIFIER_STABILITY_WAR_FACTOR$: $RIGHT|+=%2$"
  offensive_war_stability_factor_tooltip:9 "$MODIFIER_STABILITY_OFFENSIVE_WAR_FACTOR$: $RIGHT|+=%2$"
  defensive_war_stability_factor_tooltip:9 "$MODIFIER_STABILITY_DEFENSIVE_WAR_FACTOR$: $RIGHT|+=%2$"
 
