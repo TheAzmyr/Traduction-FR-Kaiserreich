@@ -466,7 +466,7 @@
  UKR_lun_mechanic_modifier: "Cohésion de la Ligue"
 
  UKR_black_Sea_doctrine: "La Doctrine de la Mer Noire"
- UKR_black_sea_member_dynamic_modifier:9 "£pol_idea Etat de l'Union de la Mer Noire"
+ UKR_black_sea_member_dynamic_modifier:9 "£pol_idea $UKR_black_sea_member_idea$"
  UKR_black_sea_member_idea: "État de l'Union de la Mer Noire"
  UKR_black_sea_member_idea_desc: "§W$MODIFIER_POLITICAL_POWER_GAIN$: [?UKR.UKR_bsd_political_power|+=]\n$MODIFIER_STABILITY_FACTOR$: [?UKR.UKR_bsd_stability|+=%]§!\n§Y$MODIFIER_CONSUMER_GOODS_FACTOR$: [?UKR.UKR_bsd_consumer_goods|=%]§!\n§W$MODIFIER_INDUSTRIAL_CAPACITY_FACTOR$: [?UKR.UKR_bsd_factory_output|+=%]§!"
  UKR_black_sea_member_idea_puppet_desc: "§W$MODIFIER_POLITICAL_POWER_GAIN$: [?UKR.UKR_bsd_political_power|+=]\n$MODIFIER_STABILITY_FACTOR$: [?UKR.UKR_bsd_stability|+=%]§!\n§Y$MODIFIER_CONSUMER_GOODS_FACTOR$: [?UKR.UKR_bsd_consumer_goods|=%]§!\n§W$MODIFIER_INDUSTRIAL_CAPACITY_FACTOR$: [?UKR.UKR_bsd_factory_output|+=%]§!"
@@ -975,9 +975,9 @@
  UKR_cossack_militia_cost_blocked:9 "£stability_texticon  §R1%§!"
  UKR_cossack_militia_tt:9 "En cas de guerre avec la Russie, une §YDivision de milice cosaque§! rejoindra nos forces à §Y[FROM.GetName]§!."
  UKR_cossack_militia_1: "Force Milicienne Cosaque de Défense"
- UKR_cossack_militia_2:9 "Force Milicienne Cosaque de Défense"
- UKR_cossack_militia_3:9 "Force Milicienne Cosaque de Défense"
- UKR_cossack_militia_4:9 "Force Milicienne Cosaque de Défense"
+ UKR_cossack_militia_2:9 "$UKR_cossack_militia_1$"
+ UKR_cossack_militia_3:9 "$UKR_cossack_militia_1$"
+ UKR_cossack_militia_4:9 "$UKR_cossack_militia_1$"
 
  UKR_timer_exchange_curtail_focus_tt: "§CAjoute 40 jours au compteur de la réforme agraire§! et §RSupprime 40 jours du compteur d'industrialisation.§!"
  UKR_timer_exchange_mutual_focus_tt: "§CAjoute 40 jours au compteur d'industrialisation§! et §RSupprime 40 jours au compteur de la réforme agraire.§!"
@@ -1280,7 +1280,7 @@
  UKR_sporadic_protests: "Manifestations sporadiques"
  UKR_mass_protests: "Manifestations de masse"
  UKR_protests_banditry_clashes: "Manifestations, banditisme et affrontements locaux"
- UKR_syndie_general_strike:0 "Grêve Générale!"
+ UKR_syndie_general_strike:0 "Grève Générale !"
  UKR_confused_army: "Une Armée déboussolée"
  UKR_shaky_cooperation: "Une coopération fragile"
  UKR_bad_constitution: "Un système hostile"
@@ -1293,7 +1293,7 @@
  UKR_expansion_of_urban_housing: "Expansion du logement urbain"
  UKR_expansion_of_urban_housing_desc: "Avec la guerre en cours, de nombreux complexes et zones d'habitation sont détruits quotidiennement. Si nous souhaitons éviter un sans-abrisme massif après la fin de la guerre, nous devons élargir considérablement nos plans de logement urbain pour tenir compte des conséquences potentielles."
  UKR_revolution_under_siege: "La Révolution est assiégée!"
- UKR_revolution_under_siege_desc: "Aux armes! Nous appelons tous ceux qui sont capables de lutter à se lever et à défendre la cause révolutionnaire. Les forces réactionnaires qui nous entourent complotent pour éteindre la flamme de notre rébellion, et il est de notre devoir d’empêcher cela par tous les moyens nécessaires."
+ UKR_revolution_under_siege_desc: "Aux armes ! Nous appelons tous ceux qui sont capables de lutter à se lever et à défendre la cause révolutionnaire. Les forces réactionnaires qui nous entourent complotent pour éteindre la flamme de notre rébellion, et il est de notre devoir d’empêcher cela par tous les moyens nécessaires."
  UKR_council_of_deputies: "Le Conseil des Députés"
  UKR_syndie_constitution:0 "La Constitution des Travailleurs"
  UKR_nationalised_banks: "Banques Nationalisées"
@@ -1359,7 +1359,7 @@ UKR_KR_gathering_storm_desc: "Le rêve d'une Ukraine indépendante s'est concré
 
  ukraine_events.8.t:0 "Le jour de l'Hetmanat"
  ukraine_events.8.d:0 "L’État Ukrainien est inexorablement lié à l’institution de l’Hetmanat. À bien des égards, Pavlo Skoropadskyi a été la force motrice de l'État depuis sa création : en effet, bien que les Ministres-Otaman dirigent les gouvernements de l'État depuis la fin de la Grande Guerre, seul l'Hetman a le droit de les nommer, et ainsi de déterminer le caractère du gouvernement. De par la nature de l'institution, l’Hetman est considéré par ses partisans comme le garant de l’État et de la société, et comme un rempart contre la politique radicale. L’État a été fondé, après tout, avec le soutien des propriétaires fonciers et de l’Armée Allemande, et n’a pas perdu de temps pour revenir sur les réformes sociales républicaines.\n\nDu coup, comme le jour de l'indépendance de l'Ukraine a des connotations républicaines, le gouvernement et ses partisans lui préfèrent le 29 avril, anniversaire de l'élection de Skoropadskyi comme Hetman, comme jour de fête nationale. Un défilé militaire est traditionnellement organisé à [202.GetName] en guise de célébration, suivi d'un discours public durant lequel l'Hetman loue les réalisations de l'État au cours de l'année écoulée. La Grande Rada Cosaque et les Conseils Cosaques locaux organisent également souvent leurs propres événements, y compris militaires et il a d'ailleurs été noté que de nombreuses cérémonies officielles du 29 avril avaient un fort caractère militaire ou paramilitaire - peut-être un reflet de l'origine du soutien à l'État.\n\nAu-delà de ces manifestations chauvinistes, les politiciens conservateurs ont trouvé d'autres moyens de célébrer : Le Ministre-Otaman Dorochenko a par exemple choisi de faire une déclaration, saluant le travail accompli par son gouvernement et exprimant l'espoir que l'Hetman sera considéré comme un symbole pour tous les Ukrainiens. Les Démocrates Agrariens ont organisé leurs propres célébrations le 29 avril, auxquelles ont participé à la fois les dirigeants du parti et leurs aspirants. Le lobby industriel Protofis et l'Union des Propriétaires Terriens ont enfin adressé leurs félicitations au Hetman, l'invitant même à leur propre événement. Même si ce fut avec tact, celui-ci refusa d'y participer."
- ukraine_events.8.a:0 "Gloire au fils préféré de l'Ukraine!"
+ ukraine_events.8.a:0 "Gloire au fils préféré de l'Ukraine !"
  ukraine_events.8.b:0 "Parlez moi des Hetmanistes."
 
  ukraine_events.9.t:0 "Le Mouvement Hetmaniste"
@@ -1372,7 +1372,7 @@ UKR_KR_gathering_storm_desc: "Le rêve d'une Ukraine indépendante s'est concré
 
  ukraine_events.12.t:0 "Hanomag AG ouvre une usine de tracteurs"
  ukraine_events.12.d:0 "Aujourd'hui, l'entreprise allemande de construction et d'automobile Hanomag a ouvert une nouvelle usine de tracteurs dans la ville de [202.GetName], dans le cadre de sa série d'investissements en Ukraine. Ils rejoignent les entreprises allemandes qui ont ouvert de nouvelles usines de fabrication en Ukraine, attirées par des protections des travailleurs et des salaires plus faibles qu'en Allemagne même.\n\nL’URDP a vivement critiqué cette pratique, la considérant comme une exploitation des citoyens ukrainiens par des capitaux étrangers. En ce qui concerne la coalition du Hetman, ils justifient les accords lucratifs avec les entreprises allemandes par les avantages économiques qu'ils apportent - création d'emplois, accès plus facile aux biens industriels tels que les tracteurs - et, officieusement dans de nombreux cas, par les cadeaux généreux que les fonctionnaires de l'État ont reçus. Même les moins sensibles à cette cause soutiennent que, l’Ukraine ne dispose que de capitaux et de savoir-faire industriel limités, les investissements étrangers sont le seul moyen de démarrer le long processus d’industrialisation."
- ukraine_events.12.a:0 "Plus de tracteurs!"
+ ukraine_events.12.a:0 "Plus de tracteurs !"
 
  ukraine_events.13.t:0 "Grêves à [192.GetCapitalVictoryPointName]"
  ukraine_events.13.d:0 "Aujourd'hui, à [192.GetCapitalVictoryPointName], les travailleurs de l'un des nombreux chantiers navals ont déposé leurs outils et bloqué les entrées au moyen de chaînes avant d'énumérer leurs diverses revendications telles qu'un meilleur salaire, moins d'heures et de meilleures protections de sécurité. Les propriétaires des chantiers navals ont exigé que nous envoyions la police pour mettre un terme à la grève par la force."
@@ -1385,19 +1385,19 @@ UKR_KR_gathering_storm_desc: "Le rêve d'une Ukraine indépendante s'est concré
  ukraine_events.14.b:0 "Ne pas irriter inutilement ses partisans."
  ukraine_events.14.a.tt:0 "Arrêter Petlioura pourrait rendre les négociations avec l'opposition §Rimpossible§! à l'avenir."
 
- ukraine_events.15.t:0 "Petlioura échappe à son arrestation!"
+ ukraine_events.15.t:0 "Petliura Échappe à son Arrestation !"
  ukraine_events.15.d:0 "La police n'a pas réussi à capturer Symon Petlioura. Ils ont tenté d'organiser une arrestation à [792.GetCapitalVictoryPointName], mais il semble qu'il ait été prévenu par un membre des forces de police et qu'il ait disparu de la ville.\n\nPoint positif, nous avons réussi à annuler son rassemblement... mais la nouvelle de la tentative d'arrestation s'est rapidement répandue et a semblé susciter à la fois le ridicule et la haine envers nos forces de l'ordre."
  ukraine_events.15.a:0 "Mince."
 
- ukraine_events.16.t:0 "Le Lundi Noir s'abat sur l'Ukraine!"
+ ukraine_events.16.t:0 "Le Lundi Noir S'abat sur l'Ukraine !"
  ukraine_events.16.d:0 "La nouvelle de l’effondrement total du marché boursier allemand et de ses répercussions mondiales est arrivée en Ukraine. Du jour au lendemain, des dizaines d’entreprises allemandes se sont retirées, ont annoncé leur intention de le faire ou ont été contraintes à la faillite. De nombreux travailleurs ukrainiens risquent de se retrouver au chômage à très court terme. Pire encore, nos industries minières et agricoles devraient perdre une grande partie de leurs clients en Allemagne.\n\nEn raison de divers accords commerciaux avec l’Allemagne, l’Ukraine a toujours produit des quantités excédentaires de céréales pour nourrir l’alliance et atténuer les futures pénuries alimentaires. Mais comme les exportations devraient chuter rapidement cette année, de nombreux agriculteurs se retrouveront avec d’énormes excédents de blé et sans personne à qui le vendre. Les plus pessimistes conseillent aux paysans de commencer à brûler les céréales, car elles vaudront bientôt moins que le charbon."
- ukraine_events.16.a:0 "Arrêtez d'être pessimiste, le Hetman va arranger ça!"
+ ukraine_events.16.a:0 "Arrêtez d'être pessimiste, le Hetman va arranger ça !"
 
  ukraine_events.17.t:0 "\Naissance du Mouvement Démocratique Panukrainien"
  ukraine_events.17.d:0 "Vue la situation misérable de l'ouest de l'Ukraine, plongée dans un désespoir total à cause de la crise économique, il n'en fallait pas plus pour qu'elle s'enflamme. Des manifestations massives ont été organisées dans tout l’Ouest et, dans de nombreux endroits, la police a été confinée dans ses commissariats par les paysans en colère. Des dirigeants républicains en exil tels que Petlioura et Vynnychenko sont rentrés en Ukraine et ont commencé à organiser des rassemblements et à appeler à la désobéissance civile.\n\nEn tant que front politique du changement, les plus grands partis démocratiques et socialistes ont formé le VDR – Mouvement Démocratique Panukrainien. Composée de l’USDRP, de l’UPS-R et du R-RB et fortement soutenue par les Borotbystes et même l’URDP, cette alliance est unie derrière Petlioura et peut provoquer un changement majeur – voire même une révolution – en Ukraine. Le VDR a évidemment été déclaré tout aussi illégal que les autres projets de Petlioura, mais dans la situation actuelle, nous n'avons aucune marge de manoeuvre."
- ukraine_events.17.a:0 "Des Révolutionnaires, ils sont venus en force!"
+ ukraine_events.17.a:0 "Des Révolutionnaires, ils sont venus en force !"
 
- ukraine_events.18.t:0 "L'Archiduc Wilhelm s'exprime!"
+ ukraine_events.18.t:0 "L'Archiduc Wilhelm S'exprime !"
  ukraine_events.18.d:0 "Pendant l'occupation de l'Ukraine par les puissances centrales en 1917, un ukrainophile parvenu, l'Archiduc d'Autriche, a conduit ses fusiliers du Sich profondément dans le territoire ukrainien et s'est présenté comme le « Vasyl Vyshyvanyi, roi d'Ukraine ». Soutenu par l’empereur Charles Ier, le garçon de 22 ans allait devenir le dirigeant d’une monarchie ukrainienne soutenue par l’Autriche. Mêlé aux paysans, il devint très populaire pour sa capacité à vivre comme eux et sa gestion indulgente des territoires sous son commandement. Heureusement pour nous, tous les projets autrichiens d’une monarchie ukrainienne se sont effondrés en 1919 avec la consolidation de l’Hetmanat soutenu par l’Allemagne et l'Archiduc Wilhelm s'est enfuit en Galice.\n\nMais à présent, le prétendant a montré son vrai visage lors d'un rassemblement à [199.GetCapitalVictoryPointName], s'exprimant aux côtés de Symon Petlioura et appelant à la résistance contre « l'Hetman Fantôche Allemand »."
  ukraine_events.18.a:0 "Dites à ces Habsbourg de retourner à Vienne!"
 
@@ -1405,9 +1405,9 @@ UKR_KR_gathering_storm_desc: "Le rêve d'une Ukraine indépendante s'est concré
  ukraine_events.19.d:0 "Un certain nombre de grands hommes d'affaires ukrainiens se sont réunis dans le cadre d'un projet parrainé par l'État visant à acheter les actions majoritaires des Chemins de Fer Prussiens de l'Est, une filiale de la compagnie ferroviaire d'État prussienne qui exploite la majorité des chemins de fer en Ukraine.\n\nAvec cette transaction, la propriété du chemin de fer est transférée à la société ferroviaire ukrainienne, qui reste malgré tout grandement sous propriété privée allemande."
  ukraine_events.19.a:0 "Très bien."
 
- ukraine_events.20.t:0 "Appel à la Grêve Générale!"
+ ukraine_events.20.t:0 "Appel à la Grève Générale !"
  ukraine_events.20.d:0 "Le VDR a déclaré une grève générale dans tous les centres industriels du pays. Une grande partie des campagnes a déjà été entraînée dans la résistance civile, mais les troubles se sont désormais également étendus aux villes. La majeure partie de [202.GetName] est à l'arrêt et les syndicats de [192.GetCapitalVictoryPointName], [221.GetCapitalVictoryPointName] et [137.GetCapitalVictoryPointName] ont également rapidement rejoint la bataille. Plus inquiétant encore, les Borotbystes et d’autres socialistes radicaux ont retrouvé leur importance nationale en tant que leaders virulents des grèves, à la tête des rassemblements Anti-Hetman, dans de nombreuses villes.\n\nLes exigences du VDR sont totalement déraisonnables, calquées sur les programmes quasi socialistes de Ruthénie Blanche. Pour l'instant, la police veille au calme et les incidents sont sous contrôle... mais la situation semble susceptible de dégénérer."
- ukraine_events.20.a:0 "Les traîtres sont partout!"
+ ukraine_events.20.a:0 "Les traîtres sont partout !"
 
  ukraine_events.22.t:0 "Les travailleurs des transports se joignent à la grève"
  ukraine_events.22.d:0 "Les syndicats des cheminots et des dockers se sont joints à la grève générale, paralysant le système de transport à travers le pays. Des trains remplis de wagons remplis de céréales précoces et d'autres produits agricoles gisent dans des gares vides, leur contenu pourrissant lentement. Les mines et les fonderies d’acier ne peuvent pas acheminer leurs produits vers les usines. Les marchandises exportées encombrent les ports, car les navires ne sont pas chargés.\n\nLes revendications des grévistes sont devenues de plus en plus dures, certains appelant même à l'abdication du Hetman lui-même et à l'instauration d'une république libre et démocratique."
@@ -1525,9 +1525,9 @@ UKR_KR_gathering_storm_desc: "Le rêve d'une Ukraine indépendante s'est concré
  ukraine_events.55.a:0 "Utilisez plutôt cet argent pour financer les transports publics !"
  ukraine_events.55.b:0 "Cela semble être une entreprise intéressante !"
 
- ukraine_events.56.t:0 "Explosion d'un zeppelin à [137.GetCapitalVictoryPointName]!"
+ ukraine_events.56.t:0 "Explosion d'un Zeppelin à [137.GetCapitalVictoryPointName] !"
  ukraine_events.56.d:0 "A l'occasion d'une nouvelle choquante tout droit venue de Crimée, il est apparu qu'un zeppelin qui venait de quitter le port avait explosé, entraînant la mort de tous les passagers et de l'équipage. Des équipes de recherche entières ont été dépêchées pour parcourir les eaux à la recherche des restes des défunts. Des témoins de l'incident ont décrit l'explosion comme soudraine et ayant "peint le ciel en orange et rouge", l'épave tombant peu après dans la mer. L'estimation officielle du nombre de blessés dans les décombres n'a pas encore été effectuée, mais heureusement, ce nombre devrait être faible.\n\nLa ville étant verrouillée, la cause de l’incident et l’implication ou non d’un acte criminel restent un mystère. Quoi qu'il en soit, le gouvernement a déclaré que tous les zeppelins devaient être cloués au sol jusqu'à nouvel ordre et on s'attend à ce qu'une interdiction totale du transport suive sous peu, en supposant qu'il s'agisse réellement d'un accident."
- ukraine_events.56.a:0 "Grands dieux!"
+ ukraine_events.56.a:0 "Grands dieux !"
 
  ukraine_events.57.t:0 "Mémoires de Pavlo Skoropadskyi"
  ukraine_events.57.d:0 "Malgré l’alliance militaire et près de deux décennies d’amitié entre les deux pays, de nombreux Allemands ignorent toujours tout des affaires ukrainiennes. Aujourd’hui – un an après la fin du soulèvement – ​​un nouveau compte rendu complet de la politique ukrainienne et du soulèvement a été publié à Berlin par nul autre que Skoropadskyi lui-même.\n\nDans sa préface, Skoropadskyi note qu'il lui manque le désir ou la capacité de rédiger des mémoires intéressantes, ce qui est exacerbé par son grand âge et près de vingt ans de règne. Cependant, il aborde les points les plus cruciaux du soulèvement, le racontant comme l’un des moments les plus stressants de sa vie. Il impute l'échec du gouvernement à réprimer les forces républicaines, à l'incohérence et à l'ignorance de la coalition et de la SHD, qui, selon Skoropadskyi, avaient tous deux une « vision étroite et unilatérale des choses ».\n\nEn outre, Skoropadskyi attribue l'échec du gouvernement à mener à bien les efforts de réforme agraire, ainsi que le manque d'actions pour atténuer la crise du Lundi Noir, à la présence des dirigeants du VSZV et de Protofis, ajoutant que lui les aurait renvoyés du gouvernement dès que la situation aurait été stabilisée.\n\nBien que les mémoires de Skoropadskyi soient devenus populaires dans les librairies de Berlin, elles sont passées quasiment inaperçues en Ukraine même : sans le soutien des forces allemandes, le mouvement hetmaniste a éclaté comme une bulle, et il semble peu probable qu’il reprenne de l’importance de si tôt."
@@ -1555,7 +1555,7 @@ UKR_KR_gathering_storm_desc: "Le rêve d'une Ukraine indépendante s'est concré
 
  ukraine_events.62.t:0 "Le Hetman dénonce le chauvinisme russe"
  ukraine_events.62.d:0 "À une époque où le revanchisme russe monte et où un conflit à grande échelle entre l’Ukraine et la Russie semble non seulement possible, mais probable, les groupes qui ont été considérés comme une façade cachant un alignement politique sur la Russie ont fait l’objet d’un examen minutieux, le plus notable étant l'Union Russe en Ukraine.\n\nMais parmi toutes les accusations et les accusations portées contre ceux qui sont pro-russes et ceux qui ne le sont pas, la plus odieuse vient peut-être principalement de la Ligue des Nationalistes Ukrainiens, qui a calomnié le Hetman lui-même. Il est clair que la Ligue cherche désespérément à conserver l’influence qu’elle avait autrefois sur les campagnes, mais nos efforts réussis pour distribuer des terres à nos paysans ont fait comprendre à l’Ukrainien moyen qu’il ne servait à rien de s’impliquer dans une politique radicale. Néanmoins, ils ont accusé Skoropadskyi de russophilie en raison de ses associations antérieures avec les tsaristes au début de l'Hetmanat et de sa politique ethnico-linguistique modérée.\n\nLe nombre croissant d'accusations dirigées contre l'Hetman ainsi que la situation géopolitique actuelle ont obligé l'Hetman à prononcer un discours sur la place Khreschatyk, où il a dénoncé le chauvinisme des dirigeants russes. Il a dénoncé l'affirmation russe selon laquelle la nation ukrainienne et l'ukrainisme étaient une invention allemande et autrichienne visant à affaiblir la Russie, affirmant également qu'il existait un esprit ukrainien commun au sein du peuple, qui a prospéré depuis l'obtention de l'indépendance. En outre, Skoropadskyi a répondu directement aux accusations selon lesquelles il était pro-russe, déclarant que les antécédents de son gouvernement en matière de promotion de la langue et des institutions culturelles ukrainiennes étaient quelque chose que même ses opposants reconnaissent. Il a terminé son discours en proclamant que, tout comme le temps ne peut pas reculer, le peuple ne peut pas être contraint d'abandonner ses idées et que, quoi qu'il en soit, l'Ukraine existera toujours sous une forme ou une autre."
- ukraine_events.62.a:0 "Notre Hetman est un vrai patriote!"
+ ukraine_events.62.a:0 "Notre Hetman est un vrai patriote !"
 
  ukraine_events.63.t:0 "Les Grecs d'Ukraine"
  ukraine_events.63.d:0 "Descendante des colons grecs qui ont établi une colonie sur l'île de Berezan au 7ème siècle avant JC, la petite minorité grecque d'Ukraine existe depuis des siècles. Ils ont retenu l'attention dans la banlieue de [227.Controller.GetVictoryPointName_6420], où le nombre de locuteurs grecs dépasse en fait le nombre de russophones et où la minorité grecque est la plus importante.\n\nJusqu’à récemment, peu de Grecs parlaient couramment leur langue maternelle ; la plupart des Grecs fréquentaient les écoles russes, et seul un petit pourcentage fréquentait les écoles ukrainiennes. Mais il y a dix ans, alors que la langue et les institutions culturelles ukrainiennes commençaient à être promues, une école pédagogique de langue grecque et une école d'agriculture ont été ouvertes à [227.Controller.GetVictoryPointName_6420]. Coïncidant avec le programme gouvernemental de réforme agraire en cours, l'école d'agriculture a été considérablement agrandie.\n\nQuant à l'école pédagogique, elle comprend les lectures de l'écrivain grec ukrainien le plus célèbre de son époque : Georgis Kostoprav. Les œuvres de Kostoprav, principalement écrites en [227.Controller.GetVictoryPointName_6420] grec, comprennent des traductions d'écrivains russes et ukrainiens célèbres comme Alexandre Pouchkine et Taras Chevtchenko. L'école a permis aux Grecs de [227.Controller.GetVictoryPointName_6420] de se familiariser avec la culture ukrainienne et russe sans oublier la leur."
@@ -1602,7 +1602,7 @@ UKR_KR_gathering_storm_desc: "Le rêve d'une Ukraine indépendante s'est concré
  ukraine_events.72.a:0 "Nous acceptons."
  ukraine_events.72.b:0 "Jamais."
 
- ukraine_events.73.t:0 "[FROM.GetName] accepte!"
+ ukraine_events.73.t:0 "[FROM.GetName] Accepte !"
  ukraine_events.73.d:0 "Le gouvernement [FROM.GetAdjective] a accepté notre proposition d'accès par le détroit des Dardanelles et permettra à notre flotte de se déplacer librement à travers les détroits « pour le maintien des intérêts mutuels dans la région méditerranéenne ». Nos navires peuvent désormais participer à des opérations en dehors de la mer Noire."
  ukraine_events.73.a:0 "Grandiose ! "
 
@@ -1665,7 +1665,7 @@ UKR_KR_gathering_storm_desc: "Le rêve d'une Ukraine indépendante s'est concré
 
  ukraine_events.84.t:0 "Taras Bulba Libéré"
  ukraine_events.84.d:0 "Malgré le feu et le sang versés par l'Ukraine, nous avons survécu, tout comme les rêves du grand réalisateur Oleksandr Dovzhenko. Son projet de plusieurs décennies, l'adaptation au cinéma du roman du XIXe siècle "Taras Boulba", a finalement été achevé et est désormais projeté sur grand écran. L'histoire de Taras Boulba est compliquée, écrite au XIXe siècle par l'écrivain russe  d'origine ukrainienne Nikolaï Gogol. L'œuvre elle-même ainsi que son auteur ont toujours été controversés entre nationalistes ukrainiens et russes. Bien que Gogol soit né dans une longue lignée de cosaques ukrainiens, il évolue principalement dans les cercles littéraires russes. En tant qu’homme de deux mondes, il a fait remarquer qu’il ne donnait la préférence ni à la cause nationaliste russe ni à la cause nationaliste ukrainienne, ce qui a conduit les deux camps à le revendiquer souvent comme faisant partie des leurs.\n\nMême si Dovzhenko favorise la position ukrainienne dans ce conflit culturel, il s’efforce d’éviter de rouvrir les vieilles blessures laissées par la Seconde Weltkrieg. "Taras Boulba", qui se déroule au début du XVIIe siècle, raconte comment un courageux héros cosaque ukrainien et ses fils se soulèvent pour se rebeller contre la République des Deux Nations Polono-Lituanienne. Alors que le récit du roman original décrit les Polonais comme soutenus par les Juifs, les Criméens et d’autres collaborateurs, Dovzhenko a tenté de décrire un récit plus nuancé, présentant les hégémons étrangers comme incitant les populations chrétiennes, juives et musulmanes d’Ukraine à suivre leur volonté. D'autres changements notables incluent l'omission de la révérence de Gogol pour le Tsar Russe lorsque les rebelles ukrainiens réclament un libérateur pour les sauver, choisissant d'utiliser une description plus ambiguë d'un leader ou d'une figure paternelle qui les délivrera de l'oppression.\n\nEnfin, le film présente plusieurs allégories de la République Populaire Ukrainienne, décrivant cette partie de la résistance ukrainienne du XVIIe siècle dans le cadre d'une lutte plus large contre la domination étrangère de toutes sortes, en particulier celle des capitaux étrangers venus de Berlin, d'Autriche et de Moscou."
- ukraine_events.84.a:0 "Félicitations à Dovjenko!"
+ ukraine_events.84.a:0 "Félicitations à Dovjenko !"
 
  ukraine_events.85.t:0 "Lily"
  ukraine_events.85.d:0 "Une nouvelle initiative artistique a balayé la scène théâtrale ukrainienne, alors que les mécènes et les créateurs consacrent leurs efforts à soutenir la guerre contre la Russie. "Lileia" (Lily) est un ballet dramatique et nationaliste, avec un livret écrit par Vsevolod Chagovets qui a également organisé la mise en scène et une partition captivante composée par Kostiantyn Dankevych. L'origine de l'histoire est dérivée des poèmes et des ballades de l'auguste poète ukrainien du XIXe siècle Taras Shevchenko, en particulier de son recueil Kobzar (Le Ménestrel). Plutôt qu’une adaptation directe d’une œuvre unique, la pièce est une compilation de nombreuses parties différentes de Kobzar, destinée à créer un récit unifié.\n\nLa représentation d'ouverture a eu lieu à l'Opéra National d'Ukraine à [202.GetName]. L'oeuvre raconte l'histoire d'une jeune paysanne ukrainienne nommée Lileia, vivant dans une Ukraine des années 1820 et vicieusement opprimée par la dynastie des Romanov, ou les « Moscovites » comme ils sont désignés dans la pièce. Elle tombe amoureuse d'un compatriote, nommé Stepan, mais après avoir demandé au cruel prince moscovite qui administre leur village l'autorisation de se marier, elle se retrouve l'objet de ses désirs pervers. Lorsque le prince tente de kidnapper Lileia, elle et Stepan sont emmenés par leurs camarades du village mais finissent par être séparés en cours de route. Stepan est finalement capturé par les hommes du prince et aveuglé, mais ne se laisse pas décourager par cette mutilation. Il prend l'identité d'un ménestrel errant, voyageant pour rallier le peuple ukrainien à ses côtés grâce à la musique.\n\nAprès avoir retrouvé Lileia, les deux sont à nouveau attaqués par le prince moscovite. Lileia reçoit un coup mortel destiné à son amant, sa mort inspirant Stepan et les paysans ukrainiens à se rebeller et à exécuter le prince, après quoi ils promettent de créer une nouvelle nation d'hommes égaux, libres de toute tyrannie. Cette histoire saisissante d’oppression, de martyre et de rébellion a été présentée comme une allégorie de la longue lutte de l’Ukraine contre l’hégémonie russe."
@@ -1800,7 +1800,7 @@ UKR_KR_gathering_storm_desc: "Le rêve d'une Ukraine indépendante s'est concré
  ukraine_relief_bill_events.99.a:0 "Le Soim a eu sa chance. Il est temps d'adopter une approche plus directe."
 
  ukraine_relief_bill_events.100.t:0 "Vote Sur le Projet de Loi d'Allègement"
- ukraine_relief_bill_events.100.d:0 "Le temps est venu! Après des mois de marchandages, de plaidoyers, de menaces et de compromis, nous y sommes enfin. La commission financière du Soim a approuvé le projet de loi et il est prêt à être soumis au vote. Il est tout à fait possible que ce jour décide du cours de toute la crise qui frappe notre nation. Il ne nous reste plus qu'à attendre les résultats du vote. Et le projet de loi est..."
+ ukraine_relief_bill_events.100.d:0 "Le temps est venu ! Après des mois de marchandages, de plaidoyers, de menaces et de compromis, nous y sommes enfin. La commission financière du Soim a approuvé le projet de loi et il est prêt à être soumis au vote. Il est tout à fait possible que ce jour décide du cours de toute la crise qui frappe notre nation. Il ne nous reste plus qu'à attendre les résultats du vote. Et le projet de loi est..."
  ukraine_relief_bill_events.100.a:0 "Voté à la baisse !"
  ukraine_relief_bill_events.100.b:0 "Adopté !"
 
@@ -2127,7 +2127,7 @@ UKR_KR_gathering_storm_desc: "Le rêve d'une Ukraine indépendante s'est concré
 
  ukraine_negotiations_events.20.t:0 "La Question des Pouvoirs du Soim"
  ukraine_negotiations_events.20.d:0 "La troisième revendication du VDR concerne les pouvoirs du Soim. Le principe du parlementarisme doit être inscrit dans la loi, ce qui signifie que le Ministre-Otaman ne doit être responsable que devant le Soim. Il serait nommé par le Soim et démis de ses fonctions par un vote de censure. Le Hetman accepterait simplement celui qui serait proposé par le Soim, comme dans les « démocraties civilisées ».\n\nEn pratique, cela transformerait l’Ukraine en une monarchie parlementaire, où le pouvoir du Hetman deviendrait largement symbolique. Même si Danylo et Doroshenko sont prêts à envisager cette idée, il pourrait être totalement impossible de la soumettre devant le Soim actuel ou à Pavlo lui-même. Après tout, cela signifierait que Skoropadskyi renoncerait à une grande partie de son pouvoir. Promettre une telle réforme au VDR pour ensuite la voir bloquée par le Hetman ne servirait les intérêts de personne."
- ukraine_negotiations_events.20.a:0 "Nous devons essayer!"
+ ukraine_negotiations_events.20.a:0 "Nous devons essayer !"
  ukraine_negotiations_events.20.b:0 "C'est trop radical."
 
  ukraine_negotiations_events.21.t:0 "Les négociations s'effrondrent"
@@ -2648,7 +2648,7 @@ UKR_KR_gathering_storm_desc: "Le rêve d'une Ukraine indépendante s'est concré
 
  ukraine_shd_events.24.t:0 "Levez-vous milices cosaques !"
  ukraine_shd_events.24.d:0 "En réponse à la guerre contre la Russie, les milices cosaques, fidèles à Ivan Poltavets-Ostrianytsia et à la Grande Rada Cosaque, se sont levées pour défendre la nation!"
- ukraine_shd_events.24.a:0 "Excellent !"
+ ukraine_shd_events.24.a:0 "Excellent !"
 
  ukraine_shd_events.25.t:0 "Un encouragement de Son Altesse Sérénissime"
  ukraine_shd_events.25.d:0 "S'adressant directement au Conseil des Ministres, le Hetman Skoropadskyi a félicité aujourd'hui la SHD pour son profond amour et son profond respect de la Patrie, notant que ce sentiment est au cœur de la tradition cosaque. Il a souligné l'importance de ce sentiment dans le contexte de l'Hetmanat, affirmant qu'un sentiment d'identité nationale fort et unifié est essentiel au succès de tout projet politique. Les remarques du Hetman Skoropadskyi ont été considérées comme un soutien retentissant à la SHD et à son engagement à construire un hetmanat fidèle aux idéaux de la nation cosaque. Ils ont été largement salués par les membres de l'organisation, qui y ont vu une validation de leur travail acharné et de leur dévouement à la cause de la construction d'un avenir meilleur pour tous les Ukrainiens."
@@ -2937,7 +2937,7 @@ UKR_KR_gathering_storm_desc: "Le rêve d'une Ukraine indépendante s'est concré
  ukraine_borotbyst_events.77.a:0 "Une fin appropriée pour ce pathétique "Hetman"."
 
  ### Borotbyst revolution's international consequences
- ukraine_borotbyst_events.100.t:0 "Révolution en Ukraine!"
+ ukraine_borotbyst_events.100.t:0 "Révolution en Ukraine !"
  ukraine_borotbyst_events.100.d:0 "Les troubles en Ukraine ont finalement débordé et le mouvement communiste-syndicaliste Borotbyste a pris le contrôle de la république. Le gouvernement légal d’Ukraine a réussi à s’enfuir et demande actuellement à l’Allemagne de l’aider à lutter contre la menace socialiste. Choumski, président de la nouvelle République Socialiste, les a dénoncés comme traîtres de classe et collaborateurs, et a déclaré la souveraineté totale de l'Ukraine. Une mobilisation rapide a commencé pour défendre la révolution contre toute menace étrangère. Avec cette tournure des événements, le pilier de l’hégémonie allemande à l’Est a été brisé."
  ukraine_borotbyst_events.100.a:0 "C'est catastrophique."
  ukraine_borotbyst_events.100.b:0 "Cela pourrait être une opportunité."
@@ -3025,7 +3025,7 @@ UKR_KR_gathering_storm_desc: "Le rêve d'une Ukraine indépendante s'est concré
 
  ukraine_borotbyst_events.114.t:0 "L'Internationale se joint à nous !"
  ukraine_borotbyst_events.114.d:0 "Après une longue guerre, la Troisième Internationale a finalement vaincu la menace allemande et a désormais tourné son attention vers notre cause. Les espoirs en Ukraine étaient faibles, mais ils ont renversé toutes les attentes : prenant un grand risque et démontrant au passage leur véritable engagement en faveur de la fraternité socialiste, ils ont directement rejoint notre camp contre la Russie. Nous avons déjà montré que l’ours russe était en réalité un tigre de papier qui leur avait résisté pendant si longtemps, et avec l’Internationale à nos côtés, notre victoire est presque inévitable !"
- ukraine_borotbyst_events.114.a:0 "A Moscou!"
+ ukraine_borotbyst_events.114.a:0 "À Moscou !"
 
  ukraine_borotbyst_events.115.t:0 "Traité d'assistance mutuelle russo-ukrainien"
  ukraine_borotbyst_events.115.d:0 "Maintenant que nous combattons côte à côte contre les armées esclavagistes du Kaiser et leurs maîtres bourgeois, nous pouvons enfin officialiser l'amitié éternelle entre les peuples ukrainien et russe. Dans un langage conciliant, la délégation russe a détaillé les clauses du traité proposé. L'économie ukrainienne était objectivement au point mort après la rupture des liens avec les marchés d'Europe centrale ; des milliers de personnes au chômage, des agriculteurs incapables de vendre leurs récoltes et des usines fermées faute de pièces détachées. De plus des millions de personnes demandaient au gouvernement d'atténuer les problèmes, mais à court terme, il n'y avait guère d'autre choix que de recruter tous les chômeurs dans l'armée. Ainsi, la solution naturelle serait un accord global entre la Russie et l’Ukraine qui unirait nos deux économies pour leur prospérité commune. En outre, la coopération en matière de recherche et militaire garantirait le progrès et la stabilité.\n\nDepuis, un débat furieux fait rage au Parlement. Les plus critiques affirment qu’accepter les conditions russes reviendrait essentiellement à renoncer à notre indépendance durement gagnée, ce qui nous placerait au même niveau que Skoropadskyi. D’autres plus réalistes partagent cet avis, mais admettent qu’il n’existe pas d’autres véritables options, car l’Ukraine ne pourra jamais non plus trouver la prospérité dans un isolement obstiné. En outre, une alliance avec l’Occident ne serait que symbolique, car ils ne peuvent pas nous aider en pratique. D'autres, enfin, soutiennent sans réserve le traité, rappelant que la Russie de [SOV.GetLeader] n'est pas la Russie bolchevique et que des querelles vieilles de plusieurs décennies ne devraient pas faire obstacle à la coopération internationale ; Marx n'a-t-il pas déclaré que les frontières n'auraient plus d'importance après le succès de la révolution prolétarienne ?\n\nDerrière le débat public, la délégation russe a été plus claire. Ne pas accepter le traité conduirait à l’isolement économique et la Russie pourrait devoir intervenir pour aider le prolétariat ukrainien à chasser les faux socialistes."
@@ -4174,13 +4174,13 @@ UKR_KR_gathering_storm_desc: "Le rêve d'une Ukraine indépendante s'est concré
 
  ukraine_republican_events.265.t:0 "Congrès d'Urgence du Parti !"
  ukraine_republican_events.265.d:9 "Au fil des années, nous avons été bombardé d'appels en faveur d'une classe politique qui soit enfin à la hauteur. «Nous avons besoin de nouveaux dirigeants, de nouvelles idées et de nouvelles personnalités », disent-ils. « C'est exact », répondons-nous. La défaite de la Russie étant imminente, il a été décidé d'organiser des élections spéciales au congrès du Parti Social-Fémocrate des Travailleurs Ukrainiens. Néanmoins, une controverse a éclaté assez peu de temps après.\n\nLes quatre principaux candidats élus au Comité Central sans grande opposition étaient Oleksii Kozlovskyi, Mykola Malashko, Ivan Luchyshyn et Petro Volyniak. Kozlovskyi et Malashko, tous d'anciens soldats (le premier ayant été officier), ils partagent également une passion pour l'économie coopérative et les activités pédagogiques. Luchyshyn n'est pas très éloigné des deux premiers et se concentre également sur les coopératives, bien que davantage sur l'aspect économique pratique des choses. Volyniak, en revanche, se concentre exclusivement sur le travail global du Ministère de l’Éducation. Néanmoins, tous les quatre ont réussi à se trouver une place dans la chambre dirigeante de l’USDRP.\n\nMais ensuite, les choses ont mal tourné. Alors qu'il ne restait plus qu'une place de membre au Comité Central, deux candidats opposés ont été examinés. D’un côté, il y avait Yurii Lavrinenko. Lavrinenko, écrivain célèbre et polémiste de premier plan, a acquis une certaine influence grâce à ses relations étroites avec des écrivains progressistes d'Ukraine, de Galicie et même de Pologne.\n\nD’un autre côté, il y avait Ivan Bahrianyi. De même, Bahrianyi est également un écrivain célèbre et un polémiste de premier plan. Mais contrairement à Lavrinenko, Bahrianyi se distingue également par sa rhétorique enflammée et sa teinte politique anti-russe plutôt radicale (pour un social-démocrate). S’il est élu, il sera certainement considéré comme l’un des dirigeants des groupes partis les plus à droite.\n\nJusqu'à présent, Lavrinenko est le favori pour le remporter. Mais il pourrait y avoir un bouleversement. En tout cas, le résultat consacre la victoire de..."
- ukraine_republican_events.265.a:0 "Victoire de Lavrinenko!"
+ ukraine_republican_events.265.a:0 "Victoire de Lavrinenko !"
  ukraine_republican_events.265.b:0 "Le succès de Bahrianyi!"
 
  ukraine_republican_events.267.t:9 "Coup d'État pro-allemand en Ukraine"
  ukraine_republican_events.267.d:9 "Après une période de détérioration des relations à la suite de l'élection du parti socialiste RDS en Ukraine, le ministère allemand des affaires étrangères a finalement décidé de réagir. Les détails ne sont pas clairs, mais il semble que la demande de l'ambassadeur allemand de débarrasser le gouvernement ukrainien des "éléments socialistes radicaux" n'ait pas été suivie d'effet.\n\nAvant d'être inévitablement renversé, Vynnychenko a décidé de fuir à Moscou. Un nouveau gouvernement composé de progressistes libéraux et de sociaux-démocrates modérés a été inauguré à [202.GetName] au lendemain de la crise, garantissant une Ukraine loyale envers Berlin sans qu'un coup de feu ne soit tiré."
  ukraine_republican_events.267.a:0 "Tournez le dos à un communiste et il vous tirera dans le dos."
- ukraine_republican_events.267.b:9 "C'est totalement inacceptable !"
+ ukraine_republican_events.267.b:9 "C'est totalement inacceptable !"
 
 ### LUN Events ###
  ukraine_lun_events.2.t:0 "L'Assemblée Nationale Élit les Konovalets"
@@ -4289,7 +4289,7 @@ UKR_KR_gathering_storm_desc: "Le rêve d'une Ukraine indépendante s'est concré
  ukraine_lun_events.54.t:0 "Un cessez-le-feu avec l'Ukraine?"
  ukraine_lun_events.54.d:0 "Le nouveau gouvernement nationaliste ukrainien a déclaré un cessez-le-feu unilatéral avec nos forces, déclarant que la guerre à l’ouest était lointaine et que le projet impérialiste allemand ne signifiait plus rien pour le peuple ukrainien. Ils proposent une cessation des hostilités entre eux et notre alliance. Bien sûr, cela semble plutôt formel, car nous n’avons actuellement guère la capacité de frapper l’Ukraine et ils ne nous menacent pas non plus."
  ukraine_lun_events.54.a:0 "Signer la trêve."
- ukraine_lun_events.54.b:0 "Pas de compromis avec les agents de la réaction!"
+ ukraine_lun_events.54.b:0 "Pas de compromis avec les agents de la réaction !"
 
  ukraine_lun_events.55.t:0 "L’Ukraine suit sa propre voie"
  ukraine_lun_events.55.d:0 "Le régime nationaliste ukrainien a officiellement annulé ses traités militaires avec nous. Leur ambassadeur nous a informé que la République Nationale Ukrainienne n'était pas liée par les traités signés par le gouvernement du Hetman et que les élus du peuple ukrainien avaient choisi d'annuler ces traités injustes destinés à restreindre la souveraineté de l'Ukraine. Cependant, ils ont convenu de maintenir un certain nombre de traités économiques parmi les plus importants, tout en rejetant la possibilité de nationaliser les capitaux non ukrainiens à l'intérieur du pays. Dans leur déclaration, ils ont exposé un objectif vague : la création d’un bloc de régimes nationalistes partageant les mêmes idées autour de la mer Noire, libres de l’influence des grandes puissances telles que l’Allemagne et la Russie. Cependant, ils ne semblent pas constituer une menace militaire pour notre hégémonie, du moins pour le moment."
@@ -4297,7 +4297,7 @@ UKR_KR_gathering_storm_desc: "Le rêve d'une Ukraine indépendante s'est concré
  ukraine_lun_events.55.b:0 "Isolez les avec des sanctions."
  ukraine_lun_events.55.c:0 "C'est de la trahison."
 
- ukraine_lun_events.56.t:0 "Notre allié fait défection!"
+ ukraine_lun_events.56.t:0 "Notre allié fait défection !"
  ukraine_lun_events.56.d:0 "[FROM.GetName] a pris un tournant surprise dans sa diplomatie, en signant l'adhésion [FROM.GetAdjective]e à l'Union de la Mer Noire dirigée par l'Ukraine. Ils ont assuré leur intention de poursuivre leurs relations amicales avec nous, mais ont également déclaré que la nouvelle orientation visait la construction d'un bloc d'États nationalistes indépendants, libres de toute influence étrangère. Bien que cela ressemble définitivement à une trahison, cela ne viole spécifiquement aucun de nos traités. Cependant, certains ont souligné l’ultranationalisme et le militarisme du régime ukrainien comme une menace potentielle si son hégémonie devait encore grandir."
  ukraine_lun_events.56.a:0 "C'est leur droit."
  ukraine_lun_events.56.b:0 "Cet empire ukrainien doit être démantelé."
@@ -4360,7 +4360,7 @@ UKR_KR_gathering_storm_desc: "Le rêve d'une Ukraine indépendante s'est concré
  ukraine_foreign_policy_events.23.d:0 "Lorsqu’il est devenu clair qu’un traité Germano-Ukrainien était impossible, les trois puissances ont entamé un nouveau cycle de négociations. Les Autrichiens cherchaient à équilibrer l’équation pour leur propre bénéfice ; L'Ukraine serait l'alliée militaire de l'Autriche, mais resterait dans la Mitteleuropa. Cependant, l'aspect économique est beaucoup plus complexe, allant du droit des citoyens étrangers à faire des affaires en Ukraine sur un pied d'égalité avec les locaux jusqu'aux clauses protégeant les usines et les mines étrangères contre la nationalisation ou d'autres types de pression. Les conditions sont bien plus douces que celles initialement exigées par les Allemands."
  ukraine_foreign_policy_events.23.a:0 "Un retour à la stabilité, espérons-le."
  ukraine_foreign_policy_events.23.b:0 "Peu importe."
- ukraine_foreign_policy_events.23.c:0 "Magnifique!"
+ ukraine_foreign_policy_events.23.c:0 "Magnifique !"
 
  ukraine_foreign_policy_events.25.t:0 "Le Traité Germano-Ukrainien"
  ukraine_foreign_policy_events.25.d:0 "Après d’intenses négociations, les deux puissances sont parvenues à un accord fragile. La République Populaire Ukrainienne continuera d'être alliée militairement à l'Allemagne et accueillera des troupes allemandes dans le pays. Cependant, l'aspect économique est beaucoup plus complexe, allant du droit des citoyens étrangers à faire des affaires en Ukraine sur un pied d'égalité avec les locaux jusqu'aux clauses protégeant les usines et les mines étrangères contre la nationalisation ou d'autres types de pressions. Tout cela a permis à l'industrie allemande de maintenir la confiance dans l'Ukraine en tant que lieu d'investissement privilégié, mais cela deviendra sans aucun doute une épine dans le pied de la république."
@@ -4389,9 +4389,9 @@ UKR_KR_gathering_storm_desc: "Le rêve d'une Ukraine indépendante s'est concré
  ukraine_foreign_policy_events.30.a:0 "C'est un traître qui mérite de pourrir en prison."
  ukraine_foreign_policy_events.30.b:0 "Montrez à cet homme la compassion dont il n'a jamais fait preuve envers nous."
 
- ukraine_foreign_policy_events.32.t:0 "Révolution en Ukraine!"
+ ukraine_foreign_policy_events.32.t:0 "Révolution en Ukraine !"
  ukraine_foreign_policy_events.32.d:0 "Les troubles en Ukraine ont finalement débordé et le mouvement communiste-syndicaliste Borotbyste a pris le contrôle de la république. Le gouvernement légal d’Ukraine a réussi à s’enfuir et demande actuellement à l’Allemagne de l’aider à lutter contre la menace socialiste. Choumskyi, président de la nouvelle république socialiste, les a dénoncés comme traîtres de classe et collaborateurs, et a déclaré la souveraineté totale de l'Ukraine. Une mobilisation rapide a commencé pour défendre la révolution contre toute menace étrangère. Avec cette tournure des événements, le pilier de l’hégémonie allemande à l’Est a été brisé. Pire encore, le nouveau gouvernement s’est aligné sur les Russes à l’Est."
- ukraine_foreign_policy_events.32.a:0 "C'est catastrophique. Mettez les troupes sur le pied de guerre!"
+ ukraine_foreign_policy_events.32.a:0 "C'est catastrophique. Mettez les troupes sur le pied de guerre !"
  ukraine_foreign_policy_events.32.b:0 "Nous devons attendre notre heure."
 
  ukraine_foreign_policy_events.34.t:0 "L'Allemagne nous approche avec une proposition d'alliance"
@@ -4744,7 +4744,7 @@ UKR_KR_gathering_storm_desc: "Le rêve d'une Ukraine indépendante s'est concré
 
 ### SHD/PatAut Focuses ###
  UKR_all_the_hetmans_men: "Tous les hommes du Hetman"
- UKR_all_the_hetmans_men_desc: "En fin de compte, il revient au Hetman et aux hommes fidèles de la SHD de sauver l’Ukraine du Syndicalisme. Même si Petlioura et ses laquais ont fui, des traîtres se cachent toujours dans l'ombre, prêts à poignarder le Hetman et à plonger à nouveau la nation dans la guerre civile. Avec un gouvernement plus responsable désormais en place, nous pouvons garantir que les ennemis de l’Ukraine seront remis à leur place!"
+ UKR_all_the_hetmans_men_desc: "En fin de compte, il revient au Hetman et aux hommes fidèles de la SHD de sauver l’Ukraine du Syndicalisme. Même si Petlioura et ses laquais ont fui, des traîtres se cachent toujours dans l'ombre, prêts à poignarder le Hetman et à plonger à nouveau la nation dans la guerre civile. Avec un gouvernement plus responsable désormais en place, nous pouvons garantir que les ennemis de l’Ukraine seront remis à leur place !"
  UKR_a_united_organisation: "Une Organisation Unie"
  UKR_a_united_organisation_desc: "La SHD doit devenir une machine politique bien huilée, dont les membres sont unis par une cause commune et défendent la stabilité et la sécurité dont l’État a si désespérément besoin. Il ne devrait y avoir aucune tolérance pour la dissidence et aucune place pour un populisme bon marché – seulement une croyance inébranlable dans la sagesse de notre Hetman."
  UKR_will_of_the_cossack_nation: "L'Esprit de la Nation Cosaque"
@@ -5149,7 +5149,7 @@ UKR_KR_gathering_storm_desc: "Le rêve d'une Ukraine indépendante s'est concré
  UKR_education_for_all_event_tt: "Nous allons rénover l'§CUniversité Pédagogique de Kiev§!."
 
 #Socialist-Revolutionary/Council-Revolutionary Bloc Branch
- UKR_fight_and_you_will_overcome: "Boritesia - Poborete!"
+ UKR_fight_and_you_will_overcome: "Boritesia - Poborete !"
  UKR_fight_and_you_will_overcome_desc: "Nous n'avons rien à perdre à part nos chaînes. La seule façon de gagner est de commencer à se battre ! Heureusement, nous sommes bien préparés pour ce combat, puisque le peuple ukrainien tout entier est à nos côtés."
  UKR_fight_and_you_will_overcome_tt:9 "Si le §RRDS§! est au pouvoir, alors une révolution $syndicalist_coloured$ sera impossible."
  UKR_build_up_peasant_communities: "Bâtir des Communautés Paysannes"
@@ -5219,14 +5219,14 @@ UKR_KR_gathering_storm_desc: "Le rêve d'une Ukraine indépendante s'est concré
  UKR_if_denounce_personalistic_tendencies: "Si les §oRadicaux§! §RUPS-R§! ou §oRadicaux§! §RR-RB§!, l'esprit national aura des effets §Gplus importants§!."
 
 #Borotbyst Branch
- UKR_fighters_til_the_end: "Combattants jusqu'au bout!"
+ UKR_fighters_til_the_end: "Combattants jusqu'au bout !"
  UKR_fighters_til_the_end_desc: "Ces premiers courageux qui ont brandi l’étendard révolutionnaire et défié l’ordre capitaliste injuste resteront à jamais une source d’inspiration pour nous. Notre lutte doit être la continuation de la leur, et tout ennemi de la révolution doit comprendre qu'elle ne cessera pas tant que le bruit de nos chaînes brisées ne sera pas étouffé par le sang de nos oppresseurs."
  UKR_the_left_wing_unity: "La Force dans l'Unité"
  UKR_the_left_wing_unity_desc: "Afin de résister à un assaut de la contre-révolution, nous devons mettre de côté les petites divergences et forger une alliance entre toutes les forces véritablement révolutionnaires. L’affiliation formelle à un parti importe moins que l’adhésion fidèle aux idéaux de notre lutte de libération."
  UKR_question_of_ideological_rivals: "S'occuper des Petliouriens"
  UKR_question_of_ideological_rivals_desc: "Nous ne devons pas oublier les traîtres qui ont tenté de cacher leur nature profondément bourgeoise derrière le mince voile du « réformisme » et du « progressisme ». Les principaux d'entre eux se sont ralliés au drapeau Petliourien et ils doivent être traités conformément aux nécessités révolutionnaires."
  UKR_from_shopfloors_to_the_trenches:9 "Des Ateliers aux Tranchées"
- UKR_from_shopfloors_to_the_trenches_desc: "Aux armes! Nous appelons tous ceux qui sont capables de lutter à se lever et à défendre la cause révolutionnaire. Les forces réactionnaires qui nous entourent complotent pour éteindre la flamme de notre rébellion, et il est de notre devoir d’empêcher cela par tous les moyens nécessaires."
+ UKR_from_shopfloors_to_the_trenches_desc: "Aux armes ! Nous appelons tous ceux qui sont capables de lutter à se lever et à défendre la cause révolutionnaire. Les forces réactionnaires qui nous entourent complotent pour éteindre la flamme de notre rébellion, et il est de notre devoir d’empêcher cela par tous les moyens nécessaires."
  UKR_recruit_the_red_militia: "Armer la Garde Rouge"
  UKR_recruit_the_red_militia_desc: "Ceux qui ont rejoint notre lutte alors que notre succès était loin d’être assuré ont amplement prouvé leur dévouement et leur loyauté. Ils serviront de noyau autour duquel nos nouvelles cohortes révolutionnaires seront formées."
  UKR_establish_the_council_of_deputies: "Établir le Conseil des Députés"
@@ -5287,7 +5287,7 @@ UKR_KR_gathering_storm_desc: "Le rêve d'une Ukraine indépendante s'est concré
  UKR_change_from_within_desc: "Le véritable changement arrive lentement et laborieusement, mais il arrive néanmoins. Même si le chemin vers une véritable libération sociale peut être long et chaotique, rien n’empêchera le peuple ukrainien d’y parvenir."
  UKR_testament_fulfilled: "Testament respecté"
  UKR_testament_fulfilled_desc: "Quand je serai mort, enterre-moi\nDans ma bien-aimée Ukraine,\nMon tombeau sur un tumulus haut\nAu milieu de la plaine qui s'étend à l'infini."
- UKR_weltkrieg_has_ended:9 "La §CRussie a été vaincue dans la guerre qui nous oppose§!"
+ UKR_weltkrieg_has_ended:9 "§C$UKR_weltkrieg_has_ended_decision$§!"
  UKR_weltkrieg_has_ended_decision:9 "La Russie a été vaincue lors d'une guerre"
  UKR_UNR_finisher_1:0 "Paix et Prospérité"
  UKR_UNR_finisher_2: "Une Terre Généreuse"
