@@ -142,19 +142,18 @@ guiTypes = {
 			alwaystransparent = yes
 		}
 
-		iconType = {
-			name = "new_content"
-			position = { x = 149 y = 2 }
-			spriteType = "GFX_unplayed_content_notification"
-			alwaystransparent = yes
-		}
-
 		buttonType = {
 			name = "country"
 			quadTextureSprite = "GFX_country_selection_entry"
 			position = { x = 0 y = 0 }
 			clicksound = click_checkbox
-			pdx_tooltip = "" #KR: TODO: added element to prevent rendering of the leader description twice. Revert if fixed.
+		}
+
+		iconType = {
+			name = "new_content"
+			position = { x = 149 y = 2 }
+			spriteType = "GFX_unplayed_content_notification"
+			alwaystransparent = yes
 		}
 
 		instantTextBoxType = {
@@ -167,7 +166,6 @@ guiTypes = {
 			fixedsize = yes
 			format = center
 			Orientation = "UPPER_LEFT"
-			pdx_tooltip = "" #KR: TODO: added element to prevent rendering of the leader description twice. Revert if fixed.
 		}
 	}
 
@@ -188,7 +186,6 @@ guiTypes = {
 			quadTextureSprite = "GFX_country_selection_minor_entry"
 			position = { x = 0 y = 3 }		## adjusted from 0, 0 to properly align the element
 			clicksound = click_checkbox
-			pdx_tooltip = "" #KR: TODO: added element to prevent rendering of the leader description twice. Revert if fixed.
 		}
 
 		iconType = {
@@ -216,7 +213,6 @@ guiTypes = {
 			quadTextureSprite = "GFX_mini_country_selector"
 			position = { x = 0 y = 0 }
 			clicksound = click_checkbox
-			pdx_tooltip = "" #KR: TODO: added element to prevent rendering of the leader description twice. Revert if fixed.
 		}
 
 		iconType = {
@@ -815,7 +811,7 @@ guiTypes = {
 
 			gridboxType = {
 				name = "countries_grid"
-				position = { x = 330 y = 0 }			## setup for 4 slots; vanilla is 0, 0
+				position = { x = 465 y = 0 }			## setup for 4 slots; vanilla is 0, 0
 				size = { width = 100% height = 100% }
 				slotsize = { width = 132 height = 0 }	## adjusted from 150, 0 to make space for 9 slots
 				add_horizontal = yes
