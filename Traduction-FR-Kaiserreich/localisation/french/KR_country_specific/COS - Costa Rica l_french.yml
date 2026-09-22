@@ -35,22 +35,15 @@
 ### Tooltips ###
  COS_USA_denied_help:9 "Les §YUSA§! ont refusé notre demande"
  COS_GER_denied_help:0 "§YL'Allemagne§! a refusé notre demande"
- UFC_Labour_Accord: "L'§YUFC§! a signé l'§YAccord du Travailleur§!"
- ZKG_Labour_Accord: "L'§YZKG§! a signé l'§YAccord du Travailleur§!"
- cos_black_monday_tt: "§YLa faillite de ZKG§! n'a pas encore été résolue."
- CORTES: "§YLeón Cortés Castro§! a remporté la présidence"
- GUARDIA: "§YRafael Ángel Calderón Guardia§! a remporté la présidence"
+ COS_ZKG_labour_accord_tt:0 "L'§YZKG§! a signé l'§YAccord du Travailleur§!"
+ COS_ZKG_bankruptcy_not_solved_tt:0 "§YLa faillite de ZKG§! n'a pas encore été résolue."
  COS_Cortes_tt: "§RCortés restera en poste. Cela a des conséquences désastreuses!§!\n"
- ZKG_NO_SUPPORT: "L'§YArbre Économique§! se débloquera dans 5 ans."
- COTO_EXPANSION: "Le §YZKG§! déterminera l'emplacement des nouvelles plantations."
- ZKG_DEAL: "Débloque £decision_icon_small des §HDécisions§! pour arpenter les terres pour de nouvelles §YPlantations§!"
- UFC_DEAL: "Débloque £decision_icon_small des §HDécisions§! pour étendre le §YSiège de l'UFC§!"
- COS_UFC_HEADQUARTERS: "L'§YUFC§! établira son QG régional au Costa Rica."
- FERRER: "§YJosé Figueres Ferrer§! a pris la relève"
- COS_DUTY_TT:9 "$unlocks_decisions$ pour §YRenverser§! les dictateurs d'Amérique centrale"
- COS_PROGRESS_TT:9 "$unlocks_decisions$ pour Transformer le Costa Rica en un §YÉtat-Providence Démocratique§!"
- COS_ELECTIONS: "Les élections de 1940 n'ont pas encore eu lieu"
- JIMMY_DOWN:9 "Jiménez s'est retiré de la course."
+ COS_UFC_headquarters_decision_unlock:9 "$unlocks_decisions$ to §YDevelop Plantations§! around the Caribbean"
+ COS_no_ZKG_support:0 "L'§YArbre Économique§! se débloquera dans 5 ans."
+ COS_unlocks_topple_dictators_decisions:0 "$unlocks_decisions$ pour §YRenverser§! les dictateurs d'Amérique centrale"
+ COS_elections_ongoing:0 "Les élections de 1940 n'ont pas encore eu lieu"
+ COS_elections_ongoing_NOT:9 "The 1940 elections have concluded"
+ COS_jimenez_withdrew_from_election:9 "Jiménez has withdrawn from the race"
 
  COS_5_convoys_cost:9 "£topbar_convoys §Y5§!"
  COS_5_convoys_cost_blocked:9 "£topbar_convoys §R5§!"
@@ -60,11 +53,10 @@
  COS_10_convoys_cost_blocked:9 "£topbar_convoys §R10§!"
  COS_10_convoys_cost_tooltip:9 "La prise de décision coûte $COS_10_convoys_cost_blocked$."
 
- COS_UFC_higher_than_15:9 "Plus de §Y15§! d'influence de l'§YUFC§!"
+ COS_UFC_output_tooltip:9 "$industrial_capacity_factory_tooltip$\n$industrial_capacity_dockyard_tooltip$"
 
- COS_UFC_lower_than_95:9 "Moins de §Y95§! d'influence de l'§YUFC§!"
- COS_UFC_lower_than_98:9 "Moins de §Y98§! d'influence de l'§YUFC§!"
- COS_UFC_lower_than_100:9 "Moins de §Y100§! d'influence de l'§YUFC§!"
+ COS_UFC_value_dual_check_tt:9 "All of the following must be true:\n£indent More than §Y15%§! influence from the §YUFC§!\n£indent Influence from the §YUFC§! would §Rnot§! exceed §Y100%§!"
+ COS_UFC_lower_than_tt:9 "Less than $RIGHT|Y0$ influence from the §YUFC§!"
 
  COS_UFC_plus_tt:9 "L'influence de l'§YUFC§! augmente de £banana_texticon §R[?cos_UFC_change]%§!\n"
  COS_UFC_minus_tt:9 "L'influence de l'§YUFC§! diminue de £banana_texticon §G[?cos_UFC_change_dummy]%§!\n"
@@ -74,14 +66,8 @@
 
  COS_increase_UFC_lose:9 "Nous perdrons un supplément de £banana_texticon §G2%§! si nous complétons la priorité §YRégime de Développement Industriel§! ou §YUne Approche Différente§!."
 
- COS_ZKG_higher_than_10:9 "Plus de §Y10§! d'influence de la §YZKG§!"
- COS_ZKG_higher_than_11:9 "Plus de §Y11§! d'influence de la §YZKG§!"
- COS_ZKG_higher_than_14:9 "Plus de §Y14§! d'influence de la §YZKG§!"
- COS_ZKG_higher_than_17:9 "Plus de §Y17§! d'influence de la §YZKG§!"
- COS_ZKG_higher_than_20:9 "Plus de §Y20§! d'influence de la §YZKG§!"
-
- COS_ZKG_lower_than_98:9 "Moins de §Y98§! d'influence de la §YZKG§!"
- COS_ZKG_lower_than_95:9 "Moins de §Y95§! d'influence de la §YZKG§!"
+ COS_ZKG_higher_than_tt:9 "More than $RIGHT|Y0$ influence from the §YZKG§!"
+ COS_ZKG_lower_than_tt:9 "Less than $RIGHT|Y0$ influence from the §YZKG§!"
 
  COS_ZKG_plus_tt:9 "L'influence §YZKG§! augmente de £coffee_texticon §R[?cos_ZKG_change]%§!\n"
  COS_ZKG_minus_tt:9 "L'influence §YZKG§! diminue de £coffee_texticon §G[?cos_ZKG_change_dummy]%§!\n"
@@ -90,20 +76,19 @@
 
  COS_increase_ZKG_lose:9 "Nous perdrons un supplément de £coffee_texticon §G2%§! si nous complétons la priorité §YRégime de Développement Industriel§! ou §YUne Approche Différente§!."
 
- UFC_Profit_1_COST: "§Y1§! Profit de l'UFC"
- UFC_Profit_1_COST_blocked: "§R1§! Profit de l'UFC"
+ UFC_Profit_1_COST:9 "§Y1§! Profit de l'UFC"
+ UFC_Profit_1_COST_blocked:9 "§R1§! Profit de l'UFC"
  UFC_Profit_1_COST_tooltip: "Cela coûte $UFC_Profit_1_COST$ pour prendre cette décision "
 
- UFC_Profit_2_COST: "§Y2§! Profit de l'UFC"
- UFC_Profit_2_COST_blocked: "§R2§! Profit de l'UFC"
+ UFC_Profit_2_COST:9 "§Y2§! Profit de l'UFC"
+ UFC_Profit_2_COST_blocked:9 "§R2§! Profit de l'UFC"
  UFC_Profit_2_COST_tooltip: "Cela coûte $UFC_Profit_2_COST$ pour prendre cette décision "
 
- UFC_Profit_3_COST: "§Y3§! Profit de l'UFC "
- UFC_Profit_3_COST_blocked: "§R3§! Profit de l'UFC "
+ UFC_Profit_3_COST:9 "§Y3§! Profit de l'UFC "
+ UFC_Profit_3_COST_blocked:9 "§R3§! Profit de l'UFC "
  UFC_Profit_3_COST_tooltip: "Cela coûte $UFC_Profit_3_COST$ pour prendre cette décision "
 
- COS_UFC_profic_increase_tt:9 "Les bénéfices de l'§YUFC§! augmentent de [?cos_profit_change|Y].\n\n"
- COS_UFC_profic_decrease_tt:9 "Les bénéfices de l'§YUFC§! diminuent de [?cos_profit_change|Y].\n\n"
+ COS_UFC_profit_change_tt:9 "Modify §YUFC Profits§! by $RIGHT|G0+$.\n\n"
 
  COS_PRN_support_increase:9 "§YAugmente§! le soutien du §CPRN§! de $RIGHT|Y0$.\n"
  COS_PRN_support_decrease:9 "§RDiminue§! le soutien du §CPRN§! de $RIGHT|Y0$.\n"
@@ -157,7 +142,9 @@
  COS_Honduras_Palm_Oil: "Développer les Plantations de Palmiers au Honduras"
  COS_Honduras_Palm_Oil_desc: "En participant au coup d'État militaire qui a renversé le président Davila et rétabli le général Bonilla, Samuel Zemurray a pu obtenir des concessions massives du gouvernement de la nation. Offrant de construire l'infrastructure du pays en échange d'énormes étendues de terre, sa société s'est non seulement imposée comme le moteur de l'économie hondurienne, mais elle s'est ensuite étendue à toute la région avant de fusionner avec l'UFC.\n\nCette dernière ne détient pas seulement de grands intérêts dans la production de bananes, mais est également responsable de quantités considérables d'huile de palme et d'abaca."
  COS_Honduras_Abaca: "Développer les Plantations d'Abaca au Honduras"
+ COS_Honduras_Abaca_desc:9 "$COS_Honduras_Palm_Oil_desc$"
  COS_Honduras_Banana: "Développer les Plantations de Banane au Honduras"
+ COS_Honduras_Banana_desc:9 "$COS_Honduras_Palm_Oil_desc$"
  COS_Guatemala_Abaca: "Développer les Plantations d'Abaca au Guatemala"
  COS_Guatemala_plantation_desc_start: "Non seulement l'UFC contrôle un pourcentage important de toutes les terres guatémaltèques, mais elle possède également des écoles, des chemins de fer, des sociétés de logement et bien d'autres choses encore. Dire que l'économie guatémaltèque dépend de l'UFC serait un euphémisme et nous ne pouvons pas laisser cette influence vaciller pour la sécurité de l'entreprise."
  COS_Guatemala_Abaca_desc: "$COS_Guatemala_plantation_desc_start$\n\nPrincipalement situées sur le flanc oriental du pays, près du Honduras, les terres d'Abaca offrent une alternative précieuse aux opérations de l'entreprise, dominées par la banane."
@@ -243,7 +230,7 @@
  COS_peace_timer:9 "Une alliance en chute libre"
  COS_peace_timer_desc:9 "La chute du Costa Rica a entraîné un désastre pour l'alliance. Si nous ne sommes pas en mesure de les sauver rapidement, nous n'aurons pas d'autre choix que d'accepter les exigences de nos ennemis et de nous retirer des terres occupées d'Amérique centrale."
 
- COS_Ferrer_Pacifist_decisions: "Politique de [COS.GetLeader]"
+ COS_Ferrer_Pacifist_decisions:9 "Policies of José Figueres Ferrer"
  COS_Ferrer_Pacifist_decisions_desc: "Réveillé par les affaires anticonstitutionnelles de ses prédécesseurs et luttant pour les droits de chaque citoyen costaricain, §Y[COS.GetLeader]§! a de grandes ambitions pour la petite nation. Non seulement lui et sa junte prévoient de mettre en œuvre de nouvelles lois radicales, mais ils prévoient également de §Yréécrire la constitution§! et de §Yabolir l'armée§!, pour aboutir à ce qu'ils ont proclamé être la création de la §CSeconde République§!"
 
  COS_Tribunal_Sanciones_Inmediatas:9 "Instaurer le Tribunal de Sanciones Inmediatas"
@@ -261,16 +248,14 @@
  COS_Abolish_Army: "Abolir les Forces Armées"
  COS_Abolish_Army_desc: "Nous devons être un exemple pour le reste du monde et leur montrer que les véritables progrès sont réalisés dans un parlement plutôt que sur un champ de bataille. Non seulement nous abolirons complètement nos forces armées, mais nous nous abstiendrons de tout conflit en dehors de notre pays et nous nous concentrerons sur l'amélioration de notre niveau d'éducation et le développement de notre économie en pleine croissance."
 
- COS_foreign_policy_decisions:0 "Politique Étrangère"
- COS_Join_Reichspakt:0 "Rejoindre le Reichspakt"
- COS_Join_Entente:0 "Rejoindre l'Entente"
-
 ### Ideas ###
  COS_labour_conflicts: "Conflits Professionnels de l'UFC"
  COS_labour_conflicts_desc: "La United Fruit Company détient un pouvoir considérable dans l'économie de notre pays et a des liens profonds avec le gouvernement. Alors que la dépression américaine persistante s'est avérée préjudiciable à son influence à l'étranger, faisant place à l'augmentation du commerce allemand, la compagnie et ses terribles pratiques de travail ont conduit à des tensions croissantes dans le paysage politique. Avec les élections qui approchent et le socialisme qui s'enracine dans toute l'Amérique centrale, la situation pourrait s'aggraver sans une intervention appropriée du gouvernement."
 
  COS_beacon_democracy: "Phare de la Démocratie"
  COS_beacon_democracy_desc: "De solides traditions démocratiques et des réformes progressives au cours des dernières décennies ont permis au Costa Rica d'être considéré à l'étranger comme le phare de la démocratie en Amérique centrale."
+
+ COS_liberation_campaign:9 "Liberation Campaign Against Central America"
 
  COS_influence_of_the_UFC_dynamic_modifier:9 "£pol_idea Influence de l'UFC"
  COS_influence_of_the_UFC_idea:9 "Influence de l'UFC"
@@ -543,7 +528,7 @@
  COS_country_intro_header:0 "Costa Rica : Une Histoire de Succès Centraméricaine"
  COS_country_intro_content:9 "Nichée au cœur de la jungle centraméricaine, notre petite mais fière nation a prospéré pendant de nombreuses décennies, bénéficiant d'un taux d'alphabétisation supérieur à celui de certaines nations européennes et d'une économie à la croissance lente mais régulière, basée sur le commerce de la banane et surtout du café.\n\nGrâce à l'adhésion stricte de toutes les parties à la constitution, il n'y a pas eu d'intervention militaire ni de coup d'État politique dans le pays depuis la dictature ratée de Ticino en 1917, qui a été destituée quelques mois plus tard sous la pression du peuple, qui refusait d'endurer un dictateur dans sa république. Depuis lors, le pays est contrôlé par une caste de politiciens variés, bien qu'égalitaires, qui ont profité des fruits de la croissance de l'économie allemande et des liens étroits entre nos deux nations.\n\nSous l'aile du PRN, le président Ricardo Jiménez peut se targuer d'un mandat réussi au cours duquel il a dû faire face à la fois à la dépression économique causée par la récession américaine et aux voix montantes des mouvements socialistes qui, enthousiasmés par le Congrès des travailleurs de l'Atlantique, sont finalement sortis de leur torpeur et ont exigé une meilleure représentation. Bien qu'ils soient parvenus à leurs fins et aient forcé le gouvernement à rédiger un accord sur le travail, la loi est loin d'être adoptée et, sous l'étoile montante de Manuel Mora Valverde, les problèmes entre les entreprises et les travailleurs sont loin d'être résolus.\n\nNéanmoins, la nation prospère car les fruits de nos relations avec la Mitteleuropa affluent sous la forme de programmes d'échanges culturels, d'assistance scientifique et d'un lien fort entre des universités telles que la KU Leuven en Flandre-Wallonie et la classe supérieure costaricienne."
 
- COS_guide:9 "§MPRN§! ($social_conservative_coloured$!)\n£white_dot Nommez Cortés à l'investiture républicaine.\n£white_dot Ne complétez pas la priorité §YAdapter la constitution§!.\n£white_dot Après avoir remporté les élections de 1940, Calderón prendra le pouvoir et s'engagera sur le chemin de la §Mvictoire socialiste§!.\n£white_dot Acceptez l'offre de rétablir la stabilité et d'organiser des élections d'urgence, qui seront remportées par Ricardo Jiménez du §cPRN§!.\n\n§MPRN (Socialistas)§! ($social_democrat_coloured$)\n£white_dot Nommer Calderón à l'investiture républicaine ou la victoire du §cPRN§! aux élections de 1940 lui permettra d'annoncer des réformes radicales et de diriger un gouvernement socialiste.\n£white_dot Après environ 2 ans, Calderón demandera des pouvoirs d'urgence.\n£white_dot Environ moins d'un an plus tard, une offre de rétablissement de la stabilité apparaîtra, rejetez l'offre pour continuer le gouvernement socialiste.\n£white_dot Lors des élections suivantes faites en sorte que Picado prenne le contrôle.\n\n§MPartido Liberación Nacional§! ($social_democrat_coloured$)\n£white_dot Nommez Cortés à l'investiture républicaine.\n£white_dot Complétez la priorité §YAdapter la constitution§! et remportez les élections de 1940.\n£white_dot Lorsque Ferrer passe à l'antenne, faites-le embarquer sur le premier bateau pour le Mexique, ce qui l'amènera à s'échapper et à lancer un coup d'État.\n£white_dot Ou, faites en sorte que Calderón annonce son second mandat lors des élections, et Ferrer passera à l'antenne pour faire un coup d'état quels que soient vos choix.\n£white_dot Ou, suivez les étapes pour que l'armée dépose Mora et que le conseil garde le contrôle, et Ferrer passera à l'antenne pour faire un coup d'état quels que soient vos choix.\n\n§MPartido Vanguardia Popular§! ($syndicalist_coloured$) §CNote : Si l'Amérique centrale ou le Nicaragua sont syndicalistes, ils annexeront le Costa Rica. Sinon, le Costa Rica reviendra à un régime conservateur.§!\n£white_dot Suivez les mêmes étapes que le chemin §Mvictoire socialiste§!, mais choisissez d'accepter l'offre de rétablir la stabilité et faites proclamer la République des travailleurs par Mora.\n£white_dot Si l'Amérique centrale ou le Nicaragua sont syndicalistes, ils vous proposeront d'annexer le pays (ce qui vous obligera à les jouer). Si vous refusez, l'armée déposera Mora peu de temps après.\n\n§MPolitique Étrangère§!\n§MReichspakt§!\n£white_dot Demandez la protection allemande après le début de la Seconde Guerre de Sécession. Cela nous donnera leur garantie et une décision pour rejoindre leur faction une fois la Seconde Weltkrieg commencée.\n£white_dot Si le Canada envahit le Panama, choisissez de rester neutre.\n§MEntente§!\n£white_dot Demandez la protection canadienne après le début de la Seconde Guerre de Sécession, mettez la règle du jeu §YEntente§! sur §YPolitique Étrangère du Costa Rica§! pour garantir que le Canada accepte. Cela nous donnera leur garantie et une décision pour rejoindre leur faction une fois la Seconde Weltkrieg commencée.\n£white_dot Ou, si le Canada envahit le Panama, envoyez-leur une offre pour rejoindre leur guerre contre le Panama et leur faction.\n§MAlliance Démocratique des Caraïbes§!\n£white_dot Suivez les étapes du chemin §MFerrer Prend le Contrôle§!.\n£white_dot Complétez la décision £decision_icon_small §YFormer $faction_democratic_alliance_of_the_caribbean$§! pour gagner accès à la décision d'inviter toutes les nations démocratiques d'Amérique centrale, des Caraïbes et de l'Amérique du Sud septentrionale dans notre faction.\n§CNote : L'Amérique Centrale aura également l'option de créer cette faction si ils sont démocratiques, mais ils attendront juin 1940 pour le faire si le Costa Rica est contrôlé par un joueur.§!"
+ COS_guide:9 "§MPRN (Conservadores)§! ($social_conservative_coloured$)\n£white_dot Nominate Cortés in the republican nomination.\n£white_dot Do not complete the focus §YAdapt the constitution§!.\n£white_dot After winning the 1940 elections, Calderón will take over and go down the §MPRN (Socialistas)§! path.\n£white_dot Accept the offer to restore stability and held emergency elections, that will be won by Ricardo Jiménez of the §cPRN§!.\n\n§MPRN (Socialistas)§! ($social_democrat_coloured$)\n£white_dot Nominating Calderón in the republican nomination or the §cPRN§! winning the 1940 elections, will see him announcing sweeping reforms and leading a socialist government.\n£white_dot After around 2 years, Calderón will demand emergency powers.\n£white_dot Around less than a year later, an offer to restore stability will appear, reject the offer to continue the socialist government.\n£white_dot In the next elections have Picado take control.\n\n§MPartido Liberación Nacional§! ($social_democrat_coloured$)\n£white_dot Nominate Cortés in the republican nomination.\n£white_dot Complete the focus §YAdapt the constitution§! and win the 1940 elections.\n£white_dot When Ferrer goes on the air, have him put on the first boat to Mexico, this will lead to him escaping and launching a coup.\n£white_dot Or, have Calderón announce his second term in the elections and Ferrer will go on the air and coup him regardless of your choices.\n£white_dot Or, follow the steps to make the army depose Mora, have the council retain control and Ferrer will go on the air and coup them regardless of your choices.\n\n§MPartido Vanguardia Popular§! ($syndicalist_coloured$) §CNote: If Central America or Nicaragua is syndicalist, they will annex Costa Rica. Otherwise, Costa Rica will return to a conservative regime.§!\n£white_dot Follow the same steps as the §MPRN (Socialistas)§! path, but choose to accept the offer to restore stability and have Mora proclaim the Workers Republic.\n£white_dot If Central America or Nicaragua is syndicalist, they will offer to annex the country (making you switch to them), rejecting will make the army depose Mora shortly after.\n\n§MForeign Policy§!\n§MReichspakt§!\n£white_dot Ask for German protection after the Second American Civil War breaks out. Giving us a guarantee from them and a decision to join their faction once World Tension is above 50%.\n£white_dot If Canada invades Panama, choose to remain neutral.\n§MEntente§!\n£white_dot Ask for Canadian protection after the Second American Civil War breaks out, set the game rule §YEntente§! in §YCosta Rican Foreign Policy§! to guarantee Canada accepts. This will give us a guarantee from them and a decision to join their faction once World Tension is above 50%.\n£white_dot Or, if Canada invades Panama, send an offer to them, joining their war against Panama and their faction.\n§MDemocratic Alliance of the Caribbean§!\n£white_dot Follow the steps in the §MPartido Liberación Nacional§! path.\n£white_dot Complete the decision £decision_icon_small §YForm $faction_democratic_alliance_of_the_caribbean$§! to gain access to decision to invite all democratic Central American, Caribbean and northern South American nations into our faction.\n§CNote: Central America will also have the option to create this faction if they are democratic, but will wait until June of 1940 to do this if Costa Rica is player controlled.§!"
 
  COS_guide_1:9 "$CEN_pre_guide$"
 
@@ -791,7 +776,10 @@
  costa_rica_events.71.b:9 "León Cortés Castro entame un second mandat !"
 
  costa_rica_events.72.t:0 "Figueres Ferrer Prend l'Antenne"
- costa_rica_events.72.d:9 ""Chers Costaricains et autres habitants de notre grande nation, c'est avec le cœur lourd que je m'adresse à vous. C'est le cœur lourd que je m'adresse à vous, car je vois que les valeurs pour lesquelles notre république s'est battue si courageusement sont ternies de toutes parts. La constitution, qui était autrefois le fondement sacré de notre société, a été bafouée par notre président le plus éclairé. La liberté d'expression dont nous nous enorgueillissions autrefois est réduite en lambeaux par la censure du régime de Cortés et l'homme de la rue est victime de mensonges et d'oppression. Alors qu'il fut un temps où s'adresser ouvertement au gouvernement et critiquer ses politiques défaillantes était considéré comme vertueux et juste, c'est aujourd'hui un chemin direct vers la prison. Combien de temps les Costaricains supporteront-ils le dictateur ? Combien de libertés civiles devront encore être supprimées avant que nous comprenions que l'homme du palais présidentiel ne parle pas en notre nom ?\n\nAprès avoir continué à prêcher pendant plus d'une demi-heure, l'éminent homme d'affaires a finalement été évacué par les forces de police et arrêté pour trahison. Le mal est fait et les forces de police de San José s'interrogent sur la manière de gérer la situation. D'autres craignent que sa libération ne lui permette de rassembler de nouveaux soutiens contre le gouvernement."
+ costa_rica_events.72.start:9 "\"Dear Costa Ricans and other people living in our great nation. I speak to you with a heavy heart as I see the values for which our republic has fought so bravely are being tarnished at every end. The constitution, once the sacred fundament of our society has been spit on by our most enlightened "
+ costa_rica_events.72.d.president:9 "$costa_rica_events.72.start$President. The freedom of speech we once prided ourselves on is ripped to shreds by the censure of his regime and the man in the street is lied to and oppressed. Where one day, addressing the government openly and criticising its failing policies was seen as virtuous and right, it is now a direct path to jail. How long, Costa Ricans, will you endure the dictator? How many more of our civil liberties need to be removed before we realise that the man in the Presidential Palace does$costa_rica_events.72.end$"
+ costa_rica_events.72.d.council:9 "$costa_rica_events.72.start$Council of oligarchs. The freedom of speech we once prided ourselves on is ripped to shreds by the censure of their regime and the man in the street is lied to and oppressed. Where one day, addressing the government openly and criticising its failing policies was seen as virtuous and right, it is now a direct path to jail. How long, Costa Ricans, will you endure this dictatorial oligarchy? How many more of our civil liberties need to be removed before we realise that those in the Presidential Palace do$costa_rica_events.72.end$"
+ costa_rica_events.72.end:9 " not speak for us?\"\n\nContinuing preaching for over half an hour, the distinguished businessman was finally removed from the air by police forces and arrested for treason. The damage however is done, and police forces across San José are wondering how the situation should be handled. Punishing Ferrer severely will only make him a martyr while others fear that releasing him will allow him to gather further support against the government."
  costa_rica_events.72.a:0 "Relâchez l'homme."
  costa_rica_events.72.b:0 "Mettez-le sur le premier bateau pour le Mexique !"
 
@@ -886,23 +874,6 @@
  costa_rica_events.91.a:9 "Ricardo Jiménez."
  costa_rica_events.91.b:9 "León Cortés Castro."
 
- costa_rica_events.92.t:0 "Figueres Ferrer Prend l'Antenne"
- costa_rica_events.92.d:9 ""Chers Costaricains et autres habitants de notre grande nation, c'est avec le cœur lourd que je m'adresse à vous. C'est le cœur lourd que je m'adresse à vous, car je vois que les valeurs pour lesquelles notre république s'est battue si courageusement sont ternies de toutes parts. La constitution, qui était autrefois le fondement sacré de notre société, a été bafouée par notre Conseil d'oligarques le plus éclairé. La liberté d'expression dont nous nous enorgueillissions autrefois est réduite en lambeaux par la censure de leur régime et l'homme de la rue est victime de mensonges et d'oppression. Alors qu'il fut un temps où s'adresser ouvertement au gouvernement et critiquer ses politiques défaillantes était considéré comme vertueux et juste, c'est aujourd'hui un chemin direct vers la prison. Combien de temps les Costaricains supporteront-ils cette oligarchie dictatoriale ? Combien de libertés civiles devront encore être supprimées avant que nous ne réalisions que les membres du palais présidentiel ne parlent pas en notre nom ?\n\nAprès avoir continué à prêcher pendant plus d'une demi-heure, l'éminent homme d'affaires a finalement été évacué par les forces de police et arrêté pour trahison. Le mal est fait et les forces de police de San José s'interrogent sur la manière de gérer la situation. D'autres craignent que sa libération ne lui permette de rassembler de nouveaux soutiens contre le gouvernement."
- costa_rica_events.92.a:0 "Relâchez l'homme."
- costa_rica_events.92.b:0 "Mettez-le sur le premier bateau pour le Mexique !"
-
- costa_rica_events.93.t:0 "Agitation dans les Campagnes"
- costa_rica_events.93.d:0 "Partout dans le pays, les agriculteurs et les travailleurs des plantations ont commencé à s'opposer aux bureaucrates locaux, exigeant l'abolition immédiate du Conseil et la révocation de leurs copains. Très probablement revigorées par les récents bouleversements causés par Figueres Ferrer, les protestations et les actions anti-gouvernementales semblent se poursuivre sans fin en vue."
- costa_rica_events.93.a:0 "Que peuvent faire quelques paysans ?"
-
- costa_rica_events.94.t:0 "Ferrer S'échappe !"
- costa_rica_events.94.d:9 "Bien qu'il ait été transporté dans un camion banalisé en direction de Puerto Limón, une bande armée de ses fanatiques a arrêté le convoi à Siquirres et a réussi à obtenir la libération de leur chef. De nouveau libre et brûlant de renverser notre régime, il représente un énorme danger pour la sécurité nationale."
- costa_rica_events.94.a:0 "Dois-je tout faire moi-même ?"
-
- costa_rica_events.95.t:0 "La Légion Caribe Effectue un Coup d'État"
- costa_rica_events.95.d:9 "Il a suffi de 700 loyalistes armés de Ferrer pour exécuter sans faille un coup d'État contre le régime de [COS.GetLeader]. Prenant les villes clés de Puerto Limón, Cartago et San José, les forces de l'armée nationale, insuffisamment approvisionnées et en sous-effectif, n'étaient pas en mesure d'offrir une grande résistance. De petites fusillades ont eu lieu dans tout le pays, mais finalement, le coup d'État a été exécuté sans trop de sang versé.\n\nSe proclamant président de la nation, Figueres Ferrer a pris le contrôle de la situation en main et a déjà annoncé des changements radicaux."
- costa_rica_events.95.a:0 "Figueres proclame la Junte."
-
  costa_rica_events.96.t:0 "Mora Propose une Alliance au PRN"
  costa_rica_events.96.d:0 "Bien que Calderón ait passé sa carrière à dénoncer publiquement les syndicalistes, après le coup d'État déjoué, il était désormais reconnaissant à Mora d'avoir préservé son existence, réalisant qu'il devrait d'une manière ou d'une autre élargir et dynamiser sa base politique pour continuer à survivre. Ainsi, malgré sa rhétorique socialiste chrétienne antérieure, malgré sa dénonciation répétée du syndicalisme et malgré ses liens étroits avec l'église, Calderón a commencé à discuter d'une alliance avec Mora et les syndicalistes.\n\nAyant obtenu de bons résultats lors des dernières élections régionales, avec 16% des voix, le PVP a annoncé son soutien à l'alliance proposée, bien qu'il ait ouvertement accusé pendant des années le PRN d'emprisonner ses membres et de censurer leurs opinions."
  costa_rica_events.96.a:0 "La Gauche se tient unie."
@@ -915,23 +886,6 @@
  costa_rica_events.99.d:0 "Alors que le mandat de Calderón touche à sa fin, le PRN se tourne vers l'avenir et décide de son candidat pour les prochaines élections. Bien qu'il soit prêt à se présenter une seconde fois, Calderón craint les réactions négatives que cela pourrait entraîner à son égard et propose que le parti mette en avant Picado pour prendre le contrôle et poursuivre les réformes proposées par la coalition PRN-PVP."
  costa_rica_events.99.a:0 "Picado prend le contrôle."
  costa_rica_events.99.b:0 "Calderón annonce son second mandat."
-
- costa_rica_events.100.t:0 "Figueres Ferrer Prend l'Antenne"
- costa_rica_events.100.d:9 ""Chers Costaricains et autres habitants de notre grande nation, c'est avec le cœur lourd que je m'adresse à vous. C'est le cœur lourd que je m'adresse à vous, car je vois que les valeurs pour lesquelles notre république s'est battue si courageusement sont ternies de toutes parts. La constitution, qui était autrefois le fondement sacré de notre société, a été bafouée par notre président le plus éclairé. La liberté d'expression dont nous nous enorgueillissions autrefois est réduite en lambeaux par la censure du régime de Calderón et l'homme de la rue est volé en plein jour. Alors qu'il fut un temps où s'adresser ouvertement au gouvernement et critiquer ses politiques défaillantes était considéré comme vertueux et juste, c'est aujourd'hui un chemin direct vers la prison. Combien de temps les Costaricains supporteront-ils le dictateur ? Combien de libertés civiles devront encore être supprimées avant que nous comprenions que l'homme du palais présidentiel ne parle pas en notre nom ?\n\nAprès avoir continué à prêcher pendant plus d'une demi-heure, l'éminent homme d'affaires a finalement été évacué par les forces de police et arrêté pour trahison. Le mal est fait et les forces de police de San José s'interrogent sur la manière de gérer la situation. D'autres craignent que sa libération ne lui permette de rassembler de nouveaux soutiens contre le gouvernement."
- costa_rica_events.100.a:0 "Relâchez l'homme."
- costa_rica_events.100.b:0 "Mettez-le sur le premier bateau pour le Mexique !"
-
- costa_rica_events.101.t:0 "Agitation dans les Campagnes"
- costa_rica_events.101.d:0 "Partout dans le pays, les agriculteurs et les travailleurs des plantations ont commencé à s'opposer aux bureaucrates locaux en exigeant la démission immédiate de M. Calderón et le retrait de ses copains du pouvoir. Très probablement revigorées par le récent bouleversement causé par Figueres Ferrer, les protestations et les actions anti-gouvernementales semblent se poursuivre sans fin en vue."
- costa_rica_events.101.a:0 "Que peuvent faire quelques paysans ?"
-
- costa_rica_events.102.t:0 "Ferrer S'échappe !"
- costa_rica_events.102.d:9 "Bien qu'il ait été transporté dans un camion banalisé en direction de Puerto Limón, une bande armée de ses fanatiques a arrêté le convoi à Siquirres et a réussi à obtenir la libération de leur chef. De nouveau libre et brûlant de renverser notre régime, il représente un énorme danger pour la sécurité nationale."
- costa_rica_events.102.a:0 "Dois-je tout faire moi-même ?"
-
- costa_rica_events.103.t:0 "La Légion Caribe Effectue un Coup d'État"
- costa_rica_events.103.d:9 "Il a suffi de 700 loyalistes armés de Ferrer pour exécuter sans faille un coup d'État contre le régime de [COS.GetLeader]. En prenant les villes clés de Puerto Limón, Cartago et San José, les forces de l'armée nationale, insuffisamment approvisionnées et en sous-effectif, n'ont pas été en mesure d'offrir une grande résistance. De petites fusillades ont eu lieu dans tout le pays, mais finalement, le coup d'État a été exécuté sans trop de sang versé.\n\nSe proclamant président de la nation, Figueres Ferrer a pris le contrôle de la situation en main et a déjà annoncé des changements radicaux."
- costa_rica_events.103.a:0 "Figueres proclame la Junte."
 
  costa_rica_events.106.t:9 "Les commerçants locaux signent un pacte avec Jiménez"
  costa_rica_events.106.d:9 "Peu enclins à accepter les nouvelles mesures d'austérité annoncées par Cortés pour son second mandat, les commerçants de Cartago se sont ralliés à Jiménez, qui leur a promis des réductions d'impôts et d'autres avantages s'il devenait le prochain président. Cela nous met des bâtons dans les roues, car la plupart de nos soutiens proviennent de ces membres de la classe moyenne."
@@ -955,12 +909,6 @@
  costa_rica_events.110.t:0 "Grève dans les Plantations"
  costa_rica_events.110.d:0 "Ralliée par Mora, le PVP et le Congrès des Travailleurs de l'Atlantique, une autre plantation a cessé le travail, exigeant que le gouvernement intervienne et impose ses exigences aux propriétaires des plantations. Alors que le message du PVP continue de gagner en popularité dans les campagnes, beaucoup craignent que le Costa Rica ne tombe lui aussi sous le coup de la révolution."
  costa_rica_events.110.a:0 "C'est parti !"
-
- costa_rica_events.113.t:0 "Crise en Amérique Centrale"
- costa_rica_events.113.d:0 "Dans une tentative pour empêcher la dictature d'envahir la région, le caudillo costaricien José Figueres Ferrer a annoncé sa croisade pour libérer le peuple de la CAR de l'oppression et restaurer la liberté et la démocratie. Les deux parties impliquées étant nos alliés, elles attendent avec impatience de voir comment nous allons réagir si nous le souhaitons."
- costa_rica_events.113.a:0 "Rester neutre dans cette crise"
- costa_rica_events.113.b:0 "Soutenir le Costa Rica et à "Don Pepe"."
- costa_rica_events.113.c:0 "Soutenir à la République Centraméricaine."
 
  costa_rica_events.117.t:0 "Victoire dans la Guerre de Coto !"
  costa_rica_events.117.d:0 "Les Panaméens ont une fois de plus été chassés de nos terres et l'intégrité de notre nation préservée. Avec la pression internationale pour suivre cette fois la décision de Fallo Blanco, le Panama n'a pas d'autre choix que de renoncer à tout jamais à ses revendications sur la région."

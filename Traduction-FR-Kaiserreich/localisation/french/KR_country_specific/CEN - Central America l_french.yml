@@ -119,9 +119,9 @@
  CEN_found_military_pact_desc: "L'Avant-Garde Populaire, destinée à protéger les centraméricains des menaces extérieures, se retrouvera ici pour tenter de résister à la révolution à tout prix."
 
  CEN_unification_join_faction:9 "Rejoindre le [ROOT.CEN_unification_join_faction_title]"
- CEN_unification_join_faction_socialist:0 "[CEN_socialist_leader.GetFactionName]"
- CEN_unification_join_faction_military:0 "[CEN_military_leader.GetFactionName]"
- CEN_unification_join_faction_liberal:0 "[CEN_liberal_leader.GetFactionName]"
+ CEN_unification_join_faction_socialist:9 "$faction_revolutionary_front$"
+ CEN_unification_join_faction_military:9 "$faction_peoples_vanguard$"
+ CEN_unification_join_faction_liberal:9 "$faction_liberal_pact$"
 
  CEN_unification_join_faction_desc:9 "[ROOT.CEN_unification_join_faction_desc]"
  CEN_unification_join_faction_desc_socialist:0 "Le Front révolutionnaire a été fondé par des personnes partageant les mêmes idées, qui souhaitaient s'unir pour instaurer le socialisme en Amérique centrale. Il est de notre devoir de nous y rallier, pour le bien de nos frères à l'étranger."
@@ -648,7 +648,7 @@
  central_america_democratic_events.236.a:0 "Nous vous en sommes reconnaissants."
 
  central_america_democratic_events.237.t:0 "Le [FROM.GetNameDefCap] Refuse de Soutenir notre Neutralité"
- central_america_democratic_events.237.d:0 "Le [FROM.GetNameDefCap] a décidé de ne pas soutenir notre neutralité dans les affaires mondiales, et bien qu'il ait exprimé sa volonté de le faire, il a déclaré qu'il ne possède pas actuellement la force nécessaire pour nous garantir pour le moment."
+ central_america_democratic_events.237.d:9 "Le [FROM.GetNameDefCap] a décidé de ne pas soutenir notre neutralité dans les affaires mondiales, et bien qu'il ait exprimé sa volonté de le faire, il a déclaré qu'il ne possède pas actuellement la force nécessaire pour nous garantir pour le moment."
  central_america_democratic_events.237.a:0 "Nous devrons chercher quelqu'un d'autre..."
 
  central_america_democratic_events.241.t:0 "Parade Militaire"
@@ -2099,7 +2099,7 @@
  central_america_dictatorship_events.42.a:0 "Bon retour parmi nous !"
 
  central_america_dictatorship_events.43.t:0 "La Statue de Jorge Ubico est Achevée"
- central_america_dictatorship_events.43.d:0 "Le président Jorge Ubico, le héros de la guerre civile guatémaltèque, le sauveur de l'Amérique centrale des traîtres syndicalistes, veillera désormais pour toujours sur le palais présidentiel.\n\nLa construction de sa statue, qui domine la place devant le palais, a commencé lorsque le drapeau guatémaltèque était encore au sommet du mât du palais, lorsque l'Amérique centrale était encore divisée à cause des traîtres syndicalistes.\n\nMais maintenant, le beau drapeau de la République unie garde l'entrée du palais, tout cela grâce à notre héros, Jorge Ubico. L'inauguration, en ce beau jour de juin, a été déclarée fériée afin que tous les travailleurs, étudiants et intellectuels d'Amérique centrale aient la possibilité d'honorer notre grand chef.\n\nLes foules qui se sont rassemblées pour voir la statue sont estimées à plus de vingt mille courageux citoyens, et le drapeau républicain flotte dans toutes les rues de Guatemala City en ce jour béni."
+ central_america_dictatorship_events.43.d:9 "Le président Jorge Ubico, le héros de la guerre civile guatémaltèque, le sauveur de l'Amérique centrale des traîtres syndicalistes, veillera désormais pour toujours sur le palais présidentiel.\n\nLa construction de sa statue, qui domine la place devant le palais, a commencé lorsque le drapeau guatémaltèque était encore au sommet du mât du palais, lorsque l'Amérique centrale était encore divisée à cause des traîtres syndicalistes.\n\nMais maintenant, le beau drapeau de la République unie garde l'entrée du palais, tout cela grâce à notre héros, Jorge Ubico. L'inauguration, en ce beau jour de juin, a été déclarée fériée afin que tous les travailleurs, étudiants et intellectuels d'Amérique centrale aient la possibilité d'honorer notre grand chef.\n\nLes foules qui se sont rassemblées pour voir la statue sont estimées à plus de vingt mille courageux citoyens, et le drapeau républicain flotte dans toutes les rues de Guatemala City en ce jour béni."
  central_america_dictatorship_events.43.a:0 "Une statue impressionnante pour un chef impressionnant."
 
  central_america_dictatorship_events.201.t:0 "La République Centraméricaine Demande une Protection"
@@ -2506,15 +2506,11 @@
  central_america_flavour_events.5.d:0 "En raison des conditions météorologiques récentes et du mauvais entretien du système de drainage de San Salvador, il y a eu une inondation dans la ville salvadorienne. Bien qu'aucun décès n'ait été signalé à la suite de cet incident, les dommages causés à l'infrastructure de la ville sont encore importants et il faudra un certain temps avant que la ville ne soit de nouveau sur pied."
  central_america_flavour_events.5.a:0 "Une tournure malheureuse des événements."
 
- central_america_flavour_events.6.t:0 "Le volcan Paricutín s'érupte au Michoacán"
- central_america_flavour_events.6.d:0 "Nous avons reçu aujourd'hui de mauvaises nouvelles de la petite ville de Paricutín. L'éruption du volcan Paracutín a commencé dans l'après-midi et la population de la petite ville est maintenant menacée par les pluies de cendres, et nos spécialistes confirment que la coulée de lave va couvrir la ville au rythme actuel des émissions. Le Président [Root.GetLeader] a ordonné l'évacuation immédiate de la ville et les efforts pour les déplacer près d'Uruapan vont commencer. Cela prendra du temps et des efforts, mais c'est une étape nécessaire pour assurer la sécurité de nos citoyens contre une catastrophe naturelle."
- central_america_flavour_events.6.a:0 "Une tournure malheureuse des événements."
-
  central_america_flavour_events.7.t:0 "Le tremblement de terre frappe le Guatemala !"
  central_america_flavour_events.7.d:0 "A 17h37, un tremblement de terre de 7,7 Richter a commencé près de la côte pacifique guatémaltèque. Le tremblement de terre a causé des dommages considérables à l'infrastructure de la région, faisant tomber les lignes télégraphiques et fracturant la route interaméricaine. La ville de Tecpan a également été gravement endommagée, près de 60 % des logements civils ayant été démolis par le séisme. Le Palacio de los Capitanes Generales à Antigua Guatemala a également été partiellement endommagé, ainsi que de nombreuses églises anciennes de l'époque coloniale dans la région. Malheureusement, trente-huit personnes ont trouvé leur fin dans ce tragique incident, et nous devrons maintenant faire face aux conséquences d'une catastrophe naturelle aussi terrible."
  central_america_flavour_events.7.a:0 "Espérons que ce n'est pas le premier d'une longue série."
 
- central_america_flavour_events.8.t:0 "Fondation du Musée Régional d'Archéologie de Copan."
+ central_america_flavour_events.8.t:9 "Fondation du Musée Régional d'Archéologie de Copan."
  central_america_flavour_events.8.d:0 "Aujourd'hui, le Museo Regional de Arqueologia a finalement été fondé dans la ville de Copán. Le site archéologique de Copán abrite l'un des plus grands complexes architecturaux du début de l'ère préclassique, ainsi que l'une des plus grandes villes de l'ancienne civilisation maya. Le site a été fermé au public en 1935 et a fait l'objet d'une vaste restauration, l'Acropole, la place principale, l'escalier des hiéroglyphes, les temples 11 et 22 ainsi que les 38 Estelas et tous les autels étant au cœur des travaux de restauration. Avec l'inauguration du musée, le site archéologique est à nouveau ouvert au public pour explorer le passé de l'Amérique centrale précolombienne."
  central_america_flavour_events.8.a:0 "Un pas de plus vers la préservation de notre histoire."
 
@@ -2539,18 +2535,6 @@
  central_america_flavour_events.14.t:0 "Un Autre Ouragan Frappe les Côtes Atlantiques du Nicaragua"
  central_america_flavour_events.14.d:0 "Un ouragan a de nouveau frappé les côtes atlantiques du Nicaragua. La tempête s'est formée presque de nulle part, et la population civile non préparée a souffert de l'imprévisibilité du climat en Amérique centrale. Heureusement, la tempête se dirigeait vers le golfe du Mexique et n'a pas touché le rivage, mais les vents forts ont quand même causé des dégâts sur toute la côte atlantique de l'Amérique centrale."
  central_america_flavour_events.14.a:0 "Nous avons eu de la chance qu'il ne se dirige pas vers nous."
-
- central_america_flavour_events.15.t:0 "Paricutín menace Santa Ana Zirosto"
- central_america_flavour_events.15.d:0 "Alors que l'éruption du Paracutín continue, une autre ville se trouve sur le chemin de la destruction. La petite ville de Santa Ana Zirosto, fondée à l'époque coloniale, est maintenant sur le chemin des émissions de lave. La ville a reçu l'ordre d'évacuer, et ils se joindront à la population de Paricutín dans les efforts de relocalisation près d'Uruapan."
- central_america_flavour_events.15.a:0 "Nous ne pouvons qu'espérer qu'ils se rétablissent."
-
- central_america_flavour_events.16.t:0 " Le Paricutín menace San Juan Parangaricutiro ."
- central_america_flavour_events.16.d:0 "Alors que nos spécialistes nous assurent que l'éruption du Paricutín touche à sa fin, la ville de San Juan Parangaricutiro, avec près de deux mille habitants, est maintenant sur le chemin de la lave. Heureusement, le major préparait déjà un plan de secours au cas où le volcan menacerait la ville, mais notre aide serait toujours appréciée. La ville et ses habitants seront relocalisés dans l'ancienne ferme Conejos Farmstead, à près de trente kilomètres de l'emplacement d'origine de la ville. Le président [Root.GetLeader] a félicité le major pour sa clairvoyance, et les efforts de relocalisation sont déjà en route."
- central_america_flavour_events.16.a:0 "Espérons que ça se termine bientôt."
-
- central_america_flavour_events.17.t:0 "L'Éruption du Paricutín S'arrête Enfin"
- central_america_flavour_events.17.d:0 "Le volcan Paricutín a finalement cessé d'émettre de la lave, et bien que le volcan puisse encore être une menace pour les populations voisines pour les années à venir, nous avons évité une catastrophe majeure en évacuant notre population civile et alors que les nuages de cendres peuvent encore affecter nos terres agricoles et nos villes voisines. Les villes qui ont été inhumées seront constituées en mémoriaux pour les anciens habitants, et seront considérées comme faisant partie intégrante de leur administration malgré leur relocalisation afin qu'ils puissent faire de leurs villes d'antan ce qu'ils veulent."
- central_america_flavour_events.17.a:0 " Et voilà, c'est finalement terminé."
 
  central_america_flavour_events.18.t:0 "Célébration annuelle du 15 septembre."
  central_america_flavour_events.18.d:0 "Aujourd'hui, toute la région d'Amérique centrale célèbre le jour où la délégation des députés de toutes les anciennes provinces d'Espagne s'est réunie dans la mairie de Guatemala et a rédigé ensemble la déclaration d'indépendance écrite par José Cecilio del Valle, qui a transformé nos anciens pays étrangers en nations libres. Pendant tout le mois de septembre, toute l'Amérique centrale célèbre, chacune avec ses propres traditions, en utilisant toutes sortes de divertissements, des défilés et des concerts aux discours publics prononcés par de hauts responsables gouvernementaux. Aujourd'hui est vraiment un jour d'unité pour nos nations !"

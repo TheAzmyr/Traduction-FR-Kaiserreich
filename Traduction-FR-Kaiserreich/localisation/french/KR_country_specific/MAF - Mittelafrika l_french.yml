@@ -35,28 +35,59 @@
  MAF_free_germany_paternal_autocrat_DEF:0 "le Gouvernement Provisoire de l'Allemagne"
 
 ### Colonies, Protectorates, Mandates ###
- mittelafrika_territory_title:9 "[THIS.MittelafrikaGetStateTerritoryTitle]"
+ MAF_state_of_interest_state_title:9 "[?current_state.MittelafrikaGetStateTerritoryTitle]"
+ MAF_state_of_interest_icon:9 "[?current_state.MittelafrikaGetStateTerritoryIcon]"
+ MAF_state_of_interest_icon_desc:9 "§Y[?current_state.MittelafrikaGetStateTerritoryTitleColourised]§!"
+ MAF_state_of_interest_icon_desc_delayed:9 "[?current_state.MittelafrikaGetStateTerritoryDesc]"
+
  ## Core Territories
  mittelafrika_territory_965:0 "l'Afrique Orientale Allemande"
+ mittelafrika_territory_965_icon:9 "GFX_empty_paper"
  mittelafrika_territory_927:9 "Protectorat du Cameroun"
+ mittelafrika_territory_927_icon:9 "GFX_empty_paper"
  mittelafrika_territory_295:9 "Protectorat du Congo"
+ mittelafrika_territory_295_icon:9 "GFX_empty_paper"
  mittelafrika_territory_539:9 "Protectorat du Gabon"
+ mittelafrika_territory_539_icon:9 "GFX_empty_paper"
+
  ## Outlying Territories
  mittelafrika_territory_877:9 "Protectorat du Togo"
+ mittelafrika_territory_877_icon:9 "GFX_empty_paper"
  mittelafrika_territory_876:9 "Protectorat du Dahomey"
+ mittelafrika_territory_876_icon:9 "GFX_empty_paper"
  mittelafrika_territory_541:9 "Afrique du Sud-Ouest allemande"
+ mittelafrika_territory_541_icon:9 "GFX_empty_paper"
 
  ## British West Africa
  mittelafrika_territory_973:9 "Colonie/protectorat du Nigeria"
+ mittelafrika_territory_973_icon:9 "GFX_idea_BritAfr_Nigeria"
+ mittelafrika_territory_973_desc:9 "British Nigeria is the poster child of Lugard's doctrine of indirect rule, which is now being championed by Governor Richmond Palmer. While this approach has been successful in the north, where traditional emirates exist, the liberal appointment of warrant chiefs in the south, where such a hierarchy is unfamiliar, has led to the emergence of alternative power structures."
+
  mittelafrika_territory_274:9 "Colonie de la Côte d'Or"
+ mittelafrika_territory_274_icon:9 "GFX_idea_BritAfr_Gold_Coast"
+ mittelafrika_territory_274_desc:9 "The British Gold Coast is the most democratic of the British territories in Africa. Provincial councils and coastal cities elect African members to the Legislative Council. Political life is dominated by a class of Western-educated Africans, who were taught at local institutions such as Achimota College or even at schools in the United States."
+
  ## British East Africa
  mittelafrika_territory_547:9 "Colonie/protectorat du Kenya"
+ mittelafrika_territory_547_icon:9 "GFX_idea_BritAfr_Kenya"
+ mittelafrika_territory_547_desc:9 "British Kenya is home to a large number of white settlers, and their preferential treatment in land allocation and other administrative matters has led both Africans and Indians to organise against their oppression. In 1925, Germany had to stage a military intervention when white settler militias seized power and attempted to expel the local Indian population."
+
  mittelafrika_territory_548:0 "Protectorat de l'Ouganda"
+ mittelafrika_territory_548_icon:9 "GFX_idea_BritAfr_Uganda"
+ mittelafrika_territory_548_desc:9 "British Uganda is governed chiefly through the Kingdom of Buganda, whose traditional elite carries out the will of the British Crown. Unlike neighbouring Kenya, there is almost no white settler population. African smallholders produce the cotton and coffee that form the backbone of the economy, although the ginning and trading of said cotton is controlled almost entirely by Indian merchants."
+
  ## British Central Africa
  mittelafrika_territory_813:9 "Rhodésie du Nord"
+ mittelafrika_territory_813_icon:9 "GFX_idea_BritAfr_Northern_Rhodesia"
+ mittelafrika_territory_813_desc:9 "Northern Rhodesia sits on top of the Copperbelt and, like neighbouring Katanga, has a wealth of mining operations. The colony is dominated by corporate rule, with mine workers hailing from as far south as the Cape."
+
  mittelafrika_territory_871:0 "Protectorat du Nyasaland"
+ mittelafrika_territory_871_icon:9 "GFX_idea_BritAfr_Nyasaland"
+ mittelafrika_territory_871_desc:9 "British Nyasaland is a densely populated territory. Its current demographic landscape is the result of decades of land alienation, with 15% of its most productive land now owned by just three major estate companies. In 1915, the Baptist minister John Chilembwe led an armed uprising against colonial rule in protest of exploitative labour conditions and land alienation on the settler estates. Nevertheless, these practices continued."
 
  mittelafrika_territory_905:9 "Sultanat de Zanzibar"
+ mittelafrika_territory_905_icon:9 "GFX_idea_MAF_territory_zanzibar"
+ mittelafrika_territory_905_desc:9 "The Sultanate of Zanzibar has been under British protectorate since 1890, although the influence of the German consul has been steadily growing since 1925. Sultan Khalifa bin Harub, although still beloved by his subjects, has virtually no power on the islands, and all authority is concentrated in the hands of foreign officials and the British-Arab Legislative Council with no participation from the African majority."
 
 ### Characters ###
  MAF_karl_ritter:0 "Karl Ritter"
@@ -319,25 +350,8 @@ maybe_dont_ignore_germany_MAF: "§RIgnorer les injonctions du Kaiser est un jeu 
  MAF_Refused_Explain: "A Refusé d'Arrêter les Rebelles"
 
 ### State Modifiers ###
- MAF_british_kenya: "Colonie et Protectorat du Kenya"
- MAF_british_kenya_desc: "Le Kenya britannique est sous mandat allemand depuis 1925. Cependant, les Britanniques insistent pour maintenir leur propre sécurité. Les troupes ne peuvent entrer qu'en temps de guerre."
-
- MAF_british_nigeria: "Colonie et Protectorat du Nigeria"
- MAF_british_nigeria_desc: "Le Nigeria britannique est sous mandat allemand depuis 1925. Cependant, les Britanniques insistent pour maintenir leur propre sécurité. Les troupes ne peuvent entrer qu'en temps de guerre."
-
- MAF_british_gold_coast: "Colonie de la Côte-de-l'Or"
- MAF_british_gold_coast_desc: "La Côte d'Or Britannique est sous mandat allemand depuis 1925. Cependant, les Britanniques insistent pour maintenir leur propre sécurité. Les troupes ne peuvent y entrer qu'en temps de guerre."
-
- MAF_british_uganda: "Protectorat de l'Ouganda"
- MAF_british_uganda_desc: "L'Ouganda Britannique est sous protection Allemande depuis 1925."
-
- MAF_british_rhodesia: "Protectorat de la Rhodésie du Nord"
- MAF_british_rhodesia_desc: "La Rhodésie du Nord Britannique est sous protection Allemande depuis 1925."
-
- MAF_british_nyasaland: "Protectorat du Nyasaland"
- MAF_british_nyasaland_desc: "Le Nyasaland Britannique est sous protection Allemande depuis 1925."
-
- MAF_autonomous_protectorate: "Protectorat Autonome"
+ MAF_territory_mandate:9 "Mandate over British Africa"
+ MAF_territory_mandate_desc:9 "Since the British imperial collapse of 1925, this territory has operated under a provisional German mandate. British law and administration remain largely intact, limiting German interests to economic receivership rather than outright possession."
 
  ETH_dkaeb_railroad: "Chemin de fer DKAEB exploité par les Allemands"
  ETH_better_dkaeb_railroad: "Chemin de fer DKAEB exploité conjointement"

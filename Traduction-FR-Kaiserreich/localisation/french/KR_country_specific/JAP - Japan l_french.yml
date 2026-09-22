@@ -131,7 +131,7 @@ JAP_social_liberal_party_long: "Kakushintō (Parti réformiste)"
 
 ### Research Groups ###
  japan_research_name: "Rikagaku Kenkyūsho"
- japan_research_desc: "La Rikagaku Kenkyusho est l'aile scientifique de la Sphère de Coprospérité, qui vise à contribuer à l'enrichissement de nos colonies et de nos alliés."
+ japan_research_desc:9 "Rikagaku Kenkyūsho, or RIKEN, is the scientific wing of the Co-Prosperity Sphere, aimed at helping enriching our colonies and allies."
 
 ### Ship Name Lists ###
  NAME_THEME_IJN_CARRIERS: "Porte-Avions"
@@ -638,7 +638,7 @@ JAP_china_army_training: "Développement de l'armée de [From.GetNameDef]"
  support_chinese_separatists:0 "Soutien à l'Indépendance [From.GetAdjectiveCap]"
  send_ETS_tartar_guy: "Envoyer Abdurresid Ibrahim à [ETS.GetName]"
 
- ## Peace and Reconciliation ##
+### Peace and Reconciliation ###
  JAP_pan_asianism: "Utiliser la Rhétorique Panasiatique"
  JAP_pan_asianism_desc: "Pendant des années, la Chine a été exploitée sans pitié par les puissances européennes. Au nom du panasiatisme et de la fraternité, nous userons la détermination des Chinois en faisant appel à ce fait - si seulement ils surmontent leurs différences, la Chine et le Japon peuvent travailler ensemble pour former un nouveau bloc puissant qui peut s'opposer à l'impérialisme occidental."
  JAP_harmony_and_reconciliation: "Harmonie et Réconciliation"
@@ -650,6 +650,10 @@ JAP_china_army_training: "Développement de l'armée de [From.GetNameDef]"
  JAP_campaign_into_frontier:9 "Envahir [FROM.GetNameDef]"
  JAP_campaign_into_frontier_desc:9 "Après notre victoire en Chine et l'entrée d'un gouvernement allié dans notre Sphère, nous pouvons tourner notre regard vers les contrées lointaines de leur empire. Par le passé, nous avons fait des efforts pour courtiser les divers groupes sécessionnistes de ces régions, mais le temps nous manque désormais. Nos collaborateurs prétendent reprendre leurs territoires perdus, et si [FROM.GetLeader] et sa bande ne souhaitent pas nous rejoindre pacifiquement, alors nous suivrons le Soleil levant loin dans les Frontières occidentales !"
  JAP_peace_effects: "§YTous les pays chinois avec lesquels nous sommes en guerre§!:"
+
+### Victory with a Vision ###
+ JAP_take_over_qiongya:9 "Solidify Military Occupation in Qiongya"
+ JAP_take_over_qiongya_desc:9 "With its strategic location in the South China Sea and close proximity to the rich economic centre of Guangzhou, the military occupation of Qiongya will allow us to project our military might in the region and exercise greater economic control in South China. Perhaps, in time, our continued presence on the island will allow us to bring Qiongya into the fold of the Empire, as a worthwhile reward after having paid for our victory in blood."
 
 ### Mantetsu Projects ###
 develop_generic_tag: "Développer l'industrie de l'armement [From.GetNameDef]".
@@ -1002,7 +1006,7 @@ JAP_target_siam_desc: "Nous avions espéré que les Siamois se montreraient disp
 
 ### Focuses - The New Order ###
  JAP_new_order_in_east_asia:0 "Nouvel Ordre en Asie de l'Est"
- JAP_new_order_in_east_asia_desc:0 "La Russie n'étant plus une menace de l'autre côté de l'Amour et les Américains étant engagés dans une guerre civile, le temps est venu de réaliser notre destin. La Chine est faible, corrompue et divisée et doit être conduite à l'ère moderne sous la direction du Japon. Si les Chinois ne sont pas d'accord, alors nous devrons simplement leur donner une dure leçon de défi"
+ JAP_new_order_in_east_asia_desc:9 "With the Americans embroiled in a civil war, the Open Door Policy they upheld has come to an end. China is weak, corrupt and divided and must be lead into the modern age under our guidance to ensure the permanent stability of Eastern Asia. If the Chinese don't agree, then we shall simply have to teach them a harsh lesson about defiance."
  JAP_mantetsu_projects: "Projets de la Mantetsu"
  JAP_mantetsu_projects_desc: "La Mantetsu gère les chemins de fer de Mandchourie et de Corée en notre nom, et est de ce fait profondément impliqué dans l'économie du nord-ouest de la Chine. Alors que nous étendons notre influence à l'intérieur et sur la côte de notre mandataire chinois, il est certain qu'ils proposeront des projets de plus en plus ambitieux pour développer la région."
  JAP_support_allies: "Soutenir les Seigneurs Alliés"
@@ -1171,8 +1175,11 @@ JAP_economic_sphere_takeover_desc: "Notre pénétration économique de [From.Get
  JAP_request_nav_advisors: "Demande de conseillers navals"
 JAP_withdraw_from_alliance: "Se retirer de l'alliance militaire"
 JAP_withdraw_from_alliance_desc: "Nous n'avons plus besoin de notre alliance militaire avec [JAP.GetNameDef]. Mettons-y fin maintenant".
-JAP_withdraw_from_sphere: "Se retirer de la sphère économique"
- JAP_withdraw_from_sphere_desc: "Malgré les avantages qu'elle nous offre, notre appartenance à la sphère économique japonaise suscite des inquiétudes quant à notre indépendance. Nous devrions nous retirer immédiatement de notre coopération avec les Japonais"
+
+ JAP_withdraw_from_sphere:9 "[JAP_GetWithdrawFromSphereName]"
+ JAP_withdraw_from_sphere_desc:9 "[JAP_GetWithdrawFromSphereDesc]"
+ JAP_withdraw_from_sphere_default:0 "Se retirer de la sphère économique"
+ JAP_withdraw_from_sphere_default_desc:0 "Malgré les avantages qu'elle nous offre, notre appartenance à la sphère économique japonaise suscite des inquiétudes quant à notre indépendance. Nous devrions nous retirer immédiatement de notre coopération avec les Japonais"
 JAP_nationalize_japanese_investments: "Nationaliser les investissements japonais"
 JAP_nationalize_japanese_investments_desc: "La présence croissante des investisseurs japonais dans [Root.GetNameDef] est très préoccupante. Bien que le prix à payer soit élevé, et qu'il nous faille également nous retirer complètement de la sphère économique japonaise, nous devrions nationaliser leurs investissements et les empêcher d'accroître leur contrôle sur l'économie [Root.GetAdjective] au point que nous ne soyons plus qu'une marionnette pour leurs intérêts".
 
@@ -2337,10 +2344,13 @@ AST_has_ties_with_japan: "a des liens avec le Japon"
  JAP_hyakutake_harukichi_commander_desc:9 "§YNaissance :§! §L25 mai 1888, dans la préfecture de Saga, Empire du Japon§!"
  JAP_iimura_jo: "Iimura Jō"
  JAP_iimura_jo_commander_desc:9 "§YNaissance :§! §L20 mai 1888, dans la préfecture d'Ibaraki, Empire du Japon§!"
+ JAP_tojo_hideki:9 "Tōjō Hideki"
+ JAP_tojo_hideki_bio:9 "Born into a military family of samurai descent, Tōjō Hideki was the third and only surviving son of a talented lieutenant general in the Imperial Japanese Army. Entering the Imperial Japanese Army Academy in 1904, he graduated the following year despite studying for only ten months. Despite his early dislike for studying, he entered the Army War College in 1912 after multiple failed attempts and repeated persuasions by his father, graduating in 1915.\n\nRising through the ranks, he became a Major in 1920 and was appointed to various positions within the Ministry of War. During this time, he also began associating with the \"Three Musketeers\" of Okamura Yasuji, Tetsuzan Nagata, and Toshishiro Obata in regard to resolving the \"Manchuria-Mongolia Problem\". With his appointment as Commander-in-Chief of the Kwantung Army, Tōjō seeks to increase Japan’s influence in Manchuria and opposes the Fengtian Government’s intention to wage war to reunify China."
+ JAP_tojo_hideki_commander_desc:9 "§YBorn:§! §LDecember 30th, 1884, in Kōjimachi, Tōkyō Prefecture, Empire of Japan§!\n§YBackground:§! §L$JAP_tojo_hideki_bio$§!\n\n§YNotes: Due to Tōjō’s caring attitude towards his subordinates during his time as Commander of the 1st Infantry Regiment, he has earned himself a reputation as a compassionate regimental commander and the nickname of \"Razor Tōjō\".§!"
  JAP_imamura_hitoshi: "Imamura Hitoshi"
  JAP_imamura_hitoshi_high_command_desc:9 "§YNaissance :§! §L28 juin 1886, à Sendai, préfecture de Miyagi, Empire du Japon§!"
  JAP_yamamoto_isoroku: "Yamamoto Isoroku"
- JAP_yamamoto_isoroku_high_command_desc:9 "§YNaissance :§! §L4 avril 1884, à Nagaoka, préfecture de Niigata, Empire du Japon§!"
+ JAP_yamamoto_isoroku_high_command_desc:9 "§YBorn:§! §LApril 4th, 1884, in Nagaoka, Niigata Prefecture, Empire of Japan§!\n§YBackground:§! §LBorn into the Takano family, a samurai lineage from Nagaoka, he served in the Russo-Japanese War immediately after graduating from the Naval Academy, taking part in Japan's decisive victory at the Battle of Tsushima under Admiral Tōgō.\n\nHaving studied at Harvard University and served as naval attaché in Washington, he is known for his expertise on the United States and his advocacy of naval aviation.§!"
  JAP_koga_mineichi: "Koga Mineichi"
  JAP_koga_mineichi_theorist_desc:9 "§YNaissance :§! §L25 septembre 1885, à Arita, préfecture de Saga, Empire du Japon§!"
  JAP_hasegawa_kiyoshi: "Hasegawa Kiyoshi"
