@@ -51,20 +51,20 @@
 
  member_entry_desc: "[THIS.GetMitteleuropaVotingStatus]"
 
- member_entry_proposing_agenda:9 "§Y[THIS.GetNameDefCap]§! is currently leading a lobbying effort in favour of §Y[?MIT_supported_agenda.GetMitteleuropaAgendaNameBase]§!."
- member_entry_supporting_agenda:9 "§Y[THIS.GetNameDefCap]§! is currently supporting the §Y[?MIT_supported_agenda:agenda_supporters^0.GetAdjective]§! lobbying effort in favour of §Y[?MIT_supported_agenda.GetMitteleuropaAgendaNameBase]§!."
+ member_entry_proposing_agenda:9 "§Y[THIS.GetNameDefCap]§! conduit actuellement un effort de lobbying en faveur de §Y[?MIT_supported_agenda.GetMitteleuropaAgendaNameBase]§!."
+ member_entry_supporting_agenda:9 "§Y[THIS.GetNameDefCap]§! soutient actuellement l'effort de lobbying§Y[?MIT_supported_agenda:agenda_supporters^0.GetAdjective]§! en faveur de §Y[?MIT_supported_agenda.GetMitteleuropaAgendaNameBase]§!."
  member_entry_neutral: "§Y[THIS.GetNameDefCap]§! ne soutient actuellement pas d'ordre du jour."
 
  main_agenda_supporter_title: "§Y[?top_agenda:agenda_supporters^0.GetName]§!"
 
- top_agenda_icon_title:9 "§Y[?top_agenda.GetMitteleuropaAgendaNameBase]§!"
+ top_agenda_icon_title:9 "§Y[?top_agenda:agenda_idea.GetTokenLocalizedKey]§!"
  top_agenda_icon_desc: "[!top_agenda_reward_loc_button_click]"
 
  agenda_list_title: "Ordres du jour possibles"
 
  agenda_button_title:9 "[?agenda.GetMitteleuropaAgendaNameBase]"
  agenda_button_score: "([?agenda:agenda_score|Y0])"
- agenda_button_tooltip:9 "[?agenda.GetMitteleuropaAgendaNameBase]\nTotal Support: [?agenda:agenda_score|Y0]"
+ agenda_button_tooltip:9 "[?agenda.GetMitteleuropaAgendaNameBase]\nSoutien total : [?agenda:agenda_score|Y0]"
  agenda_button_tooltip_delayed: "[!agenda_button_click_enabled]\n§YEffets si promulgué:§!\n[!agenda_reward_loc_button_click]"
 
  top_agendas_title: "Ordres du jour les plus soutenus"
@@ -233,10 +233,10 @@
  germany_mitteleuropa_events.1.d.three_agendas: "Les délégués de tous les États de la Mitteleuropa se réunissent à Berlin pour des discussions semestrielles ainsi que des négociations sur l'orientation des activités du bloc. Même si des centaines de questions différentes seront abordées, seules celles qui ont retenu l'attention d'un nombre suffisant d'États membres seront examinées aussi longtemps qu'il le faudra. Il appartiendra également au Président de la Commission Mitteleuropéenne, actuellement originaire de [MIT.GetNameDef], de choisir laquelle des nombreuses propositions sera mise en œuvre par les autorités administratives.\n\nIl y a trois propositions bénéficiant d'un soutien considérable de la part des États membres, ce qui signifie malheureusement que tout le monde ne pourra pas être satisfait de la décision de la Commission aujourd'hui - mais cela dépend du président."
  germany_mitteleuropa_events.1.d.three_agendas_chairman: "Les délégués de tous les États de la Mitteleuropa se réunissent à Berlin pour des discussions semestrielles ainsi que des négociations sur l'orientation des activités du bloc. Même si des centaines de questions différentes seront abordées, seules celles qui ont retenu l'attention d'un nombre suffisant d'États membres seront examinées aussi longtemps qu'il le faudra. Il appartiendra également au Président de la Commission Mitteleuropéenne, actuellement originaire de [MIT.GetNameDef], de choisir laquelle des nombreuses propositions sera mise en œuvre par les autorités administratives.\n\nDeux propositions sont sur la table, bénéficiant d'un soutien considérable de la part des États membres. Toutefois, s'ils les jugent inacceptables, le Président a la possibilité de passer outre les intérêts des États membres et de choisir ceux qu'il juge plus importants."
  germany_mitteleuropa_events.1.d.four_agendas: "Les délégués de tous les États de la Mitteleuropa se réunissent à Berlin pour des discussions semestrielles ainsi que des négociations sur l'orientation des activités du bloc. Même si des centaines de questions différentes seront abordées, seules celles qui ont retenu l'attention d'un nombre suffisant d'États membres seront examinées aussi longtemps qu'il le faudra. Il appartiendra également au Président de la Commission Mitteleuropéenne, actuellement originaire de [MIT.GetNameDef], de choisir laquelle des nombreuses propositions sera mise en œuvre par les autorités administratives.\n\nIl y a trois propositions sur la table qui bénéficient d'un soutien considérable de la part des États membres. Cependant, s'ils les jugent inacceptables, le Président a la possibilité de passer outre les intérêts des États membres et de choisir ceux qu'il juge plus importants."
- germany_mitteleuropa_events.1.a:9 "Enact [MIT_first_place_agenda.GetMitteleuropaAgendaNameBase]"
- germany_mitteleuropa_events.1.b:9 "Enact [MIT_second_place_agenda.GetMitteleuropaAgendaNameBase]"
- germany_mitteleuropa_events.1.c:9 "Enact [MIT_third_place_agenda.GetMitteleuropaAgendaNameBase]"
- germany_mitteleuropa_events.1.d:9 "Enact [MIT_chairman_agenda.GetMitteleuropaAgendaNameBase]"
+ germany_mitteleuropa_events.1.a:9 "Promulguer [MIT_first_place_agenda.GetMitteleuropaAgendaNameBase]"
+ germany_mitteleuropa_events.1.b:9 "Promulguer [MIT_second_place_agenda.GetMitteleuropaAgendaNameBase]"
+ germany_mitteleuropa_events.1.c:9 "Promulguer [MIT_third_place_agenda.GetMitteleuropaAgendaNameBase]"
+ germany_mitteleuropa_events.1.d:9 "Promulguer [MIT_chairman_agenda.GetMitteleuropaAgendaNameBase]"
  germany_mitteleuropa_events.1.e: "Passons à autre chose, alors."
 
  germany_mitteleuropa_events.2.t: "Sommet de la Commission de Mitteleuropa : choix de l'ordre du jour principal"
