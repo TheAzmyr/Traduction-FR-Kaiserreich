@@ -442,6 +442,14 @@
 
  AFG_remove_pashtunistan_modifier_decision_tt:9 "§CDébloque des décisions pour retirer les modificateurs locaux au [442.GetName]§!"
 
+ AFG_india_war_tracker_flag:9 "The war against India began:"
+ AFG_india_war_only_one_government_tt:9 "There is a single Indian government remaining."
+ AFG_russia_war_tracker_flag:9 "The war against Russia began:"
+ AFG_enemy_lost_flag:9 "Has surrendered to the [AFG.GetAdjective]s."
+
+ AFG_northern_volunteers_expire_tt:9 "§CThis spirit is removed when the war in Central Asia ends§!"
+ AFG_in_peace_negotiations:9 "Is in the process of negotiating a scripted peace"
+
 ### Modifiers ###
  AFG_monthly_reform_points_gain:9 "Gain Mensuel de Points de Réforme"
  AFG_monthly_anger_change:9 "Changement Mensuel de la Colère"
@@ -579,6 +587,9 @@
  AFG_attract_foreign_investment_TUR_desc:9 "$AFG_attract_foreign_investment_desc$"
  AFG_attract_foreign_investment_JAP_desc:9 "$AFG_attract_foreign_investment_desc$"
 
+ AFG_escalate_intervention_in_central_asia:9 "Escalate Intervention in Central Asia"
+ AFG_escalate_intervention_in_central_asia_desc:9 "Although we have already aided our friends to the north with a generous supply of guns that just so happened to \"appear\" in their stockpiles, perhaps it is not enough. Perhaps the next weapon shipment should coincidentally be delivered by our most fervent warriors, who just so happen to be willing to fight alongside our allies with them."
+
  AFG_pashtunistan_crisis_decisions:9 "Une Crise au Pachtounistan"
  AFG_pashtunistan_crisis_decisions_desc:9 "S'il y a bien une chose que la situation à Timergara a mise en évidence, c'est que la tolérance officieuse dont bénéficie le gouvernement du Pachtounistan ne peut plus durer. D'une manière ou d'une autre, il faut les intégrer à l'État afghan ; et si Wardak tient à garder la vie sauve, cela doit se faire rapidement, avant que le roi ne décide de commettre une imprudence...\n\nNombre de demandes satisfaites : [?AFG_pashtunistan_points|Y0]"
 
@@ -693,10 +704,18 @@
  AFG_establish_the_society_of_the_ulema:9 "Établir la Société des Oulémas"
  AFG_establish_the_society_of_the_ulema_desc:9 "Au cours de la guerre civile, la plupart des oulémas d'Afghanistan ont soutenu notre lutte. Maintenant que nous sommes victorieux, il est temps de leur rendre la pareille et d'établir un organe pour que les oulémas les plus érudits nous conseillent."
 
+ AFG_unifying_the_pashtuns:9 "Unifying the Pashtuns"
+
  AFG_restore_the_nations_unity:9 "Restaurer l'Unité Nationale"
  AFG_restore_the_nations_unity_desc:9 "La défaite de [442.Controller.GetVictoryPointName_12717] dans sa guerre d'indépendance a fait naître chez ses habitants un sentiment de rancœur envers notre pays. Si nous voulons un jour concrétiser nos rêves d'un Afghanistan loyal, nous devons tout mettre en œuvre pour réintégrer cette région frontalière rebelle au sein de la nation et aller de l'avant, unis."
  AFG_bring_state_into_the_fold:9 "Amener [FROM.GetName] dans le Giron"
  AFG_bring_state_into_the_fold_desc:9 "Notre récente acquisition de [FROM.GetName] est compliquée par l'incertitude qui règne parmi ses effectifs quant à leur place en Afghanistan. Nous devons donner la priorité à l'intégration de leur administration et de leurs cultures, afin d'éviter de devoir faire face à des tentatives d'indépendance à l'avenir."
+
+ AFG_push_india_into_surrender:9 "Push India into Surrender"
+ AFG_push_india_into_surrender_desc:9 "We have liberated the remaining Pashtuns from Indian occupation, and have even come into control of the port of Karachi, allowing us to guarantee outside support without the Indians blocking our borders. As they grow weary of this war, we may at last be able to force their surrender, and achieve official recognition of our control over both these lands and the Frontier."
+
+ AFG_demand_peace_with_russia:9 "Demand Peace with Russia"
+ AFG_demand_peace_with_russia_desc:9 "Our Russian foe has been driven back from our border, and even now they cannot break through our lines or stop us. It should be easy then to press our claims against their land, as after all it is of such little relative value to them that a supposed great power shouldn't care too much about losing it..."
 
  PTH_negotiate_with_india_decision:9 "Négocier avec l'Inde"
 
@@ -752,6 +771,8 @@
  AFG_pashtunistan_autonomous_province_india_modifier_desc:9 "À la suite de la révolte qui a conduit à son indépendance vis-à-vis de [AFG.GetNameDef] et de la victoire de [442.owner.GetNameDef] lors de la Guerre civile indienne, la région du Pathanistan a choisi de se réunifier avec l'Inde plutôt que de conserver son indépendance. Dans le cadre de cet accord, elle continue de bénéficier d'un degré d'autonomie important, le gouvernement local fonctionnant de manière très similaire à ce qu'il faisait auparavant."
  AFG_chitral_treaties_modifier:9 "Traités de Chitral"
  AFG_chitral_treaties_modifier_desc:9 "Face au refus de [442.Controller.GetVictoryPointName_12717] de se plier raisonnablement à cette exigence, le gouvernement national a choisi de négocier à la place avec les tribus locales du Pachtounistan. Les traités de Chitral qui en ont résulté constituent une série d'accords et de privilèges conclus entre les chefs de tribus locaux et [267.Controller.GetVictoryPointName_12769], en échange de leur loyauté et de leur allégeance déclarées envers l'Afghanistan. Espérons que cet arrangement permettra de contrer tout mouvement indépendantiste à notre frontière."
+ AFG_pashtunistan_devastation_modifier:9 "Devastation of Pashtunistan"
+ AFG_pashtunistan_devastation_modifier_desc:9 "Rampant looting and pillaging by Afghan troops has left the Frontier extremely devastated, a situation it will take months to even begin to recover from."
 
  AFG_king_of_the_army:9 "Roi de l'Armée"
  AFG_king_of_the_army_desc:9 "Le roi Amanullah était peut-être roi d’Afghanistan, mais l’armée obéit à un autre chef. Il a défendu l’armée et ses besoins auprès de cet Amanullah imprudent, a partagé le pain avec ses camarades soldats et les a menés à la gloire au combat. L’armée ne reconnaît que l’autorité de Mohammad Nadir Shah, le véritable roi d’Afghanistan, et se battra volontiers pour s’assurer qu’il conserve son trône."
@@ -841,6 +862,9 @@
  AFG_remove_pashtunistan_reformist_decision_democratic_desc:9 "Si l'autonomie du Pachtounistan a été jugée acceptable jusqu'à présent, maintenant que le gouvernement central a réaffirmé son autorité et entamé un processus de démocratisation progressive, il serait prudent de commencer progressivement à intégrer la Frontière dans ce processus, afin de rendre superflue la poursuite de cette autonomie."
  AFG_remove_pashtunistan_traditionalist_decision_telai_desc:9 "Les accords qu'Amanullah a conclus avec les tribus de la Frontière n'ont été qu'une source de problèmes, les chefs locaux continuant à comploter contre nous dès qu'ils en ont l'occasion. Il faudrait déployer des troupes dès que possible pour chasser ceux qui restent fidèles au roi kafir."
  AFG_remove_pashtunistan_traditionalist_decision_seraj_desc:9 "La nation étant désormais en sécurité et prête à sortir de la stagnation des années passées, il serait prudent de commencer à réaffirmer notre autorité directe sur la Frontière et de réduire les privilèges accordés à ses dirigeants ; car ceux-ci ont pleinement rempli leur rôle."
+
+ AFG_northern_volunteers:9 "Northern Volunteers"
+ AFG_northern_volunteers_desc:9 "Hoping to ensure things in Central Asia work out in their favour, [AFG.GetNameDef] has permitted a large number of courageous men to cross the border and \"volunteer\" in the northern conflict."
 
 ### Traits ###
 
@@ -1565,7 +1589,7 @@
  afghanistan_events.211.a:9 "Le pire s'est déjà produit, pourquoi s'arrêter maintenant ?"
 
  afghanistan_events.250.t:9 "Officialiser le Parti du Roi"
- afghanistan_events.250.d:9 "À quelques semaines des élections, le Parti de l’Indépendance et de la Réforme commence enfin à se constituer pleinement, passant de quelques lignes sur le papier à un véritable parti politique opérationnel.\n\nLes candidats ont été sélectionnés pour chaque circonscription ; dans les principales circonscriptions, les électeurs ont le choix entre plusieurs candidats du FET, tandis que certaines circonscriptions rurales ne disposent que d’un seul candidat agréé. Les partisans les plus fidèles d’Amanullah se sont vu attribuer des circonscriptions de premier plan, et la population est vivement encouragée à soutenir le bon candidat sur le bulletin de vote. Il semble enfin que les grands projets du roi se concrétisent peu à peu."
+ afghanistan_events.250.d:9 "With the elections now weeks away, the Party of Independence and Reform is at last fully beginning to assemble, going from a few lines on paper to an actual functioning political party.\n\nCandidates for every constituency have been selected, with the major constituencies providing votes a choice between multiple FET candidates, although a few rural ones simply have a singular approved candidate. Amanullah's most loyal supporters have been given premium constituencies, with the people strongly encouraged to back the correct candidate on the ballot. After years of waiting for this day, and all those tried to stop him dead or exiled, the King's grand designs are finally falling into place."
  afghanistan_events.250.a:9 "Qui a besoin d'un autre parti ?"
 
  afghanistan_events.251.t:9 "Les Premières Élections Nationales"
@@ -2566,7 +2590,7 @@
  afghanistan_civil_war_events.60.b:9 "Les oncles de Zahir vont s'assurer que le fils brille là où le père a échoué !"
 
  afghanistan_civil_war_events.61.t:9 "Unrest Peters Out"
- afghanistan_civil_war_events.61.d:9 "TThe eventual defeat of the remaining rebels was to Amanullah a question of when, not if. An answer to that question has finally been received now, with Mohammad Hashim Khan said to have fled across the border and given up on his failed crusade against the King.\n\nWith none left to stand in his way, Amanullah Khan will reshape the nation in his image, and shall strive to bring about a second golden decade even greater than his first!"
+ afghanistan_civil_war_events.61.d:9 "The eventual defeat of the remaining rebels was to Amanullah a question of when, not if. An answer to that question has finally been received now, with Mohammad Hashim Khan said to have fled across the border and given up on his failed crusade against the King.\n\nWith none left to stand in his way, Amanullah Khan will reshape the nation in his image, and shall strive to bring about a second golden decade even greater than his first!"
  afghanistan_civil_war_events.61.a:9 "Amanullah reigns supreme!"
 
  afghanistan_civil_war_events.62.t:9 "Conspiracy Rumours Begin to End"
@@ -2732,6 +2756,34 @@
  afghanistan_foreign_policy_events.18.d:9 "For decades prior to our annexation of the [410.GetName] region, it could hardly be said to be part of the [PER.GetAdjective] state, being more a self-governing region they falsely claimed to project authority over. Unlike most lands where its people pay tribute or taxes to their owner, the local Balochs were instead paid by the [PER.GetAdjective] state to remain loyal to them, a pathetic position for a supposedly great state to be in. Failure to maintain this payment saw the region simply refuse to recognise their continued authority over it, instead treating their ruler Dost Mohammad Khan Baloch as the Shah of Baluchistan.\n\nUnfortunately for this Shah, it was not long until the [PER.GetAdjective] finally began to restore order, and subsequently began to treat Baluchistan not as the independent state it was but as a rebelling province. They conquered and subjugated the land by force, killing the Shah in the process. For local nationalists Dost Mohammad is a hero to be emulated, who stood up against [PER.GetAdjective] rule for his people's freedom. Coopting his legacy, as the liberators of the Balochs, could certainly ingratiate us with the local population. With our recent history however, perhaps it may be best instead not to promote tribal insurgents as heroes to follow, as we certainly don't need any more of those..."
  afghanistan_foreign_policy_events.18.a:9 "We honour all those who fight for freedom."
  afghanistan_foreign_policy_events.18.b:9 "It'd be unwise to promote tribal insurgents like him."
+
+ afghanistan_foreign_policy_events.19.t:9 "[AFG.GetNameDefCap] Demands Peace"
+ afghanistan_foreign_policy_events.19.d.india:9 "While the [AFG.GetAdjective] advance may have taken us by surprise, it cannot excuse the complete failure by our troops to drive them back where they came from. The [AFG.GetAdjective]s now occupy a large stretch of territory along the Indus, and in some places even across it. They now demand recognition of their conquests, in exchange for peace between us."
+ afghanistan_foreign_policy_events.19.d.other:9 "While the [AFG.GetAdjective] advance may have taken our [AFG_indian_peace_recipient.GetAdjective] allies by surprise, it cannot excuse the complete failure by their troops to drive the [AFG.GetAdjective]s back where they came from. The [AFG.GetAdjective]s now occupy a large stretch of territory along the Indus, and in some places even across it. They now demand recognition of their conquests, in exchange for peace between us."
+ afghanistan_foreign_policy_events.19.a:9 "There's no point continuing a losing battle."
+ afghanistan_foreign_policy_events.19.b:9 "We refuse to surrender an inch to them."
+
+ afghanistan_foreign_policy_events.20.t:9 "[AFG_indian_peace_recipient.GetNameDefCap] Surrenders!"
+ afghanistan_foreign_policy_events.20.d:9 "Exhausted and overwhelmed by the might of our soldiers, the cowardly [AFG_indian_peace_recipient.GetAdjective]s have chosen to surrender rather than continue to fight to the last. They have officially recognised our conquests, even the Frontier, and now run back to their lands with their tails between their legs."
+ afghanistan_foreign_policy_events.20.a:9 "A Great Victory for the Fortress of Islam!"
+
+ afghanistan_foreign_policy_events.21.t:9 "[AFG_indian_peace_recipient.GetNameDefCap] Refuses to Surrender"
+ afghanistan_foreign_policy_events.21.d:9 "Despite the overwhelming strength and might of our men, it seems our foe has not yet been deterred. They have chosen to continue to fight, a choice that will soon spell their doom."
+ afghanistan_foreign_policy_events.21.a:9 "Then we shall not stop until our banner is over Delhi!"
+
+ afghanistan_foreign_policy_events.22.t:9 "[AFG.GetNameDefCap] Demands Peace"
+ afghanistan_foreign_policy_events.22.d.russia:9 "While the [AFG.GetAdjective] advance may have taken us by surprise, it cannot excuse the complete failure by our troops to drive them back where they came from. The [AFG.GetAdjective]s have fortified themselves in the Pamir mountains, despite our best attempts to dislodge them. They now demand recognition of their conquests, in exchange for peace between us."
+ afghanistan_foreign_policy_events.22.d.other:9 "While the [AFG.GetAdjective] advance may have taken our allies by surprise, it cannot excuse the complete failure by their troops to drive the [AFG.GetAdjective]s back where they came from. The [AFG.GetAdjective]s have fortified themselves in the Pamir mountains, despite their best attempts to dislodge them. They now demand recognition of their conquests, in exchange for peace between us."
+ afghanistan_foreign_policy_events.22.a:9 "A few mountains aren't worth this much blood."
+ afghanistan_foreign_policy_events.22.b:9 "We refuse to surrender an inch to them."
+
+ afghanistan_foreign_policy_events.23.t:9 "[AFG_russian_peace_recipient.GetNameDefCap] Surrenders!"
+ afghanistan_foreign_policy_events.23.d:9 "Exhausted and overwhelmed by the might of our soldiers, the cowardly [AFG_russian_peace_recipient.GetAdjective]s have chosen to surrender rather than continue to fight to the last. They have officially recognised our conquests, and now run back to their lands with their tails between their legs."
+ afghanistan_foreign_policy_events.23.a:9 "The Bear now licks its wounds."
+
+ afghanistan_foreign_policy_events.24.t:9 "[AFG_russian_peace_recipient.GetNameDefCap] Refuses to Surrender"
+ afghanistan_foreign_policy_events.24.d:9 "Despite the overwhelming strength and might of our men, it seems our foe has not yet been deterred. They have chosen to continue to fight, a choice that will soon spell their doom."
+ afghanistan_foreign_policy_events.24.a:9 "I hear Moscow is nice this time of year, perhaps we'll visit..."
 
 ### Pathing events ###
  afghanistan_events.9000.t:0 "Choix du chemin de l'IA"

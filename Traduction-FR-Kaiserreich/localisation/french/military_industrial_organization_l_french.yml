@@ -29,7 +29,8 @@
  INDUSTRIAL_ORG_DETAIL_WINDOW_DELETE_SPECIFIC_QUEUE_DESCRIPTION:9 "§HSupprimer la file sauvegardée§!\n§RCliquez sur pour supprimer définitivement la file d'attente des traits sauvegardés§!."
  INDUSTRIAL_ORG_DETAIL_WINDOW_IMPORT_FROM_OTHER_MIO_TOOLTIP:9 "Importer des traits valides de la file de traits pour une autre Organisation Militaire Industrielle : $ORG|Y$."
  INDUSTRIAL_ORG_DETAIL_WINDOW_OPEN_QUEUE_BUTTON_WITH_ITEMS: "$INDUSTRIAL_ORG_DETAIL_WINDOW_OPEN_QUEUE_BUTTON$( $NUMBER_ITEMS$)"
- INDUSTRIAL_ORG_QUEUE_WINDOW_INSTRUCTION: "Quand cette organisation a des points de traits, le premier disponible dans cette file d'attente sera complété.\n§GMaj + Clic§! sur un trait pour l'§Yajouter à cette file d'attente§!.\n§GGlisser & Déposer§! pour §Ychanger l'ordre de la file d'attente§!."
+ INDUSTRIAL_ORG_QUEUE_WINDOW_DESCRIPTION:9 "When this Organisation has trait points, the first available trait in this queue will be completed."
+ INDUSTRIAL_ORG_QUEUE_WINDOW_INSTRUCTION:9 "§GClick§! on a trait to §Yadd it to this queue§!, §GRight-Click§! to §Yremove it§!\n§GDrag & Drop§! to §Ychange the queue order§!."
  INDUSTRIAL_ORG_QUEUE_WINDOW_ITEM:9 "§GAtteinte§!"
  INDUSTRIAL_ORG_QUEUE_WINDOW_ITEM_DRAGDROP: "§GGlissez déposez§! pour modifier l'ordre de la file"
  INDUSTRIAL_ORG_QUEUE_WINDOW_REMOVE_TOOLTIP: "Retirer de la file"
@@ -52,6 +53,7 @@
  INDUSTRIAL_ORG_LIST_WINDOW_ASSIGN_TO_SHIP_REFIT_TOOLTIP: "§GCliquer§! pour §Yassigner§! au rééquipement du navire."
  INDUSTRIAL_ORG_LIST_WINDOW_ASSIGN_TO_VARIANT_TOOLTIP: "§GCliquer§! pour §Yassigner§! à cette variante de matériel."
  INDUSTRIAL_ORG_LIST_WINDOW_ASSIGN_TO_RESEARCH_TOOLTIP: "§GCliquer§! pour §Yassigner§! à cette technologie."
+ INDUSTRIAL_ORG_LIST_WINDOW_RIGHT_CLICK_ASSIGN_TO_RESEARCH_TOOLTIP:9 "§GRight-Click§! to §Yassign§! to this technology without using §YResearch Bonus§! ($TIME_TEXT$)"
  INDUSTRIAL_ORG_LIST_WINDOW_UNASSIGN_DESIGN_TEAM_TOOLTIP: "§GCliquer§! pour §Rdésassigner§! de ce modèle."
  INDUSTRIAL_ORG_LIST_WINDOW_UNASSIGN_MANUFACTURER_TOOLTIP: "§GCliquer§! pour §Rdésassigner§! de cette ligne de production."
 
@@ -60,7 +62,7 @@
  INDUSTRIAL_ORG_LIST_WINDOW_FILTER_CATEGORY_PLANE: "avions"
  INDUSTRIAL_ORG_LIST_WINDOW_FILTER_CATEGORY_MATERIEL: "Matériels"
  INDUSTRIAL_ORG_LIST_WINDOW_FILTER_CATEGORY_TOOLTIP: "Afficher uniquement les organisations militaro-industrielles pour$CATEGORY|Y$"
- INDUSTRIAL_ORG_POLITICAL_SCREEN_OPEN_ROSTER_WITH_FILTER: "§GCliquer pour afficher les organisations militaro-industrielles pour§! $CATEGORY|Y$"
+ INDUSTRIAL_ORG_POLITICAL_SCREEN_OPEN_ROSTER_WITH_FILTER:9 "§GCliquer pour afficher les organisations militaro-industrielles pour§! $CATEGORY|Y$"
  INDUSTRIAL_ORG_LIST_WINDOW_FILTER_CAN_UNLOCK_TOOLTIP: "Afficher uniquement les organisations militaro-industrielles ayant des points de traits à dépenser"
 
  INDUSTRIAL_ORG_DETAIL_MIO_MODIFIERS: "Caractéristiques"
@@ -147,9 +149,11 @@
  INDUSTRIAL_ORG_EMPTY_GENERIC: "Ne pas utiliser une §HOrganisation Militaro-Industrielle§!"
 
  INDUSTRIAL_ORG_RESEARCH_TOOLTIP: "§GCliquer§! pour rechercher."
- INDUSTRIAL_ORG_RESEARCH_TOOLTIP_MIO: "§GCliquer§! pour rechercher\n§GMaj + Clic§! pour rechercher sans une Organisation Militaro-Industrielle"
- INDUSTRIAL_ORG_RESEARCH_TOOLTIP_MIO_ALREADY_ASSIGNED: "§GCliquer§! pour rechercher.\n§GShift + clic§! pour rechercher avec $ORG|H$"
- INDUSTRIAL_ORG_DELAYED_TOOLTIP_PRODUCE: "§GCliquer§! pour commencer à produire\n§GMaj + Clic§! pour produire sans une Organisation Militaro-Industrielle"
+ INDUSTRIAL_ORG_RIGHT_CLICK_RESEARCH_TOOLTIP:9 "§GRight-Click§! to research without using §YResearch Bonus§! ($TIME_TEXT$)"
+ INDUSTRIAL_ORG_RESEARCH_TOOLTIP_MIO:9 "§GCliquer§! pour rechercher\n§GMaj + Clic§! pour rechercher sans une Organisation Militaro-Industrielle"
+ INDUSTRIAL_ORG_RIGHT_CLICK_RESEARCH_TOOLTIP_MIO:9 "§GShift+Right-Click§! to research without a Military Industrial Organisation and without using  §YResearch Bonus§! ($TIME_TEXT$)"
+ INDUSTRIAL_ORG_RESEARCH_TOOLTIP_MIO_ALREADY_ASSIGNED:9 "§GCliquer§! pour rechercher.\n§GShift + clic§! pour rechercher avec $ORG|H$"
+ INDUSTRIAL_ORG_DELAYED_TOOLTIP_PRODUCE:9 "§GCliquer§! pour commencer à produire\n§GMaj + Clic§! pour produire sans une Organisation Militaro-Industrielle"
 
  INDUSTRIAL_ORG_PP_GENERATION_COST: "$ORGANIZATION_NAME$ : $VALUE|2+=$"
 
@@ -167,8 +171,9 @@
  INDUSTRIAL_ORG_UNLOCK_TRAIT_POPUP_NOT_VALID_ANYMORE_TOOLTIP: "§RIl n'est plus possible d'adopter ce trait.§!"
 
  INDUSTRIAL_ORG_TRAIT_TOOLTIP_UNLOCK_: "§GCliquer§! pour §Yadopter le trait§!"
- INDUSTRIAL_ORG_TRAIT_TOOLTIP_ADD_TO_QUEUE_UNLOCK: "§GShift + clic§! pour §Yajouter le trait à la file§!"
- INDUSTRIAL_ORG_TRAIT_TOOLTIP_REMOVE_FROM_QUEUE_UNLOCK: "§GShift + clic§! pour §Yretirer le trait de la file§!"
+ INDUSTRIAL_ORG_TRAIT_TOOLTIP_ADD_TO_QUEUE_UNLOCK:9 "§GShift + clic§! pour §Yajouter le trait à la file§!"
+ INDUSTRIAL_ORG_TRAIT_TOOLTIP_SHIFT_CLICK_ADD_TO_QUEUE_UNLOCK:9 "§GShift+Click§! to §Yadd trait to completion queue§!"
+ INDUSTRIAL_ORG_TRAIT_TOOLTIP_REMOVE_FROM_QUEUE_UNLOCK:9 "§GShift + clic§! pour §Yretirer le trait de la file§!"
  INDUSTRIAL_ORG_TRAIT_TOOLTIP_NOT_ENOUGH_FUNDS: "§RLes traits ne peuvent être adoptés qu'en gagnant des fonds de l'affectation des lignes de recherche ou de production.§!"
  INDUSTRIAL_ORG_TRAIT_TOOLTIP_ORGANIZATION_AVAILABLE: "§GL'Organisation militaro-industrielle est disponible§!"
  INDUSTRIAL_ORG_TRAIT_TOOLTIP_ORGANIZATION_NOT_AVAILABLE: "§RL'Organisation Militaro-Industrielle n'est pas disponible§!"
